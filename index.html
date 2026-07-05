@@ -3,23 +3,458 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=./mining_people_broadcast_x_digest.html">
-  <title>矿业人物 Broadcast 深读 · X 金银铜供需</title>
-  <link rel="canonical" href="./mining_people_broadcast_x_digest.html">
+  <title>每日金属矿业 · Daily Metals Mining</title>
   <style>
+    :root {
+      --bg: #f4efe3;
+      --card: #fffdf6;
+      --hover: #f8f4ea;
+      --ink: #15261d;
+      --text: #304239;
+      --muted: #6f7a71;
+      --green: #1f5e43;
+      --green-2: #2f7a56;
+      --green-soft: rgba(47, 122, 86, .10);
+      --line: rgba(21, 38, 29, .14);
+      --line-strong: rgba(21, 38, 29, .24);
+      --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+      --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      background: #f4efe3;
-      color: #15261d;
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
     }
-    a { color: #1f5e43; }
+    a { color: inherit; text-decoration: none; }
+    ::selection { background: rgba(47, 122, 86, .18); color: var(--ink); }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      height: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 0 clamp(18px, 4vw, 34px);
+      background: rgba(244, 239, 227, .94);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(12px);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .09em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .brand { color: var(--ink); font-weight: 700; }
+    .brand span { margin-left: 8px; color: var(--muted); font-size: 10px; letter-spacing: .18em; font-weight: 400; }
+    .nav-links { display: flex; gap: 18px; color: var(--muted); }
+    .nav-links a:hover { color: var(--green); }
+
+    main {
+      width: min(1060px, calc(100vw - 36px));
+      margin: 0 auto;
+      padding: 72px 0 92px;
+    }
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 1px;
+      background: var(--muted);
+      opacity: .7;
+    }
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: clamp(44px, 7vw, 82px);
+      font-weight: 500;
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .lede {
+      margin: 12px 0 0;
+      max-width: 640px;
+      color: var(--muted);
+      font-family: var(--serif);
+      font-size: clamp(18px, 2vw, 22px);
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
+      gap: 22px;
+      margin-top: 46px;
+      align-items: stretch;
+    }
+    .daily-card {
+      display: block;
+      min-height: 330px;
+      padding: 30px;
+      background: var(--card);
+      border: 1px solid var(--line-strong);
+      border-top: 3px solid var(--green);
+      border-radius: 8px;
+      box-shadow: 0 18px 48px rgba(35, 45, 35, .07);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .daily-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(31, 94, 67, .42);
+      box-shadow: 0 22px 58px rgba(35, 45, 35, .10);
+    }
+    .card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 24px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+    .pill {
+      border: 1px solid rgba(47, 122, 86, .22);
+      border-radius: 999px;
+      padding: 4px 10px;
+      background: var(--green-soft);
+    }
+    .daily-card h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: clamp(30px, 4vw, 46px);
+      font-weight: 500;
+      line-height: 1.14;
+    }
+    .daily-card p {
+      margin: 18px 0 0;
+      max-width: 720px;
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.8;
+    }
+    .open-link {
+      display: inline-flex;
+      margin-top: 28px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      border-bottom: 1px solid rgba(31, 94, 67, .35);
+    }
+
+    .side-panel {
+      padding: 26px;
+      background: rgba(255, 253, 246, .58);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .side-panel h2, .section-head h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 28px;
+      font-weight: 500;
+    }
+    .quick-links {
+      display: grid;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .quick-links a {
+      display: flex;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 13px 0;
+      border-top: 1px solid var(--line);
+      color: var(--text);
+      font-size: 15px;
+      line-height: 1.4;
+    }
+    .quick-links a:hover { color: var(--green); }
+    .quick-links span {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      flex: 0 0 auto;
+    }
+
+    section {
+      margin-top: 76px;
+      padding-top: 34px;
+      border-top: 1px solid var(--line);
+    }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .section-head .tag {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .module {
+      min-height: 176px;
+      padding: 20px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      transition: background .18s ease, transform .18s ease;
+    }
+    .module:hover { background: var(--hover); transform: translateY(-1px); }
+    .module .num {
+      color: var(--green);
+      font-family: var(--serif);
+      font-size: 28px;
+      line-height: 1;
+    }
+    .module h3 {
+      margin: 18px 0 8px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 1.25;
+    }
+    .module p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .archive-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid var(--line);
+    }
+    .archive-list a {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr) 28px;
+      gap: 18px;
+      align-items: baseline;
+      padding: 20px 10px;
+      margin: 0 -10px;
+      border-bottom: 1px solid var(--line);
+    }
+    .archive-list a:hover { background: var(--hover); }
+    .date {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .08em;
+    }
+    .archive-title {
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 22px;
+      line-height: 1.25;
+    }
+    .archive-tags {
+      display: block;
+      margin-top: 6px;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+    .arrow { color: var(--green); font-family: var(--mono); }
+    footer {
+      margin-top: 80px;
+      padding-top: 28px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: .16em;
+      line-height: 1.9;
+      text-transform: uppercase;
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid, .grid { grid-template-columns: 1fr; }
+      .daily-card { min-height: auto; }
+      nav { overflow-x: auto; }
+    }
+    @media (max-width: 620px) {
+      main { padding-top: 58px; }
+      .nav-links a:nth-child(n+3) { display: none; }
+      .daily-card, .side-panel { padding: 22px; }
+      .archive-list a { grid-template-columns: 1fr 24px; }
+      .date { grid-column: 1 / -1; }
+    }
   </style>
 </head>
 <body>
-  <p>正在打开 <a href="./mining_people_broadcast_x_digest.html">矿业人物日报</a>。</p>
+  <nav aria-label="页面导航">
+    <a class="brand" href="#">每日金属矿业<span>Daily Metals</span></a>
+    <div class="nav-links">
+      <a href="#latest">最新日报</a>
+      <a href="#columns">栏目</a>
+      <a href="#archive">存档</a>
+      <a href="#sources">资料</a>
+    </div>
+  </nav>
+
+  <main>
+    <header>
+      <div class="eyebrow">Mining Reading Room · Gold Silver Copper</div>
+      <h1>每日金属矿业</h1>
+      <p class="lede">每天早上 7:00，把金、银、铜矿业人物的公开访谈与 X 供需信号整理成一页。</p>
+    </header>
+
+    <div id="latest" class="hero-grid">
+      <a class="daily-card" href="./mining_people_broadcast_x_digest.html">
+        <div class="card-meta">
+          <span>2026-07-05</span>
+          <span class="pill">覆盖 2026-07-04 北京时间</span>
+        </div>
+        <h2>矿业人物 Broadcast 深读 · X 金银铜供需</h2>
+        <p>本期严格捕捉前一日信息：遍历 59 位矿业投资人、研究者、媒体人、企业家与高管，检查公开 podcast / broadcast / webcast / YouTube 访谈；同时筛选 35 个 X 账号中与金银铜供需相关的原帖。</p>
+        <span class="open-link">阅读全文 →</span>
+      </a>
+
+      <aside class="side-panel">
+        <h2>快速入口</h2>
+        <div class="quick-links">
+          <a href="./mining_people_broadcast_x_digest.html#broadcast">Broadcast / Webcast <span>Part 1</span></a>
+          <a href="./mining_people_broadcast_x_digest.html#xstream">X 金银铜供需 <span>Part 2</span></a>
+          <a href="./mining_people_broadcast_x_digest.html#tracker">人物与账号池 <span>Pool</span></a>
+          <a href="./mining_people_broadcast_x_digest.html#sources">来源与规则 <span>Log</span></a>
+        </div>
+      </aside>
+    </div>
+
+    <section id="columns">
+      <div class="section-head">
+        <h2>栏目结构</h2>
+        <span class="tag">§ Sections</span>
+      </div>
+      <div class="grid">
+        <a class="module" href="./mining_people_broadcast_x_digest.html#broadcast">
+          <div class="num">01</div>
+          <h3>访谈深读</h3>
+          <p>只收前一日公开访谈；有 transcript 才写深度总结和逐分钟摘要。</p>
+        </a>
+        <a class="module" href="./mining_people_broadcast_x_digest.html#xstream">
+          <div class="num">02</div>
+          <h3>X 供需卡片</h3>
+          <p>只摘录名单账号发布、且确实涉及金银铜供需的原帖。</p>
+        </a>
+        <a class="module" href="./mining_people_broadcast_x_digest.html#tracker">
+          <div class="num">03</div>
+          <h3>跟踪池</h3>
+          <p>59 位人物与 35 个 X 账号，作为每日扫描的固定对象。</p>
+        </a>
+        <a class="module" href="./mining_people_broadcast_x_digest.html#sources">
+          <div class="num">04</div>
+          <h3>来源口径</h3>
+          <p>保留搜索窗口、转录规则、排除标准和可复核来源入口。</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="archive">
+      <div class="section-head">
+        <h2>每日信息页</h2>
+        <span class="tag">§ Archive</span>
+      </div>
+      <ul class="archive-list">
+        <li>
+          <a href="./mining_people_broadcast_x_digest.html">
+            <span class="date">2026-07-05</span>
+            <span>
+              <span class="archive-title">矿业人物 Broadcast 深读 · X 金银铜供需</span>
+              <span class="archive-tags">Gold · Silver · Copper · People · X Supply Demand</span>
+            </span>
+            <span class="arrow">→</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="sources">
+      <div class="section-head">
+        <h2>参考资料</h2>
+        <span class="tag">§ Sources</span>
+      </div>
+      <ul class="archive-list">
+        <li>
+          <a href="./Sources/每日深读%20%C2%B7%20Daily.html">
+            <span class="date">Template</span>
+            <span>
+              <span class="archive-title">每日深读 · Daily</span>
+              <span class="archive-tags">Homepage structure reference</span>
+            </span>
+            <span class="arrow">→</span>
+          </a>
+        </li>
+        <li>
+          <a href="./Sources/2026-07-04%20%C2%B7%20AI%20%E5%89%8D%E6%B2%BF%E6%92%AD%E5%AE%A2%E6%B7%B1%E8%AF%BB.html">
+            <span class="date">Reference</span>
+            <span>
+              <span class="archive-title">2026-07-04 · AI 前沿播客深读</span>
+              <span class="archive-tags">Deep podcast digest style</span>
+            </span>
+            <span class="arrow">→</span>
+          </a>
+        </li>
+        <li>
+          <a href="./Sources/2026-07-04%20%C2%B7%20Builder%20%E9%80%9F%E9%80%92.html">
+            <span class="date">Reference</span>
+            <span>
+              <span class="archive-title">2026-07-04 · Builder 速递</span>
+              <span class="archive-tags">X stream / topic reconstruction style</span>
+            </span>
+            <span class="arrow">→</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      Daily Metals Mining · Research links only · Not investment advice
+    </footer>
+  </main>
 </body>
 </html>
