@@ -1,0 +1,636 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-04 · 矿业人物前日信息捕捉</title>
+  <style>
+    :root {
+      --paper: #f4efe3;
+      --paper-2: #fbf8ef;
+      --surface: #fffdf6;
+      --surface-2: #ede6d8;
+      --ink: #15261d;
+      --text: #304239;
+      --muted: #68766c;
+      --line: rgba(21, 38, 29, .14);
+      --line-strong: rgba(21, 38, 29, .24);
+      --green: #1f5e43;
+      --green-2: #2f7a56;
+      --green-3: #7c9a63;
+      --green-soft: rgba(47, 122, 86, .10);
+      --olive-soft: rgba(124, 154, 99, .16);
+      --shadow: 0 18px 50px rgba(35, 45, 35, .08);
+      --radius: 8px;
+      --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.78;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(31, 94, 67, .25); }
+    a:hover { color: #123e2b; border-bottom-color: #123e2b; }
+    strong, b { color: var(--ink); }
+    mark {
+      background: linear-gradient(transparent 58%, rgba(124, 154, 99, .28) 0);
+      color: var(--ink);
+      padding: 0 .08em;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      padding: 10px clamp(18px, 4vw, 42px);
+      border-bottom: 1px solid var(--line);
+      background: rgba(244, 239, 227, .92);
+      backdrop-filter: blur(16px);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .topbar .brand {
+      color: var(--ink);
+      font-weight: 700;
+      border-bottom: 0;
+      margin-right: 4px;
+    }
+    .topbar a { color: var(--muted); border: 0; }
+    .topbar a:hover { color: var(--green); }
+
+    .wrap {
+      width: min(1120px, calc(100vw - 36px));
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 58px 0 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--green-2);
+    }
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.12;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+    .hero-sub {
+      max-width: 860px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 2vw, 21px);
+      line-height: 1.7;
+    }
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .pill {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      padding: 5px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 253, 246, .62);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+    .pill b { color: var(--green); }
+
+    .summary {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(200px, .42fr);
+      gap: 18px;
+      margin: 28px 0 34px;
+    }
+    .brief {
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 22px 26px;
+      box-shadow: var(--shadow);
+    }
+    .brief h2, .mini-panel h2, .section-head h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.24;
+    }
+    .brief p { margin: 13px 0 0; }
+    .mini-panel {
+      background: var(--green-soft);
+      border: 1px solid rgba(31, 94, 67, .22);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.58;
+      box-shadow: none;
+      opacity: .78;
+    }
+    .mini-panel h2 { font-size: 15px; font-family: var(--sans); font-weight: 700; }
+    .mini-panel ul {
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 6px;
+    }
+    .mini-panel li {
+      padding-left: 9px;
+      border-left: 1px solid rgba(31, 94, 67, .22);
+      color: var(--muted);
+    }
+
+    .section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .section-num {
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .13em;
+    }
+    .section-head h2 {
+      font-size: clamp(27px, 4vw, 42px);
+    }
+    .section-kicker {
+      margin: -10px 0 24px 48px;
+      max-width: 860px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      box-shadow: 0 8px 26px rgba(35, 45, 35, .04);
+    }
+    .card.feature {
+      grid-column: 1 / -1;
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .card .tag {
+      display: inline-flex;
+      margin-bottom: 10px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.32;
+    }
+    .card p { margin: 9px 0; }
+    .card ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+    .card li { margin: 7px 0; }
+    .broadcast-list {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .broadcast-item {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 22px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .date-tag {
+      font-family: var(--mono);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .broadcast-item h3 {
+      margin: 0 0 7px;
+      font-size: 22px;
+      line-height: 1.35;
+      font-family: var(--serif);
+      font-weight: 500;
+      color: var(--ink);
+    }
+    .broadcast-item p { margin: 0; color: var(--muted); }
+    .detail-card {
+      margin-top: 18px;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+    }
+    .detail-card h3 {
+      margin: 0 0 12px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 26px;
+    }
+    .guest-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 14px 0;
+    }
+    .guest-box div, .minute-row {
+      background: rgba(47, 122, 86, .06);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px 14px;
+    }
+    .minute-grid {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .minute-row {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr) minmax(0, 1fr);
+      gap: 14px;
+    }
+    .minute-row .time {
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .minute-row p { margin: 0; font-size: 15px; line-height: 1.62; }
+    .pending {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+      padding-top: 13px;
+      border-top: 1px dashed var(--line);
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 3px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper-2);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .chip:hover { background: white; color: var(--green); }
+
+    .theme {
+      display: grid;
+      grid-template-columns: 170px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+    }
+    .theme:first-child { border-top: 0; }
+    .theme h3 {
+      margin: 0;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .theme p { margin: 0; }
+
+    .x-modules {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .x-module {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .x-module h3 {
+      margin: 0 0 10px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .x-module p { margin: 8px 0; }
+    .importance {
+      margin-top: 12px;
+      padding: 10px 12px;
+      background: var(--olive-soft);
+      border-left: 3px solid var(--green-3);
+      color: var(--text);
+      font-size: 15px;
+    }
+
+    .account-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .account {
+      background: rgba(255, 253, 246, .68);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 16px 17px;
+    }
+    .account h3 {
+      margin: 0 0 6px;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.35;
+    }
+    .account p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.62;
+    }
+    .account .links { margin-top: 10px; padding-top: 10px; }
+
+    .tracker {
+      background: rgba(255, 253, 246, .46);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    details summary {
+      cursor: pointer;
+      color: var(--green);
+      font-weight: 700;
+    }
+    .name-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .name-cloud span, .name-cloud a {
+      display: inline-flex;
+      padding: 4px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper-2);
+      color: var(--muted);
+      font-size: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .name-cloud a { color: var(--green); }
+
+    .source-list {
+      columns: 2;
+      column-gap: 28px;
+      margin: 0;
+      padding-left: 20px;
+    }
+    .source-list li {
+      break-inside: avoid;
+      margin: 0 0 10px;
+      color: var(--muted);
+    }
+    .note {
+      margin-top: 18px;
+      padding: 14px 17px;
+      border-left: 3px solid var(--green-3);
+      background: var(--olive-soft);
+      color: var(--text);
+    }
+    footer {
+      padding: 28px 0 56px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 860px) {
+      body { font-size: 16px; }
+      h1 { white-space: normal; }
+      .summary, .grid, .account-grid, .x-modules, .guest-box { grid-template-columns: 1fr; }
+      .card.feature { grid-column: auto; }
+      .section-kicker { margin-left: 0; }
+      .theme { grid-template-columns: 1fr; gap: 6px; }
+      .broadcast-item, .minute-row { grid-template-columns: 1fr; }
+      .source-list { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href="./index.html">MINING PEOPLE</a>
+    <a href="#broadcast">Broadcast</a>
+    <a href="#xstream">X Stream</a>
+    <a href="#news">新闻</a>
+    <a href="#tracker">跟踪池</a>
+    <a href="#sources">来源</a>
+  </nav>
+
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">2026-07-04 · 前日窗口</div>
+      <h1>矿业人物：Broadcast 深读与 X 内容速递</h1>
+      <div class="meta-row">
+        <span class="pill"><b>59</b> 人物池</span>
+        <span class="pill"><b>35</b> 个 X 账号</span>
+        <span class="pill">覆盖：2026-07-03 00:00-24:00 北京时间</span>
+      </div>
+    </header>
+
+    <section class="summary">
+      <article class="brief">
+        <h2>今日主线</h2>
+        <p>本期没有发现名单人物新公开访谈；X 无可验证供需原帖。新闻层面，KGHM $8.55B 投资计划、Red Chris 扩建资金支持、BHP/Faraday 资产交易和 Antofagasta 环评推进，集中指向铜与银的中长期供给管线。</p>
+      </article>
+      <aside class="mini-panel">
+        <h2>方法注记</h2>
+        <ul>
+          <li>报告日每日 7:00，以前一日 00:00-24:00 北京时间为窗口。</li>
+          <li>访谈只收 CSV 名单人物；无 transcript 不写逐分钟摘要。</li>
+          <li>X 只收可核验原帖；不可读取时不伪造摘录。</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="broadcast" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 1</span>
+        <h2>Broadcast, Webcast, 采访视频</h2>
+      </div>
+      <article class="card feature">
+        <span class="tag">WINDOW · 2026-07-03 00:00-24:00 北京时间</span>
+        <h3>当天没有发现新的公开 podcast / broadcast / YouTube 视频访谈。</h3>
+        <p>检索对象为 <b>mining_people_broadcast_x_articles.csv</b> 中的 59 位人物。纳入标准是：内容发布日期落在本期窗口内，且为公开 podcast、broadcast、webcast、YouTube 访谈或公开视频访谈。</p>
+        <ul>
+          <li><b>已检查的公开入口：</b>网页搜索、YouTube 搜索结果、Mining Stock Daily、Resource Talks、Soar Financial、Sprott Insights / videos / webcasts，以及名单人物相关公开频道页。</li>
+          <li><b>本期处理：</b>Resource Talks July 4 的 Surge Copper 访谈虽是铜项目访谈，但嘉宾不在 CSV 59 位人物池，未纳入 Part 1。</li>
+          <li><b>转录规则：</b>若发现合格访谈，优先读取官方 transcript / YouTube caption / 页面字幕；无公开 transcript 时再做人工转录，并按每 1 分钟写中英文对应摘要。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="xstream" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 2</span>
+        <h2>X 上内容的搜集和梳理</h2>
+      </div>
+      <article class="card feature">
+        <span class="tag">FILTER · 35 LISTED X ACCOUNTS</span>
+        <h3>当天没有发现名单账号发布的金银铜供需相关新推文。</h3>
+        <p>检查范围限于 CSV 中 35 个明确 X 账号；只有同时满足“名单账号发布”和“内容涉及铜矿、黄金、白银的供需、矿山供给、库存、产量、项目建设、品位、融资、许可、工业需求、央行/ETF/投资需求”等条件的原帖，才会进入本页。</p>
+        <ul>
+          <li><b>排除项：</b>纯价格喊单、泛宏观评论、无供需含义的转发或情绪表达。</li>
+          <li><b>本期处理：</b>X 登录态搜索在当前执行通道无法稳定读取原帖文本；本页不摘录不可验证内容，也不把泛主题观察改写成推文卡片。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="news" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 3</span>
+        <h2>Reuters / Mining.com 金银铜供需新闻</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">COPPER / SILVER · CAPEX PIPELINE · MINING.COM</span>
+          <h3><a href="https://www.mining.com/commodity/copper/" target="_blank" rel="noopener">KGHM launches $8.55 billion investment plan</a></h3>
+          <p><b>发布时间：</b>July 3, 2026 06:53（Mining.com copper archive 可见）。</p>
+          <p><b>摘录与梳理：</b>Polish state-controlled copper and silver producer 计划建设新矿 “KGHM 2.0”。</p>
+          <p><b>供需重要性：</b>这是铜银中长期资本开支与矿山更新线索。重点不是当日供应，而是老牌铜银生产商如何用新矿替换衰减资产、维持未来产量曲线。</p>
+        </article>
+        <article class="card">
+          <span class="tag">COPPER / GOLD · EXPANSION FUNDING · MINING.COM</span>
+          <h3><a href="https://www.mining.com/commodity/copper/" target="_blank" rel="noopener">Canada commits $352M to Red Chris mine expansion in British Columbia</a></h3>
+          <p><b>发布时间：</b>July 3, 2026 08:25（Mining.com copper archive 可见）。</p>
+          <p><b>摘录与梳理：</b>Red Chris expansion 获得 Canada $352M 支持；该项目此前已经获得关键 regulatory approvals。</p>
+          <p><b>供需重要性：</b>这是铜金矿扩建落地概率提高的信号。政府资金、许可和扩建资本共同决定项目能否从资源和审批进入产量贡献阶段。</p>
+        </article>
+        <article class="card">
+          <span class="tag">COPPER · PROJECT CONSOLIDATION · MINING.COM</span>
+          <h3><a href="https://www.mining.com/commodity/copper/" target="_blank" rel="noopener">BHP to transfer Arizona property to Faraday Copper for 30% stake</a></h3>
+          <p><b>发布时间：</b>July 3, 2026（Mining.com copper archive 可见）。</p>
+          <p><b>摘录与梳理：</b>BHP 将 San Manuel property 与 Faraday Copper 的 Copper Creek 项目结合，换取 30% stake；摘要称基础设施和矿产资源合并可能帮助推进投资。</p>
+          <p><b>供需重要性：</b>这是美国铜项目整合和基础设施复用线索。它提高项目尺度和开发可行性，但仍需要后续技术报告、融资和许可验证。</p>
+        </article>
+        <article class="card">
+          <span class="tag">COPPER · PERMITTING PIPELINE · MINING.COM</span>
+          <h3><a href="https://www.mining.com/commodity/copper/" target="_blank" rel="noopener">Antofagasta to seek environmental approval for Encierro, Volcanes exploration</a></h3>
+          <p><b>发布时间：</b>July 3, 2026（Mining.com copper archive 可见）。</p>
+          <p><b>摘录与梳理：</b>Antofagasta 计划在第四季度为 Encierro、Volcanes exploration 寻求 environmental approval。</p>
+          <p><b>供需重要性：</b>这是早中期铜增长项目的许可线索。环保审批是 Chile 铜矿供给管线的关键瓶颈之一，值得后续跟踪。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="tracker" class="section">
+      <div class="section-head">
+        <span class="section-num">POOL</span>
+        <h2>完整跟踪池</h2>
+      </div>
+      <div class="tracker">
+        <details>
+          <summary>CSV 全名单：59 人</summary>
+          <div class="name-cloud" aria-label="CSV 全名单"><span>Rick Rule</span><span>Eric Sprott</span><span>Marin Katusa</span><span>Gwen Preston</span><span>Jordan Roy-Byrne</span><span>Brien Lundin</span><span>David Morgan</span><span>Peter Krauth</span><span>Chris Marcus</span><span>Lobo Tiggre</span><span>Mickey Fulp</span><span>Brent Cook</span><span>Joe Mazumdar</span><span>John Kaiser</span><span>Quinton Hennigh</span><span>Steve Todoruk</span><span>Justin Tolman</span><span>John Hathaway</span><span>John Ciampaglia</span><span>Maria Smirnova</span><span>Paul Wong</span><span>Jacob White</span><span>Otavio Costa</span><span>Ronnie Stoeferle</span><span>Willem Middelkoop</span><span>Lawrence Lepard</span><span>Matt Geiger</span><span>Brian Leni</span><span>Jamie Keech</span><span>David Erfle</span><span>John Feneck</span><span>Jayant Bhandari</span><span>Chen Lin</span><span>Gerardo Del Real</span><span>Tekoa Da Silva</span><span>Trevor Hall</span><span>Kai Hoffmann</span><span>Robert Friedland</span><span>Rob McEwen</span><span>Keith Neumeyer</span><span>Frank Giustra</span><span>Ross Beaty</span><span>Nolan Watson</span><span>Randy Smallwood</span><span>Amir Adnani</span><span>Michael Konnert</span><span>Shawn Khunkhun</span><span>Walter Coles Jr.</span><span>John Black</span><span>Ivan Bebek</span><span>Mark Bristow</span><span>Sean Boyd</span><span>Ammar Al-Joundi</span><span>Jack Lundin</span><span>Richard Adkerson</span><span>Kathleen Quirk</span><span>Mark Hill</span><span>Natascha Viljoen</span><span>Tom Palmer</span></div>
+        </details>
+      </div>
+      <div class="tracker" style="margin-top:16px">
+        <details>
+          <summary>X 账号池：35 个可点击账号</summary>
+          <div class="name-cloud" aria-label="X 账号池"></div>
+        </details>
+      </div>
+    </section>
+
+    <section id="sources" class="section">
+      <div class="section-head">
+        <span class="section-num">LOG</span>
+        <h2>来源与后续更新</h2>
+      </div>
+      <ol class="source-list">
+        <li><a href="https://resourcetalks.com/" target="_blank" rel="noopener">Resource Talks</a>：按发布日期核对公司访谈，只有 CSV 名单人物作为嘉宾时才进入 Part 1。</li>
+        <li><a href="https://www.miningstockdaily.com/" target="_blank" rel="noopener">Mining Stock Daily</a>：核对 Trevor Hall 的 daily briefing / interview 流。</li>
+        <li><a href="https://www.soarfinancial.com/" target="_blank" rel="noopener">Soar Financial</a>：核对 Soar Financially / Gold Newsletter Channel / Deutsche Goldmesse 视频入口。</li>
+        <li><a href="https://www.mining.com/commodity/copper/" target="_blank" rel="noopener">Mining.com Copper</a>、<a href="https://www.mining.com/commodity/gold/" target="_blank" rel="noopener">Gold</a>、<a href="https://www.mining.com/commodity/silver/" target="_blank" rel="noopener">Silver</a>：金银铜供需新闻入口。</li>
+        <li><a href="https://www.reuters.com/markets/commodities/" target="_blank" rel="noopener">Reuters commodities</a>：优先来源；当前执行通道访问 Reuters 原站不稳定，因此使用 Mining.com 可见转载与摘要时会注明。</li>
+      </ol>
+      <div class="note"><b>资料口径：</b>本页为历史补档；若未来获得已登录 X 浏览器可读文本或公开视频 transcript，可回补 Part 1 逐分钟摘要与 Part 2 原推卡片。</div>
+    </section>
+  </main>
+
+  <footer class="wrap">本页为研究线索整理，不构成投资建议。所有公司、矿山、品位、产量、估值或价格判断均需回到公司公告、监管披露和技术报告复核。</footer>
+</body>
+</html>
