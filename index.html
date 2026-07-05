@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>每日金属矿业 · Daily Reports</title>
+  <link rel="icon" type="image/png" href="./Sources/mining_news_logo.png">
   <style>
     :root {
       --paper: #f4efe3;
@@ -45,6 +46,25 @@
 
     .hero {
       padding: 68px 0 26px;
+    }
+    .brand-lockup {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .logo-mark {
+      width: clamp(62px, 8vw, 92px);
+      aspect-ratio: 1;
+      flex: 0 0 auto;
+      overflow: hidden;
+      border: 1px solid rgba(21, 38, 29, .12);
+      border-radius: 999px;
+      background: #fff;
+      box-shadow: 0 12px 30px rgba(35, 45, 35, .08);
+    }
+    .logo-mark img {
+      object-fit: contain;
+      padding: 7px;
     }
     .eyebrow {
       display: inline-flex;
@@ -205,8 +225,13 @@
 <body>
   <main class="wrap">
     <header class="hero">
-      <div class="eyebrow">Gold Silver Copper · Supply / Demand</div>
-      <h1>每日金属矿业</h1>
+      <div class="brand-lockup">
+        <div class="logo-mark"><img src="./Sources/mining_news_logo.png" alt="每日金属矿业 logo"></div>
+        <div>
+          <div class="eyebrow">Gold Silver Copper · Supply / Demand</div>
+          <h1>每日金属矿业</h1>
+        </div>
+      </div>
     </header>
 
     <section class="reports" aria-labelledby="daily-reports">
