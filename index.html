@@ -81,107 +81,93 @@
       line-height: 1.7;
     }
 
-    .reports {
-      padding: 18px 0 72px;
-    }
+    .reports { padding: 18px 0 72px; }
     .reports-head {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
       gap: 16px;
-      margin-bottom: 22px;
+      margin-bottom: 38px;
     }
     .reports-head h2 {
       margin: 0;
       color: var(--ink);
-      font-family: var(--serif);
-      font-size: clamp(24px, 3vw, 34px);
-      font-weight: 500;
+      font-family: var(--sans);
+      font-size: clamp(30px, 4vw, 48px);
+      font-weight: 800;
+      line-height: .96;
+      letter-spacing: 0;
+      text-transform: uppercase;
     }
     .reports-head p {
       margin: 0;
-      color: var(--muted);
+      color: var(--ink);
       font-family: var(--mono);
       font-size: 12px;
       letter-spacing: .1em;
       text-transform: uppercase;
-    }
-
-    .rail {
-      display: grid;
-      grid-auto-flow: column;
-      grid-auto-columns: minmax(320px, 360px);
-      gap: 18px;
-      overflow-x: auto;
-      padding-bottom: 12px;
-      scrollbar-width: thin;
-      scrollbar-color: rgba(31, 94, 67, .35) transparent;
-    }
-    .rail::-webkit-scrollbar { height: 10px; }
-    .rail::-webkit-scrollbar-thumb {
-      background: rgba(31, 94, 67, .28);
+      border: 1px solid var(--ink);
       border-radius: 999px;
+      padding: 9px 22px;
     }
 
-    .card {
+    .report-list {
       display: grid;
-      grid-template-rows: 206px auto;
-      min-height: 100%;
-      background: var(--card);
-      border: 1px solid var(--line-strong);
-      border-radius: var(--radius);
+      border-top: 1px solid var(--ink);
+    }
+    .report-row {
+      display: grid;
+      grid-template-columns: minmax(240px, 360px) minmax(0, 1fr) 42px;
+      gap: 28px;
+      min-height: 300px;
+      padding: 16px 0 28px;
+      border-bottom: 1px solid var(--ink);
+      color: var(--ink);
+    }
+    .report-row:hover .arrow { transform: translateX(5px); }
+    .thumb {
+      width: 100%;
+      aspect-ratio: 1.48 / 1;
       overflow: hidden;
-      box-shadow: var(--shadow);
-      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-    }
-    .card:hover {
-      transform: translateY(-3px);
-      border-color: rgba(31, 94, 67, .34);
-      box-shadow: 0 24px 64px rgba(35, 45, 35, .12);
-    }
-    .card-copy {
-      display: grid;
-      gap: 14px;
-      padding: 20px 20px 22px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      align-self: start;
     }
     .meta {
       display: flex;
       flex-wrap: wrap;
-      gap: 8px;
-      color: var(--green);
-      font-family: var(--mono);
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-    }
-    .pill {
-      padding: 4px 9px;
-      border: 1px solid rgba(47, 122, 86, .20);
-      border-radius: 999px;
-      background: var(--green-soft);
-    }
-    .card h3 {
-      margin: 0;
+      gap: 12px;
+      margin-top: 18px;
       color: var(--ink);
-      font-family: var(--serif);
-      font-size: 28px;
-      font-weight: 500;
-      line-height: 1.16;
-    }
-    .summary {
-      margin: 0;
-      color: var(--text);
-      font-size: 15px;
-      line-height: 1.75;
-    }
-    .cta {
-      color: var(--green);
       font-family: var(--mono);
       font-size: 12px;
       font-weight: 700;
-      letter-spacing: .16em;
+      letter-spacing: .08em;
       text-transform: uppercase;
+    }
+    .report-row h3 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: clamp(30px, 4.1vw, 56px);
+      font-weight: 800;
+      line-height: .98;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+    .summary {
+      margin: 18px 0 0;
+      max-width: 760px;
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.72;
+    }
+    .arrow {
+      justify-self: end;
+      color: var(--ink);
+      font-size: 54px;
+      line-height: .9;
+      transition: transform .18s ease;
     }
 
     footer {
@@ -199,14 +185,16 @@
         align-items: start;
         flex-direction: column;
       }
-      .rail {
-        grid-auto-columns: minmax(280px, 86vw);
+      .report-row {
+        grid-template-columns: 1fr 34px;
+        gap: 16px;
+        min-height: 0;
       }
-      .card {
-        grid-template-rows: 188px auto;
-      }
-      .card h3 {
-        font-size: 25px;
+      .thumb { grid-column: 1 / -1; }
+      .copy { grid-column: 1; }
+      .arrow { grid-column: 2; grid-row: 2; font-size: 40px; }
+      .report-row h3 {
+        font-size: clamp(25px, 7.6vw, 38px);
       }
     }
   </style>
@@ -214,99 +202,75 @@
 <body>
   <main class="wrap">
     <header class="hero">
-      <div class="eyebrow">Daily Metals Mining</div>
+      <div class="eyebrow">Gold Silver Copper · Supply / Demand</div>
       <h1>每日金属矿业</h1>
     </header>
 
     <section class="reports" aria-labelledby="daily-reports">
       <div class="reports-head">
-        <h2 id="daily-reports">Daily Reports</h2>
-        <p>北京时间窗口 · 每日横向滚动列表</p>
+        <h2 id="daily-reports">Daily<br>Reports</h2>
+        <p>View All</p>
       </div>
 
-      <div class="rail">
-        <a class="card" href="./mining_people_broadcast_x_digest.html">
-          <div><img src="./Sources/mining_2026-07-05_adani_copper.jpeg" alt="Adani copper cathodes from Mining.com coverage"></div>
-          <div class="card-copy">
-            <div class="meta">
-              <span class="pill">2026-07-05</span>
-              <span>Latest</span>
-              <span>2026-07-04 Window</span>
-            </div>
+      <div class="report-list">
+        <a class="report-row" href="./mining_people_broadcast_x_digest.html">
+          <div class="thumb"><img src="./Sources/mining_2026-07-05_adani_copper.jpeg" alt="Adani copper cathodes from Mining.com coverage"></div>
+          <div class="copy">
             <h3>2026-07-05 矿业人物 Broadcast 深读与 X 金银铜供需日报</h3>
-            <p class="summary">访谈部分未发现 CSV 名单 59 人在 2026-07-04 北京时间窗口内发布新的公开 podcast、broadcast、webcast 或 YouTube 访谈；X 部分因当前执行通道无法稳定读取登录态原帖，只能明确写作“当天无法验证 X 原帖”；新闻部分纳入了 Reuters via Mining.com 的 Adani 铜冶炼品牌获批进入 LME 交割体系，以及 Mining.com / Bloomberg 关于 Zimbabwe 高金价带动黄金勘探与化验需求升温的报道，白银没有窗口内强供需新闻。</p>
-            <span class="cta">Open report</span>
+            <p class="summary">本页以金、银、铜矿业供需为主线，不再把 CSV 名单当作硬过滤器；名单人物、公司高管、播客嘉宾、新闻人物都可纳入，并标注背景。窗口内重点是 Adani 铜冶炼品牌进入 LME 交割体系，以及 Zimbabwe 高金价下黄金勘探与化验需求升温；X 原帖当前仍需官方 API 或登录态工具验证。</p>
+            <div class="meta"><span>Daily</span><span>2026-07-05</span><span>Supply / Demand</span></div>
           </div>
+          <span class="arrow">→</span>
         </a>
 
-        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-04.html">
-          <div><img src="./Sources/mining_2026-07-04_kghm.jpg" alt="KGHM mine image from Mining.com coverage"></div>
-          <div class="card-copy">
-            <div class="meta">
-              <span class="pill">2026-07-04</span>
-              <span>Archive</span>
-              <span>2026-07-03 Window</span>
-            </div>
+        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-04.html">
+          <div class="thumb"><img src="./Sources/mining_2026-07-04_kghm.jpg" alt="KGHM mine image from Mining.com coverage"></div>
+          <div class="copy">
             <h3>2026-07-04 矿业人物前日信息捕捉</h3>
-            <p class="summary">访谈部分没有名单人物的新公开视频访谈，Resource Talks 当天虽有公司管理层访谈，但嘉宾不在跟踪池内；X 部分仍未纳入可验证原帖；新闻部分集中在供给管线推进，包括 KGHM 的铜银投资计划、Red Chris 扩建承诺、Faraday Copper 资产组合扩大，以及 Antofagasta 在智利铜项目的许可推进。</p>
-            <span class="cta">Open report</span>
+            <p class="summary">供给管线推进最集中：KGHM 铜银投资计划、Red Chris 扩建承诺、Faraday Copper 资产组合扩大，以及 Antofagasta 在智利铜项目的许可推进。访谈与 X 内容按供需相关性处理，嘉宾或作者不在 CSV 种子名单内也可以进入后续梳理。</p>
+            <div class="meta"><span>Daily</span><span>2026-07-04</span><span>Copper / Silver Pipeline</span></div>
           </div>
+          <span class="arrow">→</span>
         </a>
 
-        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-03.html">
-          <div><img src="./Sources/mining_2026-07-03_cerro_colorado.jpg" alt="Cerro Colorado copper mine from Mining.com coverage"></div>
-          <div class="card-copy">
-            <div class="meta">
-              <span class="pill">2026-07-03</span>
-              <span>Archive</span>
-              <span>2026-07-02 Window</span>
-            </div>
+        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-03.html">
+          <div class="thumb"><img src="./Sources/mining_2026-07-03_cerro_colorado.jpg" alt="Cerro Colorado copper mine from Mining.com coverage"></div>
+          <div class="copy">
             <h3>2026-07-03 矿业人物前日信息捕捉</h3>
-            <p class="summary">访谈部分依然没有名单人物的新节目，Resource Talks 里的公司访谈未满足人物池条件；X 部分没有写入不可复核原帖；新闻部分的核心是铜供给恢复与黄金运营风险并存，既有 BHP 寻求重启 Cerro Colorado、Hudbay 提升 Constancia 处理能力，也有 Agnico Eagle 因 Barnat open pit 岩体移动提示黄金产量短期受扰。</p>
-            <span class="cta">Open report</span>
+            <p class="summary">铜供给恢复与黄金运营风险并存：BHP 寻求重启 Cerro Colorado，Hudbay 提升 Constancia 处理能力，Agnico Eagle 因 Barnat open pit 岩体移动提示黄金产量短期受扰。未来同类公司访谈即便嘉宾不在原名单内，也应按项目与供需重要性纳入。</p>
+            <div class="meta"><span>Daily</span><span>2026-07-03</span><span>Supply Risk</span></div>
           </div>
+          <span class="arrow">→</span>
         </a>
 
-        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-02.html">
-          <div><img src="./Sources/mining_2026-07-02_south32.jpg" alt="South32 operation from Mining.com coverage"></div>
-          <div class="card-copy">
-            <div class="meta">
-              <span class="pill">2026-07-02</span>
-              <span>Archive</span>
-              <span>2026-07-01 Window</span>
-            </div>
+        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-02.html">
+          <div class="thumb"><img src="./Sources/mining_2026-07-02_south32.jpg" alt="South32 operation from Mining.com coverage"></div>
+          <div class="copy">
             <h3>2026-07-02 矿业人物前日信息捕捉</h3>
-            <p class="summary">访谈部分没有满足条件的新名单人物视频，Mining Stock Daily 的 July 1 briefing 被排除为新闻简报而非目标人物访谈；X 部分没有采纳无法验证的原帖；新闻部分主要反映投资需求与资产重配，黄金受利率路径预期影响反弹，同时 South32 出售铝业务后把资本焦点转向铜、锌、银、铅等资产组合。</p>
-            <span class="cta">Open report</span>
+            <p class="summary">黄金投资需求与矿业资产重配是主线：黄金受利率路径预期影响反弹，同时 South32 出售铝业务后把资本焦点转向铜、锌、银、铅等资产组合。新闻简报、访谈、X 内容只要给出供需线索，均应记录来源和人物背景。</p>
+            <div class="meta"><span>Daily</span><span>2026-07-02</span><span>Investment Demand</span></div>
           </div>
+          <span class="arrow">→</span>
         </a>
 
-        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-01.html">
-          <div><img src="./Sources/mining_2026-07-01_koryx.jpg" alt="Koryx Copper drill core from Mining.com coverage"></div>
-          <div class="card-copy">
-            <div class="meta">
-              <span class="pill">2026-07-01</span>
-              <span>Archive</span>
-              <span>2026-06-30 Window</span>
-            </div>
+        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-01.html">
+          <div class="thumb"><img src="./Sources/mining_2026-07-01_koryx.jpg" alt="Koryx Copper drill core from Mining.com coverage"></div>
+          <div class="copy">
             <h3>2026-07-01 矿业人物前日信息捕捉</h3>
-            <p class="summary">访谈部分没有名单人物的新公开节目，Lake Victoria Gold、Pacifica Silver 与 Adrian Day 的相关内容均不属于 CSV 人物池；X 部分没有可验证原帖进入正文；新闻部分一边是 Koryx Copper 的 Namibia Haib 钻探推进铜资源转化、Fortuna 的 Senegal Diamba Sud 可研强化黄金供给管线，另一边是黄金价格承压反映投资需求受高利率预期牵制。</p>
-            <span class="cta">Open report</span>
+            <p class="summary">铜与黄金供给管线并行：Koryx Copper 的 Namibia Haib 钻探推进铜资源转化，Fortuna 的 Senegal Diamba Sud 可研强化黄金供给管线；黄金价格承压则反映投资需求受高利率预期牵制。相关访谈不再因嘉宾不在种子名单而自动排除。</p>
+            <div class="meta"><span>Daily</span><span>2026-07-01</span><span>Copper / Gold Pipeline</span></div>
           </div>
+          <span class="arrow">→</span>
         </a>
 
-        <a class="card" href="./mining_people_broadcast_x_digest_2026-06-30.html">
-          <div><img src="./Sources/mining_2026-06-30_bunker_hill.jpeg" alt="Bunker Hill mine site from Mining.com coverage"></div>
-          <div class="card-copy">
-            <div class="meta">
-              <span class="pill">2026-06-30</span>
-              <span>Archive</span>
-              <span>2026-06-29 Window</span>
-            </div>
+        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-06-30.html">
+          <div class="thumb"><img src="./Sources/mining_2026-06-30_bunker_hill.jpeg" alt="Bunker Hill mine site from Mining.com coverage"></div>
+          <div class="copy">
             <h3>2026-06-30 矿业人物前日信息捕捉</h3>
-            <p class="summary">访谈部分没有名单人物的新公开访谈；X 部分在当时同样无法稳定验证原帖；新闻部分的重点是 Bunker Hill Mining 在 Idaho mill 开始处理矿石并向设计处理能力爬坡，这条线索对应北美白银副产品与铅锌矿山供给恢复，而页面没有用旧闻去填补其余金属的空白。</p>
-            <span class="cta">Open report</span>
+            <p class="summary">Bunker Hill Mining 在 Idaho mill 开始处理矿石并向设计处理能力爬坡，对应北美白银副产品与铅锌矿山供给恢复。该类项目进展、公司访谈、建设照片和管理层表态都属于日报应跟踪的供需线索。</p>
+            <div class="meta"><span>Daily</span><span>2026-06-30</span><span>Silver Supply</span></div>
           </div>
+          <span class="arrow">→</span>
         </a>
       </div>
     </section>

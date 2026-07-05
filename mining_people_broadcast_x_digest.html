@@ -514,13 +514,14 @@
       <div class="brief">
         <h2>本期结论</h2>
         <p>本页只捕捉报告日前一天北京时间 00:00-24:00 的新信息。本期窗口为 <mark>2026-07-04 00:00-24:00 北京时间</mark>。</p>
-        <p>公开网页检索未发现 CSV 名单人物在该窗口内发布新的 podcast / broadcast / webcast / YouTube 公开视频访谈；X 原帖读取受限，未纳入任何无法验证的推文文本。Reuters / Mining.com 新闻流里，窗口内可核验的供需新闻集中在铜冶炼交割资格与黄金勘探服务能力，未发现窗口内银供需强相关新闻。</p>
+        <p>公开网页检索未发现与金、银、铜矿业供需直接相关、且能取得 transcript / caption 的新 podcast / broadcast / webcast / YouTube 公开视频访谈；X 原帖读取受限，未纳入任何无法验证的推文文本。Reuters / Mining.com 新闻流里，窗口内可核验的供需新闻集中在铜冶炼交割资格与黄金勘探服务能力，未发现窗口内银供需强相关新闻。</p>
       </div>
       <aside class="mini-panel">
         <h2>报告规则</h2>
         <ul>
-          <li>Part 1 只收前一日发布的公开视频/音频访谈。</li>
-          <li>Part 2 只收名单账号的金银铜供需相关原帖。</li>
+          <li>CSV 是种子关注池，不是硬过滤器；相关公司高管、项目嘉宾和研究者也可纳入。</li>
+          <li>Part 1 只收前一日发布、涉及金银铜供需且可核验 transcript / caption 的公开视频/音频访谈。</li>
+          <li>Part 2 只收可核验原帖，并筛选金银铜供需相关内容。</li>
           <li>Part 3 搜索 Reuters 与 Mining.com 的金银铜供需新闻。</li>
           <li>无 transcript 时再转录；不写占位摘要。</li>
         </ul>
@@ -535,12 +536,12 @@
       <article class="card feature">
         <span class="tag">WINDOW · 2026-07-04 00:00-24:00 BEIJING TIME</span>
         <h3>当天没有发现新的公开 podcast / broadcast / YouTube 视频访谈。</h3>
-        <p>检索对象为 <b>mining_people_broadcast_x_articles.csv</b> 中的 59 位人物。纳入标准是：内容发布日期落在本期窗口内，且为公开 podcast、broadcast、webcast、YouTube 访谈或公开视频访谈。</p>
+        <p>检索对象以 <b>mining_people_broadcast_x_articles.csv</b> 中的 59 位人物为种子，同时扩展到金、银、铜矿业供需相关的公司高管、项目嘉宾、研究者与媒体访谈。纳入标准是：内容发布日期落在本期窗口内，且为公开 podcast、broadcast、webcast、YouTube 访谈或公开视频访谈。</p>
         <ul>
-          <li><b>已检查的公开入口：</b>网页搜索、YouTube 搜索结果、Mining Stock Daily、Resource Talks、Soar Financial、Sprott Insights / videos / webcasts，以及名单人物相关的公开频道页。</li>
+          <li><b>已检查的公开入口：</b>网页搜索、YouTube 搜索结果、Mining Stock Daily、Resource Talks、Soar Financial、Sprott Insights / videos / webcasts，以及相关公司和媒体频道页。</li>
           <li><b>转录规则：</b>若发现合格访谈，优先读取官方 transcript / YouTube caption / 页面字幕；无公开 transcript 时再做人工转录，并按每 1 分钟写中英文对应摘要。</li>
-          <li><b>本期处理：</b>未发现满足日期窗口和人物名单条件的新访谈，因此不生成标题链接、嘉宾背景、深度总结或逐分钟摘要，避免把旧内容或占位内容误当作当日信息。</li>
-          <li><b>排除说明：</b>Resource Talks 页面出现 2026-07-04 公司访谈条目，但当前可见嘉宾不匹配 CSV 59 位跟踪人物，未纳入 Part 1。</li>
+          <li><b>背景规则：</b>若嘉宾不在 CSV 种子池内，也可以纳入；页面需要补充嘉宾职务、公司/项目背景、涉及金属、供需相关性和信息来源。</li>
+          <li><b>本期处理：</b>未发现同时满足日期窗口、供需相关性和可核验 transcript / caption 条件的新访谈，因此不生成标题链接、嘉宾背景、深度总结或逐分钟摘要，避免把旧内容或占位内容误当作当日信息。</li>
         </ul>
       </article>
     </section>
@@ -553,7 +554,7 @@
       <article class="card feature">
         <span class="tag">FILTER · 35 LISTED X ACCOUNTS</span>
         <h3>当天无法验证 X 原帖。</h3>
-        <p>检查范围限于 CSV 中 35 个明确 X 账号；只有同时满足“名单账号发布”和“内容涉及铜矿、黄金、白银的供需、矿山供给、库存、产量、项目建设、品位、融资、许可、工业需求、央行/ETF/投资需求”等条件的原帖，才会进入本页。</p>
+        <p>检查范围以 CSV 中 35 个明确 X 账号为种子，并可扩展到金、银、铜矿业公司、高管、研究者、媒体人与可信数据账号；只有同时满足“原帖可核验”和“内容涉及铜矿、黄金、白银的供需、矿山供给、库存、产量、项目建设、品位、融资、许可、工业需求、央行/ETF/投资需求”等条件，才会进入本页。</p>
         <ul>
           <li><b>排除项：</b>纯价格喊单、泛宏观评论、无供需含义的转发或情绪表达。</li>
           <li><b>卡片字段：</b>作者、账号、发布时间、金/银/铜标签、供给/需求标签、简短摘录、中文解读、供需重要性和原推链接。</li>
@@ -637,7 +638,7 @@
         <li><a href="https://ruleinvestmentmedia.com/" target="_blank" rel="noopener">Rule Investment Media</a>：Rick Rule 的 portfolio review 与 newsletter 入口。</li>
       </ol>
       <div class="note">
-        <b>资料口径：</b>每日 7:00 自动刷新，并固定使用报告日前一天 00:00-24:00 的北京时间窗口。Broadcast 以节目页、频道页和可核验字幕为准；发现访谈但无 transcript 时再转录。X 以名单账号原帖为准，只收金、银、铜供需相关内容，不摘录无法验证的原帖。Part 3 只收 Reuters / Mining.com 中与铜、金、银供需直接相关的新闻，并注明无法访问或时间窗外内容。
+        <b>资料口径：</b>每日 7:00 自动刷新，并固定使用报告日前一天 00:00-24:00 的北京时间窗口。CSV 是种子关注池，不是硬过滤器；只要访谈、X 原帖或新闻明确涉及金、银、铜矿业供需，就可以纳入并标注人物/公司背景。Broadcast 以节目页、频道页和可核验字幕为准；发现访谈但无 transcript 时再转录。X 以可核验原帖为准，不摘录无法验证的文本。Part 3 只收 Reuters / Mining.com 中与铜、金、银供需直接相关的新闻，并注明无法访问或时间窗外内容。
       </div>
     </section>
   </main>
