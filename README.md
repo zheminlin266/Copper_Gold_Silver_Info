@@ -4,7 +4,7 @@
 
 ## 页面
 
-- `index.html`：GitHub Pages 首页，自动跳转到当前日报。
+- `index.html`：GitHub Pages 首页，列出每日信息页链接、标题和当日总结。
 - `mining_people_broadcast_x_digest.html`：矿业人物 Broadcast / Webcast / YouTube 访谈与 X 金银铜供需日报。
 - `mining_people_broadcast_x_articles.csv`：跟踪人物、渠道、背景与擅长方向。
 
@@ -16,8 +16,11 @@ Part 1 只纳入 CSV 名单人物在窗口内发布的公开 podcast、broadcast
 
 Part 2 只纳入 CSV 中明确 X 账号发布、且涉及金银铜供需的原帖。纯价格喊单、泛宏观或没有供需含义的内容不进入页面。
 
+Part 3 搜索 Reuters 和 Mining.com 的铜、金、银供需相关新闻。新闻卡必须带来源链接、发布时间、金/银/铜标签、供给/需求标签和供需重要性说明。
+
 ## 参考文件
 
 - `Sources/2026-07-04 · AI 前沿播客深读.html`
 - `Sources/2026-07-04 · Builder 速递.html`
 - `Sources/每日深读 · Daily.html`
+- `Sources/web_design_reference1.jpg`
