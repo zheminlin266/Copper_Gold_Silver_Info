@@ -261,22 +261,23 @@
       line-height: 1.65;
     }
 
-    .featured-head {
+    .reports-head {
       display: flex;
       align-items: end;
       justify-content: space-between;
       gap: 18px;
       margin: 86px 0 34px;
     }
-    .featured-head h2 {
+    .reports-head h2 {
       margin: 0;
       color: var(--ink);
       font-family: var(--sans);
-      font-size: clamp(34px, 5vw, 58px);
+      font-size: clamp(24px, 3vw, 36px);
       font-weight: 800;
-      line-height: .95;
+      line-height: 1;
       letter-spacing: 0;
       text-transform: uppercase;
+      white-space: nowrap;
     }
     .view-all {
       display: inline-flex;
@@ -307,22 +308,19 @@
     .report-row:hover .report-title { color: var(--green); }
     .thumb {
       min-height: 214px;
-      display: grid;
-      place-items: center;
-      padding: 24px;
-      background:
-        linear-gradient(135deg, rgba(31, 94, 67, .12), rgba(255, 253, 246, .74)),
-        repeating-linear-gradient(0deg, rgba(21, 38, 29, .05), rgba(21, 38, 29, .05) 1px, transparent 1px, transparent 7px);
+      display: block;
+      padding: 0;
+      background: var(--card);
       border: 1px solid var(--line);
+      overflow: hidden;
     }
-    .thumb strong {
-      color: var(--green);
-      font-family: var(--sans);
-      font-size: 42px;
-      font-weight: 900;
-      line-height: .9;
-      letter-spacing: -.02em;
-      text-transform: uppercase;
+    .thumb img {
+      width: 100%;
+      height: 100%;
+      min-height: 214px;
+      display: block;
+      object-fit: cover;
+      filter: saturate(.82) contrast(1.03);
     }
     .report-title {
       margin: -5px 0 12px;
@@ -417,13 +415,12 @@
     }
     @media (max-width: 620px) {
       main { padding-top: 58px; }
-      .nav-links a:nth-child(n+3) { display: none; }
+      .nav-links a:nth-child(n+2) { display: none; }
       .daily-card, .side-panel { padding: 22px; }
       .archive-list a { grid-template-columns: 1fr 24px; }
       .date { grid-column: 1 / -1; }
-      .featured-head { align-items: start; flex-direction: column; }
-      .thumb { min-height: 150px; }
-      .thumb strong { font-size: 30px; }
+      .reports-head { align-items: start; flex-direction: column; }
+      .thumb, .thumb img { min-height: 150px; }
     }
   </style>
 </head>
@@ -431,10 +428,8 @@
   <nav aria-label="页面导航">
     <a class="brand" href="#">每日金属矿业<span>Daily Metals</span></a>
     <div class="nav-links">
-      <a href="#latest">最新日报</a>
-      <a href="#columns">栏目</a>
-      <a href="#archive">存档</a>
-      <a href="#sources">资料</a>
+      <a href="#latest">Daily Reports</a>
+      <a href="./mining_people_broadcast_x_digest.html">最新日报</a>
     </div>
   </nav>
 
@@ -446,113 +441,21 @@
     </header>
 
     <section id="latest">
-      <div class="featured-head">
-        <h2>Featured<br>Reports</h2>
-        <a class="view-all" href="#archive">View all</a>
+      <div class="reports-head">
+        <h2>Daily Reports</h2>
+        <a class="view-all" href="./mining_people_broadcast_x_digest.html">Open</a>
       </div>
       <div class="news-list">
         <a class="report-row" href="./mining_people_broadcast_x_digest.html">
-          <span class="thumb"><strong>Gold<br>Silver<br>Copper</strong></span>
+          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
           <span>
             <span class="report-title">矿业人物 Broadcast 深读与 X 金银铜供需日报</span>
-            <span class="report-summary">本期覆盖 2026-07-04 北京时间。未发现 CSV 名单人物发布新的公开 podcast / broadcast / YouTube 访谈；X 原帖读取受限，未纳入不可验证推文；Reuters / Mining.com 新闻显示铜端关注 LME 批准 Adani 铜品牌交割，金端关注 Zimbabwe 高金价下的勘探与化验需求，银端未发现窗口内强供需新闻。</span>
+            <span class="report-summary">本期覆盖 2026-07-04 北京时间。人物与访谈层面，59 位 CSV 跟踪对象没有发现新的公开 podcast、broadcast、webcast 或 YouTube 访谈；Resource Talks 虽有当日公司 CEO 访谈，但嘉宾不在跟踪名单内。X 层面，35 个明确账号的原帖在当前执行通道无法稳定验证，因此没有摘录任何不可复核推文。新闻层面，Reuters via Mining.com 的铜新闻最重要：LME 批准 Adani Enterprises 旗下 Kutch Copper 品牌进入铜合约交割体系，年产能 50 万吨，说明印度冶炼端和可交割精炼铜供应正在获得更高流动性权重；黄金端，Mining.com / Bloomberg 报道 Zimbabwe 高金价下勘探和化验需求升温，前五个月黄金产量 16,588 公斤，化验周转与区域样品流入会影响后续项目披露和融资节奏；银端没有发现本窗口内强供需新闻。</span>
             <span class="report-meta"><span>Daily</span><span>2026-07-05</span><span>Supply / Demand</span></span>
           </span>
           <span class="report-arrow">→</span>
         </a>
       </div>
-    </section>
-
-    <section id="columns">
-      <div class="section-head">
-        <h2>栏目结构</h2>
-        <span class="tag">§ Sections</span>
-      </div>
-      <div class="grid">
-        <a class="module" href="./mining_people_broadcast_x_digest.html#broadcast">
-          <div class="num">01</div>
-          <h3>访谈深读</h3>
-          <p>只收前一日公开访谈；有 transcript 才写深度总结和逐分钟摘要。</p>
-        </a>
-        <a class="module" href="./mining_people_broadcast_x_digest.html#xstream">
-          <div class="num">02</div>
-          <h3>X 供需卡片</h3>
-          <p>只摘录名单账号发布、且确实涉及金银铜供需的原帖。</p>
-        </a>
-        <a class="module" href="./mining_people_broadcast_x_digest.html#tracker">
-          <div class="num">03</div>
-          <h3>跟踪池</h3>
-          <p>59 位人物与 35 个 X 账号，作为每日扫描的固定对象。</p>
-        </a>
-        <a class="module" href="./mining_people_broadcast_x_digest.html#news">
-          <div class="num">04</div>
-          <h3>矿业新闻</h3>
-          <p>从 Reuters 与 Mining.com 搜索金、银、铜供需新闻并做摘录。</p>
-        </a>
-        <a class="module" href="./mining_people_broadcast_x_digest.html#sources">
-          <div class="num">05</div>
-          <h3>来源口径</h3>
-          <p>保留搜索窗口、转录规则、排除标准和可复核来源入口。</p>
-        </a>
-      </div>
-    </section>
-
-    <section id="archive">
-      <div class="section-head">
-        <h2>每日信息页</h2>
-        <span class="tag">§ Archive</span>
-      </div>
-      <ul class="archive-list">
-        <li>
-          <a href="./mining_people_broadcast_x_digest.html">
-            <span class="date">2026-07-05</span>
-            <span>
-              <span class="archive-title">矿业人物 Broadcast 深读 · X 金银铜供需</span>
-              <span class="archive-tags">无新访谈；X 无可验证供需原帖；Reuters / Mining.com 有铜交割品牌与黄金勘探服务新闻，银端无窗口内强新闻。</span>
-            </span>
-            <span class="arrow">→</span>
-          </a>
-        </li>
-      </ul>
-    </section>
-
-    <section id="sources">
-      <div class="section-head">
-        <h2>参考资料</h2>
-        <span class="tag">§ Sources</span>
-      </div>
-      <ul class="archive-list">
-        <li>
-          <a href="./Sources/每日深读%20%C2%B7%20Daily.html">
-            <span class="date">Template</span>
-            <span>
-              <span class="archive-title">每日深读 · Daily</span>
-              <span class="archive-tags">Homepage structure reference</span>
-            </span>
-            <span class="arrow">→</span>
-          </a>
-        </li>
-        <li>
-          <a href="./Sources/2026-07-04%20%C2%B7%20AI%20%E5%89%8D%E6%B2%BF%E6%92%AD%E5%AE%A2%E6%B7%B1%E8%AF%BB.html">
-            <span class="date">Reference</span>
-            <span>
-              <span class="archive-title">2026-07-04 · AI 前沿播客深读</span>
-              <span class="archive-tags">Deep podcast digest style</span>
-            </span>
-            <span class="arrow">→</span>
-          </a>
-        </li>
-        <li>
-          <a href="./Sources/2026-07-04%20%C2%B7%20Builder%20%E9%80%9F%E9%80%92.html">
-            <span class="date">Reference</span>
-            <span>
-              <span class="archive-title">2026-07-04 · Builder 速递</span>
-              <span class="archive-tags">X stream / topic reconstruction style</span>
-            </span>
-            <span class="arrow">→</span>
-          </a>
-        </li>
-      </ul>
     </section>
 
     <footer>

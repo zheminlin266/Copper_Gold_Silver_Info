@@ -24,3 +24,4 @@ Part 3 搜索 Reuters 和 Mining.com 的铜、金、银供需相关新闻。新�
 - `Sources/2026-07-04 · Builder 速递.html`
 - `Sources/每日深读 · Daily.html`
 - `Sources/web_design_reference1.jpg`
+- `Sources/mining_adani_copper.jpg`
