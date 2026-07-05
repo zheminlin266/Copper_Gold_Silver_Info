@@ -3,20 +3,22 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>每日金属矿业 · Daily Metals Mining</title>
+  <title>每日金属矿业 · Daily Reports</title>
   <style>
     :root {
-      --bg: #f4efe3;
+      --paper: #f4efe3;
+      --paper-2: #fbf8ef;
       --card: #fffdf6;
-      --hover: #f8f4ea;
+      --line: rgba(21, 38, 29, .14);
+      --line-strong: rgba(21, 38, 29, .22);
       --ink: #15261d;
       --text: #304239;
-      --muted: #6f7a71;
+      --muted: #66746a;
       --green: #1f5e43;
       --green-2: #2f7a56;
       --green-soft: rgba(47, 122, 86, .10);
-      --line: rgba(21, 38, 29, .14);
-      --line-strong: rgba(21, 38, 29, .24);
+      --shadow: 0 20px 56px rgba(35, 45, 35, .08);
+      --radius: 10px;
       --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
       --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
       --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
@@ -26,486 +28,290 @@
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      background: var(--bg);
+      background:
+        radial-gradient(circle at top right, rgba(124, 154, 99, .12), transparent 28%),
+        linear-gradient(180deg, var(--paper-2) 0, var(--paper) 180px, var(--paper) 100%);
       color: var(--text);
       font-family: var(--sans);
       -webkit-font-smoothing: antialiased;
     }
     a { color: inherit; text-decoration: none; }
-    ::selection { background: rgba(47, 122, 86, .18); color: var(--ink); }
+    img { display: block; width: 100%; height: 100%; object-fit: cover; }
 
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      height: 46px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 18px;
-      padding: 0 clamp(18px, 4vw, 34px);
-      background: rgba(244, 239, 227, .94);
-      border-bottom: 1px solid var(--line);
-      backdrop-filter: blur(12px);
-      font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: .09em;
-      text-transform: uppercase;
-      white-space: nowrap;
-    }
-    .brand { color: var(--ink); font-weight: 700; }
-    .brand span { margin-left: 8px; color: var(--muted); font-size: 10px; letter-spacing: .18em; font-weight: 400; }
-    .nav-links { display: flex; gap: 18px; color: var(--muted); }
-    .nav-links a:hover { color: var(--green); }
-
-    main {
-      width: min(1060px, calc(100vw - 36px));
+    .wrap {
+      width: min(1220px, calc(100vw - 36px));
       margin: 0 auto;
-      padding: 72px 0 92px;
+    }
+
+    .hero {
+      padding: 68px 0 26px;
     }
     .eyebrow {
-      display: flex;
+      display: inline-flex;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 12px;
-      color: var(--muted);
+      gap: 10px;
+      color: var(--green);
       font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: .2em;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .16em;
       text-transform: uppercase;
     }
     .eyebrow::before {
       content: "";
-      width: 34px;
-      height: 1px;
-      background: var(--muted);
-      opacity: .7;
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: var(--green-2);
     }
     h1 {
-      margin: 0;
+      margin: 18px 0 0;
       color: var(--ink);
       font-family: var(--serif);
-      font-size: clamp(44px, 7vw, 82px);
+      font-size: clamp(30px, 4.8vw, 58px);
       font-weight: 500;
-      line-height: 1.02;
-      letter-spacing: 0;
+      line-height: 1;
+      letter-spacing: -.03em;
     }
     .lede {
-      margin: 12px 0 0;
-      max-width: 640px;
-      color: var(--muted);
-      font-family: var(--serif);
-      font-size: clamp(18px, 2vw, 22px);
-      font-style: italic;
-      line-height: 1.5;
-    }
-
-    .hero-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
-      gap: 22px;
-      margin-top: 46px;
-      align-items: stretch;
-    }
-    .daily-card {
-      display: block;
-      min-height: 330px;
-      padding: 30px;
-      background: var(--card);
-      border: 1px solid var(--line-strong);
-      border-top: 3px solid var(--green);
-      border-radius: 8px;
-      box-shadow: 0 18px 48px rgba(35, 45, 35, .07);
-      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-    }
-    .daily-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(31, 94, 67, .42);
-      box-shadow: 0 22px 58px rgba(35, 45, 35, .10);
-    }
-    .card-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      align-items: center;
-      margin-bottom: 24px;
-      color: var(--green);
-      font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      font-weight: 700;
-    }
-    .pill {
-      border: 1px solid rgba(47, 122, 86, .22);
-      border-radius: 999px;
-      padding: 4px 10px;
-      background: var(--green-soft);
-    }
-    .daily-card h2 {
-      margin: 0;
-      color: var(--ink);
-      font-family: var(--serif);
-      font-size: clamp(30px, 4vw, 46px);
-      font-weight: 500;
-      line-height: 1.14;
-    }
-    .daily-card p {
+      max-width: 840px;
       margin: 18px 0 0;
-      max-width: 720px;
-      color: var(--text);
-      font-size: 17px;
-      line-height: 1.8;
-    }
-    .open-link {
-      display: inline-flex;
-      margin-top: 28px;
-      color: var(--green);
-      font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-      font-weight: 700;
-      border-bottom: 1px solid rgba(31, 94, 67, .35);
-    }
-
-    .side-panel {
-      padding: 26px;
-      background: rgba(255, 253, 246, .58);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-    }
-    .side-panel h2, .section-head h2 {
-      margin: 0;
-      color: var(--ink);
-      font-family: var(--serif);
-      font-size: 28px;
-      font-weight: 500;
-    }
-    .quick-links {
-      display: grid;
-      gap: 12px;
-      margin-top: 20px;
-    }
-    .quick-links a {
-      display: flex;
-      justify-content: space-between;
-      gap: 14px;
-      padding: 13px 0;
-      border-top: 1px solid var(--line);
-      color: var(--text);
-      font-size: 15px;
-      line-height: 1.4;
-    }
-    .quick-links a:hover { color: var(--green); }
-    .quick-links span {
       color: var(--muted);
-      font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      flex: 0 0 auto;
+      font-size: clamp(18px, 2vw, 22px);
+      line-height: 1.7;
     }
 
-    section {
-      margin-top: 76px;
-      padding-top: 34px;
-      border-top: 1px solid var(--line);
+    .reports {
+      padding: 18px 0 72px;
     }
-    .section-head {
+    .reports-head {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
-      gap: 18px;
-      margin-bottom: 24px;
-    }
-    .section-head .tag {
-      color: var(--muted);
-      font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: .18em;
-      text-transform: uppercase;
-    }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-      gap: 14px;
-    }
-    .module {
-      min-height: 176px;
-      padding: 20px;
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      transition: background .18s ease, transform .18s ease;
-    }
-    .module:hover { background: var(--hover); transform: translateY(-1px); }
-    .module .num {
-      color: var(--green);
-      font-family: var(--serif);
-      font-size: 28px;
-      line-height: 1;
-    }
-    .module h3 {
-      margin: 18px 0 8px;
-      color: var(--ink);
-      font-family: var(--serif);
-      font-size: 21px;
-      font-weight: 500;
-      line-height: 1.25;
-    }
-    .module p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.65;
-    }
-
-    .reports-head {
-      display: flex;
-      align-items: end;
-      justify-content: space-between;
-      gap: 18px;
-      margin: 86px 0 34px;
+      gap: 16px;
+      margin-bottom: 22px;
     }
     .reports-head h2 {
       margin: 0;
       color: var(--ink);
-      font-family: var(--sans);
-      font-size: clamp(24px, 3vw, 36px);
-      font-weight: 800;
-      line-height: 1;
-      letter-spacing: 0;
-      text-transform: uppercase;
-      white-space: nowrap;
+      font-family: var(--serif);
+      font-size: clamp(24px, 3vw, 34px);
+      font-weight: 500;
     }
-    .view-all {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 92px;
-      padding: 8px 18px;
-      border: 1px solid var(--ink);
-      border-radius: 999px;
-      color: var(--ink);
+    .reports-head p {
+      margin: 0;
+      color: var(--muted);
       font-family: var(--mono);
-      font-size: 10px;
+      font-size: 12px;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+    }
+
+    .rail {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: minmax(320px, 360px);
+      gap: 18px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(31, 94, 67, .35) transparent;
+    }
+    .rail::-webkit-scrollbar { height: 10px; }
+    .rail::-webkit-scrollbar-thumb {
+      background: rgba(31, 94, 67, .28);
+      border-radius: 999px;
+    }
+
+    .card {
+      display: grid;
+      grid-template-rows: 206px auto;
+      min-height: 100%;
+      background: var(--card);
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+    }
+    .card:hover {
+      transform: translateY(-3px);
+      border-color: rgba(31, 94, 67, .34);
+      box-shadow: 0 24px 64px rgba(35, 45, 35, .12);
+    }
+    .card-copy {
+      display: grid;
+      gap: 14px;
+      padding: 20px 20px 22px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
       letter-spacing: .12em;
       text-transform: uppercase;
     }
-    .news-list {
-      border-top: 1px solid var(--ink);
+    .pill {
+      padding: 4px 9px;
+      border: 1px solid rgba(47, 122, 86, .20);
+      border-radius: 999px;
+      background: var(--green-soft);
     }
-    .report-row {
-      display: grid;
-      grid-template-columns: 320px minmax(0, 1fr) 42px;
-      gap: 26px;
-      min-height: 245px;
-      padding: 18px 0;
-      border-bottom: 1px solid var(--ink);
+    .card h3 {
+      margin: 0;
       color: var(--ink);
+      font-family: var(--serif);
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.16;
     }
-    .report-row:hover .report-title { color: var(--green); }
-    .thumb {
-      min-height: 214px;
-      display: block;
-      padding: 0;
-      background: var(--card);
-      border: 1px solid var(--line);
-      overflow: hidden;
-    }
-    .thumb img {
-      width: 100%;
-      height: 100%;
-      min-height: 214px;
-      display: block;
-      object-fit: cover;
-      filter: saturate(.82) contrast(1.03);
-    }
-    .report-title {
-      margin: -5px 0 12px;
-      font-family: var(--sans);
-      font-size: clamp(30px, 4vw, 48px);
-      font-weight: 800;
-      line-height: 1.03;
-      letter-spacing: 0;
-      text-transform: uppercase;
-      transition: color .18s ease;
-    }
-    .report-summary {
-      max-width: 720px;
+    .summary {
+      margin: 0;
       color: var(--text);
       font-size: 15px;
-      line-height: 1.72;
-      margin: 0 0 20px;
+      line-height: 1.75;
     }
-    .report-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-      color: var(--ink);
+    .cta {
+      color: var(--green);
       font-family: var(--mono);
-      font-size: 11px;
-      letter-spacing: .08em;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .16em;
       text-transform: uppercase;
     }
-    .report-arrow {
-      justify-self: end;
-      color: var(--ink);
-      font-family: var(--sans);
-      font-size: 42px;
-      line-height: 1;
-    }
 
-    .archive-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      border-top: 1px solid var(--line);
-    }
-    .archive-list a {
-      display: grid;
-      grid-template-columns: 120px minmax(0, 1fr) 28px;
-      gap: 18px;
-      align-items: baseline;
-      padding: 20px 10px;
-      margin: 0 -10px;
-      border-bottom: 1px solid var(--line);
-    }
-    .archive-list a:hover { background: var(--hover); }
-    .date {
+    footer {
+      padding: 0 0 36px;
       color: var(--muted);
       font-family: var(--mono);
       font-size: 12px;
       letter-spacing: .08em;
-    }
-    .archive-title {
-      color: var(--ink);
-      font-family: var(--serif);
-      font-size: 22px;
-      line-height: 1.25;
-    }
-    .archive-tags {
-      display: block;
-      margin-top: 6px;
-      color: var(--muted);
-      font-family: var(--mono);
-      font-size: 10px;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-    }
-    .arrow { color: var(--green); font-family: var(--mono); }
-    footer {
-      margin-top: 80px;
-      padding-top: 28px;
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      font-family: var(--mono);
-      font-size: 10px;
-      letter-spacing: .16em;
-      line-height: 1.9;
       text-transform: uppercase;
     }
 
-    @media (max-width: 900px) {
-      .hero-grid, .grid, .report-row { grid-template-columns: 1fr; }
-      .daily-card { min-height: auto; }
-      .report-arrow { justify-self: start; }
-      nav { overflow-x: auto; }
-    }
-    @media (max-width: 620px) {
-      main { padding-top: 58px; }
-      .nav-links a:nth-child(n+2) { display: none; }
-      .daily-card, .side-panel { padding: 22px; }
-      .archive-list a { grid-template-columns: 1fr 24px; }
-      .date { grid-column: 1 / -1; }
-      .reports-head { align-items: start; flex-direction: column; }
-      .thumb, .thumb img { min-height: 150px; }
+    @media (max-width: 760px) {
+      .hero { padding-top: 52px; }
+      .reports-head {
+        align-items: start;
+        flex-direction: column;
+      }
+      .rail {
+        grid-auto-columns: minmax(280px, 86vw);
+      }
+      .card {
+        grid-template-rows: 188px auto;
+      }
+      .card h3 {
+        font-size: 25px;
+      }
     }
   </style>
 </head>
 <body>
-  <nav aria-label="页面导航">
-    <a class="brand" href="#">每日金属矿业<span>Daily Metals</span></a>
-    <div class="nav-links">
-      <a href="#latest">Daily Reports</a>
-      <a href="./mining_people_broadcast_x_digest.html">最新日报</a>
-    </div>
-  </nav>
-
-  <main>
-    <header>
-      <div class="eyebrow">Mining Reading Room · Gold Silver Copper</div>
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Daily Metals Mining</div>
       <h1>每日金属矿业</h1>
-      <p class="lede">每天早上 7:00，把金、银、铜矿业人物的公开访谈与 X 供需信号整理成一页。</p>
     </header>
 
-    <section id="latest">
+    <section class="reports" aria-labelledby="daily-reports">
       <div class="reports-head">
-        <h2>Daily Reports</h2>
-        <a class="view-all" href="./mining_people_broadcast_x_digest.html">Open</a>
+        <h2 id="daily-reports">Daily Reports</h2>
+        <p>北京时间窗口 · 每日横向滚动列表</p>
       </div>
-      <div class="news-list">
-        <a class="report-row" href="./mining_people_broadcast_x_digest.html">
-          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
-          <span>
-            <span class="report-title">矿业人物 Broadcast 深读与 X 金银铜供需日报</span>
-            <span class="report-summary">本期覆盖 2026-07-04 北京时间。人物与访谈层面，59 位 CSV 跟踪对象没有发现新的公开 podcast、broadcast、webcast 或 YouTube 访谈；Resource Talks 虽有当日公司 CEO 访谈，但嘉宾不在跟踪名单内。X 层面，35 个明确账号的原帖在当前执行通道无法稳定验证，因此没有摘录任何不可复核推文。新闻层面，Reuters via Mining.com 的铜新闻最重要：LME 批准 Adani Enterprises 旗下 Kutch Copper 品牌进入铜合约交割体系，年产能 50 万吨，说明印度冶炼端和可交割精炼铜供应正在获得更高流动性权重；黄金端，Mining.com / Bloomberg 报道 Zimbabwe 高金价下勘探和化验需求升温，前五个月黄金产量 16,588 公斤，化验周转与区域样品流入会影响后续项目披露和融资节奏；银端没有发现本窗口内强供需新闻。</span>
-            <span class="report-meta"><span>Daily</span><span>2026-07-05</span><span>Supply / Demand</span></span>
-          </span>
-          <span class="report-arrow">→</span>
+
+      <div class="rail">
+        <a class="card" href="./mining_people_broadcast_x_digest.html">
+          <div><img src="./Sources/mining_2026-07-05_adani_copper.jpeg" alt="Adani copper cathodes from Mining.com coverage"></div>
+          <div class="card-copy">
+            <div class="meta">
+              <span class="pill">2026-07-05</span>
+              <span>Latest</span>
+              <span>2026-07-04 Window</span>
+            </div>
+            <h3>2026-07-05 矿业人物 Broadcast 深读与 X 金银铜供需日报</h3>
+            <p class="summary">访谈部分未发现 CSV 名单 59 人在 2026-07-04 北京时间窗口内发布新的公开 podcast、broadcast、webcast 或 YouTube 访谈；X 部分因当前执行通道无法稳定读取登录态原帖，只能明确写作“当天无法验证 X 原帖”；新闻部分纳入了 Reuters via Mining.com 的 Adani 铜冶炼品牌获批进入 LME 交割体系，以及 Mining.com / Bloomberg 关于 Zimbabwe 高金价带动黄金勘探与化验需求升温的报道，白银没有窗口内强供需新闻。</p>
+            <span class="cta">Open report</span>
+          </div>
         </a>
-        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-04.html">
-          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
-          <span>
-            <span class="report-title">2026-07-04 矿业人物前日信息捕捉</span>
-            <span class="report-summary">本期覆盖 2026-07-03 北京时间。人物访谈层面，未发现 CSV 名单人物的新公开 podcast、broadcast、webcast 或 YouTube 访谈；Resource Talks 的 Surge Copper 访谈因嘉宾不在名单内未纳入。X 层面仍无可验证原帖。新闻层面，KGHM 推出 85.5 亿美元投资计划，指向铜银老矿替代和新矿开发；Canada 对 Red Chris mine expansion 承诺 3.52 亿美元，提升铜金扩建落地概率；BHP 将 Arizona San Manuel property 转给 Faraday Copper 换取 30% stake，帮助 Copper Creek 形成更完整的项目尺度和基础设施组合；Antofagasta 推进 Encierro、Volcanes 环评，属于 Chile 铜增长项目的许可管线。</span>
-            <span class="report-meta"><span>Daily</span><span>2026-07-04</span><span>Copper / Silver Pipeline</span></span>
-          </span>
-          <span class="report-arrow">→</span>
+
+        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-04.html">
+          <div><img src="./Sources/mining_2026-07-04_kghm.jpg" alt="KGHM mine image from Mining.com coverage"></div>
+          <div class="card-copy">
+            <div class="meta">
+              <span class="pill">2026-07-04</span>
+              <span>Archive</span>
+              <span>2026-07-03 Window</span>
+            </div>
+            <h3>2026-07-04 矿业人物前日信息捕捉</h3>
+            <p class="summary">访谈部分没有名单人物的新公开视频访谈，Resource Talks 当天虽有公司管理层访谈，但嘉宾不在跟踪池内；X 部分仍未纳入可验证原帖；新闻部分集中在供给管线推进，包括 KGHM 的铜银投资计划、Red Chris 扩建承诺、Faraday Copper 资产组合扩大，以及 Antofagasta 在智利铜项目的许可推进。</p>
+            <span class="cta">Open report</span>
+          </div>
         </a>
-        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-03.html">
-          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
-          <span>
-            <span class="report-title">2026-07-03 矿业人物前日信息捕捉</span>
-            <span class="report-summary">本期覆盖 2026-07-02 北京时间。名单人物访谈无新增；Resource Talks 有 Kingfisher、Argenta Silver、Au Gold 等公司访谈，但嘉宾不是跟踪池人物。新闻层面，BHP 寻求以 15 亿美元重启 Cerro Colorado copper mine，是潜在铜供给恢复线索；Hudbay 获批把 Constancia mill capacity 从 31 mtpa 提高到 34 mtpa，直接影响铜金处理能力；Agnico Eagle 因 Canadian Malartic complex 的 Barnat open pit 岩体移动暂停 pit mining，并提示黄金产量影响。当天主题是：一边有铜矿恢复和处理能力扩张，一边有金矿短期运营风险。</span>
-            <span class="report-meta"><span>Daily</span><span>2026-07-03</span><span>Supply Risk</span></span>
-          </span>
-          <span class="report-arrow">→</span>
+
+        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-03.html">
+          <div><img src="./Sources/mining_2026-07-03_cerro_colorado.jpg" alt="Cerro Colorado copper mine from Mining.com coverage"></div>
+          <div class="card-copy">
+            <div class="meta">
+              <span class="pill">2026-07-03</span>
+              <span>Archive</span>
+              <span>2026-07-02 Window</span>
+            </div>
+            <h3>2026-07-03 矿业人物前日信息捕捉</h3>
+            <p class="summary">访谈部分依然没有名单人物的新节目，Resource Talks 里的公司访谈未满足人物池条件；X 部分没有写入不可复核原帖；新闻部分的核心是铜供给恢复与黄金运营风险并存，既有 BHP 寻求重启 Cerro Colorado、Hudbay 提升 Constancia 处理能力，也有 Agnico Eagle 因 Barnat open pit 岩体移动提示黄金产量短期受扰。</p>
+            <span class="cta">Open report</span>
+          </div>
         </a>
-        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-02.html">
-          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
-          <span>
-            <span class="report-title">2026-07-02 矿业人物前日信息捕捉</span>
-            <span class="report-summary">本期覆盖 2026-07-01 北京时间。访谈层面，Mining Stock Daily 官网列出 July 1 briefing，但它是 Trevor Hall 的新闻式音频简报，不是 CSV 名单人物访谈，也没有可用于逐分钟摘要的 transcript。X 层面未纳入不可复核推文。新闻层面，黄金随美元和债券收益率回落而反弹，体现投资需求对利率路径的敏感性；South32 出售多数铝业务给 Alcoa 后，战略重心转向 copper, zinc, silver and lead operations，这不是当日供给增加，但会改变公司资本开支和资产管理层面的金属权重。</span>
-            <span class="report-meta"><span>Daily</span><span>2026-07-02</span><span>Investment Demand</span></span>
-          </span>
-          <span class="report-arrow">→</span>
+
+        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-02.html">
+          <div><img src="./Sources/mining_2026-07-02_south32.jpg" alt="South32 operation from Mining.com coverage"></div>
+          <div class="card-copy">
+            <div class="meta">
+              <span class="pill">2026-07-02</span>
+              <span>Archive</span>
+              <span>2026-07-01 Window</span>
+            </div>
+            <h3>2026-07-02 矿业人物前日信息捕捉</h3>
+            <p class="summary">访谈部分没有满足条件的新名单人物视频，Mining Stock Daily 的 July 1 briefing 被排除为新闻简报而非目标人物访谈；X 部分没有采纳无法验证的原帖；新闻部分主要反映投资需求与资产重配，黄金受利率路径预期影响反弹，同时 South32 出售铝业务后把资本焦点转向铜、锌、银、铅等资产组合。</p>
+            <span class="cta">Open report</span>
+          </div>
         </a>
-        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-07-01.html">
-          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
-          <span>
-            <span class="report-title">2026-07-01 矿业人物前日信息捕捉</span>
-            <span class="report-summary">本期覆盖 2026-06-30 北京时间。没有发现名单人物的新访谈；Resource Talks 的 Lake Victoria Gold 与 Pacifica Silver 公司访谈、Mining.com TV 的 Adrian Day 视频均不属于 CSV 人物池。新闻层面，Koryx Copper 的 Namibia Haib 项目披露宽厚近地表铜矿化，HM138 从地表起 584m grading 0.3% copper，推进年底 PFS 前资源转化；Fortuna 的 Senegal Diamba Sud feasibility study 给出 1B 美元 post-tax NPV、9.4 年 mine life 和 1.1Moz probable reserve，是西非黄金供给管线；金价出现 13 年最差季度，反映投资需求与高利率预期压力。</span>
-            <span class="report-meta"><span>Daily</span><span>2026-07-01</span><span>Copper / Gold Pipeline</span></span>
-          </span>
-          <span class="report-arrow">→</span>
+
+        <a class="card" href="./mining_people_broadcast_x_digest_2026-07-01.html">
+          <div><img src="./Sources/mining_2026-07-01_koryx.jpg" alt="Koryx Copper drill core from Mining.com coverage"></div>
+          <div class="card-copy">
+            <div class="meta">
+              <span class="pill">2026-07-01</span>
+              <span>Archive</span>
+              <span>2026-06-30 Window</span>
+            </div>
+            <h3>2026-07-01 矿业人物前日信息捕捉</h3>
+            <p class="summary">访谈部分没有名单人物的新公开节目，Lake Victoria Gold、Pacifica Silver 与 Adrian Day 的相关内容均不属于 CSV 人物池；X 部分没有可验证原帖进入正文；新闻部分一边是 Koryx Copper 的 Namibia Haib 钻探推进铜资源转化、Fortuna 的 Senegal Diamba Sud 可研强化黄金供给管线，另一边是黄金价格承压反映投资需求受高利率预期牵制。</p>
+            <span class="cta">Open report</span>
+          </div>
         </a>
-        <a class="report-row" href="./mining_people_broadcast_x_digest_2026-06-30.html">
-          <span class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Copper cathode bundles from Mining.com news image"></span>
-          <span>
-            <span class="report-title">2026-06-30 矿业人物前日信息捕捉</span>
-            <span class="report-summary">本期覆盖 2026-06-29 北京时间。CSV 名单人物没有新的可核验公开访谈，X 原帖在当前通道下无法稳定读取。新闻层面最值得保留的是 Bunker Hill Mining 的 Idaho mill 开始处理矿石：现场已有超过 20,000 tons ore stockpiled at the crusher，计划向 1,800 tons/day 设计处理能力爬坡，并在次年达到 full production。它是白银副产、铅锌矿山重启和北美近岸精矿供给恢复线索；短期要看投料稳定性、Trail smelter offtake、Cate-8 银矿化带资源转化和现金流表现。</span>
-            <span class="report-meta"><span>Daily</span><span>2026-06-30</span><span>Silver Supply</span></span>
-          </span>
-          <span class="report-arrow">→</span>
+
+        <a class="card" href="./mining_people_broadcast_x_digest_2026-06-30.html">
+          <div><img src="./Sources/mining_2026-06-30_bunker_hill.jpeg" alt="Bunker Hill mine site from Mining.com coverage"></div>
+          <div class="card-copy">
+            <div class="meta">
+              <span class="pill">2026-06-30</span>
+              <span>Archive</span>
+              <span>2026-06-29 Window</span>
+            </div>
+            <h3>2026-06-30 矿业人物前日信息捕捉</h3>
+            <p class="summary">访谈部分没有名单人物的新公开访谈；X 部分在当时同样无法稳定验证原帖；新闻部分的重点是 Bunker Hill Mining 在 Idaho mill 开始处理矿石并向设计处理能力爬坡，这条线索对应北美白银副产品与铅锌矿山供给恢复，而页面没有用旧闻去填补其余金属的空白。</p>
+            <span class="cta">Open report</span>
+          </div>
         </a>
       </div>
     </section>
 
-    <footer>
-      Daily Metals Mining · Research links only · Not investment advice
-    </footer>
+    <footer>Daily Metals Mining · Research links only · Not investment advice</footer>
   </main>
 </body>
 </html>
