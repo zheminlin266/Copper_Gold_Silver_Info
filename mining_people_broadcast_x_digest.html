@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-05 · 矿业人物前日信息捕捉</title>
+  <style>
+    :root {
+      --paper: #f4efe3;
+      --paper-2: #fbf8ef;
+      --surface: #fffdf6;
+      --surface-2: #ede6d8;
+      --ink: #15261d;
+      --text: #304239;
+      --muted: #68766c;
+      --line: rgba(21, 38, 29, .14);
+      --line-strong: rgba(21, 38, 29, .24);
+      --green: #1f5e43;
+      --green-2: #2f7a56;
+      --green-3: #7c9a63;
+      --green-soft: rgba(47, 122, 86, .10);
+      --olive-soft: rgba(124, 154, 99, .16);
+      --shadow: 0 18px 50px rgba(35, 45, 35, .08);
+      --radius: 8px;
+      --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.78;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(31, 94, 67, .25); }
+    a:hover { color: #123e2b; border-bottom-color: #123e2b; }
+    strong, b { color: var(--ink); }
+    mark {
+      background: linear-gradient(transparent 58%, rgba(124, 154, 99, .28) 0);
+      color: var(--ink);
+      padding: 0 .08em;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      padding: 10px clamp(18px, 4vw, 42px);
+      border-bottom: 1px solid var(--line);
+      background: rgba(244, 239, 227, .92);
+      backdrop-filter: blur(16px);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .topbar .brand {
+      color: var(--ink);
+      font-weight: 700;
+      border-bottom: 0;
+      margin-right: 4px;
+    }
+    .topbar a { color: var(--muted); border: 0; }
+    .topbar a:hover { color: var(--green); }
+
+    .wrap {
+      width: min(1120px, calc(100vw - 36px));
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 58px 0 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--green-2);
+    }
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.12;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+    .hero-sub {
+      max-width: 860px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 2vw, 21px);
+      line-height: 1.7;
+    }
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .pill {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      padding: 5px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 253, 246, .62);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+    .pill b { color: var(--green); }
+
+    .summary {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(200px, .42fr);
+      gap: 18px;
+      margin: 28px 0 34px;
+    }
+    .brief {
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 22px 26px;
+      box-shadow: var(--shadow);
+    }
+    .brief h2, .mini-panel h2, .section-head h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.24;
+    }
+    .brief p { margin: 13px 0 0; }
+    .mini-panel {
+      background: var(--green-soft);
+      border: 1px solid rgba(31, 94, 67, .22);
+      border-radius: var(--radius);
+      padding: 12px 14px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.58;
+      box-shadow: none;
+      opacity: .78;
+    }
+    .mini-panel h2 { font-size: 15px; font-family: var(--sans); font-weight: 700; }
+    .mini-panel ul {
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 6px;
+    }
+    .mini-panel li {
+      padding-left: 9px;
+      border-left: 1px solid rgba(31, 94, 67, .22);
+      color: var(--muted);
+    }
+
+    .section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .section-num {
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .13em;
+    }
+    .section-head h2 {
+      font-size: clamp(27px, 4vw, 42px);
+    }
+    .section-kicker {
+      margin: -10px 0 24px 48px;
+      max-width: 860px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      box-shadow: 0 8px 26px rgba(35, 45, 35, .04);
+    }
+    .card.feature {
+      grid-column: 1 / -1;
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .card .tag {
+      display: inline-flex;
+      margin-bottom: 10px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.32;
+    }
+    .card p { margin: 9px 0; }
+    .card ul {
+      margin: 10px 0 0;
+      padding-left: 20px;
+    }
+    .card li { margin: 7px 0; }
+    .broadcast-list {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 28px;
+    }
+    .broadcast-item {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 22px;
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .date-tag {
+      font-family: var(--mono);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .broadcast-item h3 {
+      margin: 0 0 7px;
+      font-size: 22px;
+      line-height: 1.35;
+      font-family: var(--serif);
+      font-weight: 500;
+      color: var(--ink);
+    }
+    .broadcast-item p { margin: 0; color: var(--muted); }
+    .detail-card {
+      margin-top: 18px;
+      padding: 24px;
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      border-radius: var(--radius);
+    }
+    .detail-card h3 {
+      margin: 0 0 12px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 26px;
+    }
+    .guest-box {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 14px 0;
+    }
+    .guest-box div, .minute-row {
+      background: rgba(47, 122, 86, .06);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 12px 14px;
+    }
+    .minute-grid {
+      display: grid;
+      gap: 10px;
+      margin-top: 14px;
+    }
+    .minute-row {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr) minmax(0, 1fr);
+      gap: 14px;
+    }
+    .minute-row .time {
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .minute-row p { margin: 0; font-size: 15px; line-height: 1.62; }
+    .pending {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+      padding-top: 13px;
+      border-top: 1px dashed var(--line);
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      min-height: 28px;
+      padding: 3px 10px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper-2);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .chip:hover { background: white; color: var(--green); }
+
+    .theme {
+      display: grid;
+      grid-template-columns: 170px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+    }
+    .theme:first-child { border-top: 0; }
+    .theme h3 {
+      margin: 0;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .theme p { margin: 0; }
+
+    .x-modules {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+    .x-module {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+    }
+    .x-module h3 {
+      margin: 0 0 10px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .x-module p { margin: 8px 0; }
+    .importance {
+      margin-top: 12px;
+      padding: 10px 12px;
+      background: var(--olive-soft);
+      border-left: 3px solid var(--green-3);
+      color: var(--text);
+      font-size: 15px;
+    }
+
+    .account-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .account {
+      background: rgba(255, 253, 246, .68);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 16px 17px;
+    }
+    .account h3 {
+      margin: 0 0 6px;
+      color: var(--ink);
+      font-size: 18px;
+      line-height: 1.35;
+    }
+    .account p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.62;
+    }
+    .account .links { margin-top: 10px; padding-top: 10px; }
+
+    .tracker {
+      background: rgba(255, 253, 246, .46);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 18px;
+    }
+    details summary {
+      cursor: pointer;
+      color: var(--green);
+      font-weight: 700;
+    }
+    .name-cloud {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .name-cloud span, .name-cloud a {
+      display: inline-flex;
+      padding: 4px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--paper-2);
+      color: var(--muted);
+      font-size: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    .name-cloud a { color: var(--green); }
+
+    .source-list {
+      columns: 2;
+      column-gap: 28px;
+      margin: 0;
+      padding-left: 20px;
+    }
+    .source-list li {
+      break-inside: avoid;
+      margin: 0 0 10px;
+      color: var(--muted);
+    }
+    .note {
+      margin-top: 18px;
+      padding: 14px 17px;
+      border-left: 3px solid var(--green-3);
+      background: var(--olive-soft);
+      color: var(--text);
+    }
+    footer {
+      padding: 28px 0 56px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 860px) {
+      body { font-size: 16px; }
+      h1 { white-space: normal; }
+      .summary, .grid, .account-grid, .x-modules, .guest-box { grid-template-columns: 1fr; }
+      .card.feature { grid-column: auto; }
+      .section-kicker { margin-left: 0; }
+      .theme { grid-template-columns: 1fr; gap: 6px; }
+      .broadcast-item, .minute-row { grid-template-columns: 1fr; }
+      .source-list { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar" aria-label="页面导航">
+    <a class="brand" href="#">Mining People</a>
+    <a href="#broadcast">Broadcast</a>
+    <a href="#xstream">X Stream</a>
+    <a href="#tracker">跟踪池</a>
+    <a href="#sources">来源</a>
+  </nav>
+
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">2026-07-05 · 07:00 日报</div>
+      <h1>矿业人物 Broadcast 深读 · X 金银铜供需</h1>
+      <div class="meta-row">
+        <span class="pill"><b>覆盖窗口</b>：2026-07-04 00:00-24:00 北京时间</span>
+        <span class="pill">报告时间：2026-07-05 07:00 +08:00</span>
+      </div>
+    </header>
+
+    <section class="summary" aria-label="核心摘要">
+      <div class="brief">
+        <h2>本期结论</h2>
+        <p>本页只捕捉报告日前一天北京时间 00:00-24:00 的新信息。本期窗口为 <mark>2026-07-04 00:00-24:00 北京时间</mark>。</p>
+        <p>公开网页检索未发现 CSV 名单人物在该窗口内发布新的 podcast / broadcast / webcast / YouTube 公开视频访谈；X 原帖读取受限，未纳入任何无法验证的推文文本。</p>
+      </div>
+      <aside class="mini-panel">
+        <h2>报告规则</h2>
+        <ul>
+          <li>Part 1 只收前一日发布的公开视频/音频访谈。</li>
+          <li>Part 2 只收名单账号的金银铜供需相关原帖。</li>
+          <li>无 transcript 时再转录；不写占位摘要。</li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="broadcast" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 1</span>
+        <h2>Broadcast, Webcast, 采访视频</h2>
+      </div>
+      <article class="card feature">
+        <span class="tag">WINDOW · 2026-07-04 00:00-24:00 BEIJING TIME</span>
+        <h3>当天没有发现新的公开 podcast / broadcast / YouTube 视频访谈。</h3>
+        <p>检索对象为 <b>mining_people_broadcast_x_articles.csv</b> 中的 59 位人物。纳入标准是：内容发布日期落在本期窗口内，且为公开 podcast、broadcast、webcast、YouTube 访谈或公开视频访谈。</p>
+        <ul>
+          <li><b>已检查的公开入口：</b>网页搜索、YouTube 搜索结果、Mining Stock Daily、Resource Talks、Soar Financial、Sprott Insights / videos / webcasts，以及名单人物相关的公开频道页。</li>
+          <li><b>转录规则：</b>若发现合格访谈，优先读取官方 transcript / YouTube caption / 页面字幕；无公开 transcript 时再做人工转录，并按每 1 分钟写中英文对应摘要。</li>
+          <li><b>本期处理：</b>未发现满足日期窗口和人物名单条件的新访谈，因此不生成标题链接、嘉宾背景、深度总结或逐分钟摘要，避免把旧内容或占位内容误当作当日信息。</li>
+          <li><b>排除说明：</b>Resource Talks 页面出现 2026-07-04 公司访谈条目，但当前可见嘉宾不匹配 CSV 59 位跟踪人物，未纳入 Part 1。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="xstream" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 2</span>
+        <h2>X 上内容的搜集和梳理</h2>
+      </div>
+      <article class="card feature">
+        <span class="tag">FILTER · 35 LISTED X ACCOUNTS</span>
+        <h3>当天没有发现名单账号发布的金银铜供需相关新推文。</h3>
+        <p>检查范围限于 CSV 中 35 个明确 X 账号；只有同时满足“名单账号发布”和“内容涉及铜矿、黄金、白银的供需、矿山供给、库存、产量、项目建设、品位、融资、许可、工业需求、央行/ETF/投资需求”等条件的原帖，才会进入本页。</p>
+        <ul>
+          <li><b>排除项：</b>纯价格喊单、泛宏观评论、无供需含义的转发或情绪表达。</li>
+          <li><b>卡片字段：</b>作者、账号、发布时间、金/银/铜标签、供给/需求标签、简短摘录、中文解读、供需重要性和原推链接。</li>
+          <li><b>本期处理：</b>X 登录态搜索在当前执行通道无法稳定读取原帖文本；本页不摘录不可验证内容，也不把泛主题观察改写成推文卡片。</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="tracker" class="section">
+      <div class="section-head">
+        <span class="section-num">POOL</span>
+        <h2>完整跟踪池</h2>
+      </div>
+      <div class="tracker">
+        <details open>
+          <summary>CSV 全名单：59 人</summary>
+          <div class="name-cloud" aria-label="CSV 全名单">
+            <span>Rick Rule</span><span>Eric Sprott</span><span>Marin Katusa</span><span>Gwen Preston</span><span>Jordan Roy-Byrne</span><span>Brien Lundin</span><span>David Morgan</span><span>Peter Krauth</span><span>Chris Marcus</span><span>Lobo Tiggre</span><span>Mickey Fulp</span><span>Brent Cook</span><span>Joe Mazumdar</span><span>John Kaiser</span><span>Quinton Hennigh</span><span>Steve Todoruk</span><span>Justin Tolman</span><span>John Hathaway</span><span>John Ciampaglia</span><span>Maria Smirnova</span><span>Paul Wong</span><span>Jacob White</span><span>Otavio Costa</span><span>Ronnie Stoeferle</span><span>Willem Middelkoop</span><span>Lawrence Lepard</span><span>Matt Geiger</span><span>Brian Leni</span><span>Jamie Keech</span><span>David Erfle</span><span>John Feneck</span><span>Jayant Bhandari</span><span>Chen Lin</span><span>Gerardo Del Real</span><span>Tekoa Da Silva</span><span>Trevor Hall</span><span>Kai Hoffmann</span><span>Robert Friedland</span><span>Rob McEwen</span><span>Keith Neumeyer</span><span>Frank Giustra</span><span>Ross Beaty</span><span>Nolan Watson</span><span>Randy Smallwood</span><span>Amir Adnani</span><span>Michael Konnert</span><span>Shawn Khunkhun</span><span>Walter Coles Jr.</span><span>John Black</span><span>Ivan Bebek</span><span>Mark Bristow</span><span>Sean Boyd</span><span>Ammar Al-Joundi</span><span>Jack Lundin</span><span>Richard Adkerson</span><span>Kathleen Quirk</span><span>Mark Hill</span><span>Natascha Viljoen</span><span>Tom Palmer</span>
+          </div>
+        </details>
+      </div>
+
+      <div class="tracker" style="margin-top:16px">
+        <details>
+          <summary>X 账号池：35 个可点击账号</summary>
+          <div class="name-cloud" aria-label="X 账号池">
+            <a href="https://x.com/RealRickRule" target="_blank" rel="noopener">Rick Rule</a><a href="https://x.com/KatusaResearch" target="_blank" rel="noopener">Marin Katusa</a><a href="https://x.com/ResourceMaven" target="_blank" rel="noopener">Gwen Preston</a><a href="https://x.com/TheDailyGold" target="_blank" rel="noopener">Jordan Roy-Byrne</a><a href="https://x.com/Brien_Lundin" target="_blank" rel="noopener">Brien Lundin</a><a href="https://x.com/silverguru22" target="_blank" rel="noopener">David Morgan</a><a href="https://x.com/peter_krauth" target="_blank" rel="noopener">Peter Krauth</a><a href="https://x.com/ArcadiaEconomic" target="_blank" rel="noopener">Chris Marcus</a><a href="https://x.com/duediligenceguy" target="_blank" rel="noopener">Lobo Tiggre</a><a href="https://x.com/mercenarygeo" target="_blank" rel="noopener">Mickey Fulp</a><a href="https://x.com/JoeMazumdar" target="_blank" rel="noopener">Joe Mazumdar</a><a href="https://x.com/KaiserResearch" target="_blank" rel="noopener">John Kaiser</a><a href="https://x.com/SteveTodoruk" target="_blank" rel="noopener">Steve Todoruk</a><a href="https://x.com/TaviCosta" target="_blank" rel="noopener">Otavio Costa</a><a href="https://x.com/RonStoeferle" target="_blank" rel="noopener">Ronnie Stoeferle</a><a href="https://x.com/wmiddelkoop" target="_blank" rel="noopener">Willem Middelkoop</a><a href="https://x.com/LawrenceLepard" target="_blank" rel="noopener">Lawrence Lepard</a><a href="https://x.com/mjgeiger" target="_blank" rel="noopener">Matt Geiger</a><a href="https://x.com/Junior_Stock" target="_blank" rel="noopener">Brian Leni</a><a href="https://x.com/Jamie_Keech" target="_blank" rel="noopener">Jamie Keech</a><a href="https://x.com/JuniorMinerJunky" target="_blank" rel="noopener">David Erfle</a><a href="https://x.com/JohnFeneck" target="_blank" rel="noopener">John Feneck</a><a href="https://x.com/JayantBhandari5" target="_blank" rel="noopener">Jayant Bhandari</a><a href="https://x.com/chenpicks" target="_blank" rel="noopener">Chen Lin</a><a href="https://x.com/GerardoDelReal" target="_blank" rel="noopener">Gerardo Del Real</a><a href="https://x.com/TekoaDaSilva" target="_blank" rel="noopener">Tekoa Da Silva</a><a href="https://x.com/soarfinancial" target="_blank" rel="noopener">Kai Hoffmann</a><a href="https://x.com/RobMcEwenMUX" target="_blank" rel="noopener">Rob McEwen</a><a href="https://x.com/keith_neumeyer" target="_blank" rel="noopener">Keith Neumeyer</a><a href="https://x.com/Frank_Giustra" target="_blank" rel="noopener">Frank Giustra</a><a href="https://x.com/NolanWatson" target="_blank" rel="noopener">Nolan Watson</a><a href="https://x.com/AmirAdnani" target="_blank" rel="noopener">Amir Adnani</a><a href="https://x.com/MichaelKonnert" target="_blank" rel="noopener">Michael Konnert</a><a href="https://x.com/WalterColesJr" target="_blank" rel="noopener">Walter Coles Jr.</a><a href="https://x.com/ivanbebek" target="_blank" rel="noopener">Ivan Bebek</a>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="sources" class="section">
+      <div class="section-head">
+        <span class="section-num">LOG</span>
+        <h2>来源与后续更新</h2>
+      </div>
+      <ol class="source-list">
+        <li><a href="https://sprott.com/insights/" target="_blank" rel="noopener">Sprott Insights</a>：2026 年 report / video / webcast 列表，覆盖 Paul Wong、Jacob White、John Ciampaglia、Maria Smirnova、Justin Tolman 等。</li>
+        <li><a href="https://www.miningstockdaily.com/" target="_blank" rel="noopener">Mining Stock Daily</a>：官网说明节目发布节奏、Trevor Hall 的主持定位和本周公司流。</li>
+        <li><a href="https://resourcetalks.com/" target="_blank" rel="noopener">Resource Talks</a>：视频采访目录，适合跟踪 junior mining CEO 访谈和项目可行性问题。</li>
+        <li><a href="https://www.soarfinancial.com/" target="_blank" rel="noopener">Soar Financial</a>：Kai Hoffmann / Soar Financially / Gold Newsletter Channel / Deutsche Goldmesse 的频道定位。</li>
+        <li><a href="https://fcx.com/about/leadership" target="_blank" rel="noopener">Freeport-McMoRan leadership</a>：Richard Adkerson 与 Kathleen Quirk 的官方职务。</li>
+        <li><a href="https://www.newmont.com/about-us/leadership/default.aspx" target="_blank" rel="noopener">Newmont leadership</a>：Natascha Viljoen 的官方 CEO 职务与履历。</li>
+        <li><a href="https://ruleinvestmentmedia.com/" target="_blank" rel="noopener">Rule Investment Media</a>：Rick Rule 的 portfolio review 与 newsletter 入口。</li>
+      </ol>
+      <div class="note">
+        <b>资料口径：</b>每日 7:00 自动刷新，并固定使用报告日前一天 00:00-24:00 的北京时间窗口。Broadcast 以节目页、频道页和可核验字幕为准；发现访谈但无 transcript 时再转录。X 以名单账号原帖为准，只收金、银、铜供需相关内容，不摘录无法验证的原帖。
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    本页为研究线索整理，不构成投资建议。所有公司、矿山、品位、产量、估值或价格判断均需回到公司公告、监管披露和技术报告复核。
+  </footer>
+</body>
+</html>
