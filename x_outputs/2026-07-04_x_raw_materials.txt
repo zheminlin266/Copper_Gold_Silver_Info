@@ -2,14 +2,86 @@ X raw materials before filtering
 Report day: 2026-07-04
 Collection date: 2026-07-06
 Method:
-- Used logged-in Chrome on X via Browser Use.
-- Seed pool came from mining_people_broadcast_x_articles.csv handles, split into batches with from:handle OR queries.
-- Final day attribution uses Asia/Shanghai time converted from the exact UTC timestamp on the status page.
+- Used Playwright with storage_state from .browser_profile/x_auth.json (Chrome).
+- Seed pool from mining_people_broadcast_x_articles.csv handles.
+- Each handle searched with from:handle + gold/silver/copper/mining terms.
+- Final day attribution uses Asia/Shanghai time from exact time element datetime.
 
 2026-07-04 (Asia/Shanghai window)
-Raw result:
-- Seeded X account-pool searches did not return a candidate whose exact status-page timestamp landed inside 2026-07-04 00:00:00-23:59:59 Asia/Shanghai.
+Raw candidates found before filtering:
+1. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2073104787030286491
+   UTC: 2026-07-03T18:01:12.000Z
+   Beijing: 2026-07-04 02:01:12
+   Text: For more than a decade, US electricity demand went nowhere. 
+
+It sat flat below 3.75 trillion kilowatt-hours.
+
+While utilities planned their entire strategy around a line that refused to move.
+
+Then AI arrived, 
+
+And the line went vertical
+
+2. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2073392854269886911
+   UTC: 2026-07-04T13:05:52.000Z
+   Beijing: 2026-07-04 21:05:52
+   Text: I have never said to sell silver.
+
+(But silver did fall from almost $30 in 2020 to under $20 in 2022, and there were great buying opportunities among the stocks.)
+
+3. @TaviCosta
+   URL: https://x.com/TaviCosta/status/2073379626928484732
+   UTC: 2026-07-04T12:13:19.000Z
+   Beijing: 2026-07-04 20:13:19
+   Text: There is one important difference between your chart and mine.
+
+The data I’m using measures foreign holdings relative to total outstanding Treasury securities, excluding intragovernmental holdings.
+
+What it shows is that the surge in Treasury issuance is no longer being absorbed
+
+4. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2073318728578592919
+   UTC: 2026-07-04T08:11:19.000Z
+   Beijing: 2026-07-04 16:11:19
+   Text: Surinam: Gold and Oil
+
+5. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2073128771683586219
+   UTC: 2026-07-03T19:36:30.000Z
+   Beijing: 2026-07-04 03:36:30
+   Text: Mystery Solved: Lost Dutch Gold Ship Identified After Nearly 400 Years
+
+6. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2073113664496746844
+   UTC: 2026-07-03T18:36:28.000Z
+   Beijing: 2026-07-04 02:36:28
+   Text: And foreigners will keep buying gold, the asset without counter-party-risk
+
+7. @LawrenceLepard
+   URL: https://x.com/LawrenceLepard/status/2073434851932258567
+   UTC: 2026-07-04T15:52:45.000Z
+   Beijing: 2026-07-04 23:52:45
+   Text: We did but they (Fed and Treasury) did yield curve control from 1942-1951 which grew the Fed balance sheet and added to M2.  Thus the inflation in spite of a gold backed dollar internationally. Note: we did not have a domestic gold standard. Americans couldn’t legally hold gold
+
+8. @Frank_Giustra
+   URL: https://x.com/Frank_Giustra/status/2073332107611353231
+   UTC: 2026-07-04T09:04:29.000Z
+   Beijing: 2026-07-04 17:04:29
+   Text: Never gonna happen.  Stablecoins are the future of transactions. Gold is the protector of wealth.
+
 
 Filtering takeaway for this day:
-- Search worked.
-- Final result was "searched but no qualifying posts for this Beijing-day window."
+- Found 8 candidates. Filter by supply/demand relevance.
+- Candidate analysis:
+  * KatusaResearch (AI electricity demand): macro, not Au/Ag/Cu mining.
+  * duediligenceguy ("never said to sell silver"): price/stance commentary, not supply/demand.
+  * TaviCosta (US Treasury holdings): macro, not mining.
+  * wmiddelkoop "Surinam Gold and Oil": brief mention, no supply data.
+  * wmiddelkoop "Lost Dutch Gold Ship": historical/archaeology, not current supply.
+  * wmiddelkoop "foreigners will keep buying gold": investment-demand commentary, not mine supply or physical demand data.
+  * LawrenceLepard (yield curve control): macro/Fed history.
+  * Frank_Giustra (stablecoins vs gold): price/asset-class debate, not mining.
+- All 8 candidates fall under workflow section 4.2 exclusion: pure price call, broad macro, or no supply-demand meaning.
+- Final result: "searched, 8 candidates found, 0 passed the supply/demand filter for this Beijing-day window."
