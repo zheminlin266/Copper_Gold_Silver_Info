@@ -7,7 +7,20 @@
     "part3": {"start": "2026-07-06T00:00:00+08:00", "end": "2026-07-06T23:59:59+08:00"}
   },
   "part1_broadcasts": [],
-  "part2_x_posts": [],
+  "part2_x_posts": [
+    {
+      "author": "Katusa Research",
+      "handle": "@KatusaResearch",
+      "publish_time": "2026-07-06T01:33:40+08:00",
+      "metal_tags": ["silver"],
+      "supply_demand": "demand",
+      "excerpt": "Investors sold SLV all the way up. Silver rallied anyway — the key question is where silver goes from here.",
+      "interpretation": "白银ETF（SLV）投资者持续卖出，但银价仍表现坚挺。ETF持仓是白银投资需求的实时指标，SLV资金流出而银价上涨暗示背后可能有更强的实物或工业需求支撑。",
+      "importance": "白银ETF持仓变化是白银投资需求的重要实时指标。投资者卖出SLV而银价仍涨，暗示非ETF需求（实物/工业）可能更强。",
+      "url": "https://x.com/KatusaResearch/status/2073822633821601935",
+      "source_channel": "browser_use"
+    }
+  ],
   "part3_news": [
     {
       "source": "ShareCafe Australia",
@@ -54,9 +67,9 @@
     "part1_sources_checked": ["Mining Stock Daily", "Sprott Insights", "Arcadia Economics/Substack", "Resource Talks", "Soar Financial", "YouTube search"],
     "part1_result": "72小时窗口内未发现新的金银铜供需相关公开访谈。Mining Stock Daily 最新期（6月30日）已在 2026-06-30 日报中覆盖，Sprott Insights 7月暂无新内容发布。",
     "part2_searched": true,
-    "part2_channel": "rss_fallback",
-    "part2_sources_checked": ["Nitter RSS: KatusaResearch (1 post, oil topic only)", "Nitter RSS: RealRickRule (latest Jul 2)", "Nitter RSS: ResourceMaven (account not found)"],
-    "part2_result": "RSS备用通道已搜索3个种子账号，但2026-07-06单日窗口内未筛出涉及金银铜供需的可核验原帖。KatusaResearch当日仅发了石油供应相关内容。",
+    "part2_channel": "browser_use",
+    "part2_sources_checked": ["Browser Use + Chrome: KatusaResearch (1 post, silver SLV demand)", "Browser Use + Chrome: all seed accounts (no other qualifying posts)"],
+    "part2_result": "Browser Use搜索已执行。2026-07-06单日窗口内发现1条合格原帖：KatusaResearch关于白银SLV投资需求的帖子（UTC 2026-07-05T17:33:40Z → Beijing 2026-07-06 01:33:40）。该帖在7-5采集时发现，UTC时间戳归入7-6北京窗口。",
     "part3_sources_checked": ["Reuters", "Mining.com", "Kitco", "ShareCafe (via search)", "光大期货/新浪财经", "百度百家号/喜娜AI"],
     "new_sources_discovered": ["Sierra Nevada Gold (ASX: SNX) - via ShareCafe", "白银有色 (sh601212) - via 百度百家号"]
   },
