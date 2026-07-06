@@ -1,0 +1,64 @@
+X raw materials before filtering
+Report day: 2026-07-06
+Collection date: 2026-07-07
+Method:
+- Used Playwright with storage_state from .browser_profile/x_auth.json (Chrome).
+- Seed pool from mining_people_broadcast_x_articles.csv handles.
+- Each handle searched with from:handle + gold/silver/copper/mining terms.
+- Final day attribution uses Asia/Shanghai time from exact time element datetime.
+
+2026-07-06 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2073979020182757794
+   UTC: 2026-07-06T03:55:05.000Z
+   Beijing: 2026-07-06 11:55:05
+   Text: Oil supply came back quickly once tensions eased. 
+
+Gasoline and diesel supply did not. 
+
+Empty fuel tanks take months to refill, and until they do, the price at the pump stays high.
+
+2. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2073822633821601935
+   UTC: 2026-07-05T17:33:40.000Z
+   Beijing: 2026-07-06 01:33:40
+   Text: Investors sold SLV all the way up. 
+
+Silver rallied anyway. 
+
+Now the same crowd is walking away at a price that would have looked like a moonshot last July.
+
+3. @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2074123669635322030
+   UTC: 2026-07-06T13:29:52.000Z
+   Beijing: 2026-07-06 21:29:52
+   Text: Gold miners run the world's strangest business: they dig up the antidote – and immediately swap it for the poison.
+
+The industry tells investors to hold 5–10% in gold. Its own treasuries? ~100% fiat.
+
+Time for a Corporate Gold Standard. 
+
+New #IGWT26 Nugget 
+
+4. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2074060315084382410
+   UTC: 2026-07-06T09:18:07.000Z
+   Beijing: 2026-07-06 17:18:07
+   Text: Central Banks & Gold
+
+5. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2073837736704831500
+   UTC: 2026-07-05T18:33:41.000Z
+   Beijing: 2026-07-06 02:33:41
+   Text: PS: Boumadine isn’t a silver deposit. It’s poly-metallic, with a silver credit
+
+6. @LawrenceLepard
+   URL: https://x.com/LawrenceLepard/status/2074141043172266057
+   UTC: 2026-07-06T14:38:55.000Z
+   Beijing: 2026-07-06 22:38:55
+   Text: Bitcoin is a screaming buy here in gold terms.  I have been swapping gold and silver related positions for bitcoin related positions.
+
+
+Filtering takeaway for this day:
+- Found 6 candidates. Filter by supply/demand relevance.
