@@ -1,0 +1,50 @@
+X raw materials before filtering
+Report day: 2026-07-01
+Collection date: 2026-07-06
+Method:
+- Used logged-in Chrome on X via Browser Use.
+- Seed pool came from mining_people_broadcast_x_articles.csv handles, split into batches with from:handle OR queries.
+- Final day attribution uses Asia/Shanghai time converted from the exact UTC timestamp on the status page.
+
+2026-07-01 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. Peter Krauth @peter_krauth
+   URL: https://x.com/peter_krauth/status/2072068375874805825
+   UTC: 2026-06-30T19:00:00Z
+   Beijing time: 2026-07-01 03:00:00
+   Raw text: BPSilverCorp near Cerro Rico; significant silver discovery; fully funded work program.
+2. Rick Rule @RealRickRule
+   URL: https://x.com/RealRickRule/status/2072038232095965555
+   UTC: 2026-06-30T19:23:05Z
+   Beijing time: 2026-07-01 03:23:05
+   Raw text: quote post referencing Nomi Prins on paper silver vs physical demand.
+3. Ronnie Stoeferle @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2072024367341703253
+   UTC: 2026-06-30T18:28:00Z
+   Beijing time: 2026-07-01 02:28:00
+   Raw text: family office allocation to silver at 0%.
+4. Peter Krauth @peter_krauth
+   URL: https://x.com/peter_krauth/status/2072044547333603583
+   UTC: 2026-06-30T19:48:11Z
+   Beijing time: 2026-07-01 03:48:11
+   Raw text: Argenta Silver El Quevar; 20+ priority targets across 57,000 hectares; less than 3% explored.
+5. Willem Middelkoop @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2072214289201442875
+   UTC: 2026-07-01T07:02:41Z
+   Beijing time: 2026-07-01 15:02:41
+   Raw text: "Central banks think the US has become riskier. They plan to sell dollars and buy gold."
+6. Lobo Tiggre @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2072306463108661372
+   UTC: 2026-07-01T13:08:57Z
+   Beijing time: 2026-07-01 21:08:57
+   Raw text: aluminum wiring in cars; whether OEMs expect copper prices to remain high.
+7. Chris Marcus @ArcadiaEconomic
+   URL: https://x.com/ArcadiaEconomic/status/2072428699874406770
+   UTC: 2026-07-01T21:14:40Z
+   Beijing time: 2026-07-02 05:14:40
+   Raw text: "Gold & Silver To Crash If Fed Hikes Rates?"
+   Preliminary note: belongs to 2026-07-02 Beijing time, not 2026-07-01.
+
+Filtering takeaway for this day:
+- Final HTML kept Peter Krauth's two silver project posts and Lobo Tiggre's copper substitution discussion.
+- The rest stayed as raw candidates only.

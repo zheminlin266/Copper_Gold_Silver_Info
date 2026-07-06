@@ -1,0 +1,102 @@
+X raw materials before filtering
+Report day: 2026-07-05
+Collection date: 2026-07-06
+Method:
+- Used logged-in Chrome on X via Browser Use.
+- Seed pool came from mining_people_broadcast_x_articles.csv handles, split into batches with from:handle OR queries.
+- Added a second pass over major gold/silver/copper company official accounts.
+- Search window intentionally over-included 2026-07-04 through 2026-07-06 so Beijing-day attribution could be made from exact status-page UTC timestamps.
+- Final day attribution uses Asia/Shanghai time converted from the exact UTC timestamp on the status page.
+
+Queries run:
+- (from:RealRickRule OR from:KatusaResearch OR from:ResourceMaven OR from:TheDailyGold OR from:Brien_Lundin OR from:silverguru22) plus gold/silver/copper/mining/project/production/supply/demand/permit/smelter/mill/drill/resource/reserve terms.
+- (from:peter_krauth OR from:ArcadiaEconomic OR from:duediligenceguy OR from:mercenarygeo OR from:JoeMazumdar OR from:KaiserResearch) plus the same terms.
+- (from:SteveTodoruk OR from:TaviCosta OR from:RonStoeferle OR from:wmiddelkoop OR from:LawrenceLepard OR from:mjgeiger) plus the same terms.
+- (from:Junior_Stock OR from:Jamie_Keech OR from:JuniorMinerJunky OR from:JohnFeneck OR from:JayantBhandari5 OR from:chenpicks) plus the same terms.
+- (from:GerardoDelReal OR from:TekoaDaSilva OR from:soarfinancial OR from:RobMcEwenMUX OR from:keith_neumeyer OR from:Frank_Giustra) plus the same terms.
+- (from:NolanWatson OR from:AmirAdnani OR from:MichaelKonnert OR from:ivanbebek) plus the same terms.
+- Official-company pass: BarrickGold, NewmontCorp, agnicoeagle, FreeportFCX, IvanhoeMines_, RioTinto, Glencore, TeckResources, CodelcoChile, AntofagastaPLC, LundinMining, FirstMajesticAG, PanAmericanSlvr, Wheaton_PM, SandstormSSL, McEwenMining, VizslaSilverCorp, SkeenaResources.
+
+2026-07-05 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. David Morgan @silverguru22
+   URL: https://x.com/silverguru22/status/2073578778312552714
+   UTC: 2026-07-05T01:24:40Z
+   Beijing time: 2026-07-05 09:24:40
+   Raw text: "Silver's Supply Problem: Paying for Ounces Still in the Ground" linking to an Investing.com silver supply article.
+   Preliminary note: silver supply theme, but the X post is a link share rather than an original supply-data post.
+2. David Morgan @silverguru22
+   URL: https://x.com/silverguru22/status/2073577872875491630
+   UTC: 2026-07-05T01:21:04Z
+   Beijing time: 2026-07-05 09:21:04
+   Raw text: "Silver at a Crossroads: Why the 42% Drop May Be Hiding the Real Story" linking to Investing.com.
+   Preliminary note: mostly silver investment/price framing; weak direct supply-demand content from the X text alone.
+3. David Morgan @silverguru22
+   URL: https://x.com/silverguru22/status/2073576003218346033
+   UTC: 2026-07-05T01:13:39Z
+   Beijing time: 2026-07-05 09:13:39
+   Raw text: "The stock market slid this week. Should you buy gold, or wait it out?" linking to USA Today.
+   Preliminary note: gold investment article; not a mining supply-demand post.
+4. David Morgan @silverguru22
+   URL: https://x.com/silverguru22/status/2073575893096882420
+   UTC: 2026-07-05T01:13:12Z
+   Beijing time: 2026-07-05 09:13:12
+   Raw text: "Why Are Central Banks Buying So Much Gold? 90% Institutions Cite This Reason" linking to Finance Yahoo.
+   Preliminary note: possible gold investment-demand angle; not a mine supply or directly sourced official demand-data post.
+5. David Morgan @silverguru22
+   URL: https://x.com/silverguru22/status/2073499537705250842
+   UTC: 2026-07-04T20:09:48Z
+   Beijing time: 2026-07-05 04:09:48
+   Raw text: "What Happened to 62,000 Tons of American Silver?" linking to a YouTube video.
+   Preliminary note: historical silver-stock discussion; not a current-day supply-demand signal.
+6. Lobo Tiggre @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2073782775048511756
+   UTC: 2026-07-05T14:55:17Z
+   Beijing time: 2026-07-05 22:55:17
+   Raw text: "I understand, but commodities prices often fall below the cost of production when Mr. Market gets silly..."
+   Preliminary note: broad commodity-cost comment in an oil thread; not gold/silver/copper-specific.
+7. Lobo Tiggre @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2073500320273993744
+   UTC: 2026-07-04T20:12:54Z
+   Beijing time: 2026-07-05 04:12:54
+   Raw text: "Sure, but some gold bulls have been saying this is imminent for 15 years..."
+   Preliminary note: gold macro/price debate; no direct supply-demand content.
+8. Lobo Tiggre @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2073452362178478295
+   UTC: 2026-07-04T17:02:20Z
+   Beijing time: 2026-07-05 01:02:20
+   Raw text: "Marking to market might help put a new floor under gold..."
+   Preliminary note: gold monetary-price comment; not mine supply or physical demand.
+9. Willem Middelkoop @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2073688603213889947
+   UTC: 2026-07-05T08:41:04Z
+   Beijing time: 2026-07-05 16:41:04
+   Raw text: "Side note, AYA's silver mine has been mined out for 90%. Try to find a graph showing what's left"
+   Preliminary note: direct silver mine depletion / remaining-resource claim in a thread about primary silver producers; strongest raw candidate for supply relevance, but should be treated as an expert comment unless cross-checked against company technical disclosure.
+10. Otavio (Tavi) Costa @TaviCosta
+   URL: https://x.com/TaviCosta/status/2073568822951628874
+   UTC: 2026-07-05T00:45:07Z
+   Beijing time: 2026-07-05 08:45:07
+   Raw text: long-form article arguing that central banks are accumulating gold at the fastest pace in generations and that US monetary credibility depends partly on balance-sheet confidence.
+   Preliminary note: possible gold investment-demand context; macro essay, not a mining supply signal.
+11. Frank Giustra @Frank_Giustra
+   URL: https://x.com/Frank_Giustra/status/2073679913945596146
+   UTC: 2026-07-05T08:06:33Z
+   Beijing time: 2026-07-05 16:06:33
+   Raw text: Bitcoin-vs-gold debate reply referencing gold price at the time of an earlier debate.
+   Preliminary note: price/commentary only; not supply-demand.
+12. Katusa Research @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2073822633821601935
+   UTC: 2026-07-05T17:33:40Z
+   Beijing time: 2026-07-06 01:33:40
+   Raw text: "Investors sold SLV all the way up. Silver rallied anyway..."
+   Preliminary note: belongs to the 2026-07-06 Beijing-day window, not 2026-07-05; also primarily investment-flow commentary.
+
+Official-company account pass:
+- No qualifying visible results were returned for the searched major gold/silver/copper company official-account batches inside the over-included search window.
+
+Filtering takeaway for this day:
+- Search worked and original status pages were opened for the candidates above.
+- The strongest supply-relevant raw hit was Willem Middelkoop's AYA silver-mine depletion comment.
+- David Morgan's silver-supply link share is thematically relevant but should be verified from the linked article before use as a report item.
+- Most other hits were macro, price, investment, historical, or cross-asset commentary and should remain raw-only under the workflow's supply-demand filter.

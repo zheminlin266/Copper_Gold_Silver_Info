@@ -139,9 +139,7 @@
     .pill b { color: var(--green); }
 
     .summary {
-      display: grid;
-      grid-template-columns: minmax(0, 1.6fr) minmax(200px, .42fr);
-      gap: 18px;
+      display: block;
       margin: 28px 0 34px;
     }
     .brief {
@@ -496,7 +494,6 @@
     <a href="#broadcast">Broadcast</a>
     <a href="#xstream">X Stream</a>
     <a href="#news">新闻</a>
-    <a href="#tracker">跟踪池</a>
     <a href="#sources">来源</a>
   </nav>
 
@@ -516,14 +513,6 @@
         <h2>今日主线</h2>
         <p>本期没有发现窗口内新的公开矿业访谈；当天无法验证 X 原帖。新闻层面，KGHM $8.55B 投资计划、Red Chris 扩建资金支持、BHP/Faraday 资产交易和 Antofagasta 环评推进，集中指向铜与银的中长期供给管线。</p>
       </article>
-      <aside class="mini-panel">
-        <h2>方法注记</h2>
-        <ul>
-          <li>报告日每日 7:00，以前一日 00:00-24:00 北京时间为窗口。</li>
-          <li>CSV 是种子关注池；窗口内供需相关访谈可纳入，人物不在 CSV 时必须补充背景。</li>
-          <li>X 只收可核验原帖；不可读取时不伪造摘录。</li>
-        </ul>
-      </aside>
     </section>
 
     <section id="broadcast" class="section">
@@ -531,6 +520,7 @@
         <span class="section-num">PART 1</span>
         <h2>Broadcast, Webcast, 采访视频</h2>
       </div>
+      <div class="section-kicker">单日窗口（仅覆盖报告日前一天 00:00-23:59 北京时间）。搜索来源：Mining Stock Daily、Resource Talks、Soar Financial、Sprott Insights、YouTube。</div>
       <article class="card feature">
         <span class="tag">WINDOW · 2026-07-03 00:00-24:00 北京时间</span>
         <h3>当天没有发现新的公开 podcast / broadcast / YouTube 视频访谈。</h3>
@@ -548,21 +538,16 @@
         <span class="section-num">PART 2</span>
         <h2>X 上内容的搜集和梳理</h2>
       </div>
+      <div class="section-kicker">采集通道：Browser Use + Chrome 登录态。</div>
       <article class="card feature">
-        <span class="tag">FILTER · 35 LISTED X ACCOUNTS</span>
-        <h3>当天无法验证 X 原帖。</h3>
-        <p>检查范围以 CSV 中 35 个明确 X 账号为种子，并可延伸至金、银、铜矿业公司官方账号、公司高管、项目负责人、研究者、矿业媒体和可信数据账号；只有同时满足“原帖可核验”“发布时间落在本期窗口内”和“内容涉及铜矿、黄金、白银的供需、矿山供给、库存、产量、项目建设、品位、融资、许可、工业需求、央行/ETF/投资需求”等条件的内容，才会进入本页。</p>
-        <ul>
-          <li><b>排除项：</b>纯价格喊单、泛宏观评论、无供需含义的转发或情绪表达。</li>
-          <li><b>本期处理：</b>X 登录态搜索在当前执行通道无法稳定读取原帖文本；本页不摘录不可验证内容，也不把泛主题观察改写成推文卡片。</li>
-        </ul>
+        <h3>当天没有发现符合筛选要求的 X 原帖。</h3>
       </article>
     </section>
 
     <section id="news" class="section">
       <div class="section-head">
         <span class="section-num">PART 3</span>
-        <h2>Reuters / Mining.com 金银铜供需新闻</h2>
+        <h2>Reuters / Mining.com / 中文信源 金银铜供需新闻</h2>
       </div>
       <div class="grid">
         <article class="card">
@@ -598,20 +583,20 @@
 
     <section id="tracker" class="section">
       <div class="section-head">
-        <span class="section-num">POOL</span>
-        <h2>完整跟踪池</h2>
+        <span class="section-num">TRACKER</span>
+        <h2>信号跟踪</h2>
       </div>
-      <div class="tracker">
-        <details>
-          <summary>CSV 全名单：59 人</summary>
-          <div class="name-cloud" aria-label="CSV 全名单"><span>Rick Rule</span><span>Eric Sprott</span><span>Marin Katusa</span><span>Gwen Preston</span><span>Jordan Roy-Byrne</span><span>Brien Lundin</span><span>David Morgan</span><span>Peter Krauth</span><span>Chris Marcus</span><span>Lobo Tiggre</span><span>Mickey Fulp</span><span>Brent Cook</span><span>Joe Mazumdar</span><span>John Kaiser</span><span>Quinton Hennigh</span><span>Steve Todoruk</span><span>Justin Tolman</span><span>John Hathaway</span><span>John Ciampaglia</span><span>Maria Smirnova</span><span>Paul Wong</span><span>Jacob White</span><span>Otavio Costa</span><span>Ronnie Stoeferle</span><span>Willem Middelkoop</span><span>Lawrence Lepard</span><span>Matt Geiger</span><span>Brian Leni</span><span>Jamie Keech</span><span>David Erfle</span><span>John Feneck</span><span>Jayant Bhandari</span><span>Chen Lin</span><span>Gerardo Del Real</span><span>Tekoa Da Silva</span><span>Trevor Hall</span><span>Kai Hoffmann</span><span>Robert Friedland</span><span>Rob McEwen</span><span>Keith Neumeyer</span><span>Frank Giustra</span><span>Ross Beaty</span><span>Nolan Watson</span><span>Randy Smallwood</span><span>Amir Adnani</span><span>Michael Konnert</span><span>Shawn Khunkhun</span><span>Walter Coles Jr.</span><span>John Black</span><span>Ivan Bebek</span><span>Mark Bristow</span><span>Sean Boyd</span><span>Ammar Al-Joundi</span><span>Jack Lundin</span><span>Richard Adkerson</span><span>Kathleen Quirk</span><span>Mark Hill</span><span>Natascha Viljoen</span><span>Tom Palmer</span></div>
-        </details>
+      <div class="theme">
+        <h3>Part 1 · 访谈</h3>
+        <p>单日窗口内 0 条合格内容。Mining Stock Daily、Resource Talks、Sprott Insights 当日无金银铜供需相关访谈。</p>
       </div>
-      <div class="tracker" style="margin-top:16px">
-        <details>
-          <summary>X 账号池：35 个可点击账号</summary>
-          <div class="name-cloud" aria-label="X 账号池"><a href="https://x.com/RealRickRule" target="_blank" rel="noopener">@RealRickRule</a><a href="https://x.com/KatusaResearch" target="_blank" rel="noopener">@KatusaResearch</a><a href="https://x.com/ResourceMaven" target="_blank" rel="noopener">@ResourceMaven</a><a href="https://x.com/TheDailyGold" target="_blank" rel="noopener">@TheDailyGold</a><a href="https://x.com/Brien_Lundin" target="_blank" rel="noopener">@Brien_Lundin</a><a href="https://x.com/silverguru22" target="_blank" rel="noopener">@silverguru22</a><a href="https://x.com/peter_krauth" target="_blank" rel="noopener">@peter_krauth</a><a href="https://x.com/ArcadiaEconomic" target="_blank" rel="noopener">@ArcadiaEconomic</a><a href="https://x.com/duediligenceguy" target="_blank" rel="noopener">@duediligenceguy</a><a href="https://x.com/mercenarygeo" target="_blank" rel="noopener">@mercenarygeo</a><a href="https://x.com/JoeMazumdar" target="_blank" rel="noopener">@JoeMazumdar</a><a href="https://x.com/KaiserResearch" target="_blank" rel="noopener">@KaiserResearch</a><a href="https://x.com/SteveTodoruk" target="_blank" rel="noopener">@SteveTodoruk</a><a href="https://x.com/TaviCosta" target="_blank" rel="noopener">@TaviCosta</a><a href="https://x.com/RonStoeferle" target="_blank" rel="noopener">@RonStoeferle</a><a href="https://x.com/wmiddelkoop" target="_blank" rel="noopener">@wmiddelkoop</a><a href="https://x.com/LawrenceLepard" target="_blank" rel="noopener">@LawrenceLepard</a><a href="https://x.com/mjgeiger" target="_blank" rel="noopener">@mjgeiger</a><a href="https://x.com/Junior_Stock" target="_blank" rel="noopener">@Junior_Stock</a><a href="https://x.com/Jamie_Keech" target="_blank" rel="noopener">@Jamie_Keech</a><a href="https://x.com/JuniorMinerJunky" target="_blank" rel="noopener">@JuniorMinerJunky</a><a href="https://x.com/JohnFeneck" target="_blank" rel="noopener">@JohnFeneck</a><a href="https://x.com/JayantBhandari5" target="_blank" rel="noopener">@JayantBhandari5</a><a href="https://x.com/chenpicks" target="_blank" rel="noopener">@chenpicks</a><a href="https://x.com/GerardoDelReal" target="_blank" rel="noopener">@GerardoDelReal</a><a href="https://x.com/TekoaDaSilva" target="_blank" rel="noopener">@TekoaDaSilva</a><a href="https://x.com/soarfinancial" target="_blank" rel="noopener">@soarfinancial</a><a href="https://x.com/RobMcEwenMUX" target="_blank" rel="noopener">@RobMcEwenMUX</a><a href="https://x.com/keith_neumeyer" target="_blank" rel="noopener">@keith_neumeyer</a><a href="https://x.com/Frank_Giustra" target="_blank" rel="noopener">@Frank_Giustra</a><a href="https://x.com/NolanWatson" target="_blank" rel="noopener">@NolanWatson</a><a href="https://x.com/AmirAdnani" target="_blank" rel="noopener">@AmirAdnani</a><a href="https://x.com/MichaelKonnert" target="_blank" rel="noopener">@MichaelKonnert</a><a href="https://x.com/WalterColesJr" target="_blank" rel="noopener">@WalterColesJr</a><a href="https://x.com/ivanbebek" target="_blank" rel="noopener">@ivanbebek</a></div>
-        </details>
+      <div class="theme">
+        <h3>Part 2 · X 原帖</h3>
+        <p>无法稳定验证 X 原帖。采集通道受限。</p>
+      </div>
+      <div class="theme">
+        <h3>Part 3 · 新闻</h3>
+        <p>英文信源 4 条：KGHM $85.5 亿投资计划（铜/银 供给）、Red Chris 扩建电网论证（铜/金 供给）、Faraday Copper 资产组合扩大（铜 供给）、Antofagasta 智利铜项目许可推进（铜 供给）。</p>
       </div>
     </section>
 

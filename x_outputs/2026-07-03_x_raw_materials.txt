@@ -1,0 +1,42 @@
+X raw materials before filtering
+Report day: 2026-07-03
+Collection date: 2026-07-06
+Method:
+- Used logged-in Chrome on X via Browser Use.
+- Seed pool came from mining_people_broadcast_x_articles.csv handles, split into batches with from:handle OR queries.
+- Final day attribution uses Asia/Shanghai time converted from the exact UTC timestamp on the status page.
+
+2026-07-03 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. Soar Financial @soarfinancial
+   URL: https://x.com/soarfinancial/status/2072727005796413890
+   UTC: 2026-07-02T17:00:02Z
+   Beijing time: 2026-07-03 01:00:02
+   Raw text: Springpole federal Environmental Assessment approval, Indigenous agreements, path toward construction.
+2. Peter Krauth @peter_krauth
+   URL: https://x.com/peter_krauth/status/2072756158402888053
+   UTC: 2026-07-02T18:55:52Z
+   Beijing time: 2026-07-03 02:55:52
+   Raw text: automotive demand as silver's next industrial growth engine; EVs, solid-state batteries, emerging markets.
+3. Willem Middelkoop @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2073318728578592919
+   UTC: 2026-07-03T09:47:01Z
+   Beijing time: 2026-07-03 17:47:01
+   Raw text: "Surinam: Gold and Oil" quoting offshore drilling discoveries in Suriname.
+   Preliminary note: mostly oil / offshore drilling, not gold-silver-copper mining supply-demand.
+4. Jamie Keech @Jamie_Keech
+   URL: https://x.com/Jamie_Keech/status/2073034014760595630
+   UTC: 2026-07-02T13:01:08Z
+   Beijing time: 2026-07-03 21:01:08
+   Raw text: "They could have just bought silver stocks..."
+   Preliminary note: joke / investment commentary, not a supply-demand post.
+5. Otavio (Tavi) Costa @TaviCosta
+   URL: https://x.com/TaviCosta/status/2073039541716570422
+   UTC: 2026-07-03T13:41:56Z
+   Beijing time: 2026-07-03 21:41:56
+   Raw text: "Gold rising again... risk-reward here is exceptionally compelling..."
+   Preliminary note: market opinion / macro, not a mining supply-demand post.
+
+Filtering takeaway for this day:
+- Final HTML kept Peter Krauth's silver industrial-demand post and Soar Financial's Springpole project-permitting update.
+- The Jamie Keech, Tavi Costa, and Willem Middelkoop hits remained raw-only and were filtered out.

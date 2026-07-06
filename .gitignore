@@ -1,2 +1,5 @@
 .agents/
 .git.broken-empty-*/
+.chrome-x-profile/
+.browser_profile/
+.workbuddy/

@@ -1,0 +1,11 @@
+# Python dependencies for Copper_Gold_Silver_Info data pipeline
+# Install: pip install -r scripts/requirements.txt
+
+feedparser>=6.0.0
+requests>=2.28.0
+
+# Optional: YouTube Data API
+# google-api-python-client>=2.70.0
+
+# Optional: HTML report rendering
+# jinja2>=3.1.0

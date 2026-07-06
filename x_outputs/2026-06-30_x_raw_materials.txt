@@ -1,0 +1,53 @@
+X raw materials before filtering
+Report day: 2026-06-30
+Collection date: 2026-07-06
+Method:
+- Used logged-in Chrome on X via Browser Use.
+- Seed pool came from mining_people_broadcast_x_articles.csv handles, split into batches with from:handle OR queries.
+- Final day attribution uses Asia/Shanghai time converted from the exact UTC timestamp on the status page.
+
+2026-06-30 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. Otavio (Tavi) Costa @TaviCosta
+   URL: https://x.com/TaviCosta/status/2071793503986975069
+   UTC: 2026-06-30T03:10:38Z
+   Beijing time: 2026-06-30 11:10:38
+   Raw text: "Meanwhile: Money supply is growing at its fastest pace in 5 years."
+   Preliminary note: macro / money-supply post, not a mining supply-demand post.
+2. Lobo Tiggre @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2071972036742693000
+   UTC: 2026-06-30T15:00:03Z
+   Beijing time: 2026-06-30 23:00:03
+   Raw text: "I'm back In The Pit with a new gold play, but there are risks and I've got questions..."
+   Preliminary note: stock-pitch / idea teaser, not a concrete mining supply-demand update.
+
+Query spillover that appeared in the same X search run but belongs to 2026-07-01 Beijing time:
+3. Lawrence Lepard @LawrenceLepard
+   URL: https://x.com/LawrenceLepard/status/2072006841752543245
+   UTC: 2026-06-30T17:18:21Z
+   Beijing time: 2026-07-01 01:18:21
+   Raw text: "$7,000 Gold, $180k Bitcoin, $200 Silver..."
+4. Rick Rule @RealRickRule
+   URL: https://x.com/RealRickRule/status/2072038232095965555
+   UTC: 2026-06-30T19:23:05Z
+   Beijing time: 2026-07-01 03:23:05
+   Raw text: quote post referencing Nomi Prins on paper silver vs physical demand.
+5. Peter Krauth @peter_krauth
+   URL: https://x.com/peter_krauth/status/2072068375874805825
+   UTC: 2026-06-30T19:00:00Z
+   Beijing time: 2026-07-01 03:00:00
+   Raw text: BPSilverCorp near Cerro Rico; significant silver discovery; fully funded work program.
+6. Peter Krauth @peter_krauth
+   URL: https://x.com/peter_krauth/status/2072044547333603583
+   UTC: 2026-06-30T19:48:11Z
+   Beijing time: 2026-07-01 03:48:11
+   Raw text: Argenta Silver El Quevar; 20+ priority targets across 57,000 hectares; less than 3% explored.
+7. Ronnie Stoeferle @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2072024367341703253
+   UTC: 2026-06-30T18:28:00Z
+   Beijing time: 2026-07-01 02:28:00
+   Raw text: family office allocation to silver at 0%.
+
+Filtering takeaway for this day:
+- Search worked.
+- No candidate both landed inside the 2026-06-30 Beijing window and met the gold / silver / copper mining supply-demand relevance bar.

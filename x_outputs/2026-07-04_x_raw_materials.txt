@@ -1,0 +1,15 @@
+X raw materials before filtering
+Report day: 2026-07-04
+Collection date: 2026-07-06
+Method:
+- Used logged-in Chrome on X via Browser Use.
+- Seed pool came from mining_people_broadcast_x_articles.csv handles, split into batches with from:handle OR queries.
+- Final day attribution uses Asia/Shanghai time converted from the exact UTC timestamp on the status page.
+
+2026-07-04 (Asia/Shanghai window)
+Raw result:
+- Seeded X account-pool searches did not return a candidate whose exact status-page timestamp landed inside 2026-07-04 00:00:00-23:59:59 Asia/Shanghai.
+
+Filtering takeaway for this day:
+- Search worked.
+- Final result was "searched but no qualifying posts for this Beijing-day window."

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026-07-06 · 矿业人物前日信息捕捉</title>
+  <style>
+    :root {
+      --paper: #fff;
+      --paper-2: #fff;
+      --surface: #fff;
+      --surface-2: #ede6d8;
+      --ink: #15261d;
+      --text: #304239;
+      --muted: #68766c;
+      --line: rgba(21, 38, 29, .14);
+      --line-strong: rgba(21, 38, 29, .24);
+      --green: #1f5e43;
+      --green-2: #2f7a56;
+      --green-3: #7c9a63;
+      --green-soft: rgba(47, 122, 86, .10);
+      --olive-soft: rgba(124, 154, 99, .16);
+      --blue-soft: rgba(55, 138, 221, .10);
+      --shadow: 0 18px 50px rgba(35, 45, 35, .08);
+      --radius: 8px;
+      --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
+      --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 17px;
+      line-height: 1.78;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: var(--green); text-decoration: none; border-bottom: 1px solid rgba(31, 94, 67, .25); }
+    a:hover { color: #123e2b; border-bottom-color: #123e2b; }
+    strong, b { color: var(--ink); }
+    mark {
+      background: linear-gradient(transparent 58%, rgba(124, 154, 99, .28) 0);
+      color: var(--ink);
+      padding: 0 .08em;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      padding: 10px clamp(18px, 4vw, 42px);
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, .92);
+      backdrop-filter: blur(16px);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .06em;
+      text-transform: uppercase;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+    .topbar .brand {
+      color: var(--ink);
+      font-weight: 700;
+      border-bottom: 0;
+      margin-right: 4px;
+    }
+    .topbar a { color: var(--muted); border: 0; }
+    .topbar a:hover { color: var(--green); }
+
+    .wrap {
+      width: min(1120px, calc(100vw - 36px));
+      margin: 0 auto;
+    }
+    .hero {
+      padding: 58px 0 24px;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 12px;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: var(--green-2);
+    }
+    h1 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: clamp(30px, 4vw, 46px);
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+    .hero-sub {
+      max-width: 860px;
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: clamp(17px, 2vw, 21px);
+      line-height: 1.7;
+    }
+    .meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    .pill {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      padding: 5px 11px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 253, 246, .62);
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 12px;
+    }
+    .pill b { color: var(--green); }
+    .pill.lang-en { background: rgba(55, 138, 221, .08); }
+    .pill.lang-zh { background: rgba(47, 122, 86, .08); }
+    .data-link-box {
+      margin-top: 14px;
+      padding: 6px 14px;
+      background: rgba(183, 149, 11, .08);
+      border: 1px solid rgba(183, 149, 11, .22);
+      border-radius: 6px;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .data-link-box a { color: var(--green); border: 0; }
+    .data-icon { margin-right: 4px; color: #BA7517; }
+
+    .summary {
+      display: block;
+      margin: 28px 0 34px;
+    }
+    .brief {
+      background: var(--surface);
+      border: 1px solid var(--line-strong);
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+      padding: 22px 26px;
+      box-shadow: var(--shadow);
+    }
+    .brief h2 {
+      margin: 0;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.24;
+    }
+    .brief p { margin: 13px 0 0; }
+
+    .section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: flex;
+      align-items: baseline;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .section-num {
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .13em;
+    }
+    .section-head h2 {
+      font-size: clamp(27px, 4vw, 42px);
+      color: var(--ink);
+      font-family: var(--serif);
+      font-weight: 500;
+      line-height: 1.24;
+      margin: 0;
+    }
+    .section-note {
+      margin: -10px 0 24px 48px;
+      max-width: 860px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 22px 24px;
+      box-shadow: 0 8px 26px rgba(35, 45, 35, .04);
+    }
+    .card.feature {
+      grid-column: 1 / -1;
+      border-left: 4px solid var(--green);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+    .card .tag {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .card .tag span {
+      display: inline-flex;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      color: var(--ink);
+      font-family: var(--serif);
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 1.32;
+    }
+    .card p { margin: 9px 0; }
+    .importance {
+      margin-top: 12px;
+      padding: 10px 12px;
+      background: var(--olive-soft);
+      border-left: 3px solid var(--green-3);
+      color: var(--text);
+      font-size: 15px;
+    }
+    .card .source-meta {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .card .source-meta a { color: var(--muted); border-bottom: 0; }
+    .card .source-meta a:hover { color: var(--green); }
+
+    .pending {
+      color: var(--muted);
+      font-size: 14px;
+      padding: 20px 0;
+    }
+    .channel-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding: 8px 14px;
+      background: rgba(55, 138, 221, .12);
+      border: 1px solid rgba(55, 138, 221, .28);
+      border-radius: 6px;
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .06em;
+      color: #185FA5;
+    }
+    .channel-badge.fallback {
+      background: rgba(216, 90, 48, .10);
+      border-color: rgba(216, 90, 48, .28);
+      color: #993C1D;
+    }
+    .channel-badge::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+    }
+    .channel-badge::before {
+      background: #378ADD;
+    }
+    .channel-badge.fallback::before {
+      background: #D85A30;
+    }
+
+    .theme {
+      display: grid;
+      grid-template-columns: 170px minmax(0, 1fr);
+      gap: 18px;
+      padding: 18px 0;
+      border-top: 1px solid var(--line);
+    }
+    .theme:first-child { border-top: 0; }
+    .theme h3 {
+      margin: 0;
+      color: var(--green);
+      font-family: var(--mono);
+      font-size: 13px;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .theme p { margin: 0; }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: 1fr; }
+      .card.feature { grid-column: 1; }
+      .theme { grid-template-columns: 1fr; gap: 6px; }
+      .hero { padding-top: 42px; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="topbar">
+    <a class="brand" href="../../index.html">每日金属矿业</a>
+    <a href="#broadcast">Broadcast</a>
+    <a href="#xstream">X Stream</a>
+    <a href="#news">News</a>
+    <a href="#tracker">Tracker</a>
+    <a href="#sources">Sources</a>
+  </nav>
+
+  <main class="wrap">
+    <header class="hero">
+      <div class="eyebrow">Gold Silver Copper · Supply &amp; Demand</div>
+      <h1>2026-07-06 矿业人物 Broadcast &amp; 金银铜供需</h1>
+      <p class="hero-sub">
+        本期覆盖 2026-07-06 北京时间。Part 1（访谈）使用 72 小时窗口（07-04 至 07-06），Part 2（X 原帖）和 Part 3（新闻）使用单日窗口（07-06 00:00-23:59）。Part 3 同时覆盖英文信源（Reuters / Mining.com）和中文信源（光大期货 / SMM / 公司公告），两者优先级一致。
+      </p>
+      <div class="meta-row">
+        <span class="pill"><b>Au</b> 金</span>
+        <span class="pill"><b>Ag</b> 银</span>
+        <span class="pill"><b>Cu</b> 铜</span>
+        <span class="pill"><b>Part 1</b> 72h 窗口</span>
+        <span class="pill lang-en"><b>EN</b> 英文信源</span>
+        <span class="pill lang-zh"><b>ZH</b> 中文信源</span>
+        <span class="pill"><b>DATA</b> <a href="../../data/2026-07-06.json" style="border:0;color:var(--green);">JSON 结构化数据</a></span>
+      </div>
+      <div class="data-link-box">
+        <span class="data-icon">&#9776;</span>
+        本页由 <a href="../../data/2026-07-06.json" style="font-weight:700;">data/2026-07-06.json</a> 结构化数据生成。JSON 为源，HTML 为视图。<a href="../../data/daily_report_schema.json">查看 Schema</a>
+      </div>
+    </header>
+
+    <section class="summary">
+      <div class="brief">
+        <h2>本期摘要</h2>
+        <p>
+          铜供给信号高度集中：美国 232 铜关税调查报告已提交（预期 2027 年起对进口精炼铜加征 15% 关税），全球铜精矿 TC 跌至历史极低值，智利 AMSA 与国内冶炼厂首次放弃固定加工费改用"保底+指数联动"定价——矿端议价权显著增强。全球铜显性库存周度下降 1.7 万吨至 116.9 万吨，LME 和国内双双去库。白银有色同日公告完成境外铜金矿收购（新增铜储量 65 万吨、金 12.38 吨）。沙特方面，Sierra Nevada Gold 的 As Safra 首钻确认大型铜矿化系统。本期未发现窗口内合格公开访谈；X 原帖通过 RSS 备用通道搜索，当日未筛出涉及金银铜供需的可核验原帖。
+        </p>
+      </div>
+    </section>
+
+    <section id="broadcast" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 1</span>
+        <h2>Broadcast / Podcast / Webcast / YouTube 访谈</h2>
+      </div>
+      <div class="section-note">
+        72 小时窗口（2026-07-04 至 2026-07-06 北京时间）。搜索来源：Mining Stock Daily、Resource Talks、Soar Financial、Sprott Insights、Arcadia Economics、YouTube。
+      </div>
+      <p class="pending">
+        过去 72 小时内没有发现新的公开 podcast / broadcast / YouTube / conference panel 视频访谈。Mining Stock Daily 最新期（6 月 30 日）已在 2026-06-30 日报中覆盖，Sprott Insights 7 月暂无新内容发布。
+      </p>
+    </section>
+
+    <section id="xstream" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 2</span>
+        <h2>X / Twitter 原帖</h2>
+      </div>
+      <div class="channel-badge fallback">
+        RSS 备用通道 · Nitter · 搜索 3 个种子账号
+      </div>
+      <div class="section-note" style="margin-top: 0;">
+        单日窗口（2026-07-06 00:00-23:59 北京时间）。主通道 Browser Use + Chrome 登录态不可用，已降级至 Nitter RSS 备用通道。
+      </div>
+      <p class="pending">
+        已完成 X 搜索（RSS 备用通道），但当天未筛出涉及金银铜供需的可核验原帖。KatusaResearch 当日仅发布了石油供应相关内容（"石油供应在紧张局势缓解后迅速恢复。但汽油和柴油供应没有"），不涉及金银铜供需。RealRickRule 最新贴文在 7 月 2 日（已在 7 月 2 日日报中覆盖）。
+      </p>
+    </section>
+
+    <section id="news" class="section">
+      <div class="section-head">
+        <span class="section-num">PART 3</span>
+        <h2>Reuters / Mining.com / 中文信源 金银铜供需新闻</h2>
+      </div>
+      <div class="section-note">
+        单日窗口（2026-07-06 00:00-23:59 北京时间）。英文信源与中文信源（光大期货、SMM、公司公告、百度百家号等）优先级一致。
+      </div>
+
+      <div class="grid">
+
+        <!-- Article 1: US 232 Copper Tariff + TC + Inventory -->
+        <div class="card feature">
+          <div class="tag">
+            <span>Cu 铜</span>
+            <span>SUPPLY / DEMAND</span>
+            <span class="pill lang-zh">ZH 中文信源</span>
+          </div>
+          <h3><a href="http://finance.sina.com.cn/money/future/fmnews/2026-07-06/doc-inifvqsh8642967.shtml">美国232条款铜关税报告提交，TC跌至历史极低值，全球库存趋势性去化</a></h3>
+          <p>美国商务部已提交 232 条款铜产业国家安全调查年度报告。市场预期自 <strong>2027 年 1 月 1 日起对进口精炼阴极铜加征 15% 关税，2028 年提升至 30%</strong>，目前处于总统 90 天决策窗口期。</p>
+          <p>国内铜精矿 <mark>TC 再次下降至历史极端低值</mark>，智利 AMSA 与国内冶炼厂首次放弃固定加工费模式，改用"保底+指数联动"定价——矿端议价权显著增强。全球铜显性库存较上次统计下降 1.7 万吨至 116.9 万吨：LME 降 16,750 吨至 322,350 吨，Comex 增 7,187 吨至 606,626 吨，国内降 6,100 吨至 199,900 吨。7 月电解铜产量预估 116.61 万吨（环比 +1.8%，同比 -0.7%）。</p>
+          <div class="importance">
+            <strong>对供需的重要性：</strong>三重复合供给信号——关税政策风险 + 矿端紧缺（TC 低位）+ 库存趋势性去化——构成铜供给紧张的强有力证据链。智利 AMSA 率先放弃固定 TC 标志着矿端议价权的结构性变化。Comex 累库可能部分反映关税预期下的前置进口。7 月产量同比仍降，矿端约束已传导至冶炼端。
+          </div>
+          <div class="source-meta">
+            来源：<a href="http://finance.sina.com.cn/money/future/fmnews/2026-07-06/doc-inifvqsh8642967.shtml">光大期货 / 新浪财经</a> · 2026-07-06 10:48
+          </div>
+        </div>
+
+        <!-- Article 2: Baiyin Nonferrous Acquisition -->
+        <div class="card">
+          <div class="tag">
+            <span>Cu 铜</span>
+            <span>Au 金</span>
+            <span>SUPPLY</span>
+            <span class="pill lang-zh">ZH 中文信源</span>
+          </div>
+          <h3><a href="https://baijiahao.baidu.com/s?id=1869937203452852984">白银有色完成境外铜金矿收购：新增铜储量 65 万吨、金 12.38 吨</a></h3>
+          <p>白银有色（sh601212）7 月 6 日涨停。公司完成境外铜金矿收购，<strong>新增铜储量 65 万吨、金 12.38 吨</strong>，标的已实现盈利，大幅提升资源储备。同时锂电铜箔、磷酸铁锂等新能源项目投产，进入超导电缆供应链。2026 年一季度扭亏，归母净利润 1.5 亿元。</p>
+          <div class="importance">
+            <strong>对供需的重要性：</strong>中国有色金属央企海外资源并购新案例。65 万吨铜储量增量可观，已盈利意味着标的为生产型资产。反映中国矿企"资源 + 材料"双轮驱动战略，从上游矿端延伸到铜箔等新能源材料加工环节。
+          </div>
+          <div class="source-meta">
+            来源：<a href="https://baijiahao.baidu.com/s?id=1869937203452852984">百度百家号 / 喜娜AI</a> · 2026-07-06 12:11
+          </div>
+        </div>
+
+        <!-- Article 3: Sierra Nevada Gold As Safra -->
+        <div class="card">
+          <div class="tag">
+            <span>Cu 铜</span>
+            <span>SUPPLY</span>
+            <span class="pill lang-en">EN 英文信源</span>
+          </div>
+          <h3><a href="https://www.sharecafe.com.au/2026/07/06/sierra-nevada-gold-confirms-significant-copper-system-at-as-safra-ksa/">Sierra Nevada Gold 确认沙特 As Safra 大型铜矿化系统</a></h3>
+          <p>Sierra Nevada Gold（ASX: SNX）首次钻探确认 As Safra 铜金项目存在大型连续铜矿化系统。首轮 4 孔见矿亮点：<strong>17 米品位 1.26% 铜（含 3 米 4.59% 铜）</strong>、16 米品位 1.20% 铜。矿化从地表延伸至 200 米以深，沿 5.5 公里矿化走廊仅测试了不到四分之一。伴生银最高 27.34 g/t。Phase 1 共 28 孔 5,400 米已完工，Phase 2 更大规模钻探正在规划。</p>
+          <div class="importance">
+            <strong>对供需的重要性：</strong>沙特新铜矿省份的重要确认信号，代表中东地区铜供给潜力的新方向。若后续钻探继续验证，As Safra 可能成为中东首个规模化铜矿，对全球铜供给地理多元化有重要意义。伴生银进一步提升项目经济性。
+          </div>
+          <div class="source-meta">
+            来源：<a href="https://www.sharecafe.com.au/2026/07/06/sierra-nevada-gold-confirms-significant-copper-system-at-as-safra-ksa/">ShareCafe Australia</a> · 2026-07-06 08:00
+          </div>
+        </div>
+
+      </div>
+
+      <div class="theme">
+        <h3>Au·GOLD</h3>
+        <p>当天没有发现窗口内强供需新闻。</p>
+      </div>
+      <div class="theme">
+        <h3>Ag·SILVER</h3>
+        <p>当天没有发现窗口内强供需新闻。</p>
+      </div>
+    </section>
+
+    <section id="tracker" class="section">
+      <div class="section-head">
+        <span class="section-num">TRACKER</span>
+        <h2>信号跟踪</h2>
+      </div>
+      <div class="theme">
+        <h3>Part 1 · 访谈</h3>
+        <p>72 小时窗口内 0 条合格内容。Mining Stock Daily、Sprott Insights、Soar Financial、Resource Talks 本周暂无金银铜供需相关新访谈。会议日历：未来 30 天内无活跃会议，常规搜索模式。</p>
+      </div>
+      <div class="theme">
+        <h3>Part 2 · X 原帖</h3>
+        <p>单日窗口内 0 条合格内容。采集通道：RSS 备用通道（Nitter），搜索 3 个种子账号，未筛出涉及金银铜供需的可核验原帖。</p>
+      </div>
+      <div class="theme">
+        <h3>Part 3 · 新闻</h3>
+        <p>单日窗口内 3 条合格内容（铜 3 条）。英文信源 1 条（ShareCafe），中文信源 2 条（光大期货 / 新浪财经、百度百家号）。本期新发现信源：Sierra Nevada Gold（ASX: SNX）、白银有色（sh601212）。</p>
+      </div>
+    </section>
+
+    <section id="sources" class="section">
+      <div class="section-head">
+        <span class="section-num">SOURCES</span>
+        <h2>来源与数据</h2>
+      </div>
+      <div class="theme">
+        <h3>英文信源</h3>
+        <p><a href="https://www.sharecafe.com.au/2026/07/06/sierra-nevada-gold-confirms-significant-copper-system-at-as-safra-ksa/">ShareCafe Australia</a> · Mining.com 无窗口内金银铜供需新稿 · Reuters commodities 窗口内新稿主要为电池金属专栏</p>
+      </div>
+      <div class="theme">
+        <h3>中文信源</h3>
+        <p><a href="http://finance.sina.com.cn/money/future/fmnews/2026-07-06/doc-inifvqsh8642967.shtml">光大期货 / 新浪财经</a> · <a href="https://baijiahao.baidu.com/s?id=1869937203452852984">百度百家号 / 喜娜AI</a> · SMM 有色网当日无窗口内金银铜供需新闻</p>
+      </div>
+      <div class="theme">
+        <h3>结构化数据</h3>
+        <p>本期同步输出 <a href="../../data/2026-07-06.json">data/2026-07-06.json</a>（符合 data/daily_report_schema.json 定义）。</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

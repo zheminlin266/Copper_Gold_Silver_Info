@@ -1,6 +1,9 @@
 name: Deploy GitHub Pages
 
 on:
+  # 07:00 Asia/Shanghai is 23:00 UTC on the previous calendar day.
+  schedule:
+    - cron: "0 23 * * *"
   push:
     branches: [main]
   workflow_dispatch:

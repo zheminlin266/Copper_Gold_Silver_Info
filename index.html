@@ -190,7 +190,34 @@
       line-height: .9;
       transition: transform .18s ease;
     }
-
+    .weekly-section {
+      padding: 0 0 48px;
+    }
+    .weekly-card {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 20px 0;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      color: var(--ink);
+      transition: background .15s ease;
+    }
+    .weekly-card:hover { background: var(--green-soft); }
+    .weekly-card .week-label {
+      font-family: var(--mono);
+      font-size: 14px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--green);
+      flex: 0 0 auto;
+    }
+    .weekly-card .week-desc {
+      font-size: 15px;
+      color: var(--text);
+      line-height: 1.6;
+    }
     footer {
       padding: 0 0 36px;
       color: var(--muted);
@@ -217,6 +244,8 @@
       .report-row h3 {
         font-size: clamp(15px, 4.4vw, 20px);
       }
+      .weekly-card { flex-direction: column; align-items: flex-start; }
+      .weekly-card .arrow { display: none; }
     }
   </style>
 </head>
@@ -228,6 +257,7 @@
         <div>
           <div class="eyebrow">Gold Silver Copper · Supply / Demand</div>
           <h1>每日金属矿业</h1>
+          <p class="lede">跟踪金、银、铜矿业供需信号。访谈覆盖 72 小时窗口，新闻同步覆盖 Reuters / Mining.com 与 SMM / SHMET 等中英文信源。每篇日报同步输出结构化 JSON 数据，支持跨日查询与周度趋势分析。</p>
         </div>
       </div>
     </header>
@@ -239,14 +269,24 @@
       </div>
 
       <div class="report-list">
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest.html">
+        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-06.html">
+          <div class="thumb"><img src="./Sources/mining_2026-07-06_battery_metals.jpeg" alt="Sierra Nevada Gold As Safra copper drilling / US 232 copper tariff / Baiyin Nonferrous acquisition"></div>
+          <div class="copy">
+            <h3>2026-07-06 矿业 Broadcast & 供需新闻</h3>
+            <p class="summary">铜供给信号高度集中：美国 232 铜关税调查报告（预期 2027 年起对进口精炼铜加征 15% 关税），全球铜精矿 TC 跌至历史极低值，智利 AMSA 率先放弃固定加工费模式。全球铜显性库存周度降 1.7 万吨。白银有色完成境外铜金矿收购（新增铜储量 65 万吨、金 12.38 吨）。沙特 As Safra 首钻确认大型铜矿化系统。本期 Part 3 首次并行覆盖英文和中文信源（光大期货 / 新浪财经 + 百度百家号）。当日无窗口内合格公开访谈，X 原帖通过 RSS 备用通道搜索未筛出合格内容。</p>
+            <div class="meta"><span>Daily</span><span>2026-07-06</span><span>Copper Supply Crunch</span></div>
+          </div>
+          <span class="arrow">&rarr;</span>
+        </a>
+
+        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-05.html">
           <div class="thumb"><img src="./Sources/mining_2026-07-05_adani_copper.jpeg" alt="Adani copper cathodes from Mining.com coverage"></div>
           <div class="copy">
             <h3>2026-07-05 矿业 Broadcast & 供需新闻</h3>
             <p class="summary">本页以金、银、铜矿业供需为主线，不再把 CSV 名单当作硬过滤器；名单人物、公司高管、播客嘉宾、新闻人物都可纳入，并标注背景。窗口内重点是 Adani 铜冶炼品牌进入 LME 交割体系，以及 Zimbabwe 高金价下黄金勘探与化验需求升温；X 原帖当前仍需官方 API 或登录态工具验证。</p>
             <div class="meta"><span>Daily</span><span>2026-07-05</span><span>Supply / Demand</span></div>
           </div>
-          <span class="arrow">→</span>
+          <span class="arrow">&rarr;</span>
         </a>
 
         <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-04.html">
@@ -256,7 +296,7 @@
             <p class="summary">供给管线推进最集中：KGHM 铜银投资计划、Red Chris 扩建承诺、Faraday Copper 资产组合扩大，以及 Antofagasta 在智利铜项目的许可推进。本期没有发现窗口内合格公开访谈；X 原帖无法稳定验证，因此不摘录不可核验内容。</p>
             <div class="meta"><span>Daily</span><span>2026-07-04</span><span>Copper / Silver Pipeline</span></div>
           </div>
-          <span class="arrow">→</span>
+          <span class="arrow">&rarr;</span>
         </a>
 
         <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-03.html">
@@ -266,7 +306,7 @@
             <p class="summary">铜供给恢复与黄金运营风险并存：BHP 寻求重启 Cerro Colorado，Hudbay 提升 Constancia 处理能力，Agnico Eagle 因 Barnat open pit 岩体移动提示黄金产量短期受扰。未来同类公司访谈即便嘉宾不在原名单内，也应按项目与供需重要性纳入。</p>
             <div class="meta"><span>Daily</span><span>2026-07-03</span><span>Supply Risk</span></div>
           </div>
-          <span class="arrow">→</span>
+          <span class="arrow">&rarr;</span>
         </a>
 
         <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-02.html">
@@ -276,7 +316,7 @@
             <p class="summary">黄金投资需求与矿业资产重配是主线：黄金受利率路径预期影响反弹，同时 South32 出售铝业务后把资本焦点转向铜、锌、银、铅等资产组合。新闻简报、访谈、X 内容只要给出供需线索，均应记录来源和人物背景。</p>
             <div class="meta"><span>Daily</span><span>2026-07-02</span><span>Investment Demand</span></div>
           </div>
-          <span class="arrow">→</span>
+          <span class="arrow">&rarr;</span>
         </a>
 
         <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-01.html">
@@ -286,7 +326,7 @@
             <p class="summary">铜与黄金供给管线并行：Koryx Copper 的 Namibia Haib 钻探推进铜资源转化，Fortuna 的 Senegal Diamba Sud 可研强化黄金供给管线；黄金价格承压则反映投资需求受高利率预期牵制。相关访谈不再因嘉宾不在种子名单而自动排除。</p>
             <div class="meta"><span>Daily</span><span>2026-07-01</span><span>Copper / Gold Pipeline</span></div>
           </div>
-          <span class="arrow">→</span>
+          <span class="arrow">&rarr;</span>
         </a>
 
         <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-06-30.html">
@@ -296,9 +336,20 @@
             <p class="summary">Bunker Hill Mining 在 Idaho mill 开始处理矿石并向设计处理能力爬坡，对应北美白银副产品与铅锌矿山供给恢复。该类项目进展、公司访谈、建设照片和管理层表态都属于日报应跟踪的供需线索。</p>
             <div class="meta"><span>Daily</span><span>2026-06-30</span><span>Silver Supply</span></div>
           </div>
-          <span class="arrow">→</span>
+          <span class="arrow">&rarr;</span>
         </a>
       </div>
+    </section>
+
+    <section class="weekly-section" aria-labelledby="weekly-reports">
+      <div class="reports-head">
+        <h2 id="weekly-reports" style="font-size: clamp(20px, 2.8vw, 32px);">Weekly Summaries</h2>
+      </div>
+      <a class="weekly-card" href="./Weekly_Reports/2026-W27.md">
+        <span class="week-label">2026-W27</span>
+        <span class="week-desc">首期周度趋势简报将在积累足够日报 JSON 数据后生成。由 scripts/report_builder.py 从 7 天 data/ JSON 文件自动聚合。</span>
+        <span class="arrow" style="margin-left: auto;">&rarr;</span>
+      </a>
     </section>
 
     <footer>Daily Metals Mining · Research links only · Not investment advice</footer>

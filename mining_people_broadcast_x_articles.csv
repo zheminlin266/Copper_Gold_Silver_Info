@@ -1,60 +1,96 @@
-姓名,类别,X或主要渠道,职业经历,擅长方向,备注
-Rick Rule,投资人/行业专家,https://x.com/RealRickRule,"Sprott U.S. 前掌门，资源股投融资老手","junior mining、私募、周期底部、管理层质量","常参加资源投资访谈、会议和播客"
-Eric Sprott,投资人/企业家,"Sprott Money、公开访谈","Sprott 创始人，长期金银矿投资人和融资人","金银牛市、发现型小矿、资源股资金流","个人公开访谈多，X 活跃度不如部分媒体型人物"
-Marin Katusa,投资人/研究作者,https://x.com/KatusaResearch,"Katusa Research 创始人，资源股投资人，参与大量资源项目和融资","资源股融资、项目尽调、宏观主题","写长文、做付费研究，也常出现在访谈中"
-Gwen Preston,研究作者/行业专家,https://x.com/ResourceMaven,"Resource Maven/The Maven Letter 作者，长期研究、写作和投资金属矿业股","探矿公司、钻探结果、并购候选","适合跟踪 junior explorers"
-Jordan Roy-Byrne,研究作者/技术分析师,https://x.com/TheDailyGold,"The Daily Gold 作者，CMT/MFTA，专注金银和 junior miners","金银价格周期、矿股技术面、金银股相对强弱","有网站、文章、YouTube 和播客内容"
-Brien Lundin,会议/通讯作者,https://x.com/Brien_Lundin,"Gold Newsletter/New Orleans Investment Conference 负责人","金银宏观、资源股会议网络","会议生态强，适合发现受关注公司"
-David Morgan,研究作者/白银专家,https://x.com/silverguru22,"The Morgan Report 作者，白银市场意见领袖","白银供需、白银货币属性、银矿股","白银主题访谈很多"
-Peter Krauth,研究作者,https://x.com/peter_krauth,"Silver Stock Investor 作者","白银价格周期、银矿公司筛选","偏白银投资框架"
-Chris Marcus,媒体/白银评论员,https://x.com/ArcadiaEconomic,"Arcadia Economics 主理人，白银市场访谈和调查型内容","白银市场结构、COMEX/LBMA、银矿采访","访谈内容多，观点偏贵金属多头"
-Lobo Tiggre,研究作者/投资人,https://x.com/duediligenceguy,"Independent Speculator 创始人，Casey Research 体系出身","资源股尽调、风险控制、探矿股估值","常写文章和参加访谈"
-Mickey Fulp,地质专家/评论员,https://x.com/mercenarygeo,"The Mercenary Geologist，地质背景的资源股评论员","地质基础、项目宣传识别、矿业周期","适合学习如何拆解项目宣传"
-Brent Cook,地质专家/研究作者,"Exploration Insights、公开访谈","经济地质学家，老牌矿业项目尽调人","矿床质量、钻孔解读、地质风险","偏硬核地质和项目质量"
-Joe Mazumdar,地质/工程/研究作者,https://x.com/JoeMazumdar,"Exploration Insights，具备工程、地质和资本市场背景","项目经济性、技术报告、开发风险","与 Brent Cook 互补"
-John Kaiser,研究作者/数据库专家,https://x.com/KaiserResearch,"Kaiser Research Online 创始人","junior explorer 数据库、选股框架、矿种主题","覆盖面广，偏体系化筛选"
-Quinton Hennigh,经济地质学家,"公开访谈、公司渠道","经济地质学家，曾参与 Novo、Crescat 等资源项目","高品位金矿、非常规矿床、钻探逻辑","访谈很多，适合听地质逻辑"
-Steve Todoruk,地质专家/投资人,https://x.com/SteveTodoruk,"Sprott 地质顾问和矿业投资人","钻探新闻、发现型项目、地质概率","经常点评早期发现"
-Justin Tolman,地质专家/投资团队,"Sprott Insights、公开内容","地质学家，近 30 年资源项目经验，覆盖 40 多个国家","野外地质、项目筛选、技术尽调","Sprott 体系内偏地质实战"
-John Hathaway,基金经理/研究作者,"Sprott Insights、访谈","Sprott 黄金股票策略代表人物","黄金矿股组合、宏观与矿股估值","更偏黄金股票配置"
-John Ciampaglia,资产管理/企业高管,"Sprott Insights、访谈","Sprott Asset Management CEO，负责公开市场策略和实物商品基金","实物金银铜基金、ETF 资金流、投资者教育","经常做视频、webcast 和采访"
-Maria Smirnova,资产管理/投资专家,"Sprott Insights、访谈","Sprott CIO，贵金属和矿股投资团队核心人物","金银配置、矿股组合、贵金属周期","金银市场视频访谈较多"
-Paul Wong,研究作者/策略师,"Sprott Insights","Sprott 贵金属报告作者之一","金银宏观、美元/实际利率、矿股环境","适合跟踪贵金属月度/专题报告"
-Jacob White,研究作者/策略师,"Sprott Insights","Sprott 铜和关键材料报告作者之一","铜、关键矿产、能源转型需求","适合铜和关键材料主题"
-Otavio Costa,宏观/资源投资人,https://x.com/TaviCosta,"Crescat Capital 宏观和资源投资人","金银铜宏观、资源股相对配置","X 活跃，图表和宏观观点多"
-Ronnie Stoeferle,宏观/贵金属研究,https://x.com/RonStoeferle,"Incrementum 合伙人，《In Gold We Trust》报告作者","黄金宏观、货币体系、贵金属配置","年度黄金报告很有影响力"
-Willem Middelkoop,基金经理/作者,https://x.com/wmiddelkoop,"Commodity Discovery Fund 创始人","发现型资源股、商品周期、地缘宏观","偏资源发现与宏观结合"
-Lawrence Lepard,投资人,https://x.com/LawrenceLepard,"硬资产和黄金投资人","金矿股、货币贬值、硬资产组合","偏宏观和黄金多头叙事"
-Matt Geiger,资源股投资人,https://x.com/mjgeiger,"MJG Capital 创始人，资源股投资人","junior mining 组合、私募、反身性","X 上资源股讨论活跃"
-Brian Leni,研究作者/工程背景,https://x.com/Junior_Stock,"Junior Stock Review 作者，工程背景","项目尽调、管理层访谈、早期资源股","偏理性尽调和访谈"
-Jamie Keech,投资人/工程背景,https://x.com/Jamie_Keech,"Resource Insider，采矿工程和投资背景","私募条款、项目融资、管理层筛选","适合学习资源股融资结构"
-David Erfle,研究作者,https://x.com/JuniorMinerJunky,"Junior Miner Junky 作者","金银 junior miners、技术面、组合管理","偏金银矿股交易和配置"
-John Feneck,顾问/评论员,https://x.com/JohnFeneck,"Feneck Consulting 创始人","金银矿股筛选、会议访谈、公司跟踪","常做矿业公司访谈"
-Jayant Bhandari,投资人/评论员,https://x.com/JayantBhandari5,"资源股投资人和演讲者","junior miners、政治风险、边缘市场","观点强，适合补充政治风险视角"
-Chen Lin,通讯作者/投资人,https://x.com/chenpicks,"资源股投资通讯作者","小市值资源股、事件驱动、散户视角","偏个股和催化剂"
-Gerardo Del Real,媒体/研究作者,https://x.com/GerardoDelReal,"Resource Stock Digest/Junior Resource Monthly 相关人物","公司访谈、私募、早期项目推广","偏推广和访谈入口"
-Tekoa Da Silva,访谈者/投资人,https://x.com/TekoaDaSilva,"资源投资访谈者","矿业人物访谈、资本市场学习","适合顺藤摸瓜找行业人"
-Trevor Hall,媒体/播客主持,"Mining Stock Daily","Mining Stock Daily 主持/制作，聚焦矿业新闻和 CEO 访谈","北美 junior mining 新闻流","音频简报和 CEO 访谈频率高"
-Kai Hoffmann,媒体/矿业传播,https://x.com/soarfinancial,"Soar Financial/Deutsche Goldmesse 主理人，矿业访谈和会议生态","德语区资金、CEO 访谈、矿业 IR","适合找欧洲资金关注的矿业公司"
-Robert Friedland,企业家/矿业金融家,"公司号、公开访谈","Ivanhoe Mines、Ivanhoe Electric、HPX 等创始/核心人物，参与 Oyu Tolgoi、Kamoa-Kakula 等世界级项目","世界级铜金矿发现、融资、地缘资源战略","铜矿企业家中非常值得长期跟踪"
-Rob McEwen,企业家/矿业高管,https://x.com/RobMcEwenMUX,"Goldcorp 创始人，McEwen Mining CEO/主席","金矿经营、开放式勘探、企业家资本配置","金矿创业和公司治理代表人物"
-Keith Neumeyer,企业家/矿业高管,https://x.com/keith_neumeyer,"First Majestic Silver 创始人/CEO，亦参与 First Quantum 早期","白银矿山、墨西哥矿业、银价观点","白银企业家代表"
-Frank Giustra,企业家/矿业金融家,https://x.com/Frank_Giustra,"Fiore Group CEO，Endeavour Financial、Wheaton River、Leagold 等矿业金融经历","矿业金融、金矿并购、宏观/地缘","资源金融圈影响力大"
-Ross Beaty,企业家,"公司渠道、会议访谈","Pan American Silver、Equinox Gold 创业者","银矿、金矿并购、长期矿业创业","北美贵金属矿业创业代表"
-Nolan Watson,企业家/矿业金融,https://x.com/NolanWatson,"Sandstorm Gold 联合创始人/CEO","streaming/royalty、项目融资、金铜现金流","适合理解流媒体融资模式"
-Randy Smallwood,矿业高管,"Wheaton Precious Metals、访谈","Wheaton Precious Metals CEO","贵金属流媒体、银/金副产品定价","偏 royalty/streaming 模式"
-Amir Adnani,企业家/资源股推广,https://x.com/AmirAdnani,"GoldMining Inc. 和 Uranium Energy 创始人","资源资产 roll-up、资本市场包装","跨金矿和铀资源平台"
-Michael Konnert,矿业高管/企业家,https://x.com/MichaelKonnert,"Vizsla Silver CEO","墨西哥高品位银金项目、发现到开发","年轻一代银矿企业家"
-Shawn Khunkhun,矿业高管,"公司渠道、个人 X","Dolly Varden Silver CEO","Golden Triangle 银金矿、市场传播","银金勘探公司代表"
-Walter Coles Jr.,矿业高管,https://x.com/WalterColesJr,"Skeena Resources CEO","Eskay Creek、棕地金银项目再开发","适合跟踪高品位金银项目重启"
-John Black,地质/企业家,"Regulus Resources、公开访谈","Antares/Regulus 体系，长期参与秘鲁铜金斑岩项目","斑岩铜金、秘鲁项目、勘探团队建设","铜金斑岩项目值得关注"
-Ivan Bebek,企业家/资源项目孵化,https://x.com/ivanbebek,"Auryn、Coppernico、Sombrero 等项目体系相关人物","南美铜金勘探、项目孵化","偏早期铜金项目"
-Mark Bristow,矿业高管/企业家,"Barrick、公开访谈","Randgold Resources 创始人，Barrick 前 CEO，地质博士背景","非洲金矿经营、成本纪律、矿山文化","大金矿经营和并购整合代表"
-Sean Boyd,矿业高管,"Agnico Eagle、公开访谈","Agnico Eagle 长期管理层，曾任 CEO，后任董事会主席","加拿大金矿、并购整合、低政治风险资产","Agnico Eagle 体系核心人物"
-Ammar Al-Joundi,矿业高管,"Agnico Eagle、公开访谈","Agnico Eagle CEO","大型金矿运营、资本配置、并购整合","与 Sean Boyd 一起看 Agnico Eagle"
-Jack Lundin,企业家/矿业高管,"Lundin Mining、公开访谈","Lundin 家族新一代，Lundin Mining CEO","铜增长项目、智利/阿根廷、家族资本","铜、金、银、镍交叉"
-Richard Adkerson,矿业高管,"Freeport-McMoRan、公开访谈","Freeport-McMoRan 长期核心高管/董事长","大型铜矿运营、印尼/美洲铜、冶炼与销售","Freeport 是全球重要铜生产商"
-Kathleen Quirk,矿业高管,"Freeport-McMoRan、公开访谈","Freeport-McMoRan President & CEO","大型铜矿运营、财务纪律、铜销售","接棒 Freeport 的关键人物"
-Mark Hill,矿业高管,"Barrick、公开访谈","Barrick Mining Group COO/临时 CEO","Tier-1 金矿、非洲/美洲铜金项目、运营执行","Barrick 2025 后管理层变化中值得跟踪"
-Natascha Viljoen,矿业高管,"Newmont、公开访谈","Newmont President & CEO，曾有大型矿业运营背景","大型金矿组合、Newcrest 整合、资产优化","Newmont 新一代管理层"
-Tom Palmer,矿业高管,"Newmont、公开访谈","Newmont 前 CEO，主导 Newcrest 收购整合阶段","大型金矿组合、并购整合、资产优化","了解 Newmont 近年战略脉络"
+﻿姓名,类别,X或主要渠道,"X user id",职业经历,擅长方向,备注
+"Rick Rule",投资人/行业专家,"https://x.com/RealRickRule",824634606305505280,"Sprott U.S. 前掌门，资源股投融资老手","junior mining、私募、周期底部、管理层质量",常参加资源投资访谈、会议和播客
+"Eric Sprott",投资人/企业家,"Sprott Money、公开访谈",,"Sprott 创始人，长期金银矿投资人和融资人",金银牛市、发现型小矿、资源股资金流,个人公开访谈多，X 活跃度不如部分媒体型人物
+"Marin Katusa",投资人/研究作者,"https://x.com/KatusaResearch",3187207969,"Katusa Research 创始人，资源股投资人，参与大量资源项目和融资",资源股融资、项目尽调、宏观主题,写长文、做付费研究，也常出现在访谈中
+"Gwen Preston",研究作者/行业专家,"https://x.com/ResourceMaven",277131226,"Resource Maven/The Maven Letter 作者，长期研究、写作和投资金属矿业股",探矿公司、钻探结果、并购候选,"适合跟踪 junior explorers"
+"Jordan Roy-Byrne",研究作者/技术分析师,https://x.com/TheDailyGold,89366087,"The Daily Gold 作者，CMT/MFTA，专注金银和 junior miners",金银价格周期、矿股技术面、金银股相对强弱,有网站、文章、YouTube 和播客内容
+"Brien Lundin",会议/通讯作者,"https://x.com/Brien_Lundin",1488676784,"Gold Newsletter/New Orleans Investment Conference 负责人",金银宏观、资源股会议网络,会议生态强，适合发现受关注公司
+"David Morgan",研究作者/白银专家,"https://x.com/silverguru22",18524851,"The Morgan Report 作者，白银市场意见领袖",白银供需、白银货币属性、银矿股,白银主题访谈很多
+"Peter Krauth",研究作者,"https://x.com/peter_krauth",1313513299548549120,"Silver Stock Investor 作者",白银价格周期、银矿公司筛选,偏白银投资框架
+"Chris Marcus",媒体/白银评论员,"https://x.com/ArcadiaEconomic",601945756,"Arcadia Economics 主理人，白银市场访谈和调查型内容",白银市场结构、COMEX/LBMA、银矿采访,访谈内容多，观点偏贵金属多头
+"Lobo Tiggre",研究作者/投资人,"https://x.com/duediligenceguy",2818081640,"Independent Speculator 创始人，Casey Research 体系出身",资源股尽调、风险控制、探矿股估值,常写文章和参加访谈
+Mickey Fulp,地质专家/评论员,"https://x.com/mercenarygeo",127967449,"The Mercenary Geologist，地质背景的资源股评论员",地质基础、项目宣传识别、矿业周期,适合学习如何拆解项目宣传
+"Brent Cook",地质专家/研究作者,"Exploration Insights、公开访谈",,经济地质学家，老牌矿业项目尽调人,矿床质量、钻孔解读、地质风险,偏硬核地质和项目质量
+"Joe Mazumdar",地质/工程/研究作者,"https://x.com/JoeMazumdar",1020057652095799297,"Exploration Insights，具备工程、地质和资本市场背景",项目经济性、技术报告、开发风险,"与 Brent Cook 互补"
+"John Kaiser",研究作者/数据库专家,"https://x.com/KaiserResearch",2652423828,"Kaiser Research Online 创始人","junior explorer 数据库、选股框架、矿种主题",覆盖面广，偏体系化筛选
+"Quinton Hennigh",经济地质学家,公开访谈、公司渠道,,"经济地质学家，曾参与 Novo、Crescat 等资源项目",高品位金矿、非常规矿床、钻探逻辑,访谈很多，适合听地质逻辑
+"Steve Todoruk",地质专家/投资人,"https://x.com/SteveTodoruk",,"Sprott 地质顾问和矿业投资人",钻探新闻、发现型项目、地质概率,经常点评早期发现
+"Justin Tolman",地质专家/投资团队,"Sprott Insights、公开内容",,地质学家，近 30 年资源项目经验，覆盖 40 多个国家,野外地质、项目筛选、技术尽调,"Sprott 体系内偏地质实战"
+"John Hathaway",基金经理/研究作者,"Sprott Insights、访谈",,"Sprott 黄金股票策略代表人物",黄金矿股组合、宏观与矿股估值,更偏黄金股票配置
+"John Ciampaglia",资产管理/企业高管,"Sprott Insights、访谈",,"Sprott Asset Management CEO，负责公开市场策略和实物商品基金",实物金银铜基金、ETF 资金流、投资者教育,经常做视频、webcast 和采访
+"Maria Smirnova",资产管理/投资专家,"Sprott Insights、访谈",,"Sprott CIO，贵金属和矿股投资团队核心人物",金银配置、矿股组合、贵金属周期,金银市场视频访谈较多
+"Paul Wong",研究作者/策略师,"Sprott Insights",,"Sprott 贵金属报告作者之一",金银宏观、美元/实际利率、矿股环境,适合跟踪贵金属月度/专题报告
+Jacob White,研究作者/策略师,"Sprott Insights",,"Sprott 铜和关键材料报告作者之一",铜、关键矿产、能源转型需求,适合铜和关键材料主题
+Otavio Costa,宏观/资源投资人,https://x.com/TaviCosta,2584103654,"Crescat Capital 宏观和资源投资人",金银铜宏观、资源股相对配置,X 活跃，图表和宏观观点多
+"Ronnie Stoeferle",宏观/贵金属研究,"https://x.com/RonStoeferle",1160400596,"Incrementum 合伙人，《In Gold We Trust》报告作者",黄金宏观、货币体系、贵金属配置,年度黄金报告很有影响力
+Willem Middelkoop,基金经理/作者,https://x.com/wmiddelkoop,19059966,"Commodity Discovery Fund 创始人",发现型资源股、商品周期、地缘宏观,偏资源发现与宏观结合
+"Lawrence Lepard",投资人,"https://x.com/LawrenceLepard",907410554238717953,硬资产和黄金投资人,金矿股、货币贬值、硬资产组合,偏宏观和黄金多头叙事
+"Matt Geiger",资源股投资人,"https://x.com/mjgeiger",47210614,MJG Capital 创始人，资源股投资人,"junior mining 组合、私募、反身性",X 上资源股讨论活跃
+"Brian Leni",研究作者/工程背景,"https://x.com/Junior_Stock",711735482904870912,"Junior Stock Review 作者，工程背景",项目尽调、管理层访谈、早期资源股,偏理性尽调和访谈
+Jamie Keech,投资人/工程背景,https://x.com/Jamie_Keech,283362425,"Resource Insider，采矿工程和投资背景",私募条款、项目融资、管理层筛选,适合学习资源股融资结构
+"David Erfle",研究作者,"https://x.com/JuniorMinerJunky",,"Junior Miner Junky 作者","金银 junior miners、技术面、组合管理",偏金银矿股交易和配置
+"John Feneck",顾问/评论员,"https://x.com/JohnFeneck",1443791665131442176,"Feneck Consulting 创始人",金银矿股筛选、会议访谈、公司跟踪,常做矿业公司访谈
+"Jayant Bhandari",投资人/评论员,"https://x.com/JayantBhandari5",4112726147,资源股投资人和演讲者,"junior miners、政治风险、边缘市场",观点强，适合补充政治风险视角
+"Chen Lin",通讯作者/投资人,"https://x.com/chenpicks",,资源股投资通讯作者,小市值资源股、事件驱动、散户视角,偏个股和催化剂
+"Gerardo Del Real",媒体/研究作者,"https://x.com/GerardoDelReal",180115093,"Resource Stock Digest/Junior Resource Monthly 相关人物",公司访谈、私募、早期项目推广,偏推广和访谈入口
+Tekoa Da Silva,访谈者/投资人,https://x.com/TekoaDaSilva,138560447,资源投资访谈者,矿业人物访谈、资本市场学习,适合顺藤摸瓜找行业人
+"Trevor Hall",媒体/播客主持,"Mining Stock Daily",,"Mining Stock Daily 主持/制作，聚焦矿业新闻和 CEO 访谈","北美 junior mining 新闻流",音频简报和 CEO 访谈频率高
+"Kai Hoffmann",媒体/矿业传播,"https://x.com/soarfinancial",278180555,"Soar Financial/Deutsche Goldmesse 主理人，矿业访谈和会议生态","德语区资金、CEO 访谈、矿业 IR",适合找欧洲资金关注的矿业公司
+"Robert Friedland",企业家/矿业金融家,公司号、公开访谈,,"Ivanhoe Mines、Ivanhoe Electric、HPX 等创始/核心人物，参与 Oyu Tolgoi、Kamoa-Kakula 等世界级项目",世界级铜金矿发现、融资、地缘资源战略,铜矿企业家中非常值得长期跟踪
+"Rob McEwen",企业家/矿业高管,"https://x.com/RobMcEwenMUX",1143908060068491264,"Goldcorp 创始人，McEwen Mining CEO/主席",金矿经营、开放式勘探、企业家资本配置,金矿创业和公司治理代表人物
+"Keith Neumeyer",企业家/矿业高管,"https://x.com/keith_neumeyer",3246589947,"First Majestic Silver 创始人/CEO，亦参与 First Quantum 早期",白银矿山、墨西哥矿业、银价观点,白银企业家代表
+"Frank Giustra",企业家/矿业金融家,"https://x.com/Frank_Giustra",973371776,"Fiore Group CEO，Endeavour Financial、Wheaton River、Leagold 等矿业金融经历",矿业金融、金矿并购、宏观/地缘,资源金融圈影响力大
+"Ross Beaty",企业家,公司渠道、会议访谈,,"Pan American Silver、Equinox Gold 创业者",银矿、金矿并购、长期矿业创业,北美贵金属矿业创业代表
+"Nolan Watson",企业家/矿业金融,"https://x.com/NolanWatson",,"Sandstorm Gold 联合创始人/CEO","streaming/royalty、项目融资、金铜现金流",适合理解流媒体融资模式
+"Randy Smallwood",矿业高管,"Wheaton Precious Metals、访谈",,"Wheaton Precious Metals CEO",贵金属流媒体、银/金副产品定价,"偏 royalty/streaming 模式"
+"Amir Adnani",企业家/资源股推广,"https://x.com/AmirAdnani",110507848,"GoldMining Inc. 和 Uranium Energy 创始人","资源资产 roll-up、资本市场包装",跨金矿和铀资源平台
+"Michael Konnert",矿业高管/企业家,"https://x.com/MichaelKonnert",,"Vizsla Silver CEO",墨西哥高品位银金项目、发现到开发,年轻一代银矿企业家
+"Shawn Khunkhun",矿业高管,公司渠道、个人 X,,"Dolly Varden Silver CEO","Golden Triangle 银金矿、市场传播",银金勘探公司代表
+"Walter Coles Jr.",矿业高管,"https://x.com/WalterColesJr",,"Skeena Resources CEO","Eskay Creek、棕地金银项目再开发",适合跟踪高品位金银项目重启
+"John Black",地质/企业家,"Regulus Resources、公开访谈",,"Antares/Regulus 体系，长期参与秘鲁铜金斑岩项目",斑岩铜金、秘鲁项目、勘探团队建设,铜金斑岩项目值得关注
+"Ivan Bebek",企业家/资源项目孵化,"https://x.com/ivanbebek",117757065,"Auryn、Coppernico、Sombrero 等项目体系相关人物",南美铜金勘探、项目孵化,偏早期铜金项目
+"Mark Bristow",矿业高管/企业家,"Barrick、公开访谈",,"Randgold Resources 创始人，Barrick 前 CEO，地质博士背景",非洲金矿经营、成本纪律、矿山文化,大金矿经营和并购整合代表
+"Sean Boyd",矿业高管,"Agnico Eagle、公开访谈",,"Agnico Eagle 长期管理层，曾任 CEO，后任董事会主席",加拿大金矿、并购整合、低政治风险资产,"Agnico Eagle 体系核心人物"
+"Ammar Al-Joundi",矿业高管,"Agnico Eagle、公开访谈",,"Agnico Eagle CEO",大型金矿运营、资本配置、并购整合,"与 Sean Boyd 一起看 Agnico Eagle"
+"Jack Lundin",企业家/矿业高管,"Lundin Mining、公开访谈",,"Lundin 家族新一代，Lundin Mining CEO",铜增长项目、智利/阿根廷、家族资本,铜、金、银、镍交叉
+"Richard Adkerson",矿业高管,"Freeport-McMoRan、公开访谈",,"Freeport-McMoRan 长期核心高管/董事长",大型铜矿运营、印尼/美洲铜、冶炼与销售,"Freeport 是全球重要铜生产商"
+"Kathleen Quirk",矿业高管,"Freeport-McMoRan、公开访谈",,"Freeport-McMoRan President & CEO",大型铜矿运营、财务纪律、铜销售,"接棒 Freeport 的关键人物"
+"Mark Hill",矿业高管,"Barrick、公开访谈",,"Barrick Mining Group COO/临时 CEO","Tier-1 金矿、非洲/美洲铜金项目、运营执行","Barrick 2025 后管理层变化中值得跟踪"
+"Natascha Viljoen",矿业高管,"Newmont、公开访谈",,"Newmont President & CEO，曾有大型矿业运营背景","大型金矿组合、Newcrest 整合、资产优化","Newmont 新一代管理层"
+"Tom Palmer",矿业高管,"Newmont、公开访谈",,"Newmont 前 CEO，主导 Newcrest 收购整合阶段",大型金矿组合、并购整合、资产优化,"了解 Newmont 近年战略脉络"
+陈景河,中国矿业专家/企业家,紫金矿业官网、公开演讲,,紫金矿业创始人，地质背景，长期带领紫金从紫金山金铜矿走向全球化,低品位矿开发、金铜资源并购、全球项目布局,中国金铜矿业核心人物；具体职务每次引用前以紫金官网为准
+邹来昌,中国矿业高管,"紫金矿业官网 Board and Management",,紫金矿业执行董事、董事长，董事会战略与可持续发展委员会主席,金铜全球资产组合、资本配置、海外运营,重点跟踪紫金业绩会、媒体中心、会议发言和投资者演示
+林泓富,中国矿业高管,"紫金矿业官网 Board and Management",,紫金矿业执行董事、副董事长、总裁,金铜矿运营、全球项目执行、并购整合,与邹来昌一起跟踪紫金经营口径
+吴建辉,中国矿业专家/矿业高管,"紫金矿业官网 Board and Management",,紫金矿业执行董事、高级副总裁、总工程师,采矿工程、技术路线、资源开发,适合补充技术、矿山建设和资源开发判断
+刘建锋,中国矿业高管,CMOC 官网、港交所公告,,CMOC 董事长,铜钴、钼钨、海外矿山、贸易与资源扩张,CMOC 管理层 2025 后有变动；每次引用前核对最新公告
+彭旭辉,中国矿业高管,CMOC 官网、公开公告,,CMOC CEO,刚果（金）铜钴、全球资源运营、IXM 金属贸易,"重点跟踪 Tenke Fungurume、KFM、铜钴产量和成本口径"
+郑高清,中国矿业高管,江西铜业官网、年报,,江西铜业董事长,铜矿、冶炼、德兴铜矿、贵金属副产,中国铜冶炼和自产铜矿口径的重要来源
+李航,中国矿业高管,山东黄金官网、年报,,山东黄金集团董事长,黄金矿山、山东金矿、海外金矿并购与运营,适合跟踪中国黄金供给和大型金矿技改
+陆东尚,中国矿业高管,招金矿业官网、年报,,招金矿业董事长,黄金、白银副产、山东招远矿集区、海外金矿并购,"重点跟踪招金山东资源和 Tietto/Abujar 后续"
+卢进,中国矿业高管,中国黄金集团官网、年报,,中国黄金集团董事长,央企黄金、铜金多金属、资源整合,跟踪中国黄金集团及中国黄金国际
+杨军,中国矿业高管,铜陵有色官网、年报,,铜陵有色金属集团董事长,"铜矿山、铜冶炼、金银副产、厄瓜多尔 Mirador 铜金矿",中国铜供给、冶炼加工费和副产金银线索
+王建华,中国矿业高管,赤峰黄金官网、年报,,赤峰黄金创始人/核心管理层,黄金矿山并购、海外金矿运营、成本改善,职务需以最新公告核对；适合作为中国民营金矿扩张样本
+"Simon Trott",矿业高管,"Rio Tinto 官网、公开访谈",,"Rio Tinto CEO，长期在铁矿石业务和集团运营体系任职",铜扩张、Oyu Tolgoi、全球矿山运营、资本纪律,接替 Jakob Stausholm 后重点跟踪铜增长战略
+"Gary Nagle",矿业高管,"Glencore 官网、公开访谈",,"Glencore CEO，交易和矿山资产背景",铜、锌、煤、金属贸易、并购和资本配置,铜供给、冶炼加工费、交易流向和资源并购线索丰富
+Máximo Pacheco,矿业高管,Codelco 官网、公开访谈,,Codelco 董事会主席,"智利铜、国有矿企治理、Chuquicamata/El Teniente 等资产",重点跟踪智利铜供给、项目延期、品位和成本
+"Rubén Alvarado",矿业高管,Codelco 官网、公开访谈,,Codelco CEO,智利铜矿运营、矿山转型、生产恢复,与 Máximo Pacheco 一起跟踪 Codelco 执行口径
+"Iván Arriagada",矿业高管,"Antofagasta 官网、公开访谈",,"Antofagasta CEO","智利铜矿、Los Pelambres、Centinela、供水和扩产",铜供给、智利水权/许可、矿山扩产信息源
+"Jonathan Price",矿业高管,Teck 官网、公开访谈,,"Teck President & CEO",QB2 铜矿、铜增长、锌和炼焦煤资产组合,适合跟踪大型铜项目爬坡和资产组合调整
+"PDAC Convention","会议/Panel/访谈源","https://www.pdac.ca/convention",,"加拿大多伦多年度矿业勘探与开发大会，覆盖投资者演示、技术议程、Capital Markets 和 corporate presentations","junior miners、勘探融资、金银铜项目、政策和地质技术","Part 1 必搜：agenda、presenters、media、YouTube、company presentation、interview、panel"
+"Denver Gold Forum / Gold Forum Americas","会议/Panel/访谈源","https://www.denvergold.org/",,"Denver Gold Group 旗下贵金属矿企会议，集中金矿和贵金属公司管理层演示","黄金矿企、银矿、royalty/streaming、机构投资者口径","重点搜公司 webcast、CEO interview、presentation replay 和 panel"
+"Precious Metals Summit","会议/Panel/访谈源","https://www.precioussummit.com/",,"Beaver Creek、Zurich 等贵金属公司和机构投资者会议","金银 junior、开发商、streaming/royalty、并购候选",会议周重点跟踪公司一对一访谈、演示稿和媒体采访
+"Mines and Money","会议/Panel/访谈源","https://minesandmoney.com/",,"矿业投资会议系列，覆盖 London、Sydney、Hong Kong、online connect 等场次",矿企融资、投资人观点、金银铜和关键矿产项目,"搜索 event agenda、speaker、interview、panel、company presentation"
+"Investing in African Mining Indaba","会议/Panel/访谈源","https://www.miningindaba.com/",,非洲矿业投资大会，覆盖政府、矿企、投资者和下游买家,非洲铜金项目、许可、基础设施、社区和政策风险,"重点跟踪 Mining Indaba TV、Digital Content Hub、agenda、daily highlights"
+"Future Minerals Forum","会议/Panel/访谈源","https://www.futuremineralsforum.com/",,"沙特 Future Minerals Forum，覆盖政府、矿企、投资者和矿产供应链",中东/非洲/中亚矿业投资、铜和关键矿产、政策合作,"重点搜 Knowledge Hub、FMF TV、interview、ministerial roundtable、report"
+"Diggers & Dealers Mining Forum","会议/Panel/访谈源","https://www.diggersndealers.com.au/",,"澳大利亚 Kalgoorlie 年度矿业投资论坛，集中上市矿企演示和媒体报道",澳洲金矿、铜矿、勘探商、矿山运营和成本,"重点跟踪 live stream、latest presentations、ASX 公司演示和媒体采访"
+"BMO Global Metals, Mining & Critical Minerals Conference","会议/Panel/访谈源","BMO Capital Markets conferences",,大型矿企、金属和关键矿产机构会议,大型矿企 CEO/CFO 访谈、铜金银供给、资本开支和并购,"多为机构会议；优先搜公司官网 webcast replay 和 presentation"
+"CRU World Copper Conference / CESCO Week","会议/Panel/访谈源","CRU、CESCO 官方会议页面",,全球铜产业会议，通常在智利 CESCO Week 期间聚集矿企、冶炼厂和贸易商,"铜矿供给、TC/RC、智利项目、精炼和需求","Part 1/Part 3 都应搜；重点看 panel、keynote、market outlook"
+LME Week,"会议/Panel/访谈源",https://www.lme.com/,,伦敦金属交易所年度行业周，覆盖基本金属市场、交易、库存和产业链观点,铜需求、库存、冶炼、贸易流和金融参与者口径,不是纯矿业会议，但对铜供需和交易流向有高价值
+"CHINA MINING Conference and Exhibition","会议/Panel/访谈源","https://www.chinaminingtj.org/",,中国国际矿业大会，通常聚集中国矿企、政府、地勘单位和海外矿业项目,中国矿业政策、金铜项目、海外并购、地质勘查,重点搜中文议程、论坛发言、媒体报道、企业专访
+"China Gold Congress and Expo","会议/Panel/访谈源","中国黄金协会、China Gold Congress 官网",,中国黄金行业会议，覆盖黄金矿山、冶炼、投资和协会报告,中国黄金产量、矿山安全、技改、央国企和民营金矿,重点跟踪协会新闻、会议发言、企业访谈和行业报告
+SMM 有色会展 / 铜产业链峰会,"会议/Panel/访谈源","https://www.smm.cn/",,上海有色网会展和产业链峰会，覆盖铜、贵金属、冶炼和加工链条,"铜精矿、TC/RC、库存、冶炼、下游需求、白银工业需求",对中国供需口径很有用；注意区分数据、观点和赞助内容
+Deutsche Goldmesse,"会议/Panel/访谈源","Soar Financial / Deutsche Goldmesse",,欧洲贵金属和资源股会议，常有 CEO 访谈和公司演示,"金银 junior、欧洲资金关注、公司 IR 叙事","与 Kai Hoffmann/Soar Financial 频道联动搜索"
+"New Orleans Investment Conference","会议/Panel/访谈源","https://neworleansconference.com/",,历史较长的资源和硬资产投资会议,金银宏观、资源股、贵金属投资人和矿企演示,"与 Brien Lundin/Gold Newsletter 网络联动搜索"
+"Rule Symposium on Natural Resource Investing","会议/Panel/访谈源","https://rulesymposium.com/",,"Rick Rule 资源投资会议，聚集资源股投资人和矿企管理层","junior mining、私募融资、管理层质量、周期判断","重点搜演讲、panel、company presentation 和会后访谈"
+"AME Roundup","会议/Panel/访谈源","https://amebc.ca/roundup/",,BC 矿业勘探协会年度会议，地质和勘探导向强,"加拿大勘探、Golden Triangle、地质技术、许可和原住民议题",适合发现早期金银铜勘探信号
+"The Northern Miner Canadian Mining Symposium / Global Mining Symposium","会议/Panel/访谈源","https://www.northernminer.com/",,"The Northern Miner 会议和视频访谈生态",矿企 CEO 访谈、金银铜项目、融资和并购,"重点搜 Symposium、interview、TNM Drill Down、company presentation"

@@ -1,0 +1,5 @@
+{
+  "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
+  "last_updated": "2026-07-06",
+  "entries": []
+}

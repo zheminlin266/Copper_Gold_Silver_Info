@@ -1,0 +1,186 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Daily Mining Report",
+  "description": "Structured data mirror of the daily HTML report for gold, silver, copper supply-demand tracking",
+  "type": "object",
+  "required": ["date", "report_time", "windows", "part1_broadcasts", "part2_x_posts", "part3_news", "search_log", "dedup_log"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "description": "Report date in YYYY-MM-DD format (the day being covered, not the generation day)",
+      "example": "2026-07-05"
+    },
+    "report_time": {
+      "type": "string",
+      "description": "ISO 8601 datetime when the report was generated (07:00 Beijing time next day)",
+      "example": "2026-07-06T07:00:00+08:00"
+    },
+    "windows": {
+      "type": "object",
+      "required": ["part1", "part2", "part3"],
+      "properties": {
+        "part1": {
+          "type": "object",
+          "required": ["start", "end"],
+          "description": "72-hour rolling window for broadcasts/interviews",
+          "properties": {
+            "start": {"type": "string", "format": "date-time"},
+            "end": {"type": "string", "format": "date-time"}
+          }
+        },
+        "part2": {
+          "type": "object",
+          "required": ["start", "end"],
+          "description": "Single-day window for X posts",
+          "properties": {
+            "start": {"type": "string", "format": "date-time"},
+            "end": {"type": "string", "format": "date-time"}
+          }
+        },
+        "part3": {
+          "type": "object",
+          "required": ["start", "end"],
+          "description": "Single-day window for news (English + Chinese)",
+          "properties": {
+            "start": {"type": "string", "format": "date-time"},
+            "end": {"type": "string", "format": "date-time"}
+          }
+        }
+      }
+    },
+    "part1_broadcasts": {
+      "type": "array",
+      "description": "Broadcast/podcast/webcast/YouTube interviews found in the 72h window, after dedup",
+      "items": {
+        "type": "object",
+        "required": ["title", "url", "publish_date", "source_type", "metal_tags", "supply_demand", "summary"],
+        "properties": {
+          "title": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "publish_date": {"type": "string", "format": "date"},
+          "source_type": {
+            "type": "string",
+            "enum": ["podcast", "webcast", "youtube", "conference_interview", "panel", "keynote", "company_presentation"]
+          },
+          "guest": {
+            "type": "object",
+            "properties": {
+              "name": {"type": "string"},
+              "background": {"type": "string"}
+            }
+          },
+          "metal_tags": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
+          },
+          "supply_demand": {
+            "type": "string",
+            "enum": ["supply", "demand", "both"]
+          },
+          "summary": {"type": "string"},
+          "detail": {"type": "string"},
+          "companies": {"type": "array", "items": {"type": "string"}},
+          "projects": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "part2_x_posts": {
+      "type": "array",
+      "description": "Verified X/Twitter posts in the single-day window",
+      "items": {
+        "type": "object",
+        "required": ["author", "handle", "publish_time", "metal_tags", "supply_demand", "url"],
+        "properties": {
+          "author": {"type": "string"},
+          "handle": {"type": "string"},
+          "publish_time": {"type": "string", "format": "date-time"},
+          "metal_tags": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
+          },
+          "supply_demand": {
+            "type": "string",
+            "enum": ["supply", "demand", "both"]
+          },
+          "excerpt": {"type": "string"},
+          "interpretation": {"type": "string"},
+          "importance": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "source_channel": {
+            "type": "string",
+            "enum": ["browser_use", "rss_fallback"]
+          }
+        }
+      }
+    },
+    "part3_news": {
+      "type": "array",
+      "description": "Supply-demand news from English and Chinese sources in the single-day window",
+      "items": {
+        "type": "object",
+        "required": ["source", "title", "url", "publish_time", "metal_tags", "supply_demand", "language"],
+        "properties": {
+          "source": {"type": "string"},
+          "title": {"type": "string"},
+          "url": {"type": "string", "format": "uri"},
+          "publish_time": {"type": "string", "format": "date-time"},
+          "metal_tags": {
+            "type": "array",
+            "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
+          },
+          "supply_demand": {
+            "type": "string",
+            "enum": ["supply", "demand", "both"]
+          },
+          "excerpt": {"type": "string"},
+          "interpretation": {"type": "string"},
+          "importance": {"type": "string"},
+          "language": {
+            "type": "string",
+            "enum": ["en", "zh"]
+          },
+          "duplicate_of": {
+            "type": ["string", "null"],
+            "description": "If this news duplicates another entry, reference that entry's title or URL; null if unique"
+          }
+        }
+      }
+    },
+    "search_log": {
+      "type": "object",
+      "required": ["part1_searched", "part2_searched", "part3_sources_checked"],
+      "properties": {
+        "part1_searched": {"type": "boolean"},
+        "part2_searched": {"type": "boolean"},
+        "part2_channel": {
+          "type": "string",
+          "enum": ["browser_use", "rss_fallback", "failed"]
+        },
+        "part3_sources_checked": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "new_sources_discovered": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "dedup_log": {
+      "type": "object",
+      "required": ["part1_deduped_urls", "part3_deduped_events"],
+      "properties": {
+        "part1_deduped_urls": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "URLs excluded from today's Part 1 because they appeared in the previous 2 days' reports"
+        },
+        "part3_deduped_events": {
+          "type": "array",
+          "items": {"type": "string"},
+          "description": "Event descriptions merged as duplicates in Part 3"
+        }
+      }
+    }
+  }
+}
