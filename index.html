@@ -1,358 +1,157 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/report.css">
   <title>每日金属矿业 · Daily Reports</title>
   <link rel="icon" type="image/png" href="./Sources/mining_news_logo.png">
-  <style>
-    :root {
-      --paper: #fff;
-      --paper-2: #fff;
-      --card: #fff;
-      --line: rgba(21, 38, 29, .14);
-      --line-strong: rgba(21, 38, 29, .22);
-      --ink: #15261d;
-      --text: #304239;
-      --muted: #66746a;
-      --green: #1f5e43;
-      --green-2: #2f7a56;
-      --green-soft: rgba(47, 122, 86, .10);
-      --shadow: 0 20px 56px rgba(35, 45, 35, .08);
-      --radius: 10px;
-      --serif: Georgia, "Noto Serif SC", "Source Han Serif SC", serif;
-      --sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", sans-serif;
-      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      background: #fff;
-      color: var(--text);
-      font-family: var(--sans);
-      -webkit-font-smoothing: antialiased;
-    }
-    a { color: inherit; text-decoration: none; }
-    img { display: block; width: 100%; height: 100%; object-fit: cover; }
-
-    .wrap {
-      width: min(1220px, calc(100vw - 36px));
-      margin: 0 auto;
-    }
-
-    .hero {
-      padding: 68px 0 26px;
-    }
-    .brand-lockup {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-    }
-    .logo-mark {
-      width: clamp(62px, 8vw, 92px);
-      aspect-ratio: 1;
-      flex: 0 0 auto;
-      overflow: hidden;
-      border: 1px solid rgba(21, 38, 29, .12);
-      border-radius: 999px;
-      background: #fff;
-      box-shadow: 0 12px 30px rgba(35, 45, 35, .08);
-    }
-    .logo-mark img {
-      object-fit: contain;
-      padding: 7px;
-    }
-    .eyebrow {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      color: var(--green);
-      font-family: var(--mono);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .16em;
-      text-transform: uppercase;
-    }
-    .eyebrow::before {
-      content: "";
-      width: 8px;
-      height: 8px;
-      border-radius: 999px;
-      background: var(--green-2);
-    }
-    h1 {
-      margin: 18px 0 0;
-      color: var(--ink);
-      font-family: var(--serif);
-      font-size: clamp(30px, 4.8vw, 58px);
-      font-weight: 500;
-      line-height: 1;
-      letter-spacing: -.03em;
-    }
-    .lede {
-      max-width: 840px;
-      margin: 18px 0 0;
-      color: var(--muted);
-      font-size: clamp(18px, 2vw, 22px);
-      line-height: 1.7;
-    }
-
-    .reports { padding: 18px 0 72px; }
-    .reports-head {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 38px;
-    }
-    .reports-head h2 {
-      margin: 0;
-      color: var(--ink);
-      font-family: var(--sans);
-      font-size: clamp(30px, 4vw, 48px);
-      font-weight: 800;
-      line-height: .96;
-      letter-spacing: 0;
-      text-transform: uppercase;
-    }
-    .reports-head p {
-      margin: 0;
-      color: var(--ink);
-      font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      border: 1px solid var(--ink);
-      border-radius: 999px;
-      padding: 9px 22px;
-    }
-
-    .report-list {
-      display: grid;
-      border-top: 1px solid var(--ink);
-    }
-    .report-row {
-      display: grid;
-      grid-template-columns: minmax(240px, 360px) minmax(0, 1fr) 42px;
-      gap: 28px;
-      min-height: 300px;
-      padding: 16px 0 28px;
-      border-bottom: 1px solid var(--ink);
-      color: var(--ink);
-    }
-    .report-row:hover .arrow { transform: translateX(5px); }
-    .thumb {
-      width: 100%;
-      aspect-ratio: 1.48 / 1;
-      overflow: hidden;
-      background: var(--card);
-      border: 1px solid var(--line);
-      align-self: start;
-    }
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin-top: 18px;
-      color: var(--ink);
-      font-family: var(--mono);
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-    .report-row h3 {
-      margin: 0;
-      color: var(--ink);
-      font-family: var(--sans);
-      font-size: clamp(18px, 2.2vw, 28px);
-      font-weight: 800;
-      line-height: 1.08;
-      letter-spacing: 0;
-      text-transform: uppercase;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .summary {
-      margin: 18px 0 0;
-      max-width: 760px;
-      color: var(--text);
-      font-size: 17px;
-      line-height: 1.72;
-    }
-    .arrow {
-      justify-self: end;
-      color: var(--ink);
-      font-size: 54px;
-      line-height: .9;
-      transition: transform .18s ease;
-    }
-    .weekly-section {
-      padding: 0 0 48px;
-    }
-    .weekly-card {
-      display: flex;
-      align-items: center;
-      gap: 18px;
-      padding: 20px 0;
-      border-top: 1px solid var(--line);
-      border-bottom: 1px solid var(--line);
-      color: var(--ink);
-      transition: background .15s ease;
-    }
-    .weekly-card:hover { background: var(--green-soft); }
-    .weekly-card .week-label {
-      font-family: var(--mono);
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: .1em;
-      text-transform: uppercase;
-      color: var(--green);
-      flex: 0 0 auto;
-    }
-    .weekly-card .week-desc {
-      font-size: 15px;
-      color: var(--text);
-      line-height: 1.6;
-    }
-    footer {
-      padding: 0 0 36px;
-      color: var(--muted);
-      font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    @media (max-width: 760px) {
-      .hero { padding-top: 52px; }
-      .reports-head {
-        align-items: start;
-        flex-direction: column;
-      }
-      .report-row {
-        grid-template-columns: 1fr 34px;
-        gap: 16px;
-        min-height: 0;
-      }
-      .thumb { grid-column: 1 / -1; }
-      .copy { grid-column: 1; }
-      .arrow { grid-column: 2; grid-row: 2; font-size: 40px; }
-      .report-row h3 {
-        font-size: clamp(15px, 4.4vw, 20px);
-      }
-      .weekly-card { flex-direction: column; align-items: flex-start; }
-      .weekly-card .arrow { display: none; }
-    }
-  </style>
 </head>
 <body>
-  <main class="wrap">
-    <header class="hero">
-      <div class="brand-lockup">
+  <nav class="nav" aria-label="Main navigation">
+    <div class="wrap nav-inner">
+      <a class="nav-brand" href="./index.html">
         <div class="logo-mark"><img src="./Sources/mining_news_logo.png" alt="每日金属矿业 logo"></div>
-        <div>
-          <div class="eyebrow">Gold Silver Copper · Supply / Demand</div>
-          <h1>每日金属矿业</h1>
-          <p class="lede">跟踪金、银、铜矿业供需信号。访谈覆盖 72 小时窗口，新闻同步覆盖 Reuters / Mining.com 与 SMM / SHMET 等中英文信源。每篇日报同步输出结构化 JSON 数据，支持跨日查询与周度趋势分析。</p>
+        <span class="brand-text">
+          <span class="brand-en">DAILY METALS MINING</span>
+          <span class="brand-cn">每日金属矿业</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#daily-reports" class="is-active">Daily</a></li>
+        <li><a href="#weekly-reports">Weekly</a></li>
+        <li><a href="./Sources">Sources</a></li>
+        <li><a href="https://github.com/ZheminXie/Copper_Gold_Silver_Info">GitHub</a></li>
+      </ul>
+      <button class="nav-menu" aria-label="Open menu"><span></span></button>
+    </div>
+  </nav>
+
+  <main>
+    <header class="hero">
+      <div class="wrap">
+        <div class="hero-grid">
+          <div class="hero-logo"><img src="./Sources/mining_news_logo.png" alt="每日金属矿业 logo"></div>
+          <div>
+            <div class="hero-eyebrow">Gold · Silver · Copper · Supply / Demand</div>
+            <h1>
+              <span class="en">Daily Metals Mining Digest</span>
+              <span class="cn">每日金属矿业 · 供需信号</span>
+            </h1>
+            <p class="lede">跟踪金、银、铜矿业的供给与需求信号。访谈覆盖 72 小时窗口；新闻同步覆盖 Reuters / Mining.com 与 SMM / SHMET 等中英文信源。每篇日报同步输出结构化 JSON，支持跨日查询与周度趋势分析。</p>
+          </div>
         </div>
       </div>
     </header>
 
     <section class="reports" aria-labelledby="daily-reports">
-      <div class="reports-head">
-        <h2 id="daily-reports">Daily Reports</h2>
-        <p>View All</p>
-      </div>
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="daily-reports">
+            Featured Reports
+            <small>最近 7 日 · 2026-06-30 → 2026-07-06</small>
+          </h2>
+          <a class="pill-btn" href="./Historical_Daily_Reports/">
+            View All
+            <span class="arrow-sm">→</span>
+          </a>
+        </div>
 
-      <div class="report-list">
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-06.html">
-          <div class="thumb"><img src="./Sources/mining_2026-07-06_battery_metals.jpeg" alt="Sierra Nevada Gold As Safra copper drilling / US 232 copper tariff / Baiyin Nonferrous acquisition"></div>
-          <div class="copy">
-            <h3>2026-07-06 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">铜供给信号高度集中：美国 232 铜关税调查报告（预期 2027 年起对进口精炼铜加征 15% 关税），全球铜精矿 TC 跌至历史极低值，智利 AMSA 率先放弃固定加工费模式。全球铜显性库存周度降 1.7 万吨。白银有色完成境外铜金矿收购（新增铜储量 65 万吨、金 12.38 吨）。沙特 As Safra 首钻确认大型铜矿化系统。Part 2：KatusaResearch 发布白银 SLV 投资需求信号（投资者卖出 SLV 而银价仍涨）。本期 Part 3 首次并行覆盖英文和中文信源。</p>
-            <div class="meta"><span>Daily</span><span>2026-07-06</span><span>Copper Supply Crunch</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+        <div class="report-list">
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-06.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-06_battery_metals.jpeg" alt="Sierra Nevada Gold As Safra copper drilling / US 232 copper tariff / Baiyin Nonferrous acquisition"></div>
+            <div class="copy">
+              <h3>2026-07-06 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">铜供给信号高度集中：美国 232 铜关税调查报告（预期 2027 年起对进口精炼铜加征 15% 关税），全球铜精矿 TC 跌至历史极低值，智利 AMSA 率先放弃固定加工费模式。全球铜显性库存周度降 1.7 万吨。白银有色完成境外铜金矿收购（新增铜储量 65 万吨、金 12.38 吨）。沙特 As Safra 首钻确认大型铜矿化系统。Part 2：KatusaResearch 发布白银 SLV 投资需求信号（投资者卖出 SLV 而银价仍涨）。本期 Part 3 首次并行覆盖英文和中文信源。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-06</span><span class="tag">Copper Supply Crunch</span></div>
+            </div>
+          </a>
 
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-05.html">
-          <div class="thumb"><img src="./Sources/mining_2026-07-05_adani_copper.jpeg" alt="Adani copper cathodes from Mining.com coverage"></div>
-          <div class="copy">
-            <h3>2026-07-05 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">本页以金、银、铜矿业供需为主线，不再把 CSV 名单当作硬过滤器；名单人物、公司高管、播客嘉宾、新闻人物都可纳入，并标注背景。窗口内重点是 Adani 铜冶炼品牌进入 LME 交割体系，以及 Zimbabwe 高金价下黄金勘探与化验需求升温；X 原帖当前仍需官方 API 或登录态工具验证。</p>
-            <div class="meta"><span>Daily</span><span>2026-07-05</span><span>Supply / Demand</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-05.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-05_adani_copper.jpeg" alt="Adani copper cathodes from Mining.com coverage"></div>
+            <div class="copy">
+              <h3>2026-07-05 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">本页以金、银、铜矿业供需为主线，不再把 CSV 名单当作硬过滤器；名单人物、公司高管、播客嘉宾、新闻人物都可纳入，并标注背景。窗口内重点是 Adani 铜冶炼品牌进入 LME 交割体系，以及 Zimbabwe 高金价下黄金勘探与化验需求升温；X 原帖当前仍需官方 API 或登录态工具验证。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-05</span><span class="tag">Supply / Demand</span></div>
+            </div>
+          </a>
 
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-04.html">
-          <div class="thumb"><img src="./Sources/mining_2026-07-04_kghm.jpg" alt="KGHM mine image from Mining.com coverage"></div>
-          <div class="copy">
-            <h3>2026-07-04 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">供给管线推进最集中：KGHM 铜银投资计划、Red Chris 扩建承诺、Faraday Copper 资产组合扩大，以及 Antofagasta 在智利铜项目的许可推进。本期没有发现窗口内合格公开访谈；X 原帖无法稳定验证，因此不摘录不可核验内容。</p>
-            <div class="meta"><span>Daily</span><span>2026-07-04</span><span>Copper / Silver Pipeline</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-04.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-04_kghm.jpg" alt="KGHM mine image from Mining.com coverage"></div>
+            <div class="copy">
+              <h3>2026-07-04 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">供给管线推进最集中：KGHM 铜银投资计划、Red Chris 扩建承诺、Faraday Copper 资产组合扩大，以及 Antofagasta 在智利铜项目的许可推进。本期没有发现窗口内合格公开访谈；X 原帖无法稳定验证，因此不摘录不可核验内容。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-04</span><span class="tag">Copper / Silver Pipeline</span></div>
+            </div>
+          </a>
 
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-03.html">
-          <div class="thumb"><img src="./Sources/mining_2026-07-03_cerro_colorado.jpg" alt="Cerro Colorado copper mine from Mining.com coverage"></div>
-          <div class="copy">
-            <h3>2026-07-03 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">铜供给恢复与黄金运营风险并存：BHP 寻求重启 Cerro Colorado，Hudbay 提升 Constancia 处理能力，Agnico Eagle 因 Barnat open pit 岩体移动提示黄金产量短期受扰。未来同类公司访谈即便嘉宾不在原名单内，也应按项目与供需重要性纳入。</p>
-            <div class="meta"><span>Daily</span><span>2026-07-03</span><span>Supply Risk</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-03.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-03_cerro_colorado.jpg" alt="Cerro Colorado copper mine from Mining.com coverage"></div>
+            <div class="copy">
+              <h3>2026-07-03 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">铜供给恢复与黄金运营风险并存：BHP 寻求重启 Cerro Colorado，Hudbay 提升 Constancia 处理能力，Agnico Eagle 因 Barnat open pit 岩体移动提示黄金产量短期受扰。未来同类公司访谈即便嘉宾不在原名单内，也应按项目与供需重要性纳入。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-03</span><span class="tag">Supply Risk</span></div>
+            </div>
+          </a>
 
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-02.html">
-          <div class="thumb"><img src="./Sources/mining_2026-07-02_south32.jpg" alt="South32 operation from Mining.com coverage"></div>
-          <div class="copy">
-            <h3>2026-07-02 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">黄金投资需求与矿业资产重配是主线：黄金受利率路径预期影响反弹，同时 South32 出售铝业务后把资本焦点转向铜、锌、银、铅等资产组合。新闻简报、访谈、X 内容只要给出供需线索，均应记录来源和人物背景。</p>
-            <div class="meta"><span>Daily</span><span>2026-07-02</span><span>Investment Demand</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-02.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-02_south32.jpg" alt="South32 operation from Mining.com coverage"></div>
+            <div class="copy">
+              <h3>2026-07-02 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">黄金投资需求与矿业资产重配是主线：黄金受利率路径预期影响反弹，同时 South32 出售铝业务后把资本焦点转向铜、锌、银、铅等资产组合。新闻简报、访谈、X 内容只要给出供需线索，均应记录来源和人物背景。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-02</span><span class="tag">Investment Demand</span></div>
+            </div>
+          </a>
 
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-01.html">
-          <div class="thumb"><img src="./Sources/mining_2026-07-01_koryx.jpg" alt="Koryx Copper drill core from Mining.com coverage"></div>
-          <div class="copy">
-            <h3>2026-07-01 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">铜与黄金供给管线并行：Koryx Copper 的 Namibia Haib 钻探推进铜资源转化，Fortuna 的 Senegal Diamba Sud 可研强化黄金供给管线；黄金价格承压则反映投资需求受高利率预期牵制。相关访谈不再因嘉宾不在种子名单而自动排除。</p>
-            <div class="meta"><span>Daily</span><span>2026-07-01</span><span>Copper / Gold Pipeline</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-01.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-01_koryx.jpg" alt="Koryx Copper drill core from Mining.com coverage"></div>
+            <div class="copy">
+              <h3>2026-07-01 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">铜与黄金供给管线并行：Koryx Copper 的 Namibia Haib 钻探推进铜资源转化，Fortuna 的 Senegal Diamba Sud 可研强化黄金供给管线；黄金价格承压则反映投资需求受高利率预期牵制。相关访谈不再因嘉宾不在种子名单而自动排除。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-01</span><span class="tag">Copper / Gold Pipeline</span></div>
+            </div>
+          </a>
 
-        <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-06-30.html">
-          <div class="thumb"><img src="./Sources/mining_2026-06-30_bunker_hill.jpeg" alt="Bunker Hill mine site from Mining.com coverage"></div>
-          <div class="copy">
-            <h3>2026-06-30 矿业 Broadcast & 供需新闻</h3>
-            <p class="summary">Bunker Hill Mining 在 Idaho mill 开始处理矿石并向设计处理能力爬坡，对应北美白银副产品与铅锌矿山供给恢复。该类项目进展、公司访谈、建设照片和管理层表态都属于日报应跟踪的供需线索。</p>
-            <div class="meta"><span>Daily</span><span>2026-06-30</span><span>Silver Supply</span></div>
-          </div>
-          <span class="arrow">&rarr;</span>
-        </a>
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-06-30.html">
+            <div class="thumb"><img src="./Sources/mining_2026-06-30_bunker_hill.jpeg" alt="Bunker Hill mine site from Mining.com coverage"></div>
+            <div class="copy">
+              <h3>2026-06-30 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">Bunker Hill Mining 在 Idaho mill 开始处理矿石并向设计处理能力爬坡，对应北美白银副产品与铅锌矿山供给恢复。该类项目进展、公司访谈、建设照片和管理层表态都属于日报应跟踪的供需线索。</p>
+              <div class="meta"><span>Daily</span><span>2026-06-30</span><span class="tag">Silver Supply</span></div>
+            </div>
+          </a>
+        </div>
       </div>
     </section>
 
     <section class="weekly-section" aria-labelledby="weekly-reports">
-      <div class="reports-head">
-        <h2 id="weekly-reports" style="font-size: clamp(20px, 2.8vw, 32px);">Weekly Summaries</h2>
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="weekly-reports">
+            Weekly Summary
+            <small>周一发布 · 聚合 7 日 JSON 数据</small>
+          </h2>
+        </div>
+        <a class="weekly-card" href="./Weekly_Reports/2026-W27.md">
+          <span class="week-label">2026-W27</span>
+          <span class="week-desc">首期周度趋势简报将在积累足够日报 JSON 数据后生成。由 scripts/report_builder.py 从 7 天 data/ JSON 文件自动聚合。</span>
+          <span class="arrow-main">→</span>
+        </a>
       </div>
-      <a class="weekly-card" href="./Weekly_Reports/2026-W27.md">
-        <span class="week-label">2026-W27</span>
-        <span class="week-desc">首期周度趋势简报将在积累足够日报 JSON 数据后生成。由 scripts/report_builder.py 从 7 天 data/ JSON 文件自动聚合。</span>
-        <span class="arrow" style="margin-left: auto;">&rarr;</span>
-      </a>
     </section>
 
-    <footer>Daily Metals Mining · Research links only · Not investment advice</footer>
+    <footer>
+      <div class="wrap footer-inner">
+        <span>Daily Metals Mining · Research links only · Not investment advice</span>
+        <div class="footer-links">
+          <a href="./index.html">Home</a>
+          <a href="https://github.com/ZheminXie/Copper_Gold_Silver_Info">GitHub</a>
+        </div>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
