@@ -3,3 +3,4 @@
 .chrome-x-profile/
 .browser_profile/
 .workbuddy/
+node_modules/
