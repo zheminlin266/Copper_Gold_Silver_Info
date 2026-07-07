@@ -99,7 +99,7 @@ mark {
 
 /* ---------- Hero (legacy) → BASIC® hero ---------- */
 .hero {
-  width: min(1240px, calc(100vw - clamp(20px, 4vw, 56px) * 2));
+  width: min(var(--max-width, 1240px), calc(100vw - var(--gutter, clamp(20px, 4vw, 56px)) * 2));
   margin: 0 auto;
   padding: clamp(48px, 7vw, 88px) 0 36px;
   border-bottom: 1px solid var(--line, #0a0a0a);
@@ -132,7 +132,7 @@ mark {
   line-height: 1.15;
   letter-spacing: -.02em;
   text-transform: none;
-  max-width: 22ch;
+  max-width: none;
 }
 h1 {
   margin: 0;
@@ -143,14 +143,14 @@ h1 {
   line-height: 1.15;
   letter-spacing: -.02em;
   text-transform: none;
-  max-width: 22ch;
+  max-width: none;
 }
 .hero-sub {
-  max-width: 860px;
+  max-width: none;
   margin: 22px 0 0;
   color: var(--text);
   font-family: var(--sans);
-  font-size: clamp(15px, 1.4vw, 17px);
+  font-size: 16px;
   line-height: 1.7;
 }
 .hero-sub strong { color: var(--ink); }
@@ -216,7 +216,7 @@ h1 {
 .summary {
   display: block;
   margin: 0 auto;
-  width: min(1240px, calc(100vw - clamp(20px, 4vw, 56px) * 2));
+  width: min(var(--max-width, 1240px), calc(100vw - var(--gutter, clamp(20px, 4vw, 56px)) * 2));
   padding: 36px 0 16px;
 }
 .brief {
@@ -239,11 +239,11 @@ h1 {
   text-transform: uppercase;
   line-height: 1;
 }
-.brief p { margin: 0; color: var(--text); font-size: 15.5px; line-height: 1.7; }
+.brief p { margin: 0; color: var(--text); font-size: 16px; line-height: 1.72; }
 
 /* ---------- Section (legacy) → BASIC® section ---------- */
 .section {
-  width: min(1240px, calc(100vw - clamp(20px, 4vw, 56px) * 2));
+  width: min(var(--max-width, 1240px), calc(100vw - var(--gutter, clamp(20px, 4vw, 56px)) * 2));
   margin: 0 auto;
   padding: clamp(40px, 6vw, 56px) 0;
   border-bottom: 1px solid var(--line, rgba(0,0,0,.12));
@@ -277,11 +277,11 @@ h1 {
 }
 .section-note {
   margin: -8px 0 28px;
-  max-width: 860px;
+  max-width: none;
   color: var(--muted, #6b6b6b);
   font-family: var(--sans);
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.72;
 }
 
 /* ---------- Grid + Card (legacy) → BASIC® cards ---------- */
@@ -364,8 +364,26 @@ h1 {
   border-bottom: 1px solid var(--line-mid);
 }
 .card h3 a:hover { border-bottom-color: var(--ink); }
-.card p { margin: 6px 0; color: var(--text); font-size: 14.5px; line-height: 1.65; }
+.card p { margin: 6px 0; color: var(--text); font-size: 16px; line-height: 1.72; }
 .card p strong { color: var(--ink); }
+
+.detail h4 {
+  margin: 18px 0 8px;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.detail ul {
+  margin: 8px 0 8px 1.2em;
+  color: var(--text);
+  font-size: 16px;
+  line-height: 1.72;
+}
+.detail li + li {
+  margin-top: 6px;
+}
 
 .importance {
   margin-top: 8px;
@@ -374,8 +392,8 @@ h1 {
   border-left: 3px solid var(--green, #1f5e43);
   color: var(--text);
   font-family: var(--sans);
-  font-size: 14px;
-  line-height: 1.65;
+  font-size: 16px;
+  line-height: 1.72;
 }
 .importance strong { color: var(--ink); }
 
@@ -385,8 +403,8 @@ h1 {
   border-top: 1px solid var(--line, rgba(0,0,0,.12));
   color: var(--muted, #6b6b6b);
   font-family: var(--sans);
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.72;
   letter-spacing: .02em;
 }
 .card .source-meta a { color: var(--ink); border-bottom: 1px solid var(--line-mid); }
@@ -444,7 +462,7 @@ h1 {
   letter-spacing: .12em;
   text-transform: uppercase;
 }
-.theme p { margin: 0; color: var(--text); font-size: 14.5px; line-height: 1.65; }
+.theme p { margin: 0; color: var(--text); font-size: 16px; line-height: 1.72; }
 .theme p a { color: var(--ink); border-bottom: 1px solid var(--line-mid); }
 .theme p a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 
@@ -474,7 +492,7 @@ h1 {
   font-weight: 700;
   line-height: 1.4;
 }
-.x-module p { margin: 6px 0; color: var(--text); font-size: 14px; line-height: 1.6; }
+.x-module p { margin: 6px 0; color: var(--text); font-size: 16px; line-height: 1.72; }
 
 /* ---------- Links / chip rows (legacy) → flat link list ---------- */
 .links {
@@ -511,9 +529,75 @@ h1 {
 .pending {
   color: var(--muted, #6b6b6b);
   font-family: var(--sans);
-  font-size: 14px;
+  font-size: 16px;
   padding: 20px 0;
-  line-height: 1.6;
+  line-height: 1.72;
+}
+
+/* ---------- Broadcast segment table ---------- */
+.segments {
+  margin-top: 14px;
+}
+.segments summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.35;
+  cursor: pointer;
+  list-style: none;
+}
+.segments summary::-webkit-details-marker {
+  display: none;
+}
+.segments summary::after {
+  content: "▼";
+  flex: 0 0 auto;
+  color: var(--ink);
+  font-size: 13px;
+}
+.segments[open] summary::after {
+  content: "▲";
+}
+.segments table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-size: 16px;
+  line-height: 1.72;
+}
+.segments th,
+.segments td {
+  padding: 9px 0;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid var(--line, rgba(0,0,0,.12));
+}
+.segments th {
+  color: var(--ink);
+  font-weight: 700;
+}
+.segments th:first-child,
+.segments td:first-child {
+  width: 126px;
+  padding-right: 18px;
+  border-right: 1px solid var(--line, rgba(0,0,0,.12));
+  color: var(--muted, #6b6b6b);
+  font-weight: 700;
+  white-space: nowrap;
+}
+.segments th:nth-child(2),
+.segments td:nth-child(2) {
+  padding-left: 18px;
+}
+.segments th:nth-child(3),
+.segments td:nth-child(3) {
+  display: none;
 }
 
 /* ---------- Minute rows (broadcast transcript) ---------- */
@@ -533,7 +617,7 @@ h1 {
   letter-spacing: .12em;
   text-transform: uppercase;
 }
-.minute-row p { margin: 0; font-size: 14.5px; line-height: 1.65; color: var(--text); }
+.minute-row p { margin: 0; font-size: 16px; line-height: 1.72; color: var(--text); }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 760px) {
@@ -546,4 +630,18 @@ h1 {
   .meta-row { gap: 8px; }
   .meta-row > span { padding: 0 10px; }
   .topbar { height: 60px; gap: 18px; font-size: 11px; }
+  .hero-sub,
+  .brief p,
+  .section-note,
+  .card p,
+  .detail ul,
+  .importance,
+  .card .source-meta,
+  .theme p,
+  .x-module p,
+  .pending,
+  .segments table,
+  .minute-row p {
+    font-size: 14.5px;
+  }
 }

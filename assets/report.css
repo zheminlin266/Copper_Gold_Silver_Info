@@ -242,7 +242,7 @@ button { font: inherit; cursor: pointer; }
   max-width: 760px;
   margin-top: 28px;
   color: var(--text);
-  font-size: clamp(15px, 1.4vw, 17px);
+  font-size: 16px;
   line-height: 1.7;
 }
 
@@ -368,9 +368,9 @@ button { font: inherit; cursor: pointer; }
   word-break: break-word;
 }
 .copy .summary {
-  max-width: 680px;
+  max-width: none;
   color: var(--text);
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.72;
   display: -webkit-box;
   -webkit-line-clamp: 4;
@@ -436,7 +436,7 @@ button { font: inherit; cursor: pointer; }
   color: var(--ink);
 }
 .weekly-card .week-desc {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--text);
   line-height: 1.65;
   max-width: 720px;
@@ -585,7 +585,7 @@ footer {
 .report-page .item h3 a:hover { border-color: var(--ink); }
 .report-page .item p {
   margin-top: 8px;
-  font-size: 14.5px;
+  font-size: 16px;
   line-height: 1.7;
   color: var(--text);
 }
