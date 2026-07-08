@@ -1,0 +1,151 @@
+X raw materials before filtering
+Report day: 2026-07-08
+Collection date: 2026-07-09
+Method:
+- Used Playwright with storage_state from .browser_profile/x_auth.json (Chrome).
+- Seed pool from mining_people_broadcast_x_articles.csv handles.
+- Each handle searched with from:handle + gold/silver/copper/mining terms.
+- Final day attribution uses Asia/Shanghai time from exact time element datetime.
+
+2026-07-08 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. @peter_krauth
+   URL: https://x.com/peter_krauth/status/2074683254888640739
+   UTC: 2026-07-08T02:33:28.000Z
+   Beijing: 2026-07-08 10:33:28
+   Text: Exciting things happening 
+@BPSilverCorp
+. A very notable discovery in a highly underexplored area. Looks like a compelling #silver play.
+
+2. @peter_krauth
+   URL: https://x.com/peter_krauth/status/2074548519780954179
+   UTC: 2026-07-07T17:38:05.000Z
+   Beijing: 2026-07-08 01:38:05
+   Text: The drill bit is turning at 
+@BPSilverCorp
+.
+
+Just one week after Ted and I introduced BP Silver to the Silver Advisor portfolio, Phase 2 drilling is officially underway at Cosuño.
+
+The first target is Pocañita Chica, where Phase 1 returned 38m at 116 g/t silver and 1m at 1,655 g/t
+
+3. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2074868800369906017
+   UTC: 2026-07-08T14:50:45.000Z
+   Beijing: 2026-07-08 22:50:45
+   Text: I didn't buy gold or silver stocks, I bought an oil stock... so I've no regrets.
+
+(Bullion is another matter. I've never regretted adding to my stacks.)
+
+4. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2074567016338297278
+   UTC: 2026-07-07T18:51:34.000Z
+   Beijing: 2026-07-08 02:51:34
+   Text: I'm not a mining engineer. Maybe one who is can comment?
+
+5. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2074550607063445938
+   UTC: 2026-07-07T17:46:22.000Z
+   Beijing: 2026-07-08 01:46:22
+   Text: One way to find gold under a rainbow…
+;-{)}
+
+6. @TaviCosta
+   URL: https://x.com/TaviCosta/status/2074854498753777847
+   UTC: 2026-07-08T13:53:56.000Z
+   Beijing: 2026-07-08 21:53:56
+   Text: There are two things the US cannot afford:
+
+• Rate hikes
+
+• A prolonged, costly war
+
+Yet those are precisely what’s driving the selloff in hard assets.
+
+Not too many times in history do you get the chance to buy gold at oversold levels during a secular bull market.
+
+Act
+
+7. @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2074777814050451631
+   UTC: 2026-07-08T08:49:13.000Z
+   Beijing: 2026-07-08 16:49:13
+   Text: 非常感谢 
+@si_magazin
+ 对“ In Gold We Trust ”20周年的精彩祝贺！
+
+完整报告在这里：
+https://
+ingoldwetrust.report
+
+#IGWT26 #Gold 
+@IGWTreport
+ #SubstanzInvestor
+
+8. @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2074768402778849312
+   UTC: 2026-07-08T08:11:49.000Z
+   Beijing: 2026-07-08 16:11:49
+   Text: There's never gonna be a shortage of gold. It's all about the stock to flow ratio.
+
+9. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2074817394568990973
+   UTC: 2026-07-08T11:26:29.000Z
+   Beijing: 2026-07-08 19:26:29
+   Text: Good Q2 silver production numbers for 
+$AYA
+ (+61% YTD) 
+
+We visited this silver mine in Morocco earlier this year
+
+(Video, sound on, wait for it)
+
+10. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2074541635937931310
+   UTC: 2026-07-07T17:10:43.000Z
+   Beijing: 2026-07-08 01:10:43
+   Text: ‘Gold Collateral’
+
+11. @soarfinancial
+   URL: https://x.com/soarfinancial/status/2074833343388983623
+   UTC: 2026-07-08T12:29:52.000Z
+   Beijing: 2026-07-08 20:29:52
+   Text: Storm Exploration ($STRM) continues to build the case for a potentially significant VMS discovery at its Gold Standard Project.
+
+Latest highlights include:
+ Surface sulphide mineralization, including chalcopyrite, identified at three locations
+ VLF-EM survey confirms a strong
+
+12. @Frank_Giustra
+   URL: https://x.com/Frank_Giustra/status/2074800533169168689
+   UTC: 2026-07-08T10:19:29.000Z
+   Beijing: 2026-07-08 18:19:29
+   Text: Funny thing how the rest of the world loading up on gold and US pumping Bitcoin.
+
+13. @IvanhoeMines_
+   URL: https://x.com/IvanhoeMines_/status/2074814934274183473
+   UTC: 2026-07-08T11:16:43.000Z
+   Beijing: 2026-07-08 19:16:43
+   Text: Ivanhoe Mines reports 64,328 tonnes of copper produced by Kamoa-Kakula in Q2 2026
+Read full news release: 
+https://
+tinyurl.com/37fhrfbn   $IVN
+
+14. @Glencore
+   URL: https://x.com/Glencore/status/2074538939721945107
+   UTC: 2026-07-07T17:00:00.000Z
+   Beijing: 2026-07-08 01:00:00
+   Text: Congratulations to Glencore Canada’s Sudbury Integrated Nickel Operations (Sudbury INO) mine rescue team who achieved 1st place at the 2026 Ontario Mine Rescue Provincial Competition! Their victory marks Sudbury INO’s first provincial mine rescue title since 2008 and reflects the
+
+15. @TeckResources
+   URL: https://x.com/TeckResources/status/2074574983737626625
+   UTC: 2026-07-07T19:23:14.000Z
+   Beijing: 2026-07-08 03:23:14
+   Text: Teck, Canada Growth Fund and Canada Critical Minerals Accelerator sign Agreement to Support Strategic Metals Production at Trail Smelter 
+https://
+ow.ly/e2CX50ZlieH 
+$TECK
+
+
+Filtering takeaway for this day:
+- Found 15 candidates. Filter by supply/demand relevance.

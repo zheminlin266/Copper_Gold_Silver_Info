@@ -4,3 +4,5 @@
 .browser_profile/
 .workbuddy/
 node_modules/
+nul
+scripts/gen_json_07_08.py
