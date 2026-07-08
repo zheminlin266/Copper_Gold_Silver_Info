@@ -1,115 +1,119 @@
 {
-  "date": "2026-07-06",
-  "report_time": "2026-07-07T06:55:00+08:00",
+  "date": "2026-07-07",
+  "report_time": "2026-07-08T09:46:00+08:00",
   "windows": {
-    "part1": {"start": "2026-07-04T00:00:00+08:00", "end": "2026-07-06T23:59:59+08:00"},
-    "part2": {"start": "2026-07-06T00:00:00+08:00", "end": "2026-07-06T23:59:59+08:00"},
-    "part3": {"start": "2026-07-06T00:00:00+08:00", "end": "2026-07-06T23:59:59+08:00"}
+    "part1": {"start": "2026-07-05T00:00:00+08:00", "end": "2026-07-07T23:59:59+08:00"},
+    "part2": {"start": "2026-07-07T00:00:00+08:00", "end": "2026-07-07T23:59:59+08:00"},
+    "part3": {"start": "2026-07-07T00:00:00+08:00", "end": "2026-07-07T23:59:59+08:00"}
   },
-  "part1_broadcasts": [
+  "part1_broadcasts": [],
+  "part2_x_posts": [
     {
-      "title": "Mining Stock Daily Morning Briefing: KGHM $85.5亿 Strategy 2055+, BHP Cerro Colorado 重启环评, Argenta Silver 超高品位银见矿, King Copper Discovery 获秘鲁钻探许可",
-      "url": "https://www.miningstockdaily.com/episodes/s0xco1y8rnw5akowcrwwdl0esmmeqj",
-      "publish_date": "2026-07-06",
-      "source_type": "podcast",
-      "guest": {
-        "name": "Trevor Hall",
-        "background": "Mining Stock Daily 主持/制作，聚焦矿业新闻和 CEO 访谈，北美 junior mining 新闻流核心信息源"
-      },
+      "author": "Katusa Research",
+      "handle": "@KatusaResearch",
+      "publish_time": "2026-07-07T01:17:54+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "demand",
+      "excerpt": "Bloomberg reports that China's own citizens just made a gold fund bigger than the stock fund their government spent two years propping up. The Gold ETF is now the largest in the country.",
+      "interpretation": "中国黄金ETF超越股票基金成为中国最大基金类型，标志着居民资产配置从房地产/股票向黄金的结构性迁移。这不仅是投资需求信号，更反映了中国家庭在房地产下行和股市疲弱背景下的避险偏好转变。如果趋势持续，中国将成为全球黄金ETF需求增长最快的市场。",
+      "importance": "中国黄金ETF规模超越股票基金是一个里程碑式信号。全球最大黄金消费国的居民资产配置向黄金倾斜，将直接推动黄金投资需求增长，并可能改变黄金市场的边际定价逻辑。这与央行持续购金形成需求侧双重支撑。",
+      "url": "https://x.com/KatusaResearch/status/2074181055310160095",
+      "source_channel": "browser_use"
+    },
+    {
+      "author": "Peter Krauth",
+      "handle": "@peter_krauth",
+      "publish_time": "2026-07-07T23:40:08+08:00",
+      "metal_tags": ["silver"],
+      "supply_demand": "demand",
+      "excerpt": "Silver in AI. Exploding data center demand relies on the world's most conductive metal: Silver. Link to miningvisuals.com article on silver in the data center and how AI's power crunch is building a new pillar of industrial demand.",
+      "interpretation": "Peter Krauth（Silver Stock Investor 作者）引用 miningvisuals.com 分析，指出 AI 数据中心建设正在为白银创造全新工业需求支柱。白银是所有金属中导电性和导热性最好的，在芯片连接、散热和电力传输中不可替代。AI 服务器和数据中心对高可靠性连接的需求远超传统电子产品，单机柜白银用量显著提升。",
+      "importance": "AI 数据中心需求是白银工业需求增长的最新驱动力，叠加光伏（尽管增速放缓）、5G 和汽车电子，白银工业需求多元化趋势增强。在全球白银连续第五年供不应求的背景下，AI 驱动的新增需求将进一步收紧供需平衡。这是一个被市场低估的中长期需求信号。",
+      "url": "https://x.com/peter_krauth/status/2074518838058549621",
+      "source_channel": "browser_use"
+    },
+    {
+      "author": "Willem Middelkoop",
+      "handle": "@wmiddelkoop",
+      "publish_time": "2026-07-07T15:54:09+08:00",
       "metal_tags": ["gold", "silver", "copper"],
-      "supply_demand": "both",
-      "summary": "美国国庆长假周末后首个交易日早间简报，铜供给信号密度突出：KGHM 公布 Strategy 2055+——320 亿兹罗提（$85.5 亿）至 2030 年投资计划，80% 投向波兰核心业务，拟新建 'KGHM 2.0' 矿山，2026-30 年年均目标产铜 73 万吨、银 1,290 吨；BHP 正式提交智利 Cerro Colorado 铜矿重启环评——拟从 Alto Hospicio 铺设 100+ 公里海水淡化管道，总投资 $15 亿，预期延长矿山寿命 20 年。银方面，Argenta Silver 在 El Quevar 外扩钻获 446g/t 银/28 米（含 1,195g/t/6 米）；铜方面，King Copper Discovery 获秘鲁 DIA 许可批准 36,010 米钻探。另含 Provenance Gold 金矿结果及 Magna Mining C$1.4 亿战略投资。",
-      "detail": "本期为 2026 年 7 月 6 日（周一）早间简报，美国国庆长假后首个交易日。开盘行情：黄金 $4,155/oz（-0.3%），白银 $62.15（-0.4%），铜 $6.18/lb（+0.2%）。前两则铜供给头条定调：一、KGHM 'Strategy 2055+'——波兰国有铜银生产商公布 320 亿兹罗提（$85.5 亿）至 2030 年投资计划，80% 投向波兰核心业务，新建 'KGHM 2.0' 矿山，2026-30 年目标年均 EBITDA 120 亿兹罗提、产铜 73 万吨、银 1,290 吨，海外资产含智利 Sierra Gorda（55% 权益）和 Nevada Robinson 矿；二、BHP 提交智利 Atacama 沙漠 Cerro Colorado 铜矿重启环评——该矿自 2023 年底因水权被拒后停产，BHP 新方案拟从沿海 Alto Hospicio 铺设 100+ 公里海水淡化管道，总投资 $15 亿，预期维持 20 年矿山寿命。银供给亮点：Argenta Silver 在阿根廷 El Quevar 项目 Yaxtché 矿床西北 120 米外扩钻获 446g/t 银/28 米（含 1,195g/t/6 米、单米 4,870g/t），矿床现有指示资源 4,530 万盎司银 @482g/t。铜勘探：King Copper Discovery 获秘鲁 DIA 环评许可，批准 Colquemayo 铜项目 36,010 米钻探（40 个平台），项目位于 Cerro Verde-Quellaveco-Cuajone 铜矿带，12 公里岩帽，历史钻探见矿 237.3 米 @2.4% 铜（含 15.15 米 @27% 铜）。金勘探：Provenance Gold 在俄勒冈 Eldorado West 钻获 1.82g/t 金/116.74 米（含 4.70g/t/25.60 米），系统多方向未封闭。矿业融资：Magna Mining 获秘鲁 Alpayana S.A.C.（六座运营中地下矿山）C$1.4 亿非经纪人私募，Alpayana 持股约 19.9%，资金用于 Sudbury 盆地 Levack 和 Crean Hill 项目。另含 Integra Resources（Florida Canyon/Delamar 金银项目 50,000 米钻探）赞助内容。",
-      "companies": ["KGHM", "BHP", "Argenta Silver", "King Copper Discovery", "Magna Mining", "Alpayana", "Provenance Gold", "Bravo Mining", "Integra Resources"],
-      "projects": ["KGHM 2.0", "Cerro Colorado", "El Quevar (Yaxtché)", "Colquemayo", "Levack/Crean Hill (Sudbury)", "Eldorado West", "Luanga", "Florida Canyon/Delamar"],
-      "segments": [
-        {"time": "0:00-0:45", "topic_zh": "市场开盘：金$4,155 银$62.15 铜$6.18，长假周末后首个交易日", "topic_en": "Market open after July 4th weekend: Au $4,155, Ag $62.15, Cu $6.18/lb"},
-        {"time": "0:45-2:15", "topic_zh": "KGHM Strategy 2055+：$85.5亿投资，KGHM 2.0新矿，目标73万吨铜/年+1,290吨银/年", "topic_en": "KGHM Strategy 2055+: $8.55B investment, 'KGHM 2.0' new mine, targeting 730kt Cu + 1,290t Ag annually"},
-        {"time": "2:15-3:15", "topic_zh": "BHP Cerro Colorado重启：$15亿海水淡化管道方案，20年矿山寿命", "topic_en": "BHP Cerro Colorado restart: $1.5B desalinated seawater pipeline, 20-year mine life"},
-        {"time": "3:15-3:45", "topic_zh": "赞助：Integra Resources金银项目50,000米钻探", "topic_en": "Sponsor: Integra Resources 50,000m drill program at Florida Canyon/Delamar"},
-        {"time": "3:45-5:00", "topic_zh": "Magna Mining获Alpayana C$1.4亿战略投资（19.9%持股），资金用于Sudbury项目", "topic_en": "Magna Mining C$140M strategic investment from Alpayana (19.9% stake), Sudbury Basin projects"},
-        {"time": "5:00-5:45", "topic_zh": "Centauri Minerals C$2,500万融资，Rio Grande金铜项目（阿根廷）", "topic_en": "Centauri Minerals C$25M raise for Rio Grande gold-copper project, Argentina"},
-        {"time": "5:45-6:30", "topic_zh": "District Metals启动瑞典Alum Shale航空MobileMT调查", "topic_en": "District Metals MobileMT survey at Alum Shale, Sweden"},
-        {"time": "6:30-7:15", "topic_zh": "Bravo Mining：Luanga PGM-金-镍矿床51米@3.7g/t PGM+Au", "topic_en": "Bravo Mining: Luanga deposit 51m at 3.7g/t PGM+Au, Carajás, Brazil"},
-        {"time": "7:15-8:30", "topic_zh": "Argenta Silver：El Quevar外扩钻获446g/t银/28米（含4,870g/t/1米），矿床扩展至120米外", "topic_en": "Argenta Silver: El Quevar step-out 446g/t Ag over 28m (incl. 4,870g/t/1m), 120m NW extension"},
-        {"time": "8:30-9:00", "topic_zh": "Provenance Gold：Eldorado West 1.82g/t金/116.74米，2026年钻探即将启动", "topic_en": "Provenance Gold: Eldorado West 1.82g/t Au over 116.74m, 2026 drilling to commence"},
-        {"time": "9:00-10:00", "topic_zh": "King Copper Discovery：获秘鲁Colquemayo DIA许可，36,010米钻探，历史见矿237.3米@2.4%铜", "topic_en": "King Copper Discovery: DIA approval for 36,010m drill at Colquemayo, Peru, historical 237.3m at 2.4% Cu"}
-      ]
+      "supply_demand": "supply",
+      "excerpt": "Why China is winning: 'In 2023, American mining engineering programs graduated 162 students. China graduated about 3,000 from 45 programs. Twelve US universities have shut down their mining engineering departments.'",
+      "interpretation": "Willem Middelkoop（Commodity Discovery Fund 创始人）引用数据对比中美矿业工程人才培养差距——中国 3,000 人 vs 美国 162 人，且美国 12 所大学已关闭矿业工程系。这不仅仅是教育数据，而是矿业供给侧的深层结构性问题：西方矿业面临严重的人才断层，从地质勘探到矿山运营的技术人员供给不足，将限制新项目开发和现有矿山运营效率。",
+      "importance": "矿业人才短缺是供给侧的慢变量但结构性问题。新矿发现率下降不仅因为勘探投入不足，更深层的原因是地质和工程人才供给的萎缩。美国矿业工程毕业生仅 162 人/年，远不足以支撑矿业的正常退休更替，更无法满足铜、金、银矿业扩张的人力需求。这将在中长期构成矿业供给的隐性瓶颈。",
+      "url": "https://x.com/wmiddelkoop/status/2074401569764720978",
+      "source_channel": "browser_use"
+    },
+    {
+      "author": "Soar Financial",
+      "handle": "@soarfinancial",
+      "publish_time": "2026-07-07T22:03:40+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Troilus ($TLG) continues to demonstrate the upside potential within its existing mine plan. New results from the Z87 optimization program include: 0.95 g/t AuEq over 164m, Including 1.38 g/t AuEq over 46m. The drilling is targeting historically unsampled intervals.",
+      "interpretation": "Troilus Gold（TSX: TLG）在魁北克 Troilus 金铜项目 Z87 矿区的优化钻探取得新结果：164 米 @0.95g/t AuEq（含 46 米 @1.38g/t AuEq）。钻探针对历史上未取样的区段，说明现有矿坑模型内仍有未纳入资源的矿化段——这意味着项目资源量存在上行空间，且可能降低剥采比或提升矿山初期品位。",
+      "importance": "Troilus 是魁北克最大的未开发金铜项目之一（历史生产 200 万盎司金 + 7 万吨铜，当前资源 1,146 万盎司 AuEq 的 M&I）。本次 Z87 矿坑内未取样区段的见矿结果直接关系到项目经济性提升——更多矿坑内矿石意味着更低的 strip ratio 和更好的前期现金流。如果 Z87 优化钻探持续出好结果，2026 年可行性研究中的矿山经济指标有望改善，加速项目向建设阶段推进。",
+      "url": "https://x.com/soarfinancial/status/2074494564065333504",
+      "source_channel": "browser_use"
     }
   ],
-  "part2_x_posts": [],
   "part3_news": [
     {
-      "source": "Dakota Gold Corp. / Newsfile",
-      "title": "Dakota Gold Completes Pre-Feasibility Drilling and Releases High-Grade Assay Results from Richmond Hill Gold Project",
-      "url": "https://dakotagoldcorp.com/investor-info/news/dakota-gold-completes-pre-feasibility-drilling-and-releases-further-assay-results-from-the-richmond-hill-gold-project/",
-      "publish_time": "2026-07-06T06:33:00+08:00",
-      "metal_tags": ["gold", "silver"],
-      "supply_demand": "supply",
-      "excerpt": "Dakota Gold（NYSE: DC）完成 Richmond Hill 氧化矿堆浸金项目 2026 年钻探计划，总计 17,273 米/112 孔。亮点：外扩孔 RH26C-432 钻获 11.36g/t 金 + 14.92g/t 银 / 26.3 米（298 gram-meters Au），含 77.19g/t Au + 63.12g/t Ag / 3.2 米。外扩区位于当前 M&I 资源边界以北约 365 米，覆盖 580m×730m 区域，在多个方向保持开放。所有数据将纳入 2026 Q4 预可研（PFS），公司已锁定变电站建设档期（Black Hills Energy），现金储备 $1.07 亿支持项目关键路径推进。",
-      "interpretation": "Richmond Hill 项目正从初步经济评价（2025 IACF：M&I 矿坑计划平均品位 0.566g/t Au）向预可研阶段推进。本次外扩钻探在 Deadwood Formation 北部多次抓到远高于现有矿坑平均品位的高品位矿段，有望提升整体资源量和项目经济性。公司已经着手锁定长周期设备（变电站），表明对项目投产有高度信心。该项目位于南达科他州 145 年历史的 Homestake 金矿区，最快 2029 年商业生产。",
-      "importance": "这是美国本土新金矿供给管线的重要进展。Richmond Hill 若按计划推进，将成为 Homestake 矿区近几十年来首个新投产金矿。高品位外扩 + PFS 推进 + 长周期设备锁定，三重信号叠加表明项目正在实质性向生产阶段过渡，属于黄金供给管线中确定性较高的项目。伴生银进一步提升了项目经济性。",
-      "language": "en",
-      "duplicate_of": null
-    },
-    {
-      "source": "Argenta Silver / Junior Mining Network",
-      "title": "Argenta Silver Intersects 446 g/t Ag over 28m (Incl. 1,195 g/t Ag over 6m) in 120m Step-Out at El Quevar, Argentina",
-      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/3379-tsx-venture/agag/206729-argenta-silver-intersects-446-g-t-ag-over-28-0m-including-1-195-g-t-ag-over-6-0m-in-a-120-0m-step-out-drill-hole-at-yaxtche.html",
-      "publish_time": "2026-07-06T08:00:00+08:00",
-      "metal_tags": ["silver"],
-      "supply_demand": "supply",
-      "excerpt": "Argenta Silver（TSXV: AGAG）公布 El Quevar 项目 2025-26 钻探第五批结果。头号孔 QVD-469 在 Yaxtché 矿床西北 120 米外扩区钻获 446g/t 银/28.0 米，含 1,195g/t 银/6.0 米及 4,870g/t 银/1.0 米（bonanza 级）。矿床现有指示资源 4,530 万盎司银 @482g/t。东南 Yaxtché-Carmen 走廊钻探正在缩小银主导的 Yaxtché 系统与金铜 Carmen 靶区之间 100 米未测试间隙，提示两者可能在深部相连。",
-      "interpretation": "El Quevar 正从已知高品位银矿床向外大幅扩展。120 米外扩仍抓到工业级 + bonanza 级银矿化，说明 Yaxtché 系统的实际规模可能远大于当前资源模型。更重要的是，银系统可能与金铜 Carmen 靶区相连——若能验证，项目金属组合将从纯银升级为银-金-铜，显著提升项目经济性和战略价值。",
-      "importance": "当前全球银矿供给面临结构性紧张（2025 年为连续第五年供不应求），高品位原生银矿的新发现和资源扩展直接关系到中长期银供给。El Quevar 已有 4,530 万盎司指示资源 @482g/t（品位极高），本次外扩结果若在后续钻探中持续验证，有望大幅提升资源规模，成为全球最重要的未开发高品位银矿之一。",
-      "language": "en",
-      "duplicate_of": null
-    },
-    {
-      "source": "King Copper Discovery / Junior Mining Network",
-      "title": "King Copper Discovery Receives DIA Approval for 36,010-Metre Drill Program at Colquemayo Copper Project, Peru",
-      "url": "https://www.juniorminingnetwork.com/junior-miner-news/press-releases/2744-tsx-venture/kcp/206709-king-copper-discovery-receives-dia-approval-for-36-010-metre-drill-program-at-the-colquemayo-project.html",
-      "publish_time": "2026-07-06T08:00:00+08:00",
+      "source": "MINING.COM / Bloomberg News",
+      "title": "A Once-Great Copper Miner Faces a Reckoning Just as AI Power Demand Soars — Codelco Struggles Under $25B Debt, Lowest Output in 28 Years",
+      "url": "https://www.mining.com/web/a-once-great-copper-miner-faces-a-reckoning-just-as-ai-power-demand-soars/",
+      "publish_time": "2026-07-07T05:32:00+08:00",
       "metal_tags": ["copper"],
       "supply_demand": "supply",
-      "excerpt": "King Copper Discovery（TSXV: KCP）获秘鲁能源矿产部 DIA 环评许可，批准 Colquemayo 铜项目 36,010 米全资金钻探计划（40 个平台）。项目位于秘鲁南部世界级铜矿带（毗邻 Cerro Verde、Quellaveco、Cuajone），12 公里岩帽。历史钻探见矿 237.3 米 @2.4% 铜，含 15.15 米 @27% 铜（深度）。公司同时瞄准高硫化浅成低温热液角砾岩带延伸和深部斑岩铜矿系统。",
-      "interpretation": "Colquemayo 位于全球最高产铜矿带之一，历史钻探结果极为可观（237.3 米连续铜矿化，含超高品位段）。本次获得 DIA 许可是项目从历史资产向系统勘探阶段转变的关键里程碑。36,010 米是大型钻探计划，公司资金已到位，表明勘探将实质性推进。12 公里岩帽 + 深部斑岩靶区 + 世界级矿带邻居，构成了极具说服力的勘探故事。",
-      "importance": "铜供给的长期挑战之一是新发现率下降。Colquemayo 若在后续钻探中验证历史高品位铜矿化并找到斑岩源区，可能成为秘鲁铜矿带下一个重要新发现。DIA 许可获批是秘鲁勘探项目最重要的监管关卡，通过后项目进入实质性勘探阶段，属于铜供给管线的早期但值得跟踪的信号。",
+      "excerpt": "Bloomberg 长篇调查报道：智利国营铜业巨头 Codelco 正面临 250 亿美元债务和 28 年来最低产量，同时陷入多起丑闻——2025 年 El Teniente 矿难致 6 人死亡，内部审计发现产量虚报约 27,000 吨，三名高管被免职。新任董事长 Bernardo Fontaine（Kast 政府任命）正在推动战略审查，强调 '盈利优先于规模'，暗示可能放弃 170 万吨/年的历史产量目标，稳定在约 130 万吨甚至更低水平。Codelco 生产成本比全球前三大铜矿商高出 50% 以上，矿石品位持续下降，矿山日益深化和复杂化。BNEF 模型预测智利铜产量将从当前约 540 万吨降至 2050 年的 420 万吨。S&P Global 研究显示 AI、数据中心和国防领域铜需求到 2040 年将增长约三倍，新增约 400 万吨年需求。",
+      "interpretation": "这是市场对全球最大铜生产国结构性供给挑战的最全面诊断。Codelco 的问题不是周期性的，而是结构性的——矿石品位下降、矿山老化、债务高企、治理失败四重叠加，且在新的保守派政府下可能被迫收缩而非扩张。如果 Codelco 放弃 170 万吨目标（其历史峰值），意味着全球铜供给的长期天花板被进一步压低。与此同时，AI/数据中心需求在加速增长，供需剪刀差将进一步扩大。BNEF 预测 2035 年铜缺口 700 万吨，Codelco 的收缩将使这个缺口更早、更严重地兑现。",
+      "importance": "这是本期报告最重要的供给信号。Codelco 占全球铜矿产量的约 6-7%，其结构性衰退叠加 AI 需求爆发，构成铜供需基本面最清晰的中长期看涨叙事。如果 Codelco 稳定在 130 万吨（而非 170 万吨），全球每年将永久性损失约 40 万吨铜供给——这相当于一个中大型铜矿的产量。智利作为全球最大铜产国的产量下行趋势（5.4Mt → 4.2Mt by 2050）更是在国家层面对铜供给构成长期约束。",
       "language": "en",
       "duplicate_of": null
     },
     {
-      "source": "Mysteel / 百度百家号",
-      "title": "Mysteel 铜产业数据：6月电解铜产量114.51万吨（环比-1.32%），国内电解铜现货库存降至19.53万吨",
-      "url": "https://baijiahao.baidu.com/s?id=1869956439671453693",
-      "publish_time": "2026-07-06T17:17:00+08:00",
+      "source": "Solidcore Resources / EQS News / MINING.COM",
+      "title": "Kazakh Gold Miner Solidcore Signs First Exploration Venture in Oman — Khabiyat Copper-Gold Project, Up to 60% Earn-In",
+      "url": "https://www.mining.com/web/kazakh-gold-miner-solidcore-signs-first-exploration-venture-in-oman/",
+      "publish_time": "2026-07-07T08:01:00+08:00",
+      "metal_tags": ["copper", "gold"],
+      "supply_demand": "supply",
+      "excerpt": "Solidcore Resources（前 Polymetal，哈萨克斯坦上市金矿商）与阿曼国有矿业开发公司 MDO 签署合资协议，勘探开发 Khabiyat 铜金项目。Solidcore 通过三阶段 earn-in 最高可获得 60% 权益：第一阶段 20% 权益投入 800 万美元（+150 万美元现金支付），第二阶段追加 2,000 万美元获取额外 25% 权益并完成 JORC 资源估算，第三阶段再获 15% 权益（至 60%），价格基于铜当量资源量和可比公司交易倍数确定。Khabiyat 为 VMS 型铜金系统，走向长度超 800 米，矿化带厚度达 70 米，位于 Semail 蛇绿岩带（全球最大、保存最好的古洋壳碎片），矿化沿走向和深部未封闭。项目距 Sohar 工业港 29 公里，基础设施良好。",
+      "interpretation": "这是 Solidcore 在哈萨克斯坦之外的首次海外勘探投资，也反映了前苏联地区矿企向中东铜金资源扩张的趋势。阿曼 Semail 蛇绿岩带是 VMS 铜金矿床的重要产区，但勘探程度远低于智利或刚果（金）等传统铜矿省。Solidcore-MDO 合资是阿曼矿业对外开放的标志性案例，如果 Khabiyat 验证为经济矿床，可能推动该地区更多 VMS 铜金矿的勘探开发。",
+      "importance": "阿曼 Semail 蛇绿岩带是全球铜矿勘探的潜力新区。800 米+走向 + 70 米厚度的 VMS 矿化规模可观，叠加阿曼政府的矿业开放政策（MDO 积极引入外资），该区域有望成为中东铜金供给的新增长极。对于铜供给地理多元化而言，中东/中亚地区的矿业开发具有战略意义——现有铜供给高度集中在智利、秘鲁、刚果（金），地缘多元化有利于供给稳定性。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "紫金天风期货研究所 / 新浪财经",
+      "title": "铜：日渐式微 — TC 现货跌至 -$130/吨，铜精矿港口库存增至 92.9 万吨，国内冶炼零单盈利收窄至 500 元/吨以内",
+      "url": "http://finance.sina.com.cn/wm/2026-07-07/doc-inifyvay5140986.shtml",
+      "publish_time": "2026-07-07T17:16:00+08:00",
       "metal_tags": ["copper"],
       "supply_demand": "supply",
-      "excerpt": "Mysteel 调研 60 家电解铜生产企业（精炼产能 1,698 万吨，覆盖率 99.41%）：2026 年 6 月国内电解铜实际产量 114.51 万吨，环比减少 1.32%，同比减少 0.24%。7 月 6 日国内电解铜现货库存 19.53 万吨，较 6 月 29 日降 1.75 万吨，较 7 月 2 日降 0.59 万吨。铜杆库存 1.13 万吨，较 7 月 2 日减少 0.34 万吨。同期 Mysteel 还报道：波兰铜业（KGHM）发布 '2055+ 战略'，计划 2030 年前投资 $85.5 亿提升产能，目标年均产铜 73 万吨、白银 1,290 吨；必和必拓与法拉第铜业签署协议，后者全资收购亚利桑那 San Manuel 铜矿；加拿大政府向 Red Chris 铜金矿扩建提供 C$5 亿支持。",
-      "interpretation": "国内铜数据验证了供给端的持续紧张：6月产量环比和同比双降，矿端紧缺已实质性传导至冶炼端（与前日 TC 跌至历史极端低值相呼应）；电解铜库存加速去化（周降幅 1.75 万吨），铜杆库存同步下降反映下游消费尚可。Mysteel 同日综合报道的三条铜供给信号——KGHM 投资扩产（长期供给增量）、BHP-Faraday 资产整合（美国铜产业中心建设）、Red Chris 政府注资（加拿大关键矿产供给保障）——从不同维度印证了全球铜供给的结构性紧张和资本响应。",
-      "importance": "Mysteel 国内铜数据是跟踪中国铜供给最权威的高频指标之一。产量双降 + 库存加速去化构成短期供给紧张的清晰信号链。同日三条国际铜供给新闻（KGHM/BHP-Faraday/Red Chris）虽然原始公告日期在窗口之前，但 7 月 6 日的 Mysteel 综合报道反映了中国市场对这些全球铜供给事件的集中关注和消化。",
+      "excerpt": "紫金天风期货铜周报（7 月 7 日）综合 SMM/钢联数据：铜精矿现货 TC 继续下滑至约 -$130/吨，冶炼企业零单盈利空间收窄至 500 元/吨以内（长单盈利 4,300 元/吨）。中国 16 港进口铜精矿当周库存 92.9 万吨，较上期增 6.1 万吨（主要增量来自烟台港）。上海铜库存 13.01 万吨（较 6.29 降 1.54 万吨），保税区库存 4.74 万吨（降 0.25 万吨），LME 库存降至 31.89 万吨（注销仓单比例 36.87%），CMX 库存持续增加。矿端新闻：Adani Copper 品牌注册为 LME 可交割品牌；五矿资源 Dugald River 矿山 Wallaroo 铜靶区勘探 19 孔见矿 9 孔，部分铜品位高达近 20%；BHP 提交 Cerro Colorado 重启环评（$15 亿）。冶炼端：内贸矿拿货系数普遍处于 98% 以上高位，议价空间有限。",
+      "interpretation": "本周报从多维度验证了铜供给端的持续紧张：1）TC 深度负值（-$130/t）表明矿端紧缺格局未变且仍在恶化，虽然铜精矿港口库存微增（+6.1 万吨），但冶炼厂拿货系数高企（98%+）说明实际可流通矿源依然紧张；2）冶炼利润剪刀差扩大（长单 4,300 vs 零单 <500 元/吨），部分冶炼厂已开始调整精炼产线，矿端紧缺正逐步传导至精炼端；3）国内铜库存加速去化（上海 -1.54 万吨/周），LME 同步去库，仅 CMX 在关税预期下累库，全球精炼铜显性库存整体下降。Adani Copper 注册为 LME 交割品牌是印度铜冶炼产能国际化的里程碑，有助于提升 LME 可交割品牌多样性，但对短期供给增量有限。五矿 Dugald River Wallaroo 铜靶区高品位见矿（部分近 20% Cu）印证了该锌矿的铜潜力。",
+      "importance": "这是跟踪中国铜供给最全面的高频周度数据源。TC 深度负值 + 冶炼利润压缩 + 库存加速去化 = 铜供给紧张从矿端向精炼端传导的清晰证据链。7 月个别冶炼厂已开始调整精炼产线是重要信号——如果这一趋势扩大，下半年国内精炼铜产量可能低于预期，进一步收紧现货市场。同期 Codelco 结构性衰退（Part 3 第 1 条）与国内矿端紧缺形成全球铜供给双重压力的格局。",
       "language": "zh",
       "duplicate_of": null
     }
   ],
   "search_log": {
     "part1_searched": true,
-    "part1_sources_checked": ["Mining Stock Daily", "Soar Financial", "Sprott Insights", "Resource Talks", "Arcadia Economics/Substack", "YouTube search", "Natural Resource Stocks"],
-    "part1_result": "72小时窗口内发现 1 条合格 broadcast：Mining Stock Daily 7月6日早间简报（Trevor Hall），覆盖 KGHM Strategy 2055+、BHP Cerro Colorado 重启、Argenta Silver 超高品位银见矿、King Copper Discovery 秘鲁钻探许可等金银铜供需信号。Soar Financial 最新内容为 7月2日，Sprott Insights 7月无新内容发布。",
+    "part1_sources_checked": ["Mining Stock Daily", "Soar Financial", "Sprott Insights", "Resource Talks", "YouTube search", "Arcadia Economics/Substack"],
+    "part1_result": "72 小时窗口（07-05 至 07-07）内未发现新的合格 broadcast/podcast/YouTube 访谈。Mining Stock Daily 7 月 6 日早间简报已在 07-07 日报（data/2026-07-07.json）中覆盖（去重）。MSD 7 月 7 日 episode 在首页列出但 URL 不可访问。Soar Financial 最新为 7 月 2 日（Ed Yardeni），Sprott Insights 最新为 6 月 15 日，Resource Talks 最新为约 7 月 4 日（Selkirk Copper/Minto，略超窗口）。",
     "part2_searched": true,
     "part2_channel": "browser_use",
-    "part2_sources_checked": ["Playwright + Chrome (35 seed handles + 18 official accounts, storage_state from .browser_profile/x_auth.json)", "6 raw candidates found, all screened for supply-demand relevance"],
-    "part2_result": "Playwright + Chrome 采集完成。2026-07-06 单日窗口内发现 6 条原始候选帖（@KatusaResearch 2条、@RonStoeferle 1条、@wmiddelkoop 2条、@LawrenceLepard 1条）。经供需筛选：1 条 KatusaResearch 白银 SLV 投资需求帖已在 07-06 日报（data/2026-07-06.json part2_x_posts）中覆盖；其余为宏观评论/油市/比特币/项目定性评论，不满足矿山供给、库存、产量或工业/央行需求数据的严格筛选标准。本期无新增合格原帖纳入。",
-    "part3_sources_checked": ["Reuters/Mining.com (KGHM article July 3)", "Mining Stock Daily July 6 episode", "Dakota Gold Corp press release (July 6)", "Junior Mining Network press releases (July 6)", "Mysteel/百度百家号 (July 6)", "SMM 有色网", "新浪财经", "中国黄金协会"],
-    "part3_result": "单日窗口内发现 4 条合格新闻：Dakota Gold Richmond Hill PFS钻探（金）、Argenta Silver El Quevar外扩（银）、King Copper Discovery Colquemayo DIA许可（铜）、Mysteel铜产业数据（铜）。另有多条重要铜供给信号（KGHM Strategy、BHP-Faraday San Manuel、Red Chris C$5亿）因原始公告日期落在窗口之前，仅在 Part 1 的 Mining Stock Daily 覆盖或 Mysteel 综合报道中提及。",
-    "new_sources_discovered": ["Dakota Gold Corp (NYSE: DC) - via Dakota Gold press release", "Argenta Silver (TSXV: AGAG) - via Junior Mining Network", "King Copper Discovery (TSXV: KCP) - via Junior Mining Network"]
+    "part2_sources_checked": ["Playwright + Chrome (35 seed handles + 18 official accounts, storage_state from .browser_profile/x_auth.json)", "14 raw candidates found, 4 passed supply-demand screening"],
+    "part2_result": "Playwright + Chrome 采集完成（约 3 分钟）。2026-07-07 单日窗口内发现 14 条原始候选帖。经供需筛选保留 4 条：1）KatusaResearch 中国黄金 ETF 规模超越股票基金（金需求）、2）peter_krauth 白银 AI/数据中心工业需求（银需求）、3）wmiddelkoop 美国矿业工程毕业生仅 162 人 vs 中国 3,000 人（长期供给人才瓶颈）、4）soarfinancial Troilus Gold Z87 矿坑内高品位见矿 164m @0.95g/t AuEq（金供给）。其余 10 条为宏观评论/价格情绪/日历公告/无具体数据，排除。",
+    "part3_sources_checked": ["MINING.com (Copper, Gold archives)", "Bloomberg (via MINING.com)", "EQS News / Solidcore Resources", "新浪财经 / 紫金天风期货", "Mysteel / 百度百家号", "SMM 有色网", "Junior Mining Network", "中国黄金协会", "minelistings.com", "naturalresourcestocks.net"],
+    "part3_result": "单日窗口（07-07）内发现 3 条强供需新闻，全部为铜供给信号：1）MINING.com/Bloomberg Codelco 结构性危机（$25B 债务、28 年最低产量、产量虚报丑闻），2）Solidcore 与阿曼 MDO 签署 Khabiyat 铜金项目合资协议（勘探管线），3）紫金天风期货铜周报（TC -$130/t、库存去化、冶炼利润压缩）。当日未发现窗口内黄金/白银专项供需新闻。另有多家公司公告（Capstone Q2 日期公告等）与供需不直接相关，不纳入。",
+    "new_sources_discovered": []
   },
   "dedup_log": {
-    "part1_deduped_urls": [],
+    "part1_deduped_urls": ["https://www.miningstockdaily.com/episodes/s0xco1y8rnw5akowcrwwdl0esmmeqj"],
     "part3_deduped_events": [
-      "Mysteel铜库存数据与 07-06 日报中光大期货/新浪财经的全球铜显性库存数据为不同角度（国内 vs 全球），均保留",
-      "Argenta Silver El Quevar 在 Part 1（Mining Stock Daily 覆盖）和 Part 3（原始新闻稿）均有出现，属于不同信息层级，均保留",
-      "King Copper Discovery Colquemayo 在 Part 1 和 Part 3 均有出现，属于不同信息层级，均保留"
+      "Codelco 与紫金天风铜周报中 BHP Cerro Colorado 提及（原始公告 7/3）属于不同角度（全球结构性 vs 中国产业链），均保留，在紫金天风条目中作附注"
     ]
   }
 }

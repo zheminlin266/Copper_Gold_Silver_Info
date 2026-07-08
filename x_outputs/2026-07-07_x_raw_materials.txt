@@ -1,0 +1,149 @@
+X raw materials before filtering
+Report day: 2026-07-07
+Collection date: 2026-07-08
+Method:
+- Used Playwright with storage_state from .browser_profile/x_auth.json (Chrome).
+- Seed pool from mining_people_broadcast_x_articles.csv handles.
+- Each handle searched with from:handle + gold/silver/copper/mining terms.
+- Final day attribution uses Asia/Shanghai time from exact time element datetime.
+
+2026-07-07 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2074181055310160095
+   UTC: 2026-07-06T17:17:54.000Z
+   Beijing: 2026-07-07 01:17:54
+   Text: Bloomberg reports that China's own citizens just made a gold fund bigger than the stock fund their government spent two years propping up.
+
+The Gold ETF is now the largest in the country
+
+2. @TheDailyGold
+   URL: https://x.com/TheDailyGold/status/2074220581311172737
+   UTC: 2026-07-06T19:54:58.000Z
+   Beijing: 2026-07-07 03:54:58
+   Text: Big gold and silver development assets can make you big money if you spot them early in their development cycle.
+
+Big, economic assets gain big value in a bull market.
+
+These are the projects the industry and smart money invest in. And they gain considerable value in a bull
+
+3. @Brien_Lundin
+   URL: https://x.com/Brien_Lundin/status/2074177948840558630
+   UTC: 2026-07-06T17:05:34.000Z
+   Beijing: 2026-07-07 01:05:34
+   Text: "As I wrote last week, we’re awaiting some key drill results for a couple of our top junior mining picks in Gold Newsletter.
+
+"I can’t emphasize it enough. If you want to get positioned for the next run in metals and mining, this is the time.
+
+"I recommend that you click on the
+
+4. @silverguru22
+   URL: https://x.com/silverguru22/status/2074310095417360633
+   UTC: 2026-07-07T01:50:40.000Z
+   Beijing: 2026-07-07 09:50:40
+   Text: Check out my latest article: 
+The Silver Paradox: Critical Thinking in a World of Silver Narratives 
+https://
+linkedin.com/pulse/silver-p
+aradox-critical-thinking-world-narratives-david-morgan-ekfic
+… via 
+@LinkedIn
+ 
+@SRSroccoReport
+ 
+@BullionBrief
+ 
+@JeremySzafron
+ 
+@MichelleMakori
+
+5. @peter_krauth
+   URL: https://x.com/peter_krauth/status/2074518838058549621
+   UTC: 2026-07-07T15:40:08.000Z
+   Beijing: 2026-07-07 23:40:08
+   Text: Silver in AI. Exploding data center demand relies on the world's most conductive metal: #Silver.
+
+https://
+miningvisuals.com/post/silver-in
+-the-data-center-how-ais-power-crunch-is-building-a-new-pillar-of-industrial-demand
+…
+
+6. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2074495550007701854
+   UTC: 2026-07-07T14:07:36.000Z
+   Beijing: 2026-07-07 22:07:36
+   Text: I don't, but given the length wipeout in CN real estate, I'd imagine that the shift into gold continues and has a long way to go.
+
+7. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2074483012113166486
+   UTC: 2026-07-07T13:17:46.000Z
+   Beijing: 2026-07-07 21:17:46
+   Text: "Samsung's shares fell by almost 7% in Seoul on Tuesday as some investors had expected its profits to have been even higher."
+
+Heh. We've seen that hit gold miners.
+
+But what happens if, like the over-investment in fiber during the dot-com bubble, this massive spend is overdone?
+
+8. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2074329004878737628
+   UTC: 2026-07-07T03:05:48.000Z
+   Beijing: 2026-07-07 11:05:48
+   Text: None of this sort of thing has ever moved the gold-dollar exchange rate much, in my experience.
+
+For now, I think it's mostly the war and the Fed kicking our favorite metals around.
+
+9. @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2074461537578664190
+   UTC: 2026-07-07T11:52:26.000Z
+   Beijing: 2026-07-07 19:52:26
+   Text: Gold miners run the world's strangest business: they dig up the antidote – and immediately swap it for the poison.
+
+The industry tells investors to hold 5–10% in gold. Its own treasuries? ~100% fiat.
+
+Time for a Corporate Gold Standard. 
+
+New #IGWT26 Nugget 
+
+10. @RonStoeferle
+   URL: https://x.com/RonStoeferle/status/2074459663005843459
+   UTC: 2026-07-07T11:44:59.000Z
+   Beijing: 2026-07-07 19:44:59
+   Text: Great start of a the drill deason. New high-grade silver-zone discovered!
+
+11. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2074404558277644402
+   UTC: 2026-07-07T08:06:01.000Z
+   Beijing: 2026-07-07 16:06:01
+   Text: Many in the West thought it didn’t need traditional mining anymore ..  and bitcoin mining was more important
+
+12. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2074401569764720978
+   UTC: 2026-07-07T07:54:09.000Z
+   Beijing: 2026-07-07 15:54:09
+   Text: Why China is winning: 
+
+‘In 2023, American mining engineering programs graduated 162 students. China graduated about 3,000 from 45 programs. Twelve US universities have shut down their mining engineering departments’
+
+13. @soarfinancial
+   URL: https://x.com/soarfinancial/status/2074494564065333504
+   UTC: 2026-07-07T14:03:40.000Z
+   Beijing: 2026-07-07 22:03:40
+   Text: Troilus ($TLG) continues to demonstrate the upside potential within its existing mine plan.
+
+New results from the Z87 optimization program include:
+ 0.95 g/t AuEq over 164m
+ Including 1.38 g/t AuEq over 46m
+
+The drilling is targeting historically unsampled intervals and
+
+14. @Wheaton_PM
+   URL: https://x.com/Wheaton_PM/status/2074508238817755398
+   UTC: 2026-07-07T14:58:01.000Z
+   Beijing: 2026-07-07 22:58:01
+   Text: Wheaton Precious Metals will release its 2026 second quarter results on August 6, 2026, after market close, followed by a conference call on August 7 at 8 am PT / 11 am ET to discuss the results.
+
+Investors and interested stakeholders can join the live webcast or access the
+
+
+Filtering takeaway for this day:
+- Found 14 candidates. Filter by supply/demand relevance.
