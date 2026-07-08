@@ -37,8 +37,12 @@
         <li><a href="#daily-reports" class="is-active">Daily</a></li>
         <li><a href="#weekly-reports">Weekly</a></li>
         <li><a href="./Sources">Sources</a></li>
-        <li><a href="https://github.com/ZheminXie/Copper_Gold_Silver_Info">GitHub</a></li>
       </ul>
+      <form class="nav-search" role="search" data-search-form>
+        <label class="sr-only" for="site-search">搜索历史内容</label>
+        <input id="site-search" type="search" name="q" autocomplete="off" placeholder="搜索历史内容" data-search-input>
+        <button type="submit">搜索</button>
+      </form>
       <button class="nav-menu" aria-label="Open menu"><span></span></button>
     </div>
   </nav>
@@ -60,6 +64,20 @@
       </div>
     </header>
 
+    <section class="search-panel" data-search-panel hidden aria-labelledby="search-results-title">
+      <div class="wrap">
+        <div class="search-panel-inner">
+          <div class="section-head search-head">
+            <h2 id="search-results-title">
+              Search Results
+              <small data-search-status>输入关键词搜索历史日报和周报</small>
+            </h2>
+          </div>
+          <div class="search-results" data-search-results aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
     <section class="reports" aria-labelledby="daily-reports">
       <div class="wrap">
         <div class="section-head">
@@ -75,13 +93,12 @@
 
         <div class="report-list">
           <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-08.html">
-            <div class="thumb"><img src="./Sources/mining_adani_copper.jpg" alt="Codelco copper mine — Chile's state-owned giant faces $25B debt and lowest output in 28 years"></div>
+            <div class="thumb"><img src="./Sources/mining_2026-07-07_codelco_chuquicamata.jpg" alt="Codelco Chuquicamata Sur Mine — $25B debt and lowest output in 28 years"></div>
             <div class="copy">
               <h3>2026-07-08 矿业 Broadcast &amp; 供需新闻</h3>
               <p class="summary">铜供给信号本期最为密集和重大：Bloomberg 长篇调查揭露 Codelco 结构性危机——$250 亿债务、28 年最低产量（约 130 万吨）、产量虚报丑闻，新任董事长暗示放弃 170 万吨历史目标。紫金天风数据验证矿端紧缺向冶炼端传导（TC -$130/t，零单利润 &lt;500 元/吨），国内铜库存加速去化。Solidcore 签约阿曼 Khabiyat 铜金项目，中东铜矿勘探新区。X 原帖：中国黄金 ETF 超越股票基金（金需求里程碑）、AI 数据中心白银需求、美国矿业工程人才断层（年毕业 162 人 vs 中国 3,000）、Troilus Gold 矿坑内高品位见矿 164m @0.95g/t AuEq。Part 1 本期无新访谈。</p>
               <div class="meta"><span>Daily</span><span>2026-07-08</span><span class="tag">Codelco Crisis · Copper Supply Crunch</span></div>
             </div>
-            <span class="arrow">&rarr;</span>
           </a>
 
           <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-07.html">
@@ -184,6 +201,151 @@
       </div>
     </footer>
   </main>
+  <script>
+    (() => {
+      const form = document.querySelector("[data-search-form]");
+      const input = document.querySelector("[data-search-input]");
+      const panel = document.querySelector("[data-search-panel]");
+      const status = document.querySelector("[data-search-status]");
+      const results = document.querySelector("[data-search-results]");
+      const maxResults = 20;
+      let searchIndex = [];
+      let indexReady = false;
+      let indexFailed = false;
+
+      if (!form || !input || !panel || !status || !results) return;
+
+      const normalize = (value) => value.normalize("NFKC").toLocaleLowerCase();
+      const splitTerms = (query) => normalize(query).split(/\s+/).filter(Boolean);
+
+      const clearResults = () => {
+        while (results.firstChild) results.removeChild(results.firstChild);
+      };
+
+      const showPanel = () => {
+        panel.hidden = false;
+      };
+
+      const setEmptyState = (message) => {
+        clearResults();
+        const empty = document.createElement("p");
+        empty.className = "search-empty";
+        empty.textContent = message;
+        results.appendChild(empty);
+      };
+
+      const makeSnippet = (entry, terms) => {
+        const text = entry.text || entry.title || "";
+        const normalizedText = normalize(text);
+        let matchIndex = -1;
+        for (const term of terms) {
+          const current = normalizedText.indexOf(term);
+          if (current >= 0 && (matchIndex < 0 || current < matchIndex)) {
+            matchIndex = current;
+          }
+        }
+        const start = Math.max(0, (matchIndex < 0 ? 0 : matchIndex) - 70);
+        const end = Math.min(text.length, start + 180);
+        const prefix = start > 0 ? "..." : "";
+        const suffix = end < text.length ? "..." : "";
+        return `${prefix}${text.slice(start, end)}${suffix}`;
+      };
+
+      const renderResults = (matches, terms) => {
+        clearResults();
+        const list = document.createElement("div");
+        list.className = "search-result-list";
+
+        for (const entry of matches.slice(0, maxResults)) {
+          const link = document.createElement("a");
+          link.className = "search-result";
+          link.href = entry.url;
+
+          const meta = document.createElement("span");
+          meta.className = "search-result-meta";
+          meta.textContent = [entry.type, entry.date].filter(Boolean).join(" · ");
+
+          const title = document.createElement("span");
+          title.className = "search-result-title";
+          title.textContent = entry.title || entry.url;
+
+          const snippet = document.createElement("span");
+          snippet.className = "search-result-snippet";
+          snippet.textContent = makeSnippet(entry, terms);
+
+          link.append(meta, title, snippet);
+          list.appendChild(link);
+        }
+
+        results.appendChild(list);
+      };
+
+      const runSearch = () => {
+        showPanel();
+        const query = input.value.trim();
+        const terms = splitTerms(query);
+
+        if (!query) {
+          status.textContent = "输入关键词搜索历史日报和周报";
+          setEmptyState("请输入一个或多个关键词。");
+          return;
+        }
+
+        if (indexFailed) {
+          status.textContent = "搜索索引加载失败";
+          setEmptyState("暂时无法加载搜索索引，请稍后重试。");
+          return;
+        }
+
+        if (!indexReady) {
+          status.textContent = "正在加载搜索索引";
+          setEmptyState("搜索索引加载中...");
+          return;
+        }
+
+        const matches = searchIndex
+          .map((entry) => ({
+            entry,
+            haystack: normalize(`${entry.title || ""} ${entry.text || ""}`),
+          }))
+          .filter(({ haystack }) => terms.every((term) => haystack.includes(term)))
+          .map(({ entry }) => entry)
+          .sort((a, b) => String(b.sortDate || b.date || "").localeCompare(String(a.sortDate || a.date || "")));
+
+        if (!matches.length) {
+          status.textContent = `没有找到 “${query}”`;
+          setEmptyState("没有匹配结果。可以换一个公司名、金属、人物或项目关键词。");
+          return;
+        }
+
+        const shown = Math.min(matches.length, maxResults);
+        status.textContent = `找到 ${matches.length} 条结果，显示前 ${shown} 条`;
+        renderResults(matches, terms);
+      };
+
+      fetch("./data/search-index.json")
+        .then((response) => {
+          if (!response.ok) throw new Error(`HTTP ${response.status}`);
+          return response.json();
+        })
+        .then((data) => {
+          searchIndex = Array.isArray(data) ? data : [];
+          indexReady = true;
+          if (input.value.trim()) runSearch();
+        })
+        .catch(() => {
+          indexFailed = true;
+          if (input.value.trim()) runSearch();
+        });
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        runSearch();
+      });
+      input.addEventListener("input", runSearch);
+      input.addEventListener("focus", runSearch);
+    })();
+  </script>
   <script type="module" src="./assets/light-rays.js"></script>
 </body>
 </html>
