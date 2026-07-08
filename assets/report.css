@@ -133,7 +133,7 @@ main {
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 24px;
   list-style: none;
   font-size: 13px;
   font-weight: 700;
@@ -235,7 +235,7 @@ main {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding: clamp(56px, 9vw, 110px) 0 clamp(40px, 6vw, 72px);
+  padding: clamp(32px, 5vw, 56px) 0 clamp(24px, 4vw, 42px);
   border-bottom: 1px solid var(--line);
 }
 .light-rays {
@@ -363,7 +363,7 @@ main {
   align-items: flex-end;
   justify-content: space-between;
   gap: 24px;
-  padding: clamp(40px, 6vw, 64px) 0 28px;
+  padding: clamp(32px, 4vw, 48px) 0 28px;
 }
 .section-head h2 {
   color: var(--ink);
@@ -633,7 +633,7 @@ footer {
   .nav-search input { padding: 0 9px; }
   .nav-search button { padding: 0 10px; }
   .nav-menu { width: 36px; height: 36px; }
-  .hero { padding: 48px 0 28px; }
+  .hero { padding: 28px 0 24px; }
   .hero-grid { grid-template-columns: 64px 1fr; gap: 16px; align-items: start; min-width: 0; width: 100%; margin: 0; }
   .hero-logo { width: 64px; }
   .hero h1 { font-size: clamp(17px, 5.5vw, 32px); max-width: none; }
