@@ -288,15 +288,15 @@
       };
 
       const runSearch = () => {
-        showPanel();
         const query = input.value.trim();
         const terms = splitTerms(query);
 
         if (!query) {
-          status.textContent = "输入关键词搜索历史日报和周报";
-          setEmptyState("请输入一个或多个关键词。");
+          panel.hidden = true;
           return;
         }
+
+        showPanel();
 
         if (indexFailed) {
           status.textContent = "搜索索引加载失败";
@@ -338,19 +338,15 @@
         .then((data) => {
           searchIndex = Array.isArray(data) ? data : [];
           indexReady = true;
-          if (input.value.trim()) runSearch();
         })
         .catch(() => {
           indexFailed = true;
-          if (input.value.trim()) runSearch();
         });
 
       form.addEventListener("submit", (event) => {
         event.preventDefault();
         runSearch();
       });
-      input.addEventListener("input", runSearch);
-      input.addEventListener("focus", runSearch);
     })();
   </script>
   <script type="module" src="./assets/light-rays.js"></script>
