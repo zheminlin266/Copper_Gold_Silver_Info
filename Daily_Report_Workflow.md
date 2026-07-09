@@ -567,11 +567,27 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 * `TODAY WEATHER`
 * `核心账号卡`
 
-## 10\. 发布流程
+## 10\. 搜索索引重建
+
+日报 HTML 和首页更新后，**必须**重建搜索索引，确保首页搜索框能匹配到所有日报内容：
+
+```bash
+python scripts/build_search_index.py --check
+```
+
+`--check` 参数会在写入后运行完整性校验，确保：
+- 所有非备份日报 HTML 都在索引中
+- 无备份文件被意外索引
+- 已知关键词（如 Codelco、KatusaResearch）可被搜索到
+
+索引文件为 `data/search-index.json`，首页搜索框通过 `fetch("./data/search-index.json")` 加载。
+
+## 11\. 发布流程
 
 校验通过后：
 
-1. 提交 Git commit（包含 HTML 日报和 JSON 数据文件）
+1. 重建搜索索引：`python scripts/build_search_index.py --check`
+2. 提交 Git commit（包含 HTML 日报、JSON 数据文件 和 search-index.json）
 2. 推送 `main`
 3. 将 `gh-pages` 同步到 `main`
 4. 推送 `gh-pages`
@@ -583,7 +599,7 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 
 若 GitHub Pages 返回旧内容，先检查 `gh-pages` 分支 raw 文件是否已更新；若 raw 文件正确，通常是 Pages CDN 延迟，等待数分钟后再用 cache-bust 参数验证。
 
-## 11\. 周度趋势简报
+## 12\. 周度趋势简报
 
 每周一日报附带一份周度趋势简报，保存到 `Weekly\_Reports/YYYY-WW.md`。
 
@@ -599,7 +615,7 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 
 `YYYY-WW 周度趋势简报`
 
-## 12\. 会议日历
+## 13\. 会议日历
 
 `data/conference\_calendar.json` 记录 CSV 中所有会议的日期和状态。
 
