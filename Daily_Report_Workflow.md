@@ -588,16 +588,14 @@ python scripts/build_search_index.py --check
 
 1. 重建搜索索引：`python scripts/build_search_index.py --check`
 2. 提交 Git commit（包含 HTML 日报、JSON 数据文件 和 search-index.json）
-2. 推送 `main`
-3. 将 `gh-pages` 同步到 `main`
-4. 推送 `gh-pages`
-5. 检查公开页面是否返回 200
+3. 推送 `main`
+4. 检查公开页面是否返回 200
 
 公开首页：
 
 [https://zheminlin266.github.io/Copper\_Gold\_Silver\_Info/](https://zheminlin266.github.io/Copper_Gold_Silver_Info/)
 
-若 GitHub Pages 返回旧内容，先检查 `gh-pages` 分支 raw 文件是否已更新；若 raw 文件正确，通常是 Pages CDN 延迟，等待数分钟后再用 cache-bust 参数验证。
+GitHub Pages 配置为从 `main` 分支根目录直接提供，无需额外 `gh-pages` 分支。若页面返回旧内容，检查 `main` 分支 raw 文件是否已更新；若 raw 文件正确，通常是 Pages CDN 延迟，等待数分钟后再用 cache-bust 参数验证。
 
 ## 12\. 周度趋势简报
 

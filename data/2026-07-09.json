@@ -1,0 +1,173 @@
+{
+  "date": "2026-07-09",
+  "report_time": "2026-07-10T07:00:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-07T00:00:00+08:00",
+      "end": "2026-07-09T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-09T00:00:00+08:00",
+      "end": "2026-07-09T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-09T00:00:00+08:00",
+      "end": "2026-07-09T23:59:59+08:00"
+    }
+  },
+  "summary": "Q2 产量密集发布日，金铜银供给信号全面开花。紫金矿业 H1 业绩预告远超预期：归母净利 391 亿元（+68%），矿产金 47 吨（+15%），矿产铜 53.4 万吨，锂产量暴增 514%。铜供给：Sandfire Black Butte Lowry 矿床 PFS 将矿山寿命延至 12 年，年产铜 3.1 万吨，为美国本土铜供给增添重要选项。金供给：Equinox Gold Q2 产金 176,836 盎司，加拿大产量环比 +11%；Fortuna Mining Q2 72,217 AuEq 盎司；NexGold Goldboro 项目钻探增储。银供给：Silver X Mining Q2 创纪录，加工量 +39% QoQ +78% YoY，银当量产量 283,029 盎司（+57% QoQ）。本期 Part 1 无新访谈，Part 2 通过 Playwright 采集 X 原帖。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [
+    {
+      "author": "Tavi Costa",
+      "handle": "@TaviCosta",
+      "publish_time": "2026-07-09T21:57:58+08:00",
+      "metal_tags": ["silver"],
+      "supply_demand": "demand",
+      "excerpt": "Silver ETF holdings were down nearly 53% just a few days ago. That marked the largest drawdown in both percentage and nominal terms on record. The last time we saw outflows of a similar magnitude was around the March 2020 low and again near the 2022 bottom.",
+      "interpretation": "Tavi Costa（Crescat Capital 宏观和资源投资人）指出白银 ETF 持仓暴跌近 53%，创下有记录以来最大百分比和名义回撤。他将此与 2020 年 3 月和 2022 年底部类比，暗示白银投资需求可能正在筑底。ETF 大规模赎回通常发生在市场恐慌性出清阶段。若历史规律重现，ETF 资金流出见顶往往对应银价接近底部区域。",
+      "importance": "白银 ETF 持仓是衡量白银投资需求最直接的高频指标。53% 的 ETF 持仓降幅是前所未有的规模，反映投资者对白银的极度悲观情绪。从供需角度，投资需求骤降减轻了实物白银的供给压力，但同时也意味着一旦情绪逆转，ETF 资金回流将创造巨大的边际需求增量。",
+      "url": "https://x.com/TaviCosta/status/2075217903721341266",
+      "source_channel": "browser_use"
+    },
+    {
+      "author": "Soar Financial",
+      "handle": "@soarfinancial",
+      "publish_time": "2026-07-09T22:54:06+08:00",
+      "metal_tags": ["gold", "copper"],
+      "supply_demand": "supply",
+      "excerpt": "Storm Exploration: Refining High-Priority VMS Drill Targets. Bruce Counts joins us to discuss the latest VLF-EM survey results, surface sulphide discoveries, upcoming drill permits, and how Storm is narrowing in on its highest-priority drill targets at the Gold Standard Project.",
+      "interpretation": "Soar Financial 发布 Storm Exploration（TSXV: STRM）Gold Standard 项目更新视频：Bruce Counts 讨论最新 VLF-EM 物探结果、地表硫化物发现和即将获批的钻探许可。公司在缩小最高优先级钻探靶区范围，表明 VMS 勘探进入靶区验证前最后阶段。Gold Standard 项目位于 Ontario 西北部，是正在形成中的 VMS 铜金矿化系统。",
+      "importance": "Storm Exploration 的 Gold Standard 项目是 07-08 报告中首次出现的勘探信号（Soar Financial 当时报道了地表黄铜矿 + VLF-EM 异常）。本次更新表明项目在持续推进：VLF-EM 结果进一步细化了钻探靶区，钻探许可即将获批意味着首次钻探验证临近。VMS 型铜金矿床是全球铜金供给的重要来源（如 Eskay Creek、Kidd Creek），Gold Standard 若钻探验证成功将开启新的勘探前线。",
+      "url": "https://x.com/soarfinancial/status/2075232031705805196",
+      "source_channel": "browser_use"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "紫金矿业 / 新浪财经 / 雪球",
+      "title": "紫金矿业 2026 年半年度业绩预告：归母净利 391 亿元（+68%），矿产金 47 吨（+15%），矿产铜 53.4 万吨",
+      "url": "https://finance.sina.cn/2026-07-09/detail-inihfihw4306359.d.html",
+      "publish_time": "2026-07-09T20:29:00+08:00",
+      "metal_tags": ["gold", "copper", "silver"],
+      "supply_demand": "supply",
+      "excerpt": "紫金矿业 H1 2026 归母净利润约 391 亿元（+68%），矿产金 47 吨（+15%），矿产铜 53.4 万吨（剔除卡莫阿后 +5%），碳酸锂当量 4.3 万吨（+514%）。巨龙铜矿稳步提产，朱诺铜矿年内建成投产，马诺诺锂矿 5 月投产。稀贵金属（钼、钨、锡）及副产品（硫精矿、硫酸）显著增收。电动矿卡吨公里成本较燃油低约 29%。",
+      "interpretation": "紫金 H1 业绩是本期最重要的供给信号。391 亿元利润 +68% 增长表明大型多元化矿企在金属高价周期中展现出极强的经营杠杆。矿产金 47 吨/半年（年化 ~94 吨，接近 2026 年 105 吨产量目标）、矿产铜 53.4 万吨/半年（年化 ~107 万吨，接近 120 万吨目标），两条主线均超进度。锂业务从零到 4.3 万吨 LCE 仅用两年，标志着公司第三增长极已实质性崛起。巨龙铜矿二期 1 月投产后单季 6 万吨铜，进一步增强供给确定性。朱诺铜矿年内投产将为 H2 铜供给带来边际增量。电动矿卡降本 29% 是基于真实矿山运营数据的结构性成本下降，提升长期竞争力。",
+      "importance": "紫金是全球第三大铜生产商和中国最大金矿商。H1 产量数据直接映射全球金铜供给增量。金 47 吨/半年占全球矿产金 ~2.6%，铜 53.4 万吨/半年占全球矿产铜 ~2.4%。锂业务暴增 514% 表明公司从传统金铜矿商向多金属巨头的转型已取得实质性成果。巨龙铜矿产量攀升 + 朱诺投产 + 马诺诺锂矿产能释放，三重增长极将在 H2 和 2027 年集中兑现。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "MINING.com / Sandfire Resources America",
+      "title": "Lowry Reserves Extend Sandfire's Black Butte Copper Mine Life to 12 Years",
+      "url": "https://www.mining.com/lowry-reserves-extend-sandfires-black-butte-copper-mine-life-to-12-years/",
+      "publish_time": "2026-07-09T10:12:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "Sandfire Resources America 发布 Black Butte 铜项目更新 PFS：新增 Lowry 矿床使矿山寿命从 8 年延至 12 年，储量 14.3Mt @2.6% Cu（37 万吨铜金属量），NPV $126M（8% 折现），IRR 13.3%，初始 capex $474M。年产铜 3.1 万吨，全生命周期收入 $33 亿，税后现金流 $4.76 亿（较上版 +34%）。",
+      "interpretation": "Black Butte 位于美国蒙大拿州，是美国本土品位最高的在开发铜项目之一。Lowry 矿床（距主矿 Johnny Lee 2km）的加入将矿山寿命延长 50%。虽然回报率（IRR 13.3%）在铜矿项目中不算突出，但 2.6% Cu 品位在美国铜矿中属于顶尖水平。Johnny Lee 主矿 9.5Mt @2.9% Cu（27 万吨铜金属量）已获州和联邦许可，Lowry 尚需额外审批。项目年产量 3.1 万吨对全球铜供给影响有限，但对美国本土铜供给安全具有战略意义。",
+      "importance": "Black Butte 是美国本土为数不多的高品位在开发铜矿，在铜被列入关键矿产、美国推动供应链本土化的政策背景下，其战略价值可能超过纯经济效益。2.6% Cu 品位在美国铜矿项目中极为稀缺（多数美国铜矿品位低于 0.5%）。12 年矿山寿命 + 年 3.1 万吨铜的产能虽有限，但在美国铜供给高度依赖进口（净进口 ~40%）的背景下，每一个本土项目都具有边际改善意义。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Equinox Gold / GlobeNewswire",
+      "title": "Equinox Gold Reports 176,836 Ounces of Gold Production in Q2 2026; Canadian Production +11% QoQ",
+      "url": "https://www.equinoxgold.com/news/equinox-gold-reports-176836-ounces-of-gold-production-in-q2-2026-canadian-gold-production-increased-11-quarter-over-quarter/",
+      "publish_time": "2026-07-09T07:00:00+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Equinox Gold Q2 2026 产金 176,836 盎司，其中加拿大基石矿山（Greenstone + Valentine）贡献 97,273 盎司（Greenstone 64,656 oz，Valentine 32,617 oz），环比 +11%。上半年累计产金约 351,000 盎司。",
+      "interpretation": "Equinox Gold 的两座加拿大新矿（Greenstone 和 Valentine）持续爬坡是影响中型金矿产量的重要变量。Q2 加拿大产量环比 +11% 表明爬坡趋势确立但速度适中。全年若维持此节奏（Q3/Q4 进一步提速），全年产量可能在 750,000-800,000 盎司区间。Greenstone 是 2024 年投产的大型露天金矿（年产能 ~400,000 oz），Valentine 是 2025 年投产的新矿，两座矿山是 Equinox 未来的产量支柱。",
+      "importance": "新矿爬坡是金矿供给端最关键的增量来源之一。Greenstone + Valentine 两座加拿大新矿贡献了 Equinox 55% 的 Q2 产量，是全球金矿新产能释放的缩影。若两矿在 2026 年下半年达到设计产能的 80-90%，将为全球金矿供给贡献约 50-60 万盎司年化增量。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Fortuna Mining / GlobeNewswire",
+      "title": "Fortuna Reports Q2 2026 Production of 72,217 AuEq oz; Séguéla Expansion Study Complete",
+      "url": "https://investingnews.com/fortuna-reports-second-quarter-2026-production-of-72217-gold-equivalent-ounces-and-advances-key-growth-initiatives/",
+      "publish_time": "2026-07-09T07:00:00+08:00",
+      "metal_tags": ["gold", "silver"],
+      "supply_demand": "supply",
+      "excerpt": "Fortuna Mining Q2 2026 黄金当量产量 72,217 盎司，H1 累计 145,089 盎司。公司位于 2026 年产量指引轨道上。Séguéla 选厂扩建研究 6 月底完成，正评估建设决策。",
+      "interpretation": "Fortuna 是一家在西非（Séguéla、Yaramoko）和拉美（San Jose、Caylloma）运营的中型贵金属矿商。Q2 72,217 AuEq oz 年化约 29 万盎司，处于中型矿商的中等水平。关键看点是 Séguéla 扩建——该矿是 Fortuna 在西非科特迪瓦的核心资产，若扩建获批将显著提升公司产量规模。",
+      "importance": "Fortuna 的 Séguéla 扩建决策是中型金矿商增长路径的典型案例。西非金矿省的产量增长是近年全球金矿供给增量的重要来源。72,217 AuEq oz/季度的产量规模虽不大，但 Séguéla 若扩建成功（可能将年产量从 ~12 万盎司提升至 ~20 万盎司），将为 Fortuna 和西非金矿供给带来有意义的增量。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "MINING.com / NexGold Mining",
+      "title": "NexGold Boosts Goldboro Drilling as Assays Lift Hopes",
+      "url": "https://www.mining.com/nexgold-boosts-goldboro-drilling-as-assays-lift-hopes/",
+      "publish_time": "2026-07-09T07:27:00+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "NexGold Mining 扩大加拿大 Nova Scotia Goldboro 金矿项目钻探计划，最新化验结果提振资源信心，股价上涨。",
+      "interpretation": "Goldboro 是加拿大 Nova Scotia 最重要的未开发金矿项目之一（历史资源约 300 万盎司），位于成熟的 Meguma 金矿带。NexGold 扩大钻探表明公司在积极推进项目向可行性阶段过渡。化验结果提振信心意味着资源量和品位可能高于此前预期。",
+      "importance": "Goldboro 是加拿大大西洋省份为数不多的大型未开发金矿项目。若钻探持续验证高品位连续性，项目有望在未来 2-3 年进入开发阶段。作为潜在的年产 10-15 万盎司金矿，Goldboro 的推进对大西洋加拿大金矿供给具有结构意义。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Silver X Mining / ACCESS Newswire",
+      "title": "Silver X Delivers Record Quarterly Production: AgEq 283,029 oz (+57% QoQ), Tonnage +39% QoQ +78% YoY",
+      "url": "https://investingnews.com/silver-x-delivers-record-quarterly-production-during-the-second-quarter-of-2026/",
+      "publish_time": "2026-07-09T07:00:00+08:00",
+      "metal_tags": ["silver", "gold"],
+      "supply_demand": "supply",
+      "excerpt": "Silver X Mining Q2 2026 创纪录：Nueva Recuperada 选厂处理量 62,252 吨（+39% QoQ, +78% YoY），日均 684 吨达到名义产能 750tpd。银产量 175,560 盎司（+40% QoQ），金产量 2,204 盎司（+55% QoQ），银当量产量 283,029 盎司（+57% QoQ）。目标 2029 年 600 万 AgEq 盎司/年。",
+      "interpretation": "Silver X 是秘鲁中型银矿商，Nueva Recuperada 是其旗舰资产。Q2 数据显示选厂已达名义产能（750tpd），处理量、银产量和金产量均创纪录。+57% QoQ 的银当量产量增速表明矿山正处于陡峭的爬坡曲线。2029 年 600 万 AgEq 盎司/年目标（约当前年产量的 5 倍）意味着公司计划通过多矿山重启（Plata、Red Silver、Blenda Rubia）和 Pampas 项目实现规模化扩张。",
+      "importance": "原生银矿的新增供给极度稀缺——全球约 70% 的银是铜铅锌矿的副产品。Silver X 作为原生银矿商，其爬坡成功为白银供给端提供了稀缺的增量。283,029 AgEq oz/季度（年化 ~113 万盎司）虽然对全球 ~8.2 亿盎司的银矿产量影响微小，但公司的 2029 年 600 万盎司目标是原生银矿中罕见的增长叙事。Q2 的 +57% QoQ 增速验证了该增长叙事的可行性。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (latest Jul 6, already deduped)",
+      "Sprott Insights/Podcast (latest Jun 23)",
+      "Soar Financial (latest Jul 2)",
+      "Resource Talks (no new content in window)",
+      "YouTube search (no new mining interviews in 72h window)",
+      "Rule Symposium (ongoing Jul 6-10, no video replays available yet)",
+      "Arcadia Economics/Substack (no new content in window)",
+      "Sprott Money Weekly Wrap (latest Jun 25)"
+    ],
+    "part1_result": "72h window (07-07 to 07-09): no new qualified broadcasts. MSD Jul 6 already in 07-07 report. Rule Symposium ongoing, video replays not yet published.",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chrome (35 seed handles + 18 official, storage_state from .browser_profile/x_auth.json)"
+    ],
+    "part2_result": "Playwright + Chrome search completed (~2 min). 10 raw candidates from 4 accounts (@peter_krauth 2, @duediligenceguy 2, @TaviCosta 1, @wmiddelkoop 1, @soarfinancial 1, @Frank_Giustra 3). 2 passed supply-demand screening: Tavi Costa on silver ETF drawdown (Ag demand), Soar Financial on Storm Exploration VMS drill targeting (Au/Cu supply). 8 excluded: general sentiment, banter, non-mining content.",
+    "part3_sources_checked": [
+      "MINING.com",
+      "Reuters",
+      "GlobeNewswire",
+      "ACCESS Newswire",
+      "Equinox Gold (official)",
+      "Fortuna Mining (official)",
+      "Silver X Mining (official)",
+      "Sandfire Resources America",
+      "紫金矿业 / 新浪财经 / 雪球",
+      "中国黄金协会",
+      "SMM 有色网",
+      "naturalresourcestocks.net"
+    ],
+    "part3_result": "6 qualified news items: 1 copper supply, 1 multi-metal (Cu+Au+Ag) supply, 2 gold supply, 1 gold exploration, 1 silver supply.",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Daily Jul 6 morning briefing - already in 07-07 report"
+    ],
+    "part3_deduped_events": [
+      "Aya Gold & Silver Q2 (Jul 8) - outside Jul 9 window, already partially covered in 07-08 report Part 2",
+      "K92 Mining Q2 (Jul 8) - outside Jul 9 window",
+      "First Majestic Q2 (Jul 8) - outside Jul 9 window",
+      "Hudbay Copper Mountain permits (Jul 8) - outside Jul 9 window"
+    ]
+  }
+}

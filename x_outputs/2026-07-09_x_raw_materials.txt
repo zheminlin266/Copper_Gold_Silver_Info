@@ -1,0 +1,95 @@
+X Raw Materials: 2026-07-09
+Window: 2026-07-09 00:00:00+08:00 to 2026-07-09 23:59:59+08:00 Beijing
+Method: Playwright + Chrome, storage_state from x_auth.json
+Handles: 35 seed + 18 official
+Search: from:{handle} (gold OR silver OR copper OR mining OR mine OR project OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+Total in-window candidates: 10
+============================================================
+
+@peter_krauth
+  UTC: 2026-07-08T19:04:34.000Z  BJ: 2026-07-09 03:04:34
+  URL: https://x.com/peter_krauth/status/2074932675350319539
+  Text: When gold gets expensive, investors look to silver.
+
+Gold stores wealth.
+
+Silver has historically been the metal of everyday commerce — practical money.
+
+And when investors start seeing silver as money again, the move can be powerful.
+
+Full interview with Steve Yang, NRS  :
+  ---
+@peter_krauth
+  UTC: 2026-07-08T17:30:38.000Z  BJ: 2026-07-09 01:30:38
+  URL: https://x.com/peter_krauth/status/2074909033895702773
+  Text: Morocco has been scoring goals on the world stage.
+
+So has 
+@AyaGoldSilver
+.
+
+Record Q2 production: 1.68M AgEq oz
+
+ 61% YoY
+ 12% QoQ
+ 91.2% silver recovery at Zgounder
+Excellent execution and a clear path to growth.
+I’m glad to maintain my overweight position.
+
+Full update 
+  ---
+@duediligenceguy
+  UTC: 2026-07-08T20:19:01.000Z  BJ: 2026-07-09 04:19:01
+  URL: https://x.com/duediligenceguy/status/2074951409695379733
+  Text: Not if they sold their gold stocks when I did.
+;-{)}
+  ---
+@duediligenceguy
+  UTC: 2026-07-08T17:49:18.000Z  BJ: 2026-07-09 01:49:18
+  URL: https://x.com/duediligenceguy/status/2074913732048617834
+  Text: In case you missed my latest interview... we cover gold, silver, copper, and oil as well, but Steve is not wrong to highlight my take on uranium.
+
+(Video link in reply so X won't hide this post.)
+  ---
+@TaviCosta
+  UTC: 2026-07-09T13:57:58.000Z  BJ: 2026-07-09 21:57:58
+  URL: https://x.com/TaviCosta/status/2075217903721341266
+  Text: Silver ETF holdings were down nearly 53% just a few days ago.
+
+That marked the largest drawdown in both percentage and nominal terms on record.
+
+The last time we saw outflows of a similar magnitude was around the March 2020 low and again near the 2022 bottom.
+
+Market bottoms are
+  ---
+@wmiddelkoop
+  UTC: 2026-07-09T13:00:17.000Z  BJ: 2026-07-09 21:00:17
+  URL: https://x.com/wmiddelkoop/status/2075203384953499946
+  Text: Famous old trick
+
+Last vote before the holidays
+
+ (that how they passed the Federal Reserve Act in 1913)
+  ---
+@soarfinancial
+  UTC: 2026-07-09T14:54:06.000Z  BJ: 2026-07-09 22:54:06
+  URL: https://x.com/soarfinancial/status/2075232031705805196
+  Text: Storm Exploration: Refining High-Priority VMS Drill Targets
+
+Bruce Counts joins us to discuss the latest VLF-EM survey results, surface sulphide discoveries, upcoming drill permits, and how Storm is narrowing in on its highest-priority drill targets at the Gold Standard Project.
+  ---
+@Frank_Giustra
+  UTC: 2026-07-09T12:25:20.000Z  BJ: 2026-07-09 20:25:20
+  URL: https://x.com/Frank_Giustra/status/2075194591129579530
+  Text: Fair point.  But mu guess is they will rush to gold first and mostly.
+  ---
+@Frank_Giustra
+  UTC: 2026-07-09T12:22:32.000Z  BJ: 2026-07-09 20:22:32
+  URL: https://x.com/Frank_Giustra/status/2075193887329599958
+  Text: Look around….people are already making fun of you.  $1 mill.   $13 mill.    Now $16 mill.  You are really chasing those FOMO players.
+  ---
+@Frank_Giustra
+  UTC: 2026-07-08T16:00:26.000Z  BJ: 2026-07-09 00:00:26
+  URL: https://x.com/Frank_Giustra/status/2074886336298049591
+  Text: ETF’s didn’t do the job, Government Bitcoin Reserve didnt either, Saylor did his best…now we are turning to God?  Lol
+  ---
