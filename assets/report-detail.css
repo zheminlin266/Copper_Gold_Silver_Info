@@ -311,6 +311,18 @@ h1 {
   border-top: 1px solid var(--ink);
   margin-top: -1px;
 }
+#news .card {
+  grid-column: 1 / -1;
+  border-left: 0;
+  padding: 32px 0;
+}
+#news .card + .card {
+  padding-left: 0;
+  padding-right: 0;
+}
+#news .card:nth-child(2n) {
+  border-left: 0;
+}
 .card.feature::before {
   content: "FEATURED";
   display: inline-block;
