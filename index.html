@@ -356,5 +356,13 @@
     })();
   </script>
   <script type="module" src="./assets/light-rays.js"></script>
+  <script src="./assets/ai-chat-widget.js"></script>
+  <script>
+    AiChat.init({
+      apiBase: "http://localhost:8000",
+      label: "AI",
+      placeholder: "问我关于日报中的铜金银供需信号..."
+    });
+  </script>
 </body>
 </html>
