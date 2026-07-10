@@ -486,7 +486,139 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 * 去重检查可直接读取 JSON 的 URL 字段
 * 周度简报可从 7 天 JSON 聚合生成
 
-## 7\. 首页更新规则
+## 7\. HTML 日报生成规范
+
+### 7.1 基准模板
+
+所有日报 HTML **必须严格套用** `Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-07.html` 的结构格式。该文件是唯一基准模板（canonical template）。
+
+生成新日报时只做三件事：
+- 替换日期和覆盖日期
+- 替换所有 Part 1/2/3 的内容文字
+- 更新首页配图
+
+**不改变任何 HTML 标签结构、class 名称、嵌套层级或区块顺序。**
+
+### 7.2 强制结构要求
+
+日报 HTML 必须包含以下结构，缺一不可：
+
+| 区块 | 必须使用的标签/class | 说明 |
+|------|---------------------|------|
+| 语言 | `<html lang="zh-CN">` | 固定在 html 标签 |
+| 导航 | `<nav class="topbar">` 含 6 个锚点 | brand + broadcast/xstream/news/tracker/sources |
+| Hero | `<header class="hero">` 含 eyebrow/h1/hero-sub/meta-row/data-link-box | 覆盖窗口 + 金属 pill + JSON 链接 |
+| 摘要 | `<section class="summary">` → `<div class="brief">` → `<h2>本期摘要</h2>` | 一段话覆盖 Part 1/2/3 核心发现 |
+| Part 1 | `<section id="broadcast" class="section">` | section-head + section-note + pending 段落（或 grid 卡片） |
+| Part 2 | `<section id="xstream" class="section">` | section-head + channel-badge + section-note + 内容 |
+| Part 3 | `<section id="news" class="section">` | section-head + section-note + grid 卡片 + theme 金属总结 |
+| Tracker | `<section id="tracker" class="section">` | section-head + theme ×3（Part 1/2/3） |
+| Sources | `<section id="sources" class="section">` | section-head + theme ×3（英文/中文/结构化数据） |
+| 字体 | Inter 400-800 via Google Fonts | 固定在 head |
+| 样式 | `../assets/report.css` + `../assets/report-detail.css` | 两个 link |
+
+### 7.3 卡片子结构
+
+Part 2/3 的每条内容使用 `.card` 容器，内部子结构如下：
+
+**Part 3 新闻卡片**（每条）：
+```html
+<div class="card">               <!-- 头条用 card feature -->
+  <div class="tag">              <!-- 金属标签 + SUPPLY/DEMAND + 语言 pill -->
+    <span>Au 金</span>
+    <span>SUPPLY</span>
+    <span class="pill lang-en">EN</span>   <!-- 或 lang-zh: ZH -->
+  </div>
+  <h3><a href="...">标题</a></h3>
+  <p>正文（含 <strong> 加粗关键数据）</p>
+  <div class="importance">
+    <strong>供需重要性：</strong>中文解读和供需影响分析
+  </div>
+  <div class="source-meta">
+    来源：<a href="...">来源名称</a> · YYYY-MM-DD HH:MM 北京时间
+  </div>
+</div>
+```
+
+**Part 2 X 帖子卡片**（每条）：
+```html
+<div class="card">
+  <div class="tag">
+    <span>Ag 银</span>
+    <span>DEMAND</span>
+  </div>
+  <h3><a href="原推链接">标题</a></h3>
+  <p><strong>@handle</strong>（人物背景）· YYYY-MM-DD HH:MM 北京时间</p>
+  <p>原帖摘录</p>
+  <div class="importance">
+    <strong>中文解读：</strong>...
+  </div>
+  <div class="importance">
+    <strong>供需重要性：</strong>...
+  </div>
+</div>
+```
+
+### 7.4 金属主题总结
+
+Part 3 的 `.grid` 卡片列表后，必须追加三条 `<div class="theme">` 金属总结：
+
+```html
+<div class="theme">
+  <h3>Au · GOLD</h3>
+  <p>当日金供给/需求信号一句话汇总…</p>
+</div>
+<div class="theme">
+  <h3>Ag · SILVER</h3>
+  <p>当日银供给/需求信号一句话汇总…</p>
+</div>
+<div class="theme">
+  <h3>Cu · COPPER</h3>
+  <p>当日铜供给/需求信号一句话汇总…</p>
+</div>
+```
+
+### 7.5 严禁使用的元素
+
+日报 HTML **不得出现**以下结构（与 07-07 基准模板对比）：
+
+| 禁止项 | 07-09 曾错误使用 | 正确做法 |
+|--------|-----------------|---------|
+| 语言标签缺 `pill` class | `<span class="lang-en">英文</span>` | `<span class="pill lang-en">EN</span>` |
+| 双 importance div | 每条卡片两个独立 `importance` | 合并在一个 `importance` 内 |
+| 缺 source-meta | 来源信息写在 `<p>` 标签内 | 使用独立 `<div class="source-meta">` |
+| Part 3 标题不一致 | `金银铜供需新闻（英文 + 中文信源）` | `News · 金银铜供需新闻` |
+| Tracker 用 grid+card | `<div class="grid"><div class="card">` | `<div class="theme"><h3>Part N · …</h3>` |
+| Sources 用 grid+card | 同上 | 同上，用 three 分组 |
+| Footer | `<footer>…</footer>` | 不需要 footer |
+| 旧占位词 | `待补抓` / `Pending transcript` / `TODAY WEATHER` / `核心账号卡` | 该写什么写什么，无内容时用规定文案 |
+
+### 7.6 Part 1/2 空内容文案
+
+当某 Part 无内容时，使用固定文案，不改变结构：
+
+- **Part 1 空**：段落用 `<p class="pending">`，内容为 `过去 72 小时内没有发现新的公开 podcast / broadcast / YouTube / conference panel 视频访谈。` 后附搜索来源说明。
+- **Part 2 空**：段落用 `<p class="pending">`，内容为 `已完成 X 搜索（Playwright + Chrome），搜索了 N 个种子账号 + M 个官方公司账号，但当天未筛出涉及金银铜供需的可核验原帖。`
+- **Part 2 失败**：段落用 `<p class="pending">`，内容为 `当天无法验证 X 原帖。主通道 Playwright 不可用，RSS 备用通道也无结果。`
+
+### 7.7 生成校验清单
+
+HTML 生成后必须通过以下检查（对齐第 10 节静态校验）：
+
+- [ ] 5 个 id 齐全：`broadcast` / `xstream` / `news` / `tracker` / `sources`
+- [ ] 语言标签使用 `pill lang-en` / `pill lang-zh`（不是裸 `lang-en` / `lang-zh`）
+- [ ] 每条 Part 3 新闻有 `source-meta` div
+- [ ] Tracker 和 Sources 用 `theme` 结构（非 grid+card）
+- [ ] Part 3 标题为 `News · 金银铜供需新闻`
+- [ ] Tracker 标题为 `信号跟踪`
+- [ ] Sources 标题为 `来源与数据`
+- [ ] Part 3 卡片末尾有三条金属 theme 总结（Au / Ag / Cu）
+- [ ] 无 `<footer>` 元素
+- [ ] 无任何旧占位词
+
+---
+
+## 8. 首页更新规则
 
 首页 `index.html` 是日报目录页，采用参考图式纵向新闻列表布局。
 
@@ -515,7 +647,7 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 * 参考资料 Sources 板块
 * Featured Reports 字样
 
-## 8\. 图片处理
+## 9\. 图片处理
 
 每条日报使用一张本地新闻配图。
 
@@ -527,7 +659,7 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 
 图片保存到 `Sources/` 后由首页本地引用。避免多条日报重复使用同一张图。
 
-## 9\. 静态校验
+## 10\. 静态校验
 
 生成后检查日报页：
 
@@ -537,6 +669,13 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 * 包含 `id="news"`
 * 包含 `id="tracker"`
 * 包含 `id="sources"`
+* 语言标签使用 `pill lang-en` / `pill lang-zh`（非裸 `lang-en` / `lang-zh`）
+* 每条 Part 3 新闻有 `<div class="source-meta">`
+* Tracker 和 Sources 使用 `<div class="theme">`（非 grid+card）
+* Part 3 标题为 `News · 金银铜供需新闻`
+* Tracker 标题为 `信号跟踪`，Sources 标题为 `来源与数据`
+* Part 3 末尾有三条金属 theme 总结（Au / Ag / Cu）
+* 无 `<footer>` 元素
 
 检查首页：
 
@@ -567,7 +706,7 @@ JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先
 * `TODAY WEATHER`
 * `核心账号卡`
 
-## 10\. 搜索索引重建
+## 11\. 搜索索引重建
 
 日报 HTML 和首页更新后，**必须**重建搜索索引，确保首页搜索框能匹配到所有日报内容：
 
@@ -582,7 +721,7 @@ python scripts/build_search_index.py --check
 
 索引文件为 `data/search-index.json`，首页搜索框通过 `fetch("./data/search-index.json")` 加载。
 
-## 11\. 发布流程
+## 12\. 发布流程
 
 校验通过后：
 
@@ -597,7 +736,7 @@ python scripts/build_search_index.py --check
 
 GitHub Pages 配置为从 `main` 分支根目录直接提供，无需额外 `gh-pages` 分支。若页面返回旧内容，检查 `main` 分支 raw 文件是否已更新；若 raw 文件正确，通常是 Pages CDN 延迟，等待数分钟后再用 cache-bust 参数验证。
 
-## 12\. 周度趋势简报
+## 13\. 周度趋势简报
 
 每周一日报附带一份周度趋势简报，保存到 `Weekly\_Reports/YYYY-WW.md`。
 
@@ -613,7 +752,7 @@ GitHub Pages 配置为从 `main` 分支根目录直接提供，无需额外 `gh-
 
 `YYYY-WW 周度趋势简报`
 
-## 13\. 会议日历
+## 14\. 会议日历
 
 `data/conference\_calendar.json` 记录 CSV 中所有会议的日期和状态。
 
