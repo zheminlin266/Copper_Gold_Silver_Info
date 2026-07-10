@@ -1,0 +1,139 @@
+X raw materials before filtering
+Report day: 2026-07-10
+Collection date: 2026-07-11
+Method:
+- Used Playwright with storage_state from .browser_profile/x_auth.json (Chrome).
+- Seed pool from mining_people_broadcast_x_articles.csv handles.
+- Each handle searched with from:handle + gold/silver/copper/mining terms.
+- Final day attribution uses Asia/Shanghai time from exact time element datetime.
+
+2026-07-10 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2075271603248832713
+   UTC: 2026-07-09T17:31:21.000Z
+   Beijing: 2026-07-10 01:31:21
+   Text: Data centers now consume 5% of US power.
+
+By 2030, that share reaches 14%
+
+Each megawatt requires 30 to 47 tonnes of copper.
+
+2. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2075270549039894586
+   UTC: 2026-07-09T17:27:10.000Z
+   Beijing: 2026-07-10 01:27:10
+   Text: China bought 480,000 ounces in June.
+
+That’s its 20th consecutive month of buying, and its LARGEST purchase since October 2023.
+
+In twenty years of financing resource deals...
+
+We've never watched a bull market die while the largest, slowest money on earth was speeding up its
+
+3. @TheDailyGold
+   URL: https://x.com/TheDailyGold/status/2075339911709036813
+   UTC: 2026-07-09T22:02:47.000Z
+   Beijing: 2026-07-10 06:02:47
+   Text: Gold isn’t showing the classic topping characteristics we saw in 1980, 2011–12, or 1975–76: no prolonged distribution, no major relative peak vs stocks, no true bearish consolidation.
+
+The 1975–76 ~50% decline came after an extreme move. Gold surged 5x in 4 years and +712% vs
+
+4. @peter_krauth
+   URL: https://x.com/peter_krauth/status/2075309011298136218
+   UTC: 2026-07-09T20:00:00.000Z
+   Beijing: 2026-07-10 04:00:00
+   Text: The Great Silver Bull Ep. 4: Emerging Catalysts Part 2 is live.
+
+
+@TedJButler
+ and I look at another emerging silver catalyst: data centres.
+
+AI, cloud computing, digital infrastructure and grid expansion are accelerating. And all of it requires silver.
+
+Watch:
+
+5. @peter_krauth
+   URL: https://x.com/peter_krauth/status/2075300454838493657
+   UTC: 2026-07-09T19:26:00.000Z
+   Beijing: 2026-07-10 03:26:00
+   Text: GoGold 
+@GoGoldResources
+ keeps doing what we want to see from a silver developer: generating cash while advancing growth.
+
+Parral production was up 21% quarter-over-quarter, with silver output hitting a five-year high.
+
+And with Los Ricos South now permitted, financed, and moving
+
+6. @peter_krauth
+   URL: https://x.com/peter_krauth/status/2075299779761053952
+   UTC: 2026-07-09T19:23:19.000Z
+   Beijing: 2026-07-10 03:23:19
+   Text: Sierra Madre 
+@SierraMadreSM
+  just strengthened its silver growth story.
+
+Debt free. Positive operating cash flow. La Guitarra producing. Del Toro now in hand.
+
+For a silver company at this stage, that’s a much better position to be in.
+
+
+@TedJButler
+  dives into what this means for
+
+7. @ArcadiaEconomic
+   URL: https://x.com/ArcadiaEconomic/status/2075270711187275835
+   UTC: 2026-07-09T17:27:48.000Z
+   Beijing: 2026-07-10 01:27:48
+   Text: Fortuna Mining's reported record profits 2 quarters in a row, & now they're on the verge of growing their #GOLD production as much as 60% over the next 2 years.
+
+CEO Jorge Ganoza joins me live at 1:30 eastern to explain... 
+
+
+https://
+youtube.com/live/um9qlUzkl
+2I?si=uNt8phQxRyNtyvEg
+… 
+@fortunamining
+ 
+@InvResDynamics
+
+8. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2075589932383408399
+   UTC: 2026-07-10T14:36:17.000Z
+   Beijing: 2026-07-10 22:36:17
+   Text: The contra-Lobo case...
+
+I may yet get my chance to Buy Low in the copper space.
+
+9. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2075593929987432766
+   UTC: 2026-07-10T14:52:10.000Z
+   Beijing: 2026-07-10 22:52:10
+   Text: My short update on gold and silver .. 
+
+ 
+https://
+substack.com/@wmiddelkoop/n
+ote/c-291896767?r=mo1r&utm_medium=ios&utm_source=notes-share-action
+…
+
+10. @LawrenceLepard
+   URL: https://x.com/LawrenceLepard/status/2075400854148993163
+   UTC: 2026-07-10T02:04:57.000Z
+   Beijing: 2026-07-10 10:04:57
+   Text: Peter doesn’t understand Bitcoin.  Higher highs and higher lows.  Up and to the right for 17 years.  Has buried the performance of gold.  He is conveniently dumping on it during a draw down.
+
+11. @IvanhoeMines_
+   URL: https://x.com/IvanhoeMines_/status/2075323557597614173
+   UTC: 2026-07-09T20:57:48.000Z
+   Beijing: 2026-07-10 04:57:48
+   Text: Another record quarter at Kipushi.
+
+Q2 2026 zinc production reached a record 70,177 tonnes in concentrate, up 8% quarter-on-quarter, equivalent to an annualized production rate of ~280,000 tonnes.
+
+The strong performance was driven by record ore milled, a record feed grade of
+
+
+Filtering takeaway for this day:
+- Found 11 candidates. Filter by supply/demand relevance.

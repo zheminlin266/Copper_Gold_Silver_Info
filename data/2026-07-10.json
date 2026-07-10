@@ -1,0 +1,215 @@
+{
+  "date": "2026-07-10",
+  "report_time": "2026-07-11T07:00:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-08T00:00:00+08:00",
+      "end": "2026-07-10T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-10T00:00:00+08:00",
+      "end": "2026-07-10T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-10T00:00:00+08:00",
+      "end": "2026-07-10T23:59:59+08:00"
+    }
+  },
+  "summary": "铜供给压力全面爆发：智利5月铜产量全线下滑（Codelco -18.3% YoY），刚果KCC被查封（年产~19万吨铜面临停产风险），铜精矿现货TC跌破-130美元，Antofagasta年中长协转向指数联动定价——矿端定价体系正在发生结构性转变。金供给：Aura Minerals Q2产金75,437 GEO（+18% YoY），罕王黄金澳洲Mt Bundy获矿山作业授权（347万盎司资源量），Fortuna Mining预告黄金产量将增60%（X帖）。银供给：GR Silver San Marcial向东南延伸150米（21.9m @168g/t Ag），GoGold Parral银产量环比+21%创五年新高（X帖）。铜需求：Katusa量化数据中心铜消耗（30-47吨/MW）。Mogotes Metals Vicuña区Albor靶区钻获180m @0.98% CuEq。Part 1发现1条新broadcast（MSD Aldebaran Resources），Part 2 Playwright采集11条候选筛出3条供需帖。本期共纳入1条broadcast、3条X帖、7条新闻。",
+  "part1_broadcasts": [
+    {
+      "title": "Aldebaran Resources Concludes the Season's Drill Program at Altar Copper-Gold Project",
+      "url": "https://podcasters.spotify.com/pod/show/mining-stock-daily/episodes/Aldebaran-Resources-Concludes-the-Seasons-Drill-Program-e3ku1pi",
+      "publish_date": "2026-07-08",
+      "source_type": "podcast",
+      "guest": {
+        "name": "John Black",
+        "background": "Regulus Resources CEO/Aldebaran Resources Director，长期参与秘鲁和阿根廷铜金斑岩项目，Antares/Regulus/Aldebaran体系核心人物"
+      },
+      "metal_tags": ["copper", "gold"],
+      "supply_demand": "supply",
+      "summary": "John Black 在 Mining Stock Daily 更新 Aldebaran Resources 阿根廷 Altar 铜金项目勘探进展：2026钻探季已结束，完成新一轮加密钻探用于 PFS 级资源转换。同时讨论 Centauri Metals 分拆进展，预计今秋完成。",
+      "detail": "Altar 项目位于阿根廷 San Juan 省，毗邻 Los Pelambres（Antofagasta）和 El Pachón（Glencore），是全球最大的未开发铜金斑岩矿床之一。2026年钻探季主要进行 PFS 级加密钻探以提升资源级别。John Black 详细介绍了 Altar 的资源规模、品位、以及从勘探向预可研阶段的转换进展。Centauri Metals 分拆将把 Altar 以外的勘探资产独立上市，使 Aldebaran 聚焦 Altar 核心资产。",
+      "companies": ["Aldebaran Resources", "Centauri Metals"],
+      "projects": ["Altar"]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "author": "Marin Katusa",
+      "handle": "@KatusaResearch",
+      "publish_time": "2026-07-10T01:31:21+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "demand",
+      "excerpt": "Data centers now consume 5% of US power. By 2030, that share reaches 14%. Each megawatt requires 30 to 47 tonnes of copper.",
+      "interpretation": "Marin Katusa（Katusa Research 创始人，资源股投资人和项目尽调专家）用具体数据量化了 AI/数据中心对铜的边际需求：每兆瓦 30-47 吨铜，且数据中心在美国电力消费中的占比将从 5% 攀升至 2030 年的 14%。这是供给侧投资者对铜需求端结构性增长的典型论述。",
+      "importance": "数据中心铜需求是近年铜需求叙事中增速最快的板块之一。30-47 吨/MW 的量化数据为评估 AI 基础设施对铜需求的拉动提供了具体锚点。14% 的美国电力消费占比意味着铜在电力传输、冷却系统和备用电源中的使用将在未来几年非线性增长。",
+      "url": "https://x.com/KatusaResearch/status/2075271603248832713",
+      "source_channel": "browser_use"
+    },
+    {
+      "author": "Peter Krauth",
+      "handle": "@peter_krauth",
+      "publish_time": "2026-07-10T03:26:00+08:00",
+      "metal_tags": ["silver"],
+      "supply_demand": "supply",
+      "excerpt": "GoGold keeps doing what we want to see from a silver developer: generating cash while advancing growth. Parral production was up 21% quarter-over-quarter, with silver output hitting a five-year high. And with Los Ricos South now permitted, financed, and moving...",
+      "interpretation": "Peter Krauth（Silver Stock Investor 作者）跟踪的 GoGold Resources（TSX: GGD）墨西哥 Parral 银矿 Q2 产量环比 +21%，创五年新高。同时 Los Ricos South 项目已获许可并融资，正在推进。GoGold 是墨西哥重要的白银开发商，Parral 是尾矿再处理项目，Los Ricos South 则是高品位原生银金矿。",
+      "importance": "GoGold Parral +21% QoQ 的银产量增长反映了墨西哥银矿产能恢复的趋势。Los Ricos South 获许可并推进是中长期银矿供给的增量信号。在白银连续第六年供不应求的背景下，每一个银矿项目的顺利推进都对供给端具有边际改善意义。",
+      "url": "https://x.com/peter_krauth/status/2075300454838493657",
+      "source_channel": "browser_use"
+    },
+    {
+      "author": "Chris Marcus",
+      "handle": "@ArcadiaEconomic",
+      "publish_time": "2026-07-10T01:27:48+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Fortuna Mining's reported record profits 2 quarters in a row, & now they're on the verge of growing their GOLD production as much as 60% over the next 2 years. CEO Jorge Ganoza joins me live at 1:30 eastern to explain...",
+      "interpretation": "Chris Marcus（Arcadia Economics 主理人）宣布 Fortuna Mining CEO Jorge Ganoza 的直播访谈，并透露 Fortuna 正接近在未来两年将黄金产量提升 60%。Fortuna 在西非（Séguéla、Yaramoko、Diamba Sud）和拉美（San Jose、Caylloma）运营多座矿山。Q2 产量 72,217 AuEq oz（前一日 07-09 报告已覆盖），60% 增长指引意味着公司正在推进从 ~29 万 AuEq oz/年向 ~46 万 AuEq oz/年的产能跨越。",
+      "importance": "Fortuna 若实现未来两年 60% 的黄金产量增长，将为全球金矿供给贡献约 17 万 AuEq oz/年的增量。增长的主要驱动力可能来自 Séguéla 扩建（选厂扩产）和 Diamba Sud 新矿投产。CEO 访谈中可能透露更具体的产量路径和资本开支计划。需要注意的是，本次 X 帖子是访谈预告而非访谈本身，后续访谈内容若落入 Part 1 72h 窗口应在次日日报中补充。",
+      "url": "https://x.com/ArcadiaEconomic/status/2075270711187275835",
+      "source_channel": "browser_use"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "MINING.com / Reuters",
+      "title": "Chile's May Copper Output Falls Sharply Across Top Miners; Codelco Production Down 18.3% YoY",
+      "url": "https://www.mining.com/markets/commodity/cobalt/",
+      "publish_time": "2026-07-10T12:50:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "智利国家统计局（INE）数据显示，2026年5月智利全国铜产量423,623吨，同比-12.9%。Codelco产量同比-18.3%，BHP Escondida同样录得两位数降幅。智利是全球最大产铜国（占全球~25%），产量持续下滑加剧全球铜供给紧张。",
+      "interpretation": "这是智利铜产量连续第二个月录得双位数同比降幅（4月-13.8%）。Codelco -18.3%的降幅尤为严重——作为全球最大铜矿企，其产量下滑不仅反映老矿品位下降和运营挑战，还叠加了2025年产量数据争议后的管理层动荡。El Teniente（坍塌事故后生产受限）和Chuquicamata（矿石可供量下降）持续拖累产量。这对全球铜矿供给是重大负面信号——在铜精矿现货TC已跌至-130美元的历史极端低位的背景下，智利产量降幅意味着矿端紧缺正从冶炼端向上游采掘端全面传导。",
+      "importance": "智利占全球铜矿产量~25%，Codelco是全球最大铜矿企（2026年指引133-136万吨）。5月产量同比-12.9%的降幅是连续第二个月双位数下降，意味着全球铜矿供给的供给侧结构性下行趋势在加速。在Escondida扩建刚获环评（147亿美元，2030年代中期才能投产）的背景下，近端供给的持续恶化将进一步推高铜价和冶炼厂亏损。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "SMM / 新浪财经 / 今日有色",
+      "title": "铜精矿长协定价体系大变：Antofagasta年中长协转向指数联动TC，全球铜精矿供应短缺61万吨",
+      "url": "https://finance.sina.com.cn/wm/2026-07-10/doc-inihinfw3804180.shtml",
+      "publish_time": "2026-07-10T18:07:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "Antofagasta与中国核心冶炼厂7月1日敲定年中铜精矿长协加工费方案，首次放弃传统固定TC数字模式，转向指数联动定价机制。SMM测算：2026年全球硫化铜精矿供应短缺约61万金属吨，矿端供应增量（~25万吨）远不及中国冶炼新增需求（~80万吨）。现货TC已跌破-130美元/干吨。冶炼厂每加工一吨铜精矿倒贴矿企逾百美元。",
+      "interpretation": "这是全球铜精矿贸易体系数十年来最重要的定价变革之一。固定TC模式自1970年代延续至今，是铜精矿市场的定价基石。指数联动意味着矿企议价权已完全压倒冶炼端，冶炼厂实际加工利润将随现货TC波动，丧失成本可预测性。61万吨的年度缺口测算表明，矿端紧张不是周期性波动而是结构性短缺——SMM预测需等到2029年新建产能释放后才有可能缓解。Grasberg复产不及预期、Cobre Panamá未重启、智利老矿品位下滑、Kamoa-Kakula矿震等多重因素叠加，矿端供给压力正在从前期的TC低迷升级为定价体系变革。",
+      "importance": "长协定价机制的结构性转变是铜供给紧张的最强信号。它表明矿端供给约束已渗透到贸易和商业层面，而非仅仅是矿山运营问题。指数联动定价意味着未来中国冶炼厂的原料成本将完全暴露于现货TC波动，而现货TC的深度负值（-130美元/干吨）将直接转化为冶炼厂的实际亏损。这可能加速高成本冶炼产能出清，从需求端（冶炼需求）反馈至矿端（减少精矿采购），最终形成新的供需平衡。这一机制转变对全球铜供应链的影响将是长期和深远的。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "SMM / 东方财富",
+      "title": "刚果KCC被税务总局查封停产：嘉能可Kamoto Copper年产~19万吨铜面临中断风险",
+      "url": "https://hq.smm.cn/copper/content/103999674",
+      "publish_time": "2026-07-10T20:15:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "刚果（金）税务总局（DGI）于7月9日查封嘉能可旗下Kamoto Copper Company（KCC）办公室及部分设施，涉及近30亿美元税款争议。查封导致部分人员疏散，铜钴生产暂时中断。KCC近两年电解铜产量约19万吨/年。嘉能可否认指控，称继续与当局沟通。",
+      "interpretation": "KCC是刚果（金）最大的铜钴矿之一（嘉能可持股70%），年产铜约19万吨——相当于全球矿产铜~0.8%。30亿美元的税款争议数字惊人（相当于KCC多年利润总额）。虽然Bloomberg报道称矿山和选厂生产未受影响，但SMM引述当地媒体称铜钴生产\u201c暂时中断\u201d。争议已持续12个月未解决，目前查封升级表明双方谈判陷入僵局。刚果（金）是仅次于智利和秘鲁的全球第三大产铜国（2025年产量~300万吨），KCC任何实质性停产都将对全球铜供给产生显著边际影响。",
+      "importance": "19万吨/年的铜产量不是小数——超过Sandfire Black Butte（3.1万吨/年）6倍，接近Kamoa-Kakula半年产量（6.4万吨/季度）。在铜精矿TC已跌至-130美元、智利产量双位数下滑的背景下，刚果（金）最大铜矿之一的停产风险是又一个重大供给侧冲击。若停产持续，铜精矿市场将面临约19万吨/年的额外供给缺口。此外，刚果（金）近年频繁修改矿业税法、提高政府分成比例，KCC税务争议可能预示着更广泛的矿业投资环境恶化。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "Aura Minerals / GlobeNewswire",
+      "title": "Aura Minerals Q2 2026 Production: 75,437 Gold Equivalent Ounces; H1 Record 157,574 GEO (+27% YoY)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1468642/000117184326004568/exh_991.htm",
+      "publish_time": "2026-07-10T07:00:00+08:00",
+      "metal_tags": ["gold", "copper"],
+      "supply_demand": "supply",
+      "excerpt": "Aura Minerals（NASDAQ: AUGO）Q2 2026黄金当量产量75,437盎司（-8% QoQ，+18% YoY），H1累计157,574盎司创历史最高半年产量（+27% YoY）。六座运营矿山（Aranzazu铜金矿、Apoena、Minosa、Almas、Borborema、MSG）均在产。公司维持全年指引。CEO Rodrigo Barbosa：Q2产量符合预期，H2将更强（高品位采矿区进入）。",
+      "interpretation": "Aura是一家在巴西、墨西哥和洪都拉斯运营六座矿山的中型矿商。H1 157,574 GEO创纪录表明公司从Almas和Borborema的产能爬坡中持续受益。Aranzazu铜金矿Q2产量17,882 GEO（+14% QoQ）是铜金共生产品线的亮点。Q2环比-8%主要是计划内采矿排序（低品位区），H2进入高品位区域后将加速。公司目标未来年产超过600,000 GEO（当前年化~315,000 GEO），正通过Era Dorada和Matupá等新项目推进。",
+      "importance": "中型矿商的产量增长是全球金矿供给增量的重要来源。157,574 GEO的半年产量虽对全球~3,600吨金矿产量影响有限，但+27% YoY的增速反映了新矿产能释放的行业趋势。Aranzazu铜金矿的铜产量（铜价$6.09/lb用于GEO折算）也为铜供给贡献了边际增量。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "罕王黄金 / 智通财经",
+      "title": "罕王黄金澳洲Mt Bundy金矿项目获矿山管理计划批准及矿山作业授权",
+      "url": "https://www.moomoo.com/hant/news/post/68287468/hanwang-gold-03788-mine-management-plan-for-the-mt-bundy",
+      "publish_time": "2026-07-10T08:00:00+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "罕王黄金（03788.HK）澳洲附属公司Primary Gold获北领地政府批准Mt Bundy金矿项目Rustlers Roost及Quest 29矿山的矿山管理计划，并获授予矿山作业授权。项目拥有JORC资源量347万盎司黄金、储量188万盎司，预计年产~13.5万盎司（峰值20万盎司），矿山寿命15年，将成为北领地第二大金矿。",
+      "interpretation": "Mt Bundy是澳大利亚北领地最重要的未开发金矿项目之一，采矿许可证已于2026年5月获批，此次矿山管理计划批准是项目进入实质性建设前的最后关键许可之一。中国罕王于2018年以3,750万澳元收购该项目，经过多年勘探和可研推进至开发阶段。年产13.5万盎司（峰值20万盎司）对全球金矿供给影响有限，但对澳洲北部金矿产区具有重要区位意义。罕王团队曾在西澳成功开发南十字金矿（年产13.5万盎司），2017年以3.3亿澳元出售。",
+      "importance": "澳洲是仅次于中国的全球第二大金矿生产国，Mt Bundy若投产将成为北领地自2020年以来首个新大型金矿。188万盎司储量、15年矿山寿命为中长线金矿供给提供了确定性增量。项目拥有全部环保批文和采矿许可，推进确定性较高。对中国矿业资本在澳洲的运营能力也是一次重要检验。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "GR Silver Mining / Mexico Mining Center",
+      "title": "GR Silver San Marcial SE Extension: 21.9m @168 g/t Ag, Confirms 150m Southeastward Expansion",
+      "url": "https://www.mexicominingcenter.com/gr-silver-reports-significant-drill-results-at-san-marcial-21-9-m-at-168-g-t-ag-including-6-15-m-at-447-g-t-ag-in-the-se-area",
+      "publish_time": "2026-07-10T08:00:00+08:00",
+      "metal_tags": ["silver"],
+      "supply_demand": "supply",
+      "excerpt": "GR Silver Mining（TSXV: GRSL）公布墨西哥San Marcial银矿SE Extension靶区钻探结果：SMS26-08钻孔见矿21.9m真厚度@168g/t Ag和1.41% Zn（含6.15m @447g/t Ag），确认高品位银矿化向东南延伸至少150米超出2023年NI 43-101资源边界。20,000米钻探计划进行中，7个孔结果待出，目标为资源量更新和PEA。",
+      "interpretation": "San Marcial是GR Silver Plomosas项目的旗舰矿床（墨西哥Sinaloa州），属于低硫化浅成低温热液银矿系统。SE Extension的150米延伸证实矿床规模远超当前资源模型，且品位维持高位。值得注意的是，5月19日的SMS26-04孔（45.1m @1,623g/t Ag，含8.25m @8,579g/t Ag）创下项目历史最佳见矿记录，表明SE Extension区域可能存在高品位矿柱。当前钻孔间距和延伸方向暗示矿化系统远未闭合。",
+      "importance": "全球银矿供给约70%为铜铅锌副产品，独立高品位原生银矿的新资源扩展极为稀缺。San Marcial的150米东南延伸确认矿化连续性良好，为后续资源量更新和PEA奠定基础。当前白银市场连续第六年供不应求，高品位银矿项目是缓解供给紧张的关键变量。虽处于勘探阶段（距生产至少3-5年），但高品位和资源扩展趋势对中长期银矿供给具有边际改善意义。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mogotes Metals / MINING.com",
+      "title": "Mogotes Drills 180m @0.98% CuEq, Expanding Albor Discovery at Filo Sur, Vicuña District",
+      "url": "https://www.mining.com/mogotes-says-drilling-expands-andes-copper-gold-target/",
+      "publish_time": "2026-07-10T08:37:00+08:00",
+      "metal_tags": ["copper", "gold", "silver"],
+      "supply_demand": "supply",
+      "excerpt": "Mogotes Metals（TSXV: MOG）公布Filo Sur项目Albor靶区FS_DDH_016钻孔结果：180m @0.98% CuEq（0.51% Cu, 0.37 g/t Au, 2.8 g/t Ag, 119 ppm Mo），含9m @2.84% CuEq（1.32% Cu, 1.34 g/t Au）。矿化始于108m深度，系统沿走向和深部未封闭。Filo Sur位于Vicuña铜金银矿区，紧邻BHP/Lundin的Filo del Sol和NGEx的Lunahuasi。",
+      "interpretation": "这是Mogotes首次全资金钻探季在Filo Sur取得的第二个重大发现（继Cruz del Sur之后）。Albor靶区180m连续矿化（从108m深度开始）显示近地表大规模铜金银钼矿化系统。Vicuña区是近年来全球最重要的铜金银新发现区带：Filo del Sol（BHP/Lundin）、Lunahuasi（NGEx，前期57.75m @9.41% CuEq）、Los Helados均位于同一成矿带。Mogotes项目的2.84% CuEq高品位段虽然厚度有限（9m），但暗示深部可能存在更高品位的斑岩核心。",
+      "importance": "Vicuña区正快速崛起为全球最重要的铜金银新成矿区带。Mogotes的Albor发现虽然品位低于NGEx Lunahuasi的Jupiter带（19m @25.84% CuEq），但180m连续矿化 + 近地表（108m）的特点意味着露天开采潜力。公司仅完成第一季钻探（计划7,000m），矿化系统沿走向和深部均未封闭，资源潜力远未探明。在铜矿新发现日益稀缺的背景下（Frank Giustra同日指出仅剩4个未开发世界级铜矿床），Vicuña区每一个新发现都具有全局意义。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 8 Aldebaran Resources - NEW, not in previous reports)",
+      "Soar Financial (Jul 9 Andy Schectman - macro/precious metals commentary, not mining supply/demand focused, excluded)",
+      "Sprott Insights (Jul 8 Justin Tolman video - market outlook, general; Jul 10 Paul Wong report - written report not broadcast)",
+      "Sprott Money (Eric Sprott mid-year interview - macro, already covered theme)",
+      "King World News (Jul 10 - price/macro commentary, not supply/demand)",
+      "Northern Miner podcast (Jul 8 General Flynn critical minerals - not gold/silver/copper focused)",
+      "YouTube search (no new mining supply/demand interviews in 72h window)",
+      "Rule Symposium Jul 6-10 (no video replays available)"
+    ],
+    "part1_result": "72h window (07-08 to 07-10): 1 new qualified broadcast - MSD Jul 8 Aldebaran Resources. Soar Financial Jul 9 excluded (macro/price focus). Sprott Jul 8 excluded (general market outlook). No Rule Symposium video replays yet.",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chrome (35 seed + 18 official, storage_state from .browser_profile/x_auth.json)"
+    ],
+    "part2_result": "Playwright + Chrome search completed (~3 min). 11 raw candidates from 8 accounts (@KatusaResearch 2, @TheDailyGold 1, @peter_krauth 3, @ArcadiaEconomic 1, @duediligenceguy 1, @wmiddelkoop 1, @LawrenceLepard 1, @IvanhoeMines_ 1). 3 passed supply-demand screening: Katusa on data center copper demand (Cu demand), Peter Krauth on GoGold Parral +21% QoQ silver production (Ag supply), Arcadia Economic/Fortuna Mining gold production +60% growth outlook (Au supply). 8 excluded: gold technical analysis, silver podcast promotion, silver stock promotion, copper sentiment, gold/silver macro update, bitcoin debate, Kipushi zinc production (not in scope), China gold buying (duplicate of Jul 8 data).",
+    "part3_sources_checked": [
+      "MINING.com",
+      "Reuters",
+      "SMM / 今日有色",
+      "SHMET 上海金属网",
+      "GlobeNewswire / SEC (Aura Minerals)",
+      "Mexico Mining Center (GR Silver)",
+      "智通财经 / 罕王黄金",
+      "新浪财经 / 百度百家号",
+      "中国黄金协会",
+      "紫金矿业官网",
+      "Bloombeg (KCC/Glencore)"
+    ],
+    "part3_result": "7 qualified news items: 4 copper supply, 1 gold supply, 1 silver supply, 1 copper/gold/silver exploration. Sandfire Black Butte SMM re-report (Jul 10) deduped (original Jul 9 already covered). 紫金矿业中期分红 Jul 10 excluded (production data already in Jul 9 report).",
+    "new_sources_discovered": [
+      "罕王黄金 (Hanking Gold, 03788.HK) - Mt Bundy金矿项目",
+      "GR Silver Mining (TSXV: GRSL) - 已在CSV Soar Financial视频中出现，但公司自身此前未作为独立新闻源"
+    ]
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part3_deduped_events": [
+      "Sandfire Black Butte Lowry PFS (SMM Jul 10 re-report) - original MINING.com Jul 9 already covered in 07-09 report",
+      "紫金矿业中期分红 10派4.2元 (Jul 10) - 产量数据为7月9日公告内容，已在07-09报告全面覆盖，仅分红为新增信息但非供需信号",
+      "BHP Escondida扩建获环评 (华安早盘Jul 10提及) - 原始公告Jul 7，已在07-08报告覆盖",
+      "铜精矿现货TC -127.4美元 (SHMET周评Jul 10) - 与SMM同日TC数据一致，取SMM为主源"
+    ]
+  }
+}

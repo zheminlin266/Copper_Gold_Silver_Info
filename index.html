@@ -91,6 +91,15 @@
         </div>
 
         <div class="report-list">
+          <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-10.html">
+            <div class="thumb"><img src="./Sources/mining_2026-07-10_copper_supply_crisis.png" alt="Chile copper mine — supply crisis as Codelco output plunges 18.3% in May 2026"></div>
+            <div class="copy">
+              <h3>2026-07-10 矿业 Broadcast &amp; 供需新闻</h3>
+              <p class="summary">铜供给全链条告急：智利5月铜产量-12.9%（Codelco -18.3%），刚果KCC被查封（~19万吨/年停产风险），Antofagasta长协TC转向指数联动（现货-130美元），SMM测算全年缺口61万吨。金供给：Aura Minerals Q2 75,437 oz（+18%）、罕王Mt Bundy获作业授权。银供给：GR Silver 21.9m @168g/t Ag。X帖：数据中心铜需求量化、GoGold银产量+21%、Fortuna金产量将增60%。</p>
+              <div class="meta"><span>Daily</span><span>2026-07-10</span><span class="tag">Copper Supply Crunch · TC Crisis · KCC</span></div>
+            </div>
+          </a>
+
           <a class="report-row" href="./Historical_Daily_Reports/mining_people_broadcast_x_digest_2026-07-09.html">
             <div class="thumb"><img src="./Sources/mining_2026-07-09_zijin_h1.jpg" alt="Zijin Mining H1 2026 results — copper and gold production growth"></div>
             <div class="copy">
@@ -350,13 +359,11 @@
     })();
   </script>
   <script type="module" src="./assets/light-rays.js"></script>
-  <script src="./assets/ai-chat-widget.js"></script>
-  <script>
-    AiChat.init({
-      apiBase: "http://localhost:8000",
-      label: "AI",
-      placeholder: "问我关于日报中的铜金银供需信号..."
-    });
-  </script>
+  <script src="./assets/ai-rag-chat.js" defer></script>
+  <ai-rag-chat
+    api-base="http://localhost:8000"
+    label="AI"
+    language="zh"
+  ></ai-rag-chat>
 </body>
 </html>
