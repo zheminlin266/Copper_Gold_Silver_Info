@@ -201,7 +201,13 @@
     "new_sources_discovered": [
       "罕王黄金 (Hanking Gold, 03788.HK) - Mt Bundy金矿项目",
       "GR Silver Mining (TSXV: GRSL) - 已在CSV Soar Financial视频中出现，但公司自身此前未作为独立新闻源"
-    ]
+    ],
+    "image_source": {
+      "method": "og_image",
+      "source_url": "https://www.mining.com/web/chiles-copper-output-manufacturing-production-plummet-in-may/",
+      "og_image_url": "https://www.mining.com/wp-content/uploads/2025/04/copper-smelting-chuquicamata-mine-chile.jpg",
+      "note": "Initial run used AI-generated image (skipped og:image priority). Corrected 2026-07-11 18:00 to use actual article image (Chuquicamata smelter)."
+    }
   },
   "dedup_log": {
     "part1_deduped_urls": [],
