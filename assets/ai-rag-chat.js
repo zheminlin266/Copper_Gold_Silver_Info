@@ -17,7 +17,7 @@
   var COPY = {
     en: {
       assistant: "AI assistant", dialog: "AI chat", history: "History", newChat: "New chat",
-      close: "Close chat", open: "Open chat", placeholder: "Ask a question…", send: "Send message", stop: "Stop generating",
+      close: "Collapse chat", open: "Open chat", placeholder: "Ask a question…", send: "Send message", stop: "Stop generating",
       empty: "Ask about my work, experience, or projects.", suggestions: ["What do you work on?", "Tell me about your experience", "What is your approach to your work?"],
       you: "You", thinking: "Thinking…", copy: "Copy", copied: "Copied", retry: "Retry",
       connectionError: "The response was interrupted. Your partial answer is still here.", requestError: "I couldn't reach the chat service. Please try again.",
@@ -27,7 +27,7 @@
     },
     zh: {
       assistant: "AI 助手", dialog: "AI 对话", history: "历史记录", newChat: "新对话",
-      close: "关闭对话", open: "打开对话", placeholder: "输入你的问题…", send: "发送消息", stop: "停止生成",
+      close: "收起对话", open: "打开对话", placeholder: "输入你的问题…", send: "发送消息", stop: "停止生成",
       empty: "欢迎询问我的工作、经历或项目。", suggestions: ["你从事什么工作？", "介绍一下你的经历", "你的工作方法是什么？"],
       you: "你", thinking: "正在思考…", copy: "复制", copied: "已复制", retry: "重试",
       connectionError: "回复已中断，已保留当前内容。", requestError: "暂时无法连接聊天服务，请重试。",
@@ -106,6 +106,8 @@
       this._connected = false;
       this._bound = false;
       this._frame = 0;
+      this._collapseTimer = 0;
+      this._closing = false;
       this._abortController = null;
       this._activeRequest = null;
       this._requestId = 0;
@@ -114,6 +116,15 @@
       this._sessions = [];
       this._activeId = "";
       this._state = { open: false, view: "chat", input: "", busy: false, followups: [], error: null, stickToBottom: true };
+      this._handleOutsideClick = (event) => {
+        if (!this._state.open || event.composedPath().includes(this)) return;
+        this.collapse(false);
+      };
+      this._handleDocumentKeydown = (event) => {
+        if (event.key !== "Escape" || !this._state.open) return;
+        event.preventDefault();
+        this.collapse(true);
+      };
       this._restore();
       this._ensureSession();
     }
@@ -122,6 +133,8 @@
       this._connected = true;
       this._renderShell();
       this._bind();
+      document.addEventListener("click", this._handleOutsideClick, true);
+      document.addEventListener("keydown", this._handleDocumentKeydown);
       this._renderAll();
     }
 
@@ -130,6 +143,10 @@
       this._stopRequest(false);
       if (this._frame) cancelAnimationFrame(this._frame);
       this._frame = 0;
+      if (this._collapseTimer) clearTimeout(this._collapseTimer);
+      this._collapseTimer = 0;
+      document.removeEventListener("click", this._handleOutsideClick, true);
+      document.removeEventListener("keydown", this._handleDocumentKeydown);
     }
 
     attributeChangedCallback(name, oldValue, newValue) {
@@ -159,6 +176,9 @@
 
     /** Opens the widget and focuses the composer. */
     open() {
+      if (this._collapseTimer) clearTimeout(this._collapseTimer);
+      this._collapseTimer = 0;
+      this._closing = false;
       this._state.open = true;
       this._state.view = "chat";
       this._renderAll();
@@ -166,14 +186,22 @@
       requestAnimationFrame(function () { if (self._els && self._els.input) self._els.input.focus(); });
     }
 
-    /** Stops an active response, closes the widget, and returns focus to its launcher. */
-    close() {
-      this._stopRequest(true);
+    /** Collapses the widget without stopping or clearing the current conversation. */
+    collapse(returnFocus) {
+      if (!this._state.open || this._closing) return;
       this._state.open = false;
+      this._closing = true;
       this._renderAll();
       var self = this;
-      requestAnimationFrame(function () { if (self._els && self._els.fab) self._els.fab.focus(); });
+      this._collapseTimer = setTimeout(function () {
+        self._collapseTimer = 0;
+        self._closing = false;
+        self._renderAll();
+        if (returnFocus && self._els && self._els.fab) self._els.fab.focus();
+      }, 180);
     }
+
+    close() { this.collapse(true); }
 
     /** Sends a message programmatically. Returns false while a response is in progress. */
     send(text) { return this._send(text == null ? this._state.input : text); }
@@ -240,7 +268,9 @@
           .widget { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); z-index: 2147483000; color: #172033; }
           .fab { min-height: 44px; display: inline-flex; align-items: center; gap: 9px; border: 1px solid rgba(15,23,42,.12); border-radius: 999px; padding: 0 16px; background: var(--ai-rag-accent, #111827); color: #fff; font-size: 14px; font-weight: 650; box-shadow: 0 14px 36px rgba(15,23,42,.22); transition: transform .18s ease, box-shadow .18s ease; }
           .fab:hover { transform: translateY(-1px); box-shadow: 0 18px 44px rgba(15,23,42,.28); } .fab svg { width: 18px; height: 18px; }
-          .panel { position: absolute; right: 0; bottom: 0; display: flex; flex-direction: column; width: min(410px, calc(100vw - 32px)); height: min(640px, calc(100dvh - 32px)); overflow: hidden; border: 1px solid rgba(15,23,42,.13); border-radius: 20px; background: var(--ai-rag-panel-bg, #fff); box-shadow: 0 24px 70px rgba(15,23,42,.25); }
+          .panel { position: absolute; right: 0; bottom: 0; display: flex; flex-direction: column; width: min(410px, calc(100vw - 32px)); height: min(640px, calc(100dvh - 32px)); overflow: hidden; border: 1px solid rgba(15,23,42,.13); border-radius: 20px; background: var(--ai-rag-panel-bg, #fff); box-shadow: 0 24px 70px rgba(15,23,42,.25); transform-origin: bottom right; }
+          .panel[data-state="open"] { animation: panel-in 200ms cubic-bezier(.23,1,.32,1) both; }
+          .panel[data-state="closing"] { pointer-events: none; animation: panel-out 180ms cubic-bezier(.23,1,.32,1) both; }
           .header { min-height: 60px; display: flex; align-items: center; gap: 6px; padding: 8px 8px 8px 16px; border-bottom: 1px solid #e6e9ee; }
           .title { min-width: 0; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 14px; font-weight: 700; } .busy-dot { display: inline-block; width: 7px; height: 7px; margin-left: 6px; border-radius: 50%; background: #2563eb; animation: pulse 1.2s ease infinite; }
           .icon-button { width: 44px; height: 44px; display: grid; place-items: center; flex: 0 0 auto; border: 0; border-radius: 10px; background: transparent; color: #526176; } .icon-button:hover { background: #f0f3f7; color: #172033; } .icon-button[aria-pressed="true"] { background: #eaf0ff; color: #1d4ed8; } .icon-button svg { width: 19px; height: 19px; }
@@ -258,8 +288,12 @@
           .composer { display: grid; gap: 7px; padding: 10px 12px max(12px, env(safe-area-inset-bottom)); border-top: 1px solid #e6e9ee; background: #fff; } textarea { width: 100%; min-height: 48px; max-height: 116px; resize: none; border: 1px solid #cdd5df; border-radius: 12px; padding: 12px; background: #fff; color: #172033; font-size: 14px; line-height: 1.4; } textarea::placeholder { color: #8b98a9; } textarea:focus { border-color: #2563eb; outline: 0; box-shadow: 0 0 0 3px rgba(37,99,235,.15); }
           .composer-bottom { min-height: 32px; display: flex; align-items: center; gap: 10px; } .counter { flex: 1; color: #7a8799; font-size: 12px; font-variant-numeric: tabular-nums; } .send { width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-radius: 11px; background: var(--ai-rag-accent, #111827); color: #fff; } .send:hover:not(:disabled) { background: #293548; } .send svg { width: 18px; height: 18px; }
           .history-body { min-height: 0; flex: 1; overflow: auto; padding: 16px; } .history-note { margin: 0 0 12px; color: #718096; font-size: 12px; } .history-list { display: grid; gap: 7px; } .history-item { min-height: 56px; display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 10px; width: 100%; border: 1px solid transparent; border-radius: 11px; padding: 9px 10px; background: transparent; color: #172033; text-align: left; } .history-item:hover, .history-item[aria-current="true"] { border-color: #dbe4ef; background: #f5f7fa; } .history-item strong, .history-item small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .history-item strong { font-size: 13px; } .history-item small { color: #7a8799; font-size: 11px; } .clear { width: 100%; min-height: 44px; margin-top: 16px; border: 1px solid #fecaca; border-radius: 10px; background: #fff; color: #b4233c; font-size: 13px; font-weight: 650; }
+          @keyframes panel-in { from { opacity: 0; transform: translateY(8px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+          @keyframes panel-out { from { opacity: 1; transform: translateY(0) scale(1); } to { opacity: 0; transform: translateY(6px) scale(.97); } }
+          @keyframes sheet-in { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+          @keyframes sheet-out { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(24px); } }
           @keyframes pulse { 50% { opacity: .25; } } @keyframes bounce { 50% { transform: translateY(-3px); opacity: .45; } } @keyframes blink { 50% { opacity: 0; } }
-          @media (max-width: 600px) { .widget { right: 0; bottom: 0; left: 0; } .panel { position: fixed; right: 0; bottom: 0; width: 100vw; height: min(84dvh, 700px); border-right: 0; border-bottom: 0; border-left: 0; border-radius: 20px 20px 0 0; } .fab { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); } .scroll { padding-right: 14px; padding-left: 14px; } }
+          @media (max-width: 600px) { .widget { right: 0; bottom: 0; left: 0; } .panel { position: fixed; right: 0; bottom: 0; width: 100vw; height: min(84dvh, 700px); border-right: 0; border-bottom: 0; border-left: 0; border-radius: 20px 20px 0 0; transform-origin: bottom center; } .panel[data-state="open"] { animation-name: sheet-in; } .panel[data-state="closing"] { animation-name: sheet-out; } .fab { position: fixed; right: max(16px, env(safe-area-inset-right)); bottom: max(16px, env(safe-area-inset-bottom)); } .scroll { padding-right: 14px; padding-left: 14px; } }
           @media (prefers-color-scheme: dark) { .panel, .composer { background: var(--ai-rag-panel-bg, #111827); border-color: #293548; } .header, .composer { border-color: #293548; } .title, .bubble, textarea, .history-item { color: #e7edf6; } .icon-button { color: #a9b6c8; } .icon-button:hover { background: #202c3d; color: #fff; } .icon-button[aria-pressed="true"] { background: #1d355f; color: #bfdbfe; } .assistant .bubble, .chip, .followup { background: #1b2636; color: #e7edf6; border-color: #35445a; } .chip:hover, .followup:hover, .copy:hover, .history-item:hover, .history-item[aria-current="true"] { background: #263448; } textarea { border-color: #40516a; background: #172233; } .source-list { background: #172233; } .source-list strong { color: #a9b6c8; } .scroll-latest, .retry, .clear { background: #172233; } .error { background: #311a25; border-color: #7f1d3a; color: #fecdd3; } }
           @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
         </style>
@@ -292,7 +326,7 @@
         if (!target) return;
         var action = target.getAttribute("data-action");
         if (action === "open") this.open();
-        if (action === "close") this.close();
+        if (action === "close") this.collapse(true);
         if (action === "history") { this._state.view = this._state.view === "history" ? "chat" : "history"; this._renderAll(); }
         if (action === "new") this._newChat();
         if (action === "latest") this._scrollToLatest(true);
@@ -310,7 +344,6 @@
         this._updateComposer();
         });
         this._root.addEventListener("keydown", (event) => {
-        if (event.key === "Escape" && this._state.open) { event.preventDefault(); this.close(); }
         if (event.target === this._els.input && event.key === "Enter" && !event.shiftKey && !event.isComposing) { event.preventDefault(); this._send(this._state.input); }
         });
       }
@@ -336,7 +369,8 @@
       this._els["history-button"].setAttribute("aria-pressed", String(this._state.view === "history"));
       this._els["chat-view"].hidden = this._state.view !== "chat";
       this._els["history-view"].hidden = this._state.view !== "history";
-      this._els.panel.hidden = !this._state.open;
+      this._els.panel.hidden = !this._state.open && !this._closing;
+      this._els.panel.dataset.state = this._closing ? "closing" : this._state.open ? "open" : "closed";
       this._els.fab.hidden = this._state.open;
       this._els["input-label"].textContent = c.placeholder;
       this._els.input.placeholder = c.placeholder;

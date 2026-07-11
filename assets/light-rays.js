@@ -183,6 +183,7 @@ function initLightRays(container) {
   const mouse = { x: 0.5, y: 0.5 };
   const smoothMouse = { x: 0.5, y: 0.5 };
   let animationId = 0;
+  let visible = true;
 
   const updatePlacement = () => {
     const width = container.clientWidth;
@@ -203,6 +204,7 @@ function initLightRays(container) {
   };
 
   const render = (time) => {
+    animationId = 0;
     uniforms.iTime.value = time * 0.001;
 
     if (options.mouseInfluence > 0) {
@@ -213,7 +215,9 @@ function initLightRays(container) {
     }
 
     renderer.render({ scene: mesh });
-    animationId = requestAnimationFrame(render);
+    if (!reducedMotion && visible && !document.hidden) {
+      animationId = requestAnimationFrame(render);
+    }
   };
 
   const handleMouseMove = (event) => {
@@ -223,17 +227,42 @@ function initLightRays(container) {
   };
 
   const resizeObserver = new ResizeObserver(updatePlacement);
+  const intersectionObserver = new IntersectionObserver(([entry]) => {
+    visible = entry.isIntersecting;
+    if (visible && !document.hidden && !reducedMotion && !animationId) {
+      animationId = requestAnimationFrame(render);
+    } else if (!visible && animationId) {
+      cancelAnimationFrame(animationId);
+      animationId = 0;
+    }
+  });
+  const handleVisibility = () => {
+    if (document.hidden && animationId) {
+      cancelAnimationFrame(animationId);
+      animationId = 0;
+    } else if (!document.hidden && visible && !reducedMotion && !animationId) {
+      animationId = requestAnimationFrame(render);
+    }
+  };
   resizeObserver.observe(container);
+  intersectionObserver.observe(container);
   window.addEventListener('resize', updatePlacement);
-  window.addEventListener('mousemove', handleMouseMove);
+  container.addEventListener('mousemove', handleMouseMove);
+  document.addEventListener('visibilitychange', handleVisibility);
   updatePlacement();
-  animationId = requestAnimationFrame(render);
+  if (reducedMotion) {
+    renderer.render({ scene: mesh });
+  } else {
+    animationId = requestAnimationFrame(render);
+  }
 
   return () => {
     cancelAnimationFrame(animationId);
     resizeObserver.disconnect();
+    intersectionObserver.disconnect();
     window.removeEventListener('resize', updatePlacement);
-    window.removeEventListener('mousemove', handleMouseMove);
+    container.removeEventListener('mousemove', handleMouseMove);
+    document.removeEventListener('visibilitychange', handleVisibility);
     gl.canvas.remove();
     const loseContext = gl.getExtension('WEBGL_lose_context');
     if (loseContext) loseContext.loseContext();
