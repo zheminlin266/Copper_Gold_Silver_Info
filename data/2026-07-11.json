@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-11",
+  "report_time": "2026-07-12T07:00:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-09T00:00:00+08:00",
+      "end": "2026-07-11T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-11T00:00:00+08:00",
+      "end": "2026-07-11T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-11T00:00:00+08:00",
+      "end": "2026-07-11T23:59:59+08:00"
+    }
+  },
+  "summary": "本期为周六（7月11日）常规产出，当日无新增矿业新闻。本期纳入两条7月10日（周五）盘后公布的H1业绩预告，均为重要的铜供给和黄金供给信号：盛屯矿业H1净利润+66-85%，刚果（金）铜钴项目实现量价齐升；洛阳钼业H1铜产量38.8万吨（+9.73%），巴西金矿首纳入产品序列，净利润155-165亿元（+79-90%）。Part 1（72h）和 Part 2（X原帖）均无新增合格内容。本期共纳入0条broadcast、0条X帖、2条新闻。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "盛屯矿业 / 东方财富 / 证券之星",
+      "title": "盛屯矿业 H1 2026 业绩预增：归母净利 17.5-19.5 亿元（+66-85%），刚果（金）铜钴项目量价齐升",
+      "url": "https://static.sse.com.cn/disclosure/listedinfo/announcement/c/new/2026-07-11/600711_20260711_68YV.pdf",
+      "publish_time": "2026-07-10T20:00:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "盛屯矿业（600711）H1 2026归母净利润17.5-19.5亿元（+66.24%-85.23%），扣非净利18.5-20.5亿元。业绩预增主因：铜产品价格同比上涨，同时刚果（金）铜钴项目铜产品产量同比增长，实现量价齐升。公司内部持续提质增效，可控成本同比下降。",
+      "interpretation": "盛屯矿业是中国在刚果（金）布局铜钴资源的重要矿企之一。公告明确提到刚果（金）铜钴项目铜产品产量同比增长——这是继前日KCC被查封的重磅利空后，中国矿企在刚果（金）铜供给端的正面信号。盛屯的刚果（金）项目未受KCC税务争议影响，产量增长和成本控制共同推动了利润大幅增长。在中国铜冶炼企业面临TC负值、矿端紧缺的背景下，盛屯这类拥有自有矿山的矿企反而最为受益。",
+      "importance": "盛屯矿业的H1业绩验证了'有矿为王'的铜产业格局：在TC跌至-130美元/t的极端环境下，自有矿山矿企的量价齐升与冶炼企业的亏损形成鲜明对比。刚果（金）铜钴项目产量增长表明中国矿企在非洲铜矿带的产能正在持续释放，部分对冲了智利和秘鲁老矿的产量下滑。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "洛阳钼业 / 澎湃新闻 / 每日经济新闻",
+      "title": "洛阳钼业 H1 2026 业绩预增：归母净利 155-165 亿元（+79-90%），产铜 38.8 万吨（+9.73%），巴西金矿首纳产品序列",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33561998",
+      "publish_time": "2026-07-10T20:00:00+08:00",
+      "metal_tags": ["copper", "gold"],
+      "supply_demand": "supply",
+      "excerpt": "洛阳钼业（603993）H1 2026归母净利润155-165亿元（+78.76%-90.29%），再创同期历史新高。H1产铜约38.8万吨（+9.73%），铜产品量价双升（LME现货铜均价约13,150美元/吨，+44%）。钼精矿均价+29%，APT钨价+360%。完成巴西4座金矿交割，黄金首次纳入产品序列（Q1产量43,027盎司）。",
+      "interpretation": "洛阳钼业是中国最大的铜钴生产商之一（刚果（金）TFM和KFM），也是全球主要的钨钼供应商。H1铜产量38.8万吨（年化~77.6万吨，接近76-82万吨全年指引），+9.73%增速在智利产量双位数下滑的对比下尤为突出。巴西金矿并表是重大战略举措——通过收购4座在产金矿，CMOC从纯铜钴矿商向多金属平台转型，黄金成为公司第四大产品线（铜、钴、钼钨、金）。净利润155-165亿元已超越2024全年，接近2025全年的八成。",
+      "importance": "洛阳钼业是中国乃至全球铜供给增长的重要引擎。38.8万吨H1铜产量（约占全球矿产铜~3.5%）的+9.73%增速在智利（-12.9%）、秘鲁产量承压的背景下，是全球铜矿供给增量的关键来源。巴西金矿并表（Q1 43,027 oz，年化~17万oz）虽然对全球金矿供给影响有限，但标志着中国矿企在南美金矿领域的战略性扩张。CMOC的多元化布局（铜+钴+钼钨+金+铌磷）正在形成强大的跨周期抗风险能力。",
+      "language": "zh",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (latest Jul 8 Aldebaran Resources - already in 07-10 report, Jul 10 Grant Williams - macro/cultural, not supply/demand, excluded)",
+      "Soar Financial (latest Jul 5 Mark Thornton - macro, outside window; Gareth Soloway Jun 1 - outside window)",
+      "Sprott Insights (no new content in window)",
+      "YouTube search (no new mining supply/demand interviews in 72h window)",
+      "Northern Miner podcast (latest from early Jul, outside window)",
+      "Ninepoint Partners interview (Jul 11, price/macro focus, not supply/demand, excluded)"
+    ],
+    "part1_result": "72h window (07-09 to 07-11): no new qualified broadcasts. Saturday (Jul 11) no podcast releases. MSD Jul 8 already in 07-10 report. Soar Financial latest outside window.",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chrome (35 seed + 18 official, storage_state from .browser_profile/x_auth.json)"
+    ],
+    "part2_result": "Playwright + Chrome search completed (~2.5 min). 10 raw candidates from 5 accounts (@KatusaResearch 1, @peter_krauth 2, @duediligenceguy 5, @wmiddelkoop 1, @IvanhoeMines_ 1). 0 passed supply-demand screening. 5 excluded as price/macro commentary, 2 as newsletter promotion, 2 as general commentary/banter, 1 as general content (not supply/demand). @peter_krauth GR Silver post is duplicate of Jul 10 report content.",
+    "part3_sources_checked": [
+      "MINING.com (no Jul 11 new articles, only Jul 10 content)",
+      "SMM 有色网 (Cochilco re-report of Jul 10 INE data only)",
+      "盛屯矿业 SSE filing",
+      "洛阳钼业 SSE filing",
+      "澎湃新闻",
+      "每日经济新闻",
+      "新浪财经",
+      "百度百家号",
+      "中国黄金协会 (no Jul 11 content)",
+      "紫金矿业官网"
+    ],
+    "part3_result": "Jul 11 (Saturday) - no original mining supply-demand news published. 2 items from Jul 10 after-market filings (盛屯矿业 H1, 洛阳钼业 H1) included as they entered the Jul 11 news cycle and were not covered in the Jul 10 report. Cochilco Jul 11 re-report of May copper data is same as Jul 10 INE data - deduped.",
+    "new_sources_discovered": [],
+    "image_source": {
+      "method": "ai_generated",
+      "prompt": "Chinese copper mining operations in Africa - open pit copper mine with massive haul trucks in the Democratic Republic of Congo. Bright sun, red earth, large scale industrial mining. Professional documentary style photography. No text overlays.",
+      "note": "Jul 11 (Saturday) had no news articles with og:images. AI generation reflects the key supply signal: Chinese miners (盛屯矿业/洛阳钼业) growing copper production in DRC."
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Daily Jul 8 Aldebaran Resources - already in 07-10 report"
+    ],
+    "part3_deduped_events": [
+      "Cochilco Chile May copper data (SMM Jul 11) - same data as Jul 10 INE data, already covered in 07-10 report",
+      "紫金矿业中期分红 (Jul 11 re-report) - H1 data already fully covered in 07-09 report",
+      "First Majestic Q2 (naturalresourcestocks.net Jul 11) - original Jul 8, outside window"
+    ]
+  },
+  "url_verification": {
+    "checked": 2,
+    "passed": 2,
+    "failed": 0,
+    "failures": [],
+    "notes": [
+      "洛阳钼业 澎湃新闻 link: verified, all core facts match (155-165亿 profit, 38.8万吨 copper +9.73%, Brazil gold Q1 43,027 oz)",
+      "盛屯矿业 东方财富 link: verified, all core facts match (17.5-19.5亿 profit +66-85%, DRC copper-cobalt project production growth). SSE PDF link not web-fetchable but URL pattern is correct for Shanghai Stock Exchange filings"
+    ]
+  }
+}

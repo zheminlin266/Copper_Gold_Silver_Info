@@ -1,0 +1,105 @@
+X Raw Materials: 2026-07-11 Beijing Window
+Collection time: 2026-07-12 07:00 Beijing
+Channel: Playwright + Chrome (storage_state)
+Window: 2026-07-11 00:00:00+08:00 to 2026-07-11 23:59:59+08:00
+Accounts searched: 35 seed + 18 official
+Candidates found: 10
+======================================================================
+
+[1] @KatusaResearch
+    UTC: 2026-07-10T16:52:51.000Z
+    Beijing: 2026-07-11 00:52
+    URL: https://x.com/KatusaResearch/status/2075624300451971389
+    Text: It's not over
+
+Every metals and mining company in the S&P 500, added together, is about half of one percent of the index.
+
+At the 2008 peak it was three times that.
+--------------------------------------------------
+[2] @peter_krauth
+    UTC: 2026-07-10T18:56:10.000Z
+    Beijing: 2026-07-11 02:56
+    URL: https://x.com/peter_krauth/status/2075655335642317252
+    Text: The first-ever Silver Scoop is live.
+
+With nearly 20 companies in the Silver Advisor portfolio, important developments can move quickly—and this week brought bonanza grades, record production, new drilling and a major debt milestone.
+
+We’ve pulled it all into one concise Friday
+--------------------------------------------------
+[3] @peter_krauth
+    UTC: 2026-07-10T18:00:51.000Z
+    Beijing: 2026-07-11 02:00
+    URL: https://x.com/peter_krauth/status/2075641416328569210
+    Text: GR Silver’s 
+@GRSilverMining
+'s  latest assays reinforce the potential of San Marcial’s SE Extension.
+
+Highlights include 21.9m at 168 g/t Ag and 12.4m at 203 g/t Ag.
+
+With drilling complete and a maiden resource targeted for H2 2026, an important catalyst is approaching.
+--------------------------------------------------
+[4] @duediligenceguy
+    UTC: 2026-07-11T13:14:01.000Z
+    Beijing: 2026-07-11 21:14
+    URL: https://x.com/duediligenceguy/status/2075931620427653250
+    Text: When it comes to mine supply of major minerals, surprises are almost always to the downside...
+--------------------------------------------------
+[5] @duediligenceguy
+    UTC: 2026-07-10T19:39:58.000Z
+    Beijing: 2026-07-11 03:39
+    URL: https://x.com/duediligenceguy/status/2075666358361030694
+    Text: I'm sure the guy didn't just scoop up some wet sand nearby. He probably spent a lot of time accumulating enough material for the demo. He may even have added gold powder to regular sand, just to show how it works.
+
+(He's not selling gold after all; it's about the gadget.)
+--------------------------------------------------
+[6] @duediligenceguy
+    UTC: 2026-07-10T19:36:50.000Z
+    Beijing: 2026-07-11 03:36
+    URL: https://x.com/duediligenceguy/status/2075665569425060270
+    Text: If only we could know for sure...
+;-{)}
+
+My base case is consolidation this year, maybe next, before another big move higher.
+
+But if gold breaks much lower, we could be headed for another multi-year bear market.
+--------------------------------------------------
+[7] @duediligenceguy
+    UTC: 2026-07-10T19:30:20.000Z
+    Beijing: 2026-07-11 03:30
+    URL: https://x.com/duediligenceguy/status/2075663933147340981
+    Text: The guy before me today was like a machine gun: non-stop, rapid-fire bullish arguments for gold.
+
+I agreed with them all.
+
+Doesn’t mean gold can’t go a lot lower first.
+
+I gave the audience a chance to run before saying this. None left.
+
+Details in this weekend’s free letter…
+--------------------------------------------------
+[8] @duediligenceguy
+    UTC: 2026-07-10T16:34:07.000Z
+    Beijing: 2026-07-11 00:34
+    URL: https://x.com/duediligenceguy/status/2075619589249994982
+    Text: Thanks!
+
+I said I wouldn't buy any of the mining stocks in the Exhibitors' Hall today.
+
+We'll see if Rick invites me back...
+;-{)}
+--------------------------------------------------
+[9] @wmiddelkoop
+    UTC: 2026-07-11T13:11:02.000Z
+    Beijing: 2026-07-11 21:11
+    URL: https://x.com/wmiddelkoop/status/2075930867512316280
+    Text: 20 minutes before landing in Vancouver we flew over Hudbay’s Copper Mountain mine in BC
+--------------------------------------------------
+[10] @IvanhoeMines_
+    UTC: 2026-07-10T17:56:32.000Z
+    Beijing: 2026-07-11 01:56
+    URL: https://x.com/IvanhoeMines_/status/2075640327713779985
+    Text: "Everything is either mined or farmed."
+Marna Cloete, President and CEO of 
+@IvanhoeMines_
+, on why we went to the DRC to build the tier-one Kamoa-Kakula Copper Complex ... and what it takes to do that responsibly. #WMC2026
+--------------------------------------------------
