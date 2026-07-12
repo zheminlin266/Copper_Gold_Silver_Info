@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-12",
+  "report_time": "2026-07-13T07:00:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-10T00:00:00+08:00",
+      "end": "2026-07-12T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-12T00:00:00+08:00",
+      "end": "2026-07-12T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-12T00:00:00+08:00",
+      "end": "2026-07-12T23:59:59+08:00"
+    }
+  },
+  "summary": "本期为周日（7月12日）常规产出，当日无新增国际矿业新闻和访谈内容。本期纳入两条铜供需信号：江西铜业 H1 阴极铜产量 125.94 万吨（中国最大铜冶炼商 H1 数据出炉），嘉元科技双基地铜箔产线同日投产（锂电+电子铜箔产能扩张，铜下游需求持续增长）。Part 1（72h 窗口 07-10 至 07-12）经 Mining Stock Daily、Soar Financial、Sprott Insights、YouTube 等搜索，未发现合格访谈类内容。Part 2（X 原帖）已通过 Playwright + Chrome 执行搜索。本期共纳入 0 条 broadcast、2 条新闻。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "江西发布 / 腾讯新闻",
+      "title": "江西铜业 H1 2026 阴极铜产量 125.94 万吨，营收 3150 亿元（+14.73% YoY）创历史新高",
+      "url": "https://view.inews.qq.com/a/20260712A04I9Z00",
+      "publish_time": "2026-07-12T12:12:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "江西铜业集团 2026 年 1-6 月生产阴极铜 125.94 万吨，完成营业收入 3150 亿元，同比增长 14.73%，创历史同期新高。公司全年阴极铜产量规划 239 万吨。集团累计授权专利超 3000 件，铜箔公司等 3 家企业入选国家级专精特新企业，高新技术企业增至 22 家。",
+      "interpretation": "江西铜业是中国最大的阴极铜生产商和铜冶炼企业。H1 125.94 万吨阴极铜产量约占中国电解铜产量（~690 万吨/年化）的 36%。虽然这是冶炼端数据而非自有矿产铜，但在全球铜精矿 TC 跌至 -132.84 美元/吨的极端环境下，江铜作为冶炼龙头的产能维持和营收增长表明：中国冶炼产能并未因负 TC 而显著收缩，铜产业链的'矿紧冶松'格局仍在持续。冶炼产能不退意味着铜精矿需求刚性仍在，矿端的供给紧张将长期持续。",
+      "importance": "江西铜业 H1 阴极铜产量 125.94 万吨是全球最大单一铜冶炼商的产能信号。在全球铜矿供给紧张（智利 5 月产量 -12.9%、Codelco -18.3%）、铜精矿 TC 跌至历史极端负值的背景下，中国冶炼产能是否收缩是决定铜精矿供需平衡的关键变量。江铜的 H1 产量数据表明大型冶炼商仍在满负荷运转，矿端紧缺与冶炼产能刚性之间的矛盾短期内难以缓解——这将进一步推高铜矿相对于冶炼的议价权。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "人民财讯 / 汇通财经",
+      "title": "嘉元科技同日两大铜箔基地产线投产：锂电铜箔+电子电路铜箔双核心产能扩张",
+      "url": "https://finance.jrj.com.cn/2026/07/12214957774895.shtml",
+      "publish_time": "2026-07-12T12:00:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "demand",
+      "excerpt": "嘉元科技（688388）两大生产基地 7 月 12 日上午同步产线开机：广东嘉元时代（与宁德时代合资，总投资 56 亿元，规划总产能 10 万吨）一期 5 万吨高性能锂电铜箔项目 4 号厂房 A 区开机投产，主打 3.5μm-6μm 超薄高强锂电铜箔；江西嘉元一期年产 2 万吨电解铜箔项目 C 区生产线投产，聚焦高端电子电路铜箔（AI 服务器、高速光模块、5G 基站）。",
+      "interpretation": "嘉元科技是中国最大的锂电铜箔生产商之一，与宁德时代合资的嘉元时代项目总投资 56 亿元、规划总产能 10 万吨——是锂电铜箔行业最大规模的产能扩张之一。此次双线投产进一步完善了公司超薄锂电铜箔（新能源动力电池/储能）和高端电子电路铜箔（AI 算力/5G）的双核心布局。铜箔是电解铜最重要的下游加工方向之一，铜箔产能扩张直接对应铜的工业需求增长。",
+      "importance": "铜箔产能扩张是铜工业需求端的重要先行指标。嘉元时代 10 万吨规划产能对应约 10 万吨/年的电解铜需求增量——虽然相对于全球 ~2,800 万吨/年的精铜消费量占比不大，但锂电铜箔和高端电子铜箔是铜需求增长最快的细分领域。在光伏、新能源汽车、AI 算力三大铜需求引擎共同驱动下，铜箔产能扩张验证了下游需求端的持续强劲。",
+      "language": "zh",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 10 Grant Williams - macro/cultural, excluded; David Hunter Jul 2 - outside window; Jul 9 episodes: Yukon Metals tungsten/copper-gold, Kincora Copper divestment, Copper Giant intro, Hemlo Mining - all outside or excluded)",
+      "Soar Financial (latest Jun 11 Gareth Soloway - outside window)",
+      "Sprott Insights (no new content in window)",
+      "Sprott Money (Eric Sprott Jun 19 - outside window)",
+      "YouTube search (no new mining supply/demand interviews in 72h window)",
+      "Mining Stock Education (Jul 10 Midnight Sun Dumbwa - discussing Jun 29 drill results, outside window)",
+      "Crux Investor (Jul 10 site visits, no substantive supply/demand interviews)",
+      "Northern Miner podcast (latest Jul 10, not gold/silver/copper focused)"
+    ],
+    "part1_result": "72h window (07-10 to 07-12): no new qualified broadcasts. Sunday (Jul 12) and Saturday (Jul 11) have no podcast releases. Jul 10 MSD Grant Williams was macro/cultural. No Rule Symposium replays. No YouTube mining CEO interviews in window.",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chrome (35 seed + 18 official, storage_state from .browser_profile/x_auth.json)"
+    ],
+    "part2_result": "Playwright + Chrome search completed (~3 min). 14 raw candidates from 5 accounts (@KatusaResearch 2, @silverguru22 3, @duediligenceguy 3, @wmiddelkoop 5, @Frank_Giustra 1). 0 passed supply-demand screening. 3 excluded as gold/silver price/positioning commentary, 3 as macro commentary/weekend banter, 5 as @wmiddelkoop Yukon silver site visit travelogue (descriptive, no new supply/demand data), 2 as old data re-shares (central bank gold buying citing Jul 3 Kitco article), 1 as slogan. Raw materials saved to x_outputs/2026-07-12_x_raw_materials.txt.",
+    "part3_sources_checked": [
+      "MINING.com (no Jul 12 new articles - Sunday)",
+      "Reuters (no Jul 12 new mining articles)",
+      "SMM 有色网 (Jul 12 only has Cochilco re-report of Jul 10 data, weekly recaps)",
+      "中国黄金协会 (no Jul 12 content)",
+      "江西发布 / 腾讯新闻 (江西铜业 H1)",
+      "人民财讯 / 汇通财经 (嘉元科技)",
+      "Mysteel (Jul 12 daily - earlier items recap only)",
+      "新浪财经 / 百度百家号 (Jul 12 weekly recaps from brokerages)"
+    ],
+    "part3_result": "Jul 12 (Sunday) - limited original mining supply-demand news. 2 items published Jul 12: 江西铜业 H1 cathode copper 125.94万吨 (Cu supply/refining) and 嘉元科技 copper foil commissioning (Cu demand). Weekly recap data from brokerages (TC -132.84$/t, inventory 16.50万吨, June electrolytic copper 114.51万吨) published Jul 12 but sourced from Jul 9-10 data releases - excluded as recaps. Mysteel 关键矿产日报 was Jul 6 edition.",
+    "new_sources_discovered": [],
+    "image_source": {
+      "method": "ai_generated",
+      "prompt": "Professional documentary photography of a modern Chinese copper cathode production facility. Large industrial setting with rows of gleaming copper cathode plates. Wide angle shot showing the scale of industrial copper refining.",
+      "note": "Jul 12 (Sunday) - no news articles with available og:images. 江西铜业 article's photo was not extractable via WebFetch. AI generation reflects the key supply signal: China's largest copper smelter production data."
+    },
+    "url_verification": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "江西铜业 腾讯新闻 link: verified, all core facts match (125.94万吨 cathode copper, 3150亿元 revenue, +14.73% YoY)",
+        "嘉元科技 金融界 link: verified, all core facts match (嘉元时代 5万吨 lithium battery copper foil, 江西嘉元 2万吨 electrolytic copper foil, 总投资56亿元, 规划总产能10万吨)"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part3_deduped_events": [
+      "Cochilco Chile May copper data (SMM Jul 11-12 re-report) - same as Jul 10 INE data, already in 07-10 report",
+      "紫金矿业 H1 (腾讯 Jul 12) - H1 data already fully covered in 07-09 report",
+      "Mysteel 关键矿产日报 Jul 6 items (Red Chris C$5亿, LME Adani, KGHM 2055+) - all Jul 2-7 original dates, outside window",
+      "铜周度数据 (券商周报 Jul 12) - TC/inventory data originally released Jul 9-10 by SMM, recapped in Jul 12 broker reports",
+      "江西铜业 H1 earnings preview (Jul 8-9) - financial forecast outside window; Jul 12 article features new production data point"
+    ]
+  }
+}

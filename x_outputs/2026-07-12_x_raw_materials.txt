@@ -1,0 +1,117 @@
+X raw materials before filtering
+Report day: 2026-07-12
+Collection date: 2026-07-13
+Method:
+- Used Playwright with storage_state from .browser_profile/x_auth.json (Chrome).
+- Seed pool from mining_people_broadcast_x_articles.csv handles.
+- Each handle searched with from:handle + gold/silver/copper/mining terms.
+- Final day attribution uses Asia/Shanghai time from exact time element datetime.
+
+2026-07-12 (Asia/Shanghai window)
+Raw candidates found before filtering:
+1. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2076332803868987815
+   UTC: 2026-07-12T15:48:11.000Z
+   Beijing: 2026-07-12 23:48:11
+   Text: Gold is down 16% from the peak, and ETF holders refuse to sell
+
+Corrections end when the sellers are exhausted, and this one couldn’t find any
+
+2. @KatusaResearch
+   URL: https://x.com/KatusaResearch/status/2076005986167570830
+   UTC: 2026-07-11T18:09:32.000Z
+   Beijing: 2026-07-12 02:09:32
+   Text: Copper miners are supposed to be leverage on copper. 
+
+Right now they’re trading at a discount to it. 
+
+3. @silverguru22
+   URL: https://x.com/silverguru22/status/2076324588217323640
+   UTC: 2026-07-12T15:15:32.000Z
+   Beijing: 2026-07-12 23:15:32
+   Text: Central banks boost gold reserves with net 41 tonnes purchased in May – World Gold Council 
+https://
+kitco.com/news/article/2
+026-07-03/central-banks-boost-gold-reserves-net-41-tonnes-purchased-may-world-gold
+… via 
+@KitcoNewsNOW
+
+4. @silverguru22
+   URL: https://x.com/silverguru22/status/2076092858399174864
+   UTC: 2026-07-11T23:54:44.000Z
+   Beijing: 2026-07-12 07:54:44
+   Text: (text unavailable)
+
+5. @silverguru22
+   URL: https://x.com/silverguru22/status/2076061222911545351
+   UTC: 2026-07-11T21:49:01.000Z
+   Beijing: 2026-07-12 05:49:01
+   Text: They are. Just NOT from the Comex. Only about ten percent of inventory is on the Comex. The other 90 percent is distributed by the refineries to the purchasing companies.
+
+Therefore the total above ground supply decreases but the Comex supply has increased.
+
+6. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2076335753341157517
+   UTC: 2026-07-12T15:59:54.000Z
+   Beijing: 2026-07-12 23:59:54
+   Text: History and weekend fun for gold bugs...
+
+(Video link in reply so X won't hide this post.)
+
+7. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2076046326643462449
+   UTC: 2026-07-11T20:49:50.000Z
+   Beijing: 2026-07-12 04:49:50
+   Text: I'm not clear on what you think I'm sure of...
+
+I didn't say gold will go lower.
+
+I just said that even the most solid fundamentals don't prevent crazy market fluctuations.
+
+8. @duediligenceguy
+   URL: https://x.com/duediligenceguy/status/2076024797557821869
+   UTC: 2026-07-11T19:24:17.000Z
+   Beijing: 2026-07-12 03:24:17
+   Text: Perhaps inevitable demand boost, but not imminent.
+
+These are experimental reactors for demo purposes…
+
+9. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2076325050777473100
+   UTC: 2026-07-12T15:17:23.000Z
+   Beijing: 2026-07-12 23:17:23
+   Text: Arrived together with the mining minister by helicopter
+
+10. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2076321327015760150
+   UTC: 2026-07-12T15:02:35.000Z
+   Beijing: 2026-07-12 23:02:35
+   Text: Geologists confirmed  Veins are known for their visible silver content and have been delivering around 300k ounces of silver in the 80’s
+
+11. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2076320328481960087
+   UTC: 2026-07-12T14:58:37.000Z
+   Beijing: 2026-07-12 22:58:37
+   Text: Yep, that’s Yukon mining minister Jen Gehmair (on the right)
+
+12. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2076319522395505026
+   UTC: 2026-07-12T14:55:24.000Z
+   Beijing: 2026-07-12 22:55:24
+   Text: The Plata project is known for incredible high-grade silver veins. After breaking a very heavy piece of rock it showed lots of hidden silver ..
+
+13. @wmiddelkoop
+   URL: https://x.com/wmiddelkoop/status/2076317751753199813
+   UTC: 2026-07-12T14:48:22.000Z
+   Beijing: 2026-07-12 22:48:22
+   Text: Discovered some silver, during the Honey Badger Silver site visit in the Yukon
+
+14. @Frank_Giustra
+   URL: https://x.com/Frank_Giustra/status/2076246674352050259
+   UTC: 2026-07-12T10:05:56.000Z
+   Beijing: 2026-07-12 18:05:56
+   Text: Got gold?
+
+
+Filtering takeaway for this day:
+- Found 14 candidates. Filter by supply/demand relevance.
