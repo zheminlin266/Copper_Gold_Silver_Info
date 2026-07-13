@@ -1,0 +1,12 @@
+.git
+.next
+.vercel
+node_modules
+
+# Local browser and research workspaces are not application source.
+.browser_profile
+.chrome-x-profile
+.playwright-mcp
+.workbuddy
+
+nul

@@ -9,3 +9,5 @@ node_modules/
 *.tsbuildinfo
 nul
 scripts/gen_json_07_08.py
+
+.vercel
