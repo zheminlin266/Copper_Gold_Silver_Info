@@ -4,5 +4,8 @@
 .browser_profile/
 .workbuddy/
 node_modules/
+.next/
+.vercel/
+*.tsbuildinfo
 nul
 scripts/gen_json_07_08.py

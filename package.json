@@ -1,5 +1,26 @@
 {
+  "name": "copper-gold-silver-info",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "validate:content": "node scripts/validate-content.mjs",
+    "test": "node --test tests/content.test.mjs"
+  },
   "dependencies": {
-    "ogl": "^1.0.11"
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.1.1",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "5.9.3"
+  },
+  "overrides": {
+    "postcss": "8.5.19"
   }
 }

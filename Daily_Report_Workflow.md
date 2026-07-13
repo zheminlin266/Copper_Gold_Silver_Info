@@ -480,13 +480,15 @@ JSON 结构定义见 `data/daily\_report\_schema.json`，核心字段：
 }
 ```
 
-JSON 文件是 HTML 日报的结构化镜像。AI 会话在生成 HTML 前，先构建 JSON，再从 JSON 生成 HTML。这样做的好处：
+JSON 文件是 Next.js 网站的唯一日报内容源。Workbuddy 只生成和校验 JSON；首页、日报页和归档页都由 Next.js 在构建时渲染。这样做的好处：
 
 * 跨日数据可查询（如"过去 30 天铜供给信号有哪些"）
 * 去重检查可直接读取 JSON 的 URL 字段
 * 周度简报可从 7 天 JSON 聚合生成
 
-## 7\. HTML 日报生成规范
+## 7\. 旧 HTML 日报生成规范（已废弃，不再执行）
+
+> 以下第 7 节仅保留为历史格式参考。新日报不得生成或修改 HTML，也不得更新 `Historical_Daily_Reports/`；只写入 `data/YYYY-MM-DD.json`，再由 Next.js 渲染。
 
 ### 7.1 基准模板
 
@@ -625,7 +627,9 @@ HTML 生成后必须通过以下检查（对齐第 11 节静态校验）：
 
 ---
 
-## 8. 首页更新规则
+## 8. 旧首页更新规则（已废弃，不再执行）
+
+> `index.html` 已由 Next.js `app/page.tsx` 取代。Workbuddy 不直接修改首页，首页会自动读取日期最新的合法日报 JSON；首页和日报页均不使用新闻配图。
 
 首页 `index.html` 是日报目录页，采用参考图式纵向新闻列表布局。
 
@@ -654,7 +658,9 @@ HTML 生成后必须通过以下检查（对齐第 11 节静态校验）：
 * 参考资料 Sources 板块
 * Featured Reports 字样
 
-## 9\. 图片处理
+## 9\. 图片处理（网站已停用配图）
+
+> 新网站不显示日报配图。以下图片采集规则仅在研究材料本身需要留档时参考，不属于网站发布必需步骤。
 
 每条日报使用一张本地新闻配图。**严禁复用旧图，每一期日报必须使用当日独有的图片。**
 
@@ -687,7 +693,7 @@ HTML 生成后必须通过以下检查（对齐第 11 节静态校验）：
 
 ## 10\. 链接内容校验
 
-在 HTML 日报和 JSON 数据文件写入磁盘后，**必须**对每条带 URL 的内容执行链接校验：逐条打开链接，确认页面正文与已采集的信息一致。
+在 JSON 数据文件写入磁盘后，**必须**对每条带 URL 的内容执行链接校验：逐条打开链接，确认页面正文与已采集的信息一致。
 
 ### 10.1 校验范围
 
@@ -696,10 +702,9 @@ HTML 生成后必须通过以下检查（对齐第 11 节静态校验）：
 * Part 1 broadcast 的 `url` 字段（播客页面 / YouTube / 会议回放）
 * Part 2 X 原帖的 `url` 字段（原推链接）
 * Part 3 新闻的 `url` 字段（新闻正文链接）
-* 首页 `index.html` 中各日报条目的 `href`
-* HTML 日报中所有 `<a href>` 的外部链接
+* JSON 日报中所有 Part 1/2/3 外部 URL
 
-不需要校验的：项目内部相对路径（如 `../../data/`、`../assets/`）、锚点链接（`#broadcast`）、已在前一日校验过的引用。
+不需要校验的：Next.js 内部路由、页面锚点、已在前一日校验过且内容未变化的引用。
 
 ### 10.2 校验标准
 
@@ -802,36 +807,27 @@ HTML 生成后必须通过以下检查（对齐第 11 节静态校验）：
 * `TODAY WEATHER`
 * `核心账号卡`
 
-## 12\. 搜索索引重建
+## 12\. 内容校验与归档搜索
 
-日报 HTML 和首页更新后，**必须**重建搜索索引，确保首页搜索框能匹配到所有日报内容：
+归档搜索在 Next.js 构建时直接从日报 JSON 生成，不再维护 `data/search-index.json`。发布前必须运行：
 
 ```bash
-python scripts/build_search_index.py --check
+npm run validate:content
+npm test
+npm run build
 ```
 
-`--check` 参数会在写入后运行完整性校验，确保：
-- 所有非备份日报 HTML 都在索引中
-- 无备份文件被意外索引
-- 已知关键词（如 Codelco、KatusaResearch）可被搜索到
-
-索引文件为 `data/search-index.json`，首页搜索框通过 `fetch("./data/search-index.json")` 加载。
+校验确保 JSON 语法、日期文件名、必填数组、金属标签、供需标签和来源 URL 均满足页面渲染要求。
 
 ## 13\. 发布流程
 
 校验通过后：
 
-1. 确认第 10 节链接内容校验已通过，无未修复的链接错误
-2. 重建搜索索引：`python scripts/build_search_index.py --check`
-3. 提交 Git commit（包含 HTML 日报、JSON 数据文件 和 search-index.json）
-4. 推送 `main`
-5. 检查公开页面是否返回 200
-
-公开首页：
-
-[https://zheminlin266.github.io/Copper\_Gold\_Silver\_Info/](https://zheminlin266.github.io/Copper_Gold_Silver_Info/)
-
-GitHub Pages 配置为从 `main` 分支根目录直接提供，无需额外 `gh-pages` 分支。若页面返回旧内容，检查 `main` 分支 raw 文件是否已更新；若 raw 文件正确，通常是 Pages CDN 延迟，等待数分钟后再用 cache-bust 参数验证。
+1. 确认第 10 节链接内容校验已通过，无未修复的链接错误。
+2. 运行 `npm run validate:content`、`npm test` 和 `npm run build`。
+3. 提交 Git commit；日报更新通常只包含新的 JSON 和必要的研究材料。
+4. 推送 `main`，由 Vercel Git 集成自动创建生产部署。
+5. 检查首页、最新 `/daily/YYYY-MM-DD` 和 `/archive` 均可访问。
 
 ## 14\. 周度趋势简报
 

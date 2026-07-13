@@ -242,21 +242,6 @@ main {
   padding: clamp(32px, 5vw, 56px) 0 clamp(24px, 4vw, 42px);
   border-bottom: 1px solid var(--line);
 }
-.light-rays {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: clamp(520px, 58vw, 780px);
-  z-index: 0;
-  pointer-events: none;
-  opacity: .36;
-}
-.light-rays canvas {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
 .hero > .wrap {
   position: relative;
   z-index: 1;
@@ -717,12 +702,6 @@ footer {
     transition: none;
     transform: none !important;
   }
-}
-
-ai-rag-chat {
-  --ai-rag-accent: var(--ink);
-  --ai-rag-focus: var(--accent);
-  --ai-rag-panel-bg: var(--bg);
 }
 
 /* ---------- Daily report page (template for *.html in Historical_Daily_Reports) ----------
