@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-02",
+  "report_time": "2026-07-02T07:00:00+08:00",
+  "summary": "本期没有发现可纳入的公开访谈或可稳定核验的 X 原帖。新闻层面，黄金在利率路径讨论中反弹，属于投资需求信号；Alcoa 收购 South32 铝业资产，则反映 South32 将资本继续集中到铜、锌、银和铅等组合。",
+  "migration_note": "由旧版 HTML 迁移。为保持旧 URL，date 保留旧版发布日；windows 保留原页面实际覆盖的前一自然日，且旧版 Part 1 当时使用单日窗口。",
+  "windows": {
+    "part1": {"start": "2026-07-01T00:00:00+08:00", "end": "2026-07-01T23:59:59+08:00"},
+    "part2": {"start": "2026-07-01T00:00:00+08:00", "end": "2026-07-01T23:59:59+08:00"},
+    "part3": {"start": "2026-07-01T00:00:00+08:00", "end": "2026-07-01T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Mining.com / Bloomberg",
+      "title": "Gold price rises as traders weigh Fed rate path after Warsh remarks",
+      "url": "https://www.mining.com/commodity/gold/",
+      "publish_time": "2026-07-01",
+      "metal_tags": ["gold"],
+      "supply_demand": "demand",
+      "excerpt": "旧版页面记录现货金价当日上涨约 2.5%，美债收益率和美元回落；交易员继续评估美联储利率路径及其对无息黄金资产的影响。",
+      "interpretation": "这是黄金投资需求与金融持仓环境的信号，不是矿山供给变化。利率和美元走弱通常降低持有黄金的机会成本。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Alcoa",
+      "title": "Alcoa to acquire South32 bauxite, alumina and aluminum assets for $4.1B",
+      "url": "https://news.alcoa.com/press-releases/press-release-details/2026/Alcoa-Announces-Strategic-Acquisition-of-South32s-Bauxite-Alumina-and-Aluminum-Assets-for-4-1-billion/default.aspx",
+      "publish_time": "2026-07-01",
+      "metal_tags": ["copper", "silver"],
+      "supply_demand": "supply",
+      "excerpt": "Alcoa 公告以 41 亿美元初始对价收购 South32 的铝土矿、氧化铝和铝资产。旧版页面将该交易视为 South32 退出大部分铝业务的组合调整。",
+      "interpretation": "对金银铜而言，关键不是铝资产本身，而是 South32 将资本配置进一步集中到铜、锌、银和铅等业务，可能改变其中期项目优先级。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": ["Mining Stock Daily", "Resource Talks", "Soar Financial", "Sprott Insights", "YouTube search"],
+    "part1_result": "旧版单日窗口内没有纳入公开访谈。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": ["X seed accounts via the available legacy channel"],
+    "part2_result": "没有可稳定验证的金银铜供需原帖。",
+    "part3_sources_checked": ["Mining.com", "Bloomberg syndication", "Alcoa"],
+    "part3_result": "纳入 2 条信号；迁移时用 Alcoa 官方公告替换了旧页中指向错误文章的链接。",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {"part1_deduped_urls": [], "part3_deduped_events": []}
+}

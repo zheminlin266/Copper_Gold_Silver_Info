@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-05",
+  "report_time": "2026-07-05T07:00:00+08:00",
+  "summary": "本期没有纳入访谈或 X 原帖。供给端有两条线索：Adani 获准推进澳大利亚铜冶炼项目，Zimbabwe 则计划通过新的国有机构加强黄金生产与销售管理。",
+  "migration_note": "由旧版 HTML 迁移。为保持旧 URL，date 保留旧版发布日；windows 保留原页面实际覆盖的前一自然日，且旧版 Part 1 当时使用单日窗口。",
+  "windows": {
+    "part1": {"start": "2026-07-04T00:00:00+08:00", "end": "2026-07-04T23:59:59+08:00"},
+    "part2": {"start": "2026-07-04T00:00:00+08:00", "end": "2026-07-04T23:59:59+08:00"},
+    "part3": {"start": "2026-07-04T00:00:00+08:00", "end": "2026-07-04T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Mining.com",
+      "title": "Adani gets green light for Australian copper smelter",
+      "url": "https://www.mining.com/web/adani-gets-green-light-for-australian-copper-smelter/",
+      "publish_time": "2026-07-04T00:33:00+08:00",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "Adani 获得推进 Australia 铜冶炼项目的关键批准，项目将增加当地铜精矿处理和精炼能力。",
+      "interpretation": "新增冶炼能力增加铜精矿需求，但不等同于矿山铜供给增加；在加工费承压时，开工时间和原料保障尤其关键。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining.com",
+      "title": "Zimbabwe creates state entity to control gold production and sales",
+      "url": "https://www.mining.com/web/zimbabwe-creates-state-entity-to-control-gold-production-and-sales/",
+      "publish_time": "2026-07-04T02:49:00+08:00",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Zimbabwe 设立新的国有机构，以加强对国内黄金生产、收购和销售的管理。",
+      "interpretation": "制度变化可能提高官方渠道回收量和统计透明度，也可能改变矿商的销售激励、付款条件与出口路径，实际影响取决于执行细则。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": ["Mining Stock Daily", "Resource Talks", "Soar Financial", "Sprott Insights", "YouTube search"],
+    "part1_result": "旧版单日窗口内没有纳入公开访谈。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": ["X seed accounts through the legacy browser session"],
+    "part2_result": "执行过浏览器检索，但没有可验证并满足供需筛选标准的原帖。",
+    "part3_sources_checked": ["Mining.com", "Reuters"],
+    "part3_result": "纳入 2 条供给信号；Reuters 通道当时返回 401，未把无法核验的结果写入正文。",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {"part1_deduped_urls": [], "part3_deduped_events": []}
+}

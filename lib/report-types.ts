@@ -54,12 +54,20 @@ export interface SearchLog {
   part3_sources_checked?: string[];
   part3_result?: string;
   new_sources_discovered?: string[];
+  url_verification?: {
+    checked?: number;
+    passed?: number;
+    failed?: number;
+    failures?: string[];
+    notes?: string[];
+  };
 }
 
 export interface DailyReport {
   date: string;
   report_time: string;
-  summary?: string;
+  summary: string;
+  migration_note?: string;
   windows: {
     part1: { start: string; end: string };
     part2: { start: string; end: string };

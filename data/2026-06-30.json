@@ -1,0 +1,40 @@
+{
+  "date": "2026-06-30",
+  "report_time": "2026-06-30T07:00:00+08:00",
+  "summary": "本期没有发现种子名单人物的新公开访谈，X 原帖也无法通过当时的通道稳定核验。可核验新闻中，Bunker Hill 的 Idaho 重启进入投料阶段，是白银与铅锌供给恢复线索。",
+  "migration_note": "由旧版 HTML 迁移。为保持旧 URL，date 保留旧版发布日；windows 保留原页面实际覆盖的前一自然日，且旧版 Part 1 当时使用单日窗口。",
+  "windows": {
+    "part1": {"start": "2026-06-29T00:00:00+08:00", "end": "2026-06-29T23:59:59+08:00"},
+    "part2": {"start": "2026-06-29T00:00:00+08:00", "end": "2026-06-29T23:59:59+08:00"},
+    "part3": {"start": "2026-06-29T00:00:00+08:00", "end": "2026-06-29T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Mining.com",
+      "title": "Bunker Hill rebuild ships first Idaho ore, eyes silver",
+      "url": "https://www.mining.com/bunker-hill-rebuild-ships-first-idaho-ore-eyes-silver/",
+      "publish_time": "2026-06-29",
+      "metal_tags": ["silver"],
+      "supply_demand": "supply",
+      "excerpt": "Bunker Hill 的 Idaho mill 开始处理矿石，现场有超过 20,000 tons ore stockpiled at the crusher，计划向 1,800 tons/day mill design level 爬坡，并在次年达到 full production。",
+      "interpretation": "这是白银副产与铅锌矿山重启的实物供给线索。需要继续跟踪投料、精矿出货、Trail smelter offtake，以及 Cate-8 银矿化带能否把老矿重启转化为现金流和银供给增量。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": ["Mining Stock Daily", "Resource Talks", "Soar Financial", "Sprott Insights", "YouTube search"],
+    "part1_result": "旧版单日窗口内未发现满足日期、供需相关性和可核验 transcript/caption 条件的新访谈。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": ["X seed accounts via the available legacy channel"],
+    "part2_result": "当时的 X 读取通道不能稳定核验原帖，因此未纳入无法验证的文本。",
+    "part3_sources_checked": ["Mining.com", "Reuters syndication via Mining.com"],
+    "part3_result": "纳入 1 条白银供给新闻；没有用纯价格、泛宏观或窗口外内容补量。",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {"part1_deduped_urls": [], "part3_deduped_events": []}
+}

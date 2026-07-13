@@ -1,9 +1,9 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Daily Mining Report",
-  "description": "Structured data mirror of the daily HTML report for gold, silver, copper supply-demand tracking",
+  "description": "Authoritative content source for the Next.js gold, silver and copper supply-demand site",
   "type": "object",
-  "required": ["date", "report_time", "windows", "part1_broadcasts", "part2_x_posts", "part3_news", "search_log", "dedup_log"],
+  "required": ["date", "report_time", "summary", "windows", "part1_broadcasts", "part2_x_posts", "part3_news", "search_log", "dedup_log"],
   "properties": {
     "date": {
       "type": "string",
@@ -12,8 +12,16 @@
     },
     "report_time": {
       "type": "string",
-      "description": "ISO 8601 datetime when the report was generated (07:00 Beijing time next day)",
+      "description": "Actual ISO 8601 datetime when the report was completed; the daily task normally starts at 07:00 Beijing time",
       "example": "2026-07-06T07:00:00+08:00"
+    },
+    "summary": {
+      "type": "string",
+      "description": "Concise Chinese overview of the report's qualified signals and material empty results"
+    },
+    "migration_note": {
+      "type": "string",
+      "description": "Optional provenance note used only for migrated historical reports"
     },
     "windows": {
       "type": "object",
@@ -93,7 +101,14 @@
         "properties": {
           "author": {"type": "string"},
           "handle": {"type": "string"},
-          "publish_time": {"type": "string", "format": "date-time"},
+          "publish_time": {
+            "type": "string",
+            "description": "ISO 8601 date-time, or YYYY-MM-DD when the source does not disclose a reliable time",
+            "oneOf": [
+              {"format": "date"},
+              {"format": "date-time"}
+            ]
+          },
           "metal_tags": {
             "type": "array",
             "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
@@ -151,6 +166,8 @@
       "required": ["part1_searched", "part2_searched", "part3_sources_checked"],
       "properties": {
         "part1_searched": {"type": "boolean"},
+        "part1_sources_checked": {"type": "array", "items": {"type": "string"}},
+        "part1_result": {"type": "string"},
         "part2_searched": {"type": "boolean"},
         "part2_channel": {
           "type": "string",
@@ -159,6 +176,13 @@
         "part3_sources_checked": {
           "type": "array",
           "items": {"type": "string"}
+        },
+        "part2_sources_checked": {"type": "array", "items": {"type": "string"}},
+        "part2_result": {"type": "string"},
+        "part3_result": {"type": "string"},
+        "url_verification": {
+          "type": "object",
+          "description": "Optional audit summary of direct-source URL and fact checks"
         },
         "new_sources_discovered": {
           "type": "array",

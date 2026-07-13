@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-03",
+  "report_time": "2026-07-03T07:00:00+08:00",
+  "summary": "本期没有纳入访谈或 X 原帖。供给端有三条重要线索：BHP 申请重启 Cerro Colorado，Hudbay 获批提高 Constancia 处理量，Agnico Eagle 的 Barnat 露天坑发生边坡位移并暂停相关作业。",
+  "migration_note": "由旧版 HTML 迁移。为保持旧 URL，date 保留旧版发布日；windows 保留原页面实际覆盖的前一自然日，且旧版 Part 1 当时使用单日窗口。",
+  "windows": {
+    "part1": {"start": "2026-07-02T00:00:00+08:00", "end": "2026-07-02T23:59:59+08:00"},
+    "part2": {"start": "2026-07-02T00:00:00+08:00", "end": "2026-07-02T23:59:59+08:00"},
+    "part3": {"start": "2026-07-02T00:00:00+08:00", "end": "2026-07-02T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Dow Jones / MarketScreener",
+      "title": "BHP seeks permit for $1.5B Cerro Colorado restart",
+      "url": "https://hk.marketscreener.com/news/bhp-seeks-permit-for-1-5-billion-cerro-colorado-restart-ce7f5fd2df8bf025",
+      "publish_time": "2026-07-02",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "BHP 为智利 Cerro Colorado 铜矿重启寻求环境许可，拟议投资约 15 亿美元。该矿在 2023 年停产。",
+      "interpretation": "这是中期铜供给恢复选项。水资源方案、环境许可、资本开支和重启时间表决定其能否从储备项目转化为实际产量。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Hudbay Minerals",
+      "title": "Hudbay receives approval to increase Constancia mill throughput",
+      "url": "https://www.hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Receives-Regulatory-Approval-to-Further-Increase-Mill-Throughput-at-its-Constancia-Mine-in-Peru/default.aspx",
+      "publish_time": "2026-07-02",
+      "metal_tags": ["copper", "gold"],
+      "supply_demand": "supply",
+      "excerpt": "Hudbay 获得监管批准，可把 Peru Constancia 选厂的许可处理能力从每年 3,100 万吨提高到 3,400 万吨。",
+      "interpretation": "更高许可处理量为铜金产量和单位成本改善提供空间，但实际增量仍取决于矿石品位、设备利用率和年度采矿计划。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Agnico Eagle",
+      "title": "Agnico Eagle reports wall movement at Barnat open pit",
+      "url": "https://www.agnicoeagle.com/English/news-and-media/news-releases/news-details/2026/AGNICO-EAGLE-REPORTS-WALL-MOVEMENT-AT-BARNAT-OPEN-PIT-AT-CANADIAN-MALARTIC/default.aspx",
+      "publish_time": "2026-07-02",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Canadian Malartic 的 Barnat 露天坑北壁监测到岩体位移，相关区域作业暂停；公司评估安全处置和生产影响。",
+      "interpretation": "边坡事件是近期黄金供给的下行风险。库存矿石可提供缓冲，但停产范围和复产节奏决定最终产量影响。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": ["Mining Stock Daily", "Resource Talks", "Soar Financial", "Sprott Insights", "YouTube search"],
+    "part1_result": "旧版单日流程发现名单外访谈，但当时按种子名单硬过滤而未纳入；新版 Workflow 已取消这种硬过滤。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": ["X seed accounts via the available legacy channel"],
+    "part2_result": "没有可稳定验证的金银铜供需原帖。",
+    "part3_sources_checked": ["Dow Jones / MarketScreener", "Hudbay Minerals", "Agnico Eagle"],
+    "part3_result": "纳入 3 条供给信号；迁移时把旧版归档页链接替换为可定位到事件的直接来源。",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {"part1_deduped_urls": [], "part3_deduped_events": []}
+}

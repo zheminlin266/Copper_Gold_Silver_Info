@@ -1,0 +1,64 @@
+{
+  "date": "2026-07-01",
+  "report_time": "2026-07-01T07:00:00+08:00",
+  "summary": "本期没有发现种子名单人物的新访谈，X 也没有可验证的供需原帖。新闻层面，Koryx 的 Namibia Haib 铜项目推进 PFS，Fortuna 的 Senegal Diamba Sud 可研强化西非黄金供给管线，金价季度回撤则反映投资需求压力。",
+  "migration_note": "由旧版 HTML 迁移。为保持旧 URL，date 保留旧版发布日；windows 保留原页面实际覆盖的前一自然日，且旧版 Part 1 当时使用单日窗口。",
+  "windows": {
+    "part1": {"start": "2026-06-30T00:00:00+08:00", "end": "2026-06-30T23:59:59+08:00"},
+    "part2": {"start": "2026-06-30T00:00:00+08:00", "end": "2026-06-30T23:59:59+08:00"},
+    "part3": {"start": "2026-06-30T00:00:00+08:00", "end": "2026-06-30T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Mining.com",
+      "title": "Koryx Copper wins analyst support after Namibia assays",
+      "url": "https://www.mining.com/koryx-copper-wins-analyst-support-after-namibia-assays/",
+      "publish_time": "2026-06-30",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "Haib 项目 15 个 infill holes 合计 5,351m，HM138 从地表起 584m grading 0.3% copper，HM149 为 428m at 0.31% copper；目标是在年底 PFS 前把 inferred tonnes 升级为 indicated。",
+      "interpretation": "这是铜矿中长期供给管线新闻。重点在于 Haib 是否能成为超过 100,000 t/y copper-equivalent 的大型露天项目，以及 Namibia 基础设施、水源和许可时间表能否支撑资源转化。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining.com",
+      "title": "Fortuna lifts West Africa growth with $1B Senegal gold project",
+      "url": "https://www.mining.com/fortuna-lifts-west-africa-growth-with-1b-senegal-gold-project/",
+      "publish_time": "2026-06-30",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Diamba Sud feasibility study 给出 post-tax NPV $1B、9.4 年 mine life、20.5 Mt at 1.75 g/t probable reserves for 1.1 Moz gold，并指向 2028 年第二季度前 first gold。",
+      "interpretation": "该项目不是即期产量，而是 West Africa 黄金供给管线。可研完成、环境 decree、permit 与 early works 进度，将决定 Fortuna 中期产量增量能否落地。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining.com",
+      "title": "Gold price set for worst quarter in 13 years",
+      "url": "https://www.mining.com/gold-price-set-for-worst-quarter-in-13-years/",
+      "publish_time": "2026-06-30",
+      "metal_tags": ["gold"],
+      "supply_demand": "demand",
+      "excerpt": "旧版来源记录显示，现货金价在该季度内下跌约 15%，年内下跌 7.5%，市场把压力归因于战争后的通胀和高利率预期。",
+      "interpretation": "这是投资需求和金融持仓信号，不是矿山供给。它会影响黄金 ETF、实物购买、金矿股融资窗口和高成本项目的资本市场环境。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": ["Mining Stock Daily", "Resource Talks", "Soar Financial", "Sprott Insights", "YouTube search"],
+    "part1_result": "旧版单日窗口内未发现种子名单人物的新公开访谈；名单外公司访谈当时未纳入。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": ["X seed accounts via the available legacy channel"],
+    "part2_result": "没有可稳定验证的金银铜供需原帖。",
+    "part3_sources_checked": ["Mining.com", "Reuters syndication via Mining.com"],
+    "part3_result": "纳入 3 条信号：铜供给管线、黄金供给管线和黄金投资需求。",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {"part1_deduped_urls": [], "part3_deduped_events": []}
+}

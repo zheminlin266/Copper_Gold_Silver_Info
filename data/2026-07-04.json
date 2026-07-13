@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-04",
+  "report_time": "2026-07-04T07:00:00+08:00",
+  "summary": "本期没有纳入访谈或 X 原帖。新闻全部指向中长期矿山供给：KGHM 启动大型投资计划、加拿大支持 Red Chris 扩建、BHP 以项目权益换取 Faraday 股权，以及 Antofagasta 推进 Encierro 与 Volcanes 勘探许可。",
+  "migration_note": "由旧版 HTML 迁移。为保持旧 URL，date 保留旧版发布日；windows 保留原页面实际覆盖的前一自然日，且旧版 Part 1 当时使用单日窗口。",
+  "windows": {
+    "part1": {"start": "2026-07-03T00:00:00+08:00", "end": "2026-07-03T23:59:59+08:00"},
+    "part2": {"start": "2026-07-03T00:00:00+08:00", "end": "2026-07-03T23:59:59+08:00"},
+    "part3": {"start": "2026-07-03T00:00:00+08:00", "end": "2026-07-03T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Mining.com",
+      "title": "KGHM launches $8.55B investment plan",
+      "url": "https://www.mining.com/web/kghm-launches-8-55-billion-investment-plan/",
+      "publish_time": "2026-07-03",
+      "metal_tags": ["copper", "silver"],
+      "supply_demand": "supply",
+      "excerpt": "KGHM 公布约 85.5 亿美元投资计划，覆盖 Poland 铜银业务的矿山开发、深部开采和基础设施。",
+      "interpretation": "大额资本开支有助于维持和延长欧洲重要铜银资产的供给，但执行节奏、成本通胀和深部开采难度是主要约束。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining.com",
+      "title": "Canada commits C$500M to Red Chris mine expansion",
+      "url": "https://www.mining.com/canadian-govt-commits-352m-to-red-chris-mine-expansion-in-british-columbia/",
+      "publish_time": "2026-07-03",
+      "metal_tags": ["copper", "gold"],
+      "supply_demand": "supply",
+      "excerpt": "加拿大政府承诺为 British Columbia 的 Red Chris 铜金矿扩建提供 5 亿加元支持，重点是地下 block cave 开发。",
+      "interpretation": "公共融资降低大型地下扩建的资金约束，支持北美铜金中长期供给；最终增量仍取决于建设、爬坡和成本控制。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining.com",
+      "title": "BHP to transfer Arizona property to Faraday Copper for 30% stake",
+      "url": "https://www.mining.com/web/bhp-to-transfer-arizona-property-to-faraday-copper-for-30-stake/",
+      "publish_time": "2026-07-03",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "BHP 同意向 Faraday Copper 转让 Arizona 矿权，换取约 30% 股权，使相关资产与 Copper Creek 项目整合。",
+      "interpretation": "交易整合项目边界并引入大型矿企背书，可能改善勘探和融资条件，但仍属于早期铜供给管线。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining.com",
+      "title": "Antofagasta to seek approval for Encierro and Volcanes exploration",
+      "url": "https://www.mining.com/web/antofagasta-to-seek-environmental-approval-for-encierro-volcanes-exploration-in-fourth-quarter/",
+      "publish_time": "2026-07-03",
+      "metal_tags": ["copper", "gold"],
+      "supply_demand": "supply",
+      "excerpt": "Antofagasta 计划在第四季度为 Chile 的 Encierro 与 Volcanes 铜金勘探项目提交环境审批申请。",
+      "interpretation": "这是长期资源接续信号，距离建设和投产仍远；审批、资源量和后续经济性研究是关键里程碑。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": ["Mining Stock Daily", "Resource Talks", "Soar Financial", "Sprott Insights", "YouTube search"],
+    "part1_result": "旧版单日窗口内没有纳入公开访谈。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": ["X seed accounts via the available legacy channel"],
+    "part2_result": "没有可稳定验证的金银铜供需原帖。",
+    "part3_sources_checked": ["Mining.com", "company and government releases syndicated by Mining.com"],
+    "part3_result": "纳入 4 条中长期矿山供给信号。",
+    "new_sources_discovered": []
+  },
+  "dedup_log": {"part1_deduped_urls": [], "part3_deduped_events": []}
+}
