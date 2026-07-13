@@ -3,7 +3,21 @@ import fs from "node:fs";
 import path from "node:path";
 import test from "node:test";
 
+import { getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
 import { loadReports } from "../scripts/validate-content.mjs";
+
+test("archive pagination shows 20 newest items before older pages", () => {
+  const reports = Array.from({ length: 45 }, (_, index) => `report-${index + 1}`);
+  const first = getArchivePage(reports, 1);
+  const second = getArchivePage(reports, 2);
+  const last = getArchivePage(reports, 3);
+
+  assert.equal(REPORTS_PER_PAGE, 20);
+  assert.deepEqual(first.items, reports.slice(0, 20));
+  assert.deepEqual(second.items, reports.slice(20, 40));
+  assert.deepEqual(last.items, reports.slice(40, 45));
+  assert.equal(last.pageCount, 3);
+});
 
 test("all daily reports are valid and uniquely dated", () => {
   const reports = loadReports();

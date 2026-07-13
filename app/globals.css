@@ -696,6 +696,68 @@ select {
   margin-top: 10px;
 }
 
+.archive-pagination {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 16px;
+  margin-top: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line-strong);
+}
+
+.archive-pagination button {
+  display: grid;
+  justify-items: start;
+  min-height: 54px;
+  padding: 7px 12px;
+  border: 1px solid var(--line-strong);
+  border-radius: 7px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  transition: border-color 150ms ease, transform 150ms ease;
+}
+
+.archive-pagination button:last-child {
+  justify-items: end;
+  text-align: right;
+}
+
+.archive-pagination button:hover:not(:disabled),
+.archive-pagination button:focus-visible:not(:disabled) {
+  border-color: var(--text-muted);
+  transform: translateY(-2px);
+}
+
+.archive-pagination button:disabled {
+  border-color: var(--line);
+  color: var(--text-muted);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.archive-pagination button span,
+.archive-pagination p {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.archive-pagination p {
+  min-width: 92px;
+  text-align: center;
+}
+
+.archive-pagination p strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .empty-page {
   min-height: 50vh;
   display: grid;
@@ -772,6 +834,16 @@ select {
 
   .archive-controls {
     grid-template-columns: 1fr;
+  }
+
+  .archive-pagination {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .archive-pagination p {
+    grid-column: 1 / -1;
+    grid-row: 1;
   }
 
   .page-footer {
