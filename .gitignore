@@ -3,9 +3,12 @@
 .chrome-x-profile/
 .browser_profile/
 .workbuddy/
+.playwright-mcp/
 node_modules/
 .next/
 .vercel/
+__pycache__/
+*.py[cod]
 *.tsbuildinfo
 nul
 scripts/gen_json_07_08.py
