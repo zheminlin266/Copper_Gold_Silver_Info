@@ -1,0 +1,151 @@
+{
+  "date": "2026-07-13",
+  "report_time": "2026-07-14T06:58:30+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-11T00:00:00+08:00",
+      "end": "2026-07-13T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-13T00:00:00+08:00",
+      "end": "2026-07-13T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-13T00:00:00+08:00",
+      "end": "2026-07-13T23:59:59+08:00"
+    }
+  },
+  "summary": "本期为周一（7月13日）常规产出，铜供给端出现两个重量级信号：Codelco新任董事长Bernardo Fontaine明确「利润优先于产量」战略转向——全球最大铜矿企在250亿美元债务和28年最低产量下可能放慢扩产步伐；刚果（金）批准Lobito走廊铁路修复PPP，打通铜钴矿带至大西洋港口物流命脉。此外Amerigo Resources Q2产铜1690万磅（成本$1.70/lb低于指引）、Cerrado Gold Q2产金15,415 GEO（+11% YoY）、Serabi Gold维持年产3万盎司指引。Part 1（72h窗口07-11至07-13）经Mining Stock Daily、Crux Investor、Soar Financial、Sprott Insights等检索，Crux Investor 7月13日Marimaca Copper和Cabral Gold访谈仍未发布；MSD 7月13日为晨间简报（新闻综述非访谈）。Part 2（X原帖）因Playwright未安装于当前Python环境，channel标记为failed。本期共纳入0条broadcast、0条X帖、5条新闻。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.com",
+      "title": "Codelco chair puts profit ahead of copper output — strategic reset as debt, weak production and governance issues weigh on world's largest copper miner",
+      "url": "https://www.mining.com/codelco-chair-puts-profit-ahead-of-copper-output",
+      "publish_time": "2026-07-13",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "智利国有铜业巨头Codelco新任董事长Bernardo Fontaine（5月底上任）接受El Mercurio采访时明确表示，公司将优先考虑盈利能力而非产量增长，正通过外部审计重新评估战略。Codelco背负约250亿美元债务，产量降至28年最低水平。Fontaine称：'我们的业绩一直疲弱，过去七年产量均低于预期。'新任CEO Jorge Gomez于7月14日正式上任。",
+      "interpretation": "这是Codelco自2025年产量造假丑闻、El Teniente坍塌事故（6人死亡）和管理层动荡以来最明确的战略转向信号。Fontaine曾是Codelco治理的批评者，其'利润优先'表态意味着公司可能推迟或缩减扩产投资、评估资产出售、扩大合资模式。Codelco 2026年Q1产量同比-8%，5月产量-18.3% YoY，在智利全国铜产量连续双位数下滑的背景下，Codelco的战略收缩将进一步收紧全球铜精矿供给。在铜精矿现货TC已跌至-134美元/干吨的极端环境下，全球最大铜矿企的供给收缩是最强的供给侧结构性信号。",
+      "importance": "Codelco年产铜约130-140万吨（全球矿产铜~6%），其战略从'产量恢复'转向'利润优先'是全球铜供给预期的重大负面修正。Fontaine明确表示过去七年产量均低于预期且将持续审计评估，这意味着市场此前预期的Codelco产量恢复路径（2026年指引133-136万吨）面临进一步下调风险。在AI/电气化/能源转型推动铜需求结构性增长的背景下，Codelco供给侧的边际恶化将加剧全球铜精矿供需缺口，推高铜价中枢并加速冶炼产能出清。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mining Weekly / MINING.com",
+      "title": "Congo taps Portugal's Mota-Engil to revive copper rail link — Lobito Corridor rehabilitation to unlock DRC Copperbelt export capacity",
+      "url": "https://www.miningweekly.com/article/congo-taps-portugals-mota-engil-to-revive-copper-rail-link-2026-07-13",
+      "publish_time": "2026-07-13",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "刚果（金）政府7月10日内阁会议批准与葡萄牙建筑公司Mota-Engil建立公私合作伙伴关系，对Lobito走廊刚果（金）段Dilolo-Sakania铁路进行全面修复。该铁路连接刚果（金）铜钴矿带（Kolwezi、Tenke、Lubumbashi）至安哥拉Lobito大西洋港口。美国DFC此前已签署意向书提供最高10亿美元融资，安哥拉段已于2026年7月完成7.53亿美元融资交割（DFC 5.53亿+DBSA 2亿）。预计可将矿产运输时间从25天缩短至5-8天，物流成本降低约30%。",
+      "interpretation": "Lobito走廊是非洲铜钴矿带最重要的出口物流通道之一。刚果（金）是全球第二大产铜国（2025年约300万吨），但其铜出口长期依赖公路运输至南非德班、坦桑尼亚达累斯萨拉姆等远距离港口（25天以上）。Lobito走廊全线修复后，刚果（金）铜矿可通过铁路直达大西洋港口（5-8天），大幅降低物流成本和时间。这对刚果（金）铜矿供给的边际改善意义重大：更低的运输成本提升矿山经济性、更快的出口速度减少在途库存、更强的物流可靠性降低供给中断风险。值得注意的是，项目由美国DFC主导融资，具有明确的地缘战略意图——减少对中国控制的中非铜钴物流链的依赖。",
+      "importance": "物流基础设施是刚果（金）铜矿供给的关键瓶颈。当前刚果（金）是全球铜供给增长最快的地区（CMOC、紫金矿业、艾芬豪等持续扩产），但物流能力不足已开始制约产量增长。Lobito走廊若全面运营（预计运力460万吨/年），将实质性提升刚果（金）铜矿出口能力，支撑该国从~300万吨向400万吨+的产量跨越。对于全球铜精矿供需平衡而言，刚果（金）物流改善是矿端供给增量的重要催化剂——但项目完全修复仍需数年（刚果（金）段预计2026 Q4动工），短期内不会改变矿紧格局。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Amerigo Resources / Newsfile",
+      "title": "Amerigo Reports Strong Q2-2026 Operational Results: 16.9M lbs Copper, H1 Cash Cost $1.70/lb Tracking Below Guidance",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/13/amerigo-reports-strong-q2-2026-operational-results",
+      "publish_time": "2026-07-13",
+      "metal_tags": ["copper"],
+      "supply_demand": "supply",
+      "excerpt": "Amerigo Resources（TSX: ARG）Q2 2026产铜1690万磅、钼40万磅，H1累计产铜3120万磅（完成年度指引6380万磅的49%）。Q2选厂可用率99.0%。H1正常化现金成本$1.70/lb，显著低于年度指引$1.98/lb。CEO Aurora Davidson：'上半年产量和成本均超指引，反映卓越运营执行力和强劲的钼副产品收益。'公司年初至今已向股东返还4170万美元。",
+      "interpretation": "Amerigo在智利Rancagua运营Minera Valle Central（MVC）尾矿再处理项目，从全球最大铜矿El Teniente的新鲜和老尾矿中回收铜和钼。$1.70/lb的现金成本在铜价~$6.20/lb的环境下代表极高的利润率。99%的选厂可用率反映了卓越的运营管理。3120万磅H1产量（约1.4万吨铜）虽规模不大（全球矿产铜~0.06%），但尾矿再处理模式因其极低的开采成本和环境优势，在铜价高企和矿端紧张的背景下具有独特价值。",
+      "importance": "Amerigo的尾矿再处理模式代表了铜供给中一个常被忽视但边际贡献稳定的组成部分。在Codelco的El Teniente矿老矿品位下降和产量下滑的背景下，MVC通过对El Teniente百年老尾矿的再处理在供给端提供了稳定的边际增量。$1.70/lb的成本优势意味着即使铜价大幅回调，该资产的盈利能力仍有充足安全边际。大型尾矿再处理项目在全球铜供给中的角色正在上升——在新建矿山面临越来越高的许可和资本成本壁垒的环境下。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Cerrado Gold / GlobeNewswire",
+      "title": "Cerrado Gold Reports Strong Q2 2026 Production: 15,415 GEO at Minera Don Nicolas, H1 28,257 GEO (+25% YoY)",
+      "url": "https://cerradogold.com/news-media/news-2026/cerrado-gold-reports-strong-q2-2026-production-results-at-it2026-07-13-030502",
+      "publish_time": "2026-07-13",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Cerrado Gold（TSXV: CERT）Q2 2026黄金当量产量15,415盎司（vs Q2 2025的13,835盎司，+11% YoY），H1累计28,257盎司（vs H1 2025的22,600盎司，+25% YoY）。堆浸产量9,981 GEO，CIL厂产量5,434 GEO。地下矿开发持续推进，高品位矿石量在下半年将进一步增加。2026年年产指引50,000-60,000 GEO维持不变。公司计划2027年Q1前完成新PEA以延长矿山寿命并提升产量。",
+      "interpretation": "Cerrado Gold在阿根廷Santa Cruz省运营Minera Don Nicolas金矿（堆浸+CIL），年产约5.5万盎司黄金。Q2产量+11% YoY反映堆浸场灌溉问题解决后回收率改善和银回收率提升（对GEO贡献增加）。地下矿开发是未来增长的关键——随着Paloma矿坑下部高品位矿体逐步揭露，H2 2026产量预计将高于H1。公司同时推进Falcon和Calandrias II区域收购后的资源整合，计划2027 Q1完成新PEA。",
+      "importance": "Cerrado Gold规模较小（~5.5万盎司/年），但其在阿根廷Santa Cruz省Deseado Massif矿集区的运营具有一定示范意义。阿根廷正成为南美重要的金矿增长区（Fortuna的Lindero、AngloGold的Cerro Vanguardia、Newmont的Cerro Negro均位于该区域）。Cerrado通过区域收购（Falcon、Calandrias II）整合分散的小型矿权，试图通过规模效应和协同开发延长矿山寿命——这是小型矿商在资产分散的矿区中提升竞争力的典型策略。新PEA若成功证明资源整合后的矿山寿命延长和产量提升，将对阿根廷中小型金矿开发具有行业示范意义。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Reuters / Serabi Gold",
+      "title": "Serabi Gold Q2 Production Update: YTD 15,480 oz, Annual Guidance 30,000 oz Maintained",
+      "url": "https://www.stockopedia.com/share-prices/serabi-gold-LON:SRB/news/brief-serabi-gold-says-annual-production-guidance-maintained-at-30-000-ounces-019e6cee-8284-7543-94b1-8fdd591c6f87",
+      "publish_time": "2026-07-13",
+      "metal_tags": ["gold"],
+      "supply_demand": "supply",
+      "excerpt": "Serabi Gold（LON: SRB）公告：年初至今黄金产量15,480盎司，维持全年30,000盎司产量指引。公司运营巴西Tapajos地区的Palito和Sao Chico地下金矿。",
+      "interpretation": "Serabi Gold是巴西Tapajos金矿区的小型高品位地下金矿商（年产~3万盎司），YTD 15,480盎司大致符合半年度计划。公司近年持续勘探Coringa和Palito深部，试图扩大资源基础。30,000盎司的规模对全球金矿供给影响极小，但Serabi是巴西Tapajos地区为数不多的在产正规矿商之一。",
+      "importance": "年产量仅3万盎司——对全球~3,600吨金矿供给影响基本可以忽略。纳入主要作为小型金矿商半年度产量追踪的数据点，反映巴西非正规采矿占主导的Tapajos地区正规生产的运营状况。2026年全年指引维持不变，表明矿山运营稳定，无重大中断。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 13 Morning Briefing: 'Chilean Copper Output Slowed in May' - news recap, not broadcast/interview; Jul 14 episodes outside window)",
+      "Crux Investor (Jul 13 Marimaca Copper and Cabral Gold interviews scheduled but NOT YET published, still in 'Upcoming' status)",
+      "Soar Financial (no new content in window)",
+      "Sprott Insights (latest Jul 10 Paul Wong gold/USD report - research note, not broadcast; Jul 8 Justin Tolman video - general market outlook)",
+      "YouTube search (no new mining supply/demand interviews in 72h window)",
+      "The Mining Insider (Jul 13 Japan copper smelter consolidation episode - recap of May 28 news, not new interview)",
+      "Mining Stock Education (Jul 13 press releases only, no interviews)"
+    ],
+    "part1_result": "72h window (07-11 to 07-13): no new qualified broadcasts. Crux Investor Jul 13 interviews (Marimaca Copper, Cabral Gold) still not published. MSD Jul 13 is morning briefing (news recap), not interview. MSD Jul 10 Grant Williams was macro/cultural. Monday (Jul 13) no new podcast episodes beyond news briefings.",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": [],
+    "part2_result": "Playwright not installed in current Python environment (ModuleNotFoundError: No module named 'playwright'). Browser profile (.browser_profile/x_auth.json) exists from prior sessions but cannot be used without Playwright. X search not executed this cycle.",
+    "part3_sources_checked": [
+      "MINING.com (Jul 13: Codelco strategic reset, Congo Lobito railway, Congo enforcement warning, China minerals investment firm)",
+      "Mining Weekly (Jul 13: Congo Lobito corridor Mota-Engil)",
+      "Reuters / Serabi Gold (Jul 13 production update)",
+      "Amerigo Resources / Newsfile (Jul 13 Q2 results)",
+      "Cerrado Gold / GlobeNewswire (Jul 13 Q2 results)",
+      "Natural Resource Stocks daily roundup (Jul 13)",
+      "SMM 有色网 (Jul 13: 铜早评、洋山铜溢价、周度库存，无新增供给信号)",
+      "新华财经 / LME (Jul 13 基本金属多数下跌)",
+      "新浪财经 (Jul 13: 华安期货铜市场日报 - 价格/库存分析，无新增供给信号)",
+      "铜陵有色 SSE filing (Jul 13 H1 业绩预告 - 无产量数据，纯盈利预增，排除)",
+      "中国黄金协会 (no Jul 13 content)",
+      "紫金矿业 / 山东黄金 / 江西铜业 (Jul 13 only price/share price articles, no supply/demand news)",
+      "国盛证券有色周报 (Jul 13 - 券商周报，重述已有数据)"
+    ],
+    "part3_result": "Jul 13 (Monday): 5 qualified news items. 2 major Cu supply signals (Codelco strategic reset + Congo Lobito railway), 1 mid-tier Cu supply (Amerigo Q2), 2 small-cap Au supply (Cerrado Gold Q2 + Serabi Gold). Multiple analyst/price commentary items excluded (SMM daily, 华安期货铜日报, 券商周报). BHP Chile asset sale from Jul 12 outside window. 铜陵有色 H1 盈喜 excluded (no production data). Orla Mining/Aura Minerals/First Majestic Q2 data original dates outside window - excluded as recaps.",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 5,
+      "passed": 5,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "MINING.com Codelco article: verified via web search, core facts match (Fontaine chairman, profit-over-output strategy, $25B debt, 28-year low production, Gomez new CEO Jul 14)",
+        "Mining Weekly Congo Lobito railway: verified via web search, core facts match (Mota-Engil PPP, DRC cabinet Jul 10 approval, DFC $1B LOI, Lobito Corridor connectivity)",
+        "Amerigo Resources Q2: verified via Newsfile, core facts match (16.9M lbs Cu Q2, $1.70/lb cost, 99% availability, 49% of annual guidance)",
+        "Cerrado Gold Q2: verified via GlobeNewswire/company website, core facts match (15,415 GEO Q2, 28,257 H1, +25% YoY, guidance maintained)",
+        "Serabi Gold: verified via Reuters/Stockopedia, core facts match (YTD 15,480 oz, 30,000 oz guidance maintained)"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part3_deduped_events": [
+      "Codelco Fontaine strategy shift (May 29 original announcement) - Jul 13 MINING.com article features new El Mercurio interview with specific quotes, treated as new reporting",
+      "Congo Lobito railway - Angola section $753M financing close was Jul 10 news; Jul 13 DRC cabinet approval for Mota-Engil PPP is separate new development",
+      "Orla Mining Q2 (Jul 9 original) - re-reported in Jul 13 roundups, excluded",
+      "Aura Minerals Q2 (Jul 10 original, already in 07-10 report) - re-reported in Jul 13 roundups, excluded",
+      "First Majestic Q2 (Jul 8 original) - re-reported in Jul 13 NaturalResourceStocks, excluded",
+      "West Red Lake Gold drill results (Jul 7 original) - re-reported in Jul 13 roundups, excluded",
+      "紫金矿业 H1 (Jul 9 original, in 07-09 report) - Jul 13 中国地质调查 re-analysis, excluded",
+      "铜陵有色 H1 盈喜 (Jul 13 disclosed) - no production/supply data, pure earnings on price, excluded",
+      "SMM/华安期货铜日报 (Jul 13) - price/technical analysis, no new supply/demand signal, excluded",
+      "国盛证券有色周报 (Jul 13) - brokerage weekly recap, all original events outside window, excluded",
+      "BHP Chile infrastructure asset sale (Jul 12 news) - outside Jul 13 window, excluded"
+    ]
+  }
+}
