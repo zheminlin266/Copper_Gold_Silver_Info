@@ -71,7 +71,7 @@
 
 ## 6. 内容筛选
 
-每条信号必须回答：发生了什么、影响哪种金属、影响供给还是需求、为什么值得关注。
+每条信号必须回答：发生了什么、影响哪种金属、影响供给还是需求、为什么值得关注。每条信号必须填写一个 `primary_metal`，用于决定正文中的唯一展示板块；它必须同时出现在 `metal_tags` 中。`metal_tags` 保留所有具有实质供需关联的金属，不要仅因正文提到某种金属或价格就添加标签。主金属按最重要的未来供需变化或催化剂确定，不按标题出现顺序确定。
 
 可以纳入的典型主题：
 
@@ -115,7 +115,7 @@
 
 - `date`、`report_time`、三个 `windows` 和中文 `summary`。
 - `part1_broadcasts`、`part2_x_posts`、`part3_news` 三个数组；没有结果时写 `[]`。
-- 每条信号都有金属标签、供需方向和直接来源 URL。
+- 每条信号都有唯一主金属、全部实质相关金属标签、供需方向和直接来源 URL。
 - 新闻包含 `source`、`title`、`publish_time`、`language`、`excerpt` 和 `interpretation`。
 - `search_log` 记录实际检查过的来源、各部分结果、新发现来源和 URL 核验结果。
 - `dedup_log` 记录去重情况。
@@ -125,6 +125,14 @@
 原始材料应保留且不得覆盖：X 候选继续写入按日期命名的 `x_outputs/REPORT_DATE_x_raw_materials.txt`；其他确有复核价值的原始材料使用带日期的新文件。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
 
 ## 10. 本地校验
+
+构建前清除当前 PowerShell 进程继承的 `NODE_OPTIONS`，避免 Workbuddy 环境参数传入 Next.js 的 Node.js Worker：
+
+```powershell
+Remove-Item Env:NODE_OPTIONS -ErrorAction SilentlyContinue
+```
+
+正常构建不得预先删除 `.next`，也不得在 `prebuild` 中强制清缓存。`.next` 由 Next.js 管理，保留它可复用增量构建缓存。
 
 依次运行：
 
@@ -142,6 +150,22 @@ npm run build
 - 800px 以下视口没有横向滚动，键盘焦点可见。
 
 任一检查失败，修复后从第一条命令重新运行。校验失败时不得提交或推送。
+
+只有在构建错误明确指向 `.next` 缓存损坏、陈旧构建产物，或者上一次构建在写入 `.next` 时被中断，才执行一次缓存恢复：
+
+1. 确认当前目录是仓库根目录，删除目标只能是该目录下的 `.next`。
+2. 使用下面的 PowerShell 目录守卫和精确路径执行清理：
+
+   ```powershell
+   $expectedRoot = 'D:\Projects\Copper_Gold_Silver_Info'
+   if ((Get-Location).Path -ne $expectedRoot) { throw "Refusing to clean outside $expectedRoot" }
+   Remove-Item -LiteralPath (Join-Path $expectedRoot '.next') -Recurse -Force
+   ```
+
+   Workbuddy 若触发 safe-delete，人工确认或安全例外只能精确授权 `D:\Projects\Copper_Gold_Silver_Info\.next`，不得授权项目根目录、`data`、`.git` 或通配路径。
+3. 再次清除当前进程的 `NODE_OPTIONS`。
+4. 从 `npm run validate:content` 开始完整重跑一次。
+5. 若重试仍失败，立即停止，不再重复清缓存；保留错误输出和工作区现场供诊断。
 
 ## 11. 提交与发布
 
@@ -162,6 +186,7 @@ npm run build
 - 来源冲突：优先一手、时间更近且口径更完整的来源，并在解释中说明口径差异。
 - 任务延迟或补跑：明确指定目标 `REPORT_DATE`，窗口仍按该日期计算，不能直接用当前日期覆盖。
 - 文件已存在或工作区有不明修改：停止写入，先确认修改来源，避免数据丢失。
+- 构建疑似缓存故障：按第 10 节精确清理 `.next` 并且只重试一次；不得用自定义分批删除脚本绕过 safe-delete。
 - 推送后构建失败：不要新增另一份日报掩盖问题；修复原提交并重新完成全部检查。
 
 ## 13. 历史例外

@@ -15,6 +15,7 @@ const SOURCE_TYPES = new Set([
   "keynote",
   "company_presentation",
 ]);
+const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -75,7 +76,7 @@ function validateUrl(value, field, filename) {
   }
 }
 
-function validateSignal(item, prefix, filename) {
+function validateSignal(item, prefix, filename, requirePrimaryMetal) {
   if (!isObject(item)) throw new Error(`${filename}: ${prefix} must be an object`);
   requireStringArray(item.metal_tags, `${prefix}.metal_tags`, filename);
   if (item.metal_tags.length === 0) {
@@ -87,14 +88,25 @@ function validateSignal(item, prefix, filename) {
   for (const metal of item.metal_tags) {
     if (!METALS.has(metal)) throw new Error(`${filename}: ${prefix} has invalid metal ${metal}`);
   }
+  if (requirePrimaryMetal && item.primary_metal === undefined) {
+    throw new Error(`${filename}: ${prefix}.primary_metal is required`);
+  }
+  if (item.primary_metal !== undefined) {
+    if (!METALS.has(item.primary_metal)) {
+      throw new Error(`${filename}: ${prefix}.primary_metal is invalid`);
+    }
+    if (!item.metal_tags.includes(item.primary_metal)) {
+      throw new Error(`${filename}: ${prefix}.primary_metal must also appear in metal_tags`);
+    }
+  }
   if (!DIRECTIONS.has(item.supply_demand)) {
     throw new Error(`${filename}: ${prefix} has invalid supply_demand`);
   }
   validateUrl(item.url, `${prefix}.url`, filename);
 }
 
-function validateBroadcast(item, prefix, filename) {
-  validateSignal(item, prefix, filename);
+function validateBroadcast(item, prefix, filename, requirePrimaryMetal) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal);
   requireString(item.title, `${prefix}.title`, filename);
   validateDate(item.publish_date, `${prefix}.publish_date`, filename);
   requireString(item.source_type, `${prefix}.source_type`, filename);
@@ -104,15 +116,15 @@ function validateBroadcast(item, prefix, filename) {
   requireString(item.summary, `${prefix}.summary`, filename);
 }
 
-function validateXPost(item, prefix, filename) {
-  validateSignal(item, prefix, filename);
+function validateXPost(item, prefix, filename, requirePrimaryMetal) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal);
   requireString(item.author, `${prefix}.author`, filename);
   requireString(item.handle, `${prefix}.handle`, filename);
   validateDateTime(item.publish_time, `${prefix}.publish_time`, filename);
 }
 
-function validateNews(item, prefix, filename) {
-  validateSignal(item, prefix, filename);
+function validateNews(item, prefix, filename, requirePrimaryMetal) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal);
   requireString(item.source, `${prefix}.source`, filename);
   requireString(item.title, `${prefix}.title`, filename);
   validateDateOrDateTime(item.publish_time, `${prefix}.publish_time`, filename);
@@ -138,6 +150,7 @@ export function validateReport(report, filename) {
   if (`${report.date}.json` !== filename) {
     throw new Error(`${filename}: date does not match filename`);
   }
+  const requirePrimaryMetal = report.date >= PRIMARY_METAL_REQUIRED_FROM;
 
   if (!isObject(report.windows)) throw new Error(`${filename}: windows must be an object`);
   for (const part of ["part1", "part2", "part3"]) {
@@ -145,11 +158,11 @@ export function validateReport(report, filename) {
   }
 
   requireArray(report.part1_broadcasts, "part1_broadcasts", filename);
-  report.part1_broadcasts.forEach((item, index) => validateBroadcast(item, `part1_broadcasts[${index}]`, filename));
+  report.part1_broadcasts.forEach((item, index) => validateBroadcast(item, `part1_broadcasts[${index}]`, filename, requirePrimaryMetal));
   requireArray(report.part2_x_posts, "part2_x_posts", filename);
-  report.part2_x_posts.forEach((item, index) => validateXPost(item, `part2_x_posts[${index}]`, filename));
+  report.part2_x_posts.forEach((item, index) => validateXPost(item, `part2_x_posts[${index}]`, filename, requirePrimaryMetal));
   requireArray(report.part3_news, "part3_news", filename);
-  report.part3_news.forEach((item, index) => validateNews(item, `part3_news[${index}]`, filename));
+  report.part3_news.forEach((item, index) => validateNews(item, `part3_news[${index}]`, filename, requirePrimaryMetal));
 
   if (!isObject(report.search_log)) throw new Error(`${filename}: search_log must be an object`);
   if (typeof report.search_log.part1_searched !== "boolean") {

@@ -7,6 +7,7 @@ export interface Broadcast {
   publish_date: string;
   source_type: string;
   metal_tags: Metal[];
+  primary_metal?: Metal;
   supply_demand: SupplyDemand;
   summary: string;
   detail?: string;
@@ -21,6 +22,7 @@ export interface XPost {
   handle: string;
   publish_time: string;
   metal_tags: Metal[];
+  primary_metal?: Metal;
   supply_demand: SupplyDemand;
   excerpt?: string;
   interpretation?: string;
@@ -35,6 +37,7 @@ export interface NewsItem {
   url: string;
   publish_time: string;
   metal_tags: Metal[];
+  primary_metal?: Metal;
   supply_demand: SupplyDemand;
   excerpt?: string;
   interpretation?: string;
@@ -90,6 +93,7 @@ export interface ReportSignal {
   source: string;
   publishedAt: string;
   metalTags: Metal[];
+  primaryMetal: Metal;
   direction: SupplyDemand;
   fact: string;
   interpretation: string;

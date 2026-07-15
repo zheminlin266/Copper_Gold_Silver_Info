@@ -81,6 +81,11 @@
             "type": "array",
             "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
           },
+          "primary_metal": {
+            "type": "string",
+            "enum": ["gold", "silver", "copper"],
+            "description": "Single display section for this signal; required for new reports and must also appear in metal_tags"
+          },
           "supply_demand": {
             "type": "string",
             "enum": ["supply", "demand", "both"]
@@ -113,6 +118,11 @@
             "type": "array",
             "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
           },
+          "primary_metal": {
+            "type": "string",
+            "enum": ["gold", "silver", "copper"],
+            "description": "Single display section for this signal; required for new reports and must also appear in metal_tags"
+          },
           "supply_demand": {
             "type": "string",
             "enum": ["supply", "demand", "both"]
@@ -142,6 +152,11 @@
           "metal_tags": {
             "type": "array",
             "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
+          },
+          "primary_metal": {
+            "type": "string",
+            "enum": ["gold", "silver", "copper"],
+            "description": "Single display section for this signal; required for new reports and must also appear in metal_tags"
           },
           "supply_demand": {
             "type": "string",

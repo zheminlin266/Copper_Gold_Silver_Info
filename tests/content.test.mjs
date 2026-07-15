@@ -69,7 +69,19 @@ test("every rendered signal has a reachable source shape", () => {
     ];
     for (const signal of signals) {
       assert.ok(signal.metal_tags.length > 0);
+      if (signal.primary_metal !== undefined) {
+        assert.ok(signal.metal_tags.includes(signal.primary_metal));
+      }
       assert.match(signal.url, /^https?:\/\//);
     }
   }
+});
+
+test("ACG is rendered once under copper while retaining its related metal tags", () => {
+  const report = loadReports().find((item) => item.date === "2026-07-14");
+  const acg = report?.part3_news.find((item) => item.source === "ACG Metals / RNS");
+
+  assert.ok(acg, "ACG Metals signal is missing");
+  assert.equal(acg.primary_metal, "copper");
+  assert.deepEqual(acg.metal_tags, ["gold", "silver", "copper"]);
 });

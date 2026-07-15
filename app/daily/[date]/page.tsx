@@ -78,7 +78,7 @@ export default async function DailyPage({ params }: DailyPageProps) {
           {signals.length ? (
             METALS.map((metal: Metal) => {
               const metalSignals = signals.filter(
-                (signal) => signal.metalTags.includes(metal),
+                (signal) => signal.primaryMetal === metal,
               );
               return (
                 <section className="metal-section" id={metal} key={metal}>
