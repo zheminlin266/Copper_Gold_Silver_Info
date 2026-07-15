@@ -10,6 +10,7 @@
 - 输出文件只能是 `data/REPORT_DATE.json`，其中 `date` 必须等于文件名。
 - `report_time` 写实际完成报告的北京时间 ISO 8601 时间，不伪造为 07:00。
 - JSON 是首页、日报、归档和搜索的唯一内容源。
+- 生产站点固定为 `https://metals.zhemin.ltd`。
 - 研究不完整、来源未核验或本地检查失败时不得推送。
 
 ## 2. 时间窗口
@@ -175,7 +176,8 @@ npm run build
 2. 推送到 `main`。
 3. GitHub Actions 运行校验、测试和构建；它不收集或生成内容。
 4. Vercel 监听 `main` 并自动部署。
-5. 部署完成后检查生产站首页、`/daily/REPORT_DATE` 和 `/archive`。
+5. 部署完成后检查 `https://metals.zhemin.ltd/`、`https://metals.zhemin.ltd/daily/REPORT_DATE` 和 `https://metals.zhemin.ltd/archive`。
+6. 检查站点导航中的库存和 TC 外部链接。TC 链接应打开上海有色网的铜精矿加工费页面 `https://www.metal.com/copper/201910240001`；该页面需要用户自行登录，只确认链接及登录提示正常，不代替用户登录，也不把受限数据作为日报发布成功的前置条件。
 
 07:00 是任务开始时间。只有生产页可访问、日期正确且来源链接正常，才算发布完成。
 
@@ -202,4 +204,5 @@ npm run build
 - [ ] 重复事件已排除并记录。
 - [ ] 网站内容只新增 `data/REPORT_DATE.json`；必要的原始材料和来源登记按日期追加，没有手改首页、HTML 或图片。
 - [ ] 内容校验、测试和生产构建全部通过。
-- [ ] 推送后 GitHub Actions、Vercel 和三个生产页面检查通过。
+- [ ] 推送后 GitHub Actions、Vercel 和 `https://metals.zhemin.ltd` 的三个生产页面检查通过。
+- [ ] 库存和 TC 导航链接可打开；TC 页面显示正常登录入口，未尝试代替用户登录。
