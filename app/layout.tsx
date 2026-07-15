@@ -22,9 +22,14 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="zh-CN" className={inter.variable}>
-      <body>
+      <body id="top">
         <SiteHeader />
         {children}
+        <footer className="site-footer">
+          <a className="back-to-top" href="#top">
+            返回顶部 <span aria-hidden="true">↑</span>
+          </a>
+        </footer>
       </body>
     </html>
   );
