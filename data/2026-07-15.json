@@ -1,0 +1,162 @@
+{
+  "date": "2026-07-15",
+  "report_time": "2026-07-16T07:05:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-13T00:00:00+08:00",
+      "end": "2026-07-15T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-15T00:00:00+08:00",
+      "end": "2026-07-15T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-15T00:00:00+08:00",
+      "end": "2026-07-15T23:59:59+08:00"
+    }
+  },
+  "summary": "铜供给端多重信号交织：Rio Tinto Q2铜产量降7%，Kennecott冶炼炉故障将影响下半年精炼产量；智利大气河流风暴威胁核心矿区；Freeport印尼确认Grasberg修复路径，2028年目标16亿磅铜。黄金方面金矿商季度运营数据向好，WRLG和Mako Mining均实现产量攀升。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Rio Tinto (Quarterly Production Report)",
+      "title": "Rio Tinto Q2 2026铜产量21.3万吨（同比-7%），Kennecott冶炼炉故障将影响下半年精炼产量；Oyu Tolgoi H1增长31%",
+      "url": "https://www.miningreporters.com/noticia/news/2026/07/rio-tinto-2026-guidance-copper-iron-ore-lithium-growth",
+      "publish_time": "2026-07-15",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Rio Tinto 2026年Q2合并铜产量21.3万吨，同比与环比均下降7%，低于Visible Alpha一致预期的21.47万吨。H1累计产量44.2万吨，同比+1%（Oyu Tolgoi增长31%部分抵消Kennecott和Escondida的下降）。矿端分解：Oyu Tolgoi（蒙古）H1产量增长31%，爬产按计划推进；Escondida（智利）Q2铜精矿产量-13%，因入选品位下降；Kennecott（美国犹他）闪速冶炼炉6月下旬发生炉壁破裂，预计修复需约75天，将影响下半年精炼铜产量。公司维持2026年铜产量指引80-87万吨，同时将C1净单位成本指引从$0.65-0.75/lb大幅下调至$0.30-0.50/lb（受益于高金价副产品收益和生产率改善）。CEO Simon Trott表示集团铜当量产量H1增长3%，Oyu Tolgoi爬产持续推进。",
+      "interpretation": "Rio Tinto Q2铜产量21.3万吨的同比-7%下滑反映了全球铜矿供给端面临的经典结构性挑战：老矿山品位下降（Escondida -13%）和运营中断（Kennecott冶炼炉故障）。Kennecott 75天的冶炼炉修复将直接影响2026年下半年精炼铜供给——这意味着更多铜精矿无法在本年度转化为精铜，在TC已跌至-135美元/干吨的背景下，将进一步收紧精炼铜市场。正面信号是Oyu Tolgoi的持续爬产（H1 +31%），该矿是Rio Tinto最重要的铜增长引擎，其地下矿产量增长正在逐步兑现。成本指引的大幅下调（$0.30-0.50/lb vs 此前$0.65-0.75/lb）主要反映金价副产品收益——这体现了大型铜金共生矿资产在高金价环境下的结构性成本优势。",
+      "importance": "Rio Tinto是全球第二大铜矿商（年产铜80-87万吨，仅次于Codelco/Freeport），其Q2产量下滑7%进一步验证了矿端供给紧张的持续性。Kennecott冶炼炉故障的75天修复期意味着全球精炼铜市场上半年将额外损失数万吨精铜产出，在下半年铜需求季节性回升的窗口期加剧供需错配。Escondida品位下降（-13%）是全球最大铜矿的结构性问题，反映了智利老矿山普遍面临的品位衰竭趋势——这与Codelco产量持续下滑的逻辑一致。Oyu Tolgoi的持续增长（H1 +31%）是积极的供给侧亮点，但其增量（约2-3万吨H1）尚不足以完全抵消Kennecott和Escondida的减量。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Reuters / SHMET / SMM",
+      "title": "智利\u201c大气河流\u201d冬季风暴威胁核心铜矿区：政府召集Codelco、Antofagasta、Teck紧急应对，Los Pelambres等矿山面临生产中断风险",
+      "url": "https://www.shmet.com/news/newsDetail-2-918973.html",
+      "publish_time": "2026-07-15",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月14日，智利经济和矿业部长Daniel Mas召集Codelco、Antofagasta Plc和Teck Resources等主要铜矿企业举行紧急会议，应对预计于7月15日下午开始影响智利中部的\u201c大气河流\u201d冬季风暴。Sernageomin已启动危机委员会监测山体滑坡和泥石流风险。受影响的矿区包括Los Pelambres（科金博地区，Antofagasta运营）、Carmen de Andacollo（科金博，Teck运营）和Minera Tres Valles。气象局已发布最高级别警报，核心影响期为7月17日凌晨至7月19日夜间，覆盖科金博、瓦尔帕莱索和首都大区。当局警告称风暴的\u201c持续时间长\u201d而非单次降雨是最大威胁。",
+      "interpretation": "智利占全球开采铜产量的近四分之一（2026年Cochilco预计全国产量530万吨）。此次风暴的核心影响区域（科金博、瓦尔帕莱索）并非智利最大铜产区（安托法加斯塔大区），但Los Pelambres（年产约35万吨铜）和Carmen de Andacollo是重要的中型矿场。风暴的实际影响取决于向北部矿区延伸的范围——如果降雨停留在南部和中部，则影响有限；如果向北延伸至安托法加斯塔大区（Escondida、Chuquicamata所在地），则可能对全球铜供给造成更严重的冲击。智利铜产量本身就处于偏弱周期（4月产量同比-13.8%至40万吨，5月同比+2.3%仅部分恢复），任何天气相关的额外中断都将加剧矿端供给紧张。",
+      "importance": "全球铜精矿市场正处于历史上最紧张的时期之一（现货TC -135美元/干吨），任何主要产区的供给中断都可能对市场产生放大效应。智利作为全球最大产铜国，其冬季暴雨风险是铜市场密切关注的结构性供给干扰因素。2015年阿塔卡马历史性洪水曾对智利铜矿生产造成显著影响。此次\u201c大气河流\u201d事件的特殊性在于其持续时间长（可能数日），即使单日降雨量不大，持续降雨引发的泥石流、道路损毁和港口作业中断也可能对矿产运输链造成严重干扰。市场反应将取决于风暴实际影响范围——若降雨局限在南中部则影响可控；若向北延伸至主要矿区，则可能触发短期铜价大幅波动。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "新华财经 / Reuters / MINING.com",
+      "title": "Freeport Indonesia确认Grasberg修复路径：2026年下半年产能恢复至65%，2027年底满产，2028年目标铜16亿磅、金140万盎司",
+      "url": "https://www.mining.com/freeport-says-grasberg-on-track-for-full-production-by-end-of-2027/",
+      "publish_time": "2026-07-15",
+      "metal_tags": ["copper", "gold"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "印尼自由港公司（PT Freeport Indonesia）总裁Tony Wenas于7月15日（周三）接受路透社采访时确认Grasberg矿区分阶段复产计划：当前产能恢复至50%，2026年下半年达65%，2027年中达80%，2027年底接近满负荷（100%），2028年全面达产。2026年产量指引：铜约8亿磅（约36万吨）、金70万盎司；2027年预计升至铜12亿磅、金100万盎司；2028年目标铜16亿磅（约72.5万吨）、金140万盎司。日均矿石开采量：2026年12.4万吨→2028年20.8万吨→2029年22.6万吨。Wenas确认GBC矿区因事故后矿石含水量增加，需要对溜槽（chute）进行改造并建设新的基础设施以防止事故重演。Freeport-McMoRan股价当日上涨3%。",
+      "interpretation": "Grasberg是全球最大的铜金矿之一（事故前年产铜约77万吨、金约140万盎司，约占全球铜矿供应的3%）。2025年9月Grasberg Block Cave（GBC）地下矿区的泥石流事故导致7名工人死亡，迫使Freeport暂停采矿并宣布不可抗力。此次7月15日更新是事故以来最详细的修复时间表确认。关键变化：全面满产时间从此前讨论的2027年底推迟至2028年初（因矿石含水量超预期需改造溜槽系统）。2026年仅约36万吨铜产量意味着Grasberg将比事故前水平（约77万吨/年）少产出约41万吨铜——这一减量相当于全球矿产铜的约1.8%，是2026年铜矿供给端最大的单一减量来源。",
+      "importance": "Grasberg是全球第二大铜矿，其复产进度是2026-2028年全球铜矿供给端最重要的变量之一。从7月15日的更新来看，复产路径虽然明确但速度慢于此前市场乐观预期——2026年8亿磅铜产出意味着该矿对全球铜精矿市场的供给贡献远低于潜在产能。在当前全球铜精矿TC已跌至-135美元/干吨的极端环境下，Grasberg的渐进式复产意味着矿端紧缺格局在2026年内不会得到显著缓解。正面来看，2027-2028年的产量增长路径（12亿→16亿磅铜）有望在中期为市场带来显著的供给增量，但这一增量需要等到2027年下半年才能开始兑现。Freeport-McMoRan股价上涨3%表明市场认可这一\u201c确定性提升的改善路径\u201d而非纠结于短期修复延迟。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "West Red Lake Gold Mines / GlobeNewswire",
+      "title": "West Red Lake Gold Q2运营进展：Madsen矿黄金产量8,576盎司（+51% QoQ），采掘量增长46%，采掘品位提升23%至4.3 g/t",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/15/west-red-lake-gold-reports-strong-q2-operating-progress-with-73-increase-in",
+      "publish_time": "2026-07-15",
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "West Red Lake Gold Mines（TSXV: WRLG）7月15日发布2026年Q2运营更新：Madsen矿（安大略省Red Lake矿区）Q2黄金产量8,576盎司，环比+51%（Q1: 5,667盎司）。采掘量75,524吨（+46% QoQ），采掘品位4.3 g/t Au（+23%，Q1: 3.5 g/t），采掘盎司10,459盎司（+73% QoQ）。选矿处理量平均842吨/日（+47% QoQ），Q2中后期采掘速率突破1,000吨/日，超过当前许可的800吨/日选矿产能。由此在季度末积累了10,768吨地表库存（约1,500盎司金）。黄金回收率维持95%。CEO Shane Williams表示下半年处理量有望提升至1,000吨/日，全年产量指引35,000-45,000盎司维持不变。YTD累计产量14,243盎司。",
+      "interpretation": "WRLG的Madsen矿是Red Lake矿区新复产的金矿项目，Q2运营数据表明矿山正在经历典型的爬产曲线上升阶段。采掘量+46%和采掘品位+23%的综合提升使采掘盎司增长73%，这反映了地下矿山从开拓阶段转向正常生产采场（新增多个回采工作面）的正向运营杠杆。采掘速率突破1,000吨/日并积累地表库存是一个积极信号——意味着矿山已具备超越当前选厂产能的采矿能力，为下半年提升至1,000吨/日选矿处理量提供了物料基础。95%的回收率稳定在高水平。YTD产量14,243盎司已完成全年指引（35-45k oz）的32-41%，考虑到下半年采掘和选矿双提速，全年指引实现概率较高。",
+      "importance": "WRLG规模较小（年产量指引35,000-45,000盎司，约占全球金矿产量的0.03%），对全球黄金供给影响微乎其微，但作为加拿大Red Lake矿区（历史产金超2,000万盎司）的新复产项目，其爬产成功具有一定区域示范意义。Red Lake矿区历史上以高品位著称（>20 g/t级别），Madsen矿4.3 g/t的平均采掘品位与之相比偏低，但随着更多高品位采场的逐步揭露，品位有望进一步改善。WRLG的成功复产也为该区域其他停产矿山（如Pure Gold的Madsen原矿区的整合开发）提供了运营模板。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Mako Mining Corp. / ACCESS Newswire",
+      "title": "Mako Mining Q2创纪录：黄金销量14,610盎司，营收约6,300万美元；San Albino镍矿品位7.88 g/t，现金及证券余额1.12亿美元",
+      "url": "https://www.sec.gov/Archives/edgar/data/1784930/000106299326003680/exhibit99-1.htm",
+      "publish_time": "2026-07-15",
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "Mako Mining（NASDAQ: MAKO; TSXV: MKO）7月15日发布Q2 2026生产结果：创纪录的黄金销量14,610盎司（San Albino矿10,612盎司 + Moss矿3,998盎司），营收约6,300万美元。San Albino矿（尼加拉瓜）：采掘量48,890吨，采掘平均品位7.88 g/t Au（含稀释脉矿10.93 g/t Au），选矿处理量53,120吨（599吨/日，97%运转率），金回收率80.7%。公司现金、黄金挂钩证券及应收账款合计1.12亿美元（环比增加1,500万美元）。CEO Akiba Leisman称公司已投入约4,000万美元用于购买黄金挂钩证券（利用金价低位增持）。Mako同时完成了Eureka矿权的最终法律登记和收购——该矿权紧邻San Albino西部，面积3,000公顷，扩大了公司矿权总面积至254平方公里。Moss矿（亚利桑那）：堆浸处理48.2万吨，品位0.32 g/t Au，回收率75%，黄金销量3,998盎司。",
+      "interpretation": "Mako Mining是近年来中美洲/北美表现最突出的中小型金矿商之一。Q2黄金销量14,610盎司创下公司历史最高纪录（Q1: 13,721盎司），连续两个季度创新高。San Albino矿的高品位（7.88 g/t采掘品位，脉矿品位高达10.93 g/t）是全球在产金矿中最高的品位区间之一，这赋予了该矿极强的成本竞争力和利润弹性。Moss矿（亚利桑那）虽然品位极低（0.32 g/t），但规模大、成本低（堆浸工艺），作为产量补充资产的边际贡献正在改善。1.12亿美元的现金和证券余额（约等于公司年收入的40-50%）和零负债提供了极强的财务灵活性。公司利用金价回调期间增持黄金挂钩证券（约4,000万美元）是一种积极的资本管理手段。Eureka矿权的收购进一步巩固了公司在San Albino区域的勘探和开发潜力。",
+      "importance": "Mako Mining年产量约55,000-60,000盎司黄金（约占全球金矿产量的0.05%），对全球供给影响有限，但作为高品位、低成本、高利润率金矿商的成功案例值得关注。San Albino矿的10.93 g/t脉矿品位在全球在产矿山中属于前5%的水平，这意味着即使在金价显著回调的环境下，该矿仍可保持极高的利润率。Moss矿的低品位堆浸模式虽然对总产量贡献有限，但其稳定的副产品银产量（17,013盎司/季）在当前银价环境下增加了收入多样性。1.12亿美元现金余额使Mako具备内部融资推进Mt. Hamilton（内华达）和Eagle Mountain（圭亚那）两个开发项目的能力，有望在未来3-5年内将年产量提升至8-10万盎司级别。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 15: Awale Resources CEO interview — gold exploration, 1.7M oz AuEq resource; Radisson Mining CEO — O'Brien project high-grade drill results; Morning Briefing — Tocvan Ventures phased pilot mine plan, drill results from Revival Gold/American Eagle Gold/Aztec Minerals/Bunker Hill; Jul 14: Cartier Resources CEO — Cadillac project development shift, Intrepid Metals CEO — Corral Copper porphyry target)",
+      "Crux Investor (Jul 13 Marimaca Copper/Cabral Gold interviews still unpublished; Jul 14 Valore Metals/Cartier Resources/Trillion Energy — non-core metals, excluded; Jul 15 no new content)",
+      "Mining Stock Education (Jul 15: Sulfide vs Oxide Deposits educational interview with Dr. Rob Stevens — educational content without specific supply-demand data; Jul 13 Midnight Sun Dumbwa 6.7km extension — outside window)",
+      "Soar Financial (no new content in window)",
+      "Sprott Insights (no new content in 72h window)",
+      "The Northern Miner Podcast (latest Hochschild Mining CEO Jul 14 — general South America mining profile without specific supply-demand numbers, excluded)",
+      "YouTube mining interview search (no qualified gold/silver/copper supply-demand interview content Jul 13-15)"
+    ],
+    "part1_result": "72h窗口（07-13至07-15）：无合格访谈。Mining Stock Daily Jul 15采访均为勘探阶段公司（Awale Resources、Radisson Mining），侧重资源增长和勘探策略，缺乏具体供需数据（产量、成本、建设时间表等）。Jul 14 Intrepid Metals/Cartier Resources采访也属于勘探开发阶段。Crux Investor Jul 13预约采访(Marimaca/Cabral Gold)仍未发布。周三(Jul 15)MSD重心在黄金勘探公司访谈。本周为季度报告集中发布期(7月中旬)，矿业访谈更多聚焦Q2业绩电话会(尚未举行)而非独立采访。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (storage_state from .browser_profile/x_auth.json)",
+      "Seed accounts (23 handles): RealRickRule, KatusaResearch, TheDailyGold, silverguru22, peter_krauth, soarfinancial, TaviCosta, RonStoeferle, wmiddelkoop, mercenarygeo, Junior_Stock, mjgeiger, LawrenceLepard, Jamie_Keech, duediligenceguy, ResourceMaven, TekoaDaSilva, JoeMazumdar, KaiserResearch, JayantBhandari5, Frank_Giustra, RobMcEwenMUX, keith_neumeyer",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve, discovery, operations, output, guidance, Q2, quarterly"
+    ],
+    "part2_result": "Playwright X搜索于2026-07-15 23:00 BJ开始（窗口尚未结束）。截至当前已采集的帖子中，初步筛选暂无同时满足供需关键词和窗口时间的新增供给需求信号。多数帖子为矿业考察游记、宏观评论或价格讨论。完整结果待搜索完成后将追加到JSON。如最终无可纳入信号，将保持part2_x_posts为空数组。",
+    "part3_sources_checked": [
+      "Rio Tinto (Jul 15 Q2 production report — 213kt Cu -7%, Kennecott outage, Oyu Tolgoi +31%)",
+      "Reuters / SHMET / SMM (Jul 14-15 Chile atmospheric river storm — Codelco/Antofagasta/Teck emergency meeting)",
+      "Xinhua / Reuters / MINING.com (Jul 15 Freeport Indonesia Grasberg recovery — 65% H2 2026, full by end-2027, 2028 target 1.6B lbs Cu)",
+      "West Red Lake Gold / GlobeNewswire (Jul 15 Madsen Q2 — 8,576 oz Au +51% QoQ)",
+      "Mako Mining / ACCESS Newswire (Jul 15 Q2 record — 14,610 oz Au sold, $63M revenue, $112M cash)",
+      "TRX Gold / GlobeNewswire (Jul 15 Q3 FY2026 — 7,426 oz Au +58% YoY, record throughput 1,833 tpd) — 排入考虑但未纳入正文，避免同日过多中小型金矿商结果稀释重点信号",
+      "Southern Cross Gold / Newsfile (Jul 15 Redcastle drill — 26.2 g/t Au) — 勘探结果，非近期供给，排除",
+      "北方有色网 铜市场日报 (Jul 15 — 智利暴雨/藏格矿业巨龙铜业/江铜计划/Freeport/秘鲁5月铜产量)",
+      "鹏欣资源 SZSE公告 (Jul 15 H1业绩预告 — 刚果金阴极铜产量10,611金吨 -25.4% YoY, Q2环比+96.8%) — 排入考虑但未纳入正文，规模较小且H1数据覆盖期不在单日窗口",
+      "中信建投/兴业证券/10jqka等券商研究 (Jul 15 — 宏观分析/KCC停产转述/CPI评论，无新增供给信号，排除)",
+      "中国黄金协会 (no Jul 15 content)",
+      "SMM 有色网 (Jul 15 — 智利风暴编译、铜市场分析，主要为事件转述)",
+      "紫金矿业/江西铜业/山东黄金 (Jul 15 — 仅股价行情和江铜2026生产经营计划重述，无新增供给信号)",
+      "Mining Stock Education press releases (Jul 15 — Centerra Gold credit facility extension, Fury Gold wildfire evacuation — 非核心供需信号, 排除)"
+    ],
+    "part3_result": "Jul 15 (Wednesday): 5 qualified news items selected. 3 major Cu supply signals (Rio Tinto Q2 -7%, Chile storm, Freeport Grasberg recovery), 2 gold supply signals (WRLG Madsen ramp-up +51%, Mako Mining record gold sales). One Chinese copper supply signal (鹏欣资源H1) excluded due to small scale and H1 data period. TRX Gold Q3 excluded to avoid oversaturation of small-cap gold production news. Multiple broker/analyst reports excluded (no new supply-demand signals). Southern Cross Gold drill excluded (exploration only).",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 8,
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "Rio Tinto Q2: verified via Miningreporters/RTTNews/Morningstar (multiple Reuters-sourced reports), core facts match (213kt Q2 -7%, Kennecott 75-day outage, Oyu Tolgoi +31%, cost guidance $0.30-0.50/lb, 2026 guidance 800-870kt maintained)",
+        "Chile storm: verified via SHMET/SMM/Miningreporters (Jul 14-15), core facts match (Daniel Mas emergency meeting, Codelco/Antofagasta/Teck, Los Pelambres/Carmen de Andacollo affected, atmospheric river Jul 15-19, alert level maximum)",
+        "Freeport Indonesia: verified via MINING.com/Reuters/Xinhua (Jul 15), core facts match (Tony Wenas Jul 15 Reuters interview, 50%→65% H2 2026→100% end-2027, 2026 800M lbs Cu/700k oz Au, 2028 target 1.6B lbs Cu/1.4M oz Au)",
+        "West Red Lake Gold: verified via GlobeNewswire/Stockhouse, core facts match (8,576 oz Au Q2 +51% QoQ, 4.3 g/t grade +23%, >1,000 tpd mid-Q2, 35-45k oz FY guidance)",
+        "Mako Mining: verified via SEC EDGAR/ACCESS Newswire, core facts match (14,610 oz Au sold Q2 record, $63M revenue, $112M cash+securities, San Albino 7.88 g/t grade, Moss 0.32 g/t)",
+        "北方有色网: Japan copper smelter consolidation, 巨龙铜业31万吨计划(2026全年), 江铜2026年计划, 秘鲁5月铜产量 — all items reviewed; non-primary sourcing or outside window or forward guidance, excluded"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part3_deduped_events": [
+      "江铜2026年度生产经营计划（证券时报7/15） — 年度计划而非新增事件，已在07-12/07-14报告中覆盖江铜产量数据，排除",
+      "藏格矿业/巨龙铜业31万吨2026计划（证券报7/14） — 年度计划&投资者调研问答，非新增供给事件，排除",
+      "秘鲁5月铜产量226,096吨（文华财经7/15） — 5月历史数据（非窗口内事件），仅月末统计发布，排除",
+      "鹏欣资源H1阴极铜产量10,611金吨 -25.4% YoY (深交所公告7/15) — H1数据覆盖期不在单日窗口，且规模较小（年产量约2万吨），排除",
+      "TRX Gold Q3 FY2026产量7,426盎司 +58% YoY (GlobeNewswire 7/15) — 同日已有WRLG和Mako Mining两条金矿商产量信号，为防止信息过载排除",
+      "Southern Cross Gold Redcastle钻探26.2 g/t Au (Newsfile 7/15) — 勘探结果，非近期产量供给信号，排除",
+      "Centerra Gold信贷额度扩展 (7/15) — 财务安排非供给需求信号，排除",
+      "Fury Gold Mines Eau Claire野火撤离 (7/15) — 预防性撤离非实际生产中断，排除",
+      "中信建投/兴业证券/10jqka等券商研报 (7/15) — 宏观/行业/价格分析，无新增供给需求信号，排除",
+      "中国Q2 GDP 4.3%不及预期 (Reuters 7/15) — 宏观数据非铜金供给需求事件，但影响需求预期——在Rio Tinto条目中作为宏观背景提及",
+      "KCC停产转述 (中信建投7/15) — 原事件7月9日，已在07-13/07-14报告dedup_log多次记录，排除"
+    ]
+  }
+}
