@@ -2,7 +2,9 @@
 
 面向黄金、白银和铜的每日供需研究站点。内容由 Workbuddy 调用 DeepSeek-V4 PRO 收集、筛选和整理；Next.js 读取结构化 JSON，由 Vercel 随 `main` 分支更新自动发布。
 
-生产站点：<https://copper-gold-silver-info.vercel.app>
+生产站点：<https://metals.zhemin.ltd>
+
+站点导航包含铜库存和铜精矿加工费（TC）入口。TC 数据链接指向上海有色网页面，打开后需要自行登录。
 
 ## 更新频率与时间
 
@@ -61,6 +63,8 @@ npm run dev
 - `/`：最新日报摘要、供需信号和最近日报
 - `/daily/YYYY-MM-DD`：每日完整信息页
 - `/archive`：全量日报搜索和金属筛选
+- `库存`：外部铜库存数据页面
+- `TC`：外部铜精矿加工费数据页面（打开后需自行登录）
 - `data/daily_report_schema.json`：日报字段规范
 - `Daily_Report_Workflow.md`：Workbuddy 每日执行规范
 - `mining_people_broadcast_x_articles.csv`：人物与来源种子表
