@@ -68,6 +68,8 @@ export function getReportByDate(date: string): DailyReport | undefined {
 }
 
 export function getSignals(report: DailyReport): ReportSignal[] {
+  // ponytail: Historical reports fall back to their first tag; this can only preserve
+  // legacy ordering, not editorial intent. Remove the fallback after those reports are backfilled.
   const broadcasts: ReportSignal[] = report.part1_broadcasts.map((item, index) => ({
     id: `broadcast-${index}`,
     kind: "Broadcast",
@@ -75,6 +77,7 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     source: item.guest?.name || item.source_type,
     publishedAt: item.publish_date,
     metalTags: item.metal_tags,
+    primaryMetal: item.primary_metal || item.metal_tags[0],
     direction: item.supply_demand,
     fact: item.summary,
     interpretation: item.detail || item.summary,
@@ -89,6 +92,7 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     source: item.handle,
     publishedAt: item.publish_time,
     metalTags: item.metal_tags,
+    primaryMetal: item.primary_metal || item.metal_tags[0],
     direction: item.supply_demand,
     fact: item.excerpt || "",
     interpretation: item.interpretation || "",
@@ -103,6 +107,7 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     source: item.source,
     publishedAt: item.publish_time,
     metalTags: item.metal_tags,
+    primaryMetal: item.primary_metal || item.metal_tags[0],
     direction: item.supply_demand,
     fact: item.excerpt || "",
     interpretation: item.interpretation || "",
@@ -131,9 +136,7 @@ export function getReportStats(report: DailyReport): ReportStats {
   const signals = getSignals(report);
   const metalCounts = { gold: 0, silver: 0, copper: 0 };
 
-  for (const signal of signals) {
-    for (const metal of signal.metalTags) metalCounts[metal] += 1;
-  }
+  for (const signal of signals) metalCounts[signal.primaryMetal] += 1;
 
   const checked = [
     report.search_log.part1_sources_checked,
