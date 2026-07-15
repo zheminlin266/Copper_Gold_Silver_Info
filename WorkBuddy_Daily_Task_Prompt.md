@@ -48,8 +48,9 @@ npm.cmd run build
 1. 提交前再次检查 `git status` 和 diff，只纳入本次日报文件及工作流允许的追加材料。使用精确文件路径暂存，不要使用 `git add .`，不要夹带用户已有代码修改、临时脚本、浏览器配置、缓存或凭据。
 2. 提交信息使用 `Add REPORT_DATE daily report`，其中日期替换为实际 `REPORT_DATE`。
 3. 推送 `main`，等待 GitHub Actions 校验和 Vercel 自动部署。
-4. 部署后检查生产站 `https://copper-gold-silver-info.vercel.app` 的 `/`、`/daily/REPORT_DATE` 和 `/archive`。确认最新日期、内容、来源链接和归档搜索正确。
-5. 只有研究完整、来源已核验、本地校验通过、推送成功、远程构建成功且三个生产页面正常，任务才算完成。
+4. 部署后检查生产站 `https://metals.zhemin.ltd` 的 `/`、`/daily/REPORT_DATE` 和 `/archive`。确认最新日期、内容、来源链接和归档搜索正确。
+5. 检查站点导航中的库存和 TC 外部链接。TC 应打开上海有色网的铜精矿加工费页面 `https://www.metal.com/copper/201910240001`；该页面需要用户自行登录，只确认链接和登录提示正常，不代替用户登录，也不把受限数据作为日报发布成功的前置条件。
+6. 只有研究完整、来源已核验、本地校验通过、推送成功、远程构建成功、三个生产页面正常且两个外部导航链接可打开，任务才算完成。
 
 ## 停止条件与最终汇报
 
@@ -61,5 +62,5 @@ npm.cmd run build
 - Part 1、Part 2、Part 3 的入选数量及通道状态；
 - 新增或追加的文件；
 - URL 核验、内容校验、测试、生产构建结果；
-- commit、push、GitHub Actions、Vercel 和三个生产页面状态；
+- commit、push、GitHub Actions、Vercel、三个生产页面及库存/TC 导航链接状态；
 - 任何排除项、失败项、未解决风险或需要用户介入的事项。
