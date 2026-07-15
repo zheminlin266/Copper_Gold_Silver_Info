@@ -26,6 +26,18 @@ test("all daily reports are valid and uniquely dated", () => {
   assert.deepEqual(dates, [...dates].sort());
 });
 
+test("daily summaries stay within the 300-character editorial limit", () => {
+  const filename = "2026-07-14.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  const tooLong = structuredClone(report);
+  tooLong.summary = "铜".repeat(301);
+
+  assert.throws(
+    () => validateReport(tooLong, filename),
+    /summary must be no more than 300 characters/,
+  );
+});
+
 test("publish_time accepts dates but rejects date-times without a timezone", () => {
   const filename = "2026-07-14.json";
   const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));

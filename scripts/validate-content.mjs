@@ -17,6 +17,7 @@ const SOURCE_TYPES = new Set([
   "company_presentation",
 ]);
 const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
+const SUMMARY_MAX_LENGTH = 300;
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -149,6 +150,9 @@ export function validateReport(report, filename) {
   validateDate(report.date, "date", filename);
   validateDateTime(report.report_time, "report_time", filename);
   requireString(report.summary, "summary", filename);
+  if ([...report.summary].length > SUMMARY_MAX_LENGTH) {
+    throw new Error(`${filename}: summary must be no more than ${SUMMARY_MAX_LENGTH} characters`);
+  }
   if (`${report.date}.json` !== filename) {
     throw new Error(`${filename}: date does not match filename`);
   }

@@ -18,7 +18,8 @@
     },
     "summary": {
       "type": "string",
-      "description": "Concise Chinese overview of the report's qualified signals and material empty results"
+      "maxLength": 300,
+      "description": "Chinese overview, no more than 300 characters, covering only the day's directional supply-demand changes by metal; exclude search process and itemized evidence"
     },
     "migration_note": {
       "type": "string",

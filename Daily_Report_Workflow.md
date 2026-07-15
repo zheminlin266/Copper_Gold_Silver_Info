@@ -114,7 +114,7 @@
 
 最低要求：
 
-- `date`、`report_time`、三个 `windows` 和中文 `summary`。
+- `date`、`report_time`、三个 `windows` 和中文 `summary`。`summary` 不超过 300 个字符，只按金属概括当日供给增加/减少、需求增加/减少等方向，不逐条罗列事实，不写检索过程、渠道状态或收录数量。
 - `part1_broadcasts`、`part2_x_posts`、`part3_news` 三个数组；没有结果时写 `[]`。
 - 每条信号都有唯一主金属、全部实质相关金属标签、供需方向和直接来源 URL。
 - 新闻包含 `source`、`title`、`publish_time`、`language`、`excerpt` 和 `interpretation`。
