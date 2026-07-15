@@ -85,3 +85,11 @@ test("ACG is rendered once under copper while retaining its related metal tags",
   assert.equal(acg.primary_metal, "copper");
   assert.deepEqual(acg.metal_tags, ["gold", "silver", "copper"]);
 });
+
+test("home and daily pages group signals only by primary metal", () => {
+  for (const filename of ["app/page.tsx", "app/daily/[date]/page.tsx"]) {
+    const source = fs.readFileSync(path.join(process.cwd(), filename), "utf8");
+    assert.match(source, /signal\.primaryMetal === metal/, `${filename} must group by primary metal`);
+    assert.doesNotMatch(source, /signal\.metalTags\.includes\(metal\)/, `${filename} repeats multi-metal signals`);
+  }
+});

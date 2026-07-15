@@ -46,7 +46,7 @@ export default function HomePage() {
           {signals.length ? (
             METALS.map((metal: Metal) => {
               const metalSignals = signals.filter(
-                (signal) => signal.metalTags.includes(metal),
+                (signal) => signal.primaryMetal === metal,
               );
               if (!metalSignals.length) return null;
               return (
