@@ -4,7 +4,7 @@ import path from "node:path";
 import test from "node:test";
 
 import { getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
-import { loadReports } from "../scripts/validate-content.mjs";
+import { loadReports, validateReport } from "../scripts/validate-content.mjs";
 
 test("archive pagination shows 20 newest items before older pages", () => {
   const reports = Array.from({ length: 45 }, (_, index) => `report-${index + 1}`);
@@ -24,6 +24,26 @@ test("all daily reports are valid and uniquely dated", () => {
   const dates = reports.map((report) => report.date);
   assert.equal(new Set(dates).size, dates.length);
   assert.deepEqual(dates, [...dates].sort());
+});
+
+test("publish_time accepts dates but rejects date-times without a timezone", () => {
+  const filename = "2026-07-14.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+
+  const xDateOnly = structuredClone(report);
+  xDateOnly.part2_x_posts[0].publish_time = "2026-07-14";
+  assert.doesNotThrow(() => validateReport(xDateOnly, filename));
+
+  const newsDateOnly = structuredClone(report);
+  newsDateOnly.part3_news[0].publish_time = "2026-07-14";
+  assert.doesNotThrow(() => validateReport(newsDateOnly, filename));
+
+  const missingTimezone = structuredClone(report);
+  missingTimezone.part2_x_posts[0].publish_time = "2026-07-14T22:02:59";
+  assert.throws(
+    () => validateReport(missingTimezone, filename),
+    /publish_time must be a valid ISO date-time with a timezone/,
+  );
 });
 
 test("daily JSON archive has no missing calendar dates", () => {

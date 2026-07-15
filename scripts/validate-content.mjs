@@ -4,6 +4,7 @@ import { pathToFileURL } from "node:url";
 
 const DATE_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
 const DATE = /^(\d{4})-(\d{2})-(\d{2})$/;
+const DATE_TIME = /^(\d{4}-\d{2}-\d{2})T(?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d(?:\.\d+)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/;
 const METALS = new Set(["gold", "silver", "copper"]);
 const DIRECTIONS = new Set(["supply", "demand", "both"]);
 const SOURCE_TYPES = new Set([
@@ -53,8 +54,9 @@ function validateDate(value, field, filename) {
 
 function validateDateTime(value, field, filename) {
   requireString(value, field, filename);
-  if (!/T/.test(value) || Number.isNaN(Date.parse(value))) {
-    throw new Error(`${filename}: ${field} must be a valid ISO date-time`);
+  const match = DATE_TIME.exec(value);
+  if (!match || !isCalendarDate(match[1]) || Number.isNaN(Date.parse(value))) {
+    throw new Error(`${filename}: ${field} must be a valid ISO date-time with a timezone`);
   }
 }
 
@@ -120,7 +122,7 @@ function validateXPost(item, prefix, filename, requirePrimaryMetal) {
   validateSignal(item, prefix, filename, requirePrimaryMetal);
   requireString(item.author, `${prefix}.author`, filename);
   requireString(item.handle, `${prefix}.handle`, filename);
-  validateDateTime(item.publish_time, `${prefix}.publish_time`, filename);
+  validateDateOrDateTime(item.publish_time, `${prefix}.publish_time`, filename);
 }
 
 function validateNews(item, prefix, filename, requirePrimaryMetal) {

@@ -12,6 +12,7 @@
     },
     "report_time": {
       "type": "string",
+      "format": "date-time",
       "description": "Actual ISO 8601 datetime when the report was completed; the daily task normally starts at 07:00 Beijing time",
       "example": "2026-07-06T07:00:00+08:00"
     },
@@ -148,7 +149,14 @@
           "source": {"type": "string"},
           "title": {"type": "string"},
           "url": {"type": "string", "format": "uri"},
-          "publish_time": {"type": "string", "format": "date-time"},
+          "publish_time": {
+            "type": "string",
+            "description": "ISO 8601 date-time, or YYYY-MM-DD when the source does not disclose a reliable time",
+            "oneOf": [
+              {"format": "date"},
+              {"format": "date-time"}
+            ]
+          },
           "metal_tags": {
             "type": "array",
             "items": {"type": "string", "enum": ["gold", "silver", "copper"]}
