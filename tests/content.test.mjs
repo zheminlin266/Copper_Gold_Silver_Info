@@ -125,3 +125,23 @@ test("home and daily pages group signals only by primary metal", () => {
     assert.doesNotMatch(source, /signal\.metalTags\.includes\(metal\)/, `${filename} repeats multi-metal signals`);
   }
 });
+
+test("SEO metadata declares crawl routes, self canonicals, and daily Article fields", () => {
+  const robots = fs.readFileSync(path.join(process.cwd(), "app/robots.ts"), "utf8");
+  const sitemap = fs.readFileSync(path.join(process.cwd(), "app/sitemap.ts"), "utf8");
+  const layout = fs.readFileSync(path.join(process.cwd(), "app/layout.tsx"), "utf8");
+  const archive = fs.readFileSync(path.join(process.cwd(), "app/archive/page.tsx"), "utf8");
+  const daily = fs.readFileSync(path.join(process.cwd(), "app/daily/[date]/page.tsx"), "utf8");
+
+  assert.match(robots, /allow:\s*"\/"/);
+  assert.match(robots, /sitemap:\s*`\$\{SITE_URL\}\/sitemap\.xml`/);
+  assert.match(sitemap, /getReports\(\)/);
+  assert.match(sitemap, /\/daily\/\$\{report\.date\}/);
+  assert.match(layout, /canonical:\s*"\/"/);
+  assert.match(archive, /canonical:\s*"\/archive"/);
+  assert.match(daily, /canonical:\s*`\/daily\/\$\{report\.date\}`/);
+  assert.match(daily, /"@type": "Article"/);
+  assert.match(daily, /headline:\s*articleTitle/);
+  assert.match(daily, /description:\s*getReportSummary\(report\)/);
+  assert.match(daily, /datePublished:\s*publishedAt/);
+});

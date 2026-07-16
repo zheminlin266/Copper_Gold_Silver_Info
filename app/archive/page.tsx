@@ -6,6 +6,9 @@ import { getReportSummaries } from "@/lib/reports";
 export const metadata: Metadata = {
   title: "日报归档",
   description: "按日期、关键词和金属检索历史矿业供需日报。",
+  alternates: {
+    canonical: "/archive",
+  },
 };
 
 export default function ArchivePage() {

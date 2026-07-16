@@ -18,6 +18,7 @@ import {
   metalLabel,
   METALS,
 } from "@/lib/reports";
+import { SITE_URL } from "@/lib/site";
 
 type DailyPageProps = { params: Promise<{ date: string }> };
 
@@ -32,6 +33,9 @@ export async function generateMetadata({ params }: DailyPageProps): Promise<Meta
   return {
     title: `${formatDate(report.date)} 矿业供需信号`,
     description: getReportSummary(report).slice(0, 150),
+    alternates: {
+      canonical: `/daily/${report.date}`,
+    },
   };
 }
 
@@ -42,10 +46,42 @@ export default async function DailyPage({ params }: DailyPageProps) {
 
   const signals = getSignals(report);
   const adjacent = getAdjacentReports(report.date);
+  const articleTitle = `${formatDate(report.date)} 矿业供需信号`;
+  const articleUrl = `${SITE_URL}/daily/${report.date}`;
+  const publishedAt = new Date(report.report_time).toISOString();
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": articleUrl,
+    },
+    headline: articleTitle,
+    description: getReportSummary(report),
+    datePublished: publishedAt,
+    dateModified: publishedAt,
+    inLanguage: "zh-CN",
+    author: {
+      "@type": "Organization",
+      name: "金银铜供需信息",
+      url: SITE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "金银铜供需信息",
+      url: SITE_URL,
+    },
+  };
 
   return (
     <main className="site-main">
       <article className="article-copy">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(articleSchema).replace(/</g, "\\u003c"),
+          }}
+        />
         <header className="page-intro">
           <p className="eyebrow">Daily Report</p>
           <h1>{formatDate(report.date)} 矿业供需信号</h1>

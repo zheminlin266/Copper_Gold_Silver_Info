@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 import { SiteHeader } from "@/components/site-header";
+import { SITE_URL } from "@/lib/site";
 
 import "./globals.css";
 
@@ -12,11 +13,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: {
     default: "金银铜供需信息",
     template: "%s · 金银铜供需信息",
   },
   description: "黄金、白银与铜的矿业供需信号每日跟踪。",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
