@@ -64,7 +64,9 @@ export function SiteHeader() {
         <nav aria-label="主导航" className="site-nav">
           <Link href="/">首页</Link>
           <Link href="/archive">搜索</Link>
-          <a href={INVENTORY_URL}>库存</a>
+          <a href={INVENTORY_URL} rel="noopener noreferrer" target="_blank">
+            库存
+          </a>
           <a href={TC_URL} rel="noopener noreferrer" target="_blank">
             TC
           </a>
