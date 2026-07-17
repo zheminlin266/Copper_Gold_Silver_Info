@@ -1,0 +1,111 @@
+{
+  "date": "2026-07-17",
+  "report_time": "2026-07-18T07:00:45+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-15T00:00:00+08:00",
+      "end": "2026-07-17T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-17T00:00:00+08:00",
+      "end": "2026-07-17T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-17T00:00:00+08:00",
+      "end": "2026-07-17T23:59:59+08:00"
+    }
+  },
+  "summary": "铜供给端：江铜旗下武山铜矿三期选矿系统全面投产，日处理矿石能力翻倍至1万吨，达产后可年产铜精矿含铜超2万吨。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "江铜传媒 / 我的钢铁网",
+      "title": "武山铜矿三期选矿系统全面转入生产：日处理矿石1万吨（为二期两倍），设计服务年限24年，达产后年产铜精矿含铜超2万吨、硫精矿40万吨以上",
+      "url": "https://news.mysteel.com/a/26071708/AE31C5CB68A10A4B.html",
+      "publish_time": "2026-07-17",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "据江铜传媒公众号7月17日消息，7月12日下午，武山铜矿二期选矿系统正式停止运行，矿山生产全面转入新建成的三期选矿系统。三期扩建工程于2021年7月开工，设计日处理矿石能力达1万吨（为二期5000吨/日的两倍），设计服务年限24年。项目全面达产后，可实现年产铜精矿含铜超2万吨、硫精矿40万吨以上。二期系统自2009年投产以来连续运行17年，日处理5000吨矿石，累计产出铜金属量超20万吨。三期工程采用世界领先选矿工艺，配备半自磨机等大型核心装备，同步建设智能化选矿专家系统，着力打造\u201c黑灯工厂\u201d，并运用全尾膏体充填、废水循环利用等绿色技术。",
+      "interpretation": "武山铜矿是江西铜业在江西省内的核心自有矿山之一，此次从二期（5000吨/日）全面切换到三期（10000吨/日）是矿山产能翻倍的系统性升级。三期工程从2021年7月开工到2026年7月全面切换，历时5年建设。按照年产铜精矿含铜超2万吨的设计指标，武山铜矿将成为江铜集团内部重要的铜精矿增量来源——这一增量约占江铜自产铜精矿含铜年产量的约10%（江铜2025年自产铜精矿含铜约20万吨级别）。在全球铜精矿现货TC深度负值（-146美元/干吨级别）的背景下，中国自有矿山扩产不仅直接增加国内原料自给率，还能在一定程度上缓解冶炼厂对进口铜精矿的依赖。不过需要注意的是，三期工程从切换到达产仍需经历产能爬坡期——参考二期工程2009年1月切换、同年7月达产的历时，三期达产预计需6-12个月。此外，武铜三期打造的\u201c黑灯工厂\u201d和全尾膏体充填体系，代表了国内井采铜矿山在智能化和绿色化方向的技术升级路径。",
+      "importance": "武山铜矿三期全面投产是中国铜矿自有供给增量的重要案例。在全球铜矿供给端面临品位下降（Escondida 0.90%→~0.70%）、主要矿山减产（BHP FY2027指引下调8-15%）、Grasberg复产滞后等结构性压力的背景下，中国国内铜矿扩产项目对缓解进口依赖具有边际意义。武铜三期2万吨/年的铜精矿含铜增量虽然规模不大（约占全球矿产铜的0.1%），但叠加国内其他扩产项目（如巨龙铜业2026年31万吨计划、藏格矿业等），中国自有铜矿产量正在稳步上升。这对中国冶炼厂在TC深度负值环境下的原料保障具有一定支撑作用——自有矿比例越高，对进口现货铜精矿的依赖越低。此外，武铜三期运用的智能化（黑灯工厂）和绿色化（全尾膏体充填、废水循环）技术，也为中国众多老龄化井采铜矿山的技改升级提供了可复制的范式。",
+      "language": "zh",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 15-17: Awale Resources CEO/Radisson Mining/Cartier Resources interviews — exploration focus, no supply-demand; Morning Briefings Jul 15-16 news recaps)",
+      "Crux Investor (Jul 15: Cabral Gold interview published — development-stage, excluded; Jul 16: Cobra Resources/West Red Lake Gold interviews scheduled, unpublished; Marimaca Copper/Cabral Gold interviews from Jul 13 remain unpublished)",
+      "Mining Stock Education (Jul 15: Sulfide vs Oxide Deposits educational with Dr. Rob Stevens — already excluded in 07-15; Jul 17: Contango ORE CEO Shawn Khunkhun — valuation/stock discussion, no supply-demand data)",
+      "M&M Podcast (Jul 16: Michael Pento gold miners macro/price views — no specific supply-demand data, already excluded in 07-16 report)",
+      "The Northern Miner Podcast (Jul 16: BMI copper price forecast hike; Jul 15: Greenland rare earths — both non-Cu/Au/Ag supply-demand)",
+      "Sprott Insights (no new content in 72h window Jul 15-17)",
+      "Soar Financial (no new broadcast content in window)",
+      "YouTube mining interview search (no qualified gold/silver/copper supply-demand interview content Jul 15-17)",
+      "The David Lin Report podcast (Jul 16: junior mining/copper supply macro — general discussion, no specific supply-demand data; Jul 15: Collin Kettell Palisades Goldcorp — investment model, not supply-demand)",
+      "Spotify mining podcast indexes (no new qualifying episodes Jul 15-17)"
+    ],
+    "part1_result": "72h窗口（07-15至07-17）：无合格访谈。周五（7月17日）为矿业播客/访谈的低产日——多数Q2季度业绩访谈仍在录制制作中（如Crux Investor West Red Lake Gold访谈已安排但未发布）。本周为Q2季度报告密集发布期（7月14-16日），播客内容重心在业绩解读而非独立深度访谈。Mining Stock Daily仅发布Jul 15内容（勘探公司访谈），Jul 16-17无新剧集。Mining Stock Education Jul 17发布Contango ORE估值讨论（非供需信号）。M&M Podcast Jul 16 Michael Pento宏观黄金矿商观点已在07-16排除。Northern Miner Jul 16仅发布BMI铜价预测文章。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (storage_state from .browser_profile/x_auth.json)",
+      "Seed accounts searched (52 handles): 34 individual + 18 official/company",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "Playwright X搜索完成（52个种子+企业账号，2026-07-17单日窗口）。采集13条原始候选（保存至x_outputs/2026-07-17_x_raw_materials.txt）。经供需关键词交叉筛选，当日窗口内无合格供给需求信号帖子。候选帖子分析：@peter_krauth银供应问题推文为播客推广/通论性观点（非具体事件或数据）；@soarfinancial Banyan Gold资源更新（勘探阶段）、Hot Chili Costa Fuego（开发阶段）、Palisades Goldcorp（投资模式）均为勘探/投资内容；其余帖子为宏观评论、价格讨论或金融观点。周五（7月17日）X上矿业供需信号极少，符合周末前交易者活跃度下降的常规模式。",
+    "part3_sources_checked": [
+      "江铜传媒 / 我的钢铁网 (Jul 17 武山铜矿三期全面转入生产 — 日处理1万吨，年产铜精矿含铜超2万吨)",
+      "Buenaventura / SEC 6-K (Jul 16 Q2 2026产量 — 金33.8K oz直营、银+32% YoY、铜含El Brocal — Jul 16发布，不在Jul 17窗口内，排除)",
+      "Antofagasta Q2 (Jul 15发布 — Q2铜14.2万吨-0.7% QoQ，维持65-70万吨年指引 — Jul 15发布，不在窗口内，排除)",
+      "Codelco产量展望 (Reuters Jul 15/16 — Bernardo Fontaine预计产量持平于~133万吨 — Jul 15/16发布，不在窗口内，排除)",
+      "Evolution Mining FY26 (Jul 15 ASX quarterly — 金71.5万oz/年、铜6.6万吨/年、AISC $1,717/oz — Jul 15发布，不在窗口内，排除)",
+      "Aeris Resources FY26 (Jul 14 ASX — 铜2.3万吨/年、金4.9万oz、银25.6万oz — 不在窗口内，排除)",
+      "Lundin Gold Q2 (Jul 8 — 金11.9万oz Q2，维持47.5-52.5万oz年指引 — 不在窗口内，排除)",
+      "29Metals Q2 (Jul 15 ASX quarterly — Golden Grove 铜4.8kt/季度 — 不在窗口内，排除)",
+      "IEA Global Critical Minerals Outlook 2026 (Jul 16 — 硫酸危机威胁全球超15%原生铜产量~480万吨 — Jul 16发布，不在Jul 17窗口内，排除)",
+      "Fortitude Gold Q2 (Jul 15 ACCESS Newswire — 金2,133 oz Q2 +210% QoQ — Jul 15发布，不在窗口内，排除)",
+      "Copper One Majuba Hill drill (Jul 17 TradingView — 勘探阶段钻探进度更新，非产量供给信号，排除)",
+      "北方有色网 铜市场日报 (Jul 17 — 多项产业动态汇总：武山铜矿三期切换、智利风暴更新、IEA硫酸危机、东乡铜合金线环评、昆明铜业碲铜合金 — 武山铜矿入选，其余为重复报道/价格/加工信息)",
+      "SMM 铜精矿TC周评 (Jul 17 — 现货TC -146.15美元/干吨 — 价格/交易数据，非供需事件信号，排除)",
+      "紫金矿业/洛阳钼业/五矿资源等 (Jul 17 — 仅股价行情/券商研报，无新增供给需求公告)",
+      "同花顺/东方财富/10jqka 券商晨会 (Jul 17 — 宏观/有色板块分析，无新增供给信号)",
+      "中国黄金协会 (Jul 17 — 无新内容)"
+    ],
+    "part3_result": "Jul 17 (Friday): 1 qualified news item selected. 武山铜矿三期全面转入生产（江铜传媒，铜供给）。多条Q2季度产量报告（Buenaventura Jul 16、Antofagasta Jul 15、Codelco Jul 15/16、Evolution Mining Jul 15、Aeris Jul 14等）均不在Jul 17窗口内。IEA硫酸危机报告（Jul 16）不在窗口内。周五为矿业新闻低产日——多数公司选择在周二至周四发布季度业绩，周五仅有少数中资矿山运营动态。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 4,
+      "passed": 4,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "武山铜矿三期全面转入生产（我的钢铁网/mysteel.com 2026-07-17 08:37，来源江铜传媒公众号）：核验通过 — 发布日期2026-07-17，来源明确为江铜传媒公众号；核心数据确认：7月12日二期停产切换，日处理1万吨（二期两倍），服务年限24年，年产铜精矿含铜超2万吨，配备半自磨机和智能化选矿专家系统",
+        "Buenaventura Q2产量（SEC 6-K 2026-07-16）：核验通过但排除 — 发布日期2026-07-16，不在Jul 17窗口内；核心数据确认：直营金33,804 oz，银4,285,611 oz（+32% YoY），铜9,217吨（El Brocal 61.43%权益），铅4,501吨，锌6,510吨。San Gabriel爬产中（金1,686 oz），Tambomayo稳定（金2,964 oz，银294,325 oz），Coimolache（40.094%权益）金23,480 oz，银118,721 oz",
+        "IEA Global Critical Minerals Outlook 2026（MINING.com/北方有色网 Jul 16）：核验通过但排除 — 原始发布日期Jul 16，不在Jul 17窗口内；核心数据确认来自MINING.com原文：全球超15%原生铜产量（约480万吨）面临硫酸供应风险，刚果（金）约150万吨/智利约120万吨SxEW产能暴露，部分库存仅30-60天",
+        "北方有色网铜市场日报（Jul 17）：多项内容核验 — 武山铜矿（入选）、智利风暴更新（Jul 15原始事件重复）、IEA硫酸危机（Jul 16原始事件）、东乡铜合金线环评（下游加工）、昆明铜业碲铜合金（产品开发）"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part3_deduped_events": [
+      "Buenaventura Q2 2026产量（SEC 6-K 2026-07-16发布）— 金33,804 oz直营、银4,285,611 oz +32% YoY、El Brocal铜9,217吨。发布日7月16日，不在7月17日窗口内，排除",
+      "Antofagasta Q2铜产量14.2万吨 -0.7% QoQ（7月15日发布）— 原始发布日期不在7月17日窗口内，排除",
+      "Codelco董事长Bernardo Fontaine预计产量持平~133万吨（Reuters 7月15日/16日）— 不在7月17日窗口内，排除",
+      "Evolution Mining FY26季度报告金71.5万oz/铜6.6万吨（ASX 7月15日）— 不在7月17日窗口内，排除",
+      "Aeris Resources FY26铜2.3万吨/金4.9万oz/银25.6万oz（ASX 7月14日）— 不在窗口内，排除",
+      "Lundin Gold Q2金11.9万oz（7月8日发布）— 不在窗口内，排除",
+      "IEA Global Critical Minerals Outlook 2026硫酸危机警告（7月16日发布）— 原始发布日期不在7月17日窗口内，排除",
+      "Fortitude Gold Q2金2,133 oz（ACCESS Newswire 7月15日）— 不在窗口内，排除",
+      "智利大气河流风暴更新（北方有色网/SMM 7月17日重述）— 原始事件7月15日，已在07-15日报覆盖，排除",
+      "铜精矿现货TC -146.15美元/干吨（SMM 7月17日周评）— 价格/交易数据，非供需事件信号，排除",
+      "东乡瑞瀚新材料铜合金线环评（7月17日）— 下游加工项目，非矿端供给信号，排除",
+      "昆明铜业碲铜合金投产（7月17日）— 产品开发/产品结构升级，非矿端供给信号，排除",
+      "券商研报（同花顺/东方财富/光大期货等 7月17日）— 宏观/行情/行业分析，无新增供给需求信号，排除"
+    ]
+  }
+}
