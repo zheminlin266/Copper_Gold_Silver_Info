@@ -1,0 +1,84 @@
+{
+  "date": "2026-07-18",
+  "report_time": "2026-07-19T07:00:19+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-16T00:00:00+08:00",
+      "end": "2026-07-18T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-18T00:00:00+08:00",
+      "end": "2026-07-18T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-18T00:00:00+08:00",
+      "end": "2026-07-18T23:59:59+08:00"
+    }
+  },
+  "summary": "7月18日（周六）为矿业信息低产日，铜金银供需三端均无重大新增信号。本周Q2季度产量报告密集发布期（7月14-16日）已过，周末无新增公司公告、行业会议或统计发布。哈萨克斯坦H1产量数据于7月17日（周五）由统计局发布，不在当日窗口内。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 16-18: no new episodes; latest Jul 15 Morning Briefing already covered in 07-15 report)",
+      "Crux Investor (Jul 16-18: no new interview content published; Marimaca Copper/Cabral Gold Jul 13 interviews remain unpublished)",
+      "Mining Stock Education (Jul 17: Contango ORE CEO Shawn Khunkhun valuation discussion — already excluded in 07-17; Jul 16: no new interviews; Jul 18: no new content)",
+      "Sprott Insights (Jul 16: Rare earths thematic content, not Cu/Au/Ag; Jul 17-18: no new content)",
+      "Soar Financial (no new content in 72h window Jul 16-18)",
+      "The Northern Miner (Jul 16-17: BMI copper price forecast, rare earths, critical minerals — no Cu/Au/Ag supply-demand broadcasts; Jul 18: no new content)",
+      "M&M Podcast (Jul 16: Michael Pento gold miners macro — excluded as price/macro commentary, already in 07-16 dedup)",
+      "YouTube mining interview search (no qualified gold/silver/copper supply-demand interview content Jul 16-18)",
+      "Spotify/Apple Podcasts mining indexes (no new qualifying episodes Jul 16-18)",
+      "Vale CFO interview (Barron's Jul 17 — macro copper demand commentary, no specific supply-demand data)"
+    ],
+    "part1_result": "72h窗口（07-16至07-18）：无合格访谈。7月18日（周六）为全球矿业播客/访谈产出最低的日期之一，主要频道（Mining Stock Daily、Crux Investor、Sprott等）周末均无新内容发布。Part 1窗口后半段（7月16-17日）的候选内容（M&M Podcast Michael Pento黄金矿商宏观、MSE Contango ORE估值）均为纯金融/宏观讨论，不含具体供需数据，且已在07-16和07-17日报中排除。本周Q2产量报告密集发布期已过，播客内容重心已从独立深度访谈转向对已发布业绩的事后解读。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (storage_state from .browser_profile/x_auth.json)",
+      "Seed accounts searched (52 handles): 34 individual + 18 official/company",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "Playwright X搜索完成（52个种子+企业账号，2026-07-18单日窗口）。采集20条原始候选（保存至x_outputs/2026-07-18_x_raw_materials.txt）。经供需关键词交叉筛选，当日窗口内无合格供给需求信号帖子。候选帖子分析：@duediligenceguy (Lobo Tiggre) 4条为个人仓位和市场择时评论（纯交易观点）；@silverguru22 (David Morgan) 3条为YouTube播客推广和Google Alert转发（无具体数据）；@soarfinancial (Kai Hoffmann) 3条为Contango/i-80 Gold/Seabridge Gold的公司访谈推广（融资/开发阶段，非供需信号）；其余多为宏观评论（@TheDailyGold BofA调查、@TaviCosta铜发现趋势观察、@LawrenceLepard Fed政策评论、@wmiddelkoop贵金属价格预测、@peter_krauth银市播客推广、@Brien_Lundin个人闲聊）。周六（7月18日）X上矿业供需信号极低，符合周末活跃度下降的常规模式。",
+    "part3_sources_checked": [
+      "SMM 有色网 (Jul 18: 隔夜行情汇总 — 纯价格/交易数据，无供需信号)",
+      "SMM 废紫铜产量 (Jul 18 08:58: 哈萨克斯坦铜锌H1产量数据 — 原始发布日7月17日（周五），不在7月18日窗口内)",
+      "Northern Miner (Jul 18: 无新内容发布，最新为7月17日稀土/关键矿产文章)",
+      "Mining.com (Jul 18: 无新内容发布)",
+      "Reuters / Bloomberg mining wires (Jul 18: 无铜金银供需相关新闻)",
+      "上海有色网 SMM (Jul 18: 仅隔夜行情和哈萨克斯坦周五数据转述，无新增供需信号)",
+      "我的钢铁网 Mysteel (Jul 18: 有色金属价格指数 — 纯价格数据)",
+      "中国黄金协会 (Jul 18: 无新内容)",
+      "紫金矿业/江西铜业/山东黄金/洛阳钼业/铜陵有色 (Jul 18: 无新增公告或产量数据)",
+      "哈萨克斯坦统计局 (7月17日周五发布H1产量数据：精炼铜231,945吨 -4.5% YoY、精炼锌112,861吨 -14.8% YoY、黄金33,597千克 -12.7% YoY、白银306,599千克 -2.8% YoY — 发布日7月17日，不在7月18日窗口内)",
+      "SEC EDGAR / ASX / TSX / LSE (Jul 18: 无铜金银矿商产量/运营公告)",
+      "新华财经/财联社/新浪财经 (Jul 18: 仅有色金属行情/宏观分析，无新增供需信号)"
+    ],
+    "part3_result": "Jul 18 (Saturday): 0 qualified news items. 7月18日为全球矿业新闻产出最低的日期之一（周六），主要矿商、交易所公告、统计机构和行业媒体均无当日供需相关发布。哈萨克斯坦统计局H1产量数据（铜-4.5% YoY、锌-14.8% YoY、金-12.7% YoY、银-2.8% YoY）于7月17日（周五）发布，为窗口前日数据，不在7月18日窗口内。SMM等中文有色金属平台7月18日仅发布隔夜行情汇总（价格/交易数据），无供需信号。本周Q2季度报告密集期（7月14-16日）已结束，周末为矿业信息自然低产期。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "当日无合格信号纳入，无需URL核验。所有候选来源已通过搜索摘要确认发布日期不在7月18日窗口内或不符合供需信号标准。",
+        "SMM 哈萨克斯坦H1产量数据（2026-07-17 18:52发布）：核验通过但排除 — 原始发布日期7月17日，不在7月18日窗口内。数据摘要：精炼铜H1 231,945吨 -4.5% YoY（6月39,323吨 -20.8% YoY）；精炼锌H1 112,861吨 -14.8% YoY（6月19,807吨 -22.4% YoY）；黄金H1 33,597千克 -12.7% YoY；精炼白银H1 306,599千克 -2.8% YoY。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "M&M Podcast Jul 16 Michael Pento gold miners macro (https://crypto.report/video-news/mm-podcast-why-i-loaded-up-on-gold-and-gold-miners-16-07-2026-summary) — 已在07-16日报Part 1排除，不含具体供需数据",
+      "Mining Stock Education Jul 17 Contango ORE CEO Shawn Khunkhun valuation (https://www.iheart.com/podcast/269-Mining-Stock-Educat-29238033) — 已在07-17日报Part 1排除，纯粹估值/股价讨论"
+    ],
+    "part3_deduped_events": [
+      "哈萨克斯坦统计局H1 2026产量数据（7月17日周五发布）— 铜H1 231,945吨 -4.5% YoY、锌H1 112,861吨 -14.8% YoY、金H1 33,597千克 -12.7% YoY、银H1 306,599千克 -2.8% YoY。原始发布日期7月17日，不在7月18日窗口内，排除",
+      "SMM隔夜行情汇总（7月18日）— 价格/交易数据，非供需事件信号，排除",
+      "Mysteel有色金属价格指数（7月18日）— 纯价格数据，排除",
+      "财联社/新浪财经有色板块分析（7月18日）— 宏观/行情分析，无新增供给需求信号，排除"
+    ]
+  }
+}

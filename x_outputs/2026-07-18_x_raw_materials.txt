@@ -1,0 +1,194 @@
+X 原始候选 — 2026-07-18
+采集时间: 2026-07-19T06:59:23.397201+08:00
+采集方法: Playwright + Chrome (storage_state)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 20 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-07-17T18:01:27+00:00
+    北京: 2026-07-18T02:01:27+08:00
+    文本: I Asked The Greatest Junior Mining Investors What They Are Buying Right ... 
+https://
+youtu.be/GzMBvy3PSuA?si
+=mgBjbj2h4TohI7R-
+… via 
+@YouTube
+ 07-17-2026 Excerpted interviews, Rule Natural Resources Investment Symposium
+    链接: https://x.com/RealRickRule/status/2078178282735058952
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-07-18T12:03:00+00:00
+    北京: 2026-07-18T20:03:00+08:00
+    文本: Is It Time for America to Treat Silver as a Critical Mineral? 
+https://
+archive.aweber.com/t/Gshht
+    链接: https://x.com/silverguru22/status/2078450463641313638
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-07-18T01:19:05+00:00
+    北京: 2026-07-18T09:19:05+08:00
+    文本: Silver's Supply Deficit Faces a New Layer of North American Trade Risk | 
+http://
+Investing.com - 
+https://
+goo.gl/alerts/95okEj #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2078288413183406418
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-07-17T18:36:20+00:00
+    北京: 2026-07-18T02:36:20+08:00
+    文本: Bob Coleman & David Morgan: Is the US Facing a #Silver Shortage? 
+https://
+youtu.be/iIugsmdkyjQ?si
+=gwWdAseKcoK-MJ3M
+… via 
+@YouTube
+    链接: https://x.com/silverguru22/status/2078187057898549265
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-17T19:13:05+00:00
+    北京: 2026-07-18T03:13:05+08:00
+    文本: Silver may be in the summer doldrums, but the bigger picture remains incredibly bullish.
+
+Strong margins. Persistent deficits. Shrinking inventories.
+
+
+@TedJButler
+ breaks it all down in this week’s Silver Scoop covers the companies executing—and why this bull market looks
+    链接: https://x.com/peter_krauth/status/2078196306410119518
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-18T15:45:14+00:00
+    北京: 2026-07-18T23:45:14+08:00
+    文本: My position is not that gold will go that low, but that there's an opportunity cost to ignoring the possibility that it may go even lower...
+    链接: https://x.com/duediligenceguy/status/2078506389438173636
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-18T15:28:23+00:00
+    北京: 2026-07-18T23:28:23+08:00
+    文本: I sold all my gold and silver stocks at the time.
+
+I've bought one copper-gold pick and one oil patch play since then. Still mostly in cash.
+    链接: https://x.com/duediligenceguy/status/2078502147180671069
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-18T14:27:00+00:00
+    北京: 2026-07-18T22:27:00+08:00
+    文本: Leverage cuts both ways...
+
+People keep asking if gold/silver stocks aren't cheap enough yet, and I keep saying, "Less high is not low."
+
+But I will let everyone know when I change my mind in me free weekly macro letter: The Digest.
+    链接: https://x.com/duediligenceguy/status/2078486702625026319
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-17T21:34:01+00:00
+    北京: 2026-07-18T05:34:01+08:00
+    文本: I don't remember the year, but I remember that sometime after the 2011 top, Harvey Dent bet Jeff Clark an ounce of gold that gold would drop below $700 again...
+    链接: https://x.com/duediligenceguy/status/2078231773700313197
+
+[10] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-17T22:27:28+00:00
+    北京: 2026-07-18T06:27:28+08:00
+    文本: Fund managers just deemed Gold the most undervalued since March 2023 in BofA’s latest survey.
+
+Net overvalued readings have collapsed to a 3.3-year-low, as the price has declined materially. 
+
+Sentiment has reset completely.
+    链接: https://x.com/TheDailyGold/status/2078245224191807744
+
+[11] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-07-17T17:22:15+00:00
+    北京: 2026-07-18T01:22:15+08:00
+    文本: To be fair, 20 pounds of that was gold chain.
+    链接: https://x.com/Brien_Lundin/status/2078168416670650597
+
+[12] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-07-17T17:05:49+00:00
+    北京: 2026-07-18T01:05:49+08:00
+    文本: This has evolved from a mining conference to a bachelors' party.
+
+As one would expect.
+    链接: https://x.com/Brien_Lundin/status/2078164278222238198
+
+[13] @TaviCosta (Otavio Costa)
+    UTC: 2026-07-18T03:36:14+00:00
+    北京: 2026-07-18T11:36:14+08:00
+    文本: Mind-blowing.
+
+We’re mining copper discoveries made over 30 years ago.
+
+Not to mention:
+
+Only 5% of copper discoveries have been made in the last decade.
+
+
+https://
+substack.com/@tavicosta/not
+e/p-207446410?r=2m39jp&utm_medium=ios&utm_source=notes-share-action
+…
+    链接: https://x.com/TaviCosta/status/2078322928383607241
+
+[14] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-17T20:37:03+00:00
+    北京: 2026-07-18T04:37:03+08:00
+    文本: Today, I shared our thoughts on the precious metals markets with Dubai based 
+@AsharqNews
+ from my hotel in Vancouver
+
+Based on historical patterns we think gold and silver are very close to bottoming out. Due to the continuous high demand by central banks we foresee a continuation
+    链接: https://x.com/wmiddelkoop/status/2078217440836669881
+
+[15] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-17T19:33:35+00:00
+    北京: 2026-07-18T03:33:35+08:00
+    文本: First met Amanda during a dinner over 15 years ago 
+
+Remember to be impressed right away. Although very young, she knew a lot about resource investing and was clearly hungry for more …
+    链接: https://x.com/wmiddelkoop/status/2078201468247577004
+
+[16] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-07-18T12:55:44+00:00
+    北京: 2026-07-18T20:55:44+08:00
+    文本: More evidence the market has Warsh wrong.  Hasset predicting rate cuts.  Run It Hot!
+
+July 15 – CNBC (Kevin Breuninger): “National Economic Council Director Kevin Hassett said… he sees no argument for hiking interest rates in light of the latest data on the U.S. economy,
+    链接: https://x.com/LawrenceLepard/status/2078463730841485639
+
+[17] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-07-18T12:40:56+00:00
+    北京: 2026-07-18T20:40:56+08:00
+    文本: Doug Noland commenting on Warsh testimony.
+
+But I guess the forward guidance moratorium doesn’t apply to signaling to the markets that the Warsh Fed will be ready to aggressively respond to market crisis. It appears many changes will be forthcoming for our central bank. The Fed
+    链接: https://x.com/LawrenceLepard/status/2078460009541681457
+
+[18] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-17T18:11:41+00:00
+    北京: 2026-07-18T02:11:41+08:00
+    文本: Contango Silver & Gold: Multi-Mine Growth Plan Takes Shape
+
+President Shawn Khunkhun joins us to discuss Contango's growing free cash flow from Alaska, development of the Lucky Shot Mine, resource growth at Kitsault Valley, and the company's strategy to significantly increase
+    链接: https://x.com/soarfinancial/status/2078180857710625188
+
+[19] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-17T17:48:21+00:00
+    北京: 2026-07-18T01:48:21+08:00
+    文本: i-80 Gold: Fully Funded to Become a Mid-Tier Gold Producer
+
+Richard Young joins us to discuss i-80 Gold's $1.1 billion recapitalization, its multi-phase Nevada growth strategy, key development milestones, and the company's plan to become one of Nevada's next gold producers.
+    链接: https://x.com/soarfinancial/status/2078174984862871562
+
+[20] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-17T17:47:16+00:00
+    北京: 2026-07-18T01:47:16+08:00
+    文本: Seabridge Gold Closes In on a Major Development Partner
+
+CEO Rudi Fronk joins us to discuss Seabridge Gold's ongoing joint venture process, the world-class KSM Project, the impact of higher gold prices on project economics, and why the company believes a transformational catalyst
+    链接: https://x.com/soarfinancial/status/2078174709431328883
+
