@@ -1,0 +1,11 @@
+X 原始候选 — 2026-07-19
+采集时间: 2026-07-20T06:59:47.181917+08:00
+采集方法: Playwright + Chrome (storage_state)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 0 条
+
+============================================================
+

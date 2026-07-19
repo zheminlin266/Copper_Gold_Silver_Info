@@ -1,0 +1,90 @@
+{
+  "date": "2026-07-19",
+  "report_time": "2026-07-20T07:05:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-17T00:00:00+08:00",
+      "end": "2026-07-19T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-19T00:00:00+08:00",
+      "end": "2026-07-19T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-19T00:00:00+08:00",
+      "end": "2026-07-19T23:59:59+08:00"
+    }
+  },
+  "summary": "7月19日（周日）为矿业信息自然低产日，铜金银供需三端均无重大新增信号。主要矿商、交易所、统计机构和行业媒体周末均无当日供需相关发布。Hillgrove Resources获董事会批准Kanmantoo铜矿Emily Star第三采矿工作面开发，但其ASX公告原始日期为7月17日（周五），不在7月19日窗口内。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 17-19: Jul 17 Morning Briefing Elemental Royalty/Quilla Resources already covered; no new content Jul 18-19 weekend)",
+      "Crux Investor (Jul 17-19: no new interview content; Marimaca Copper/Cabral Gold Jul 13 interviews remain unpublished after 6+ days)",
+      "Mining Stock Education (Jul 17: Contango ORE CEO Shawn Khunkhun valuation discussion — already excluded in 07-17 report; Jul 18-19: no new content)",
+      "Sprott Insights (Jul 17-19: no new content in 72h window)",
+      "Soar Financial (Jul 17-19: no new broadcast content)",
+      "The Northern Miner Podcast (Jul 17: Miner Moments Joe Mazumdar — Newmont Batu Hijau $1.3B stake sale discussion, corporate transaction not supply-demand; Jul 17: World Copper Conference episode — market outlook; Jul 18-19: no new content)",
+      "Money of Mine (Jul 14: Matt Griffin small caps — outside 72h window starting Jul 17; Jul 17-19: no new episodes)",
+      "M&M Podcast (Jul 17-19: no new episodes in window)",
+      "YouTube mining interview search (no qualified gold/silver/copper supply-demand interview content Jul 17-19)",
+      "Spotify/Apple Podcasts mining indexes (no new qualifying episodes Jul 17-19)"
+    ],
+    "part1_result": "72h窗口（07-17至07-19）：0条合格访谈。窗口期覆盖周五至周日，主要频道（Mining Stock Daily、Crux Investor、Sprott等）周末均无新内容发布。Mining Stock Education Jul 17 Contango ORE估值讨论已在07-17日报排除。Northern Miner Jul 17 Joe Mazumdar访谈主题为Newmont出售Batu Hijau股权（$13亿交易），属公司资产处置而非供需信号。世界铜业大会播客为市场展望类内容，无具体产量/供给数据。本周Q2季度报告密集期（7月14-16日）后，播客/访谈产出进入周末低产期。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (storage_state from .browser_profile/x_auth.json)",
+      "Seed accounts searched (52 handles): 34 individual + 18 official/company",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "Playwright X搜索完成（52个种子+企业账号，2026-07-19单日窗口）。全部52个账号在7月19日（周日）当日窗口内均无发帖，采集0条原始候选（保存至x_outputs/2026-07-19_x_raw_materials.txt）。周日是矿业专业人士X活跃度的最低日，所有个人种子账号（34个）和官方企业账号（18个）均无当日供需相关发帖，符合周末社交活动下降的常规模式。Playwright通道状态正常（登录状态有效，所有账号搜索均成功返回）。",
+    "part3_sources_checked": [
+      "Hillgrove Resources ASX HGO (Jul 17 Emily Star development approval at Kanmantoo — 第三采矿工作面获批，资本$20-22M，H2 2027起开采，年处理200万吨速率。ASX原始公告日期7月17日（周五），不在7月19日窗口内，排除)",
+      "Mining.com.au (Jul 19: Hillgrove Emily Star报道 — 7月17日ASX公告的贸易媒体转载，原始事件日期7月17日，排除)",
+      "Mining Technology / Mining Weekly (Jul 17: Hillgrove Emily Star — 同日贸易媒体报道，原始事件日期7月17日，排除)",
+      "Abcourt Mines TSX-V ABI (Jul 19 Mining.com.au: Sleeping Giant Q4 record development — 季度处理量11,891吨 +160% QoQ，金产量720盎司/季，年产量3,628盎司。规模极小（全球金矿产量的~0.003%），排除)",
+      "Natural Resource Stocks Daily Update (Jul 19: 综合日报 — Hillgrove/Abcourt已单独评估，其余内容（Spanish Mountain Gold钻探、Copper One钻探、深海采矿ISA裁决）均为勘探/政策类，非产量供给信号，排除)",
+      "MINING.com (Jul 19: 当日仅显示7月17-18日旧内容，无7月19日新发布)",
+      "Reuters mining wires (Jul 19: 周日无铜金银供需相关新闻)",
+      "SMM 有色网 (Jul 19: 仅周报和隔夜行情 — 纯价格/交易数据)",
+      "SMM 供应短缺逻辑持续发酵/进口铜溢价 (Jul 19/Jul 17: 分析评论，非当日供需事件)",
+      "我的钢铁网 Mysteel (Jul 19: 仅白银报价表 — 价格数据)",
+      "新浪财经 / 国联民生周报 / 国金证券周报 / 华西证券周报 (Jul 19: 券商周报复述，价格和交易分析，无当日供需事件)",
+      "中国黄金协会 (Jul 19: 无新内容)",
+      "紫金矿业/江西铜业/山东黄金/洛阳钼业/铜陵有色 (Jul 19: 周末无新增公告或产量数据)",
+      "SEC EDGAR / ASX / TSX / LSE (Jul 19: 周日无矿商产量/运营公告提交)",
+      "BT财经 / 今日头条 (Jul 19: 冶炼厂TC倒贴分析 — 教育/行情类，非具体供需事件)"
+    ],
+    "part3_result": "Jul 19 (Sunday): 0 qualified news items. 7月19日为周日，全球矿业新闻产出最低日之一。所有主要矿商、交易所公告平台、统计机构和行业媒体均无当日供需相关发布。Hillgrove Resources Emily Star铜矿开发批准的ASX公告日期为7月17日（周五），贸易媒体（Mining.com.au/Mining Weekly/Mining Technology）转载报道虽在7月17-19日发布，但原始事件日期7月17日不在7月19日窗口内。Abcourt Mines Sleeping Giant金矿Q4运营数据（720盎司金/季）于7月19日由Mining.com.au报道，但矿山规模极小（年产量约3,628盎司），对全球金矿供给无实质影响。券商周报、SMM分析、BT财经等行业内容均为价格/交易/周度分析，不含7月19日当日具体供需事件。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "当日无合格信号纳入正文，无需URL核验。所有候选来源已通过搜索摘要和原始页面确认发布日期不在7月19日窗口内或不符合供需信号标准。",
+        "Hillgrove Resources Emily Star开发批准（ASX HGO 2026-07-17）：核验通过但排除 — 原始ASX公告日期7月17日，不在7月19日窗口内。核心数据确认：第三采矿工作面获批，资本$20-22M（含$2.9M已支出），H2 2026支出$6.5-7.5M，H2 2027起开采，平均采场35,000吨，支持Kanmantoo年处理200万吨速率。推断资源量2.6Mt @ 0.77% Cu及0.08 g/t Au。2026年资本指引从$8-10M上调至$15-17M，全部由运营现金流覆盖。",
+        "Abcourt Mines Sleeping Giant Q4 FY2026运营数据（Mining.com.au 2026-07-19）：核验通过但排除 — 矿山规模极小。核心数据确认：Q4处理矿石11,891吨（+160% QoQ），金产量720盎司/季，平均入选品位2.10 g/t Au（Q4，含低品位开拓区矿石），FY全年平均品位4.18 g/t Au，累计年产量3,628盎司。矿山处于扩建转型期，长孔采场开采已启动。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Education Jul 17 Contango ORE CEO Shawn Khunkhun (https://www.iheart.com/podcast/269-Mining-Stock-Educat-29238033) — 已在07-17日报Part 1排除，纯粹估值/股价讨论",
+      "Northern Miner Jul 17 Joe Mazumdar interview (https://www.northernminer.com/news/miner-moments-interview-joe-mazumdar-exploration-insights/1003775675/) — Newmont Batu Hijau $1.3B股权出售，公司资产处置非铜金银供需信号"
+    ],
+    "part3_deduped_events": [
+      "Hillgrove Resources Emily Star铜矿开发批准（ASX HGO 2026-07-17）— 第三采矿工作面获批，资本$20-22M，H2 2027起开采。原始ASX公告日期7月17日，不在7月19日窗口内，排除。Mining.com.au/Mining Technology/Mining Weekly均为7月17-19日的贸易媒体转载",
+      "Abcourt Mines Sleeping Giant金矿Q4 FY2026运营数据（Mining.com.au 2026-07-19）— 季度金产量720盎司，年产量3,628盎司，矿山规模极小（全球金矿产量的~0.003%），排除",
+      "各国联/国金/华西证券有色金属周报（2026-07-19）— 券商周报复述价格和库存数据，无新增当日供需事件，排除",
+      "SMM隔夜行情/进口铜溢价分析（7月19日）— 价格/交易数据及分析评论，非供需事件信号，排除",
+      "BT财经冶炼厂TC分析（2026-07-19）— 行业教育/行情类文章，无具体供需事件，排除",
+      "Copper One Majuba Hill钻探 / Spanish Mountain Gold可行性钻探 / 深海采矿ISA裁决（Natural Resource Stocks 7月19日汇总）— 勘探/政策类，非产量供给信号，排除"
+    ]
+  }
+}
