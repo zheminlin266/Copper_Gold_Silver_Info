@@ -1,0 +1,100 @@
+{
+  "date": "2026-07-20",
+  "report_time": "2026-07-21T07:03:00+08:00",
+  "windows": {
+    "part1": {
+      "start": "2026-07-18T00:00:00+08:00",
+      "end": "2026-07-20T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-20T00:00:00+08:00",
+      "end": "2026-07-20T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-20T00:00:00+08:00",
+      "end": "2026-07-20T23:59:59+08:00"
+    }
+  },
+  "summary": "7月20日（周一）为新一周首个交易日，铜金银供需三端均无重大新增信号。Q2季度产量报告密集期（7月14-16日）已过，周一矿业新闻和播客产出处于自然低位。铜精矿现货TC维持深度负值（约-140至-160美元/干吨区间），Antofagasta年中长协指数联动定价模式延续影响冶炼利润，但均为已知趋势的延续。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily (Jul 18-20: no new episodes in 72h window; latest Jul 17 recap only)",
+      "Crux Investor (Jul 18-20: no new interview content; weekend + Monday)",
+      "Mining Stock Education (Jul 18-20: no new episodes; latest Jul 17 Contango ORE — already excluded in 07-17 report)",
+      "Sprott Radio / Sprott Insights (Jul 18-20: no new content)",
+      "Soar Financial (Jul 18-20: no new broadcast content)",
+      "The Northern Miner Podcast (Jul 18-20: no new episodes; latest Jul 17 Fiji/Sahel coverage)",
+      "Money of Mine (Jul 18-20: no new episodes)",
+      "M&M Podcast (Jul 18-20: no new episodes)",
+      "Kitco Digging Deep (latest Jul 2 Nicole Adshead-Bell — outside window)",
+      "The Mining Insider (latest Jul 4 — outside window)",
+      "Palisades Gold Radio (Jul 18-20: no new episodes)",
+      "The David Lin Report (Jul 18-20: no new episodes)",
+      "YouTube mining interview search (no qualified gold/silver/copper supply-demand interview content Jul 18-20)",
+      "Spotify/Apple Podcasts mining indexes (no new qualifying episodes Jul 18-20)"
+    ],
+    "part1_result": "72h窗口（07-18至07-20，周六至周一）：0条合格访谈。窗口期末段为周末（7月18-19日），主要频道（Mining Stock Daily、Crux Investor、Sprott、Northern Miner、Money of Mine、M&M等）周末均无新内容发布。周一（7月20日）为本周首个工作日，播客/访谈通常在前一天录制，当日发布较少。本周Q2季度报告密集发布期（7月14-16日）及随后周末后，矿业播客内容处于自然过渡期。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (storage_state from .browser_profile/x_auth.json)",
+      "Seed accounts searched (52 handles): 34 individual + 18 official/company",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "Playwright X搜索完成（52个种子+企业账号，2026-07-20单日窗口）。采集11条原始候选（保存至x_outputs/2026-07-20_x_raw_materials.txt）。经供需关键词交叉筛选，当日窗口内0条合格供给需求信号帖子。候选分析：@peter_krauth 1条（银价修正后个人买入 — 交易观点）；@duediligenceguy 1条（金工业用途通论 — 无具体数据）；@Brien_Lundin 2条（法国售金阴谋论/会议推广 — 无供需数据）；@RonStoeferle 6条（S&P Global钻探月报引用+黄金配置理论帖 — 二手引用无原始来源/投资组合理论非供需信号）；@LawrenceLepard 1条（模糊宏观评论 — 无具体数据）。周一（7月20日）X上矿业供需信号极少，所有种子账户当日无具体供需事件发帖。Playwright通道状态正常（登录有效，52个账号搜索成功返回）。",
+    "part3_sources_checked": [
+      "SMM有色网 (Jul 20: 午评/期货收评 — 纯价格/交易数据；6月银锭出口471吨+26% MoM — 滞后贸易数据)",
+      "Mysteel我的钢铁网 (Jul 20: 铜产业早读 — TC现货-140至-160美元/干吨区间成交 — 价格/交易数据；7月电解铜预计产量115.08万吨 — 行业预估/分析)",
+      "中信建投/东方证券/国泰海通/申万/中邮/华源证券有色周报 (Jul 20: 均为券商周报复述 — KCC、TC、Grasberg、铜库存等已知事件汇总，无7月20日当日新增事件)",
+      "MINING.com (Jul 20: 403 blocked; Jul 18-19 content only — Blue Lagoon/exploration press releases, Jul 17 window)",
+      "Reuters/BNN Bloomberg mining wires (Jul 20: no copper/gold/silver supply-demand news found)",
+      "KCC/Kamoto Copper DRC (original Jul 9-10 sealing event; bankable.africa Jul 13 update; no Jul 20 new development — production continues)",
+      "Grasberg/Freeport-McMoRan (original Sep 2025 accident; May 2026 ramp-up delay announcement; no Jul 20 update — 40-50% capacity, 65% H2 2026 target)",
+      "Blue Lagoon Dome Mountain (Jul 17 ACCESS Newswire press release, wedoany.com Jul 20 Chinese translation — original date Jul 17 outside window; ~125tpd small scale)",
+      "Catalyst Metals FY26 (Jul 3 ASX announcement — quarterly production 31,812oz, FY26 104koz — outside window)",
+      "WGC央行黄金储备调查2026 (Jun 16 original release — 89% expect increased gold reserves — outside window)",
+      "Hillgrove Resources Emily Star (Jul 17 ASX — outside window; covered in 07-19 dedup log)",
+      "Azzuro Resources Red Hill drilling (Jul 16 ASX — Mongolian copper-gold VMS exploration — outside window)",
+      "铜陵有色/江西铜业/紫金矿业/山东黄金/洛阳钼业 (Jul 20: 无新增公告或产量数据)",
+      "中国黄金协会 (Jul 20: 无新内容)",
+      "SEC EDGAR / ASX / TSX / LSE (Jul 20: 无铜金银矿商产量/运营公告提交)",
+      "中国有色金属工业协会/安泰科 (Jul 20: 无新供给需求数据发布)",
+      "新华财经/财联社/今日头条 (Jul 20: 仅价格行情/宏观分析/券商周报复述)"
+    ],
+    "part3_result": "Jul 20 (Monday): 0 qualified news items. 7月20日为周一，全球矿业新闻产出处于自然低位。所有主要矿商、交易所公告平台和统计机构均无当日供需相关发布。券商周报（中信建投/东方/国泰海通/申万/中邮/华源）均为前期事件的周度总结。铜精矿TC维持深度负值区间（现货-140至-160美元/干吨）、Antofagasta年中长协指数联动定价、KCC刚果税务纠纷持续中（生产未中断）、Grasberg爬产缓慢（40-50%产能）等均为已知趋势的延续性发展，非7月20日新增事件。SMM发布的6月银出口（471吨，+26% MoM）和铜线缆出口（14.9万吨，+21.64% YoY）为滞后贸易数据，反映6月流向而非7月20日供需事件。Blue Lagoon Dome Mountain收入超1000万美元（7月17日公告）和Hillgrove Emily Star铜矿开发批准（7月17日ASX）均不在7月20日窗口内。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "当日无合格信号纳入正文，无需URL核验。所有候选来源已通过搜索摘要和原始页面确认发布日期不在7月20日窗口内或不符合供需信号标准。",
+        "KCC/Kamoto Copper刚果税务纠纷（Jul 9-10 DGI查封办公场所）：核验通过但排除 — 原始事件日期7月9-10日，不在7月20日窗口内。生产持续未中断（miningreporters.com确认 mining and processing operations continued without interruption）。年产量约190,000吨铜，扩产目标300,000吨/年。Glencore与DGI谈判仍在进行中。",
+        "Grasberg铜矿爬产延迟（Freeport-McMoRan May 2026公告）：核验通过但排除 — 原始公告远早于7月20日。当前运营产能40-50%，2026年铜产量预测从10亿磅下调至7亿磅（~317,500吨）。H2 2026预计恢复至65%，2027年底接近100%，2028年初完全恢复。",
+        "Blue Lagoon Dome Mountain收入里程碑（ACCESS Newswire/Blue Lagoon 2026-07-17）：核验通过但排除 — 原始发布日期7月17日，不在7月20日窗口内。运营7个月收入超1000万加元，日产量125吨（目标150吨/天 — 许可上限）。矿山规模极小（估算年产金约3,000-5,000盎司），对全球金矿供给无实质影响。",
+        "Ron Stoeferle引用S&P Global钻探月报（X 2026-07-20）：排除 — 为二手引用第三方报告，无原始S&P Global报告链接可核验；勘探钻探数据属前瞻性指标，非当前供需事件。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Education Jul 17 Contango ORE CEO Shawn Khunkhun (https://www.iheart.com/podcast/269-Mining-Stock-Educat-29238033) — 已在07-17日报排除，估值/股价讨论",
+      "Kitco Digging Deep Jul 2 Nicole Adshead-Bell (https://www.iheart.com/podcast/269-digging-deep-179367932) — 录制日期7月2日，远在窗口外"
+    ],
+    "part3_deduped_events": [
+      "KCC/Kamoto Copper刚果税务纠纷（原始事件2026-07-09至07-10）— DGI查封办公场所，Glencore ~190,000吨/年铜矿，生产持续中。已在07-10至07-17期间多份报告/新闻覆盖，非7月20日新增事件，排除",
+      "Grasberg铜矿爬产延迟（原始公告约2026年5月）— Freeport-McMoRan预期2026年铜产量从10亿磅降至7亿磅（~317,500吨）。长期已知趋势，非7月20日新增事件，排除",
+      "Blue Lagoon Dome Mountain收入超1000万加元（ACCESS Newswire 2026-07-17）— 原始日期7月17日，不在7月20日窗口内。125吨/天小型矿山，对全球供给无实质影响，排除",
+      "Hillgrove Resources Emily Star开发批准（ASX 2026-07-17）— 原始日期7月17日，不在7月20日窗口内，排除（已在07-19日报dedup）",
+      "Catalyst Metals FY26产量季报（ASX 2026-07-03）— 季度31,812oz、年度104koz金。原始日期7月3日，排除",
+      "WGC 2026央行黄金储备调查（2026-06-16发布）— 89%预计增持。原始日期6月16日，排除",
+      "中信建投/东方/国泰海通/申万/中邮/华源证券有色周报（2026-07-20）— 均为周度行情回顾和分析，无7月20日当日新增供给需求事件，排除",
+      "SMM 6月银出口/铜线缆出口数据（2026-07-20发布）— 6月滞后贸易统计数据，非7月20日供需事件，排除"
+    ]
+  }
+}
