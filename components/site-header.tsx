@@ -11,7 +11,30 @@ const TC_URL = "https://www.metal.com/copper/201910240001";
 
 export function SiteHeader() {
   const [isHidden, setIsHidden] = useState(false);
+  const [isTcMenuOpen, setIsTcMenuOpen] = useState(false);
   const lastScrollY = useRef(0);
+  const tcMenuCloseTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const tcMenuRef = useRef<HTMLDivElement>(null);
+
+  function cancelTcMenuClose() {
+    if (tcMenuCloseTimer.current) {
+      clearTimeout(tcMenuCloseTimer.current);
+      tcMenuCloseTimer.current = null;
+    }
+  }
+
+  function closeTcMenu() {
+    cancelTcMenuClose();
+    setIsTcMenuOpen(false);
+  }
+
+  function scheduleTcMenuClose() {
+    cancelTcMenuClose();
+    tcMenuCloseTimer.current = setTimeout(() => {
+      setIsTcMenuOpen(false);
+      tcMenuCloseTimer.current = null;
+    }, 280);
+  }
 
   useEffect(() => {
     lastScrollY.current = window.scrollY;
@@ -43,6 +66,31 @@ export function SiteHeader() {
     };
   }, []);
 
+  useEffect(() => {
+    if (!isTcMenuOpen) return;
+
+    function handlePointerDown(event: PointerEvent) {
+      if (!tcMenuRef.current?.contains(event.target as Node)) {
+        closeTcMenu();
+      }
+    }
+
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        closeTcMenu();
+      }
+    }
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+    return () => {
+      document.removeEventListener("pointerdown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, [isTcMenuOpen]);
+
+  useEffect(() => () => cancelTcMenuClose(), []);
+
   return (
     <header
       className={`site-header${isHidden ? " site-header--hidden" : ""}`}
@@ -67,9 +115,51 @@ export function SiteHeader() {
           <a href={INVENTORY_URL} rel="noopener noreferrer" target="_blank">
             库存
           </a>
-          <a href={TC_URL} rel="noopener noreferrer" target="_blank">
-            TC
-          </a>
+          <div
+            className={`tc-menu${isTcMenuOpen ? " tc-menu--open" : ""}`}
+            onBlur={(event) => {
+              if (!event.currentTarget.contains(event.relatedTarget)) {
+                closeTcMenu();
+              }
+            }}
+            onFocus={() => {
+              cancelTcMenuClose();
+              setIsTcMenuOpen(true);
+            }}
+            onPointerEnter={(event) => {
+              if (event.pointerType === "mouse") {
+                cancelTcMenuClose();
+                setIsTcMenuOpen(true);
+              }
+            }}
+            onPointerLeave={(event) => {
+              if (event.pointerType === "mouse") scheduleTcMenuClose();
+            }}
+            ref={tcMenuRef}
+          >
+            <button
+              aria-controls="tc-menu-panel"
+              aria-expanded={isTcMenuOpen}
+              className="tc-menu__trigger"
+              onClick={() => {
+                cancelTcMenuClose();
+                setIsTcMenuOpen(true);
+              }}
+              type="button"
+            >
+              TC
+            </button>
+            <div className="tc-menu__panel" id="tc-menu-panel">
+              <a href={TC_URL} rel="noopener noreferrer" target="_blank">
+                <span>SMM Copper Concentrate Index</span>
+                <small>Shanghai Metals Market</small>
+              </a>
+              <Link href="/historical-tc">
+                <span>Historical TC</span>
+                <small>Weekly history and interactive chart</small>
+              </Link>
+            </div>
+          </div>
         </nav>
       </div>
     </header>

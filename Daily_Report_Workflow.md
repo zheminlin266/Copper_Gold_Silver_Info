@@ -1,15 +1,15 @@
 # 每日信息工作流
 
-本文是 Workbuddy 调用 DeepSeek-V4 PRO 生成“金银铜供需信息”日报的唯一执行规范。网站代码只负责展示；每日任务只新增一份 JSON，不生成 HTML，不手工更新首页。
+本文是 Workbuddy 调用 DeepSeek-V4 PRO 生成“金银铜供需信息”日报及执行每周 TC 更新的唯一执行规范。网站代码只负责展示；每日任务新增一份日报 JSON，周一任务还可以按第 9A 节追加一条 TC CSV 数据，不生成 HTML，不手工更新首页。
 
 ## 1. 不变量
 
 - 时区统一为 `Asia/Shanghai`（UTC+8）。
 - 每日 07:00 开始任务，全年执行。
 - `RUN_DATE` 是任务开始日，`REPORT_DATE = RUN_DATE - 1 个自然日`。
-- 输出文件只能是 `data/REPORT_DATE.json`，其中 `date` 必须等于文件名。
+- 日报输出文件只能是 `data/REPORT_DATE.json`，其中 `date` 必须等于文件名；北京时间周一可另外按第 9A 节追加 `data/smm_copper_concentrate_index_2026.csv`。
 - `report_time` 写实际完成报告的北京时间 ISO 8601 时间，不伪造为 07:00。
-- JSON 是首页、日报、归档和搜索的唯一内容源。
+- JSON 是首页、日报、归档和搜索的唯一内容源；TC 历史页只读取 `data/smm_copper_concentrate_index_2026.csv`。
 - 生产站点固定为 `https://metals.zhemin.ltd`。
 - 研究不完整、来源未核验或本地检查失败时不得推送。
 
@@ -29,6 +29,7 @@
 2. 检查 `git status`，保留用户已有修改；不要覆盖或删除不属于本次日报的文件。
 3. 确认 `data/REPORT_DATE.json` 不存在。若已存在，停止并先判断是重跑、纠错还是日期计算错误。
 4. 记录三个时间窗口，后续每条候选都据此筛选。
+5. 若 `RUN_DATE` 是北京时间周一，同时读取 `data/smm_copper_concentrate_index_2026.csv`，按第 9A 节判断是否需要追加上周 TC；其他星期不得修改该 CSV。
 
 种子 CSV 是发现入口，不是白名单。可靠的新人物、公司、媒体或监管来源可以纳入，写入 `search_log.new_sources_discovered`，并在核验后追加到 `data/sources_discovered.json`，不得覆盖原有记录。会议窗口内还要按 `data/conference_calendar.json` 增加主办方、演讲者和回放检索。
 
@@ -125,6 +126,54 @@
 
 原始材料应保留且不得覆盖：X 候选继续写入按日期命名的 `x_outputs/REPORT_DATE_x_raw_materials.txt`；其他确有复核价值的原始材料使用带日期的新文件。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
 
+## 9A. 每周一 TC 更新（无需 SMM 登录）
+
+此任务与日报研究相互独立。TC 获取失败时不得写入猜测值或部分记录，但应继续完成日报，并在最终汇报中单独列出 TC 状态和失败证据。
+
+### 9A.1 日期与幂等检查
+
+1. 仅当 `RUN_DATE` 是北京时间周一时执行；`TARGET_FRIDAY` 为紧邻该周一之前的星期五，不得写死日期。
+2. 目标文件固定为 `data/smm_copper_concentrate_index_2026.csv`。先确认表头仍为 `assessment_date,value_usd_per_dmt,change_usd_per_dmt,source_url,source_note`，并读取最后一条记录。
+3. 若 CSV 已有相同 `assessment_date` 且数值一致，视为幂等成功并跳过写入；若相同日期的数值不同，停止 TC 更新并报告冲突，不得覆盖历史数据。
+
+### 9A.2 无登录数据路径
+
+SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评正文需要登录，Workbuddy 不得尝试代替用户登录，也不得把锁定页面中的空白字段当作零值。按以下公开路径获取：
+
+1. 打开 SMM 铜页面 `https://hq.smm.cn/copper` 或市场周评列表 `https://hq.smm.cn/copper/list/14013`，找到 `TARGET_FRIDAY` 对应的“〖SMM铜精矿现货周评〗”标题、发布日期和官方文章 URL。此步骤用于确认文章身份；即使正文受限，也保留该官方页面用于交叉核验。
+2. 使用网页搜索逐条执行动态日期查询，不得只搜索固定示例：
+   - `"M月D日，SMM进口铜精矿指数（周）报"`
+   - `"TARGET_FRIDAY SMM 进口铜精矿指数 周"`
+   - `"完整的 SMM 铜精矿现货周评标题"`
+3. 来源优先级如下：
+   - 无需登录且正文明确显示完整数值的 SMM 新闻、评论、分析或关键词页面；
+   - 完整转载并明确标注来源为 SMM、今日有色或 SMM 作者的可靠公开页面，例如新浪财经；
+   - 期货公司或行业机构的公开周报只能作为第二项交叉核验，不得在缺少前两类来源时单独写入。
+4. 搜索结果摘要只能用于发现候选 URL，不能单独作为写入证据。必须实际打开至少一个无需登录的完整正文，找到类似“X月X日，SMM进口铜精矿指数（周）报 VALUE 美元/干吨，较上一期的 PRIOR 美元/干吨上升/下降 CHANGE 美元/干吨”的明确句子。
+5. 同时打开当期 SMM 官方周度报价页或铜页面，核对评估日期、单位以及公开显示的涨跌方向/变化值。官方报价页即使隐藏指数均值，仍可用于确认日期和变化值。
+
+已验证的 `2026-07-17` 路径只用于理解方法，不得在未来任务中写死：SMM 铜页面列出的官方周评为 `https://hq.smm.cn/copper/content/104011499`（正文登录受限）；当期官方报价页为 `https://hq.smm.cn/copper/content/104010843`；无需登录的完整 SMM 周评转载为 `https://finance.sina.com.cn/wm/2026-07-17/doc-iniickay1390391.shtml`，正文明确给出 `-146.15` 美元/干吨、上一期 `-132.84` 和下降 `13.31`。未来每周必须重新发现当期 URL，不得沿用这个示例。
+
+### 9A.3 数据校验与节假日
+
+写入前必须同时满足：
+
+- `assessment_date` 是来源明确写出的实际评估日期；`value_usd_per_dmt` 和 `change_usd_per_dmt` 是有限数字，保留两位小数，单位为美元/干吨（USD/dmt）。
+- 公开正文中的 `PRIOR` 与 CSV 最后一条 `value_usd_per_dmt` 一致。
+- 按两位小数计算 `VALUE - PRIOR = CHANGE`。若来源用“下降 X”，CSV 的 `CHANGE` 写负数；用“上升 X”则写正数。
+- 至少两个独立页面相互吻合：一个是上述公开完整正文，另一个是 SMM 官方报价/铜页面或可靠机构周报。
+- `source_url` 必须指向实际提供完整数值、无需登录即可打开的具体正文。若使用公开转载，`source_note` 明确写明原始来源为 SMM、转载平台以及官方 SMM 页面已交叉核验；不要把登录受限的 SMM URL 伪装成直接取值来源。
+
+若上周五因中国节假日没有发布，查找自 CSV 最后一条记录之后、`TARGET_FRIDAY` 当日或之前最近一次由 SMM 明确发布的周度评估；使用来源中的实际日期，并在 `source_note` 写明 holiday schedule。不得用周五日期替代周四等实际发布日期。若没有找到新的明确评估，跳过写入并报告，不得沿用旧值制造新行。
+
+### 9A.4 写入、页面同步与失败边界
+
+1. 只追加一条经过核验的新记录，保持日期升序。按 CSV 规则转义包含逗号或双引号的字段，不得重写或重新格式化历史行。
+2. 写入后重新读取 CSV，确认表头、字段数、日期唯一性和最后一行数值正确。
+3. `/historical-tc` 在 Next.js 构建时直接读取该 CSV；不得手改图表组件、首页、HTML 或缓存来“同步”数据。
+4. 按第 10 节运行全部校验和构建，并在本地检查 `/historical-tc` 的最新日期、最新值、周变化、折线位置、鼠标提示和完整数据表。
+5. 登录墙、找不到公开完整正文、数值冲突或算术不一致都属于 TC 更新失败。保留 CSV 不变，记录检查过的 URL 和失败原因，然后继续日报流程。
+
 ## 10. 本地校验
 
 构建前清除当前 PowerShell 进程继承的 `NODE_OPTIONS`，避免 Workbuddy 环境参数传入 Next.js 的 Node.js Worker：
@@ -148,6 +197,7 @@ npm run build
 - `/` 的最新日报日期、摘要和信号数量。
 - `/daily/REPORT_DATE` 的标题、分组、来源链接和空状态。
 - `/archive` 能找到新日期，并能按中文关键词和金属搜索。
+- 周一追加 TC 时，`/historical-tc` 显示新的实际评估日期、指数值、周变化，鼠标提示和完整数据表一致。
 - 800px 以下视口没有横向滚动，键盘焦点可见。
 
 任一检查失败，修复后从第一条命令重新运行。校验失败时不得提交或推送。
@@ -170,14 +220,15 @@ npm run build
 
 ## 11. 提交与发布
 
-确认变更范围只包含本次日报及必要的纠错后：
+确认变更范围只包含本次日报、周一按第 9A 节更新的 TC CSV 及必要的纠错后：
 
-1. 提交信息使用 `Add YYYY-MM-DD daily report`。
+1. 未更新 TC 时提交信息使用 `Add YYYY-MM-DD daily report`；同一提交包含周一 TC 更新时使用 `Add YYYY-MM-DD daily report and update TC`。
 2. 推送到 `main`。
 3. GitHub Actions 运行校验、测试和构建；它不收集或生成内容。
 4. Vercel 监听 `main` 并自动部署。
-5. 部署完成后检查 `https://metals.zhemin.ltd/`、`https://metals.zhemin.ltd/daily/REPORT_DATE` 和 `https://metals.zhemin.ltd/archive`。
-6. 检查站点导航中的库存和 TC 外部链接。TC 链接应打开上海有色网的铜精矿加工费页面 `https://www.metal.com/copper/201910240001`；该页面需要用户自行登录，只确认链接及登录提示正常，不代替用户登录，也不把受限数据作为日报发布成功的前置条件。
+5. 部署完成后检查 `https://metals.zhemin.ltd/`、`https://metals.zhemin.ltd/daily/REPORT_DATE`、`https://metals.zhemin.ltd/archive` 和 `https://metals.zhemin.ltd/historical-tc`。
+6. 检查站点导航中的库存和 TC 悬浮菜单。TC 菜单必须同时显示外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`；外部页面需要用户自行登录，只确认链接及登录提示正常，不代替用户登录。
+7. 周一写入 TC 后，确认生产 `Historical TC` 页面的最新日期和值与 CSV 一致。
 
 07:00 是任务开始时间。只有生产页可访问、日期正确且来源链接正常，才算发布完成。
 
@@ -188,6 +239,7 @@ npm run build
 - 来源冲突：优先一手、时间更近且口径更完整的来源，并在解释中说明口径差异。
 - 任务延迟或补跑：明确指定目标 `REPORT_DATE`，窗口仍按该日期计算，不能直接用当前日期覆盖。
 - 文件已存在或工作区有不明修改：停止写入，先确认修改来源，避免数据丢失。
+- TC 来源受登录限制、缺少公开完整正文或数值冲突：保留 CSV 不变并报告，继续完成日报，不用搜索摘要或旧值填补。
 - 构建疑似缓存故障：按第 10 节精确清理 `.next` 并且只重试一次；不得用自定义分批删除脚本绕过 safe-delete。
 - 推送后构建失败：不要新增另一份日报掩盖问题；修复原提交并重新完成全部检查。
 
@@ -202,7 +254,7 @@ npm run build
 - [ ] 每个正文来源都已打开核验，没有站点首页或虚构链接。
 - [ ] 事实、数字、口径和研究判断明确分开。
 - [ ] 重复事件已排除并记录。
-- [ ] 网站内容只新增 `data/REPORT_DATE.json`；必要的原始材料和来源登记按日期追加，没有手改首页、HTML 或图片。
+- [ ] 网站内容只新增 `data/REPORT_DATE.json`；若为周一，只按第 9A 节额外追加最多一条 TC CSV 记录；必要的原始材料和来源登记按日期追加，没有手改首页、HTML 或图片。
 - [ ] 内容校验、测试和生产构建全部通过。
-- [ ] 推送后 GitHub Actions、Vercel 和 `https://metals.zhemin.ltd` 的三个生产页面检查通过。
-- [ ] 库存和 TC 导航链接可打开；TC 页面显示正常登录入口，未尝试代替用户登录。
+- [ ] 推送后 GitHub Actions、Vercel 和 `https://metals.zhemin.ltd` 的四个生产页面检查通过。
+- [ ] 库存和 TC 导航可打开；TC 悬浮菜单有两个入口，Historical TC 正常显示；外部 SMM 页面显示正常登录入口，未尝试代替用户登录。

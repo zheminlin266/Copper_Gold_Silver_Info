@@ -4,7 +4,7 @@
 
 生产站点：<https://metals.zhemin.ltd>
 
-站点导航包含铜库存和铜精矿加工费（TC）入口。TC 数据链接指向上海有色网页面，打开后需要自行登录。
+站点导航包含铜库存和铜精矿加工费（TC）入口。鼠标移到 TC 后可选择上海有色网原始页面，或打开本站的 Historical TC 历史折线图。
 
 ## 更新频率与时间
 
@@ -64,7 +64,8 @@ npm run dev
 - `/daily/YYYY-MM-DD`：每日完整信息页
 - `/archive`：全量日报搜索和金属筛选
 - `库存`：外部铜库存数据页面
-- `TC`：外部铜精矿加工费数据页面（打开后需自行登录）
+- `TC > SMM Copper Concentrate Index`：外部铜精矿加工费数据页面（打开后需自行登录）
+- `TC > Historical TC`：由 `data/smm_copper_concentrate_index_2026.csv` 生成的历史折线图
 - `data/daily_report_schema.json`：日报字段规范
 - `Daily_Report_Workflow.md`：Workbuddy 每日执行规范
 - `mining_people_broadcast_x_articles.csv`：人物与来源种子表

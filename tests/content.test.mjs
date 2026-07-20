@@ -4,6 +4,7 @@ import path from "node:path";
 import test from "node:test";
 
 import { getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
+import { parseTcCsv } from "../lib/tc-data.ts";
 import { loadReports, validateReport } from "../scripts/validate-content.mjs";
 
 test("archive pagination shows 20 newest items before older pages", () => {
@@ -24,6 +25,24 @@ test("all daily reports are valid and uniquely dated", () => {
   const dates = reports.map((report) => report.date);
   assert.equal(new Set(dates).size, dates.length);
   assert.deepEqual(dates, [...dates].sort());
+});
+
+test("TC CSV parsing validates, sorts, and preserves quoted source notes", () => {
+  const csv = [
+    "assessment_date,value_usd_per_dmt,change_usd_per_dmt,source_url,source_note",
+    '2026-01-16,-46.53,-1.12,https://example.com/2,"weekly review, verified"',
+    "2026-01-09,-45.41,-0.43,https://example.com/1,direct review",
+  ].join("\n");
+
+  const points = parseTcCsv(csv);
+  assert.deepEqual(points.map((point) => point.assessmentDate), ["2026-01-09", "2026-01-16"]);
+  assert.equal(points[1].sourceNote, "weekly review, verified");
+  assert.equal(points[1].value, -46.53);
+
+  assert.throws(
+    () => parseTcCsv(`${csv}\n2026-01-16,-47,-0.47,https://example.com/3,duplicate`),
+    /duplicate assessment_date/,
+  );
 });
 
 test("daily summaries stay within the 300-character editorial limit", () => {
@@ -132,6 +151,7 @@ test("SEO metadata declares crawl routes, self canonicals, and daily Article fie
   const layout = fs.readFileSync(path.join(process.cwd(), "app/layout.tsx"), "utf8");
   const archive = fs.readFileSync(path.join(process.cwd(), "app/archive/page.tsx"), "utf8");
   const daily = fs.readFileSync(path.join(process.cwd(), "app/daily/[date]/page.tsx"), "utf8");
+  const historicalTc = fs.readFileSync(path.join(process.cwd(), "app/historical-tc/page.tsx"), "utf8");
 
   assert.match(robots, /allow:\s*"\/"/);
   assert.match(robots, /sitemap:\s*`\$\{SITE_URL\}\/sitemap\.xml`/);
@@ -144,4 +164,6 @@ test("SEO metadata declares crawl routes, self canonicals, and daily Article fie
   assert.match(daily, /headline:\s*articleTitle/);
   assert.match(daily, /description:\s*getReportSummary\(report\)/);
   assert.match(daily, /datePublished:\s*publishedAt/);
+  assert.match(sitemap, /\/historical-tc/);
+  assert.match(historicalTc, /canonical:\s*"\/historical-tc"/);
 });
