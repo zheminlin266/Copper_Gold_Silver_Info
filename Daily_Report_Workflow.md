@@ -71,6 +71,30 @@
 
 对同一事件，优先保留一手来源；一手来源缺失时使用最接近原始事件、信息最完整的可靠报道。转载发布日期在窗口内、但原始事件已经在旧日报出现的，按重复事件排除。
 
+### 5.3A mining.com 强制抓取规则
+
+mining.com 近期对自动化请求启用了 CloudFront 反爬（/feed/、/copper、/commodity/copper/ 等页面返回 403），直连抓取已不可靠。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
+
+1. **首选：Google `site:mining.com` 搜索**。在每次 Part 3 检索中，独立执行以下搜索查询（逐日 + 逐金属组合）：
+   - `site:mining.com copper July DD 2026`
+   - `site:mining.com gold July DD 2026`
+   - `site:mining.com silver July DD 2026`
+   - 其中 DD 对应 Part 3 窗口的每一个自然日日期。
+   
+2. **扫描 `https://www.mining.com/commodity/copper/`**。该页面为 mining.com 铜分类汇总页，可能与主站首页有不同的缓存/防护策略。即使该页返回 403，也应在搜索日志中如实记录，并继续第 1 步的 site:搜索。
+   
+3. **内容核验**。site:mining.com 搜索摘要只能用于发现候选——不得直接作为写入证据。找到候选后：
+   - 优先尝试直接抓取文章 URL 的完整正文；
+   - 若文章 URL 返回 403，使用 Google 搜索摘要（标题、日期、核心事实）作为基础，再寻找至少一个中文转载来源（如 SMM 上海有色网、新浪财经、东方财富网等）交叉核验关键事实（日期、矿名、产量/停产/溢价数据、涉及公司）；
+   - 若前两步均无法获取完整原文，在 `mining_com_source_note` 字段明确说明核验路径和局限性（如"URL 403 不可达；内容基于 Google 摘要 + SMM 中文转载交叉验证"）。
+   
+4. **搜索日志记录**。在 `search_log.part3_sources_checked` 中，必须单独记录以下三项：
+   - mine. com `site:mining.com` 搜索命中数
+   - mining.com 文章直接抓取成功/失败状态（403 / 200）
+   - 每篇入选文章所用的核验路径
+
+5. **不采用** sitemap、Wayback Machine、RSS feed 等方法——`site:mining.com` Google 搜索 + `https://www.mining.com/commodity/copper/` 是唯一的也必须完成的信息采集路径。
+
 ## 6. 内容筛选
 
 每条信号必须回答：发生了什么、影响哪种金属、影响供给还是需求、为什么值得关注。每条信号必须填写一个 `primary_metal`，用于决定正文中的唯一展示板块；它必须同时出现在 `metal_tags` 中。`metal_tags` 保留所有具有实质供需关联的金属，不要仅因正文提到某种金属或价格就添加标签。主金属按最重要的未来供需变化或催化剂确定，不按标题出现顺序确定。
@@ -195,10 +219,13 @@ npm run build
 然后本地打开并检查：
 
 - `/` 的最新日报日期、摘要和信号数量。
-- `/daily/REPORT_DATE` 的标题、分组、来源链接和空状态。
+- `/daily/REPORT_DATE` 的标题、分组、来源链接和空状态；“黄金 / 白银 / 铜 / 来源审计”内导航属于正文普通流，向下滚动后必须随正文离开视口，不得固定或悬浮在内容上方。
 - `/archive` 能找到新日期，并能按中文关键词和金属搜索。
-- 周一追加 TC 时，`/historical-tc` 显示新的实际评估日期、指数值、周变化，鼠标提示和完整数据表一致。
+- `/historical-tc` 可正常打开，摘要、折线图、鼠标提示和完整数据表读取同一份 CSV；横轴按实际评估日期间隔绘制，纵轴单位为 `USD/dmt`。周一追加 TC 时，页面必须显示新的实际评估日期、指数值和周变化。
+- 页头 `TC` 是双入口悬浮菜单。鼠标移到 `TC` 后菜单应平滑向下出现，菜单顶边与页头分隔线贴合；鼠标从 `TC` 向左下方移动到菜单时不得提前消失。菜单必须包含外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`，两个链接均可打开。
 - 800px 以下视口没有横向滚动，键盘焦点可见。
+
+若本次变更只包含日报 JSON 或 TC CSV，可对上述固定页面行为做快速冒烟检查；若本次变更包含 `app/`、`components/` 或样式文件，必须使用真实浏览器逐项操作，并确认没有 Next.js 错误覆盖层、浏览器控制台错误或失败的站内请求。
 
 任一检查失败，修复后从第一条命令重新运行。校验失败时不得提交或推送。
 
@@ -229,6 +256,7 @@ npm run build
 5. 部署完成后检查 `https://metals.zhemin.ltd/`、`https://metals.zhemin.ltd/daily/REPORT_DATE`、`https://metals.zhemin.ltd/archive` 和 `https://metals.zhemin.ltd/historical-tc`。
 6. 检查站点导航中的库存和 TC 悬浮菜单。TC 菜单必须同时显示外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`；外部页面需要用户自行登录，只确认链接及登录提示正常，不代替用户登录。
 7. 周一写入 TC 后，确认生产 `Historical TC` 页面的最新日期和值与 CSV 一致。
+8. 若提交包含页面或样式代码，必须在生产站用真实浏览器复核：TC 菜单动画及左下安全移动区有效、菜单顶边与页头分隔线贴合、Historical TC Tooltip 能跟随鼠标显示准确数据、日报内导航随正文滚走。只验证 HTTP 200 或页面 HTML 不足以替代这一步。
 
 07:00 是任务开始时间。只有生产页可访问、日期正确且来源链接正常，才算发布完成。
 
@@ -258,3 +286,4 @@ npm run build
 - [ ] 内容校验、测试和生产构建全部通过。
 - [ ] 推送后 GitHub Actions、Vercel 和 `https://metals.zhemin.ltd` 的四个生产页面检查通过。
 - [ ] 库存和 TC 导航可打开；TC 悬浮菜单有两个入口，Historical TC 正常显示；外部 SMM 页面显示正常登录入口，未尝试代替用户登录。
+- [ ] 新页面行为符合基线：TC 菜单可稳定移入、顶边对齐，Historical TC 图表与 CSV 一致，日报内导航不悬浮；涉及页面代码时已用真实浏览器验证且无错误覆盖层或控制台错误。

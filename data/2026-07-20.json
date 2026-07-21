@@ -15,10 +15,57 @@
       "end": "2026-07-20T23:59:59+08:00"
     }
   },
-  "summary": "7月20日（周一）为新一周首个交易日，铜金银供需三端均无重大新增信号。Q2季度产量报告密集期（7月14-16日）已过，周一矿业新闻和播客产出处于自然低位。铜精矿现货TC维持深度负值（约-140至-160美元/干吨区间），Antofagasta年中长协指数联动定价模式延续影响冶炼利润，但均为已知趋势的延续。",
+  "report_note": "2026-07-21 追补：原日报因 mining.com CloudFront 403 拦截漏报了3条供需相关新闻。本次补充：中国进口铜溢价破$100/t（自2025年5月以来首次三位数）、South32 Q4智利铜产量下滑至16,000吨（同比-9.6%）、印度白银进口溢价达$6.50/oz创6个月新高反映实物紧张。",
+  "summary": "7月20日铜供需信号密集：中国进口铜溢价突破$100/t（自2025年5月来首次三位数，增值税整顿抑制废铜流通推动进口阴极替代需求）；South32 Q4 Sierra Gorda铜产量16,000吨同比-9.6%（低于预期），智利风暴余波持续。白银方面，印度进口溢价$6.50/oz创6个月新高。黄金中国批发需求十年低点（WGC）。TC维持深度负值区间（-140至-160美元/干吨）。",
   "part1_broadcasts": [],
   "part2_x_posts": [],
-  "part3_news": [],
+  "part3_news": [
+    {
+      "source": "MINING.com / Goldman Sachs / SMM",
+      "title": "中国进口铜溢价突破$100/t创一年多新高：增值税发票整顿抑制废铜流通，进口阴极替代需求激增；LME库存降至3月以来最低",
+      "url": "https://www.mining.com/web/key-china-copper-gauge-rallies-to-100-after-tax-crackdown",
+      "publish_time": "2026-07-20",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "excerpt": "7月20日，中国进口铜溢价升至$100/吨，自2025年5月以来首次触及三位数——SMM数据显示，这一数据远高于1月底的低点$20/吨。核心驱动因素是北京对'发票经济'的持续整治：传统上用税务发票获取融资的贸易商面临更严格的增值税执法，废铜处理商运营受限，导致国内废铜流通严重收紧。废铜短缺促使下游用户转向进口阴极铜（替代需求）。Goldman Sachs分析师Lavinia Forcellese在7月20日报告中指出：'我们将近期的收紧主要归因于废铜到阴极的替代，而非终端需求。增值税对废铜的更严格执法抑制了国内废铜流通。'LME注册仓库库存周五降至3月以来最低，贸易商正从LME提取铜发往中国市场。同时，Earth-i卫星数据显示4-6月中国约七分之一的冶炼设施处于不活跃状态（不活跃率从5.5%升至14%），冶炼厂检修期间通常需要额外采购废铜、锭或阳极来弥补产量损失，而废铜供应的急剧下降加剧了这一紧张。来源：MINING.com (Julian Luk & Martin Ritchie)。",
+      "interpretation": "中国进口铜溢价的飙升（从$20→$100/t）是铜市场一个重要的结构性信号，但Goldman Sachs明确区分了驱动因素：这不是终端消费的爆发，而是废铜→阴极的替代需求。增值税发票整顿是政策驱动性结构变化——它改变了废铜在市场上的可交易性，推动可追溯、正规化的进口阴极需求增加。短期影响：进口溢价飙升=更强的精铜进口动力，将加速LME去库（已降至3月低点）并向COMEX创纪录库存形成反差。中期影响：如果废铜流通持续收紧，冶炼厂对进口铜精矿的依赖增加——这在本已深度负值的TC环境下将进一步挤压冶炼利润。冶炼厂检修增多（不活跃率14%）叠加废铜替代效应，可能导致中国精炼铜市场化供给量下降，在铜需求季节性回升时加剧现货紧张。关键区分：这不是终端消费驱动——如果增值税政策日后调整或被替代方案抵消，溢价可能迅速回落。",
+      "importance": "中国占全球精炼铜消费的约55%。进口溢价$100/t是衡量中国现货市场紧松的关键温度计——它是即期供需的最直接指标（比LME价格更能反映中国本土市场状况）。Goldman Sachs的institutional背书+卫星数据+增值税执法的政策逻辑构成多个独立证据链。这一信号与Grasberg爬产缓慢、智利风暴铜矿干扰、TC深度负值构成同一叙事中的需求侧变量——原本被认为是\\\"结构性短缺\\\"的市场正呈现出比预期更紧的供需平衡。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "直接URL https://www.mining.com/copper-price-rises-key-china-gauge-one-year-high-chile-output-losses-mount/ 因CloudFront 403不可达；内容通过 https://www.mining.com/web/key-china-copper-gauge-rallies-to-100-after-tax-crackdown 成功抓取完整正文（WebFetch成功），并经Google搜索交叉核验。"
+    },
+    {
+      "source": "MINING.com / South32",
+      "title": "South32 Q4 FY2026智利Sierra Gorda铜产量16,000吨（同比-9.6%），低于Visible Alpha一致预期17,500吨；FY2027单位运营成本预计比FY2026高约10%",
+      "url": "https://www.mining.com/web/south32-q4-copper-output-declines-missing-market-estimates",
+      "publish_time": "2026-07-20",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月20日（周一），澳大利亚多元化矿业公司South32公布第四季度（2026年4-6月）铜产量数据：Sierra Gorda（智利Antofagasta地区，KGHM持股55%，South32持股45%）应付铜产量16,000吨，同比-9.6%（去年同期17,700吨），低于Visible Alpha市场一致预期的17,500吨。产量下滑的直接原因是恶劣天气的持续影响——3月季度强降雨已导致矿区道路通行受阻和加工作业一度暂停。Q4品位下降反映了在矿区道路受天气影响后，为补充矿石供应而加工了较低品位物料。FY2026全年应付铜当量产量87,100吨（仍超年度指引2%）。由于此前宣布的一笔一次性员工付款和柴油价格上涨，FY2027单位运营成本预计比FY2026高约10%。合资企业近期已批准第四条磨矿生产线扩建项目，处理能力提升约25%，增长性资本开支预计7.25亿美元（2027-2030年）。FY2027产量指引维持90,200吨不变。来源：MINING.com (Nikita Maria Jino & Jasmeen Ara Shaikh)。",
+      "interpretation": "South32的Q4铜产量数据是近期智利铜矿供给侧受损的又一个量化证据。Q4 16,000吨 vs 一致预期17,500吨（缺口-8.6%）直接反映了智利冬季气候对铜矿运营的传导链条：3月强降雨→矿区道路通行受阻→加工较低品位矿石→Q4品位下降→产量下滑。这是对前一阶段\\\"预警\\\"（7月14-15日紧急会议）和\\\"冲击\\\"（7月18日矿山实际停产）的量化兑现——天气影响的滞后效应在Q4生产数据中显示出来。FY2027成本指引上调约10%（员工付款+柴油）提示智利铜矿通胀压力正在显现——叠加TC深度负值和品位结构性下降，短期内不具备成本缓释条件。扩展项目（第四条磨矿线+25%处理能力）为中期增量提供确定性，但7.25亿美元的资本开支需至2030年才完全兑现。FY2027产量指引维持在90,200吨说明公司对现有资产爬产仍有一定信心。",
+      "importance": "Sierra Gorda是全球重要的中型铜矿（South32权益产量约70,000-90,000吨/年），其Q4产量缺口是智利铜矿供给端天气冲击的定量证据——验证了从\\\"风暴预警→国内矿山停产→产量数据滞后反映\\\"的完整传导链条。在当前全球铜市场供给极度紧张的背景下（TC -146美元/干吨），任何产量的下调都会被市场放大。市场一致预期为17,500吨，实际为16,000吨，这意味着单季度少产约1,500吨——虽然绝对量不大，但作为一个'天气预报→实际生产→市场数据'的完整验证案例，其信号意义大于吨位影响。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "URL因CloudFront 403可能不可达；内容核验依据: Google site:mining.com搜索结果摘要 + SMM中文转载(https://news.smm.cn/news/104012929) + Chemanalyst转载(https://www.chemanalyst.com/NewsAndDeals/NewsDetails/south32-copper-output-drops-as-chile-weather-disrupts-sierra-43408)交叉验证。URL保留原始链接。"
+    },
+    {
+      "source": "MINING.com / Bloomberg / Reuters / WGC",
+      "title": "白银从8个月低点反弹；印度进口溢价$6.50/oz创6个月新高反映实物短缺；中国6月黄金批发需求处于十年低点",
+      "url": "https://www.mining.com/silver-rebounds-from-8-month-low-gold-price-defends-4000/",
+      "publish_time": "2026-07-20",
+      "metal_tags": ["silver", "gold"],
+      "primary_metal": "silver",
+      "supply_demand": "demand",
+      "excerpt": "Comex白银期货7月20日从8个月低点反弹1.5%至$56.74/oz（周五触及$55.50为自2025年11月以来最低），黄金微跌0.3%至$4,005/oz守住$4,000关口。实物需求方面：印度对白银进口的限制已造成国内市场短缺，经销商溢价本月升至$6.50/oz创6个月新高（Reuters）；中国6月黄金批发需求处于十年低点，本地黄金ETF创纪录流出（WGC上周报告），尽管央行购金已延续20个月。宏观面：美伊战争进入第九天持续夜间空袭，汽油均价突破$4/加仑（自6月以来首次），但通胀预期和加息风险压制了贵金属避险需求。Global X ETFs分析师Justin Lin指出：'黄金对油价飙升的反应相对温和，这反映投资者对地缘政治已有些麻木，焦点正转向美联储利率路径。'白银年初至今下跌20%，距1月历史高点$121.64/oz已跌去53%，但过去12个月仍上涨约49%。来源：MINING.com Staff Writer。",
+      "interpretation": "银价反弹+印度实物溢价→这是实物紧张正在传导至价格的信号。（1）印度白银进口限制导致的$6.50/oz实物溢价（6个月最高）说明非投资性工业/珠宝需求保持韧性，在进口受限时通过溢价挤出供给——这与黄金的疲弱实物需求形成对比。（2）中国黄金批发需求处于十年低点但央行仍在购买=私人投资需求走弱但官方储备需求维持。WGC数据+ETF流出+油价通胀三者叠加下，金价仍守住$4,000是一个值得注意的韧性信号——若未来加息预期回落或地缘冲突缓和，积累的潜在买盘可能迅速推动金价反弹。（3）白银的$55→$50→$121→$55的剧烈波动反映了其在价格下行市场中\\\"工业金属+贵金属\\\"双重属性下的超高波动率——白银矿商（Coeur/Hecla股价仅为52周高点的一半不到）承受的压力已远超现货银价的跌幅。",
+      "importance": "印度白银进口溢价$6.50/oz是实物市场的稀缺信号——不同于COMEX纸面交易的投机仓位，实物溢价反映的是工业用户和珠宝商的实际购买需求。在全球光伏（银浆用量）和电子工业需求增长的结构性背景下，印度作为最大的白银消费国之一出现实物短缺，强化了白银在供给端的估值支撑。中国黄金需求十年低点则显示美国加息预期和高金价对实物需求的挤出效应仍在持续——央行购金\\\"刚需\\\"和私人投资\\\"弹性需求\\\"正在明显分化。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "URL直接抓取成功（WebFetch 200 OK），正文完整可读。"
+    }
+  ],
   "search_log": {
     "part1_searched": true,
     "part1_sources_checked": [
@@ -50,7 +97,7 @@
       "SMM有色网 (Jul 20: 午评/期货收评 — 纯价格/交易数据；6月银锭出口471吨+26% MoM — 滞后贸易数据)",
       "Mysteel我的钢铁网 (Jul 20: 铜产业早读 — TC现货-140至-160美元/干吨区间成交 — 价格/交易数据；7月电解铜预计产量115.08万吨 — 行业预估/分析)",
       "中信建投/东方证券/国泰海通/申万/中邮/华源证券有色周报 (Jul 20: 均为券商周报复述 — KCC、TC、Grasberg、铜库存等已知事件汇总，无7月20日当日新增事件)",
-      "MINING.com (Jul 20: 403 blocked; Jul 18-19 content only — Blue Lagoon/exploration press releases, Jul 17 window)",
+      "MINING.com (Jul 20: 【2026-07-21 追补】Google site:mining.com 搜索命中3条当日铜/银/金供需信号——(1) 'Key China copper gauge rallies to $100 after tax crackdown' 中国进口铜溢价破$100/t；(2) 'South32 Q4 copper output declines, missing market estimates' Q4 Sierra Gorda铜产量16,000吨同比-9.6%；(3) 'Silver rebounds from 8-month low, gold price defends $4,000' 印度白银进口溢价$6.50/oz创6个月新高+中国黄金需求十年低点。原日报因CloudFront 403直接抓取失败。第(1)条通过mining.com/web/ URL成功抓取完整正文；第(2)条通过Google摘要+SMM/Chemanalyst转载交叉核验；第(3)条直接URL抓取成功。其余4条同日文章(Cadillac IPO/Forrest钨矿/USA Rare Earth/De Beers钻石)不涉及铜金银供需，排除。)",
       "Reuters/BNN Bloomberg mining wires (Jul 20: no copper/gold/silver supply-demand news found)",
       "KCC/Kamoto Copper DRC (original Jul 9-10 sealing event; bankable.africa Jul 13 update; no Jul 20 new development — production continues)",
       "Grasberg/Freeport-McMoRan (original Sep 2025 accident; May 2026 ramp-up delay announcement; no Jul 20 update — 40-50% capacity, 65% H2 2026 target)",
@@ -65,19 +112,21 @@
       "中国有色金属工业协会/安泰科 (Jul 20: 无新供给需求数据发布)",
       "新华财经/财联社/今日头条 (Jul 20: 仅价格行情/宏观分析/券商周报复述)"
     ],
-    "part3_result": "Jul 20 (Monday): 0 qualified news items. 7月20日为周一，全球矿业新闻产出处于自然低位。所有主要矿商、交易所公告平台和统计机构均无当日供需相关发布。券商周报（中信建投/东方/国泰海通/申万/中邮/华源）均为前期事件的周度总结。铜精矿TC维持深度负值区间（现货-140至-160美元/干吨）、Antofagasta年中长协指数联动定价、KCC刚果税务纠纷持续中（生产未中断）、Grasberg爬产缓慢（40-50%产能）等均为已知趋势的延续性发展，非7月20日新增事件。SMM发布的6月银出口（471吨，+26% MoM）和铜线缆出口（14.9万吨，+21.64% YoY）为滞后贸易数据，反映6月流向而非7月20日供需事件。Blue Lagoon Dome Mountain收入超1000万美元（7月17日公告）和Hillgrove Emily Star铜矿开发批准（7月17日ASX）均不在7月20日窗口内。",
+    "part3_result": "Jul 20 (Monday): 3 qualified news items (2026-07-21 追补)。原日报因 mining.com CloudFront 403 拦截判为0条，经Google site:mining.com搜索追补后确认3条供需信号：(1) 中国进口铜溢价突破$100/t（SMM数据，自2025年5月来首次三位数，主因增值税发票整顿抑制废铜流通→进口阴极替代需求，Goldman Sachs评估为非终端消费驱动）；(2) South32 Q4 FY2026 Sierra Gorda铜产量16,000吨（同比-9.6%，低于一致预期17,500吨），智利冬季风暴造成矿区道路受阻→高品位矿石不可及→加工低品位物料→Q4品位下降；(3) 印度白银进口溢价$6.50/oz创6个月新高（Reuters），中国6月黄金批发需求十年低点（WGC）。其余8条同日候选（SMM/券商周报/KCC/Grasberg/Blue Lagoon等）均为窗口外事件或滞后数据，排除。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 0,
-      "passed": 0,
+      "checked": 3,
+      "passed": 3,
       "failed": 0,
       "failures": [],
       "notes": [
-        "当日无合格信号纳入正文，无需URL核验。所有候选来源已通过搜索摘要和原始页面确认发布日期不在7月20日窗口内或不符合供需信号标准。",
-        "KCC/Kamoto Copper刚果税务纠纷（Jul 9-10 DGI查封办公场所）：核验通过但排除 — 原始事件日期7月9-10日，不在7月20日窗口内。生产持续未中断（miningreporters.com确认 mining and processing operations continued without interruption）。年产量约190,000吨铜，扩产目标300,000吨/年。Glencore与DGI谈判仍在进行中。",
-        "Grasberg铜矿爬产延迟（Freeport-McMoRan May 2026公告）：核验通过但排除 — 原始公告远早于7月20日。当前运营产能40-50%，2026年铜产量预测从10亿磅下调至7亿磅（~317,500吨）。H2 2026预计恢复至65%，2027年底接近100%，2028年初完全恢复。",
-        "Blue Lagoon Dome Mountain收入里程碑（ACCESS Newswire/Blue Lagoon 2026-07-17）：核验通过但排除 — 原始发布日期7月17日，不在7月20日窗口内。运营7个月收入超1000万加元，日产量125吨（目标150吨/天 — 许可上限）。矿山规模极小（估算年产金约3,000-5,000盎司），对全球金矿供给无实质影响。",
-        "Ron Stoeferle引用S&P Global钻探月报（X 2026-07-20）：排除 — 为二手引用第三方报告，无原始S&P Global报告链接可核验；勘探钻探数据属前瞻性指标，非当前供需事件。"
+        "MINING.com 'Key China copper gauge rallies to $100 after tax crackdown' (2026-07-20): 核验通过 — 通过 https://www.mining.com/web/key-china-copper-gauge-rallies-to-100-after-tax-crackdown 成功抓取完整正文（WebFetch 200 OK）。确认：中国进口铜溢价$100/t（SMM数据，2025年5月以来首次）、Goldman Sachs评估为非终端消费驱动的废铜→阴极替代、VAT enforcement、LME库存降至3月低点、Earth-i卫星数据14%冶炼不活跃率。原始URL https://www.mining.com/copper-price-rises-key-china-gauge-one-year-high-chile-output-losses-mount/ 返回403，使用/web/替代路径成功。",
+        "MINING.com 'South32 Q4 copper output declines, missing market estimates' (2026-07-20): 核验通过 — 直接URL因CloudFront 403不可达。通过以下来源交叉核验：Google site:mining.com搜索结果（摘要确认标题、日期和16,000吨/17,700吨/17,500吨数据）、SMM中文转载(https://news.smm.cn/news/104012929，确认产量、一致预期、品位、成本指引、扩产计划)、Chemanalyst转载(https://www.chemanalyst.com/NewsAndDeals/NewsDetails/south32-copper-output-drops-as-chile-weather-disrupts-sierra-43408，确认同比-9.6%、季度环比-5.3%、FY全年69,200吨)。三方事实一致。",
+        "MINING.com 'Silver rebounds from 8-month low, gold price defends $4,000' (2026-07-20): 核验通过 — 直接URL抓取成功（200 OK），正文完整可读。确认：Comex银$56.74/oz、印度银溢价$6.50/oz、中国黄金批发需求十年低点、PBOC 20月购金、Global X ETFs Justin Lin评论、John Gross铜期刊引用。",
+        "KCC/Kamoto Copper刚果税务纠纷（Jul 9-10 DGI查封办公场所）：核验通过但排除 — 原始事件日期7月9-10日，不在7月20日窗口内。生产持续未中断。",
+        "Grasberg铜矿爬产延迟（Freeport-McMoRan May 2026公告）：核验通过但排除 — 原始公告远早于7月20日。",
+        "Blue Lagoon Dome Mountain收入里程碑（ACCESS Newswire 2026-07-17）：核验通过但排除 — 原始发布日期7月17日。",
+        "Mining.com同日其余4篇文章（Cadillac $258M IPO/Forrest钨矿投资/USA Rare Earth CEO变更/Ex-De Beers钻石竞购）：审查并排除 — 不涉及铜、金、银供需信号。"
       ]
     }
   },
@@ -94,7 +143,11 @@
       "Catalyst Metals FY26产量季报（ASX 2026-07-03）— 季度31,812oz、年度104koz金。原始日期7月3日，排除",
       "WGC 2026央行黄金储备调查（2026-06-16发布）— 89%预计增持。原始日期6月16日，排除",
       "中信建投/东方/国泰海通/申万/中邮/华源证券有色周报（2026-07-20）— 均为周度行情回顾和分析，无7月20日当日新增供给需求事件，排除",
-      "SMM 6月银出口/铜线缆出口数据（2026-07-20发布）— 6月滞后贸易统计数据，非7月20日供需事件，排除"
+      "SMM 6月银出口/铜线缆出口数据（2026-07-20发布）— 6月滞后贸易统计数据，非7月20日供需事件，排除",
+      "Mining.com 7月20日 Cadillac $258M IPO — 金矿勘探商IPO融资，属金融交易非供需事件，排除",
+      "Mining.com 7月20日 Forrest's $133M tungsten bet — 钨矿投资，非铜金银供需，排除",
+      "Mining.com 7月20日 USA Rare Earth appoints Serra Verde CEO — 稀土公司高管变更，非铜金银供需，排除",
+      "Mining.com 7月20日 Ex-De Beers chief leads bid for diamond giant — 钻石矿竞购，非铜金银供需，排除"
     ]
   }
 }

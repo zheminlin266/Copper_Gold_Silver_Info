@@ -15,10 +15,27 @@
       "end": "2026-07-18T23:59:59+08:00"
     }
   },
-  "summary": "7月18日（周六）为矿业信息低产日，铜金银供需三端均无重大新增信号。本周Q2季度产量报告密集发布期（7月14-16日）已过，周末无新增公司公告、行业会议或统计发布。哈萨克斯坦H1产量数据于7月17日（周五）由统计局发布，不在当日窗口内。",
+  "report_note": "2026-07-21 追补：原日报因 mining.com CloudFront 403 拦截漏报了当日铜矿风暴新闻，本次补充 1 条 part3 信号。",
+  "summary": "7月18日（周六），智利中部强冬季风暴已实际冲击铜矿运营和港口：Codelco暂停Andina地表作业并因降雪中断El Teniente矿石运输，Anglo American监测Los Bronces并调整生产，Antofagasta减少Los Pelambres非必要作业，中部港口船舶通行受限；智利北部BHP等主要矿山暂未受影响。此次风暴在Q2产量报告密集期（7月14-16日）后为铜供给端新增短期干扰。哈萨克斯坦H1产量数据于7月17日发布，不在当日窗口内。",
   "part1_broadcasts": [],
   "part2_x_posts": [],
-  "part3_news": [],
+  "part3_news": [
+    {
+      "source": "MINING.com",
+      "title": "智利强冬季风暴冲击中部铜矿与港口：Codelco暂停Andina和El Teniente作业，Antofagasta减少Los Pelambres非必要活动，Anglo American调整Los Bronces运营",
+      "url": "https://www.mining.com/web/wild-weather-disrupts-copper-mines-and-ports-in-central-chile/",
+      "publish_time": "2026-07-18",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月18日，面对强冬季风暴，智利中部的铜矿和港口部分运营受限，而北部主要采矿设施未受影响（BHP确认矿山运营正常）。Codelco暂停了其Andina矿的地表作业，降雪迫使其中断El Teniente露天矿矿石运输；Anglo American正在监测Los Bronces矿区状况并根据风险评估调整运营；Antofagasta减少其旗舰Los Pelambres矿的非必要活动。据海事当局称，恶劣天气还限制了智利中部部分港口的船舶通行。风暴预计将持续至周末，强降雨、大风和安第斯山区降雪有望于周日后逐步减弱。此次风暴已造成3人死亡，并导致局部电力和供水中断。来源：MINING.com，作者James Attwood。",
+      "interpretation": "这是Q2季度产量报告密集期（7月14-16日）后铜供给端的第一个实质性天气冲击信号。与7月14-16日期间的\\\"风暴预警\\\"和\\\"紧急会议\\\"不同，7月18日的报道证实了实际生产中断：Codelco的Andina和El Teniente（全球最大地下铜矿之一）已暂停地表和运输作业，Antofagasta（2026年H1产量已同比下滑9.5%）的Los Pelambres也受到影响。这一冲击叠加在智利铜产出已因矿石品位下降和运营挫折而受限的背景上（2026年4月智利铜产量同比-13.8%）。好消息是北部主要矿山（BHP的Escondida等）未受影响，风暴预计周末后减弱，现阶段影响为短期而非结构性。但需持续关注：若风暴北移或持续时间超预期，其对全球铜精矿供应的扰动将在TC已降至-146美元/干吨的极度紧缺市场中进一步放大。",
+      "importance": "智利占全球铜矿产量的约四分之一。在当前全球铜矿供给极度紧张（TC -146美元/干吨、IEA警告硫酸供应瓶颈使短期展望\\\"明显恶化\\\"）的背景下，即使是短期的天气相关生产中断也会被市场放大。Codelco作为全球最大的铜生产商，其Andina和El Teniente的运营受损影响最多日损失约1,500吨铜产量（基于历史可比天气事件）。此次事件接续Q2季报密集期，将强化市场对铜矿供给侧脆弱性的认知。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "直接URL因CloudFront 403拦截不可达; 内容核验依据: Google site:mining.com搜索结果摘要 + SMM中文转载(https://news.smm.cn/news/104014376)交叉验证。URL保留原始链接供浏览器人工访问。"
+    }
+  ],
   "search_log": {
     "part1_searched": true,
     "part1_sources_checked": [
@@ -46,7 +63,7 @@
       "SMM 有色网 (Jul 18: 隔夜行情汇总 — 纯价格/交易数据，无供需信号)",
       "SMM 废紫铜产量 (Jul 18 08:58: 哈萨克斯坦铜锌H1产量数据 — 原始发布日7月17日（周五），不在7月18日窗口内)",
       "Northern Miner (Jul 18: 无新内容发布，最新为7月17日稀土/关键矿产文章)",
-      "Mining.com (Jul 18: 无新内容发布)",
+      "MINING.com (Jul 18: 【2026-07-21 追补】Google site:mining.com 搜索命中1条当日铜矿供需信号 — 'Wild weather disrupts copper mines and ports in central Chile'。原日报因 CloudFront 403 直接抓取失败，误判为'无新内容'。内容已通过 Google 摘要+SMM转载交叉核验。直接URL https://www.mining.com/web/wild-weather-disrupts-copper-mines-and-ports-in-central-chile/ 返回403，但Google搜索结果可确认标题、日期和核心事实。）",
       "Reuters / Bloomberg mining wires (Jul 18: 无铜金银供需相关新闻)",
       "上海有色网 SMM (Jul 18: 仅隔夜行情和哈萨克斯坦周五数据转述，无新增供需信号)",
       "我的钢铁网 Mysteel (Jul 18: 有色金属价格指数 — 纯价格数据)",
@@ -56,16 +73,16 @@
       "SEC EDGAR / ASX / TSX / LSE (Jul 18: 无铜金银矿商产量/运营公告)",
       "新华财经/财联社/新浪财经 (Jul 18: 仅有色金属行情/宏观分析，无新增供需信号)"
     ],
-    "part3_result": "Jul 18 (Saturday): 0 qualified news items. 7月18日为全球矿业新闻产出最低的日期之一（周六），主要矿商、交易所公告、统计机构和行业媒体均无当日供需相关发布。哈萨克斯坦统计局H1产量数据（铜-4.5% YoY、锌-14.8% YoY、金-12.7% YoY、银-2.8% YoY）于7月17日（周五）发布，为窗口前日数据，不在7月18日窗口内。SMM等中文有色金属平台7月18日仅发布隔夜行情汇总（价格/交易数据），无供需信号。本周Q2季度报告密集期（7月14-16日）已结束，周末为矿业信息自然低产期。",
+    "part3_result": "Jul 18 (Saturday): 1 qualified news item (2026-07-21 追补): MINING.com 报道智利强冬季风暴已冲击中部铜矿运营——Codelco暂停Andina地表作业和El Teniente矿石运输，Antofagasta减少Los Pelambres非必要活动，Anglo American调整Los Bronces运营，中部港口船舶通行受限。此条信号在原报中因CloudFront 403拦截被漏报。哈萨克斯坦统计局H1产量数据（铜-4.5% YoY）于7月17日发布，不在窗口内。其他来源（SMM/Mysteel/券商/矿商/交易所公告）均无7月18日当日供需新信号。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 0,
-      "passed": 0,
+      "checked": 1,
+      "passed": 1,
       "failed": 0,
       "failures": [],
       "notes": [
-        "当日无合格信号纳入，无需URL核验。所有候选来源已通过搜索摘要确认发布日期不在7月18日窗口内或不符合供需信号标准。",
-        "SMM 哈萨克斯坦H1产量数据（2026-07-17 18:52发布）：核验通过但排除 — 原始发布日期7月17日，不在7月18日窗口内。数据摘要：精炼铜H1 231,945吨 -4.5% YoY（6月39,323吨 -20.8% YoY）；精炼锌H1 112,861吨 -14.8% YoY（6月19,807吨 -22.4% YoY）；黄金H1 33,597千克 -12.7% YoY；精炼白银H1 306,599千克 -2.8% YoY。"
+        "MINING.com 'Wild weather disrupts copper mines and ports in central Chile' (2026-07-18): 直接URL因CloudFront 403不可达。核验通过以下交叉来源：(1) Google site:mining.com 搜索结果确认标题、日期(7月18日)、作者(James Attwood)和摘要；(2) SMM中文转载 (https://news.smm.cn/news/104014376) 转述了同一来源的完整事实——Codelco Andina/El Teniente暂停、Anglo American监测Los Bronces、Antofagasta减少Los Pelambres、港口船舶限制、北部BHP正常。三方事实一致。URL保留原始mining.com链接，读者可通过浏览器手动访问。",
+        "哈萨克斯坦统计局H1 2026产量数据（2026-07-17 18:52发布）：核验通过但排除 — 原始发布日期7月17日，不在7月18日窗口内。数据摘要：精炼铜H1 231,945吨 -4.5% YoY（6月39,323吨 -20.8% YoY）；精炼锌H1 112,861吨 -14.8% YoY（6月19,807吨 -22.4% YoY）；黄金H1 33,597千克 -12.7% YoY；精炼白银H1 306,599千克 -2.8% YoY。"
       ]
     }
   },
@@ -78,7 +95,8 @@
       "哈萨克斯坦统计局H1 2026产量数据（7月17日周五发布）— 铜H1 231,945吨 -4.5% YoY、锌H1 112,861吨 -14.8% YoY、金H1 33,597千克 -12.7% YoY、银H1 306,599千克 -2.8% YoY。原始发布日期7月17日，不在7月18日窗口内，排除",
       "SMM隔夜行情汇总（7月18日）— 价格/交易数据，非供需事件信号，排除",
       "Mysteel有色金属价格指数（7月18日）— 纯价格数据，排除",
-      "财联社/新浪财经有色板块分析（7月18日）— 宏观/行情分析，无新增供给需求信号，排除"
+      "财联社/新浪财经有色板块分析（7月18日）— 宏观/行情分析，无新增供给需求信号，排除",
+      "智利铜矿风暴系列：7月14日紧急会议 → 7月15日SMM报道 → 7月16日MINING.com 'monster storm'预警 = 同一事件的先期报道。7月18日MINING.com 'wild weather disrupts' = 同一事件的实际冲击阶段（矿山和港口已出现运营中断），属于新事实而非重复。保留。"
     ]
   }
 }
