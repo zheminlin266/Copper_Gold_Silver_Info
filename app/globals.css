@@ -294,6 +294,7 @@ select {
 }
 
 .inventory-menu__panel {
+  right: -10px;
   width: 194px;
 }
 
