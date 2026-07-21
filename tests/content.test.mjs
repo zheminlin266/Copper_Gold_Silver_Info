@@ -145,6 +145,23 @@ test("home and daily pages group signals only by primary metal", () => {
   }
 });
 
+test("metal modules use the copper, gold, silver display order", () => {
+  const reports = fs.readFileSync(path.join(process.cwd(), "lib/reports.ts"), "utf8");
+  assert.match(reports, /METALS: Metal\[\] = \["copper", "gold", "silver"\]/);
+
+  for (const filename of ["app/page.tsx", "app/daily/[date]/page.tsx"]) {
+    const source = fs.readFileSync(path.join(process.cwd(), filename), "utf8");
+    assert.match(source, /METALS\.map\(/, `${filename} must use the shared metal order`);
+  }
+});
+
+test("inventory navigation reveals a labeled new-tab link", () => {
+  const header = fs.readFileSync(path.join(process.cwd(), "components/site-header.tsx"), "utf8");
+  assert.match(header, /aria-controls="inventory-menu-panel"/);
+  assert.match(header, /<span>三大交易所铜库存<\/span>/);
+  assert.match(header, /href=\{INVENTORY_URL\} rel="noopener noreferrer" target="_blank"/);
+});
+
 test("SEO metadata declares crawl routes, self canonicals, and daily Article fields", () => {
   const robots = fs.readFileSync(path.join(process.cwd(), "app/robots.ts"), "utf8");
   const sitemap = fs.readFileSync(path.join(process.cwd(), "app/sitemap.ts"), "utf8");

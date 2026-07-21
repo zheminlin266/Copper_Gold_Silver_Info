@@ -182,7 +182,7 @@ select {
 }
 
 .site-nav > a,
-.tc-menu__trigger {
+.nav-menu__trigger {
   color: var(--text-muted);
   font-size: 14px;
   line-height: 22px;
@@ -192,20 +192,20 @@ select {
 
 .site-nav > a:hover,
 .site-nav > a:focus-visible,
-.tc-menu__trigger:hover,
-.tc-menu__trigger:focus-visible,
-.tc-menu--open .tc-menu__trigger {
+.nav-menu__trigger:hover,
+.nav-menu__trigger:focus-visible,
+.nav-menu--open .nav-menu__trigger {
   color: var(--text);
   transform: translateY(-1px);
 }
 
-.tc-menu {
+.nav-menu {
   position: relative;
   z-index: 1;
   height: 100%;
 }
 
-.tc-menu::before {
+.nav-menu::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -217,11 +217,11 @@ select {
   pointer-events: none;
 }
 
-.tc-menu--open::before {
+.nav-menu--open::before {
   pointer-events: auto;
 }
 
-.tc-menu__trigger {
+.nav-menu__trigger {
   position: relative;
   z-index: 2;
   height: 100%;
@@ -234,7 +234,7 @@ select {
   user-select: none;
 }
 
-.tc-menu__panel {
+.nav-menu__panel {
   position: absolute;
   top: 100%;
   right: 0;
@@ -258,7 +258,7 @@ select {
   z-index: 1;
 }
 
-.tc-menu--open .tc-menu__panel {
+.nav-menu--open .nav-menu__panel {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
@@ -266,7 +266,7 @@ select {
   transition-delay: 0s;
 }
 
-.tc-menu__panel a {
+.nav-menu__panel a {
   display: grid;
   gap: 1px;
   padding: 10px 11px;
@@ -276,21 +276,29 @@ select {
   transition: background 140ms ease;
 }
 
-.tc-menu__panel a:hover,
-.tc-menu__panel a:focus-visible {
+.nav-menu__panel a:hover,
+.nav-menu__panel a:focus-visible {
   background: var(--surface-muted);
 }
 
-.tc-menu__panel span {
+.nav-menu__panel span {
   font-size: 14px;
   font-weight: 550;
   line-height: 21px;
 }
 
-.tc-menu__panel small {
+.nav-menu__panel small {
   color: var(--text-muted);
   font-size: 12px;
   line-height: 18px;
+}
+
+.inventory-menu__panel {
+  width: 194px;
+}
+
+.inventory-menu__panel span {
+  font-weight: 400;
 }
 
 .site-main {
@@ -1242,7 +1250,7 @@ select {
     text-align: left;
   }
 
-  .tc-menu__panel {
+  .nav-menu__panel {
     position: fixed;
     top: 56px;
     right: 20px;

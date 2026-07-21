@@ -11,28 +11,28 @@ const TC_URL = "https://www.metal.com/copper/201910240001";
 
 export function SiteHeader() {
   const [isHidden, setIsHidden] = useState(false);
-  const [isTcMenuOpen, setIsTcMenuOpen] = useState(false);
+  const [openMenu, setOpenMenu] = useState<"inventory" | "tc" | null>(null);
   const lastScrollY = useRef(0);
-  const tcMenuCloseTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  const tcMenuRef = useRef<HTMLDivElement>(null);
+  const menuCloseTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const navRef = useRef<HTMLElement>(null);
 
-  function cancelTcMenuClose() {
-    if (tcMenuCloseTimer.current) {
-      clearTimeout(tcMenuCloseTimer.current);
-      tcMenuCloseTimer.current = null;
+  function cancelMenuClose() {
+    if (menuCloseTimer.current) {
+      clearTimeout(menuCloseTimer.current);
+      menuCloseTimer.current = null;
     }
   }
 
-  function closeTcMenu() {
-    cancelTcMenuClose();
-    setIsTcMenuOpen(false);
+  function closeMenu() {
+    cancelMenuClose();
+    setOpenMenu(null);
   }
 
-  function scheduleTcMenuClose() {
-    cancelTcMenuClose();
-    tcMenuCloseTimer.current = setTimeout(() => {
-      setIsTcMenuOpen(false);
-      tcMenuCloseTimer.current = null;
+  function scheduleMenuClose() {
+    cancelMenuClose();
+    menuCloseTimer.current = setTimeout(() => {
+      setOpenMenu(null);
+      menuCloseTimer.current = null;
     }, 280);
   }
 
@@ -67,17 +67,17 @@ export function SiteHeader() {
   }, []);
 
   useEffect(() => {
-    if (!isTcMenuOpen) return;
+    if (!openMenu) return;
 
     function handlePointerDown(event: PointerEvent) {
-      if (!tcMenuRef.current?.contains(event.target as Node)) {
-        closeTcMenu();
+      if (!navRef.current?.contains(event.target as Node)) {
+        closeMenu();
       }
     }
 
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") {
-        closeTcMenu();
+        closeMenu();
       }
     }
 
@@ -87,9 +87,9 @@ export function SiteHeader() {
       document.removeEventListener("pointerdown", handlePointerDown);
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [isTcMenuOpen]);
+  }, [openMenu]);
 
-  useEffect(() => () => cancelTcMenuClose(), []);
+  useEffect(() => () => cancelMenuClose(), []);
 
   return (
     <header
@@ -109,47 +109,84 @@ export function SiteHeader() {
           />
           <span>金银铜供需信息</span>
         </Link>
-        <nav aria-label="主导航" className="site-nav">
+        <nav aria-label="主导航" className="site-nav" ref={navRef}>
           <Link href="/">首页</Link>
           <Link href="/archive">搜索</Link>
-          <a href={INVENTORY_URL} rel="noopener noreferrer" target="_blank">
-            库存
-          </a>
           <div
-            className={`tc-menu${isTcMenuOpen ? " tc-menu--open" : ""}`}
+            className={`nav-menu inventory-menu${openMenu === "inventory" ? " nav-menu--open" : ""}`}
             onBlur={(event) => {
               if (!event.currentTarget.contains(event.relatedTarget)) {
-                closeTcMenu();
+                closeMenu();
               }
             }}
             onFocus={() => {
-              cancelTcMenuClose();
-              setIsTcMenuOpen(true);
+              cancelMenuClose();
+              setOpenMenu("inventory");
             }}
             onPointerEnter={(event) => {
               if (event.pointerType === "mouse") {
-                cancelTcMenuClose();
-                setIsTcMenuOpen(true);
+                cancelMenuClose();
+                setOpenMenu("inventory");
               }
             }}
             onPointerLeave={(event) => {
-              if (event.pointerType === "mouse") scheduleTcMenuClose();
+              if (event.pointerType === "mouse") scheduleMenuClose();
             }}
-            ref={tcMenuRef}
+          >
+            <button
+              aria-controls="inventory-menu-panel"
+              aria-expanded={openMenu === "inventory"}
+              aria-haspopup="true"
+              className="nav-menu__trigger"
+              onClick={() => {
+                cancelMenuClose();
+                setOpenMenu((current) => current === "inventory" ? null : "inventory");
+              }}
+              type="button"
+            >
+              库存
+            </button>
+            <div className="nav-menu__panel inventory-menu__panel" id="inventory-menu-panel">
+              <a href={INVENTORY_URL} rel="noopener noreferrer" target="_blank">
+                <span>三大交易所铜库存</span>
+              </a>
+            </div>
+          </div>
+          <div
+            className={`nav-menu tc-menu${openMenu === "tc" ? " nav-menu--open" : ""}`}
+            onBlur={(event) => {
+              if (!event.currentTarget.contains(event.relatedTarget)) {
+                closeMenu();
+              }
+            }}
+            onFocus={() => {
+              cancelMenuClose();
+              setOpenMenu("tc");
+            }}
+            onPointerEnter={(event) => {
+              if (event.pointerType === "mouse") {
+                cancelMenuClose();
+                setOpenMenu("tc");
+              }
+            }}
+            onPointerLeave={(event) => {
+              if (event.pointerType === "mouse") scheduleMenuClose();
+            }}
           >
             <button
               aria-controls="tc-menu-panel"
-              aria-expanded={isTcMenuOpen}
-              className="tc-menu__trigger"
+              aria-expanded={openMenu === "tc"}
+              aria-haspopup="true"
+              className="nav-menu__trigger"
               onClick={() => {
-                cancelTcMenuClose();
-                setIsTcMenuOpen(true);
+                cancelMenuClose();
+                setOpenMenu((current) => current === "tc" ? null : "tc");
               }}
               type="button"
             >
               TC
             </button>
-            <div className="tc-menu__panel" id="tc-menu-panel">
+            <div className="nav-menu__panel" id="tc-menu-panel">
               <a href={TC_URL} rel="noopener noreferrer" target="_blank">
                 <span>SMM Copper Concentrate Index</span>
                 <small>Shanghai Metals Market</small>

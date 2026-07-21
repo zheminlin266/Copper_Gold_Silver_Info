@@ -53,9 +53,9 @@ export function ArchiveList({ reports }: { reports: ReportSummary[] }) {
             value={metal}
           >
             <option value="all">全部</option>
+            <option value="copper">铜</option>
             <option value="gold">黄金</option>
             <option value="silver">白银</option>
-            <option value="copper">铜</option>
           </select>
         </label>
       </div>
@@ -76,9 +76,9 @@ export function ArchiveList({ reports }: { reports: ReportSummary[] }) {
                 </div>
                 <p>{report.summary}</p>
                 <div className="archive-item__counts" aria-label="金属信号数量">
+                  <span>铜 {report.stats.metalCounts.copper}</span>
                   <span>金 {report.stats.metalCounts.gold}</span>
                   <span>银 {report.stats.metalCounts.silver}</span>
-                  <span>铜 {report.stats.metalCounts.copper}</span>
                 </div>
               </article>
             ))}
