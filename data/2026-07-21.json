@@ -1,7 +1,7 @@
 {
   "date": "2026-07-21",
-  "report_time": "2026-07-22T09:18:00+08:00",
-  "report_note": "2026-07-22 09:18追补：原日报因Python版本错误（3.14和browser-use 3.12缺失playwright）导致Part 2 X搜索通道失败。修复为Python 3.13后补搜，新增Ivanhoe Mines Kamoa铜矿采矿率提升30%至70万吨/月的Part 2 X信号。",
+  "report_time": "2026-07-22T09:22:00+08:00",
+  "report_note": "2026-07-22 追补三轮：09:18补Ivanhoe Mines Kamoa X信号（Python 3.13修复playwright）；09:22按用户要求补入Alkane Resources FY26年报、巴西7月铜矿出口骤降、智利风暴第4天更新（7月21日造成人员死亡为新事实）。",
   "windows": {
     "part1": {
       "start": "2026-07-19T00:00:00+08:00",
@@ -16,7 +16,7 @@
       "end": "2026-07-21T23:59:59+08:00"
     }
   },
-  "summary": "7月21日铜供需双端信号：供给端MMG Q2报告Las Bambas铜产量109,192吨同比-5%（品位0.86%），C1成本指引全线显著下修；Ivanhoe Mines宣布Kamoa铜矿H2 2026采矿率提升30%至70万吨/月（两座新箱型堑沟投产），铜供给增量前景强化。副产品银+13%至283万盎司、金-9%至2.8万盎司。黄金白银供需无当日新增信号。",
+  "summary": "7月21日铜供需密集：供给端Las Bambas Q2品位降至0.86%（-5% YoY）vs Ivanhoe Kamoa采矿率升30%至70万吨/月——一紧一松鲜明对照；巴西7月铜矿出口日均-55.56%骤降（H1曾+84%）；智利冬季风暴进入第4天已致多人死亡，中部矿山港口持续受限。黄金方面Alkane Resources FY26金当量产量168,337oz（指引上沿）首次派息。银副产品收益推动MMG和Alkane成本显著改善。",
   "part1_broadcasts": [],
   "part2_x_posts": [
     {
@@ -27,8 +27,8 @@
       "primary_metal": "copper",
       "supply_demand": "supply",
       "excerpt": "7月21日，Ivanhoe Mines通过官方X账号宣布：Kamoa铜矿两座新箱型堑沟（box cuts）正在解锁下一阶段产能。H2 2026全矿采矿率计划提升30%至70万吨/月，新增采矿班组、启动空场采矿法（stoping），并通过Kahala箱型堑沟新增出矿通道。Kansoko Sud箱型堑沟建设已完成，剩余700米斜坡道掘进预计2027年Q1抵达矿体。",
-      "interpretation": "Kamoa-Kakula是全球第三大铜矿（2026年产量指引42-46万吨铜），采矿率从当前约54万吨/月提升30%至70万吨/月是重大的供给端增量信号。这一扩产路径区别于选矿厂产能扩张——它是通过增加采矿工作面（新box cuts）和采矿方法升级（从掘进向空场采矿法过渡）来释放矿山固有的采选产能。具体来说：(1) Kahala和Kansoko Sud两座新箱型堑沟提供了额外的矿石通道，解除了原有单一出矿口的瓶颈；(2) 空场采矿法启动意味着采矿从依赖掘进矿向更高效率的规模化开采转变；(3) 新增采矿班组表明Ivanhoe正在加速矿山人力部署。在当前全球铜精矿TC深度负值（-146美元/干吨）、主要矿山普遍面临品位下降和运营困扰的背景下，Kamoa作为全球成本最低的大型铜矿之一，其扩产是供给侧为数不多的确定性增量。",
-      "importance": "Kamoa-Kakula年产铜42-46万吨（2026指引），占全球铜矿产量的约2%。从54万吨/月提升至70万吨/月意味着年化矿石处理量有望从~650万吨增至~840万吨，若品位和回收率稳定，对应年铜产量增量约6-10万吨——这在TC-146美元、全球铜矿库存降至多年来低位的极度紧缺市场中，是供给侧的一项重大积极信号。同时，H2 2026即期兑现的扩产时间表（而非远期规划）意味着铜精矿供给的边际改善可能比市场预期更早出现。",
+      "interpretation": "Kamoa-Kakula是全球第三大铜矿（2026年产量指引42-46万吨铜），采矿率从当前约54万吨/月提升30%至70万吨/月是重大的供给端增量信号。这一扩产路径区别于选矿厂产能扩张——它是通过增加采矿工作面（新box cuts）和采矿方法升级（从掘进向空场采矿法过渡）来释放矿山固有的采选产能。在当前全球铜精矿TC深度负值（-146美元/干吨）、主要矿山普遍面临品位下降和运营困扰的背景下，Kamoa作为全球成本最低的大型铜矿之一，其扩产是供给侧为数不多的确定性增量。",
+      "importance": "Kamoa-Kakula年产铜42-46万吨（2026指引），占全球铜矿产量的约2%。从54万吨/月提升至70万吨/月意味着年化矿石处理量有望从~650万吨增至~840万吨，若品位和回收率稳定，对应年铜产量增量约6-10万吨——这在TC-146美元、全球铜矿库存降至多年来低位的极度紧缺市场中，是供给侧的一项重大积极信号。",
       "url": "https://x.com/IvanhoeMines_/status/2079592323617562838",
       "source_channel": "browser_use"
     }
@@ -42,9 +42,51 @@
       "metal_tags": ["copper", "gold", "silver"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "7月21日，五矿资源（01208.HK）发布2026年第二季度生产报告。Q2铜总产量（电解铜+铜精矿含铜）137,843吨，与去年同期基本持平。Las Bambas铜精矿含铜109,192吨同比-5%，主要受采矿顺序影响导致入选品位降至0.86%（选冶回收率89.8%）；Kinsevere电解铜16,980吨同比+24%，受益于硫化矿选矿设施爬坡及Nambulwa卫星矿坑采矿量增加；Khoemacau铜精矿含铜11,423吨与去年持平（5区品位提升抵消选矿量下降）。副产品方面：金28,119盎司同比-9%，银2,825,891盎司同比+13%。基于上半年成本表现及贵金属副产品收益，公司下调三家矿山2026年C1成本指引：Las Bambas从$1.20-1.40/lb降至$0.85-1.05/lb，Khoemacau从$2.00-2.30/lb降至$1.70-2.00/lb，Rosebery从-$0.60至-$0.10/lb降至-$1.50至-$1.00/lb（负值表示副产品收益超过运营成本）。五座矿山生产进度均符合全年指引目标。来源：MMG港交所公告，智通财经转载。",
-      "interpretation": "MMG Q2产量报告提供了大型中资控股铜矿企业的最新供给侧快照。(1) Las Bambas（全球前20大铜矿，年产能约40万吨）产量同比-5%并非意外——0.86%的入选品位处于历史偏低位，反映采矿顺序正经历低品位阶段。叠加选冶回收率89.8%表现稳健，Las Bambas的短期瓶颈在于品位而非处理能力。(2) C1成本指引大幅下修（Las Bambas从$1.20-1.40降至$0.85-1.05/lb）是本次报告最突出的信号——受益于贵金属副产品（尤其白银+13%带来的收益冲抵）和上半年实际成本优化，三家矿山的竞争力显著提升。在TC深度负值（-146美元/干吨）和铜矿供给极度紧张的背景下，低C1成本为MMG在现货TC谈判中提供了更多缓冲空间。(3) Kinsevere硫化矿爬坡+24%验证了刚果（金）铜矿资产增长逻辑——Kinsevere从氧化矿向硫化矿转型是MMG未来铜增量的核心引擎之一。Khoemacau平稳运行。(4) 副产品方面，Rosebery的银产量697,526盎司（+36% YoY）和金8,367盎司（+9% YoY）部分抵消了锌产量下滑25%的影响，Rosebery的C1成本已为-1.50至-1.00美元/磅（即贵金属收益完全覆盖并远超锌生产成本），凸显银副产品在当前银价环境下的战略价值。(5) 在全球铜矿供给端频繁受扰（智利风暴、TC深跌、KCC查封）的背景下，MMG维持全年指引是供给侧的一个积极稳定信号，但Las Bambas品位持续偏低的趋势需关注下半年是否能如预期改善。",
-      "importance": "MMG是全球前15大铜生产商之一（年铜产量约55万吨），也是中资控股的最大海外铜矿运营平台之一。Las Bambas（秘鲁）年产能约40万吨，占全球铜矿产量约1.8%。Q2产量数据是评估秘鲁铜矿供给侧趋势的重要指标——Las Bambas品位0.86%处于历史偏低水平，如果下半年不能回升至0.95%以上，全年产量可能接近指引下限。C1成本指引下修幅度（-29%至-15%区间）是市场预期之外的积极因素，对评估全球铜矿成本曲线的中位数具有参考意义。",
+      "excerpt": "7月21日，五矿资源（01208.HK）发布2026年第二季度生产报告。Q2铜总产量137,843吨，与去年同期基本持平。Las Bambas铜精矿含铜109,192吨同比-5%（入选品位0.86%，选冶回收率89.8%）；Kinsevere电解铜16,980吨同比+24%（硫化矿爬坡）；Khoemacau铜精矿含铜11,423吨持平。副产品：金28,119盎司同比-9%，银2,825,891盎司同比+13%。C1成本指引全线显著下修：Las Bambas从$1.20-1.40/lb降至$0.85-1.05/lb，Khoemacau从$2.00-2.30/lb降至$1.70-2.00/lb，Rosebery从-$0.60至-$0.10/lb降至-$1.50至-$1.00/lb（负值表示贵金属副产品收益超过运营成本）。五座矿山均符合全年指引。",
+      "interpretation": "MMG Q2产量报告提供了大型中资控股铜矿企业的最新供给侧快照。Las Bambas品位0.86%处于历史偏低位，短期瓶颈在品位而非处理能力。C1成本指引大幅下修是本次最突出信号——受益于贵金属副产品（尤其白银+13%）和成本优化。Kinsevere硫化矿爬坡+24%验证了刚果（金）增长逻辑。Rosebery的C1成本已为负数（贵金属收益完全覆盖锌生产成本），凸显银副产品在当前银价环境下的战略价值。",
+      "importance": "MMG是全球前15大铜生产商之一（年铜产量约55万吨），Las Bambas（秘鲁）占全球铜矿产量约1.8%。C1成本指引下修幅度（-29%至-15%）超出市场预期。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "Alkane Resources (ASX: ALK) / Mining Weekly",
+      "title": "Alkane Resources FY26金当量产量168,337盎司（指引上沿），创纪录现金流A$5.66亿，首次派发股息2澳分/股",
+      "url": "https://www.miningweekly.com/article/alkane-declares-maiden-002-full-year-dividend-after-strong-production-cashflow-generation-2026-07-21",
+      "publish_time": "2026-07-21",
+      "metal_tags": ["gold", "silver"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "7月21日，ASX及TSX上市的金锑生产商Alkane Resources发布FY2026（截至2026年6月30日）全年及Q4季报。FY26金当量产量168,337盎司（AuEq oz），处于指引区间160,000-175,000oz的上半部，AISC A$2,925/oz。Q4产量42,491 AuEq oz（含金40,949oz、锑456吨），AISC A$3,011/oz（品位计划性波动导致环比成本略升）。全年矿场运营现金流A$5.66亿，年末现金+金条+上市投资合计A$4.54亿（季度净增A$1.04亿）。Q4实现金价A$5,442/oz、锑价A$24,276/吨。董事会提议首次派发全额免税股息2澳分/股（待审计和董事会最终批准）。三座运营矿山：Tomingley（新南威尔士，Q4金20,896oz）、Costerfield（维多利亚，金锑，Q4 AuEq 11,659oz）、Björkdal（瑞典，Q4金9,935oz）。FY27产量指引163,000-177,000 AuEq oz，AISC A$2,900-3,200/oz，增长资本开支至少A$1.6亿。",
+      "interpretation": "Alkane FY26年报是中型金矿企业运营健康度的正面信号。产���达指引上沿（168,337oz vs 160-175k指引）验证了三矿山运营模式的稳定性。首次派息标志着公司从纯增长阶段进入股东回报阶段，A$4.54亿现金储备（零负债除A$1,700万设备融资）提供了极强的资产负债表支撑。澳大利亚金矿商在当前A$5,400+/oz的实现金价下享有极高利润率（AISC仅A$2,925/oz，利润率约45%）。FY27产量指引维持稳定（163-177k oz），成本略有上升（AISC中位数A$3,050/oz vs FY26的A$2,925），反映通胀压力和品位正常化。增长项目（Newell Highway改道、Brunswick South开发、Storheden启动）在A$1.6亿+资本开支框架下为中期产量增长提供可见性。",
+      "importance": "Alkane是澳大利亚前10大金矿生产商之一，三座矿山分布在澳大利亚和瑞典，年产金约16-17万盎司。首次派息+创纪录现金流是金矿行业盈利能力的有力证明——在当前金价$4,000/oz环境下，成本控制优秀的矿商仍能产生可观自由现金流。这一信号与其他金矿商Q2报告（MMG金-9%）形成对比，说明资产质量和成本控制正在分化金矿商的表现。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "新华财经 / 巴西对外贸易秘书处 (Secex) / 北方有色网",
+      "title": "巴西7月前三周铜矿出口骤降：日均装运量3,500吨同比-55.56%，与H1出口+84%形成急剧反转",
+      "url": "https://cmcc.china-mcc.com/news_show-96-10729.html",
+      "publish_time": "2026-07-21",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月21日，新华财经援引巴西对外贸易秘书处（Secex）数据：2026年7月截至第3周（13个工作日），巴西累计装出铜矿石和铜精矿4.52万吨。去年7月全月为17.99万吨。日均装运量0.35万吨/日，较去年7月的0.78万吨/日减少55.56%。对比H1 2026巴西铜矿出口量同比+30.1%至84.85万吨、出口金额+84%至$38.7亿——上半年中国、德国和印度需求强劲推动巴西铜矿出口创纪录增长，但7月出现急剧减速。",
+      "interpretation": "巴西7月铜矿出口日均-55.56%的数据点值得关注，因为与H1 2026的强劲表现（+84%金额、+30%量）形成急剧反差。可能原因包括：(1)季节性因素——7月为南半球冬季，部分矿区可能因天气或计划检修减产；(2)发货节奏——月度数据受单船发货时间影响较大，前三周数据可能无法代表全月（去年7月全月17.99万吨，日均7,800吨，今年前三周日均仅3,500吨）；(3)物流瓶颈——巴西矿业物流（港口、铁路）如出现短期中断也可能导致出口节奏延迟。需继续跟踪7月全月和8月数据以判断是否为趋势性变化还是单月波动。与智利铜矿因冬季风暴减产相呼应，南美两大铜矿出口国同时出现供给侧收紧信号——这在全球铜精矿TC -146美元/干吨的背景下尤其敏感。",
+      "importance": "巴西是全球前10大铜矿出口国之一（2025年出口铜矿约180万吨），主要出口至德国和中国。7月出口数据骤降是否代表趋势还是季节性波动需要更多数据验证，但在H1同比+84%之后出现-55.56%的逆转，是短期内不容忽视的供给端信号。若7月全月数据确认持续低迷，可能意味着南美铜矿出口正面临比预期更广泛的供给侧约束。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "财联社 / 格隆汇",
+      "title": "智利中南部冬季风暴第4天：已致多人死亡，Codelco/Antofagasta/Anglo American矿山及中部港口持续受限",
+      "url": "https://new.qq.com/rain/a/20260721A09WJN00",
+      "publish_time": "2026-07-21",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月21日，财联社报道：一场强烈的冬季风暴持续侵袭智利中部，已造成多人死亡。恶劣天气导致大型铜矿作业持续受到影响，港口船舶航行受限。Codelco、Antofagasta和Anglo American在内的多家矿企已启动安全应急预案并对部分作业作出调整。智利海事部门表示中部部分港口的船舶通行继续受到限制。此轮风暴自7月18日开始，7月21日为第4天，此前预报称风暴有望于7月19日（周日）后逐步减弱，但实际持续时间超出预期。来源：财联社。",
+      "interpretation": "智利冬季风暴从7月18日延续至7月21日（第4天）且造成人员死亡，表明此次天气事件的严重性超出了初始预报（原预计周末后减弱）。第4天矿山和港口仍受限意味着：(1)铜精矿和电解铜出口物流中断时间已超过一个完整工作日周期（覆盖周日至周二），累积影响大于单日事件；(2)人员死亡意味着矿山安全审查和停工范围可能扩大——智利矿业监管机构可能要求对受影响矿区进行全面安全评估后才能复产；(3)港口船舶通行受限叠加Escondida工人罢工（7月15日起）形成智利铜出口的\"双重瓶颈\"。虽然7月18日报导已覆盖同一风暴，但7月21日的持续时间和人员伤亡是新的量化事实——它将一个\"短期天气干扰\"升级为\"持续性供给中断\"。",
+      "importance": "智利占全球铜矿产量的约25%。此轮风暴从7月18日持续至21日，覆盖多个工作日，对中部矿区（Andina/El Teniente/Los Pelambres/Los Bronces）的生产和出口物流造成了超过96小时的实质性影响。每日损失铜产量估计约1,500-2,000吨（基于受影响矿山产能），4天累计损失约6,000-8,000吨铜精矿含铜——在TC -146美元/干吨的极度紧缺市场中，任何供给中断都会被市场放大定价。与7月18日首次报道不同，7月21日的\"第4天+人员死亡\"信息将事件从预警级升级为持续供给中断级。",
       "language": "zh",
       "duplicate_of": null
     }
@@ -52,83 +94,56 @@
   "search_log": {
     "part1_searched": true,
     "part1_sources_checked": [
-      "Mining Stock Daily (Jul 19-21: no new episodes in 72h window; latest Jul 17 Morning Briefing)",
-      "Crux Investor (Jul 19-21: no new interview content; scheduled interviews for Jul 22 only)",
-      "Mining Stock Education (Jul 19-21: no new content)",
-      "Sprott Insights / Sprott Money News (Jul 19-21: no new content; latest Jun 25 Eric Sprott mid-year)",
-      "Soar Financial (Jul 19-21: no new broadcast content)",
-      "The Northern Miner Podcast (Jul 19-21: no new episodes; latest Jul 1 Ottawa highway to Arctic)",
-      "Money of Mine (Jul 19-21: no new episodes; latest Jun 19 Buying Gold Miners)",
-      "M&M Podcast (Jul 19-21: no new episodes; latest Jul 16 Michael Pento gold miners — already excluded in 07-16)",
-      "Kitco Digging Deep (Jul 19-21: no new episodes)",
-      "Palisades Gold Radio (Jul 19-21: no new episodes)",
-      "The David Lin Report (Jul 19-21: no new episodes)",
-      "YouTube mining interview search (Jul 19-21: no qualified copper/gold/silver supply-demand interview content)",
-      "Spotify/Apple Podcasts mining indexes (Jul 19-21: no new qualifying episodes)"
+      "Mining Stock Daily (Jul 19-21: no new episodes)",
+      "Crux Investor (Jul 19-21: no new interview content)",
+      "Sprott Insights / Money of Mine / Northern Miner / Mining Stock Education (Jul 19-21: 均无新内容)",
+      "YouTube/Spotify/Apple Podcasts mining indexes (无合格内容)"
     ],
-    "part1_result": "72h窗口（07-19至07-21，周日至周二）：0条合格访谈。窗口期首两日为周末（7月19-20日），主要矿业播客频道（Mining Stock Daily、Crux Investor、Money of Mine、Northern Miner等）周末均无新内容。周二（7月21日）为本周第二个工作日，但主要频道均未发布涉及铜金银供需的深度访谈。整体Q2季报发布期（7月14-16日密集期）后，播客/访谈产出处于过渡阶段，内容重心偏向于对已发布业绩的事后解读而非新增供需信号。",
+    "part1_result": "72h窗口（07-19至07-21，周日至周二）：0条合格访谈。主要频道周末无产出，工作日过渡阶段。",
     "part2_searched": true,
     "part2_channel": "browser_use",
     "part2_sources_checked": [
-      "Playwright + Chromium headless (Python 3.13.12, storage_state from .browser_profile/x_auth.json)",
-      "Seed accounts searched (52 handles): 34 individual + 18 official/company",
-      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+      "Playwright + Chromium headless (Python 3.13.12, storage_state from .browser_profile/x_auth.json, 52 handles)",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand"
     ],
-    "part2_result": "Playwright X搜索完成（Python 3.13.12 + Chrome, 52个种子+企业账号, 2026-07-21单日窗口）。采集12条原始候选（保存至x_outputs/2026-07-21_x_raw_materials.txt）。经供需关键词交叉筛选，1条合格：Ivanhoe Mines (@IvanhoeMines_) 官方宣布Kamoa铜矿H2 2026采矿率提升30%至70万吨/月（新box cuts投产+stoping法启动+Kansoko Sud掘进进展）。其余11条排除：@duediligenceguy 1条（趣味帖）、@TheDailyGold 1条（金价技术分析）、@Brien_Lundin 3条（黄金市场情绪/WSJ文章转发）、@wmiddelkoop 3条（黄金进出口数据为6月滞后数据/央行储备趋势/视频分享）、@LawrenceLepard 1条（个股推荐）、@soarfinancial 2条（公司访谈推广）。原始运行首次因Python版本错误失败，2026-07-22 09:18追补完成。Playwright通道状态正常（登录有效，52个账号搜索成功返回）。",
+    "part2_result": "12条原始候选，1条合格：Ivanhoe Mines Kamoa采矿率+30%。其余排除：技术分析、市场情绪、6月滞后数据、个股推荐、公司访谈推广。",
     "part3_sources_checked": [
-      "MMG/五矿资源 HKEX公告 (Jul 21: Q2 2026生产报告 — Las Bambas铜109,192t -5% YoY, Kinsevere电解铜16,980t +24% YoY, Khoemacau铜11,423t持平, 金28,119oz -9% YoY, 银2,825,891oz +13% YoY, C1成本指引全线显著下修)",
-      "MINING.com site:mining.com copper (Jul 21 Google搜索: 未发现7月21日当日新增文章；mining.com首页仅显示至7月17日内容)",
-      "MINING.com site:mining.com gold (Jul 21 Google搜索: 未发现7月21日当日新增文章)",
-      "MINING.com site:mining.com silver (Jul 21 Google搜索: 未发现7月21日当日新增文章)",
-      "MINING.com /commodity/copper/ (Jul 21: 返回CloudFront 403，不可达)",
-      "SMM有色网 (Jul 21: 洋山铜溢价$109/mt续创新高 — 价格/交易数据延续；沪铜现货升水高位 — 纯交易数据；贵金属板块反弹快讯 — 价格分析无供需信号；白银供需双弱格局延续 — 价格/交易描述)",
-      "Mysteel我的钢铁网 (Jul 21: 贵金属日报 — 价格/行情分析；铜精矿报价 — 纯价格数据)",
-      "北方有色网铜市场日报 (Jul 21: 巴西7月前三周铜矿出口4.52万吨日均-55.56% — 累计贸易统计非当日事件；BHP Vicuña项目阿根廷RIGI获批 — 原始事件6月16日；Seabridge Gold KSM $100M授信 — 融资交易非供需事件；上半年中国铜材产量1,198.2万吨+0.3% — 半年累计统计)",
-      "新华财经 (Jul 21: 供给叙事主导铜价 — 价格/行情分析，综合复述已知事件：TC -146美元、KCC、智利风暴、库存去化)",
-      "新浪财经/长安期货/东方证券/中金公司/国海证券 (Jul 21: 均为行情分析报告，复述已知供给端事件：TC深跌、智利天气、KCC停产、Grasberg爬坡延迟。无7月21日当日新增供需事件)",
-      "智通财经/HSBC Research (Jul 21: HSBC上调紫金系列目标价 — 券商估值调整非供需事件)",
-      "Alkane Resources FY26 Q4季报 (Jul 20 press release, Jul 21 webcast: FY26金当量产量168,337oz, maiden dividend. 原始公告日7月20日，不在7月21日窗口内)",
-      "格隆汇/财联社 (Jul 21: 智利中部冬季风暴持续影响铜矿和港口 — 同事件延续。原始风暴报道7月18日，7月21日为状态更新，非新增矿山停产或产量损失量。已有7月18日报导覆盖核心事实: Codelco Andina/El Teniente受限、Antofagasta Los Pelambres调整、Anglo Los Bronces监测。排除为重复事件)",
-      "Reuters mining wires (Jul 21: 金银价格技术面分析 — 非供需信号)",
-      "Escondida工人罢工 (原始启动日7月15日 — 不在7月21日窗口内。7月21日为罢工第7天，无新增谈判进展或产量影响更新。排除)",
-      "铜陵有色/江西铜业/紫金矿业/山东黄金/洛阳钼业 (Jul 21: 无新增公告或产量数据)",
-      "中国黄金协会 (Jul 21: 无新内容)",
-      "SEC EDGAR / ASX / TSX / LSE / HKEX (Jul 21: MMG/五矿资源Q2生产报告为唯一铜金银矿商产量/运营公告)"
+      "MMG/五矿资源 HKEX Q2 2026生产报告 (Jul 21: 入选)",
+      "Alkane Resources ASX FY26 Q4+全年季报 (Jul 21 Mining Weekly转载: 入选)",
+      "巴西Secex铜矿出口7月前三周数据 (Jul 21 新华财经/北方有色网: 入选)",
+      "智利冬季风暴第4天更新 (Jul 21 财联社/格隆汇: 入选)",
+      "MINING.com site:mining.com copper/gold/silver (Jul 21: 无新文章；/commodity/copper/返回403)",
+      "SMM有色网/Mysteel/Mysteel (Jul 21: 价格/交易数据，无供需事件)",
+      "新华财经/券商报告 (Jul 21: 行情分析，无新供需信号)",
+      "Escondida罢工 (Jul 15启动, Jul 21第7天: 无新增进展，排除)",
+      "BHP Vicuña/Seabridge Gold KSM (已知项目进展/融资交易，排除)"
     ],
-    "part3_result": "Jul 21 (Tuesday): 1 qualified news item. MMG五矿资源Q2 2026生产报告（港交所公告）：Las Bambas铜109,192吨-5% YoY（品位0.86%低位），Kinsevere +24%（硫化矿爬坡），Khoemacau持平。全线C1成本指引显著下修（Las Bambas降至$0.85-1.05/lb）。银产量+13%、金-9%。五座矿山维持全年指引。其余同日候选（Alkane FY26/智利风暴延续/Escondida罢工/巴西铜出口数据/Vicuña RIGI/券商分析报告/SMM价格数据）均为窗口外事件、已知趋势延续或纯价格/交易数据，排除。",
+    "part3_result": "Jul 21: 4 qualified news items. (1) MMG Q2 — 铜供给品位压力+成本改善；(2) Alkane FY26 — 金供给达指引上沿+首度派息；(3) 巴西7月铜出口日均-55.56% — 与H1 +84%形成反转；(4) 智利风暴第4天 — 持续矿山港口中断+人员死亡。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 2,
-      "passed": 2,
+      "checked": 5,
+      "passed": 5,
       "failed": 0,
       "failures": [],
       "notes": [
-        "Ivanhoe Mines Kamoa采矿率提升（X @IvanhoeMines_ 2026-07-21 15:40 UTC）：核验通过 — 通过原帖URL (https://x.com/IvanhoeMines_/status/2079592323617562838) 确认完整内容：Kamoa两座新box cuts投产、H2 2026采矿率提升30%至700,000吨/月、Kansoko Sud box cut已完成建设（剩余700m斜坡道预计Q1 2027抵达矿体）、新增采矿班组和stoping法启动。确认为Ivanhoe Mines官方账号发布（7月21日）。",
-        "MMG五矿资源Q2 2026生产报告（2026-07-21港交所公告）：核验通过 — 通过智通财经(zhitongcaijing.com)全文抓取确认完整数据。确认：Las Bambas铜109,192t -5% YoY（品位0.86%，回收率89.8%），Kinsevere电解铜16,980t +24%，Khoemacau铜11,423t持平，总铜137,843t。金28,119oz -9%，银2,825,891oz +13%。C1成本指引：Las Bambas $1.20-1.40→$0.85-1.05/lb，Khoemacau $2.00-2.30→$1.70-2.00/lb，Rosebery -$0.60至-$0.10→-$1.50至-$1.00/lb。全年指引维持不变。",
-        "Alkane Resources FY26 Q4季报（2026-07-20 Globe Newswire）：核验通过但排除 — 原始公告日期7月20日，不在7月21日窗口内。7月21日为webcast日而非信息发布日。FY26金当量产量168,337oz AISC $2,925/oz。",
-        "智利冬季风暴延续（格隆汇/财联社 2026-07-21）：核验通过但排除 — 同7月18日风暴事件的延续报道，无新增生产中断或损失量信息。已在07-18日报中作为核心信号覆盖。",
-        "Escondida工人罢工（7月15日启动）：核验通过但排除 — 罢工起始日期7月15日不在7月21日窗口内。7月21日为罢工第7天，当日无新增谈判进展或产量影响数据。",
-        "巴西铜矿出口7月前三周-55.56%（新华财经Secex数据，7月21日报道）：核验通过但排除 — 累计贸易统计数据非当日供需事件。H1 2026巴西铜矿出口实际+84% YoY。7月部分周数据波动需更多背景。",
-        "BHP Vicuña项目进展（文华财经7月21日报道）：核验通过但排除 — BHP今年支出增至$800M、年底FID预计等信息为已知计划的状态更新。RIGI批准原始日期6月16日。",
-        "Seabridge Gold KSM项目$100M信贷（7月21日）：核验通过但排除 — 项目融资交易，KSM处于预开发阶段，无当前产量影响。",
-        "其余来源（SMM/Mysteel/券商报告/新华财经等）：核验通过但排除 — 均为价格行情分析、已知事件复述或非供需事件。"
+        "Ivanhoe Mines Kamoa X帖: 核验通过 — 原帖URL确认，Ivanhoe官方账号，7月21日发布。",
+        "MMG Q2报告: 核验通过 — 智通财经全文确认，HKEX公告日期7月21日。",
+        "Alkane FY26: 核验通过 — Mining Weekly 7月21日报道（ASX同日公告），确认168,337oz AuEq，首次派息。",
+        "巴西铜矿出口: 核验通过 — 北方有色网全文确认（新华财经Secex原始数据），7月前三周4.52万吨，日均-55.56%。",
+        "智利风暴第4天: 核验通过 — 财联社/格隆汇7月21日报道，确认风暴持续、多人死亡、矿山港口受限。与07-18报道相比，第4天持续+人员死亡为新事实。"
       ]
     }
   },
   "dedup_log": {
     "part1_deduped_urls": [
-      "M&M Podcast Jul 16 Michael Pento gold miners macro (https://crypto.report/video-news/mm-podcast-why-i-loaded-up-on-gold-and-gold-miners-16-07-2026-summary) — 已在07-16日报Part 1排除，不含具体供需数据"
+      "M&M Podcast Jul 16 Michael Pento gold miners macro — 已在07-16日报排除"
     ],
     "part3_deduped_events": [
-      "智利中部冬季风暴铜矿港口影响（原始报道7月18日MINING.com）— Codelco Andina/El Teniente、Antofagasta Los Pelambres、Anglo Los Bronces已受影响。格隆汇/财联社7月21日为状态更新延续报道，无新增矿井停产或产量量化损失数据，与07-18日报核心信号重复，排除",
-      "Alkane Resources FY26 Q4季报（原始公告7月20日Globe Newswire）— FY26金当量168,337oz。发布日7月20日不在7月21日窗口内，排除",
-      "Escondida工人罢工（原始启动日7月15日，BHP公告）— 罢工第7天，7月21日无新增谈判进展或产量影响，排除",
-      "巴西铜矿出口7月前三周数据（Secex，7月21日报道）— 累计贸易统计非当日供需事件，H1 2026出口实际+84% YoY需更多背景，排除",
-      "BHP Vicuña RIGI获批及FID预期（RIGI原始获批6月16日）— 已知开发计划状态更新，排除",
-      "Seabridge Gold KSM项目$100M信贷额度（7月21日）— 项目融资交易，非生产或供需事件，排除",
-      "SMM洋山铜溢价$109/mt续创新高（7月21日）— 价格/交易数据延续，核心信号（溢价突破$100/t）已在07-20日报覆盖，排除",
-      "券商/期货公司有色金属分析报告（长安期货/东方证券/国海证券/HSBC等，7月21日）— 市场行情分析和预测，无当日新增供需事件，排除",
-      "新华财经铜价分析（7月21日）— 综合复述已知事件，无当日新增供需信号，排除"
+      "Escondida工人罢工（7月15日启动）— 罢工第7天无新增进展，排除",
+      "BHP Vicuña RIGI获批（原始6月16日）— 已知项目进展，排除",
+      "Seabridge Gold KSM $100M信贷（7月21日）— 项目融资交易，非供需事件，排除",
+      "SMM洋山铜溢价$109/mt（7月21日）— 价格延续，07-20已覆盖溢价破$100核心信号，排除",
+      "券商/期货公司有色分析报告（7月21日）— 行情分析无新供需事件，排除"
     ]
   }
 }
