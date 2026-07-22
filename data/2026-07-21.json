@@ -1,6 +1,7 @@
 {
   "date": "2026-07-21",
-  "report_time": "2026-07-22T06:58:47+08:00",
+  "report_time": "2026-07-22T09:18:00+08:00",
+  "report_note": "2026-07-22 09:18追补：原日报因Python版本错误（3.14和browser-use 3.12缺失playwright）导致Part 2 X搜索通道失败。修复为Python 3.13后补搜，新增Ivanhoe Mines Kamoa铜矿采矿率提升30%至70万吨/月的Part 2 X信号。",
   "windows": {
     "part1": {
       "start": "2026-07-19T00:00:00+08:00",
@@ -15,9 +16,23 @@
       "end": "2026-07-21T23:59:59+08:00"
     }
   },
-  "summary": "7月21日铜供需信号来自MMG五矿资源Q2产量报告：Las Bambas铜产量109,192吨同比-5%（入选品位0.86%偏低位），Kinsevere硫化矿爬坡推动电解铜+24%至16,980吨，Khoemacau持平；全线C1成本指引显著下修（Las Bambas降至$0.85-1.05/lb）。金银副产品中银产量+13%至283万盎司，金-9%至2.8万盎司。全球最大铜矿Escondida工人罢工进入第7天（7月15日启动）但非当日信号。黄金白银供需无当日新增信号。",
+  "summary": "7月21日铜供需双端信号：供给端MMG Q2报告Las Bambas铜产量109,192吨同比-5%（品位0.86%），C1成本指引全线显著下修；Ivanhoe Mines宣布Kamoa铜矿H2 2026采矿率提升30%至70万吨/月（两座新箱型堑沟投产），铜供给增量前景强化。副产品银+13%至283万盎司、金-9%至2.8万盎司。黄金白银供需无当日新增信号。",
   "part1_broadcasts": [],
-  "part2_x_posts": [],
+  "part2_x_posts": [
+    {
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-07-21T23:40:21+08:00",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月21日，Ivanhoe Mines通过官方X账号宣布：Kamoa铜矿两座新箱型堑沟（box cuts）正在解锁下一阶段产能。H2 2026全矿采矿率计划提升30%至70万吨/月，新增采矿班组、启动空场采矿法（stoping），并通过Kahala箱型堑沟新增出矿通道。Kansoko Sud箱型堑沟建设已完成，剩余700米斜坡道掘进预计2027年Q1抵达矿体。",
+      "interpretation": "Kamoa-Kakula是全球第三大铜矿（2026年产量指引42-46万吨铜），采矿率从当前约54万吨/月提升30%至70万吨/月是重大的供给端增量信号。这一扩产路径区别于选矿厂产能扩张——它是通过增加采矿工作面（新box cuts）和采矿方法升级（从掘进向空场采矿法过渡）来释放矿山固有的采选产能。具体来说：(1) Kahala和Kansoko Sud两座新箱型堑沟提供了额外的矿石通道，解除了原有单一出矿口的瓶颈；(2) 空场采矿法启动意味着采矿从依赖掘进矿向更高效率的规模化开采转变；(3) 新增采矿班组表明Ivanhoe正在加速矿山人力部署。在当前全球铜精矿TC深度负值（-146美元/干吨）、主要矿山普遍面临品位下降和运营困扰的背景下，Kamoa作为全球成本最低的大型铜矿之一，其扩产是供给侧为数不多的确定性增量。",
+      "importance": "Kamoa-Kakula年产铜42-46万吨（2026指引），占全球铜矿产量的约2%。从54万吨/月提升至70万吨/月意味着年化矿石处理量有望从~650万吨增至~840万吨，若品位和回收率稳定，对应年铜产量增量约6-10万吨——这在TC-146美元、全球铜矿库存降至多年来低位的极度紧缺市场中，是供给侧的一项重大积极信号。同时，H2 2026即期兑现的扩产时间表（而非远期规划）意味着铜精矿供给的边际改善可能比市场预期更早出现。",
+      "url": "https://x.com/IvanhoeMines_/status/2079592323617562838",
+      "source_channel": "browser_use"
+    }
+  ],
   "part3_news": [
     {
       "source": "MMG Limited (HKEX: 01208) / 智通财经",
@@ -53,13 +68,13 @@
     ],
     "part1_result": "72h窗口（07-19至07-21，周日至周二）：0条合格访谈。窗口期首两日为周末（7月19-20日），主要矿业播客频道（Mining Stock Daily、Crux Investor、Money of Mine、Northern Miner等）周末均无新内容。周二（7月21日）为本周第二个工作日，但主要频道均未发布涉及铜金银供需的深度访谈。整体Q2季报发布期（7月14-16日密集期）后，播客/访谈产出处于过渡阶段，内容重心偏向于对已发布业绩的事后解读而非新增供需信号。",
     "part2_searched": true,
-    "part2_channel": "failed",
+    "part2_channel": "browser_use",
     "part2_sources_checked": [
-      "Playwright + Chromium headless (storage_state from .browser_profile/x_auth.json)",
-      "Seed accounts: 34 individual + 18 official/company (52 handles total)",
+      "Playwright + Chromium headless (Python 3.13.12, storage_state from .browser_profile/x_auth.json)",
+      "Seed accounts searched (52 handles): 34 individual + 18 official/company",
       "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
     ],
-    "part2_result": "X搜索通道失败。Python 3.14（managed）和系统Python 3.12（C:\\Users\\Zhemin\\.codex\\tools\\browser-use\\Scripts\\python.exe）均缺少playwright模块，导致scripts/x_search.py无法执行。未采集当日X原始候选。通道失败不阻塞Part 1和Part 3，Part 2保持空数组。x_outputs/2026-07-21_x_raw_materials.txt未生成。",
+    "part2_result": "Playwright X搜索完成（Python 3.13.12 + Chrome, 52个种子+企业账号, 2026-07-21单日窗口）。采集12条原始候选（保存至x_outputs/2026-07-21_x_raw_materials.txt）。经供需关键词交叉筛选，1条合格：Ivanhoe Mines (@IvanhoeMines_) 官方宣布Kamoa铜矿H2 2026采矿率提升30%至70万吨/月（新box cuts投产+stoping法启动+Kansoko Sud掘进进展）。其余11条排除：@duediligenceguy 1条（趣味帖）、@TheDailyGold 1条（金价技术分析）、@Brien_Lundin 3条（黄金市场情绪/WSJ文章转发）、@wmiddelkoop 3条（黄金进出口数据为6月滞后数据/央行储备趋势/视频分享）、@LawrenceLepard 1条（个股推荐）、@soarfinancial 2条（公司访谈推广）。原始运行首次因Python版本错误失败，2026-07-22 09:18追补完成。Playwright通道状态正常（登录有效，52个账号搜索成功返回）。",
     "part3_sources_checked": [
       "MMG/五矿资源 HKEX公告 (Jul 21: Q2 2026生产报告 — Las Bambas铜109,192t -5% YoY, Kinsevere电解铜16,980t +24% YoY, Khoemacau铜11,423t持平, 金28,119oz -9% YoY, 银2,825,891oz +13% YoY, C1成本指引全线显著下修)",
       "MINING.com site:mining.com copper (Jul 21 Google搜索: 未发现7月21日当日新增文章；mining.com首页仅显示至7月17日内容)",
@@ -83,11 +98,12 @@
     "part3_result": "Jul 21 (Tuesday): 1 qualified news item. MMG五矿资源Q2 2026生产报告（港交所公告）：Las Bambas铜109,192吨-5% YoY（品位0.86%低位），Kinsevere +24%（硫化矿爬坡），Khoemacau持平。全线C1成本指引显著下修（Las Bambas降至$0.85-1.05/lb）。银产量+13%、金-9%。五座矿山维持全年指引。其余同日候选（Alkane FY26/智利风暴延续/Escondida罢工/巴西铜出口数据/Vicuña RIGI/券商分析报告/SMM价格数据）均为窗口外事件、已知趋势延续或纯价格/交易数据，排除。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 1,
-      "passed": 1,
+      "checked": 2,
+      "passed": 2,
       "failed": 0,
       "failures": [],
       "notes": [
+        "Ivanhoe Mines Kamoa采矿率提升（X @IvanhoeMines_ 2026-07-21 15:40 UTC）：核验通过 — 通过原帖URL (https://x.com/IvanhoeMines_/status/2079592323617562838) 确认完整内容：Kamoa两座新box cuts投产、H2 2026采矿率提升30%至700,000吨/月、Kansoko Sud box cut已完成建设（剩余700m斜坡道预计Q1 2027抵达矿体）、新增采矿班组和stoping法启动。确认为Ivanhoe Mines官方账号发布（7月21日）。",
         "MMG五矿资源Q2 2026生产报告（2026-07-21港交所公告）：核验通过 — 通过智通财经(zhitongcaijing.com)全文抓取确认完整数据。确认：Las Bambas铜109,192t -5% YoY（品位0.86%，回收率89.8%），Kinsevere电解铜16,980t +24%，Khoemacau铜11,423t持平，总铜137,843t。金28,119oz -9%，银2,825,891oz +13%。C1成本指引：Las Bambas $1.20-1.40→$0.85-1.05/lb，Khoemacau $2.00-2.30→$1.70-2.00/lb，Rosebery -$0.60至-$0.10→-$1.50至-$1.00/lb。全年指引维持不变。",
         "Alkane Resources FY26 Q4季报（2026-07-20 Globe Newswire）：核验通过但排除 — 原始公告日期7月20日，不在7月21日窗口内。7月21日为webcast日而非信息发布日。FY26金当量产量168,337oz AISC $2,925/oz。",
         "智利冬季风暴延续（格隆汇/财联社 2026-07-21）：核验通过但排除 — 同7月18日风暴事件的延续报道，无新增生产中断或损失量信息。已在07-18日报中作为核心信号覆盖。",
