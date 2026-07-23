@@ -1,7 +1,7 @@
 {
   "date": "2026-07-22",
-  "report_time": "2026-07-23T09:29:51+08:00",
-  "report_note": "2026-07-23 07:00 自动化首轮完成研究但发布中断；09:29 补充核验全部来源URL、追加Part 1/Part 3窗口补充检索、确认X搜索结果（24条候选0条合格），内容无新增信号。重跑全部校验后发布。",
+  "report_time": "2026-07-23T09:50:00+08:00",
+  "report_note": "2026-07-23 07:00 自动化首轮完成研究但发布中断；09:29 补充核验+发布；09:50 发现 mining.com site:搜索遗漏3条铜分类页文章（Cobre Panama重启、Chile千亿铜投资、Grupo Mexico短缺预测），改用Playwright直接抓取补入。",
   "windows": {
     "part1": {
       "start": "2026-07-20T00:00:00+08:00",
@@ -16,10 +16,55 @@
       "end": "2026-07-22T23:59:59+08:00"
     }
   },
-  "summary": "7月22日铜银供给端信号分化：淡水河谷Q2铜产量9.84万吨同比+6.3%（Salobo创Q2纪录），运营面积极；全球最大原生银商Fresnillo H1银产量2,205万盎司同比-11.4%（矿石处理量下降+Silverstream终止），Q2金产量15.5万盎司同比微降-1.9%。两大矿商均维持全年产量目标不变。",
+  "summary": "7月22日铜供给信号密集：Cobre Panama（全球1%+铜产量）重启谈判取得突破（巴拿马拟建国有矿企与First Quantum合作）；智利宣布十年千亿美元铜投资计划并推动出口市场多元化；Grupo Mexico预计2026年铜市小幅短缺（AI和能源转型驱动）；淡水河谷Q2铜产量9.84万吨同比+6.3%（Salobo创纪录）。银供给端Fresnillo H1银产量2,205万盎司同比-11.4%。黄金当日无新增供需信号。",
   "part1_broadcasts": [],
   "part2_x_posts": [],
   "part3_news": [
+    {
+      "source": "MINING.com / Reuters",
+      "title": "Panama weighs creation of state-owned miner to pave way for Cobre Panama re-opening",
+      "url": "https://www.mining.com/web/panama-weighs-creation-of-state-owned-miner-to-pave-way-for-cobre-panama-re-opening/",
+      "publish_time": "2026-07-22",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月22日，Reuters援引知情人士报道：巴拿马正考虑创建国有矿业公司，与加拿大First Quantum合作重启已关停的Cobre Panama铜矿——该矿曾是世界最大铜矿之一，2023年因最高法院裁定合同违宪而关闭，导致全球铜产量减少超过1%、巴拿马GDP损失4.5%。方案之一是PPP模式：First Quantum持股60-65%、巴拿马持股35-40%，矿权归巴拿马所有；另一方案为租赁模式，政府收取royalty+税收。巴拿马商工部长Julio Molto称将在2026年底前做出决定，First Quantum已暂停对巴拿马的$200亿仲裁。RBC分析师称重获Cobre Panama运营控制权对First Quantum将是\"变革性的\"。",
+      "interpretation": "Cobre Panama重启进程是2023年以来全球铜矿供给端最大的潜在增量信号。该矿在关停前年产铜约35万吨（全球产量的约1.6%），其关闭是过去三年全球铜精矿市场从宽松转向极度紧缺（TC -146美元/干吨）的关键结构性因素之一。此次\"国有矿企+PPP\"方案是三年僵局以来首次出现具体重启路径——巴拿马政府从Mulino总统2024年就职时承诺\"永久关闭\"到如今主动提出国有矿企框架，政策立场发生重大转变。60-65%/35-40%的股权分割对First Quantum较为有利（此前合同被裁定违宪时公司几乎失去一切），但需注意：(1) 最终决定要到2026年底——这是政治承诺而非经营时间表；(2) 巴拿马2023年通过的禁矿法律对国有实体的豁免存在法律模糊性；(3) 即使政治决定做出，矿山重启也需要1-2年时间（设备维护、劳动力召回、选矿厂重启等）。短期对全球铜供需无直接影响，但中长期供给预期可能发生根本性转变。",
+      "importance": "Cobre Panama年产铜约35万吨（全球铜矿产量的约1.6%），是西半球最大的铜矿之一。从\\\"永久关闭\\\"到\\\"PPP重启框架\\\"是2023年以来的首次实质性转机。若重启成功，将在2028年前后为全球铜精矿市场带来约35万吨/年的增量——在当前TC深度负值、智利铜矿产量持续下滑的背景下，这一潜在增量足以改变中长期铜供给格局。但2026年底前仅为政治决策窗口，重启仍需时间。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "WebFetch 成功获取完整原文（200 OK）。URL: /web/panama-weighs-creation-of-state-owned-miner-to-pave-way-for-cobre-panama-re-opening/。Playwright验证页面可正常访问。"
+    },
+    {
+      "source": "MINING.com / Bloomberg",
+      "title": "Chile plans $100 billion copper push to find buyers beyond China",
+      "url": "https://www.mining.com/web/chile-plans-100-billion-copper-push-to-find-buyers-beyond-china/",
+      "publish_time": "2026-07-22",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月22日，Bloomberg报道：智利外交部长Francisco Pérez Mackenna在新加坡Bloomberg可持续商业峰会上宣布，智利计划未来十年投入约$1000亿用于铜产业，以拓展中国以外的客户市场（目前中国占智利铜出口的50%以上），瞄准数据中心等新兴需求。Pérez Mackenna表示智利需要从出口铜精矿转向出口精炼铜，以实现市场多元化。智利已启动与印度的FTA谈判，并加强同邻国的贸易协定。此外，Antofagasta已提议将年度铜精矿合同与现货指数挂钩，挑战数十年来以固定TC/RC为基础的长协定价体系。",
+      "interpretation": "智利千亿美元铜投资计划是全球最大铜生产国对未来十年铜需求格局的押注。三个结构性信号：(1) 从精矿到精炼铜的升级——将铜价值链更多留在国内，对全球冶炼格局（尤其中国冶炼产能）有深远影响；(2) 市场多元化（\"beyond China\"）——在中国铜冶炼产能快速扩张、TC深度负值的背景下，智利主动寻求印度和东南亚市场，可能改变铜精矿的全球贸易流向；(3) Antofagasta提议长协与现货指数挂钩——这是TC定价体系的潜在地震，若推广将削弱中国冶炼厂在年度谈判中的定价权。$1000亿投资规模相当于智利年GDP的约25%，时间跨度为十年，需要国际资本和矿企共同参与。此计划是战略框架而非即刻的投资决策，但其政策信号意义明确——智利正在调整其铜产业的全球定位。",
+      "importance": "智利是全球最大铜生产国（年产铜约530万吨，占全球约25%），其十年$1000亿投资计划+精炼化升级+市场多元化战略是铜供给端的重大结构性信号。从铜精矿转向精炼铜可能重塑全球铜冶炼和贸易格局；Antofagasta提议的定价改革若推行，将是对传统TC/RC体系的根本性挑战。这些变化不会在短期内影响铜供需平衡，但标志着智利铜产业战略正在发生方向性调整。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "WebFetch 成功获取完整原文（200 OK）。URL: /web/chile-plans-100-billion-copper-push-to-find-buyers-beyond-china/。Playwright验证页面可正常访问。"
+    },
+    {
+      "source": "MINING.com / SMM上海有色网",
+      "title": "Grupo Mexico expects mild copper shortfall in 2026 on strong US economy, AI demand; Q2 net profit +79%",
+      "url": "https://www.mining.com/web/grupo-mexico-expects-mild-copper-shortfall-this-year-on-strong-us-economy-ai/",
+      "publish_time": "2026-07-22",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "excerpt": "7月22日，Grupo Mexico矿业部门负责人Leonardo Contreras在分析师电话会上表示：基于当前供需动态，公司预计2026年全球铜市场将出现小幅供应短缺，主要受美国经济韧性、脱碳技术、人工智能和电动汽车需求增长推动。同日Grupo Mexico公布Q2净利润同比+79%（$22亿），营收+35%至$57.1亿，均超分析师预期（净利预期$16.6亿，营收预期$56.5亿）。Q2铜产量25.75万吨同比-3.7%（7月21日已发布），秘鲁和美国Asarco子公司产量减少为主因但墨西哥本土产量上升部分抵消。全年铜产量指引维持103.4万吨。Tia Maria项目完成42%，目标H2 2026投产。上月发行$12.5亿10年期债券用于秘鲁项目融资。",
+      "interpretation": "Grupo Mexico作为全球前五大铜生产商之一，其\"2026年小幅短缺\"预测来自产业一线——相比于投行和研究机构的展望，矿企自身的供需判断更具操作参考价值。Q2净利润+79%超预期说明了即使在铜矿品位下降、成本上升的背景下，当前铜价仍为矿商创造了极强的盈利能力。但需注意：Q2铜产量25.75万吨同比-3.7%（与7月21日发布的季度报告一致），产量下降是行业性趋势（Escondida品位降至0.70%、智利产量前5月-8%），Grupo Mexico通过高铜价+墨西哥本土产量提升部分弥补了秘鲁和美国资产的不足。\"小幅短缺\"的判断与ICSG前5月数据（累计过剩22.1万吨）形成表面矛盾——ICSG数据测量精炼铜供需，而Grupo Mexico的判断可能更多基于铜精矿端的紧张（TC -146美元/干吨）。",
+      "importance": "Grupo Mexico是全球前五大铜生产商（年产铜约103万吨，占全球约4.5%），其\\\"2026年小幅短缺\\\"预测是来自产业一线的供需判断。Q2净利润+79%验证了高铜价下矿商的优异盈利能力，但也反映了产量-3.7%的行业性供给侧压力。Tia Maria项目（H2 2026投产）是近期铜矿供给端的少数增量项目之一。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "mining.com原文URL返回403（/web/路径）。通过Google搜索摘要获得标题、日期和核心引述（Leonardo Contreras分析师会发言），SMM中文转载(https://news.smm.cn/news/104019227)交叉核验短缺预测和Q2利润数据，北方有色网(https://cmcc.china-mcc.com/news_show-103-10741.html)确认Q2铜产量25.75万吨-3.7%。三方事实一致。"
+    },
     {
       "source": "Vale S.A. (NYSE: VALE) / 新华财经",
       "title": "淡水河谷Q2 2026铜产量9.84万吨同比+6.3%（Salobo创Q2纪录），维持全年35-38万吨指引",
@@ -73,6 +118,10 @@
     ],
     "part2_result": "Playwright X搜索完成（52个种子+企业账号，2026-07-22单日窗口）。采集24条原始候选（保存至x_outputs/2026-07-22_x_raw_materials.txt）。经供需关键词交叉筛选，当日窗口内0条合格供给需求信号帖子。候选分析：@wmiddelkoop 4条（Fresnillo H1银产量-8%标题但实际数据为-11.4%不符、黄金西向东流动宏观评论、期货价格标记）；@RonStoeferle 7条（金矿股盈利分析系列帖——财务表现非供需信号）；@duediligenceguy 5条（铜bull表态、宏观评论）；@TaviCosta 1条（黄金底部形成宏观观点）；@Brien_Lundin 1条（黄金关键矿物标签讨论）；@silverguru22 1条（对冲黄金建议）；@peter_krauth 2条（白银反弹+ESGold项目订阅推广）；@TheDailyGold 1条（金矿股vs黄金技术分析）；@LawrenceLepard 1条（石墨vs钢铁非贵金属）；@Frank_Giustra 1条（黄金纸市场评论）。Playwright通道状态正常（登录有效，52个账号搜索成功返回）。",
     "part3_sources_checked": [
+      "【09:50 Playwright抓取 mining.com/commodity/copper/】— Chromium headless + 反检测，200 OK。提取5篇7月22日文章（此前site:mining.com搜索遗漏3篇）：Cobre Panama重启（入选）、Chile $1000亿铜投资（入选）、Grupo Mexico短缺预测（入选）、Lundin Gold勘探（排除-勘探）、Costa Rica Crucitas（排除-政策/未开发）。",
+      "MINING.com Cobre Panama article Jul 22 (Reuters): WebFetch 200 OK — 完整原文，入选",
+      "MINING.com Chile $100B article Jul 22 (Bloomberg): WebFetch 200 OK — 完整原文，入选",
+      "MINING.com Grupo Mexico article Jul 22: 原文URL 403，Google摘要+SMM(https://news.smm.cn/news/104019227)+北方有色网交叉核验 — 入选",
       "北方有色网 7月22日铜市场日报 — 产业动态汇总：Vale Q2铜产量98.4kt（入选）；Lundin Caserones停产更新（排除-智利风暴事件延续）；ICSG 5月全球铜数据（排除-7月21日发布）；Grupo Mexico Q2铜产量25.75万吨（排除-7月21日发布）；Eldorado Gold Skouries首批矿石破碎（排除-7月21日发布）",
       "新华财经 Vale Q2产销报告 Jul 22 — 入选，铜98.4kt +6.3% YoY，Salobo创纪录（https://m.cnfin.com/kx//zixun/20260722/4444045_1.html）",
       "Vale Q2 2026 Production Report official (api.mziq.com) — 核验通过，确认产量数据与新华财经一致",
@@ -95,14 +144,18 @@
       "【09:29补充检索】 SMM Lundin Caserones停产 Jul 22 — 已排除（同Lundin事件延续）",
       "【09:29补充检索】 今日头条铜市供应挤压分析 Jul 22 — 个人分析/行情评论，非一手供需来源"
     ],
-    "part3_result": "Jul 22 (Wednesday): 2 qualified news items. (1) Vale Q2 2026铜产量98.4kt +6.3% YoY，Salobo创Q2纪录，维持35-38万吨指引；(2) Fresnillo H1银产量2,205万oz -11.4% YoY（Silverstream终止+矿石处理量下降），维持4,200-4,650万盎司指引。其余排除项：Lundin Caserones停产为智利风暴事件延续、ICSG/Grupo Mexico/Eldorado Skouries为7月21日发布、Avino/Erdene规模过小、NOVAGOLD/中国黄金国际为非生产事件、Gladiator/Coeur为勘探。09:29补充检索无新增合格信号。mining.com 7月22日无铜金银供需文章。",
+    "part3_result": "Jul 22 (Wednesday): 5 qualified news items。首轮07:10通过site:mining.com获取2条（Vale Q2铜产量 + Fresnillo H1银产量）；09:50通过Playwright补抓mining.com/commodity/copper/（200 OK，5篇全量获取）新增3条重头铜文章（Cobre Panama重启 + Chile $1000亿铜投资 + Grupo Mexico短缺预测）。排除项：Lundin Caserones/ICSG/Grupo Mexico Q2数据为7月21日发布；Lundin Gold/Coeur/Gladiator为勘探；Avino/Erdene规模过小；NOVAGOLD/甲玛为非生产事件。mining.com site:搜索被验证为不可靠（遗漏铜分类页3/5文章），已更新工作流改用Playwright直接抓取。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 12,
-      "passed": 12,
+      "checked": 15,
+      "passed": 15,
       "failed": 0,
       "failures": [],
       "notes": [
+        "【09:50 Playwright mining.com/commodity/copper/】Chromium headless + 反检测: 200 OK，5篇全量提取。此前site:mining.com搜索仅发现其中2篇（Lundin Gold/Costa Rica），遗漏Cobre Panama/Chile/Grupo Mexico共3篇重头铜文章。根因：site:搜索返回首页SEO内容而非分类页实际列表。",
+        "【09:50】Cobre Panama mining.com/web/ URL: WebFetch 200 OK，完整原文核验通过",
+        "【09:50】Chile $100B mining.com/web/ URL: WebFetch 200 OK，完整原文核验通过",
+        "【09:50】Grupo Mexico mining.com/web/ URL: 403；Google摘要+SMM+北方有色网三方交叉核验通过",
         "【09:29重跑核验】新华财经 Vale URL: 200 OK，数据一致",
         "【09:29重跑核验】RTTNews Fresnillo URL: 200 OK，数据一致",
         "【09:29重跑核验】Mining.com /commodity/copper/: 403，site:mining.com 无7月22日铜金银文章",
@@ -133,7 +186,9 @@
       "中国黄金国际甲玛矿资源量增长（经济观察网 2026-07-22）— Cu+80%/Au+192%/Ag+134%为资源量（非储量），公司6月底公告，非7月22日生产事件。排除。",
       "Gladiator Metals Cub铜金银勘探结果（Northern Miner 2026-07-22）— 钻探勘探结果，非产量供给。排除。",
       "Coeur Mining墨西哥勘探预算翻倍至$158M（Northern Miner 2026-07-22）— 勘探支出，非产量供给。排除。",
-      "Mining.com 7月22日文章（Lithium 5月低点/NOVAGOLD Donlin/Costa Rica Crucitas采矿禁令）— 均不涉及铜金银当前供需，排除。"
+      "Mining.com 7月22日文章（Lithium 5月低点/NOVAGOLD Donlin/Costa Rica Crucitas采矿禁令）— 均不涉及铜金银当前供需，排除。",
+      "Lundin Gold Fruta del Norte铜金斑岩发现 Jul 22 (mining.com) — 勘探发现（两个新斑岩目标，Sandia矿床持续扩展），非产量供给，排除。",
+      "Costa Rica Crucitas金矿政策辩论 Jul 22 (mining.com) — 采矿禁令与未开发项目争议，无当前产量影响，排除。"
     ]
   }
 }

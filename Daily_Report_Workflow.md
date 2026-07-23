@@ -73,27 +73,36 @@
 
 ### 5.3A mining.com 强制抓取规则
 
-mining.com 近期对自动化请求启用了 CloudFront 反爬（/feed/、/copper、/commodity/copper/ 等页面返回 403），直连抓取已不可靠。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
+mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端、`site:mining.com` Google 搜索和 WebFetch 均无法可靠获取 `/commodity/copper/` 页面的实际文章列表——Google 搜索返回的是首页/SEO 内容而非铜分类页文章。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
 
-1. **首选：Google `site:mining.com` 搜索**。在每次 Part 3 检索中，独立执行以下搜索查询（逐日 + 逐金属组合）：
-   - `site:mining.com copper July DD 2026`
-   - `site:mining.com gold July DD 2026`
-   - `site:mining.com silver July DD 2026`
-   - 其中 DD 对应 Part 3 窗口的每一个自然日日期。
-   
-2. **扫描 `https://www.mining.com/commodity/copper/`**。该页面为 mining.com 铜分类汇总页，可能与主站首页有不同的缓存/防护策略。即使该页返回 403，也应在搜索日志中如实记录，并继续第 1 步的 site:搜索。
-   
-3. **内容核验**。site:mining.com 搜索摘要只能用于发现候选——不得直接作为写入证据。找到候选后：
-   - 优先尝试直接抓取文章 URL 的完整正文；
-   - 若文章 URL 返回 403，使用 Google 搜索摘要（标题、日期、核心事实）作为基础，再寻找至少一个中文转载来源（如 SMM 上海有色网、新浪财经、东方财富网等）交叉核验关键事实（日期、矿名、产量/停产/溢价数据、涉及公司）；
-   - 若前两步均无法获取完整原文，在 `mining_com_source_note` 字段明确说明核验路径和局限性（如"URL 403 不可达；内容基于 Google 摘要 + SMM 中文转载交叉验证"）。
-   
-4. **搜索日志记录**。在 `search_log.part3_sources_checked` 中，必须单独记录以下三项：
-   - mine. com `site:mining.com` 搜索命中数
-   - mining.com 文章直接抓取成功/失败状态（403 / 200）
-   - 每篇入选文章所用的核验路径
+1. **Playwright 直接抓取铜分类页**（Python 3.13.12 + Chromium headless + 反检测）。这是唯一可靠的 mining.com 信息采集路径。每次 Part 3 检索必须执行：
+   ```
+   C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe
+   ```
+   脚本参数：
+   - 目标 URL：`https://www.mining.com/commodity/copper/`
+   - 浏览器：Chromium headless，添加 `--disable-blink-features=AutomationControlled` 和 `--no-sandbox`
+   - 上下文：user_agent 设为 Chrome 131 Windows、viewport 1920x1080、locale en-US
+   - 反检测：`add_init_script` 设置 `navigator.webdriver=false`、`navigator.plugins` 非空、`window.chrome={runtime:{}}`
+   - 提取：`page.evaluate()` 从 DOM 中提取所有包含 "July DD, 2026" 等当期日期的文章标题和链接
+   - **禁止** `site:mining.com` Google 搜索替代此步骤——该搜索在页面 403 时返回首页/SEO 内容而非铜分类页的实际文章列表，已在 2026-07-22 验证为不可靠
 
-5. **不采用** sitemap、Wayback Machine、RSS feed 等方法——`site:mining.com` Google 搜索 + `https://www.mining.com/commodity/copper/` 是唯一的也必须完成的信息采集路径。
+2. **逐篇核验**。Playwright 提取的候选列表每条都要：
+   - 优先尝试 WebFetch 抓取文章 URL 完整正文（部分 `/web/` URL 对 WebFetch 较友好）
+   - 若文章 URL 返回 403 或超时，用 Playwright 同一会话打开该文章 URL 提取正文
+   - 若仍受限，寻找中文转载源（SMM、新浪财经、东方财富网等）交叉核验
+   - 在 `mining_com_source_note` 字段明确记录核验路径
+
+3. **辅助渠道**。除 Playwright 抓取铜分类页外，仍需执行：
+   - Google `site:mining.com gold July DD 2026` 和 `site:mining.com silver July DD 2026`（金/银分类页同样可能 403，site:搜索作为辅助发现手段）
+   - 尝试 WebFetch `https://www.mining.com/commodity/gold/` 和 `https://www.mining.com/commodity/silver/`；若 403，亦使用 Playwright
+
+4. **搜索日志记录**。在 `search_log.part3_sources_checked` 中，必须单独记录：
+   - mining.com `/commodity/copper/` Playwright 抓取状态和文章数
+   - 各篇文章的核验路径（WebFetch 成功 / Playwright 抓取 / 中文转载交叉核验）
+   - site:mining.com 金/银搜索命中数（辅助参考）
+
+5. **不采用** sitemap、Wayback Machine、RSS feed 等方法。`site:mining.com` 搜索仅作为金/银分类页的辅助发现手段，不得作为铜分类页的主要信息源。
 
 ## 6. 内容筛选
 
