@@ -65,7 +65,7 @@
       "Playwright + Chromium headless（Python 3.13.12，已保存X登录状态，52个种子和公司账号）",
       "关键词：gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
     ],
-    "part2_result": "窗口内采集12条原始候选，均未入选：1条Avino二手产量转述缺乏原始公司链接且原始事件不在当日；1条钻探结果；其余为价格/交易观点、宏观情绪、非铜金银话题或无可归因供需事实。",
+    "part2_result": "窗口内采集12条原始候选，均未入选：1条Avino二手产量转述缺乏原始公司链接且原始事件不在当日；1条钻探结果；其余为价格/交易观点、宏观情绪、非铜金银话题或无可归因供需事实。脚本在全部候选写入原始文件后，因Windows GBK控制台不能输出勾选符号而以UnicodeEncodeError退出；原始文件内容完整，不影响本次审核。",
     "part3_sources_checked": [
       "【主路径】Playwright抓取 https://www.mining.com/commodity/copper/：200 OK，提取7月23日候选；Teck Q2业绩、Anglo H1业绩入选。",
       "Teck Resources Q2 2026业绩原文：核验通过，确认总铜产量135,900吨、同比+25%、QB 55,800吨。",
