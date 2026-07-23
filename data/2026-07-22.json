@@ -1,0 +1,139 @@
+{
+  "date": "2026-07-22",
+  "report_time": "2026-07-23T09:29:51+08:00",
+  "report_note": "2026-07-23 07:00 自动化首轮完成研究但发布中断；09:29 补充核验全部来源URL、追加Part 1/Part 3窗口补充检索、确认X搜索结果（24条候选0条合格），内容无新增信号。重跑全部校验后发布。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-20T00:00:00+08:00",
+      "end": "2026-07-22T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-22T00:00:00+08:00",
+      "end": "2026-07-22T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-22T00:00:00+08:00",
+      "end": "2026-07-22T23:59:59+08:00"
+    }
+  },
+  "summary": "7月22日铜银供给端信号分化：淡水河谷Q2铜产量9.84万吨同比+6.3%（Salobo创Q2纪录），运营面积极；全球最大原生银商Fresnillo H1银产量2,205万盎司同比-11.4%（矿石处理量下降+Silverstream终止），Q2金产量15.5万盎司同比微降-1.9%。两大矿商均维持全年产量目标不变。",
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Vale S.A. (NYSE: VALE) / 新华财经",
+      "title": "淡水河谷Q2 2026铜产量9.84万吨同比+6.3%（Salobo创Q2纪录），维持全年35-38万吨指引",
+      "url": "https://m.cnfin.com/kx//zixun/20260722/4444045_1.html",
+      "publish_time": "2026-07-22T08:24:00+08:00",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月22日，新华财经报道淡水河谷（Vale）2026年Q2产销报告。Q2铜产量9.84万吨，同比+6.3%（去年同期9.26万吨），环比-3.8%（Q1为10.23万吨）；铜销量9.76万吨，同比+9.7%，环比+7.0%。巴西资产表现强劲，Salobo铜矿创Q2产量纪录，Sossego和Voisey's Bay产量也同比提升。H1 2026铜产量累计20.07万吨，同比+9.4%。2026年铜产量指引维持35-38万吨不变。Q2镍产量4.2万吨同比+4.2%，Long Harbour创Q2纪录。Q2铁矿石产量8,426万吨同比+0.8%（自2018年以来Q2最高）。",
+      "interpretation": "淡水河谷Q2铜产量同比+6.3%在全球铜矿供给端系统性偏紧（TC -141美元/干吨）背景下是正面信号。Salobo创Q2纪录是核心亮点——该矿是淡水河谷最大的铜资产，2025年经历了较长的维修停产，2026年恢复至创纪录水平说明运营改善具有持续性。但QoQ -3.8%提示季节性因素（巴西Q2通常有雨季影响）。总体看淡水河谷铜产量在稳步恢复通道中，350-380kt的全年指引在H1已完成20.07万吨（约53-57%进度）的背景下可实现性高。值得注意的是巴西铜产量增长（+6.3%）与智利铜产量下滑（前5月-8%）形成鲜明对比——南美铜矿供给正在发生地理性分化。",
+      "importance": "淡水河谷是全球前15大铜生产商之一（年产量35-38万吨，约占全球铜矿产量的1.6%）。Salobo作为巴西最大的铜矿（年产能约20万吨），其Q2创纪录产量验证了淡水河谷铜资产的运营改善趋势。在全球铜TC深度负值、智利铜矿受气象和罢工双重压力的背景下，巴西铜矿产量的稳定增长为全球铜精矿市场提供了重要的边际增量。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "Fresnillo plc (LSE: FRES) / RTTNews",
+      "title": "全球最大原生银商Fresnillo Q2银产量1,093万盎司同比-12.6%，H1银产量2,205万盎司同比-11.4%，维持全年4,200-4,650万盎司指引",
+      "url": "https://www.rttnews.com/3669119/fresnillo-reports-12-6-drop-in-q2-attributable-silver-production-reaffirms-full-year-outlook.aspx",
+      "publish_time": "2026-07-22",
+      "metal_tags": ["silver", "gold"],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "7月22日，墨西哥贵金属矿商Fresnillo plc（LSE: FRES，全球最大原生银生产商）发布Q2 2026产量报告。Q2归属银产量1,092.8万盎司，同比-12.6%（去年同期1,250.6万盎司），主因矿石处理量下降及Silverstream合约终止不再贡献产量。Q2金产量15.5万盎司，同比-1.9%（去年同期15.8万盎司）。Q2副产品铅产量17,438吨同比+15.1%，锌产量27,672吨同比-2.6%。H1 2026归属银产量2,204.9万盎司同比-11.4%（去年同期2,488.2万盎司）；H1金产量29.1万盎司同比-7.3%（去年同期31.4万盎司）。公司重申2026年全年指引：归属银产量4,200-4,650万盎司，金产量50-55万盎司。CEO Octavio Alvidrez表示运营计划符合预期，H2有望按计划推进。Q2银产量环比-1.7%（Q1为1,112.1万盎司），金产量环比+13.7%（Q1为13.6万盎司）。",
+      "interpretation": "Fresnillo H1银产量同比-11.4%（减少约283万盎司）对全球白银供给具有显著影响——Fresnillo年产银约4,300-4,500万盎司，占全球银矿产量的约5%。H1减产约283万盎司意味着全球银矿供给减少约0.6%。Q2 -12.6%的降幅大于Q1 -10.1%，说明供给收缩在Q2有所加深。Silverstream合约终止是结构性因素（该合约此前每年贡献约150-200万盎司银），一次性影响将在2026年全年体现。矿石处理量下降的原因未在新闻稿中详细说明，可能与Saucito选厂矿石品位下降或计划性维护有关。正面信号：(1) Q2金产量环比+13.7%显示运营改善动能；(2) 副产品铅产量+15.1%部分抵消银产量下降的收入影响；(3) 公司重申全年指引（4,200-4,650万盎司），暗示H2产量需达到2,000-2,400万盎司（vs H1的2,205万盎司），下半年产量有望环比持平或小幅改善。在当前银价$59/oz环境下，Fresnillo的银产量下降对全球白银供需平衡影响大于金——白银供需缺口格局的供给侧压力正在从数据中兑现。",
+      "importance": "Fresnillo是全球最大的原生银生产商，年产银约4,300-4,500万盎司（占全球银矿产量的约5%）。其H1银产量-11.4%是2026年白银供给侧收紧的一个重要量化信号，与印度白银实物溢价$6.50/oz（7月20日报道）、光伏银浆需求增长等需求侧信号形成共振。金产量-7.3%（H1）也在全球金矿供给已处于结构性下降趋势的背景下加剧了供给侧压力。Fresnillo作为FTSE 100成分股，其产量数据是贵金属矿业供给端的权威指标。CEO表态\"运营计划符合预期\"是关键——它意味着公司不认为H1的下降是趋势性的，而是计划内的阶段性波动，H2有望补回部分产量。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Northern Miner (Jul 20-22: Jul 22 South32 Pat Risner podcast — FAST-41/social license topic, not supply-demand)",
+      "Crux Investor (Jul 20-22: no new interview content)",
+      "Mining Stock Daily (Jul 20-22: no new episodes in 72h window)",
+      "Sprott Insights (Jul 20-22: no new content)",
+      "Money of Mine / M&M Podcast / The Mining Insider (Jul 20-22: no supply-demand interview content)",
+      "YouTube/Spotify/Apple Podcasts mining indexes (Jul 20-22: no qualified supply-demand interview content)",
+      "Rule Symposium Videos (Jul 21-22 published on Northern Miner: pre-recorded conference presentations — Grosskopf $150 silver forecast, First Majestic mine growth — price prediction / company IR content, not new interview)",
+      "Mining Stock Education Jul 20 (Mark Zaret 46-Bagger portfolio review — stock picks/trading, not supply-demand)",
+      "Liberty Gold Virtual Investor Conference Jul 22 (IR presentation — Black Pine project update, no new supply-demand data)",
+      "Commodity-TV / Natural Resource Stocks / Nicola Mining (Jul 20-22: no new supply-demand interview content)",
+      "The Mining.com.au Podcast Hub (Jul 20-22: no new episodes)"
+    ],
+    "part1_result": "72h窗口（07-20至07-22，周一至周三）：0条合格访谈。Northern Miner Jul 22 South32 Pat Risner播客主题为社会许可和FAST-41审批流程；MSE Jul 20 Mark Zaret为股票池回顾；Liberty Gold虚拟投资者会议为IR演示。Rule Symposium视频为会议录制。主要矿业播客渠道在本窗口期无新增供需相关内容。（09:29重跑补充检索确认无新增。）",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (Python 3.13.12, storage_state from .browser_profile/x_auth.json, 52 handles)",
+      "Keywords: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "Playwright X搜索完成（52个种子+企业账号，2026-07-22单日窗口）。采集24条原始候选（保存至x_outputs/2026-07-22_x_raw_materials.txt）。经供需关键词交叉筛选，当日窗口内0条合格供给需求信号帖子。候选分析：@wmiddelkoop 4条（Fresnillo H1银产量-8%标题但实际数据为-11.4%不符、黄金西向东流动宏观评论、期货价格标记）；@RonStoeferle 7条（金矿股盈利分析系列帖——财务表现非供需信号）；@duediligenceguy 5条（铜bull表态、宏观评论）；@TaviCosta 1条（黄金底部形成宏观观点）；@Brien_Lundin 1条（黄金关键矿物标签讨论）；@silverguru22 1条（对冲黄金建议）；@peter_krauth 2条（白银反弹+ESGold项目订阅推广）；@TheDailyGold 1条（金矿股vs黄金技术分析）；@LawrenceLepard 1条（石墨vs钢铁非贵金属）；@Frank_Giustra 1条（黄金纸市场评论）。Playwright通道状态正常（登录有效，52个账号搜索成功返回）。",
+    "part3_sources_checked": [
+      "北方有色网 7月22日铜市场日报 — 产业动态汇总：Vale Q2铜产量98.4kt（入选）；Lundin Caserones停产更新（排除-智利风暴事件延续）；ICSG 5月全球铜数据（排除-7月21日发布）；Grupo Mexico Q2铜产量25.75万吨（排除-7月21日发布）；Eldorado Gold Skouries首批矿石破碎（排除-7月21日发布）",
+      "新华财经 Vale Q2产销报告 Jul 22 — 入选，铜98.4kt +6.3% YoY，Salobo创纪录（https://m.cnfin.com/kx//zixun/20260722/4444045_1.html）",
+      "Vale Q2 2026 Production Report official (api.mziq.com) — 核验通过，确认产量数据与新华财经一致",
+      "Fresnillo 2Q26 Production Report Jul 22 — 入选，Q2银10.928M oz -12.6% YoY，H1银22.049M oz -11.4%（RTTNews/Sharecast 7月22日报道）",
+      "Fresnillo plc corporate calendar — 确认2Q26 Production Report日期为2026年7月22日",
+      "SMM有色网/文华财经 Jul 22: Lundin Caserones停产但维持指引 — 核验通过但排除（智利风暴事件自7月18日起已在07-18、07-21日报中覆盖，Lundin 7月21日公司公告为事件延续）",
+      "Avino Silver Q2 2026产量 Jul 22: 银26.7万oz、金2,178oz、铜73万磅 — 核验通过但排除（年产银当量约100万oz，全球银矿产量的约0.1%，规模不具全球供给影响）",
+      "NOVAGOLD Donlin $42亿并购 Jul 22 (mining.com / Northern Miner) — 核验通过但排除（M&A交易，Donlin为未开发项目，不涉及当前产量供给）",
+      "中国黄金国际 甲玛矿资源量 Jul 22 (经济观察网) — 排除（资源量增加非产量供给；公司6月底公告，非7月22日事件）",
+      "Gladiator Metals Cub assays Jul 22 (Northern Miner) — 勘探钻探结果，排除",
+      "Coeur Mining墨西哥勘探预算翻倍 Jul 22 (Northern Miner) — 勘探支出，排除",
+      "Mining.com site:mining.com copper/gold/silver Jul 22 — Google site:mining.com搜索：Jul 22文章包括Lithium（非Cu/Au/Ag）、NOVAGOLD Donlin（M&A）、Costa Rica Crucitas采矿禁令（金矿政策但未开发项目）——均不涉及铜金银当前供需。Mining.com /commodity/copper/ 页面无新Jul 22文章。mining.com首页Jul 22仅3篇非铜金银相关文章。",
+      "Kitco Jul 22 — 金价$4,125/oz；金银价格/技术面文章，无当日供需事件",
+      "Mysteel/我的钢铁网 Jul 22 — 价格/交易数据，无供需事件",
+      "券商报告 Jul 22（东方证券/国盛/大同/银河/中信/华源等）— 周报/行情分析，无当日新增供需信号",
+      "SEC EDGAR / ASX / TSX / LSE Jul 22 — 无其他铜金矿商产量/运营公告",
+      "MMG Q2 2026网易转载 Jul 22 — 7月21日报告的重刊，已在07-21日报覆盖，排除",
+      "【09:29补充检索】 Erdene Q2 2026 Bayan Khundii金矿产量 11,709oz Jul 22 (GlobeNewswire) — Q2+37% QoQ, 年均约47,000oz (全球金矿产量~0.04%)，规模过小，排除",
+      "【09:29补充检索】 databiztimes.com Copper supply crunch Jul 22 — 行情综述，无新增独特供需事件",
+      "【09:29补充检索】 SMM Lundin Caserones停产 Jul 22 — 已排除（同Lundin事件延续）",
+      "【09:29补充检索】 今日头条铜市供应挤压分析 Jul 22 — 个人分析/行情评论，非一手供需来源"
+    ],
+    "part3_result": "Jul 22 (Wednesday): 2 qualified news items. (1) Vale Q2 2026铜产量98.4kt +6.3% YoY，Salobo创Q2纪录，维持35-38万吨指引；(2) Fresnillo H1银产量2,205万oz -11.4% YoY（Silverstream终止+矿石处理量下降），维持4,200-4,650万盎司指引。其余排除项：Lundin Caserones停产为智利风暴事件延续、ICSG/Grupo Mexico/Eldorado Skouries为7月21日发布、Avino/Erdene规模过小、NOVAGOLD/中国黄金国际为非生产事件、Gladiator/Coeur为勘探。09:29补充检索无新增合格信号。mining.com 7月22日无铜金银供需文章。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 12,
+      "passed": 12,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "【09:29重跑核验】新华财经 Vale URL: 200 OK，数据一致",
+        "【09:29重跑核验】RTTNews Fresnillo URL: 200 OK，数据一致",
+        "【09:29重跑核验】Mining.com /commodity/copper/: 403，site:mining.com 无7月22日铜金银文章",
+        "新华财经 Vale Q2 2026铜产量 2026-07-22 08:24: 核验通过 — 全文确认铜98.4kt +6.3% YoY、92.6kt同期、102.3kt Q1、Salobo记录、350-380kt指引。与Vale官方生产报告（api.mziq.com）数据一致。",
+        "Vale Q2 2026 Production Report官方 (api.mziq.com): 核验通过 — 完整生产表格确认铜98.4kt、镍42.0kt、铁矿石84.3Mt，发布日期2026年7月21日（巴西时间after-market，北京时间7月22日凌晨）。",
+        "Fresnillo 2Q26 Q2/H1产量 RTTNews 2026-07-22 02:26 ET: 核验通过 — Q2银10.928M oz -12.6%、H1银22.049M oz -11.4%、Q2金154,812 oz -1.9%、H1金290,885 oz -7.3%、指引维持。与Fresnillo官网日历一致（22 Jul 2026: 2Q26 Production Report）。",
+        "Fresnillo官网日历: 核验通过 — 确认2Q26 Production Report发布日为2026年7月22日。",
+        "Lundin Mining Caserones更新 2026-07-21 CNW: 核验通过但排除 — 公司公告日期7月21日（温哥华时间7月21日13:00 PT），Northern Miner/SMM 7月22日报道为转载。核心内容（Caserones 7月18日起停产、Candelaria受影响、维持285kt指引）为智利风暴事件的延续——该事件已有07-18（首次报道）、07-21（第4天+死亡）覆盖。Lundin具体指引维持是新信息但事件本质未变。",
+        "北方有色网7月22日铜市场日报: 核验通过 — ICSG 5月数据（7月21日发布）、Grupo Mexico Q2（7月21日发布）、Eldorado Skouries（7月21日发布）均不在7月22日窗口。仅Vale Q2入选。",
+        "Avino Q2 2026产量 ACCESS Newswire 2026-07-22: 核验通过但排除 — 年产银当量约100万oz（全球银矿产量约0.1%），规模不足以影响全球供给。",
+        "Mining.com site:mining.com + /commodity/copper/ 检查: 7月22日文章（Lithium/NOVAGOLD/Costa Rica）均不涉及铜金银供需；/commodity/copper/页面最新仍为7月20日内容。mining.com直连403仍在。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Northern Miner Jul 22 South32 Pat Risner Podcast (https://www.northernminer.com/news/podcast-south32s-pat-risner-on-fast-41-social-license-and-mining-in-the-usa/1003893228/) — FAST-41审批流程和社会许可主题，非铜金银供需信号",
+      "Northern Miner Jul 22-21 Rule Symposium Videos (Grosskopf $150 silver / First Majestic / Vizsla / Dundee) — 会议录像，非新访谈；价格预测和企业IR内容"
+    ],
+    "part3_deduped_events": [
+      "Lundin Mining Caserones/Candelaria智利冬季风暴更新（2026-07-21 Lundin新闻稿，2026-07-22媒体报道）— Caserones 7月18日起停产，Candelaria采矿放缓但选厂利用堆存料运行，维持全年285kt铜产量指引。核心事件（智利冬季风暴导致矿山停产）自7月18日起已在07-18（首次）、07-21（第4天+人员死亡）日报中覆盖，Lundin 7月21日公司公告为同一事件的企业层面确认和指引维持声明。排除。",
+      "ICSG 2026年5月全球铜市场数据（2026-07-21外媒发布）— 5月精炼铜过剩1.8万吨（4月短缺14.5万吨），前5月累计过剩22.1万吨。发布日7月21日，不在7月22日Part 3窗口。排除。",
+      "Grupo Mexico Q2 2026铜产量25.75万吨（2026-07-21发布）— 同比-3.7%，维持103.4万吨全年目标。发布日7月21日，排除。",
+      "Eldorado Gold Skouries铜金项目首批矿石破碎（2026-07-21外媒发布）— Q3产出首批精矿，Q4商业化生产。发布日7月21日，排除。",
+      "MMG Q2 2026生产报告网易/新浪转载（2026-07-22）— 7月21日公告的重刊，已在07-21日报覆盖。排除。",
+      "Avino Silver Q2 2026产量（2026-07-22）— 银26.7万oz、金2,178oz、铜73万磅，年产量约100万AgEq oz（全球银矿产量的约0.1%），规模过小。排除。",
+      "NOVAGOLD Donlin $42亿并购（2026-07-22）— 公司M&A交易，Donlin为未开发金矿项目，无当前产量供给。排除。",
+      "中国黄金国际甲玛矿资源量增长（经济观察网 2026-07-22）— Cu+80%/Au+192%/Ag+134%为资源量（非储量），公司6月底公告，非7月22日生产事件。排除。",
+      "Gladiator Metals Cub铜金银勘探结果（Northern Miner 2026-07-22）— 钻探勘探结果，非产量供给。排除。",
+      "Coeur Mining墨西哥勘探预算翻倍至$158M（Northern Miner 2026-07-22）— 勘探支出，非产量供给。排除。",
+      "Mining.com 7月22日文章（Lithium 5月低点/NOVAGOLD Donlin/Costa Rica Crucitas采矿禁令）— 均不涉及铜金银当前供需，排除。"
+    ]
+  }
+}
