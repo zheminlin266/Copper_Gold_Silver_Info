@@ -40,7 +40,7 @@ export default function HomePage() {
               <p className="eyebrow">Latest Signals</p>
               <h2 id="latest-signals">今日关键信号</h2>
             </div>
-            <Link href={`/daily/${latest.date}`}>完整日报</Link>
+            <Link href="/archive">历史日报</Link>
           </div>
 
           {signals.length ? (
