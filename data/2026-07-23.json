@@ -1,0 +1,103 @@
+{
+  "date": "2026-07-23",
+  "report_time": "2026-07-23T23:40:17+08:00",
+  "summary": "7月23日铜供给端呈现分化：Teck Q2铜产量13.59万吨，同比增25%，QB连续第三季稳定运行；Anglo American上半年铜产量34.36万吨，同比基本持平，维持全年70万至76万吨指引并下调成本指引。黄金和白银当日未发现经核验的新增供需信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-21T00:00:00+08:00",
+      "end": "2026-07-23T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-07-23T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-07-23T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Teck Resources Ltd.",
+      "title": "Teck Q2铜产量13.59万吨同比增25%，QB连续第三季稳定运行",
+      "url": "https://www.teck.com/news/news-releases/2026/teck-reports-unaudited-second-quarter-results-for-2026",
+      "publish_time": "2026-07-23",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Teck于7月23日发布Q2 2026业绩：铜产量135,900吨，同比增加25%，各铜矿均实现增产。QB产量55,800吨，高于去年同期52,700吨及Q1的55,500吨；公司称QB已连续第三个季度保持稳定运行，Q2铜销量57,600吨，同比增加11,800吨。",
+      "interpretation": "Teck铜产量同比增长主要由QB稳定运行和各铜矿增产推动，是大型铜矿供给端的正面增量。QB的季度产量环比仅增300吨，说明其当前贡献更接近稳定爬产而非快速扩张；后续增量仍取决于尾矿设施开发、回收率改善和物流持续稳定。",
+      "importance": "Teck是重要的美洲铜生产商。QB单季55,800吨、总铜产量135,900吨的稳定交付，为此前受运营和尾矿设施约束影响的供给预期提供了实际验证。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "MINING.com铜分类页由Playwright主路径抓取到Reuters候选；以Teck公司7月23日业绩原文核验并作为直接来源。"
+    },
+    {
+      "source": "Reuters / CNBC Africa",
+      "title": "Anglo American上半年铜产量34.36万吨同比基本持平，维持全年70万至76万吨指引并下调成本指引",
+      "url": "https://www.cnbcafrica.com/2026/anglo-flags-first-half-loss-at-diamonds-coal-units-cuts-copper-cost-outlook",
+      "publish_time": "2026-07-23",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Reuters于7月23日报道，Anglo American上半年铜产量343,600吨，较上年同期342,200吨基本持平；公司维持2026年铜产量70万至76万吨指引，并下调铜业务成本指引。",
+      "interpretation": "上半年产量仅同比增加1,400吨，表明Anglo当前并未提供显著的即时供给增量；维持全年指引意味着公司仍预计下半年完成余下约35.64万至41.64万吨产量。成本指引下调改善了既有产能的经济性，但不是实际产量增加。",
+      "importance": "Anglo American是全球大型铜生产商，其年产70万至76万吨指引对全球矿山供给预期具有代表性。上半年基本持平使下半年执行和品位表现成为能否实现全年指引的关键。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "MINING.com铜分类页由Playwright主路径抓取到候选；文章正文通过Reuters转载页完整核验。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Northern Miner podcast index（7月21日至23日：未发现可核验、包含铜金银具体供需事实的新访谈）",
+      "Crux Investor（7月21日至23日：页面仅列出预告或窗口外视频，未发现合格节目）",
+      "Sprott Radio、Mining Stock Daily、YouTube/播客检索（未发现窗口内可核验的合格访谈）",
+      "Precious Metals & Critical Minerals Virtual Investor Conference（7月22日至23日：仅发现议程，未取得可核验的节目内容）"
+    ],
+    "part1_result": "7月21日至23日访谈窗口完成检索，未发现满足日期、可打开核验且包含具体铜金银供需事实的节目，保留空数组。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless（Python 3.13.12，已保存X登录状态，52个种子和公司账号）",
+      "关键词：gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "窗口内采集12条原始候选，均未入选：1条Avino二手产量转述缺乏原始公司链接且原始事件不在当日；1条钻探结果；其余为价格/交易观点、宏观情绪、非铜金银话题或无可归因供需事实。",
+    "part3_sources_checked": [
+      "【主路径】Playwright抓取 https://www.mining.com/commodity/copper/：200 OK，提取7月23日候选；Teck Q2业绩、Anglo H1业绩入选。",
+      "Teck Resources Q2 2026业绩原文：核验通过，确认总铜产量135,900吨、同比+25%、QB 55,800吨。",
+      "Reuters / CNBC Africa Anglo American H1更新：核验通过，确认铜产量343,600吨、上年同期342,200吨及全年70万至76万吨指引。",
+      "Southern Copper Q2电话会转录：排除；核心Q2生产报告已于7月21日发布，且转录页面未提供可独立核验的当日原始发布页。",
+      "AbraSilver融资：排除；融资和远期项目推进并非当日已发生的实物供需变化，且搜索结果对融资金额存在32M/45M不一致。",
+      "Metalsource Silver Hill钻探：排除；勘探结果不代表当前产量或需求变化。",
+      "Zimbabwe锂项目、De Beers钻石消息：排除；不涉及铜、金或银供需。",
+      "SMM、Reuters、GlobeNewswire和中文关键词检索：未发现其他经核验的当日铜金银供需事件。"
+    ],
+    "part3_result": "Part 3共审阅6篇候选新闻，保留2篇经直接来源或可靠媒体核验的铜供给信号。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "Teck公司原文：标题、发布日期、总铜产量、QB产量和同比数据一致。",
+        "Reuters/CNBC Africa：标题、发布日期、Anglo上半年铜产量、同比基数和全年指引一致。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Precious Metals & Critical Minerals Virtual Investor Conference议程（仅有节目表，未取得可核验节目内容）"
+    ],
+    "part3_deduped_events": [
+      "Southern Copper Q2生产数据：核心生产报告发布于2026-07-21，7月23日检索到的电话会转录不构成新的独立事件。",
+      "AbraSilver Diablillos融资：远期项目融资，且32M/45M搜索结果不一致，未纳入。",
+      "Metalsource Silver Hill钻探：勘探活动，非当前供给或需求变化。",
+      "Zimbabwe锂项目和De Beers钻石消息：不属于铜、金、银供需范围。"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+X 原始候选 — 2026-07-23
+采集时间: 2026-07-23T23:38:12.329229+08:00
+采集方法: Playwright + Chrome (storage_state)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 12 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-22T18:17:25+00:00
+    北京: 2026-07-23T02:17:25+08:00
+    文本: Avino’s 
+@Avino_ASM
+'s  Q2 headline doesn’t tell the real story.
+
+Silver production at La Preciosa jumped 59% QoQ—and both mill circuits are now processing its development ore.
+
+With long-hole mining approaching, Avino’s transformation into an increasingly silver-focused producer
+    链接: https://x.com/peter_krauth/status/2079994238121762961
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-22T18:02:57+00:00
+    北京: 2026-07-23T02:02:57+08:00
+    文本: Kingsmen Silver 
+@Kingsmen_Res
+  just extended the high-grade Soledad system at depth:
+
+• 641 g/t AgEq over 1.40m
+• Within 257 g/t AgEq over 5.20m
+• 135m of confirmed vertical continuity
+• Open at depth and along strike
+
+In this clip from earlier this year, President Scott
+    链接: https://x.com/peter_krauth/status/2079990599546204630
+
+[3] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-07-22T18:42:08+00:00
+    北京: 2026-07-23T02:42:08+08:00
+    文本: I don’t think you even know how to spell Silver, let alone analyze it…
+    链接: https://x.com/ArcadiaEconomic/status/2080000456814637080
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-23T13:22:45+00:00
+    北京: 2026-07-23T21:22:45+08:00
+    文本: Heh.
+
+"Two years later, facing unemployment around 10% and with copper prices near record levels, ​reopening may look more attractive."
+
+Folks from Eastern Europe can tell you how great state-run mining companies are for the environment...
+
+And will the state pay for its stake?
+    链接: https://x.com/duediligenceguy/status/2080282471543755147
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-23T13:04:08+00:00
+    北京: 2026-07-23T21:04:08+08:00
+    文本: About time.
+
+Russians been dere, done dat long time ago...
+
+But hey, another day, another bullish headline for uranium demand.
+    链接: https://x.com/duediligenceguy/status/2080277786405580893
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-23T12:30:33+00:00
+    北京: 2026-07-23T20:30:33+08:00
+    文本: There's a lot of talk about what this means geopolitically...
+
+I see increased demand for uranium.
+    链接: https://x.com/duediligenceguy/status/2080269335130468796
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-23T12:26:52+00:00
+    北京: 2026-07-23T20:26:52+08:00
+    文本: FWIW, another mainstream investor bullish on gold...
+    链接: https://x.com/duediligenceguy/status/2080268405798539762
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-23T02:13:15+00:00
+    北京: 2026-07-23T10:13:15+08:00
+    文本: No.
+
+But I think the odds are good for lower entry points.
+
+I may have to buy something else if gold stocks slip away from me this time. I'm okay with that.
+    链接: https://x.com/duediligenceguy/status/2080113984603132031
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-22T16:56:01+00:00
+    北京: 2026-07-23T00:56:01+08:00
+    文本: Untrue.
+
+I've been warning that sub-$3K gold is possible, not saying that's where I expect it to go.
+
+My base case all year has been correction & consolidation before the next big move, which I expect to be higher.
+    链接: https://x.com/duediligenceguy/status/2079973752524206229
+
+[10] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-07-23T12:57:34+00:00
+    北京: 2026-07-23T20:57:34+08:00
+    文本: He’s been one of the biggest gold and gold mining bulls for ages.
+    链接: https://x.com/Brien_Lundin/status/2080276132037898710
+
+[11] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-07-23T11:20:59+00:00
+    北京: 2026-07-23T19:20:59+08:00
+    文本: Sorry to hear, Ronnie. On the bright side, this will hereafter be a call out on your gold charts to mark the bottom!
+    链接: https://x.com/Brien_Lundin/status/2080251829259051452
+
+[12] @TaviCosta (Otavio Costa)
+    UTC: 2026-07-23T04:00:05+00:00
+    北京: 2026-07-23T12:00:05+08:00
+    文本: One of these two lines is telling the truth.
+
+My two cents, gold investors:
+
+The lag is your friend.
+
+
+https://
+open.substack.com/pub/tavicosta/
+p/all-the-right-signs?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2080140869202854306
+
