@@ -19,12 +19,10 @@
 5. 优先使用监管文件、交易所公告、公司新闻稿、政府统计等一手来源。每个入选 URL 必须实际打开核验标题、主体、发布日期和核心数字。不得发明 URL、数字、引文、管理层评论或缺失信息。
 
 **mining.com 专用规则（每次 Part 3 检索必须执行）**：
-- mining.com 对自动化请求启用了 CloudFront 反爬（主站、/feed/、/copper、/commodity/copper/ 均可能返回 403）。不得依赖直连抓取。
-- **强制路径**：每次 Part 3 检索中，独立执行 `site:mining.com copper July DD 2026` / `site:mining.com gold July DD 2026` / `site:mining.com silver July DD 2026` Google 搜索，其中 DD 为窗口内每一个自然日。
-- **必须扫描** `https://www.mining.com/commodity/copper/` 页面。
-- **核验规则**：搜索摘要只能发现候选。优先直接抓取文章 URL 全文；若返回 403，用 Google 摘要 + 至少一个中文转载来源（如 SMM、新浪财经、东方财富网）交叉验证。充分验证后在 `mining_com_source_note` 字段记录核验路径和局限性。
-- **日志记录**：在 `search_log.part3_sources_checked` 中逐条记录 mining.com 搜索命中数、直连状态（200/403）和每篇入选文章的核验路径。
-- **不采用** sitemap、Wayback Machine 或 RSS feed——`site:mining.com` 搜索 + `commodity/copper/` 页面是唯一的信息采集路径。
+- mining.com 对自动化请求启用了 CloudFront 反爬。**主路径**是使用 Playwright 直接抓取 `https://www.mining.com/commodity/copper/` 分类页：使用工作流规定的 Python 3.13.12、Chromium headless 和反检测参数，从 DOM 提取报告日文章标题及链接。
+- 若该分类页抓取失败、返回内容不完整，或未获得合格的铜供需候选，再按报告日逐日执行 Google `site:mining.com copper July DD 2026`、`site:mining.com gold July DD 2026` 和 `site:mining.com silver July DD 2026` 搜索，作为备用发现路径。
+- 对每篇候选，优先直接抓取文章全文；若返回 403 或超时，使用同一 Playwright 会话提取正文；仍受限时，寻找中文转载来源（如 SMM、新浪财经、东方财富网）交叉核验。搜索摘要只可用于发现候选，不能单独作为证据。在 `mining_com_source_note` 记录核验路径和局限性。
+- 在 `search_log.part3_sources_checked` 中逐条记录铜分类页主路径的 Playwright 抓取状态和文章数、Google `site:` 备用搜索命中数，以及每篇入选文章的核验路径。不得使用 sitemap、Wayback Machine 或 RSS feed。
 
 6. 所有数字保留期间、单位、币种和口径；明确区分实际值、估计、市场一致预期、公司指引和研究判断。纯价格复述、价格目标、泛宏观情绪、无法追溯的传闻和没有供需传导路径的内容不得纳入。
 7. 完成跨日、跨来源和跨栏目去重。同一事件优先保留一手且信息最完整的来源。每条信号必须填写唯一的 `primary_metal`，按最重要的未来供需变化或催化剂确定，并确保它也出现在 `metal_tags` 中；其他实质相关金属保留为标签，但同一信号只在主金属板块完整展示一次。不得仅因正文提到某种金属或价格就添加标签。并如实填写 `search_log`、`url_verification` 和 `dedup_log`。
