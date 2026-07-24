@@ -1,15 +1,49 @@
 X 原始候选 — 2026-07-23
-采集时间: 2026-07-23T23:38:12.329229+08:00
+采集时间: 2026-07-24T09:22:40.934293+08:00
 采集方法: Playwright + Chrome (storage_state)
 搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
 账号批次: 34 个人 + 18 官方
 ============================================================
 
-总计候选: 12 条
+总计候选: 19 条
 
 ============================================================
 
-[1] @peter_krauth (Peter Krauth)
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-07-23T15:29:26+00:00
+    北京: 2026-07-23T23:29:26+08:00
+    文本: Thanks Bob- TMR gave its 3cents on this topic. Somewhat different take, but similar conclusion. It does NOT indicate the future price and timing of gold. Further, the value is very low- most is the time premium.
+    链接: https://x.com/silverguru22/status/2080314353115603161
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-07-22T22:44:29+00:00
+    北京: 2026-07-23T06:44:29+08:00
+    文本: U.S. Mint releases special $1 silver coin: What it costs - 
+http://
+al.com - 
+https://
+goo.gl/alerts/HRVNb4 #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2080061445845491862
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-07-22T22:42:49+00:00
+    北京: 2026-07-23T06:42:49+08:00
+    文本: Gold headed toward $3500 and silver toward $50 before the next run, Chambers says - 
+https://
+goo.gl/alerts/RAhBqY #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2080061029913108944
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-07-22T22:41:58+00:00
+    北京: 2026-07-23T06:41:58+08:00
+    文本: Silver price jumps 5%, gold attracts bargain hunters above $4,000 - 
+http://
+MINING.COM - 
+https://
+goo.gl/alerts/vQN8Ki #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2080060813348602201
+
+[5] @peter_krauth (Peter Krauth)
     UTC: 2026-07-22T18:17:25+00:00
     北京: 2026-07-23T02:17:25+08:00
     文本: Avino’s 
@@ -21,7 +55,7 @@ Silver production at La Preciosa jumped 59% QoQ—and both mill circuits are now
 With long-hole mining approaching, Avino’s transformation into an increasingly silver-focused producer
     链接: https://x.com/peter_krauth/status/2079994238121762961
 
-[2] @peter_krauth (Peter Krauth)
+[6] @peter_krauth (Peter Krauth)
     UTC: 2026-07-22T18:02:57+00:00
     北京: 2026-07-23T02:02:57+08:00
     文本: Kingsmen Silver 
@@ -36,13 +70,13 @@ With long-hole mining approaching, Avino’s transformation into an increasingly
 In this clip from earlier this year, President Scott
     链接: https://x.com/peter_krauth/status/2079990599546204630
 
-[3] @ArcadiaEconomic (Chris Marcus)
+[7] @ArcadiaEconomic (Chris Marcus)
     UTC: 2026-07-22T18:42:08+00:00
     北京: 2026-07-23T02:42:08+08:00
     文本: I don’t think you even know how to spell Silver, let alone analyze it…
     链接: https://x.com/ArcadiaEconomic/status/2080000456814637080
 
-[4] @duediligenceguy (Lobo Tiggre)
+[8] @duediligenceguy (Lobo Tiggre)
     UTC: 2026-07-23T13:22:45+00:00
     北京: 2026-07-23T21:22:45+08:00
     文本: Heh.
@@ -54,7 +88,7 @@ Folks from Eastern Europe can tell you how great state-run mining companies are 
 And will the state pay for its stake?
     链接: https://x.com/duediligenceguy/status/2080282471543755147
 
-[5] @duediligenceguy (Lobo Tiggre)
+[9] @duediligenceguy (Lobo Tiggre)
     UTC: 2026-07-23T13:04:08+00:00
     北京: 2026-07-23T21:04:08+08:00
     文本: About time.
@@ -64,7 +98,7 @@ Russians been dere, done dat long time ago...
 But hey, another day, another bullish headline for uranium demand.
     链接: https://x.com/duediligenceguy/status/2080277786405580893
 
-[6] @duediligenceguy (Lobo Tiggre)
+[10] @duediligenceguy (Lobo Tiggre)
     UTC: 2026-07-23T12:30:33+00:00
     北京: 2026-07-23T20:30:33+08:00
     文本: There's a lot of talk about what this means geopolitically...
@@ -72,13 +106,13 @@ But hey, another day, another bullish headline for uranium demand.
 I see increased demand for uranium.
     链接: https://x.com/duediligenceguy/status/2080269335130468796
 
-[7] @duediligenceguy (Lobo Tiggre)
+[11] @duediligenceguy (Lobo Tiggre)
     UTC: 2026-07-23T12:26:52+00:00
     北京: 2026-07-23T20:26:52+08:00
     文本: FWIW, another mainstream investor bullish on gold...
     链接: https://x.com/duediligenceguy/status/2080268405798539762
 
-[8] @duediligenceguy (Lobo Tiggre)
+[12] @duediligenceguy (Lobo Tiggre)
     UTC: 2026-07-23T02:13:15+00:00
     北京: 2026-07-23T10:13:15+08:00
     文本: No.
@@ -88,7 +122,7 @@ But I think the odds are good for lower entry points.
 I may have to buy something else if gold stocks slip away from me this time. I'm okay with that.
     链接: https://x.com/duediligenceguy/status/2080113984603132031
 
-[9] @duediligenceguy (Lobo Tiggre)
+[13] @duediligenceguy (Lobo Tiggre)
     UTC: 2026-07-22T16:56:01+00:00
     北京: 2026-07-23T00:56:01+08:00
     文本: Untrue.
@@ -98,19 +132,31 @@ I've been warning that sub-$3K gold is possible, not saying that's where I expec
 My base case all year has been correction & consolidation before the next big move, which I expect to be higher.
     链接: https://x.com/duediligenceguy/status/2079973752524206229
 
-[10] @Brien_Lundin (Brien Lundin)
+[14] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-22T19:43:39+00:00
+    北京: 2026-07-23T03:43:39+08:00
+    文本: Real 10-year yield is breaking to a new 2-year high today, yet Gold is quietly carving out a bottom.
+
+You’ve seen my threads: “Real yields are rising, fundamentals are bearish.”
+
+But at key turning points, Gold leads real yields, not the other way around.
+
+This is what a positive
+    链接: https://x.com/TheDailyGold/status/2080015939010195695
+
+[15] @Brien_Lundin (Brien Lundin)
     UTC: 2026-07-23T12:57:34+00:00
     北京: 2026-07-23T20:57:34+08:00
     文本: He’s been one of the biggest gold and gold mining bulls for ages.
     链接: https://x.com/Brien_Lundin/status/2080276132037898710
 
-[11] @Brien_Lundin (Brien Lundin)
+[16] @Brien_Lundin (Brien Lundin)
     UTC: 2026-07-23T11:20:59+00:00
     北京: 2026-07-23T19:20:59+08:00
     文本: Sorry to hear, Ronnie. On the bright side, this will hereafter be a call out on your gold charts to mark the bottom!
     链接: https://x.com/Brien_Lundin/status/2080251829259051452
 
-[12] @TaviCosta (Otavio Costa)
+[17] @TaviCosta (Otavio Costa)
     UTC: 2026-07-23T04:00:05+00:00
     北京: 2026-07-23T12:00:05+08:00
     文本: One of these two lines is telling the truth.
@@ -125,4 +171,23 @@ open.substack.com/pub/tavicosta/
 p/all-the-right-signs?r=2m39jp&utm_medium=ios
 …
     链接: https://x.com/TaviCosta/status/2080140869202854306
+
+[18] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-07-23T12:36:07+00:00
+    北京: 2026-07-23T20:36:07+08:00
+    文本: Great post.  Digital scarcity was a work in progress for decades and involved several failed attempts at creating digital gold.  Satoshi cracked the case.
+    链接: https://x.com/LawrenceLepard/status/2080270734534791168
+
+[19] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-23T15:28:18+00:00
+    北京: 2026-07-23T23:28:18+08:00
+    文本: Troilus ($TLG) continues to unlock value within the Z87 reserve pit.
+
+Latest drill results include:
+ 1.10 g/t AuEq over 103m including 2.10 g/t AuEq over 34m
+ 0.92 g/t AuEq over 93m
+ 1.98 g/t AuEq over 14m
+
+The optimization program continues to identify mineralization in
+    链接: https://x.com/soarfinancial/status/2080314068188254320
 

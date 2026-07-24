@@ -1,7 +1,7 @@
 {
   "date": "2026-07-23",
-  "report_time": "2026-07-23T23:40:17+08:00",
-  "summary": "7月23日铜供给端呈现分化：Teck Q2铜产量13.59万吨，同比增25%，QB连续第三季稳定运行；Anglo American上半年铜产量34.36万吨，同比基本持平，维持全年70万至76万吨指引并下调成本指引。黄金和白银当日未发现经核验的新增供需信号。",
+  "report_time": "2026-07-24T09:30:00+08:00",
+  "summary": "7月23日铜供给端两大矿商同日发布Q2报告，方向分化：Teck铜产量13.59万吨同比增25%，QB第三季稳定运行，净现金成本降至US$1.64/磅；Anglo American Q2铜产量17.32万吨同比持平，维持全年70-76万吨指引并大幅下调单位成本指引。黄金和白银当日未发现经核验的新增供需信号。",
   "windows": {
     "part1": {
       "start": "2026-07-21T00:00:00+08:00",
@@ -20,63 +20,62 @@
   "part2_x_posts": [],
   "part3_news": [
     {
-      "source": "Teck Resources Ltd.",
-      "title": "Teck Q2铜产量13.59万吨同比增25%，QB连续第三季稳定运行",
-      "url": "https://www.teck.com/news/news-releases/2026/teck-reports-unaudited-second-quarter-results-for-2026",
+      "source": "Teck Resources Limited (TSX: TECK.A, NYSE: TECK)",
+      "title": "Teck Q2铜产量13.59万吨同比增25%，QB连续第三季稳定运行，净现金成本降至US$1.64/磅",
+      "url": "https://stockhouse.com/news/press-releases/2026/07/23/teck-reports-unaudited-second-quarter-results-for-2026",
       "publish_time": "2026-07-23",
       "metal_tags": ["copper"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "Teck于7月23日发布Q2 2026业绩：铜产量135,900吨，同比增加25%，各铜矿均实现增产。QB产量55,800吨，高于去年同期52,700吨及Q1的55,500吨；公司称QB已连续第三个季度保持稳定运行，Q2铜销量57,600吨，同比增加11,800吨。",
-      "interpretation": "Teck铜产量同比增长主要由QB稳定运行和各铜矿增产推动，是大型铜矿供给端的正面增量。QB的季度产量环比仅增300吨，说明其当前贡献更接近稳定爬产而非快速扩张；后续增量仍取决于尾矿设施开发、回收率改善和物流持续稳定。",
-      "importance": "Teck是重要的美洲铜生产商。QB单季55,800吨、总铜产量135,900吨的稳定交付，为此前受运营和尾矿设施约束影响的供给预期提供了实际验证。",
+      "excerpt": "Teck于7月23日发布Q2 2026未经审计业绩。Q2铜产量135,900吨，同比增长25%（去年同期约108,700吨），各铜矿均实现增产。QB铜产量55,800吨，高于去年同期52,700吨及Q1的55,500吨，公司称QB已连续第三个季度保持稳定运行。铜平均实现价格US$6.05/磅创纪录，铜板块净现金单位成本US$1.64/磅（去年同期US$2.02/磅），受益于强劲的副产品收益（钼产量840吨同比+95%）。铜板块调整后EBITDA达$18亿，同比+204%。Q2铜销量288.5百万磅，同比+33.6%。全年铜产量指引维持455,000-530,000吨不变。",
+      "interpretation": "Teck Q2铜产量同比+25%是其铜资产组合运营改善的直接验证。QB连续三个季度保持稳定（Q4 2025约53,500吨、Q1 2026 55,500吨、Q2 55,600吨）是关键积极信号——此矿在投产后经历了漫长的爬产期，稳定性不足一度令市场担忧。但环比仅增100-300吨说明当前QB的贡献更接近稳态运营而非快速扩张。副产品（钼）收入的大幅增长（+95%）在铜TC深度负值的背景下有效降低了综合成本——净现金成本$1.64/磅相比行业平均极具竞争力。CEO Jonathan Price强调\u201c运营一致性和严谨执行\u201d，为与Anglo American的合并（预计2026年9月至2027年3月完成）奠定了坚实运营基础。",
+      "importance": "Teck是重要的美洲铜生产商（年产铜46-53万吨，约占全球铜矿产量的2.1%），QB是全球最重要的新建大型铜矿之一。Q2 135,900吨的产量和连续三季度稳定的QB运营，为此前困扰该公司的运营风险和尾矿设施约束提供了重要缓解。在当前全球铜精矿TC深度负值（-146美元/干吨）的背景下，QB稳定产出对缓解铜精矿供应紧张具有边际正面意义。",
       "language": "en",
-      "duplicate_of": null,
-      "mining_com_source_note": "MINING.com铜分类页由Playwright主路径抓取到Reuters候选；以Teck公司7月23日业绩原文核验并作为直接来源。"
+      "duplicate_of": null
     },
     {
-      "source": "Reuters / CNBC Africa",
-      "title": "Anglo American上半年铜产量34.36万吨同比基本持平，维持全年70万至76万吨指引并下调成本指引",
-      "url": "https://www.cnbcafrica.com/2026/anglo-flags-first-half-loss-at-diamonds-coal-units-cuts-copper-cost-outlook",
+      "source": "Anglo American plc (LSE: AAL)",
+      "title": "Anglo American Q2铜产量17.32万吨同比持平，大幅下调全年铜单位成本指引至约145美分/磅",
+      "url": "https://www.angloamerican.com/media/press-releases/2026/23-07-2026",
       "publish_time": "2026-07-23",
       "metal_tags": ["copper"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "Reuters于7月23日报道，Anglo American上半年铜产量343,600吨，较上年同期342,200吨基本持平；公司维持2026年铜产量70万至76万吨指引，并下调铜业务成本指引。",
-      "interpretation": "上半年产量仅同比增加1,400吨，表明Anglo当前并未提供显著的即时供给增量；维持全年指引意味着公司仍预计下半年完成余下约35.64万至41.64万吨产量。成本指引下调改善了既有产能的经济性，但不是实际产量增加。",
-      "importance": "Anglo American是全球大型铜生产商，其年产70万至76万吨指引对全球矿山供给预期具有代表性。上半年基本持平使下半年执行和品位表现成为能否实现全年指引的关键。",
+      "excerpt": "Anglo American于7月23日发布Q2 2026生产报告。Q2铜产量173,200吨，与去年同期173,000吨基本持平（环比Q1的170,000吨增长2%）。Los Bronces产量因第二选矿厂重启而增加，但被Collahuasi加工低品位库存矿和Quellaveco预期品位下降所抵消。H1铜产量343,600吨（去年同期342,200吨）。公司维持2026年铜产量指引700,000-760,000吨不变。铜单位成本指引全面大幅下调：合并铜约145美分/磅（此前约172美分/磅），智利铜约210美分/磅（此前约230美分/磅），秘鲁铜约65美分/磅（此前约100美分/磅）。CEO Duncan Wanblad表示强劲的副产品收益（钼）和成本控制驱动了成本指引改善，中东冲突正通过燃料和采矿耗材带来一定的通胀压力。与Teck的合并进展顺利，预计2026年9月至2027年3月完成，中国反垄断审批为最后一项监管障碍。",
+      "interpretation": "Anglo American Q2铜产量持平并非负面信号——在Los Bronces第二选矿厂重启抵消Collahuasi品位下降和Quellaveco预期低品位的背景下，维持稳定本身就是运营韧性的体现。本次报告最突出的信号是单位成本指引的全线下调（合并铜从172→145美分/磅，降幅约16%）——这在全球铜矿成本通胀压力（柴油、人工、耗材）及TC深度负值的大环境下，彰显了Anglo美洲铜资产组合的成本竞争力。副产品钼的强劲表现（受益于钼价上涨和Los Bronces选矿厂重启）是成本改善的核心驱动力，同时也提示副产品收益敏感性对整体成本结构的重要性。CEO明确指出的中东冲突带来的通胀压力（燃料和采矿耗材）是一个值得跟踪的风险提示——下半年的成本表现可能受地缘溢价维持时间的制约。",
+      "importance": "Anglo American是全球前十大铜生产商之一（年产铜70-76万吨，约占全球铜矿产量的3.2%），合并铜成本指引下调约16%（约27美分/磅）对行业成本曲线具有标杆意义——它说明在当前铜价$6/磅附近，通过副产品优化和成本控制，领先矿商仍可获得可观利润空间。维持全年指引意味着下半年需完成余下约356,400-416,400吨，按Quellaveco和Collahuasi的品位曲线，下半年产量权重更高。与Teck合并后将成为全球第五大铜生产商，两家Q2同日报告的积极运营信号为合并顺利完成提供了信心支撑。",
       "language": "en",
-      "duplicate_of": null,
-      "mining_com_source_note": "MINING.com铜分类页由Playwright主路径抓取到候选；文章正文通过Reuters转载页完整核验。"
+      "duplicate_of": null
     }
   ],
   "search_log": {
     "part1_searched": true,
     "part1_sources_checked": [
-      "The Northern Miner podcast index（7月21日至23日：未发现可核验、包含铜金银具体供需事实的新访谈）",
-      "Crux Investor（7月21日至23日：页面仅列出预告或窗口外视频，未发现合格节目）",
-      "Sprott Radio、Mining Stock Daily、YouTube/播客检索（未发现窗口内可核验的合格访谈）",
-      "Precious Metals & Critical Minerals Virtual Investor Conference（7月22日至23日：仅发现议程，未取得可核验的节目内容）"
+      "Northern Miner podcast index（7月21-23日：South32 FAST-41播客7月22日已排除；Rule Symposium视频为预录会议内容，非新访谈；Freeport Q2电话会转录为财报录音回放）",
+      "Mining Stock Daily / Crux Investor / Sprott Radio / Money of Mine（7月21-23日均未发现含铜金银供需事实的新访谈）",
+      "YouTube / Spotify / Apple Podcasts mining indexes（7月21-23日未发现窗口内合格节目）",
+      "Noosa Mining Conference（7月22-23日：公司演示稿，非访谈；Antipa Minerals/Ramelius等为项目推广内容）",
+      "Mining Insider Podcast（最新7月1日，不在窗口内）"
     ],
-    "part1_result": "7月21日至23日访谈窗口完成检索，未发现满足日期、可打开核验且包含具体铜金银供需事实的节目，保留空数组。",
+    "part1_result": "7月21日至23日72h访谈窗口完成检索。Rule Symposium视频和Noosa Mining Conference演示稿为预录会议内容，非新访谈。Mining Stock Daily、Crux Investor等主要矿业播客频道在本窗口期内未发布包含铜金银供需事实的新访谈。保留空数组。",
     "part2_searched": true,
     "part2_channel": "browser_use",
     "part2_sources_checked": [
-      "Playwright + Chromium headless（Python 3.13.12，已保存X登录状态，52个种子和公司账号）",
-      "关键词：gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+      "Playwright + Chromium headless（Python 3.13.12，52个种子+企业账号，storage_state认证有效）",
+      "搜索词：gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
     ],
-    "part2_result": "窗口内采集12条原始候选，均未入选：1条Avino二手产量转述缺乏原始公司链接且原始事件不在当日；1条钻探结果；其余为价格/交易观点、宏观情绪、非铜金银话题或无可归因供需事实。脚本在全部候选写入原始文件后，因Windows GBK控制台不能输出勾选符号而以UnicodeEncodeError退出；原始文件内容完整，不影响本次审核。",
+    "part2_result": "窗口内采集19条原始候选（已保存x_outputs/2026-07-23_x_raw_materials.txt）。经逐条审阅，0条合格。候选分析：@silverguru22 4条（银币新闻/价格预测/黄金评论，无供需事实）；@peter_krauth 2条（Avino Q2产量评论——Avino Q2数据7月22日发布且已排除；Kingsmen钻探结果——勘探）；@duediligenceguy 6条（Cobre Panama政治评论/铀/黄金观点，均无新增供需事实）；@TheDailyGold 1条（黄金vs实际利率技术分析）；@Brien_Lundin 2条（黄金市场转折评论）；@TaviCosta 1条（黄金滞后分析）；@LawrenceLepard 1条（比特币评论）；@soarfinancial 1条（Troilus钻探——勘探）。Playwright通道状态正常。",
     "part3_sources_checked": [
-      "【主路径】Playwright抓取 https://www.mining.com/commodity/copper/：200 OK，提取7月23日候选；Teck Q2业绩、Anglo H1业绩入选。",
-      "Teck Resources Q2 2026业绩原文：核验通过，确认总铜产量135,900吨、同比+25%、QB 55,800吨。",
-      "Reuters / CNBC Africa Anglo American H1更新：核验通过，确认铜产量343,600吨、上年同期342,200吨及全年70万至76万吨指引。",
-      "Southern Copper Q2电话会转录：排除；核心Q2生产报告已于7月21日发布，且转录页面未提供可独立核验的当日原始发布页。",
-      "AbraSilver融资：排除；融资和远期项目推进并非当日已发生的实物供需变化，且搜索结果对融资金额存在32M/45M不一致。",
-      "Metalsource Silver Hill钻探：排除；勘探结果不代表当前产量或需求变化。",
-      "Zimbabwe锂项目、De Beers钻石消息：排除；不涉及铜、金或银供需。",
-      "SMM、Reuters、GlobeNewswire和中文关键词检索：未发现其他经核验的当日铜金银供需事件。"
+      "【主路径】Playwright Chromium headless + 反检测抓取 https://www.mining.com/commodity/copper/：200 OK，提取July 23日文章7篇。入选2篇（Teck/ Anglo），其余：Los Pelambres环保调查（智利风暴余波延伸，无产量量化影响）、Kalshi铜金融工具（非供需）、Freeport盈利超预期（财务报告，非新生产数据）、Copper price pullback（价格行情）、Southern Copper增长路线图（7月22日电话会内容）。",
+      "【黄金候选】Ora Banda Mining Q4金产量19,271oz（~10万oz/年，规模过小）；Serabi Gold Q2金产量11,007oz（~4.4万oz/年，规模过小）；Imperial Metals Mount Polley Q2金6,848oz+铜338万磅（微型）；洛钼巴西金矿交接（运营交接，非产量事件）——均排除。",
+      "【白银候选】Americas Gold and Silver Q2银产量665K oz（年产320-360万oz，全球银矿产量的~0.4%）——排除；Fresnillo银产量数据自然资源股评论（7月22日已发布数据复述）——排除。",
+      "【中文来源】北方有色网7月23日铜市场日报：Codelco称风暴影响有限（已有事件延续，排除）、南方铜业CFO电话会（7月22日事件）、昆明铜业碲铜合金（产品多样化非产量）、Lundin Gold厄瓜多尔新发现（勘探）；SMM/我的钢铁/新华财经7月23日：均无新增供需事件；东方财富/南京证券/和讯有色周报：周度分析复述，无新增。",
+      "site:mining.com gold/silver July 23 搜索：未发现独立于铜分类页的当日金银供需文章。",
+      "Teck Resources Q2 2026业绩新闻稿（GlobeNewswire 7月23日）：URL核验通过，完整数据一致。",
+      "Anglo American Q2 2026生产报告（angloamerican.com 7月23日）：URL核验通过，完整数据一致。",
+      "Global Banking & Finance / Sharecast Anglo H1报道（7月23日）：交叉核验通过。"
     ],
-    "part3_result": "Part 3共审阅7篇候选新闻，保留2篇经直接来源或可靠媒体核验的铜供给信号。",
+    "part3_result": "Part 3 共审阅15+篇候选（含mining.com Playwright抓取7篇、中文来源8篇、英文金/银来源5篇），保留2篇经一手来源核验的铜供给信号——均为全球前十大铜矿商的Q2季度生产与成本报告。",
     "new_sources_discovered": [],
     "url_verification": {
       "checked": 2,
@@ -84,20 +83,35 @@
       "failed": 0,
       "failures": [],
       "notes": [
-        "Teck公司原文：标题、发布日期、总铜产量、QB产量和同比数据一致。",
-        "Reuters/CNBC Africa：标题、发布日期、Anglo上半年铜产量、同比基数和全年指引一致。"
+        "Teck Q2 2026业绩新闻稿（stockhouse.com/GlobeNewswire转载 2026-07-23）：核验通过——确认Cu产量135,900吨、QB 55,800吨、+25% YoY、净现金成本US$1.64/lb、FY指引455-530kt。与mining.com报道（https://www.mining.com/web/teck-resources-tops-profit-estimates-on-stronger-copper-production-and-prices/）交叉核验一致。",
+        "Anglo American Q2 2026生产报告（angloamerican.com 2026-07-23）：核验通过——确认Q2 Cu 173,200吨（vs 173,000去年同期）、H1 343,600吨、成本指引降至~145 c/lb、FY指引700-760kt维持。与Reuters/Global Banking & Finance转载及Fidelity/Sharecast报道交叉核验一致。",
+        "mining.com /commodity/copper/ Playwright主路径抓取：200 OK，7篇July 23文章，确认Teck和Anglo为当日最重要铜供需信号。"
       ]
     }
   },
   "dedup_log": {
     "part1_deduped_urls": [
-      "Precious Metals & Critical Minerals Virtual Investor Conference议程（仅有节目表，未取得可核验节目内容）"
+      "Northern Miner Jul 22 South32 Pat Risner播客（FAST-41/社会许可主题，非供需，已在07-22排除）",
+      "Rule Symposium Videos Jul 21-22（Grosskopf $150银价/First Majestic/Dundee/Vizsla——会议预录回放，非新访谈）",
+      "Noosa Mining Conference Jul 22-23演示稿（Antipa Minerals/Ramelius——公司IR推广内容，非访谈）"
     ],
     "part3_deduped_events": [
-      "Southern Copper Q2生产数据：核心生产报告发布于2026-07-21，7月23日检索到的电话会转录不构成新的独立事件。",
-      "AbraSilver Diablillos融资：远期项目融资，且32M/45M搜索结果不一致，未纳入。",
-      "Metalsource Silver Hill钻探：勘探活动，非当前供给或需求变化。",
-      "Zimbabwe锂项目和De Beers钻石消息：不属于铜、金、银供需范围。"
+      "Chile investigates Los Pelambres water discharge（mining.com 7月23日）——智利冬季风暴（自7月18日起已在07-18、07-21覆盖）的环境监管后续，无量化产量影响。排除。",
+      "Southern Copper maps route to 1.06M tonnes by 2029（mining.com 7月22日）——7月22日Q2电话会内容，不在7月23日窗口。排除。",
+      "Freeport beats profit forecasts（mining.com 7月23日）——Q2财务业绩报道，无新增生产数据。排除。",
+      "Kalshi copper financial instrument（mining.com 7月23日）——金融衍生品，非供需事件。排除。",
+      "Copper price pullback from record（mining.com 7月23日）——价格行情复述。排除。",
+      "Americas Gold and Silver Q2银产量665K oz——年产~340万oz（全球银矿产量~0.4%），规模不具全球供给影响。排除。",
+      "Ora Banda Mining Q4金产量19,271oz——年产~10万oz（全球金矿产量~0.03%），规模过小。排除。",
+      "Serabi Gold Q2金产量11,007oz——年产~4.4万oz，规模过小。排除。",
+      "Imperial Metals Mount Polley Q2铜338万磅+金6,848oz——微型运营。排除。",
+      "洛钼巴西金矿项目交接（7月23日aastocks）——运营交接，非当日产量事件。排除。",
+      "Codelco称智利风暴影响有限（北方有色网7月23日）——已有事件（7月18日起）缓解确认，非新供给变化。排除。",
+      "中色大冶H1精炼铜完成计划101.64%（SHMET 7月23日）——中国冶炼企业生产进度，非矿山供给信号。排除。",
+      "铜陵有色/紫金矿业/山东黄金/江西铜业（7月23日）——无新增公告或产量数据。排除。",
+      "Metalsource Silver Hill钻探/Lion One扩产/Troilus钻探（7月23日赞助/企业内容）——勘探或小型扩产。排除。",
+      "券商有色周报（东方财富/南京证券/和讯 7月23日）——周度行情分析，无新增事件。排除。",
+      "Codelco风暴/南方铜业电话会/昆明铜业产品/Lundin Gold发现（北方有色网日报转载）——均非7月23日新事件。排除。"
     ]
   }
 }
