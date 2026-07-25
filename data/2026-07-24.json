@@ -1,0 +1,135 @@
+{
+  "date": "2026-07-24",
+  "report_time": "2026-07-25T08:30:00+08:00",
+  "summary": "7月24日铜供给两端信号对冲：智利Los Pelambres铜矿在强降雨停产后恢复运营（全年65-70万吨指引不变），但SMM进口铜精矿TC/RC指数续跌至-154.76美元/干吨（-8.61），Red Chris和OT矿山招标低至-230美元，凸显铜精矿现货极度紧缺。金供给方面，Newmont宣布Lihir近岸屏障计划，预计2028年起解锁超500万盎司黄金增量。白银当日未发现经核验的新增供需信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-22T00:00:00+08:00",
+      "end": "2026-07-24T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-24T00:00:00+08:00",
+      "end": "2026-07-24T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-24T00:00:00+08:00",
+      "end": "2026-07-24T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Antofagasta plc (LSE: ANTO)",
+      "title": "Los Pelambres铜矿在智利强降雨停产后恢复运营，全年产量指引65-70万吨不变",
+      "url": "https://www.antofagasta.co.uk/investors/news/2026/los-pelambres-operational-update/",
+      "publish_time": "2026-07-24",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月24日，Antofagasta plc发布Los Pelambres运营更新：该矿自7月18日（周六）晚间因强降水和间歇性电力中断而有序关停选矿厂及采矿作业后，已于7月23日恢复运营。公司确认设备及关键基础设施（包括El Mauro尾矿坝）未受重大影响，全年铜产量指引维持650,000-700,000吨不变。公司将按计划于8月13日发布半年业绩，届时提供进一步更新。此次未对设备或基础设施造成实质性损坏。",
+      "interpretation": "Los Pelambres是Antofagasta旗下最大铜矿（占公司年产量的约45%），年产铜约30万吨。从7月18日停产至23日恢复共约5天，按该矿日均产量约800吨估算，损失铜产量约4,000吨——相对全年指引微不足道，印证了公司'未受重大影响'的声明。此次事件与此前Caserones（7月18日起停产、截至24日仍未复产）的对比值得注意：Los Pelambres在更短时间内实现复产，反映其冬季应急预案和基础设施韧性更强；而Caserones的持续停产（已进入第7天）对全球铜精矿市场的边际收紧作用更为显著。Antofagasta将在8月13日半年报中披露更详细的停产影响和复产进度。",
+      "importance": "Los Pelambres年产铜约30万吨（全球铜矿产量的约1.3%），是智利中部最重要的铜矿之一。快速复产意味着全球铜精矿供给未因本次天气事件遭受持久损失，但Caserones仍在停产的事实提醒市场——智利冬季极端天气对矿山运营的扰动仍存在不对称风险。在当前TC -154.76美元/干吨的极度紧缺市场中，即使是短暂停产也会被市场放大定价。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "SMM上海有色网 / 腾讯自选股",
+      "title": "SMM进口铜精矿指数（周）报-154.76美元/干吨再创历史新低，Caserones停产第6天仍未复产",
+      "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/index?id=SN20260724155018a48d0b98",
+      "publish_time": "2026-07-24",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "7月24日，SMM进口铜精矿指数（周）报-154.76美元/干吨，较上一期-146.15美元/干吨下降8.61美元/干吨。20%品位内贸矿计价系数报98%-99.5%。本周现货成交以指数扣减模式为主，矿山招标显示：Newmont Red Chris 2026年9月和Q4共2万吨成交价约-225美元/干吨（贸易商端口）；某大型南美矿山招标1万吨成交价-230美元/干吨（贸易商端口，冶炼厂端口-158美元/干吨）；OT矿9-12月发运成交价-230美元/干吨。截至7月24日，Lundin Mining旗下Caserones自7月18日起因大雪停产仍未发布复产公告，仅靠备用发电机维持关键活动；Andina暂停地表作业、El Teniente一度停止露天矿石外运。SMM十一港铜精矿库存66.15万实物吨，环比+1.33万吨。Freeport在Q2业绩电话会上披露Grasberg复产进展符合预期，H2产能有望恢复至约65%。",
+      "interpretation": "TC/RC连续第六周下跌，-154.76美元/干吨是SMM有记录以来的最低值。下跌速度（-8.61美元/周）较此前两周（-13.31和-4.59）保持高位，说明铜精矿现货市场紧张程度仍在加剧而非趋稳。贸易商端口矿山招标价（-225至-230美元/干吨）已远低于指数值，表明指数本身可能尚未完全反映极端现货条件——贸易商通过招标锁定的价格更低，而冶炼厂端（-158至-160美元）虽同样深度负值但相对贸易商存在约70美元/干吨的价差，说明贸易商在矿山端竞争更激烈、冶炼厂尚有缓冲。Caserones停产进入第6天仍未复产是最紧迫的供给风险——该矿产铜约12万吨/年，日均约330吨，已累计损失约2,000吨铜精矿含铜。Grasberg复产进展符合预期提供了一个边际正面信号：H2恢复至65%意味着下半年产量有望从当前约50%水平提升约30%（折合年化约2-3万吨铜增量）。",
+      "importance": "TC/RC是铜精矿供需紧张程度的核心指标。-154.76美元/干吨的深度负值意味着冶炼厂每处理一干吨进口铜精矿净亏损154.76美元——这在全球铜冶炼历史上是前所未有的。中国冶炼厂原料采购压力持续加大，部分已面临盈亏平衡点挑战。TC的持续恶化是全球铜精矿供需缺口（ICSG前5月精铜过剩22.1万吨与精矿极度紧张并存的结构性矛盾）的直接市场表达，也是Cobre Panama停产后西半球铜精矿供给缺口的量化体现。",
+      "language": "zh",
+      "duplicate_of": null
+    },
+    {
+      "source": "MINING.com / Newmont Corporation (NYSE: NEM)",
+      "title": "Newmont计划在Lihir金矿建设近岸屏障，预计2028年起解锁超500万盎司黄金增量",
+      "url": "https://www.mining.com/newmont-eyes-5m-ounce-boost-from-lihir-gold-mine/",
+      "publish_time": "2026-07-24",
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "7月24日，MINING.com报道全球最大金矿商Newmont计划在巴布亚新几内亚Lihir金矿建设近岸屏障（nearshore barrier），预计自2028年起解锁超过500万盎司黄金产量。此基础设施投资将使此前无法开采的矿石变得可经济开采。Newmont CEO Natascha Viljoen在Q2业绩电话会上表示对Lihir运营改善'相当积极和鼓舞'，指出采矿稳定性提高、可靠性改善和成本降低。同步披露Newmont Q2 2026业绩（7月23日发布）：可归属金产量129.3万盎司（QoQ -1%，因Cadia地震事件影响），银产量700万盎司（QoQ -22%），铜产量1.7万吨（QoQ -43%，因Cadia地震），维持全年530万盎司金产量指引。Q2金AISC 1,621美元/盎司（低于全年指引1,680），实现金价4,414美元/盎司，创Q2自由现金流纪录22亿美元。",
+      "interpretation": "Lihir近岸屏障计划是Newmont长期增长管线中的关键项目。Lihir矿2025年产金约80万盎司，年产能在100万盎司级别。500万盎司的增量（假设10-15年开采寿命，年化约33-50万盎司）意味着Lihir有望从年产80万盎司提升至约120-130万盎司——增幅约50-60%。2028年的启动时间线是实质性承诺，而非远期愿景。该项目叠加此前已获监管批准的Red Chris块段崩落法项目（同样是长期增长来源），构成了Newmont维持年产500万+盎司的长期供给基础。在Cadia地震事件冲击Q2产量（铜-43%）、全球金矿产量面临结构性品位下降的背景下，Newmont通过基础设施投资主动解锁新增量的策略，反映了'投资增长'而非'坐等高价'的供给理念。Q2 AISC 1,621美元/盎司 vs 实现金价4,414美元/盎司意味着约63%的运营利润率——在当前金价环境下，矿商的自由现金流极其充裕，为增长投资提供了充足弹药。",
+      "importance": "Newmont是全球最大金矿商（年产可归属金约530万盎司，占全球金矿产量的约5.5%）。Lihir是Newmont最重要的单一金矿资产之一（年产约80万盎司，全球前15大金矿）。解锁5M+ oz增量相当于该矿约6年的当前产量——这不是小修小补的效率提升，而是通过重大基础设施投资实现的阶跃式供给增长。在全球金矿供给面临结构性下降（品位持续走低、新发现减少、项目审批周期延长）的大趋势下，Newmont的增长项目投资是对全球金矿长期供给能力的积极信号。Q2自由现金流22亿美元创纪录说明当前金价水平为矿商投资增长提供了充足资本基础。",
+      "language": "en",
+      "duplicate_of": null
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Northern Miner (7月22-24日: South32 Pat Risner播客7月22日已在07-22排除; Rule Symposium视频为预录会议内容; 7月24日无新访谈)",
+      "Mining Stock Daily (7月22日: 市场简报，讨论铜价/US溢价/Lundin Caserones——无新供需访谈; 7月23-24日: 无新发布)",
+      "Crux Investor (7月22-24日: 窗口内发布内容为Cobra Resources铜矿勘探/ West Red Lake Gold运营更新/ Future Metals PGM——均为公司IR推广或勘探，非铜金银供需访谈; 无合格内容)",
+      "Money of Mine (7月24日: 最新内容为Ken Brinsden锂矿访谈，非铜金银)",
+      "Sprott Insights / Sprott Radio (7月22-24日: 无新内容)",
+      "YouTube/Spotify/Apple Podcasts mining indexes (7月22-24日: 无合格铜金银供需访谈)"
+    ],
+    "part1_result": "7月22日至24日72h访谈窗口完成检索。Crux Investor窗口内发布内容为小型矿企IR推广内容（铜勘探/金矿运营更新/锂矿/PGM），均不包含可归因的铜金银供需事实。Northern Miner Rule Symposium视频为预录会议回放。Mining Stock Daily 7月22日简报为市场行情和价格分析。0条合格访谈。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless (Python 3.13.12, storage_state认证有效, 52个种子+企业账号)",
+      "搜索词: gold, silver, copper, mining, mine, production, supply, demand, permit, smelter, mill, drill, resource, reserve"
+    ],
+    "part2_result": "7月24日单日窗口采集18条原始候选（已保存x_outputs/2026-07-24_x_raw_materials.txt）。经逐条审阅，0条合格。候选分析: @silverguru22 7条（Google Alerts自动分享——Fresnillo产量下降报道/银ETF/金银价格预测/金价分析——均非原创供需内容）；@duediligenceguy 4条（市场观点/交易策略/铀讨论——无铜金银供需事实）；@Brien_Lundin 1条（Gundlach/Paulson金市观点）；@wmiddelkoop 1条（瑞典矿业安全政策——非铜金银供给）；@Frank_Giustra 1条（黄金禁令历史引用——观点）；@IvanhoeMines_ 1条（Kamoa-Kakula市场推广——一般性陈述无新增生产数据）；@NewmontCorp 2条（Q2业绩摘要转推——7月23日发布内容复述）；@KinrossGold 1条（安全奖项——非供需）。Playwright通道状态正常。",
+    "part3_sources_checked": [
+      "【主路径】Playwright Chromium headless + 反检测抓取 https://www.mining.com/commodity/copper/: 200 OK，提取7月23-24日文章7篇。7月24日文章4篇：Newmont Lihir 5M oz金（入选）、Agnico Cadillac投资（勘探投资-排除）、US debt gold $6,000（价格预测-排除）、Japan rare earths（非铜金银-排除）、US coal（非铜金银-排除）。7月23日2篇：gold price retreat（价格-排除）、Sunrise scandium（非铜金银-排除）。",
+      "Antofagasta Los Pelambres运营更新 (antofagasta.co.uk 2026-07-24): 核验通过——确认7月18日停产、7月23日恢复、无重大基础设施损坏、65-70万吨FY指引维持。URL https://www.antofagasta.co.uk/investors/news/2026/los-pelambres-operational-update/",
+      "SMM Los Pelambres复产快讯 (news.smm.cn 2026-07-24): 核验通过——与Antofagasta官方新闻稿一致。URL https://news.smm.cn/live/detail/104024106",
+      "SMM铜精矿TC/RC周评 (gu.qq.com/SMM转载 2026-07-24): 核验通过——确认-154.76美元/干吨（前值-146.15，降-8.61），Red Chris招标-225，OT招标-230，Caserones截至24日仍未复产，Grasberg复产进展符合预期。URL https://gu.qq.com/resources/shy/news/detail-v2/index.html#/index?id=SN20260724155018a48d0b98",
+      "Mining Weekly Los Pelambres环境调查 (Reuters转载 2026-07-24): 核验通过——确认智利环境监管机构启动调查、Antofagasta声明安全、尾矿坝稳定。但与核心信号（复产）为同一事件的平行报道。URL https://www.miningweekly.com/article/chile-investigates-antofagastas-los-pelambres-mine-after-water-discharge-from-rains-2026-07-24",
+      "Newmont Lihir 5M oz (mining.com 2026-07-24): 核验通过——Playwright+WebFetch双重确认，内容包含Lihir近岸屏障、2028年启动、5M+ oz增量、Q2生产数据（1.3M oz金/7M oz银/17kt铜）。URL https://www.mining.com/newmont-eyes-5m-ounce-boost-from-lihir-gold-mine/",
+      "site:mining.com gold/silver July 24 搜索: gold搜索返回Newmont Lihir文章（已通过Playwright主路径获取），silver搜索无7月24日独立供需文章。",
+      "Newmont Q2 2026官方新闻稿 (newmont.com/SEC EDGAR 2026-07-23): 生产数据(1,293K oz金/7M oz银/17kt铜/AISC $1,621/oz)核验通过。发布日为7月23日，不在7月24日窗口，但Lihir近岸屏障计划提及于7月24日的后续报道中。",
+      "SMM有色网 7月24日新闻列表: 核验人铜市场日报、北方线缆大会报告、铜精矿出口回顾等——均为市场分析/行业研究，非当日供需事件。",
+      "北方有色网 7月24日铜市场日报 (cmcc.china-mcc.com): 铜价大跌+产业动态回顾——Kalshi铜期货（金融工具）、Freeport/Southern Copper/Chile（均为7月23日事件复述）、GoldInxs IPO（融资事件）。无7月24日新供需事件。",
+      "中信证券/迈科期货/国投期货 7月24日铜周评: 均为研究机构行情分析，非新增供需事件。",
+      "新华财经/我的钢铁/东方财富 7月24日: 无铜金银供需新增公告或事件。"
+    ],
+    "part3_result": "Part 3共审阅20+篇候选（mining.com Playwright抓取7篇+中文来源10篇+英文金/银来源5篇），保留3篇经核验的供需信号：2条铜（Los Pelambres复产 + TC/RC创纪录低点）、1条金（Newmont Lihir增长项目）。银当日无合格供需信号。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "Antofagasta Los Pelambres运营更新 (antofagasta.co.uk 2026-07-24): 一手来源，核验通过——确认7月18日停产、23日恢复、无基础设施损坏、65-70万吨FY指引维持。",
+        "SMM Los Pelambres复产快讯 (news.smm.cn 2026-07-24): 中文转载，核验通过——与Antofagasta官方一致。",
+        "SMM TC/RC周评 (gu.qq.com 2026-07-24): SMM原创内容转载，核验通过——确认-154.76美元/干吨、前值-146.15、降-8.61、Caserones停产第6天、Grasberg复产进展。腾讯自选股为SMM授权转载平台。",
+        "Mining Weekly Los Pelambres环境调查 (miningweekly.com 2026-07-24): Reuters原创报道转载，核验通过——确认排水事件、监管调查、Antofagasta安全声明。与核心复产信号交叉验证。",
+        "Newmont Lihir 5M oz (mining.com 2026-07-24): 一手采矿媒体报道，核验通过——Playwright+WebFetch双重路径获取完整正文，确认近岸屏障计划、2028启动、5M+ oz增量。与Newmont Q2官方新闻稿/电话会内容一致。",
+        "mining.com /commodity/copper/ Playwright主路径抓取: 200 OK，提取7篇7月23-24日文章。7月24日4篇中仅Newmont Lihir文章涉及铜金银供需（金矿增长项目），其余为价格预测、勘探投资、非铜金银主题。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Northern Miner Jul 22 South32 Pat Risner播客（FAST-41/社会许可主题，已在07-22排除）",
+      "Northern Miner Jul 22-23 Rule Symposium视频（First Majestic/Dundee/Vizsla——会议预录回放，已在07-22/07-23排除）",
+      "Crux Investor Jul 21 West Red Lake Gold Mines运营更新（公司IR推广而非独立访谈，已在07-22窗口排除）",
+      "Mining Stock Daily Jul 22市场简报（价格分析和公司勘探新闻，已在07-22排除）"
+    ],
+    "part3_deduped_events": [
+      "Freeport Q2 2026铜产量7.86亿磅-18.2%（7月23日发布）——已在07-23日报覆盖。北方有色网7月24日日报转载同属重复。排除。",
+      "Southern Copper Q2 2026铜产量24.1万吨-3.6% YoY / Tia María项目进展（7月23日发布）——已在07-23日报覆盖。北方有色网7月24日日报转载同属重复。排除。",
+      "智利环境监管机构调查Los Pelambres排水（7月23日Reuters首发，7月24日Mining Weekly转载）——同一事件的多媒体覆盖，与Los Pelambres复产信号为同一主题。Los Pelambres复产（7月24日Antofagasta官方更新）为主要信号，环境调查为其背景事件。保留复产信号，不单独纳入环境调查。",
+      "Lundin Caserones停产更新（自7月18日起，已在07-18/07-21/07-22/07-23多日覆盖）——截至7月24日仍停产为同一事件的第6天持续状态，非新供给变化。SMM 7月24日TC周评中提及Caserones停产作为市场背景，不作为独立信号。排除。",
+      "Grasberg复产进展（Freeport 7月23日Q2电话会披露）——7月23日事件，已在Freeport Q2信号覆盖（07-23日报）。SMM 7月24日转载为复述。排除。",
+      "Newmont Q2 2026业绩（7月23日发布，1.3M oz金/7M oz银/17kt铜）——发布日为7月23日，不在7月24日窗口。Newmont Lihir 5M oz文章（7月24日mining.com）中提及Q2数据为背景上下文。保留Lihir信号，排除Q2业绩复述。",
+      "Kalshi铜永续期货（北方有色网/华尔街见闻 7月24日）——金融衍生品工具发布，非铜供需事件。排除。",
+      "Agnico Eagle向Cadillac Mines投资$6000万（mining.com 7月24日）——勘探投资/IPO配售，非当前贵金属产量供给。排除。",
+      "GoldInxs Mining IPO（北方有色网7月24日日报转载）——融资事件，非产量供给。排除。",
+      "中信证券/迈科期货/国投期货 7月24日铜市场分析周评——研究机构行情分析，非新增供需事件。排除。",
+      "SMM北方线缆大会报告/铜精矿进出口回顾/锌精矿市场回顾（7月24日）——行业会议报告和历史回顾，非当日供需事件。排除。"
+    ]
+  }
+}
