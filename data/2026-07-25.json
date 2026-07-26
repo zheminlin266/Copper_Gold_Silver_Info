@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-25",
+  "report_time": "2026-07-26T10:08:07+08:00",
+  "summary": "7月25日未发现经核验的新增金、银、铜供需事件；铜供给仍偏紧，金银供需方向暂无新的可验证变化。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-23T00:00:00+08:00",
+      "end": "2026-07-25T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-25T00:00:00+08:00",
+      "end": "2026-07-25T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-25T00:00:00+08:00",
+      "end": "2026-07-25T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily episodes 页面：https://www.miningstockdaily.com/episodes；页面最新相关节目为7月22日及更早，未见7月23日至25日合格访谈。",
+      "The Northern Miner podcast 页面：https://www.northernminer.com/company/podcast/；页面近期矿业播客/视频停留在7月8日，窗口内无新条目。",
+      "Sprott Insights 与 webcast 页面：https://sprott.com/insights/；窗口内未见新的金银铜供需访谈，最近相关内容为7月14日及更早。",
+      "YouTube、Spotify、Apple Podcasts 以7月23日至25日和gold/silver/copper/mining组合检索；未发现可打开并能核对日期和供需事实的新访谈。"
+    ],
+    "part1_result": "完成72小时访谈窗口检索。窗口内未发现包含可归因金、银或铜产量、品位、许可、停复产、库存或工业需求事实的合格新访谈，0条入选。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "Playwright + Chromium headless +已授权storage_state会话，检索34个个人账号和18个公司/官方账号。",
+      "搜索词：(gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)。",
+      "窗口内实际采集4条候选并保存至x_outputs/2026-07-25_x_raw_materials.txt：@silverguru22、@peter_krauth、@wmiddelkoop、@IvanhoeMines_。",
+      "逐条核对原帖作者、handle、正文、原帖URL和北京时间：David Morgan为营销链接，Peter Krauth为银价评论和Newsletter推广，Willem Middelkoop为24/7黄金期货交易制度信息，Ivanhoe Mines为招聘/多元化雇主宣传；均无可纳入的新增金银铜供需事实。"
+    ],
+    "part2_result": "X通道正常，实际采集4条原始候选，0条符合供需筛选标准。终端收尾输出遇到GBK编码错误，但原始候选文件已在检索完成后成功写入，采集时间为2026-07-26T10:06:47+08:00。",
+    "part3_sources_checked": [
+      "【强制主路径】使用指定Python 3.13.12、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox、Chrome 131 Windows UA、1920x1080、en-US及navigator.webdriver反检测抓取https://www.mining.com/commodity/copper/；HTTP 200，页面标题为Copper Archives - MINING.COM，DOM日期标签计数为July 23: 8、July 24: 11、July 25: 0，未发现7月25日铜文章。",
+      "mining.com铜分类页7月24日可见候选包括American Mineral Resources diversified project portfolio和Fitzroy near-term Chile copper mine，均为7月24日窗口外内容；前者为融资/项目组合，后者为勘探和2028年前生产计划，未纳入。",
+      "Google辅助检索site:mining.com gold July 25 2026与site:mining.com silver July 25 2026：返回结果未发现可核验的2026年7月25日金银供需文章；命中内容主要为旧年份页面或非目标日期结果。",
+      "Natural Resource Stocks的7月25日综合页：https://naturalresourcestocks.net/daily-mining-update-july-25-2026-permitting-production-listings-drilling-moves/；其Soma Gold、Newmont和Adelayde条目实际对应7月24日或更早公司公告，未作为7月25日信号。",
+      "Soma Gold公开CNW原文：https://www.newswire.ca/news-releases/soma-reports-progress-across-three-mining-assets-888071704.html；正文标注Jul 24, 2026 04:20 ET，ANM将Aurora授权产量由25 TPD提高至75 TPD，属于7月24日事件，排除当前7月25日窗口。",
+      "Hindustan Zinc官方业绩页：https://www.hzlindia.com/news-and-media/press-release/nm-press-release；正文标注July 24, 2026，银产量149吨、同比持平、环比下降16%，为7月24日且无新增产量变化，排除。",
+      "Adelayde Exploration原始Newsfile公告：https://www.newsfilecorp.com/release/306399/Adelayde-Exploration-Engages-Drill-Contractor-for-the-Clayton-Ridge-Gold-Project-in-Nevada；正文标注July 24, 2026，内容为即将开始的勘探钻探，排除当前窗口。",
+      "Reuters转载的Newmont Mining Weekly页面：https://www.miningweekly.com/article/newmont-tops-profit-estimates-on-higher-gold-prices-sees-steady-output-2026-07-24；正文标注24th July 2026，Q2黄金产量1.29Moz低于1.48Moz，已属7月24日事件，排除。",
+      "Freeport投资者页：https://investors.fcx.com/investors/default.aspx/1000/；页面列出7月23日Q2及上半年业绩，超出7月25日新闻窗口，排除。",
+      "中文来源以SMM、新华财经、东方财富、腾讯财经等检索7月25日铜金银供需公告；未发现可打开、日期和核心数字均可核验的新事件。"
+    ],
+    "part3_result": "完成英文、中文和mining.com强制路径检索。7月25日未发现合格的新增金银铜供需新闻；7月25日综合报道中的关键条目均回溯至7月24日或更早，0条入选。",
+    "url_verification": {
+      "checked": 12,
+      "passed": 10,
+      "failed": 2,
+      "failures": [
+        "Sprott Insights索引页网页读取返回内部错误；通过单独搜索结果和可打开的相关Sprott页面确认窗口内无新条目，未纳入正文。",
+        "Cerro Verde 7月25日二次报道页面读取返回cache miss；其所述Freeport事件实际源于7月23日业绩，未纳入正文。"
+      ],
+      "notes": "本日报无入选新闻或访谈URL，因此不存在未核验的正文来源；X原始候选均由已授权Playwright会话从原帖页面提取。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Daily 7月21日至22日节目及Northern Miner 7月17日以前节目：不在本次72小时窗口，未重复纳入。",
+      "Sprott 6月23日webcast和7月8日至14日内容：不在本次72小时窗口，未重复纳入。"
+    ],
+    "part3_deduped_events": [
+      "Soma Gold Aurora许可增产、Newmont Q2产量、Hindustan Zinc Q1银产量、Adelayde Clayton Ridge钻探：原始公告均为7月24日或更早，未作为7月25日新闻纳入。",
+      "Freeport Q2、Teck Q2、Anglo American Q2及Los Pelambres雨水事件：均为7月23日至24日事件，超出当前Part 3单日窗口或已在前日报覆盖。",
+      "Caserones停产延续、铜价/废铜行情、金银价格评论：无7月25日新增公告或供需事实，排除。"
+    ]
+  }
+}

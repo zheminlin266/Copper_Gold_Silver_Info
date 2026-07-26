@@ -215,6 +215,8 @@ SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评�
 Remove-Item Env:NODE_OPTIONS -ErrorAction SilentlyContinue
 ```
 
+生产构建必须离线可用。页面字体只能通过 `next/font/local` 或 CSS `@font-face` 从仓库内的 `assets/fonts/` 加载；禁止使用 `next/font/google`，也不得让构建阶段请求 `fonts.googleapis.com` 或 `fonts.gstatic.com`。若构建日志出现 `Failed to fetch`、`Google Fonts` 或 `next/font/google`，应按应用配置/外部网络依赖故障处理，不得删除 `.next` 来掩盖问题。
+
 正常构建不得预先删除 `.next`，也不得在 `prebuild` 中强制清缓存。`.next` 由 Next.js 管理，保留它可复用增量构建缓存。
 
 依次运行：

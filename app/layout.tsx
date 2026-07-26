@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 
 import { SiteHeader } from "@/components/site-header";
 import { SITE_URL } from "@/lib/site";
 
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
+const localSans = localFont({
+  src: "../assets/fonts/Geist-Regular.ttf",
   display: "swap",
-  variable: "--font-inter",
+  variable: "--font-local-sans",
 });
 
 export const metadata: Metadata = {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN" className={inter.variable}>
+    <html lang="zh-CN" className={localSans.variable}>
       <body id="top">
         <SiteHeader />
         {children}

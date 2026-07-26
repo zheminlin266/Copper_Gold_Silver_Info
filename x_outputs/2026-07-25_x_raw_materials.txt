@@ -1,0 +1,51 @@
+X 原始候选 — 2026-07-25
+采集时间: 2026-07-26T10:06:47.701126+08:00
+采集方法: Playwright + Chrome (storage_state)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 4 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-07-25T12:03:01+00:00
+    北京: 2026-07-25T20:03:01+08:00
+    文本: The Great Wealth Shift: Why Smart Money Is Moving Into Gold and Silver 
+https://
+archive.aweber.com/t/7n34X
+    链接: https://x.com/silverguru22/status/2080987182416679174
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-24T19:37:21+00:00
+    北京: 2026-07-25T03:37:21+08:00
+    文本: Silver gave back its midweek gains, and $60 remains a stubborn ceiling.
+
+But while traders watched the price, our companies kept building value.
+
+Six major updates, my take on the pullback and 
+@TheGoldAdvisor
+'s  Mexico site report:
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-3/
+…
+    链接: https://x.com/peter_krauth/status/2080739131190362244
+
+[3] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-25T05:27:42+00:00
+    北京: 2026-07-25T13:27:42+08:00
+    文本: New: 24/7 gold futures trading
+    链接: https://x.com/wmiddelkoop/status/2080887698483515695
+
+[4] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-07-24T20:37:57+00:00
+    北京: 2026-07-25T04:37:57+08:00
+    文本: Building the future of mining means creating a more inclusive workforce.
+
+We're expanding opportunities for women across technical, operational and leadership roles through targeted training, skills development and career advancement. We're creating a stronger, more innovative
+    链接: https://x.com/IvanhoeMines_/status/2080754380631097399
+

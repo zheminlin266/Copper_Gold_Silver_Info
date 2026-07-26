@@ -1,0 +1,46 @@
+X 原始候选 — 2026-07-13
+采集时间: 2026-07-14T08:23:28.801044+08:00
+采集方法: Playwright + Chrome (storage_state)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 4 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-07-13T15:40:16+00:00
+    北京: 2026-07-13T23:40:16+08:00
+    文本: WisdomTree Silver 3x Daily Leveraged 3LSI Price - Morningstar - 
+https://
+goo.gl/alerts/fLEkBS #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2076693198312001648
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-07-13T15:39:31+00:00
+    北京: 2026-07-13T23:39:31+08:00
+    文本: China Gold Buying Surges, India's Silver Market Tightens - SD Bullion - 
+https://
+goo.gl/alerts/V4rNYm #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2076693010100973868
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-07-13T04:37:29+00:00
+    北京: 2026-07-13T12:37:29+08:00
+    文本: China’s Biggest Gold Market COLLAPSES: $20B Vanishes Overnight, 100,000 ... 
+https://
+youtu.be/j92yw0JUf_I?is
+=gHQOFFZUtOmKukhn
+… via 
+@YouTube
+    链接: https://x.com/silverguru22/status/2076526403743547860
+
+[4] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-13T15:12:34+00:00
+    北京: 2026-07-13T23:12:34+08:00
+    文本: New Found Gold: The Transition to Producer Begins
+
+Keith Boyle joins us to discuss Hammerdown's commercial production, the development of the Queensway Project, permitting progress, and how New Found Gold plans to grow into a 200,000 oz/year gold producer while continuing
+    链接: https://x.com/soarfinancial/status/2076686226959327484
+

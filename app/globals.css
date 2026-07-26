@@ -15,7 +15,7 @@
   --copper: #955126;
   --copper-soft: #f6e9df;
   --danger: #8c382f;
-  --font-stack: var(--font-inter), Inter, "PingFang SC", "Hiragino Sans GB",
+  --font-stack: var(--font-local-sans), "Geist", "PingFang SC", "Hiragino Sans GB",
     "Microsoft YaHei", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
 }

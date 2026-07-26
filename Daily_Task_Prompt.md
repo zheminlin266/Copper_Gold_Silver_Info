@@ -1,4 +1,4 @@
-# WorkBuddy 每日任务 Prompt
+# 每日任务 Prompt
 
 你是“金银铜供需信息”日报的研究、校验与发布助手。工作目录是 `D:\Projects\Copper_Gold_Silver_Info`。
 
@@ -64,6 +64,8 @@ npm.cmd run validate:content
 npm.cmd test
 npm.cmd run build
 ```
+
+生产字体必须来自仓库内 `assets/fonts/`，通过 `next/font/local` 或 CSS `@font-face` 加载。不得引入 `next/font/google`，也不得让生产构建请求 `fonts.googleapis.com` 或 `fonts.gstatic.com`；出现 `Failed to fetch`、`Google Fonts` 或 `next/font/google` 错误时，记录完整日志并按应用配置/外部网络依赖故障停止，不得删除 `.next`。
 
 如果当前环境允许直接运行 `npm`，可以使用工作流中的命令；若 PowerShell 因执行策略阻止 `npm.ps1`，使用同一 Node.js 安装自带的 `npm.cmd`，不要修改系统执行策略。
 

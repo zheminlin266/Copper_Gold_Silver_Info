@@ -1,0 +1,72 @@
+X Raw Materials Search - 2026-07-14
+Collection method: Playwright headless browser, logged-in session
+Window: 2026-07-14T00:00:00+08:00 to 2026-07-14T23:59:59+08:00
+Accounts queried: 10
+Queries: from:handle (gold OR silver OR copper OR mining...) since:2026-07-14 until:2026-07-15
+Raw candidates found: 2
+================================================================================
+
+---
+Handle: @wmiddelkoop
+Time (BJ): 2026-07-14T22:02:59+08:00
+URL: https://x.com/wmiddelkoop/status/2077031106335936640
+Supply-demand keywords: True
+Text: Corrected:
+
+Earlier we visited Sitka Gold, who have discovered over 5 mln ounces of gold, since I first visited this project in 2022
+
+Their current 50k meters drill program might add a few more million ounces this year
+
+Several major producers (I won’t mention names here) joined
+
+---
+Handle: @wmiddelkoop
+Time (BJ): 2026-07-14T21:10:08+08:00
+URL: https://x.com/wmiddelkoop/status/2077017803190583311
+Supply-demand keywords: False
+Text: Yesterday, was the 3th day of our Yukon mining tour 
+
+We started with a visit to Yukon Metal’s new copper discovery, close to the US border
+
+Later we visited copper projects owned by Cascadia and Selkirk 
+
+Interestingly, we are joined by 3 major mining companies on this trip
+
+
+--- Batch 2 (accounts 17) ---
+Additional candidates: 3
+
+---
+Handle: @LawrenceLepard
+Time (BJ): 2026-07-14T21:22:46+08:00
+URL: https://x.com/LawrenceLepard/status/2077020985367122401
+SD: False
+Text: Cool CPI.  Instant bid in gold, silver and bitcoin.  They know.  The Big Print will come.
+
+---
+Handle: @duediligenceguy
+Time (BJ): 2026-07-14T21:20:20+08:00
+URL: https://x.com/duediligenceguy/status/2077020369932767371
+SD: False
+Text: Gold & silver are up on today's deflation report.
+
+This is silly.
+
+That aside, the report is backward-looking to when oil was considerably cheaper, and the Iran war looks anything but over.
+
+I'd love to think the bottom is in, but what Mr. Market giveth, he can taketh away...
+
+---
+Handle: @duediligenceguy
+Time (BJ): 2026-07-14T02:30:29+08:00
+URL: https://x.com/duediligenceguy/status/2076736036437205237
+SD: False
+Text: My "Pair Trade of 2026" idea seems on track.
+
+The oil stocks on my shopping list are slipping away... 
+
+But the copper stocks in Plan B are getting closer.
+:-{)}
+
+(Link in reply so X won't hide this post.)
+
