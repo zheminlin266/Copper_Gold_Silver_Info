@@ -1,0 +1,7 @@
+X raw materials for report date 2026-07-26
+Collection status: failed
+Collection channel: browser-use unavailable; direct Playwright fallback reached X login wall
+Collection attempt: 2026-07-27 Asia/Shanghai, using the single-day query window 2026-07-26T00:00:00+08:00 through 2026-07-26T23:59:59+08:00
+Search URL: https://x.com/search?q=%28copper%20OR%20gold%20OR%20silver%29%20since%3A2026-07-26%20until%3A2026-07-27&src=typed_query&f=live
+Result: HTTP 200 followed by redirect to X onboarding/login; no authorized session was available, so no original posts could be opened or verified.
+Candidates: none collected. Search snippets, screenshots, and third-party summaries were not used as substitutes.

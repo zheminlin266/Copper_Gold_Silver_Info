@@ -1,0 +1,78 @@
+{
+  "date": "2026-07-26",
+  "report_time": "2026-07-27T07:16:36+08:00",
+  "summary": "7月26日铜需求端出现AI数据中心与电网升级拉动铜导体订单的微观信号；铜精矿现货TC延续深度负值，供给仍紧。金、银当日未发现新的经核验供需变化。",
+  "windows": {
+    "part1": {"start": "2026-07-24T00:00:00+08:00", "end": "2026-07-26T23:59:59+08:00"},
+    "part2": {"start": "2026-07-26T00:00:00+08:00", "end": "2026-07-26T23:59:59+08:00"},
+    "part3": {"start": "2026-07-26T00:00:00+08:00", "end": "2026-07-26T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.com / Bloomberg News",
+      "title": "Pantheon Electric拟通过并购扩大铜导体业务，AI数据中心与电网升级推高订单",
+      "url": "https://www.mining.com/web/pantheon-electric-eyes-copper-deals-to-supply-data-center-boom/",
+      "publish_time": "2026-07-26",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "excerpt": "MINING.com（Bloomberg News）7月26日称，北美铜产品供应商Pantheon Electric计划通过并购扩大导体及电气部件业务，以应对AI数据中心和电网升级带来的订单增长。公司预计2026年收入接近20亿美元，较合并后上年结果增长约35%，并将更多铜采购转向Rio Tinto和Freeport-McMoRan。",
+      "interpretation": "这是铜需求端的实体传导信号：AI数据中心与电网升级先拉动导体、汇流排和变压器部件订单，再通过Pantheon的采购与扩产传导到铜材消费。文章未给出铜吨位，不应把收入增速转换成铜需求吨数；35%是公司收入预期，不是铜消费增速。",
+      "importance": "在没有直接吨位披露的情况下，Pantheon作为铜导体/电气部件供应商的订单驱动与扩大美国铜源采购，补充了AI和电网资本开支向实体铜需求传导的微观证据。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "mining.com铜分类页主路径Playwright抓取HTTP 200，DOM显示July 26, 2026文章；同一Playwright会话直接打开正文HTTP 200，核验Bloomberg News主体、标题、发布时间和正文数字。WebFetch/open对该文章返回403，故以同一Playwright会话作为正文核验路径。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Northern Miner播客/视频页面：https://www.northernminer.com/company/podcast/；近期节目停留在7月17日及更早，72小时窗口内无新合格访谈。",
+      "Mining Stock Daily episodes：https://www.miningstockdaily.com/episodes；窗口内未见7月24日至26日新的金银铜供需访谈。",
+      "Sprott Insights/webcast、Resource Talks及YouTube、Spotify、Apple Podcasts以7月24日至26日和gold/silver/copper/mining组合检索；未发现可打开并能核对日期和供需事实的新访谈。",
+      "American Eagle Gold官方视频页：https://americaneaglegold.ca/media/videos/；页面日期标签与嵌入YouTube实际发布时间不一致，直接核验视频为1年前或更早，未纳入。",
+      "Mining.com/video：https://www.mining.com/video/；窗口内可见内容为价格评论或更早视频，不满足供需访谈标准。"
+    ],
+    "part1_result": "完成72小时访谈窗口检索。窗口内未发现包含可归因金、银或铜产量、品位、许可、停复产、库存或工业需求事实的合格新访谈，0条入选。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "尝试browser-use诊断：Chrome、daemon和active browser connections均不可用，未获得已授权浏览器会话。",
+      "使用指定Python 3.13.12、Chromium headless和X搜索URL：https://x.com/search?q=%28copper%20OR%20gold%20OR%20silver%29%20since%3A2026-07-26%20until%3A2026-07-27&src=typed_query&f=live；HTTP 200后重定向至X登录/注册引导页，无法打开并核验原帖。",
+      "未使用搜索摘要、截图或未经核验的第三方转述替代X原帖。"
+    ],
+    "part2_result": "Part 2失败：X通道无已授权会话且搜索被登录墙拦截，0条入选；已保存原始材料说明文件并继续完成Part 1和Part 3。",
+    "part3_sources_checked": [
+      "【强制主路径】使用指定Python 3.13.12、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox、Chrome 131 Windows UA、1920x1080、en-US及navigator.webdriver反检测抓取https://www.mining.com/commodity/copper/；HTTP 200，页面标题为Copper Archives - MINING.COM，DOM提取到7月26日文章2篇、7月24日文章2篇及更早文章。",
+      "mining.com铜分类页7月26日候选：Pantheon Electric eyes copper deals to supply data center boom（入选）；Barrick evacuates Chile workers by helicopter after storm（正文未给出生产影响或产量变化，排除）。",
+      "同一Playwright会话直接打开Pantheon文章：https://www.mining.com/web/pantheon-electric-eyes-copper-deals-to-supply-data-center-boom/；HTTP 200，核验Bloomberg News、2026年7月26日、AI数据中心/电网订单、预计收入接近20亿美元及约35%增长、采购来源等核心数字和事实。",
+      "mining.com铜分类页7月24日候选Fitzroy near-term Chile copper mine和Newmont Lihir gold mine文章均不在Part 3单日窗口；Newmont事件已在此前日报覆盖，不重复纳入。",
+      "Google备用路径按报告日执行site:mining.com copper July 26 2026、site:mining.com gold July 26 2026、site:mining.com silver July 26 2026检索；用于补充发现，未发现比分类页主路径更适合的新增合格候选。",
+      "中文来源以SMM、新华财经、东方财富、腾讯财经等检索7月26日铜金银供需公告；未发现可打开、日期和核心数字均可核验的新增事件。"
+    ],
+    "part3_result": "完成英文、中文和mining.com强制路径检索。7月26日1条铜需求新闻通过标题、主体、日期和核心事实核验并入选；金银无合格新增新闻。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 3,
+      "passed": 1,
+      "failed": 2,
+      "failures": [
+        "X搜索在HTTP 200后重定向至登录引导页，无法核验原帖；Part 2已标记failed。",
+        "WebFetch/open对mining.com Pantheon文章返回403；已用同一Playwright会话直接打开并核验正文，因此保留该来源并记录限制。"
+      ],
+      "notes": "入选新闻URL由mining.com分类页主路径发现并由同一Playwright会话直接打开核验；未使用搜索摘要作为证据。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "此前日报已覆盖的Newmont Lihir 7月24日新闻及窗口外的Northern Miner、Mining Stock Daily、Sprott相关节目不重复纳入；American Eagle官方视频页的过期嵌入视频也未作为7月26日访谈。"
+    ],
+    "part3_deduped_events": [
+      "Barrick智利暴雨撤离事件：正文确认人员安全，但没有生产受影响、产量或供需变化数字，排除。",
+      "Fitzroy智利铜矿勘探及Newmont Lihir金矿扩建：均为7月24日或更早事件，超出当前Part 3单日窗口；Newmont事件已在此前日报覆盖。",
+      "铜价、金银价格评论及无法追溯的市场传闻：没有新增可核验供需传导路径，排除。"
+    ]
+  }
+}
