@@ -7,6 +7,7 @@ X (Twitter) 供需信息搜索 — 轻量级 Playwright 脚本。
 用法:
     python scripts/x_search.py 2026-07-13
     python scripts/x_search.py 2026-07-13 --headless
+    python scripts/x_search.py 2026-07-13 --headless --overwrite
 
 Python 环境:
     必须使用 managed Python 3.13 (唯一已安装 playwright 的运行时):
@@ -23,8 +24,15 @@ import os
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from urllib.parse import urlencode
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PROFILE_DIR = PROJECT_ROOT / ".browser_profile" / "chromium-data"
 STORAGE_STATE_FILE = PROJECT_ROOT / ".browser_profile" / "x_auth.json"
 CHROME_EXECUTABLE = "C:/Program Files/Google/Chrome/Application/chrome.exe"
 
@@ -92,6 +100,10 @@ TZ_BEIJING = timezone(timedelta(hours=8))
 SEARCH_QUERY = "(gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)"
 
 
+class XLoginRequired(RuntimeError):
+    """Raised when X redirects the collector to a login or onboarding page."""
+
+
 def parse_x_datetime(dt_str: str) -> datetime:
     """解析 X 的 <time datetime> 为 UTC datetime。"""
     # X 时间格式: "2026-07-13T15:30:00.000Z"
@@ -101,14 +113,18 @@ def parse_x_datetime(dt_str: str) -> datetime:
 
 async def search_account(page, handle: str, name: str, date_str: str) -> list[dict]:
     """搜索单个账号在指定日期的帖子。"""
-    query = f"from:{handle} {SEARCH_QUERY}"
-    url = f"https://x.com/search?q={query.replace(' ', '%20').replace('(', '%28').replace(')', '%29')}&f=live"
+    next_date = (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
+    query = f"from:{handle} {SEARCH_QUERY} since:{date_str} until:{next_date}"
+    url = "https://x.com/search?" + urlencode({"q": query, "src": "typed_query", "f": "live"})
     
     print(f"  搜索 @{handle} ({name})...")
     
     try:
         await page.goto(url, wait_until="domcontentloaded", timeout=15000)
-        await page.wait_for_timeout(1500)
+        await page.wait_for_timeout(2500)
+
+        if await is_login_wall(page):
+            raise XLoginRequired("X redirected the search page to a login/onboarding wall")
         
         # 解析推文
         tweets = []
@@ -156,18 +172,87 @@ async def search_account(page, handle: str, name: str, date_str: str) -> list[di
         print(f"    → {len(tweets)} 条窗口内帖子")
         return tweets
         
+    except XLoginRequired:
+        raise
     except Exception as e:
         print(f"    ✗ 失败: {e}")
         return []
 
 
-async def main(date_str: str, headless: bool = False):
+async def is_login_wall(page) -> bool:
+    """Return whether the current page requires an X login."""
+    url = page.url.lower()
+    if "/login" in url or "/i/jf/onboarding" in url:
+        return True
+
+    body = (await page.locator("body").inner_text()).lower()
+    login_markers = ("sign in to x", "log in to x", "登录 x", "注册或登录")
+    return any(marker in body for marker in login_markers)
+
+
+async def assert_authenticated(page) -> None:
+    """Fail clearly instead of treating a login wall as zero search results."""
+    await page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=30000)
+    await page.wait_for_timeout(3000)
+    if await is_login_wall(page):
+        raise XLoginRequired("X session is missing or expired; run scripts/setup_x_login.py")
+
+    home_link = await page.locator('a[data-testid="AppTabBar_Home_Link"]').count()
+    account_switcher = await page.locator('[data-testid="SideNav_AccountSwitcher_Button"]').count()
+    if home_link == 0 and account_switcher == 0:
+        raise XLoginRequired("X home page did not expose authenticated navigation")
+
+
+async def open_x_context(playwright, headless: bool):
+    """Use the live persistent profile first, with exported auth as a fallback."""
+    if not PROFILE_DIR.exists() and not STORAGE_STATE_FILE.exists():
+        raise XLoginRequired("No X profile found; run scripts/setup_x_login.py")
+
+    launch_args = ["--disable-blink-features=AutomationControlled"]
+    if PROFILE_DIR.exists():
+        try:
+            context = await playwright.chromium.launch_persistent_context(
+                user_data_dir=str(PROFILE_DIR),
+                headless=headless,
+                executable_path=CHROME_EXECUTABLE,
+                args=launch_args,
+                viewport={"width": 1280, "height": 900},
+            )
+            print(f"登录会话: persistent profile ({PROFILE_DIR})")
+            return context, None
+        except Exception as error:
+            print(f"persistent profile unavailable, falling back to x_auth.json: {error}")
+
+    browser = await playwright.chromium.launch(
+        headless=headless,
+        executable_path=CHROME_EXECUTABLE,
+        args=launch_args,
+    )
+    context = await browser.new_context(
+        storage_state=str(STORAGE_STATE_FILE),
+        viewport={"width": 1280, "height": 900},
+        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+    )
+    print(f"登录会话: exported state fallback ({STORAGE_STATE_FILE})")
+    return context, browser
+
+
+async def main(date_str: str, headless: bool = False, overwrite: bool = False):
+    output_dir = PROJECT_ROOT / "x_outputs"
+    output_dir.mkdir(exist_ok=True)
+    output_file = output_dir / f"{date_str}_x_raw_materials.txt"
+    if output_file.exists() and not overwrite:
+        raise FileExistsError(
+            f"Refusing to overwrite existing X raw materials: {output_file}. "
+            "Move it aside or use a new report date after confirming the workflow state."
+        )
+
     print(f"X 供需搜索 — 目标日期: {date_str}")
     print(f"种子账号: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方")
     print(f"搜索词: {SEARCH_QUERY}")
     print()
 
-    if not STORAGE_STATE_FILE.exists():
+    if not PROFILE_DIR.exists() and not STORAGE_STATE_FILE.exists():
         print("✗ 未找到 X 登录状态文件!")
         print(f"  路径: {STORAGE_STATE_FILE}")
         print("  请先运行 setup_x_login.py 完成 X 登录")
@@ -176,16 +261,9 @@ async def main(date_str: str, headless: bool = False):
     from playwright.async_api import async_playwright
 
     async with async_playwright() as p:
-        browser = await p.chromium.launch(
-            headless=headless,
-            executable_path=CHROME_EXECUTABLE if CHROME_EXECUTABLE else None,
-        )
-        context = await browser.new_context(
-            storage_state=str(STORAGE_STATE_FILE),
-            viewport={"width": 1280, "height": 900},
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        )
+        context, browser = await open_x_context(p, headless)
         page = await context.new_page()
+        await assert_authenticated(page)
 
         all_tweets = []
         all_accounts = SEED_ACCOUNTS + OFFICIAL_ACCOUNTS
@@ -200,17 +278,15 @@ async def main(date_str: str, headless: bool = False):
             
             await page.wait_for_timeout(1000)  # 批次间隔
 
-        await browser.close()
+        await context.close()
+        if browser:
+            await browser.close()
 
     # 写入原始候选文件
-    output_dir = PROJECT_ROOT / "x_outputs"
-    output_dir.mkdir(exist_ok=True)
-    output_file = output_dir / f"{date_str}_x_raw_materials.txt"
-
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(f"X 原始候选 — {date_str}\n")
         f.write(f"采集时间: {datetime.now(TZ_BEIJING).isoformat()}\n")
-        f.write(f"采集方法: Playwright + Chrome (storage_state)\n")
+        f.write(f"采集方法: Playwright + Chrome (persistent profile with storage_state fallback)\n")
         f.write(f"搜索词: {SEARCH_QUERY}\n")
         f.write(f"账号批次: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方\n")
         f.write(f"=" * 60 + "\n\n")
@@ -229,7 +305,31 @@ async def main(date_str: str, headless: bool = False):
     return output_file
 
 
+async def check_login(headless: bool = True):
+    """Check the active X profile without creating or changing report files."""
+    from playwright.async_api import async_playwright
+
+    async with async_playwright() as p:
+        context, browser = await open_x_context(p, headless)
+        try:
+            page = await context.new_page()
+            await assert_authenticated(page)
+            print("X login check passed: authenticated home navigation is available")
+        finally:
+            await context.close()
+            if browser:
+                await browser.close()
+
+
 if __name__ == "__main__":
+    if "--check-login" in sys.argv:
+        try:
+            asyncio.run(check_login(headless=True))
+        except XLoginRequired as error:
+            print(f"X login required: {error}", file=sys.stderr)
+            sys.exit(2)
+        sys.exit(0)
+
     if len(sys.argv) < 2:
         print("用法: python scripts/x_search.py <DATE> [--headless]")
         print("示例: python scripts/x_search.py 2026-07-13")
@@ -238,4 +338,12 @@ if __name__ == "__main__":
 
     date = sys.argv[1]
     headless = "--headless" in sys.argv
-    asyncio.run(main(date, headless))
+    overwrite = "--overwrite" in sys.argv
+    try:
+        asyncio.run(main(date, headless, overwrite))
+    except XLoginRequired as error:
+        print(f"X login required: {error}", file=sys.stderr)
+        sys.exit(2)
+    except FileExistsError as error:
+        print(f"X raw-material output already exists: {error}", file=sys.stderr)
+        sys.exit(3)

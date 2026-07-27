@@ -1,7 +1,56 @@
-X raw materials for report date 2026-07-26
-Collection status: failed
-Collection channel: browser-use unavailable; direct Playwright fallback reached X login wall
-Collection attempt: 2026-07-27 Asia/Shanghai, using the single-day query window 2026-07-26T00:00:00+08:00 through 2026-07-26T23:59:59+08:00
-Search URL: https://x.com/search?q=%28copper%20OR%20gold%20OR%20silver%29%20since%3A2026-07-26%20until%3A2026-07-27&src=typed_query&f=live
-Result: HTTP 200 followed by redirect to X onboarding/login; no authorized session was available, so no original posts could be opened or verified.
-Candidates: none collected. Search snippets, screenshots, and third-party summaries were not used as substitutes.
+X 原始候选 — 2026-07-26
+采集时间: 2026-07-27T09:36:07.693100+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 4 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-07-26T10:15:14+00:00
+    北京: 2026-07-26T18:15:14+08:00
+    文本: Canada’s resource-heavy market started beating the S&P 500
+
+
+    链接: https://x.com/KatusaResearch/status/2081322445735116835
+
+[2] @TaviCosta (Otavio Costa)
+    UTC: 2026-07-26T14:06:21+00:00
+    北京: 2026-07-26T22:06:21+08:00
+    文本: Gold vs. global money supply.
+
+Arguably one of the most important macro divergences in the world today.
+
+Long-term minded investors know what to do here.
+
+
+https://
+open.substack.com/pub/tavicosta/
+p/a-monetary-gap?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2081380606491910552
+
+[3] @TaviCosta (Otavio Costa)
+    UTC: 2026-07-25T23:05:02+00:00
+    北京: 2026-07-26T07:05:02+08:00
+    文本: An important reminder:
+
+Despite copper hovering near record highs:
+
+The copper-to-gold ratio is only now approaching a major breakout.
+
+
+https://
+tavicosta.substack.com/p/weekend-notes
+    链接: https://x.com/TaviCosta/status/2081153784366207219
+
+[4] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-26T08:52:54+00:00
+    北京: 2026-07-26T16:52:54+08:00
+    文本:  China imported over 60% of world gold mine production (outside China) in June
+
+So, somebody is buying the dip in a big way
+    链接: https://x.com/wmiddelkoop/status/2081301726364065940
