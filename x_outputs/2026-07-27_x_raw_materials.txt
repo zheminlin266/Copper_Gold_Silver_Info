@@ -1,0 +1,33 @@
+X 原始候选 — 2026-07-27
+采集时间: 2026-07-27T10:02:40.637676+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-07-26T19:30:59+00:00
+    北京: 2026-07-27T03:30:59+08:00
+    文本: Full details…
+    链接: https://x.com/KatusaResearch/status/2081462304596492685
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-07-26T19:29:53+00:00
+    北京: 2026-07-27T03:29:53+08:00
+    文本: The war switched an old relationship back on
+
+And the rate-cut premium that had carried gold to $5,417 drained away.
+
+Gold pays no interest, so it competes with bonds that do
+
+US10Y currently is paying 4.67%, 
+
+While gold costs you to store. 
+
+Investors hold gold when they expect
+    链接: https://x.com/KatusaResearch/status/2081462028544131193
+

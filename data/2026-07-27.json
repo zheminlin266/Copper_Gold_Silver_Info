@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-27",
+  "report_time": "2026-07-28T07:14:08+08:00",
+  "summary": "7月27日铜供给端受智利Caserones停电影响，全面恢复仍需约2—3周；中国铜社会库存周增5,300吨至117,200吨，弱下游消费推动累库。Amman冶炼厂完成建设，未来铜精矿处理能力增加。黄金出现Troilus加速许可的潜在增量，白银暂无新增可核验供需变化。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-25T00:00:00+08:00",
+      "end": "2026-07-27T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-27T00:00:00+08:00",
+      "end": "2026-07-27T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-27T00:00:00+08:00",
+      "end": "2026-07-27T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "Lundin Mining",
+      "title": "Lundin Mining称智利Caserones受暴雨影响，全面恢复供电和逐步复产预计需2—3周",
+      "url": "https://www.lundinmining.com/news/lundin-mining-provides-further-update-on-chile-operations-following-severe-winter-storm",
+      "publish_time": "2026-07-27",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Lundin Mining 7月27日称，Caserones自7月18日起断电，暴雨损坏了服务矿山的两座输电塔；维修、恢复供电和逐步复产预计需要约2—3周。Candelaria虽受降雨短暂影响，但利用矿石库存维持磨机运行，采矿已恢复满负荷。",
+      "interpretation": "这是铜矿供给端新增的明确时间表：Caserones的电力基础设施损坏把停产从短期天气扰动延长为至少数周的逐步复产风险；Candelaria的库存缓冲只能维持加工，不能抵消Caserones采矿端的缺口。",
+      "importance": "Caserones是报告日前已知停产事件，但本次公告首次给出输电塔损坏和2—3周复产预期，显著更新了可用于判断铜精矿和精炼铜短期供给的时间窗口。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "Shanghai Metals Market (SMM)",
+      "title": "SMM：中国铜社会库存周增5,300吨至117,200吨，下游消费偏弱推动累库",
+      "url": "https://news.metal.com/newscontent/104026377-copper-inventories-in-china-rise-5300-mt-wow-total-at-117200-mt-as-of-july-27-2026",
+      "publish_time": "2026-07-27",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "excerpt": "SMM 7月27日称，主要地区铜阴极社会库存较7月20日增加5,300吨至117,200吨，同比仍低3,100吨。上海国产和进口货源到货增加，广东到货回升；两地终端消费偏弱，推动库存上升。",
+      "interpretation": "库存周增同时反映到货增加和下游消化放慢，短期铜现货需求端出现边际走弱；同比库存仍低于去年，不能把本周累库直接解读为供给过剩。",
+      "importance": "这是报告日可量化的中国现货需求/库存信号，为智利供给扰动提供需求侧对照，且明确区分周环比实际库存与同比口径。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "The Jakarta Post / Amman Mineral",
+      "title": "Amman完成西松巴哇铜冶炼厂建设，设计年处理铜精矿90万吨",
+      "url": "https://www.thejakartapost.com/business/2026/07/27/amman-seals-completion-of-west-sumbawa-copper-smelter",
+      "publish_time": "2026-07-27",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "《雅加达邮报》7月27日报道，Amman在西松巴哇的铜冶炼厂完成建设并通过合同性能保证测试；该设施设计年处理来自Batu Hijau、后续包括Elang矿山的铜精矿最多90万吨。Completion and Project Acceptance Certificate于7月18日在北京签署。",
+      "interpretation": "项目完成增加的是印尼铜精矿本地加工和下游阴极铜转换能力，不等于矿山铜产量立即增加；其意义在于为Batu Hijau及未来Elang的精矿提供长期冶炼出口，降低对外运精矿的依赖。",
+      "importance": "在铜精矿现货紧张、冶炼加工费承压的背景下，新增大规模冶炼设施的完成是中长期区域加工供给变化，但启动节奏和实际产量仍需后续公司数据确认。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "MINING.com",
+      "title": "魁北克将Troilus金铜项目纳入加速许可通道，预计2026年底作出许可决定",
+      "url": "https://www.mining.com/quebec-selects-troilus-for-accelerated-permitting-stream/",
+      "publish_time": "2026-07-27",
+      "metal_tags": ["gold", "copper"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "MINING.com 7月27日报道，魁北克将Troilus金铜项目列为Filon战略矿山快速许可计划首批项目。项目可研潜力为22年矿山寿命、年均黄金产量303,000盎司；环境与社会影响评估仍在省级和联邦层面审查，公司预计2026年底取得许可决定，最早2027年作出建设决策。",
+      "interpretation": "这是潜在黄金及伴生铜供给的许可催化剂，但303,000盎司/年是2024年可研中的潜力口径，不是实际产量或公司当前指引；项目仍受环评、融资和建设决策约束。",
+      "importance": "加速许可缩短了一个大型金铜项目从环评到建设决策的行政路径，提供中长期新增供给线索；其可信度低于已投产矿山，必须跟踪后续许可和最终投资决定。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "强制主路径Playwright抓取https://www.mining.com/commodity/copper/返回HTTP 200并显示7月27日相关MINING.com新闻；同一Python 3.13.12/Chromium会话直接打开本文HTTP 200，核验标题、作者、日期及303,000盎司/年、22年矿山寿命和许可时间表。该文为媒体报道，未把可研潜力改写为实际产量。"
+    },
+    {
+      "source": "MINING.com",
+      "title": "分析：铜供应缺口收窄主要依靠既有矿山扩建，冶炼环节仍是瓶颈",
+      "url": "https://www.mining.com/op-ed-copper-supply-gap-good-news-on-borrowed-time/",
+      "publish_time": "2026-07-27",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "excerpt": "MINING.com专栏援引IEA《Global Critical Minerals Outlook 2026》称，2035年铜供应缺口预测由约30%收窄至约25%，主要来自Kisanfu、Lumwana、Highland Valley和Antamina等既有矿山扩建或寿命延长。文章还称，2026年铜精矿基准加工费已降至零、现货加工费自2024年以来为负，海外冶炼厂开工率低于70%。",
+      "interpretation": "这是一篇结构性分析而非新生产公告：电气化、数据中心等需求增长下，供应缺口的改善更多依赖既有资产，而铜精矿短缺同时挤压冶炼环节；文中数字应视为作者对IEA及行业数据的转述，不等同于当日现货统计。",
+      "importance": "为当日智利矿山扰动和中国库存累库提供结构背景：矿山扩建能改善长期供给，但冶炼产能利用率和负加工费显示精矿供给约束仍可能向中游传导。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "强制主路径Playwright抓取https://www.mining.com/commodity/copper/返回HTTP 200并显示7月27日铜分类文章；同一Python 3.13.12/Chromium会话直接打开本文HTTP 200，核验标题、作者、日期和正文口径。该来源为MINING.com观点文章，内容包含对IEA的转述，已在excerpt和interpretation中标明分析属性。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Northern Miner播客/视频页面：https://www.northernminer.com/company/podcast/；7月25—27日窗口内无新的可打开合格金银铜供需访谈。",
+      "Mining Stock Daily episodes：https://www.miningstockdaily.com/episodes；页面最新相关内容早于7月25日，窗口内无新的合格访谈。",
+      "Sprott Insights/webcast：https://sprott.com/insights/；7月25—27日未发现新的可核验供需访谈。",
+      "Resource Talks：https://clearcommodity.net/playlists/resource-talks；最新相关访谈早于窗口，未纳入。",
+      "YouTube、Spotify、Apple Podcasts按7月25—27日及gold/silver/copper/mining组合检索；未发现能打开并核对日期、主体和供需事实的新访谈。",
+      "MINING.com视频：https://www.mining.com/video/；窗口内可见内容主要为价格评论或更早视频，不满足供需访谈标准。"
+    ],
+    "part1_result": "完成72小时访谈窗口检索；未发现包含可归因金、银或铜产量、品位、许可、停复产、库存或工业需求事实的合格新访谈，0条入选。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "使用目标日期已有原始材料x_outputs/2026-07-27_x_raw_materials.txt；按不覆盖历史/既有原始文件规则未重新写入。",
+      "指定Python 3.13.12 Playwright登录检查通过，持久化会话首页导航可用；全量采集器可运行。",
+      "直接打开并核验https://x.com/KatusaResearch/status/2081462304596492685：HTTP 200，作者Katusa Research，UTC 2026-07-26T19:30:59Z，北京时间2026-07-27T03:30:59+08:00；正文为黄金与美债利率/价格机会成本讨论。",
+      "直接打开并核验https://x.com/KatusaResearch/status/2081462028544131193：HTTP 200，作者Katusa Research，UTC 2026-07-26T19:29:53Z，北京时间2026-07-27T03:29:53+08:00；正文为黄金与利率/债券配置讨论。"
+    ],
+    "part2_result": "原始文件含2条可打开原帖，均已核验作者、handle、正文、URL和北京时间；两条都是价格/利率宏观观点，没有矿山、冶炼、库存、消费量或项目供需变化，因此按规范0条入选。",
+    "part3_sources_checked": [
+      "【强制主路径】使用指定Python 3.13.12、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox、Chrome 131 Windows UA、1920x1080、en-US及navigator.webdriver反检测抓取https://www.mining.com/commodity/copper/；HTTP 200，页面标题为Copper Archives - MINING.COM，DOM主铜分类区显示7月27日文章2篇：Stormlands Odienné和铜供应缺口专栏。",
+      "mining.com 7月27日候选：Stormlands Odienné文章HTTP 200，正文为AI模型、NPV和金价更新，属于项目估值/价格口径而非可归因的新增供需，排除；铜供应缺口专栏HTTP 200，纳入为结构性供需分析。",
+      "mining.com直接候选https://www.mining.com/quebec-selects-troilus-for-accelerated-permitting-stream/：同一Playwright会话HTTP 200，核验7月27日标题、魁北克Filon快速许可、303,000盎司/年可研潜力和许可时间表，纳入。",
+      "mining.com页面的Lundin Caserones 7月27日摘要与官方全文交叉核验；官方页面https://www.lundinmining.com/news/lundin-mining-provides-further-update-on-chile-operations-following-severe-winter-storm确认7月18日断电、两座输电塔损坏、2—3周复产预期和Candelaria恢复满负荷，纳入官方来源。",
+      "SMM英文公开正文https://news.metal.com/newscontent/104026377-copper-inventories-in-china-rise-5300-mt-wow-total-at-117200-mt-as-of-july-27-2026：HTTP 200，核验7月27日13:19、周增5,300吨、总库存117,200吨、同比低3,100吨和下游消费偏弱，纳入。",
+      "The Jakarta Post https://www.thejakartapost.com/business/2026/07/27/amman-seals-completion-of-west-sumbawa-copper-smelter：Playwright HTTP 200，核验7月27日、PAC日期7月18日、性能保证测试和年处理铜精矿90万吨；WebFetch为403，使用同一Playwright正文核验。",
+      "Google备用路径实际执行site:mining.com copper July 27 2026、site:mining.com gold July 27 2026、site:mining.com silver July 27 2026；Google返回unusual traffic/anti-bot sorry页面，无法取得可靠命中数，未把搜索页作为证据；web搜索仅用于候选发现。",
+      "中文来源检索SMM、新华财经、东方财富和腾讯财经；除SMM公开库存正文外，未发现日期、主体和核心数字均能直接核验且优于已选来源的新增事件。",
+      "Nornickel 1H2026生产结果候选已发现，但官方投资者页面仅核验7月27日事件日历，公开转载正文由Cloudflare 403拦截，缺少可直接打开的完整铜金银数值，未纳入。"
+    ],
+    "part3_result": "完成英文、中文和mining.com强制路径检索；5条新闻通过可访问页面核验并入选，其中铜4条、金铜项目1条；白银无合格新增新闻。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 9,
+      "passed": 9,
+      "failed": 0,
+      "failures": [],
+      "notes": "2条X原帖、5条入选新闻和2个mining.com候选页面均由可访问页面直接核验标题、主体、日期与核心事实；The Jakarta Post的WebFetch返回403但Playwright返回200并显示所需正文。Google备用搜索被反爬页面拦截，未将其计作来源证据。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Northern Miner、Mining Stock Daily、Sprott/Resource Talks在此前两日报及当前72小时窗口内无新的合格访谈，未重复纳入。"
+    ],
+    "part3_deduped_events": [
+      "Lundin Caserones停电：7月18日停产背景已在前日报提及，本日公告新增两座输电塔损坏和2—3周复产时间表，作为更新信号保留。",
+      "Stormlands Odienné：正文核心为AI估值模型、NPV和更新金价，属于项目估值/价格口径，不作为实体供需信号。",
+      "Barrick智利暴雨撤离：mining.com正文未给出生产受影响、产量或供需变化数字，排除。",
+      "Zodiac和Jaguar 7月27日钻探/勘探公告：属于早期勘探或资源增长，未给出当前可归因的金银供给变化，排除。",
+      "Nornickel 1H2026生产结果：公开转载页面被Cloudflare拦截，缺少完整可核验数值，保留为排除项，不以搜索摘要替代正文。",
+      "金银价格、利率、NPV和泛宏观评论：无可追溯的实体供需传导或新增数量，排除。"
+    ]
+  }
+}
