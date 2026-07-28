@@ -1,0 +1,86 @@
+X 原始候选 — 2026-07-28
+采集时间: 2026-07-29T07:05:28.298554+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 9 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-07-27T16:48:48+00:00
+    北京: 2026-07-28T00:48:48+08:00
+    文本: #China #Gold
+    链接: https://x.com/silverguru22/status/2081783877644034284
+
+[2] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-07-28T07:13:46+00:00
+    北京: 2026-07-28T15:13:46+08:00
+    文本: 来自基茨比厄尔的 @Rohstoffinsider 新采访 
+
+为什么我们在矿业投资上与众不同：大多数矿业基金像踢足球时派5名前锋却没有守门员。结果：回撤高达60–80%。我们希望既能进攻又能防守。
+
+我的观点：现在收集优质资产，但大型动量交易还需等待……
+
+感谢 
+@studentofcycles
+ 和 Björn 的邀请！
+
+
+    链接: https://x.com/RonStoeferle/status/2082001551460335671
+
+[3] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-27T21:55:49+00:00
+    北京: 2026-07-28T05:55:49+08:00
+    文本: New Interview 
+
+The Gold Reset Already Happened and Almost Nobody Noticed
+    链接: https://x.com/wmiddelkoop/status/2081861141790093781
+
+[4] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-07-28T12:55:09+00:00
+    北京: 2026-07-28T20:55:09+08:00
+    文本: All true and those companies who are are taking the bait and making bank now are going to be hurting when refill times come. Good oil analyst friend says $100 is now base and $200 is in sight. Can you say $9 gas?  Got gold?
+    链接: https://x.com/LawrenceLepard/status/2082087465733534155
+
+[5] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-07-28T01:11:02+00:00
+    北京: 2026-07-28T09:11:02+08:00
+    文本: Nope. Cost is irrelevant. It is becoming the global reserve asset and that implies multiples of today’s price.  See my quarterly report. If we go to a gold as the rear asset it is multiples of today’s price
+    链接: https://x.com/LawrenceLepard/status/2081910266611003698
+
+[6] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-28T15:50:44+00:00
+    北京: 2026-07-28T23:50:44+08:00
+    文本: Storm Exploration ($STRM) has closed an oversubscribed $2.95M private placement, including $1.54M in charity flow-through financing raised at a 45% premium.
+
+The proceeds will help fund drilling at the Gold Standard Project, where Storm is advancing a compelling 5km-long VMS
+    链接: https://x.com/soarfinancial/status/2082131652944495000
+
+[7] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-27T16:20:38+00:00
+    北京: 2026-07-28T00:20:38+08:00
+    文本: Troilus ($TLG) has been selected as one of the first projects to receive specialized support through Québec's new Filon initiative.
+
+The program is designed to improve coordination between government agencies and help advance strategic mining projects through the provincial
+    链接: https://x.com/soarfinancial/status/2081776788754338068
+
+[8] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-07-28T14:47:54+00:00
+    北京: 2026-07-28T22:47:54+08:00
+    文本: We're building the future of mining with cleaner energy.
+Kamoa-Kakula is constructing Africa's largest hybrid solar and battery energy storage facility.  
+Learn more 
+    链接: https://x.com/IvanhoeMines_/status/2082115839353069717
+
+[9] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-07-27T16:56:40+00:00
+    北京: 2026-07-28T00:56:40+08:00
+    文本: Explore our Progress Gallery to see the latest advancements at the Kamoa-Kakula Copper Complex, the Kipushi zinc-copper-silver-germanium mine, the Platreef platinum-palladium-nickel-rhodium-copper-gold mine, and the Western Forelands exploration project.
+
+https://
+tinyurl.com/msu25kp6
+    链接: https://x.com/IvanhoeMines_/status/2081785857091293476
+
