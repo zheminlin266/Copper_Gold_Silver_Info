@@ -1,0 +1,167 @@
+X 原始候选 — 2026-07-29
+采集时间: 2026-07-30T07:08:51.322860+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 17 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-07-29T14:35:03+00:00
+    北京: 2026-07-29T22:35:03+08:00
+    文本: one must drill the good ones...
+    链接: https://x.com/RealRickRule/status/2082474991480975719
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-07-29T14:11:51+00:00
+    北京: 2026-07-29T22:11:51+08:00
+    文本: The mining industry thrives on dumb money. There is NO money as dumb as government money
+    链接: https://x.com/RealRickRule/status/2082469153756283213
+
+[3] @RealRickRule (Rick Rule)
+    UTC: 2026-07-29T14:04:03+00:00
+    北京: 2026-07-29T22:04:03+08:00
+    文本: Gold Won't Save You in the Crash. This Will. 
+https://
+youtu.be/Y3ophZs1jYk?si
+=M44ck1z2vHFTLq9q
+… via 
+@YouTube
+ 7-24-2026, An interview at the Rule Natural Resources Investment Symposium
+    链接: https://x.com/RealRickRule/status/2082467191098917303
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-28T19:42:45+00:00
+    北京: 2026-07-29T03:42:45+08:00
+    文本: Pacifica Silver 
+@Pacifica_Silver
+  has discovered a new high-grade shoot at Claudia—with the strongest gold and silver grades drilled at the project to date.
+
+Wide, high-grade and relatively shallow. The shoot remains open, half the mapped Aguilareña strike is still untested, and
+    链接: https://x.com/peter_krauth/status/2082190042152476718
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-28T19:02:23+00:00
+    北京: 2026-07-29T03:02:23+08:00
+    文本: “Cash flow today, discovery tomorrow.”
+
+
+@ESGold_Corp
+ can now advance both.
+
+Its Montauban drill authorization clears the way to test the historical crown pillar and targets identified through ANT data and 3D modelling—while its permitted tailings operation moves toward
+    链接: https://x.com/peter_krauth/status/2082179882575085622
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-28T18:00:42+00:00
+    北京: 2026-07-29T02:00:42+08:00
+    文本: There's much less data, but the pattern holds for copper and uranium.
+    链接: https://x.com/duediligenceguy/status/2082164360193999301
+
+[7] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-28T23:52:06+00:00
+    北京: 2026-07-29T07:52:06+08:00
+    文本: 5) Summary
+
+There are three primary drivers behind the secular bull market in Gold, and they reinforce one another.
+
+These are the secular bear markets in Stocks and Bonds, the US’ deteriorating fiscal condition, and rising Central Bank demand for Gold.
+
+The secular bear market
+    链接: https://x.com/TheDailyGold/status/2082252790559031601
+
+[8] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-28T23:50:08+00:00
+    北京: 2026-07-29T07:50:08+08:00
+    文本: 4) Central Bank Buying to Increase Reserves
+
+Central Banks see the big picture: US Debt, a secular bear market in Bonds, and a shift toward a multi-polar world.
+
+They see the risks ahead and are increasing their reserves.
+
+From 1960 to 1990, Gold made up 40% to 65% of reserves.
+    链接: https://x.com/TheDailyGold/status/2082252298118439076
+
+[9] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-28T23:46:06+00:00
+    北京: 2026-07-29T07:46:06+08:00
+    文本: 2) Secular Bear Market in Bonds as 1b
+
+The secular bear market in Bonds began after Covid and is already taking shape, much like it did in the 1960s.
+
+Secular bond bears initially drive capital into equities, but also into Gold and other hard assets.
+
+Over time, however, a
+    链接: https://x.com/TheDailyGold/status/2082251282140541420
+
+[10] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-28T23:44:08+00:00
+    北京: 2026-07-29T07:44:08+08:00
+    文本: 1) Coming Secular Bear Market in Stocks
+
+This is the most reliable pillar and it hasn’t even begun to form.
+
+Secular trends in stocks and Gold (hard assets) can overlap near major turning points, as seen in the late 1940s, mid-to-late 1960s (gold stocks), and even today.
+
+But
+    链接: https://x.com/TheDailyGold/status/2082250785606209731
+
+[11] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-28T23:42:57+00:00
+    北京: 2026-07-29T07:42:57+08:00
+    文本: Tuesday 
+
+Time for a big picture thread.
+
+Gold has corrected sharply following its best 2-year run in decades.
+
+To understand where we are and what comes next, you need to focus on the primary drivers.
+
+In this thread, I break down the three pillars of Gold’s secular bull
+    链接: https://x.com/TheDailyGold/status/2082250487869436168
+
+[12] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-07-28T22:00:22+00:00
+    北京: 2026-07-29T06:00:22+08:00
+    文本: Bob, use gold stocks as a proxy for Gold pre 1971 and you can see this in the 1960s too.
+    链接: https://x.com/TheDailyGold/status/2082224671253045328
+
+[13] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-07-29T12:26:25+00:00
+    北京: 2026-07-29T20:26:25+08:00
+    文本: Quick thoughts on #GOLD 
+
+Gold ignores the hawkish trifecta: higher oil, higher yields, stronger USD and still defends $4,000 like it's the Alamo.
+
+Nominal & real yields made higher highs last week. Gold, silver & miners didn't make new lows. Positive divergence...don't pop the
+    链接: https://x.com/RonStoeferle/status/2082442619708121590
+
+[14] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-29T15:53:00+00:00
+    北京: 2026-07-29T23:53:00+08:00
+    文本: Central Banks' Gold Reserves  (1950-2025)
+    链接: https://x.com/wmiddelkoop/status/2082494609729441987
+
+[15] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-29T15:49:29+00:00
+    北京: 2026-07-29T23:49:29+08:00
+    文本: BMO on Gold: China is Buying The Dip
+    链接: https://x.com/wmiddelkoop/status/2082493722818752802
+
+[16] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-28T19:24:12+00:00
+    北京: 2026-07-29T03:24:12+08:00
+    文本: 90k views within a day
+
+The Gold Reset Already Happened and Almost Nobody Noticed
+    链接: https://x.com/wmiddelkoop/status/2082185372654592085
+
+[17] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-07-28T22:30:46+00:00
+    北京: 2026-07-29T06:30:46+08:00
+    文本: Nope. Bitcoin is digital gold and as money gets increasingly debased it will soar.  It has many properties that make it better than gold which has a $30T market cap against Bitcoin at $1.2T. It and gold are the only forms of money that cannot be printed.  You should read my book
+    链接: https://x.com/LawrenceLepard/status/2082232324838576177
+

@@ -1,0 +1,149 @@
+{
+  "date": "2026-07-29",
+  "report_time": "2026-07-30T07:20:06+08:00",
+  "summary": "铜：Hudbay二季度产量和扩产管线、Glencore上半年产量同比增加，供给改善；黄金：香港进口创近年高位且Allied获资金推进非洲项目，实物流动和中期供给管线偏强；白银：Hermosa获最终联邦许可，长期银锌供给项目继续推进。",
+  "windows": {
+    "part1": {"start": "2026-07-27T00:00:00+08:00", "end": "2026-07-29T23:59:59+08:00"},
+    "part2": {"start": "2026-07-29T00:00:00+08:00", "end": "2026-07-29T23:59:59+08:00"},
+    "part3": {"start": "2026-07-29T00:00:00+08:00", "end": "2026-07-29T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [
+    {
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-07-29T03:42:45+08:00",
+      "metal_tags": ["silver", "gold"],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "Pacifica Silver在Claudia发现新的高品位矿化带，作者称其为项目迄今最强的金银钻探结果，矿化带仍开放，项目有三台钻机作业。",
+      "interpretation": "这是分析师对Pacifica Silver公司公告的转述，提供了新的金银勘探供给线索，但不是公司一手帖；公司公告中的钻孔品位和进度通过Newsfile交叉核验。",
+      "importance": "可核验的原作者X帖子，包含新矿化带、开放性和钻机数量等供给相关事实；不将勘探结果等同于已确认资源或未来产量。",
+      "url": "https://x.com/peter_krauth/status/2082190042152476718",
+      "source_channel": "browser_use"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "Hudbay Minerals / GlobeNewswire",
+      "title": "Hudbay二季度铜产量28,267吨，金产量51,234盎司并改善全年现金成本指引",
+      "url": "https://www.globenewswire.com/news-release/2026/07/29/3335017/0/en/Hudbay-Delivers-Strong-Second-Quarter-2026-Results-and-Improves-Cash-Cost-Guidance.html",
+      "publish_time": "2026-07-29T18:00:00+08:00",
+      "metal_tags": ["copper", "gold", "silver"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Hudbay披露2026年第二季度铜产量28,267吨、黄金51,234盎司、白银845,161盎司；全年铜产量指引为110,000—138,000吨。Copper World项目预计2026年末完成批准，Constancia磨机产能获批由3,100万吨/年增至3,400万吨/年。",
+      "interpretation": "二季度铜为实际产量，全年区间为公司指引，不能混同为已实现产量；项目批准和磨机扩容构成中期铜供给管线，港口临时关闭造成的约10,000干吨铜精矿延迟已在7月初交付。",
+      "importance": "同日一手公司业绩和运营更新，兼具实际产量、全年口径和扩产节点。",
+      "language": "en",
+      "duplicate_of": null
+    },
+    {
+      "source": "MINING.com / Reuters",
+      "title": "Glencore上半年铜产量同比增15%至397,000吨",
+      "url": "https://www.mining.com/web/glencores-copper-output-up-15-sees-strong-3-3b-marketing-ebit/",
+      "publish_time": "2026-07-29T14:51:00+08:00",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Glencore称2026年前六个月铜产量为397,000公吨，高于2025年同期343,900吨；全年产量指引维持810,000—870,000吨。",
+      "interpretation": "397,000吨是上半年实际产量，增长主要来自非洲和秘鲁Antamina矿山品位改善；全年区间仍是公司指引。来源为Reuters报道，正文通过同一Playwright会话直接核验。",
+      "importance": "大型矿商实际半年度铜供给同比增加，并维持全年产量区间。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "强制主路径使用Python 3.13.12、Chromium headless和反检测参数抓取https://www.mining.com/commodity/copper/，HTTP 200并发现本篇2026-07-29文章；同一Playwright会话直接打开本文HTTP 200，核验Reuters署名、日期、397,000吨、343,900吨和全年指引。WebFetch普通打开不作为正文证据。"
+    },
+    {
+      "source": "MINING.com / Bloomberg News",
+      "title": "香港六月黄金流入超过130吨，创近年高位",
+      "url": "https://www.mining.com/web/gold-flows-to-hong-kong-hit-decade-high-before-clearing-launch/",
+      "publish_time": "2026-07-29T15:01:00+08:00",
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "excerpt": "香港海关数据显示，6月黄金流入超过130吨，进口量达到2014年末以来高位；香港新清算机制试运行前，银行增加大金条库存，内地需求也支撑流量。",
+      "interpretation": "超过130吨是香港海关口径的流入量，不等同于香港最终消费；香港是黄金加工、交易和再出口的重要中转地，清算机制备货与中国内地实物需求共同解释流量增加。",
+      "importance": "给出明确吨位和实物流动路径，属于黄金需求与区域库存变化，而非价格复述。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "强制金属分类页使用Playwright HTTP 200发现本篇2026-07-29候选；同一会话直接打开文章HTTP 200，核验Bloomberg署名、日期、超过130吨及清算机制/内地需求正文。"
+    },
+    {
+      "source": "MINING.com",
+      "title": "Zijin收购Allied Gold失败但取得9.2%股权，约2.95亿美元资金支持项目扩产",
+      "url": "https://www.mining.com/zijins-4b-allied-gold-takeover-collapses-but-it-still-buys-in/",
+      "publish_time": "2026-07-29T15:08:00+08:00",
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "因中国监管审批未能在期限前完成，Zijin与Allied Gold终止40亿美元收购；Zijin改为认购约1,280万股新股，金额约2.95亿美元，Allied计划用于完成并提升埃塞俄比亚Kurmuk、扩建马里Sadiola及提高科特迪瓦产量。",
+      "interpretation": "收购失败本身是公司控制权事件，但新增资金直接对应Kurmuk投产、Sadiola扩产和科特迪瓦运营；Allied现有矿山年产约375,000盎司黄金，Kurmuk尚处投产准备阶段，属于中期供给管线而非当日新增产量。",
+      "importance": "资金安排和项目用途均有明确供给传导路径，避免将交易价格或股价波动作为信号。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "强制金分类页使用Playwright HTTP 200发现本篇2026-07-29候选；同一会话直接打开文章HTTP 200，核验作者、日期、9.2%股权、约2.95亿美元资金、约375,000盎司年产和项目用途。Allied官方既有公告用于核对交易背景，但本期完整数字正文来自该文章。"
+    },
+    {
+      "source": "MINING.com / The Northern Miner Podcast",
+      "title": "South32 Hermosa项目完成美国FAST-41最终联邦许可，目标2028年初投产",
+      "url": "https://www.mining.com/south32-breaks-decade-long-us-permit-curse-at-arizona-project/",
+      "publish_time": "2026-07-29T15:46:00+08:00",
+      "metal_tags": ["silver"],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "South32位于亚利桑那的Hermosa银锌项目取得最终联邦批准，覆盖输电线、道路、尾矿库和排水设施；地下采矿计划于2027年末启动，首产目标为2028年初。",
+      "interpretation": "这是许可和建设进度信号，不是已实现产量；Hermosa包含银、锌、铅及铜等矿化/项目组成，因本条对日报供给最重要的明确主矿种为银，其他未充分量化的金属不额外加标签。",
+      "importance": "最终联邦批准降低关键基础设施许可风险，并给出地下采矿和首产时间窗口。",
+      "language": "en",
+      "duplicate_of": null,
+      "mining_com_source_note": "强制银分类页使用Playwright HTTP 200发现本篇2026-07-29候选；同一会话直接打开文章HTTP 200，核验日期、最终联邦批准、项目组成和2028年初首产目标。South32官方材料交叉核验Hermosa为银锌项目及FAST-41背景。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Resource Talks / Clear Commodity Network播放列表：https://clearcommodity.net/playlists/resource-talks；按2026-07-27至2026-07-29筛选，搜索命中Nevada King Gold CEO Interview标题，但页面未能直接打开对应窗口内完整访谈正文或字幕，排除。",
+      "Clear Commodity Network Gold评论页：https://clearcommodity.net/commentary/gold；打开核验到2026-07-27标题/元数据，但没有可直接核验的访谈正文或供需数字，排除。",
+      "CEO.ca Nevada King页面：https://pro.ceo.ca/Nkg；核验到YouTube视频链接https://youtu.be/FBHwcyBLF1Q，但本次无法直接打开视频并取得实际听取/字幕证据，排除。",
+      "Korelin Economics Report、Mining Stock Daily、Sprott Insights、YouTube、Spotify和Apple Podcasts按窗口及gold/silver/copper关键词检索；未找到同时具备窗口内发布日期、可打开正文/字幕和可追溯供需事实的合格访谈。"
+    ],
+    "part1_result": "完成72小时访谈窗口检索；1个标题候选缺少可直接核验的访谈正文或字幕，未收录。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "scripts/x_search.py使用指定Python 3.13.12、持久化Chromium会话和--headless检索2026-07-29，扫描34个研究账户和18个官方账户，保存17条原始候选到x_outputs/2026-07-29_x_raw_materials.txt。",
+      "直接打开并核验https://x.com/peter_krauth/status/2082190042152476718：HTTP 200，作者、handle、北京时间2026-07-29 03:42:45、正文和原帖URL一致；Pacifica Silver公告https://www.newsfilecorp.com/release/306813/用于交叉核验公司事实。",
+      "其余候选逐条尝试直接打开；宏观/价格、宣传、无法匹配原作者或无供需事实的帖子排除。"
+    ],
+    "part2_result": "X登录会话有效，17条候选中1条原作者帖子直接核验并收录，16条按供需筛选或原帖核验规则排除。",
+    "part3_sources_checked": [
+      "强制主路径：使用指定Python 3.13.12、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox、Chrome 131 Windows UA、1920x1080、en-US和反检测脚本抓取https://www.mining.com/commodity/copper/，HTTP 200；DOM识别2篇2026-07-29铜候选：First Quantum和Glencore。",
+      "强制金属分类页：Playwright HTTP 200；2026-07-29核心金候选2篇：香港黄金流入、Zijin/Allied，另有纯价格文章排除。",
+      "强制银分类页：Playwright HTTP 200；2026-07-29核心银候选1篇：South32 Hermosa，另有共享交易/价格候选按主金属或供需规则排除。",
+      "mining.com入选文章均用同一Playwright会话直接打开，HTTP 200，核验标题、作者/主体、日期和核心数字；未使用sitemap、Wayback Machine或RSS。",
+      "Google备用site搜索：site:mining.com copper July 29 2026、site:mining.com gold July 29 2026、site:mining.com silver July 29 2026均已执行；结果含旧页、重复页或价格评论，未用搜索摘要单独作证据。",
+      "Hudbay一手业绩公告：https://www.globenewswire.com/news-release/2026/07/29/3335017/0/en/Hudbay-Delivers-Strong-Second-Quarter-2026-Results-and-Improves-Cash-Cost-Guidance.html，打开核验发布时间、Q2产量、全年指引、扩产节点和港口延迟信息。",
+      "South32官方材料用于交叉核验Hermosa银锌项目及FAST-41背景；Glencore官方2026半年度结果页用于核验报告发布日期安排；Allied官方既有公告用于核对交易背景。"
+    ],
+    "part3_result": "完成2026-07-29铜、金、银新闻检索；5条新闻入选，First Quantum候选因与2026-07-28 Cobre Panamá库存处理事件重复而排除，价格/宏观和无实质供需传导候选排除。",
+    "url_verification": {
+      "checked_count": 7,
+      "passed_count": 7,
+      "failed_count": 0,
+      "failed_items": [],
+      "notes": "入选X、新闻及必要交叉核验来源均使用具体帖子、文章或公告URL并实际打开；5篇mining.com文章通过隔离Playwright HTTP 200核验完整正文。Part1标题候选因无法取得完整访谈证据未入选，未计入入选URL统计。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/commentary/gold 和 https://pro.ceo.ca/Nkg：同一Nevada King Gold访谈的评论/元数据入口，因缺少可直接核验的访谈正文或字幕，不重复收录。"
+    ],
+    "part3_deduped_events": [
+      "https://www.mining.com/first-quantum-adds-1000-jobs-as-cobre-panama-restart-nears/：与2026-07-28 First Quantum官方Q2公告的Cobre Panamá库存处理、首批铜精矿和2026年库存处理指引属于同一重启事件，保留前一日报一手来源，排除本篇延续报道。",
+      "mining.com 2026-07-29金价/银价和美联储评论：纯价格或宏观内容，没有独立可追溯的实物供需传导，排除。",
+      "mining.com共享Zijin/Allied文章仅按黄金主金属完整展示一次；同一事件未在铜或白银板块重复展示。",
+      "X Pacifica Silver帖子与本日报新闻不重复：X作为窗口内原作者帖收录，2026-07-28 Newsfile公司公告仅作交叉核验，未另建Part3新闻卡片。"
+    ]
+  }
+}
