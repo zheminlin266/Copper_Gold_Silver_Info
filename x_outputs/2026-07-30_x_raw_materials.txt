@@ -1,0 +1,155 @@
+X 原始候选 — 2026-07-30
+采集时间: 2026-07-31T07:06:28.600008+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 14 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-29T19:18:49+00:00
+    北京: 2026-07-30T03:18:49+08:00
+    文本: AbraSilver’s 
+@AbraSilver
+  C$45M raise grew to C$50M on strong demand, while Kinross intends to maintain its stake.
+
+The funds will advance early works and long-lead equipment at Diablillos.
+
+This looks like a company preparing to build.
+
+
+@TedJButler
+'s  take:
+    链接: https://x.com/peter_krauth/status/2082546406582366276
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-07-29T19:15:45+00:00
+    北京: 2026-07-30T03:15:45+08:00
+    文本: 935 g/t silver at surface.
+
+
+@BPSilverCorp
+ returned mineralization in 85% of samples across 2.1 km of strike at Jalsuri—with gold, zinc and lead credits. Now a second rig is moving in.
+
+Ted explains why the drill bit could be the catalyst:
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/bp-silver-abrasilver/
+…
+    链接: https://x.com/peter_krauth/status/2082545631592431949
+
+[3] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-07-30T00:46:06+00:00
+    北京: 2026-07-30T08:46:06+08:00
+    文本: Lobo Tiggre: 'When I Reload, I Plan To Go Big On Silver' 
+https://
+youtu.be/u2s579P76Nk?si
+=fdggXMyviWkdRDhX
+… via 
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2082628770486198650
+
+[4] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-07-30T00:03:41+00:00
+    北京: 2026-07-30T08:03:41+08:00
+    文本: Lobo Tiggre: 'When I Reload, I Plan To Go Big On Silver' 
+https://
+youtu.be/u2s579P76Nk?si
+=aRc3GxN_PjsibPG5
+… via 
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2082618092446687680
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-07-29T23:36:26+00:00
+    北京: 2026-07-30T07:36:26+08:00
+    文本: What's next for the #SILVER price?
+
+Lobo Tiggre explains...
+
+
+https://
+youtu.be/u2s579P76Nk?si
+=5XdVMUoA3cym-351
+… via 
+@duediligenceguy
+    链接: https://x.com/ArcadiaEconomic/status/2082611237368566136
+
+[6] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-07-29T23:33:51+00:00
+    北京: 2026-07-30T07:33:51+08:00
+    文本: Trump this, gold that.......
+
+Time for a break for some tunes!
+
+
+https://
+youtu.be/qMwDEUagepg?si
+=umvf70pV9uo8RfOq
+… via 
+@ArcadiaJamband
+    链接: https://x.com/ArcadiaEconomic/status/2082610584378315135
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-30T13:02:55+00:00
+    北京: 2026-07-30T21:02:55+08:00
+    文本: Heh.
+
+I've seen people who learned to speculate on cryptos turn to metals and mining stocks before, so I'm not surprised to see this...
+    链接: https://x.com/duediligenceguy/status/2082814196782076021
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-07-29T19:35:38+00:00
+    北京: 2026-07-30T03:35:38+08:00
+    文本: Stock investors not liking what Warsh had to say... but gold bulls seem pleased.
+
+(My full take in this weekend's free edition of The Digest.)
+    链接: https://x.com/duediligenceguy/status/2082550637095473659
+
+[9] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-07-29T21:14:04+00:00
+    北京: 2026-07-30T05:14:04+08:00
+    文本: Well yeah, there's that as well.  But guns and butter meant the dollar had to be devalued, and he had to stop the gold from flowing out of Ft. Knox.
+
+He really didn't understand anything beyond that. And of course, telling the truth wasn't his strong point.
+    链接: https://x.com/Brien_Lundin/status/2082575409149780239
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-30T13:56:17+00:00
+    北京: 2026-07-30T21:56:17+08:00
+    文本: George Ogilvie, incoming President and Chief Executive Officer, commented: "The Hercules assets in Idaho have the potential to be an exceptionally large copper porphyry system in the United States that offers size and scale on a regional level. Our team is delighted and grateful
+    链接: https://x.com/wmiddelkoop/status/2082827624976449649
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-30T05:51:35+00:00
+    北京: 2026-07-30T13:51:35+08:00
+    文本: China is all over gold, according to a recent BMO-report. Our latest commentary for Dubai based Asharq/Bloomberg TV ..
+    链接: https://x.com/wmiddelkoop/status/2082705647846523112
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-29T16:03:43+00:00
+    北京: 2026-07-30T00:03:43+08:00
+    文本: However, breaking news:  Zijin and Allied terminate take out
+
+Allied Gold has said that its US$5.5 billion acquisition by   Zijin Gold was terminated on the grounds that both companies concluded there   is no reasonable likelihood that the conditions for its completion will be
+    链接: https://x.com/wmiddelkoop/status/2082497307485061275
+
+[13] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-07-29T16:02:01+00:00
+    北京: 2026-07-30T00:02:01+08:00
+    文本: China invested $18 billion in gold mining deals since 2004
+    链接: https://x.com/wmiddelkoop/status/2082496878202020109
+
+[14] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-07-30T15:33:09+00:00
+    北京: 2026-07-30T23:33:09+08:00
+    文本: Pan Global Reports Outstanding Near-Surface Gold Results
+
+Tim Moody joins us to discuss Pan Global's latest discovery at Providencia, including 80m grading 2.36 g/t gold, expanding high-grade copper, nickel and cobalt mineralization, and what's next as drilling shifts beneath the
+    链接: https://x.com/soarfinancial/status/2082852003030704395
+
