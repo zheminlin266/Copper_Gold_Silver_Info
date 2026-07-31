@@ -1,0 +1,5 @@
+X 原始候选 — 2026-07-31
+采集时间: 2026-08-01T07:08:00+08:00
+采集方法: scripts/x_search.py + 指定 Python 3.13.12 路径 + 项目持久化 Chrome 会话
+状态: failed
+原因: 指定解释器 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe 实际为 Python 3.13.14，但未安装 playwright；--check-login 和 2026-07-31 检索均在导入阶段以 ModuleNotFoundError: No module named 'playwright' 失败。未收录 X 搜索摘要、截图转述或不可打开帖子。

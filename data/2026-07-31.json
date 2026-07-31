@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-31",
+  "report_time": "2026-08-01T07:13:10+08:00",
+  "summary": "铜：智利6月铜产量同比回升至447,294吨，但Capstone二季度产量同比下降，新增产能主要在下半年及2028年兑现，供给修复仍不均衡；金：Eldorado维持运营指引并推进Skouries、McIlvenna Bay，增量集中在下半年及中期；银：无独立合格新增信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-29T00:00:00+08:00",
+      "end": "2026-07-31T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-07-31T00:00:00+08:00",
+      "end": "2026-07-31T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-07-31T00:00:00+08:00",
+      "end": "2026-07-31T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Eldorado Gold Q2 2026业绩电话会与增长项目更新",
+      "url": "https://www.eldoradogold.com/sites/eldorado-gold/files/2026-07/q2-2026-earnings-call-presentation.pdf",
+      "publish_date": "2026-07-31",
+      "source_type": "webcast",
+      "guest": "George Burns、Eldorado Gold管理层",
+      "metal_tags": ["copper", "gold", "silver"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "公司披露二季度黄金产量104,616盎司；运营矿山2026年产量指引仍为430,000–490,000盎司。Skouries预计2026年三季度产出首批铜金精矿、四季度商业生产；McIlvenna Bay已于6月7日产出首批铜精矿，商业生产预计三季度。",
+      "importance": "Skouries和McIlvenna Bay在2026年下半年进入首批或商业生产阶段，为铜金供给带来明确的时间锚点；Skouries已完成97%，并已为首批生产堆存约400万吨矿石。McIlvenna Bay首批铜精矿产量为65,398磅，2026年预期产出仅为500万–1,000万磅铜，说明近期增量仍受爬坡约束；Eldorado的430,000–490,000盎司黄金指引属于公司指导，不是新增实际产量。"
+    },
+    {
+      "title": "Capstone Copper Q2 2026业绩电话会：产量、酸耗与扩产",
+      "url": "https://capstonecopper.com/wp-content/uploads/2026/07/Q2-2026-Conference-Call-Slides.pdf",
+      "publish_date": "2026-07-31",
+      "source_type": "webcast",
+      "guest": "John MacKenzie、Capstone Copper管理层",
+      "metal_tags": ["copper", "gold", "silver"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "二季度合并铜产量为51,759吨，低于上年同期57,416吨；上半年产量99,719吨。Mantoverde硫化物产量创纪录达18,190吨，全年铜产量指引维持200,000–230,000吨；MV-O预计每年增加约20,000吨铜和6,000盎司金，黄铁矿改造预计2028年初投产。",
+      "importance": "Capstone二季度铜产量51,759吨、同比低10%，而全年指引仍为200,000–230,000吨，说明上半年缺口需依靠下半年Mantoverde Optimized（MV-O）兑现；公司预计MV-O每年增加约20,000吨铜和6,000盎司金，但这是项目增量估计而非已实现产量。2026年7月批准的黄铁矿改造预计2028年初投产，可减少硫酸采购或暴露约20%并增加约3,500吨阴极铜，供给改善的时间更偏中期。"
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "title": "智利6月铜产量同比增长5.1%，从5月下滑中反弹",
+      "source": "Trading Economics（数据源：智利国家统计局 INE）",
+      "publish_time": "2026-07-31",
+      "language": "en",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "智利6月铜产量为447,294公吨，同比增长5.1%；5月同比下降12.9%。页面注明数据源为智利国家统计局（INE）。",
+      "interpretation": "这是国家层面的实际月度产量数据，不是公司指引或预测；单月反弹可能改善近端智利铜供给，但不能抹平运营、品位和后续月份的不确定性。官方INE矿业生产主题页当时仍显示至5月，因此当前页面作为数据源交叉参照而非6月数值的直接展示页。",
+      "importance": "智利6月铜产量447,294吨、同比增长5.1%，从5月同比下降12.9%反弹，给南美近端矿山供给带来改善信号。该数据为国家总量且页面注明源自INE，不等同于单一公司增产；若7月及后续月度能延续回升，才可能缓解前期供给扰动，当前仍需跟踪官方后续月报。",
+      "url": "https://tradingeconomics.com/chile/copper-production",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part1_sources_checked": [
+      "已打开Eldorado Gold官方事件页，核对Q2 2026业绩电话会日期为2026年7月31日、发布时间和回放信息；并打开官方电话会演示稿核对产量、指引及Skouries/McIlvenna Bay节点。",
+      "已打开Capstone Copper官方Q2业绩公告，核对结果发布日期、电话会链接、产量和MV-O/酸耗信息；并打开官方电话会演示稿核对电话会日期和二季度数据。",
+      "已检查KE Report、Clear Commodity Resource Talks、Mining Stock Daily、Sprott Insights及YouTube、Spotify、Apple Podcasts等窗口内候选；未发现其他具有可打开全文或字幕、且新增供需事实明确的节目。"
+    ],
+    "part1_result": "完成7月29日至31日三日访谈窗口检索；2场公司业绩电话会具有可打开的原始演示材料和供需事实，其他候选无窗口内可核验全文或为旧内容。",
+    "part2_sources_checked": [
+      "已按要求使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe运行scripts/x_search.py --check-login --headless；指定解释器实际为Python 3.13.14，但导入阶段因未安装playwright以ModuleNotFoundError失败。",
+      "已按要求使用同一解释器运行scripts/x_search.py 2026-07-31 --headless；同样因缺少playwright失败，未取得登录状态、候选帖子或原帖核验结果。",
+      "未使用搜索摘要、截图或不可打开帖子替代原帖证据；按日期保存失败状态和原始候选说明。"
+    ],
+    "part2_result": "Part 2通道失败：指定脚本解释器缺少playwright，未收录X帖子；已保留失败原因并继续完成其他栏目。",
+    "part3_sources_checked": [
+      "mining.com强制主路径：已按要求尝试使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、Chromium headless和反检测参数打开https://www.mining.com/commodity/copper/；解释器实际为Python 3.13.14且未安装playwright，未进入DOM抓取，文章数为0。",
+      "mining.com隔离Playwright备用尝试：打开https://www.mining.com/commodity/copper/返回HTTP 403，未获得分类页DOM或文章卡片，文章数为0；未使用sitemap、Wayback Machine或RSS feed。",
+      "Google site:mining.com copper July 31 2026检索返回15个结果，均为窗口外、旧页、摘要页或不满足当日供需筛选，未采用；gold检索返回17个结果，silver检索返回17个结果，均未形成可核验的当日合格金银供需信号。",
+      "已打开Trading Economics智利铜产量页，核对2026年7月31日发布的6月数据、447,294公吨、同比5.1%和5月同比-12.9%，页面注明数据源为智利国家统计局INE。",
+      "已打开智利INE官方矿业生产主题页作交叉参照；该页当时仍展示至2026年5月，未将其当作6月数值的直接证据。"
+    ],
+    "part3_result": "完成7月31日中英文新闻检索；保留1条智利官方统计口径铜供给数据，未发现可核验的独立金/银供需新闻；mining.com强制铜分类抓取因环境缺少Playwright且隔离会话被403阻断。",
+    "mining_com_source_note": "本次未从mining.com采用新闻。主路径因指定解释器缺少playwright未能抓取分类页，隔离Playwright会话返回403；Google site:结果仅用于备用发现且均未作为证据。",
+    "url_verification": {
+      "checked_count": 6,
+      "passed_count": 5,
+      "failed_count": 1,
+      "failed_items": [
+        {
+          "url": "https://www.mining.com/commodity/copper/",
+          "reason": "指定Python路径缺少playwright；隔离Playwright再次访问返回HTTP 403，未取得可核验分类页内容。"
+        }
+      ],
+      "notes": "Eldorado和Capstone官方电话会材料及官方结果页、Trading Economics数据页和INE主题页均已实际打开；摘要、失败通道和旧搜索结果未作为入选新闻证据。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/07/27/8-company-interviews-from-this-week-fury-kuya-azt-kfr-nvo-tsk-dmx-tigr/：已检查但所列访谈日期为7月20–23日，超出本日报7月29日至31日访谈窗口。"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Eldorado Gold和Capstone Copper的书面Q2业绩公告发布日期为7月30日，不纳入7月31日新闻窗口；其北京时间7月31日业绩电话会作为Part 1收录，避免跨栏目重复。",
+      "Selkirk Copper Minto资源量、Vale指引、韩国—智利合作、Codelco/硫酸和7月30日黄金项目等事件已在最近日报覆盖，本次未重复收录。",
+      "mining.com Google site:结果均为窗口外、旧页、价格复述或没有新增供需传导路径，未收录。",
+      "未发现可核验的7月31日独立白银供需事件。"
+    ],
+    "notes": "Eldorado与Capstone均以铜为主金属展示一次，同时保留金银实质相关标签；智利统计仅作为铜主金属新闻展示。"
+  }
+}
