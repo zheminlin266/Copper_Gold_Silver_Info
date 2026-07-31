@@ -1,7 +1,7 @@
 {
   "date": "2026-07-30",
-  "report_time": "2026-07-31T07:16:43+08:00",
-  "summary": "铜：矿山资源扩张与韩智关键矿产合作提供中长期增量，但 Codelco 产能约束、库存下降和冶炼酸短缺显示近端供应偏紧；金：新矿深部钻探、Lobo-Marte 开发和厄瓜多尔打击非法采矿影响中长期供给与合规流通；银：本日无独立合格新增信号。",
+  "report_time": "2026-07-31T11:13:27+08:00",
+  "summary": "铜：Vale 将 2026 年产量指引收窄至 36万–38万吨，矿山资源扩张与韩智合作提供中长期增量，但 Codelco 产能约束、库存下降和冶炼酸短缺显示近端供应偏紧；金：新矿深部钻探、Lobo-Marte 开发和厄瓜多尔治理影响中长期供给；银：无独立合格新增信号。",
   "windows": {
     "part1": {
       "start": "2026-07-28T00:00:00+08:00",
@@ -33,6 +33,20 @@
     }
   ],
   "part3_news": [
+    {
+      "title": "Vale posts 35% fall in Q2 net profit; narrows nickel, copper output outlook",
+      "source": "MINING.COM / Reuters",
+      "publish_time": "2026-07-30",
+      "language": "en",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Vale narrowed its 2026 copper production guidance to 360,000-380,000 metric tons from the previous 350,000-380,000 metric ton range.",
+      "interpretation": "This is company guidance rather than actual output; the midpoint remains 370,000 metric tons while the lower bound rises by 10,000 metric tons, reducing the forecast range.",
+      "importance": "A current producer guidance change that gives a more precise 2026 copper supply outlook.",
+      "url": "https://www.mining.com/web/vale-posts-35-fall-in-q2-net-profit-narrows-nickel-copper-output-outlook/",
+      "source_channel": "playwright"
+    },
     {
       "title": "Update almost triples contained metal at Selkirk Copper's Minto mine",
       "source": "MINING.COM",
@@ -121,41 +135,47 @@
   "search_log": {
     "part1_searched": true,
     "part2_searched": true,
+    "part2_channel": "browser_use",
     "part1_sources_checked": [
       "KE Report July 27 roundup was opened; its linked Kuya and other underlying interviews were dated July 20-23 and fell outside the July 28-30 rolling window.",
-      "Clear Commodity Resource Talks, Mining Stock Daily, Sprott and YouTube, Spotify and Apple podcast searches were checked; no directly verifiable qualifying program in the window was found."
+      "Clear Commodity Resource Talks was opened and showed no July 28-30 item; Apple Podcasts and broader Podcast, YouTube and webcast searches returned older or undated results, so no directly verifiable qualifying program in the window was found."
     ],
     "part1_result": "No qualifying Part 1 program was found in the 72-hour window.",
     "part2_sources_checked": [
       "scripts/x_search.py --check-login --headless and scripts/x_search.py 2026-07-30 --headless were run with Python 3.13.12 and the persistent profile; login check passed, 34 personal accounts and 18 official accounts were scanned, and 14 candidates were written to x_outputs/2026-07-30_x_raw_materials.txt.",
-      "The Willem Middelkoop original post was opened in the browser and returned HTTP 200 with the author, July 30 timestamp and quoted Hercules Metals CEO-designate statement visible; 13 candidates were excluded for price-only, macro, promotional, duplicate, or insufficiently concrete supply-demand content."
+      "The Willem Middelkoop original post was opened in the browser and returned HTTP 200 with the author, July 30 timestamp and quoted Hercules Metals CEO-designate statement visible; 13 candidates were excluded for price-only, macro, promotional, duplicate, or insufficiently concrete supply-demand content.",
+      "The date-named raw file already existed, so scripts/x_search.py correctly refused to overwrite it during this correction run; the existing raw evidence was preserved and no new X record was added."
     ],
+    "part2_result": "Existing verified X evidence retained; the required raw-material idempotency guard prevented overwriting the 2026-07-30 file.",
     "part3_sources_checked": [
-      "Mandatory mining.com Playwright main path: Chromium headless with the required anti-detection arguments, Windows Chrome 131 user agent, 1920x1080 viewport and en-US locale opened https://www.mining.com/commodity/copper/ with HTTP 200; the DOM contained 13 July 30 date occurrences and six current-day lead candidates, three of which were selected.",
-      "Mandatory mining.com Playwright main path also opened the gold and silver category pages with HTTP 200; each contained 13 July 30 date occurrences. Three gold articles were selected and no silver-primary article met the supply-demand filter.",
-      "Google site:mining.com copper July 30 2026, gold July 30 2026 and silver July 30 2026 fallback searches were executed; results were mixed or stale, so zero current-day qualified evidence was taken from the fallback route.",
+      "Mandatory mining.com Playwright main path: Chromium headless with the required anti-detection arguments, Windows Chrome 131 user agent, 1920x1080 viewport and en-US locale opened https://www.mining.com/commodity/copper/ with HTTP 200; precise DOM extraction found seven unique July 30 article cards, including the newly verified Vale guidance item, and four copper supply candidates were selected after filtering.",
+      "Mandatory mining.com Playwright main path also opened the gold and silver category pages with HTTP 200; the DOM contained 11 and 9 July 30 date occurrences respectively. Three gold articles were selected and no silver-primary article met the supply-demand filter.",
+      "Google site:mining.com gold July 30 2026 and silver July 30 2026 auxiliary searches were executed; results were mixed or stale and zero current-day qualified evidence was taken from the fallback route. Copper was not substituted with site: search, per the current workflow.",
+      "WebFetch-style page reads for the gold and silver category pages returned HTTP 403, so the required Playwright category path was used; direct article reads were mixed (one article readable, the rest 403 or unsafe), so the same Playwright session verified every selected article.",
+      "Selected article verification path for Vale: same Playwright session opened the article with HTTP 200 and verified the July 30 title, Reuters attribution and 2026 copper guidance of 360,000-380,000 metric tons versus 350,000-380,000 previously.",
       "Selected article verification path for Selkirk: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date and resource/drilling figures in the DOM.",
       "Selected article verification path for South Korea-Chile: same Playwright session opened the Reuters article with HTTP 200 and verified the July 30 title, date, five MOUs and copper value-chain details in the DOM.",
       "Selected article verification path for copper tightness: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, inventory, Codelco, Chile disruption and sulfuric-acid figures in the DOM.",
       "Selected article verification path for Newcore: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, drill intercepts and preliminary-study figures in the DOM.",
       "Selected article verification path for Kinross: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, Lobo-Marte resource, capacity, production horizon and study economics in the DOM.",
       "Selected article verification path for Ecuador: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, complaint counts, illegal-site count and monitoring/traceability milestones in the DOM.",
-      "The mining.com Codelco private-capital candidate returned HTTP 404 and was excluded; no sitemap, Wayback Machine or RSS feed was used."
+      "The current mining.com Codelco private-capital candidate https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-at-codelco/ returned HTTP 200 and was excluded as a related governance debate without a new production quantity; the old URL returned HTTP 404. No sitemap, Wayback Machine or RSS feed was used."
     ],
-    "mining_com_source_note": "For every selected MINING.COM item, the category-page discovery and article verification were performed with the mandated Playwright Chromium session. Article title, publisher/date and core figures were read from the article DOM. The Google site: route was used only as a fallback discovery check and not as sole evidence.",
+    "part3_result": "Seven MINING.COM news signals selected after the current-day category scan, direct article verification, cross-day deduplication and supply-demand filtering.",
+    "mining_com_source_note": "For every selected MINING.COM item, category-page discovery and article verification were performed with the mandated Playwright Chromium session. Article title, publisher/date and core figures were read from the article DOM. Google site: searches were used only as auxiliary gold/silver discovery and not as sole evidence.",
+    "url_verification": {
+      "checked_count": 9,
+      "passed_count": 8,
+      "failed_count": 1,
+      "failed_items": [
+        {
+          "url": "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-in-codelco/",
+          "reason": "HTTP 404; the current article was found at the /at-codelco/ URL and excluded from the report."
+        }
+      ],
+      "notes": "Eight selected URLs were directly opened and verified; one obsolete candidate URL returned HTTP 404."
+    },
     "new_sources_discovered": []
-  },
-  "url_verification": {
-    "checked_count": 8,
-    "passed_count": 7,
-    "failed_count": 1,
-    "failed_items": [
-      {
-        "url": "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-in-codelco/",
-        "reason": "HTTP 404; excluded from the report."
-      }
-    ],
-    "notes": "Seven selected URLs were directly opened and verified; one rejected candidate returned HTTP 404."
   },
   "dedup_log": {
     "part1_deduped_urls": [
@@ -168,7 +188,8 @@
     "part3_deduped_events": [
       "https://www.mining.com/web/gold-flows-to-hong-kong-hit-decade-high-before-clearing-launch/: July 29 article, outside the current window and already covered in the prior report.",
       "https://www.mining.com/web/anglo-american-first-half-loss-shrinks-lifts-dividend-as-teck-merger-awaits-approval/: excluded because the verified article did not provide a concrete new metal supply-demand path.",
-      "https://www.mining.com/web/trump-signs-order-on-export-curbs-to-retain-critical-minerals/: excluded because it did not identify a concrete gold, silver or copper supply-demand effect."
+      "https://www.mining.com/web/trump-signs-order-on-export-curbs-to-retain-critical-minerals/: excluded because it did not identify a concrete gold, silver or copper supply-demand effect.",
+      "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-at-codelco/: current Codelco governance debate was checked but excluded because it did not add a new production quantity and overlapped the Codelco supply-constraint signal already retained."
     ],
     "notes": "The Selkirk resource update is shown once under copper as the primary metal while gold and silver remain substantive tags; no duplicate gold or silver cards were created."
   }
