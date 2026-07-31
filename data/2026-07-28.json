@@ -18,7 +18,7 @@
       "supply_demand": "supply",
       "excerpt": "Storm Exploration完成超额认购的295万美元私募，其中154万美元为溢价45%的慈善流转融资；资金将用于Gold Standard项目钻探，公司正在推进一条长5公里的VMS靶区。",
       "interpretation": "这是勘探融资和潜在黄金供给管线信号，不是已确认资源或未来产量；资金到位提高了后续钻探和资源定义的执行可能性。",
-      "importance": "窗口内可核验X原帖中唯一包含具体融资金额、用途和项目进度的供给相关事实。",
+      "importance": "Storm Exploration完成295万美元超额认购私募，其中154万美元为溢价45%的慈善流转融资，资金将用于Gold Standard项目钻探和一条长5公里的VMS靶区。它提升的是勘探和资源定义的执行概率，不是已经确认的黄金资源或产量；后续要看钻孔结果能否把融资投入转化为可估算资源量。",
       "url": "https://x.com/soarfinancial/status/2082131652944495000",
       "source_channel": "browser_use"
     }
@@ -34,7 +34,7 @@
       "supply_demand": "supply",
       "excerpt": "First Quantum披露2026年第二季度铜产量100,487吨，环比增加4%；Cobre Panamá已重启三条磨矿线路中的一条并处理库存矿石，首批产出3,216吨铜精矿，库存约3,800万吨矿化矿石、含约70,000吨可回收铜，2026年库存处理铜产量指引为30,000—40,000吨。",
       "interpretation": "库存矿石处理增加的是短期可供销售的铜精矿，而不是矿山采矿恢复；Cobre Panamá仍处于Preservation and Safe Management框架内，产量与精矿品位受设备恢复限制。",
-      "importance": "报告日最明确的铜供给增量证据之一，既包含实际二季度产量，也量化了Cobre Panamá库存处理的可持续时间和全年口径。",
+      "importance": "First Quantum二季度实际铜产量达到100,487吨，Cobre Panamá又产出首批3,216吨铜精矿，并给出2026年库存处理产量30,000—40,000吨，形成了当日最明确的短期可售供给增量。需要区分的是，约3,800万吨库存矿石的处理仍属于存量消耗，且矿山尚未恢复正常采矿；因此短期改善存在，但中长期供给取决于设备修复、品位和库存处理持续时间。",
       "language": "en",
       "duplicate_of": null
     },
@@ -48,7 +48,7 @@
       "supply_demand": "supply",
       "excerpt": "Evolution Mining同意以约2.13亿澳元收购Carnaby Resources，取得靠近Ernest Henry的铜金Greater Duchess项目；公司称利用闲置选厂能力和既有基础设施，项目具有增加约1万吨年铜产量的潜力。交易仍需股东、法院和监管批准。",
       "interpretation": "这是中期铜供给管线扩张，不是已投产增量；使用现有选厂可降低独立开发的资本和建设风险，但项目整合、审批和资源转化仍是前置条件。",
-      "importance": "报告日出现了一个有明确吨位潜力、基础设施路径和交易约束的铜金资产整合事件。",
+      "importance": "Evolution拟以约2.13亿澳元收购Carnaby，Greater Duchess被赋予约1万吨/年的铜产量潜力，并可利用闲置选厂和既有基础设施，降低独立开发的资本和建设风险。该增量属于中期项目管线而非当前产量；股东、法院和监管批准以及资源转化和整合进度，决定这1万吨能否兑现。",
       "language": "en",
       "duplicate_of": null
     },
@@ -62,7 +62,7 @@
       "supply_demand": "supply",
       "excerpt": "Codelco董事长Bernardo Fontaine在采访中表示，公司在未来四五年内没有可能达到此前170万吨的目标，并称2026年将是生产困难的一年；公司3月给出的2026年产量指引为133.1万—135.7万吨。",
       "interpretation": "这不是新的停产公告，而是对长期产量目标的下修确认；它意味着全球主要铜生产商之一的增产路径更弱。",
-      "importance": "管理层给出了明确的不可达时间判断，更新了Codelco供给恢复的时间尺度。",
+      "importance": "Codelco管理层确认未来4—5年不可能回到此前170万吨铜产量目标，而2026年指引只有133.1万—135.7万吨，意味着这家全球主要生产商的恢复路径被进一步拉长。它不是新的停产事件，却下修了市场对中期增量的预期；后续应观察2026年实际产量、品位和运营改善能否接近指引上沿。",
       "language": "en",
       "duplicate_of": null,
       "mining_com_source_note": "强制主路径使用指定Python 3.13.12与Chromium headless抓取https://www.mining.com/commodity/copper/，HTTP 200，铜分类页将本文列为2026-07-28文章；同一Playwright会话直接打开文章HTTP 200，核验标题、Bloomberg News署名、日期和核心数字。"
@@ -77,7 +77,7 @@
       "supply_demand": "supply",
       "excerpt": "Santacruz披露2026年第二季度合并产量为白银1,573,100盎司，较2026年第一季度1,341,499盎司增加17%；同期铜产量337吨，环比增加9%。公司将Bolivar复产修复、处理量、品位和Zimapan回收率改善列为主要驱动。",
       "interpretation": "这是实际季度产量而非指引；公司说明Bolivar和Porco部分产量按资产100%口径列示，不能直接等同于上市公司合并财务权益产量。",
-      "importance": "提供了报告日少见的实物白银季度产量更新，并同时给出环比口径。",
+      "importance": "Santacruz二季度白银产量为157.31万盎司，环比增加17%，铜产量337吨、环比增加9%，提供了当日少见的实际贵金属产量增量证据。增长来自Bolivar修复、处理量、品位和Zimapan回收率改善，但部分资产按100%口径列示，不能直接等同于上市公司权益产量；后续需关注改善能否延续。",
       "language": "en",
       "duplicate_of": null
     },
@@ -91,7 +91,7 @@
       "supply_demand": "supply",
       "excerpt": "巴西联邦地区法院最终驳回了针对Belo Sun Volta Grande金矿项目原住民许可流程的重复诉讼，原告未在法定期限内上诉，裁决已具最终约束力；项目仍需推进剩余环境许可和开发程序。",
       "interpretation": "法律障碍减少提高了项目继续开发的可能性，但这不是建设开工或金矿产量增加；原住民咨询、环境许可、融资和工程进度仍决定潜在供给能否兑现。",
-      "importance": "项目许可风险的边际下降为巴西中长期黄金供给管线提供了新催化剂。",
+      "importance": "Belo Sun针对原住民许可流程的诉讼被最终驳回且未在期限内上诉，降低了项目继续推进的一项法律障碍，为巴西中长期黄金供给管线增加了确定性。它仍不代表建设开工或产量增加，剩余环境许可、原住民咨询、融资和工程进度才决定潜在供给何时能够兑现。",
       "language": "en",
       "duplicate_of": null,
       "mining_com_source_note": "强制主路径使用Playwright抓取https://www.mining.com/commodity/copper/返回HTTP 200，并在黄金栏目页面发现该2026-07-28文章；同一Playwright会话直接打开文章HTTP 200，核验标题、日期、法院裁决和剩余许可程序。"
@@ -106,7 +106,7 @@
       "supply_demand": "supply",
       "excerpt": "赞比亚总统计划推动泛非矿产和金属交易所，以提高非洲资源的本地增值；报道援引总统顾问称，政策目标包括让更多铜等矿产在当地加工和交易，但尚未公布具体产量、投资规模或实施时间表。",
       "interpretation": "这是潜在的供应链和加工地点变化，而非短期铜产量增量；政策若落地，可能改变铜钴产品的本地加工和出口路径，但当前证据不足以量化影响。",
-      "importance": "值得跟踪其是否转化为具体冶炼、交易或本地所有权安排；本日报不把它等同于已确认供给增加。",
+      "importance": "赞比亚提出泛非矿产和金属交易所，政策方向是把铜等资源更多留在当地加工和交易，但当前没有公布产量、投资规模或实施时间表。它可能改变铜钴产品的加工地点、贸易路径和本地增值比例，却还不是短期供给增量；后续应跟踪具体冶炼项目、融资安排和时间表。",
       "language": "en",
       "duplicate_of": null,
       "mining_com_source_note": "强制主路径抓取https://www.mining.com/commodity/copper/返回HTTP 200，铜分类页将本文列为2026-07-28文章；同一Playwright会话直接打开文章HTTP 200，核验Bloomberg News署名、日期及政策内容。因无具体吨位或实施计划，按低确定性政策供给信号收录。"

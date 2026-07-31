@@ -94,6 +94,10 @@
           },
           "summary": {"type": "string"},
           "detail": {"type": "string"},
+          "importance": {
+            "type": "string",
+            "description": "For reports dated 2026-07-31 or later: a substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters, covering scale, mechanism, timing, comparison, or uncertainty rather than a generic label"
+          },
           "companies": {"type": "array", "items": {"type": "string"}},
           "projects": {"type": "array", "items": {"type": "string"}}
         }
@@ -131,7 +135,10 @@
           },
           "excerpt": {"type": "string"},
           "interpretation": {"type": "string"},
-          "importance": {"type": "string"},
+          "importance": {
+            "type": "string",
+            "description": "For reports dated 2026-07-31 or later: a substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters, with at least one concrete anchor and an explanation of why the signal matters"
+          },
           "url": {"type": "string", "format": "uri"},
           "source_channel": {
             "type": "string",
@@ -173,7 +180,10 @@
           },
           "excerpt": {"type": "string"},
           "interpretation": {"type": "string"},
-          "importance": {"type": "string"},
+          "importance": {
+            "type": "string",
+            "description": "For reports dated 2026-07-31 or later: a substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters, with at least one concrete anchor and an explanation of why the signal matters"
+          },
           "language": {
             "type": "string",
             "enum": ["en", "zh"]

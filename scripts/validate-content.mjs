@@ -17,7 +17,14 @@ const SOURCE_TYPES = new Set([
   "company_presentation",
 ]);
 const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
+const IMPORTANCE_REQUIRED_FROM = "2026-07-31";
+const IMPORTANCE_MIN_LENGTH = 80;
+const IMPORTANCE_MAX_LENGTH = 300;
 const SUMMARY_MAX_LENGTH = 300;
+const IMPORTANCE_SENTENCE_END = /[。！？!?]/g;
+const IMPORTANCE_CONCRETE_ANCHOR = /(?:\d|[一二三四五六七八九十百千万亿]+(?:吨|盎司|美元|年|月|周|天|季度)|(?:短期|中期|长期|即期|年内|下半年|未来\d+年|未来[一二三四五六七八九十百千万亿]+年)|(?:同比|环比|较前期|相比|连续第|首次|创(?:历史|新)?高|指引|投产|复产|许可|时间表|里程碑|钻探|扩建))/u;
+const IMPORTANCE_ANALYSIS_MARKER = /(?:意味着|由于|因此|导致|通过|取决于|相较|相比|背景下|可能|风险|缺口|压力|增量|约束|兑现|传导|影响|支撑|限制|条件|提高|下降|上升|减少|增加|接近|低于|高于|维持|延长|缩短|释放|取代|验证|显示|反映|强化|削弱|改变|体现)/u;
+const GENERIC_IMPORTANCE_ONLY = /^(?:这是|属于|可作为|补充了|反映了|提示|显示).{0,60}(?:信号|线索|风险|变化|判断)[。！？!?]$/u;
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -79,7 +86,28 @@ function validateUrl(value, field, filename) {
   }
 }
 
-function validateSignal(item, prefix, filename, requirePrimaryMetal) {
+function validateImportance(value, field, filename) {
+  requireString(value, field, filename);
+  const length = [...value].length;
+  if (length < IMPORTANCE_MIN_LENGTH || length > IMPORTANCE_MAX_LENGTH) {
+    throw new Error(
+      `${filename}: ${field} must be ${IMPORTANCE_MIN_LENGTH}-${IMPORTANCE_MAX_LENGTH} characters for new reports`,
+    );
+  }
+
+  const sentenceCount = value.match(IMPORTANCE_SENTENCE_END)?.length ?? 0;
+  if (sentenceCount < 2 || sentenceCount > 4) {
+    throw new Error(`${filename}: ${field} must contain 2-4 sentences for new reports`);
+  }
+  if (!IMPORTANCE_CONCRETE_ANCHOR.test(value)) {
+    throw new Error(`${filename}: ${field} must contain a concrete anchor for new reports`);
+  }
+  if (!IMPORTANCE_ANALYSIS_MARKER.test(value) || GENERIC_IMPORTANCE_ONLY.test(value.trim())) {
+    throw new Error(`${filename}: ${field} must contain analysis, not only a generic label`);
+  }
+}
+
+function validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance) {
   if (!isObject(item)) throw new Error(`${filename}: ${prefix} must be an object`);
   requireStringArray(item.metal_tags, `${prefix}.metal_tags`, filename);
   if (item.metal_tags.length === 0) {
@@ -106,10 +134,13 @@ function validateSignal(item, prefix, filename, requirePrimaryMetal) {
     throw new Error(`${filename}: ${prefix} has invalid supply_demand`);
   }
   validateUrl(item.url, `${prefix}.url`, filename);
+  if (requireImportance) {
+    validateImportance(item.importance, `${prefix}.importance`, filename);
+  }
 }
 
-function validateBroadcast(item, prefix, filename, requirePrimaryMetal) {
-  validateSignal(item, prefix, filename, requirePrimaryMetal);
+function validateBroadcast(item, prefix, filename, requirePrimaryMetal, requireImportance) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance);
   requireString(item.title, `${prefix}.title`, filename);
   validateDate(item.publish_date, `${prefix}.publish_date`, filename);
   requireString(item.source_type, `${prefix}.source_type`, filename);
@@ -119,15 +150,15 @@ function validateBroadcast(item, prefix, filename, requirePrimaryMetal) {
   requireString(item.summary, `${prefix}.summary`, filename);
 }
 
-function validateXPost(item, prefix, filename, requirePrimaryMetal) {
-  validateSignal(item, prefix, filename, requirePrimaryMetal);
+function validateXPost(item, prefix, filename, requirePrimaryMetal, requireImportance) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance);
   requireString(item.author, `${prefix}.author`, filename);
   requireString(item.handle, `${prefix}.handle`, filename);
   validateDateOrDateTime(item.publish_time, `${prefix}.publish_time`, filename);
 }
 
-function validateNews(item, prefix, filename, requirePrimaryMetal) {
-  validateSignal(item, prefix, filename, requirePrimaryMetal);
+function validateNews(item, prefix, filename, requirePrimaryMetal, requireImportance) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance);
   requireString(item.source, `${prefix}.source`, filename);
   requireString(item.title, `${prefix}.title`, filename);
   validateDateOrDateTime(item.publish_time, `${prefix}.publish_time`, filename);
@@ -157,6 +188,7 @@ export function validateReport(report, filename) {
     throw new Error(`${filename}: date does not match filename`);
   }
   const requirePrimaryMetal = report.date >= PRIMARY_METAL_REQUIRED_FROM;
+  const requireImportance = report.date >= IMPORTANCE_REQUIRED_FROM;
 
   if (!isObject(report.windows)) throw new Error(`${filename}: windows must be an object`);
   for (const part of ["part1", "part2", "part3"]) {
@@ -164,11 +196,11 @@ export function validateReport(report, filename) {
   }
 
   requireArray(report.part1_broadcasts, "part1_broadcasts", filename);
-  report.part1_broadcasts.forEach((item, index) => validateBroadcast(item, `part1_broadcasts[${index}]`, filename, requirePrimaryMetal));
+  report.part1_broadcasts.forEach((item, index) => validateBroadcast(item, `part1_broadcasts[${index}]`, filename, requirePrimaryMetal, requireImportance));
   requireArray(report.part2_x_posts, "part2_x_posts", filename);
-  report.part2_x_posts.forEach((item, index) => validateXPost(item, `part2_x_posts[${index}]`, filename, requirePrimaryMetal));
+  report.part2_x_posts.forEach((item, index) => validateXPost(item, `part2_x_posts[${index}]`, filename, requirePrimaryMetal, requireImportance));
   requireArray(report.part3_news, "part3_news", filename);
-  report.part3_news.forEach((item, index) => validateNews(item, `part3_news[${index}]`, filename, requirePrimaryMetal));
+  report.part3_news.forEach((item, index) => validateNews(item, `part3_news[${index}]`, filename, requirePrimaryMetal, requireImportance));
 
   if (!isObject(report.search_log)) throw new Error(`${filename}: search_log must be an object`);
   if (typeof report.search_log.part1_searched !== "boolean") {

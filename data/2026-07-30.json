@@ -27,7 +27,7 @@
       "supply_demand": "supply",
       "excerpt": "该帖引用Hercules Metals候任CEO George Ogilvie的话称，爱达荷州Hercules资产可能构成一个规模异常庞大的铜斑岩系统。",
       "interpretation": "这是可直接核验的原作者帖子；该信息属于勘探阶段的供给信号，并非已确认的资源量、储量或产量估计。",
-      "importance": "补充了当前铜勘探项目管线信号，但没有给出近期可兑现的吨位。",
+      "importance": "Hercules候任CEO称爱达荷资产可能构成规模异常庞大的铜斑岩系统，补充了当前铜勘探项目管线的潜在增量线索。原帖没有资源量、储量、品位或投产时间，且仍处于勘探阶段，因此不能计入近期供给；后续钻探和正式资源估算才会决定其实际意义。",
       "url": "https://x.com/wmiddelkoop/status/2082827624976449649",
       "source_channel": "browser_use"
     }
@@ -43,7 +43,7 @@
       "supply_demand": "supply",
       "excerpt": "Vale将2026年铜产量指引从此前的350,000–380,000公吨区间收窄至360,000–380,000公吨。",
       "interpretation": "这是公司指引而非实际产量；中值仍为370,000公吨，下限提高10,000公吨，预测区间因此收窄。",
-      "importance": "生产商最新指引变化，为2026年铜供给提供了更明确的展望。",
+      "importance": "Vale将2026年铜产量指引由350,000—380,000吨收窄至360,000—380,000吨，下限提高10,000吨而中值仍为370,000吨，说明生产商对产量区间的可见度有所改善。它是公司指引而非实际增产，短期不会直接改变现货供给；后续季度产量和指引能否维持在区间上沿更值得跟踪。",
       "url": "https://www.mining.com/web/vale-posts-35-fall-in-q2-net-profit-narrows-nickel-copper-output-outlook/",
       "source_channel": "playwright"
     },
@@ -57,7 +57,7 @@
       "supply_demand": "supply",
       "excerpt": "Selkirk Copper更新后的Minto矿山资源量为47.8 Mt，品位为0.89%铜、0.34 g/t金和3.2 g/t银，约含9.4亿磅铜、530,000盎司金和480万盎司银。按测量与指示资源量口径，含金属量较此前估计增加约181%至192%；第二阶段钻探计划为50,000 m，已完成37,000 m，初步可行性研究预计在第三季度完成。",
       "interpretation": "资源量更新改善了未来铜供给项目管线，但这是矿产资源量而非储量或在产产量预测；文章称矿山可能在2028年重启。",
-      "importance": "多金属资源量实现实质扩张，并已有明确的开发路径。",
+      "importance": "Minto更新资源量达到47.8Mt，约含9.4亿磅铜、530,000盎司金和480万盎司银，测量与指示资源量较此前增加约181%—192%，是项目管线的实质扩张。第二阶段5万米钻探已完成3.7万米、初步可行性研究预计第三季度完成，说明开发路径在推进；但资源量不是储量或在产产量，2028年重启仍取决于研究、融资和建设。",
       "url": "https://www.mining.com/update-almost-triples-contained-metal-at-selkirk-coppers-minto-mine/",
       "source_channel": "playwright"
     },
@@ -71,7 +71,7 @@
       "supply_demand": "supply",
       "excerpt": "韩国与智利签署五项备忘录，涵盖矿产资源合作、信息共享，以及锂和铜价值链中的技术与人才交流。韩国总统办公室表示，这些安排有助于稳定获得智利关键矿产供应，该供应每年价值约21亿美元，并支持韩国企业。",
       "interpretation": "这些协议强化了智利铜进入韩国相关价值链的制度和商业框架，但属于合作措施，并不会立即增加产量。",
-      "importance": "这是与智利铜相关的跨境供应链和下游需求信号。",
+      "importance": "韩国与智利签署5项备忘录，涉及矿产合作、信息共享以及铜价值链技术和人才交流，相关关键矿产供应规模约为每年21亿美元。它强化了智利铜进入韩国供应链和下游需求的制度基础，但备忘录不会立即增加矿山产量；后续应观察是否转化为采购协议、投资或具体加工项目。",
       "url": "https://www.mining.com/web/south-korea-chile-sign-five-mous-deepen-lithium-and-copper-cooperation/",
       "source_channel": "playwright"
     },
@@ -85,7 +85,7 @@
       "supply_demand": "supply",
       "excerpt": "文章称，LME近月铜较三个月期货溢价约24美元/吨；LME库存当周下降逾10,000吨至262,300吨；中国进口溢价达到2022年以来最高。文章还引用Codelco的判断：五年内不可能恢复此前170万吨产量目标；公司2026年3月指引为不超过135.7万吨；智利风暴造成扰动，国际能源署则警告硫酸短缺可能影响全球逾七分之一的铜产量。",
       "interpretation": "文章提供了有明确日期的近端精矿和精炼市场趋紧、以及运营约束指标；价格变化仅作为实体供给证据的背景，不作为单独收录理由。",
-      "importance": "库存、运营和冶炼投入品的多重约束指向更紧张的近期铜供应。",
+      "importance": "LME库存一周减少逾10,000吨至262,300吨，近月铜较三个月期货溢价约24美元/吨，同时Codelco未来5年仍难回到170万吨目标、硫酸短缺可能影响全球逾七分之一产量，多个指标共同指向精矿和冶炼环节趋紧。价格上涨本身不是收录理由，真正重要的是库存、运营约束和冶炼投入品短缺同时出现；短期供给压力仍需用后续库存、产量和硫酸供应数据验证。",
       "url": "https://www.mining.com/copper-price-jumps-on-tightening-supply-mining-stocks-rally/",
       "source_channel": "playwright"
     },
@@ -99,7 +99,7 @@
       "supply_demand": "supply",
       "excerpt": "Newcore报告称，NBDD088钻孔在307.7 m深处见矿25.3 m，品位3.67 g/t金；NBDD091钻孔见矿18 m，品位1.26 g/t，其中包括9 m、品位2.31 g/t的区间。本轮钻探位于资源量和矿山研究范围之外；6月初步可行性研究采用5.5 Mtpa露天矿方案，预计9.3年产出约953,000盎司，80,000 m钻探计划已报告46,140 m。",
       "interpretation": "钻探结果支持资源量增长和未来黄金供给潜力，但这些见矿段属于勘探结果，不是产量或储量数据。",
-      "importance": "勘探结果较强，且项目开发研究仍在明确并扩展。",
+      "importance": "Newcore的两个钻孔分别取得25.3米、3.67g/t金和18米、1.26g/t金的见矿结果，支持Enchi项目向资源量外延扩展；本轮钻探位于既有资源量和矿山研究范围之外，新增性较强。6月可研采用5.5Mtpa露天矿方案、预计9.3年产出约953,000盎司，但这些钻孔仍是勘探结果，不能直接当作储量或未来产量，需等待资源更新和研究纳入。",
       "url": "https://www.mining.com/newcore-golds-best-nyam-hit-points-to-larger-enchi-mine-in-ghana/",
       "source_channel": "playwright"
     },
@@ -113,7 +113,7 @@
       "supply_demand": "supply",
       "excerpt": "Kinross的Lobo-Marte项目资源量为160.7 Mt、品位1.3 g/t金，即6.73 Moz；处理能力为35,000 t/日，目标是在2030年代初首次投产。更新后的研究估计直接资本开支约11亿美元，另有约7亿美元间接资本开支及预备费；按3,500美元/盎司金价假设，项目NPV为32亿美元、回报率22%、投资回收期2.7年。",
       "interpretation": "这是未来项目开发和投产时点信号，不代表当前产量；研究经济性明确取决于金价假设。",
-      "importance": "大型黄金项目取得有日期的开发里程碑，并明确了投产时间和资本开支修订。",
+      "importance": "Lobo-Marte拥有160.7Mt资源量、6.73Moz黄金和35,000吨/日处理能力，目标在2030年代初投产；更新研究还给出约11亿美元直接资本开支、另有约7亿美元间接资本开支及预备费。项目按3,500美元/盎司金价假设的NPV为32亿美元、回报率22%，说明经济性已被量化，但成本上升和金价假设意味着它是长期、条件性供给，不能视为当前产量。",
       "url": "https://www.mining.com/kinross-golds-lobo-marte-cost-jumps-67-as-npv-more-than-triples/",
       "source_channel": "playwright"
     },
@@ -127,7 +127,7 @@
       "supply_demand": "supply",
       "excerpt": "厄瓜多尔2026–2029年国家安全计划将非法采矿列为国家安全威胁。文章称，2025年非法采矿投诉为393起，高于2021年的249起；GI-TOC称2024年非法采矿点超过600个；政府计划在2027–2029年推进监测和可追溯性建设。",
       "interpretation": "非法开采和帮派控制影响厄瓜多尔黄金流通的透明度与合规性；已宣布的监测和可追溯计划是治理回应，不是新的产量估计。",
-      "importance": "这是厄瓜多尔黄金地面供应链和来源合规的重要风险。",
+      "importance": "厄瓜多尔非法采矿投诉由2021年的249起升至2025年的393起，GI-TOC还统计2024年非法采矿点超过600个，说明黄金地面供应链的来源透明度和合规风险正在扩大。政府计划在2027—2029年推进监测和可追溯性建设，可能改善治理但不会直接增加正规矿山产量；后续应跟踪执法覆盖、合法产量和可追溯黄金流量。",
       "url": "https://www.mining.com/gangs-hijack-ecuadors-gold-mining-supply-chain/",
       "source_channel": "playwright"
     }

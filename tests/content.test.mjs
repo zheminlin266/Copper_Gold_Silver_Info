@@ -57,6 +57,52 @@ test("daily summaries stay within the 300-character editorial limit", () => {
   );
 });
 
+test("new reports require substantive importance judgments while legacy reports remain compatible", () => {
+  const legacyFilename = "2026-07-30.json";
+  const legacyReport = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), "data", legacyFilename), "utf8"),
+  );
+  assert.doesNotThrow(() => validateReport(legacyReport, legacyFilename));
+
+  const filename = "2026-07-31.json";
+  const report = structuredClone(legacyReport);
+  report.date = "2026-07-31";
+  const validImportance =
+    "该矿二季度实际铜产量达到100,487吨，且库存矿石已开始转化为可销售精矿，短期增加了市场可见供给。由于这部分产量来自库存处理而不是采矿恢复，中期供给改善仍取决于设备修复和矿山重启；后续应跟踪处理持续时间、品位和实际发运量。";
+  for (const signal of [
+    ...report.part1_broadcasts,
+    ...report.part2_x_posts,
+    ...report.part3_news,
+  ]) {
+    signal.importance = validImportance;
+  }
+
+  const short = structuredClone(report);
+  short.part3_news[0].importance = "这是一个重要的铜供给信号。";
+  assert.throws(
+    () => validateReport(short, filename),
+    /importance must be 80-300 characters for new reports/,
+  );
+
+  const oneSentence = structuredClone(report);
+  oneSentence.part3_news[0].importance = validImportance.replace("。由于", "，由于");
+  assert.throws(
+    () => validateReport(oneSentence, filename),
+    /importance must contain 2-4 sentences for new reports/,
+  );
+
+  const noConcreteAnchor = structuredClone(report);
+  noConcreteAnchor.part3_news[0].importance =
+    "这个项目会改变相关市场的供需预期，并可能提高参与者对未来变化的关注程度。它的影响仍然需要结合更多材料进行分析，当前不宜作出过度结论，也不能仅凭当前材料判断具体结果。";
+  assert.throws(
+    () => validateReport(noConcreteAnchor, filename),
+    /importance must contain a concrete anchor for new reports/,
+  );
+
+  const substantive = structuredClone(report);
+  assert.doesNotThrow(() => validateReport(substantive, filename));
+});
+
 test("production font loading stays local and build-safe", () => {
   const layout = fs.readFileSync(path.join(process.cwd(), "app", "layout.tsx"), "utf8");
   const localFont = path.join(process.cwd(), "assets", "fonts", "Geist-Regular.ttf");
