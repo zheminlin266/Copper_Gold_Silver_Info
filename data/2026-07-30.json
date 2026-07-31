@@ -1,6 +1,6 @@
 {
   "date": "2026-07-30",
-  "report_time": "2026-07-31T11:13:27+08:00",
+  "report_time": "2026-07-31T11:23:12+08:00",
   "summary": "铜：Vale 将 2026 年产量指引收窄至 36万–38万吨，矿山资源扩张与韩智合作提供中长期增量，但 Codelco 产能约束、库存下降和冶炼酸短缺显示近端供应偏紧；金：新矿深部钻探、Lobo-Marte 开发和厄瓜多尔治理影响中长期供给；银：无独立合格新增信号。",
   "windows": {
     "part1": {
@@ -25,109 +25,109 @@
       "metal_tags": ["copper"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "The post quotes Hercules Metals incoming CEO George Ogilvie saying the Idaho Hercules assets could be an exceptionally large copper porphyry system.",
-      "interpretation": "Directly verifiable original post; this is an exploration-stage supply signal, not a confirmed resource, reserve or production estimate.",
-      "importance": "Adds a current copper exploration pipeline signal, although no near-term tonnage is claimed.",
+      "excerpt": "该帖引用Hercules Metals候任CEO George Ogilvie的话称，爱达荷州Hercules资产可能构成一个规模异常庞大的铜斑岩系统。",
+      "interpretation": "这是可直接核验的原作者帖子；该信息属于勘探阶段的供给信号，并非已确认的资源量、储量或产量估计。",
+      "importance": "补充了当前铜勘探项目管线信号，但没有给出近期可兑现的吨位。",
       "url": "https://x.com/wmiddelkoop/status/2082827624976449649",
       "source_channel": "browser_use"
     }
   ],
   "part3_news": [
     {
-      "title": "Vale posts 35% fall in Q2 net profit; narrows nickel, copper output outlook",
+      "title": "Vale二季度净利润下降35%，收窄镍和铜产量展望",
       "source": "MINING.COM / Reuters",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["copper"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "Vale narrowed its 2026 copper production guidance to 360,000-380,000 metric tons from the previous 350,000-380,000 metric ton range.",
-      "interpretation": "This is company guidance rather than actual output; the midpoint remains 370,000 metric tons while the lower bound rises by 10,000 metric tons, reducing the forecast range.",
-      "importance": "A current producer guidance change that gives a more precise 2026 copper supply outlook.",
+      "excerpt": "Vale将2026年铜产量指引从此前的350,000–380,000公吨区间收窄至360,000–380,000公吨。",
+      "interpretation": "这是公司指引而非实际产量；中值仍为370,000公吨，下限提高10,000公吨，预测区间因此收窄。",
+      "importance": "生产商最新指引变化，为2026年铜供给提供了更明确的展望。",
       "url": "https://www.mining.com/web/vale-posts-35-fall-in-q2-net-profit-narrows-nickel-copper-output-outlook/",
       "source_channel": "playwright"
     },
     {
-      "title": "Update almost triples contained metal at Selkirk Copper's Minto mine",
+      "title": "Selkirk Copper的Minto矿山含金属量近乎翻三倍",
       "source": "MINING.COM",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["copper", "gold", "silver"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "Selkirk Copper's updated Minto mine resource is 47.8 Mt at 0.89% copper, 0.34 g/t gold and 3.2 g/t silver, containing about 940 million lb copper, 530,000 oz gold and 4.8 million oz silver. Measured and indicated contained metal increased by roughly 181% to 192% versus the prior estimate; stage-two drilling is 50,000 m with 37,000 m completed and a feasibility study is due in Q3.",
-      "interpretation": "The updated resource improves the potential future copper supply pipeline, but it is a mineral resource rather than a reserve or operating output forecast; the article says a restart could be in 2028.",
-      "importance": "Material multi-metal resource expansion with a stated development path.",
+      "excerpt": "Selkirk Copper更新后的Minto矿山资源量为47.8 Mt，品位为0.89%铜、0.34 g/t金和3.2 g/t银，约含9.4亿磅铜、530,000盎司金和480万盎司银。按测量与指示资源量口径，含金属量较此前估计增加约181%至192%；第二阶段钻探计划为50,000 m，已完成37,000 m，初步可行性研究预计在第三季度完成。",
+      "interpretation": "资源量更新改善了未来铜供给项目管线，但这是矿产资源量而非储量或在产产量预测；文章称矿山可能在2028年重启。",
+      "importance": "多金属资源量实现实质扩张，并已有明确的开发路径。",
       "url": "https://www.mining.com/update-almost-triples-contained-metal-at-selkirk-coppers-minto-mine/",
       "source_channel": "playwright"
     },
     {
-      "title": "South Korea, Chile sign five MOUs, deepen lithium and copper cooperation",
+      "title": "韩国与智利签署五项谅解备忘录，深化锂和铜合作",
       "source": "MINING.COM / Reuters",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["copper"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "South Korea and Chile signed five memoranda covering mineral resources cooperation, information sharing, technology and human-resource exchange across the lithium and copper value chain. South Korea's presidential office said the arrangements support stable Chilean critical-mineral supplies worth about $2.1 billion annually and Korean companies.",
-      "interpretation": "The agreements strengthen the institutional and commercial framework for Chilean copper supply into Korean-linked value chains; they are cooperation measures, not near-term production additions.",
-      "importance": "Relevant cross-border supply-chain and downstream-demand signal for Chilean copper.",
+      "excerpt": "韩国与智利签署五项备忘录，涵盖矿产资源合作、信息共享，以及锂和铜价值链中的技术与人才交流。韩国总统办公室表示，这些安排有助于稳定获得智利关键矿产供应，该供应每年价值约21亿美元，并支持韩国企业。",
+      "interpretation": "这些协议强化了智利铜进入韩国相关价值链的制度和商业框架，但属于合作措施，并不会立即增加产量。",
+      "importance": "这是与智利铜相关的跨境供应链和下游需求信号。",
       "url": "https://www.mining.com/web/south-korea-chile-sign-five-mous-deepen-lithium-and-copper-cooperation/",
       "source_channel": "playwright"
     },
     {
-      "title": "Copper price jumps on tightening supply, mining stocks rally",
+      "title": "供应收紧推动铜价上涨，矿业股走高",
       "source": "MINING.COM",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["copper"],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "excerpt": "The article reports nearby LME copper at about a $24/t premium to the three-month contract, LME inventories down more than 10,000 t in the week to 262,300 t, and China import premiums at their highest since 2022. It also cites Codelco's view that prior output of 1.7 Mt cannot be reached within five years, March 2026 guidance of no more than 1.357 Mt, storm disruption in Chile and IEA concern that sulfuric-acid shortages put more than one-seventh of global copper output at risk.",
-      "interpretation": "The article contains direct, dated indicators of near-term concentrate/refined-market tightness and operating constraints; price movement is retained only as context for the physical supply evidence.",
-      "importance": "Multiple inventory, operational and input-market constraints point to tighter near-term copper availability.",
+      "excerpt": "文章称，LME近月铜较三个月期货溢价约24美元/吨；LME库存当周下降逾10,000吨至262,300吨；中国进口溢价达到2022年以来最高。文章还引用Codelco的判断：五年内不可能恢复此前170万吨产量目标；公司2026年3月指引为不超过135.7万吨；智利风暴造成扰动，国际能源署则警告硫酸短缺可能影响全球逾七分之一的铜产量。",
+      "interpretation": "文章提供了有明确日期的近端精矿和精炼市场趋紧、以及运营约束指标；价格变化仅作为实体供给证据的背景，不作为单独收录理由。",
+      "importance": "库存、运营和冶炼投入品的多重约束指向更紧张的近期铜供应。",
       "url": "https://www.mining.com/copper-price-jumps-on-tightening-supply-mining-stocks-rally/",
       "source_channel": "playwright"
     },
     {
-      "title": "Newcore Gold's best NYAM hit points to larger Enchi mine in Ghana",
+      "title": "Newcore Gold最佳Nyam钻孔结果指向加纳更大的Enchi矿",
       "source": "MINING.COM",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["gold"],
       "primary_metal": "gold",
       "supply_demand": "supply",
-      "excerpt": "Newcore reported hole NBDD088 grading 25.3 m at 3.67 g/t gold from 307.7 m and hole NBDD091 grading 18 m at 1.26 g/t, including 9 m at 2.31 g/t. The current drilling is outside the resource and mine study; the June preliminary feasibility study used a 5.5 Mtpa open-pit operation producing about 953,000 oz over 9.3 years, with 46,140 m of an 80,000 m program reported.",
-      "interpretation": "The drilling supports potential resource growth and future gold supply, but the reported intercepts are exploration results and are not production or reserve figures.",
-      "importance": "Strong exploration result with a defined, still-expanding development study.",
+      "excerpt": "Newcore报告称，NBDD088钻孔在307.7 m深处见矿25.3 m，品位3.67 g/t金；NBDD091钻孔见矿18 m，品位1.26 g/t，其中包括9 m、品位2.31 g/t的区间。本轮钻探位于资源量和矿山研究范围之外；6月初步可行性研究采用5.5 Mtpa露天矿方案，预计9.3年产出约953,000盎司，80,000 m钻探计划已报告46,140 m。",
+      "interpretation": "钻探结果支持资源量增长和未来黄金供给潜力，但这些见矿段属于勘探结果，不是产量或储量数据。",
+      "importance": "勘探结果较强，且项目开发研究仍在明确并扩展。",
       "url": "https://www.mining.com/newcore-golds-best-nyam-hit-points-to-larger-enchi-mine-in-ghana/",
       "source_channel": "playwright"
     },
     {
-      "title": "Kinross Gold's Lobo-Marte cost jumps 67% as NPV more than triples",
+      "title": "Kinross Gold的Lobo-Marte成本上升67%，NPV增逾三倍",
       "source": "MINING.COM",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["gold"],
       "primary_metal": "gold",
       "supply_demand": "supply",
-      "excerpt": "Kinross's Lobo-Marte project has 160.7 Mt at 1.3 g/t gold, or 6.73 Moz, with a 35,000 t/day process rate and first production targeted for the early 2030s. The updated study estimates about $1.1 billion direct capital plus roughly $700 million indirect capital and contingency; at $3,500/oz gold it gives an NPV of $3.2 billion, a 22% return and a 2.7-year payback.",
-      "interpretation": "This is a future project-development and production-timing signal, not current output; the study economics are explicitly price-assumption dependent.",
-      "importance": "A large, dated gold development milestone with a stated production horizon and capital revision.",
+      "excerpt": "Kinross的Lobo-Marte项目资源量为160.7 Mt、品位1.3 g/t金，即6.73 Moz；处理能力为35,000 t/日，目标是在2030年代初首次投产。更新后的研究估计直接资本开支约11亿美元，另有约7亿美元间接资本开支及预备费；按3,500美元/盎司金价假设，项目NPV为32亿美元、回报率22%、投资回收期2.7年。",
+      "interpretation": "这是未来项目开发和投产时点信号，不代表当前产量；研究经济性明确取决于金价假设。",
+      "importance": "大型黄金项目取得有日期的开发里程碑，并明确了投产时间和资本开支修订。",
       "url": "https://www.mining.com/kinross-golds-lobo-marte-cost-jumps-67-as-npv-more-than-triples/",
       "source_channel": "playwright"
     },
     {
-      "title": "Gangs hijack Ecuador's gold mining supply chain",
+      "title": "帮派控制厄瓜多尔黄金采矿供应链",
       "source": "MINING.COM",
       "publish_time": "2026-07-30",
       "language": "en",
       "metal_tags": ["gold"],
       "primary_metal": "gold",
       "supply_demand": "supply",
-      "excerpt": "Ecuador's 2026-2029 national security plan treats illegal mining as a national-security threat. The article reports 393 illegal-mining complaints in 2025 versus 249 in 2021, more than 600 illegal-mining sites in 2024 according to GI-TOC, and planned monitoring and traceability milestones through 2027-2029.",
-      "interpretation": "Illegal extraction and gang control affect the transparency and compliance of Ecuadorian gold flows; the announced monitoring and traceability plan is a governance response, not a new production estimate.",
-      "importance": "Material above-ground supply-chain and provenance risk for Ecuadorian gold.",
+      "excerpt": "厄瓜多尔2026–2029年国家安全计划将非法采矿列为国家安全威胁。文章称，2025年非法采矿投诉为393起，高于2021年的249起；GI-TOC称2024年非法采矿点超过600个；政府计划在2027–2029年推进监测和可追溯性建设。",
+      "interpretation": "非法开采和帮派控制影响厄瓜多尔黄金流通的透明度与合规性；已宣布的监测和可追溯计划是治理回应，不是新的产量估计。",
+      "importance": "这是厄瓜多尔黄金地面供应链和来源合规的重要风险。",
       "url": "https://www.mining.com/gangs-hijack-ecuadors-gold-mining-supply-chain/",
       "source_channel": "playwright"
     }
@@ -137,32 +137,32 @@
     "part2_searched": true,
     "part2_channel": "browser_use",
     "part1_sources_checked": [
-      "KE Report July 27 roundup was opened; its linked Kuya and other underlying interviews were dated July 20-23 and fell outside the July 28-30 rolling window.",
-      "Clear Commodity Resource Talks was opened and showed no July 28-30 item; Apple Podcasts and broader Podcast, YouTube and webcast searches returned older or undated results, so no directly verifiable qualifying program in the window was found."
+      "已打开KE Report 7月27日汇总页；其中链接的Kuya及其他底层访谈日期为7月20–23日，超出7月28–30日滚动窗口。",
+      "已打开Clear Commodity Resource Talks，未发现7月28–30日节目；Apple Podcasts及更广泛的Podcast、YouTube和Webcast检索只返回较早或无明确日期的结果，因此窗口内没有可直接核验的合格节目。"
     ],
-    "part1_result": "No qualifying Part 1 program was found in the 72-hour window.",
+    "part1_result": "72小时窗口内未发现合格的Part 1访谈节目。",
     "part2_sources_checked": [
-      "scripts/x_search.py --check-login --headless and scripts/x_search.py 2026-07-30 --headless were run with Python 3.13.12 and the persistent profile; login check passed, 34 personal accounts and 18 official accounts were scanned, and 14 candidates were written to x_outputs/2026-07-30_x_raw_materials.txt.",
-      "The Willem Middelkoop original post was opened in the browser and returned HTTP 200 with the author, July 30 timestamp and quoted Hercules Metals CEO-designate statement visible; 13 candidates were excluded for price-only, macro, promotional, duplicate, or insufficiently concrete supply-demand content.",
-      "The date-named raw file already existed, so scripts/x_search.py correctly refused to overwrite it during this correction run; the existing raw evidence was preserved and no new X record was added."
+      "已使用Python 3.13.12和持久化浏览器配置运行scripts/x_search.py --check-login --headless及scripts/x_search.py 2026-07-30 --headless；登录检查通过，扫描34个个人账号和18个官方账号，14个候选已写入x_outputs/2026-07-30_x_raw_materials.txt。",
+      "已在浏览器中打开Willem Middelkoop原帖，HTTP 200，页面显示作者、7月30日发布时间和Hercules Metals候任CEO的引述；另有13个候选因仅涉及价格、宏观、宣传、重复或缺少具体供需内容而排除。",
+      "日期命名的原始材料文件已经存在，因此scripts/x_search.py在本次纠错运行中按规则拒绝覆盖；原有原始证据已保留，未新增X记录。"
     ],
-    "part2_result": "Existing verified X evidence retained; the required raw-material idempotency guard prevented overwriting the 2026-07-30 file.",
+    "part2_result": "保留已有的可核验X证据；原始材料幂等保护阻止覆盖2026-07-30文件。",
     "part3_sources_checked": [
-      "Mandatory mining.com Playwright main path: Chromium headless with the required anti-detection arguments, Windows Chrome 131 user agent, 1920x1080 viewport and en-US locale opened https://www.mining.com/commodity/copper/ with HTTP 200; precise DOM extraction found seven unique July 30 article cards, including the newly verified Vale guidance item, and four copper supply candidates were selected after filtering.",
-      "Mandatory mining.com Playwright main path also opened the gold and silver category pages with HTTP 200; the DOM contained 11 and 9 July 30 date occurrences respectively. Three gold articles were selected and no silver-primary article met the supply-demand filter.",
-      "Google site:mining.com gold July 30 2026 and silver July 30 2026 auxiliary searches were executed; results were mixed or stale and zero current-day qualified evidence was taken from the fallback route. Copper was not substituted with site: search, per the current workflow.",
-      "WebFetch-style page reads for the gold and silver category pages returned HTTP 403, so the required Playwright category path was used; direct article reads were mixed (one article readable, the rest 403 or unsafe), so the same Playwright session verified every selected article.",
-      "Selected article verification path for Vale: same Playwright session opened the article with HTTP 200 and verified the July 30 title, Reuters attribution and 2026 copper guidance of 360,000-380,000 metric tons versus 350,000-380,000 previously.",
-      "Selected article verification path for Selkirk: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date and resource/drilling figures in the DOM.",
-      "Selected article verification path for South Korea-Chile: same Playwright session opened the Reuters article with HTTP 200 and verified the July 30 title, date, five MOUs and copper value-chain details in the DOM.",
-      "Selected article verification path for copper tightness: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, inventory, Codelco, Chile disruption and sulfuric-acid figures in the DOM.",
-      "Selected article verification path for Newcore: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, drill intercepts and preliminary-study figures in the DOM.",
-      "Selected article verification path for Kinross: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, Lobo-Marte resource, capacity, production horizon and study economics in the DOM.",
-      "Selected article verification path for Ecuador: same Playwright session opened the article with HTTP 200 and verified the July 30 title, date, complaint counts, illegal-site count and monitoring/traceability milestones in the DOM.",
-      "The current mining.com Codelco private-capital candidate https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-at-codelco/ returned HTTP 200 and was excluded as a related governance debate without a new production quantity; the old URL returned HTTP 404. No sitemap, Wayback Machine or RSS feed was used."
+      "强制的mining.com Playwright主路径：使用带反检测参数的Chromium headless、Windows Chrome 131 user agent、1920x1080视口和en-US区域设置打开https://www.mining.com/commodity/copper/，HTTP 200；从DOM精确提取到7篇唯一的7月30日文章卡片，其中包括新核验的Vale指引，筛选后收录4条铜供给候选。",
+      "同一强制Playwright主路径打开黄金和白银分类页，均返回HTTP 200；DOM分别包含11次和9次7月30日日期出现。收录3篇黄金文章，没有符合供需筛选条件的白银主金属文章。",
+      "已执行Google的site:mining.com gold July 30 2026和site:mining.com silver July 30 2026辅助检索；结果混杂或陈旧，未从该辅助路径采用当日合格证据。按照当前workflow，没有用site:检索替代铜分类页。",
+      "黄金和白银分类页的WebFetch式读取返回HTTP 403，因此使用规定的Playwright分类页路径；文章直接读取结果不一（1篇可读取，其余返回403或安全限制），所以用同一Playwright会话核验所有入选文章。",
+      "Vale文章核验路径：同一Playwright会话打开文章并返回HTTP 200，核对7月30日标题、Reuters署名，以及2026年铜产量指引从此前的350,000–380,000公吨变为360,000–380,000公吨。",
+      "Selkirk文章核验路径：同一Playwright会话打开文章并返回HTTP 200，在DOM中核对7月30日标题、日期及资源量和钻探数据。",
+      "韩国—智利文章核验路径：同一Playwright会话打开Reuters文章并返回HTTP 200，在DOM中核对7月30日标题、日期、五项备忘录和铜价值链细节。",
+      "铜供应趋紧文章核验路径：同一Playwright会话打开文章并返回HTTP 200，在DOM中核对7月30日标题、日期、库存、Codelco、智利扰动和硫酸数据。",
+      "Newcore文章核验路径：同一Playwright会话打开文章并返回HTTP 200，在DOM中核对7月30日标题、日期、钻孔见矿段和初步研究数据。",
+      "Kinross文章核验路径：同一Playwright会话打开文章并返回HTTP 200，在DOM中核对7月30日标题、日期、Lobo-Marte资源量、处理能力、投产时点和研究经济性。",
+      "厄瓜多尔文章核验路径：同一Playwright会话打开文章并返回HTTP 200，在DOM中核对7月30日标题、日期、投诉数量、非法采矿点数量和监测/可追溯性节点。",
+      "当前mining.com Codelco私人资本候选URL https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-at-codelco/ 返回HTTP 200，但因属于相关治理讨论、没有新的产量数据而排除；旧URL返回HTTP 404。未使用sitemap、Wayback Machine或RSS feed。"
     ],
-    "part3_result": "Seven MINING.COM news signals selected after the current-day category scan, direct article verification, cross-day deduplication and supply-demand filtering.",
-    "mining_com_source_note": "For every selected MINING.COM item, category-page discovery and article verification were performed with the mandated Playwright Chromium session. Article title, publisher/date and core figures were read from the article DOM. Google site: searches were used only as auxiliary gold/silver discovery and not as sole evidence.",
+    "part3_result": "经过当日分类页扫描、文章直接核验、跨日报去重和供需筛选，共收录7条MINING.COM新闻信号。",
+    "mining_com_source_note": "每条入选MINING.COM信息均通过规定的Playwright Chromium会话完成分类页发现和文章核验；标题、发布方/日期及核心数据均读取自文章DOM。Google site:检索仅用于黄金和白银辅助发现，不作为唯一证据。",
     "url_verification": {
       "checked_count": 9,
       "passed_count": 8,
@@ -170,27 +170,27 @@
       "failed_items": [
         {
           "url": "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-in-codelco/",
-          "reason": "HTTP 404; the current article was found at the /at-codelco/ URL and excluded from the report."
+          "reason": "HTTP 404；当前文章已在/at-codelco/ URL找到，但因去重和供需筛选原因排除。"
         }
       ],
-      "notes": "Eight selected URLs were directly opened and verified; one obsolete candidate URL returned HTTP 404."
+      "notes": "8个入选URL已直接打开并核验；1个过时候选URL返回HTTP 404。"
     },
     "new_sources_discovered": []
   },
   "dedup_log": {
     "part1_deduped_urls": [
-      "https://www.kereport.com/2026/07/27/8-company-interviews-from-this-week-fury-kuya-azt-kfr-nvo-tsk-dmx-tigr/: roundup retained as a checked discovery page, but its linked interviews were outside the report window."
+      "https://www.kereport.com/2026/07/27/8-company-interviews-from-this-week-fury-kuya-azt-kfr-nvo-tsk-dmx-tigr/：该汇总页作为已检查的发现页面保留，但其链接的访谈超出本日报窗口。"
     ],
     "part2_deduped_urls": [
-      "https://x.com/peter_krauth/status/2082546406582366276: excluded because the post's claimed C$50 million upsizing was not independently confirmed in a current-day primary release; the official financing announcement checked was July 22 and outside this report window.",
-      "https://x.com/wmiddelkoop/status/2082817624976449649: excluded as a duplicate or insufficiently new macro/resource item after cross-day comparison."
+      "https://x.com/peter_krauth/status/2082546406582366276：帖子声称融资规模增至C$50 million，但未在当日一手公告中独立确认；核验到的官方融资公告日期为7月22日，且超出本日报窗口。",
+      "https://x.com/wmiddelkoop/status/2082817624976449649：跨日比较后作为重复或新增程度不足的宏观/资源项目排除。"
     ],
     "part3_deduped_events": [
-      "https://www.mining.com/web/gold-flows-to-hong-kong-hit-decade-high-before-clearing-launch/: July 29 article, outside the current window and already covered in the prior report.",
-      "https://www.mining.com/web/anglo-american-first-half-loss-shrinks-lifts-dividend-as-teck-merger-awaits-approval/: excluded because the verified article did not provide a concrete new metal supply-demand path.",
-      "https://www.mining.com/web/trump-signs-order-on-export-curbs-to-retain-critical-minerals/: excluded because it did not identify a concrete gold, silver or copper supply-demand effect.",
-      "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-at-codelco/: current Codelco governance debate was checked but excluded because it did not add a new production quantity and overlapped the Codelco supply-constraint signal already retained."
+      "https://www.mining.com/web/gold-flows-to-hong-kong-hit-decade-high-before-clearing-launch/：7月29日文章，超出当前窗口，且已在上一日报覆盖。",
+      "https://www.mining.com/web/anglo-american-first-half-loss-shrinks-lifts-dividend-as-teck-merger-awaits-approval/：已核验文章未提供具体的新金属供需传导路径，因此排除。",
+      "https://www.mining.com/web/trump-signs-order-on-export-curbs-to-retain-critical-minerals/：未明确指出对黄金、白银或铜的具体供需影响，因此排除。",
+      "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-at-codelco/：已检查当前Codelco治理讨论，但未增加新的产量数据，且与已保留的Codelco供给约束信号重叠，因此排除。"
     ],
-    "notes": "The Selkirk resource update is shown once under copper as the primary metal while gold and silver remain substantive tags; no duplicate gold or silver cards were created."
+    "notes": "Selkirk资源量更新仅以铜为主金属展示一次，同时保留黄金和白银实质相关标签；未创建重复的黄金或白银卡片。"
   }
 }
