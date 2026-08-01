@@ -1,0 +1,115 @@
+{
+  "date": "2026-08-01",
+  "report_time": "2026-08-02T07:10:19+08:00",
+  "summary": "铜：Kamoa-Kakula下半年产量修复预期增强，但2026年指引收窄且4万吨库存待去化，供给兑现仍有条件；黄金：DPM的Vareš爬坡提供下半年金银增量，但Ada Tepe已停产，黄金组合增量依赖新项目；白银：暂无独立新增供需信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-07-30T00:00:00+08:00",
+      "end": "2026-08-01T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-01T00:00:00+08:00",
+      "end": "2026-08-01T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-01T00:00:00+08:00",
+      "end": "2026-08-01T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "DPM Metals 2026年第二季度业绩网络直播",
+      "url": "https://dpmmetals.com/investors/investor-centre/",
+      "publish_date": "2026-07-31",
+      "source_type": "webcast",
+      "guest": {
+        "name": "DPM Metals管理层",
+        "background": "官方投资者中心列明2026年第二季度业绩网络直播"
+      },
+      "metal_tags": ["gold", "silver", "copper"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "DPM在7月31日网络直播披露，二季度金当量产量102,690盎司，其中黄金61.0千盎司、白银1,267.9千盎司和铜9.1百万磅；Vareš二季度处理117,250吨矿石、环比增48%，目标2026年底达到85万吨/年处理率。",
+      "detail": "DPM官方投资者中心核验了7月31日第二季度业绩网络直播安排；官方业绩稿披露二季度金当量产量102,690盎司，黄金61.0千盎司、白银1,267.9千盎司、铜9.1百万磅，Vareš处理量117,250吨且环比增加48%。公司称Vareš按计划在2026年底达到850,000吨/年处理率；Ada Tepe于2026年7月15日结束生产，2026年黄金指引为195,000–225,000盎司。",
+      "importance": "DPM的新增供给信号是Vareš从爬坡转向年处理85万吨的明确时间表：二季度处理117,250吨、环比增48%，若配套工程按期完成，金银锌铅供给增量将在2026年下半年兑现。另一方面，Ada Tepe已于7月15日结束生产，全年黄金指引为195,000–225,000盎司，说明组合增量仍需依赖Vareš爬坡，短期不能把金产量增长视为无条件扩张。",
+      "companies": ["DPM Metals"],
+      "projects": ["Vareš", "Ada Tepe"]
+    },
+    {
+      "title": "Ivanhoe Mines 2026年第二季度投资者业绩电话会",
+      "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-to-issue-q2-2026-financial-results-after-market-close-on-july-29-and-host-a-conference-call-for-investors-on-july-30-2026/",
+      "publish_date": "2026-07-30",
+      "source_type": "webcast",
+      "guest": {
+        "name": "Ivanhoe Mines管理层",
+        "background": "官方业绩电话会及配套投资者材料"
+      },
+      "metal_tags": ["copper", "gold", "silver"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "Ivanhoe在7月30日业绩电话会披露，Kamoa-Kakula二季度产铜64,328吨，2026年铜产量指引收窄为290,000–310,000吨，预计下半年产量节奏回升；40,000吨未售铜库存预计在下半年去化。",
+      "detail": "Ivanhoe官方电话会公告核验了7月30日投资者电话会安排；官方第二季度业绩材料披露Kamoa-Kakula二季度产铜64,328吨，二季度销售应付铜61,249吨，约40,000吨铜库存待售，2026年铜产量指引由290,000–330,000吨收窄至290,000–310,000吨。公司预计下半年提高产量率，60MW太阳能加储能项目首批15MW已于7月送电。",
+      "importance": "Kamoa-Kakula的供给判断出现“修复但仍受约束”的组合变化：二季度产铜64,328吨，公司把2026年指引从290,000–330,000吨收窄至290,000–310,000吨，同时把更高产量节奏放在下半年。约40,000吨未售铜库存预计下半年去化，意味着可售量改善部分来自库存释放而非即时矿山产能；太阳能储能首批15MW已送电，则主要降低冶炼能源约束，仍需跟踪地下采矿和回收率兑现。",
+      "companies": ["Ivanhoe Mines"],
+      "projects": ["Kamoa-Kakula Copper Complex"]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "DPM Metals官方Investor Centre已打开，核验2026年7月31日第二季度业绩网络直播安排；DPM官方Q2业绩稿已打开，核验金当量、金银铜产量、Vareš处理量、年底处理率目标、Ada Tepe停产日期及年度指引。",
+      "Ivanhoe Mines官方电话会公告已打开，核验2026年7月30日投资者电话会日期和官方入口；Ivanhoe官方Q2业绩稿已打开，核验Kamoa-Kakula产量、销售量、未售库存、2026年指引区间和储能项目进度。",
+      "最近日报2026-07-31已检查；Eldorado Gold和Capstone Copper的Q2电话会材料已在前日报收录，本次不重复。"
+    ],
+    "part1_result": "完成2026年7月30日至8月1日72小时窗口检索；纳入DPM Metals和Ivanhoe Mines两场官方业绩电话会，未重复收录前日报的Eldorado Gold和Capstone Copper。",
+    "part2_searched": true,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "按工作流使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe运行scripts/x_search.py --check-login --headless；指定环境导入playwright时触发ModuleNotFoundError: No module named 'playwright'，未进入登录检查和原帖检索。",
+      "未使用搜索摘要、截图或不可打开帖子替代原帖证据；已保存2026-08-01的失败原始材料文件。"
+    ],
+    "part2_result": "Part 2通道失败，未收录可打开核验的X原作者帖子；原始失败原因已保存。",
+    "part3_sources_checked": [
+      "mining.com铜分类页强制主路径：按工作流使用指定Python 3.13.12、Chromium headless和反检测参数尝试打开https://www.mining.com/commodity/copper/并从DOM提取文章；指定环境缺少playwright，进程在导入阶段失败，文章数为0。",
+      "mining.com金银分类页直接打开尝试返回Internal Error，未作为证据；未使用sitemap、Wayback Machine或RSS feed。",
+      "Google site:备用路径已执行报告日前后铜、金、银查询（site:mining.com copper/gold/silver + August 1, 2026及July 31, 2026）；返回内容为窗口外、旧页、SEO页或不具供需传导路径的结果，无合格报告日候选。",
+      "SMM铜数据页面已打开交叉检查，页面最新可见数据为2026年7月30日，超出2026年8月1日新闻窗口；未收录。",
+      "ASX上一交易日公告页及中英文公司、Newswire、PR Newswire公开检索已检查；可核验的7月31日项目不在8月1日北京时间窗口，未发现8月1日新增金银铜供需新闻。"
+    ],
+    "part3_result": "完成2026年8月1日全天中英文检索；未发现可在窗口内直接打开核验且满足供需筛选的新闻，part3_news保持空数组。mining.com强制Playwright主路径因指定环境缺少playwright失败，Google site:仅作为备用发现且未提供证据。",
+    "mining_com_source_note": "本次未从mining.com采用新闻。铜分类页主路径因指定Python环境缺少playwright未能完成DOM抓取；金银分类页直接打开返回Internal Error；Google site:备用结果仅用于发现，未作为证据，未发现报告日合格候选。",
+    "url_verification": {
+      "checked_count": 8,
+      "passed_count": 6,
+      "failed_count": 2,
+      "failed_items": [
+        {
+          "url": "https://www.mining.com/commodity/copper/",
+          "reason": "指定Python环境缺少playwright，Playwright DOM主路径在导入阶段失败；独立直接打开返回Internal Error，未获得可核验分类页内容。"
+        },
+        {
+          "url": "https://www.mining.com/commodity/gold/ 和 https://www.mining.com/commodity/silver/",
+          "reason": "直接打开返回Internal Error，未获得可核验文章正文。"
+        }
+      ],
+      "notes": "DPM官方投资者中心、DPM官方Q2业绩稿、Ivanhoe官方电话会公告、Ivanhoe官方Q2业绩稿和SMM数据页面均已实际打开核验；窗口外与不合格候选未作为日报证据。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.eldoradogold.com/sites/eldorado-gold/files/2026-07/q2-2026-earnings-call-presentation.pdf：已在2026-07-31日报Part 1收录，本次不重复。",
+      "https://capstonecopper.com/wp-content/uploads/2026/07/Q2-2026-Conference-Call-Slides.pdf：已在2026-07-31日报Part 1收录，本次不重复。"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Eldorado Gold和Capstone Copper的Q2业绩电话会已在2026-07-31日报Part 1收录，本次不在Part 3重复。",
+      "窗口外的SMM 7月30日数据、ASX 7月31日公告和旧日公司/矿业新闻不纳入2026年8月1日新闻窗口。",
+      "mining.com Google site:备用结果均为窗口外、旧页、SEO结果或无新增供需传导路径，未收录。",
+      "未发现可核验的2026年8月1日独立白银供需事件。"
+    ],
+    "notes": "DPM以黄金为主金属展示一次，同时保留铜和白银实质相关标签；Ivanhoe以铜为主金属展示一次，同时保留金银标签。"
+  }
+}

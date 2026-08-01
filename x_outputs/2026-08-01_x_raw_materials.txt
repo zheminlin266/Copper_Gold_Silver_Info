@@ -1,0 +1,6 @@
+X 原始候选 — 2026-08-01
+采集时间: 2026-08-02T07:02:57+08:00
+采集方法: scripts/x_search.py + C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe + 项目持久化 Chrome 会话
+状态: failed
+原因: 按工作流执行 scripts/x_search.py --check-login --headless 时，指定解释器导入 playwright 失败：ModuleNotFoundError: No module named 'playwright'。未能进入登录检查或候选检索阶段，未使用搜索摘要、截图转述或不可打开帖子替代原帖证据。
+原始候选: 0
