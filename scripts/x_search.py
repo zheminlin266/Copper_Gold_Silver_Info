@@ -21,6 +21,7 @@ Python 环境:
 import asyncio
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -237,10 +238,18 @@ async def open_x_context(playwright, headless: bool):
     return context, browser
 
 
-async def main(date_str: str, headless: bool = False, overwrite: bool = False):
+async def main(
+    date_str: str,
+    headless: bool = False,
+    overwrite: bool = False,
+    output_suffix: str = "",
+):
     output_dir = PROJECT_ROOT / "x_outputs"
     output_dir.mkdir(exist_ok=True)
-    output_file = output_dir / f"{date_str}_x_raw_materials.txt"
+    if output_suffix and not re.fullmatch(r"[A-Za-z0-9_-]+", output_suffix):
+        raise ValueError("output suffix may contain only letters, numbers, underscores, and hyphens")
+    suffix = f"_{output_suffix}" if output_suffix else ""
+    output_file = output_dir / f"{date_str}_x_raw_materials{suffix}.txt"
     if output_file.exists() and not overwrite:
         raise FileExistsError(
             f"Refusing to overwrite existing X raw materials: {output_file}. "
@@ -339,8 +348,14 @@ if __name__ == "__main__":
     date = sys.argv[1]
     headless = "--headless" in sys.argv
     overwrite = "--overwrite" in sys.argv
+    output_suffix = ""
+    for index, argument in enumerate(sys.argv[2:], start=2):
+        if argument.startswith("--output-suffix="):
+            output_suffix = argument.split("=", 1)[1]
+        elif argument == "--output-suffix" and index + 1 < len(sys.argv):
+            output_suffix = sys.argv[index + 1]
     try:
-        asyncio.run(main(date, headless, overwrite))
+        asyncio.run(main(date, headless, overwrite, output_suffix))
     except XLoginRequired as error:
         print(f"X login required: {error}", file=sys.stderr)
         sys.exit(2)

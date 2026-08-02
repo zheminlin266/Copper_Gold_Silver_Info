@@ -1,0 +1,41 @@
+X 原始候选 — 2026-08-02
+采集时间: 2026-08-03T07:44:03.360162+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 3 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-01T20:23:26+00:00
+    北京: 2026-08-02T04:23:26+08:00
+    文本: Best case, America produces 30% of the fuel its own reactor buildout requires.
+
+Run the numbers forward, and the gap widens.
+
+US HALEU production today is 0.9 metric tonnes per year. 
+
+If every planned facility gets built on schedule and hits every one of its targets, domestic
+    链接: https://x.com/KatusaResearch/status/2083649828190318806
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-08-01T20:08:14+00:00
+    北京: 2026-08-02T04:08:14+08:00
+    文本: The August edition of The Morgan Report is now available.
+
+This month I examine:
+• The growing risks surrounding the global oil market
+• Why the Strait of Hormuz matters more than most investors realize
+• The latest developments in gold, silver, platinum, and palladium
+• Key
+    链接: https://x.com/silverguru22/status/2083646004277248297
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-02T13:30:41+00:00
+    北京: 2026-08-02T21:30:41+08:00
+    文本: I’ve loved the color of silver my entire adult life… this is beautiful.
+    链接: https://x.com/duediligenceguy/status/2083908345103052882
+
