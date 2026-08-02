@@ -1,0 +1,12 @@
+X source repair recheck — report date: 2026-08-02
+Collection time: 2026-08-03T07:23:34+08:00
+Method: mandated managed Python + Playwright 1.62.0 + Chrome persistent profile, headless
+
+Dependency repair:
+- C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe now imports Playwright successfully.
+
+Login recheck:
+- Command: scripts/x_search.py --check-login --headless
+- Result: failed; persistent profile opened, but X home page did not expose authenticated navigation.
+- No candidate search was run and no X post was accepted.
+- Search snippets, screenshots, reposts, and inaccessible posts were not substituted for original-post evidence.
