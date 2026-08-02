@@ -1,0 +1,10 @@
+X 原始候选 — 2026-08-02
+采集方法：按工作流使用 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、项目内 .browser_profile/chromium-data 持久化会话和 scripts/x_search.py。
+通道状态：失败，未生成候选。
+
+检查记录：
+- scripts/x_search.py --check-login --headless：失败。
+- scripts/x_search.py 2026-08-02 --headless：失败。
+- 指定解释器实际为 Python 3.13.14。
+- 两次均在导入阶段报错：ModuleNotFoundError: No module named 'playwright'。
+- 未使用搜索摘要、截图、转发或不可打开帖子替代原帖证据。
