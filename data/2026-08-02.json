@@ -1,6 +1,6 @@
 {
   "date": "2026-08-02",
-  "report_time": "2026-08-03T07:46:40+08:00",
+  "report_time": "2026-08-03T08:06:57+08:00",
   "summary": "铜：报告日未发现可核验的新增供需信号，方向维持中性；黄金：无新增供需变化；白银：无新增供需变化。",
   "windows": {
     "part1": {
@@ -40,14 +40,15 @@
       "已逐篇打开核验候选https://www.mining.com/web/column-iron-ore-giants-bhp-and-rio-are-morphing-into-copper-plays/：页面标题和JSON-LD发布日期为2026-08-02，正文披露Rio半年度铜铝业务占基础盈利56%、铜单项39%、铜EBITDA同比增长84%；但内容核心是公司盈利结构与价格背景，没有新增可量化矿山产量、项目里程碑或可验证铜供需传导事实，按标准排除；未使用sitemap、Wayback Machine或RSS feed。",
       "已执行Google site:mining.com copper August 2 2026、gold August 2 2026、silver August 2 2026及铜供需补充查询；返回的可见结果为旧页、SEO/归档页或其他日期内容，未发现报告日可核验供需候选；搜索接口未提供可信的完整总命中数，未将其作为证据。",
       "已检索中英文公司公告、政府/监管、行业媒体和会议/访谈入口，并逐项排除窗口外的2026年7月下旬Q2业绩材料、价格复述、宏观评论及无供需传导路径内容。",
-      "已打开SMM铜页面https://hq.smm.cn/copper和周度TC列表https://hq.smm.cn/copper/list/194；页面显示2026-07-31日期但进口铜精矿指数数值锁定，周度列表最新公开文章仍为2026-07-24，本次不作为日报信号或TC取值证据。",
-      "已补查公开第三方完整正文：东方财富/一德期货与新浪转载可核验的最新SMM值仍为2026-07-24的-154.76美元/干吨；力拓业绩转载只表述季末现货TC约为-150美元/吨，未给出SMM周指数的本期值、上期值和周变化，且口径不同，均不足以写入2026-07-31周度CSV。"
+      "已打开SMM铜页面https://hq.smm.cn/copper和周度TC列表https://hq.smm.cn/copper/list/194；页面显示2026-07-31日期但自动化访问时指数数值锁定，周度列表最新公开文章仍为2026-07-24。",
+      "已补查公开第三方完整正文：东方财富/一德期货与新浪转载可核验的最新SMM值仍为2026-07-24的-154.76美元/干吨；力拓业绩转载只表述季末现货TC约为-150美元/吨，未给出SMM周指数的本期值、上期值和周变化，且口径不同。",
+      "用户提供的官方https://www.metal.com/copper/201910240001页面截图显示SMM Copper Concentrate Index (Weekly)于2026-07-31为-159.37 USD/dmt，周变化为-4.61 USD/dmt；与CSV上一期-154.76的算术一致，已据此追加TC记录。"
     ],
     "part3_result": "完成2026-08-02全天中英文新闻检索；未发现满足日期、来源可访问、事实可核验及供需传导条件的新闻，part3_news保持空数组。",
     "mining_com_source_note": "本次未从mining.com采用新闻。铜分类页Playwright主路径已恢复并实际抓取成功（HTTP 200，DOM正文5755字符，2026-08-02候选1篇）；候选已打开核验但属于盈利结构/价格背景评论，没有新增可量化供需事实，故未入选。Google site:仅作为备用发现，返回内容均非报告日可核验证据。",
     "url_verification": {
-      "checked_count": 8,
-      "passed_count": 6,
+      "checked_count": 9,
+      "passed_count": 7,
       "failed_count": 2,
       "failed_items": [
         {
@@ -59,7 +60,7 @@
           "reason": "原帖URL可打开，但页面未暴露可核验的原帖正文和发布时间，未作为X证据。"
         }
       ],
-      "notes": "本次修复后Mining.com分类页URL已通过Playwright DOM抓取核验但候选不满足供需标准；X登录校验通过并完成3个候选原帖核验；SMM周度TC列表仍未公开2026-07-31完整数值。"
+      "notes": "本次修复后Mining.com分类页URL已通过Playwright DOM抓取核验但候选不满足供需标准；X登录校验通过并完成3个候选原帖核验；官方Metal/SMM页面截图已补充核验2026-07-31 TC值及周变化并写入CSV。"
     },
     "new_sources_discovered": []
   },
