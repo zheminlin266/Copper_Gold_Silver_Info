@@ -1,0 +1,109 @@
+X 原始候选 — 2026-08-04
+采集时间: 2026-08-05T07:08:25.660592+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 11 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-04T14:38:21+00:00
+    北京: 2026-08-04T22:38:21+08:00
+    文本: Rick Rule: Gold & Silver Stock Prices 'A Gift From God' - 'I'll Be Ludic... 
+https://
+youtu.be/AYsj4io-nZ0?si
+=I0XMnlakY8LHSkCE
+… via 
+@YouTube
+ 8-2-2026
+    链接: https://x.com/RealRickRule/status/2084650151650734438
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-08-04T00:07:02+00:00
+    北京: 2026-08-04T08:07:02+08:00
+    文本: The above-ground stockpile of #silver is approximately ~2.2 billion ounces.  If we draw that down at 100 million ounces per year, it would take 22 years to deplete that stockpile.  
+We had a deficit from 1990 to 2005 that is for 15 consecutive years.  The deficit was met with the
+    链接: https://x.com/silverguru22/status/2084430875543126345
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-04T14:07:57+00:00
+    北京: 2026-08-04T22:07:57+08:00
+    文本: How to turn a savings asset into a gambling token...
+
+But who knows—maybe it'll add to price discovery.
+    链接: https://x.com/duediligenceguy/status/2084642498492723509
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-03T17:12:50+00:00
+    北京: 2026-08-04T01:12:50+08:00
+    文本: In case you missed my latest interview...
+
+It covers a lot more than my outlook on gold, silver, etc.
+    链接: https://x.com/duediligenceguy/status/2084326641480745043
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-03T17:12:25+00:00
+    北京: 2026-08-04T01:12:25+08:00
+    文本: In case you missed my latest interview...
+
+It covers a lot more than my outlook on gold, silver, etc.
+
+(Link in reply so X won't hide this post.)
+    链接: https://x.com/duediligenceguy/status/2084326536442786029
+
+[6] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-03T17:52:51+00:00
+    北京: 2026-08-04T01:52:51+08:00
+    文本: Major Silver corrections comparable to today’s decline.
+
+1980 is an outlier and not a useful comp.
+
+Circles mark the post-peak lows following 1974, 2008, and 2011.
+
+Bottom coming, then minimum $70 Silver in winter.
+    链接: https://x.com/TheDailyGold/status/2084336710918471729
+
+[7] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-04T00:33:14+00:00
+    北京: 2026-08-04T08:33:14+08:00
+    文本: For a gold-backed Treasury bond, would investors have confidence that the government would actually redeem it in gold?
+    链接: https://x.com/Brien_Lundin/status/2084437469873778770
+
+[8] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-04T10:45:00+00:00
+    北京: 2026-08-04T18:45:00+08:00
+    文本: Nice one by the great #MichaelCembalest (JPM): 
+
+"The worrisome part of a boom cycle is when companies closest to final demand roll over, even as capital spending beneficiaries of the cycle keep on thriving. 
+
+In late 1999 and early 2000, communications services companies rolled
+    链接: https://x.com/RonStoeferle/status/2084591426193494189
+
+[9] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-03T16:40:19+00:00
+    北京: 2026-08-04T00:40:19+08:00
+    文本: 20 years of In Gold We Trust: from $650 to $4,000+
+
+Central banks bought 1,000+ tonnes 3 years in a row. Fixed income: $147 trillion. Gold allocations: ~3%. Pocket change.
+
+We leave bottom-picking to the proctologists – but the secular bull market is intact.
+
+ New 
+@Sprott
+    链接: https://x.com/RonStoeferle/status/2084318458087420339
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-04T11:34:55+00:00
+    北京: 2026-08-04T19:34:55+08:00
+    文本: Deutsche Bank on Strong Central Bank Gold Demand
+    链接: https://x.com/wmiddelkoop/status/2084603989362921741
+
+[11] @JayantBhandari5 (Jayant Bhandari)
+    UTC: 2026-08-04T12:06:10+00:00
+    北京: 2026-08-04T20:06:10+08:00
+    文本: So every demand is still about reservation?
+    链接: https://x.com/JayantBhandari5/status/2084611853099950389
+
