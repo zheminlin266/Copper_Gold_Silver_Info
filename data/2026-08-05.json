@@ -1,0 +1,203 @@
+{
+  "date": "2026-08-05",
+  "report_time": "2026-08-06T07:16:11+08:00",
+  "summary": "铜：中国产能主导精炼、硫酸供应和美国抢运加剧短期链条约束，Codelco扩建暂停进一步推迟供给；黄金：Proserpine高品位钻探与ASGM正规化增加中长期供给选项，但均非即时产量。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-03T00:00:00+08:00",
+      "end": "2026-08-05T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-05T00:00:00+08:00",
+      "end": "2026-08-05T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-05T00:00:00+08:00",
+      "end": "2026-08-05T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Glencore公布2026年半年度业绩及铜增产路径",
+      "url": "https://www.glencore.com/investors/2026-half-year-results",
+      "publish_date": "2026-08-05",
+      "source_type": "company_presentation",
+      "guest": {
+        "name": "Gary Nagle",
+        "background": "Glencore首席执行官"
+      },
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "Glencore半年度业绩材料披露，2026年上半年自有来源铜产量为397,000吨，同比增加15%；公司预计增长项目到2028年底提供约100万吨年化铜产能，Alumbrera首产调整至2027年下半年。",
+      "detail": "官方业绩页面确认报告、演示材料和网络直播均于2026年8月5日发布。半年度报告将上半年铜增量主要归因于非洲铜业务和Antamina较高采矿量及品位，同时指出2026年铜指引维持不变；增长管线的长期目标为2028年底年化约100万吨、2035年约160万吨。",
+      "importance": "397,000吨自有来源铜产量同比增加15%，说明Glencore的近期供给改善已经体现在实际半年度产量，而不只是项目目标。增量集中在非洲铜业务和Antamina的采矿执行，Alumbrera首产又推迟到2027年下半年，因此未来供给路径依赖现有矿山兑现和项目时间表，不能把增长管线全部视为已锁定产量。",
+      "companies": [
+        "Glencore"
+      ],
+      "projects": [
+        "African Copper",
+        "Antamina",
+        "Alumbrera"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.COM / The Northern Miner",
+      "title": "中国铜冶炼集中度令资深冶金师担忧",
+      "url": "https://www.mining.com/chinas-copper-smelting-grip-worries-veteran-metallurgist/",
+      "publish_time": "2026-08-05",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "文章援引冶金师Phillip Mackie称，中国约冶炼全球60%的铜并精炼相近比例，年产约1,200万至1,300万吨精炼铜，而全球约2,600万吨；中国自身矿产量约占全球8%，但加工超过一半的全球铜。",
+      "interpretation": "这是精矿加工和精炼能力的结构性事实，不是中国矿山产量或全球精炼产量的新增指引。文章同时称美国铜冶炼厂从约12家减少到2家，处理/精炼费接近或低于零，显示过剩冶炼能力与区域集中度可能把精矿供给转化为更强的加工瓶颈；新建现代铜冶炼厂需数十亿美元并接近十年完成许可、建设和调试。",
+      "importance": "中国约60%的全球铜冶炼和相近精炼占比，使铜供给风险更多集中在加工环节而非单一矿山。全球精炼铜约2,600万吨中，中国年产约1,200万—1,300万吨，而美国冶炼厂从约12家降至2家；在电气化、可再生能源和数据中心需求增长的多年窗口内，低处理费与接近十年的新厂建设周期会放大区域供应中断的传导。",
+      "companies": [
+        "中国铜冶炼行业"
+      ],
+      "projects": []
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Codelco El Teniente Andes Norte暂停或带来两年延期",
+      "url": "https://www.mining.com/codelcos-el-teniente-two-year-setback-deepens-copper-fears/",
+      "publish_time": "2026-08-05",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "文章援引工会领导人称，Andes Norte开发暂停最长可能持续两年；新地质研究发现新的地震现象并需约六个月分析。文章还称El Teniente今年前五个月铜产量同比下降约27%，Codelco到2030年年产170万吨的目标已难以实现。",
+      "interpretation": "两年是工会领导人的估计，不是Codelco已经批准的重启时间表；六个月研究期和安全决定说明影响首先作用于扩建进度。文章给出的27%是El Teniente前五个月同比变化，并未量化Andes Norte暂停本身造成的吨位损失，因此不能把全部降幅归因于本次暂停。",
+      "importance": "相较8月4日首次披露的安全暂停，最新报道新增了最长两年和约六个月研究期的时间锚点，并显示El Teniente前五个月产量已同比下降约27%。这使老矿接替与Codelco 2030年170万吨目标的兑现风险从单次复核升级为多年供给路径延后，但暂停对应的新增损失仍未被官方量化，需等待地质研究和重启决定。",
+      "companies": [
+        "Codelco"
+      ],
+      "projects": [
+        "El Teniente",
+        "Andes Norte"
+      ]
+    },
+    {
+      "source": "MINING.COM / Bloomberg News",
+      "title": "美国铜抢运与硫酸供应风险同时挤压现货链条",
+      "url": "https://www.mining.com/copper-price-sets-fresh-us-record-as-tariff-driven-hoarding-meets-shrinking-supply/",
+      "publish_time": "2026-08-05",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "文章称7月超过200,000吨铜抵达美国港口，为IHS Markit自2014年记录以来最大单月流入；COMEX库存今年增加超过40%，美国含私人港口库存的囤货量超过100万吨。霍尔木兹关闭又削减海湾约一半海运硫供应，叠加中国出口禁令至12月，合计约影响全球四分之一硫酸供应。",
+      "interpretation": "美国库存上升主要反映关税前置和贸易流重排，不等于全球终端消费增加；但库存集中在美国会改变可交付地点和区域价差。硫酸是SX-EW的重要投入品，文章称SX-EW约占全球铜产量15%，并指出部分矿山仅有30至60天酸库存，因此供应冲击可能通过酸短缺而非矿石资源短缺传导至铜产量。",
+      "importance": "7月美国单月收铜超过20万吨、含私人港口库存超过100万吨，说明关税预期正在把可交付铜锁在美国而非增加全球供给；与此同时，海湾硫供应减少与中国禁运合计触及约四分之一全球硫酸供应。由于SX-EW约占全球铜产量15%、部分矿山酸库存仅30—60天，短期风险是区域库存错配和酸投入中断叠加，而不是单纯价格波动。",
+      "companies": [],
+      "projects": [
+        "全球SX-EW铜产能"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "WGC与OCIM合作推进秘鲁小规模金矿正规化",
+      "url": "https://www.mining.com/wgc-omm-partner-to-advance-artisanal-and-small-scale-gold-mining/",
+      "publish_time": "2026-08-05",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "世界黄金协会与OCIM Metals and Mining SA签署谅解备忘录，支持秘鲁手工及小规模金矿的正规化、负责任加工、溯源和尽职调查。文章称OCIM已与超过200个小规模采矿作业建立正规化合作伙伴关系，预计这些作业到2026年年底产金1,000千克。",
+      "interpretation": "1,000千克是预计值，不是已经完成的产量；谅解备忘录首先改变的是采矿、加工、溯源和进入正规市场的组织方式。世界黄金协会公开材料将集中式加工、原产地验证和负责任买方列为正规化机制，因此该事件更可能改善合法供给的可见性和可销售性，短期全球金矿总量影响仍不确定。",
+      "importance": "秘鲁超过200个小规模采矿作业被纳入正规化合作，并以2026年底约1,000千克产金为预期锚点，说明新增合法供应的路径已从原则讨论进入作业网络。它不会立即增加全球矿山产量，但可通过集中加工、溯源和尽职调查减少非正规金流损失；1,000千克仍是计划值，兑现取决于作业合规和处理能力。",
+      "companies": [
+        "World Gold Council",
+        "OCIM Metals and Mining SA"
+      ],
+      "projects": [
+        "Peru ASGM formalization"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Osisko Gold在Cariboo Proserpine发现高品位金矿化",
+      "url": "https://www.mining.com/osisko-gold-makes-discovery-at-cariboo-regional-target/",
+      "publish_time": "2026-08-05",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Osisko Gold在不列颠哥伦比亚省Cariboo附近Proserpine早期钻探发现新的矿化系统：一个孔段为4.6米、95.93克/吨金（含0.5米、873克/吨），另一个孔段为8.6米、5.46克/吨金；公司计划在该区钻探26,500米。",
+      "interpretation": "钻孔截段是勘探结果，不等于资源量、储量或可采产量；文章称14个孔均达到目标深度并见矿化，但新系统仍需更多钻探、冶金、工程和经济研究。其与既有Cariboo地下矿计划相邻并具有露天潜力，影响主要是扩大中长期资源转化选项，而不是改变2026年即时供应。",
+      "importance": "Proserpine出现4.6米95.93克/吨金、其中0.5米873克/吨的高品位截段，公司还安排26,500米后续钻探，说明Cariboo的中长期供给底盘仍可能扩大。高品位发现可改善未来露天或地下方案的靶区质量，但它目前只是钻探矿化，尚未转入资源、储量或生产计划；时间影响取决于后续钻探和经济研究。",
+      "companies": [
+        "Osisko Gold Group"
+      ],
+      "projects": [
+        "Cariboo Gold Project",
+        "Proserpine"
+      ]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-03至2026-08-05北京时间72小时窗口检查data/conference_calendar.json、Diggers & Dealers 2026官方节目、Mining Stock Daily、The Northern Miner、Sprott、公司IR页面、公司演示和网络直播候选。",
+      "Diggers & Dealers官方页面确认2026年8月3日至5日论坛及演讲安排，但在收集时未找到可打开并能核对报告日供需事实的完整回放或逐场原始内容，因此未将节目单本身当作访谈信号。",
+      "Glencore官方2026 Half-Year Results页面确认报告、演示材料和音频网络直播均于2026-08-05发布；已打开官方半年度报告、业绩演示和生产报告，核对397,000吨自有来源铜产量、同比+15%、2028年增长管线和Alumbrera时间表。已与最近日报Part 1及Part 3事件去重。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、会议、网络直播和公司演示检索；仅Glencore半年度业绩材料满足报告日、原始页面可访问和金银铜供需事实可核对条件，part1_broadcasts纳入1条。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、Playwright、Chrome headless和项目.browser_profile/chromium-data持久化会话运行scripts/x_search.py --check-login --headless；登录会话认证通过。",
+      "运行scripts/x_search.py 2026-08-05 --headless，检索34个个人账号和18个官方账号，发现11条日期匹配原帖候选并保存至x_outputs/2026-08-05_x_raw_materials.txt。",
+      "11条候选的原作者、handle、原帖URL、北京时间时间和可见文本均保留在原始材料；Rick Rule、Peter Krauth、Lobo Tiggre、Jordan Roy-Byrne、Otavio Costa、Ronnie Stöferle、Willem Middelkoop和Lawrence Lepard候选均为价格/投资观点、宣传或无法形成可核验实体供需变化的内容。"
+    ],
+    "part2_result": "Part 2通道通过，发现并保存11条原作者候选；无符合实体金银铜供需事实和唯一新增事件标准的信号，part2_x_posts保持空数组。",
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用规定的Python 3.13.12路径、Playwright、Chromium headless、--disable-blink-features=AutomationControlled和--no-sandbox打开https://www.mining.com/commodity/copper/；HTTP 200、页面标题Copper Archives - MINING.COM、DOM提取报告日候选4篇。4篇均用同一Playwright会话直接打开核对标题、2026-08-05日期、主体和正文，3篇纳入，Glencore上市融资文章排除。",
+      "Mining.com金分类页Playwright回退路径：HTTP 200、页面标题Gold Archives - MINING.COM、DOM提取报告日候选4篇；银分类页HTTP 200、页面标题Silver Archives - MINING.COM、DOM提取报告日候选1篇，银分类页候选与金分类页价格文章为同一URL。金银8个不同候选URL均已用Playwright直接打开核验，WGC/OMM与Osisko纳入，价格/市场观点文章排除。",
+      "普通网页读取Mining.com铜、金、银分类页时分别返回403或不完整内容，已按专用规则改用同一反检测Playwright会话；未使用sitemap、Wayback Machine或RSS feed。",
+      "已执行Google site:mining.com copper August 5 2026、gold August 5 2026、silver August 5 2026辅助查询，搜索接口分别返回可见结果约15、17、14条，但大多为旧页、分类页或历史日期；搜索摘要只用于发现候选，未单独作为证据。",
+      "Glencore官方业绩页面和PDF、World Gold Council ASGM公开材料、Osisko Development官方新闻/项目资料用于交叉核对背景和项目口径；Codelco官方站点未找到与2026-08-05报道匹配的当前公开公告，因此Codelco新增时长和产量信息保留来源限制。",
+      "已补查英文公司公告、监管/交易所披露、Reuters、官方IR和行业媒体；窗口内其余候选为价格复述、融资/并购、估值模型或没有直接供需传导路径。"
+    ],
+    "part3_result": "完成2026-08-05全天中英文新闻检索与Mining.com强制分类页及Google site:备用路径；铜4篇、金4篇、银1篇候选完成正文核验，最终纳入5条，排除价格观点、融资文章和重复事件。",
+    "mining_com_source_note": "铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日4篇；金/银分类页分别由同一反检测Playwright会话抓取4/1篇。8个不同Mining.com文章URL均已直接打开核验；入选报道的核心数字和公司项目背景另用Glencore、World Gold Council、Osisko及官方公开材料交叉核对。",
+    "url_verification": {
+      "checked_count": 6,
+      "passed_count": 6,
+      "failed_count": 0,
+      "failed_items": [],
+      "notes": "1条Glencore官方业绩页面和5条入选Mining.com新闻URL均已打开并核对标题、发布日期、主体和核心数字；另有8个不同Mining.com候选URL及官方交叉核验页面完成检查。Codelco未找到匹配的当前官方公告，已在来源记录中注明。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Diggers & Dealers节目单没有完整原始回放或可核验供需事实，未与任何日报信号重复；Glencore官方半年度业绩材料未出现在最近日报中，本次保留。"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Glencore在Mining.com的澳大利亚上市融资文章属于财务和公司战略讨论，且与本次官方半年度业绩材料重叠，没有单独新增供需事实，本次排除。",
+      "Codelco事件与2026-08-04日报的首次暂停披露相关，但本次报道新增了工会估计的最长两年、约六个月研究期和前五个月产量同比下降约27%，作为有实质新增时间和产量信息的后续更新保留；不重复计算首次暂停。",
+      "美国铜抢运/库存和硫酸供应文章包含Codelco背景，但其主事件是7月美国实物流向、库存地点和SX-EW投入品风险，与Codelco矿山暂停的传导机制不同，保留为独立信号。",
+      "Mining.com金价与白银联动文章、Durrett金价观点文章和X中的金银价格/投资内容均没有可核验的新增实体供需变化，本次排除。",
+      "Osisko钻探结果与此前Cariboo钻探计划不同，本次只保留报告日新增截段和26,500米计划；资源量、储量和生产均未把勘探结果当作已实现供给。"
+    ],
+    "notes": "每条入选信号仅在主金属板块完整展示；所有新信号均填写唯一primary_metal且该值出现在metal_tags中。"
+  }
+}

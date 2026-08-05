@@ -1,0 +1,124 @@
+X 原始候选 — 2026-08-05
+采集时间: 2026-08-06T07:04:51.872961+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 11 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-04T18:10:05+00:00
+    北京: 2026-08-05T02:10:05+08:00
+    文本: Rick Rule :"99% Of Silver Investors Are About To Be SHOCKED": (Silver Pr... 
+https://
+youtu.be/ArKD5n4ZTnc?si
+=2B6Ew4GLAvymBAZs
+… via 
+@YouTube
+  This interview is scabbed from real interviews, without my permission. The headline is click bait, unrelated to the content
+    链接: https://x.com/RealRickRule/status/2084703436193608169
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-05T14:36:24+00:00
+    北京: 2026-08-05T22:36:24+08:00
+    文本: I’m back—and this week’s Silver Stock Investor is packed.
+
+A new inflation “yardstick.” Over $8T in U.S. debt maturing. The case for lower rates. Plus updates on 17 portfolio companies.
+
+Silver may be biding its time. It won’t forever.
+
+Subscribers only: 
+https://
+thegoldadvisor.com/silver-stock-i
+nvestor/newsletters/creating-value-as-silver-bides-its-time/
+…
+    链接: https://x.com/peter_krauth/status/2085012047969071382
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-05T11:36:40+00:00
+    北京: 2026-08-05T19:36:40+08:00
+    文本: Mine supply surprises are almost always to the downside...
+
+Got copper?
+    链接: https://x.com/duediligenceguy/status/2084966814480794095
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-05T11:13:56+00:00
+    北京: 2026-08-05T19:13:56+08:00
+    文本: I hope they have good security for all that copper…
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2084961094721028445
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-04T20:25:57+00:00
+    北京: 2026-08-05T04:25:57+08:00
+    文本: Plenty of aluminum.
+;-{)}
+
+But I’d bet there’s silver in the electronics too…
+    链接: https://x.com/duediligenceguy/status/2084737625869746396
+
+[6] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-04T17:00:38+00:00
+    北京: 2026-08-05T01:00:38+08:00
+    文本: They usually bottom around the same time but Silver does tend to lag and follow.
+    链接: https://x.com/TheDailyGold/status/2084685956695892301
+
+[7] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-04T20:55:18+00:00
+    北京: 2026-08-05T04:55:18+08:00
+    文本: Very important move in the miners today.
+
+This may be the most profitable period in the modern history of the mining industry.
+
+Game on.
+
+
+https://
+tavicosta.substack.com/p/list-of-brea
+kouts
+…
+    链接: https://x.com/TaviCosta/status/2084745014240755765
+
+[8] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-05T11:58:19+00:00
+    北京: 2026-08-05T19:58:19+08:00
+    文本: Seems that i am in very good company as a keynote speaker at Denver Gold Americas Forum in Colorado Springs this year!
+
+
+@robert_ivanhoe
+ 
+@edwardfishman
+    链接: https://x.com/RonStoeferle/status/2084972263560917352
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-05T09:24:34+00:00
+    北京: 2026-08-05T17:24:34+08:00
+    文本: “Annualized dividends and buybacks announced to date for the senior gold producers have totaled US$11.2 billion so far in 2026, well ahead of last year’s record of US$8.6 billion. As we’ve previously noted, the senior producers have returned more capital over 2024-2026 than over
+    链接: https://x.com/wmiddelkoop/status/2084933572058579218
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-04T18:03:18+00:00
+    北京: 2026-08-05T02:03:18+08:00
+    文本: ‘Tether gold purchases accelerate. Tether purchased 450koz of gold in Q2/26, more than double the 210koz bought in Q1/26, bringing its total holdings to 4.7Moz, worth $18.8 billion and representing ~10% of its reserves. According to 
+http://
+coinmarketcap.com, the market value of
+    链接: https://x.com/wmiddelkoop/status/2084701729199697944
+
+[11] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-05T12:38:59+00:00
+    北京: 2026-08-05T20:38:59+08:00
+    文本: LL: Quick summary of WSJ article this morning.  $60B is not enough?  We are going to need a bigger boat!
+
+@LukeGromen
+ 
+
+WSJ
+Japan plans to use a Federal Reserve lending program to raise dollars to defend the yen without selling its U.S. Treasury holdings.
+
+U.S. Treasury Secretary
+    链接: https://x.com/LawrenceLepard/status/2084982497469739499
+
