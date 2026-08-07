@@ -1,0 +1,139 @@
+X 原始候选 — 2026-08-07
+采集时间: 2026-08-08T07:09:31.805144+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 16 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-06T19:47:42+00:00
+    北京: 2026-08-07T03:47:42+08:00
+    文本: Yup. Welcome to the show
+
+There are a lot of deep pocket buyers competing for gold
+    链接: https://x.com/KatusaResearch/status/2085452778437026202
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-06T18:54:01+00:00
+    北京: 2026-08-07T02:54:01+08:00
+    文本: You’re not paying enough attention to copper. 
+
+A new record high today
+    链接: https://x.com/KatusaResearch/status/2085439267304558942
+
+[3] @RealRickRule (Rick Rule)
+    UTC: 2026-08-07T14:34:54+00:00
+    北京: 2026-08-07T22:34:54+08:00
+    文本: Once a week?
+Gold is a savings product for me.
+
+How about you?
+    链接: https://x.com/RealRickRule/status/2085736446049325265
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-06T19:21:18+00:00
+    北京: 2026-08-07T03:21:18+08:00
+    文本: Sound insights on #silver and its miners. Thanks for sharing Ted.
+    链接: https://x.com/peter_krauth/status/2085446131157254648
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-06T17:29:31+00:00
+    北京: 2026-08-07T01:29:31+08:00
+    文本: Silver has corrected ~50% since January. Painful—but potentially generational.
+
+Our Senior Analyst 
+@TedJButler
+ sees a bottom forming as supply deficits, depleted inventories and strong industrial demand collide.
+
+Why late 2026 could look very different for silver equities:
+    链接: https://x.com/peter_krauth/status/2085418001579540854
+
+[6] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-06T17:23:52+00:00
+    北京: 2026-08-07T01:23:52+08:00
+    文本: AYA 
+@AyaGoldSilver
+  is up 27% in one week—and it isn’t slowing down.
+
+After record production and progress at Boumadine, Aya just expanded its Moroccan land position by 35.4%.
+
+One geological connection caught my eye.
+
+Read why in today’s free Silver Advisor:
+    链接: https://x.com/peter_krauth/status/2085416580603900333
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-07T14:51:01+00:00
+    北京: 2026-08-07T22:51:01+08:00
+    文本: Some call me Darth because I dared to sell gold and silver stocks earlier this year...
+
+But my view of bullion hasn't changed in my entire adult life.
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2085740501907767623
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-06T18:24:55+00:00
+    北京: 2026-08-07T02:24:55+08:00
+    文本: Perfect timing...
+    链接: https://x.com/duediligenceguy/status/2085431942519066720
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-06T18:14:29+00:00
+    北京: 2026-08-07T02:14:29+08:00
+    文本: Dr. Copper gets Trumped again...
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2085429317786575221
+
+[10] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-06T21:26:37+00:00
+    北京: 2026-08-07T05:26:37+08:00
+    文本: My investing philosophy for this bull market: 
+
+Find small companies that are growing, advancing, developing or building big, high-margin potential mines
+    链接: https://x.com/TheDailyGold/status/2085477668829671876
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-07T10:33:40+00:00
+    北京: 2026-08-07T18:33:40+08:00
+    文本: Another 20 tons of Gold towards Asia
+    链接: https://x.com/wmiddelkoop/status/2085675739249078565
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-07T08:37:02+00:00
+    北京: 2026-08-07T16:37:02+08:00
+    文本: Another very strong day for the metals .. silver +5%
+    链接: https://x.com/wmiddelkoop/status/2085646384988901783
+
+[13] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-07T15:39:31+00:00
+    北京: 2026-08-07T23:39:31+08:00
+    文本: She is right, Bitcoin is very cheap in gold terms.  Gold is also still cheap in fiat terms.
+    链接: https://x.com/LawrenceLepard/status/2085752707306938375
+
+[14] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-07T14:58:35+00:00
+    北京: 2026-08-07T22:58:35+08:00
+    文本: yep, gold too
+    链接: https://x.com/LawrenceLepard/status/2085742407081922713
+
+[15] @AmirAdnani (Amir Adnani)
+    UTC: 2026-08-07T15:59:39+00:00
+    北京: 2026-08-07T23:59:39+08:00
+    文本: Honored to be invited to join President Donald J. Trump and industry leaders at today’s roundtable on American mining.
+
+Under his leadership, American mining is back. 
+@UraniumEnergy
+ is proud to serve as America’s national champion on the front end of the nuclear fuel cycle. 
+$UEC
+    链接: https://x.com/AmirAdnani/status/2085757774248468959
+
+[16] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-08-07T15:53:28+00:00
+    北京: 2026-08-07T23:53:28+08:00
+    文本: Education is the foundation of stronger communities.  The Kipushi Mine recently delivered the first 100 school benches to Mwanga Primary School as part of an initiative to provide 1,000 benches to ten schools across the Kipushi community. This investment, part of the Mine's
+    链接: https://x.com/IvanhoeMines_/status/2085756220020015285
+

@@ -1,0 +1,202 @@
+{
+  "date": "2026-08-07",
+  "report_time": "2026-08-08T07:31:00+08:00",
+  "summary": "铜：Grasberg精矿恢复与Manyar复产提供短期冶炼修复，但美国抢运、中国补库和项目/勘探不确定性使区域可交付供给仍偏紧；黄金：中国央行7月增持约20吨、连续21个月买入，官方需求支撑增强；白银：本日无合格新增实体供需信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-05T00:00:00+08:00",
+      "end": "2026-08-07T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-07T00:00:00+08:00",
+      "end": "2026-08-07T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-07T00:00:00+08:00",
+      "end": "2026-08-07T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Ero Copper第二季度业绩电话会：铜产量维持全年指引、Xavantina金回收改善",
+      "url": "https://www.ero.com/investors/events-calendar/",
+      "publish_date": "2026-08-06",
+      "source_type": "webcast",
+      "guest": {
+        "name": "Makko DeFilippo",
+        "background": "Ero Copper总裁兼首席执行官"
+      },
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "Ero Copper在8月6日第二季度业绩电话会及官方材料中披露，二季度铜产量17,315吨、C1现金成本2.42美元/磅；Xavantina产金20,553盎司，环比增长170%。公司维持2026年铜指引67,500—77,500吨，预计下半年加权；矿产金指引40,000—50,000盎司，预期处于低端。",
+      "detail": "Ero官方事件页确认8月6日电话会，并链接2Q26业绩新闻稿、演示材料和MD&A。Caraíba二季度产铜8,351吨、Tucumã产铜8,964吨；Tucumã吞吐量环比增长27%，尾矿过滤能力提升8%。Xavantina披露的20,553盎司包括矿山产金和历史精矿回收金，历史精矿回收金不计入矿产金指引；Furnas项目预计2027年完成预可研，属于中期管线而非当前供给。",
+      "importance": "Ero二季度17,315吨铜产量和Xavantina 20,553盎司金产量（环比增长170%）表明现有矿山执行在下半年指引加权前已出现供给改善。公司仍维持全年铜指引67,500—77,500吨，但金指引40,000—50,000盎司偏向低端，且历史精矿回收金不计入矿产金指引，实际增量不能按回收库存外推。Caraíba、Tucumã吞吐改善与Xavantina设备投运支持短期供给，Furnas钻探和预可研则仍是中期选项，需跟踪下半年兑现。",
+      "companies": [
+        "Ero Copper"
+      ],
+      "projects": [
+        "Caraíba",
+        "Tucumã",
+        "Xavantina",
+        "Furnas Copper-Gold Project"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.COM / Bloomberg",
+      "title": "美国与中国争夺铜货源，现货紧张加剧",
+      "url": "https://www.mining.com/web/copper-market-crunch-brews-as-us-and-china-compete-for-metal/",
+      "publish_time": "2026-08-07",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "language": "en",
+      "excerpt": "文章称美国铜货物流入速度达到至少12年来最快，关税预期推动更多货物运往美国；中国订单上升，贸易商也增加运往中国的货量，全球可交付铜在美国库存和中国补库之间重新分配。",
+      "interpretation": "这是区域流向和现货需求的变化，不是全球供应短缺量化；美国囤货和中国订单共同争夺装运资源，会压缩非美非中市场的即时可得量。影响持续时间取决于美国关税决定、货物转向和中国补库是否延续，价格和期货创新高不作为独立证据。",
+      "importance": "美国货物流入达到至少12年来最快、中国订单上升并吸引额外船货，说明铜的短期紧张正在从矿山供给转为区域可交付性竞争。流向美国的关税前置与中国补库会在未来数周至数月重排库存和套利，可能加剧非美市场现货缺口，但不能据此推导全球总量短缺。关税落地、美国库存消化和中国订单持续性是关键不确定性。"
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "Freeport Indonesia计划9月重启Manyar铜冶炼厂",
+      "url": "https://www.mining.com/web/freeport-indonesia-aims-for-manyar-smelter-restart-next-month-ceo-says/",
+      "publish_time": "2026-08-07",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "PT Freeport Indonesia首席执行官称，随着Grasberg铜精矿恢复，Manyar冶炼厂计划9月恢复生产；公司预计2026年Manyar与PT Smelting合计阴极铜产量接近400,000吨，并预计Grasberg到2027年底接近满负荷。",
+      "interpretation": "9月是公司复产计划，不是已经恢复的产量；接近400,000吨是两座冶炼厂2026年合计估计，也不是本次事件带来的新增量。Grasberg此前因致命泥流事故停产，精矿恢复和矿山爬坡仍是冶炼端持续运行的前提。",
+      "importance": "Manyar计划9月复产可先恢复印尼冶炼端吞吐，但Grasberg在致命泥流事故后仍处恢复阶段，接近满负荷要到2027年底。2026年近40万吨阴极铜是两座冶炼厂的公司估计总量，不是新增产量，因此短期缓解取决于精矿恢复和复产执行，中期供给仍受矿山爬坡约束。",
+      "companies": [
+        "Freeport Indonesia",
+        "Freeport-McMoRan"
+      ],
+      "projects": [
+        "Grasberg",
+        "Manyar Smelter",
+        "PT Smelting"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "NGEx拟分拆Valle Ancho铜金项目",
+      "url": "https://www.mining.com/ngex-to-spin-out-south-american-exploration-company/",
+      "publish_time": "2026-08-07",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "NGEx计划把智利Valle Ancho铜金项目分拆给新公司，股东每持有一股NGEx可获0.2股Spinco；项目面积约1,090平方公里，约占NGEx估算净资产价值1%或约7,500万美元，Spinco将获得至少12个月勘探资金，交易需在2026年第四季度经股东批准。",
+      "interpretation": "Valle Ancho目前是区域规模勘探资产，文章所述钻探靶区和净资产价值不是资源量、储量或生产计划。分拆和独立资金安排可能提高勘探连续性，但仍需股东批准、后续钻探、资源更新、冶金和工程研究，短期不会增加铜金供应。",
+      "importance": "NGEx拟在2026年第四季度股东表决前分拆Valle Ancho，并为新公司提供至少12个月勘探资金，使1,090平方公里的铜金勘探区从附属资产转为独立融资管线。项目约占NGEx估算净资产价值1%（约7,500万美元），当前没有资源、储量或产量贡献；若批准后钻探验证靶区，影响才可能在多年尺度转化为南美铜金供给选项。",
+      "companies": [
+        "NGEx Minerals"
+      ],
+      "projects": [
+        "Valle Ancho",
+        "Lunahuasi",
+        "Los Helados"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Glomar推进深海多金属结核勘探与加工计划",
+      "url": "https://www.mining.com/glomar-minerals-targets-deep-sea-production-before-end-of-trump-term/",
+      "publish_time": "2026-08-07",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "UK Seabed Resources启航前往克拉里昂—克利珀顿区勘查，两个许可证合计约133,000平方公里，65天考察计划是40多年后首次综合生物和地质调查；公司目标是在特朗普任期结束前启动加工，Project Infinity设计每年处理约200,000吨多金属结核和7,500吨陆地钴氢氧化物。",
+      "interpretation": "133,000平方公里和200,000吨/年的数字分别是许可证范围与项目设计规模，不是铜资源量、储量或已实现产能；公司没有披露其中铜的单独吨位。项目还缺少客户、融资和政府资金，环境影响、国际海底规则、监管许可和试验结果决定其能否从勘探推进到商业供给。",
+      "importance": "UKSR在约133,000平方公里许可证区开展65天调查，并提出特朗普任期结束前开始加工的目标，意味着深海多金属结核从概念叙事进入勘探和监管推进阶段。Project Infinity的年处理20万吨结核设计含铜但未拆分铜量，且项目尚无客户、融资或政府资金，不能计入近期铜供给；环境审批、国际海底规则和试验结果决定其长期兑现概率。",
+      "companies": [
+        "Glomar Minerals",
+        "UK Seabed Resources",
+        "Cobalt Blue"
+      ],
+      "projects": [
+        "Clarion-Clipperton Zone",
+        "Project Infinity"
+      ]
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "中国央行7月黄金储备增持提速",
+      "url": "https://www.mining.com/web/chinas-gold-reserves-rise-by-most-since-october-2023-as-buying-pace-quickens/",
+      "publish_time": "2026-08-07",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "language": "en",
+      "excerpt": "中国人民银行7月连续第五个月增持黄金，官方储备连续第21个月增加；储备由6月底的7,544万金衡盎司升至7月底的7,608万盎司，月增64万金衡盎司，约合20吨，为2023年10月以来最大月增持。",
+      "interpretation": "这是央行储备配置形成的官方部门需求，不是矿山供给或珠宝消费；7月增量大于6月48万盎司和3月16万盎司，显示近期购买节奏加快。储备数据只说明当月净变化，不能据此推断未来每月都会维持相同速度。",
+      "importance": "中国央行7月增持64万金衡盎司（约20吨），为2023年10月以来最大月增持，且连续21个月买入，官方部门需求的短期底盘继续增强。相较6月48万盎司、3月16万盎司，7月节奏明显加快，但这反映储备配置而非矿山供给变化；后续月度是否维持高于历史均值仍是需求持续性的关键不确定性。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-05至2026-08-07北京时间72小时窗口检查data/conference_calendar.json、Diggers & Dealers 2026官方节目、Mining Stock Daily、The Northern Miner、Sprott、公司IR页面、公司演示和网络直播候选。",
+      "Diggers & Dealers官方节目确认2026年8月3日至5日论坛安排，但未找到可打开并能核对报告日金银铜供需事实的完整回放或逐场原始内容，因此未把节目单本身当作访谈信号；Galiano和Coeur的业绩电话会页面只有时间安排，没有报告日事实。",
+      "Ero官方事件页确认2026年8月6日第二季度业绩电话会；已打开官方2Q26业绩新闻稿、webcast presentation和MD&A，核对17,315吨二季度铜产量、2.42美元/磅C1现金成本、20,553盎司Xavantina金产量、全年铜指引和金指引口径。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、会议、网络直播和公司演示检索；1条Ero Copper官方业绩网络会议满足报告日、原始页面可访问和金银铜供需事实可核对条件，纳入1条。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、Playwright、明确Chrome路径、headless模式和项目.browser_profile/chromium-data持久化会话运行scripts/x_search.py --check-login --headless；登录会话认证通过。",
+      "运行scripts/x_search.py 2026-08-07 --headless，检索34个个人账号和18个官方账号，发现16条日期匹配原帖候选并保存至x_outputs/2026-08-07_x_raw_materials.txt；未覆盖历史原始材料。",
+      "使用同一持久化Playwright会话逐条打开16个原帖URL，均返回HTTP 200并核对原作者、时间和可见原文。候选内容均为价格/宏观或投资观点、推广/转述、公司社区活动或不含金银铜实体供需新增事实，未纳入日报。"
+    ],
+    "part2_result": "Part 2通道通过，原始候选16条、直接打开核验16条、纳入0条；没有符合实体金银铜供需事实和唯一新增事件标准的原作者帖子。",
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用规定的Python 3.13.12路径、Playwright、Chromium headless、--disable-blink-features=AutomationControlled和--no-sandbox打开https://www.mining.com/commodity/copper/；HTTP 200、页面标题Copper Archives - MINING.COM、DOM提取报告日文章8篇。",
+      "Mining.com金分类页同一反检测Playwright配置HTTP 200并提取报告日候选4篇；银分类页HTTP 200并提取候选1篇。跨分类去重后共10个不同候选URL，铜分类页为主路径，未触发铜分类页失败回退。",
+      "按专用规则执行Google site:mining.com copper August 7 2026、gold August 7 2026、silver August 7 2026辅助查询；结果包含旧页、分类页和重复候选，搜索摘要只用于发现，未用作任何入选信号的独立证据，未使用sitemap、Wayback Machine或RSS feed。",
+      "在成功抓取分类页的同一反检测Playwright会话中直接打开10个不同文章URL，均返回HTTP 200并核对标题、发布日期、主体和可见正文；5条入选文章的公司/监管背景按文章中披露的Reuters、Bloomberg和公司材料口径记录。"
+    ],
+    "part3_result": "完成2026-08-07全天中英文新闻检索、Mining.com铜/金/银强制分类页和Google site:辅助路径；分类页候选8/4/1篇，去重后10篇完成正文核验，最终纳入5条，排除5条价格、名义收入、评论或非目标金属事件。",
+    "mining_com_source_note": "Mining.com铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日8篇；金/银分类页由同一反检测Playwright会话抓取4/1篇。直接文章抓取若独立新会话触发CloudFront 403，则回到已成功打开分类页的同一Playwright会话完成文章核验；本次10个不同候选均在该会话返回200。",
+    "url_verification": {
+      "checked_count": 27,
+      "passed_count": 27,
+      "failed_count": 0,
+      "failed_items": [],
+      "notes": "Ero官方事件页及2Q26材料、16条X原帖URL和10个不同Mining.com候选URL均已直接打开核验；纳入信号的标题、日期、主体和核心数字均有可打开来源，X和Mining.com排除项也记录了直接核验结果。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Diggers & Dealers节目单没有完整原始回放或可核验供需事实，未与任何日报信号重复；Ero官方第二季度业绩网络会议未出现在最近三日报告中，本次保留。"
+    ],
+    "part2_deduped_urls": [
+      "16条X原帖均因价格/投资观点、推广、宏观叙事、社区活动或无新增实体供需事实排除，未与Part 1或Part 3重复展示。"
+    ],
+    "part3_deduped_events": [
+      "NGEx同一文章同时出现在Mining.com铜和金分类页，仅以铜为primary_metal完整展示，黄金保留为实质相关标签；金银价格文章同样跨金/银分类页重复，仅作排除项记录。",
+      "Chile铜出口收入同比增长文章只提供名义出口收入，没有可核验的实物出口量或新增供需规模；金矿股上涨、金银价格上涨文章属于价格/宏观复述，均排除。",
+      "关键矿产港口评论缺少报告日可量化的金银铜新增供给或需求事实；刚果铀泄漏事件的主体是铀和钴出口调查，未形成目标三种金属的直接供需传导，均排除。",
+      "Ero、Freeport、铜流向、NGEx、Glomar和中国央行储备事件均未在最近三日报告中重复；Ero的历史精矿回收金、Freeport的2026年阴极铜总量、Glomar的结核处理设计和NGEx的净资产价值均按实际值、公司估计或项目设计分别标注。"
+    ],
+    "notes": "每条入选信号均填写唯一primary_metal且该值出现在metal_tags中；同一信号只在主金属板块完整展示。实际产量、公司指引、央行储备变化、勘探资产、项目设计规模和区域贸易流向均在excerpt、interpretation与importance中区分，未把资源、储量、计划或情景估算写成已实现供给。"
+  }
+}
