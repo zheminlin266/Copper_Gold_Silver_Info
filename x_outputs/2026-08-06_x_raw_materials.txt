@@ -1,0 +1,215 @@
+X 原始候选 — 2026-08-06
+采集时间: 2026-08-07T08:13:04.922943+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 24 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-06T15:31:42+00:00
+    北京: 2026-08-06T23:31:42+08:00
+    文本: Last time..
+    链接: https://x.com/KatusaResearch/status/2085388353772339562
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-06T15:28:10+00:00
+    北京: 2026-08-06T23:28:10+08:00
+    文本: Knock knock
+
+Who's there?
+
+Gold investors
+    链接: https://x.com/KatusaResearch/status/2085387464139567220
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-05T18:20:20+00:00
+    北京: 2026-08-06T02:20:20+08:00
+    文本: Silver doesn’t tiptoe when sentiment turns. It’s up ~10% from Monday’s low—and right on cue, 
+@OCG_Silver
+ delivered more high-grade hits. But grades aren’t the whole story. With a resource update due next month, 
+@TedJButler
+  explains what really matters.
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/outcrop-silver-12/
+…
+    链接: https://x.com/peter_krauth/status/2085068402197184516
+
+[4] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-05T23:44:52+00:00
+    北京: 2026-08-06T07:44:52+08:00
+    文本: Bill Holter: HERE's When Gold & Silver Rally Resumes 
+https://
+youtu.be/lpIeioT9nuM?si
+=cqXeN55C58Hlwgs1
+… via 
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2085150072048603436
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-05T23:36:45+00:00
+    北京: 2026-08-06T07:36:45+08:00
+    文本: Bill Holter comes down the lane and thunders home the poster on Trump, Bessy, Killer Pete, and the Federal Reserve system....
+
+And then he explains what's next for #GOLD & #SILVER....
+
+All in one freakin show!
+    链接: https://x.com/ArcadiaEconomic/status/2085148033017159767
+
+[6] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-05T17:57:43+00:00
+    北京: 2026-08-06T01:57:43+08:00
+    文本: What today’s #SILVER rally sounds like over in Arcadia headquarters…
+
+
+@arcadiajamband
+    链接: https://x.com/ArcadiaEconomic/status/2085062711365284142
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-05T19:49:26+00:00
+    北京: 2026-08-06T03:49:26+08:00
+    文本: I wonder how much copper there is in this smiling bad boy…
+    链接: https://x.com/duediligenceguy/status/2085090826221507014
+
+[8] @KaiserResearch (John Kaiser)
+    UTC: 2026-08-05T22:32:20+00:00
+    北京: 2026-08-06T06:32:20+08:00
+    文本: New Arizona Gold strategic investor a big endorsement of the Oatman Hypothesis - 
+https://
+kaiserresearch.substack.com/p/new-arizona-
+gold-strategic-investor
+…
+    链接: https://x.com/KaiserResearch/status/2085131821399130239
+
+[9] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-06T05:39:46+00:00
+    北京: 2026-08-06T13:39:46+08:00
+    文本: Do you have a chart showing total gold against total global stock markets value?
+    链接: https://x.com/TheDailyGold/status/2085239386262888694
+
+[10] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-05T19:00:23+00:00
+    北京: 2026-08-06T03:00:23+08:00
+    文本: When your own YouTube comment summary turns into a contrarian indicator…
+
+“Significant portion of the audience believes actual bottom for Gold is lower than suggested, citing $3400-$3600”
+    链接: https://x.com/TheDailyGold/status/2085078480073760856
+
+[11] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-05T19:54:23+00:00
+    北京: 2026-08-06T03:54:23+08:00
+    文本: You had me at "Gold and Silber."
+    链接: https://x.com/Brien_Lundin/status/2085092071107375463
+
+[12] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-05T17:08:41+00:00
+    北京: 2026-08-06T01:08:41+08:00
+    文本: Interesting story. Met MC and his business partner Heath via introduction by mutuals after they'd bought control over 1.6 million acres of land in the prime mining trends in Nevada. Didn't really have a grasp of what they had, but knew it was worth a lot more than they'd paid.
+
+I
+    链接: https://x.com/Brien_Lundin/status/2085050371647349163
+
+[13] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-06T12:13:38+00:00
+    北京: 2026-08-06T20:13:38+08:00
+    文本: Amazing critical metals (Nickel/Copper/Cobalt) discovery by Talon Metals in the US 
+
+It rivals other World Class Discoveries like Voisey Bay (Canada) and Norilsk (Russia)
+
+Grok: The 46.43 m MSU+MMS interval at Tamarack is a standout result for the project and competitive with
+    链接: https://x.com/wmiddelkoop/status/2085338508604957168
+
+[14] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-06T11:56:45+00:00
+    北京: 2026-08-06T19:56:45+08:00
+    文本: Breaking 
+
+Talon Metals Drills Record Vault Zone Intercept at Tamarack: 46.43 Meters of Massive and Mixed Massive Sulphide Mineralization at the Tamarack Nickel-Copper-Cobalt Project ("Tamarack Project"), located in central Minnesota
+
+Voisey Bay 2 (Or Norilsk 2)?
+    链接: https://x.com/wmiddelkoop/status/2085334259196207309
+
+[15] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-06T09:57:04+00:00
+    北京: 2026-08-06T17:57:04+08:00
+    文本: Reuters: Congo bans exports of copper, cobalt concentrates
+    链接: https://x.com/wmiddelkoop/status/2085304137063735312
+
+[16] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-06T09:34:27+00:00
+    北京: 2026-08-06T17:34:27+08:00
+    文本: Breakout Confirmed 
+
+Expect gold to reach $5000 again before year-end
+    链接: https://x.com/wmiddelkoop/status/2085298448312541479
+
+[17] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-06T06:19:40+00:00
+    北京: 2026-08-06T14:19:40+08:00
+    文本: StoneX: Chatter has increased in recent days that President Trump and/or The Department of Commerce will provide an update on the tariff policy regarding refined copper (metal) and even a potential ban or quota system with regard to copper scrap exports
+    链接: https://x.com/wmiddelkoop/status/2085249427761971217
+
+[18] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-05T18:32:37+00:00
+    北京: 2026-08-06T02:32:37+08:00
+    文本: Fed Feeds Gold
+
+After last week’s Fed-decision gold broke out of it’s trading range and is now trading almost $200 higher 
+
+Investors understand the new Fed is steering towards a 3% inflation target, instead of 2%
+    链接: https://x.com/wmiddelkoop/status/2085071491859669465
+
+[19] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-06T14:33:02+00:00
+    北京: 2026-08-06T22:33:02+08:00
+    文本: doesn't matter 1.7% supply growth per year who cares
+    链接: https://x.com/LawrenceLepard/status/2085373589142827133
+
+[20] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-06T13:02:52+00:00
+    北京: 2026-08-06T21:02:52+08:00
+    文本: It's too late to buy gold.....well.....
+    链接: https://x.com/LawrenceLepard/status/2085350895487717578
+
+[21] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-06T13:00:04+00:00
+    北京: 2026-08-06T21:00:04+08:00
+    文本: The Debasement Trade!  It's Alive!
+
+Doubts are growing that the Warsh Fed will hike rates, 
+@annerquaye
+ and 
+@johnauthers
+ write. And that leaves an opening for gold
+    链接: https://x.com/LawrenceLepard/status/2085350192618840493
+
+[22] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-06T12:47:56+00:00
+    北京: 2026-08-06T20:47:56+08:00
+    文本: i wanted to buy I have a conflict with the major gold mining company conference in Denver.   unfortunately
+    链接: https://x.com/LawrenceLepard/status/2085347138293076213
+
+[23] @RobMcEwenMUX (Rob McEwen)
+    UTC: 2026-08-06T13:12:04+00:00
+    北京: 2026-08-06T21:12:04+08:00
+    文本:  McEwen Q2 Results: Net Income of $9.6M ($0.16 per Share), Compared with $3.0M ($0.06 per Share) in Q2 2025.
+ Exploration Results Driving Resource Growth Across All Sites
+ New Stock Mine in Timmins Nearing Production, with Mine Life Extended
+
+Listen to the webcast
+    链接: https://x.com/RobMcEwenMUX/status/2085353210483536367
+
+[24] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-08-05T16:26:26+00:00
+    北京: 2026-08-06T00:26:26+08:00
+    文本: Another great quarter for Kipushi. The mine produced a record 70,177 tonnes of zinc in Q2 2026, at a cash cost of $0.90/lb.
+
+With LME zinc prices remaining near multi-year highs, Kipushi's record production and low-cost operations position it well to benefit from a strong zinc
+    链接: https://x.com/IvanhoeMines_/status/2085039736885027151
+

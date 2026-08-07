@@ -1,0 +1,288 @@
+{
+  "date": "2026-08-06",
+  "report_time": "2026-08-07T08:24:34+08:00",
+  "summary": "铜：刚果铜精矿出口禁令、酸浸供应链压力与美国项目扩产将短期约束可交付供给，但Florence扩产和Campo Morado钻探提供中长期增量选项；黄金：Valentine扩建、Dokwe和Stibnite勘探扩大中长期供给管线；白银：Hecla二季度产量改善，但全年指引下调，增量项目仍待建设爬坡。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-04T00:00:00+08:00",
+      "end": "2026-08-06T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-06T00:00:00+08:00",
+      "end": "2026-08-06T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-06T00:00:00+08:00",
+      "end": "2026-08-06T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Hecla第二季度业绩网络会议：白银产量环比增长并推进增量项目",
+      "url": "https://hecla2021rd.q4web.com//News--Media/events-webcasts/events/event-details/2026/Q2-2026-Hecla-Mining-Company-Earnings-Conference-Call/default.aspx",
+      "publish_date": "2026-08-05",
+      "source_type": "webcast",
+      "guest": {
+        "name": "Rob Krcmarov",
+        "background": "Hecla总裁兼首席执行官"
+      },
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "summary": "Hecla在8月5日管理层业绩网络会议及8月4日业绩材料中披露，二季度持续经营白银产量420.9万盎司，较一季度增长8%；Lucky Friday创季度产量纪录153.3万盎司，Greens Creek黄铁矿精矿回收项目初步估计完全爬坡后每年新增100万—120万盎司白银和1万—1.5万盎司黄金。",
+      "detail": "官方会议页确认8月5日10:00 ET网络会议，官方业绩材料提供产量、指引和项目数字。公司将全年白银指引调整为1,510万—1,610万盎司，低于此前1,510万—1,650万盎司；Keno Hill展望走弱，部分由Greens Creek和Lucky Friday改善抵消。Greens Creek项目的增量为初步潜力估计，尚非实际产量。",
+      "importance": "Hecla本季420.9万盎司白银、环比增长8%与Lucky Friday 153.3万盎司纪录，说明短期供给执行改善已覆盖部分Keno Hill走弱；但全年指引上限由1,650万盎司降至1,610万盎司，供给改善并未完全抵消矿山组合约束。Greens Creek项目潜在年增100万—120万盎司白银和1万—1.5万盎司黄金，需完成技术、建设和爬坡，属于中期选项而非当前产量。",
+      "companies": [
+        "Hecla Mining"
+      ],
+      "projects": [
+        "Greens Creek",
+        "Lucky Friday",
+        "Keno Hill"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "author": "Rob McEwen",
+      "handle": "RobMcEwenMUX",
+      "publish_time": "2026-08-06T21:12:04+08:00",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "McEwen官方账号发布2026年第二季度结果，称Timmins的Stock Mine接近投产且矿山寿命已延长；帖子同时链接公司官方新闻稿和8月6日网络直播。",
+      "interpretation": "这是公司原帖对正式业绩材料和项目进度的摘要，帖子未给出Stock的吨位、金品位或具体首产日期，因此只能作为项目时点信号，不能当作已实现产量。官方新闻稿和后续投产公告仍需核对扩建、矿寿命和时间表的具体数字。",
+      "importance": "Stock Mine接近投产并延长矿山寿命，使McEwen金供给从勘探叙事推进到近端项目兑现阶段；但原帖没有给出首产日期、年产量或新增储量规模，短期供应贡献仍不可量化。后续官方投产公告将决定这项信号能否转化为实际增量。",
+      "url": "https://x.com/RobMcEwenMUX/status/2085353210483536367",
+      "source_channel": "browser_use"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "MINING.COM",
+      "title": "Luca在Campo Morado钻探显示资源增长潜力",
+      "url": "https://www.mining.com/luca-sees-resource-growth-potential-at-campo-morado/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Luca Mining在墨西哥Campo Morado多金属矿的新钻探中，CMUG-26-50孔段为184米、1.18克/吨金、72.42克/吨银、0.39%铜、0.45%铅和1.67%锌，其中包括18米、2.64克/吨金、152.34克/吨银和0.53%铜；公司为Campo Morado和Tahuehueto安排总计80,000米钻探，预算为2,500万美元（约3,400万加元）。",
+      "interpretation": "钻孔截段是勘探结果，不等于资源量、储量或可采产量。文章称Campo Morado处理能力约2,500吨/日，并披露已有地下和地表钻探进度；这些事实支持资源增长和延长矿山寿命的可能性，但仍需后续钻探、资源更新、冶金和工程研究才能转化为供给。",
+      "importance": "Campo Morado出现184米多金属矿化、其中含1.18克/吨金和72.42克/吨银，且公司为两座矿安排80,000米、2,500万美元钻探，说明中长期供给管线仍在扩展。该信号同时覆盖金、银和铜，但钻孔尚未进入资源或生产计划，影响先体现在可开发靶区和未来矿山寿命选项，不能计入当前产量。",
+      "companies": [
+        "Luca Mining"
+      ],
+      "projects": [
+        "Campo Morado",
+        "Tahuehueto"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Florence铜矿需大幅增产才能达到2026年目标",
+      "url": "https://www.mining.com/florence-copper-mine-must-triple-output-to-hit-trekor-target-ceo/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Trekor旗下亚利桑那Florence原位回收铜矿截至6月30日六个月产铜670万磅，其中第二季度为520万磅；公司2026年目标为3,000万—3,500万磅，计划8月再投运约26口井，并预计年末达到设计运行水平。",
+      "interpretation": "按公司目标计算，下半年仍需生产约2,330万—2,830万磅，远高于上半年实际水平，因此目标兑现依赖新井按计划上线和回收率爬坡。文章还披露二季度流量约12,000升/分钟、回收液含铜约1.6克/升；这些是运行参数，不应直接等同于可销售产量。",
+      "importance": "Florence上半年仅产670万磅铜，却要在下半年补足2,330万—2,830万磅才能达到3,000万—3,500万磅的2026年指引，近端供给改善高度依赖8月约26口新井和爬坡执行。若年末达到产能运行率，项目可成为美国区域增量；但当前产量与目标之间的缺口显示兑现风险仍明显高于已锁定供给。",
+      "companies": [
+        "Trekor"
+      ],
+      "projects": [
+        "Florence Copper"
+      ]
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "刚果民主共和国即时禁止铜、钴精矿出口",
+      "url": "https://www.mining.com/web/congo-bans-copper-and-cobalt-concentrates-exports-official-order-says/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "刚果民主共和国签署的官方命令即时禁止铜精矿和钴精矿出口，特殊战略情形可获最长一年豁免，并设置三个月税制过渡期。2026年第一季度官方数据为铜阴极696,725吨、含铜铜精矿53,926吨，精矿含铜18,863吨；Kamoa-Kakula拥有多项豁免。",
+      "interpretation": "禁令改变的是精矿跨境流向和国内冶炼/豁免安排，不等于立即减少矿山开采量；对已经本地精炼或能取得豁免的生产商，实际影响可能较小。由于命令允许战略豁免且过渡期为三个月，短期铜供应影响取决于豁免范围、国内处理能力和库存消化，而不是公告本身的名义吨位。",
+      "importance": "刚果一季度含铜精矿约18,863吨，出口禁令把这部分可贸易中间品转化为国内加工或豁免管理，直接收紧铜精矿的区域流动而非减少矿山资源。Kamoa-Kakula等项目的豁免、三个月过渡期和国内冶炼能力将决定影响强度；因此短期更可能表现为冶炼与物流重排，持续时间则取决于豁免执行和本地消化能力。",
+      "companies": [
+        "Ivanhoe Mines"
+      ],
+      "projects": [
+        "Kamoa-Kakula"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "研究称下一轮关键矿产供应冲击可能始于加工链",
+      "url": "https://www.mining.com/the-next-mining-supply-shock-wont-start-at-a-mine-study/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "GEM Mining Consulting研究称，约3.6百万吨/年的铜酸浸路线占全球原生铜约15%，若硫酸供应中断90天，情景模型暴露的铜量约为111,000吨；若持续一年，模型暴露量约947,000吨。研究还称霍尔木兹航线承载约一半海运硫贸易，中国自2026年5月暂停硫酸出口。",
+      "interpretation": "111,000吨和947,000吨是研究情景估算，不是已经发生的产量损失或预测；实际影响取决于矿山酸库存、替代供应、运输恢复和工艺路线。该研究把供应链瓶颈从矿山扩展到硫、硫酸、化学品和物流环节，为前一日已报道的硫供应风险提供了新的量化压力测试。",
+      "importance": "研究以3.6百万吨/年酸浸铜产能为底盘，估算90天酸中断可能暴露约111,000吨铜、一年则约947,000吨，说明加工投入品缺口足以形成六位数级别的潜在供给扰动。它是压力测试而非实际损失，影响时间取决于30—90天库存、替代酸源和航线恢复；但相较单一矿山事件，新增的是对全球铜供应链脆弱环节的规模化量化。",
+      "companies": [
+        "GEM Mining Consulting"
+      ],
+      "projects": [
+        "全球酸浸铜路线"
+      ]
+    },
+    {
+      "source": "MINING.COM / UK Department for Business and Trade",
+      "title": "英国启动3,400万美元关键矿产加速基金",
+      "url": "https://www.mining.com/uk-opens-applications-for-34m-critical-minerals-fund/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "英国政府开放2,500万英镑（约3,400万美元）Critical Minerals Accelerator申请，单个项目可获15万—300万英镑，用于接近商业化的开采、加工、回收或先进制造项目，交付窗口至2030年3月；该计划是总额5,000万英镑关键矿产项目的一半。",
+      "interpretation": "这是政策资金和项目筛选机制，不是已投产的铜矿供给；英国官方范围覆盖2024年关键矿产清单以及面向2035年工业需求的增长矿产，最终受资助项目和矿种尚未确定。对铜的传导主要在中长期，通过降低示范、首个工业规模设施和加工回收项目的融资门槛实现，不能计入当前供应增量。",
+      "importance": "英国把2,500万英镑资金投向接近商业化的矿产开采、加工和回收项目，项目交付窗口延续至2030年3月，意味着铜等关键矿产的增量支持从战略表态进入可申请的资本环节。由于项目和矿种尚未公布，短期供给贡献不可量化；其研究价值在于为英国中游加工和回收能力提供潜在融资催化，而非立即改变全球铜平衡。",
+      "companies": [
+        "UK Department for Business and Trade"
+      ],
+      "projects": [
+        "Critical Minerals Accelerator"
+      ]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Perpetua在Stibnite发现可能延伸金矿坑的钨矿化",
+      "url": "https://www.mining.com/perpetua-discovers-tungsten-mineralization-at-gold-stibnite-project-in-idaho/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Perpetua在爱达荷Stibnite Gold Project识别出可能延伸当前许可矿坑的金矿勘探靶区和钨来源：CTFZ靶区显示金—钨矿化，HFZ宽度超过100米、走向约0.5公里；当前储量范围外另有3.1百万盎司金和9,980万磅锑的资源背景。",
+      "interpretation": "这些是勘探靶区和既有资源背景，不是新增储量或已批准产量；若要纳入当前许可范围外的矿化，需要进一步钻探、工程研究和监管审查。文章提到项目计划在前四年后保持年均约463,000盎司金的生产目标，但新靶区对该目标的增量尚未量化。",
+      "importance": "Stibnite在既有许可范围外发现宽度超过100米、走向约0.5公里的金—钨靶区，并以3.1百万盎司金资源背景支撑潜在矿坑延伸，扩大了美国中长期金供给的项目选项。新矿化仍需钻探、经济研究和许可，不能直接增加2026年产量；其价值在于可能延长项目规模和提高未来产能弹性，而非已确认的新增储量。",
+      "companies": [
+        "Perpetua Resources"
+      ],
+      "projects": [
+        "Stibnite Gold Project"
+      ]
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "Ariana目标在津巴布韦Dokwe项目2028年产金",
+      "url": "https://www.mining.com/web/ariana-resources-targets-2028-gold-production-from-rare-zimbabwe-greenfield-mine/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Ariana Resources的津巴布韦Dokwe项目拥有约113万盎司黄金储量，预可研预计露天矿在约20年期间峰值年产10万盎司；公司计划2027年第一季度完成最终可研，目标2028年首次产金。",
+      "interpretation": "10万盎司/年是预可研预测，2028年是公司目标而非已承诺投产日期；项目仍需最终可研、融资、建设和运营爬坡。该项目若按计划推进，将把津巴布韦近几十年来少见的绿地金矿开发转化为中期新增供应，但当前不能计入已实现产量。",
+      "importance": "Dokwe以约113万盎司储量和峰值10万盎司/年、约20年的预可研产能，提供了津巴布韦中期金供给的明确规模锚点；2027年一季度最终可研和2028年首金目标则给出时间路径。由于仍处绿地开发阶段，融资、建设和爬坡是从资源到实际供应的关键约束，短期市场影响有限。",
+      "companies": [
+        "Ariana Resources"
+      ],
+      "projects": [
+        "Dokwe"
+      ]
+    },
+    {
+      "source": "MINING.COM / Equinox Gold",
+      "title": "Equinox批准Valentine金矿4.36亿美元扩建",
+      "url": "https://www.mining.com/equinox-gold-approves-436m-valentine-mine-expansion/",
+      "publish_time": "2026-08-06",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Equinox Gold董事会批准Valentine金矿第二阶段4.36亿美元扩建，计划将处理能力提高至13,700吨/日，平均年产金约223,000盎司，预计2028年下半年完成；Valentine在2025年末进入商业生产。",
+      "interpretation": "223,000盎司/年是扩建后的平均产量指引，不是当前产量；扩建资本支出和2028年下半年完成时间意味着增量供给要经过建设、调试和稳定运营。官方公司材料也给出相同的13,700吨/日和223,000盎司/年口径，因此该项目的产能提升比单纯勘探信号更接近可执行的中期增量。",
+      "importance": "Valentine获批4.36亿美元第二阶段扩建，将处理能力推至13,700吨/日并把平均年产金目标提高到223,000盎司，增量时间锚定2028年下半年。相较仍处勘探或预可研阶段的金项目，这是已作资本批准的生产扩张，供给确定性更高；但建设和调试完成前，223,000盎司仍是未来指引而非当前可交付产量。",
+      "companies": [
+        "Equinox Gold"
+      ],
+      "projects": [
+        "Valentine Gold Mine"
+      ]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-04至2026-08-06北京时间72小时窗口检查data/conference_calendar.json、Diggers & Dealers 2026官方节目、Mining Stock Daily、The Northern Miner、Sprott、公司IR页面、公司演示和网络直播候选。",
+      "Diggers & Dealers官方页面确认2026年8月3日至5日论坛及演讲安排，但未找到可打开并能核对报告日金银铜供需事实的完整回放或逐场原始内容，因此未将节目单本身当作访谈信号。",
+      "Hecla官方事件页确认2026年8月5日10:00 ET第二季度业绩网络会议；已打开会议页和2026年8月4日官方业绩新闻稿，核对420.9万盎司二季度白银产量、环比增长8%、全年指引调整及Greens Creek潜在增量数字。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、会议、网络直播和公司演示检索；1条Hecla官方网络会议满足报告日、原始页面可访问和金银供需事实可核对条件，纳入1条。",
+    "part2_searched": true,
+    "part2_channel": "browser_use",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、Playwright、明确Chrome路径、headless模式和项目.browser_profile/chromium-data持久化会话运行scripts/x_search.py --check-login --headless；登录会话认证通过。",
+      "运行scripts/x_search.py 2026-08-06 --headless，检索34个个人账号和18个官方账号，发现24条日期匹配原帖候选并保存至x_outputs/2026-08-06_x_raw_materials.txt；未覆盖历史原始材料。",
+      "对Talon Metals、刚果出口禁令和Rob McEwen候选使用同一持久化Playwright会话直接打开原帖，页面均返回200并核对原作者、原帖文本、时间和可见正文；Talon和刚果候选分别因投资者转述/与新闻重复排除，Rob McEwen官方原帖纳入。"
+    ],
+    "part2_result": "Part 2通道通过，原始候选24条，纳入1条、排除23条；排除项主要为价格或图表观点、宣传/投资者转述、无实体供需新增事实和与Part 3重复的新闻摘要。",
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用规定的Python 3.13.12路径、Playwright、Chromium headless、--disable-blink-features=AutomationControlled和--no-sandbox打开https://www.mining.com/commodity/copper/；HTTP 200、页面标题Copper Archives - MINING.COM、DOM提取报告日文章7篇。",
+      "Mining.com金分类页同一Playwright会话HTTP 200并提取报告日候选6篇；银分类页HTTP 200并提取候选2篇，其中Luca和Lupaka为跨分类重复URL。铜、金、银共得到11个不同候选URL。",
+      "按专用规则执行Google site:mining.com copper August 6 2026、gold August 6 2026、silver August 6 2026辅助查询；铜分类页成功，未触发铜备用发现路径。Google查询只用于发现，搜索接口未提供可作为证据的稳定总命中数，未用摘要单独支持任何入选信号。",
+      "普通网页读取Mining.com分类页和文章时部分返回403或不完整内容，已改用同一反检测Playwright会话直接打开每篇候选；未使用sitemap、Wayback Machine或RSS feed。",
+      "8个入选Mining.com文章URL均直接打开并核对标题、报告日、主体和核心数字；Hecla、Equinox、英国政府、Luca、Ariana和Perpetua的官方公开页面或项目材料用于交叉核对相应背景、产能、时间表或政策金额。"
+    ],
+    "part3_result": "完成2026-08-06全天中英文新闻检索与Mining.com强制分类页主路径；铜7篇、金6篇、银2篇候选完成正文核验，去重后纳入8条，排除金价、融资/法律事项、重复分类页和没有直接供需传导路径的技术试验。",
+    "mining_com_source_note": "铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日7篇；金/银分类页由同一反检测Playwright会话抓取6/2篇。8个不同Mining.com入选文章URL均已直接打开核验；其中英国关键矿产资金、Equinox扩建、Ariana Dokwe、Luca项目背景和Perpetua项目资料另用官方公开页面交叉核验。Mining.com文章直抓若受限则使用同一Playwright会话，未使用搜索摘要作为正文证据。",
+    "url_verification": {
+      "checked_count": 10,
+      "passed_count": 10,
+      "failed_count": 0,
+      "failed_items": [],
+      "notes": "Hecla官方会议页、Rob McEwen原帖和8条入选Mining.com新闻URL均已直接打开并核对标题、日期、主体和核心事实；官方业绩/政策/项目页面另作交叉核验。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Diggers & Dealers节目单没有完整原始回放或可核验供需事实，未与任何日报信号重复；Hecla官方业绩会议未出现在最近日报中，本次保留。"
+    ],
+    "part2_deduped_urls": [
+      "Willem Middelkoop关于刚果铜、钴精矿出口禁令的原帖与Part 3 Reuters报道是同一事件，未重复展示；Rob McEwen原帖未与本日报其他入选来源重复。"
+    ],
+    "part3_deduped_events": [
+      "Mining.com银分类页中的Luca与铜/金分类页为同一文章，只在黄金主金属板块完整展示；Lupaka法律和付款新闻不是新增产量，排除。",
+      "Mining.com金价、白银联动和市场观点文章属于价格复述或宏观情绪，没有可核验的新增实体供需变化，排除。",
+      "NTT远程采矿技术试验与此前Codelco安全/运营叙事相关，但未量化新增产量、停产或恢复时间，排除。",
+      "GEM研究与前一日报硫酸供应风险相关，但本次新增了90天111,000吨和一年947,000吨的压力测试规模，因此作为新增量化研究信号保留；该数字明确标为情景估算而非实际损失。",
+      "同一信号仅在primary_metal对应板块完整展示；相关金属只在确有实质供需事实时保留为标签。"
+    ],
+    "notes": "每条入选信号均填写唯一primary_metal且该值出现在metal_tags中；实际产量、公司指引、预可研、资源背景、勘探结果和压力测试均在excerpt、interpretation与importance中分开表述。"
+  }
+}
