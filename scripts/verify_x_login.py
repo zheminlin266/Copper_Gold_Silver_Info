@@ -15,6 +15,7 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_DIR = PROJECT_ROOT / ".browser_profile" / "chromium-data"
 AUTH_FILE = PROJECT_ROOT / ".browser_profile" / "x_auth.json"
+CHROME_EXECUTABLE = "C:/Program Files/Google/Chrome/Application/chrome.exe"
 
 
 async def main():
@@ -35,6 +36,12 @@ async def main():
         context = await p.chromium.launch_persistent_context(
             user_data_dir=str(PROFILE_DIR),
             headless=False,
+            executable_path=CHROME_EXECUTABLE,
+            args=[
+                "--disable-blink-features=AutomationControlled",
+                "--no-first-run",
+                "--no-default-browser-check",
+            ],
             viewport={"width": 1280, "height": 900},
         )
         page = context.pages[0] if context.pages else await context.new_page()

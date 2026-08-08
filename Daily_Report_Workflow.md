@@ -35,8 +35,8 @@
 
 ## 4. 工具与职责
 
-- Workbuddy：编排检索、打开来源、文件修改、校验、Git 和发布检查。
-- DeepSeek-V4 PRO：分析候选内容、提取事实、判断供需关系、去重和生成中文摘要。
+- gpt-luna：编排检索、打开来源、文件修改、校验、Git 和发布检查。
+- gpt-luna：分析候选内容、提取事实、判断供需关系、去重和生成中文摘要。
 - 普通公开网页优先使用搜索和网页读取工具。
 - Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；不要为了普通静态网页启动浏览器自动化。
 - 网站本身不调用模型，也不保存模型密钥。
@@ -195,7 +195,7 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 ### 9A.2 无登录数据路径
 
-SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评正文需要登录，Workbuddy 不得尝试代替用户登录，也不得把锁定页面中的空白字段当作零值。按以下公开路径获取：
+SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评正文需要登录， 不得尝试代替用户登录，也不得把锁定页面中的空白字段当作零值。按以下公开路径获取：
 
 1. 打开 SMM 铜页面 `https://hq.smm.cn/copper` 或市场周评列表 `https://hq.smm.cn/copper/list/14013`，找到 `TARGET_FRIDAY` 对应的“〖SMM铜精矿现货周评〗”标题、发布日期和官方文章 URL。此步骤用于确认文章身份；即使正文受限，也保留该官方页面用于交叉核验。
 2. 使用网页搜索逐条执行动态日期查询，不得只搜索固定示例：
@@ -233,7 +233,7 @@ SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评�
 
 ## 10. 本地校验
 
-构建前清除当前 PowerShell 进程继承的 `NODE_OPTIONS`，避免 Workbuddy 环境参数传入 Next.js 的 Node.js Worker：
+构建前清除当前 PowerShell 进程继承的 `NODE_OPTIONS`，避免环境参数传入 Next.js 的 Node.js Worker：
 
 ```powershell
 Remove-Item Env:NODE_OPTIONS -ErrorAction SilentlyContinue
