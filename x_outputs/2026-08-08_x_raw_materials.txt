@@ -1,0 +1,95 @@
+X 原始候选 — 2026-08-08
+采集时间: 2026-08-09T07:12:05.756318+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+============================================================
+
+总计候选: 9 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-08T14:53:45+00:00
+    北京: 2026-08-08T22:53:45+08:00
+    文本: The market just gave us a glimpse of how sensitive gold is to the Fed pat.
+
+What happens if the Fed doesn’t hike at all this year?
+    链接: https://x.com/KatusaResearch/status/2086103576636494002
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-08T12:20:37+00:00
+    北京: 2026-08-08T20:20:37+08:00
+    文本: What the Reactor Eats...
+
+Today’s fleet runs on uranium enriched to about 5%. 
+
+The next generation of small modular reactors runs on HALEU, uranium enriched between 5% and 20%.
+
+This is because the higher enrichment gives a smaller reactor longer fuel cycles and more output per
+    链接: https://x.com/KatusaResearch/status/2086065039874642075
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-07T19:31:09+00:00
+    北京: 2026-08-08T03:31:09+08:00
+    文本: $7 copper will turn more heads than Cindy Crawford
+    链接: https://x.com/KatusaResearch/status/2085810998812754160
+
+[4] @RealRickRule (Rick Rule)
+    UTC: 2026-08-07T18:35:10+00:00
+    北京: 2026-08-08T02:35:10+08:00
+    文本: As a mining financier, I love dumb money, and no money is dumber than government money
+As a tax payer, I would prefer to make my own investment decisions
+    链接: https://x.com/RealRickRule/status/2085796911404196023
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-07T18:06:13+00:00
+    北京: 2026-08-08T02:06:13+08:00
+    文本: Silver went from $56.60 Monday to $62.90 Wednesday—an 11% move in 48 hours.
+
+The summer reset may be running out of road.
+
+In the latest Silver Scoop, 
+@TedJButler
+ explains why this could be a generational bottom—and what it means for silver stocks.
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-5/
+…
+    链接: https://x.com/peter_krauth/status/2085789627642945577
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-08T07:44:38+00:00
+    北京: 2026-08-08T15:44:38+08:00
+    文本: Gold looks to be carving out a bottom... but the war has been bad for gold and the war ain't over.
+
+More in The Digest this weekend.
+    链接: https://x.com/duediligenceguy/status/2085995584998310250
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-08T03:13:56+00:00
+    北京: 2026-08-08T11:13:56+08:00
+    文本: 
+    链接: https://x.com/duediligenceguy/status/2085927464996679949
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-08T03:13:33+00:00
+    北京: 2026-08-08T11:13:33+08:00
+    文本: Another day, another new use for silver...
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2085927365834846518
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-08T02:10:40+00:00
+    北京: 2026-08-08T10:10:40+08:00
+    文本: My position is not that gold and silver WILL go lower, but that I'm not interested in buying gold and silver stocks unless they go lower.
+
+If gold and silver take off without me owning stocks, I'm fine with that.
+
+I will buy whatever does go on sale.
+
+BLSH. Repeat.
+    链接: https://x.com/duediligenceguy/status/2085911542957228187
+
