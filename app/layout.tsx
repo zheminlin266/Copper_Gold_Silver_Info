@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/next";
 
 import { SiteHeader } from "@/components/site-header";
 import { SITE_URL } from "@/lib/site";
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             返回顶部 <span aria-hidden="true">↑</span>
           </a>
         </footer>
+        <Analytics />
       </body>
     </html>
   );
