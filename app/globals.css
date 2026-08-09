@@ -1290,9 +1290,9 @@ select {
   }
 
   .site-nav a,
-  .tc-menu__trigger,
-  .tc-menu__panel,
-  .tc-menu__panel a,
+  .nav-menu__trigger,
+  .nav-menu__panel,
+  .nav-menu__panel a,
   .metal-summary__item,
   .recent-item,
   .report-pagination a {

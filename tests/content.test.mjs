@@ -4,6 +4,7 @@ import path from "node:path";
 import test from "node:test";
 
 import { getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
+import { compareReportTimesDesc } from "../lib/report-time.ts";
 import { parseTcCsv } from "../lib/tc-data.ts";
 import { loadReports, validateReport } from "../scripts/validate-content.mjs";
 
@@ -18,6 +19,23 @@ test("archive pagination shows 20 newest items before older pages", () => {
   assert.deepEqual(second.items, reports.slice(20, 40));
   assert.deepEqual(last.items, reports.slice(40, 45));
   assert.equal(last.pageCount, 3);
+});
+
+test("report time sorting uses timezone instants and Beijing midnight for date-only values", () => {
+  const values = [
+    "2026-01-01",
+    "2025-12-31T17:00:00Z",
+    "2025-12-31T16:00:00Z",
+    "2026-01-01T00:00:00+08:00",
+  ];
+
+  assert.deepEqual(values.sort(compareReportTimesDesc), [
+    "2025-12-31T17:00:00Z",
+    "2026-01-01",
+    "2025-12-31T16:00:00Z",
+    "2026-01-01T00:00:00+08:00",
+  ]);
+  assert.ok(compareReportTimesDesc("not-a-time", "2026-01-01") > 0);
 });
 
 test("all daily reports are valid and uniquely dated", () => {
@@ -190,6 +208,15 @@ test("ACG is rendered once under copper while retaining its related metal tags",
   assert.ok(acg, "ACG Metals signal is missing");
   assert.equal(acg.primary_metal, "copper");
   assert.deepEqual(acg.metal_tags, ["gold", "silver", "copper"]);
+});
+
+test("archive search index includes signal fact, interpretation, and importance", () => {
+  const reports = fs.readFileSync(path.join(process.cwd(), "lib", "reports.ts"), "utf8");
+  const searchIndex = /searchText:[\s\S]*?stats: getReportStats/.exec(reports)?.[0] ?? "";
+
+  assert.match(searchIndex, /signal\.fact/);
+  assert.match(searchIndex, /signal\.interpretation/);
+  assert.match(searchIndex, /signal\.importance/);
 });
 
 test("home and daily pages group signals only by primary metal", () => {
