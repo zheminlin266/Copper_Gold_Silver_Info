@@ -205,10 +205,10 @@
     "part3_result": "完成2026-08-04全天中英文新闻检索与mining.com强制路径；铜分类页5篇、金分类页5篇、银分类页1篇均完成正文核验，最终纳入7条，排除重复事件及不具备直接供需传导的候选。",
     "mining_com_source_note": "铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日5篇；金/银分类页分别由同一反检测Playwright会话抓取5/1篇。11篇候选均已通过Playwright直接打开核验；正文入选来源保留Mining.com具体URL，关键产量/项目数据另用公司或监管页面交叉核对。",
     "url_verification": {
-      "checked_count": 7,
-      "passed_count": 7,
-      "failed_count": 0,
-      "failed_items": [],
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
       "notes": "7条入选新闻URL均已打开并核对标题、发布日期、主体和核心数字；Mining.com分类页发现的10个不同文章URL均完成Playwright核验，另有官方公司/监管页面用于交叉核对。"
     },
     "new_sources_discovered": []

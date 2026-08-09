@@ -45,10 +45,10 @@
     "part3_result": "完成2026-08-08全天新闻检索、Mining.com铜强制分类页主路径、金银分类页检查、Google site:备用路径和SMM动态页面检查；铜分类页0篇，最终纳入0条。",
     "mining_com_source_note": "Mining.com铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日文章数0；金/银分类页同一隔离会话返回CloudFront 403，因此未获得金银候选。Google site:搜索仅作候选发现且未产生合格报告日文章；无候选需要文章正文回退核验。",
     "url_verification": {
-      "checked_count": 10,
-      "passed_count": 8,
-      "failed_count": 2,
-      "failed_items": [
+      "checked": 10,
+      "passed": 8,
+      "failed": 2,
+      "failures": [
         {
           "url": "https://www.mining.com/commodity/gold/",
           "reason": "隔离Playwright会话返回CloudFront HTTP 403错误页，未获得报告日候选。"

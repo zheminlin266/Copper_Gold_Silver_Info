@@ -134,6 +134,7 @@ export function TcHistoryChart({ data }: TcHistoryChartProps) {
           viewBox={`0 0 ${CHART_WIDTH} ${CHART_HEIGHT}`}
         >
           <title>SMM Copper Concentrate Index weekly values in US dollars per dry metric tonne</title>
+          <desc>完整逐点数据可在下方“查看全部数据”表格读取。</desc>
           <defs>
             <linearGradient id={gradientId} x1="0" x2="0" y1="0" y2="1">
               <stop offset="0%" stopColor="var(--copper)" stopOpacity="0.2" />

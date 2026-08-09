@@ -19,13 +19,26 @@ Python 环境:
 """
 
 import asyncio
-import json
-import os
 import re
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urljoin
+
+try:
+    from scripts.script_utils import (
+        atomic_write_text,
+        is_x_authenticated,
+        parse_report_date,
+        resolve_chrome_executable,
+    )
+except ModuleNotFoundError:
+    from script_utils import (  # type: ignore[no-redef]
+        atomic_write_text,
+        is_x_authenticated,
+        parse_report_date,
+        resolve_chrome_executable,
+    )
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -35,7 +48,6 @@ if hasattr(sys.stderr, "reconfigure"):
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_DIR = PROJECT_ROOT / ".browser_profile" / "chromium-data"
 STORAGE_STATE_FILE = PROJECT_ROOT / ".browser_profile" / "x_auth.json"
-CHROME_EXECUTABLE = "C:/Program Files/Google/Chrome/Application/chrome.exe"
 
 # 种子账号 (handle → 姓名)
 SEED_ACCOUNTS = [
@@ -105,135 +117,187 @@ class XLoginRequired(RuntimeError):
     """Raised when X redirects the collector to a login or onboarding page."""
 
 
+class XPartialFailure(RuntimeError):
+    """Raised after a partial audit file has been written."""
+
+
 def parse_x_datetime(dt_str: str) -> datetime:
-    """解析 X 的 <time datetime> 为 UTC datetime。"""
-    # X 时间格式: "2026-07-13T15:30:00.000Z"
-    dt_str = dt_str.replace("Z", "+00:00")
-    return datetime.fromisoformat(dt_str)
+    """解析 X 的 <time datetime> 为带时区的 UTC datetime。"""
+    normalized = f"{dt_str[:-1]}+00:00" if dt_str.endswith("Z") else dt_str
+    parsed = datetime.fromisoformat(normalized)
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        raise ValueError("X datetime must include a timezone")
+    return parsed
 
 
-async def search_account(page, handle: str, name: str, date_str: str) -> list[dict]:
-    """搜索单个账号在指定日期的帖子。"""
-    next_date = (datetime.strptime(date_str, "%Y-%m-%d") + timedelta(days=1)).strftime("%Y-%m-%d")
+async def search_account(
+    page, handle: str, name: str, date_str: str
+) -> tuple[list[dict], str | None]:
+    """搜索单个账号；返回候选和可审计的账号级错误。"""
+    next_date = (parse_report_date(date_str) + timedelta(days=1)).isoformat()
     query = f"from:{handle} {SEARCH_QUERY} since:{date_str} until:{next_date}"
     url = "https://x.com/search?" + urlencode({"q": query, "src": "typed_query", "f": "live"})
-    
+
     print(f"  搜索 @{handle} ({name})...")
-    
     try:
-        await page.goto(url, wait_until="domcontentloaded", timeout=15000)
+        response = await page.goto(url, wait_until="domcontentloaded", timeout=15000)
+        if response is None:
+            raise RuntimeError("X search navigation returned no HTTP response")
+        if response.status >= 400:
+            raise RuntimeError(f"X search returned HTTP {response.status}")
         await page.wait_for_timeout(2500)
 
-        if await is_login_wall(page):
+        if not await is_x_authenticated(page):
             raise XLoginRequired("X redirected the search page to a login/onboarding wall")
-        
-        # 解析推文
+
         tweets = []
+        extraction_errors = []
         articles = await page.query_selector_all('article[data-testid="tweet"]')
-        
-        for article in articles:
+
+        for index, article in enumerate(articles, start=1):
             try:
-                # 提取时间
                 time_el = await article.query_selector("time")
                 if not time_el:
+                    extraction_errors.append(f"tweet {index}: missing time element")
                     continue
                 dt_attr = await time_el.get_attribute("datetime")
                 if not dt_attr:
+                    extraction_errors.append(f"tweet {index}: missing time datetime")
                     continue
-                
+
                 utc_time = parse_x_datetime(dt_attr)
                 bj_time = utc_time.astimezone(TZ_BEIJING)
-                
-                # 只收录目标日期的帖子
                 if bj_time.strftime("%Y-%m-%d") != date_str:
                     continue
-                
-                # 提取文本
+
                 text_el = await article.query_selector('[data-testid="tweetText"]')
                 text = await text_el.inner_text() if text_el else ""
-                
-                # 提取链接
+                if not text.strip():
+                    extraction_errors.append(f"tweet {index}: missing or empty tweet text")
+                    continue
+
                 link_el = await article.query_selector('a[href*="/status/"]')
-                post_url = ""
-                if link_el:
-                    href = await link_el.get_attribute("href")
-                    post_url = f"https://x.com{href}" if href else ""
-                
-                tweets.append({
-                    "author": name,
-                    "handle": handle,
-                    "utc_time": utc_time.isoformat(),
-                    "bj_time": bj_time.isoformat(),
-                    "text": text[:500],
-                    "url": post_url,
-                })
-            except Exception as e:
-                continue
-        
-        print(f"    → {len(tweets)} 条窗口内帖子")
-        return tweets
-        
+                href = await link_el.get_attribute("href") if link_el else None
+                if not href:
+                    extraction_errors.append(f"tweet {index}: missing status URL")
+                    continue
+                post_url = urljoin("https://x.com", href)
+
+                tweets.append(
+                    {
+                        "author": name,
+                        "handle": handle,
+                        "utc_time": utc_time.isoformat(),
+                        "bj_time": bj_time.isoformat(),
+                        "text": text[:500],
+                        "url": post_url,
+                    }
+                )
+            except Exception as error:
+                extraction_errors.append(f"tweet {index}: {type(error).__name__}: {error}")
+
+        if extraction_errors:
+            detail = "; ".join(extraction_errors[:3])
+            if len(extraction_errors) > 3:
+                detail += f"; and {len(extraction_errors) - 3} more"
+            error = f"tweet extraction failed for {len(extraction_errors)} item(s): {detail}"
+            print(f"    失败: {error}")
+            return tweets, error
+
+        print(f"    {len(tweets)} 条窗口内帖子")
+        return tweets, None
     except XLoginRequired:
         raise
-    except Exception as e:
-        print(f"    ✗ 失败: {e}")
-        return []
-
-
-async def is_login_wall(page) -> bool:
-    """Return whether the current page requires an X login."""
-    url = page.url.lower()
-    if "/login" in url or "/i/jf/onboarding" in url:
-        return True
-
-    body = (await page.locator("body").inner_text()).lower()
-    login_markers = ("sign in to x", "log in to x", "登录 x", "注册或登录")
-    return any(marker in body for marker in login_markers)
+    except Exception as error:
+        detail = f"{type(error).__name__}: {error}"
+        print(f"    失败: {detail}")
+        return [], detail
 
 
 async def assert_authenticated(page) -> None:
-    """Fail clearly instead of treating a login wall as zero search results."""
-    await page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=30000)
+    """Fail clearly instead of treating an unauthenticated session as zero results."""
+    try:
+        response = await page.goto("https://x.com/home", wait_until="domcontentloaded", timeout=30000)
+    except Exception as error:
+        raise XLoginRequired(f"X home navigation failed: {error}") from error
+    if response is None:
+        raise XLoginRequired("X home navigation returned no HTTP response")
+    if response.status >= 400:
+        raise XLoginRequired(f"X home navigation returned HTTP {response.status}")
     await page.wait_for_timeout(3000)
-    if await is_login_wall(page):
-        raise XLoginRequired("X session is missing or expired; run scripts/setup_x_login.py")
-
-    home_link = await page.locator('a[data-testid="AppTabBar_Home_Link"]').count()
-    account_switcher = await page.locator('[data-testid="SideNav_AccountSwitcher_Button"]').count()
-    if home_link == 0 and account_switcher == 0:
-        raise XLoginRequired("X home page did not expose authenticated navigation")
+    if not await is_x_authenticated(page):
+        raise XLoginRequired(
+            "X session is missing or expired; run scripts/setup_x_login.py"
+        )
 
 
 async def open_x_context(playwright, headless: bool):
-    """Use the live persistent profile first, with exported auth as a fallback."""
+    """Use the persistent profile first, with exported auth as a fallback."""
     if not PROFILE_DIR.exists() and not STORAGE_STATE_FILE.exists():
-        raise XLoginRequired("No X profile found; run scripts/setup_x_login.py")
+        raise XLoginRequired("No X profile or x_auth.json found; run scripts/setup_x_login.py")
 
+    chrome_executable = resolve_chrome_executable()
     launch_args = ["--disable-blink-features=AutomationControlled"]
+    persistent_error = None
+
     if PROFILE_DIR.exists():
+        persistent_options = {
+            "user_data_dir": str(PROFILE_DIR),
+            "headless": headless,
+            "args": launch_args,
+            "viewport": {"width": 1280, "height": 900},
+        }
+        if chrome_executable:
+            persistent_options["executable_path"] = chrome_executable
         try:
-            context = await playwright.chromium.launch_persistent_context(
-                user_data_dir=str(PROFILE_DIR),
-                headless=headless,
-                executable_path=CHROME_EXECUTABLE,
-                args=launch_args,
-                viewport={"width": 1280, "height": 900},
-            )
+            context = await playwright.chromium.launch_persistent_context(**persistent_options)
             print(f"登录会话: persistent profile ({PROFILE_DIR})")
             return context, None
         except Exception as error:
-            print(f"persistent profile unavailable, falling back to x_auth.json: {error}")
+            persistent_error = error
+            if chrome_executable:
+                print(f"persistent Chrome profile unavailable ({error})，尝试 Playwright Chromium...")
+                chromium_options = {
+                    key: value for key, value in persistent_options.items() if key != "executable_path"
+                }
+                try:
+                    context = await playwright.chromium.launch_persistent_context(**chromium_options)
+                    print(f"登录会话: persistent profile ({PROFILE_DIR})")
+                    return context, None
+                except Exception as chromium_error:
+                    persistent_error = chromium_error
+            else:
+                print(f"persistent profile unavailable: {error}")
 
-    browser = await playwright.chromium.launch(
-        headless=headless,
-        executable_path=CHROME_EXECUTABLE,
-        args=launch_args,
-    )
-    context = await browser.new_context(
-        storage_state=str(STORAGE_STATE_FILE),
-        viewport={"width": 1280, "height": 900},
-        user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
-    )
+    if not STORAGE_STATE_FILE.exists():
+        raise XLoginRequired(
+            "X persistent profile could not be opened and x_auth.json is missing; "
+            "run scripts/setup_x_login.py"
+        ) from persistent_error
+
+    browser_options = {"headless": headless, "args": launch_args}
+    if chrome_executable:
+        browser_options["executable_path"] = chrome_executable
+    try:
+        browser = await playwright.chromium.launch(**browser_options)
+    except Exception as error:
+        if chrome_executable:
+            print(f"Chrome auth fallback unavailable ({error})，使用 Playwright Chromium...")
+            browser = await playwright.chromium.launch(
+                **{key: value for key, value in browser_options.items() if key != "executable_path"}
+            )
+        else:
+            raise
+
+    try:
+        context = await browser.new_context(
+            storage_state=str(STORAGE_STATE_FILE),
+            viewport={"width": 1280, "height": 900},
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+        )
+    except Exception as error:
+        await browser.close()
+        raise XLoginRequired(f"x_auth.json could not be loaded: {error}") from error
     print(f"登录会话: exported state fallback ({STORAGE_STATE_FILE})")
     return context, browser
 
@@ -244,73 +308,97 @@ async def main(
     overwrite: bool = False,
     output_suffix: str = "",
 ):
-    output_dir = PROJECT_ROOT / "x_outputs"
-    output_dir.mkdir(exist_ok=True)
+    report_date = parse_report_date(date_str).isoformat()
     if output_suffix and not re.fullmatch(r"[A-Za-z0-9_-]+", output_suffix):
         raise ValueError("output suffix may contain only letters, numbers, underscores, and hyphens")
+
+    output_dir = PROJECT_ROOT / "x_outputs"
+    output_dir.mkdir(exist_ok=True)
     suffix = f"_{output_suffix}" if output_suffix else ""
-    output_file = output_dir / f"{date_str}_x_raw_materials{suffix}.txt"
+    output_file = output_dir / f"{report_date}_x_raw_materials{suffix}.txt"
     if output_file.exists() and not overwrite:
         raise FileExistsError(
             f"Refusing to overwrite existing X raw materials: {output_file}. "
             "Move it aside or use a new report date after confirming the workflow state."
         )
 
-    print(f"X 供需搜索 — 目标日期: {date_str}")
+    print(f"X 供需搜索 — 目标日期: {report_date}")
     print(f"种子账号: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方")
     print(f"搜索词: {SEARCH_QUERY}")
     print()
 
-    if not PROFILE_DIR.exists() and not STORAGE_STATE_FILE.exists():
-        print("✗ 未找到 X 登录状态文件!")
-        print(f"  路径: {STORAGE_STATE_FILE}")
-        print("  请先运行 setup_x_login.py 完成 X 登录")
-        sys.exit(1)
-
     from playwright.async_api import async_playwright
 
-    async with async_playwright() as p:
-        context, browser = await open_x_context(p, headless)
-        page = await context.new_page()
-        await assert_authenticated(page)
+    all_tweets = []
+    failed_accounts: list[tuple[str, str, str]] = []
+    all_accounts = SEED_ACCOUNTS + OFFICIAL_ACCOUNTS
 
-        all_tweets = []
-        all_accounts = SEED_ACCOUNTS + OFFICIAL_ACCOUNTS
+    async with async_playwright() as playwright:
+        context, browser = await open_x_context(playwright, headless)
+        try:
+            page = await context.new_page()
+            await assert_authenticated(page)
 
-        for batch_idx in range(0, len(all_accounts), 5):
-            batch = all_accounts[batch_idx:batch_idx + 5]
-            print(f"--- 批次 {batch_idx // 5 + 1} ({len(batch)} 账号) ---")
-            
-            for handle, name in batch:
-                tweets = await search_account(page, handle, name, date_str)
-                all_tweets.extend(tweets)
-            
-            await page.wait_for_timeout(1000)  # 批次间隔
+            for batch_idx in range(0, len(all_accounts), 5):
+                batch = all_accounts[batch_idx : batch_idx + 5]
+                print(f"--- 批次 {batch_idx // 5 + 1} ({len(batch)} 账号) ---")
 
-        await context.close()
-        if browser:
-            await browser.close()
+                for handle, name in batch:
+                    tweets, error = await search_account(page, handle, name, report_date)
+                    all_tweets.extend(tweets)
+                    if error:
+                        failed_accounts.append((handle, name, error))
 
-    # 写入原始候选文件
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(f"X 原始候选 — {date_str}\n")
-        f.write(f"采集时间: {datetime.now(TZ_BEIJING).isoformat()}\n")
-        f.write(f"采集方法: Playwright + Chrome (persistent profile with storage_state fallback)\n")
-        f.write(f"搜索词: {SEARCH_QUERY}\n")
-        f.write(f"账号批次: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方\n")
-        f.write(f"=" * 60 + "\n\n")
-        f.write(f"总计候选: {len(all_tweets)} 条\n\n")
-        f.write("=" * 60 + "\n\n")
+                await page.wait_for_timeout(1000)
+        finally:
+            await context.close()
+            if browser:
+                await browser.close()
 
-        for i, tweet in enumerate(all_tweets, 1):
-            f.write(f"[{i}] @{tweet['handle']} ({tweet['author']})\n")
-            f.write(f"    UTC: {tweet['utc_time']}\n")
-            f.write(f"    北京: {tweet['bj_time']}\n")
-            f.write(f"    文本: {tweet['text']}\n")
-            f.write(f"    链接: {tweet['url']}\n")
-            f.write("\n")
+    status = "partial" if failed_accounts else "complete"
+    output = [
+        f"X 原始候选 — {report_date}\n",
+        f"采集时间: {datetime.now(TZ_BEIJING).isoformat()}\n",
+        "采集方法: Playwright + Chrome (persistent profile with storage_state fallback)\n",
+        f"搜索词: {SEARCH_QUERY}\n",
+        f"账号批次: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方\n",
+        f"采集状态: {status}\n",
+        f"失败账号数: {len(failed_accounts)}\n",
+    ]
+    if failed_accounts:
+        output.append("失败账号:\n")
+        for handle, name, error in failed_accounts:
+            output.append(f"  @{handle} ({name}): {error}\n")
+    else:
+        output.append("失败账号: 无\n")
+    output.extend(
+        [
+            "=" * 60 + "\n\n",
+            f"总计候选: {len(all_tweets)} 条\n\n",
+            "=" * 60 + "\n\n",
+        ]
+    )
 
-    print(f"\n✓ 完成: {len(all_tweets)} 条候选 → {output_file}")
+    for index, tweet in enumerate(all_tweets, 1):
+        output.extend(
+            [
+                f"[{index}] @{tweet['handle']} ({tweet['author']})\n",
+                f"    UTC: {tweet['utc_time']}\n",
+                f"    北京: {tweet['bj_time']}\n",
+                f"    文本: {tweet['text']}\n",
+                f"    链接: {tweet['url']}\n",
+                "\n",
+            ]
+        )
+
+    atomic_write_text(output_file, "".join(output), overwrite=overwrite)
+    if failed_accounts:
+        print(f"\n部分完成: {len(all_tweets)} 条候选，{len(failed_accounts)} 个账号失败 -> {output_file}")
+        raise XPartialFailure(
+            f"{len(failed_accounts)} account(s) failed; audit output written to {output_file}"
+        )
+
+    print(f"\n完成: {len(all_tweets)} 条候选 -> {output_file}")
     return output_file
 
 
@@ -318,8 +406,8 @@ async def check_login(headless: bool = True):
     """Check the active X profile without creating or changing report files."""
     from playwright.async_api import async_playwright
 
-    async with async_playwright() as p:
-        context, browser = await open_x_context(p, headless)
+    async with async_playwright() as playwright:
+        context, browser = await open_x_context(playwright, headless)
         try:
             page = await context.new_page()
             await assert_authenticated(page)
@@ -362,3 +450,6 @@ if __name__ == "__main__":
     except FileExistsError as error:
         print(f"X raw-material output already exists: {error}", file=sys.stderr)
         sys.exit(3)
+    except XPartialFailure as error:
+        print(f"X raw-material collection partial: {error}", file=sys.stderr)
+        sys.exit(4)

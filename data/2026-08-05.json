@@ -178,10 +178,10 @@
     "part3_result": "完成2026-08-05全天中英文新闻检索与Mining.com强制分类页及Google site:备用路径；铜4篇、金4篇、银1篇候选完成正文核验，最终纳入5条，排除价格观点、融资文章和重复事件。",
     "mining_com_source_note": "铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日4篇；金/银分类页分别由同一反检测Playwright会话抓取4/1篇。8个不同Mining.com文章URL均已直接打开核验；入选报道的核心数字和公司项目背景另用Glencore、World Gold Council、Osisko及官方公开材料交叉核对。",
     "url_verification": {
-      "checked_count": 6,
-      "passed_count": 6,
-      "failed_count": 0,
-      "failed_items": [],
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
       "notes": "1条Glencore官方业绩页面和5条入选Mining.com新闻URL均已打开并核对标题、发布日期、主体和核心数字；另有8个不同Mining.com候选URL及官方交叉核验页面完成检查。Codelco未找到匹配的当前官方公告，已在来源记录中注明。"
     },
     "new_sources_discovered": []

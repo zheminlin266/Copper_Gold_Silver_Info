@@ -22,7 +22,7 @@
       "url": "https://www.eldoradogold.com/sites/eldorado-gold/files/2026-07/q2-2026-earnings-call-presentation.pdf",
       "publish_date": "2026-07-31",
       "source_type": "webcast",
-      "guest": "George Burns、Eldorado Gold管理层",
+      "guest": {"name": "George Burns、Eldorado Gold管理层"},
       "metal_tags": ["copper", "gold", "silver"],
       "primary_metal": "copper",
       "supply_demand": "supply",
@@ -34,7 +34,7 @@
       "url": "https://capstonecopper.com/wp-content/uploads/2026/07/Q2-2026-Conference-Call-Slides.pdf",
       "publish_date": "2026-07-31",
       "source_type": "webcast",
-      "guest": "John MacKenzie、Capstone Copper管理层",
+      "guest": {"name": "John MacKenzie、Capstone Copper管理层"},
       "metal_tags": ["copper", "gold", "silver"],
       "primary_metal": "copper",
       "supply_demand": "supply",
@@ -85,10 +85,10 @@
     "part3_result": "完成7月31日中英文新闻检索；保留1条智利官方统计口径铜供给数据，未发现可核验的独立金/银供需新闻；mining.com强制铜分类抓取因环境缺少Playwright且隔离会话被403阻断。",
     "mining_com_source_note": "本次未从mining.com采用新闻。主路径因指定解释器缺少playwright未能抓取分类页，隔离Playwright会话返回403；Google site:结果仅用于备用发现且均未作为证据。",
     "url_verification": {
-      "checked_count": 6,
-      "passed_count": 5,
-      "failed_count": 1,
-      "failed_items": [
+      "checked": 6,
+      "passed": 5,
+      "failed": 1,
+      "failures": [
         {
           "url": "https://www.mining.com/commodity/copper/",
           "reason": "指定Python路径缺少playwright；隔离Playwright再次访问返回HTTP 403，未取得可核验分类页内容。"

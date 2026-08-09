@@ -513,6 +513,11 @@ select {
   color: #5d4c81;
 }
 
+.tag--unverified {
+  background: #f2e9e7;
+  color: var(--danger);
+}
+
 .metal--gold {
   color: var(--gold);
 }
@@ -547,6 +552,12 @@ select {
 
 .signal-card__source {
   margin-top: 6px;
+}
+
+.signal-card__verification {
+  margin-top: 6px;
+  color: var(--danger);
+  font-size: 14px;
 }
 
 .signal-block {
@@ -1290,9 +1301,9 @@ select {
   }
 
   .site-nav a,
-  .tc-menu__trigger,
-  .tc-menu__panel,
-  .tc-menu__panel a,
+  .nav-menu__trigger,
+  .nav-menu__panel,
+  .nav-menu__panel a,
   .metal-summary__item,
   .recent-item,
   .report-pagination a {

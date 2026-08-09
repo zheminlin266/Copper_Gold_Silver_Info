@@ -145,10 +145,10 @@
     ],
     "part3_result": "完成7月28日中英文新闻检索。强制mining.com铜分类主路径成功，辅助金/银site搜索未提供新增合格条目；6条新闻入选，排除智利暴雨重复事件、价格/宏观评论和缺少供需量化信息的候选。",
     "url_verification": {
-      "checked_count": 14,
-      "passed_count": 14,
-      "failed_count": 0,
-      "failed_items": [],
+      "checked": 14,
+      "passed": 14,
+      "failed": 0,
+      "failures": [],
       "notes": "入选X、新闻和交叉核验来源均使用具体文章/帖子/官方PDF URL并实际打开；Santacruz WebFetch缓存未命中但Playwright HTTP 200核验完整正文。未将搜索摘要单独作为证据。"
     },
     "new_sources_discovered": [

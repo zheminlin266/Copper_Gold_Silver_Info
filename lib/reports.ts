@@ -8,6 +8,7 @@ import type {
   ReportStats,
   ReportSummary,
 } from "@/lib/report-types";
+import { compareReportTimesDesc } from "@/lib/report-time";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 const REPORT_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
@@ -52,11 +53,20 @@ function readReport(filename: string): DailyReport {
 }
 
 export function getReports(): DailyReport[] {
-  return fs
-    .readdirSync(DATA_DIR)
-    .filter((filename) => REPORT_FILE.test(filename))
-    .map(readReport)
-    .sort((a, b) => b.date.localeCompare(a.date));
+  let filenames: string[];
+  try {
+    filenames = fs.readdirSync(DATA_DIR);
+  } catch (error) {
+    throw new Error(
+      `Unable to read daily reports from data directory ${DATA_DIR}: ${error instanceof Error ? error.message : String(error)}`,
+    );
+  }
+
+  const reports = filenames.filter((filename) => REPORT_FILE.test(filename)).map(readReport);
+  if (!reports.length) {
+    throw new Error(`No daily reports found in data directory ${DATA_DIR}`);
+  }
+  return reports.sort((a, b) => b.date.localeCompare(a.date));
 }
 
 export function getReportByDate(date: string): DailyReport | undefined {
@@ -82,6 +92,8 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     fact: item.summary,
     interpretation: item.detail || item.summary,
     importance: item.importance || "",
+    verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
+    verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),
     url: item.url,
   }));
 
@@ -97,6 +109,8 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     fact: item.excerpt || "",
     interpretation: item.interpretation || "",
     importance: item.importance || "",
+    verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
+    verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),
     url: item.url,
   }));
 
@@ -112,12 +126,14 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     fact: item.excerpt || "",
     interpretation: item.interpretation || "",
     importance: item.importance || "",
+    verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
+    verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),
     url: item.url,
     language: item.language,
   }));
 
-  return [...broadcasts, ...xPosts, ...news].sort((a, b) =>
-    b.publishedAt.localeCompare(a.publishedAt),
+  return [...broadcasts, ...xPosts, ...news].sort((left, right) =>
+    compareReportTimesDesc(left.publishedAt, right.publishedAt),
   );
 }
 
@@ -167,6 +183,9 @@ export function getReportSummaries(): ReportSummary[] {
           signal.title,
           signal.source,
           signal.metalTags.join(" "),
+          signal.fact,
+          signal.interpretation,
+          signal.importance,
         ]),
       ].join(" "),
       stats: getReportStats(report),

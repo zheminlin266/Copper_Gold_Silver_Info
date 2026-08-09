@@ -81,10 +81,10 @@
     "part3_result": "完成2026年8月1日全天中英文检索；未发现可在窗口内直接打开核验且满足供需筛选的新闻，part3_news保持空数组。mining.com强制Playwright主路径因指定环境缺少playwright失败，Google site:仅作为备用发现且未提供证据。",
     "mining_com_source_note": "本次未从mining.com采用新闻。铜分类页主路径因指定Python环境缺少playwright未能完成DOM抓取；金银分类页直接打开返回Internal Error；Google site:备用结果仅用于发现，未作为证据，未发现报告日合格候选。",
     "url_verification": {
-      "checked_count": 8,
-      "passed_count": 6,
-      "failed_count": 2,
-      "failed_items": [
+      "checked": 8,
+      "passed": 6,
+      "failed": 2,
+      "failures": [
         {
           "url": "https://www.mining.com/commodity/copper/",
           "reason": "指定Python环境缺少playwright，Playwright DOM主路径在导入阶段失败；独立直接打开返回Internal Error，未获得可核验分类页内容。"
