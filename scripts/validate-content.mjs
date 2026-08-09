@@ -21,7 +21,14 @@ const SOURCE_TYPES = new Set([
 const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
 const IMPORTANCE_REQUIRED_FROM = "2026-07-31";
 const WINDOW_BOUNDARY_REQUIRED_FROM = "2026-07-06";
-const PUBLISH_WINDOW_REQUIRED_FROM = "2026-08-09";
+const PUBLISH_WINDOW_REQUIRED_FROM = "2026-07-06";
+// These four published historical values stay fixed because moving them would change historical semantics.
+const PUBLISH_WINDOW_EXCEPTIONS = new Map([
+  ["2026-07-11.json|part3_news[0].publish_time", "2026-07-10T20:00:00+08:00"],
+  ["2026-07-11.json|part3_news[1].publish_time", "2026-07-10T20:00:00+08:00"],
+  ["2026-08-04.json|part3_news[0].publish_time", "2026-08-04T12:51:00-07:00"],
+  ["2026-08-04.json|part3_news[3].publish_time", "2026-08-04T13:33:00-07:00"],
+]);
 const URL_VERIFICATION_REQUIRED_FROM = "2026-07-12";
 const REPLACEMENT_CHARACTER_REQUIRED_FROM = "2026-08-09";
 const IMPORTANCE_MIN_LENGTH = 80;
@@ -210,16 +217,11 @@ function validateWindowBoundaries(report, filename) {
 }
 
 function validatePublishedAt(value, window, field, filename) {
-  if (isCalendarDate(value)) {
-    const startDate = window.start.slice(0, 10);
-    const endDate = window.end.slice(0, 10);
-    if (value < startDate || value > endDate) {
-      throw new Error(`${filename}: ${field} is outside its validation window`);
-    }
-    return;
-  }
-  const instant = Date.parse(value);
-  if (instant < Date.parse(window.start) || instant > Date.parse(window.end)) {
+  const outsideWindow = isCalendarDate(value)
+    ? value < window.start.slice(0, 10) || value > window.end.slice(0, 10)
+    : Date.parse(value) < Date.parse(window.start) || Date.parse(value) > Date.parse(window.end);
+  const exceptionValue = PUBLISH_WINDOW_EXCEPTIONS.get(`${filename}|${field}`);
+  if (outsideWindow && exceptionValue !== value) {
     throw new Error(`${filename}: ${field} is outside its validation window`);
   }
 }

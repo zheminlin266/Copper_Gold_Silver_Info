@@ -90,6 +90,8 @@ test("new reports require substantive importance judgments while legacy reports 
     part2: { start: "2026-07-31T00:00:00+08:00", end: "2026-07-31T23:59:59+08:00" },
     part3: { start: "2026-07-31T00:00:00+08:00", end: "2026-07-31T23:59:59+08:00" },
   };
+  report.part2_x_posts.forEach((item) => { item.publish_time = "2026-07-31"; });
+  report.part3_news.forEach((item) => { item.publish_time = "2026-07-31"; });
   const validImportance =
     "该矿二季度实际铜产量达到100,487吨，且库存矿石已开始转化为可销售精矿，短期增加了市场可见供给。由于这部分产量来自库存处理而不是采矿恢复，中期供给改善仍取决于设备修复和矿山重启；后续应跟踪处理持续时间、品位和实际发运量。";
   for (const signal of [
@@ -199,6 +201,28 @@ test("reports from 2026-08-09 reject publish times outside their windows", () =>
 
   assert.throws(
     () => validateReport(report, "2026-08-09.json"),
+    /part3_news\[0\]\.publish_time is outside its validation window/,
+  );
+});
+
+test("non-allowlisted legacy reports still reject publish times outside their windows", () => {
+  const filename = "2026-07-10.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  report.part3_news[0].publish_time = "2026-07-09T23:59:59+08:00";
+
+  assert.throws(
+    () => validateReport(report, filename),
+    /part3_news\[0\]\.publish_time is outside its validation window/,
+  );
+});
+
+test("historical publish-window exceptions only allow their recorded values", () => {
+  const filename = "2026-07-11.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  report.part3_news[0].publish_time = "2026-07-09T20:00:00+08:00";
+
+  assert.throws(
+    () => validateReport(report, filename),
     /part3_news\[0\]\.publish_time is outside its validation window/,
   );
 });

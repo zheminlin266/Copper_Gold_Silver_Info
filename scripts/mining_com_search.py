@@ -14,9 +14,13 @@ from urllib.parse import urljoin
 
 from playwright.async_api import async_playwright
 
+try:
+    from scripts.script_utils import parse_report_date, resolve_chrome_executable
+except ModuleNotFoundError:
+    from script_utils import parse_report_date, resolve_chrome_executable  # type: ignore[no-redef]
+
 
 CATEGORY_URL = "https://www.mining.com/commodity/copper/"
-CHROME_EXECUTABLE = "C:/Program Files/Google/Chrome/Application/chrome.exe"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -38,6 +42,7 @@ def matches_report_date(text: str, date_str: str) -> bool:
 
 
 async def collect(date_str: str) -> dict:
+    date_str = parse_report_date(date_str).isoformat()
     result = {
         "status": "failed",
         "url": CATEGORY_URL,
@@ -46,15 +51,18 @@ async def collect(date_str: str) -> dict:
         "articles": [],
     }
     async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(
-            headless=True,
-            executable_path=CHROME_EXECUTABLE,
-            args=[
+        launch_options = {
+            "headless": True,
+            "args": [
                 "--disable-blink-features=AutomationControlled",
                 "--no-sandbox",
                 "--disable-dev-shm-usage",
             ],
-        )
+        }
+        chrome_executable = resolve_chrome_executable()
+        if chrome_executable:
+            launch_options["executable_path"] = chrome_executable
+        browser = await playwright.chromium.launch(**launch_options)
         context = await browser.new_context(
             user_agent=USER_AGENT,
             locale="en-US",
@@ -69,9 +77,27 @@ async def collect(date_str: str) -> dict:
                 CATEGORY_URL, wait_until="domcontentloaded", timeout=45000
             )
             await page.wait_for_timeout(3000)
-            result["http_status"] = response.status if response else None
+            if response is None:
+                result["error"] = "Mining.com category navigation returned no HTTP response"
+                return result
+            result["http_status"] = response.status
+            if response.status >= 400:
+                result["error"] = f"Mining.com category returned HTTP {response.status}"
+                return result
+
             result["page_title"] = await page.title()
-            result["body_chars"] = len(await page.locator("body").inner_text())
+            body_text = await page.locator("body").inner_text()
+            result["body_chars"] = len(body_text)
+            authenticity_errors = []
+            if "copper" not in result["page_title"].casefold():
+                authenticity_errors.append("page title does not contain 'copper'")
+            if len(body_text) < 500:
+                authenticity_errors.append(
+                    f"page body text is too short ({len(body_text)} characters; need at least 500)"
+                )
+            if authenticity_errors:
+                result["error"] = "Mining.com category authenticity check failed: " + "; ".join(authenticity_errors)
+                return result
 
             candidates = await page.locator("a[href]").evaluate_all(
                 """links => links.map(link => ({
@@ -126,10 +152,10 @@ def main() -> int:
     parser.add_argument("report_date", help="Report date in YYYY-MM-DD")
     args = parser.parse_args()
     try:
-        datetime.strptime(args.report_date, "%Y-%m-%d")
+        report_date = parse_report_date(args.report_date).isoformat()
     except ValueError as error:
         parser.error(str(error))
-    result = asyncio.run(collect(args.report_date))
+    result = asyncio.run(collect(report_date))
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result["status"] == "ok" else 1
 

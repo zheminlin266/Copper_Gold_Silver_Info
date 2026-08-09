@@ -13,7 +13,7 @@ export interface Broadcast {
   title: string;
   url: string;
   publish_date: string;
-  source_type: string;
+  source_type: "podcast" | "webcast" | "youtube" | "conference_interview" | "panel" | "keynote" | "company_presentation";
   metal_tags: Metal[];
   primary_metal?: Metal;
   supply_demand: SupplyDemand;
@@ -50,7 +50,7 @@ export interface NewsItem {
   excerpt?: string;
   interpretation?: string;
   importance?: string;
-  language?: "en" | "zh";
+  language: "en" | "zh";
   duplicate_of?: string | null;
   companies?: string[];
   projects?: string[];

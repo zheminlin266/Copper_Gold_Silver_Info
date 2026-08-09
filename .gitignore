@@ -1,4 +1,9 @@
 .agents/
+.obsidian/
+.env
+.env.*
+!.env.example
+data/raw/
 .git.broken-empty-*/
 .chrome-x-profile/
 .browser_profile/

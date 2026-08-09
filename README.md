@@ -23,6 +23,7 @@
 ## 更新与校验
 
 日报内容以 JSON/CSV 为源，经过内容校验后由 Next.js 构建网页，Vercel 自动部署。详见 `Daily_Report_Workflow.md`。
+脚本范围与失败规则见 [`scripts/README.md`](scripts/README.md)。
 
 本地检查：
 
