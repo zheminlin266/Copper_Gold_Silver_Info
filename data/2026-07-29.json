@@ -127,10 +127,10 @@
     ],
     "part3_result": "完成2026-07-29铜、金、银新闻检索；5条新闻入选，First Quantum候选因与2026-07-28 Cobre Panamá库存处理事件重复而排除，价格/宏观和无实质供需传导候选排除。",
     "url_verification": {
-      "checked_count": 7,
-      "passed_count": 7,
-      "failed_count": 0,
-      "failed_items": [],
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
       "notes": "入选X、新闻及必要交叉核验来源均使用具体帖子、文章或公告URL并实际打开；5篇mining.com文章通过隔离Playwright HTTP 200核验完整正文。Part1标题候选因无法取得完整访谈证据未入选，未计入入选URL统计。"
     },
     "new_sources_discovered": []

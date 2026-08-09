@@ -176,10 +176,10 @@
     "part3_result": "完成2026-08-07全天中英文新闻检索、Mining.com铜/金/银强制分类页和Google site:辅助路径；分类页候选8/4/1篇，去重后10篇完成正文核验，最终纳入5条，排除5条价格、名义收入、评论或非目标金属事件。",
     "mining_com_source_note": "Mining.com铜分类页主路径由规定的Playwright Chromium headless成功抓取，HTTP 200、报告日8篇；金/银分类页由同一反检测Playwright会话抓取4/1篇。直接文章抓取若独立新会话触发CloudFront 403，则回到已成功打开分类页的同一Playwright会话完成文章核验；本次10个不同候选均在该会话返回200。",
     "url_verification": {
-      "checked_count": 27,
-      "passed_count": 27,
-      "failed_count": 0,
-      "failed_items": [],
+      "checked": 27,
+      "passed": 27,
+      "failed": 0,
+      "failures": [],
       "notes": "Ero官方事件页及2Q26材料、16条X原帖URL和10个不同Mining.com候选URL均已直接打开核验；纳入信号的标题、日期、主体和核心数字均有可打开来源，X和Mining.com排除项也记录了直接核验结果。"
     },
     "new_sources_discovered": []

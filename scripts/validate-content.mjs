@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import Ajv2020 from "ajv/dist/2020.js";
+import addFormats from "ajv-formats";
 
 const DATE_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
 const DATE = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -18,6 +20,10 @@ const SOURCE_TYPES = new Set([
 ]);
 const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
 const IMPORTANCE_REQUIRED_FROM = "2026-07-31";
+const WINDOW_BOUNDARY_REQUIRED_FROM = "2026-07-06";
+const PUBLISH_WINDOW_REQUIRED_FROM = "2026-08-09";
+const URL_VERIFICATION_REQUIRED_FROM = "2026-07-12";
+const REPLACEMENT_CHARACTER_REQUIRED_FROM = "2026-08-09";
 const IMPORTANCE_MIN_LENGTH = 80;
 const IMPORTANCE_MAX_LENGTH = 300;
 const SUMMARY_MAX_LENGTH = 300;
@@ -25,6 +31,12 @@ const IMPORTANCE_SENTENCE_END = /[。！？!?]/g;
 const IMPORTANCE_CONCRETE_ANCHOR = /(?:\d|[一二三四五六七八九十百千万亿]+(?:吨|盎司|美元|年|月|周|天|季度)|(?:短期|中期|长期|即期|年内|下半年|未来\d+年|未来[一二三四五六七八九十百千万亿]+年)|(?:同比|环比|较前期|相比|连续第|首次|创(?:历史|新)?高|指引|投产|复产|许可|时间表|里程碑|钻探|扩建))/u;
 const IMPORTANCE_ANALYSIS_MARKER = /(?:意味着|由于|因此|导致|通过|取决于|相较|相比|背景下|可能|风险|缺口|压力|增量|约束|兑现|传导|影响|支撑|限制|条件|提高|下降|上升|减少|增加|接近|低于|高于|维持|延长|缩短|释放|取代|验证|显示|反映|强化|削弱|改变|体现)/u;
 const GENERIC_IMPORTANCE_ONLY = /^(?:这是|属于|可作为|补充了|反映了|提示|显示).{0,60}(?:信号|线索|风险|变化|判断)[。！？!?]$/u;
+
+const SCHEMA_PATH = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "daily_report_schema.json");
+const schema = JSON.parse(fs.readFileSync(SCHEMA_PATH, "utf8"));
+const ajv = new Ajv2020({ allErrors: true, strict: false });
+addFormats(ajv);
+const validateSchema = ajv.compile(schema);
 
 function isObject(value) {
   return typeof value === "object" && value !== null && !Array.isArray(value);
@@ -176,7 +188,109 @@ function validateWindow(window, field, filename) {
   }
 }
 
+function addCalendarDays(value, days) {
+  const [year, month, day] = value.split("-").map(Number);
+  return new Date(Date.UTC(year, month - 1, day + days)).toISOString().slice(0, 10);
+}
+
+function validateWindowBoundaries(report, filename) {
+  if (report.date < WINDOW_BOUNDARY_REQUIRED_FROM) return;
+  const expected = {
+    part1: [addCalendarDays(report.date, -2), report.date],
+    part2: [report.date, report.date],
+    part3: [report.date, report.date],
+  };
+  for (const [part, [startDate, endDate]] of Object.entries(expected)) {
+    const expectedStart = `${startDate}T00:00:00+08:00`;
+    const expectedEnd = `${endDate}T23:59:59+08:00`;
+    if (report.windows[part].start !== expectedStart || report.windows[part].end !== expectedEnd) {
+      throw new Error(`${filename}: windows.${part} must be ${expectedStart} through ${expectedEnd}`);
+    }
+  }
+}
+
+function validatePublishedAt(value, window, field, filename) {
+  if (isCalendarDate(value)) {
+    const startDate = window.start.slice(0, 10);
+    const endDate = window.end.slice(0, 10);
+    if (value < startDate || value > endDate) {
+      throw new Error(`${filename}: ${field} is outside its validation window`);
+    }
+    return;
+  }
+  const instant = Date.parse(value);
+  if (instant < Date.parse(window.start) || instant > Date.parse(window.end)) {
+    throw new Error(`${filename}: ${field} is outside its validation window`);
+  }
+}
+
+function validatePublishedAtWindows(report, filename) {
+  if (report.date < PUBLISH_WINDOW_REQUIRED_FROM) return;
+  report.part1_broadcasts.forEach((item, index) => {
+    validatePublishedAt(item.publish_date, report.windows.part1, `part1_broadcasts[${index}].publish_date`, filename);
+  });
+  report.part2_x_posts.forEach((item, index) => {
+    validatePublishedAt(item.publish_time, report.windows.part2, `part2_x_posts[${index}].publish_time`, filename);
+  });
+  report.part3_news.forEach((item, index) => {
+    validatePublishedAt(item.publish_time, report.windows.part3, `part3_news[${index}].publish_time`, filename);
+  });
+}
+
+function validateUrlVerification(report, filename) {
+  if (report.date < URL_VERIFICATION_REQUIRED_FROM) return;
+  const verification = report.search_log.url_verification;
+  if (!isObject(verification)) {
+    throw new Error(`${filename}: search_log.url_verification is required from ${URL_VERIFICATION_REQUIRED_FROM}`);
+  }
+  for (const field of ["checked", "passed", "failed"]) {
+    if (!Number.isInteger(verification[field]) || verification[field] < 0) {
+      throw new Error(`${filename}: search_log.url_verification.${field} must be a non-negative integer`);
+    }
+  }
+  if (verification.checked !== verification.passed + verification.failed) {
+    throw new Error(`${filename}: search_log.url_verification.checked must equal passed + failed`);
+  }
+  const failures = verification.failures ?? [];
+  if (verification.failed > 0 && failures.length === 0) {
+    throw new Error(`${filename}: search_log.url_verification.failures must be non-empty when failed > 0`);
+  }
+}
+
+function rejectReplacementCharacters(value, field, filename) {
+  if (typeof value === "string") {
+    if (value.includes("\ufffd")) throw new Error(`${filename}: ${field} must not contain U+FFFD replacement character`);
+    return;
+  }
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => rejectReplacementCharacters(item, `${field}[${index}]`, filename));
+    return;
+  }
+  if (isObject(value)) {
+    Object.entries(value).forEach(([key, item]) => rejectReplacementCharacters(item, `${field}.${key}`, filename));
+  }
+}
+
+function formatSchemaError(error, filename) {
+  const instancePath = error.instancePath || "/";
+  const message = error.keyword === "format"
+    && error.params?.format === "date-time"
+    && instancePath.endsWith("/publish_time")
+    ? "must be a valid ISO date-time with a timezone"
+    : error.keyword === "maxLength" && instancePath === "/summary"
+      ? "summary must be no more than 300 characters"
+      : error.message;
+  return `${filename}: ${instancePath} ${message}`;
+}
+
+function validateSchemaOrThrow(report, filename) {
+  if (validateSchema(report)) return;
+  const details = (validateSchema.errors ?? []).map((error) => formatSchemaError(error, filename));
+  throw new Error([`${filename}: JSON Schema validation failed`, ...details].join("\n"));
+}
+
 export function validateReport(report, filename) {
+  validateSchemaOrThrow(report, filename);
   if (!isObject(report)) throw new Error(`${filename}: report must be an object`);
   validateDate(report.date, "date", filename);
   validateDateTime(report.report_time, "report_time", filename);
@@ -194,6 +308,7 @@ export function validateReport(report, filename) {
   for (const part of ["part1", "part2", "part3"]) {
     validateWindow(report.windows[part], `windows.${part}`, filename);
   }
+  validateWindowBoundaries(report, filename);
 
   requireArray(report.part1_broadcasts, "part1_broadcasts", filename);
   report.part1_broadcasts.forEach((item, index) => validateBroadcast(item, `part1_broadcasts[${index}]`, filename, requirePrimaryMetal, requireImportance));
@@ -201,6 +316,7 @@ export function validateReport(report, filename) {
   report.part2_x_posts.forEach((item, index) => validateXPost(item, `part2_x_posts[${index}]`, filename, requirePrimaryMetal, requireImportance));
   requireArray(report.part3_news, "part3_news", filename);
   report.part3_news.forEach((item, index) => validateNews(item, `part3_news[${index}]`, filename, requirePrimaryMetal, requireImportance));
+  validatePublishedAtWindows(report, filename);
 
   if (!isObject(report.search_log)) throw new Error(`${filename}: search_log must be an object`);
   if (typeof report.search_log.part1_searched !== "boolean") {
@@ -210,10 +326,15 @@ export function validateReport(report, filename) {
     throw new Error(`${filename}: search_log.part2_searched must be boolean`);
   }
   requireStringArray(report.search_log.part3_sources_checked, "search_log.part3_sources_checked", filename);
+  validateUrlVerification(report, filename);
 
   if (!isObject(report.dedup_log)) throw new Error(`${filename}: dedup_log must be an object`);
   requireStringArray(report.dedup_log.part1_deduped_urls, "dedup_log.part1_deduped_urls", filename);
   requireStringArray(report.dedup_log.part3_deduped_events, "dedup_log.part3_deduped_events", filename);
+
+  if (report.date >= REPLACEMENT_CHARACTER_REQUIRED_FROM) {
+    rejectReplacementCharacters(report, "$", filename);
+  }
 
   return report;
 }

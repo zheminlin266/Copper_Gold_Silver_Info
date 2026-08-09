@@ -1,5 +1,13 @@
 export type Metal = "gold" | "silver" | "copper";
 export type SupplyDemand = "supply" | "demand" | "both";
+export type Part2Channel = "browser_use" | "rss_fallback" | "playwright" | "failed";
+export type XSourceChannel = "browser_use" | "rss_fallback" | "playwright";
+export type NewsSourceChannel = "web" | "playwright";
+
+export interface Guest {
+  name?: string;
+  background?: string;
+}
 
 export interface Broadcast {
   title: string;
@@ -12,7 +20,7 @@ export interface Broadcast {
   summary: string;
   detail?: string;
   importance?: string;
-  guest?: { name?: string; background?: string };
+  guest?: Guest;
   companies?: string[];
   projects?: string[];
 }
@@ -28,7 +36,7 @@ export interface XPost {
   interpretation?: string;
   importance?: string;
   url: string;
-  source_channel?: string;
+  source_channel?: XSourceChannel;
 }
 
 export interface NewsItem {
@@ -44,26 +52,51 @@ export interface NewsItem {
   importance?: string;
   language?: "en" | "zh";
   duplicate_of?: string | null;
+  companies?: string[];
+  projects?: string[];
+  mining_com_source_note?: string;
+  source_channel?: NewsSourceChannel;
+}
+
+export type UrlVerificationFailure = string | { url: string; reason: string };
+
+export interface UrlVerification {
+  checked: number;
+  passed: number;
+  failed: number;
+  failures?: UrlVerificationFailure[];
+  notes?: string | string[];
+}
+
+export interface ImageSource {
+  method: "og_image" | "ai_generated";
+  og_image_url?: string;
+  source_url?: string;
+  prompt?: string;
+  note?: string;
 }
 
 export interface SearchLog {
-  part1_searched?: boolean;
+  part1_searched: boolean;
   part1_sources_checked?: string[];
   part1_result?: string;
-  part2_searched?: boolean;
-  part2_channel?: string;
+  part2_searched: boolean;
+  part2_channel?: Part2Channel;
   part2_sources_checked?: string[];
   part2_result?: string;
-  part3_sources_checked?: string[];
+  part3_sources_checked: string[];
   part3_result?: string;
+  mining_com_source_note?: string;
+  image_source?: ImageSource;
   new_sources_discovered?: string[];
-  url_verification?: {
-    checked?: number;
-    passed?: number;
-    failed?: number;
-    failures?: string[];
-    notes?: string[];
-  };
+  url_verification?: UrlVerification;
+}
+
+export interface DedupLog {
+  part1_deduped_urls: string[];
+  part2_deduped_urls?: string[];
+  part3_deduped_events: string[];
+  notes?: string;
 }
 
 export interface DailyReport {
@@ -71,6 +104,7 @@ export interface DailyReport {
   report_time: string;
   summary: string;
   migration_note?: string;
+  report_note?: string;
   windows: {
     part1: { start: string; end: string };
     part2: { start: string; end: string };
@@ -80,10 +114,7 @@ export interface DailyReport {
   part2_x_posts: XPost[];
   part3_news: NewsItem[];
   search_log: SearchLog;
-  dedup_log: {
-    part1_deduped_urls?: string[];
-    part3_deduped_events?: string[];
-  };
+  dedup_log: DedupLog;
 }
 
 export interface ReportSignal {

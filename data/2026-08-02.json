@@ -28,7 +28,7 @@
     ],
     "part1_result": "完成2026-07-31至2026-08-02三日访谈窗口检索；未发现新增可核验供需访谈，part1_broadcasts保持空数组。",
     "part2_searched": true,
-    "part2_channel": "passed",
+    "part2_channel": "playwright",
     "part2_sources_checked": [
       "已修复采集环境：使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、Playwright 1.62.0和持久化profile运行scripts/x_search.py --check-login --headless，认证导航校验通过；随后按34个个人账号和18个官方账号检索2026-08-02，得到3条日期匹配候选。",
       "已直接打开并核验3个原帖URL：David Morgan原帖日期和正文可见，但只是报告宣传；Lobo Tiggre原帖日期和正文可见，但只是银色审美/视频反应；KatusaResearch URL可打开但未暴露原帖正文和时间，不能作为证据。",
@@ -47,10 +47,10 @@
     "part3_result": "完成2026-08-02全天中英文新闻检索；未发现满足日期、来源可访问、事实可核验及供需传导条件的新闻，part3_news保持空数组。",
     "mining_com_source_note": "本次未从mining.com采用新闻。铜分类页Playwright主路径已恢复并实际抓取成功（HTTP 200，DOM正文5755字符，2026-08-02候选1篇）；候选已打开核验但属于盈利结构/价格背景评论，没有新增可量化供需事实，故未入选。Google site:仅作为备用发现，返回内容均非报告日可核验证据。",
     "url_verification": {
-      "checked_count": 9,
-      "passed_count": 7,
-      "failed_count": 2,
-      "failed_items": [
+      "checked": 9,
+      "passed": 7,
+      "failed": 2,
+      "failures": [
         {
           "url": "https://hq.smm.cn/copper/list/194",
           "reason": "周度TC列表未公开显示2026-07-31完整指数正文和数值；当前最新可见周度文章为2026-07-24。"

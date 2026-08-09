@@ -164,10 +164,10 @@
     "part3_result": "经过当日分类页扫描、文章直接核验、跨日报去重和供需筛选，共收录7条MINING.COM新闻信号。",
     "mining_com_source_note": "每条入选MINING.COM信息均通过规定的Playwright Chromium会话完成分类页发现和文章核验；标题、发布方/日期及核心数据均读取自文章DOM。Google site:检索仅用于黄金和白银辅助发现，不作为唯一证据。",
     "url_verification": {
-      "checked_count": 9,
-      "passed_count": 8,
-      "failed_count": 1,
-      "failed_items": [
+      "checked": 9,
+      "passed": 8,
+      "failed": 1,
+      "failures": [
         {
           "url": "https://www.mining.com/web/chile-finance-minister-floats-idea-of-private-capital-in-codelco/",
           "reason": "HTTP 404；当前文章已在/at-codelco/ URL找到，但因去重和供需筛选原因排除。"

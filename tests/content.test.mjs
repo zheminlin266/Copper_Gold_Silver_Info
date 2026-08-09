@@ -85,6 +85,11 @@ test("new reports require substantive importance judgments while legacy reports 
   const filename = "2026-07-31.json";
   const report = structuredClone(legacyReport);
   report.date = "2026-07-31";
+  report.windows = {
+    part1: { start: "2026-07-29T00:00:00+08:00", end: "2026-07-31T23:59:59+08:00" },
+    part2: { start: "2026-07-31T00:00:00+08:00", end: "2026-07-31T23:59:59+08:00" },
+    part3: { start: "2026-07-31T00:00:00+08:00", end: "2026-07-31T23:59:59+08:00" },
+  };
   const validImportance =
     "该矿二季度实际铜产量达到100,487吨，且库存矿石已开始转化为可销售精矿，短期增加了市场可见供给。由于这部分产量来自库存处理而不是采矿恢复，中期供给改善仍取决于设备修复和矿山重启；后续应跟踪处理持续时间、品位和实际发运量。";
   for (const signal of [
@@ -147,6 +152,81 @@ test("publish_time accepts dates but rejects date-times without a timezone", () 
   assert.throws(
     () => validateReport(missingTimezone, filename),
     /publish_time must be a valid ISO date-time with a timezone/,
+  );
+});
+
+test("Ajv schema rejects legacy guest strings and unknown fields", () => {
+  const filename = "2026-07-31.json";
+  const base = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+
+  const stringGuest = structuredClone(base);
+  stringGuest.part1_broadcasts[0].guest = "legacy guest";
+  assert.throws(
+    () => validateReport(stringGuest, filename),
+    /2026-07-31\.json: \/part1_broadcasts\/0\/guest .*must be object/,
+  );
+
+  const unknownField = structuredClone(base);
+  unknownField.unexpected = true;
+  assert.throws(
+    () => validateReport(unknownField, filename),
+    /2026-07-31\.json: \/ .*must NOT have additional properties/,
+  );
+});
+
+test("post-migration window boundaries are exact", () => {
+  const filename = "2026-07-06.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  report.windows.part1.start = "2026-07-03T00:00:00+08:00";
+
+  assert.throws(
+    () => validateReport(report, filename),
+    /2026-07-06\.json: windows\.part1 must be/,
+  );
+});
+
+test("reports from 2026-08-09 reject publish times outside their windows", () => {
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"));
+  const source = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-07.json"), "utf8"));
+  report.date = "2026-08-09";
+  report.windows = {
+    part1: { start: "2026-08-07T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+    part2: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+    part3: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+  };
+  report.part3_news = [structuredClone(source.part3_news[0])];
+  report.part3_news[0].publish_time = "2026-08-08T23:59:59+08:00";
+
+  assert.throws(
+    () => validateReport(report, "2026-08-09.json"),
+    /part3_news\[0\]\.publish_time is outside its validation window/,
+  );
+});
+
+test("URL verification counts must reconcile", () => {
+  const filename = "2026-08-08.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  report.search_log.url_verification.passed = 7;
+
+  assert.throws(
+    () => validateReport(report, filename),
+    /search_log\.url_verification\.checked must equal passed \+ failed/,
+  );
+});
+
+test("reports from 2026-08-09 reject replacement characters", () => {
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"));
+  report.date = "2026-08-09";
+  report.windows = {
+    part1: { start: "2026-08-07T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+    part2: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+    part3: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+  };
+  report.summary = "含有\ufffd的测试文本";
+
+  assert.throws(
+    () => validateReport(report, "2026-08-09.json"),
+    /2026-08-09\.json: \$\.summary must not contain U\+FFFD replacement character/,
   );
 });
 

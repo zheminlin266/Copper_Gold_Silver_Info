@@ -76,6 +76,16 @@
       "紫金矿业官网"
     ],
     "part3_result": "Jul 11 (Saturday) - no original mining supply-demand news published. 2 items from Jul 10 after-market filings (盛屯矿业 H1, 洛阳钼业 H1) included as they entered the Jul 11 news cycle and were not covered in the Jul 10 report. Cochilco Jul 11 re-report of May copper data is same as Jul 10 INE data - deduped.",
+    "url_verification": {
+      "checked": 2,
+      "passed": 2,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "洛阳钼业 澎湃新闻 link: verified, all core facts match (155-165亿 profit, 38.8万吨 copper +9.73%, Brazil gold Q1 43,027 oz)",
+        "盛屯矿业 东方财富 link: verified, all core facts match (17.5-19.5亿 profit +66-85%, DRC copper-cobalt project production growth). SSE PDF link not web-fetchable but URL pattern is correct for Shanghai Stock Exchange filings"
+      ]
+    },
     "new_sources_discovered": [],
     "image_source": {
       "method": "ai_generated",
@@ -91,16 +101,6 @@
       "Cochilco Chile May copper data (SMM Jul 11) - same data as Jul 10 INE data, already covered in 07-10 report",
       "紫金矿业中期分红 (Jul 11 re-report) - H1 data already fully covered in 07-09 report",
       "First Majestic Q2 (naturalresourcestocks.net Jul 11) - original Jul 8, outside window"
-    ]
-  },
-  "url_verification": {
-    "checked": 2,
-    "passed": 2,
-    "failed": 0,
-    "failures": [],
-    "notes": [
-      "洛阳钼业 澎湃新闻 link: verified, all core facts match (155-165亿 profit, 38.8万吨 copper +9.73%, Brazil gold Q1 43,027 oz)",
-      "盛屯矿业 东方财富 link: verified, all core facts match (17.5-19.5亿 profit +66-85%, DRC copper-cobalt project production growth). SSE PDF link not web-fetchable but URL pattern is correct for Shanghai Stock Exchange filings"
     ]
   }
 }
