@@ -92,6 +92,8 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     fact: item.summary,
     interpretation: item.detail || item.summary,
     importance: item.importance || "",
+    verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
+    verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),
     url: item.url,
   }));
 
@@ -107,6 +109,8 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     fact: item.excerpt || "",
     interpretation: item.interpretation || "",
     importance: item.importance || "",
+    verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
+    verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),
     url: item.url,
   }));
 
@@ -122,6 +126,8 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     fact: item.excerpt || "",
     interpretation: item.interpretation || "",
     importance: item.importance || "",
+    verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
+    verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),
     url: item.url,
     language: item.language,
   }));

@@ -13,4 +13,4 @@ python -m pip install -r scripts/requirements.txt
 
 可用 `CHROME_EXECUTABLE` 覆盖 Chrome 路径；未设置或系统 Chrome 不存在时使用 Playwright Chromium。
 
-原始采集失败必须非零退出；禁止把空结果或失败结果当作成功。
+原始采集失败必须非零退出，不能伪装成零结果。采集完整完成但没有窗口内合格候选时，可以成功返回空结果。

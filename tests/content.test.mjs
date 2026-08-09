@@ -8,6 +8,21 @@ import { compareReportTimesDesc } from "../lib/report-time.ts";
 import { parseTcCsv } from "../lib/tc-data.ts";
 import { loadReports, validateReport } from "../scripts/validate-content.mjs";
 
+function makeFutureReport() {
+  const report = JSON.parse(
+    fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"),
+  );
+  report.date = "2026-08-09";
+  report.windows = {
+    part1: { start: "2026-08-07T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+    part2: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+    part3: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+  };
+  report.search_log.part2_channel = "playwright";
+  report.search_log.part3_searched = true;
+  return report;
+}
+
 test("archive pagination shows 20 newest items before older pages", () => {
   const reports = Array.from({ length: 45 }, (_, index) => `report-${index + 1}`);
   const first = getArchivePage(reports, 1);
@@ -75,7 +90,7 @@ test("daily summaries stay within the 300-character editorial limit", () => {
   );
 });
 
-test("new reports require substantive importance judgments while legacy reports remain compatible", () => {
+test("provided importance judgments must be substantive while source-only cards remain valid", () => {
   const legacyFilename = "2026-07-30.json";
   const legacyReport = JSON.parse(
     fs.readFileSync(path.join(process.cwd(), "data", legacyFilename), "utf8"),
@@ -101,6 +116,12 @@ test("new reports require substantive importance judgments while legacy reports 
   ]) {
     signal.importance = validImportance;
   }
+
+  const sourceOnly = structuredClone(report);
+  delete sourceOnly.part3_news[0].excerpt;
+  delete sourceOnly.part3_news[0].interpretation;
+  delete sourceOnly.part3_news[0].importance;
+  assert.doesNotThrow(() => validateReport(sourceOnly, filename));
 
   const short = structuredClone(report);
   short.part3_news[0].importance = "这是一个重要的铜供给信号。";
@@ -188,16 +209,11 @@ test("post-migration window boundaries are exact", () => {
 });
 
 test("reports from 2026-08-09 reject publish times outside their windows", () => {
-  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"));
+  const report = makeFutureReport();
   const source = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-07.json"), "utf8"));
-  report.date = "2026-08-09";
-  report.windows = {
-    part1: { start: "2026-08-07T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
-    part2: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
-    part3: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
-  };
   report.part3_news = [structuredClone(source.part3_news[0])];
   report.part3_news[0].publish_time = "2026-08-08T23:59:59+08:00";
+  report.part3_news[0].verification_status = "verified";
 
   assert.throws(
     () => validateReport(report, "2026-08-09.json"),
@@ -238,14 +254,88 @@ test("URL verification counts must reconcile", () => {
   );
 });
 
-test("reports from 2026-08-09 reject replacement characters", () => {
-  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"));
-  report.date = "2026-08-09";
-  report.windows = {
-    part1: { start: "2026-08-07T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
-    part2: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
-    part3: { start: "2026-08-09T00:00:00+08:00", end: "2026-08-09T23:59:59+08:00" },
+test("complete collection can publish zero sources or results but failed collection cannot", () => {
+  const complete = makeFutureReport();
+  for (const part of ["part1", "part2", "part3"]) {
+    complete.search_log[`${part}_sources_checked`] = [];
+  }
+  assert.doesNotThrow(() => validateReport(complete, "2026-08-09.json"));
+
+  for (const part of ["part1", "part2", "part3"]) {
+    const failed = makeFutureReport();
+    failed.search_log[`${part}_searched`] = false;
+    assert.throws(
+      () => validateReport(failed, "2026-08-09.json"),
+      new RegExp(`search_log\\.${part}_searched must be true`),
+    );
+  }
+
+  const failedX = makeFutureReport();
+  failedX.search_log.part2_channel = "failed";
+  assert.throws(
+    () => validateReport(failedX, "2026-08-09.json"),
+    /search_log\.part2_channel must be playwright/,
+  );
+});
+
+test("unverified source-only cards require a visible reason and audit coverage", () => {
+  const source = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-07.json"), "utf8"));
+  const report = makeFutureReport();
+  const item = structuredClone(source.part3_news[0]);
+  item.publish_time = "2026-08-09";
+  delete item.excerpt;
+  delete item.interpretation;
+  delete item.importance;
+  report.part3_news = [item];
+
+  assert.throws(
+    () => validateReport(report, "2026-08-09.json"),
+    /part3_news\[0\]\.verification_status is required/,
+  );
+
+  item.verification_status = "unverified";
+  assert.throws(
+    () => validateReport(report, "2026-08-09.json"),
+    /part3_news\[0\]\.verification_note must be a non-empty string/,
+  );
+
+  item.verification_note = "原始页面暂时无法访问，仅保留标题和来源等待复核。";
+  assert.throws(
+    () => validateReport(report, "2026-08-09.json"),
+    /url_verification\.failures must list unverified URL/,
+  );
+  report.search_log.url_verification.checked += 1;
+  report.search_log.url_verification.failed += 1;
+  report.search_log.url_verification.failures.push({
+    url: item.url,
+    reason: item.verification_note,
+  });
+  assert.doesNotThrow(() => validateReport(report, "2026-08-09.json"));
+
+  report.search_log.url_verification = {
+    checked: 10,
+    passed: 10,
+    failed: 0,
+    failures: [],
   };
+  assert.throws(
+    () => validateReport(report, "2026-08-09.json"),
+    /url_verification\.failed must cover unverified signals/,
+  );
+});
+
+test("unverified source labels are rendered by signal cards", () => {
+  const card = fs.readFileSync(
+    path.join(process.cwd(), "components", "signal-card.tsx"),
+    "utf8",
+  );
+  assert.match(card, /verificationStatus === "unverified"/);
+  assert.match(card, /来源未核验/);
+  assert.match(card, /verificationNote/);
+});
+
+test("reports from 2026-08-09 reject replacement characters", () => {
+  const report = makeFutureReport();
   report.summary = "含有\ufffd的测试文本";
 
   assert.throws(

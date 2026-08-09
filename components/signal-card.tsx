@@ -13,6 +13,9 @@ export function SignalCard({ signal }: { signal: ReportSignal }) {
         <span className={`tag tag--${signal.direction}`}>
           {directionLabel(signal.direction)}
         </span>
+        {signal.verificationStatus === "unverified" && (
+          <span className="tag tag--unverified">来源未核验</span>
+        )}
         {signal.metalTags.map((metal) => (
           <span className={`tag metal--${metal}`} key={metal}>
             {metalLabel(metal)}
@@ -27,6 +30,11 @@ export function SignalCard({ signal }: { signal: ReportSignal }) {
       <p className="signal-card__source">
         {signal.source} · {formatDateTime(signal.publishedAt)}
       </p>
+      {signal.verificationStatus === "unverified" && (
+        <p className="signal-card__verification">
+          来源未核验：{signal.verificationNote}
+        </p>
+      )}
       {signal.fact && (
         <div className="signal-block">
           <h4>事实</h4>

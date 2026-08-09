@@ -19,7 +19,9 @@ const SOURCE_TYPES = new Set([
   "company_presentation",
 ]);
 const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
-const IMPORTANCE_REQUIRED_FROM = "2026-07-31";
+const IMPORTANCE_VALIDATED_FROM = "2026-07-31";
+const COLLECTION_COMPLETENESS_REQUIRED_FROM = "2026-08-09";
+const VERIFICATION_STATUS_REQUIRED_FROM = "2026-08-09";
 const WINDOW_BOUNDARY_REQUIRED_FROM = "2026-07-06";
 const PUBLISH_WINDOW_REQUIRED_FROM = "2026-07-06";
 // These four published historical values stay fixed because moving them would change historical semantics.
@@ -126,7 +128,14 @@ function validateImportance(value, field, filename) {
   }
 }
 
-function validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance) {
+function validateSignal(
+  item,
+  prefix,
+  filename,
+  requirePrimaryMetal,
+  validateImportanceContent,
+  requireVerificationStatus,
+) {
   if (!isObject(item)) throw new Error(`${filename}: ${prefix} must be an object`);
   requireStringArray(item.metal_tags, `${prefix}.metal_tags`, filename);
   if (item.metal_tags.length === 0) {
@@ -153,13 +162,19 @@ function validateSignal(item, prefix, filename, requirePrimaryMetal, requireImpo
     throw new Error(`${filename}: ${prefix} has invalid supply_demand`);
   }
   validateUrl(item.url, `${prefix}.url`, filename);
-  if (requireImportance) {
+  if (validateImportanceContent && item.importance !== undefined) {
     validateImportance(item.importance, `${prefix}.importance`, filename);
+  }
+  if (requireVerificationStatus && item.verification_status === undefined) {
+    throw new Error(`${filename}: ${prefix}.verification_status is required`);
+  }
+  if (item.verification_status === "unverified") {
+    requireString(item.verification_note, `${prefix}.verification_note`, filename);
   }
 }
 
-function validateBroadcast(item, prefix, filename, requirePrimaryMetal, requireImportance) {
-  validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance);
+function validateBroadcast(item, prefix, filename, requirePrimaryMetal, validateImportanceContent, requireVerificationStatus) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal, validateImportanceContent, requireVerificationStatus);
   requireString(item.title, `${prefix}.title`, filename);
   validateDate(item.publish_date, `${prefix}.publish_date`, filename);
   requireString(item.source_type, `${prefix}.source_type`, filename);
@@ -169,15 +184,15 @@ function validateBroadcast(item, prefix, filename, requirePrimaryMetal, requireI
   requireString(item.summary, `${prefix}.summary`, filename);
 }
 
-function validateXPost(item, prefix, filename, requirePrimaryMetal, requireImportance) {
-  validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance);
+function validateXPost(item, prefix, filename, requirePrimaryMetal, validateImportanceContent, requireVerificationStatus) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal, validateImportanceContent, requireVerificationStatus);
   requireString(item.author, `${prefix}.author`, filename);
   requireString(item.handle, `${prefix}.handle`, filename);
   validateDateOrDateTime(item.publish_time, `${prefix}.publish_time`, filename);
 }
 
-function validateNews(item, prefix, filename, requirePrimaryMetal, requireImportance) {
-  validateSignal(item, prefix, filename, requirePrimaryMetal, requireImportance);
+function validateNews(item, prefix, filename, requirePrimaryMetal, validateImportanceContent, requireVerificationStatus) {
+  validateSignal(item, prefix, filename, requirePrimaryMetal, validateImportanceContent, requireVerificationStatus);
   requireString(item.source, `${prefix}.source`, filename);
   requireString(item.title, `${prefix}.title`, filename);
   validateDateOrDateTime(item.publish_time, `${prefix}.publish_time`, filename);
@@ -259,6 +274,59 @@ function validateUrlVerification(report, filename) {
   }
 }
 
+function validateCollectionCompleteness(report, filename) {
+  if (report.date < COLLECTION_COMPLETENESS_REQUIRED_FROM) return;
+  for (const part of ["part1", "part2", "part3"]) {
+    const searchedField = `${part}_searched`;
+    if (report.search_log[searchedField] !== true) {
+      throw new Error(
+        `${filename}: search_log.${searchedField} must be true; failed collection cannot be published as zero results`,
+      );
+    }
+    requireStringArray(
+      report.search_log[`${part}_sources_checked`],
+      `search_log.${part}_sources_checked`,
+      filename,
+    );
+    requireString(report.search_log[`${part}_result`], `search_log.${part}_result`, filename);
+  }
+  if (report.search_log.part2_channel !== "playwright") {
+    throw new Error(
+      `${filename}: search_log.part2_channel must be playwright after successful X collection`,
+    );
+  }
+}
+
+function validateVerificationCoverage(report, filename) {
+  if (report.date < VERIFICATION_STATUS_REQUIRED_FROM) return;
+  const signals = [
+    ...report.part1_broadcasts,
+    ...report.part2_x_posts,
+    ...report.part3_news,
+  ];
+  const verified = signals.filter((item) => item.verification_status === "verified").length;
+  const unverifiedItems = signals.filter((item) => item.verification_status === "unverified");
+  const verification = report.search_log.url_verification;
+  if (verification.passed < verified) {
+    throw new Error(`${filename}: search_log.url_verification.passed must cover verified signals`);
+  }
+  if (verification.failed < unverifiedItems.length) {
+    throw new Error(`${filename}: search_log.url_verification.failed must cover unverified signals`);
+  }
+  const failedUrls = new Set(
+    (verification.failures ?? [])
+      .filter((failure) => isObject(failure) && typeof failure.url === "string")
+      .map((failure) => failure.url),
+  );
+  for (const item of unverifiedItems) {
+    if (!failedUrls.has(item.url)) {
+      throw new Error(
+        `${filename}: search_log.url_verification.failures must list unverified URL ${item.url}`,
+      );
+    }
+  }
+}
+
 function rejectReplacementCharacters(value, field, filename) {
   if (typeof value === "string") {
     if (value.includes("\ufffd")) throw new Error(`${filename}: ${field} must not contain U+FFFD replacement character`);
@@ -304,7 +372,8 @@ export function validateReport(report, filename) {
     throw new Error(`${filename}: date does not match filename`);
   }
   const requirePrimaryMetal = report.date >= PRIMARY_METAL_REQUIRED_FROM;
-  const requireImportance = report.date >= IMPORTANCE_REQUIRED_FROM;
+  const validateImportanceContent = report.date >= IMPORTANCE_VALIDATED_FROM;
+  const requireVerificationStatus = report.date >= VERIFICATION_STATUS_REQUIRED_FROM;
 
   if (!isObject(report.windows)) throw new Error(`${filename}: windows must be an object`);
   for (const part of ["part1", "part2", "part3"]) {
@@ -313,11 +382,32 @@ export function validateReport(report, filename) {
   validateWindowBoundaries(report, filename);
 
   requireArray(report.part1_broadcasts, "part1_broadcasts", filename);
-  report.part1_broadcasts.forEach((item, index) => validateBroadcast(item, `part1_broadcasts[${index}]`, filename, requirePrimaryMetal, requireImportance));
+  report.part1_broadcasts.forEach((item, index) => validateBroadcast(
+    item,
+    `part1_broadcasts[${index}]`,
+    filename,
+    requirePrimaryMetal,
+    validateImportanceContent,
+    requireVerificationStatus,
+  ));
   requireArray(report.part2_x_posts, "part2_x_posts", filename);
-  report.part2_x_posts.forEach((item, index) => validateXPost(item, `part2_x_posts[${index}]`, filename, requirePrimaryMetal, requireImportance));
+  report.part2_x_posts.forEach((item, index) => validateXPost(
+    item,
+    `part2_x_posts[${index}]`,
+    filename,
+    requirePrimaryMetal,
+    validateImportanceContent,
+    requireVerificationStatus,
+  ));
   requireArray(report.part3_news, "part3_news", filename);
-  report.part3_news.forEach((item, index) => validateNews(item, `part3_news[${index}]`, filename, requirePrimaryMetal, requireImportance));
+  report.part3_news.forEach((item, index) => validateNews(
+    item,
+    `part3_news[${index}]`,
+    filename,
+    requirePrimaryMetal,
+    validateImportanceContent,
+    requireVerificationStatus,
+  ));
   validatePublishedAtWindows(report, filename);
 
   if (!isObject(report.search_log)) throw new Error(`${filename}: search_log must be an object`);
@@ -328,7 +418,9 @@ export function validateReport(report, filename) {
     throw new Error(`${filename}: search_log.part2_searched must be boolean`);
   }
   requireStringArray(report.search_log.part3_sources_checked, "search_log.part3_sources_checked", filename);
+  validateCollectionCompleteness(report, filename);
   validateUrlVerification(report, filename);
+  validateVerificationCoverage(report, filename);
 
   if (!isObject(report.dedup_log)) throw new Error(`${filename}: dedup_log must be an object`);
   requireStringArray(report.dedup_log.part1_deduped_urls, "dedup_log.part1_deduped_urls", filename);

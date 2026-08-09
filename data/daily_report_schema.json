@@ -108,8 +108,14 @@
           "detail": {"type": "string"},
           "importance": {
             "type": "string",
-            "description": "For reports dated 2026-07-31 or later: a substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters, covering scale, mechanism, timing, comparison, or uncertainty rather than a generic label"
+            "description": "Optional substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters; when present it must cover scale, mechanism, timing, comparison, or uncertainty rather than a generic label"
           },
+          "verification_status": {
+            "type": "string",
+            "enum": ["verified", "unverified"],
+            "description": "Required for new reports; unverified sources remain publishable but must be visibly labelled"
+          },
+          "verification_note": {"type": "string"},
           "companies": {"type": "array", "items": {"type": "string"}},
           "projects": {"type": "array", "items": {"type": "string"}}
         }
@@ -150,8 +156,14 @@
           "interpretation": {"type": "string"},
           "importance": {
             "type": "string",
-            "description": "For reports dated 2026-07-31 or later: a substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters, with at least one concrete anchor and an explanation of why the signal matters"
+            "description": "Optional substantive 2–4 sentence research conclusion; when present it must contain a concrete anchor and explain why the signal matters"
           },
+          "verification_status": {
+            "type": "string",
+            "enum": ["verified", "unverified"],
+            "description": "Required for new reports; unverified sources remain publishable but must be visibly labelled"
+          },
+          "verification_note": {"type": "string"},
           "url": {"type": "string", "format": "uri"},
           "source_channel": {
             "type": "string",
@@ -196,8 +208,14 @@
           "interpretation": {"type": "string"},
           "importance": {
             "type": "string",
-            "description": "For reports dated 2026-07-31 or later: a substantive 2–4 sentence research conclusion, normally 80–300 Chinese characters, with at least one concrete anchor and an explanation of why the signal matters"
+            "description": "Optional substantive 2–4 sentence research conclusion; when present it must contain a concrete anchor and explain why the signal matters"
           },
+          "verification_status": {
+            "type": "string",
+            "enum": ["verified", "unverified"],
+            "description": "Required for new reports; unverified sources remain publishable but must be visibly labelled"
+          },
+          "verification_note": {"type": "string"},
           "language": {
             "type": "string",
             "enum": ["en", "zh"]
@@ -228,6 +246,10 @@
         },
         "part2_sources_checked": {"type": "array", "items": {"type": "string"}},
         "part2_result": {"type": "string"},
+        "part3_searched": {
+          "type": "boolean",
+          "description": "True only when Part 3 collection completed, including a successful search with zero qualified results"
+        },
         "part3_sources_checked": {"type": "array", "items": {"type": "string"}},
         "part3_result": {"type": "string"},
         "mining_com_source_note": {"type": "string"},

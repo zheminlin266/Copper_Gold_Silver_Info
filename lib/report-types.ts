@@ -3,6 +3,7 @@ export type SupplyDemand = "supply" | "demand" | "both";
 export type Part2Channel = "browser_use" | "rss_fallback" | "playwright" | "failed";
 export type XSourceChannel = "browser_use" | "rss_fallback" | "playwright";
 export type NewsSourceChannel = "web" | "playwright";
+export type VerificationStatus = "verified" | "unverified";
 
 export interface Guest {
   name?: string;
@@ -20,6 +21,8 @@ export interface Broadcast {
   summary: string;
   detail?: string;
   importance?: string;
+  verification_status?: VerificationStatus;
+  verification_note?: string;
   guest?: Guest;
   companies?: string[];
   projects?: string[];
@@ -35,6 +38,8 @@ export interface XPost {
   excerpt?: string;
   interpretation?: string;
   importance?: string;
+  verification_status?: VerificationStatus;
+  verification_note?: string;
   url: string;
   source_channel?: XSourceChannel;
 }
@@ -50,6 +55,8 @@ export interface NewsItem {
   excerpt?: string;
   interpretation?: string;
   importance?: string;
+  verification_status?: VerificationStatus;
+  verification_note?: string;
   language: "en" | "zh";
   duplicate_of?: string | null;
   companies?: string[];
@@ -84,6 +91,7 @@ export interface SearchLog {
   part2_channel?: Part2Channel;
   part2_sources_checked?: string[];
   part2_result?: string;
+  part3_searched?: boolean;
   part3_sources_checked: string[];
   part3_result?: string;
   mining_com_source_note?: string;
@@ -129,6 +137,8 @@ export interface ReportSignal {
   fact: string;
   interpretation: string;
   importance: string;
+  verificationStatus: VerificationStatus;
+  verificationNote: string;
   url: string;
   language?: "en" | "zh";
 }
