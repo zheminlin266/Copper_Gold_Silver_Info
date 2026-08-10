@@ -1,0 +1,108 @@
+X 原始候选 — 2026-08-09
+采集时间: 2026-08-10T09:34:03.526718+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: partial
+失败账号数: 1
+失败账号:
+  @duediligenceguy (Lobo Tiggre): TimeoutError: Page.goto: Timeout 15000ms exceeded.
+Call log:
+  - navigating to "https://x.com/search?q=from%3Aduediligenceguy+%28gold+OR+silver+OR+copper+OR+mining+OR+mine+OR+production+OR+supply+OR+demand+OR+permit+OR+smelter+OR+mill+OR+drill+OR+resource+OR+reserve%29+since%3A2026-08-09+until%3A2026-08-10&src=typed_query&f=live", waiting until "domcontentloaded"
+
+============================================================
+
+总计候选: 10 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-09T14:45:27+00:00
+    北京: 2026-08-09T22:45:27+08:00
+    文本: Gold just jumped 7% this week, marking its fourth 5%+ weekly gain since the start of 2025. 
+
+Gold miners liked the message:
+
+GDX: +21.3%
+GDXJ: +23.3%
+
+The gold bull still has a pulse
+    链接: https://x.com/KatusaResearch/status/2086463875075969112
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-08-09T12:03:18+00:00
+    北京: 2026-08-09T20:03:18+08:00
+    文本: Is Gold Being Drained From The LBMA? 
+https://
+archive.aweber.com/t/ADBWf
+    链接: https://x.com/silverguru22/status/2086423069946495204
+
+[3] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-09T14:20:41+00:00
+    北京: 2026-08-09T22:20:41+08:00
+    文本: I told you before that I agreed these things are usually never entirely one-sided black and white events, and I'm not going to claim to know the exact details of what happened in the courtroom back in 1925. But are you saying that nationalizing an oil reserve justifies a covert
+    链接: https://x.com/ArcadiaEconomic/status/2086457642411569514
+
+[4] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-08T22:24:05+00:00
+    北京: 2026-08-09T06:24:05+08:00
+    文本: So you admire a president who protects pedophiles, and a treasury secretary, who was trained under George Soros. 
+
+Am I getting that right?
+
+Then on top of it, the person who explained Gold and Silver to you before the prices surged, you tell him to fuck off & go back to govt
+    链接: https://x.com/ArcadiaEconomic/status/2086216908613779893
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-08T22:19:25+00:00
+    北京: 2026-08-09T06:19:25+08:00
+    文本: You’ll really be missed MissMitty
+
+But that’s funny that you watch me talk about Gold and Silver because of government mismanagement, but when your favorite killers do the same thing, but worse, you wet your panties. 
+
+Best of luck with that bro
+    链接: https://x.com/ArcadiaEconomic/status/2086215731675275568
+
+[6] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-08T20:21:35+00:00
+    北京: 2026-08-09T04:21:35+08:00
+    文本: Yes. Even Ray Charles can see that. Which means you’re probably also a terrible mining stock analyst too.
+
+So do whatever you want, but just be aware that whenever you contact me, you’re speaking to someone who doesn’t want to hear from you
+    链接: https://x.com/ArcadiaEconomic/status/2086186080252920264
+
+[7] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-09T15:51:39+00:00
+    北京: 2026-08-09T23:51:39+08:00
+    文本: Copper miners now on the brink of a significant breakout as the underlying metal continues to establish itself at historical levels.
+
+This is what happens when rising structural demand meets highly constrained supply.
+
+Very compelling setup.
+
+
+https://
+open.substack.com/pub/tavicosta/
+p/the-tale-of-two-metals?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2086480537896497513
+
+[8] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-08T17:33:33+00:00
+    北京: 2026-08-09T01:33:33+08:00
+    文本: Fair enough.  I know Bessent is a gold bug and bitcoin advocate.  I hope he has a plan drawn up for a reset.  that would be a pleasant surprise. he had better have a plan because he is going to need it.
+    链接: https://x.com/LawrenceLepard/status/2086143791094804927
+
+[9] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-08T17:11:45+00:00
+    北京: 2026-08-09T01:11:45+08:00
+    文本: have him call Neel, they have an infinite amount at the Federal Reserve!
+    链接: https://x.com/LawrenceLepard/status/2086138308019585296
+
+[10] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-08-08T16:14:49+00:00
+    北京: 2026-08-09T00:14:49+08:00
+    文本: Grok; At the prevailing CNY/USD rate of roughly 6.75 (1 CNY ≈ $0.1482), this converts to approximately $4,630–$4,635 per ounce. The stated figure of $4,630.95/oz matches closely. 
+The large premium versus international spot (~$4,340–4,360) is typical for physical Chinese
+    链接: https://x.com/Frank_Giustra/status/2086123978972950795
+
