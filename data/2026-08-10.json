@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-10",
+  "report_time": "2026-08-11T09:44:30+08:00",
+  "summary": "铜：智利大型矿山6月产量分化，Largo获批启动铜-PGM副产品爬坡，Los Azules仍属中长期供给管线；黄金：White Gold公布PEA，新增供给仍取决于建设、许可和融资；白银：未发现报告日新增可核验供需信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-08T00:00:00+08:00",
+      "end": "2026-08-10T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-10T00:00:00+08:00",
+      "end": "2026-08-10T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-10T00:00:00+08:00",
+      "end": "2026-08-10T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Under the Spotlight：San Cristobal Mining首席执行官Quinton Hennigh访谈",
+      "url": "https://www.investorideas.com/news/2026/mining/08102-quinton-hennigh-san-cristobal-mining.asp",
+      "publish_date": "2026-08-10",
+      "source_type": "webcast",
+      "guest": {
+        "name": "Quinton Hennigh",
+        "background": "San Cristobal Mining首席执行官、矿业勘探人士"
+      },
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "访谈披露BCM Resources的TK-20钻孔在约500米深处进入强烈斑岩矿化，含辉钼矿脉和铜矿化，但化验结果尚未公布；同时更新NV Gold和Mogotes Metals的金铜勘探靶区与后续钻探计划。",
+      "detail": "来源页面为2026年8月10日采访文字稿。Hennigh称TK-20钻孔进入基岩后见到强烈石英脉网和辉钼矿脉，较深部有铜矽卡岩矿化，部分化验仍需等待数周；NV Gold的Slumber项目有0.3—0.4克/吨金的历史钻孔，目标区约3.5公里×700米，计划钻约40孔；Mogotes两个钻孔据称出现约0.6%—0.7%铜及0.3—0.5克/吨金的长矿化段。上述为勘探结果、历史钻孔或管理层转述，不是资源量、储量或新增产量。",
+      "importance": "这条访谈的新增价值在于多个铜金勘探靶区同时进入化验或后续钻探阶段，但短期不会改变现货供给：TK-20化验尚未公布，NV Gold数据包含历史钻孔，Mogotes矿化也仍需连续性验证。未来数周至数年应跟踪化验、资源估算和约40孔钻探能否把视觉矿化转化为可采资源，当前证据强度仍低于生产或项目批准信息。",
+      "verification_status": "verified",
+      "companies": [
+        "San Cristobal Mining",
+        "BCM Resources",
+        "NV Gold",
+        "Mogotes Metals"
+      ],
+      "projects": [
+        "Thompson Knolls",
+        "Slumber",
+        "Mogotes"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.COM / Reuters / Cochilco",
+      "title": "智利主要铜矿6月产量分化：Escondida、Collahuasi增加，Codelco下降",
+      "language": "en",
+      "url": "https://www.mining.com/web/chilean-copper-output-rises-in-june-at-escondida-and-collahuasi-but-drops-at-codelco/",
+      "publish_time": "2026-08-10",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Reuters援引智利铜委员会Cochilco发布的数据称，BHP控股的Escondida 6月产铜111,400吨，同比增加45.8%；Anglo American与Glencore部分持有的Collahuasi产铜34,900吨，同比增加1.7%；国营Codelco产铜114,400吨，同比下降4.8%。",
+      "interpretation": "这是三座大型矿山的月度实际产量比较，不等于智利全国总产量或全年趋势。Escondida和Collahuasi的增产与Codelco下降并存，反映矿山执行和资产状况分化；后续供给影响取决于高增产能否延续以及Codelco的下降是否修复。",
+      "importance": "这不是单向增产，而是主力矿山之间的供给分化：Escondida和Collahuasi改善，Codelco却同比收缩，短期可交付铜供给不能只按单一矿山的高增速外推。6月单月数据改变的是下半年供给结构的不确定性，后续应跟踪Codelco恢复和Escondida高增产是否持续，才能判断改善能否转化为全国性增量。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP",
+        "Anglo American",
+        "Glencore",
+        "Codelco"
+      ],
+      "projects": [
+        "Escondida",
+        "Collahuasi"
+      ],
+      "mining_com_source_note": "按强制主路径使用规定Python 3.13.12、Playwright Chromium headless和反检测参数直接打开Mining.com文章，核对标题、2026-08-10日期和正文；再打开Cochilco生产页面及2026年6月月报表交叉核对产量数字。"
+    },
+    {
+      "source": "Largo Inc. / Newsfile",
+      "title": "Largo获巴西矿业机构批准生产铜-PGM副产品并启动爬坡",
+      "language": "en",
+      "url": "https://www.newsfilecorp.com/release/308823/Largo-Starts-Production-of-Copper-and-Platinum-Group-Metals-as-ByProducts-of-Vanadium-Operations-Following-Mining-Agency-Approval",
+      "publish_time": "2026-08-10",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Largo称巴西国家矿业机构ANM批准其在Maracás Menchen矿生产和销售含铜、铂族金属的铜精矿副产品；公司开始爬坡，并暂时暂停钛铁矿精矿生产，计划在8月14日季度业绩中提供铜-PGM精矿产量和销售指引。",
+      "interpretation": "这是监管批准和现有矿石处理流程的副产品商业化启动，不是新建铜矿或已经确认的新增吨位。公司将使用现有钛铁矿浮选基础设施，且公告没有给出当日可计量的铜产量；后续首船、商业化率和8月14日指引决定其对铜精矿和副产金银供给的实际贡献。",
+      "importance": "Largo的8月10日批准把铜-PGM项目从工业试验推进到现有钒矿处理平台的生产爬坡，潜在增量来自副产品回收而非新铜矿投产，短期供给规模仍不可量化。公司计划8月14日披露产销指引，届时吨位、首船和商业化进度才可判断其对铜及副产金银市场的实际影响；暂缓钛铁矿精矿也构成浮选产能的机会成本。",
+      "verification_status": "verified",
+      "companies": [
+        "Largo Inc."
+      ],
+      "projects": [
+        "Maracás Menchen Mine"
+      ],
+      "mining_com_source_note": "Mining.com同日候选由同一Playwright会话直接核验；为避免二手事实，最终来源改用Largo发布、Newsfile完整转载的8月10日公告，核对ANM批准、启动爬坡、暂缓钛铁矿和8月14日指引安排。"
+    },
+    {
+      "source": "MINING.COM / TNR Gold",
+      "title": "阿根廷Los Azules铜项目接近最终投资决定",
+      "language": "en",
+      "url": "https://www.mining.com/argentina-los-azules-copper-project-nears-investment-decision/",
+      "publish_time": "2026-08-10",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "文章称，运营方McEwen Copper截至6月30日完成约27%的最终投资决定工作计划，目标在第四季度完成剩余工作；2025年可研设计前五年平均年产阴极铜205,000吨，初始矿山寿命22年，目标2030年投产，但建设和投产取决于融资与审批。",
+      "interpretation": "27%是FID准备工作的完成度，不是工程建设或实际产量；205,000吨/年是可研设计值，不是公司当前指引。项目仍在工程、融资、道路和营地建设准备阶段，因此不能把设计产能计入近期铜供给。",
+      "importance": "Los Azules的新增意义在于最终投资决定准备已进入工程、融资和审批联动阶段，但截至6月30日仅完成约27%，意味着近期铜精矿或阴极铜供给没有贡献。若第四季度完成剩余工作并在2027年初开工，205,000吨/年的设计产能也要到2030年且取决于融资和批准；该项目是中长期供给选项，不应提前计入短期平衡。",
+      "verification_status": "verified",
+      "companies": [
+        "McEwen Copper",
+        "McEwen Mining",
+        "TNR Gold"
+      ],
+      "projects": [
+        "Los Azules"
+      ],
+      "mining_com_source_note": "按Mining.com强制路径的同一Playwright会话直接打开并核对标题、2026-08-10日期和正文；文章把27%进度、可研设计产能、2030年目标和融资审批条件归属于TNR Gold对运营方进展的披露，未把其写成已实现供给。"
+    },
+    {
+      "source": "MINING.COM",
+      "title": "White Gold Yukon项目PEA给出约9年矿山方案",
+      "language": "en",
+      "url": "https://www.mining.com/study-gives-white-gold-nearly-c2b-value-for-9-year-mine-in-yukon/",
+      "publish_time": "2026-08-10",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "White Gold公布的初步经济评估（PEA）给出税后净现值约C$1.9 billion、税后内部收益率38%、初始资本约C$1 billion、回收期1.7年；研究设计为约9年矿山，年产金约188,000盎司，假设金价为US$3,600/oz。",
+      "interpretation": "上述是PEA经济评估和矿山计划，不是已批准的建设方案、公司生产指引或实际产量。项目尚未具备道路接入，经济性高度依赖较高金价假设，后续还需可研、道路、许可和融资才能转化为黄金供给。",
+      "importance": "White Gold的PEA把项目从勘探资产推进到可比较的开发方案，但188,000盎司/年只是约9年矿山的研究设计，不是公司指引或已核准产能。C$1.9 billion净现值依赖US$3,600/oz金价假设，且项目尚无道路接入，短期不改变黄金矿山供给；后续要看可研、许可、道路与融资能否把经济性转为建设决策。",
+      "verification_status": "verified",
+      "companies": [
+        "White Gold"
+      ],
+      "projects": [
+        "White Gold Project"
+      ],
+      "mining_com_source_note": "按Mining.com强制路径的同一Playwright会话直接打开并核对标题、2026-08-10日期及PEA数字；未找到可直接打开的公司一手公告，故事实以Mining.com二手报道为准，并明确区分PEA设计值与实际产量。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-08至2026-08-10北京时间72小时窗口检查mining_people_broadcast_x_articles.csv、data/conference_calendar.json、公司IR、业绩电话会、webcast注册/回放、Podcast、YouTube、会议采访、Panel、Keynote和公司演示。",
+      "Diggers & Dealers Mining Forum官方页面及节目安排早于本窗口，未纳入；同时对照2026-08-07至2026-08-09日报，未发现URL或实质事件重复。",
+      "InvestorIdeas原始采访页https://www.investorideas.com/news/2026/mining/08102-quinton-hennigh-san-cristobal-mining.asp可打开，核对2026-08-10日期、标题、Quinton Hennigh身份和TK-20、NV Gold、Mogotes的勘探事实，纳入1条；底层钻探结果按勘探潜力处理，不写成资源或产量。",
+      "Financial Sense的两篇8月7日Podcast原始页返回403；Mining.com部分视频采访日期无法核实；Barrick、Caledonia和K92仅有活动/业绩预告，没有可核验的窗口内正文或回放；以上按规则排除。",
+      "补充检查The Northern Miner、Canadian Mining Journal、Fastmarkets、公司频道和中英文搜索结果；未发现其他同时满足窗口、原始页面可访问和可归因供需事实条件的访谈。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、会议、Podcast、Webcast、YouTube、公司演示和回放检索；纳入1条可直接核验的采访文字稿，其他候选因访问受限、日期无法核实、仅活动预告或窗口外排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、明确C:/Program Files/Google/Chrome/Application/chrome.exe解析路径、Playwright headless、项目.browser_profile/chromium-data持久化会话运行scripts/x_search.py --check-login --headless；认证首页检查通过。",
+      "运行scripts/x_search.py 2026-08-10 --headless，完整检查34个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原帖15条，保存至x_outputs/2026-08-10_x_raw_materials.txt，未覆盖历史原始材料。",
+      "15条候选均逐条按原帖正文筛选：内容为黄金价格/货币或战争评论、投资观点、宏观叙事或会议宣传，不含可归因且新增的金银铜实体供需事实；没有使用搜索摘要或截图替代原帖证据。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现15条原作者帖子、纳入0条；完整检索后没有符合实体金银铜供需事实和唯一新增事件标准的帖子。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用规定Python 3.13.12、Playwright Chromium headless、--disable-blink-features=AutomationControlled和--no-sandbox直接打开https://www.mining.com/commodity/copper/；HTTP 200，页面标题Copper Archives - MINING.COM，DOM提取报告日文章12篇。",
+      "Mining.com金分类页辅助Playwright路径：HTTP 200，页面标题Gold Archives - MINING.COM，DOM提取报告日文章15篇；银分类页HTTP 200，页面标题Silver Archives - MINING.COM，DOM提取报告日文章16篇；跨分类去重后18个不同URL。",
+      "Google site:mining.com copper August 10 2026、gold August 10 2026和silver August 10 2026均执行，DOM命中数分别为10、10、10；仅作辅助发现，未用搜索摘要作为证据，未使用sitemap、Wayback Machine或RSS feed。",
+      "18个不同Mining.com候选由同一Playwright会话逐篇打开并核对标题、报告日和可见正文；智利铜矿、Largo、Los Azules和White Gold候选纳入，其他候选因价格/投资情绪、非目标金属、资金安排、未证实计划、治理交易或窗口外排除。",
+      "智利候选另行打开Cochilco生产页面和2026年6月月报表核对Escondida、Collahuasi和Codelco数字；Largo最终使用可打开的Newsfile完整公告作为直接事实来源。"
+    ],
+    "part3_result": "Part 3完成2026-08-10全天中英文新闻检索、Mining.com铜主分类页、金银辅助分类页、Google site:辅助查询和候选正文核验；分类页候选12/15/16篇，跨分类去重18个URL，最终纳入4条（铜3、黄金1、白银0；供给4、需求0）。",
+    "mining_com_source_note": "本轮铜分类页Playwright主路径成功（HTTP 200、12篇），金/银分类页同一会话成功（15/16篇）；18个不同候选URL完成正文核验。入选Mining.com文章均记录了同一会话直接核验路径；Largo信号改用可打开的公司公告转载，智利数据再以Cochilco官方表交叉核对。",
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": "直接打开并核对1个Part 1原始采访页、4个Part 3入选证据页、Cochilco生产页和2026年6月月报表；Mining.com其他候选按专用Playwright会话完成标题、日期和正文筛选。未核验来源未作为完整事实卡使用。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "15条X原帖均因价格/货币/战争评论、投资观点、宏观叙事或会议宣传而缺少新增实体金银铜供需事实，未与Part 1或Part 3重复展示。"
+    ],
+    "part3_deduped_events": [
+      "Mining.com同一文章在铜、金、银分类页重复出现，按唯一URL和最重要供需影响去重；每个入选事件只在primary_metal对应板块完整展示。",
+      "印度Hindustan Copper未公布数量的精矿销售计划、Chile reinvest Codelco profits资金安排、Barrick/Newmont治理交易和越南黄金检查未形成报告日可量化新增目标金属供需，排除。",
+      "Sherritt/Glencore镍钴交易、Sunrise钪、Volta镓、Sprott/MAX Power和其他非目标金属事件排除；8月7日至9日旧事件（含Glomar、Iamgold和B2Gold）不重复纳入。",
+      "金价/矿股价格、投资者情绪和处理产业评论不具备独立供需传导；没有可保留的跨来源重复入选信号。"
+    ],
+    "notes": "5条正文信号均填写唯一primary_metal且该值出现在metal_tags中；访谈勘探结果、矿山实际产量、监管批准、副产品爬坡、PEA、可研设计值和FID进度分别按实际值、计划、估计或研究判断标注，没有把资源、储量、公司估计或项目设计写成已实现供给。"
+  }
+}

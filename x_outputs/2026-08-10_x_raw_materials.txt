@@ -1,0 +1,145 @@
+X 原始候选 — 2026-08-10
+采集时间: 2026-08-11T09:35:33.328643+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 15 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-10T15:56:07+00:00
+    北京: 2026-08-10T23:56:07+08:00
+    文本: And they must both live beneath their means, and save in gold
+    链接: https://x.com/RealRickRule/status/2086844050389582264
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-08-10T15:48:42+00:00
+    北京: 2026-08-10T23:48:42+08:00
+    文本: if elected, I would DEMAND an immediate recount
+    链接: https://x.com/RealRickRule/status/2086842183982997895
+
+[3] @RealRickRule (Rick Rule)
+    UTC: 2026-08-10T14:48:34+00:00
+    北京: 2026-08-10T22:48:34+08:00
+    文本: save in gold.
+    链接: https://x.com/RealRickRule/status/2086827048547520698
+
+[4] @RealRickRule (Rick Rule)
+    UTC: 2026-08-10T14:43:54+00:00
+    北京: 2026-08-10T22:43:54+08:00
+    文本: priced in gold, food, irrespective of where consumed, is getting cheaper
+The increase in prices is a function of the decline in the dollar
+    链接: https://x.com/RealRickRule/status/2086825873118990689
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-10T08:39:06+00:00
+    北京: 2026-08-10T16:39:06+08:00
+    文本: I have not.
+
+I don't know what will happen next (especially with the Iran war's impact on gold).
+
+And therefore I feel no FOMO.
+    链接: https://x.com/duediligenceguy/status/2086734070235680819
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-10T00:52:40+00:00
+    北京: 2026-08-10T08:52:40+08:00
+    文本: Yep.
+
+Even though gold and silver are on the move, there's also more risk of a reversal there, so I still see uranium this way.
+    链接: https://x.com/duediligenceguy/status/2086616686116130865
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T17:54:28+00:00
+    北京: 2026-08-10T01:54:28+08:00
+    文本: Frankly, it looks very good to me. Classic "carving out a bottom" market action.
+
+But...
+
+The war has been bad for gold, and the war ain't over yet.
+    链接: https://x.com/duediligenceguy/status/2086511443512557894
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T17:53:15+00:00
+    北京: 2026-08-10T01:53:15+08:00
+    文本: Yes, much better.
+
+But I still worry that the war has been bad for gold and the war ain't over yet...
+    链接: https://x.com/duediligenceguy/status/2086511137571709408
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T17:07:59+00:00
+    北京: 2026-08-10T01:07:59+08:00
+    文本: The funny thing is that when I said gold was my top pick 2 years ago (or uranium 3 years ago, etc.), I got so much hate from people who'd been burned by perma-bulls...
+
+I hope you can understand why I'm unswayed by their opposites now.
+    链接: https://x.com/duediligenceguy/status/2086499747175735375
+
+[10] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T17:04:24+00:00
+    北京: 2026-08-10T01:04:24+08:00
+    文本: #1: Thank you for remaining polite.
+
+#2: I never said the stocks are overvalued.
+
+My view is simple: relatively on sale is not the same as "blood in the streets."
+
+I absolutely get that gold and silver stocks may leave me behind this time. I'm fine with that.
+    链接: https://x.com/duediligenceguy/status/2086498845102612865
+
+[11] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T16:11:28+00:00
+    北京: 2026-08-10T00:11:28+08:00
+    文本: I addressed this in this weekend's edition of The Digest...
+
+https://
+independentspeculator.com/sd/the-digest/
+war-oil-jobs-inflation-gold...-is-anything-clear
+…
+    链接: https://x.com/duediligenceguy/status/2086485525356261877
+
+[12] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T16:10:38+00:00
+    北京: 2026-08-10T00:10:38+08:00
+    文本: Free cash flows won't stop the stocks from tanking if gold breaks down.
+
+I'm not saying it will, but I am saying the war has been bad for gold, and the war isn't over.
+
+I've no interest in the GDXJ, but if gold drops to cyclical lows, I'd be a buyer.
+    链接: https://x.com/duediligenceguy/status/2086485315309690953
+
+[13] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-09T16:05:06+00:00
+    北京: 2026-08-10T00:05:06+08:00
+    文本: If I lead by example, then it's fair to say I "advised" people to sell gold and silver mining stocks early this year, and not to buy back yet.
+
+Of course, the haters choose to ignore all the years I said gold stocks were my main bet... and did well doing so.
+
+C'est la vie.
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2086483921827717487
+
+[14] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-10T13:50:37+00:00
+    北京: 2026-08-10T21:50:37+08:00
+    文本: Japan and Bessent panicked.
+
+The debasement trade woke up.
+Gold up 7% last week.
+Gold stocks had their largest weekly move in years.
+And then this......
+    链接: https://x.com/LawrenceLepard/status/2086812465497510283
+
+[15] @JayantBhandari5 (Jayant Bhandari)
+    UTC: 2026-08-10T07:03:33+00:00
+    北京: 2026-08-10T15:03:33+08:00
+    文本: I joined
+@FoxtrotFuz
+ on Connecting the Dots to discuss democracy, Western decline, India vs. China, East Asia’s future, capitalism, natural-resource investing, and preserving wealth in an increasingly unstable world.
+    链接: https://x.com/JayantBhandari5/status/2086710023049335259
