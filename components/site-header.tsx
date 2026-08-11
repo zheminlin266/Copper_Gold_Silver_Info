@@ -7,6 +7,7 @@ import { useEffect, useRef, useState } from "react";
 import miningNewsLogo from "@/Sources/mining_news_logo.png";
 
 const INVENTORY_URL = "https://sc.macromicro.me/charts/40914/tong-ku-cun-jia-ge";
+const GOLD_SUPPLY_DEMAND_URL = "https://www.gold.org/goldhub/data/gold-demand-by-country";
 const TC_URL = "https://www.metal.com/copper/201910240001";
 
 export function SiteHeader() {
@@ -149,6 +150,9 @@ export function SiteHeader() {
             <div className="nav-menu__panel inventory-menu__panel" id="inventory-menu-panel">
               <a href={INVENTORY_URL} rel="noopener noreferrer" target="_blank">
                 <span>三大交易所铜库存</span>
+              </a>
+              <a href={GOLD_SUPPLY_DEMAND_URL} rel="noopener noreferrer" target="_blank">
+                <span>Gold Supply &amp; Demand</span>
               </a>
             </div>
           </div>
