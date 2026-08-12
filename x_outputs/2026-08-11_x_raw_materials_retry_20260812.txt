@@ -1,0 +1,125 @@
+X 原始候选 — 2026-08-11
+采集时间: 2026-08-12T09:59:06.653535+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 13 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-11T14:49:49+00:00
+    北京: 2026-08-11T22:49:49+08:00
+    文本: 08-10-2026
+    链接: https://x.com/RealRickRule/status/2087189751388610975
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-08-11T15:20:09+00:00
+    北京: 2026-08-11T23:20:09+08:00
+    文本: Namibians can now invest in silver without buying
+    链接: https://x.com/silverguru22/status/2087197385395241236
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-08-11T15:19:12+00:00
+    北京: 2026-08-11T23:19:12+08:00
+    文本: Silver prices today, Monday, August 10, 2026: Silver prices keep rising this morning
+    链接: https://x.com/silverguru22/status/2087197146441568494
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-08-11T15:17:54+00:00
+    北京: 2026-08-11T23:17:54+08:00
+    文本: Silver Price Outlook: Has a New Bullish Wave Begun?
+    链接: https://x.com/silverguru22/status/2087196817561919713
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-11T12:18:29+00:00
+    北京: 2026-08-11T20:18:29+08:00
+    文本: Fortuna Mining just delivered another $85.7 million of free cash flow in the second quarter.
+
+And Fortuna CEO Jorge Ganoza joins me on the show at 9 AM eastern on Tuesday to go through the results.
+
+ 
+https://
+youtube.com/live/i0St3amAi
+DQ?si=PBDMXwkm0qProlK8
+… 
+@goldseek
+ 
+@InvResDynamics
+    链接: https://x.com/ArcadiaEconomic/status/2087151668248866883
+
+[6] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-11T03:29:45+00:00
+    北京: 2026-08-11T11:29:45+08:00
+    文本: I’m with you on this one. 
+
+Based on specifically what does he come to the conclusion that the Gold is all there? 
+
+Did he do an audit? 
+
+Did he actually break the remaining seals) aside from the ones that were already broken) and at least look inside?
+    链接: https://x.com/ArcadiaEconomic/status/2087018606680789034
+
+[7] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-11T07:45:33+00:00
+    北京: 2026-08-11T15:45:33+08:00
+    文本: My pleasure. You can also use a Gold only fund as a portfolio anchor.
+    链接: https://x.com/TheDailyGold/status/2087082982570185066
+
+[8] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-10T19:59:19+00:00
+    北京: 2026-08-11T03:59:19+08:00
+    文本: Don’t be a victim of the 2008 Boogeyman.
+
+Most investors underestimate how far precious metals can run DURING the coming bear market, not afterward.
+
+Gold has already corrected 29%. Silver, 55%. And people are still waiting for a crash?
+
+There will be normal pullbacks along the
+    链接: https://x.com/TheDailyGold/status/2086905252671090967
+
+[9] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-11T04:55:02+00:00
+    北京: 2026-08-11T12:55:02+08:00
+    文本: Silver miners appear to be moving ahead of silver itself.
+
+Yes, be on your toes for some normal volatility near resistance, but a breakout here could simply be a matter of time, in my view.
+
+Game on.
+
+
+https://
+tavicosta.substack.com/p/silver-leadi
+ng-indicator
+…
+    链接: https://x.com/TaviCosta/status/2087040070310064194
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-11T13:20:45+00:00
+    北京: 2026-08-11T21:20:45+08:00
+    文本: They did it in the 1960’s to support the London Gold Pool. US Treasury sources in th Johnson Administration confirmed this with gold bug who spoke to those sources.
+    链接: https://x.com/LawrenceLepard/status/2087167338890100766
+
+[11] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-11T12:31:03+00:00
+    北京: 2026-08-11T20:31:03+08:00
+    文本: You really think almost $1B of Pleb self custody money went into ETFs?  Get real. It was a fraction.  The surge came along with the surge in gold due to macro factors.
+    链接: https://x.com/LawrenceLepard/status/2087154827977425063
+
+[12] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-11T12:29:05+00:00
+    北京: 2026-08-11T20:29:05+08:00
+    文本: Jeff is very wrong about this. Gold is relatively inelastic and the world thrived on a gold standard.  Bankers didn’t like it but that is their problem
+    链接: https://x.com/LawrenceLepard/status/2087154332776997361
+
+[13] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-10T16:37:50+00:00
+    北京: 2026-08-11T00:37:50+08:00
+    文本: Mine was a Vega!  
+    链接: https://x.com/LawrenceLepard/status/2086854544755986899
+

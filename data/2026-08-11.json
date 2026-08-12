@@ -1,0 +1,156 @@
+{
+  "date": "2026-08-11",
+  "report_time": "2026-08-12T10:07:35+08:00",
+  "summary": "铜：智利产量预期下调、印尼冶炼厂故障和巴拿马库存处理共同强化短期供给约束；黄金：Barrick二季度产量高于指引，Lake Victoria资源量推进中长期供给；白银：未发现报告日新增可核验供需信号。",
+  "windows": {
+    "part1": {"start": "2026-08-09T00:00:00+08:00", "end": "2026-08-11T23:59:59+08:00"},
+    "part2": {"start": "2026-08-11T00:00:00+08:00", "end": "2026-08-11T23:59:59+08:00"},
+    "part3": {"start": "2026-08-11T00:00:00+08:00", "end": "2026-08-11T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [
+    {
+      "title": "K92 Mining 2026年第二季度业绩与运营更新",
+      "url": "https://www.k92mining.com/news/k92-mining-announces-strong-q2-2026-financial-resu-15387/",
+      "publish_date": "2026-08-10",
+      "source_type": "webcast",
+      "guest": {"name": "John Lewins", "background": "K92 Mining首席执行官"},
+      "metal_tags": ["gold", "silver", "copper"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "K92披露二季度产金42,931盎司、铜808吨、银50,109盎司；新1.2百万吨/年选厂持续运行，二季度处理矿石225,965吨，Stage 3扩建资本98%已投入或承诺。",
+      "detail": "公司8月10日业绩公告及配套电话会材料显示，Kainantu二季度产金42,931盎司、铜808吨、银50,109盎司，销售金46,682盎司、铜1,811,181磅、银49,004盎司；选厂处理矿石225,965吨，金回收率93.8%、铜回收率93.2%。Stage 3新选厂于2025年12月全面运行，第二条物料通道于2026年6月投运，阶段扩建资本98%已投入或承诺，公司重申2026年指引并预计下半年、尤其第四季度产量更强。",
+      "importance": "K92的新增供给已从扩建叙事转为可量化的季度产出，二季度处理量较2025年同期增加73%，说明Stage 3正在改善可交付金、铜和银的处理能力。第二物料通道、后续通风与运输升级将把影响延伸至2026年下半年，但产量指引仍是公司前瞻判断，需跟踪第三采矿前沿和Stage 4配套工程能否按期兑现。",
+      "verification_status": "verified",
+      "companies": ["K92 Mining"],
+      "projects": ["Kainantu Gold Mine", "Stage 3 Expansion", "Stage 4 Expansion"]
+    },
+    {
+      "title": "Barrick 2026年第二季度业绩电话会",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/barrick-b-q2-2026-earnings-143703897.html",
+      "publish_date": "2026-08-11",
+      "source_type": "webcast",
+      "guest": {"name": "Mark Hill", "background": "Barrick首席执行官"},
+      "metal_tags": ["gold", "copper"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "Barrick电话会披露二季度产金976,000盎司、铜56,000吨，金产量高于指引11%；Lumwana扩建仍计划2028年第一季度产出首批扩建铜。",
+      "detail": "Yahoo Finance刊载的电话会文字记录显示，Barrick二季度产金976,000盎司，比指引高3%、环比高11%；铜产量56,000吨。Loulo-Gounkoto和Porgera爬坡推动黄金产量，Lumwana磨机扩建保持预算内推进，目标2028年第一季度产出扩建后的首批铜；公司还表示2026年下半年铜产量应高于上半年。",
+      "importance": "Barrick二季度实际产金较一季度增加11%，把此前的运营爬坡转化为大型生产商层面的可交付增量，短期供给方向偏正面。Lumwana扩建要到2028年才贡献首批铜，因此不能填补当前缺口；下半年金、铜继续高于上半年仍取决于Loulo-Gounkoto、Porgera和磨机扩建执行。",
+      "verification_status": "verified",
+      "companies": ["Barrick Mining"],
+      "projects": ["Loulo-Gounkoto", "Lumwana", "Porgera"]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.COM / Reuters / Cochilco",
+      "title": "Cochilco预计智利2026年铜产量下降2.6%至527万吨，2027年反弹",
+      "url": "https://www.mining.com/web/chile-copper-output-to-fall-2-6-in-2026-before-rebound-cochilco-says/",
+      "publish_time": "2026-08-11",
+      "language": "en",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "excerpt": "智利铜委员会Cochilco预计智利2026年铜产量下降2.6%至527万吨，原因包括Codelco、Escondida和Spence上半年产量偏弱；2027年预计回升至555万吨。Cochilco同时预计2026年全球铜需求增长1.9%至2780万吨，中国需求增长2.7%至1600万吨。",
+      "interpretation": "这是官方机构对全国矿山产量和全球需求的预测，不是已经实现的年终结果。下半年El Teniente、Rajo Inca、Quebrada Blanca、Mantoverde和Collahuasi改善可能部分修复供给，但2026年低基数和结构性限制仍使供给低于原先路径。",
+      "importance": "Cochilco同时下调供给与确认需求增长，使铜市场的关键变化从单矿扰动扩展到国家级平衡：2026年智利产量减少约14.1万吨，而全球需求仍增加约52万吨。下半年修复和2027年反弹是预测而非现货增量，需跟踪Codelco、Escondida及Quebrada Blanca的实际恢复速度。",
+      "verification_status": "verified",
+      "companies": ["Codelco", "BHP", "Teck Resources", "Capstone Copper", "Anglo American", "Glencore", "Antofagasta"],
+      "projects": ["El Teniente", "Rajo Inca", "Quebrada Blanca", "Mantoverde", "Collahuasi", "Los Pelambres"]
+    },
+    {
+      "source": "MINING.COM / Bloomberg",
+      "title": "印尼Gresik冶炼厂锅炉泄漏导致Grasberg铜发运延迟",
+      "url": "https://www.mining.com/web/indonesia-copper-shipments-delayed-by-gresik-smelter-outage/",
+      "publish_time": "2026-08-11",
+      "language": "en",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "处理Grasberg矿石的印尼Gresik冶炼厂因8月8日锅炉故障停产，买方被告知未来数周发运将延迟；初步评估维修可在9月底完成，Freeport计划让自有Manyar冶炼厂于8月底重启。",
+      "interpretation": "事件影响首先落在精炼和发运环节，不等于Grasberg矿山永久减产。Gresik由PT Smelting运营，维修时间和Manyar提前重启仍是公司预期；在冶炼厂恢复前，矿石转化为可交付精炼铜的节奏会受限。",
+      "importance": "Gresik停产把Grasberg的矿山恢复与精炼交付之间的瓶颈暴露出来：即使矿山部分恢复，未来数周仍可能出现发运延迟。若9月底维修或8月底Manyar重启落后，影响将从短期物流扰动延长为区域精炼供给约束，需跟踪复产公告和实际船期。",
+      "verification_status": "verified",
+      "companies": ["Freeport-McMoRan", "Mitsubishi Materials", "PT Freeport Indonesia"],
+      "projects": ["Grasberg", "Gresik", "Manyar"]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Cobre Panamá库存处理产出约3,200吨含铜量，重启仍待审批",
+      "url": "https://www.mining.com/cobre-panama-restart-hopes-rise-as-thousands-return-to-mine/",
+      "publish_time": "2026-08-11",
+      "language": "en",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "First Quantum截至6月底已处理210万吨库存矿石并产出约3,200吨含铜量，首批发运预计在8月；剩余约3,800万吨库存矿石含约70,000吨可回收铜，按当前速度可支持约12个月处理。",
+      "interpretation": "当前是库存矿石处理而非恢复正常采矿，政府跨部门委员会仍在评估矿山未来。公司估计若获得框架和必要批准，Cobre Panamá可在6至9个月达到80%至90%产能，但这不是已批准的复产时间表。",
+      "importance": "Cobre Panamá重新出现可交付铜，但库存处理的3,200吨不能等同于矿山复产；剩余约7万吨可回收铜提供的是约12个月的过渡性供给。真正改变全球供给的节点仍是审批和复工，6至9个月的产能恢复估计应作为情景而非确定增量跟踪。",
+      "verification_status": "verified",
+      "companies": ["First Quantum Minerals"],
+      "projects": ["Cobre Panamá"]
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Lake Victoria Gold公布Tembo项目约58万盎司金资源量",
+      "url": "https://www.mining.com/lake-victorias-tembo-holds-600k-oz-gold-beside-barrick/",
+      "publish_time": "2026-08-11",
+      "language": "en",
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "Lake Victoria Gold称坦桑尼亚Tembo项目含2.69百万吨、品位1.16克/吨的指示资源，含金99,700盎司；另有13.33百万吨、品位1.12克/吨的推断资源，含金480,100盎司。",
+      "interpretation": "这是初始矿产资源估算，不是储量、可行性研究或当前产量；项目三个近地表矿体仍沿走向和深部开放。公司计划先对Ngula 1开展5,000米加密钻探，并推进500吨/日第三方选厂协议。",
+      "importance": "Tembo新增的是可开发资源底盘而非立即供给：指示与推断资源合计约58万盎司，但经济回收仍需钻探、可研和选厂安排验证。若5,000米钻探确认高品位核心并落实500吨/日代加工，项目可能在Imwelo之外形成较早现金流选项；当前时间表和产量尚未确定。",
+      "verification_status": "verified",
+      "companies": ["Lake Victoria Gold", "Barrick Mining"],
+      "projects": ["Tembo", "Ngula 1", "Imwelo"]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-09至2026-08-11北京时间72小时窗口检查种子账号、会议日历、公司IR、业绩电话会、webcast、YouTube、Podcast和会议演示；排除窗口外Diggers & Dealers文字记录。",
+      "K92 Mining官方8月10日Q2业绩公告及配套webcast/电话会材料可打开，核对日期、管理层、金银铜产量、处理量和Stage 3扩建，纳入1条。",
+      "Barrick官方Q2活动页面和新闻页可发现8月10日业绩活动，但官方页面返回403；使用Yahoo Finance公开电话会文字记录核对标题、时间、Mark Hill、黄金和铜产量及Lumwana扩建，纳入1条并保留受限说明。",
+      "InvestorIdeas Quinton Hennigh访谈页面可打开，日期为2026-08-10，但与2026-08-10日报已收录的同一URL及实质内容重复，排除。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、webcast、业绩电话会、会议和公司演示检索；纳入K92与Barrick两条可核验供给信号，其他窗口内候选因重复、窗口外或缺少可核验正文排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、明确C:/Program Files/Google/Chrome/Application/chrome.exe、项目.browser_profile/chromium-data持久会话优先和x_auth.json exported auth fallback运行scripts/x_search.py --check-login --headless；认证首页检查通过。",
+      "完整重试运行scripts/x_search.py 2026-08-11 --headless --output-suffix=retry_20260812，检查34个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原帖13条，保存至x_outputs/2026-08-11_x_raw_materials_retry_20260812.txt。",
+      "13条原帖逐条核验作者、正文、时间和原帖URL；内容为价格、投资、宏观、历史评论或业绩宣传，不含可归因且新增的金银铜实体供需事实，因此纳入0条。",
+      "此前x_outputs/2026-08-11_x_raw_materials.txt partial现场未覆盖；retry材料单独保留。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现13条原作者帖子、纳入0条；完整重试解决此前Junior_Stock账号超时，不把超时误判为登录失效。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用规定Python 3.13.12、Playwright Chromium headless、--disable-blink-features=AutomationControlled和--no-sandbox打开https://www.mining.com/commodity/copper/；HTTP 200，页面标题Copper Archives - MINING.COM，DOM提取报告日文章17篇。",
+      "Mining.com金分类页辅助Playwright路径：HTTP 200，页面标题Gold Archives - MINING.COM，页面报告日日期出现11次；银分类页HTTP 200，页面标题Silver Archives - MINING.COM，页面报告日日期出现10次。",
+      "Google site:mining.com copper August 11 2026、gold August 11 2026和silver August 11 2026均执行，仅作辅助发现，未使用搜索摘要作为证据；未使用sitemap、Wayback Machine或RSS feed。",
+      "报告日Mining.com候选逐篇尝试公开正文读取；入选铜候选分别经Mining.com正文核对Cochilco预测、Gresik停产和Cobre Panamá库存处理；金候选经Mining.com正文核对Tembo资源估算；价格、治理和无新增实体供需传导候选排除。"
+    ],
+    "part3_result": "Part 3完成2026-08-11全天中英文新闻检索、Mining.com铜主分类页、金银辅助分类页、Google site:辅助查询和候选正文核验；纳入4条（铜3、黄金1；供给4、需求1、白银0）。",
+    "mining_com_source_note": "铜分类页主路径Playwright成功，HTTP 200、17篇报告日候选；金/银分类页同一Playwright会话成功，报告日日期分别出现11/10次。入选Mining.com文章均通过正文读取核验；Cochilco数据、印尼冶炼故障、Cobre Panamá库存和Tembo资源量分别保留其预测、匿名信息、公司估计和资源类别口径。",
+    "url_verification": {
+      "checked": 12,
+      "passed": 12,
+      "failed": 0,
+      "failures": [],
+      "notes": "直接核验K92官方公告、Yahoo/Barrick电话会文字记录、4个Mining.com入选文章URL、X重试13条原帖和Mining.com三分类页；Barrick官方页面虽受403限制，但事实由公开电话会记录和搜索到的官方活动页交叉核对。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": ["https://www.investorideas.com/news/2026/mining/08102-quinton-hennigh-san-cristobal-mining.asp"],
+    "part2_deduped_urls": ["13条X原帖均因价格、宏观、投资观点或业绩宣传而缺少新增实体金银铜供需事实，未与其他栏目重复展示。"],
+    "part3_deduped_events": [
+      "Mining.com同一事件在铜、金、银分类页重复出现，按唯一事件和最重要供需影响去重；价格、矿股、治理和宏观评论排除。",
+      "Barrick国际业务分拆与任命、Fortuna收购勘探项目和Congo评论文章未作为独立信号保留，分别因治理/开发早期或分析评论不如直接事件来源。"
+    ],
+    "notes": "本日报所有正文信号均填写唯一primary_metal且该值出现在metal_tags中；实际产量、公司指引、扩建计划、库存处理、预测和矿产资源类别分别按来源口径标注，未将资源量或前瞻估计写成实际供给。"
+  }
+}
