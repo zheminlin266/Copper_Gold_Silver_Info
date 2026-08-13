@@ -1,0 +1,131 @@
+X 原始候选 — 2026-08-12
+采集时间: 2026-08-13T09:27:06.465911+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 11 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-11T20:03:00+00:00
+    北京: 2026-08-12T04:03:00+08:00
+    文本: Washington taxes semi-finished copper products at 50 PERCENT
+
+And a decision on extending tariffs to refined copper itself now sits on the President’s desk.
+
+The market is front-running that decision at record scale.
+
+More than 200,000 tonnes arrived at US ports in July.
+
+That’s
+    链接: https://x.com/KatusaResearch/status/2087268566127251614
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-12T14:53:14+00:00
+    北京: 2026-08-12T22:53:14+08:00
+    文本: Silver has bounced—but has the danger passed?
+
+I’m not convinced.
+
+This week, I examine what currencies and real rates signal next, plus 7 company updates spanning exploration success to record Q2 results.
+
+Get the full Silver Stock Investor analysis:
+
+https://
+thegoldadvisor.com/product/the-si
+lver-stock-investor/
+…
+    链接: https://x.com/peter_krauth/status/2087552999854158031
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-11T19:54:39+00:00
+    北京: 2026-08-12T03:54:39+08:00
+    文本: Silver moved. Analyst models moved. Many silver equities haven’t—yet.
+
+Assumptions climbed from $30–$40 silver to $50–$60.
+
+If those prices hold, cash flow could jump. The market may take 2–4 quarters to catch on.
+
+Full 
+@axinocapital
+ interview : 
+https://
+youtu.be/jwT8UoCDkIg?si
+=bvtWBgx7X9LYghMh
+…
+    链接: https://x.com/peter_krauth/status/2087266466454524232
+
+[4] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-12T04:17:45+00:00
+    北京: 2026-08-12T12:17:45+08:00
+    文本: Although I’ll be nice and give you a free tip. 
+
+go sell all of your gold and silver tomorrow and buy Trump watches
+    链接: https://x.com/ArcadiaEconomic/status/2087393074766815422
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-12T04:02:32+00:00
+    北京: 2026-08-12T12:02:32+08:00
+    文本: OK… How about this. 
+
+Apparently you watched my show so I could teach you Gold & Silver, but rather than say thank you, you introduce yourself like a complete asshole. 
+
+So go fuck yourself. You sound like a real dirtbag.
+
+Better?
+    链接: https://x.com/ArcadiaEconomic/status/2087389243970605423
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-12T03:03:26+00:00
+    北京: 2026-08-12T11:03:26+08:00
+    文本: I have.
+
+
+https://
+independentspeculator.com/sd/the-digest/
+war-oil-jobs-inflation-gold...-is-anything-clear
+…
+    链接: https://x.com/duediligenceguy/status/2087374373124784584
+
+[7] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-11T23:50:02+00:00
+    北京: 2026-08-12T07:50:02+08:00
+    文本: Good points. But this will be the biggest gold bull market yet. As the old saying goes, "the wind will be blowing so hard that even the turkeys will fly!"
+    链接: https://x.com/Brien_Lundin/status/2087325702492201238
+
+[8] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-11T23:28:52+00:00
+    北京: 2026-08-12T07:28:52+08:00
+    文本: The beginning of a trend, not the end of one.
+
+
+https://
+open.substack.com/pub/tavicosta/
+p/silver-leading-indicator?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2087320375361179901
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-12T11:47:57+00:00
+    北京: 2026-08-12T19:47:57+08:00
+    文本: The Reset Has Started .. still very early, first innings
+    链接: https://x.com/wmiddelkoop/status/2087506370740232478
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-12T11:33:50+00:00
+    北京: 2026-08-12T19:33:50+08:00
+    文本: A DRC (Congo) mine uses solar energy to produce copper needed for the solar industry :-)
+    链接: https://x.com/wmiddelkoop/status/2087502820442268095
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-12T10:43:27+00:00
+    北京: 2026-08-12T18:43:27+08:00
+    文本: The Tesla Revolution is already lowering oil demand by 1.5 mln barrels per day
+    链接: https://x.com/wmiddelkoop/status/2087490138649587714
+

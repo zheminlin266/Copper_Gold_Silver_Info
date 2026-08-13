@@ -1,0 +1,245 @@
+{
+  "date": "2026-08-12",
+  "report_time": "2026-08-13T09:35:25+08:00",
+  "summary": "铜：Codelco深部项目地震风险推迟、冶炼与库存约束强化短期供给不确定性，但Panguna、Laver和Tampakan形成中长期增量管线。黄金：多家矿山二季度产量改善，后续供给取决于高品位矿段和扩建执行。白银：Pan American产量处于季度指引高端，Sunshine重启仍在可研阶段。",
+  "windows": {
+    "part1": {"start": "2026-08-10T00:00:00+08:00", "end": "2026-08-12T23:59:59+08:00"},
+    "part2": {"start": "2026-08-12T00:00:00+08:00", "end": "2026-08-12T23:59:59+08:00"},
+    "part3": {"start": "2026-08-12T00:00:00+08:00", "end": "2026-08-12T23:59:59+08:00"}
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Andean Precious Metals 2026年第二季度业绩电话会与网络直播",
+      "url": "https://www.newsfilecorp.com/release/305183",
+      "publish_date": "2026-08-12",
+      "source_type": "webcast",
+      "guest": {"name": "Alberto Morales", "background": "Andean Precious Metals执行主席兼首席执行官"},
+      "metal_tags": ["gold", "silver"],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "summary": "Andean二季度生产25,387金当量盎司，同比增加4%；San Bartolome金当量产量同比增加39%，公司因资金管理暂缓出售约731,939盎司白银和2,585盎司黄金库存。",
+      "detail": "公司原始公告确认管理层于2026年8月12日主持二季度业绩电话会与网络直播。公告披露二季度合并产量25,387金当量盎司、上半年52,730金当量盎司；San Bartolome受金银产量增加推动，金当量产量同比增加39%。公司在二季度末决定暂缓出售约731,939盎司白银和2,585盎司黄金成品库存。",
+      "importance": "这条信号的重点不是单季总量，而是San Bartolome的金银产量改善与成品库存暂缓出售同时出现：前者增强短期可生产供给，后者会把部分金属从生产端暂时留在库存。库存何时出售取决于公司资金安排，需继续跟踪后续销量和Golden Queen矿山排产，不能把未售库存直接等同于当期市场供应。",
+      "verification_status": "verified",
+      "companies": ["Andean Precious Metals"],
+      "projects": ["San Bartolome", "Golden Queen"]
+    },
+    {
+      "title": "Integra Resources 2026年第二季度业绩电话会与网络直播",
+      "url": "https://integraresources.com/news/integra-reports-record-mining-and-ore-stacking-rates-at-florida-canyon-30-increase-in-second-quarter-gold-production/",
+      "publish_date": "2026-08-12",
+      "source_type": "webcast",
+      "guest": {"name": "George Salamis", "background": "Integra Resources总裁、首席执行官兼董事"},
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "Florida Canyon二季度产金16,379盎司，环比增加30%；矿石堆浸量约420万吨、环比增加45%，公司维持2026年产金7万至7.5万盎司指引。",
+      "detail": "公司原始运营更新确认2026年8月12日由高级管理层主持二季度业绩电话会。Florida Canyon二季度产金16,379盎司，矿石开采440万吨、废石360万吨，矿石堆浸量约420万吨，较一季度增加45%；公司称N2矿石混配、较高采矿率和堆浸量将支持下半年产量增加。",
+      "importance": "Florida Canyon的供给改善已经从采矿强度传导到堆浸库存，二季度产金环比增加30%，下半年兑现路径比单纯勘探或设计产能更明确。约420万吨堆浸矿石仍需浸出回收，且公司全年7万至7.5万盎司是指引而非已实现产量；三、四季度回收率和堆浸表现是关键验证点。",
+      "verification_status": "verified",
+      "companies": ["Integra Resources"],
+      "projects": ["Florida Canyon"]
+    },
+    {
+      "title": "Hemlo Mining 2026年第二季度业绩电话会与网络直播",
+      "url": "https://www.newswire.ca/news-releases/hemlo-mining-corp-reports-second-quarter-2026-operating-results-827578785.html",
+      "publish_date": "2026-08-12",
+      "source_type": "webcast",
+      "guest": {"name": "Jason Kosec", "background": "Hemlo Mining总裁、首席执行官兼董事"},
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "Hemlo二季度产金27,858盎司，因采矿顺序调整低于一季度；开发进尺同比环比口径下增加42%、长孔生产钻进增加65%，为后续产量改善准备矿区。",
+      "detail": "公司公告确认2026年8月12日由高级管理层主持二季度业绩电话会。Hemlo二季度处理矿石344,000吨、产金27,858盎司；由上向下转为由下向上采矿使高品位采场访问延后。与此同时，开发进尺增加42%、长孔生产钻进增加65%、矿石处理量增加7%，公司预计新开发区域将在未来季度进入生产序列。",
+      "importance": "Hemlo当前是先降后修复的供给信号：二季度高品位采场延迟使产金低于一季度，但开发和钻采前置指标明显改善，意味着增量可能在未来几个季度兑现。新设备和通风升级仍是执行条件，不能把42%开发进尺增长直接换算成产金；需跟踪高品位采场重新接入后的品位与回收率。",
+      "verification_status": "verified",
+      "companies": ["Hemlo Mining"],
+      "projects": ["Hemlo Gold Mine", "Williams", "Interlake"]
+    },
+    {
+      "title": "Orezone Gold 2026年第二季度业绩电话会与网络直播",
+      "url": "https://orezone.com/press-releases/orezone-gold-reports-q2-2026-results/",
+      "publish_date": "2026-08-12",
+      "source_type": "webcast",
+      "guest": {"name": "Patrick Downey", "background": "Orezone Gold总裁兼首席执行官"},
+      "metal_tags": ["gold"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "Orezone二季度产金58,566盎司，为收购Casa Berardi后的首个完整季度；Bombore产金38,063盎司，Casa Berardi产金20,503盎司，产量预计三季度较低、四季度回升。",
+      "detail": "Orezone原始公告确认2026年8月12日举行二季度业绩电话会。公司二季度合并产金58,566盎司，Bombore处理量和硬岩线路支持产金38,063盎司，Casa Berardi在收购后的季度贡献20,503盎司。Bombore高品位P17矿坑和Casa Berardi高品位F160矿料预计在后续季度改善供给，但Casa Berardi附近野火曾导致临时停产。",
+      "importance": "Orezone把并购后的多矿组合转化为可量化季度供给，但三季度计划性低品位供料与野火停产风险意味着58,566盎司不能外推为连续增量。Bombore硬岩矿料和Casa Berardi地下开发将在四季度形成更强供给窗口，前提是矿山顺序、劳动力和设备投入按计划兑现。",
+      "verification_status": "verified",
+      "companies": ["Orezone Gold"],
+      "projects": ["Bombore", "Casa Berardi", "P17 pit", "F160 pit"]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-12T04:03:00+08:00",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "excerpt": "帖子称美国对半成品铜产品征收50%关税，精炼铜是否扩大征税仍待总统决定；2026年7月美国港口到货量超过200,000吨，为2014年以来航运记录中的最高单月流入。",
+      "interpretation": "原帖把关税预期与美国港口铜流入联系起来，反映贸易流和库存前置，而不是矿山产量变化。超过200,000吨的到货量是帖子声称的统计事实，未在帖子中给出独立数据库链接，因此只能作为原作者观察，不能外推为全球供给增加。",
+      "importance": "这条帖子的新增价值在于揭示关税预期可能把铜从全球市场前置到美国，短期改变区域库存分布而非创造新增矿山供给。7月超过20万吨的流入若被后续关税兑现验证，可能扩大美国与其他地区的现货价差；但原帖未提供官方库存或海关数据链接，需用后续贸易数据核验。",
+      "verification_status": "verified",
+      "url": "https://x.com/KatusaResearch/status/2087268566127251614",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "Codelco暂停El Teniente深部项目后预计2029年投产，1.7百万吨目标不再可期",
+      "url": "https://www.mining.com/web/codelcos-el-teniente-mine-to-start-production-in-2029-executive-says/",
+      "publish_time": "2026-08-12",
+      "language": "en",
+      "metal_tags": ["copper"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Codelco称因更深部位出现高于预期的地震风险，暂停Andes Norte项目；矿山总经理表示扩张项目预计2029年开始生产，公司不再预计在本十年末达到此前每年170万吨的目标。",
+      "interpretation": "这是开发项目时间表和大型生产商目标的下修，不代表整个El Teniente当期全面停产。Andes Norte暂停会延后深部替代产能，Codelco评估扩大采坑以弥补延迟，但替代方案尚未形成确定产量。",
+      "importance": "Codelco的变化把铜供给风险从单季产量扩展到深部项目开发：Andes Norte至少延至2029年，原170万吨年度目标也不再被管理层视为可达。短期影响是替代产能延后，中期取决于采坑扩张和地震治理能否恢复建设；当前没有可把延期直接换算成缺口的新增吨位。",
+      "verification_status": "verified",
+      "companies": ["Codelco"],
+      "projects": ["El Teniente", "Andes Norte"] ,
+      "source_channel": "web",
+      "mining_com_source_note": "铜分类页由规定Python 3.13.12、Chrome路径和Playwright主路径提取；文章再以网页读取核验标题、日期和Reuters正文。"
+    },
+    {
+      "source": "MINING.COM / Bloomberg",
+      "title": "Lloyds获准为巴布亚新几内亚Panguna铜金矿重启开展准备和可研",
+      "url": "https://www.mining.com/web/lloyds-metals-allowed-to-ready-restart-of-giant-papua-new-guinea-copper-mine/",
+      "publish_time": "2026-08-12",
+      "language": "en",
+      "metal_tags": ["copper", "gold"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Bougainville政府允许Lloyds Metals开展Panguna准备工作和可研；矿山剩余资源估计为530万吨铜和1,930万盎司黄金，但建设和生产仍需单独批准，项目仍在研究阶段。",
+      "interpretation": "许可只覆盖准备和可研，不等于建设许可或复产决定。资源量是项目底盘而非储量或可交付产量，且矿山自1989年关闭，未来还受社区、环境、审批和融资约束。",
+      "importance": "Panguna重新进入正式可研阶段，增加了长期铜金供给管线的可信度，但距离现货增量仍有多个审批和建设步骤。530万吨铜与1,930万盎司黄金体现资源规模，却不能替代储量或生产计划；后续应跟踪资源重估、开发许可和社会许可是否推进。",
+      "verification_status": "verified",
+      "companies": ["Lloyds Metals & Energy", "Bougainville Minerals"],
+      "projects": ["Panguna"],
+      "source_channel": "web",
+      "mining_com_source_note": "铜分类页Playwright提取该候选；网页读取核验Bloomberg文章，并保留其对政府许可、资源估计和审批边界的口径。"
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "瑞典政府批准Boliden推进Laver铜矿项目，但仍需环境许可",
+      "url": "https://www.mining.com/web/sweden-gives-go-ahead-to-boliden-copper-mine-project/",
+      "publish_time": "2026-08-12",
+      "language": "en",
+      "metal_tags": ["copper", "gold", "silver"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "瑞典政府允许Boliden推进北部Laver铜矿项目，但项目仍需土地和环境法院批准；政府称开发Laver可能使瑞典铜产量翻倍、欧盟总产量增加约10%。",
+      "interpretation": "政府决定解除的是采矿特许权争议，不是最终建设或生产批准。潜在产量影响来自后续环境许可、技术研究和投资决策，且来源没有给出确定投产日期。",
+      "importance": "Laver为欧洲铜供应多元化增加了一个规模较大的长期选项，潜在影响可达瑞典现有产量的量级，但当前仍停留在许可和研究推进阶段。环境审查、萨米土地使用和最终投资决定是兑现条件，因此不能把“可能翻倍”计入近期供给平衡。",
+      "verification_status": "verified",
+      "companies": ["Boliden"],
+      "projects": ["Laver"],
+      "source_channel": "web",
+      "mining_com_source_note": "铜分类页Playwright提取并记录13篇报告日候选；该文章通过网页读取核验Reuters正文，未把环境许可前的潜在产能写成实际产量。"
+    },
+    {
+      "source": "MINING.COM / Bloomberg",
+      "title": "菲律宾Tampakan铜金矿可能在2028年投产，年均设计产能375,000吨铜和360,000盎司金",
+      "url": "https://www.mining.com/web/top-philippine-conglomerate-to-create-nations-largest-miner/",
+      "publish_time": "2026-08-12",
+      "language": "en",
+      "metal_tags": ["copper", "gold"],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "SM Investments可能把Tampakan纳入Dominion Holdings；文章称项目目标2028年投产，17年期间平均每年生产375,000吨精矿含铜和360,000盎司精矿含金，项目开发此前长期停滞。",
+      "interpretation": "这是公司整合和项目开发计划，不是已批准的实际产量指引。道路工程已在推进，但项目仍受社区、环保、开发资本和后续审批影响，2028年是目标而非确定投产日期。",
+      "importance": "Tampakan若兑现，将是中长期大型铜金供给来源，375,000吨年均含铜设计量足以改变区域供给预期，但项目从长期停滞到投产仍有建设和社会许可风险。当前新增信息主要是资产整合与道路推进，未来两年应关注最终投资、建设许可和施工进度，而不是提前计入现货平衡。",
+      "verification_status": "verified",
+      "companies": ["SM Investments", "Atlas Consolidated Mining and Development", "Dominion Holdings"],
+      "projects": ["Tampakan"],
+      "source_channel": "web",
+      "mining_com_source_note": "铜分类页Playwright提取候选；网页读取核验Bloomberg报道中的项目目标、设计产能和开发条件。"
+    },
+    {
+      "source": "Pan American Silver",
+      "title": "Pan American Silver二季度产银处于季度指引高端",
+      "url": "https://panamericansilver.com/wp-content/uploads/2026/07/PAAS-06-30-2026-Website-Report.pdf",
+      "publish_time": "2026-08-12",
+      "language": "en",
+      "metal_tags": ["silver", "gold"],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "Pan American披露二季度可归属产银646.9万盎司，处于2026年季度运营展望高端；二季度产金约165,900盎司，并预计全年黄金产量处于700,000至750,000盎司指引低端。",
+      "interpretation": "银产量达到季度展望高端，主要由La Colorada和Juanicipio表现推动；黄金产量低于季度展望，全年预计接近指引下限。该结果显示贵金属组合内部供给分化，不能用银增量推断金产量同步改善。",
+      "importance": "Pan American的结果把白银供给判断从价格叙事拉回可交付产量：646.9万盎司处于季度展望高端，短期银供给执行偏正面。黄金则接近全年指引下限，说明矿山和天气、品位及采矿顺序仍会造成金银分化；后续要看下半年银矿扩产和黄金运营修复能否持续。",
+      "verification_status": "verified",
+      "companies": ["Pan American Silver"],
+      "projects": ["La Colorada", "Juanicipio"],
+      "source_channel": "web"
+    },
+    {
+      "source": "SEC / Sunshine Silver Mining & Refining",
+      "title": "Sunshine Silver二季度报告：现金支持可研，计划2028年末恢复白银生产",
+      "url": "https://www.sec.gov/Archives/edgar/data/2091017/000162828026056253/ssmr2q2026resultspressrele.htm",
+      "publish_time": "2026-08-12",
+      "language": "en",
+      "metal_tags": ["silver", "copper"],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "Sunshine二季度末现金及现金等价物约2.887亿美元、无债；公司预计2027年第二季度完成可研，并计划在2028年末恢复Sunshine矿生产，但仍取决于可研和最终投资决定。",
+      "interpretation": "这是开发资金和项目里程碑更新，不是当期生产。公司仍处于钻探、地下工程、基础设施和可研阶段，未来银产量是技术报告情景而非已批准的生产计划。",
+      "importance": "Sunshine的现金储备提高了重启项目继续推进的可行性，但供给兑现至少要经过2027年可研和最终投资决定，2028年末只是计划节点。该项目含铜的历史副产品和潜在冶炼设施增加长期价值，却不能在当前白银平衡中计入确定增量；后续重点是可研、资本开支和施工许可。",
+      "verification_status": "verified",
+      "companies": ["Sunshine Silver Mining & Refining"],
+      "projects": ["Sunshine Mine", "Sunshine Silver/Copper Refinery"],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-10至2026-08-12北京时间72小时窗口检查公司IR、业绩电话会、webcast、YouTube、Podcast、会议日历和种子来源。",
+      "Andean、Integra、Hemlo和Orezone均确认2026-08-12举行管理层二季度业绩电话会/网络直播，并以原始公司运营公告核对产量和项目事实；其余候选因窗口外、只有预告、访问受限或缺少可核验供需事实排除。"
+    ],
+    "part1_result": "Part 1完成窗口内webcast、公司演示和访谈检索，纳入4条可核验的公司业绩直播供给信号。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、明确C:/Program Files/Google/Chrome/Application/chrome.exe、项目.browser_profile/chromium-data持久会话优先及x_auth.json fallback运行scripts/x_search.py --check-login --headless；认证检查通过。",
+      "运行scripts/x_search.py 2026-08-12 --headless --output-suffix=retry_20260813，检查34个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原作者帖子11条，保存至x_outputs/2026-08-12_x_raw_materials_retry_20260813.txt，未覆盖既有材料。",
+      "11条原帖逐条核验；仅KatusaResearch帖子含可归因的铜贸易流和库存前置事实，其他帖子为价格/投资观点、宏观评论、宣传或缺少可核验实体供需新增事实。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现11条原作者帖子、纳入1条；未使用搜索摘要或截图替代原帖。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：按规定使用Python 3.13.12、Chrome路径、Playwright Chromium headless和反检测参数打开https://www.mining.com/commodity/copper/；HTTP 200，标题Copper Archives - MINING.COM，DOM提取2026-08-12报告日候选13篇。",
+      "Mining.com金分类页辅助Playwright路径：HTTP 200，标题Gold Archives - MINING.COM，页面出现2026-08-12日期12次；银分类页HTTP 200，标题Silver Archives - MINING.COM，页面出现该日期11次。",
+      "Google site:mining.com copper August 12 2026、gold August 12 2026和silver August 12 2026均执行，仅作辅助发现，未使用搜索摘要作为独立证据；未使用sitemap、Wayback Machine或RSS feed。",
+      "报告日Mining.com候选逐篇尝试网页读取；Codelco、Panguna、Laver和Tampakan文章正文可读取并核验。Mining.com铜分类页中Gresik冶炼厂故障与2026-08-11日报同一事件重复，排除；价格、治理、宏观和非目标金属候选排除。",
+      "Pan American官方二季度报告PDF和Sunshine SEC Form 8-K/Exhibit 99.1分别核验报告日、产量/指引及可研/重启时间表。"
+    ],
+    "part3_result": "Part 3完成2026-08-12全天中英文新闻检索、Mining.com铜分类页强制主路径、金银分类页辅助检查、Google site辅助查询和入选来源核验；纳入6条（铜4、白银1、黄金/白银开发1，按primary_metal展示为铜4、白银2；供给6）。",
+    "mining_com_source_note": "铜分类页Playwright主路径成功，HTTP 200、13篇报告日候选；金/银分类页同一规定参数会话成功，报告日日期出现12/11次。入选Mining.com文章通过网页读取核验；Lloyds资源量、Boliden潜在产量和Tampakan设计产能均按资源/目标/设计口径保留，未写成已实现供给。",
+    "url_verification": {
+      "checked": 11,
+      "passed": 11,
+      "failed": 0,
+      "failures": [],
+      "notes": "核验4个Part 1原始公司公告、1条X原帖、4个Mining.com入选文章、Pan American官方Q2报告PDF和Sunshine SEC 8-K附件；Gresik重复事件未作为本日报入选来源。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "10条X原帖因价格、宏观、投资观点、宣传或缺少新增实体金银铜供需事实排除。"
+    ],
+    "part3_deduped_events": [
+      "Gresik冶炼厂故障与2026-08-11日报已收录的同一事件重复，未再次展示。",
+      "Mining.com同一候选在铜、金、银分类页重复时按唯一事件和最重要供需影响去重；纯价格、治理交易、宏观情绪和非目标金属事件排除。"
+    ],
+    "notes": "所有入选新信号均填写唯一primary_metal且该值出现在metal_tags中；实际产量、库存、资源量、设计产能、公司指引和开发目标按各自口径区分。"
+  }
+}
