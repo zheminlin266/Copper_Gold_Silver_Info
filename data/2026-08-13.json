@@ -1,0 +1,268 @@
+{
+  "date": "2026-08-13",
+  "report_time": "2026-08-14T07:19:17+08:00",
+  "summary": "铜：Vale加速Salobo棕地扩建提供中期增量，但Antofagasta因极端天气下调2026年产量指引，短期供给约束加重。黄金：G Mining成本指引上修、Newmont加码内华达勘探，现有产量与远期管线分化。白银：Pan American季度产量执行偏强，项目开发和公司现金状况支持后续供给。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-11T00:00:00+08:00",
+      "end": "2026-08-13T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-08-13T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-08-13T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [
+    {
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-13T03:52:53+08:00",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "帖子称GoGold拥有284M现金且无债务，并称经营现金流创纪录；Parral正在为Los Ricos South进入建设阶段提供资金。",
+      "interpretation": "这是原作者对GoGold财务状态和项目推进的转述，帖子没有把284M明确归为经营现金流；供给传导来自开发资金支持而非当期白银产量。帖子没有给出报告期或Los Ricos South的批准、资本开支和投产时间，不能把其表述直接转换为新增白银吨位。",
+      "importance": "GoGold的现金与无债务表述若经公司财报核对，可降低Los Ricos South从开发走向建设的融资障碍，影响偏中长期而非即时供应。284M是帖子给出的现金规模锚点，但缺少报告期和项目最终投资条件；下一步应核对Parral财报、建设许可与项目时间表。",
+      "verification_status": "verified",
+      "url": "https://x.com/peter_krauth/status/2087628408578826493",
+      "source_channel": "playwright"
+    },
+    {
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-13T03:51:38+08:00",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "帖子称Avino拥有144M现金，La Preciosa正在爬坡，并且公司对白银的敞口增加；帖子使用美元符号，未披露期间。",
+      "interpretation": "La Preciosa爬坡是潜在白银供给改善线索，现金则可能支持运营或开发，但帖子没有披露产量、回收率或爬坡阶段。它是原作者的摘要，不足以替代Avino正式季度披露。",
+      "importance": "Avino的现金规模与La Preciosa爬坡同时出现，使白银供给改善具备运营和资金两条验证路径，时间窗口偏向未来季度。144M并未说明期间，且没有给出新增盎司；应继续跟踪La Preciosa实际产量、回收率及公司财报，避免把爬坡叙述当成已实现供应。",
+      "verification_status": "verified",
+      "url": "https://x.com/peter_krauth/status/2087628092802269346",
+      "source_channel": "playwright"
+    },
+    {
+      "author": "John Kaiser",
+      "handle": "KaiserResearch",
+      "publish_time": "2026-08-13T23:44:37+08:00",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "帖子称Endurance Gold拥有近150万盎司、品位2.3克/吨的资源，并称核心钻探、反循环钻探和区域勘探存在资源扩张潜力。",
+      "interpretation": "帖子把现有资源量与尚未验证的钻探潜力放在一起；资源量不是储量，也不是获批矿山产能，潜力判断属于作者观点。若后续钻探转化为合规资源并进入经济评价，才可能形成远期黄金供给管线。",
+      "importance": "Endurance的1.5百万盎司、2.3克/吨锚点显示项目已有资源基础，但真正改变供给判断的是后续钻探能否扩大资源并通过经济性和许可筛选。影响至少在勘探到开发的中长期兑现，当前最关键的验证点是钻孔结果、资源更新和初步经济评价，而非作者的买入判断。",
+      "verification_status": "verified",
+      "url": "https://x.com/KaiserResearch/status/2087928316196258137",
+      "source_channel": "playwright"
+    },
+    {
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-13T20:15:50+08:00",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "excerpt": "帖子称最近有两家央行开始买入黄金，并称韩国是其中一家；帖子未披露购买数量或统计出处。",
+      "interpretation": "央行购金属于官方储备需求，若属实会把黄金需求从投资者配置延伸到储备资产配置，但单条帖子无法确认购买规模、日期和另一家央行身份。这里记录的是原作者说法，不把它外推为全球央行净购金数据。",
+      "importance": "韩国央行购金的说法若由储备数据核验，可能意味着官方需求在短期价格波动之外继续提供中期支撑；但帖子没有吨数、月份或数据来源，证据强度低于正式储备统计。后续应核对韩国央行、IMF及世界黄金协会数据，确认是否存在可量化的新增需求。",
+      "verification_status": "verified",
+      "url": "https://x.com/wmiddelkoop/status/2087875777077428399",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "MINING.COM",
+      "title": "Vale加速Salobo铜矿扩建，资本成本降至约2.15亿美元",
+      "url": "https://www.mining.com/vale-speeds-salobo-copper-expansion-cuts-costs/",
+      "publish_time": "2026-08-13",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Vale将在巴西Salobo通过粗粒浮选扩建增加约30,000吨/年铜产量，使处理量增加600万吨至4,200万吨/年，并带来约15,000盎司黄金副产品。项目资本成本约2.15亿美元，首产目标为2028年上半年。",
+      "interpretation": "这是利用既有矿山和基础设施的棕地扩建，资本成本较此前2.25亿至2.75亿美元区间下降，且已取得建设许可。30,000吨/年是项目预期增量，不是已实现产量；兑现仍取决于施工、浮选回收率和2028年投产执行。",
+      "importance": "Salobo把Vale的铜增产从远期战略转化为已有许可、明确投资额和2028年首产节点的项目，约3万吨/年将改善中期供给预期。相较新建绿地矿，既有设施和2.15亿美元资本成本降低了执行门槛，但增量要到2028年上半年才可能兑现；需跟踪施工进度、回收率和实际爬坡。",
+      "verification_status": "verified",
+      "companies": [
+        "Vale",
+        "Wheaton Precious Metals"
+      ],
+      "projects": [
+        "Salobo",
+        "Carajás"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径HTTP 200提取报告日候选；同一Playwright会话打开文章并核对MINING.COM正文、标题、日期和Vale项目数字。"
+    },
+    {
+      "source": "MINING.COM",
+      "title": "极端天气迫使Antofagasta下调2026年铜产量指引",
+      "url": "https://www.mining.com/antofagastas-2b-profit-eclipsed-by-chile-copper-woes/",
+      "publish_time": "2026-08-13",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Antofagasta因智利Los Pelambres矿山遭遇7月暴雨和降雪，将2026年铜产量指引从650,000至700,000吨下调至625,000至655,000吨；文章称公司需修复部分管线平台和水管理系统。",
+      "interpretation": "这是公司年度供给指引下修，原因是极端天气导致Los Pelambres停运，而非铜价或利润变化。区间中点由675,000吨降至640,000吨，减少35,000吨、约5.2%；最终影响取决于恢复速度和维修完成情况。",
+      "importance": "Los Pelambres事件将Antofagasta的2026年可交付铜预期从区间中点再削减约3.5万吨，短期供给收缩与智利老矿运营风险叠加。公司上半年现金流仍强并不抵消产量窗口的损失，未来数月应验证管线和水管理系统修复、复产节奏及全年指引是否再次调整。",
+      "verification_status": "verified",
+      "companies": [
+        "Antofagasta"
+      ],
+      "projects": [
+        "Los Pelambres"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径HTTP 200提取候选；同一Playwright会话打开文章并核对MINING.COM正文中日期、报道事实和公司指引。"
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Newmont通过承担勘探费用取得Headwater内华达Jupiter项目控制权",
+      "url": "https://www.mining.com/newmont-backs-explorer-headwater-on-3rd-nevada-gold-project/",
+      "publish_time": "2026-08-13",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Newmont同意为Headwater Gold的内华达Jupiter项目承担勘探费用并完成预可研；项目面积28平方公里，Newmont承诺投入3,000万美元，计划今年晚些时候或明年初开始初步钻探。",
+      "interpretation": "该协议把新圈定的勘探地块纳入大型生产商的资金和技术体系，但Jupiter尚无独立验证的资源量或矿山计划。3,000万美元是勘探承诺而非资本化产能，未来供给仍取决于钻探、资源更新、预可研和许可。",
+      "importance": "Jupiter从今年5月新圈地到获得3,000万美元勘探承诺，说明高金价环境下大型矿企正在补充美国低风险管线，但对现货没有即时影响。项目若在今年末至明年初钻探中形成连续高品位矿化，才可能提高后续资源和并购价值；当前应把资源量和预可研作为关键验证节点。",
+      "verification_status": "verified",
+      "companies": [
+        "Newmont",
+        "Headwater Gold"
+      ],
+      "projects": [
+        "Jupiter",
+        "Spring Peak",
+        "Lodestar"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "黄金分类页Playwright辅助路径HTTP 200发现报告日候选；同一Playwright会话打开文章并核对标题、日期、项目面积、勘探承诺和钻探时间。"
+    },
+    {
+      "source": "MINING.COM",
+      "title": "G Mining上调黄金生产成本指引，但维持2026年产量目标",
+      "url": "https://www.mining.com/g-mining-hikes-cost-forecast-on-labour-royalties/",
+      "publish_time": "2026-08-13",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "G Mining将2026年现金成本指引由每盎司736至865美元上调至836至965美元，AISC由1,230至1,444美元上调至1,330至1,544美元，同时维持16万至19万盎司黄金产量目标；公司称上半年产量68,691盎司。",
+      "interpretation": "成本上修来自劳动力、维护、巴西雷亚尔和更高假设金价带来的特许权使用费，但公司没有下调产量指引，且Tocantinzinho下半年计划进入更高品位矿化。成本压力可能影响边际矿段和自由现金流，却不等同于产量下降。",
+      "importance": "G Mining显示黄金供给的约束已从产量目标转向成本和执行：单位现金成本区间整体上移100美元/盎司，短期可能压缩边际矿段的经济性。公司仍预计全年16万至19万盎司、约61%产量在下半年，是否能用更高品位矿化抵消成本上升，将由三四季度品位、回收率和AISC验证。",
+      "verification_status": "verified",
+      "companies": [
+        "G Mining Ventures"
+      ],
+      "projects": [
+        "Tocantinzinho",
+        "Oko West",
+        "Gurupi"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "黄金分类页Playwright辅助路径HTTP 200发现报告日候选；同一Playwright会话打开文章并核对MINING.COM正文、日期、公司指引和成本区间。"
+    },
+    {
+      "source": "MINING.COM",
+      "title": "Pan American Silver二季度白银产量达季度展望高端，黄金产量偏弱",
+      "url": "https://www.mining.com/pan-american-silvers-record-buybacks-meet-gold-test/",
+      "publish_time": "2026-08-13",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "Pan American二季度产银650万盎司，处于季度指引高端；产金165,900盎司低于预期，公司预计全年黄金产量处于700,000至750,000盎司指引低端，并维持全年白银产量2,500万至2,700万盎司目标。",
+      "interpretation": "La Colorada和Juanicipio推动白银执行偏强，而Jacobina和El Peñón导致黄金供给承压。季度产量和全年指引分别是已实现值与公司预期，不能把白银表现外推到黄金，也不能把回购金额当成实物需求。",
+      "importance": "Pan American的金银供给分化值得保留：白银季度产量达到约650万盎司的展望高端，短期交付偏正面；黄金则预计落在全年指引低端，显示矿山品位和运营问题仍未完全修复。下半年应同时跟踪银矿产量能否维持、金矿恢复是否兑现，以及成本对可持续供给的影响。",
+      "verification_status": "verified",
+      "companies": [
+        "Pan American Silver"
+      ],
+      "projects": [
+        "La Colorada",
+        "Juanicipio",
+        "Jacobina",
+        "El Peñón"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "白银分类页Playwright辅助路径HTTP 200发现报告日候选；同一Playwright会话打开文章并核对MINING.COM正文、日期、产量和年度指引。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-11至2026-08-13北京时间72小时窗口检索Mining Stock Daily、公司IR/业绩电话会、YouTube、Podcast、Webcast、会议主办方页面及种子来源。",
+      "YouTube按gold mining interview、copper mining interview、silver mining interview与报告日组合检索；可打开候选主要为价格、宏观或投资观点，未发现能核对金银铜实物供需事实的合格节目。",
+      "检查PDAC、Denver Gold Forum、Precious Metals Summit、Mines and Money、Diggers & Dealers、Northern Miner等会议入口及近期回放线索；窗口内未形成可核验的目标金银铜供需访谈。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、Podcast、Webcast、YouTube、会议回放和公司演示检索；发现的窗口内候选以价格/投资观点或缺少可核验实物供需事实为主，纳入0条。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、C:/Program Files/Google/Chrome/Application/chrome.exe和.browser_profile/chromium-data持久会话运行scripts/x_search.py --check-login --headless，认证通过。",
+      "运行scripts/x_search.py 2026-08-13 --headless，检查34个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原作者帖子14条，原始材料保存至x_outputs/2026-08-13_x_raw_materials.txt。",
+      "14条原帖逐条筛选并用Playwright打开入选URL；4条保留（GoGold/Avino项目与资金、Endurance资源和钻探、韩国央行购金说法），其余为价格、宏观、节目预告、宣传或无新增实物供需事实。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现14条原作者帖子、纳入4条；未使用搜索摘要、截图或转发替代原帖。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：按规定使用Python 3.13.12、Chrome路径、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox、Chrome 131 UA及DOM日期提取；HTTP 200，标题Copper Archives - MINING.COM，提取8篇候选。",
+      "Mining.com黄金分类页辅助Playwright路径HTTP 200、标题Gold Archives - MINING.COM，报告日日期出现12处；白银分类页HTTP 200、标题Silver Archives - MINING.COM，报告日日期出现11处；去除页面重复链接后逐篇打开候选。",
+      "Google site:mining.com copper August 13 2026、site:mining.com gold August 13 2026、site:mining.com silver August 13 2026均执行；Google返回HTTP 429，合格备用命中数均为0，未用摘要作证据。",
+      "入选5篇Mining.com文章均由同一Playwright会话直接打开并核对标题、日期、主体及核心数字：Vale、Antofagasta、Newmont/Headwater、G Mining、Pan American；全部页面HTTP 200。",
+      "排除报告日分类页中的市场市值/价格图表、Northern Star治理争议、Vulcan稀土、Taranaki油气及跨日Lloyds/Panguna事件；未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-13全天中英文新闻检索、Mining.com铜分类页强制主路径、金银分类页辅助检查、Google site辅助查询和逐篇URL核验；纳入5条供给信号（铜2、黄金2、白银/黄金1，按primary_metal展示为铜2、黄金2、白银1）。",
+    "mining_com_source_note": "铜分类页Playwright主路径成功，HTTP 200、8篇报告日候选；金/银分类页Playwright辅助路径成功，报告日日期出现12/11处。入选文章全部以Playwright正文核验；Google site三项均因HTTP 429无可用命中，仅记录为辅助失败，不影响主路径。",
+    "url_verification": {
+      "checked": 9,
+      "passed": 9,
+      "failed": 0,
+      "failures": [],
+      "notes": "核验4条X原帖和5篇Mining.com入选文章；Part 1无入选来源。所有入选卡均标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "10条X原帖因价格/宏观评论、节目预告、宣传内容或没有新增实体金银铜供需事实排除。",
+      "Willem Middelkoop的采访、黄金战争等帖子未重复纳入；仅保留含央行购金具体说法的原帖。"
+    ],
+    "part3_deduped_events": [
+      "Mining.com同一文章在金银分类页及MORE NEWS区域重复出现，按唯一事件和最重要供需影响保留一次。",
+      "市场市值/价格图表和Northern Star治理争议没有新增可交付金银铜供需事实，排除；跨日Lloyds/Panguna事件不纳入2026-08-13窗口。",
+      "跨2026-08-10至2026-08-12日报检查未发现入选事件的实质重复。"
+    ],
+    "notes": "每条入选信号均填写唯一primary_metal且该值出现在metal_tags中；资源量、勘探潜力、项目目标、公司指引和实际产量按各自口径区分。"
+  }
+}

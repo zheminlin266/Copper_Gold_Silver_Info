@@ -1,0 +1,156 @@
+X 原始候选 — 2026-08-13
+采集时间: 2026-08-14T07:04:10.235588+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 14 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-12T19:52:53+00:00
+    北京: 2026-08-13T03:52:53+08:00
+    文本: Record operating cash flow. $284M in cash. No debt.
+
+Parral is funding 
+@GoGoldResources
+ future as Los Ricos South moves toward construction.
+
+Our 360° site overview helps put the project’s scale and setting into perspective.
+
+Full breakdown from Senior Analyst, 
+@danielflynn92
+    链接: https://x.com/peter_krauth/status/2087628408578826493
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-12T19:51:38+00:00
+    北京: 2026-08-13T03:51:38+08:00
+    文本: Avino 
+@Avino_ASM
+  delivered another strong quarter: $144M in cash, La Preciosa ramping up, and growing leverage to silver.
+
+We’ve also included a 360° mine overview—putting the operation behind the numbers into perspective.
+
+
+@danielflynn92
+ gives the Full breakdown 
+    链接: https://x.com/peter_krauth/status/2087628092802269346
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-12T19:00:01+00:00
+    北京: 2026-08-13T03:00:01+08:00
+    文本: $300 silver sounds extreme. History says otherwise.
+
+Silver: 39x in the 1970s, 12x from 2001–11. Today’s cycle: ~3x from its 2022 low.
+
+
+@TedJButler
+ and I see $300 as a long-term target—not tomorrow.
+
+Ted with Amy Rotman at 
+@miningcomau
+: 
+https://
+mining.com.au/silvers-summer
+-reset-ted-butler-says-market-nearing-a-generational-bottom/
+…
+    链接: https://x.com/peter_krauth/status/2087615104082903192
+
+[4] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-13T09:48:30+00:00
+    北京: 2026-08-13T17:48:30+08:00
+    文本: I also have people who watched my show so they could learn about Gold & Silver and benefit when the prices went up, but many of them never say thank you, yet tell me I have TDS because I don’t like Trump. And I didn’t get any sympathy cards. 
+
+So I’m guessing RFK will be ok…
+    链接: https://x.com/ArcadiaEconomic/status/2087838697815208086
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-13T00:02:41+00:00
+    北京: 2026-08-13T08:02:41+08:00
+    文本: Why Silver Got Clobbered Down From $121, & What's Next... 
+
+Starting now....
+
+
+https://
+youtu.be/lLz2WSM-wCU?si
+=g8w8FqC8pLPCBwID
+… via 
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2087691271737327853
+
+[6] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-12T23:26:05+00:00
+    北京: 2026-08-13T07:26:05+08:00
+    文本: @jessebday
+ explains why the #SILVER move had ot correct, what's next, and a whole lot more....
+
+Tonight at 8 PM eastern!
+    链接: https://x.com/ArcadiaEconomic/status/2087682061649781053
+
+[7] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-12T23:20:06+00:00
+    北京: 2026-08-13T07:20:06+08:00
+    文本: the great 
+@jessebday
+ delivers a #GOLD, #SILVER, & #OIL masterclass in this week's show at 8 PM eastern tonight!
+    链接: https://x.com/ArcadiaEconomic/status/2087680556599316892
+
+[8] @KaiserResearch (John Kaiser)
+    UTC: 2026-08-13T15:44:37+00:00
+    北京: 2026-08-13T23:44:37+08:00
+    文本: If Endurance Gold is not a screaming buy, what is?
+
+Nearly 1.5 million oz at  2.3 g/t, a core drill program with resource doubling potential, an RC  program with potential to double that, district potential to double  that, plus Alaska gold and Yukon critical metal spin
+    链接: https://x.com/KaiserResearch/status/2087928316196258137
+
+[9] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-13T15:33:13+00:00
+    北京: 2026-08-13T23:33:13+08:00
+    文本: Good summation of my most recent subscriber Alert here (minus the stock commentary of course).
+    链接: https://x.com/Brien_Lundin/status/2087925449057878094
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-13T12:15:50+00:00
+    北京: 2026-08-13T20:15:50+08:00
+    文本: We know of two central banks who recently started buying gold. South Korea being one of them .. 
+
+#monetaryreset
+    链接: https://x.com/wmiddelkoop/status/2087875777077428399
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-12T21:07:38+00:00
+    北京: 2026-08-13T05:07:38+08:00
+    文本: Discussed the silent return of gold in the monetary system, during this interview with Dubai based Asharq TV (Bloomberg), from our chalet in Switzerland
+    链接: https://x.com/wmiddelkoop/status/2087647217964224760
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-12T20:45:14+00:00
+    北京: 2026-08-13T04:45:14+08:00
+    文本: The War on Gold
+    链接: https://x.com/wmiddelkoop/status/2087641582182989965
+
+[13] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-12T20:18:28+00:00
+    北京: 2026-08-13T04:18:28+08:00
+    文本: Resource Fund Manager Willem Middelkoop on the BIG transition 
+
+
+https://
+youtu.be/isCsUvUAr64?is
+=ZUjt_L4JmWQvPwGG
+… via 
+@YouTube
+    链接: https://x.com/wmiddelkoop/status/2087634846323466447
+
+[14] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-08-13T15:08:11+00:00
+    北京: 2026-08-13T23:08:11+08:00
+    文本: Facing a choice between implosion and inflation, history tells us , governments always chose the latter.  Gold smells that.
+    链接: https://x.com/Frank_Giustra/status/2087919147342811321
+
