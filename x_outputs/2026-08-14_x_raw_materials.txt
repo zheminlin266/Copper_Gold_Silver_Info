@@ -1,0 +1,102 @@
+X 原始候选 — 2026-08-14
+采集时间: 2026-08-15T07:03:29.064544+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 11 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-14T14:33:55+00:00
+    北京: 2026-08-14T22:33:55+08:00
+    文本: The entire world produces about 80 tonnes of scandium a year. 
+
+The mine Washington just financed is built to produce 60.
+
+China mines roughly 80% of that tiny market and processes nearly all of it.
+    链接: https://x.com/KatusaResearch/status/2088272914722275739
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-08-14T14:27:09+00:00
+    北京: 2026-08-14T22:27:09+08:00
+    文本: the mining industry loves dumb money.
+    链接: https://x.com/RealRickRule/status/2088271210455212160
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-14T15:28:05+00:00
+    北京: 2026-08-14T23:28:05+08:00
+    文本: $2.65 BILLION after-tax NPV—using silver and gold prices well below today’s levels.
+
+
+@NewPacific_
+  updated Carangas PEA is a doozie.
+
+I sat down with Peter Lekich to discuss the economics, continued derisking, and global-scale silver potential.
+
+Watch: 
+https://
+youtube.com/watch?v=RXDpBG
+k57CU
+…
+    链接: https://x.com/peter_krauth/status/2088286546059551186
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-13T19:23:19+00:00
+    北京: 2026-08-14T03:23:19+08:00
+    文本: Industrial #Silver demand driven by Solar
+    链接: https://x.com/peter_krauth/status/2087983353676898669
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-14T15:59:21+00:00
+    北京: 2026-08-14T23:59:21+08:00
+    文本: Not a mine accident. Permitting problems.
+
+Hm...
+    链接: https://x.com/duediligenceguy/status/2088294413130698781
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-14T15:37:30+00:00
+    北京: 2026-08-14T23:37:30+08:00
+    文本: "Many of the gold bars are reportedly stamped around 1957 to 1961."
+
+Since there's no historical value, the finders and building owners may get to keep (some of?) this, if the owner doesn't step forward to claim it.
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2088288915971088396
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-14T01:09:56+00:00
+    北京: 2026-08-14T09:09:56+08:00
+    文本: But it takes more than a silver necklace to make an Independent Speculator.
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2088070585016365501
+
+[8] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-13T19:24:19+00:00
+    北京: 2026-08-14T03:24:19+08:00
+    文本: Much better chance that the gold conversion suspension proves to be temporary than the postage increase.
+    链接: https://x.com/Brien_Lundin/status/2087983608879366461
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-13T20:13:54+00:00
+    北京: 2026-08-14T04:13:54+08:00
+    文本: 'UBS sees gold price challenging $5,000/oz in H1 2027 on lower real rates, softer USD and strong sovereign demand'
+    链接: https://x.com/wmiddelkoop/status/2087996084672999521
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-14T12:34:38+00:00
+    北京: 2026-08-14T20:34:38+08:00
+    文本: It’s all over Diane.  Higher rates cannot fix it, they just blow up the system faster. Gresham’s Law is kicking in (see gold and silver prices).  Much higher inflation is certain no matter what they do.  It’s a phase change. Give me an address in DM and I will send you a free
+    链接: https://x.com/LawrenceLepard/status/2088242893731381520
+
+[11] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-13T16:10:00+00:00
+    北京: 2026-08-14T00:10:00+08:00
+    文本: Temporary?  Like 1971 gold conversion suspension?  Also, how does 8% compare to reported inflation 
+    链接: https://x.com/LawrenceLepard/status/2087934706310393927
+

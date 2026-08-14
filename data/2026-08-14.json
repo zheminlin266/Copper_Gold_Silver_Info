@@ -1,0 +1,263 @@
+{
+  "date": "2026-08-14",
+  "report_time": "2026-08-15T07:19:23+08:00",
+  "summary": "铜：Codelco管理重组与项目许可、融资节点使短期供给恢复仍具执行风险，Faraday和Blue Moon提供中长期项目管线。黄金：Harfang钻探因原住民族土地研究暂缓，Resolute在几内亚开启勘探合资，近期供给未增。白银：Abra的Diablillos完成DFS并以2029年前首产为目标，长期增量可见但仍待建设。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-12T00:00:00+08:00",
+      "end": "2026-08-14T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-14T00:00:00+08:00",
+      "end": "2026-08-14T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-14T00:00:00+08:00",
+      "end": "2026-08-14T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Viscaria二季度报告与铜矿重启进展演示",
+      "url": "https://www.youtube.com/watch?v=jIYKzsicIcM",
+      "publish_date": "2026-08-13",
+      "source_type": "youtube",
+      "guest": {
+        "name": "Jörgen Olsson",
+        "background": "Viscaria首席执行官"
+      },
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "Viscaria管理层在二季度报告演示及问答中介绍Viscaria铜矿重启进展；视频页面未公开可直接核对的产量数字，本卡不外推项目时间表或增量。",
+      "verification_status": "verified"
+    },
+    {
+      "title": "Abra Silver Diablillos项目更新访谈",
+      "url": "https://www.youtube.com/watch?v=9RbfUZb2Z2c",
+      "publish_date": "2026-08-14",
+      "source_type": "youtube",
+      "guest": {
+        "name": "John Miniotis",
+        "background": "Abra Silver首席执行官"
+      },
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "summary": "CEO介绍Diablillos完成最终可行性研究（DFS），项目资源约含2.5亿盎司白银和250万盎司黄金；一期初始资本开支7.2亿美元，目标在2029年底前首产。",
+      "detail": "访谈页面及英文自动字幕记录，Diablillos为100%持有、已获许可的原生白银项目；管理层还提到DFS以25年矿山寿命、日处理9,000吨为基础，前五年规划产出超过2,000万盎司银当量，并已完成5,000万美元股权融资。上述资源、产量和经济性均为管理层在访谈中对项目方案的表述，不是实际产量。",
+      "importance": "Abra把Diablillos从勘探资产推进到已有DFS、许可和融资基础的开发阶段，2029年底前首产目标为白银增量提供了明确时间锚。前五年超过2,000万盎司银当量的规划与7.2亿美元初始资本开支仍属于项目方案，真正兑现取决于最终投资决定、建设和后续扩建执行。",
+      "verification_status": "verified",
+      "companies": [
+        "Abra Silver"
+      ],
+      "projects": [
+        "Diablillos"
+      ]
+    },
+    {
+      "title": "Harfang Exploration首席执行官访谈：加拿大多项黄金项目",
+      "url": "https://www.youtube.com/watch?v=D7Sl2YJrtmk",
+      "publish_date": "2026-08-14",
+      "source_type": "youtube",
+      "guest": {
+        "name": "Richard Breger",
+        "background": "Harfang Exploration首席执行官"
+      },
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "Harfang CEO称Sky Lake历史数据已由2025年6个钻孔进行验证，公司计划在2027年冬季开展约2,000至2,500米钻探；当前项目因原住民族传统知识和土地利用研究暂缓。",
+      "detail": "访谈英文自动字幕显示，Sky Lake是位于安大略西北部的造山型金矿勘探项目。管理层称2025年钻孔大体复现历史数据中的高品位和中低品位区，下一轮钻探拟沿走向改善地质模型；Maneric West另有合作方全额资助的约2,500米冬季钻探计划，但Serpent合作意向仍为非约束性安排。",
+      "importance": "Harfang的Sky Lake从历史矿化进入现代验证阶段：2025年6孔结果支持继续勘探，但原住民族土地研究使项目当前暂停，预计影响延伸到2027年冬季约2,000—2,500米钻探。它改善的是中长期黄金勘探管线而非储量或产量，关键验证点仍是社会许可、后续钻孔连续性和资源估算。",
+      "verification_status": "verified",
+      "companies": [
+        "Harfang Exploration"
+      ],
+      "projects": [
+        "Sky Lake",
+        "Maneric West",
+        "Serpent"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-14T23:28:05+08:00",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "帖子称New Pacific更新后的Carangas PEA税后净现值为26.5亿美元，并称测算采用显著低于当期水平的金银价格；帖子附带与Peter Lekich讨论项目经济性和去风险的视频链接。",
+      "interpretation": "这是原作者对Carangas初步经济评价（PEA）的摘要，净现值和金银价格假设属于项目经济性，不是资源量、储量或已实现产量。帖子没有展示回收率、资本开支、矿山寿命和投产时间，因此不能把2.65亿美元净现值直接转换为白银供给。",
+      "importance": "Carangas的26.5亿美元税后净现值若能由New Pacific的PEA和技术报告核对，说明该白银项目具备进入开发筛选的经济性基础，影响偏中长期。帖子没有给出建设、许可或首产时间，且未提供完整技术文件；下一步应核查项目产量计划、资本开支和融资条件，避免把投资者摘要当成确定增量。",
+      "verification_status": "verified",
+      "url": "https://x.com/peter_krauth/status/2088286546059551186",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "Codelco重组矿山管理层以强化运营控制",
+      "language": "en",
+      "url": "https://www.mining.com/web/codelco-shuffles-mine-leadership-sources-say/",
+      "publish_time": "2026-08-14",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Codelco于8月14日宣布管理层调整：任命矿产资源、开发与创新负责人Julio Diaz为El Teniente总经理，并自9月1日起将北部矿山与中南部运营拆分为两个负责人；报道称背景包括运营延误、安全问题和2025年产量数据不一致。",
+      "interpretation": "这是运营治理和数据质量变化，不是已经公布的减产数字。El Teniente及北部、中南部运营重组可能改善矿山、项目和监管报告的控制，但短期产量影响尚不能量化，需跟踪产量修正、项目延误和安全执行。",
+      "importance": "Codelco把管理重组落到El Teniente负责人和9月1日运营拆分，说明供给问题已从单一项目延期延伸到生产数据、安环与执行控制。短期没有可确认的新增缺口，但治理修复若不及预期会放大智利产量恢复风险；后续应核对产量重报、El Teniente建设节点和安全指标。",
+      "verification_status": "verified",
+      "companies": [
+        "Codelco"
+      ],
+      "projects": [
+        "El Teniente"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径提取候选；同一会话打开Mining.com/Reuters文章并核对标题、8月14日日期、管理层任命和运营拆分事实。"
+    },
+    {
+      "source": "MINING.COM / The Northern Miner",
+      "title": "Faraday整合San Manuel历史矿地，推进亚利桑那18 billion磅铜资源区",
+      "language": "en",
+      "url": "https://www.mining.com/faraday-targets-18b-lb-arizona-copper-district/",
+      "publish_time": "2026-08-14",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Faraday计划在本月完成对BHP前San Manuel矿地的收购，并于第四季度至少钻探23,000米，目标在2027年年中发布合并资源；相邻Copper Creek已有421.9百万吨、品位0.45%的测量和指示资源，含铜约42亿磅。",
+      "interpretation": "San Manuel的剩余铜估算属于历史估算，旧岩芯已被丢弃，必须通过新钻孔确认后才能纳入现行技术研究。公司设想共享基础设施、长期年产约150,000吨铜，但这仍是概念方案，不是储量、生产指引或获批矿山计划。",
+      "importance": "Faraday把历史矿地与Copper Creek合并，新增的是美国铜供给管线的资源确认路径，而非现货产量。第四季度2.3万米钻探和2027年年中资源更新构成最近里程碑；18 billion磅目标及年产15万吨概念仍需新钻孔、经济评价和融资验证，影响主要在中长期。",
+      "verification_status": "verified",
+      "companies": [
+        "Faraday Copper",
+        "BHP"
+      ],
+      "projects": [
+        "San Manuel",
+        "Copper Creek"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径提取候选；同一会话打开文章并核对收购、23,000米钻探、Copper Creek资源及150,000吨/年概念的资源和规划口径。"
+    },
+    {
+      "source": "MINING.COM / The Northern Miner",
+      "title": "Blue Moon称Nussir铜矿仍按2028年商业投产目标推进",
+      "language": "en",
+      "url": "https://www.mining.com/blue-moon-rejects-short-sellers-claims/",
+      "publish_time": "2026-08-14",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Blue Moon回应Viceroy Research对Nussir许可、融资和开发策略的质疑；公司仍以2027年第三季度磨机调试、2028年第一季度商业生产为目标，并称二季度末持有1.59亿加元现金、2,500万美元过桥额度仅动用一半。",
+      "interpretation": "报道主要是公司对做空报告的回应，项目时间表和现金余额由报道转述，不等于已获得全部建设融资或已实现产量。Nussir还需许可依据、项目融资和施工执行，Springer钨项目的2027年重启也不能计入铜供给。",
+      "importance": "Nussir的磨机和商业生产时间表未因争议改变，表明项目仍有潜在铜供给节点，但融资与许可是硬约束。二季度末1.59亿加元现金及仅动用一半过桥额度不能替代1.4亿美元项目融资；在资金、许可和建设完成前，2028年商业产量仍是目标而非可交付供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Blue Moon Metals"
+      ],
+      "projects": [
+        "Nussir"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径提取候选；同一会话打开文章并核对Nussir调试、商业生产目标、现金和融资信息，未将股价或分析师目标写成供需事实。"
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "title": "Resolute与几内亚国有矿企成立黄金勘探开发合资平台",
+      "language": "en",
+      "url": "https://www.mining.com/web/resolute-guinea-state-miner-launch-gold-joint-venture/",
+      "publish_time": "2026-08-14",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "Resolute Mining与几内亚国有背景的Nimba Mining Gold宣布成立Landaya Gold合资公司，将评估、勘探并可能开发该国已识别的含金区域；Resolute称此举支持其西非增长战略。",
+      "interpretation": "Landaya是勘探和开发平台，不是已公布资源量、储量或产量项目。报道没有给出具体区块、投资额和投产时间，因此供给影响属于早期、远期且高度不确定的项目管线。",
+      "importance": "Landaya把Resolute的西非扩张延伸到与几内亚国有矿企共同筛选含金区，但当前没有资源量、资本开支或投产时间，不能计入近期黄金供给。后续价值取决于具体区块获批、勘探结果和项目经济评价；短期应仅视为8月14日启动的早期管线信号。",
+      "verification_status": "verified",
+      "companies": [
+        "Resolute Mining",
+        "Nimba Mining Gold"
+      ],
+      "projects": [
+        "Landaya Gold"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "黄金分类页Playwright辅助路径发现候选；同一会话打开Mining.com/Reuters文章并核对合资公司名称、参与方和勘探开发范围。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-12至2026-08-14北京时间72小时窗口检查种子来源、公司IR、业绩电话会、webcast、YouTube、Podcast及会议日历；PDAC、Denver Gold Forum、Precious Metals Summit等无窗口内可核对的目标金银铜访谈，Diggers & Dealers典型会期在窗口前。",
+      "Mining Stock Daily主页、Northern Miner、Denver Gold Forum、Precious Metals Summit和Diggers & Dealers页面可访问；PDAC页面返回403，未把受限页面内容作为事实。",
+      "YouTube按gold/copper/silver mining interview与2026-08-12至2026-08-14组合检索；Viscaria视频页面确认2026-08-13发布及铜矿重启主题，保留标题和来源精简卡。",
+      "Abra Silver访谈页面确认2026-08-14发布；英文自动字幕核对Diablillos资源、DFS、资本开支、生产目标和融资表述。",
+      "Harfang CEO访谈页面确认2026-08-14发布；英文自动字幕核对Sky Lake 2025年6孔验证、原住民族土地研究暂停及2027年冬季钻探计划。",
+      "其他窗口内候选包括投资者选股访谈、价格/宏观观点、宣传性关键矿产访谈或仅有项目标题而无可归因的金银铜供需新增事实，均排除。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、Podcast、Webcast、YouTube、公司演示和会议回放检索；纳入3条（铜1、白银/黄金1、黄金1），其中完整研究卡2条，Viscaria因页面未公开具体数字保留精简卡。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、C:/Program Files/Google/Chrome/Application/chrome.exe和.browser_profile/chromium-data持久会话运行scripts/x_search.py --check-login --headless，认证通过。",
+      "运行scripts/x_search.py 2026-08-14 --headless，检查34个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原作者帖子11条，原始材料保存至x_outputs/2026-08-14_x_raw_materials.txt。",
+      "11条原帖逐条核对作者、handle、正文、时间和原帖URL；仅Peter Krauth关于New Pacific Carangas PEA的帖子含可归因的项目经济性和白银开发供需线索，其他10条为钪、价格目标、宏观、传闻、宣传或没有新增实体金银铜事实。",
+      "使用同一持久化Playwright会话打开入选X原帖，确认Peter Krauth账号、原文、原帖URL及2026-08-14发布时间；未使用搜索摘要、截图或转发替代原帖。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现11条原作者帖子、纳入1条；其余候选按金银铜供需筛选标准排除。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径按规定使用Python 3.13.12、Chrome 131 UA、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox及DOM日期提取；HTTP 200，标题Copper Archives - MINING.COM，报告日提取10篇候选。",
+      "Mining.com黄金分类页辅助Playwright路径HTTP 200，标题Gold Archives - MINING.COM，报告日日期出现9处并提取9条唯一链接；白银分类页HTTP 200，标题Silver Archives - MINING.COM，报告日日期出现11处并提取9条唯一链接。",
+      "Google site:mining.com copper August 14 2026、site:mining.com gold August 14 2026和site:mining.com silver August 14 2026均执行；Google全部HTTP 429，合格备用命中数均为0，未使用搜索摘要作为证据。",
+      "入选Codelco、Faraday、Blue Moon三篇铜文章均由铜分类页主路径发现，再用同一Playwright会话打开正文核对标题、8月14日日期、主体和核心项目/运营事实；Resolute文章由黄金分类页发现并用同一会话核验。",
+      "SMM中文市场周评列表和铜精矿周评页面已打开；8月14日Cochilco标题与既有8月11日智利产量预测事件重合，且正文登录受限，未作为新卡片收录。",
+      "报告日铜分类页中的LME库存/现货文章与2026-08-03至08-05已收录的美国抢运和库存区域重配事件实质重合；金价、金库调度、铀、锂、铝和钪文章不具备目标金银铜新增供需传导，均排除。未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-14全天中英文新闻检索、Mining.com铜分类页强制主路径、金银分类页辅助检查、Google site辅助查询、SMM中文来源检查和逐篇URL核验；纳入4条供给信号（铜3、黄金1）。",
+    "mining_com_source_note": "铜分类页Playwright主路径成功，HTTP 200、10篇报告日候选；金/银分类页辅助路径成功，报告日日期出现9/11处。4篇入选文章全部通过同一Playwright会话直接打开并核对；铜库存文章因跨日报重复排除，SMM Cochilco周评因跨日报重复且正文登录受限排除。",
+    "url_verification": {
+      "checked": 8,
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "notes": "核验3条Part 1视频页面（其中2条通过英文自动字幕补充事实）、1条X原帖和4篇Mining.com入选文章；均标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "10条X原帖因涉及钪等非目标金属、价格目标、宏观评论、传闻、宣传或缺少新增实体金银铜供需事实而排除。"
+    ],
+    "part3_deduped_events": [
+      "Mining.com铜库存/现货文章与2026-08-03至08-05日报已收录的美国抢运、库存集中和区域可交付性事件为同一核心事件，未重复纳入。",
+      "SMM 2026-08-14 Cochilco产量预期标题与2026-08-11日报已收录的智利年度产量预测事件重合；正文登录受限，未将标题摘要单独转成新事实。",
+      "同一Mining.com文章在铜、金、银分类页或MORE NEWS区域重复出现时只保留一次；金价、宏观、非目标金属及不具实体供需传导的候选排除。",
+      "Codelco本次管理层重组是对既有项目延期后的新增运营治理事件，与此前El Teniente项目延期报道区分，不重复计算同一项目时间表。"
+    ],
+    "notes": "所有入选新信号均填写唯一primary_metal且该值出现在metal_tags中；实际资源、项目经济性、公司目标、勘探结果、许可和合资安排均按来源口径区分，未将资源量或前瞻方案写成实际供给。"
+  }
+}
