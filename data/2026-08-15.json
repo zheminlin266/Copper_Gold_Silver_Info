@@ -1,0 +1,84 @@
+{
+  "date": "2026-08-15",
+  "report_time": "2026-08-16T11:08:00+08:00",
+  "summary": "黄金：Erdene旗下Bayan Khundii二季度产量环比改善，实际供给执行偏强；白银：伴生银同步产出。铜：本窗口未发现可核验的新增生产或开发信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-13T00:00:00+08:00",
+      "end": "2026-08-15T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-15T00:00:00+08:00",
+      "end": "2026-08-15T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-15T00:00:00+08:00",
+      "end": "2026-08-15T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "The Manila Times / GlobeNewswire",
+      "title": "Erdene公布2026年第二季度业绩，Bayan Khundii产金环比增长37%",
+      "url": "https://www.manilatimes.net/2026/08/15/tmt-newswire/globenewswire/erdene-announces-q2-2026-results/2406065",
+      "publish_time": "2026-08-15",
+      "language": "en",
+      "metal_tags": ["gold", "silver"],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "Erdene披露Bayan Khundii金矿2026年第二季度产金并销售11,709盎司，较第一季度增加37%；同时产银3,317盎司，处理矿石153,000吨，黄金回收率为96%。公司还称Tereg Uul首轮钻探在1.5公里矿化构造上发现异常金银，并在深部发现自然铜迹象。",
+      "interpretation": "Bayan Khundii的数字是已实现季度产量，不是公司指引；环比增长来自采矿表现改善、矿石品位提高和矿山—选厂管理优化。Tereg Uul和Zuun Mod属于勘探或经济评价阶段，能说明后续金铜管线，但不能计入当前可交付供给。",
+      "importance": "Bayan Khundii已从建设期进入可观察的商业供给阶段，二季度较一季度增长37%使蒙古黄金增量具备近期验证基础。96%的回收率和153,000吨处理量显示改善来自采矿与选厂协同，而非单纯价格驱动；下半年应跟踪品位、吞吐量能否保持，以及Tereg Uul勘探是否转化为资源量。",
+      "verification_status": "verified",
+      "companies": ["Erdene Resource Development", "Mongolian Mining Corporation"],
+      "projects": ["Bayan Khundii", "Tereg Uul", "Zuun Mod"],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-13至2026-08-15北京时间72小时窗口检查种子账号关联的公司IR、webcast、YouTube、Podcast、Mining Stock Daily、Northern Miner以及conference_calendar中的会议入口。",
+      "执行gold/silver/copper mining interview、CEO webcast、company presentation和会议回放的多轮英文检索；窗口内未找到能够打开原始节目页并核对新增金银铜供需事实的合格访谈，Erdene业绩电话会明确安排在2026-08-17，超出窗口。",
+      "窗口内发现的STLLR钻探、Erdene官方业绩稿等候选按来源显示日期复核；STLLR为2026-08-10，Erdene原始稿为2026-08-14，均未作为Part 1节目纳入。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、webcast、YouTube、Podcast、公司演示和会议回放检索；未发现窗口内可核验的合格访谈，纳入0条。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、C:/Program Files/Google/Chrome/Application/chrome.exe和项目.browser_profile/chromium-data运行scripts/x_search.py；首次headless检查通过并产生一份带retry后缀的partial材料，未覆盖既有原始文件。",
+      "首次headless采集因@duediligenceguy的一个帖子缺少正文而部分失败；随后同日期第二次headless运行遇到X登录墙，均保留现场文件，未将partial候选当作完整结果。",
+      "使用同一scripts/x_search.py在已认证的持久化Chrome profile中进行非headless重试，检查34个个人账号和18个官方账号；采集状态complete、失败账号0、窗口内候选0条，结果保存至x_outputs/2026-08-15_x_raw_materials_retry_20260816_headed.txt。"
+    ],
+    "part2_result": "Part 2最终完整采集成功，所有52个账号无失败、窗口内原作者帖子0条，因此按完整检索空结果发布；未使用搜索摘要、截图或partial材料替代原帖。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用Python 3.13.12、Chromium headless、Chrome 131 UA、--disable-blink-features=AutomationControlled和--no-sandbox运行scripts/mining_com_search.py 2026-08-15；HTTP 200，页面标题Copper Archives - MINING.COM，DOM正文6469字符，但报告日文章数为0。",
+      "因铜分类页未获得报告日候选，执行site:mining.com copper August 15 2026、gold August 15 2026和silver August 15 2026辅助搜索；直接访问Google搜索分别返回HTTP 429、动态页面或限流，未把搜索摘要作为证据。",
+      "同时执行英文和中文官方/公司来源搜索。The Manila Times页面标注2026-08-15并完整转载GlobeNewswire的Erdene Q2公告；直接打开并核验标题、日期、产金产银、处理量、回收率和勘探口径。",
+      "逐条排除来源显示日期在窗口外的STLLR、Koryx、BHP、Chinese Gold International和其他Q2公告，以及只涉及价格、宏观或缺乏供需传导的候选；未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-15全天中英文新闻检索、Mining.com铜分类页强制主路径、金银辅助搜索和逐条来源核验；纳入1条供给信号（黄金1，兼有白银伴生产出）。",
+    "mining_com_source_note": "Mining.com铜分类页主路径HTTP 200但DOM未提取到2026-08-15文章；Google site辅助查询因429/动态限流无可用命中，未使用摘要替代来源。",
+    "url_verification": {
+      "checked": 1,
+      "passed": 1,
+      "failed": 0,
+      "failures": [],
+      "notes": "直接打开并核验The Manila Times转载的GlobeNewswire原文内容；其事实与Erdene官方2026-08-14公告一致，来源页在北京时间2026-08-15窗口内。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "STLLR Jonpol钻探公告日期为2026-08-10，Koryx和BHP候选日期为2026-08-14或更早，均超出2026-08-15新闻窗口。",
+      "Erdene官方公告与The Manila Times转载为同一事件；保留窗口内可直接打开且标注2026-08-15的转载页面作为来源，不重复展示官方原稿。",
+      "Mining.com报告日未提取到文章；价格、宏观和无明确金银铜供需传导的候选均排除。"
+    ],
+    "notes": "入选信号填写唯一primary_metal且该值出现在metal_tags中；实际产量、伴生银产出、勘探迹象和项目评价按各自口径区分，未将勘探结果写成已实现供给。"
+  }
+}
