@@ -9,6 +9,7 @@
     "build": "next build",
     "start": "next start",
     "validate:content": "node scripts/validate-content.mjs",
+    "typecheck": "tsc --noEmit",
     "test": "node --test tests/content.test.mjs"
   },
   "dependencies": {

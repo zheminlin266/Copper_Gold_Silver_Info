@@ -1,12 +1,13 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import type {
-  DailyReport,
-  Metal,
-  ReportSignal,
-  ReportStats,
-  ReportSummary,
+import {
+  CURRENT_REPORT_SCHEMA_VERSION,
+  type DailyReport,
+  type Metal,
+  type ReportSignal,
+  type ReportStats,
+  type ReportSummary,
 } from "@/lib/report-types";
 import { compareReportTimesDesc } from "@/lib/report-time";
 
@@ -19,18 +20,106 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
-function readReport(filename: string): DailyReport {
-  const fullPath = path.join(DATA_DIR, filename);
-  let parsed: unknown;
+const DATE_ONLY = /^(\d{4})-(\d{2})-(\d{2})$/;
+const DATE_TIME = /^(\d{4}-\d{2}-\d{2})T(?:[01]\d|2[0-3]):[0-5]\d:[0-5]\d(?:\.\d+)?(?:Z|[+-](?:[01]\d|2[0-3]):[0-5]\d)$/;
+const DIRECTIONS = new Set(["supply", "demand", "both"]);
 
-  try {
-    parsed = JSON.parse(fs.readFileSync(fullPath, "utf8"));
-  } catch (error) {
-    throw new Error(
-      `Invalid report JSON: ${filename}: ${error instanceof Error ? error.message : String(error)}`,
-    );
+function isCalendarDate(value: unknown): value is string {
+  if (typeof value !== "string") return false;
+  const match = DATE_ONLY.exec(value);
+  if (!match) return false;
+  const [, year, month, day] = match.map(Number);
+  const parsed = new Date(Date.UTC(year, month - 1, day));
+  return (
+    parsed.getUTCFullYear() === year &&
+    parsed.getUTCMonth() === month - 1 &&
+    parsed.getUTCDate() === day
+  );
+}
+
+function isDateTime(value: unknown): value is string {
+  if (typeof value !== "string") return false;
+  const match = DATE_TIME.exec(value);
+  return Boolean(match && isCalendarDate(match[1]) && !Number.isNaN(Date.parse(value)));
+}
+
+function assertDate(value: unknown, field: string, filename: string): asserts value is string {
+  if (!isCalendarDate(value)) throw new Error(`Invalid report date: ${filename}: ${field}`);
+}
+
+function assertDateTime(value: unknown, field: string, filename: string): asserts value is string {
+  if (!isDateTime(value)) throw new Error(`Invalid report date-time: ${filename}: ${field}`);
+}
+
+function assertDateOrDateTime(value: unknown, field: string, filename: string): asserts value is string {
+  if (!isCalendarDate(value) && !isDateTime(value)) {
+    throw new Error(`Invalid report date: ${filename}: ${field}`);
   }
+}
 
+function assertUrl(value: unknown, field: string, filename: string): asserts value is string {
+  if (typeof value !== "string") {
+    throw new Error(`Invalid report URL: ${filename}: ${field}`);
+  }
+  try {
+    const url = new URL(value);
+    if (url.protocol !== "http:" && url.protocol !== "https:") throw new Error();
+  } catch {
+    throw new Error(`Invalid report URL: ${filename}: ${field}`);
+  }
+}
+
+function assertClaims(value: Record<string, unknown>, field: string, filename: string): void {
+  if (value.claims === undefined) return;
+  if (!Array.isArray(value.claims)) {
+    throw new Error(`Invalid report claims: ${filename}: ${field}.claims`);
+  }
+  value.claims.forEach((claim, index) => {
+    if (!isRecord(claim)) {
+      throw new Error(`Invalid report claim: ${filename}: ${field}.claims[${index}]`);
+    }
+    assertUrl(claim.source_url, `${field}.claims[${index}].source_url`, filename);
+  });
+}
+
+function assertSignal(
+  value: unknown,
+  field: string,
+  publishedField: "publish_date" | "publish_time",
+  filename: string,
+): asserts value is Record<string, unknown> {
+  if (!isRecord(value)) throw new Error(`Invalid report signal: ${filename}: ${field}`);
+
+  if (!Array.isArray(value.metal_tags) || value.metal_tags.length === 0) {
+    throw new Error(`Invalid report signal: ${filename}: ${field}.metal_tags`);
+  }
+  for (const metal of value.metal_tags) {
+    if (typeof metal !== "string" || !METALS.includes(metal as Metal)) {
+      throw new Error(`Invalid report metal: ${filename}: ${field}.metal_tags`);
+    }
+  }
+  if (value.primary_metal !== undefined) {
+    if (
+      typeof value.primary_metal !== "string" ||
+      !METALS.includes(value.primary_metal as Metal) ||
+      !value.metal_tags.includes(value.primary_metal)
+    ) {
+      throw new Error(`Invalid report primary metal: ${filename}: ${field}.primary_metal`);
+    }
+  }
+  if (typeof value.supply_demand !== "string" || !DIRECTIONS.has(value.supply_demand)) {
+    throw new Error(`Invalid report direction: ${filename}: ${field}.supply_demand`);
+  }
+  if (publishedField === "publish_date") {
+    assertDate(value[publishedField], `${field}.${publishedField}`, filename);
+  } else {
+    assertDateOrDateTime(value[publishedField], `${field}.${publishedField}`, filename);
+  }
+  assertUrl(value.url, `${field}.url`, filename);
+  assertClaims(value, field, filename);
+}
+
+export function parseReport(parsed: unknown, filename: string): DailyReport {
   if (
     !isRecord(parsed) ||
     typeof parsed.date !== "string" ||
@@ -45,11 +134,51 @@ function readReport(filename: string): DailyReport {
     throw new Error(`Report is missing required fields: ${filename}`);
   }
 
+  assertDate(parsed.date, "date", filename);
+  assertDateTime(parsed.report_time, "report_time", filename);
   if (`${parsed.date}.json` !== filename) {
     throw new Error(`Report date does not match filename: ${filename}`);
   }
+  if (
+    parsed.schema_version !== undefined &&
+    parsed.schema_version !== CURRENT_REPORT_SCHEMA_VERSION
+  ) {
+    throw new Error(`Invalid report schema version: ${filename}`);
+  }
+
+  for (const part of ["part1", "part2", "part3"] as const) {
+    const window = parsed.windows[part];
+    if (!isRecord(window)) throw new Error(`Invalid report window: ${filename}: windows.${part}`);
+    assertDateTime(window.start, `windows.${part}.start`, filename);
+    assertDateTime(window.end, `windows.${part}.end`, filename);
+  }
+
+  parsed.part1_broadcasts.forEach((item, index) =>
+    assertSignal(item, `part1_broadcasts[${index}]`, "publish_date", filename),
+  );
+  parsed.part2_x_posts.forEach((item, index) =>
+    assertSignal(item, `part2_x_posts[${index}]`, "publish_time", filename),
+  );
+  parsed.part3_news.forEach((item, index) =>
+    assertSignal(item, `part3_news[${index}]`, "publish_time", filename),
+  );
 
   return parsed as unknown as DailyReport;
+}
+
+function readReport(filename: string): DailyReport {
+  const fullPath = path.join(DATA_DIR, filename);
+  let parsed: unknown;
+
+  try {
+    parsed = JSON.parse(fs.readFileSync(fullPath, "utf8"));
+  } catch (error) {
+    throw new Error(
+      `Invalid report JSON: ${filename}: ${error instanceof Error ? error.message : String(error)}`,
+    );
+  }
+
+  return parseReport(parsed, filename);
 }
 
 export function getReports(): DailyReport[] {
