@@ -231,8 +231,24 @@ async def assert_authenticated(page) -> None:
         )
 
 
+async def _validate_context_authentication(context) -> None:
+    """Validate a context before exposing it to collection callers."""
+    page = await context.new_page()
+    try:
+        await assert_authenticated(page)
+    finally:
+        await page.close()
+
+
+async def _close_context_quietly(context) -> None:
+    try:
+        await context.close()
+    except Exception:
+        pass
+
+
 async def open_x_context(playwright, headless: bool):
-    """Use the persistent profile first, with exported auth as a fallback."""
+    """Use an authenticated persistent profile, with exported auth as a fallback."""
     if not PROFILE_DIR.exists() and not STORAGE_STATE_FILE.exists():
         raise XLoginRequired("No X profile or x_auth.json found; run scripts/setup_x_login.py")
 
@@ -249,25 +265,31 @@ async def open_x_context(playwright, headless: bool):
         }
         if chrome_executable:
             persistent_options["executable_path"] = chrome_executable
+        context = None
         try:
             context = await playwright.chromium.launch_persistent_context(**persistent_options)
-            print(f"登录会话: persistent profile ({PROFILE_DIR})")
+            await _validate_context_authentication(context)
+            print(f"登录会话: authenticated persistent profile ({PROFILE_DIR})")
             return context, None
         except Exception as error:
             persistent_error = error
+            await _close_context_quietly(context)
             if chrome_executable:
-                print(f"persistent Chrome profile unavailable ({error})，尝试 Playwright Chromium...")
+                print(f"persistent Chrome profile unavailable or unauthenticated ({error})，尝试 Playwright Chromium...")
                 chromium_options = {
                     key: value for key, value in persistent_options.items() if key != "executable_path"
                 }
+                context = None
                 try:
                     context = await playwright.chromium.launch_persistent_context(**chromium_options)
-                    print(f"登录会话: persistent profile ({PROFILE_DIR})")
+                    await _validate_context_authentication(context)
+                    print(f"登录会话: authenticated persistent profile ({PROFILE_DIR})")
                     return context, None
                 except Exception as chromium_error:
                     persistent_error = chromium_error
+                    await _close_context_quietly(context)
             else:
-                print(f"persistent profile unavailable: {error}")
+                print(f"persistent profile unavailable or unauthenticated: {error}")
 
     if not STORAGE_STATE_FILE.exists():
         raise XLoginRequired(
