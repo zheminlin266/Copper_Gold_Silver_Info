@@ -19,6 +19,7 @@ Python 环境:
 """
 
 import asyncio
+import hashlib
 import re
 import sys
 from datetime import datetime, timezone, timedelta
@@ -27,6 +28,7 @@ from urllib.parse import urlencode, urljoin
 
 try:
     from scripts.script_utils import (
+        atomic_write_json,
         atomic_write_text,
         is_x_authenticated,
         parse_report_date,
@@ -34,11 +36,17 @@ try:
     )
 except ModuleNotFoundError:
     from script_utils import (  # type: ignore[no-redef]
+        atomic_write_json,
         atomic_write_text,
         is_x_authenticated,
         parse_report_date,
         resolve_chrome_executable,
     )
+
+try:
+    from scripts.source_registry import get_x_accounts, load_registry
+except ModuleNotFoundError:
+    from source_registry import get_x_accounts, load_registry  # type: ignore[no-redef]
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -48,66 +56,6 @@ if hasattr(sys.stderr, "reconfigure"):
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PROFILE_DIR = PROJECT_ROOT / ".browser_profile" / "chromium-data"
 STORAGE_STATE_FILE = PROJECT_ROOT / ".browser_profile" / "x_auth.json"
-
-# 种子账号 (handle → 姓名)
-SEED_ACCOUNTS = [
-    ("KatusaResearch", "Marin Katusa"),
-    ("RealRickRule", "Rick Rule"),
-    ("silverguru22", "David Morgan"),
-    ("peter_krauth", "Peter Krauth"),
-    ("ArcadiaEconomic", "Chris Marcus"),
-    ("duediligenceguy", "Lobo Tiggre"),
-    ("mercenarygeo", "Mickey Fulp"),
-    ("JoeMazumdar", "Joe Mazumdar"),
-    ("KaiserResearch", "John Kaiser"),
-    ("mjgeiger", "Matt Geiger"),
-    ("Junior_Stock", "Brian Leni"),
-    ("Jamie_Keech", "Jamie Keech"),
-    ("TheDailyGold", "Jordan Roy-Byrne"),
-    ("Brien_Lundin", "Brien Lundin"),
-    ("TaviCosta", "Otavio Costa"),
-    ("RonStoeferle", "Ronnie Stoeferle"),
-    ("wmiddelkoop", "Willem Middelkoop"),
-    ("LawrenceLepard", "Lawrence Lepard"),
-    ("soarfinancial", "Kai Hoffmann"),
-    ("GerardoDelReal", "Gerardo Del Real"),
-    ("TekoaDaSilva", "Tekoa Da Silva"),
-    ("Frank_Giustra", "Frank Giustra"),
-    ("RobMcEwenMUX", "Rob McEwen"),
-    ("keith_neumeyer", "Keith Neumeyer"),
-    ("NolanWatson", "Nolan Watson"),
-    ("AmirAdnani", "Amir Adnani"),
-    ("MichaelKonnert", "Michael Konnert"),
-    ("WalterColesJr", "Walter Coles Jr"),
-    ("ivanbebek", "Ivan Bebek"),
-    ("JohnFeneck", "John Feneck"),
-    ("JayantBhandari5", "Jayant Bhandari"),
-    ("chenpicks", "Chen Lin"),
-    ("SteveTodoruk", "Steve Todoruk"),
-    ("ResourceMaven", "Gwen Preston"),
-]
-
-# 官方/公司账号
-OFFICIAL_ACCOUNTS = [
-    ("IvanhoeMines_", "Ivanhoe Mines"),
-    ("FreeportMcMoRan", "Freeport-McMoRan"),
-    ("NewmontCorp", "Newmont"),
-    ("BarrickGold", "Barrick Gold"),
-    ("TeckResources", "Teck Resources"),
-    ("AntofagastaPLC", "Antofagasta"),
-    ("LundinMining", "Lundin Mining"),
-    ("AgnicoEagle", "Agnico Eagle"),
-    ("FirstMajestic", "First Majestic Silver"),
-    ("PanAmericanSlvr", "Pan American Silver"),
-    ("Wheaton_PM", "Wheaton Precious Metals"),
-    ("EndeavourMining", "Endeavour Mining"),
-    ("SSRMining", "SSR Mining"),
-    ("KinrossGold", "Kinross Gold"),
-    ("SandstormGold", "Sandstorm Gold"),
-    ("Fortuna_Silver", "Fortuna Mining"),
-    ("GoGoldResources", "GoGold Resources"),
-    ("vizslasilver", "Vizsla Silver"),
-]
 
 TZ_BEIJING = timezone(timedelta(hours=8))
 SEARCH_QUERY = "(gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)"
@@ -121,6 +69,63 @@ class XPartialFailure(RuntimeError):
     """Raised after a partial audit file has been written."""
 
 
+def candidate_id(source_id: str, url: str) -> str:
+    """Return a stable ID for one source post."""
+    digest = hashlib.sha256(f"{source_id}|{url}".encode("utf-8")).hexdigest()
+    return f"x-{digest[:24]}"
+
+
+def normalize_x_candidate(
+    tweet: dict, report_date: str, *, status: str = "ok", errors: list[str] | None = None
+) -> dict:
+    """Normalize a collected tweet for the structured sidecar without truncation."""
+    source_id = str(tweet.get("source_id") or f"x-{str(tweet['handle']).casefold()}")
+    url = str(tweet["url"])
+    candidate = {
+        "candidate_id": candidate_id(source_id, url),
+        "source_id": source_id,
+        "author": tweet["author"],
+        "handle": tweet["handle"],
+        "publish_time": tweet.get("utc_time") or tweet.get("bj_time"),
+        "text": tweet["text"],
+        "url": url,
+        "collector": "x_search",
+        "report_date": report_date,
+        "status": status,
+    }
+    if errors:
+        candidate["errors"] = list(errors)
+    return candidate
+
+
+def sidecar_path(output_file: str | Path) -> Path:
+    """Return the JSON sidecar path matching the raw-material filename."""
+    return Path(output_file).with_suffix(".json")
+
+
+def build_sidecar(
+    report_date: str,
+    tweets: list[dict],
+    failed_accounts: list[tuple[str, str, str, str]],
+) -> dict:
+    """Build deterministic structured output while retaining audit errors."""
+    return {
+        "collector": "x_search",
+        "report_date": report_date,
+        "status": "partial" if failed_accounts else "complete",
+        "candidates": [normalize_x_candidate(tweet, report_date) for tweet in tweets],
+        "errors": [
+            {
+                "source_id": source_id,
+                "handle": handle,
+                "author": name,
+                "error": error,
+            }
+            for source_id, handle, name, error in failed_accounts
+        ],
+    }
+
+
 def parse_x_datetime(dt_str: str) -> datetime:
     """解析 X 的 <time datetime> 为带时区的 UTC datetime。"""
     normalized = f"{dt_str[:-1]}+00:00" if dt_str.endswith("Z") else dt_str
@@ -131,7 +136,7 @@ def parse_x_datetime(dt_str: str) -> datetime:
 
 
 async def search_account(
-    page, handle: str, name: str, date_str: str
+    page, handle: str, name: str, date_str: str, source_id: str | None = None
 ) -> tuple[list[dict], str | None]:
     """搜索单个账号；返回候选和可审计的账号级错误。"""
     next_date = (parse_report_date(date_str) + timedelta(days=1)).isoformat()
@@ -185,11 +190,12 @@ async def search_account(
 
                 tweets.append(
                     {
+                        "source_id": source_id or f"x-{handle.casefold()}",
                         "author": name,
                         "handle": handle,
                         "utc_time": utc_time.isoformat(),
                         "bj_time": bj_time.isoformat(),
-                        "text": text[:500],
+                        "text": text,
                         "url": post_url,
                     }
                 )
@@ -338,22 +344,27 @@ async def main(
     output_dir.mkdir(exist_ok=True)
     suffix = f"_{output_suffix}" if output_suffix else ""
     output_file = output_dir / f"{report_date}_x_raw_materials{suffix}.txt"
-    if output_file.exists() and not overwrite:
+    structured_file = sidecar_path(output_file)
+    if (output_file.exists() or structured_file.exists()) and not overwrite:
         raise FileExistsError(
-            f"Refusing to overwrite existing X raw materials: {output_file}. "
+            f"Refusing to overwrite existing X raw materials or sidecar: {output_file}. "
             "Move it aside or use a new report date after confirming the workflow state."
         )
 
+    registry = load_registry()
+    all_accounts = get_x_accounts(registry)
+    official_count = sum(
+        account.get("category") == "official/company account" for account in all_accounts
+    )
     print(f"X 供需搜索 — 目标日期: {report_date}")
-    print(f"种子账号: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方")
+    print(f"种子账号: {len(all_accounts) - official_count} 个人 + {official_count} 官方")
     print(f"搜索词: {SEARCH_QUERY}")
     print()
 
     from playwright.async_api import async_playwright
 
     all_tweets = []
-    failed_accounts: list[tuple[str, str, str]] = []
-    all_accounts = SEED_ACCOUNTS + OFFICIAL_ACCOUNTS
+    failed_accounts: list[tuple[str, str, str, str]] = []
 
     async with async_playwright() as playwright:
         context, browser = await open_x_context(playwright, headless)
@@ -365,11 +376,15 @@ async def main(
                 batch = all_accounts[batch_idx : batch_idx + 5]
                 print(f"--- 批次 {batch_idx // 5 + 1} ({len(batch)} 账号) ---")
 
-                for handle, name in batch:
-                    tweets, error = await search_account(page, handle, name, report_date)
+                for account in batch:
+                    handle = account["x_handle"]
+                    name = account["display_name"]
+                    tweets, error = await search_account(
+                        page, handle, name, report_date, account["source_id"]
+                    )
                     all_tweets.extend(tweets)
                     if error:
-                        failed_accounts.append((handle, name, error))
+                        failed_accounts.append((account["source_id"], handle, name, error))
 
                 await page.wait_for_timeout(1000)
         finally:
@@ -383,13 +398,13 @@ async def main(
         f"采集时间: {datetime.now(TZ_BEIJING).isoformat()}\n",
         "采集方法: Playwright + Chrome (persistent profile with storage_state fallback)\n",
         f"搜索词: {SEARCH_QUERY}\n",
-        f"账号批次: {len(SEED_ACCOUNTS)} 个人 + {len(OFFICIAL_ACCOUNTS)} 官方\n",
+        f"账号批次: {len(all_accounts) - official_count} 个人 + {official_count} 官方\n",
         f"采集状态: {status}\n",
         f"失败账号数: {len(failed_accounts)}\n",
     ]
     if failed_accounts:
         output.append("失败账号:\n")
-        for handle, name, error in failed_accounts:
+        for _source_id, handle, name, error in failed_accounts:
             output.append(f"  @{handle} ({name}): {error}\n")
     else:
         output.append("失败账号: 无\n")
@@ -414,6 +429,7 @@ async def main(
         )
 
     atomic_write_text(output_file, "".join(output), overwrite=overwrite)
+    atomic_write_json(structured_file, build_sidecar(report_date, all_tweets, failed_accounts))
     if failed_accounts:
         print(f"\n部分完成: {len(all_tweets)} 条候选，{len(failed_accounts)} 个账号失败 -> {output_file}")
         raise XPartialFailure(
