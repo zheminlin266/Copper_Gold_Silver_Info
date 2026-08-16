@@ -1,0 +1,861 @@
+{
+  "version": 1,
+  "description": "Authoritative source registry for deterministic collectors. Imported from the legacy mining people CSV and legacy X official/company seeds.",
+  "sources": [
+    {
+      "source_id": "x-realrickrule",
+      "display_name": "Rick Rule",
+      "category": "投资人/行业专家",
+      "notes": "常参加资源投资访谈、会议和播客",
+      "channel": "https://x.com/RealRickRule",
+      "x_handle": "RealRickRule",
+      "x_user_id": "824634606305505280"
+    },
+    {
+      "source_id": "source-eric-sprott",
+      "display_name": "Eric Sprott",
+      "category": "投资人/企业家",
+      "notes": "个人公开访谈多，X 活跃度不如部分媒体型人物",
+      "channel": "Sprott Money、公开访谈"
+    },
+    {
+      "source_id": "x-katusaresearch",
+      "display_name": "Marin Katusa",
+      "category": "投资人/研究作者",
+      "notes": "写长文、做付费研究，也常出现在访谈中",
+      "channel": "https://x.com/KatusaResearch",
+      "x_handle": "KatusaResearch",
+      "x_user_id": "3187207969"
+    },
+    {
+      "source_id": "x-resourcemaven",
+      "display_name": "Gwen Preston",
+      "category": "研究作者/行业专家",
+      "notes": "适合跟踪 junior explorers",
+      "channel": "https://x.com/ResourceMaven",
+      "x_handle": "ResourceMaven",
+      "x_user_id": "277131226"
+    },
+    {
+      "source_id": "x-thedailygold",
+      "display_name": "Jordan Roy-Byrne",
+      "category": "研究作者/技术分析师",
+      "notes": "有网站、文章、YouTube 和播客内容",
+      "channel": "https://x.com/TheDailyGold",
+      "x_handle": "TheDailyGold",
+      "x_user_id": "89366087"
+    },
+    {
+      "source_id": "x-brien_lundin",
+      "display_name": "Brien Lundin",
+      "category": "会议/通讯作者",
+      "notes": "会议生态强，适合发现受关注公司",
+      "channel": "https://x.com/Brien_Lundin",
+      "x_handle": "Brien_Lundin",
+      "x_user_id": "1488676784"
+    },
+    {
+      "source_id": "x-silverguru22",
+      "display_name": "David Morgan",
+      "category": "研究作者/白银专家",
+      "notes": "白银主题访谈很多",
+      "channel": "https://x.com/silverguru22",
+      "x_handle": "silverguru22",
+      "x_user_id": "18524851"
+    },
+    {
+      "source_id": "x-peter_krauth",
+      "display_name": "Peter Krauth",
+      "category": "研究作者",
+      "notes": "偏白银投资框架",
+      "channel": "https://x.com/peter_krauth",
+      "x_handle": "peter_krauth",
+      "x_user_id": "1313513299548549120"
+    },
+    {
+      "source_id": "x-arcadiaeconomic",
+      "display_name": "Chris Marcus",
+      "category": "媒体/白银评论员",
+      "notes": "访谈内容多，观点偏贵金属多头",
+      "channel": "https://x.com/ArcadiaEconomic",
+      "x_handle": "ArcadiaEconomic",
+      "x_user_id": "601945756"
+    },
+    {
+      "source_id": "x-duediligenceguy",
+      "display_name": "Lobo Tiggre",
+      "category": "研究作者/投资人",
+      "notes": "常写文章和参加访谈",
+      "channel": "https://x.com/duediligenceguy",
+      "x_handle": "duediligenceguy",
+      "x_user_id": "2818081640"
+    },
+    {
+      "source_id": "x-mercenarygeo",
+      "display_name": "Mickey Fulp",
+      "category": "地质专家/评论员",
+      "notes": "适合学习如何拆解项目宣传",
+      "channel": "https://x.com/mercenarygeo",
+      "x_handle": "mercenarygeo",
+      "x_user_id": "127967449"
+    },
+    {
+      "source_id": "source-brent-cook",
+      "display_name": "Brent Cook",
+      "category": "地质专家/研究作者",
+      "notes": "偏硬核地质和项目质量",
+      "channel": "Exploration Insights、公开访谈"
+    },
+    {
+      "source_id": "x-joemazumdar",
+      "display_name": "Joe Mazumdar",
+      "category": "地质/工程/研究作者",
+      "notes": "与 Brent Cook 互补",
+      "channel": "https://x.com/JoeMazumdar",
+      "x_handle": "JoeMazumdar",
+      "x_user_id": "1020057652095799297"
+    },
+    {
+      "source_id": "x-kaiserresearch",
+      "display_name": "John Kaiser",
+      "category": "研究作者/数据库专家",
+      "notes": "覆盖面广，偏体系化筛选",
+      "channel": "https://x.com/KaiserResearch",
+      "x_handle": "KaiserResearch",
+      "x_user_id": "2652423828"
+    },
+    {
+      "source_id": "source-quinton-hennigh",
+      "display_name": "Quinton Hennigh",
+      "category": "经济地质学家",
+      "notes": "访谈很多，适合听地质逻辑",
+      "channel": "公开访谈、公司渠道"
+    },
+    {
+      "source_id": "x-stevetodoruk",
+      "display_name": "Steve Todoruk",
+      "category": "地质专家/投资人",
+      "notes": "经常点评早期发现",
+      "channel": "https://x.com/SteveTodoruk",
+      "x_handle": "SteveTodoruk"
+    },
+    {
+      "source_id": "source-justin-tolman",
+      "display_name": "Justin Tolman",
+      "category": "地质专家/投资团队",
+      "notes": "Sprott 体系内偏地质实战",
+      "channel": "Sprott Insights、公开内容"
+    },
+    {
+      "source_id": "source-john-hathaway",
+      "display_name": "John Hathaway",
+      "category": "基金经理/研究作者",
+      "notes": "更偏黄金股票配置",
+      "channel": "Sprott Insights、访谈"
+    },
+    {
+      "source_id": "source-john-ciampaglia",
+      "display_name": "John Ciampaglia",
+      "category": "资产管理/企业高管",
+      "notes": "经常做视频、webcast 和采访",
+      "channel": "Sprott Insights、访谈"
+    },
+    {
+      "source_id": "source-maria-smirnova",
+      "display_name": "Maria Smirnova",
+      "category": "资产管理/投资专家",
+      "notes": "金银市场视频访谈较多",
+      "channel": "Sprott Insights、访谈"
+    },
+    {
+      "source_id": "source-paul-wong",
+      "display_name": "Paul Wong",
+      "category": "研究作者/策略师",
+      "notes": "适合跟踪贵金属月度/专题报告",
+      "channel": "Sprott Insights"
+    },
+    {
+      "source_id": "source-jacob-white",
+      "display_name": "Jacob White",
+      "category": "研究作者/策略师",
+      "notes": "适合铜和关键材料主题",
+      "channel": "Sprott Insights"
+    },
+    {
+      "source_id": "x-tavicosta",
+      "display_name": "Otavio Costa",
+      "category": "宏观/资源投资人",
+      "notes": "X 活跃，图表和宏观观点多",
+      "channel": "https://x.com/TaviCosta",
+      "x_handle": "TaviCosta",
+      "x_user_id": "2584103654"
+    },
+    {
+      "source_id": "x-ronstoeferle",
+      "display_name": "Ronnie Stoeferle",
+      "category": "宏观/贵金属研究",
+      "notes": "年度黄金报告很有影响力",
+      "channel": "https://x.com/RonStoeferle",
+      "x_handle": "RonStoeferle",
+      "x_user_id": "1160400596"
+    },
+    {
+      "source_id": "x-wmiddelkoop",
+      "display_name": "Willem Middelkoop",
+      "category": "基金经理/作者",
+      "notes": "偏资源发现与宏观结合",
+      "channel": "https://x.com/wmiddelkoop",
+      "x_handle": "wmiddelkoop",
+      "x_user_id": "19059966"
+    },
+    {
+      "source_id": "x-lawrencelepard",
+      "display_name": "Lawrence Lepard",
+      "category": "投资人",
+      "notes": "偏宏观和黄金多头叙事",
+      "channel": "https://x.com/LawrenceLepard",
+      "x_handle": "LawrenceLepard",
+      "x_user_id": "907410554238717953"
+    },
+    {
+      "source_id": "x-mjgeiger",
+      "display_name": "Matt Geiger",
+      "category": "资源股投资人",
+      "notes": "X 上资源股讨论活跃",
+      "channel": "https://x.com/mjgeiger",
+      "x_handle": "mjgeiger",
+      "x_user_id": "47210614"
+    },
+    {
+      "source_id": "x-junior_stock",
+      "display_name": "Brian Leni",
+      "category": "研究作者/工程背景",
+      "notes": "偏理性尽调和访谈",
+      "channel": "https://x.com/Junior_Stock",
+      "x_handle": "Junior_Stock",
+      "x_user_id": "711735482904870912"
+    },
+    {
+      "source_id": "x-jamie_keech",
+      "display_name": "Jamie Keech",
+      "category": "投资人/工程背景",
+      "notes": "适合学习资源股融资结构",
+      "channel": "https://x.com/Jamie_Keech",
+      "x_handle": "Jamie_Keech",
+      "x_user_id": "283362425"
+    },
+    {
+      "source_id": "x-juniorminerjunky",
+      "display_name": "David Erfle",
+      "category": "研究作者",
+      "notes": "偏金银矿股交易和配置",
+      "channel": "https://x.com/JuniorMinerJunky",
+      "x_handle": "JuniorMinerJunky"
+    },
+    {
+      "source_id": "x-johnfeneck",
+      "display_name": "John Feneck",
+      "category": "顾问/评论员",
+      "notes": "常做矿业公司访谈",
+      "channel": "https://x.com/JohnFeneck",
+      "x_handle": "JohnFeneck",
+      "x_user_id": "1443791665131442176"
+    },
+    {
+      "source_id": "x-jayantbhandari5",
+      "display_name": "Jayant Bhandari",
+      "category": "投资人/评论员",
+      "notes": "观点强，适合补充政治风险视角",
+      "channel": "https://x.com/JayantBhandari5",
+      "x_handle": "JayantBhandari5",
+      "x_user_id": "4112726147"
+    },
+    {
+      "source_id": "x-chenpicks",
+      "display_name": "Chen Lin",
+      "category": "通讯作者/投资人",
+      "notes": "偏个股和催化剂",
+      "channel": "https://x.com/chenpicks",
+      "x_handle": "chenpicks"
+    },
+    {
+      "source_id": "x-gerardodelreal",
+      "display_name": "Gerardo Del Real",
+      "category": "媒体/研究作者",
+      "notes": "偏推广和访谈入口",
+      "channel": "https://x.com/GerardoDelReal",
+      "x_handle": "GerardoDelReal",
+      "x_user_id": "180115093"
+    },
+    {
+      "source_id": "x-tekoadasilva",
+      "display_name": "Tekoa Da Silva",
+      "category": "访谈者/投资人",
+      "notes": "适合顺藤摸瓜找行业人",
+      "channel": "https://x.com/TekoaDaSilva",
+      "x_handle": "TekoaDaSilva",
+      "x_user_id": "138560447"
+    },
+    {
+      "source_id": "source-trevor-hall",
+      "display_name": "Trevor Hall",
+      "category": "媒体/播客主持",
+      "notes": "音频简报和 CEO 访谈频率高",
+      "channel": "Mining Stock Daily"
+    },
+    {
+      "source_id": "x-soarfinancial",
+      "display_name": "Kai Hoffmann",
+      "category": "媒体/矿业传播",
+      "notes": "适合找欧洲资金关注的矿业公司",
+      "channel": "https://x.com/soarfinancial",
+      "x_handle": "soarfinancial",
+      "x_user_id": "278180555"
+    },
+    {
+      "source_id": "source-robert-friedland",
+      "display_name": "Robert Friedland",
+      "category": "企业家/矿业金融家",
+      "notes": "铜矿企业家中非常值得长期跟踪",
+      "channel": "公司号、公开访谈"
+    },
+    {
+      "source_id": "x-robmcewenmux",
+      "display_name": "Rob McEwen",
+      "category": "企业家/矿业高管",
+      "notes": "金矿创业和公司治理代表人物",
+      "channel": "https://x.com/RobMcEwenMUX",
+      "x_handle": "RobMcEwenMUX",
+      "x_user_id": "1143908060068491264"
+    },
+    {
+      "source_id": "x-keith_neumeyer",
+      "display_name": "Keith Neumeyer",
+      "category": "企业家/矿业高管",
+      "notes": "白银企业家代表",
+      "channel": "https://x.com/keith_neumeyer",
+      "x_handle": "keith_neumeyer",
+      "x_user_id": "3246589947"
+    },
+    {
+      "source_id": "x-frank_giustra",
+      "display_name": "Frank Giustra",
+      "category": "企业家/矿业金融家",
+      "notes": "资源金融圈影响力大",
+      "channel": "https://x.com/Frank_Giustra",
+      "x_handle": "Frank_Giustra",
+      "x_user_id": "973371776"
+    },
+    {
+      "source_id": "source-ross-beaty",
+      "display_name": "Ross Beaty",
+      "category": "企业家",
+      "notes": "北美贵金属矿业创业代表",
+      "channel": "公司渠道、会议访谈"
+    },
+    {
+      "source_id": "x-nolanwatson",
+      "display_name": "Nolan Watson",
+      "category": "企业家/矿业金融",
+      "notes": "适合理解流媒体融资模式",
+      "channel": "https://x.com/NolanWatson",
+      "x_handle": "NolanWatson"
+    },
+    {
+      "source_id": "source-randy-smallwood",
+      "display_name": "Randy Smallwood",
+      "category": "矿业高管",
+      "notes": "偏 royalty/streaming 模式",
+      "channel": "Wheaton Precious Metals、访谈"
+    },
+    {
+      "source_id": "x-amiradnani",
+      "display_name": "Amir Adnani",
+      "category": "企业家/资源股推广",
+      "notes": "跨金矿和铀资源平台",
+      "channel": "https://x.com/AmirAdnani",
+      "x_handle": "AmirAdnani",
+      "x_user_id": "110507848"
+    },
+    {
+      "source_id": "x-michaelkonnert",
+      "display_name": "Michael Konnert",
+      "category": "矿业高管/企业家",
+      "notes": "年轻一代银矿企业家",
+      "channel": "https://x.com/MichaelKonnert",
+      "x_handle": "MichaelKonnert"
+    },
+    {
+      "source_id": "source-shawn-khunkhun",
+      "display_name": "Shawn Khunkhun",
+      "category": "矿业高管",
+      "notes": "银金勘探公司代表",
+      "channel": "公司渠道、个人 X"
+    },
+    {
+      "source_id": "x-waltercolesjr",
+      "display_name": "Walter Coles Jr.",
+      "category": "矿业高管",
+      "notes": "适合跟踪高品位金银项目重启",
+      "channel": "https://x.com/WalterColesJr",
+      "x_handle": "WalterColesJr"
+    },
+    {
+      "source_id": "source-john-black",
+      "display_name": "John Black",
+      "category": "地质/企业家",
+      "notes": "铜金斑岩项目值得关注",
+      "channel": "Regulus Resources、公开访谈"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "display_name": "Ivan Bebek",
+      "category": "企业家/资源项目孵化",
+      "notes": "偏早期铜金项目",
+      "channel": "https://x.com/ivanbebek",
+      "x_handle": "ivanbebek",
+      "x_user_id": "117757065"
+    },
+    {
+      "source_id": "source-mark-bristow",
+      "display_name": "Mark Bristow",
+      "category": "矿业高管/企业家",
+      "notes": "大金矿经营和并购整合代表",
+      "channel": "Barrick、公开访谈"
+    },
+    {
+      "source_id": "source-sean-boyd",
+      "display_name": "Sean Boyd",
+      "category": "矿业高管",
+      "notes": "Agnico Eagle 体系核心人物",
+      "channel": "Agnico Eagle、公开访谈"
+    },
+    {
+      "source_id": "source-ammar-al-joundi",
+      "display_name": "Ammar Al-Joundi",
+      "category": "矿业高管",
+      "notes": "与 Sean Boyd 一起看 Agnico Eagle",
+      "channel": "Agnico Eagle、公开访谈"
+    },
+    {
+      "source_id": "source-jack-lundin",
+      "display_name": "Jack Lundin",
+      "category": "企业家/矿业高管",
+      "notes": "铜、金、银、镍交叉",
+      "channel": "Lundin Mining、公开访谈"
+    },
+    {
+      "source_id": "source-richard-adkerson",
+      "display_name": "Richard Adkerson",
+      "category": "矿业高管",
+      "notes": "Freeport 是全球重要铜生产商",
+      "channel": "Freeport-McMoRan、公开访谈"
+    },
+    {
+      "source_id": "source-kathleen-quirk",
+      "display_name": "Kathleen Quirk",
+      "category": "矿业高管",
+      "notes": "接棒 Freeport 的关键人物",
+      "channel": "Freeport-McMoRan、公开访谈"
+    },
+    {
+      "source_id": "source-mark-hill",
+      "display_name": "Mark Hill",
+      "category": "矿业高管",
+      "notes": "Barrick 2025 后管理层变化中值得跟踪",
+      "channel": "Barrick、公开访谈"
+    },
+    {
+      "source_id": "source-natascha-viljoen",
+      "display_name": "Natascha Viljoen",
+      "category": "矿业高管",
+      "notes": "Newmont 新一代管理层",
+      "channel": "Newmont、公开访谈"
+    },
+    {
+      "source_id": "source-tom-palmer",
+      "display_name": "Tom Palmer",
+      "category": "矿业高管",
+      "notes": "了解 Newmont 近年战略脉络",
+      "channel": "Newmont、公开访谈"
+    },
+    {
+      "source_id": "source-5d41708d96e6",
+      "display_name": "陈景河",
+      "category": "中国矿业专家/企业家",
+      "notes": "中国金铜矿业核心人物；具体职务每次引用前以紫金官网为准",
+      "channel": "紫金矿业官网、公开演讲"
+    },
+    {
+      "source_id": "source-ef12e6a8c698",
+      "display_name": "邹来昌",
+      "category": "中国矿业高管",
+      "notes": "重点跟踪紫金业绩会、媒体中心、会议发言和投资者演示",
+      "channel": "紫金矿业官网 Board and Management"
+    },
+    {
+      "source_id": "source-51159e9b601e",
+      "display_name": "林泓富",
+      "category": "中国矿业高管",
+      "notes": "与邹来昌一起跟踪紫金经营口径",
+      "channel": "紫金矿业官网 Board and Management"
+    },
+    {
+      "source_id": "source-53d4eb66e9bd",
+      "display_name": "吴建辉",
+      "category": "中国矿业专家/矿业高管",
+      "notes": "适合补充技术、矿山建设和资源开发判断",
+      "channel": "紫金矿业官网 Board and Management"
+    },
+    {
+      "source_id": "source-9351ba2fa456",
+      "display_name": "刘建锋",
+      "category": "中国矿业高管",
+      "notes": "CMOC 管理层 2025 后有变动；每次引用前核对最新公告",
+      "channel": "CMOC 官网、港交所公告"
+    },
+    {
+      "source_id": "source-6b345c9dc6b9",
+      "display_name": "彭旭辉",
+      "category": "中国矿业高管",
+      "notes": "重点跟踪 Tenke Fungurume、KFM、铜钴产量和成本口径",
+      "channel": "CMOC 官网、公开公告"
+    },
+    {
+      "source_id": "source-196d53d8107e",
+      "display_name": "郑高清",
+      "category": "中国矿业高管",
+      "notes": "中国铜冶炼和自产铜矿口径的重要来源",
+      "channel": "江西铜业官网、年报"
+    },
+    {
+      "source_id": "source-e936b7cc3e76",
+      "display_name": "李航",
+      "category": "中国矿业高管",
+      "notes": "适合跟踪中国黄金供给和大型金矿技改",
+      "channel": "山东黄金官网、年报"
+    },
+    {
+      "source_id": "source-745f23c49784",
+      "display_name": "陆东尚",
+      "category": "中国矿业高管",
+      "notes": "重点跟踪招金山东资源和 Tietto/Abujar 后续",
+      "channel": "招金矿业官网、年报"
+    },
+    {
+      "source_id": "source-54de4dbd826c",
+      "display_name": "卢进",
+      "category": "中国矿业高管",
+      "notes": "跟踪中国黄金集团及中国黄金国际",
+      "channel": "中国黄金集团官网、年报"
+    },
+    {
+      "source_id": "source-4ef44c06f0b3",
+      "display_name": "杨军",
+      "category": "中国矿业高管",
+      "notes": "中国铜供给、冶炼加工费和副产金银线索",
+      "channel": "铜陵有色官网、年报"
+    },
+    {
+      "source_id": "source-40244d66353e",
+      "display_name": "王建华",
+      "category": "中国矿业高管",
+      "notes": "职务需以最新公告核对；适合作为中国民营金矿扩张样本",
+      "channel": "赤峰黄金官网、年报"
+    },
+    {
+      "source_id": "source-simon-trott",
+      "display_name": "Simon Trott",
+      "category": "矿业高管",
+      "notes": "接替 Jakob Stausholm 后重点跟踪铜增长战略",
+      "channel": "Rio Tinto 官网、公开访谈"
+    },
+    {
+      "source_id": "source-gary-nagle",
+      "display_name": "Gary Nagle",
+      "category": "矿业高管",
+      "notes": "铜供给、冶炼加工费、交易流向和资源并购线索丰富",
+      "channel": "Glencore 官网、公开访谈"
+    },
+    {
+      "source_id": "source-m-ximo-pacheco",
+      "display_name": "Máximo Pacheco",
+      "category": "矿业高管",
+      "notes": "重点跟踪智利铜供给、项目延期、品位和成本",
+      "channel": "Codelco 官网、公开访谈"
+    },
+    {
+      "source_id": "source-rub-n-alvarado",
+      "display_name": "Rubén Alvarado",
+      "category": "矿业高管",
+      "notes": "与 Máximo Pacheco 一起跟踪 Codelco 执行口径",
+      "channel": "Codelco 官网、公开访谈"
+    },
+    {
+      "source_id": "source-iv-n-arriagada",
+      "display_name": "Iván Arriagada",
+      "category": "矿业高管",
+      "notes": "铜供给、智利水权/许可、矿山扩产信息源",
+      "channel": "Antofagasta 官网、公开访谈"
+    },
+    {
+      "source_id": "source-jonathan-price",
+      "display_name": "Jonathan Price",
+      "category": "矿业高管",
+      "notes": "适合跟踪大型铜项目爬坡和资产组合调整",
+      "channel": "Teck 官网、公开访谈"
+    },
+    {
+      "source_id": "source-pdac-convention",
+      "display_name": "PDAC Convention",
+      "category": "会议/Panel/访谈源",
+      "notes": "Part 1 必搜：agenda、presenters、media、YouTube、company presentation、interview、panel",
+      "channel": "https://www.pdac.ca/convention"
+    },
+    {
+      "source_id": "source-denver-gold-forum-gold-forum-americas",
+      "display_name": "Denver Gold Forum / Gold Forum Americas",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点搜公司 webcast、CEO interview、presentation replay 和 panel",
+      "channel": "https://www.denvergold.org/"
+    },
+    {
+      "source_id": "source-precious-metals-summit",
+      "display_name": "Precious Metals Summit",
+      "category": "会议/Panel/访谈源",
+      "notes": "会议周重点跟踪公司一对一访谈、演示稿和媒体采访",
+      "channel": "https://www.precioussummit.com/"
+    },
+    {
+      "source_id": "source-mines-and-money",
+      "display_name": "Mines and Money",
+      "category": "会议/Panel/访谈源",
+      "notes": "搜索 event agenda、speaker、interview、panel、company presentation",
+      "channel": "https://minesandmoney.com/"
+    },
+    {
+      "source_id": "source-investing-in-african-mining-indaba",
+      "display_name": "Investing in African Mining Indaba",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点跟踪 Mining Indaba TV、Digital Content Hub、agenda、daily highlights",
+      "channel": "https://www.miningindaba.com/"
+    },
+    {
+      "source_id": "source-future-minerals-forum",
+      "display_name": "Future Minerals Forum",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点搜 Knowledge Hub、FMF TV、interview、ministerial roundtable、report",
+      "channel": "https://www.futuremineralsforum.com/"
+    },
+    {
+      "source_id": "source-diggers-dealers-mining-forum",
+      "display_name": "Diggers & Dealers Mining Forum",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点跟踪 live stream、latest presentations、ASX 公司演示和媒体采访",
+      "channel": "https://www.diggersndealers.com.au/"
+    },
+    {
+      "source_id": "source-bmo-global-metals-mining-critical-minerals-conference",
+      "display_name": "BMO Global Metals, Mining & Critical Minerals Conference",
+      "category": "会议/Panel/访谈源",
+      "notes": "多为机构会议；优先搜公司官网 webcast replay 和 presentation",
+      "channel": "BMO Capital Markets conferences"
+    },
+    {
+      "source_id": "source-cru-world-copper-conference-cesco-week",
+      "display_name": "CRU World Copper Conference / CESCO Week",
+      "category": "会议/Panel/访谈源",
+      "notes": "Part 1/Part 3 都应搜；重点看 panel、keynote、market outlook",
+      "channel": "CRU、CESCO 官方会议页面"
+    },
+    {
+      "source_id": "source-lme-week",
+      "display_name": "LME Week",
+      "category": "会议/Panel/访谈源",
+      "notes": "不是纯矿业会议，但对铜供需和交易流向有高价值",
+      "channel": "https://www.lme.com/"
+    },
+    {
+      "source_id": "source-china-mining-conference-and-exhibition",
+      "display_name": "CHINA MINING Conference and Exhibition",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点搜中文议程、论坛发言、媒体报道、企业专访",
+      "channel": "https://www.chinaminingtj.org/"
+    },
+    {
+      "source_id": "source-china-gold-congress-and-expo",
+      "display_name": "China Gold Congress and Expo",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点跟踪协会新闻、会议发言、企业访谈和行业报告",
+      "channel": "中国黄金协会、China Gold Congress 官网"
+    },
+    {
+      "source_id": "source-smm",
+      "display_name": "SMM 有色会展 / 铜产业链峰会",
+      "category": "会议/Panel/访谈源",
+      "notes": "对中国供需口径很有用；注意区分数据、观点和赞助内容",
+      "channel": "https://www.smm.cn/"
+    },
+    {
+      "source_id": "source-deutsche-goldmesse",
+      "display_name": "Deutsche Goldmesse",
+      "category": "会议/Panel/访谈源",
+      "notes": "与 Kai Hoffmann/Soar Financial 频道联动搜索",
+      "channel": "Soar Financial / Deutsche Goldmesse"
+    },
+    {
+      "source_id": "source-new-orleans-investment-conference",
+      "display_name": "New Orleans Investment Conference",
+      "category": "会议/Panel/访谈源",
+      "notes": "与 Brien Lundin/Gold Newsletter 网络联动搜索",
+      "channel": "https://neworleansconference.com/"
+    },
+    {
+      "source_id": "source-rule-symposium-on-natural-resource-investing",
+      "display_name": "Rule Symposium on Natural Resource Investing",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点搜演讲、panel、company presentation 和会后访谈",
+      "channel": "https://rulesymposium.com/"
+    },
+    {
+      "source_id": "source-ame-roundup",
+      "display_name": "AME Roundup",
+      "category": "会议/Panel/访谈源",
+      "notes": "适合发现早期金银铜勘探信号",
+      "channel": "https://amebc.ca/roundup/"
+    },
+    {
+      "source_id": "source-the-northern-miner-canadian-mining-symposium-global-mining-symposium",
+      "display_name": "The Northern Miner Canadian Mining Symposium / Global Mining Symposium",
+      "category": "会议/Panel/访谈源",
+      "notes": "重点搜 Symposium、interview、TNM Drill Down、company presentation",
+      "channel": "https://www.northernminer.com/"
+    },
+    {
+      "source_id": "x-ivanhoemines_",
+      "display_name": "Ivanhoe Mines",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "IvanhoeMines_"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "display_name": "Freeport-McMoRan",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "FreeportMcMoRan"
+    },
+    {
+      "source_id": "x-newmontcorp",
+      "display_name": "Newmont",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "NewmontCorp"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "display_name": "Barrick Gold",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "BarrickGold"
+    },
+    {
+      "source_id": "x-teckresources",
+      "display_name": "Teck Resources",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "TeckResources"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "display_name": "Antofagasta",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "AntofagastaPLC"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "display_name": "Lundin Mining",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "LundinMining"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "display_name": "Agnico Eagle",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "AgnicoEagle"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "display_name": "First Majestic Silver",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "FirstMajestic"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "display_name": "Pan American Silver",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "PanAmericanSlvr"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "display_name": "Wheaton Precious Metals",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "Wheaton_PM"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "display_name": "Endeavour Mining",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "EndeavourMining"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "display_name": "SSR Mining",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "SSRMining"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "display_name": "Kinross Gold",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "KinrossGold"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "display_name": "Sandstorm Gold",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "SandstormGold"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "display_name": "Fortuna Mining",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "Fortuna_Silver"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "display_name": "GoGold Resources",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "GoGoldResources"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "display_name": "Vizsla Silver",
+      "category": "official/company account",
+      "notes": "Official/company account retained from the legacy X collector seed list.",
+      "x_handle": "vizslasilver"
+    }
+  ]
+}
