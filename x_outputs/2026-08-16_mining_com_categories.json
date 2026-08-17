@@ -1,0 +1,45 @@
+{
+  "report_date": "2026-08-16",
+  "collection_time": "2026-08-17T09:25:00+08:00",
+  "method": "Python 3.13.12 + Chromium headless + Chrome 131 UA + Playwright DOM extraction",
+  "categories": [
+    {
+      "metal": "copper",
+      "url": "https://www.mining.com/commodity/copper/",
+      "http_status": 200,
+      "page_title": "Copper Archives - MINING.COM",
+      "body_chars": 6582,
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Op-Ed: ASM risk is becoming harder to manage",
+          "url": "https://www.mining.com/op-ed-asm-risk-is-becoming-harder-to-manage/"
+        }
+      ]
+    },
+    {
+      "metal": "gold",
+      "url": "https://www.mining.com/commodity/gold/",
+      "http_status": 200,
+      "page_title": "Gold Archives - MINING.COM",
+      "body_chars": 5651,
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Op-Ed: ASM risk is becoming harder to manage",
+          "url": "https://www.mining.com/op-ed-asm-risk-is-becoming-harder-to-manage/"
+        }
+      ]
+    },
+    {
+      "metal": "silver",
+      "url": "https://www.mining.com/commodity/silver/",
+      "http_status": 200,
+      "page_title": "Silver Archives - MINING.COM",
+      "body_chars": 5800,
+      "article_count": 0,
+      "articles": []
+    }
+  ],
+  "notes": "The copper and gold category pages returned the same 2026-08-16 ASM article; the silver category page had no report-date article. Google site: searches were auxiliary discovery only and not used as evidence."
+}

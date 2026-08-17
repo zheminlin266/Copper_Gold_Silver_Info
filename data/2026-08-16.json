@@ -1,0 +1,177 @@
+{
+  "date": "2026-08-16",
+  "report_time": "2026-08-17T09:28:21+08:00",
+  "summary": "黄金：紫金黄金国际上半年矿产金产量同比增长，已实现供给保持扩张。白银：本窗口未发现新的可核验产量或项目供给信号。铜：矿业现场与小规模采矿治理风险仍可能增加供应链和项目执行不确定性。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-14T00:00:00+08:00",
+      "end": "2026-08-16T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-16T00:00:00+08:00",
+      "end": "2026-08-16T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-16T00:00:00+08:00",
+      "end": "2026-08-16T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Americas Gold and Silver 2026年第二季度业绩电话会",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/08/14/americas-gold-and-silver-usas-q2-2026-earnings-call-transcript/",
+      "publish_date": "2026-08-14",
+      "source_type": "webcast",
+      "guest": {
+        "name": "Paul Huet",
+        "background": "Americas Gold and Silver董事长兼首席执行官"
+      },
+      "metal_tags": [
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "summary": "管理层在二季度电话会中称，季度产银约665,000盎司，Cosalá产银同比增长26%至约337,000盎司；Galena三号井筒升级后持续提升提升能力，公司维持2026年320万至360万盎司白银产量指引。",
+      "detail": "电话会披露，Galena二季度产银约328,000盎司，受井筒升级和6月小型电气火灾影响；升级后提升吞吐率由约42短吨/小时提高至持续85短吨/小时，峰值105短吨/小时。Cosalá进入EC120矿体后，季度产银约337,000盎司，较上年同期约269,000盎司增长26%；同期伴生铜产量约0.9百万磅。上述季度产量是实际值，2026年320万至360万盎司为公司指引。",
+      "importance": "Americas的增量主要来自Cosalá品位和回收率改善，而Galena的基础设施升级为下半年爬坡提供了可量化的吞吐约束缓解。季度产银约66.5万盎司仍受停机和火灾拖累，全年兑现取决于下半年高品位采场、井筒稳定性及2027年后膏体充填等后续工程。",
+      "verification_status": "verified",
+      "companies": [
+        "Americas Gold and Silver"
+      ],
+      "projects": [
+        "Cosalá",
+        "EC120",
+        "Galena Complex"
+      ]
+    },
+    {
+      "title": "Brixton Metals首席执行官Gary Thompson现场访谈：Thorn铜金银矿区进入资源转换年",
+      "url": "https://thedeepdive.ca/this-copper-gold-district-is-5x-the-size-of-toronto-gary-thompson-brixton-metals/",
+      "publish_date": "2026-08-15",
+      "source_type": "conference_interview",
+      "guest": {
+        "name": "Gary Thompson",
+        "background": "Brixton Metals董事长兼首席执行官"
+      },
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "summary": "访谈介绍Brixton在不列颠哥伦比亚省的Thorn项目：矿权面积约2,900平方公里，覆盖约80公里铜金银钼趋势；公司称2026年将把多年钻探成果转化为Camp Creek和Trapper的更新及初始资源。",
+      "detail": "Gary Thompson表示，BHP已取得Brixton 19.9%的战略持股，项目包含多个斑岩发现，公司正在推进全额融资的钻探计划，并将2026年定义为资源转换年。访谈讨论了基础设施、寻找高品位核心及资本部署，但未给出可直接计入当前供应的储量、产量或投产时间。",
+      "importance": "Thorn的价值在于把大范围勘探资产推向资源估算节点，而不是形成即时铜供给。2026年Camp Creek和Trapper的资源更新、钻探结果及后续经济评价将决定80公里矿化趋势能否转化为可开发项目；BHP的19.9%持股可提供资金和技术验证，但不能替代储量与许可。",
+      "verification_status": "verified",
+      "companies": [
+        "Brixton Metals",
+        "BHP"
+      ],
+      "projects": [
+        "Thorn",
+        "Camp Creek",
+        "Trapper",
+        "Catalyst"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "金融界 / 智通财经",
+      "title": "紫金黄金国际发布2026年上半年业绩，矿产金产量同比增长约37%",
+      "url": "https://finance.jrj.com.cn/2026/08/16184258133098.shtml",
+      "publish_time": "2026-08-16T18:42:50+08:00",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "zh",
+      "excerpt": "报道转引紫金黄金国际港交所中期业绩：2026年上半年矿产金产量约27.3吨，其中控股矿山产量约26.0吨，同比增长约37%；黄金销量约26.1吨，平均售价约4,643美元/盎司。加纳阿基姆和哈萨克斯坦瑞果多两座于2025年完成收购的金矿已纳入运营。",
+      "interpretation": "27.3吨是上半年已实现矿产金产量，26.0吨及同比增幅对应控股矿山口径，不是全年指导或新增储量。增量部分包含新收购在产矿山并表和成熟资产增产，说明并购整合已经转化为可交付产量，但不能据此外推下半年同样增速。",
+      "importance": "紫金黄金国际把并购资产整合转化为上半年约27.3吨实际产金，较控股矿山去年同期增加约37%，为黄金供给扩张提供了近期可验证样本。增量的持续性取决于阿基姆、瑞果多及成熟矿山的全年品位、回收率和运营稳定性；后续应将下半年产量与公司全年指引核对，避免把并表效应当成行业普遍增产。",
+      "verification_status": "verified",
+      "companies": [
+        "紫金黄金国际",
+        "紫金矿业"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "source": "MINING.COM",
+      "title": "评论：小规模采矿风险正变得更难管理",
+      "url": "https://www.mining.com/op-ed-asm-risk-is-becoming-harder-to-manage/",
+      "publish_time": "2026-08-16",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "language": "en",
+      "excerpt": "文章认为未受监测的手工和小规模采矿（ASM）会带来收入流失、环境破坏、特许权边界风险和冲突融资风险，并引用EITI称全球ASM为超过4,000万人提供生计；文章还讨论非洲未申报黄金流动和秘鲁、加纳的环境影响。",
+      "interpretation": "这是一篇由EarthDaily矿业与能源负责人撰写的评论文章，不是某个矿山的当期产量公告。其供给传导在于ASM监测、正规化和追溯能力会影响合法可交付产量、矿权安全与供应链合规；文中部分黄金流失数字对应历史研究，不能当作2026年新增缺口。",
+      "importance": "ASM议题把黄金供应风险从矿山产能延伸到生产可见性和合法流通，短期不会改变全球产量统计，却可能通过特许权冲突、执法和追溯要求提高可交付供给的不确定性。文章引用的超过4,000万人生计规模说明治理影响广泛；下一步应跟踪具体国家的正规化、出口数据和矿区监测结果。",
+      "verification_status": "verified",
+      "companies": [
+        "EarthDaily",
+        "Gold Fields",
+        "AngloGold Ashanti",
+        "Southern Copper"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "按强制路径使用Python 3.13.12和Chromium headless抓取Mining.com铜分类页与黄金分类页；两页均HTTP 200并提取该2026-08-16文章。随后直接打开文章正文核对标题、日期、作者和ASM供给风险论述；白银分类页HTTP 200但未提取报告日文章。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-14至2026-08-16北京时间72小时窗口检索种子来源、公司IR、业绩电话会、webcast、YouTube、Podcast及conference_calendar；窗口内未发现其他可核验的目标金银铜访谈，价格和宏观节目排除。",
+      "Brixton Metals Gary Thompson现场访谈页面：页面标注2026-08-15，核对Thorn项目面积、铜金银钼趋势、BHP持股和2026年资源转换计划。",
+      "Americas Gold and Silver 2026年第二季度业绩电话会：Motley Fool逐字稿标注2026-08-14 11:00 ET，并与公司同日业绩稿交叉核对产银、Cosalá、Galena提升能力和全年指引。",
+      "检查PDAC、Denver Gold Forum、Precious Metals Summit、Mines and Money、Diggers & Dealers、Northern Miner等会议入口；窗口内未发现更多能打开原始节目页且具有新增供需事实的目标节目。"
+    ],
+    "part1_result": "Part 1完成2026-08-14至2026-08-16三日访谈、Podcast、Webcast、YouTube、公司演示和会议回放检索；纳入2条（白银/铜1、铜/金/银勘探1）。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、C:/Program Files/Google/Chrome/Application/chrome.exe和项目.browser_profile/chromium-data持久会话运行scripts/x_search.py --check-login --headless，认证通过。",
+      "运行scripts/x_search.py 2026-08-16 --headless，检查35个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原作者帖子14条，原始材料保存至x_outputs/2026-08-16_x_raw_materials.txt。",
+      "14条原帖逐条筛选；KatusaResearch、TheDailyGold、RonStoeferle和LawrenceLepard候选主要是价格、技术或货币宏观评论，David Morgan为节目链接，Lobo Tiggre为缺少上下文的评论，Frank Giustra为宏观判断，均未纳入。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现14条原作者帖子、纳入0条；未使用搜索摘要、截图或转发替代原帖。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页Playwright主路径：Python 3.13.12、Chrome 131 UA、Chromium headless、--disable-blink-features=AutomationControlled、--no-sandbox；HTTP 200，页面标题Copper Archives - MINING.COM，2026-08-16文章1篇。",
+      "Mining.com黄金分类页辅助Playwright路径：HTTP 200，页面标题Gold Archives - MINING.COM，2026-08-16文章1篇；与铜分类页为同一ASM评论文章。",
+      "Mining.com白银分类页辅助Playwright路径：HTTP 200，页面标题Silver Archives - MINING.COM，未提取2026-08-16文章。",
+      "Google site:mining.com copper August 16 2026、site:mining.com gold August 16 2026和site:mining.com silver August 16 2026均执行；结果主要为跨日价格/宏观文章，未把搜索摘要作为证据。",
+      "直接打开并核验紫金黄金国际2026年8月16日中期业绩报道，核对发布日期、上半年矿产金产量、控股矿山同比增幅、销量和收购矿山并表事实；官方投资者页面亦已检查，但未暴露可直接下载的当日中期报告链接。",
+      "直接打开Mining.com ASM评论文章，核对作者、报告日、ASM治理风险及文中历史数据口径；未将历史研究数字写成2026年新增产量或缺口。未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-16全天中英文新闻检索、Mining.com铜分类页强制主路径、金银辅助路径、Google site辅助查询和逐条来源核验；纳入2条供给信号（黄金2）。",
+    "mining_com_source_note": "铜分类页主路径HTTP 200并提取1篇报告日文章，黄金辅助页HTTP 200并提取同一文章，白银辅助页HTTP 200且为空；文章正文已直接打开核验。",
+    "url_verification": {
+      "checked": 4,
+      "passed": 4,
+      "failed": 0,
+      "failures": [],
+      "notes": "核验2条Part 1节目/逐字稿来源和2条Part 3新闻来源；所有入选卡均标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "14条候选中，价格技术评论、货币宏观讨论、节目链接、缺少上下文的短评和无新增实体金银铜供需事实内容均排除。"
+    ],
+    "part3_deduped_events": [
+      "Mining.com铜分类页与黄金分类页提取的是同一篇ASM评论，只保留一条并以黄金为primary_metal；白银分类页无报告日文章。",
+      "Google site结果中的价格、宏观和跨日矿业文章超出2026-08-16新闻窗口或缺乏新的可核验供需事实，未重复纳入。",
+      "8月14日前后发布的Americas Gold and Silver、Orvana等业绩公告已在本次Part 1窗口检查，但不重复作为8月16日Part 3新闻；仅将Americas电话会作为窗口内访谈保留。"
+    ],
+    "notes": "所有入选新信号均填写唯一primary_metal且该值出现在metal_tags中；实际产量、公司指引、勘探资源转换和ASM治理风险按各自口径区分，未将目标或历史数据写成已实现新增供给。"
+  }
+}
