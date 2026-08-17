@@ -27,6 +27,7 @@ class ReportBuilderTests(unittest.TestCase):
                 "metal": "copper",
                 "direction": "supply",
                 "confidence": 0.9,
+                "verification_status": "verified",
                 "source": "Example",
                 "title": "Project update",
                 "excerpt": "The company announced a supply-side project update.",
@@ -41,7 +42,19 @@ class ReportBuilderTests(unittest.TestCase):
                     "value": "advanced",
                 }],
             }],
-            "search_log": {"part3_searched": True, "part3_sources_checked": ["Example"]},
+            "search_log": {
+                "part1_searched": True,
+                "part1_sources_checked": ["broadcast registry"],
+                "part1_result": "completed; no accepted broadcasts",
+                "part2_searched": True,
+                "part2_channel": "playwright",
+                "part2_sources_checked": ["X registry"],
+                "part2_result": "completed; no accepted X posts",
+                "part3_searched": True,
+                "part3_sources_checked": ["Example"],
+                "part3_result": "completed; one candidate analyzed",
+                "url_verification": {"checked": 1, "passed": 1, "failed": 0, "failures": []},
+            },
             "dedup_log": {},
         }
 
@@ -61,6 +74,32 @@ class ReportBuilderTests(unittest.TestCase):
         bundle["decisions"][0]["candidate_id"] = "missing"
         with self.assertRaises(ReportBuilderError):
             project_report(bundle)
+
+    def test_current_report_requires_complete_collection_audit(self):
+        bundle = self.bundle()
+        bundle["report_date"] = "2026-08-17"
+        bundle["candidates"][0]["published_at"] = "2026-08-17"
+        report = project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
+        self.assertEqual(report["schema_version"], 3)
+        bundle["search_log"]["part2_channel"] = "failed"
+        with self.assertRaises(ReportBuilderError):
+            project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
+
+    def test_explicit_rejection_is_not_published(self):
+        bundle = self.bundle()
+        bundle["decisions"][0] = {
+            "candidate_id": "c-1",
+            "decision": "reject",
+            "reason": "not a material supply-demand signal",
+        }
+        bundle["search_log"]["url_verification"] = {
+            "checked": 0,
+            "passed": 0,
+            "failed": 0,
+            "failures": [],
+        }
+        report = project_report(bundle, report_time="2024-03-01T07:00:00+08:00")
+        self.assertEqual(report["part3_news"], [])
 
     def test_final_writer_does_not_overwrite(self):
         with tempfile.TemporaryDirectory() as directory:

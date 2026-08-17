@@ -188,8 +188,7 @@ class Candidate:
             raise ContractError("text must be a string")
         if self.published_at is not None:
             validate_date_or_datetime(self.published_at, "published_at")
-        if self.collector is not None and not isinstance(self.collector, str):
-            raise ContractError("collector must be a string")
+        _text(self.collector, "collector")
         if self.kind is not None and self.kind not in KINDS:
             raise ContractError(f"kind is unsupported: {self.kind!r}")
         if self.metal is not None:
@@ -274,6 +273,8 @@ class AnalysisDecision:
         if normalized_decision is not None:
             normalized_decision = validate_decision(normalized_decision)
             object.__setattr__(self, "decision", normalized_decision)
+        if self.accepted is None and normalized_decision is None:
+            raise ContractError("analysis decision must include accepted or decision")
         if self.accepted is not None and normalized_decision is not None:
             expected = normalized_decision in {"accept", "accepted"}
             if self.accepted != expected:
@@ -323,6 +324,10 @@ class CollectorResult:
         _text(self.collector, "collector")
         if self.status not in COLLECTOR_STATUSES:
             raise ContractError(f"collector status is unsupported: {self.status!r}")
+        if self.status in {"failed", "partial"} and not self.errors:
+            raise ContractError(f"collector status {self.status!r} requires at least one error")
+        if self.status == "complete" and self.exit_code not in (None, 0):
+            raise ContractError("complete collector status requires exit_code 0 or null")
         if self.exit_code is not None and type(self.exit_code) is not int:
             raise ContractError("exit_code must be an integer or null")
         for value, name in ((self.stdout, "stdout"), (self.stderr, "stderr")):
@@ -356,6 +361,7 @@ class RunManifest:
     candidate_ids: tuple[str, ...] = ()
     decision_ids: tuple[str, ...] = ()
     report_date: str | None = None
+    run_dir: str | None = None
     windows: Mapping[str, Any] = field(default_factory=dict)
     status: str = "preflight"
     collectors: tuple[Mapping[str, Any], ...] = ()
@@ -370,6 +376,8 @@ class RunManifest:
             validate_datetime(self.completed_at, "completed_at")
         if self.report_date is not None:
             validate_date(self.report_date, "report_date")
+        if self.run_dir is not None:
+            _text(self.run_dir, "run_dir")
         if self.status not in COLLECTOR_STATUSES:
             raise ContractError(f"manifest status is unsupported: {self.status!r}")
         for name, values in (("document_ids", self.document_ids), ("candidate_ids", self.candidate_ids), ("decision_ids", self.decision_ids), ("registry_source_ids", self.registry_source_ids)):

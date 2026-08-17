@@ -175,22 +175,62 @@ def _validate_claims(value: Any, candidate_id: str) -> list[dict[str, Any]]:
 
 
 def _validate_search_log(value: Any) -> dict[str, Any]:
+    """Validate the publish-time audit contract, not just its JSON shape."""
     data = dict(_is_mapping(value, "search_log"))
     _reject_unknown(data, SEARCH_LOG_FIELDS, "search_log")
-    if "part1_searched" in data and type(data["part1_searched"]) is not bool:
-        raise ReportBuilderError("search_log.part1_searched must be boolean")
-    if "part2_searched" in data and type(data["part2_searched"]) is not bool:
-        raise ReportBuilderError("search_log.part2_searched must be boolean")
-    if "part3_searched" in data and type(data["part3_searched"]) is not bool:
-        raise ReportBuilderError("search_log.part3_searched must be boolean")
-    if data.get("part2_channel") is not None and data["part2_channel"] not in PART2_CHANNELS:
-        raise ReportBuilderError("search_log.part2_channel is unsupported")
-    data.setdefault("part1_searched", False)
-    data.setdefault("part2_searched", False)
-    data.setdefault("part3_sources_checked", [])
-    if not isinstance(data["part3_sources_checked"], list):
-        raise ReportBuilderError("search_log.part3_sources_checked must be a list")
+    for part in ("part1", "part2", "part3"):
+        searched = f"{part}_searched"
+        sources = f"{part}_sources_checked"
+        result = f"{part}_result"
+        if data.get(searched) is not True:
+            raise ReportBuilderError(
+                f"search_log.{searched} must be true; failed collection cannot be published"
+            )
+        checked_sources = data.get(sources)
+        if (
+            not isinstance(checked_sources, list)
+            or any(not isinstance(item, str) or not item.strip() for item in checked_sources)
+        ):
+            raise ReportBuilderError(f"search_log.{sources} must be a list of non-empty strings")
+        if not isinstance(data.get(result), str) or not data[result].strip():
+            raise ReportBuilderError(f"search_log.{result} must be a non-empty string")
+    if data.get("part2_channel") != "playwright":
+        raise ReportBuilderError("search_log.part2_channel must be playwright")
+    verification = data.get("url_verification")
+    if not isinstance(verification, Mapping):
+        raise ReportBuilderError("search_log.url_verification is required")
+    for field in ("checked", "passed", "failed"):
+        value = verification.get(field)
+        if type(value) is not int or value < 0:
+            raise ReportBuilderError(f"search_log.url_verification.{field} must be a non-negative integer")
+    if verification["checked"] != verification["passed"] + verification["failed"]:
+        raise ReportBuilderError("search_log.url_verification.checked must equal passed + failed")
+    failures = verification.get("failures", [])
+    if not isinstance(failures, list):
+        raise ReportBuilderError("search_log.url_verification.failures must be a list")
+    if verification["failed"] > 0 and not failures:
+        raise ReportBuilderError("search_log.url_verification.failures must be non-empty when failed > 0")
     return data
+
+
+def _validate_verification_coverage(search_log: Mapping[str, Any], signals: list[Mapping[str, Any]]) -> None:
+    verification = search_log["url_verification"]
+    verified = [item for item in signals if item.get("verification_status") == "verified"]
+    unverified = [item for item in signals if item.get("verification_status") == "unverified"]
+    if verification["passed"] < len(verified):
+        raise ReportBuilderError("url_verification.passed must cover verified signals")
+    if verification["failed"] < len(unverified):
+        raise ReportBuilderError("url_verification.failed must cover unverified signals")
+    failed_urls = {
+        failure.get("url")
+        for failure in verification.get("failures", [])
+        if isinstance(failure, Mapping) and isinstance(failure.get("url"), str)
+    }
+    for item in unverified:
+        if item.get("url") not in failed_urls:
+            raise ReportBuilderError(
+                f"url_verification.failures must list unverified URL {item.get('url')}"
+            )
 
 
 def _validate_dedup_log(value: Any) -> dict[str, Any]:
@@ -208,6 +248,7 @@ def _validate_candidate(data: Any, index: int) -> dict[str, Any]:
     candidate = dict(_is_mapping(data, f"candidates[{index}]"))
     _reject_unknown(candidate, CANDIDATE_FIELDS, f"candidates[{index}]")
     candidate["id"] = _record_id(candidate, f"candidates[{index}]")
+    candidate["document_id"] = _nonempty(candidate.get("document_id"), f"candidates[{index}].document_id")
     candidate["source_url"] = _candidate_url(candidate)
     candidate["title"] = _nonempty(candidate.get("title"), f"candidates[{index}].title")
     _candidate_date(candidate)
@@ -238,7 +279,11 @@ def _validate_decision(data: Any, index: int) -> dict[str, Any]:
     if accepted is not None and type(accepted) is not bool:
         raise ReportBuilderError(f"decisions[{index}].accepted must be boolean")
     if not is_accept:
-        raise ReportBuilderError(f"decisions[{index}] rejects candidate {candidate_id}; final reports accept only explicit signals")
+        reason = _nonempty(decision.get("reason"), f"decisions[{index}].reason")
+        decision["decision"] = "reject"
+        decision["accepted"] = False
+        decision["reason"] = reason
+        return decision
     decision["decision"] = "accept"
     decision["accepted"] = True
     kind = decision.get("kind")
@@ -324,10 +369,15 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
             _copy_optional(result, decision, candidate, key)
         if result.get("source_channel") is not None and result["source_channel"] not in PART3_CHANNELS:
             raise ReportBuilderError(f"decisions[{index}].source_channel is unsupported")
-    if result.get("verification_status") is None:
-        result["verification_status"] = "unverified"
-    elif result["verification_status"] not in {"verified", "unverified"}:
-        raise ReportBuilderError(f"decisions[{index}].verification_status is unsupported")
+    verification_status = result.get("verification_status")
+    if verification_status not in {"verified", "unverified"}:
+        raise ReportBuilderError(
+            f"decisions[{index}].verification_status must be explicitly verified or unverified"
+        )
+    if verification_status == "unverified":
+        result["verification_note"] = _nonempty(
+            result.get("verification_note"), f"decisions[{index}].verification_note"
+        )
     return result
 
 
@@ -367,17 +417,35 @@ def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None)
         if extra:
             detail.append("unknown candidates " + ", ".join(extra))
         raise ReportBuilderError("analysis records would be silently dropped: " + "; ".join(detail))
-    projected = [_project_signal(decision, candidate_map[decision["candidate_id"]], index) for index, decision in enumerate(decisions)]
+    accepted = [
+        (index, decision, candidate_map[decision["candidate_id"]])
+        for index, decision in enumerate(decisions)
+        if decision["accepted"]
+    ]
+    projected = [
+        _project_signal(decision, candidate, index)
+        for index, decision, candidate in accepted
+    ]
+    projected_by_kind = {
+        kind: [
+            item
+            for item, (_, decision, _) in zip(projected, accepted)
+            if decision["kind"] == kind
+        ]
+        for kind in KINDS
+    }
+    search_log = _validate_search_log(data.get("search_log"))
+    _validate_verification_coverage(search_log, projected)
     output = {
         "schema_version": 3,
         "date": report_date,
         "report_time": validate_datetime(report_time or datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat(), "report_time"),
         "summary": summary,
         "windows": calculate_windows(report_date),
-        "part1_broadcasts": [item for item, decision in zip(projected, decisions) if decision["kind"] == "broadcast"],
-        "part2_x_posts": [item for item, decision in zip(projected, decisions) if decision["kind"] == "x"],
-        "part3_news": [item for item, decision in zip(projected, decisions) if decision["kind"] == "news"],
-        "search_log": _validate_search_log(data.get("search_log")),
+        "part1_broadcasts": projected_by_kind["broadcast"],
+        "part2_x_posts": projected_by_kind["x"],
+        "part3_news": projected_by_kind["news"],
+        "search_log": search_log,
         "dedup_log": _validate_dedup_log(data.get("dedup_log")),
     }
     return output
