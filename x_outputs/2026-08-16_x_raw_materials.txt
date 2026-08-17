@@ -1,0 +1,116 @@
+X 原始候选 — 2026-08-16
+采集时间: 2026-08-17T09:24:49.276186+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 14 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-16T13:37:48+00:00
+    北京: 2026-08-16T21:37:48+08:00
+    文本: Gold is knocking on a door it hasn't opened since June
+
+And about to cross its 100 -day MA
+    链接: https://x.com/KatusaResearch/status/2088983565799211465
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-15T16:14:02+00:00
+    北京: 2026-08-16T00:14:02+08:00
+    文本: Copper closed the week at its 12th RECORD weekly close of 2026 and third in a row.
+
+That's a new all-time high roughly EVERY three weeks since the year began.
+    链接: https://x.com/KatusaResearch/status/2088660494684958904
+
+[3] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-15T21:41:28+00:00
+    北京: 2026-08-16T05:41:28+08:00
+    文本: The boxes mark 20% declines during secular bulls in Gold.
+
+Gold’s recent pullback was nearly identical to 1973 and modestly smaller in both price and duration than 2008.
+
+Gold is not yet at the comparable 1975 stage of a secular bull market and likely will not be for another 2 to
+    链接: https://x.com/TheDailyGold/status/2088742896686223567
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-08-16T12:03:10+00:00
+    北京: 2026-08-16T20:03:10+08:00
+    文本: 55 Years After Nixon Closed the Gold Window: Can Gold Still Be Controlled?
+https://
+archive.aweber.com/t/IAkwv
+    链接: https://x.com/silverguru22/status/2088959753833611433
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-16T15:53:37+00:00
+    北京: 2026-08-16T23:53:37+08:00
+    文本: And people say gold is a boring pet rock…
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2089017748105970159
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-16T15:35:22+00:00
+    北京: 2026-08-16T23:35:22+08:00
+    文本: Sure, but can anyone be stupid enough to plan a multi-billion-dollar smelter without addressing that?
+
+I'm sure they did, but people are paranoid anyway.
+    链接: https://x.com/duediligenceguy/status/2089013152235012317
+
+[7] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-16T14:21:46+00:00
+    北京: 2026-08-16T22:21:46+08:00
+    文本: I'd be curious to hear your take: Why does Buffett hate gold so much?
+
+Is it perhaps Freudian? His father Howard Buffett was Congress's loudest gold bug, so perhaps rejecting gold is Warren's way of rejecting the father? Or is it pure positioning: the high priest of American
+    链接: https://x.com/RonStoeferle/status/2088994632260555165
+
+[8] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-16T11:55:42+00:00
+    北京: 2026-08-16T19:55:42+08:00
+    文本: Well done,
+@vitaliyk
+! Value investors who genuinely understand gold are a rare breed...
+
+btw, his book "Soul in the Game" is AWESOME!!!
+    链接: https://x.com/RonStoeferle/status/2088957873061511445
+
+[9] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-15T21:45:34+00:00
+    北京: 2026-08-16T05:45:34+08:00
+    文本: If tied dollar to gold and let gold price float it would have been honest.  The dishonest part was fixing the price at $35 and then not honoring it.  Should have said, $1 equals 1/1000’s (made up number) of an ounce. We will exchange freely.  If drain continued make the 1,000
+    链接: https://x.com/LawrenceLepard/status/2088743927700676964
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-15T20:43:42+00:00
+    北京: 2026-08-16T04:43:42+08:00
+    文本: No. Properly priced they would rather hold dollars.  Eg: on a true gold standard.  Dollars have yield gold doesn’t.
+    链接: https://x.com/LawrenceLepard/status/2088728358792073251
+
+[11] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-15T20:24:12+00:00
+    北京: 2026-08-16T04:24:12+08:00
+    文本: No they didn’t. Could have just devalued the dollar in gold terms.
+    链接: https://x.com/LawrenceLepard/status/2088723451905262071
+
+[12] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-15T18:53:34+00:00
+    北京: 2026-08-16T02:53:34+08:00
+    文本: Even with Vietnam could have maintained it just had to devalue the dollar in gold terms.  The honest solution.
+    链接: https://x.com/LawrenceLepard/status/2088700646010614120
+
+[13] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-15T18:37:49+00:00
+    北京: 2026-08-16T02:37:49+08:00
+    文本: 55 years ago on August 15 Nixon set in motion the issue which is now coming to a head:  what is money?  what is sound money?  And for all those who worship Volcker because his 20% interest rates saved the fiat system in 1979-1980, don’t be so cocky about his prowess he was at the
+    链接: https://x.com/LawrenceLepard/status/2088696680895922213
+
+[14] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-08-15T17:46:25+00:00
+    北京: 2026-08-16T01:46:25+08:00
+    文本: He is only setting the stage for what is ultimately out of their control. Reserve status is slowly disappearing
+    链接: https://x.com/Frank_Giustra/status/2088683745662693678
