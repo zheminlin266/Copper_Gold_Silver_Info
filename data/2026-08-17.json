@@ -1,0 +1,419 @@
+{
+  "date": "2026-08-17",
+  "report_time": "2026-08-18T07:20:34+08:00",
+  "summary": "铜：主要矿商二季度产量下滑、库存分流与韩国锁定资源使短期供应偏紧，AI和电网用铜需求扩张。黄金：South Railroad许可与Katanning并购推进中长期增量，Thesis融资支持勘探。白银：Terronera封锁造成近期供给中断，Corani建设和项目管线仍待兑现。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-15T00:00:00+08:00",
+      "end": "2026-08-17T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-17T00:00:00+08:00",
+      "end": "2026-08-17T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-17T00:00:00+08:00",
+      "end": "2026-08-17T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "title": "Mining Stock Daily晨间简报：DPM Metals的Vareš银金矿达到商业生产",
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-oceanagold-moves-to-acquire-ausgold",
+      "publish_date": "2026-08-17",
+      "source_type": "podcast",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily主持人"
+      },
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "summary": "节目页面称DPM Metals的Vareš银金矿在连续30天达到设计吞吐量和回收率的72%，超过商业生产所需的60%门槛；公司目标是在2026年底达到每年850,000吨处理能力，并预计金当量产量落在105,000至130,000盎司指引区间的高端。",
+      "detail": "上述数据来自8月17日节目页面的新闻稿播报，属于公司公布的商业生产里程碑和指引，不是完整年度实际产量。页面还说明Vareš位于波斯尼亚和黑塞哥维那；本卡只收录该节目中可核对的银金供给事实。",
+      "importance": "Vareš跨过商业生产门槛后，白银供给从爬坡项目转为可跟踪的运营资产，30天72%设计能力为年末850,000吨处理目标提供了近期验证点。兑现仍取决于设备稳定性、回收率和剩余产能爬坡，105,000—130,000盎司金当量指引属于公司前瞻口径。",
+      "verification_status": "verified",
+      "companies": [
+        "DPM Metals"
+      ],
+      "projects": [
+        "Vareš"
+      ]
+    },
+    {
+      "title": "Asante Gold代理首席执行官访谈：2026年生产恢复取决于Bibiani整顿",
+      "url": "https://www.youtube.com/watch?v=wAzQTgGqhPs",
+      "publish_date": "2026-08-17",
+      "source_type": "youtube",
+      "guest": {
+        "name": "Campbell Baird",
+        "background": "Asante Gold代理首席执行官"
+      },
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "访谈字幕显示，Chirano目前每月产金约10,000至11,000盎司；Bibiani剥离作业仍将持续至2026年底，硫化矿回收系统与主流程的整合约还需两个月。管理层预计Bibiani头品位由近六个月的1.3至1.4克/吨升向2026年底的1.7至1.8克/吨，并维持全年275,000至300,000盎司产量指引。",
+      "detail": "YouTube页面显示视频发布于2026年8月17日，字幕同时注明访谈录制于8月13日。管理层将Bibiani的高剥采量、硫化矿比例约50%和加工流程改造列为当前执行重点；275,000至300,000盎司是公司当前指引，1.7至1.8克/吨是目标品位，不是已实现结果。",
+      "importance": "Asante的近期黄金供给取决于Bibiani从剥离和流程改造转入稳定运营，Chirano每月约万盎司的连续产出提供了部分缓冲。品位目标和约两个月的整合时间把改善窗口指向2026年下半年，但剥离进度、回收率和设备调试仍可能使全年指引落在区间低端。",
+      "verification_status": "verified",
+      "companies": [
+        "Asante Gold"
+      ],
+      "projects": [
+        "Chirano",
+        "Bibiani"
+      ]
+    },
+    {
+      "title": "Mako Mining首席执行官访谈：San Albino产出稳定，Moss仍在去瓶颈",
+      "url": "https://www.youtube.com/watch?v=dD_mgFkN82c",
+      "publish_date": "2026-08-15",
+      "source_type": "webcast",
+      "guest": {
+        "name": "Akiba Leisman",
+        "background": "Mako Mining总裁兼首席执行官"
+      },
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "管理层在Q2访谈中称San Albino季度产销略高于10,000盎司，Moss矿仍需约6至7个月去除瓶颈；当前破碎能力约8,500短吨/日，后续研究方案包含扩至约14,000短吨/日。Mt Hamilton和Eagle Mountain仍处于开发和许可推进阶段。",
+      "detail": "视频字幕记录了Q2运营复盘：San Albino的超预算表现主要来自品位对账，Moss东侧较高品位区域预计在2027年1月开始接矿，扩建后的吞吐提升还需要设备采购和许可工作。上述项目安排是管理层说明的计划，不能当作已经形成的新增产量。",
+      "importance": "Mako的可交付黄金仍由San Albino支撑，Moss的去瓶颈和高品位东区接矿构成下一阶段增量路径。8,500短吨/日到约14,000短吨/日的能力差距说明扩产空间存在，兑现时间受设备、许可和6至7个月的调试周期约束；两个开发项目暂不计入近期供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Mako Mining"
+      ],
+      "projects": [
+        "San Albino",
+        "Moss",
+        "Mt Hamilton",
+        "Eagle Mountain"
+      ]
+    },
+    {
+      "title": "Highlander Silver首席执行官访谈：Corani进入早期现场开发",
+      "url": "https://www.youtube.com/watch?v=ht-zYN3IdYI",
+      "publish_date": "2026-08-17",
+      "source_type": "youtube",
+      "guest": {
+        "name": "Daniel Earle",
+        "background": "Highlander Silver总裁兼首席执行官"
+      },
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "summary": "CEO称秘鲁Corani是已获许可的开发项目，现场团队已超过300人，营地、道路、变电站和输电线正在施工，全面建设计划于2027年初启动；访谈将前四年年产约1,000万盎司白银描述为项目愿景，非实际产量。",
+      "detail": "视频页面及自动字幕核对了Corani的许可状态、现场人员和基础设施进度，也记录了管理层对前四年白银产量的规划表述。访谈还称白银为项目核心应付金属，铅锌合计经济贡献低于15%；完整建设、融资和后续施工仍未完成。",
+      "importance": "Corani已经从许可资产进入现场准备阶段，超过300人的施工组织和输电基础设施把2027年初全面建设变成可跟踪节点。约1,000万盎司年产是管理层愿景，能否转化为白银增量仍取决于融资、设备订单、建设进度及项目经济性在高资本成本环境下的稳定性。",
+      "verification_status": "verified",
+      "companies": [
+        "Highlander Silver"
+      ],
+      "projects": [
+        "Corani",
+        "Mercedes"
+      ]
+    },
+    {
+      "title": "Mount Hope Mining管理层访谈：Mt Solitary启动第三阶段钻探",
+      "url": "https://www.youtube.com/watch?v=QUsyZvYLS5M",
+      "publish_date": "2026-08-17",
+      "source_type": "youtube",
+      "guest": {
+        "name": "Fergus Kiley",
+        "background": "Mount Hope Mining董事总经理"
+      },
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "summary": "管理层称公司完成约180万澳元战略配售并启动Mt Solitary第三阶段钻探，既有孔段包括6米18克/吨和19米约4.5克/吨，早期冶金试验最高金回收率为98.4%；本轮工作将扩展矿化并推进首个JORC资源量。",
+      "detail": "访谈页面和自动字幕显示，配售由Ronan Metals领投，钻探目标包括矿化带沿走向和倾向延伸，以及约200米以南的地球物理异常。管理层把多百万盎司潜力作为勘探判断，尚未形成资源量、储量或生产指引；后续还包括第二阶段冶金和采矿许可工作。",
+      "importance": "约180万澳元融资把Mt Solitary从早期钻探推进到资源转换阶段，6米18克/吨和98.4%回收率为后续技术评价提供了可核对锚点。第三阶段钻孔、冶金和首个JORC资源量将在未来数月验证规模与连续性，但管理层所称多百万盎司仍是勘探潜力，不能计入可交付供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Mount Hope Mining"
+      ],
+      "projects": [
+        "Mt Solitary",
+        "MS2 corridor"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "source": "MINING.COM / Bloomberg News",
+      "language": "en",
+      "title": "Codelco接近与Pucobre就Tovaku铜项目达成协议",
+      "url": "https://www.mining.com/web/codelco-nears-pucobre-deal-as-new-leadership-pushes-partnerships-asset-review/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "excerpt": "Codelco董事长称，公司接近与Pucobre就智利北部Tovaku氧化铜项目签署协议。Pucobre可选择取得60%矿权，Codelco保留40%；项目预计投资8.7亿美元、年产约46,000吨阴极铜，行业估计2035年启动。",
+      "interpretation": "Tovaku仍处于环境审查阶段，60%选择权和合资安排还要满足投资、技术及环境条件。46,000吨/年是项目估计，2035年启动为行业判断，不能视为Codelco近期产量恢复；项目价值在于外部资本和技术可能降低大型投资组合的融资约束。",
+      "importance": "Tovaku把Codelco与私人矿企合作的供给管线落到8.7亿美元、年产4.6万吨阴极铜的具体项目，2035年启动预期提供了长期时间锚。环境审查、股权条件和融资仍未完成，短期无法弥补Codelco 2026年1.34百万吨目标面临的运营压力，需跟踪协议签署与许可进度。",
+      "verification_status": "verified",
+      "companies": [
+        "Codelco",
+        "Pucobre"
+      ],
+      "projects": [
+        "Tovaku"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；普通HTTP请求返回403，改用同一Playwright会话打开正文，核对Bloomberg署名、8月17日日期、矿权比例、投资额、产量估计和环境审查状态。"
+    },
+    {
+      "source": "MINING.COM / Reuters",
+      "language": "en",
+      "title": "Mitsui Kinzoku将在马来西亚建设新的铜箔工厂以应对AI需求",
+      "url": "https://www.mining.com/web/mitsui-kinzoku-to-build-new-malaysia-copper-foil-plant-eyes-ai-driven-demand-growth/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "excerpt": "Mitsui Kinzoku计划在马来西亚建设新厂，预计2031年投产，月产能包括1,200吨VSP铜箔和400万平方米MicroThin铜箔；到2033财年，公司总月产能目标为2,600吨VSP铜箔和1,200万平方米MicroThin铜箔。",
+      "interpretation": "VSP用于服务器、路由器和交换机高频电路板，MicroThin用于半导体封装基板、光模块和手机主板。该计划反映AI服务器、数据中心和存储器应用的铜箔需求路径，但投资额尚未确定，产能目标也不是已经实现的铜消费量。",
+      "importance": "2031年新增1,200吨/月VSP和400万平方米/月MicroThin产能，把AI基础设施需求传导到铜箔这一具体中游环节，并将总产能节点推向2033财年。投资方案尚未定案，实际铜用量取决于产品良率、客户认证和AI设备建设节奏，短期需求影响有限、长期方向偏强。",
+      "verification_status": "verified",
+      "companies": [
+        "Mitsui Kinzoku"
+      ],
+      "projects": [
+        "Mitsui Copper Foil Malaysia"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；普通HTTP请求返回403，改用同一Playwright会话打开Reuters文章，核对标题、8月17日日期、2031年投产和两类铜箔产能。"
+    },
+    {
+      "source": "MINING.COM",
+      "language": "en",
+      "title": "韩国以10亿美元贷款换取Glencore铜供应",
+      "url": "https://www.mining.com/korea-taps-glencore-for-copper-supply-with-1b-loan-deal/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "excerpt": "韩国进出口银行将向Glencore International AG提供10亿美元贷款，条件包括在贷款期内向韩国企业供应铜；报道未披露供应量和其他条款。韩国将AI基础设施、电网和可再生能源设备视为铜需求增长领域。",
+      "interpretation": "这是国家支持的融资换实物供应安排，强化韩国制造业获得铜的确定性，未直接增加矿山产能。由于数量、期限和交付条款未公开，不能把10亿美元换算成铜吨数；其新增信息在于贸易流和可交付库存可能被长期锁定。",
+      "importance": "韩国把10亿美元政策性融资与Glencore实物铜供应绑定，显示AI和电力投资正在把现货保障提升为产业政策目标。供应量未公布，短期难以量化全球缺口变化，但若类似协议扩散，可能减少市场可自由调配的铜并提高区域溢价，需跟踪贷款期限和实际交付。",
+      "verification_status": "verified",
+      "companies": [
+        "Glencore",
+        "Korea Eximbank"
+      ],
+      "projects": [],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；普通HTTP请求返回403，改用同一Playwright会话打开正文，核对8月17日日期、贷款主体、10亿美元金额、供应安排及未披露数量的限制。"
+    },
+    {
+      "source": "上海有色网 / 华尔街见闻",
+      "language": "zh",
+      "title": "杰富瑞称主要矿商二季度产量同比下降3.9%，2026年铜市场或缺口44.2万吨",
+      "url": "https://news.smm.cn/news/104063862",
+      "publish_time": "2026-08-17T19:18:00+08:00",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "excerpt": "上海有色网转载华尔街见闻称，杰富瑞覆盖的主要矿商约占全球矿山铜供应量55%，其2026年第二季度合计产量311.3万吨，同比下降3.9%；模型预计2026年需求2,818.4万吨、供应2,774.2万吨，缺口44.2万吨，2030年缺口或达78.2万吨。",
+      "interpretation": "文章把Freeport-McMoRan、Ivanhoe Mines、Antofagasta、BHP和Newmont的运营中断、品位下降或执行问题列为减产原因，同时指出Zijin和Teck增产不足以抵消缺口。44.2万吨和78.2万吨是杰富瑞模型估计，不是交易所库存或官方平衡表实际值；文章还将美国库存分流与LME现货升水联系起来。",
+      "importance": "二季度311.3万吨产量同比减少3.9%使铜供应风险从单一事故扩展为头部矿商的共同执行问题，2026年44.2万吨模型缺口给短期偏紧提供了规模锚点。模型同时假设电网和电动车需求延续增长，后续应核对主要矿山下半年复产、品位和项目爬坡，不能把预测缺口当成已实现短缺。",
+      "verification_status": "verified",
+      "companies": [
+        "Freeport-McMoRan",
+        "Ivanhoe Mines",
+        "Antofagasta",
+        "BHP",
+        "Newmont",
+        "Zijin Mining",
+        "Teck Resources"
+      ],
+      "projects": [
+        "Kamoa-Kakula"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "source": "MINING.COM",
+      "language": "en",
+      "title": "Equinox Gold获得South Railroad联邦许可并启动前期工程",
+      "url": "https://www.mining.com/equinox-gold-gains-key-federal-permit-for-south-railroad-kicks-off-early-works/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "Equinox Gold称美国土地管理局对内华达South Railroad项目作出有利的Record of Decision，完成国家环境政策法联邦许可阶段；项目已启动前期工程，计划2027年春季开始采矿、2028年首产。可研预计前五年年均产金130,000盎司，初始资本为3.95亿美元。",
+      "interpretation": "联邦环境许可降低了项目的主要审批障碍，但州许可、水权、施工和设备进场仍是前置条件。130,000盎司/年是可研方案，约104,000盎司/年的十年期平均值同样不是生产指引；储量和银副产物不能提前计入现货供应。",
+      "importance": "South Railroad从联邦审查进入前期施工，2027年春季采矿和2028年首产把约13万盎司/年的黄金增量转化为明确执行路径。许可完成只解决一项关键约束，3.95亿美元资本、州水权和工程完成度决定该中期供给是否能按计划兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Equinox Gold"
+      ],
+      "projects": [
+        "South Railroad"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "黄金分类页Playwright辅助路径发现候选；普通HTTP请求返回403，改用同一Playwright会话打开正文，核对作者、8月17日日期、BLM Record of Decision、前期工程和2028年首产计划。"
+    },
+    {
+      "source": "MINING.COM",
+      "language": "en",
+      "title": "OceanaGold以约5.53亿美元收购Ausgold并取得Katanning项目",
+      "url": "https://www.mining.com/oceanagold-expands-to-australia-with-553m-ausgold-buy/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "OceanaGold拟以7.76亿澳元、约5.53亿美元收购Ausgold，取得西澳Katanning金矿项目；2025年12月可研提出年处理360万吨、年产逾100,000盎司、矿山寿命超过10年，储量125万盎司，目标2029年首产。交易预计12月完成，仍需股东及监管批准。",
+      "interpretation": "Katanning已有采矿租约和较完整的环境审查基础，但可研产量、3.55亿澳元初始资本和2029年时间表仍属于开发方案。收购把项目纳入生产商管线，新增的是中期开发选择权，不能将125万盎司储量直接视为未来年度产量。",
+      "importance": "Katanning把OceanaGold的外部增长从资产寻找推进到约7.76亿澳元的具体交易，并以2029年、年产逾10万盎司提供中期供给节点。交易交割、2027年前后追加钻探、2028年技术报告和3.55亿澳元建设资本仍需兑现，短期供给不会因收购立即增加。",
+      "verification_status": "verified",
+      "companies": [
+        "OceanaGold",
+        "Ausgold"
+      ],
+      "projects": [
+        "Katanning"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "铜分类页Playwright主路径的报告日候选包含该金矿文章，黄金分类页也提取到；普通HTTP请求返回403，改用同一Playwright会话打开正文，核对收购金额、可研产量、储量、资本和2029年时间表。"
+    },
+    {
+      "source": "MINING.COM",
+      "language": "en",
+      "title": "AngloGold Ashanti以4,200万美元加码Thesis并推进Lawyers-Ranch",
+      "url": "https://www.mining.com/anglogold-ashanti-in-42m-deal-to-double-thesis-stake/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "excerpt": "AngloGold Ashanti拟投资4,200万美元，将其在Thesis Gold & Silver的持股从约5%提高至9.7%；资金将支持Lawyers-Ranch的勘探、技术研究和可行性研究。2025年预可研给出15年矿山寿命、约330万盎司金和9,790万盎司银的测量及指示资源含量，初始资本估计7.362亿美元。",
+      "interpretation": "该交易改善开发商在2027年可研前的资金可见度，但资源量和预可研经济性仍不是储量或获批生产计划。环境评估始于2025年底，省级决定预计2029年；金银标签均有实质项目关联，主金属按项目核心开发和来源口径确定。",
+      "importance": "4,200万美元战略资金把Lawyers-Ranch的勘探和技术研究推进到2027年可研验证阶段，并提高了一个含金银项目的融资确定性。项目仍需7.362亿美元初始资本、环境评估和后续建设，2029年许可节点意味着对金银供给的影响偏长期，短期不能计入增量。",
+      "verification_status": "verified",
+      "companies": [
+        "AngloGold Ashanti",
+        "Thesis Gold & Silver"
+      ],
+      "projects": [
+        "Lawyers-Ranch"
+      ],
+      "source_channel": "playwright",
+      "mining_com_source_note": "黄金分类页Playwright辅助路径发现候选；普通HTTP请求返回403，改用同一Playwright会话打开正文，核对8月17日日期、投资金额、持股变化、资源口径、可研时间和环境评估节点。"
+    },
+    {
+      "source": "The Deep Dive",
+      "language": "en",
+      "title": "Endeavour Silver因邻近社区封锁暂停Terronera运营",
+      "url": "https://thedeepdive.ca/endeavour-silver-suspends-terronera-operations-amid-illegal-blockade/",
+      "publish_time": "2026-08-17",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "excerpt": "Endeavour Silver表示，邻近Ejido社区设置封锁后，Terronera矿自8月12日起暂停运营；公司称封锁和平有序，现场人员已减少并与社区领导协商。Terronera二季度处理175,729吨、产银582,043盎司，2026年指引为产银240万至260万盎司、产金35,000至36,000盎司。",
+      "interpretation": "封锁发生在Terronera仍处于爬坡期，且公司原计划在下半年转向更高品位矿脉。公司尚未量化影响或调整指引，因此目前只能确认生产中断和恢复风险，不能把全年指引缺口当成已实现减产。",
+      "importance": "Terronera停运已持续至少五天，直接打断一座仍在爬坡且承担公司2026年较大增量的银矿，影响机制从社区通行扩展到下半年高品位矿脉切换。二季度58.2万盎司产银显示资产规模，全年影响取决于协商复工速度；在公司未修订指引前，缺口仍需后续公告验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Endeavour Silver"
+      ],
+      "projects": [
+        "Terronera"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-15至2026-08-17北京时间72小时窗口检查种子人物、公司IR、webcast、Podcast、YouTube、Mining Stock Daily、The Deep Dive及conference_calendar中的会议入口。",
+      "Mining Stock Daily 2026-08-17晨间简报页面可打开，核对DPM Vareš商业生产、吞吐率、回收率和年末目标；同页的OceanaGold、Equinox及铜紧张内容与Part 3候选交叉比对，未在本广播卡重复展示。",
+      "YouTube按gold/silver/copper mining interview、CEO、after:2026-08-14 before:2026-08-18检索；直接打开候选视频页，核对视频标题、上传时间、作者和自动字幕。Asante、Mako、Highlander、Mount Hope的字幕可下载并逐项复核；只使用字幕和页面描述能支持的事实。",
+      "Highlander视频上传时间为2026-08-16美国太平洋时间，换算为北京时间2026-08-17；Mako视频上传时间为2026-08-14美国太平洋时间，换算为北京时间2026-08-15；其他入选视频按同一规则换算。",
+      "排除Mining Americas、Nine Mile和Cerrado等视频，原因是上传时间换算后超出报告窗口；Brixton视频在前日报已收录或超出本窗口，Harfang、Questcorp、Critical Metals、价格和宏观节目不重复纳入。",
+      "PDAC、Denver Gold Forum、Precious Metals Summit、Diggers & Dealers、Northern Miner等会议入口已检查；窗口内没有新的可核验目标访谈。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、Podcast、Webcast、YouTube、公司演示和会议回放检索；纳入5条（白银2、黄金3，其中Mako同时涉及白银副产品），均有可打开页面和字幕或页面文字核验。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、C:/Program Files/Google/Chrome/Application/chrome.exe和项目.browser_profile/chromium-data持久会话运行scripts/x_search.py --check-login --headless，认证通过。",
+      "运行scripts/x_search.py 2026-08-17 --headless，检查34个个人账号和18个官方账号；采集状态complete、失败账号0、日期匹配原作者帖子5条，原始材料保存至x_outputs/2026-08-17_x_raw_materials.txt。",
+      "5条原帖逐条核对作者、handle、正文、北京时间和原帖URL；Katusa为铀，Lobo Tiggre为铀或缺少实体金银铜事实，TheDailyGold为黄金周期评论，Brien Lundin为会议宣传，均不满足金银铜供需纳入条件。未使用搜索摘要、截图或转发替代原帖。"
+    ],
+    "part2_result": "Part 2认证和完整采集均通过，发现5条窗口内原作者帖子、纳入0条；空数组代表完整检索后的无合格帖子。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页强制主路径使用C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe、Chromium headless、Chrome 131 UA、--disable-blink-features=AutomationControlled、--no-sandbox及DOM日期提取；HTTP 200，页面标题Copper Archives - MINING.COM，报告日DOM候选10篇。",
+      "Mining.com黄金分类页辅助Playwright路径HTTP 200，页面标题Gold Archives - MINING.COM，DOM候选10条；白银分类页HTTP 200，页面标题Silver Archives - MINING.COM，DOM候选12条，包含跨分类页重复链接。",
+      "Google site:mining.com gold August 17 2026和site:mining.com silver August 17 2026均执行，HTTP 200但仅返回搜索支持页、没有可用的报告日Mining.com命中；未使用搜索摘要作为证据。铜分类页主路径成功，未用site搜索替代铜分类页。",
+      "普通HTTP打开Codelco、Mitsui、Korea-Glencore、Equinox、OceanaGold和AngloGold文章均返回403；使用同一Playwright会话逐篇打开并提取正文，核对标题、主体、8月17日日期和核心数字，正文材料保存至x_outputs/2026-08-17_mining_articles_playwright.json。",
+      "直接打开上海有色网2026-08-17 19:18页面https://news.smm.cn/news/104063862，核对华尔街见闻来源、杰富瑞主要矿商产量、2026年供需模型及文章日期；作为中文来源保留。",
+      "直接打开The Deep Dive的Endeavour Silver页面，核对8月17日日期、8月12日起封锁、二季度处理量和产量、全年指引及公司尚未量化影响的限制。",
+      "Mining.com中US seabed mining、Simandou铁矿、金价图表和赞助早期项目按非目标金属、纯价格、窗口外或证据等级及重复规则排除；未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-17全天中英文新闻检索、Mining.com铜分类页强制主路径、金银辅助路径、Google site辅助查询、SMM中文来源检查和逐篇URL核验；纳入8条供需信号（铜4、黄金3、白银1，其中部分信号含副产金银）。",
+    "mining_com_source_note": "铜分类页Playwright主路径成功，HTTP 200并提取10篇报告日候选；黄金和白银辅助Playwright页HTTP 200，DOM候选分别为10和12条。6篇入选Mining.com文章均在普通HTTP 403后通过同一Playwright会话核验；没有使用搜索摘要、sitemap、Wayback Machine或RSS feed。",
+    "url_verification": {
+      "checked": 14,
+      "passed": 14,
+      "failed": 0,
+      "failures": [],
+      "notes": "核验5条Part 1节目/视频、8条Part 3新闻及1条SMM中文文章；视频使用页面元数据和自动字幕，Mining.com文章使用同一Playwright会话，所有入选卡标记verified。"
+    },
+    "new_sources_discovered": [
+      "https://www.miningstockdaily.com/",
+      "https://thedeepdive.ca/",
+      "https://news.smm.cn/",
+      "https://www.cruxinvestor.com/",
+      "https://www.kereport.com/",
+      "https://goldfingercap.com/",
+      "https://stockhead.com.au/"
+    ]
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "5条候选中，Katusa和Lobo Tiggre帖子涉及铀，TheDailyGold为黄金价格周期评论，Brien Lundin为会议宣传，均无可归因的新增实体金银铜供需事实。"
+    ],
+    "part3_deduped_events": [
+      "SMM中文文章与Mining.com铜紧张文章均涉及美国库存分流、LME现货升水和短期供应收紧；保留SMM文章，因为其增加了杰富瑞主要矿商二季度产量及2026年供需模型，未重复保留纯市场价格叙述。",
+      "OceanaGold收购Ausgold和Equinox South Railroad许可同时出现在Mining Stock Daily晨间简报与Part 3新闻来源；广播卡只保留DPM Vareš商业生产，两个事件分别在Part 3保留一次。",
+      "Mining.com铜、金、银分类页和MORE NEWS区域重复出现同一篇文章，每个事件只保留一张卡；US seabed mining、Simandou铁矿、金价图表及窗口外候选排除。",
+      "PTX Metals和Selkirk Copper的The Deep Dive赞助稿件虽有供给管线信息，但为早期技术或物流研究，且存在赞助披露；本次保留更直接的生产中断、许可、融资和实际矿山数据。"
+    ],
+    "notes": "所有新信号均填写唯一primary_metal且该值出现在metal_tags中；实际产量、公司指引、资源量、可研方案、管理层愿景、模型估计和勘探潜力均按来源口径区分，未把项目目标或预测缺口写成已实现供给。"
+  }
+}

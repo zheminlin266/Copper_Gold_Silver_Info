@@ -1,0 +1,56 @@
+X 原始候选 — 2026-08-17
+采集时间: 2026-08-18T07:03:44.741163+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 5 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-17T00:26:50+00:00
+    北京: 2026-08-17T08:26:50+08:00
+    文本: Uranium miners ran hard into January, then gave most of it back.
+
+Since the Jan. 2026 peak:
+
+Sprott Uranium Miners ETF: -28%
+Uranium spot: -12%
+
+Underneath the selloff, the contract market kept strengthening.
+
+Cameco reported that long-term pricing rose again in the first
+    链接: https://x.com/KatusaResearch/status/2089146903342567825
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-16T23:01:59+00:00
+    北京: 2026-08-17T07:01:59+08:00
+    文本: I've been saying that with spot trailing LTC, we should see a notable rebound soon.
+
+As for a major breakout, I have no idea. We may never get one; it may just grind higher, year after year (which would be healthier for the business of mining the stuff).
+    链接: https://x.com/duediligenceguy/status/2089125549192958233
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-16T17:33:32+00:00
+    北京: 2026-08-17T01:33:32+08:00
+    文本: How does that price the growing demand in?
+
+Show me the math...
+    链接: https://x.com/duediligenceguy/status/2089042889661669861
+
+[4] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-16T18:25:06+00:00
+    北京: 2026-08-17T02:25:06+08:00
+    文本: Good work but data mining. There was only one "cycle low" in the 1970s (when Bonds were in a secular bear as they are now) and Gold was extremely overbought most of the decade. It was above your threshold at 72, 73, and 74 peaks. This isnt 1975 yet.
+    链接: https://x.com/TheDailyGold/status/2089055869342462279
+
+[5] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-17T14:27:46+00:00
+    北京: 2026-08-17T22:27:46+08:00
+    文本: The investing event of the year. With metals and mining rallying...and everything else going on in the world...can you afford to miss this?
+    链接: https://x.com/Brien_Lundin/status/2089358527722664002
