@@ -1,0 +1,452 @@
+"""Validate an analysis bundle and atomically create one daily report.
+
+This is intentionally the only module that writes ``data/YYYY-MM-DD.json``.
+It accepts analysis output, never performs collection, and never calls an AI or
+browser service.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import os
+import tempfile
+from datetime import date, datetime, time, timedelta, timezone
+from pathlib import Path
+from typing import Any, Mapping
+
+try:
+    from scripts.pipeline_contracts import (
+        ContractError,
+        DIRECTIONS,
+        KINDS,
+        METALS,
+        EvidenceClaim,
+        validate_confidence,
+        validate_date,
+        validate_date_or_datetime,
+        validate_datetime,
+        validate_direction,
+        validate_metal,
+        validate_url,
+    )
+except ModuleNotFoundError:
+    from pipeline_contracts import (  # type: ignore[no-redef]
+        ContractError,
+        DIRECTIONS,
+        KINDS,
+        METALS,
+        EvidenceClaim,
+        validate_confidence,
+        validate_date,
+        validate_date_or_datetime,
+        validate_datetime,
+        validate_direction,
+        validate_metal,
+        validate_url,
+    )
+
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_DATA_DIR = PROJECT_ROOT / "data"
+TZ_BEIJING = timezone(timedelta(hours=8))
+SOURCE_TYPES = frozenset({
+    "podcast", "webcast", "youtube", "conference_interview", "panel", "keynote",
+    "company_presentation",
+})
+LANGUAGES = frozenset({"en", "zh"})
+PART2_CHANNELS = frozenset({"browser_use", "rss_fallback", "playwright", "failed"})
+PART3_CHANNELS = frozenset({"web", "playwright"})
+
+
+class ReportBuilderError(ContractError):
+    """Raised when an analysis bundle cannot produce a safe report."""
+
+
+def calculate_windows(report_date: str) -> dict[str, dict[str, str]]:
+    """Return the three inclusive Beijing calendar-day windows."""
+    report = date.fromisoformat(validate_date(report_date, "report_date"))
+
+    def iso(day: date, end: bool) -> str:
+        return datetime.combine(day, time(23, 59, 59) if end else time.min, TZ_BEIJING).isoformat()
+
+    return {
+        "part1": {"start": iso(report - timedelta(days=2), False), "end": iso(report, True)},
+        "part2": {"start": iso(report, False), "end": iso(report, True)},
+        "part3": {"start": iso(report, False), "end": iso(report, True)},
+    }
+
+
+def _is_mapping(value: Any, name: str) -> Mapping[str, Any]:
+    if not isinstance(value, Mapping):
+        raise ReportBuilderError(f"{name} must be an object")
+    return value
+
+
+def _nonempty(value: Any, field_name: str) -> str:
+    if not isinstance(value, str) or not value.strip():
+        raise ReportBuilderError(f"{field_name} must be non-empty")
+    return value
+
+
+def _optional_text(value: Any, field_name: str) -> str | None:
+    if value is None:
+        return None
+    return _nonempty(value, field_name)
+
+
+def _reject_unknown(data: Mapping[str, Any], allowed: set[str], name: str) -> None:
+    unknown = set(data) - allowed
+    if unknown:
+        raise ReportBuilderError(f"{name} has unsupported field(s): {', '.join(sorted(unknown))}")
+
+
+CANDIDATE_FIELDS = {
+    "id", "candidate_id", "document_id", "source_url", "url", "title", "text", "raw_text",
+    "published_at", "publish_time", "publish_date", "collector", "kind", "source", "author",
+    "handle", "metal", "metal_tags", "direction", "supply_demand", "language", "source_type",
+    "source_channel", "excerpt", "summary", "detail", "interpretation", "importance", "claims",
+    "guest", "companies", "projects", "verification_status", "verification_note",
+    "mining_com_source_note", "duplicate_of", "raw",
+}
+DECISION_FIELDS = {
+    "candidate_id", "accepted", "decision", "kind", "metal", "primary_metal", "metal_tags",
+    "direction", "supply_demand", "confidence", "reason", "claims", "title", "summary", "detail",
+    "excerpt", "interpretation", "importance", "author", "handle", "source", "url", "source_url",
+    "publish_date", "publish_time", "language", "source_type", "source_channel", "guest", "companies",
+    "projects", "verification_status", "verification_note", "mining_com_source_note", "duplicate_of",
+}
+SEARCH_LOG_FIELDS = {
+    "part1_searched", "part1_sources_checked", "part1_result", "part2_searched", "part2_channel",
+    "part2_sources_checked", "part2_result", "part3_searched", "part3_sources_checked", "part3_result",
+    "mining_com_source_note", "image_source", "new_sources_discovered", "url_verification",
+}
+DEDUP_LOG_FIELDS = {"part1_deduped_urls", "part2_deduped_urls", "part3_deduped_events", "notes"}
+BUNDLE_FIELDS = {"report_date", "summary", "candidates", "decisions", "search_log", "dedup_log"}
+
+
+def _record_id(record: Mapping[str, Any], name: str) -> str:
+    value = record.get("id")
+    alternate = record.get("candidate_id")
+    if value is None:
+        value = alternate
+    elif alternate is not None and value != alternate:
+        raise ReportBuilderError(f"{name} has conflicting id and candidate_id")
+    return _nonempty(value, f"{name}.id")
+
+
+def _candidate_url(candidate: Mapping[str, Any]) -> str:
+    value = candidate.get("source_url", candidate.get("url"))
+    return validate_url(value, "candidate.source_url")
+
+
+def _candidate_date(candidate: Mapping[str, Any]) -> str | None:
+    value = candidate.get("published_at")
+    if value is None:
+        value = candidate.get("publish_time", candidate.get("publish_date"))
+    return validate_date_or_datetime(value, "candidate.published_at") if value is not None else None
+
+
+def _field(decision: Mapping[str, Any], candidate: Mapping[str, Any], *names: str, default: Any = None) -> Any:
+    for name in names:
+        if name in decision and decision[name] is not None:
+            return decision[name]
+        if name in candidate and candidate[name] is not None:
+            return candidate[name]
+    return default
+
+
+def _copy_optional(output: dict[str, Any], decision: Mapping[str, Any], candidate: Mapping[str, Any], key: str, *aliases: str) -> None:
+    value = _field(decision, candidate, key, *aliases)
+    if value is not None:
+        output[key] = value
+
+
+def _validate_claims(value: Any, candidate_id: str) -> list[dict[str, Any]]:
+    if not isinstance(value, list) or not value:
+        raise ReportBuilderError(f"decision {candidate_id} must include at least one evidence claim")
+    claims = []
+    for index, claim in enumerate(value):
+        try:
+            parsed = claim if isinstance(claim, EvidenceClaim) else EvidenceClaim.from_dict(claim)
+        except (ContractError, TypeError) as error:
+            raise ReportBuilderError(f"invalid evidence claim for {candidate_id}[{index}]: {error}") from error
+        claims.append(parsed.to_dict())
+    return claims
+
+
+def _validate_search_log(value: Any) -> dict[str, Any]:
+    data = dict(_is_mapping(value, "search_log"))
+    _reject_unknown(data, SEARCH_LOG_FIELDS, "search_log")
+    if "part1_searched" in data and type(data["part1_searched"]) is not bool:
+        raise ReportBuilderError("search_log.part1_searched must be boolean")
+    if "part2_searched" in data and type(data["part2_searched"]) is not bool:
+        raise ReportBuilderError("search_log.part2_searched must be boolean")
+    if "part3_searched" in data and type(data["part3_searched"]) is not bool:
+        raise ReportBuilderError("search_log.part3_searched must be boolean")
+    if data.get("part2_channel") is not None and data["part2_channel"] not in PART2_CHANNELS:
+        raise ReportBuilderError("search_log.part2_channel is unsupported")
+    data.setdefault("part1_searched", False)
+    data.setdefault("part2_searched", False)
+    data.setdefault("part3_sources_checked", [])
+    if not isinstance(data["part3_sources_checked"], list):
+        raise ReportBuilderError("search_log.part3_sources_checked must be a list")
+    return data
+
+
+def _validate_dedup_log(value: Any) -> dict[str, Any]:
+    data = dict(_is_mapping(value, "dedup_log"))
+    _reject_unknown(data, DEDUP_LOG_FIELDS, "dedup_log")
+    data.setdefault("part1_deduped_urls", [])
+    data.setdefault("part3_deduped_events", [])
+    for key in ("part1_deduped_urls", "part2_deduped_urls", "part3_deduped_events"):
+        if key in data and not isinstance(data[key], list):
+            raise ReportBuilderError(f"dedup_log.{key} must be a list")
+    return data
+
+
+def _validate_candidate(data: Any, index: int) -> dict[str, Any]:
+    candidate = dict(_is_mapping(data, f"candidates[{index}]"))
+    _reject_unknown(candidate, CANDIDATE_FIELDS, f"candidates[{index}]")
+    candidate["id"] = _record_id(candidate, f"candidates[{index}]")
+    candidate["source_url"] = _candidate_url(candidate)
+    candidate["title"] = _nonempty(candidate.get("title"), f"candidates[{index}].title")
+    _candidate_date(candidate)
+    if candidate.get("kind") is not None and candidate["kind"] not in KINDS:
+        raise ReportBuilderError(f"candidates[{index}].kind is unsupported")
+    if candidate.get("metal") is not None:
+        validate_metal(candidate["metal"], f"candidates[{index}].metal")
+    if candidate.get("direction") is not None:
+        validate_direction(candidate["direction"], f"candidates[{index}].direction")
+    return candidate
+
+
+def _validate_decision(data: Any, index: int) -> dict[str, Any]:
+    decision = dict(_is_mapping(data, f"decisions[{index}]"))
+    _reject_unknown(decision, DECISION_FIELDS, f"decisions[{index}]")
+    candidate_id = _nonempty(decision.get("candidate_id"), f"decisions[{index}].candidate_id")
+    decision["candidate_id"] = candidate_id
+    raw_decision = decision.get("decision")
+    accepted = decision.get("accepted")
+    if raw_decision is not None:
+        if raw_decision not in {"accept", "accepted", "reject", "rejected"}:
+            raise ReportBuilderError(f"decisions[{index}].decision is unsupported")
+        is_accept = raw_decision in {"accept", "accepted"}
+    elif type(accepted) is bool:
+        is_accept = accepted
+    else:
+        raise ReportBuilderError(f"decisions[{index}] must include decision or accepted")
+    if accepted is not None and type(accepted) is not bool:
+        raise ReportBuilderError(f"decisions[{index}].accepted must be boolean")
+    if not is_accept:
+        raise ReportBuilderError(f"decisions[{index}] rejects candidate {candidate_id}; final reports accept only explicit signals")
+    decision["decision"] = "accept"
+    decision["accepted"] = True
+    kind = decision.get("kind")
+    if kind not in KINDS:
+        raise ReportBuilderError(f"decisions[{index}].kind is unsupported or missing")
+    metal = decision.get("metal", decision.get("primary_metal"))
+    decision["metal"] = validate_metal(metal, f"decisions[{index}].metal")
+    direction = decision.get("direction", decision.get("supply_demand"))
+    decision["direction"] = validate_direction(direction, f"decisions[{index}].direction")
+    if "confidence" not in decision:
+        raise ReportBuilderError(f"decisions[{index}].confidence is required")
+    decision["confidence"] = validate_confidence(decision["confidence"], f"decisions[{index}].confidence")
+    decision["claims"] = _validate_claims(decision.get("claims"), candidate_id)
+    return decision
+
+
+def _base_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], index: int) -> dict[str, Any]:
+    kind = decision["kind"]
+    url = validate_url(_field(decision, candidate, "url", "source_url"), f"decisions[{index}].url")
+    metal = decision["metal"]
+    tags = decision.get("metal_tags", candidate.get("metal_tags", [metal]))
+    if not isinstance(tags, list) or not tags:
+        raise ReportBuilderError(f"decisions[{index}].metal_tags must be a non-empty list")
+    normalized_tags = []
+    for tag in tags:
+        normalized_tags.append(validate_metal(tag, f"decisions[{index}].metal_tags"))
+    if metal not in normalized_tags:
+        raise ReportBuilderError(f"decisions[{index}].metal must appear in metal_tags")
+    published = _field(decision, candidate, "publish_date", "publish_time", "published_at")
+    if published is None:
+        raise ReportBuilderError(f"decisions[{index}] is missing publish date/time")
+    published = validate_date_or_datetime(published, f"decisions[{index}].publish_time")
+    result = {
+        "url": url,
+        "metal_tags": normalized_tags,
+        "primary_metal": metal,
+        "supply_demand": decision["direction"],
+        "claims": decision["claims"],
+    }
+    if kind == "broadcast":
+        if len(published) != 10:
+            raise ReportBuilderError(f"decisions[{index}] broadcast publish_date must be a date")
+        result["publish_date"] = validate_date(published, f"decisions[{index}].publish_date")
+    else:
+        result["publish_time"] = published
+    return result
+
+
+def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], index: int) -> dict[str, Any]:
+    result = _base_signal(decision, candidate, index)
+    kind = decision["kind"]
+    if kind == "broadcast":
+        result["title"] = _nonempty(_field(decision, candidate, "title"), f"decisions[{index}].title")
+        result["source_type"] = _field(decision, candidate, "source_type")
+        if result["source_type"] not in SOURCE_TYPES:
+            raise ReportBuilderError(f"decisions[{index}].source_type is unsupported or missing")
+        result["summary"] = _nonempty(_field(decision, candidate, "summary"), f"decisions[{index}].summary")
+        for key in ("detail", "importance", "verification_status", "verification_note", "guest", "companies", "projects"):
+            _copy_optional(result, decision, candidate, key)
+    elif kind == "x":
+        result["author"] = _nonempty(_field(decision, candidate, "author"), f"decisions[{index}].author")
+        result["handle"] = _nonempty(_field(decision, candidate, "handle"), f"decisions[{index}].handle")
+        body = _field(decision, candidate, "excerpt", "interpretation")
+        if body is None:
+            raise ReportBuilderError(f"decisions[{index}] needs a non-empty excerpt or interpretation")
+        result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
+        for key in ("interpretation", "importance", "verification_status", "verification_note", "source_channel"):
+            _copy_optional(result, decision, candidate, key)
+        if result.get("source_channel") is not None and result["source_channel"] not in PART2_CHANNELS - {"failed"}:
+            raise ReportBuilderError(f"decisions[{index}].source_channel is unsupported")
+    else:
+        result["source"] = _nonempty(_field(decision, candidate, "source"), f"decisions[{index}].source")
+        result["title"] = _nonempty(_field(decision, candidate, "title"), f"decisions[{index}].title")
+        body = _field(decision, candidate, "excerpt", "interpretation")
+        if body is None:
+            raise ReportBuilderError(f"decisions[{index}] needs a non-empty excerpt or interpretation")
+        result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
+        language = _field(decision, candidate, "language")
+        if language not in LANGUAGES:
+            raise ReportBuilderError(f"decisions[{index}].language is unsupported or missing")
+        result["language"] = language
+        for key in ("interpretation", "importance", "verification_status", "verification_note", "duplicate_of", "companies", "projects", "mining_com_source_note", "source_channel"):
+            _copy_optional(result, decision, candidate, key)
+        if result.get("source_channel") is not None and result["source_channel"] not in PART3_CHANNELS:
+            raise ReportBuilderError(f"decisions[{index}].source_channel is unsupported")
+    if result.get("verification_status") is None:
+        result["verification_status"] = "unverified"
+    elif result["verification_status"] not in {"verified", "unverified"}:
+        raise ReportBuilderError(f"decisions[{index}].verification_status is unsupported")
+    return result
+
+
+def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None) -> dict[str, Any]:
+    """Validate and project a bundle into the published report schema."""
+    data = dict(_is_mapping(bundle, "analysis bundle"))
+    _reject_unknown(data, BUNDLE_FIELDS, "analysis bundle")
+    report_date = validate_date(data.get("report_date"), "report_date")
+    summary = _nonempty(data.get("summary"), "summary")
+    if len(summary) > 300:
+        raise ReportBuilderError("summary must be at most 300 characters")
+    raw_candidates = data.get("candidates")
+    raw_decisions = data.get("decisions")
+    if not isinstance(raw_candidates, list) or not isinstance(raw_decisions, list):
+        raise ReportBuilderError("candidates and decisions must be lists")
+    try:
+        candidates = [_validate_candidate(item, index) for index, item in enumerate(raw_candidates)]
+        decisions = [_validate_decision(item, index) for index, item in enumerate(raw_decisions)]
+    except ReportBuilderError:
+        raise
+    except ContractError as error:
+        raise ReportBuilderError(str(error)) from error
+    candidate_map: dict[str, dict[str, Any]] = {}
+    for candidate in candidates:
+        if candidate["id"] in candidate_map:
+            raise ReportBuilderError(f"duplicate candidate id: {candidate['id']}")
+        candidate_map[candidate["id"]] = candidate
+    decision_ids = [item["candidate_id"] for item in decisions]
+    if len(set(decision_ids)) != len(decision_ids):
+        raise ReportBuilderError("duplicate decision candidate_id")
+    if set(decision_ids) != set(candidate_map):
+        missing = sorted(set(candidate_map) - set(decision_ids))
+        extra = sorted(set(decision_ids) - set(candidate_map))
+        detail = []
+        if missing:
+            detail.append("missing decisions for " + ", ".join(missing))
+        if extra:
+            detail.append("unknown candidates " + ", ".join(extra))
+        raise ReportBuilderError("analysis records would be silently dropped: " + "; ".join(detail))
+    projected = [_project_signal(decision, candidate_map[decision["candidate_id"]], index) for index, decision in enumerate(decisions)]
+    output = {
+        "schema_version": 3,
+        "date": report_date,
+        "report_time": validate_datetime(report_time or datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat(), "report_time"),
+        "summary": summary,
+        "windows": calculate_windows(report_date),
+        "part1_broadcasts": [item for item, decision in zip(projected, decisions) if decision["kind"] == "broadcast"],
+        "part2_x_posts": [item for item, decision in zip(projected, decisions) if decision["kind"] == "x"],
+        "part3_news": [item for item, decision in zip(projected, decisions) if decision["kind"] == "news"],
+        "search_log": _validate_search_log(data.get("search_log")),
+        "dedup_log": _validate_dedup_log(data.get("dedup_log")),
+    }
+    return output
+
+
+def _atomic_write_json(path: Path, data: Mapping[str, Any], *, overwrite: bool = False) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    if path.exists() and not overwrite:
+        raise FileExistsError(f"Refusing to overwrite existing report: {path}")
+    temporary: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, prefix=f".{path.name}.", suffix=".tmp", delete=False) as stream:
+            temporary = Path(stream.name)
+            json.dump(data, stream, ensure_ascii=False, indent=2)
+            stream.write("\n")
+            stream.flush()
+            os.fsync(stream.fileno())
+        if overwrite:
+            os.replace(temporary, path)
+            temporary = None
+            return
+        # A hard-link publish is atomic and cannot replace an existing target.
+        os.link(temporary, path)
+        temporary.unlink()
+        temporary = None
+    finally:
+        if temporary is not None:
+            try:
+                temporary.unlink()
+            except OSError:
+                pass
+
+
+def build_report(bundle: Mapping[str, Any], *, report_time: str | None = None) -> dict[str, Any]:
+    """Public name for the pure validation/projection step."""
+    return project_report(bundle, report_time=report_time)
+
+
+def write_report(bundle: Mapping[str, Any], data_dir: str | Path = DEFAULT_DATA_DIR, *, overwrite: bool = False, report_time: str | None = None) -> Path:
+    """Validate, project, and atomically write one report without overwriting."""
+    report = build_report(bundle, report_time=report_time)
+    target = Path(data_dir) / f"{report['date']}.json"
+    _atomic_write_json(target, report, overwrite=overwrite)
+    return target
+
+
+def load_bundle(path: str | Path) -> Mapping[str, Any]:
+    source = Path(path)
+    try:
+        text = source.read_text(encoding="utf-8") if str(path) != "-" else __import__("sys").stdin.read()
+        value = json.loads(text)
+    except (OSError, json.JSONDecodeError) as error:
+        raise ReportBuilderError(f"unable to read analysis bundle: {error}") from error
+    return _is_mapping(value, "analysis bundle")
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Build one deterministic daily report from an analysis bundle")
+    parser.add_argument("bundle", help="analysis bundle JSON path, or - for stdin")
+    parser.add_argument("--data-dir", default=str(DEFAULT_DATA_DIR))
+    parser.add_argument("--overwrite", action="store_true", help="explicitly allow replacing the final report")
+    args = parser.parse_args(argv)
+    try:
+        target = write_report(load_bundle(args.bundle), args.data_dir, overwrite=args.overwrite)
+    except (ReportBuilderError, FileExistsError) as error:
+        parser.error(str(error))
+    print(target)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

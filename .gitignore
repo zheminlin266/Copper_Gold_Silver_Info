@@ -4,6 +4,7 @@
 .env.*
 !.env.example
 data/raw/
+.runtime/
 .git.broken-empty-*/
 .chrome-x-profile/
 .browser_profile/
