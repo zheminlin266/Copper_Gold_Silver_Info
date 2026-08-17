@@ -24,6 +24,16 @@ python scripts/report_builder.py .runtime/pipeline/2026-08-17/<run-id>/analysis.
 python -m pip install -r scripts/requirements.txt
 ```
 
+可选 X 通道不会改变基线依赖，按需安装：
+
+```bash
+python -m pip install -r scripts/requirements-optional.txt
+```
+
+运行采集脚本时使用本项目要求的 managed Python 3.13；不要改用 Python 3.14 或 browser-use 的 Python 3.12。
+
+`x_search.py` 按 `twscrape -> Playwright` 顺序尝试；可选通道缺失或配置缺失才会继续回退。未设置 `X_TWSCRAPE_ENABLED`（或设置为其他值）时 twscrape 保持启用；设置为 `0`、`false`、`no` 或 `off` 会在导入 twscrape 前将其标记为不可用，继续选择 Playwright。twscrape 只使用一个 `auth_token`/`ct0` cookie 账号，不使用密码登录。账号请求严格串行，默认每个账号间随机等待 `uniform(35.0, 50.0)` 秒；可用 `X_SAFE_DELAY_MIN_SECONDS` 和 `X_SAFE_DELAY_MAX_SECONDS` 配置范围（各为 5-300 秒），旧版 `X_SAFE_DELAY_SECONDS` 可固定覆盖。每个查询默认最多返回 20 条结果，可用 `X_MAX_RESULTS_PER_QUERY` 调整（1-500）。这些设置不保证不会触发 X 限制；不启用代理轮换、账号轮换或自动登录。
+
 可用 `CHROME_EXECUTABLE` 覆盖 Chrome 路径；未设置或系统 Chrome 不存在时使用 Playwright Chromium。
 
-原始采集失败必须非零退出，不能伪装成零结果。采集完整完成但没有窗口内合格候选时，可以成功返回空结果。
+原始采集失败必须非零退出，不能伪装成零结果。退出码 4 表示已写入审计文件的部分结果；其他非零退出均为失败。采集完整完成但没有窗口内合格候选时，可以成功返回空结果。

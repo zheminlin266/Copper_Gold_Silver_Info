@@ -211,28 +211,36 @@ def _collect_x(report_date: str, run_dir: Path, project_root: Path) -> Collector
         errors.append(process_error)
         status = "failed"
     elif returncode != 0:
-        status = "partial" if returncode == 4 and not existed_before else "failed"
+        status = "partial" if returncode == 4 else "failed"
         errors.append(f"x_search exited with status {returncode}")
     # A pre-existing raw/sidecar pair must never be mistaken for this run's output.
     if not existed_before and sidecar_path.exists():
         try:
             sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
             raw_candidates = sidecar.get("candidates") if isinstance(sidecar, Mapping) else None
+            sidecar_status = sidecar.get("status") if isinstance(sidecar, Mapping) else None
             if not isinstance(raw_candidates, list):
                 raise ValueError("X sidecar candidates is not a list")
+            if sidecar_status not in {"complete", "partial", "failed"}:
+                raise ValueError("X sidecar status is not complete, partial, or failed")
             candidates = [_candidate_from_x(item, report_date) for item in raw_candidates]
-            if sidecar.get("status") == "partial":
-                status = "partial"
-            elif status == "complete" and sidecar.get("status") != "complete":
+            if returncode == 0 and sidecar_status != "complete":
                 status = "failed"
-                errors.append("X sidecar did not report complete status")
+                errors.append(f"X sidecar reported {sidecar_status} after exit 0")
+            elif returncode == 4 and sidecar_status != "partial":
+                status = "failed"
+                errors.append(f"X sidecar reported {sidecar_status} after exit 4")
+            elif returncode != 4 and returncode != 0:
+                status = "failed"
+            elif returncode == 0:
+                status = "complete"
             artifacts.append(str(sidecar_path.relative_to(project_root)))
         except (OSError, json.JSONDecodeError, ValueError, TypeError, ContractError) as error:
             status = "failed"
             errors.append(f"invalid X sidecar: {error}")
-    elif returncode == 0:
+    else:
         status = "failed"
-        errors.append("X collector exited successfully without a new structured sidecar")
+        errors.append("X collector did not produce a new structured sidecar")
     return CollectorResult(
         collector="x_search",
         status=status,
