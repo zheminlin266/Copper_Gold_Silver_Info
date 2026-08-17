@@ -197,6 +197,58 @@ test("Ajv schema rejects legacy guest strings and unknown fields", () => {
   );
 });
 
+test("optional schema version and evidence claims preserve the report contract", () => {
+  const filename = "2026-07-31.json";
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  const claim = {
+    claim: "铜项目将在2028年投产",
+    evidence: "公司披露目标投产年份为2028年。",
+    source_url: "https://example.com/source",
+    evidence_type: "reported_fact",
+    period: "2028",
+    unit: "year",
+    value: 2028,
+  };
+
+  const current = structuredClone(report);
+  current.schema_version = 3;
+  current.part3_news[0].claims = [claim];
+  assert.doesNotThrow(() => validateReport(current, filename));
+
+  const legacy = structuredClone(report);
+  assert.doesNotThrow(() => validateReport(legacy, filename));
+
+  const invalidVersion = structuredClone(current);
+  invalidVersion.schema_version = 2;
+  assert.throws(() => validateReport(invalidVersion, filename), /must be equal to constant/);
+
+  const invalidClaim = structuredClone(current);
+  invalidClaim.part3_news[0].claims[0].unexpected = true;
+  assert.throws(
+    () => validateReport(invalidClaim, filename),
+    /claims\/0 .*must NOT have additional properties/,
+  );
+});
+
+test("runtime report parsing rejects malformed dates, signals, and URLs before casting", () => {
+  const filename = "2026-07-31.json";
+  const base = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));
+  const cases = [
+    ["invalid date", (report) => { report.date = "2026-02-30"; }, /date/],
+    ["empty metal tags", (report) => { report.part3_news[0].metal_tags = []; }, /metal_tags/],
+    ["invalid metal", (report) => { report.part3_news[0].metal_tags = ["tin"]; }, /metal_tags/],
+    ["invalid direction", (report) => { report.part3_news[0].supply_demand = "neutral"; }, /supply_demand/],
+    ["invalid primary metal", (report) => { report.part3_news[0].primary_metal = "tin"; }, /primary_metal/],
+    ["invalid URL", (report) => { report.part3_news[0].url = "javascript:alert(1)"; }, /url/],
+  ];
+
+  for (const [name, mutate, pattern] of cases) {
+    const malformed = structuredClone(base);
+    mutate(malformed);
+    assert.throws(() => validateReport(malformed, filename), pattern, name);
+  }
+});
+
 test("post-migration window boundaries are exact", () => {
   const filename = "2026-07-06.json";
   const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", filename), "utf8"));

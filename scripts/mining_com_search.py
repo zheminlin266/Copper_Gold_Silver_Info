@@ -1,4 +1,4 @@
-"""Collect report-date candidates from Mining.com's copper category page.
+"""Collect report-date candidates from Mining.com metal category pages.
 
 This intentionally uses the category page DOM as the primary discovery path.
 It does not use sitemap, RSS, or archive services.
@@ -12,20 +12,28 @@ import json
 from datetime import datetime
 from urllib.parse import urljoin
 
-from playwright.async_api import async_playwright
-
 try:
     from scripts.script_utils import parse_report_date, resolve_chrome_executable
 except ModuleNotFoundError:
     from script_utils import parse_report_date, resolve_chrome_executable  # type: ignore[no-redef]
 
 
+METALS = ("gold", "silver", "copper")
 CATEGORY_URL = "https://www.mining.com/commodity/copper/"
+COLLECTOR = "mining_com_search"
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
     "Chrome/131.0.0.0 Safari/537.36"
 )
+
+
+def category_url(metal: str) -> str:
+    """Return a category URL only for the supported metal slugs."""
+    normalized = metal.casefold() if isinstance(metal, str) else ""
+    if normalized not in METALS:
+        raise ValueError(f"metal must be one of: {', '.join(METALS)}")
+    return f"https://www.mining.com/commodity/{normalized}/"
 
 
 def matches_report_date(text: str, date_str: str) -> bool:
@@ -41,11 +49,18 @@ def matches_report_date(text: str, date_str: str) -> bool:
     return False
 
 
-async def collect(date_str: str) -> dict:
+async def collect(date_str: str, metal: str = "copper") -> dict:
     date_str = parse_report_date(date_str).isoformat()
+    metal = metal.casefold() if isinstance(metal, str) else ""
+    url = category_url(metal)
+    from playwright.async_api import async_playwright
+
     result = {
         "status": "failed",
-        "url": CATEGORY_URL,
+        "extraction_status": "failed",
+        "collector": COLLECTOR,
+        "metal": metal,
+        "url": url,
         "report_date": date_str,
         "article_count": 0,
         "articles": [],
@@ -74,7 +89,7 @@ async def collect(date_str: str) -> dict:
         page = await context.new_page()
         try:
             response = await page.goto(
-                CATEGORY_URL, wait_until="domcontentloaded", timeout=45000
+                url, wait_until="domcontentloaded", timeout=45000
             )
             await page.wait_for_timeout(3000)
             if response is None:
@@ -89,8 +104,10 @@ async def collect(date_str: str) -> dict:
             body_text = await page.locator("body").inner_text()
             result["body_chars"] = len(body_text)
             authenticity_errors = []
-            if "copper" not in result["page_title"].casefold():
-                authenticity_errors.append("page title does not contain 'copper'")
+            if metal not in result["page_title"].casefold():
+                authenticity_errors.append(
+                    f"page title does not contain '{metal}'"
+                )
             if len(body_text) < 500:
                 authenticity_errors.append(
                     f"page body text is too short ({len(body_text)} characters; need at least 500)"
@@ -114,7 +131,7 @@ async def collect(date_str: str) -> dict:
             seen: set[str] = set()
             articles: list[dict] = []
             for candidate in candidates:
-                href = urljoin(CATEGORY_URL, candidate.get("href", ""))
+                href = urljoin(url, candidate.get("href", ""))
                 title = " ".join(candidate.get("text", "").split())
                 context_text = " ".join(
                     " ".join(candidate.get("context", [])).split()
@@ -123,7 +140,7 @@ async def collect(date_str: str) -> dict:
                     continue
                 if not href.startswith("https://www.mining.com/"):
                     continue
-                if href.rstrip("/") == CATEGORY_URL.rstrip("/") or href in seen:
+                if href.rstrip("/") == url.rstrip("/") or href in seen:
                     continue
                 if not title or not matches_report_date(context_text, date_str):
                     continue
@@ -139,6 +156,9 @@ async def collect(date_str: str) -> dict:
             result["articles"] = articles
             result["article_count"] = len(articles)
             result["status"] = "ok"
+            result["extraction_status"] = (
+                "success_empty" if not articles else "success"
+            )
         except Exception as error:
             result["error"] = f"{type(error).__name__}: {error}"
         finally:
@@ -150,12 +170,13 @@ async def collect(date_str: str) -> dict:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("report_date", help="Report date in YYYY-MM-DD")
+    parser.add_argument("--metal", choices=METALS, default="copper")
     args = parser.parse_args()
     try:
         report_date = parse_report_date(args.report_date).isoformat()
     except ValueError as error:
         parser.error(str(error))
-    result = asyncio.run(collect(report_date))
+    result = asyncio.run(collect(report_date, args.metal))
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0 if result["status"] == "ok" else 1
 

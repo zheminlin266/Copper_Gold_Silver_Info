@@ -1,3 +1,10 @@
+import type { EvidenceClaim } from "@/lib/pipeline-types";
+
+export type { EvidenceClaim } from "@/lib/pipeline-types";
+
+export const CURRENT_REPORT_SCHEMA_VERSION = 3 as const;
+export type ReportSchemaVersion = typeof CURRENT_REPORT_SCHEMA_VERSION;
+
 export type Metal = "gold" | "silver" | "copper";
 export type SupplyDemand = "supply" | "demand" | "both";
 export type Part2Channel = "browser_use" | "rss_fallback" | "playwright" | "failed";
@@ -26,6 +33,7 @@ export interface Broadcast {
   guest?: Guest;
   companies?: string[];
   projects?: string[];
+  claims?: EvidenceClaim[];
 }
 
 export interface XPost {
@@ -42,6 +50,7 @@ export interface XPost {
   verification_note?: string;
   url: string;
   source_channel?: XSourceChannel;
+  claims?: EvidenceClaim[];
 }
 
 export interface NewsItem {
@@ -63,6 +72,7 @@ export interface NewsItem {
   projects?: string[];
   mining_com_source_note?: string;
   source_channel?: NewsSourceChannel;
+  claims?: EvidenceClaim[];
 }
 
 export type UrlVerificationFailure = string | { url: string; reason: string };
@@ -108,6 +118,7 @@ export interface DedupLog {
 }
 
 export interface DailyReport {
+  schema_version?: ReportSchemaVersion;
   date: string;
   report_time: string;
   summary: string;

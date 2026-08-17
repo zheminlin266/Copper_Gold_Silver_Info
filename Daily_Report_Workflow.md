@@ -35,11 +35,17 @@
 
 ## 4. 工具与职责
 
-- gpt-luna：编排检索、打开来源、文件修改、校验、Git 和发布检查。
-- gpt-luna：分析候选内容、提取事实、判断供需关系、去重和生成中文摘要。
-- 普通公开网页优先使用搜索和网页读取工具。
-- Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；不要为了普通静态网页启动浏览器自动化。
-- 网站本身不调用模型，也不保存模型密钥。
+代码是确定性边界，负责日期窗口、preflight、来源 registry、各采集器、规范化、技术核验、staging、最终 JSON 写入、schema/内容校验、测试、构建和发布。统一入口为：
+
+```bash
+python scripts/daily_pipeline.py YYYY-MM-DD --dry-run
+python scripts/daily_pipeline.py YYYY-MM-DD --collect-mining
+python scripts/daily_pipeline.py YYYY-MM-DD --collect-x
+```
+
+这些命令是采集与流程入口；不表示已经存在 AI API 集成。
+
+AI 只接收代码产出的规范化候选，返回严格的分析决策和证据字段（事实提取、供需判断、去重、中文摘要等）。AI 不得写入 `data/YYYY-MM-DD.json`，不得运行 Git，也不得把采集器失败静默当成零结果；失败必须保留为失败状态并阻止发布。普通公开网页优先使用搜索和网页读取工具。Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；不要为了普通静态网页启动浏览器自动化。网站本身不调用模型，也不保存模型密钥。
 
 ## 5. 收集流程
 

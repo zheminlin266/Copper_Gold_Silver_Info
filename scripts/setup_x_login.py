@@ -64,7 +64,6 @@ async def main(timeout: int = 300) -> None:
         "user_data_dir": str(PROFILE_DIR),
         "headless": False,
         "args": [
-            "--disable-blink-features=AutomationControlled",
             "--no-first-run",
             "--no-default-browser-check",
         ],

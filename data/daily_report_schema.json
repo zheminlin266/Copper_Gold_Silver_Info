@@ -2,10 +2,31 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Daily Mining Report",
   "description": "Authoritative content source for the Next.js gold, silver and copper supply-demand site",
+  "$defs": {
+    "evidence_claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["claim", "evidence", "source_url", "evidence_type", "period", "unit", "value"],
+      "properties": {
+        "claim": {"type": "string", "minLength": 1},
+        "evidence": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "format": "uri"},
+        "evidence_type": {"type": "string", "minLength": 1},
+        "period": {"type": "string", "minLength": 1},
+        "unit": {"type": "string", "minLength": 1},
+        "value": {"type": ["string", "number", "null"]}
+      }
+    }
+  },
   "type": "object",
   "additionalProperties": false,
   "required": ["date", "report_time", "summary", "windows", "part1_broadcasts", "part2_x_posts", "part3_news", "search_log", "dedup_log"],
   "properties": {
+    "schema_version": {
+      "type": "integer",
+      "const": 3,
+      "description": "Optional version marker for current reports; omitted in historical reports"
+    },
     "date": {
       "type": "string",
       "format": "date",
@@ -116,6 +137,10 @@
             "description": "Required for new reports; unverified sources remain publishable but must be visibly labelled"
           },
           "verification_note": {"type": "string"},
+          "claims": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/evidence_claim"}
+          },
           "companies": {"type": "array", "items": {"type": "string"}},
           "projects": {"type": "array", "items": {"type": "string"}}
         }
@@ -164,6 +189,10 @@
             "description": "Required for new reports; unverified sources remain publishable but must be visibly labelled"
           },
           "verification_note": {"type": "string"},
+          "claims": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/evidence_claim"}
+          },
           "url": {"type": "string", "format": "uri"},
           "source_channel": {
             "type": "string",
@@ -216,6 +245,10 @@
             "description": "Required for new reports; unverified sources remain publishable but must be visibly labelled"
           },
           "verification_note": {"type": "string"},
+          "claims": {
+            "type": "array",
+            "items": {"$ref": "#/$defs/evidence_claim"}
+          },
           "language": {
             "type": "string",
             "enum": ["en", "zh"]
