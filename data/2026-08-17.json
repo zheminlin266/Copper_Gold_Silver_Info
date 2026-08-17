@@ -387,11 +387,11 @@
     "part3_result": "Part 3完成2026-08-17全天中英文新闻检索、Mining.com铜分类页强制主路径、金银辅助路径、Google site辅助查询、SMM中文来源检查和逐篇URL核验；纳入8条供需信号（铜4、黄金3、白银1，其中部分信号含副产金银）。",
     "mining_com_source_note": "铜分类页Playwright主路径成功，HTTP 200并提取10篇报告日候选；黄金和白银辅助Playwright页HTTP 200，DOM候选分别为10和12条。6篇入选Mining.com文章均在普通HTTP 403后通过同一Playwright会话核验；没有使用搜索摘要、sitemap、Wayback Machine或RSS feed。",
     "url_verification": {
-      "checked": 14,
-      "passed": 14,
+      "checked": 13,
+      "passed": 13,
       "failed": 0,
       "failures": [],
-      "notes": "核验5条Part 1节目/视频、8条Part 3新闻及1条SMM中文文章；视频使用页面元数据和自动字幕，Mining.com文章使用同一Playwright会话，所有入选卡标记verified。"
+      "notes": "核验5条Part 1节目/视频和8条Part 3新闻（含1条SMM中文文章）；视频使用页面元数据和自动字幕，Mining.com文章使用同一Playwright会话，所有入选卡标记verified。"
     },
     "new_sources_discovered": [
       "https://www.miningstockdaily.com/",
