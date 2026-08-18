@@ -63,11 +63,11 @@ AI 只接收代码产出的规范化候选，返回严格的分析决策和证�
 
 ### 5.2 Part 2：X 原帖
 
-X 的本地采集主路径固定使用 `scripts/x_search.py`：调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证会话，登录失效时按本节失败规则记录并停止 X 检索。
+X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `twscrape -> Playwright` 顺序尝试：先用一个授权 cookie 账号串行运行 twscrape；只有 twscrape 未安装、配置缺失或其他可安全回退的通道不可用时，才使用 Playwright。Playwright 回退路径调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。twscrape 安全停止、部分采集或实际失败不得静默改成零结果，也不得绕过顺序直接启动 Playwright。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
 
 在已授权的浏览器会话中检索种子账号和新发现的可靠账号。只收录原作者帖子，必须核对作者、handle、正文、原帖 URL 和发布时间。
 
-以下内容不纳入：搜索摘要、截图转述、无法打开的帖子、无新增事实的转发、纯口号、纯价格目标和未经证实的传闻。通道失败时 `part2_x_posts` 保持空数组，把 `part2_searched` 设为 `false`、`part2_channel` 设为 `failed` 并记录原因；继续完成 Part 1 和 Part 3 以保留研究成果，但最终不得把采集失败当作零结果发布。完整检索后确实没有合格帖子时，`part2_searched` 写 `true`、`part2_channel` 写 `playwright`，空数组可以发布。
+以下内容不纳入：搜索摘要、截图转述、无法打开的帖子、无新增事实的转发、纯口号、纯价格目标和未经证实的传闻。每次运行必须保留 X 原始材料中的 `选定通道`、`尝试通道`、`不可用通道`和 sidecar 审计；`search_log.part2_channel` 必须填写实际选定的 `twscrape` 或 `playwright`，不得硬编码。通道失败时 `part2_x_posts` 保持空数组，把 `part2_searched` 设为 `false`、`part2_channel` 设为 `failed` 并记录原因；继续完成 Part 1 和 Part 3 以保留研究成果，但最终不得把采集失败当作零结果发布。完整检索后确实没有合格帖子时，`part2_searched` 写 `true`，并填写实际选定通道，空数组可以发布。
 
 ### 5.3 Part 3：新闻
 

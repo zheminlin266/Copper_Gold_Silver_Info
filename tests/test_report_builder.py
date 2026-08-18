@@ -85,6 +85,14 @@ class ReportBuilderTests(unittest.TestCase):
         with self.assertRaises(ReportBuilderError):
             project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
 
+    def test_twscrape_channel_is_publishable(self):
+        bundle = self.bundle()
+        bundle["report_date"] = "2026-08-17"
+        bundle["candidates"][0]["published_at"] = "2026-08-17"
+        bundle["search_log"]["part2_channel"] = "twscrape"
+        report = project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
+        self.assertEqual(report["search_log"]["part2_channel"], "twscrape")
+
     def test_explicit_rejection_is_not_published(self):
         bundle = self.bundle()
         bundle["decisions"][0] = {

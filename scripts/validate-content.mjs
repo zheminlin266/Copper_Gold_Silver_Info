@@ -290,9 +290,9 @@ function validateCollectionCompleteness(report, filename) {
     );
     requireString(report.search_log[`${part}_result`], `search_log.${part}_result`, filename);
   }
-  if (report.search_log.part2_channel !== "playwright") {
+  if (!new Set(["twscrape", "playwright"]).has(report.search_log.part2_channel)) {
     throw new Error(
-      `${filename}: search_log.part2_channel must be playwright after successful X collection`,
+      `${filename}: search_log.part2_channel must be twscrape or playwright after successful X collection`,
     );
   }
 }

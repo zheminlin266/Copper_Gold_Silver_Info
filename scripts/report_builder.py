@@ -194,8 +194,8 @@ def _validate_search_log(value: Any) -> dict[str, Any]:
             raise ReportBuilderError(f"search_log.{sources} must be a list of non-empty strings")
         if not isinstance(data.get(result), str) or not data[result].strip():
             raise ReportBuilderError(f"search_log.{result} must be a non-empty string")
-    if data.get("part2_channel") != "playwright":
-        raise ReportBuilderError("search_log.part2_channel must be playwright")
+    if data.get("part2_channel") not in {"twscrape", "playwright"}:
+        raise ReportBuilderError("search_log.part2_channel must be twscrape or playwright")
     verification = data.get("url_verification")
     if not isinstance(verification, Mapping):
         raise ReportBuilderError("search_log.url_verification is required")

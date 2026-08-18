@@ -326,7 +326,7 @@ test("complete collection can publish zero sources or results but failed collect
   failedX.search_log.part2_channel = "failed";
   assert.throws(
     () => validateReport(failedX, "2026-08-09.json"),
-    /search_log\.part2_channel must be playwright/,
+    /search_log\.part2_channel must be twscrape or playwright/,
   );
 });
 
