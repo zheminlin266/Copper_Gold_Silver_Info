@@ -1,0 +1,457 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-18",
+  "report_time": "2026-08-19T11:58:42+08:00",
+  "summary": "铜：矿端减产、库存错配和冶炼原料紧张使短期供应偏紧，项目融资与勘探管线提供中长期增量。黄金：马里上半年工业产量回升，矿业融资和新项目钻探增强未来供给。白银：历史矿区收购与高品位钻探扩大项目管线，但尚未形成新增产量。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-16T00:00:00+08:00",
+      "end": "2026-08-18T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-18T00:00:00+08:00",
+      "end": "2026-08-18T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-18T00:00:00+08:00",
+      "end": "2026-08-18T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/mcewen-copper-in-talks-with-rio-tinto-as-it-seeks-4-billion-financing/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Los Azules目标在约2030年投产，前五年年均生产约205,000吨阴极铜",
+          "evidence": "Mining.com报道项目设计产能及时间表",
+          "source_url": "https://www.mining.com/web/mcewen-copper-in-talks-with-rio-tinto-as-it-seeks-4-billion-financing/",
+          "evidence_type": "project plan",
+          "period": "first five years after planned startup",
+          "unit": "metric tons copper cathode per year",
+          "value": "205,000"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Mining.com",
+      "title": "McEwen Copper与Rio Tinto洽谈融资以建设Los Azules铜矿",
+      "excerpt": "McEwen Copper正就Los Azules项目融资与Rio Tinto及其他投资者洽谈，目标筹集约40亿美元；项目计划约2030年投产，前五年年均生产约205,000吨阴极铜，仍需完成详细工程并取得剩余许可。",
+      "language": "en",
+      "interpretation": "这是开发融资和项目执行信号，不是当前产量。Rio Tinto已通过Nuton持有约17%权益，但最终融资结构、董事会投资决定、详细工程和剩余许可仍可能改变时间表。",
+      "importance": "Los Azules把铜供给管线从融资设想推进到约40亿美元的具体筹资过程，并以约2030年、前五年年均20.5万吨阴极铜形成中长期规模锚点，影响偏中长期。Rio Tinto既有约17%权益可降低技术和合作摩擦，但项目仍需详细工程、许可和债务安排，短期无法缓解现货紧张，需跟踪最终投资决定与施工采购。",
+      "verification_status": "verified",
+      "companies": [
+        "McEwen Copper",
+        "Rio Tinto"
+      ],
+      "projects": [
+        "Los Azules"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/historic-copper-squeeze-eases-as-traders-deliver-metal-to-lme/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "LME可用铜库存单日增加超过20,000吨，现货与三个月期价差降至248美元/吨",
+          "evidence": "Mining.com报道交易商交付及价差变化",
+          "source_url": "https://www.mining.com/web/historic-copper-squeeze-eases-as-traders-deliver-metal-to-lme/",
+          "evidence_type": "market inventory and spread",
+          "period": "2026-08-18",
+          "unit": "metric tons; USD per metric ton",
+          "value": "20,000; 248"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Mining.com",
+      "title": "铜市场逼空压力因交易商向LME交付金属而有所缓解",
+      "excerpt": "交易商向LME仓库交付铜后，现货与三个月期价差从周一最高545美元/吨降至248美元/吨，仓库可用库存单日增加超过20,000吨；8月前两周约56,000吨铜运抵美国，上海库存升至约80,000吨。",
+      "language": "en",
+      "interpretation": "交付缓解了交割日附近的即时压力，但美国进口和库存迁移仍使欧洲、亚洲可自由调配库存偏紧；上海库存上升同时提示高价正在抑制部分中国买盘。该卡关注可交付库存和贸易流，不把价格变动本身当作供需事实。",
+      "importance": "20,000吨以上的LME补库把逼空风险从极端状态拉回可交易区间，却没有消除区域库存错配：约56,000吨货物流向美国、上海库存升至约8万吨，说明关税预期正在重排交割地点。短期压力取决于后续交付和第三个周三交割，若现货补库停滞，宽幅价差仍可能重现；若库存继续回流，则紧张度会边际缓解。",
+      "verification_status": "verified",
+      "companies": [
+        "Trafigura",
+        "BHP",
+        "Rio Tinto"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/aramco-and-maaden-to-form-mineral-exploration-venture-in-saudi-arabia/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Saudi Aramco与Maaden计划在约182,000平方公里区域开展以铜为重点的矿产勘探",
+          "evidence": "Mining.com报道双方公布的合资企业范围及矿种",
+          "source_url": "https://www.mining.com/web/aramco-and-maaden-to-form-mineral-exploration-venture-in-saudi-arabia/",
+          "evidence_type": "company announcement",
+          "period": "2026-08-18 announcement",
+          "unit": "square kilometers",
+          "value": "182,000"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Mining.com",
+      "title": "沙特阿美与Maaden组建矿产勘探合资企业，重点寻找铜",
+      "excerpt": "Saudi Aramco与Maaden计划成立矿产勘探和硬岩采矿合资企业，重点关注铜以及锌、铅和稀土等能源转型矿产；勘探区域约182,000平方公里，Maaden持股51%，Aramco持股49%。",
+      "language": "en",
+      "interpretation": "合资企业扩大的是勘探和潜在项目管线，不是已确认资源量或近期矿山产量。沙特将铜与电动车和可再生能源需求联系起来，后续价值取决于靶区发现、资源估算、许可和资本投入。",
+      "importance": "182,000平方公里的勘探范围和51/49股权结构显示沙特正把铜资源获取纳入国家级资本与能源转型布局，影响时间偏中长期。合资安排能提高勘探资金和基础设施协同，但从发现到资源量、可研和投产仍有多年不确定性，不能抵消当前精矿紧张；需跟踪首批靶区和钻探结果。",
+      "verification_status": "verified",
+      "companies": [
+        "Saudi Aramco",
+        "Maaden"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/mali-gold-output-jumps-30-in-first-half-beating-forecasts/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "马里2026年上半年工业黄金产量为23.5吨，高于上年同期约18吨及政府预测21.2吨",
+          "evidence": "Mining.com援引马里矿业部产量数据",
+          "source_url": "https://www.mining.com/web/mali-gold-output-jumps-30-in-first-half-beating-forecasts/",
+          "evidence_type": "government production data",
+          "period": "2026-01-01 to 2026-06-30",
+          "unit": "metric tons gold",
+          "value": "23.5"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Mining.com",
+      "title": "马里上半年工业黄金产量同比增长约30%并超过预测",
+      "excerpt": "马里矿业部数据显示，2026年1至6月工业黄金产量约23.5吨，高于2025年同期约18吨及政府预测的21.2吨；Fekola产量8.85吨、Loulo产量6.9吨，全年工业产量预测为43.2吨。",
+      "language": "en",
+      "interpretation": "23.5吨是上半年实际工业产量，43.2吨是全年预测；增长反映现有矿山执行改善，不能直接外推下半年同样增速。Menankoto许可和Kobada等项目增加中期管线，但尚未形成产量。",
+      "importance": "马里上半年23.5吨工业产金超过21.2吨预测，说明2025年行业摩擦后的生产恢复已经转化为可核验的近期供给。Fekola与Loulo合计占主要份额，意味着结果仍集中于现有矿山而非新项目；全年43.2吨目标能否兑现取决于政策关系、矿山稳定性和Menankoto等项目的后续建设，不能把预测当作实际增量。",
+      "verification_status": "verified",
+      "companies": [
+        "B2Gold",
+        "Barrick",
+        "Resolute",
+        "Allied"
+      ],
+      "projects": [
+        "Fekola",
+        "Loulo",
+        "Menankoto",
+        "Kobada"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/arizona-eagle-acquires-three-past-producing-silver-mines/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Arizona Eagle收购三座历史产银矿后，将矿化构造走廊由3公里延伸至4.5公里",
+          "evidence": "Mining.com报道收购资产及公司披露的构造走廊变化",
+          "source_url": "https://www.mining.com/arizona-eagle-acquires-three-past-producing-silver-mines/",
+          "evidence_type": "company transaction and exploration update",
+          "period": "2026-08-18 report",
+          "unit": "kilometers of mineralized structural corridor",
+          "value": "4.5"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Mining.com",
+      "title": "Arizona Eagle收购三座历史高品位银矿",
+      "excerpt": "Arizona Eagle完成收购亚利桑那州62英亩土地及三座历史产银矿，矿区位于McCabe金银矿床东北约1公里；矿化构造走廊由3公里延伸至4.5公里，公司计划以现代勘探和钻探评估复产潜力。",
+      "language": "en",
+      "interpretation": "收购扩大了土地和勘探连续性，历史产量及表面采样不等于现代资源量或可采储量。公司仍需通过钻探、冶金、许可和经济评价验证复产可行性。",
+      "importance": "收购把McCabe附近的银金勘探走廊从3公里扩展到4.5公里，并取得水井和历史矿权，为复产研究增加了连续土地与基础设施条件。三座矿山近百年停产，历史储量估计和高品位表面样品都不能替代现代资源量；短期不会增加白银供应，后续钻探和许可结果才决定中期项目价值。",
+      "verification_status": "verified",
+      "companies": [
+        "Arizona Eagle Mining"
+      ],
+      "projects": [
+        "Arizona National",
+        "Lookout",
+        "Silver Belt",
+        "McCabe"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/wheatons-new-ceo-sees-billion-dollar-streaming-era/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Wheaton预计金当量产量从2025年约803,000盎司增至2030年120万盎司",
+          "evidence": "Mining.com转述CEO对已许可及已融资项目组合的产量预期",
+          "source_url": "https://www.mining.com/wheatons-new-ceo-sees-billion-dollar-streaming-era/",
+          "evidence_type": "company production outlook",
+          "period": "2025 to 2030",
+          "unit": "gold-equivalent ounces",
+          "value": "803000 to 1200000"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Mining.com",
+      "title": "Wheaton新任CEO预计大型贵金属流媒体交易将成为增长常态",
+      "excerpt": "Wheaton CEO表示未来三至四年可能每年完成一笔大型流媒体交易；公司预计金当量产量从2025年的约803,000盎司增至2030年的120万盎司，Antamina银流交易规模约43亿美元。",
+      "language": "en",
+      "interpretation": "流媒体融资可把矿山未来副产品现金流转换为建设资金，但Wheaton的产量预期来自项目组合，不等于当年矿山新增产量。Antamina交易改善了资金规模和银供给锁定的可见度，仍要关注矿山运营与项目兑现。",
+      "importance": "Wheaton从约8.03万盎司金当量向2030年120万盎司的组合增长，说明贵金属流媒体资本正从小额补充转为可承接数十亿美元项目的供给融资工具。43亿美元Antamina交易提高了银流的长期可见度，但兑现依赖矿山产量、项目建设和流协议交付；大型交易一年一笔的节奏也意味着行业增量会集中在少数成熟资产。",
+      "verification_status": "verified",
+      "companies": [
+        "Wheaton Precious Metals",
+        "BHP"
+      ],
+      "projects": [
+        "Antamina"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://silvercorpmetals.com/silvercorp-announces-main-zone-drill-results-including-1-68-g-t-gold-over-212-5-metres-at-the-kyzyltash-sulfide-gold-project-kyrgyzstan/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "DH26M687钻孔见矿212.5米、平均1.68克/吨金，项目钻探计划为50,000至60,000米",
+          "evidence": "Silvercorp 2026年8月18日公司公告",
+          "source_url": "https://silvercorpmetals.com/silvercorp-announces-main-zone-drill-results-including-1-68-g-t-gold-over-212-5-metres-at-the-kyzyltash-sulfide-gold-project-kyrgyzstan/",
+          "evidence_type": "company drill results",
+          "period": "2026-08-18 release; 2026 drill program",
+          "unit": "meters; grams per tonne gold",
+          "value": "212.5 at 1.68; 50000-60000"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Silvercorp Metals",
+      "title": "Silvercorp公布Kyzyltash硫化金项目首批主区钻探结果",
+      "excerpt": "Silvercorp在获许可的Tulkubash/Kyzyltash金项目公布29个钻孔、约3,640米钻探结果；DH26M687见矿212.5米、平均1.68克/吨金，公司正在执行50,000至60,000米钻探计划。",
+      "language": "en",
+      "interpretation": "这是资源转换和扩展证据，不是储量、可研产量或近期供给。项目已获许可降低了部分前置风险，但仍需连续性、冶金、经济评价和建设决策验证。",
+      "importance": "获许可项目中212.5米、1.68克/吨金的连续见矿，为Kyzyltash主区资源转换提供了比单个高品位窄段更有用的规模锚点；50,000至60,000米钻探把验证窗口延伸到未来数月。该结果仍是钻孔长度、真实厚度和资源规模尚未确定，能否形成中期黄金供给取决于后续连续性、冶金和经济评价。",
+      "verification_status": "verified",
+      "companies": [
+        "Silvercorp Metals"
+      ],
+      "projects": [
+        "Tulkubash",
+        "Kyzyltash"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://westwardgold.com/news-releases/westward-gold-drills-12.0-metres-of-8.06-g-au-t-within-27.0-metres-of-3.72-g-au-t-in-hole-t2601-at-the-ssd-target-toiyabe-hills/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Westward Gold的T2601孔钻获27米3.72克/吨金，其中12米8.06克/吨金",
+          "evidence": "Westward Gold 2026年8月18日公告",
+          "source_url": "https://westwardgold.com/news-releases/westward-gold-drills-12.0-metres-of-8.06-g-au-t-within-27.0-metres-of-3.72-g-au-t-in-hole-t2601-at-the-ssd-target-toiyabe-hills/",
+          "evidence_type": "company drill results",
+          "period": "2026-08-18 release",
+          "unit": "meters; grams per tonne gold",
+          "value": "27 at 3.72; 12 at 8.06"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "Westward Gold",
+      "title": "Westward Gold在Toiyabe Hills钻获高品位Carlin型金矿化",
+      "excerpt": "公司公布Toiyabe Hills SSD靶区T2601结果：27米平均3.72克/吨金，其中12米平均8.06克/吨金；RC钻探已启动，继续测试高角度断层控制的矿化延伸。",
+      "language": "en",
+      "interpretation": "钻孔结果为勘探和靶区模型更新，不能直接计入资源、储量或产量；公告也说明报告厚度为钻孔长度，真实厚度尚待估计。RC后续孔和矿化连续性是主要验证点。",
+      "importance": "T2601把SSD靶区的表面地质解释推进到地下连续性验证，12米8.06克/吨金为高角度断层控矿模型提供了具体锚点，RC钻探则把验证时间推向未来数月。结果尚未给出资源量、真实厚度或经济性，短期不改变黄金供给；若下倾和沿走向连续，才可能提高项目进入资源估算的概率。",
+      "verification_status": "verified",
+      "companies": [
+        "Westward Gold"
+      ],
+      "projects": [
+        "Toiyabe Hills",
+        "SSD"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/hycroft-extends-high-grade-silver-at-brimstone-and-vortex-302854420.html",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hycroft在Brimstone见矿82.7米87.52克/吨银，在Vortex见矿12.5米375.41克/吨银",
+          "evidence": "Hycroft通过PR Newswire发布的钻探结果",
+          "source_url": "https://www.prnewswire.com/news-releases/hycroft-extends-high-grade-silver-at-brimstone-and-vortex-302854420.html",
+          "evidence_type": "company drill results",
+          "period": "2025-2026 exploration drill program update",
+          "unit": "meters; grams per tonne silver",
+          "value": "82.7 at 87.52; 12.5 at 375.41"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "PR Newswire / Hycroft Mining",
+      "title": "Hycroft钻探扩大Brimstone和Vortex高品位银系统",
+      "excerpt": "Hycroft公布新增钻探结果：Brimstone孔见矿82.7米、平均87.52克/吨银和0.77克/吨金；Vortex向西延伸约150米，见矿12.5米、平均375.41克/吨银。",
+      "language": "en",
+      "interpretation": "结果扩大了两个高品位系统的空间连续性和露天/地下开发选项，但仍是勘探数据，不能等同于资源、储量或产量。系统保持开放，后续钻探规模和冶金结果决定其供给潜力。",
+      "importance": "Brimstone的82.7米银矿化和Vortex向西150米延伸，分别提供宽度与空间扩展两个验证维度，使Hycroft的银供给管线从单点高品位转向更完整的系统扩张。矿体仍向各方向开放，后续钻探可能改变规模判断；在资源更新、冶金和开发方案完成前，不能计入近期白银产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Hycroft Mining"
+      ],
+      "projects": [
+        "Hycroft Mine",
+        "Brimstone",
+        "Vortex"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://finance.sina.com.cn/money/bond/2026-08-18/doc-inintpiu3343966.shtml",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "智利上半年铜产量同比下降6.7%，LME库存截至8月14日约20.5万吨且较一个月前下降32%",
+          "evidence": "新华财经8月18日文章援引智利产量预测和交易所库存数据",
+          "source_url": "https://finance.sina.com.cn/money/bond/2026-08-18/doc-inintpiu3343966.shtml",
+          "evidence_type": "reported production and inventory data",
+          "period": "2026 first half; inventory as of 2026-08-14",
+          "unit": "percent; metric tons",
+          "value": "-6.7%; 205000"
+        }
+      ],
+      "publish_time": "2026-08-18",
+      "source": "新浪财经 / 新华财经",
+      "title": "新华财经：供应扰动与低库存推动铜价高位运行",
+      "excerpt": "新华财经援引公开数据称，2026年上半年智利铜产量同比下降6.7%，智利将全年产量预测下调2.6%至527万吨；LME库存截至8月14日约20.5万吨，较一个月前下降32%，市场预计2026年全球精炼铜供应缺口可能约42万吨。",
+      "language": "zh",
+      "interpretation": "文章同时讨论智利产量、印尼冶炼扰动、LME与COMEX库存错配及电网、储能和AI数据中心需求；42万吨是市场预期，不是已实现缺口。其中文转载与Mining.com关于智利低产和库存紧张的报道存在事件重叠，本卡保留中文可访问版本作为综合证据。",
+      "importance": "智利上半年减产6.7%与LME库存降至约20.5万吨，把铜紧张从单一矿山事件扩展为矿端、冶炼端和交割库存同时受限的组合约束；约42万吨的全年缺口仍属市场预期。短期需观察主要矿山维护后的恢复、印尼冶炼复产和美国库存回流，中长期电网、储能与AI需求的持续性决定高价是否会转化为实际消费或被替代材料削弱。",
+      "verification_status": "verified",
+      "companies": [
+        "智利国家铜业公司",
+        "Antofagasta",
+        "Freeport-McMoRan",
+        "Ivanhoe Mines",
+        "BHP",
+        "Newmont"
+      ],
+      "projects": [
+        "Los Pelambres"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-16至2026-08-18北京时间72小时窗口检查Mining Stock Daily本周节目页、The Northern Miner Podcast、YouTube检索入口、种子人物/公司访谈及conference_calendar；Mining Stock Daily最新可见节目为8月17日，且相关候选已在2026-08-17日报收录。",
+      "直接打开The Northern Miner的Wheaton CEO节目页，页面发布日期为2026-08-12，超出本次Part 1窗口；未纳入。",
+      "YouTube动态检索入口无法由静态抓取读取，未把搜索摘要或视频标题当作证据；窗口内没有找到可打开、未与前两份日报重复且能核验新增金银铜供需事实的节目。"
+    ],
+    "part1_result": "Part 1已完成2026-08-16至2026-08-18三日Podcast、Webcast、YouTube、公司访谈和会议入口检查；新窗口内无未重复且可核验的合格访谈，纳入0条。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "按X_Web_Access_Prompt使用web_search(provider=xai)尝试RealRickRule；结果没有提供可靠的北京时间窗口内原帖时间，未生成可用帖子，写入.runtime/web_access_2026-08-18.json作为严格不可用staging。",
+      "现有用户未跟踪的x_outputs/2026-08-18_x_raw_materials_retry_20260819b.json及对应txt记录此前有序twscrape在@RonStoeferle处收到No account available for queue SearchTimeline并安全停止；本次不覆盖或再次增加X流量，未启动Playwright。"
+    ],
+    "part2_result": "Part 2为partial/failed安全停止：X覆盖审计为14/53，web_access_xai未完成有效账号，twscrape在有序查询至@RonStoeferle时触发No account available安全停止，剩余39个账号未查询；未使用6条不合格候选，未将结果写成完整零结果。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 14,
+      "accounts_failed": 39,
+      "attempted_channels": [
+        "web_access_xai",
+        "twscrape"
+      ],
+      "selected_channel": "twscrape",
+      "channel_errors": [
+        "web_access_xai: no reliable timezone-qualified in-window original-post payload was available",
+        "twscrape: No account available for queue SearchTimeline at @RonStoeferle; safety stop; no Playwright fallback"
+      ],
+      "notes": [
+        "14/53 accounts completed before the ordered twscrape safety stop; remaining 39 were not queried after the stop.",
+        "Existing date raw materials were preserved; no existing X output or cookie/profile was overwritten.",
+        "The six preserved raw candidates were rejected for unregistered authors, empty/promotional text, price-only commentary, or no direct gold/silver/copper supply-demand fact."
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "执行当前scripts/daily_pipeline.py 2026-08-18 --collect-mining；按强制主路径用Playwright抓取https://www.mining.com/commodity/copper/，HTTP 200、页面标题Copper Archives - MINING.COM、报告日候选14篇；同时抓取gold和silver分类页，分别9篇和10篇，跨页重复已去重。",
+      "Mining.com文章逐篇用同一运行后的直接网页读取核验：McEwen Los Azules、LME库存逼空、Aramco-Maaden、马里黄金、Arizona Eagle和Wheaton均可读取正文；分类页误归入的8月17日Korea、South Railroad、Thesis等事件按日期窗口排除。",
+      "直接打开Silvercorp Metals 2026-08-18公告，核对29孔、约3,640米、212.5米1.68克/吨金及50,000至60,000米计划。",
+      "直接打开Westward Gold 2026-08-18公告，核对T2601的27米3.72克/吨和12米8.06克/吨金以及后续RC钻探。",
+      "直接打开PR Newswire的Hycroft 2025-2026钻探更新，核对Brimstone 82.7米87.52克/吨银和Vortex 12.5米375.41克/吨银。",
+      "使用中文检索并直接打开新浪财经转载的新华财经8月18日文章，核对智利产量、LME库存、精炼铜缺口预期和AI/电网需求；该文与Mining.com Chile文章部分重复，保留中文版本并在去重日志说明。",
+      "未使用sitemap、Wayback Machine或RSS；价格、纯股价、无供需传导的公司资本市场信息和窗口外来源排除。"
+    ],
+    "part3_result": "Part 3已完成2026-08-18全天英文和中文新闻检索、Mining.com铜分类页强制Playwright主路径、金银辅助分类页、直接来源核验和跨源去重；纳入10条供需信号（铜4、黄金3、白银3，部分卡含副产金银）。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径成功，HTTP 200并提取14篇报告日候选；金、银辅助分类页分别提取9和10篇。6篇入选Mining.com文章经直接网页读取核验；8月17日候选未计入8月18日新闻窗口。",
+    "url_verification": {
+      "checked": 10,
+      "passed": 10,
+      "failed": 0,
+      "failures": [],
+      "notes": "10条入选Part 3卡片均已打开来源并核对日期、主体及关键数字；Silvercorp、Westward和Hycroft使用公司/发布平台原文，Mining.com与新浪财经使用可访问正文。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Daily 2026-08-17候选已出现在2026-08-17日报，The Northern Miner Wheaton节目发布日期为2026-08-12，均未重复纳入。"
+    ],
+    "part2_deduped_urls": [
+      "Rick Rule链接为访谈宣传且未在X正文提供可核验的实体供需事实；Katusa、Brien Lundin为口号/价格倾向；Peter Krauth为银股重估观点；KobeissiLetter和GoldNewsletter作者不匹配注册账号或正文不足。"
+    ],
+    "part3_deduped_events": [
+      "Mining.com Chile economy文章与新浪财经/新华财经文章均涉及智利减产和库存紧张，保留中文综合来源作为中文可访问版本。",
+      "Mining.com金、银、铜分类页及MORE NEWS区域重复出现同一篇McEwen、Wheaton、Aramco-Maaden和Arizona Eagle文章，每个事件只保留一张卡。",
+      "Korea-Glencore、South Railroad、Thesis和其他8月17日文章虽在分类页邻近位置出现，但超出2026-08-18 Part 3窗口，排除。",
+      "纯价格、市场情绪、公司股价和没有明确供需传导的资本市场信息排除。"
+    ],
+    "notes": "所有新信号均填写唯一primary_metal且该值出现在metal_tags中；实际产量、项目计划、勘探结果、流媒体组合预期和市场缺口预测按来源口径区分，未把资源或钻探结果写成已实现产量。"
+  }
+}
