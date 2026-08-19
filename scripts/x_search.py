@@ -32,7 +32,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any, Callable
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urlencode, urljoin, urlsplit, urlunsplit
 
 try:
     from scripts.script_utils import (
@@ -68,8 +68,10 @@ TWSCRAPE_DB = PROJECT_ROOT / ".browser_profile" / "twscrape.db"
 
 TZ_BEIJING = timezone(timedelta(hours=8))
 SEARCH_QUERY = "(gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)"
+CHANNEL_WEB_ACCESS_XAI = "web_access_xai"
 CHANNEL_TWSCRAPE = "twscrape"
 CHANNEL_PLAYWRIGHT = "playwright"
+X_CHANNEL_ORDER = (CHANNEL_WEB_ACCESS_XAI, CHANNEL_TWSCRAPE, CHANNEL_PLAYWRIGHT)
 DEFAULT_SAFE_DELAY_MIN_SECONDS = 35.0
 DEFAULT_SAFE_DELAY_MAX_SECONDS = 50.0
 DEFAULT_MAX_RESULTS_PER_QUERY = 20
@@ -235,6 +237,133 @@ def max_results_per_query(value: object | None = None) -> int:
 def build_search_query(handle: str, report_date: str) -> str:
     next_date = (parse_report_date(report_date) + timedelta(days=1)).isoformat()
     return f"from:{handle} {SEARCH_QUERY} since:{report_date} until:{next_date}"
+
+
+def _normalise_post_url(value: str) -> str:
+    parsed = urlsplit(value.strip())
+    host = (parsed.hostname or "").casefold()
+    if host == "twitter.com":
+        host = "x.com"
+    return urlunsplit(("https", host, parsed.path.rstrip("/"), "", ""))
+
+
+def _is_status_url(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    parsed = urlsplit(value)
+    return (
+        parsed.scheme in {"http", "https"}
+        and (parsed.hostname or "").casefold() in {"x.com", "twitter.com"}
+        and re.fullmatch(r"/[^/\\s]+/status/\\d+/?", parsed.path or "") is not None
+    )
+
+
+def _staging_error(message: str) -> ChannelUnavailable:
+    return ChannelUnavailable(f"invalid web-access staging: {message}")
+
+
+def validate_web_access_staging(value: Any, report_date: str, accounts: list[dict]) -> dict[str, Any]:
+    """Strictly validate an external provider=xai staging payload."""
+    if not isinstance(value, dict):
+        raise _staging_error("root must be an object")
+    allowed = {"provider", "report_date", "accounts_total", "accounts_completed", "account_results"}
+    unknown = set(value) - allowed
+    if unknown:
+        raise _staging_error(f"unsupported field(s): {', '.join(sorted(unknown))}")
+    if value.get("provider") != "xai":
+        raise _staging_error("provider must be xai")
+    if value.get("report_date") != report_date:
+        raise _staging_error("report_date does not match the requested report date")
+    total = value.get("accounts_total")
+    if type(total) is not int or total < 0 or total != len(accounts):
+        raise _staging_error(f"accounts_total must equal the registry X account count ({len(accounts)})")
+    results = value.get("account_results")
+    if not isinstance(results, list) or len(results) > total:
+        raise _staging_error("account_results must be a list no larger than accounts_total")
+    if "accounts_completed" in value and (
+        type(value["accounts_completed"]) is not int
+        or value["accounts_completed"] != sum(item.get("status") == "complete" for item in results if isinstance(item, dict))
+    ):
+        raise _staging_error("accounts_completed does not match complete account results")
+
+    by_id = {account["source_id"]: account for account in accounts}
+    by_handle = {account["x_handle"].casefold(): account for account in accounts}
+    seen: set[str] = set()
+    normalised_results: list[dict[str, Any]] = []
+    for index, item in enumerate(results):
+        if not isinstance(item, dict):
+            raise _staging_error(f"account_results[{index}] must be an object")
+        if set(item) - {"source_id", "handle", "x_handle", "status", "error", "posts"}:
+            raise _staging_error(f"account_results[{index}] has unsupported fields")
+        source_id = item.get("source_id")
+        handle = item.get("handle", item.get("x_handle"))
+        if not isinstance(source_id, str) or not isinstance(handle, str):
+            raise _staging_error(f"account_results[{index}] needs source_id and handle")
+        account = by_id.get(source_id)
+        if account is None or by_handle.get(handle.lstrip("@").casefold()) is not account:
+            raise _staging_error(f"account_results[{index}] source_id and handle do not match the registry")
+        if source_id in seen:
+            raise _staging_error(f"duplicate account result: {source_id}")
+        seen.add(source_id)
+        status = item.get("status")
+        if status not in {"complete", "failed"}:
+            raise _staging_error(f"account_results[{index}].status must be complete or failed")
+        error = item.get("error")
+        posts = item.get("posts")
+        if status == "failed":
+            if not isinstance(error, str) or not error.strip():
+                raise _staging_error(f"account_results[{index}].error is required for failed accounts")
+            if posts not in (None, []):
+                raise _staging_error(f"failed account {source_id} must not contain posts")
+            normalised_results.append({"account": account, "status": status, "error": error.strip(), "posts": []})
+            continue
+        if not isinstance(posts, list):
+            raise _staging_error(f"account_results[{index}].posts must be a list for complete accounts")
+        normalised_posts: list[dict[str, Any]] = []
+        for post_index, post in enumerate(posts):
+            if not isinstance(post, dict):
+                raise _staging_error(f"{source_id}.posts[{post_index}] must be an object")
+            if set(post) - {"author", "handle", "x_handle", "url", "text", "publish_time"}:
+                raise _staging_error(f"{source_id}.posts[{post_index}] has unsupported fields")
+            post_handle = post.get("handle", post.get("x_handle"))
+            if not all(isinstance(post.get(key), str) and post[key].strip() for key in ("author", "url", "text", "publish_time")):
+                raise _staging_error(f"{source_id}.posts[{post_index}] is missing author, url, text, or publish_time")
+            if not isinstance(post_handle, str) or post_handle.lstrip("@").casefold() != account["x_handle"].casefold():
+                raise _staging_error(f"{source_id}.posts[{post_index}] handle does not match the account")
+            if not _is_status_url(post["url"]):
+                raise _staging_error(f"{source_id}.posts[{post_index}].url must be an x.com/twitter.com status URL")
+            try:
+                timestamp = parse_x_datetime(post["publish_time"])
+            except (TypeError, ValueError) as error:
+                raise _staging_error(f"{source_id}.posts[{post_index}].publish_time must include a timezone") from error
+            bj_time = timestamp.astimezone(TZ_BEIJING)
+            if bj_time.strftime("%Y-%m-%d") != report_date:
+                raise _staging_error(f"{source_id}.posts[{post_index}].publish_time is outside the report date")
+            normalised_posts.append({
+                "source_id": source_id,
+                "author": post["author"].strip(),
+                "handle": post_handle.lstrip("@"),
+                "utc_time": timestamp.astimezone(timezone.utc).isoformat(),
+                "bj_time": bj_time.isoformat(),
+                "text": post["text"].strip(),
+                "url": post["url"].strip(),
+            })
+        normalised_results.append({"account": account, "status": status, "error": None, "posts": normalised_posts})
+    return {
+        "provider": "xai",
+        "report_date": report_date,
+        "accounts_total": total,
+        "accounts_completed": sum(item["status"] == "complete" for item in normalised_results),
+        "account_results": normalised_results,
+    }
+
+
+def load_web_access_staging(path: str | Path, report_date: str, accounts: list[dict]) -> dict[str, Any]:
+    try:
+        value = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise _staging_error(f"could not read JSON: {error}") from error
+    return validate_web_access_staging(value, report_date, accounts)
 
 
 async def pace_between_accounts(
