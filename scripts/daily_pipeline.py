@@ -333,6 +333,8 @@ def run_pipeline(
 
 
 def main(argv: list[str] | None = None) -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description="Run deterministic daily-pipeline preflight or explicit collectors")
     parser.add_argument("report_date", help="Report date in YYYY-MM-DD")
     parser.add_argument("--dry-run", action="store_true", help="preflight only; do not invoke collectors")
