@@ -319,6 +319,7 @@ class CollectorResult:
     stdout: str = ""
     stderr: str = ""
     artifacts: tuple[str, ...] = ()
+    metadata: Mapping[str, Any] = field(default_factory=dict)
 
     def __post_init__(self) -> None:
         _text(self.collector, "collector")
@@ -346,6 +347,8 @@ class CollectorResult:
         if any(not isinstance(path, str) or not path.strip() for path in artifacts):
             raise ContractError("collector artifacts must be non-empty strings")
         object.__setattr__(self, "artifacts", artifacts)
+        if not isinstance(self.metadata, Mapping):
+            raise ContractError("collector metadata must be an object")
 
     def to_dict(self) -> dict[str, Any]:
         return _json_value(asdict(self))

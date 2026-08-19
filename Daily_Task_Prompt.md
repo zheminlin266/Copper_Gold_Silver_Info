@@ -15,7 +15,7 @@
 1. 使用 `Asia/Shanghai` 当前时间计算 `RUN_DATE`，并按工作流计算 `REPORT_DATE` 和三个检索窗口；不得写死日期。`report_time` 必须是实际完成报告时的北京时间。
 2. 读取工作流要求的 schema、最近日报、种子来源、已发现来源和会议日历；先检查 `git status`。保留用户已有修改，不覆盖、回滚、删除或提交不属于本次日报的文件。代码负责 date windows、preflight、registry、collectors、normalization、technical verification 和 staging；AI 只处理规范化候选并返回严格分析决策与证据。
 3. 如果 `data/REPORT_DATE.json` 已存在，停止写入并判断是重复运行、纠错还是日期错误；不得直接覆盖。最终 JSON 写入、校验、测试、构建和发布也必须由代码流程执行。
-4. 完成 Part 1 访谈、Part 2 X 原帖和 Part 3 新闻的实际检索。普通公开网页使用搜索和网页读取；只有 X、登录会话、动态交互或必须操作页面时才使用现有 Browser Use / Playwright / Pi-chrome。X 必须调用当前仓库的 `scripts/x_search.py`，按代码实现的 `twscrape -> Playwright` 顺序尝试：先用单个授权 cookie 账号串行运行 twscrape，只有通道不可用或配置缺失时才回退到 Playwright；Playwright 回退才使用项目内 `.browser_profile/chromium-data` 和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe`。不要为普通网页启动浏览器自动化，也不要安装新依赖来解决一次性问题。采集器失败、部分采集或安全停止必须保留失败状态并停止最终发布，不得静默写成空数组或绕过 twscrape 直接使用 Playwright。
+4. 完成 Part 1 访谈、Part 2 X 原帖和 Part 3 新闻的实际检索。普通公开网页使用搜索和网页读取；只有 X、登录会话、动态交互或必须操作页面时才使用现有 Browser Use / Playwright / Pi-chrome。X 必须调用当前仓库的 `scripts/x_search.py`，按代码实现的 `web-access(provider=xai) -> twscrape -> Playwright` 顺序尝试。web-access 只导入外部 staging JSON，Python 只验证 JSON，不调用 AI 或网络 SDK；先使用有效 staging 的完成账号，失败或缺失账号才传给下一路径；Playwright 回退才使用项目内 `.browser_profile/chromium-data` 和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe`。不要为普通网页启动浏览器自动化，也不要安装新依赖来解决一次性问题。X 普通不可用自动回退，安全停止不得增加流量。Part 2 partial/failed 必须保留候选、账户 n/N、路径和失败原因，允许在 Part 1 与 Part 3 完整时发布；不得静默写成完整零结果或绕过顺序直接使用 Playwright。
 5. 优先使用监管文件、交易所公告、公司新闻稿、政府统计等一手来源。尽量实际打开每个入选 URL 核验标题、主体、发布日期和核心数字；暂时无法核验时只能生成标题/来源精简卡，设置 `verification_status: "unverified"` 并填写 `verification_note`，不得补写未经确认的事实。已核验卡设置 `verification_status: "verified"`。不得发明 URL、数字、引文、管理层评论或缺失信息。
 
 **mining.com 专用规则（每次 Part 3 检索必须执行）**：
@@ -54,8 +54,8 @@
 
 凡是已填写但不能通过上述检查的 `importance`，不得发布；精简卡可以省略。日报正文是研究产物，不适用“尽量简短”的工程回复风格；不得为了简洁删减已经选择生成的完整研究卡。具体长度和内容标准以 `Daily_Report_Workflow.md` 第 6.1 节为准。
 
-8. X 只收录原作者帖子。按日期保存原始候选到 `x_outputs/REPORT_DATE_x_raw_materials.txt`，不得覆盖历史文件；同时保留采集器 sidecar，并在原始材料和 `search_log.part2_sources_checked` 记录 `选定通道`、`尝试通道`、`不可用通道`。完整检索后确实没有合格帖子时可以发布空数组，`part2_channel` 必须填写实际选定的 `twscrape` 或 `playwright`；若登录或通道失败，将 `part2_searched` 设为 `false`、`part2_channel` 设为 `failed` 并记录原因，继续完成 Part 1 和 Part 3，但最终不得把失败当作零结果发布，也不得用搜索摘要或截图替代原帖。
-9. 日报内容只新增 `data/REPORT_DATE.json`。其中 `summary` 不超过 300 个字符，只按金属概括当日供需方向，不罗列检索过程、渠道状态或收录数量。三个部分只有采集完整结束后才能把对应 `*_searched` 写为 `true`；来源数或合格信号数为 0 可以发布并允许来源数组为 `[]`，但结果说明不得为空，采集失败不可以。每条信号填写 `verification_status`，未核验时填写 `verification_note` 并由页面明确标注。若 `RUN_DATE` 是北京时间周六，额外按 `Daily_Report_Workflow.md` 第 9A 节最多追加一条 `data/smm_copper_concentrate_index_2026.csv` 记录。只有工作流明确允许的按日期原始材料和经核验的新来源登记可以追加。不要生成 HTML、图片、AI 模块或搜索索引，不要手改首页、日报组件、归档代码和旧报告。
+8. X 只收录原作者帖子。按日期保存原始候选到 `x_outputs/REPORT_DATE_x_raw_materials.txt`，不得覆盖历史文件；同时保留采集器 sidecar，并记录 `accounts_completed/accounts_total/accounts_failed`、`attempted_channels`、`selected_channel` 和失败原因。新报告必须写 `search_log.part2_coverage`；complete 才能写 `part2_searched=true`，partial/failed 写 `false` 并保留候选与审计。页面显示 n/N，不能写成完整零结果。
+9. 日报内容只新增 `data/REPORT_DATE.json`。Part 1/Part 3 失败仍阻止发布；X partial/failed 在 coverage 审计完整时允许发布。其中 `summary` 不超过 300 个字符，只按金属概括当日供需方向，不罗列检索过程、渠道状态或收录数量。三个部分只有采集完整结束后才能把对应 `*_searched` 写为 `true`；来源数或合格信号数为 0 可以发布并允许来源数组为 `[]`，但结果说明不得为空，采集失败不可以。每条信号填写 `verification_status`，未核验时填写 `verification_note` 并由页面明确标注。若 `RUN_DATE` 是北京时间周六，额外按 `Daily_Report_Workflow.md` 第 9A 节最多追加一条 `data/smm_copper_concentrate_index_2026.csv` 记录。只有工作流明确允许的按日期原始材料和经核验的新来源登记可以追加。不要生成 HTML、图片、AI 模块或搜索索引，不要手改首页、日报组件、归档代码和旧报告。
 
 ## 每周六 TC 更新入口
 

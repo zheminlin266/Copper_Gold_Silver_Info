@@ -7,8 +7,8 @@ export type ReportSchemaVersion = typeof CURRENT_REPORT_SCHEMA_VERSION;
 
 export type Metal = "gold" | "silver" | "copper";
 export type SupplyDemand = "supply" | "demand" | "both";
-export type Part2Channel = "browser_use" | "rss_fallback" | "playwright" | "failed";
-export type XSourceChannel = "browser_use" | "rss_fallback" | "playwright";
+export type Part2Channel = "browser_use" | "rss_fallback" | "web_access_xai" | "twscrape" | "playwright" | "failed";
+export type XSourceChannel = "browser_use" | "rss_fallback" | "web_access_xai" | "twscrape" | "playwright";
 export type NewsSourceChannel = "web" | "playwright";
 export type VerificationStatus = "verified" | "unverified";
 
@@ -93,6 +93,17 @@ export interface ImageSource {
   note?: string;
 }
 
+export interface Part2Coverage {
+  status: "complete" | "partial" | "failed";
+  accounts_total: number;
+  accounts_completed: number;
+  accounts_failed: number;
+  attempted_channels: Array<"web_access_xai" | "twscrape" | "playwright">;
+  selected_channel: string | null;
+  channel_errors: string[];
+  notes: string | string[];
+}
+
 export interface SearchLog {
   part1_searched: boolean;
   part1_sources_checked?: string[];
@@ -101,6 +112,7 @@ export interface SearchLog {
   part2_channel?: Part2Channel;
   part2_sources_checked?: string[];
   part2_result?: string;
+  part2_coverage?: Part2Coverage;
   part3_searched?: boolean;
   part3_sources_checked: string[];
   part3_result?: string;

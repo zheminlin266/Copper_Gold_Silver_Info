@@ -32,7 +32,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from typing import Any, Callable
-from urllib.parse import urlencode, urljoin
+from urllib.parse import urlencode, urljoin, urlsplit, urlunsplit
 
 try:
     from scripts.script_utils import (
@@ -68,8 +68,10 @@ TWSCRAPE_DB = PROJECT_ROOT / ".browser_profile" / "twscrape.db"
 
 TZ_BEIJING = timezone(timedelta(hours=8))
 SEARCH_QUERY = "(gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)"
+CHANNEL_WEB_ACCESS_XAI = "web_access_xai"
 CHANNEL_TWSCRAPE = "twscrape"
 CHANNEL_PLAYWRIGHT = "playwright"
+X_CHANNEL_ORDER = (CHANNEL_WEB_ACCESS_XAI, CHANNEL_TWSCRAPE, CHANNEL_PLAYWRIGHT)
 DEFAULT_SAFE_DELAY_MIN_SECONDS = 35.0
 DEFAULT_SAFE_DELAY_MAX_SECONDS = 50.0
 DEFAULT_MAX_RESULTS_PER_QUERY = 20
@@ -105,10 +107,12 @@ class XSafetyStop(RuntimeError):
         *,
         tweets: list[dict] | None = None,
         failed_accounts: list[tuple[str, str, str, str]] | None = None,
+        completed_accounts: list[str] | None = None,
     ) -> None:
         super().__init__(message)
         self.tweets = tweets or []
         self.failed_accounts = failed_accounts or []
+        self.completed_accounts = completed_accounts or []
 
 
 class XNormalizationUnavailable(ChannelUnavailable):
@@ -123,6 +127,7 @@ class ChannelResult:
     status: str = "complete"
     error: str | None = None
     metadata: dict[str, Any] = field(default_factory=dict)
+    completed_accounts: list[str] = field(default_factory=list)
 
 
 def candidate_id(source_id: str, url: str) -> str:
@@ -237,6 +242,181 @@ def build_search_query(handle: str, report_date: str) -> str:
     return f"from:{handle} {SEARCH_QUERY} since:{report_date} until:{next_date}"
 
 
+def _normalise_post_url(value: str) -> str:
+    parsed = urlsplit(value.strip())
+    host = (parsed.hostname or "").casefold()
+    if host == "twitter.com":
+        host = "x.com"
+    return urlunsplit(("https", host, parsed.path.rstrip("/"), "", ""))
+
+
+def _is_status_url(value: Any) -> bool:
+    if not isinstance(value, str):
+        return False
+    parsed = urlsplit(value)
+    return (
+        parsed.scheme in {"http", "https"}
+        and (parsed.hostname or "").casefold() in {"x.com", "twitter.com"}
+        and re.fullmatch(r"/[^/\s]+/status/\d+/?", parsed.path or "") is not None
+    )
+
+
+def _staging_error(message: str) -> ChannelUnavailable:
+    return ChannelUnavailable(f"invalid web-access staging: {message}")
+
+
+def validate_web_access_staging(value: Any, report_date: str, accounts: list[dict]) -> dict[str, Any]:
+    """Strictly validate an external provider=xai staging payload."""
+    if not isinstance(value, dict):
+        raise _staging_error("root must be an object")
+    allowed = {"provider", "report_date", "accounts_total", "accounts_completed", "account_results"}
+    unknown = set(value) - allowed
+    if unknown:
+        raise _staging_error(f"unsupported field(s): {', '.join(sorted(unknown))}")
+    if value.get("provider") != "xai":
+        raise _staging_error("provider must be xai")
+    if value.get("report_date") != report_date:
+        raise _staging_error("report_date does not match the requested report date")
+    total = value.get("accounts_total")
+    if type(total) is not int or total < 0 or total != len(accounts):
+        raise _staging_error(f"accounts_total must equal the registry X account count ({len(accounts)})")
+    results = value.get("account_results")
+    if not isinstance(results, list) or len(results) > total:
+        raise _staging_error("account_results must be a list no larger than accounts_total")
+    if type(value.get("accounts_completed")) is not int:
+        raise _staging_error("accounts_completed is required and must be an integer")
+    if value["accounts_completed"] != sum(item.get("status") == "complete" for item in results if isinstance(item, dict)):
+        raise _staging_error("accounts_completed does not match complete account results")
+
+    by_id = {account["source_id"]: account for account in accounts}
+    by_handle = {account["x_handle"].casefold(): account for account in accounts}
+    seen: set[str] = set()
+    seen_post_urls: set[str] = set()
+    normalised_results: list[dict[str, Any]] = []
+    for index, item in enumerate(results):
+        if not isinstance(item, dict):
+            raise _staging_error(f"account_results[{index}] must be an object")
+        if set(item) - {"source_id", "handle", "status", "error", "posts"}:
+            raise _staging_error(f"account_results[{index}] has unsupported fields")
+        if not {"source_id", "handle", "status", "posts"}.issubset(item):
+            raise _staging_error(f"account_results[{index}] is missing required fields")
+        source_id = item.get("source_id")
+        handle = item.get("handle")
+        if not isinstance(source_id, str) or not isinstance(handle, str):
+            raise _staging_error(f"account_results[{index}] needs source_id and handle")
+        account = by_id.get(source_id)
+        if account is None or by_handle.get(handle.lstrip("@").casefold()) is not account:
+            raise _staging_error(f"account_results[{index}] source_id and handle do not match the registry")
+        if source_id in seen:
+            raise _staging_error(f"duplicate account result: {source_id}")
+        seen.add(source_id)
+        status = item.get("status")
+        if status not in {"complete", "failed"}:
+            raise _staging_error(f"account_results[{index}].status must be complete or failed")
+        error = item.get("error")
+        posts = item.get("posts")
+        if status == "failed":
+            if not isinstance(error, str) or not error.strip():
+                raise _staging_error(f"account_results[{index}].error is required for failed accounts")
+            if posts not in (None, []):
+                raise _staging_error(f"failed account {source_id} must not contain posts")
+            normalised_results.append({"account": account, "status": status, "error": error.strip(), "posts": []})
+            continue
+        if not isinstance(posts, list):
+            raise _staging_error(f"account_results[{index}].posts must be a list for complete accounts")
+        normalised_posts: list[dict[str, Any]] = []
+        for post_index, post in enumerate(posts):
+            if not isinstance(post, dict):
+                raise _staging_error(f"{source_id}.posts[{post_index}] must be an object")
+            if set(post) - {"author", "handle", "url", "text", "publish_time"}:
+                raise _staging_error(f"{source_id}.posts[{post_index}] has unsupported fields")
+            if not {"author", "handle", "url", "text", "publish_time"}.issubset(post):
+                raise _staging_error(f"{source_id}.posts[{post_index}] is missing required fields")
+            post_handle = post.get("handle")
+            if not all(isinstance(post.get(key), str) and post[key].strip() for key in ("author", "url", "text", "publish_time")):
+                raise _staging_error(f"{source_id}.posts[{post_index}] is missing author, url, text, or publish_time")
+            if not isinstance(post_handle, str) or post_handle.lstrip("@").casefold() != account["x_handle"].casefold():
+                raise _staging_error(f"{source_id}.posts[{post_index}] handle does not match the account")
+            if not _is_status_url(post["url"]):
+                raise _staging_error(f"{source_id}.posts[{post_index}].url must be an x.com/twitter.com status URL")
+            try:
+                timestamp = parse_x_datetime(post["publish_time"])
+            except (TypeError, ValueError) as error:
+                raise _staging_error(f"{source_id}.posts[{post_index}].publish_time must include a timezone") from error
+            bj_time = timestamp.astimezone(TZ_BEIJING)
+            if bj_time.strftime("%Y-%m-%d") != report_date:
+                raise _staging_error(f"{source_id}.posts[{post_index}].publish_time is outside the report date")
+            normalised_url = _normalise_post_url(post["url"])
+            if normalised_url in seen_post_urls:
+                raise _staging_error(f"duplicate post URL: {post['url']}")
+            seen_post_urls.add(normalised_url)
+            normalised_posts.append({
+                "source_id": source_id,
+                "author": post["author"].strip(),
+                "handle": post_handle.lstrip("@"),
+                "utc_time": timestamp.astimezone(timezone.utc).isoformat(),
+                "bj_time": bj_time.isoformat(),
+                "text": post["text"].strip(),
+                "url": post["url"].strip(),
+            })
+        normalised_results.append({"account": account, "status": status, "error": None, "posts": normalised_posts})
+    return {
+        "provider": "xai",
+        "report_date": report_date,
+        "accounts_total": total,
+        "accounts_completed": sum(item["status"] == "complete" for item in normalised_results),
+        "account_results": normalised_results,
+    }
+
+
+def load_web_access_staging(path: str | Path, report_date: str, accounts: list[dict]) -> dict[str, Any]:
+    try:
+        value = json.loads(Path(path).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise _staging_error(f"could not read JSON: {error}") from error
+    return validate_web_access_staging(value, report_date, accounts)
+
+
+async def collect_web_access(
+    report_date: str,
+    accounts: list[dict],
+    *,
+    input_path: str | Path | None = None,
+) -> ChannelResult:
+    """Import only a validated external xAI web-access staging file."""
+    path = input_path or os.environ.get("X_WEB_ACCESS_INPUT")
+    if not path:
+        raise ChannelUnavailable("web-access xAI staging input is not configured")
+    staging = load_web_access_staging(path, report_date, accounts)
+    tweets: list[dict] = []
+    failed_accounts: list[tuple[str, str, str, str]] = []
+    completed_accounts: list[str] = []
+    for item in staging["account_results"]:
+        account = item["account"]
+        if item["status"] == "complete":
+            completed_accounts.append(account["source_id"])
+            tweets.extend(item["posts"])
+        else:
+            failure = (account["source_id"], account["x_handle"], account["display_name"], item["error"])
+            if is_x_safety_error(RuntimeError(item["error"])):
+                raise XSafetyStop(
+                    f"web-access safety stop for @{account['x_handle']}: {item['error']}",
+                    tweets=tweets,
+                    completed_accounts=completed_accounts,
+                    failed_accounts=failed_accounts + [failure],
+                )
+            failed_accounts.append(failure)
+    status = "complete" if len(completed_accounts) == len(accounts) else ("partial" if completed_accounts else "failed")
+    return ChannelResult(
+        CHANNEL_WEB_ACCESS_XAI,
+        tweets=tweets,
+        failed_accounts=failed_accounts,
+        status=status,
+        completed_accounts=completed_accounts,
+        metadata={"provider": "xai", "staging_input": str(path)},
+    )
+
+
 async def pace_between_accounts(
     index: int,
     total: int,
@@ -274,8 +454,11 @@ def is_x_safety_error(error: BaseException) -> bool:
             "account_locked",
             "locked account",
             "suspended",
+            "suspension",
             "captcha",
             "authorization required",
+            "no account available",
+            "all accounts unavailable",
         )
     )
 
@@ -444,8 +627,15 @@ def build_sidecar(
     attempted_channels: list[str] | None = None,
     unavailable_channels: list[dict[str, str]] | None = None,
     metadata: dict[str, Any] | None = None,
+    accounts_total: int | None = None,
+    accounts_completed: int | None = None,
+    channel_completed_accounts: dict[str, int] | None = None,
 ) -> dict:
-    """Build deterministic structured output while retaining audit errors."""
+    """Build deterministic structured output while retaining account audit errors."""
+    inferred_ids = {item.get("source_id") for item in tweets if item.get("source_id")}
+    inferred_ids.update(item[0] for item in failed_accounts)
+    total = len(inferred_ids) if accounts_total is None else accounts_total
+    completed = max(0, total - len(failed_accounts)) if accounts_completed is None else accounts_completed
     sidecar = {
         "collector": "x_search",
         "report_date": report_date,
@@ -453,14 +643,13 @@ def build_sidecar(
         "selected_channel": selected_channel,
         "attempted_channels": list(attempted_channels or []),
         "unavailable_channels": list(unavailable_channels or []),
+        "accounts_total": total,
+        "accounts_completed": completed,
+        "accounts_failed": len(failed_accounts),
+        "channel_completed_accounts": dict(channel_completed_accounts or {}),
         "candidates": [normalize_x_candidate(tweet, report_date) for tweet in tweets],
         "errors": [
-            {
-                "source_id": source_id,
-                "handle": handle,
-                "author": name,
-                "error": error,
-            }
+            {"source_id": source_id, "handle": handle, "author": name, "error": error}
             for source_id, handle, name, error in failed_accounts
         ],
     }
@@ -620,6 +809,7 @@ async def collect_twscrape(
     await _validate_twscrape_pool(pool, username)
 
     tweets: list[dict] = []
+    completed_accounts: list[str] = []
     query_started = False
     for index, account in enumerate(accounts):
         await pace_between_accounts(index, len(accounts), delay_config, sleep, random_uniform)
@@ -635,6 +825,7 @@ async def collect_twscrape(
                 normalized = normalize_twscrape_tweet(raw_item, account, report_date)
                 if normalized is not None:
                     tweets.append(normalized)
+            completed_accounts.append(account["source_id"])
         except XNormalizationUnavailable:
             raise
         except ChannelUnavailable:
@@ -644,11 +835,15 @@ async def collect_twscrape(
                 raise XSafetyStop(
                     f"twscrape safety stop for @{account['x_handle']}: {error}",
                     tweets=tweets,
+                    completed_accounts=completed_accounts,
+                    failed_accounts=[(account["source_id"], account["x_handle"], account["display_name"], str(error))],
                 ) from error
             if query_started:
                 raise XSafetyStop(
                     f"twscrape upstream safety stop for @{account['x_handle']}: {error}",
                     tweets=tweets,
+                    completed_accounts=completed_accounts,
+                    failed_accounts=[(account["source_id"], account["x_handle"], account["display_name"], str(error))],
                 ) from error
             raise ChannelTransient(
                 f"twscrape ordinary upstream error for @{account['x_handle']}: {type(error).__name__}: {error}"
@@ -656,6 +851,7 @@ async def collect_twscrape(
     return ChannelResult(
         CHANNEL_TWSCRAPE,
         tweets=tweets,
+        completed_accounts=completed_accounts,
         metadata={**delay_config.metadata, "max_results_per_query": limit},
     )
 
@@ -898,6 +1094,7 @@ async def collect_playwright(
     limit = max_results_per_query()
     all_tweets: list[dict] = []
     failed_accounts: list[tuple[str, str, str, str]] = []
+    completed_accounts: list[str] = []
     async with async_playwright() as playwright:
         context, browser = await open_x_context(playwright, headless)
         try:
@@ -921,6 +1118,7 @@ async def collect_playwright(
                         str(safety_error),
                         tweets=all_tweets,
                         failed_accounts=failed_accounts,
+                        completed_accounts=completed_accounts,
                     ) from safety_error
                 all_tweets.extend(tweets)
                 if error:
@@ -928,11 +1126,14 @@ async def collect_playwright(
                         raise XSafetyStop(
                             f"Playwright safety stop for @{account['x_handle']}: {error}",
                             tweets=all_tweets,
-                            failed_accounts=failed_accounts,
+                            failed_accounts=failed_accounts + [(account["source_id"], account["x_handle"], account["display_name"], str(error))],
+                            completed_accounts=completed_accounts,
                         )
                     failed_accounts.append(
                         (account["source_id"], account["x_handle"], account["display_name"], error)
                     )
+                else:
+                    completed_accounts.append(account["source_id"])
         finally:
             await context.close()
             if browser:
@@ -941,6 +1142,7 @@ async def collect_playwright(
         CHANNEL_PLAYWRIGHT,
         tweets=all_tweets,
         failed_accounts=failed_accounts,
+        completed_accounts=completed_accounts,
         status="partial" if failed_accounts else "complete",
         metadata={**delay_config.metadata, "max_results_per_query": limit},
     )
@@ -951,19 +1153,75 @@ async def run_ordered_channels(
     accounts: list[dict],
     *,
     headless: bool = False,
+    web_access_input: str | Path | None = None,
     runners: list[tuple[str, Callable[..., Any]]] | None = None,
     sleep: Callable[[float], Any] | None = None,
     random_uniform: Callable[[float, float], float] | None = None,
 ) -> tuple[ChannelResult, dict[str, Any]]:
-    """Try each channel once, stopping on valid empty, partial, or safety results."""
-    channel_runners = runners or [
-        (CHANNEL_TWSCRAPE, collect_twscrape),
-        (CHANNEL_PLAYWRIGHT, collect_playwright),
-    ]
+    """Run web-access xAI, twscrape, then Playwright for only unfinished accounts."""
+    if runners is None:
+        async def web_runner(date: str, pending: list[dict], **_kwargs: Any) -> ChannelResult:
+            return await collect_web_access(date, pending, input_path=web_access_input)
+        channel_runners = [
+            (CHANNEL_WEB_ACCESS_XAI, web_runner),
+            (CHANNEL_TWSCRAPE, collect_twscrape),
+            (CHANNEL_PLAYWRIGHT, collect_playwright),
+        ]
+    else:
+        channel_runners = runners
+    pending = {account["source_id"]: account for account in accounts}
+    tweets: list[dict] = []
+    seen_urls: set[str] = set()
+    completed: set[str] = set()
+    failed: dict[str, tuple[str, str, str, str]] = {}
     attempted: list[str] = []
     unavailable: list[dict[str, str]] = []
+    channel_completed: dict[str, int] = {}
+    channel_errors: list[str] = []
+    last_channel: str | None = None
+
+    def validate_result_accounts(result: ChannelResult, requested: list[dict]) -> tuple[list[str], list[tuple[str, str, str, str]]]:
+        requested_by_id = {account["source_id"]: account for account in requested}
+        completed_accounts = list(result.completed_accounts)
+        if len(set(completed_accounts)) != len(completed_accounts) or any(source_id not in requested_by_id for source_id in completed_accounts):
+            raise ChannelUnavailable(f"{result.channel} returned an invalid completed account mapping")
+        failures = list(result.failed_accounts)
+        failure_ids: set[str] = set()
+        for failure in failures:
+            if not isinstance(failure, (tuple, list)) or len(failure) != 4 or failure[0] not in requested_by_id or failure[0] in failure_ids or failure[0] in completed_accounts:
+                raise ChannelUnavailable(f"{result.channel} returned an invalid failed account mapping")
+            failure_ids.add(failure[0])
+        return completed_accounts, [tuple(failure) for failure in failures]
+
+    def merge_result(channel: str, result: ChannelResult, requested: list[dict], completed_accounts: list[str], failures: list[tuple[str, str, str, str]]) -> None:
+        nonlocal last_channel
+        last_channel = channel
+        for tweet in result.tweets:
+            url = tweet.get("url") if isinstance(tweet, dict) else None
+            key = _normalise_post_url(url) if isinstance(url, str) else None
+            if key and key not in seen_urls:
+                seen_urls.add(key)
+                tweets.append(tweet)
+        explicit = set(completed_accounts)
+        if not explicit and result.status == "complete":
+            explicit = {account["source_id"] for account in requested}
+        explicit &= set(pending)
+        completed.update(explicit)
+        for failure in failures:
+            failed[failure[0]] = failure
+            channel_errors.append(f"{channel} @{failure[1]}: {failure[3]}")
+        channel_completed[channel] = channel_completed.get(channel, 0) + len(explicit)
+        if result.error:
+            channel_errors.append(f"{channel}: {result.error}")
+        for source_id in explicit:
+            pending.pop(source_id, None)
+            failed.pop(source_id, None)
+
     for channel, runner in channel_runners:
+        if not pending:
+            break
         attempted.append(channel)
+        requested = list(pending.values())
         try:
             runner_kwargs = {"sleep": sleep}
             if random_uniform is not None:
@@ -971,95 +1229,92 @@ async def run_ordered_channels(
             if channel == CHANNEL_PLAYWRIGHT:
                 runner_kwargs["headless"] = headless
             result = await _maybe_await(
-                _call_with_supported_kwargs(runner, report_date, accounts, **runner_kwargs)
+                _call_with_supported_kwargs(runner, report_date, requested, **runner_kwargs)
             )
             if not isinstance(result, ChannelResult):
                 raise ChannelUnavailable(f"{channel} returned an invalid channel result")
-            result.metadata.setdefault("selected_channel", channel)
-            return result, {
-                "selected_channel": channel,
-                "attempted_channels": attempted,
-                "unavailable_channels": unavailable,
-            }
+            reported_completed, reported_failures = validate_result_accounts(result, requested)
+            safety_failures = [failure for failure in reported_failures if is_x_safety_error(RuntimeError(failure[3]))]
+            safety_error = result.error if result.error and is_x_safety_error(RuntimeError(result.error)) else None
+            if safety_failures or safety_error:
+                raise XSafetyStop(
+                    safety_error or f"{channel} safety stop for @{safety_failures[0][1]}: {safety_failures[0][3]}",
+                    tweets=tweets + list(result.tweets),
+                    completed_accounts=sorted(completed | set(reported_completed)),
+                    failed_accounts=reported_failures,
+                )
+            merge_result(channel, result, requested, reported_completed, reported_failures)
         except XSafetyStop as error:
-            result = ChannelResult(
-                channel,
-                tweets=error.tweets,
-                failed_accounts=error.failed_accounts,
-                status="partial" if error.tweets or error.failed_accounts else "failed",
-                error=str(error),
-            )
-            return result, {
-                "selected_channel": channel,
-                "attempted_channels": attempted,
-                "unavailable_channels": unavailable,
-                "safety_stop": str(error),
-            }
+            requested_ids = {account["source_id"] for account in requested}
+            safety_completed = set(error.completed_accounts) & requested_ids
+            completed.update(safety_completed)
+            if safety_completed:
+                channel_completed[channel] = channel_completed.get(channel, 0) + len(safety_completed)
+            for failure in error.failed_accounts:
+                failed[failure[0]] = failure
+            for account in requested:
+                if account["source_id"] not in completed and account["source_id"] not in failed:
+                    failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], str(error))
+            for tweet in error.tweets:
+                url = tweet.get("url", "") if isinstance(tweet, dict) else ""
+                key = _normalise_post_url(url) if isinstance(url, str) else ""
+                if key and key not in seen_urls:
+                    seen_urls.add(key)
+                    tweets.append(tweet)
+            channel_errors.append(f"{channel}: {error}")
+            last_channel = channel
+            break
         except (ChannelUnavailable, ChannelTransient) as error:
             unavailable.append({"channel": channel, "error": str(error)})
             continue
-        except (XLoginRequired,) as error:
-            result = ChannelResult(channel, status="failed", error=str(error))
-            return result, {
-                "selected_channel": channel,
-                "attempted_channels": attempted,
-                "unavailable_channels": unavailable,
-                "safety_stop": str(error),
-            }
+        except XLoginRequired as error:
+            for account in requested:
+                failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], str(error))
+            channel_errors.append(f"{channel}: {error}")
+            last_channel = channel
+            break
         except Exception as error:
-            if channel == CHANNEL_TWSCRAPE and is_twscrape_safety_error(error):
-                return (
-                    ChannelResult(
-                        channel,
-                        status="failed",
-                        error=f"{type(error).__name__}: {error}",
-                    ),
-                    {
-                        "selected_channel": channel,
-                        "attempted_channels": attempted,
-                        "unavailable_channels": unavailable,
-                        "safety_stop": f"{type(error).__name__}: {error}",
-                    },
+            text = f"{type(error).__name__}: {error}"
+            if is_x_safety_error(error) or (channel == CHANNEL_TWSCRAPE and is_twscrape_safety_error(error)):
+                for account in requested:
+                    failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], text)
+                channel_errors.append(f"{channel}: {text}")
+                last_channel = channel
+                break
+            unavailable.append({"channel": channel, "error": text})
+
+    if pending and attempted:
+        for account in pending.values():
+            if account["source_id"] not in failed and account["source_id"] not in completed:
+                failed[account["source_id"]] = (
+                    account["source_id"], account["x_handle"], account["display_name"],
+                    "all remaining X channels unavailable",
                 )
-            if is_x_safety_error(error):
-                return (
-                    ChannelResult(
-                        channel,
-                        status="failed",
-                        error=f"{type(error).__name__}: {error}",
-                    ),
-                    {
-                        "selected_channel": channel,
-                        "attempted_channels": attempted,
-                        "unavailable_channels": unavailable,
-                        "safety_stop": str(error),
-                    },
-                )
-            if channel != CHANNEL_PLAYWRIGHT:
-                unavailable.append(
-                    {"channel": channel, "error": f"{type(error).__name__}: {error}"}
-                )
-                continue
-            return (
-                ChannelResult(channel, status="failed", error=f"{type(error).__name__}: {error}"),
-                {
-                    "selected_channel": channel,
-                    "attempted_channels": attempted,
-                    "unavailable_channels": unavailable,
-                },
-            )
-    return (
-        ChannelResult(
-            CHANNEL_PLAYWRIGHT,
-            status="failed",
-            error="all X collection channels were unavailable",
-        ),
-        {
-            "selected_channel": None,
-            "attempted_channels": attempted,
-            "unavailable_channels": unavailable,
-        },
+    if not pending:
+        status = "complete"
+    elif completed:
+        status = "partial"
+    else:
+        status = "failed"
+    if not attempted:
+        status = "failed"
+    outcome = ChannelResult(
+        last_channel or (attempted[-1] if attempted else CHANNEL_PLAYWRIGHT),
+        tweets=tweets,
+        failed_accounts=list(failed.values()),
+        status=status,
+        error="; ".join(channel_errors) if channel_errors else ("all X collection channels were unavailable" if status == "failed" else None),
+        completed_accounts=sorted(completed),
+        metadata={"channel_completed_accounts": channel_completed, "channel_errors": channel_errors},
     )
+    selected = last_channel if len([channel for channel in attempted if channel in channel_completed]) <= 1 else "+".join(channel for channel in X_CHANNEL_ORDER if channel in attempted and channel in channel_completed)
+    return outcome, {
+        "selected_channel": selected,
+        "attempted_channels": attempted,
+        "unavailable_channels": unavailable,
+        "channel_completed_accounts": channel_completed,
+        "channel_errors": channel_errors,
+    }
 
 
 async def main(
@@ -1067,6 +1322,7 @@ async def main(
     headless: bool = False,
     overwrite: bool = False,
     output_suffix: str = "",
+    web_access_input: str | Path | None = None,
 ):
     report_date = parse_report_date(date_str).isoformat()
     if output_suffix and not re.fullmatch(r"[A-Za-z0-9_-]+", output_suffix):
@@ -1097,6 +1353,7 @@ async def main(
         report_date,
         all_accounts,
         headless=headless,
+        web_access_input=web_access_input,
     )
     all_tweets = outcome.tweets
     failed_accounts = outcome.failed_accounts
@@ -1114,9 +1371,11 @@ async def main(
         f"选定通道: {method}\n",
         f"尝试通道: {', '.join(attempted_channels) or '无'}\n",
         f"不可用通道: {', '.join(item['channel'] for item in unavailable_channels) or '无'}\n",
-        "采集方法: ordered twscrape -> Playwright\n",
+        "采集方法: ordered web_access_xai -> twscrape -> Playwright\n",
         f"搜索词: {SEARCH_QUERY}\n",
         f"账号批次: {len(all_accounts) - official_count} 个人 + {official_count} 官方\n",
+        f"账号审计: {len(outcome.completed_accounts)}/{len(all_accounts)} 完成，失败 {len(failed_accounts)}\n",
+        f"各通道完成账户数: {json.dumps(channel_metadata.get('channel_completed_accounts', {}), ensure_ascii=False, sort_keys=True)}\n",
         f"采集状态: {status}\n",
         f"失败账号数: {len(failed_accounts)}\n",
     ]
@@ -1171,6 +1430,9 @@ async def main(
             attempted_channels=attempted_channels,
             unavailable_channels=unavailable_channels,
             metadata=metadata,
+            accounts_total=len(all_accounts),
+            accounts_completed=len(outcome.completed_accounts),
+            channel_completed_accounts=channel_metadata.get("channel_completed_accounts", {}),
         ),
     )
     if status == "failed":
@@ -1223,13 +1485,20 @@ if __name__ == "__main__":
     headless = "--headless" in sys.argv
     overwrite = "--overwrite" in sys.argv
     output_suffix = ""
+    web_access_input = os.environ.get("X_WEB_ACCESS_INPUT")
     for index, argument in enumerate(sys.argv[2:], start=2):
         if argument.startswith("--output-suffix="):
             output_suffix = argument.split("=", 1)[1]
         elif argument == "--output-suffix" and index + 1 < len(sys.argv):
             output_suffix = sys.argv[index + 1]
+        elif argument.startswith("--web-access-input="):
+            web_access_input = argument.split("=", 1)[1]
+        elif argument == "--web-access-input":
+            if index + 1 >= len(sys.argv):
+                raise ValueError("--web-access-input requires a path")
+            web_access_input = sys.argv[index + 1]
     try:
-        asyncio.run(main(date, headless, overwrite, output_suffix))
+        asyncio.run(main(date, headless, overwrite, output_suffix, web_access_input))
     except XLoginRequired as error:
         print(f"X login required: {error}", file=sys.stderr)
         sys.exit(2)
