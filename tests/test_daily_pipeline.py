@@ -17,6 +17,33 @@ class DailyPipelineTests(unittest.TestCase):
         })
         self.assertEqual(windows["part2"], windows["part3"])
 
+    def test_mining_candidates_dedupe_cross_category_urls(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "data").mkdir()
+            shutil.copy(Path("data/source_registry.json"), root / "data/source_registry.json")
+            payload = {
+                "status": "ok",
+                "extraction_status": "success",
+                "articles": [{
+                    "url": "https://example.com/mining-article",
+                    "title": "Shared mining article",
+                    "date_match_text": "February 29, 2024",
+                }],
+            }
+            with mock.patch(
+                "scripts.daily_pipeline._run_process",
+                return_value=(0, json.dumps(payload), "", None),
+            ):
+                manifest = run_pipeline("2024-02-29", collect_mining=True, project_root=root)
+            candidates = json.loads(
+                (root / ".runtime" / "pipeline" / "2024-02-29" / next(
+                    (item.name for item in (root / ".runtime" / "pipeline" / "2024-02-29").iterdir())
+                ) / "candidates.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(manifest["status"], "complete")
+            self.assertEqual(len(candidates), 1)
+
     def test_preflight_creates_manifest_without_running_collectors_and_refuses_final(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

@@ -13,6 +13,7 @@ import os
 import subprocess
 import sys
 import tempfile
+from urllib.parse import urldefrag
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable, Mapping
@@ -154,6 +155,7 @@ def _run_process(command: list[str], *, cwd: Path) -> tuple[int, str, str, str |
 
 def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> CollectorResult:
     all_candidates: list[Candidate] = []
+    seen_source_urls: set[str] = set()
     errors: list[str] = []
     artifacts: list[str] = []
     stdout_parts: list[str] = []
@@ -181,7 +183,12 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
             if not isinstance(articles, list):
                 raise ValueError("collector articles is not a list")
             for article in articles:
-                all_candidates.append(_candidate_from_mining(article, report_date, metal))
+                candidate = _candidate_from_mining(article, report_date, metal)
+                source_key = urldefrag(candidate.source_url)[0].rstrip("/")
+                if source_key in seen_source_urls:
+                    continue
+                seen_source_urls.add(source_key)
+                all_candidates.append(candidate)
         except (json.JSONDecodeError, ValueError, TypeError, ContractError) as error:
             errors.append(f"{metal}: invalid or failed collector result: {error}")
     status = "complete" if not errors and all(code == 0 for code in exit_codes) else "failed"
