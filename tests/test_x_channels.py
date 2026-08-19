@@ -49,6 +49,40 @@ class XChannelTests(unittest.TestCase):
         self.assertEqual([item[0] for item in calls], ["twscrape", "playwright"])
         self.assertTrue(calls[1][3])
 
+    def test_web_access_complete_accounts_are_not_requeried_and_results_are_merged(self):
+        calls = []
+        second = {"source_id": "x-two", "x_handle": "two", "display_name": "Two"}
+
+        async def web(report_date, accounts, **kwargs):
+            calls.append((x_search.CHANNEL_WEB_ACCESS_XAI, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(
+                x_search.CHANNEL_WEB_ACCESS_XAI,
+                completed_accounts=["x-example"],
+                tweets=[{"source_id": "x-example", "author": "Example", "handle": "example", "text": "one", "url": "https://x.com/example/status/1"}],
+                status="partial",
+                failed_accounts=[("x-two", "two", "Two", "staging failed")],
+            )
+
+        async def twscrape(report_date, accounts, **kwargs):
+            calls.append((x_search.CHANNEL_TWSCRAPE, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(
+                x_search.CHANNEL_TWSCRAPE,
+                completed_accounts=["x-two"],
+                tweets=[{"source_id": "x-two", "author": "Two", "handle": "two", "text": "two", "url": "https://twitter.com/two/status/2?utm_source=x"}],
+            )
+
+        async def playwright(*args, **kwargs):
+            self.fail("Playwright should not run after all accounts complete")
+
+        result, metadata = asyncio.run(x_search.run_ordered_channels(
+            "2026-08-19", [ACCOUNT, second],
+            runners=[(x_search.CHANNEL_WEB_ACCESS_XAI, web), (x_search.CHANNEL_TWSCRAPE, twscrape), (x_search.CHANNEL_PLAYWRIGHT, playwright)],
+        ))
+        self.assertEqual(result.status, "complete")
+        self.assertEqual([item[1] for item in calls], [["x-example", "x-two"], ["x-two"]])
+        self.assertEqual(len(result.tweets), 2)
+        self.assertEqual(metadata["selected_channel"], "web_access_xai+twscrape")
+
     def test_twscrape_curl_backend_is_unavailable_before_import(self):
         with mock.patch.object(x_search.importlib, "import_module") as import_module:
             with mock.patch.dict(os.environ, {"TWS_HTTP_BACKEND": "curl"}, clear=False):

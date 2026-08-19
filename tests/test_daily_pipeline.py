@@ -44,6 +44,32 @@ class DailyPipelineTests(unittest.TestCase):
             self.assertEqual(manifest["status"], "complete")
             self.assertEqual(len(candidates), 1)
 
+    def test_x_web_access_input_is_forwarded_and_partial_sidecar_is_preserved(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "data").mkdir()
+            (root / "x_outputs").mkdir()
+            shutil.copy(Path("data/source_registry.json"), root / "data/source_registry.json")
+            sidecar = {
+                "collector": "x_search", "report_date": "2024-02-29", "status": "partial",
+                "accounts_total": 53, "accounts_completed": 1, "accounts_failed": 52,
+                "attempted_channels": ["web_access_xai", "twscrape"], "channel_completed_accounts": {"web_access_xai": 1}, "selected_channel": "web_access_xai+twscrape",
+                "candidates": [], "errors": [{"source_id": "x-a", "handle": "a", "author": "A", "error": "failed"}],
+            }
+            captured = {}
+            def fake_process(command, **kwargs):
+                captured["command"] = command
+                (root / "x_outputs" / "2024-02-29_x_raw_materials.txt").write_text("audit", encoding="utf-8")
+                (root / "x_outputs" / "2024-02-29_x_raw_materials.json").write_text(json.dumps(sidecar), encoding="utf-8")
+                return 4, "stdout", "stderr", None
+            with mock.patch("scripts.daily_pipeline._run_process", side_effect=fake_process):
+                manifest = run_pipeline("2024-02-29", collect_x=True, x_web_access_input="staging.json", project_root=root)
+            self.assertIn("--web-access-input", captured["command"])
+            self.assertIn("staging.json", captured["command"])
+            self.assertEqual(manifest["status"], "partial")
+            collector = manifest["collectors"][0]
+            self.assertEqual(collector["metadata"]["part2_coverage"]["accounts_completed"], 1)
+
     def test_preflight_creates_manifest_without_running_collectors_and_refuses_final(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

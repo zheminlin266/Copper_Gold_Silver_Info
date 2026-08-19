@@ -63,11 +63,11 @@ AI 只接收代码产出的规范化候选，返回严格的分析决策和证�
 
 ### 5.2 Part 2：X 原帖
 
-X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `twscrape -> Playwright` 顺序尝试：先用一个授权 cookie 账号串行运行 twscrape；只有 twscrape 未安装、配置缺失或其他可安全回退的通道不可用时，才使用 Playwright。Playwright 回退路径调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。twscrape 安全停止、部分采集或实际失败不得静默改成零结果，也不得绕过顺序直接启动 Playwright。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
+X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `web-access(provider=xai) -> twscrape -> Playwright` 顺序尝试。web-access 只提供外部 staging JSON，Python 只做严格验证，不调用 AI 或网络 SDK；有效 staging 已完成账号不得重复查询，失败或缺失账号继续进入下一路径。无 staging、staging 不可用、twscrape 配置缺失等普通不可用情况可以回退。Playwright 回退路径调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。twscrape 安全停止、部分采集或实际失败不得静默改成零结果，也不得绕过顺序直接启动 Playwright。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
 
 在已授权的浏览器会话中检索种子账号和新发现的可靠账号。只收录原作者帖子，必须核对作者、handle、正文、原帖 URL 和发布时间。
 
-以下内容不纳入：搜索摘要、截图转述、无法打开的帖子、无新增事实的转发、纯口号、纯价格目标和未经证实的传闻。每次运行必须保留 X 原始材料中的 `选定通道`、`尝试通道`、`不可用通道`和 sidecar 审计；`search_log.part2_channel` 必须填写实际选定的 `twscrape` 或 `playwright`，不得硬编码。通道失败时 `part2_x_posts` 保持空数组，把 `part2_searched` 设为 `false`、`part2_channel` 设为 `failed` 并记录原因；继续完成 Part 1 和 Part 3 以保留研究成果，但最终不得把采集失败当作零结果发布。完整检索后确实没有合格帖子时，`part2_searched` 写 `true`，并填写实际选定通道，空数组可以发布。
+以下内容不纳入：搜索摘要、截图转述、无法打开的帖子、无新增事实的转发、纯口号、纯价格目标和未经证实的传闻。每次运行必须保留 X 原始材料中的 `选定通道`、`尝试通道`、`不可用通道`和 sidecar 审计，并记录 `accounts_completed/accounts_total/accounts_failed`。新报告的 `search_log.part2_coverage` 必须记录状态、路径和失败原因。完整状态要求所有账号完成、`part2_searched=true`；partial/failed 仍可随 Part 1 和 Part 3 的完整结果发布，`part2_searched=false`、`part2_result` 必须包含覆盖审计，页面显示 n/N，不能写成完整零结果。
 
 ### 5.3 Part 3：新闻
 
@@ -174,7 +174,7 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 ## 9. 写入 JSON
 
-复制最近一份 JSON 的结构作为参考，但所有内容必须来自本次研究。字段定义以 `data/daily_report_schema.json` 为准。
+复制最近一份 JSON 的结构作为参考，但所有内容必须来自本次研究。字段定义以 `data/daily_report_schema.json` 为准。新日期报告必须写入 X `search_log.part2_coverage`；历史报告可保持旧结构。原始材料写入前保留 sidecar 的账号覆盖、尝试路径、选定路径和失败原因。
 
 最低要求：
 
@@ -306,7 +306,7 @@ npm run build
 ## 12. 失败与恢复
 
 - 某一部分完整检索后没有合格内容：保留空数组，把对应 `*_searched` 写为 `true` 并写清检索范围，仍可发布“无合格信号”的日报。
-- 某一部分采集失败：把对应 `*_searched` 写为 `false` 并记录失败；不得把失败写成零结果，最终不得发布。X 登录失效时仍继续其他部分以保留研究成果，但不以搜索摘要代替原帖，也不发布不完整日报。
+- Part 1 或 Part 3 采集失败：把对应 `*_searched` 写为 `false` 并停止发布。X partial/failed：保留候选和 sidecar 审计，Part 2 写 `part2_searched=false` 与 coverage，继续完成其他部分；只要 Part 1 和 Part 3 完整，报告仍可发布，不能把缺失账号写成完整零结果。安全停止后不增加 X 流量。
 - 来源冲突：优先一手、时间更近且口径更完整的来源，并在解释中说明口径差异。
 - 任务延迟或补跑：明确指定目标 `REPORT_DATE`，窗口仍按该日期计算，不能直接用当前日期覆盖。
 - 文件已存在或工作区有不明修改：停止写入，先确认修改来源，避免数据丢失。
@@ -321,7 +321,7 @@ npm run build
 ## 14. 完成定义
 
 - [ ] 日期和三个窗口计算正确。
-- [ ] 三部分都完成检索，三个 `*_searched` 均为 `true`；空结果也有检索范围记录，采集失败没有冒充零结果。
+- [ ] Part 1 和 Part 3 完成检索且对应 `*_searched=true`；Part 2 有严格 coverage 审计，complete 为全账号完成，partial/failed 显示 n/N 和原因；空结果也有检索范围记录，采集失败没有冒充零结果。
 - [ ] 每个正文来源都有 `verification_status`；未核验来源显示明确标注和原因，没有虚构链接或未经确认的正文事实。
 - [ ] 事实、数字、口径和研究判断明确分开。
 - [ ] 每条已填写的重要性判断都说明规模、机制、时间、对比或不确定性中的至少三项并通过内容校验；精简卡没有用推测补齐正文。

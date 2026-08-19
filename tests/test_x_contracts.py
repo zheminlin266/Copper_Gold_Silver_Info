@@ -1,9 +1,47 @@
 import unittest
 
-from scripts.x_search import build_sidecar, candidate_id, normalize_x_candidate, sidecar_path
+from scripts.x_search import (
+    ChannelUnavailable,
+    build_sidecar,
+    candidate_id,
+    normalize_x_candidate,
+    sidecar_path,
+    validate_web_access_staging,
+)
 
 
 class XContractTests(unittest.TestCase):
+    def setUp(self):
+        self.accounts = [
+            {"source_id": "x-example", "x_handle": "example", "display_name": "Example"},
+            {"source_id": "x-other", "x_handle": "other", "display_name": "Other"},
+        ]
+
+    def test_web_access_staging_requires_strict_account_and_post_contract(self):
+        staging = {
+            "provider": "xai",
+            "report_date": "2026-08-19",
+            "accounts_total": 2,
+            "accounts_completed": 1,
+            "account_results": [
+                {"source_id": "x-example", "handle": "example", "status": "complete", "error": None, "posts": [{
+                    "author": "Example", "handle": "example", "url": "https://x.com/example/status/1",
+                    "text": "Copper supply update", "publish_time": "2026-08-19T10:00:00+08:00",
+                }]},
+                {"source_id": "x-other", "handle": "other", "status": "failed", "error": "login wall", "posts": []},
+            ],
+        }
+        normalized = validate_web_access_staging(staging, "2026-08-19", self.accounts)
+        self.assertEqual(normalized["accounts_completed"], 1)
+        for bad in (
+            {**staging, "provider": "other"},
+            {**staging, "accounts_completed": 2},
+            {**staging, "account_results": [{**staging["account_results"][0], "handle": "other"}]},
+        ):
+            with self.subTest(bad=bad):
+                with self.assertRaises(ChannelUnavailable):
+                    validate_web_access_staging(bad, "2026-08-19", self.accounts)
+
     def test_candidate_normalization_keeps_full_text_and_stable_id(self):
         tweet = {
             "source_id": "x-example",

@@ -196,7 +196,7 @@
           "url": {"type": "string", "format": "uri"},
           "source_channel": {
             "type": "string",
-            "enum": ["browser_use", "rss_fallback", "playwright"]
+            "enum": ["browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright"]
           }
         }
       }
@@ -275,7 +275,22 @@
         "part2_searched": {"type": "boolean"},
         "part2_channel": {
           "type": "string",
-          "enum": ["browser_use", "rss_fallback", "playwright", "failed"]
+          "enum": ["browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "failed"]
+        },
+        "part2_coverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["status", "accounts_total", "accounts_completed", "accounts_failed", "attempted_channels", "selected_channel", "channel_errors", "notes"],
+          "properties": {
+            "status": {"type": "string", "enum": ["complete", "partial", "failed"]},
+            "accounts_total": {"type": "integer", "minimum": 0},
+            "accounts_completed": {"type": "integer", "minimum": 0},
+            "accounts_failed": {"type": "integer", "minimum": 0},
+            "attempted_channels": {"type": "array", "items": {"type": "string", "enum": ["web_access_xai", "twscrape", "playwright"]}},
+            "selected_channel": {"type": ["string", "null"]},
+            "channel_errors": {"type": "array", "items": {"type": "string"}},
+            "notes": {"type": ["string", "array"], "items": {"type": "string"}}
+          }
         },
         "part2_sources_checked": {"type": "array", "items": {"type": "string"}},
         "part2_result": {"type": "string"},

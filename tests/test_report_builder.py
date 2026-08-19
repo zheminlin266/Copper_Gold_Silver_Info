@@ -93,6 +93,44 @@ class ReportBuilderTests(unittest.TestCase):
         report = project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
         self.assertEqual(report["search_log"]["part2_channel"], "twscrape")
 
+    def test_partial_and_failed_x_coverage_are_publishable_with_audit(self):
+        for status, completed, failed in (("partial", 1, 1), ("failed", 0, 2)):
+            with self.subTest(status=status):
+                bundle = self.bundle()
+                bundle["report_date"] = "2026-08-19"
+                bundle["candidates"][0]["published_at"] = "2026-08-19"
+                bundle["search_log"].update({
+                    "part2_searched": False,
+                    "part2_channel": "twscrape",
+                    "part2_result": f"X {completed}/2; {status} reason",
+                    "part2_coverage": {
+                        "status": status,
+                        "accounts_total": 2,
+                        "accounts_completed": completed,
+                        "accounts_failed": failed,
+                        "attempted_channels": ["web_access_xai", "twscrape"],
+                        "selected_channel": None,
+                        "channel_errors": ["account unavailable"],
+                        "notes": "preserved candidates",
+                    },
+                })
+                report = project_report(bundle, report_time="2026-08-20T07:00:00+08:00")
+                self.assertEqual(report["search_log"]["part2_coverage"]["status"], status)
+
+    def test_new_x_report_requires_consistent_coverage(self):
+        bundle = self.bundle()
+        bundle["report_date"] = "2026-08-19"
+        bundle["candidates"][0]["published_at"] = "2026-08-19"
+        with self.assertRaises(ReportBuilderError):
+            project_report(bundle, report_time="2026-08-20T07:00:00+08:00")
+        bundle["search_log"]["part2_coverage"] = {
+            "status": "complete", "accounts_total": 2, "accounts_completed": 1, "accounts_failed": 0,
+            "attempted_channels": ["web_access_xai"], "selected_channel": "web_access_xai",
+            "channel_errors": [], "notes": "bad count",
+        }
+        with self.assertRaises(ReportBuilderError):
+            project_report(bundle, report_time="2026-08-20T07:00:00+08:00")
+
     def test_explicit_rejection_is_not_published(self):
         bundle = self.bundle()
         bundle["decisions"][0] = {

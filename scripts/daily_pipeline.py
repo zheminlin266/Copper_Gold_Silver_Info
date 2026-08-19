@@ -21,11 +21,11 @@ from typing import Any, Iterable, Mapping
 try:
     from scripts.pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest
     from scripts.script_utils import parse_report_date
-    from scripts.source_registry import load_registry
+    from scripts.source_registry import get_x_accounts, load_registry
 except ModuleNotFoundError:
     from pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest  # type: ignore[no-redef]
     from script_utils import parse_report_date  # type: ignore[no-redef]
-    from source_registry import load_registry  # type: ignore[no-redef]
+    from source_registry import get_x_accounts, load_registry  # type: ignore[no-redef]
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RUNTIME_ROOT = PROJECT_ROOT / ".runtime" / "pipeline"
@@ -204,15 +204,23 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
     )
 
 
-def _collect_x(report_date: str, run_dir: Path, project_root: Path) -> CollectorResult:
+def _collect_x(
+    report_date: str,
+    run_dir: Path,
+    project_root: Path,
+    web_access_input: str | Path | None = None,
+) -> CollectorResult:
     output_path = project_root / "x_outputs" / f"{report_date}_x_raw_materials.txt"
     sidecar_path = output_path.with_suffix(".json")
     existed_before = output_path.exists() or sidecar_path.exists()
     command = [sys.executable, str(project_root / "scripts" / "x_search.py"), report_date, "--headless"]
+    if web_access_input:
+        command.extend(["--web-access-input", str(web_access_input)])
     returncode, stdout, stderr, process_error = _run_process(command, cwd=project_root)
     stdout_artifact, stderr_artifact = _write_process_artifacts(run_dir, "x_search", stdout, stderr)
     errors: list[str] = []
     candidates: list[Candidate] = []
+    artifacts: list[str] = []
     status = "complete"
     if process_error:
         errors.append(process_error)
@@ -221,33 +229,69 @@ def _collect_x(report_date: str, run_dir: Path, project_root: Path) -> Collector
         status = "partial" if returncode == 4 else "failed"
         errors.append(f"x_search exited with status {returncode}")
     # A pre-existing raw/sidecar pair must never be mistaken for this run's output.
-    if not existed_before and sidecar_path.exists():
+    sidecar_metadata: dict[str, Any] = {}
+    if not existed_before and output_path.exists() and sidecar_path.exists():
         try:
             sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
             raw_candidates = sidecar.get("candidates") if isinstance(sidecar, Mapping) else None
             sidecar_status = sidecar.get("status") if isinstance(sidecar, Mapping) else None
+            if not isinstance(sidecar, Mapping) or sidecar.get("collector") != "x_search":
+                raise ValueError("X sidecar collector is invalid")
+            if sidecar.get("report_date") != report_date:
+                raise ValueError("X sidecar report_date does not match")
             if not isinstance(raw_candidates, list):
                 raise ValueError("X sidecar candidates is not a list")
             if sidecar_status not in {"complete", "partial", "failed"}:
                 raise ValueError("X sidecar status is not complete, partial, or failed")
+            expected_accounts_total = len(get_x_accounts(load_registry(project_root / "data" / "source_registry.json")))
+            for field in ("accounts_total", "accounts_completed", "accounts_failed"):
+                if type(sidecar.get(field)) is not int or sidecar[field] < 0:
+                    raise ValueError(f"X sidecar {field} is invalid")
+            if sidecar["accounts_total"] != expected_accounts_total:
+                raise ValueError("X sidecar accounts_total does not match source registry")
+            if sidecar["accounts_completed"] + sidecar["accounts_failed"] != sidecar["accounts_total"]:
+                raise ValueError("X sidecar account counts are inconsistent")
+            attempted_channels = sidecar.get("attempted_channels")
+            if not isinstance(attempted_channels, list) or not attempted_channels or any(item not in {"web_access_xai", "twscrape", "playwright"} for item in attempted_channels):
+                raise ValueError("X sidecar attempted_channels is invalid")
+            if len(set(attempted_channels)) != len(attempted_channels):
+                raise ValueError("X sidecar attempted_channels contains duplicates")
+            if not isinstance(sidecar.get("channel_completed_accounts"), Mapping):
+                raise ValueError("X sidecar channel_completed_accounts is invalid")
             candidates = [_candidate_from_x(item, report_date) for item in raw_candidates]
+            sidecar_metadata = {"part2_coverage": {
+                "status": sidecar_status,
+                "accounts_total": sidecar["accounts_total"],
+                "accounts_completed": sidecar["accounts_completed"],
+                "accounts_failed": sidecar["accounts_failed"],
+                "attempted_channels": attempted_channels,
+                "selected_channel": sidecar.get("selected_channel"),
+                "channel_errors": sidecar.get("metadata", {}).get("channel_errors", []) if isinstance(sidecar.get("metadata"), Mapping) else [],
+                "notes": [
+                    f"{item.get('channel')}: {item.get('error')}"
+                    for item in sidecar.get("unavailable_channels", [])
+                    if isinstance(item, Mapping) and item.get("channel") and item.get("error")
+                ],
+            }}
             if returncode == 0 and sidecar_status != "complete":
                 status = "failed"
                 errors.append(f"X sidecar reported {sidecar_status} after exit 0")
             elif returncode == 4 and sidecar_status != "partial":
                 status = "failed"
                 errors.append(f"X sidecar reported {sidecar_status} after exit 4")
-            elif returncode != 4 and returncode != 0:
+            elif returncode != 4 and returncode != 0 and sidecar_status != "failed":
                 status = "failed"
             elif returncode == 0:
                 status = "complete"
+            elif sidecar_status in {"partial", "failed"}:
+                status = sidecar_status
             artifacts.append(str(sidecar_path.relative_to(project_root)))
         except (OSError, json.JSONDecodeError, ValueError, TypeError, ContractError) as error:
             status = "failed"
             errors.append(f"invalid X sidecar: {error}")
     else:
         status = "failed"
-        errors.append("X collector did not produce a new structured sidecar")
+        errors.append("X collector did not produce a new raw/structured sidecar")
     return CollectorResult(
         collector="x_search",
         status=status,
@@ -257,6 +301,7 @@ def _collect_x(report_date: str, run_dir: Path, project_root: Path) -> Collector
         stdout=stdout,
         stderr=stderr,
         artifacts=tuple([stdout_artifact, stderr_artifact, *artifacts]),
+        metadata=sidecar_metadata,
     )
 
 
@@ -266,6 +311,7 @@ def run_pipeline(
     dry_run: bool = False,
     collect_mining: bool = False,
     collect_x: bool = False,
+    x_web_access_input: str | Path | None = None,
     project_root: str | Path = PROJECT_ROOT,
 ) -> dict[str, Any]:
     """Run preflight and optional collectors, returning the manifest dictionary."""
@@ -305,14 +351,21 @@ def run_pipeline(
         if collect_mining:
             results.append(_collect_mining(parsed_date, run_dir, root))
         if collect_x:
-            results.append(_collect_x(parsed_date, run_dir, root))
+            results.append(_collect_x(parsed_date, run_dir, root, x_web_access_input))
     candidates = [candidate for result in results for candidate in result.candidates]
     candidate_ids = [candidate.id for candidate in candidates]
     document_ids = [candidate.document_id for candidate in candidates]
     if len(set(candidate_ids)) != len(candidate_ids):
         raise PipelineError("collectors returned duplicate candidate IDs")
     _atomic_json(run_dir / "candidates.json", [candidate.to_dict() for candidate in candidates])
-    overall_status = "preflight" if dry_run or not planned else ("complete" if all(result.status == "complete" for result in results) else "failed")
+    if dry_run or not planned:
+        overall_status = "preflight"
+    elif any(result.status == "failed" for result in results):
+        overall_status = "failed"
+    elif any(result.status == "partial" for result in results):
+        overall_status = "partial"
+    else:
+        overall_status = "complete"
     completed_at = datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat()
     final_manifest = RunManifest(
         run_id=run_id,
@@ -340,6 +393,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--dry-run", action="store_true", help="preflight only; do not invoke collectors")
     parser.add_argument("--collect-mining", action="store_true")
     parser.add_argument("--collect-x", action="store_true")
+    parser.add_argument("--x-web-access-input", help="external xAI web-access staging JSON")
     args = parser.parse_args(argv)
     try:
         manifest = run_pipeline(
@@ -347,6 +401,7 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             collect_mining=args.collect_mining,
             collect_x=args.collect_x,
+            x_web_access_input=args.x_web_access_input,
         )
     except (PipelineError, ContractError, ValueError, FileExistsError) as error:
         parser.error(str(error))
