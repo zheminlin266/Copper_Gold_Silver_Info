@@ -83,6 +83,38 @@ class XChannelTests(unittest.TestCase):
         self.assertEqual(len(result.tweets), 2)
         self.assertEqual(metadata["selected_channel"], "web_access_xai+twscrape")
 
+    def test_partial_twscrape_falls_back_to_playwright_only_for_remaining_accounts(self):
+        calls = []
+        second = {"source_id": "x-two", "x_handle": "two", "display_name": "Two"}
+
+        async def web(_date, accounts, **_kwargs):
+            calls.append((x_search.CHANNEL_WEB_ACCESS_XAI, [item["source_id"] for item in accounts]))
+            raise x_search.ChannelUnavailable("staging missing")
+
+        async def twscrape(_date, accounts, **_kwargs):
+            calls.append((x_search.CHANNEL_TWSCRAPE, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(x_search.CHANNEL_TWSCRAPE, completed_accounts=["x-example"], status="partial")
+
+        async def playwright(_date, accounts, **_kwargs):
+            calls.append((x_search.CHANNEL_PLAYWRIGHT, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(x_search.CHANNEL_PLAYWRIGHT, completed_accounts=["x-two"])
+
+        result, metadata = asyncio.run(x_search.run_ordered_channels(
+            "2026-08-19", [ACCOUNT, second],
+            runners=[
+                (x_search.CHANNEL_WEB_ACCESS_XAI, web),
+                (x_search.CHANNEL_TWSCRAPE, twscrape),
+                (x_search.CHANNEL_PLAYWRIGHT, playwright),
+            ],
+        ))
+        self.assertEqual(result.status, "complete")
+        self.assertEqual(calls, [
+            (x_search.CHANNEL_WEB_ACCESS_XAI, ["x-example", "x-two"]),
+            (x_search.CHANNEL_TWSCRAPE, ["x-example", "x-two"]),
+            (x_search.CHANNEL_PLAYWRIGHT, ["x-two"]),
+        ])
+        self.assertEqual(metadata["selected_channel"], "twscrape+playwright")
+
     def test_twscrape_curl_backend_is_unavailable_before_import(self):
         with mock.patch.object(x_search.importlib, "import_module") as import_module:
             with mock.patch.dict(os.environ, {"TWS_HTTP_BACKEND": "curl"}, clear=False):

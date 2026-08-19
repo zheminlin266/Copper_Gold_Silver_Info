@@ -10,20 +10,21 @@ import argparse
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
-from urllib.parse import urldefrag
+from urllib.parse import urldefrag, urlsplit
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable, Mapping
 
 try:
-    from scripts.pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest
+    from scripts.pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest, validate_datetime, validate_url
     from scripts.script_utils import parse_report_date
     from scripts.source_registry import get_x_accounts, load_registry
 except ModuleNotFoundError:
-    from pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest  # type: ignore[no-redef]
+    from pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest, validate_datetime, validate_url  # type: ignore[no-redef]
     from script_utils import parse_report_date  # type: ignore[no-redef]
     from source_registry import get_x_accounts, load_registry  # type: ignore[no-redef]
 
@@ -101,30 +102,30 @@ def _candidate_from_mining(article: Mapping[str, Any], report_date: str, metal: 
 
 
 def _candidate_from_x(item: Mapping[str, Any], report_date: str) -> Candidate:
-    source_url = item.get("url")
-    title = item.get("title") or f"{item.get('author', '')} ({item.get('handle', '')})"
-    raw_text = item.get("text", item.get("raw_text", ""))
-    candidate_id = item.get("candidate_id", item.get("id"))
-    source_id = item.get("source_id", item.get("handle", "x"))
-    if not isinstance(source_url, str) or not isinstance(title, str) or not isinstance(raw_text, str):
-        raise ContractError("X candidate must contain string url, title, and text")
-    if not isinstance(candidate_id, str) or not candidate_id.strip():
-        candidate_id = _stable_id("candidate", "x_search", source_id, source_url)
-    document_id = _stable_id("doc", "x_search", source_url)
-    published_at = item.get("publish_time", item.get("published_at", report_date))
-    if not isinstance(published_at, str):
-        published_at = report_date
+    required = ("candidate_id", "source_id", "author", "handle", "text", "url", "publish_time", "collector", "status", "report_date")
+    if any(not isinstance(item.get(field), str) or not item[field].strip() for field in required):
+        raise ContractError("X sidecar candidate is missing a required non-empty field")
+    if item["collector"] != "x_search" or item["status"] != "ok" or item["report_date"] != report_date:
+        raise ContractError("X sidecar candidate metadata is invalid")
+    source_url = validate_url(item["url"], "X candidate.url")
+    parsed_url = urlsplit(source_url)
+    if (parsed_url.hostname or "").casefold() not in {"x.com", "twitter.com"} or re.fullmatch(r"/[^/\s]+/status/\d+/?", parsed_url.path or "") is None:
+        raise ContractError("X candidate.url must be an x.com/twitter.com status URL")
+    published_at = validate_datetime(item["publish_time"], "X candidate.publish_time")
+    if datetime.fromisoformat(published_at.replace("Z", "+00:00")).astimezone(TZ_BEIJING).strftime("%Y-%m-%d") != report_date:
+        raise ContractError("X candidate.publish_time does not match report_date")
+    title = item.get("title") or f"{item['author']} ({item['handle']})"
     return Candidate(
-        id=candidate_id,
-        document_id=document_id,
+        id=item["candidate_id"],
+        document_id=_stable_id("doc", "x_search", source_url),
         source_url=source_url,
         title=title,
-        text=raw_text,
+        text=item["text"],
         published_at=published_at,
         collector="x_search",
         kind="x",
-        author=item.get("author"),
-        handle=item.get("handle"),
+        author=item["author"],
+        handle=item["handle"],
         raw=dict(item),
     )
 
@@ -243,7 +244,9 @@ def _collect_x(
                 raise ValueError("X sidecar candidates is not a list")
             if sidecar_status not in {"complete", "partial", "failed"}:
                 raise ValueError("X sidecar status is not complete, partial, or failed")
-            expected_accounts_total = len(get_x_accounts(load_registry(project_root / "data" / "source_registry.json")))
+            expected_accounts = get_x_accounts(load_registry(project_root / "data" / "source_registry.json"))
+            expected_account_ids = {account["source_id"] for account in expected_accounts}
+            expected_accounts_total = len(expected_accounts)
             for field in ("accounts_total", "accounts_completed", "accounts_failed"):
                 if type(sidecar.get(field)) is not int or sidecar[field] < 0:
                     raise ValueError(f"X sidecar {field} is invalid")
@@ -251,22 +254,59 @@ def _collect_x(
                 raise ValueError("X sidecar accounts_total does not match source registry")
             if sidecar["accounts_completed"] + sidecar["accounts_failed"] != sidecar["accounts_total"]:
                 raise ValueError("X sidecar account counts are inconsistent")
+            sidecar_errors = sidecar.get("errors")
+            if not isinstance(sidecar_errors, list) or len(sidecar_errors) != sidecar["accounts_failed"]:
+                raise ValueError("X sidecar errors do not match failed account count")
+            error_ids: set[str] = set()
+            for error in sidecar_errors:
+                if not isinstance(error, Mapping) or any(not isinstance(error.get(field), str) or not error[field].strip() for field in ("source_id", "handle", "author", "error")):
+                    raise ValueError("X sidecar error entry is invalid")
+                if error["source_id"] not in expected_account_ids or error["source_id"] in error_ids:
+                    raise ValueError("X sidecar error account mapping is invalid")
+                error_ids.add(error["source_id"])
             attempted_channels = sidecar.get("attempted_channels")
-            if not isinstance(attempted_channels, list) or not attempted_channels or any(item not in {"web_access_xai", "twscrape", "playwright"} for item in attempted_channels):
-                raise ValueError("X sidecar attempted_channels is invalid")
-            if len(set(attempted_channels)) != len(attempted_channels):
-                raise ValueError("X sidecar attempted_channels contains duplicates")
-            if not isinstance(sidecar.get("channel_completed_accounts"), Mapping):
+            channel_order = ["web_access_xai", "twscrape", "playwright"]
+            if not isinstance(attempted_channels, list) or not attempted_channels or attempted_channels != channel_order[:len(attempted_channels)]:
+                raise ValueError("X sidecar attempted_channels must be an ordered channel prefix")
+            channel_completed_accounts = sidecar.get("channel_completed_accounts")
+            if not isinstance(channel_completed_accounts, Mapping):
                 raise ValueError("X sidecar channel_completed_accounts is invalid")
+            if any(channel not in attempted_channels or type(count) is not int or count < 0 for channel, count in channel_completed_accounts.items()):
+                raise ValueError("X sidecar channel_completed_accounts is invalid")
+            if sum(channel_completed_accounts.values()) != sidecar["accounts_completed"]:
+                raise ValueError("X sidecar channel completion counts do not match accounts_completed")
+            selected_channel = sidecar.get("selected_channel")
+            valid_selected = {None, *channel_order, "web_access_xai+twscrape", "web_access_xai+playwright", "twscrape+playwright", "web_access_xai+twscrape+playwright"}
+            if selected_channel not in valid_selected:
+                raise ValueError("X sidecar selected_channel is invalid")
+            if selected_channel is not None:
+                selected_parts = selected_channel.split("+")
+                attempted_indexes = [attempted_channels.index(part) if part in attempted_channels else -1 for part in selected_parts]
+                if any(index < 0 for index in attempted_indexes) or any(current <= previous for previous, current in zip(attempted_indexes, attempted_indexes[1:])):
+                    raise ValueError("X sidecar selected_channel conflicts with attempted_channels")
+            sidecar_metadata_raw = sidecar.get("metadata")
+            if not isinstance(sidecar_metadata_raw, Mapping) or not isinstance(sidecar_metadata_raw.get("channel_errors", []), list):
+                raise ValueError("X sidecar metadata is invalid")
+            unavailable_channels = sidecar.get("unavailable_channels")
+            if not isinstance(unavailable_channels, list) or any(
+                not isinstance(item, Mapping)
+                or item.get("channel") not in attempted_channels
+                or not isinstance(item.get("error"), str)
+                or not item["error"].strip()
+                for item in unavailable_channels
+            ):
+                raise ValueError("X sidecar unavailable_channels is invalid")
             candidates = [_candidate_from_x(item, report_date) for item in raw_candidates]
+            if any(item.get("source_id") not in expected_account_ids for item in raw_candidates):
+                raise ValueError("X sidecar candidate account mapping is invalid")
             sidecar_metadata = {"part2_coverage": {
                 "status": sidecar_status,
                 "accounts_total": sidecar["accounts_total"],
                 "accounts_completed": sidecar["accounts_completed"],
                 "accounts_failed": sidecar["accounts_failed"],
                 "attempted_channels": attempted_channels,
-                "selected_channel": sidecar.get("selected_channel"),
-                "channel_errors": sidecar.get("metadata", {}).get("channel_errors", []) if isinstance(sidecar.get("metadata"), Mapping) else [],
+                "selected_channel": selected_channel,
+                "channel_errors": sidecar_metadata_raw.get("channel_errors", []),
                 "notes": [
                     f"{item.get('channel')}: {item.get('error')}"
                     for item in sidecar.get("unavailable_channels", [])

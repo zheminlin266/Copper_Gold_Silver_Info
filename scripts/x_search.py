@@ -397,7 +397,15 @@ async def collect_web_access(
             completed_accounts.append(account["source_id"])
             tweets.extend(item["posts"])
         else:
-            failed_accounts.append((account["source_id"], account["x_handle"], account["display_name"], item["error"]))
+            failure = (account["source_id"], account["x_handle"], account["display_name"], item["error"])
+            if is_x_safety_error(RuntimeError(item["error"])):
+                raise XSafetyStop(
+                    f"web-access safety stop for @{account['x_handle']}: {item['error']}",
+                    tweets=tweets,
+                    completed_accounts=completed_accounts,
+                    failed_accounts=failed_accounts + [failure],
+                )
+            failed_accounts.append(failure)
     status = "complete" if len(completed_accounts) == len(accounts) else ("partial" if completed_accounts else "failed")
     return ChannelResult(
         CHANNEL_WEB_ACCESS_XAI,
@@ -446,8 +454,11 @@ def is_x_safety_error(error: BaseException) -> bool:
             "account_locked",
             "locked account",
             "suspended",
+            "suspension",
             "captcha",
             "authorization required",
+            "no account available",
+            "all accounts unavailable",
         )
     )
 
@@ -1107,6 +1118,7 @@ async def collect_playwright(
                         str(safety_error),
                         tweets=all_tweets,
                         failed_accounts=failed_accounts,
+                        completed_accounts=completed_accounts,
                     ) from safety_error
                 all_tweets.extend(tweets)
                 if error:
@@ -1168,7 +1180,20 @@ async def run_ordered_channels(
     channel_errors: list[str] = []
     last_channel: str | None = None
 
-    def merge_result(channel: str, result: ChannelResult, requested: list[dict]) -> None:
+    def validate_result_accounts(result: ChannelResult, requested: list[dict]) -> tuple[list[str], list[tuple[str, str, str, str]]]:
+        requested_by_id = {account["source_id"]: account for account in requested}
+        completed_accounts = list(result.completed_accounts)
+        if len(set(completed_accounts)) != len(completed_accounts) or any(source_id not in requested_by_id for source_id in completed_accounts):
+            raise ChannelUnavailable(f"{result.channel} returned an invalid completed account mapping")
+        failures = list(result.failed_accounts)
+        failure_ids: set[str] = set()
+        for failure in failures:
+            if not isinstance(failure, (tuple, list)) or len(failure) != 4 or failure[0] not in requested_by_id or failure[0] in failure_ids or failure[0] in completed_accounts:
+                raise ChannelUnavailable(f"{result.channel} returned an invalid failed account mapping")
+            failure_ids.add(failure[0])
+        return completed_accounts, [tuple(failure) for failure in failures]
+
+    def merge_result(channel: str, result: ChannelResult, requested: list[dict], completed_accounts: list[str], failures: list[tuple[str, str, str, str]]) -> None:
         nonlocal last_channel
         last_channel = channel
         for tweet in result.tweets:
@@ -1177,12 +1202,12 @@ async def run_ordered_channels(
             if key and key not in seen_urls:
                 seen_urls.add(key)
                 tweets.append(tweet)
-        explicit = set(result.completed_accounts)
+        explicit = set(completed_accounts)
         if not explicit and result.status == "complete":
             explicit = {account["source_id"] for account in requested}
         explicit &= set(pending)
         completed.update(explicit)
-        for failure in result.failed_accounts:
+        for failure in failures:
             failed[failure[0]] = failure
             channel_errors.append(f"{channel} @{failure[1]}: {failure[3]}")
         channel_completed[channel] = channel_completed.get(channel, 0) + len(explicit)
@@ -1208,9 +1233,23 @@ async def run_ordered_channels(
             )
             if not isinstance(result, ChannelResult):
                 raise ChannelUnavailable(f"{channel} returned an invalid channel result")
-            merge_result(channel, result, requested)
+            reported_completed, reported_failures = validate_result_accounts(result, requested)
+            safety_failures = [failure for failure in reported_failures if is_x_safety_error(RuntimeError(failure[3]))]
+            safety_error = result.error if result.error and is_x_safety_error(RuntimeError(result.error)) else None
+            if safety_failures or safety_error:
+                raise XSafetyStop(
+                    safety_error or f"{channel} safety stop for @{safety_failures[0][1]}: {safety_failures[0][3]}",
+                    tweets=tweets + list(result.tweets),
+                    completed_accounts=sorted(completed | set(reported_completed)),
+                    failed_accounts=reported_failures,
+                )
+            merge_result(channel, result, requested, reported_completed, reported_failures)
         except XSafetyStop as error:
-            completed.update(error.completed_accounts)
+            requested_ids = {account["source_id"] for account in requested}
+            safety_completed = set(error.completed_accounts) & requested_ids
+            completed.update(safety_completed)
+            if safety_completed:
+                channel_completed[channel] = channel_completed.get(channel, 0) + len(safety_completed)
             for failure in error.failed_accounts:
                 failed[failure[0]] = failure
             for account in requested:
@@ -1454,7 +1493,9 @@ if __name__ == "__main__":
             output_suffix = sys.argv[index + 1]
         elif argument.startswith("--web-access-input="):
             web_access_input = argument.split("=", 1)[1]
-        elif argument == "--web-access-input" and index + 1 < len(sys.argv):
+        elif argument == "--web-access-input":
+            if index + 1 >= len(sys.argv):
+                raise ValueError("--web-access-input requires a path")
             web_access_input = sys.argv[index + 1]
     try:
         asyncio.run(main(date, headless, overwrite, output_suffix, web_access_input))

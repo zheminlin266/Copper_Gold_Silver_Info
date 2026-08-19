@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import tempfile
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
@@ -55,6 +56,12 @@ SOURCE_TYPES = frozenset({
 })
 LANGUAGES = frozenset({"en", "zh"})
 PART2_CHANNELS = frozenset({"browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "failed"})
+PART2_CHANNEL_ORDER = ("web_access_xai", "twscrape", "playwright")
+PART2_SELECTED_CHANNELS = frozenset({
+    "web_access_xai", "twscrape", "playwright",
+    "web_access_xai+twscrape", "web_access_xai+playwright", "twscrape+playwright",
+    "web_access_xai+twscrape+playwright",
+})
 PART2_COVERAGE_REQUIRED_FROM = "2026-08-19"
 PART3_CHANNELS = frozenset({"web", "playwright"})
 
@@ -193,13 +200,15 @@ def _validate_part2_coverage(value: Any) -> dict[str, Any]:
     if coverage["status"] != "complete" and coverage["accounts_completed"] == coverage["accounts_total"]:
         raise ReportBuilderError("non-complete Part 2 coverage cannot complete every account")
     attempted = coverage.get("attempted_channels")
-    if not isinstance(attempted, list) or not attempted or any(item not in {"web_access_xai", "twscrape", "playwright"} for item in attempted):
-        raise ReportBuilderError("search_log.part2_coverage.attempted_channels is invalid")
-    if len(set(attempted)) != len(attempted):
-        raise ReportBuilderError("search_log.part2_coverage.attempted_channels must not repeat channels")
+    if not isinstance(attempted, list) or attempted != list(PART2_CHANNEL_ORDER[:len(attempted)]):
+        raise ReportBuilderError("search_log.part2_coverage.attempted_channels must be an ordered channel prefix")
     selected = coverage.get("selected_channel")
-    if selected is not None and (not isinstance(selected, str) or not selected.strip()):
-        raise ReportBuilderError("search_log.part2_coverage.selected_channel must be a string or null")
+    if selected not in PART2_SELECTED_CHANNELS and selected is not None:
+        raise ReportBuilderError("search_log.part2_coverage.selected_channel is unsupported")
+    if selected is not None:
+        selected_parts = selected.split("+")
+        if any(part not in attempted for part in selected_parts) or selected_parts != sorted(selected_parts, key=PART2_CHANNEL_ORDER.index):
+            raise ReportBuilderError("search_log.part2_coverage.selected_channel conflicts with attempted_channels")
     for field in ("channel_errors", "notes"):
         if not isinstance(coverage[field], (str, list)):
             raise ReportBuilderError(f"search_log.part2_coverage.{field} must be text or a list")
@@ -238,6 +247,12 @@ def _validate_search_log(value: Any) -> dict[str, Any]:
                 raise ReportBuilderError("complete Part 2 requires part2_result")
         elif not isinstance(data.get("part2_result"), str) or not data["part2_result"].strip():
             raise ReportBuilderError("partial or failed Part 2 requires a non-empty audit result")
+        else:
+            match = re.search(r"(?<!\d)(\d+)/(\d+)(?!\d)", data["part2_result"])
+            if not match:
+                raise ReportBuilderError("partial or failed Part 2 result must include completed n/N")
+            if (int(match.group(1)), int(match.group(2))) != (coverage["accounts_completed"], coverage["accounts_total"]):
+                raise ReportBuilderError("partial or failed Part 2 n/N conflicts with coverage counts")
     else:
         if data.get("part2_searched") is not True:
             raise ReportBuilderError("legacy Part 2 requires part2_searched=true")

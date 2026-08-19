@@ -1,4 +1,5 @@
 import unittest
+from unittest import mock
 
 from scripts.x_search import (
     ChannelUnavailable,
@@ -41,6 +42,24 @@ class XContractTests(unittest.TestCase):
             with self.subTest(bad=bad):
                 with self.assertRaises(ChannelUnavailable):
                     validate_web_access_staging(bad, "2026-08-19", self.accounts)
+
+    def test_web_access_safety_failure_stops_fallback(self):
+        import asyncio
+        from scripts import x_search
+
+        staging = {
+            "provider": "xai",
+            "report_date": "2026-08-19",
+            "accounts_total": 2,
+            "accounts_completed": 1,
+            "account_results": [
+                {"source_id": "x-example", "handle": "example", "status": "complete", "posts": []},
+                {"source_id": "x-other", "handle": "other", "status": "failed", "error": "HTTP 429 rate limit", "posts": []},
+            ],
+        }
+        with self.assertRaises(x_search.XSafetyStop):
+            with mock.patch.object(x_search, "load_web_access_staging", return_value=x_search.validate_web_access_staging(staging, "2026-08-19", self.accounts)):
+                asyncio.run(x_search.collect_web_access("2026-08-19", self.accounts, input_path="ignored.json"))
 
     def test_candidate_normalization_keeps_full_text_and_stable_id(self):
         tweet = {

@@ -22,6 +22,14 @@ const PRIMARY_METAL_REQUIRED_FROM = "2026-07-14";
 const IMPORTANCE_VALIDATED_FROM = "2026-07-31";
 const COLLECTION_COMPLETENESS_REQUIRED_FROM = "2026-08-09";
 const PART2_COVERAGE_REQUIRED_FROM = "2026-08-19";
+const X_CHANNEL_ORDER = ["web_access_xai", "twscrape", "playwright"];
+const PART2_SELECTED_CHANNELS = new Set([
+  ...X_CHANNEL_ORDER,
+  "web_access_xai+twscrape",
+  "web_access_xai+playwright",
+  "twscrape+playwright",
+  "web_access_xai+twscrape+playwright",
+]);
 const VERIFICATION_STATUS_REQUIRED_FROM = "2026-08-09";
 const WINDOW_BOUNDARY_REQUIRED_FROM = "2026-07-06";
 const PUBLISH_WINDOW_REQUIRED_FROM = "2026-07-06";
@@ -314,13 +322,22 @@ function validatePart2Coverage(report, filename) {
   if (coverage.accounts_completed + coverage.accounts_failed !== coverage.accounts_total) throw new Error(`${filename}: Part 2 coverage counts must sum to accounts_total`);
   if (coverage.status === "complete" && coverage.accounts_completed !== coverage.accounts_total) throw new Error(`${filename}: complete Part 2 coverage must complete every account`);
   if (coverage.status !== "complete" && coverage.accounts_completed === coverage.accounts_total) throw new Error(`${filename}: non-complete Part 2 coverage cannot complete every account`);
-  if (!Array.isArray(coverage.attempted_channels) || coverage.attempted_channels.length === 0 || coverage.attempted_channels.some((item) => !new Set(["web_access_xai", "twscrape", "playwright"]).has(item))) throw new Error(`${filename}: search_log.part2_coverage.attempted_channels is invalid`);
-  if (new Set(coverage.attempted_channels).size !== coverage.attempted_channels.length) throw new Error(`${filename}: attempted X channels must not repeat`);
-  if (coverage.selected_channel !== null && typeof coverage.selected_channel !== "string") throw new Error(`${filename}: search_log.part2_coverage.selected_channel must be a string or null`);
+  if (!Array.isArray(coverage.attempted_channels) || coverage.attempted_channels.length === 0 || JSON.stringify(coverage.attempted_channels) !== JSON.stringify(X_CHANNEL_ORDER.slice(0, coverage.attempted_channels.length))) throw new Error(`${filename}: search_log.part2_coverage.attempted_channels must be an ordered channel prefix`);
+  if (coverage.selected_channel !== null && !PART2_SELECTED_CHANNELS.has(coverage.selected_channel)) throw new Error(`${filename}: search_log.part2_coverage.selected_channel is unsupported`);
+  if (coverage.selected_channel !== null) {
+    const selectedParts = coverage.selected_channel.split("+");
+    const attemptedIndexes = selectedParts.map((part) => coverage.attempted_channels.indexOf(part));
+    if (attemptedIndexes.some((index) => index < 0) || attemptedIndexes.some((index, position) => position > 0 && index <= attemptedIndexes[position - 1])) throw new Error(`${filename}: selected X channels conflict with attempted_channels`);
+  }
   if (!Array.isArray(coverage.channel_errors) || coverage.channel_errors.some((item) => typeof item !== "string" || !item.trim())) throw new Error(`${filename}: search_log.part2_coverage.channel_errors is invalid`);
   if (typeof coverage.notes !== "string" && !Array.isArray(coverage.notes)) throw new Error(`${filename}: search_log.part2_coverage.notes is invalid`);
   if (report.search_log.part2_searched !== (coverage.status === "complete")) throw new Error(`${filename}: part2_searched conflicts with coverage status`);
   if (typeof report.search_log.part2_result !== "string" || !report.search_log.part2_result.trim()) throw new Error(`${filename}: partial/failed Part 2 needs part2_result audit`);
+  if (coverage.status !== "complete") {
+    const match = /(?<!\d)(\d+)\/(\d+)(?!\d)/.exec(report.search_log.part2_result);
+    if (!match) throw new Error(`${filename}: partial/failed Part 2 result must include completed n/N`);
+    if (Number(match[1]) !== coverage.accounts_completed || Number(match[2]) !== coverage.accounts_total) throw new Error(`${filename}: partial/failed Part 2 n/N conflicts with coverage counts`);
+  }
 }
 
 function validateVerificationCoverage(report, filename) {

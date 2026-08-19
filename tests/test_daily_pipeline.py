@@ -6,6 +6,7 @@ from pathlib import Path
 from unittest import mock
 
 from scripts.daily_pipeline import PipelineError, calculate_windows, run_pipeline
+from scripts.source_registry import get_x_accounts, load_registry
 
 
 class DailyPipelineTests(unittest.TestCase):
@@ -54,7 +55,11 @@ class DailyPipelineTests(unittest.TestCase):
                 "collector": "x_search", "report_date": "2024-02-29", "status": "partial",
                 "accounts_total": 53, "accounts_completed": 1, "accounts_failed": 52,
                 "attempted_channels": ["web_access_xai", "twscrape"], "channel_completed_accounts": {"web_access_xai": 1}, "selected_channel": "web_access_xai+twscrape",
-                "candidates": [], "errors": [{"source_id": "x-a", "handle": "a", "author": "A", "error": "failed"}],
+                "metadata": {"channel_errors": []}, "unavailable_channels": [],
+                "candidates": [], "errors": [
+                    {"source_id": account["source_id"], "handle": account["x_handle"], "author": account["display_name"], "error": "failed"}
+                    for account in get_x_accounts(load_registry())[:52]
+                ],
             }
             captured = {}
             def fake_process(command, **kwargs):
