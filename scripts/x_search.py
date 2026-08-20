@@ -277,8 +277,29 @@ def _text_for_error(error: BaseException) -> str:
     return f"{type(error).__name__}: {error}".casefold()
 
 
+def _status_code(value: Any) -> int | None:
+    if isinstance(value, dict):
+        for name in ("status_code", "status"):
+            candidate = value.get(name)
+            if isinstance(candidate, int) and not isinstance(candidate, bool):
+                return candidate
+            if isinstance(candidate, str) and candidate.strip().isdigit():
+                return int(candidate.strip())
+        return None
+    for name in ("status_code", "status"):
+        candidate = getattr(value, name, None)
+        if isinstance(candidate, int) and not isinstance(candidate, bool):
+            return candidate
+        if isinstance(candidate, str) and candidate.strip().isdigit():
+            return int(candidate.strip())
+    return None
+
+
 def is_x_safety_error(error: BaseException) -> bool:
     """Classify stop conditions without retrying or probing another channel."""
+    for value in (error, getattr(error, "response", None)):
+        if _status_code(value) in {401, 403, 429}:
+            return True
     text = _text_for_error(error)
     return any(
         marker in text
@@ -286,6 +307,15 @@ def is_x_safety_error(error: BaseException) -> bool:
             "401",
             "403",
             "429",
+            "http 401",
+            "http 403",
+            "http 429",
+            "status 401",
+            "status 403",
+            "status 429",
+            "unauthorized",
+            "forbidden",
+            "toomanyrequests",
             "rate limit",
             "ratelimit",
             "challenge",
@@ -485,31 +515,48 @@ def build_sidecar(
     attempted = list(attempted_channels or [])
     if attempted != channel_order[:len(attempted)]:
         raise ValueError("attempted_channels must be a Playwright -> twscrape prefix")
-    valid_selected = {None, *channel_order, "playwright+twscrape"}
-    if selected_channel not in valid_selected:
-        raise ValueError("selected_channel is not valid for the current collector")
-    if selected_channel is not None:
-        selected_parts = selected_channel.split("+")
-        if any(part not in attempted for part in selected_parts):
-            raise ValueError("selected_channel must be present in attempted_channels")
-        indexes = [attempted.index(part) for part in selected_parts]
-        if indexes != sorted(indexes):
-            raise ValueError("selected_channel must preserve channel order")
     inferred_ids = {item.get("source_id") for item in tweets if item.get("source_id")}
     inferred_ids.update(item[0] for item in failed_accounts)
     total = len(inferred_ids) if accounts_total is None else accounts_total
     completed = max(0, total - len(failed_accounts)) if accounts_completed is None else accounts_completed
+    failed = len(failed_accounts)
+    if any(type(value) is not int or value < 0 for value in (total, completed, failed)):
+        raise ValueError("account counts must be non-negative integers")
+    if completed + failed != total:
+        raise ValueError("account counts must sum to accounts_total")
+    resolved_status = status or ("failed" if failed and completed == 0 else "partial" if failed else "complete")
+    if resolved_status not in {"complete", "partial", "failed"}:
+        raise ValueError("status must be complete, partial, or failed")
+    if resolved_status == "complete" and (completed != total or failed != 0):
+        raise ValueError("complete status requires all accounts completed and no failures")
+    if resolved_status == "partial" and (completed < 1 or failed < 1):
+        raise ValueError("partial status requires at least one completed and one failed account")
+    if resolved_status == "failed" and (completed != 0 or failed != total):
+        raise ValueError("failed status requires zero completed and all accounts failed")
+    channel_completed = dict(channel_completed_accounts or {})
+    if any(
+        channel not in attempted or type(count) is not int or count < 0
+        for channel, count in channel_completed.items()
+    ):
+        raise ValueError("channel_completed_accounts is invalid")
+    if sum(channel_completed.values()) != completed:
+        raise ValueError("channel completion counts do not match accounts_completed")
+    expected_selected = "+".join(
+        channel for channel in channel_order if channel in attempted and channel_completed.get(channel, 0) > 0
+    ) or None
+    if selected_channel != expected_selected:
+        raise ValueError("selected_channel does not match channel completion counts")
     sidecar = {
         "collector": "x_search",
         "report_date": report_date,
-        "status": status or ("partial" if failed_accounts else "complete"),
+        "status": resolved_status,
         "selected_channel": selected_channel,
         "attempted_channels": list(attempted_channels or []),
         "unavailable_channels": list(unavailable_channels or []),
         "accounts_total": total,
         "accounts_completed": completed,
-        "accounts_failed": len(failed_accounts),
-        "channel_completed_accounts": dict(channel_completed_accounts or {}),
+        "accounts_failed": failed,
+        "channel_completed_accounts": channel_completed,
         "candidates": [normalize_x_candidate(tweet, report_date) for tweet in tweets],
         "errors": [
             {"source_id": source_id, "handle": handle, "author": name, "error": error}
@@ -1038,6 +1085,7 @@ async def run_ordered_channels(
 
     def validate_result_accounts(result: ChannelResult, requested: list[dict]) -> tuple[list[str], list[tuple[str, str, str, str]]]:
         requested_by_id = {account["source_id"]: account for account in requested}
+        requested_ids = set(requested_by_id)
         completed_accounts = list(result.completed_accounts)
         if len(set(completed_accounts)) != len(completed_accounts) or any(source_id not in requested_by_id for source_id in completed_accounts):
             raise ChannelUnavailable(f"{result.channel} returned an invalid completed account mapping")
@@ -1047,6 +1095,12 @@ async def run_ordered_channels(
             if not isinstance(failure, (tuple, list)) or len(failure) != 4 or failure[0] not in requested_by_id or failure[0] in failure_ids or failure[0] in completed_accounts:
                 raise ChannelUnavailable(f"{result.channel} returned an invalid failed account mapping")
             failure_ids.add(failure[0])
+        if result.status not in {"complete", "partial", "failed"}:
+            raise ChannelUnavailable(f"{result.channel} returned an invalid status")
+        if result.status == "complete" and (set(completed_accounts) != requested_ids or failures):
+            raise ChannelUnavailable(
+                f"{result.channel} reported complete without explicitly completing every requested account"
+            )
         return completed_accounts, [tuple(failure) for failure in failures]
 
     def merge_result(channel: str, result: ChannelResult, requested: list[dict], completed_accounts: list[str], failures: list[tuple[str, str, str, str]]) -> None:
@@ -1058,10 +1112,7 @@ async def run_ordered_channels(
             if key and key not in seen_urls:
                 seen_urls.add(key)
                 tweets.append(tweet)
-        explicit = set(completed_accounts)
-        if not explicit and result.status == "complete":
-            explicit = {account["source_id"] for account in requested}
-        explicit &= set(pending)
+        explicit = set(completed_accounts) & set(pending)
         completed.update(explicit)
         for failure in failures:
             failed[failure[0]] = failure

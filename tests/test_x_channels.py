@@ -49,6 +49,65 @@ class XChannelTests(unittest.TestCase):
         self.assertEqual([item[0] for item in calls], [x_search.CHANNEL_PLAYWRIGHT])
         self.assertTrue(calls[0][3])
 
+    def test_invalid_complete_mapping_falls_back_to_next_channel(self):
+        calls = []
+        second = {"source_id": "x-two", "x_handle": "two", "display_name": "Two"}
+
+        async def invalid(_date, accounts, **_kwargs):
+            calls.append((x_search.CHANNEL_PLAYWRIGHT, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(x_search.CHANNEL_PLAYWRIGHT, status="complete")
+
+        async def fallback(_date, accounts, **_kwargs):
+            calls.append((x_search.CHANNEL_TWSCRAPE, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(
+                x_search.CHANNEL_TWSCRAPE,
+                completed_accounts=[item["source_id"] for item in accounts],
+                status="complete",
+            )
+
+        result, metadata = asyncio.run(x_search.run_ordered_channels(
+            "2026-08-19",
+            [ACCOUNT, second],
+            runners=[(x_search.CHANNEL_PLAYWRIGHT, invalid), (x_search.CHANNEL_TWSCRAPE, fallback)],
+        ))
+        self.assertEqual(result.status, "complete")
+        self.assertEqual(result.completed_accounts, ["x-example", "x-two"])
+        self.assertEqual(calls, [
+            (x_search.CHANNEL_PLAYWRIGHT, ["x-example", "x-two"]),
+            (x_search.CHANNEL_TWSCRAPE, ["x-example", "x-two"]),
+        ])
+        self.assertEqual(metadata["selected_channel"], x_search.CHANNEL_TWSCRAPE)
+        self.assertTrue(metadata["unavailable_channels"])
+
+    def test_playwright_safety_error_types_do_not_call_twscrape(self):
+        class UnauthorizedError(Exception):
+            pass
+
+        class StatusError(Exception):
+            status_code = 429
+
+        for error in (UnauthorizedError("access denied"), StatusError("retry later")):
+            with self.subTest(error=type(error).__name__):
+                calls = []
+
+                async def blocked(*_args, **_kwargs):
+                    calls.append(x_search.CHANNEL_PLAYWRIGHT)
+                    raise error
+
+                async def fallback(*_args, **_kwargs):
+                    calls.append(x_search.CHANNEL_TWSCRAPE)
+                    self.fail("twscrape ran after a Playwright safety error")
+
+                result, _metadata = asyncio.run(x_search.run_ordered_channels(
+                    "2026-07-14",
+                    [ACCOUNT],
+                    runners=[(x_search.CHANNEL_PLAYWRIGHT, blocked), (x_search.CHANNEL_TWSCRAPE, fallback)],
+                ))
+                self.assertEqual(result.status, "failed")
+                self.assertEqual(calls, [x_search.CHANNEL_PLAYWRIGHT])
+
+        self.assertFalse(x_search.is_x_safety_error(TimeoutError("ordinary timeout")))
+
     def test_playwright_failures_send_only_remaining_accounts_to_twscrape_and_dedupe(self):
         calls = []
         second = {"source_id": "x-two", "x_handle": "two", "display_name": "Two"}

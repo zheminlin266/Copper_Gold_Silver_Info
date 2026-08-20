@@ -198,10 +198,14 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
             raise ReportBuilderError(f"search_log.part2_coverage.{field} must be a non-negative integer")
     if coverage["accounts_completed"] + coverage["accounts_failed"] != coverage["accounts_total"]:
         raise ReportBuilderError("search_log.part2_coverage counts must sum to accounts_total")
-    if coverage["status"] == "complete" and coverage["accounts_completed"] != coverage["accounts_total"]:
-        raise ReportBuilderError("complete Part 2 coverage must complete every account")
-    if coverage["status"] != "complete" and coverage["accounts_completed"] == coverage["accounts_total"]:
-        raise ReportBuilderError("non-complete Part 2 coverage cannot complete every account")
+    completed = coverage["accounts_completed"]
+    failed = coverage["accounts_failed"]
+    if coverage["status"] == "complete" and (completed != coverage["accounts_total"] or failed != 0):
+        raise ReportBuilderError("complete Part 2 coverage must complete every account with no failures")
+    if coverage["status"] == "partial" and (completed < 1 or failed < 1):
+        raise ReportBuilderError("partial Part 2 coverage must complete and fail at least one account")
+    if coverage["status"] == "failed" and (completed != 0 or failed != coverage["accounts_total"]):
+        raise ReportBuilderError("failed Part 2 coverage must fail every account with zero completions")
     channel_order = CURRENT_PART2_CHANNEL_ORDER if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_CHANNEL_ORDER
     selected_channels = CURRENT_PART2_SELECTED_CHANNELS if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_SELECTED_CHANNELS
     attempted = coverage.get("attempted_channels")
@@ -210,8 +214,12 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
     selected = coverage.get("selected_channel")
     if selected not in selected_channels and selected is not None:
         raise ReportBuilderError("search_log.part2_coverage.selected_channel is unsupported")
+    if (selected is None) != (completed == 0):
+        raise ReportBuilderError("selected_channel must be null exactly when no accounts completed")
     if selected is not None:
         selected_parts = selected.split("+")
+        if len(selected_parts) > completed:
+            raise ReportBuilderError("selected_channel cannot contain more channels than completed accounts")
         if any(part not in attempted for part in selected_parts) or selected_parts != sorted(selected_parts, key=channel_order.index):
             raise ReportBuilderError("search_log.part2_coverage.selected_channel conflicts with attempted_channels")
     for field in ("channel_errors", "notes"):

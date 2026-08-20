@@ -109,7 +109,7 @@ class ReportBuilderTests(unittest.TestCase):
                         "accounts_completed": completed,
                         "accounts_failed": failed,
                         "attempted_channels": ["web_access_xai", "twscrape"],
-                        "selected_channel": None,
+                        "selected_channel": "web_access_xai" if status == "partial" else None,
                         "channel_errors": ["account unavailable"],
                         "notes": "preserved candidates",
                     },
@@ -138,11 +138,11 @@ class ReportBuilderTests(unittest.TestCase):
         bundle["search_log"].update({
             "part2_searched": False,
             "part2_channel": "twscrape",
-            "part2_result": "X 1/2; one account failed",
+            "part2_result": "X 2/3; one account failed",
             "part2_coverage": {
                 "status": "partial",
-                "accounts_total": 2,
-                "accounts_completed": 1,
+                "accounts_total": 3,
+                "accounts_completed": 2,
                 "accounts_failed": 1,
                 "attempted_channels": ["playwright", "twscrape"],
                 "selected_channel": "playwright+twscrape",
@@ -151,6 +151,14 @@ class ReportBuilderTests(unittest.TestCase):
             },
         })
         self.assertEqual(project_report(bundle, report_time="2026-08-21T07:00:00+08:00")["search_log"]["part2_coverage"]["selected_channel"], "playwright+twscrape")
+        bundle["search_log"]["part2_result"] = "X 1/2; one account failed"
+        bundle["search_log"]["part2_coverage"].update({
+            "accounts_total": 2,
+            "accounts_completed": 1,
+            "accounts_failed": 1,
+        })
+        with self.assertRaisesRegex(ReportBuilderError, "more channels than completed accounts"):
+            project_report(bundle, report_time="2026-08-21T07:00:00+08:00")
         bundle["search_log"]["part2_coverage"]["attempted_channels"] = ["web_access_xai"]
         bundle["search_log"]["part2_coverage"]["selected_channel"] = "web_access_xai"
         with self.assertRaisesRegex(ReportBuilderError, "ordered channel prefix"):

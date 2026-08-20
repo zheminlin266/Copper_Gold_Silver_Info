@@ -53,12 +53,12 @@ class DailyPipelineTests(unittest.TestCase):
             shutil.copy(Path("data/source_registry.json"), root / "data/source_registry.json")
             sidecar = {
                 "collector": "x_search", "report_date": "2024-02-29", "status": "partial",
-                "accounts_total": 53, "accounts_completed": 1, "accounts_failed": 52,
-                "attempted_channels": ["playwright", "twscrape"], "channel_completed_accounts": {"playwright": 1}, "selected_channel": "playwright+twscrape",
+                "accounts_total": 53, "accounts_completed": 2, "accounts_failed": 51,
+                "attempted_channels": ["playwright", "twscrape"], "channel_completed_accounts": {"playwright": 1, "twscrape": 1}, "selected_channel": "playwright+twscrape",
                 "metadata": {"channel_errors": []}, "unavailable_channels": [],
                 "candidates": [], "errors": [
                     {"source_id": account["source_id"], "handle": account["x_handle"], "author": account["display_name"], "error": "failed"}
-                    for account in get_x_accounts(load_registry())[:52]
+                    for account in get_x_accounts(load_registry())[:51]
                 ],
             }
             captured = {}
@@ -72,7 +72,41 @@ class DailyPipelineTests(unittest.TestCase):
             self.assertNotIn("web-access", " ".join(captured["command"]))
             self.assertEqual(manifest["status"], "partial")
             collector = manifest["collectors"][0]
-            self.assertEqual(collector["metadata"]["part2_coverage"]["accounts_completed"], 1)
+            self.assertEqual(collector["metadata"]["part2_coverage"]["accounts_completed"], 2)
+
+    def test_x_sidecar_rejects_status_and_selected_count_conflicts(self):
+        accounts = get_x_accounts(load_registry())
+        base = {
+            "collector": "x_search", "report_date": "2024-02-29", "status": "partial",
+            "accounts_total": 53, "accounts_completed": 1, "accounts_failed": 52,
+            "attempted_channels": ["playwright", "twscrape"],
+            "channel_completed_accounts": {"playwright": 1}, "selected_channel": "playwright",
+            "metadata": {"channel_errors": []}, "unavailable_channels": [],
+            "candidates": [], "errors": [
+                {"source_id": account["source_id"], "handle": account["x_handle"], "author": account["display_name"], "error": "failed"}
+                for account in accounts[:52]
+            ],
+        }
+
+        def run_invalid(sidecar):
+            with tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                (root / "data").mkdir()
+                (root / "x_outputs").mkdir()
+                shutil.copy(Path("data/source_registry.json"), root / "data" / "source_registry.json")
+
+                def fake_process(_command, **_kwargs):
+                    (root / "x_outputs" / "2024-02-29_x_raw_materials.txt").write_text("audit", encoding="utf-8")
+                    (root / "x_outputs" / "2024-02-29_x_raw_materials.json").write_text(json.dumps(sidecar), encoding="utf-8")
+                    return 4, "stdout", "stderr", None
+
+                with mock.patch("scripts.daily_pipeline._run_process", side_effect=fake_process):
+                    return run_pipeline("2024-02-29", collect_x=True, project_root=root)
+
+        status_conflict = dict(base, status="complete")
+        self.assertEqual(run_invalid(status_conflict)["status"], "failed")
+        selected_conflict = dict(base, selected_channel="playwright+twscrape")
+        self.assertEqual(run_invalid(selected_conflict)["status"], "failed")
 
     def test_removed_x_web_access_option_fails_explicitly(self):
         from scripts import daily_pipeline

@@ -249,8 +249,17 @@ def _collect_x(
                     raise ValueError(f"X sidecar {field} is invalid")
             if sidecar["accounts_total"] != expected_accounts_total:
                 raise ValueError("X sidecar accounts_total does not match source registry")
-            if sidecar["accounts_completed"] + sidecar["accounts_failed"] != sidecar["accounts_total"]:
+            accounts_total = sidecar["accounts_total"]
+            accounts_completed = sidecar["accounts_completed"]
+            accounts_failed = sidecar["accounts_failed"]
+            if accounts_completed + accounts_failed != accounts_total:
                 raise ValueError("X sidecar account counts are inconsistent")
+            if sidecar_status == "complete" and (accounts_completed != accounts_total or accounts_failed != 0):
+                raise ValueError("complete X sidecar must complete every account with no failures")
+            if sidecar_status == "partial" and (accounts_completed < 1 or accounts_failed < 1):
+                raise ValueError("partial X sidecar must complete and fail at least one account")
+            if sidecar_status == "failed" and (accounts_completed != 0 or accounts_failed != accounts_total):
+                raise ValueError("failed X sidecar must fail every account with zero completions")
             sidecar_errors = sidecar.get("errors")
             if not isinstance(sidecar_errors, list) or len(sidecar_errors) != sidecar["accounts_failed"]:
                 raise ValueError("X sidecar errors do not match failed account count")
@@ -270,12 +279,18 @@ def _collect_x(
                 raise ValueError("X sidecar channel_completed_accounts is invalid")
             if any(channel not in attempted_channels or type(count) is not int or count < 0 for channel, count in channel_completed_accounts.items()):
                 raise ValueError("X sidecar channel_completed_accounts is invalid")
-            if sum(channel_completed_accounts.values()) != sidecar["accounts_completed"]:
+            if sum(channel_completed_accounts.values()) != accounts_completed:
                 raise ValueError("X sidecar channel completion counts do not match accounts_completed")
             selected_channel = sidecar.get("selected_channel")
             valid_selected = {None, *channel_order, "playwright+twscrape"}
             if selected_channel not in valid_selected:
                 raise ValueError("X sidecar selected_channel is invalid")
+            expected_selected = "+".join(
+                channel for channel in channel_order
+                if channel in attempted_channels and channel_completed_accounts.get(channel, 0) > 0
+            ) or None
+            if selected_channel != expected_selected:
+                raise ValueError("X sidecar selected_channel does not match channel completion counts")
             if selected_channel is not None:
                 selected_parts = selected_channel.split("+")
                 attempted_indexes = [attempted_channels.index(part) if part in attempted_channels else -1 for part in selected_parts]

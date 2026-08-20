@@ -328,14 +328,17 @@ function validatePart2Coverage(report, filename) {
     if (!Number.isInteger(coverage[field]) || coverage[field] < 0) throw new Error(`${filename}: search_log.part2_coverage.${field} must be a non-negative integer`);
   }
   if (coverage.accounts_completed + coverage.accounts_failed !== coverage.accounts_total) throw new Error(`${filename}: Part 2 coverage counts must sum to accounts_total`);
-  if (coverage.status === "complete" && coverage.accounts_completed !== coverage.accounts_total) throw new Error(`${filename}: complete Part 2 coverage must complete every account`);
-  if (coverage.status !== "complete" && coverage.accounts_completed === coverage.accounts_total) throw new Error(`${filename}: non-complete Part 2 coverage cannot complete every account`);
+  if (coverage.status === "complete" && (coverage.accounts_completed !== coverage.accounts_total || coverage.accounts_failed !== 0)) throw new Error(`${filename}: complete Part 2 coverage must complete every account with no failures`);
+  if (coverage.status === "partial" && (coverage.accounts_completed < 1 || coverage.accounts_failed < 1)) throw new Error(`${filename}: partial Part 2 coverage must complete and fail at least one account`);
+  if (coverage.status === "failed" && (coverage.accounts_completed !== 0 || coverage.accounts_failed !== coverage.accounts_total)) throw new Error(`${filename}: failed Part 2 coverage must fail every account with zero completions`);
   const channelOrder = report.date >= CURRENT_PART2_ORDER_FROM ? CURRENT_X_CHANNEL_ORDER : LEGACY_X_CHANNEL_ORDER;
   const selectedChannels = report.date >= CURRENT_PART2_ORDER_FROM ? CURRENT_PART2_SELECTED_CHANNELS : LEGACY_PART2_SELECTED_CHANNELS;
   if (!Array.isArray(coverage.attempted_channels) || coverage.attempted_channels.length === 0 || JSON.stringify(coverage.attempted_channels) !== JSON.stringify(channelOrder.slice(0, coverage.attempted_channels.length))) throw new Error(`${filename}: search_log.part2_coverage.attempted_channels must be an ordered channel prefix`);
   if (coverage.selected_channel !== null && !selectedChannels.has(coverage.selected_channel)) throw new Error(`${filename}: search_log.part2_coverage.selected_channel is unsupported`);
+  if ((coverage.selected_channel === null) !== (coverage.accounts_completed === 0)) throw new Error(`${filename}: selected_channel must be null exactly when no accounts completed`);
   if (coverage.selected_channel !== null) {
     const selectedParts = coverage.selected_channel.split("+");
+    if (selectedParts.length > coverage.accounts_completed) throw new Error(`${filename}: selected_channel cannot contain more channels than completed accounts`);
     const attemptedIndexes = selectedParts.map((part) => coverage.attempted_channels.indexOf(part));
     if (attemptedIndexes.some((index) => index < 0) || attemptedIndexes.some((index, position) => position > 0 && index <= attemptedIndexes[position - 1])) throw new Error(`${filename}: selected X channels conflict with attempted_channels`);
   }
