@@ -1,0 +1,20 @@
+X 原始候选 — 2026-08-20
+采集时间: 2026-08-21T07:43:17.274014+08:00
+选定通道: none (failed before durable result)
+尝试通道: Playwright, twscrape
+不可用通道: Playwright, twscrape
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 0/53 确认完成，53 状态未确认/失败
+各通道完成账户数: {}
+采集状态: failed
+失败账号数: 53
+通道错误:
+  Playwright: playwright: collector subprocess exceeded 1800 seconds before durable account-level output
+  twscrape: twscrape: collector subprocess exceeded 1800 seconds before durable account-level output
+安全边界: 执行器超时后未继续新增X流量；没有把未完成检索写成完整零结果。
+============================================================
+
+总计候选: 0 条（失败审计，非完整零结果）
+============================================================

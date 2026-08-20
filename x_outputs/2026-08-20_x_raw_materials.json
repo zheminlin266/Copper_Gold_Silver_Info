@@ -1,0 +1,353 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-20",
+  "status": "failed",
+  "selected_channel": null,
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "playwright",
+      "error": "playwright: collector subprocess exceeded 1800 seconds before durable account-level output"
+    },
+    {
+      "channel": "twscrape",
+      "error": "twscrape: collector subprocess exceeded 1800 seconds before durable account-level output"
+    }
+  ],
+  "accounts_total": 53,
+  "accounts_completed": 0,
+  "accounts_failed": 53,
+  "channel_completed_accounts": {},
+  "candidates": [],
+  "errors": [
+    {
+      "source_id": "x-realrickrule",
+      "handle": "RealRickRule",
+      "author": "Rick Rule",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-katusaresearch",
+      "handle": "KatusaResearch",
+      "author": "Marin Katusa",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-resourcemaven",
+      "handle": "ResourceMaven",
+      "author": "Gwen Preston",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-thedailygold",
+      "handle": "TheDailyGold",
+      "author": "Jordan Roy-Byrne",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-brien_lundin",
+      "handle": "Brien_Lundin",
+      "author": "Brien Lundin",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-silverguru22",
+      "handle": "silverguru22",
+      "author": "David Morgan",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-peter_krauth",
+      "handle": "peter_krauth",
+      "author": "Peter Krauth",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-arcadiaeconomic",
+      "handle": "ArcadiaEconomic",
+      "author": "Chris Marcus",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-mercenarygeo",
+      "handle": "mercenarygeo",
+      "author": "Mickey Fulp",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-joemazumdar",
+      "handle": "JoeMazumdar",
+      "author": "Joe Mazumdar",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-kaiserresearch",
+      "handle": "KaiserResearch",
+      "author": "John Kaiser",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-stevetodoruk",
+      "handle": "SteveTodoruk",
+      "author": "Steve Todoruk",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-tavicosta",
+      "handle": "TaviCosta",
+      "author": "Otavio Costa",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-ronstoeferle",
+      "handle": "RonStoeferle",
+      "author": "Ronnie Stoeferle",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-wmiddelkoop",
+      "handle": "wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-lawrencelepard",
+      "handle": "LawrenceLepard",
+      "author": "Lawrence Lepard",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-mjgeiger",
+      "handle": "mjgeiger",
+      "author": "Matt Geiger",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-junior_stock",
+      "handle": "Junior_Stock",
+      "author": "Brian Leni",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-jamie_keech",
+      "handle": "Jamie_Keech",
+      "author": "Jamie Keech",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-juniorminerjunky",
+      "handle": "JuniorMinerJunky",
+      "author": "David Erfle",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-johnfeneck",
+      "handle": "JohnFeneck",
+      "author": "John Feneck",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-jayantbhandari5",
+      "handle": "JayantBhandari5",
+      "author": "Jayant Bhandari",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-chenpicks",
+      "handle": "chenpicks",
+      "author": "Chen Lin",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-gerardodelreal",
+      "handle": "GerardoDelReal",
+      "author": "Gerardo Del Real",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-tekoadasilva",
+      "handle": "TekoaDaSilva",
+      "author": "Tekoa Da Silva",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-soarfinancial",
+      "handle": "soarfinancial",
+      "author": "Kai Hoffmann",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-robmcewenmux",
+      "handle": "RobMcEwenMUX",
+      "author": "Rob McEwen",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-keith_neumeyer",
+      "handle": "keith_neumeyer",
+      "author": "Keith Neumeyer",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-frank_giustra",
+      "handle": "Frank_Giustra",
+      "author": "Frank Giustra",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-nolanwatson",
+      "handle": "NolanWatson",
+      "author": "Nolan Watson",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-amiradnani",
+      "handle": "AmirAdnani",
+      "author": "Amir Adnani",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-michaelkonnert",
+      "handle": "MichaelKonnert",
+      "author": "Michael Konnert",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-waltercolesjr",
+      "handle": "WalterColesJr",
+      "author": "Walter Coles Jr.",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "handle": "ivanbebek",
+      "author": "Ivan Bebek",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-ivanhoemines_",
+      "handle": "IvanhoeMines_",
+      "author": "Ivanhoe Mines",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "handle": "FreeportMcMoRan",
+      "author": "Freeport-McMoRan",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-newmontcorp",
+      "handle": "NewmontCorp",
+      "author": "Newmont",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "handle": "BarrickGold",
+      "author": "Barrick Gold",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-teckresources",
+      "handle": "TeckResources",
+      "author": "Teck Resources",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "handle": "AntofagastaPLC",
+      "author": "Antofagasta",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "handle": "LundinMining",
+      "author": "Lundin Mining",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "handle": "AgnicoEagle",
+      "author": "Agnico Eagle",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "handle": "FirstMajestic",
+      "author": "First Majestic Silver",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "handle": "PanAmericanSlvr",
+      "author": "Pan American Silver",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "handle": "Wheaton_PM",
+      "author": "Wheaton Precious Metals",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "handle": "EndeavourMining",
+      "author": "Endeavour Mining",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "handle": "SSRMining",
+      "author": "SSR Mining",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "handle": "KinrossGold",
+      "author": "Kinross Gold",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "handle": "SandstormGold",
+      "author": "Sandstorm Gold",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "handle": "Fortuna_Silver",
+      "author": "Fortuna Mining",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "handle": "GoGoldResources",
+      "author": "GoGold Resources",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "handle": "vizslasilver",
+      "author": "Vizsla Silver",
+      "error": "daily X collector subprocess exceeded the 1800-second execution limit before atomic audit publication; account completion is unconfirmed and no further X traffic was authorized"
+    }
+  ],
+  "metadata": {
+    "channel_errors": [
+      "playwright: collector subprocess exceeded 1800 seconds before durable account-level output",
+      "twscrape: collector subprocess exceeded 1800 seconds before durable account-level output"
+    ],
+    "channel_timeout_seconds": 1800,
+    "note": "Completion is conservatively recorded as 0/53 because the harness terminated the ordered Playwright -> twscrape collector before x_search could publish its atomic audit. This is a failed/unknown collection, not a complete zero-result search."
+  }
+}

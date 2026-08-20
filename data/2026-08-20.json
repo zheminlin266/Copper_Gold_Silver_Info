@@ -1,0 +1,324 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-20",
+  "report_time": "2026-08-21T07:51:11+08:00",
+  "summary": "铜：矿水回收试验、Tampakan项目和中国原料数据分别提供中长期补充与短期供给约束线索，KSM社会许可风险增加潜在增量的不确定性。黄金：Tampakan项目推进与哥伦比亚矿难分别对应中长期管线和短期非正规产能风险。白银：IMA资源与相关勘探进展扩大项目管线，暂无当日已实现新增产量。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-18T00:00:00+08:00",
+      "end": "2026-08-20T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-20T00:00:00+08:00",
+      "end": "2026-08-20T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-20T00:00:00+08:00",
+      "end": "2026-08-20T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-gold-and-bonds-retesting-yesterdays-big-moves",
+      "metal_tags": [
+        "copper",
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gaspé项目钻孔见312.5米、平均0.56%铜，包含36米1.88%和10.5米2.66%",
+          "evidence": "Mining Stock Daily 2026-08-20文字稿转述Osisko Metals新闻稿",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-gold-and-bonds-retesting-yesterdays-big-moves",
+          "evidence_type": "company drill results reported in podcast transcript",
+          "period": "2026 drill program",
+          "unit": "meters; percent copper",
+          "value": "312.5 at 0.56%; 36.0 at 1.88%; 10.5 at 2.66%"
+        },
+        {
+          "claim": "Gaspé项目测量及指示资源为18.3亿吨、0.32% CuEq",
+          "evidence": "Mining Stock Daily文字稿转述项目资源口径",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-gold-and-bonds-retesting-yesterdays-big-moves",
+          "evidence_type": "mineral resource estimate reported in podcast transcript",
+          "period": "current project resource cited 2026-08-20",
+          "unit": "metric tonnes; percent copper equivalent",
+          "value": "1.83 billion; 0.32% CuEq"
+        }
+      ],
+      "publish_date": "2026-08-20",
+      "title": "Mining Stock Daily晨间简报：美国钨银资源、Gaspé铜钻探与金矿技术进展",
+      "source_type": "podcast",
+      "summary": "节目文字稿称，Osisko Metals魁北克Gaspé铜项目加密孔见矿312.5米、0.56%铜（含36米1.88%和10.5米2.66%），项目测量及指示资源18.3亿吨、0.32% CuEq；2026年钻探旨在转化推断资源并向南西扩展。节目还报道American Tungsten IMA银钨资源、1911 Gold回收率和Heliostar锑金钻探。",
+      "detail": "页面显示发布于2026年8月20日并提供完整文字稿。Gaspé资源和钻探数据、IMA银资源、True North与Ogama-Rockland回收率以及Goldstrike锑金结果均是节目转述的公司新闻稿或项目数据；勘探资源、回收率和钻探结果不等同已实现产量。",
+      "importance": "Gaspé把铜供给管线从勘探靶区推进到18.3亿吨M&I资源和正在执行的2026年加密/扩边钻探，312.5米连续矿化提供规模与品位锚点。转化推断资源、完成冶金和经济评价仍需时间，短期不会形成精矿增量；下一步看资源更新与项目许可。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily主持人"
+      },
+      "companies": [
+        "Osisko Metals",
+        "American Tungsten",
+        "1911 Gold",
+        "Heliostar Metals"
+      ],
+      "projects": [
+        "Gaspé Copper Project",
+        "IMA Mine",
+        "True North",
+        "Ogama-Rockland",
+        "Goldstrike"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/bhp-mit-spinout-to-trial-copper-recovery-tech-at-historic-arizona-mine/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Copper Cities年内计划开展为期两个月、最多生产2吨商业规模铜阴极的放大试验",
+          "evidence": "Mining.com直接报道BHP和SiTration试验安排",
+          "source_url": "https://www.mining.com/bhp-mit-spinout-to-trial-copper-recovery-tech-at-historic-arizona-mine/",
+          "evidence_type": "pilot deployment plan",
+          "period": "2026 pilot",
+          "unit": "metric tons commercial copper cathodes",
+          "value": "up to 2"
+        }
+      ],
+      "publish_time": "2026-08-20",
+      "source": "MINING.COM",
+      "title": "BHP与SiTration在亚利桑那旧矿试验从矿山遗留水回收铜",
+      "excerpt": "BHP与MIT衍生公司SiTration将在亚利桑那Copper Cities旧铜矿部署试验：8月启动为期一个月的小规模连续试验，年内另计划用两个月生产最多2吨商业规模铜阴极。该矿1950年代至1980年代初曾生产近40万吨铜。",
+      "language": "en",
+      "interpretation": "这是从遗留矿山水回收铜的技术验证，属于补充性供给路径，尚未重启矿山或形成可交付产量；公司称台架测试已达到LME Grade A铜，并报告初步能耗低于3—4 kWh/kg，但回收率、稳定运行和商业成本仍待现场试验验证。",
+      "importance": "该试验的近期贡献是验证从遗留矿水回收铜的连续运行与能耗，不是新增矿山产量；两个月最多2吨相对历史矿区近40万吨产铜仍属极小规模。若8月小试和年内放大试验证明稳定，废弃矿山水可成为美国国内补充来源，后续关键是回收率、长期运行和商业化成本。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP",
+        "SiTration"
+      ],
+      "projects": [
+        "Copper Cities"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径发现；普通HTTP受CloudFront限制后，用同一Playwright反检测会话打开正文，HTTP 200，核对作者、2026-08-20日期、两阶段试验和最多2吨铜阴极。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/british-columbia-first-nation-rescinds-support-for-seabridges-ksm-gold-project/",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "KSM项目2022年预可研储量合计4,730万盎司黄金和73亿磅铜",
+          "evidence": "Mining.com文章转述Seabridge的2022年PFS估计",
+          "source_url": "https://www.mining.com/british-columbia-first-nation-rescinds-support-for-seabridges-ksm-gold-project/",
+          "evidence_type": "preliminary feasibility study reserve estimate",
+          "period": "2022 PFS",
+          "unit": "gold ounces; pounds of copper",
+          "value": "47.3 million; 7.3 billion"
+        }
+      ],
+      "publish_time": "2026-08-20",
+      "source": "MINING.COM",
+      "title": "Gitxsan原住民族政府撤回对Seabridge KSM金铜项目的支持",
+      "excerpt": "Gitxsan Huwilp政府一致投票撤回对Seabridge Gold不列颠哥伦比亚省KSM项目的支持；该政府自2013年起支持项目。文章引用Seabridge的2022年预可研：储量合计4,730万盎司黄金和73亿磅铜。",
+      "language": "en",
+      "interpretation": "撤回支持源于TSKLH对尾矿和水系环境风险及省政府未充分履行咨询义务的担忧；2026年6月不列颠哥伦比亚省最高法院已判定省方违反宪法咨询义务。4,730万盎司黄金和73亿磅铜是2022年PFS储量口径，不是当前产量或已获新增供给。",
+      "importance": "Gitxsan自2013年以来支持撤回，使KSM的社会许可和环境咨询约束从单一司法争议扩展为多方关系风险；项目虽有2022年PFS的4,730万盎司金和73亿磅铜规模锚点，仍未形成近期供给。短期应跟踪省、联邦重新咨询、尾矿方案与Seabridge项目安排，任何延误都会把潜在增量进一步后移。",
+      "verification_status": "verified",
+      "companies": [
+        "Seabridge Gold"
+      ],
+      "projects": [
+        "KSM"
+      ],
+      "mining_com_source_note": "黄金/铜分类页Playwright候选；普通HTTP受CloudFront限制后，用同一Playwright反检测会话打开正文，HTTP 200，核对作者、2026-08-20日期、咨询争议和PFS储量数字。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/billionaire-sy-family-advances-philippine-copper-gold-mine-deal/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Tampakan预计2028年投产，17年平均年产37.5万吨铜和36万盎司金精矿",
+          "evidence": "Bloomberg News通过Mining.com报道项目生产时间和平均产量方案",
+          "source_url": "https://www.mining.com/web/billionaire-sy-family-advances-philippine-copper-gold-mine-deal/",
+          "evidence_type": "project production plan reported by Bloomberg",
+          "period": "planned 2028 startup; 17-year mine life",
+          "unit": "metric tons copper and troy ounces gold concentrate per year",
+          "value": "375000; 360000"
+        }
+      ],
+      "publish_time": "2026-08-20",
+      "source": "MINING.COM / Bloomberg News",
+      "title": "菲律宾Dominion推进Tampakan铜金矿注入合并交易",
+      "excerpt": "Dominion Holdings董事会批准与Indophil Resources Phils.及Sonar Holdings合并，为将菲律宾Tampakan铜金矿注入上市公司铺路。报道预计项目2028年投产，17年期平均每年生产37.5万吨铜和36万盎司金精矿，此前目标为2026年。",
+      "language": "en",
+      "interpretation": "这是项目控制权和资本平台推进，尚未形成实际产量；Tampakan发现已三十年，开发曾因监管问题和菲律宾露天采矿禁令停滞，禁令于2021年解除。2028年时间表及年产量为报道转述的项目方案，仍取决于交易、许可和建设。",
+      "importance": "Tampakan将开发推进到上市公司合并，但生产时间从此前2026推至2028，说明兑现仍受审批、资本和建设约束。若按当前方案投产，17年平均年产37.5万吨铜和36万盎司金，是区域中长期增量；停滞多年与起始时间后移意味着不能计入短期供给，需跟踪合并交割、许可及施工。",
+      "verification_status": "verified",
+      "companies": [
+        "Dominion Holdings",
+        "Indophil Resources Phils.",
+        "Sagittarius Mines"
+      ],
+      "projects": [
+        "Tampakan"
+      ],
+      "mining_com_source_note": "铜/黄金分类页Playwright候选；普通HTTP受CloudFront限制后，用同一Playwright反检测会话打开Bloomberg署名正文，HTTP 200，核对2026-08-20日期、合并主体、2028时间表和17年平均产量方案。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/colombia-gold-mine-collapse-kills-13-worker/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Policarpa一处露天金矿山体滑坡造成至少13人死亡、7人受伤",
+          "evidence": "Mining.com报道地方当局、消防和救援人员确认事故及伤亡",
+          "source_url": "https://www.mining.com/colombia-gold-mine-collapse-kills-13-worker/",
+          "evidence_type": "reported mine accident",
+          "period": "2026-08-19 night incident reported 2026-08-20",
+          "unit": "workers",
+          "value": "13 killed; 7 injured"
+        }
+      ],
+      "publish_time": "2026-08-20",
+      "source": "MINING.COM",
+      "title": "哥伦比亚西南部金矿山体滑坡致13名工人死亡",
+      "excerpt": "哥伦比亚纳里尼奥省Policarpa农村地区一处露天金矿发生山体滑坡，至少13名工人死亡、7人受伤。当地居民称约50人经常在该矿工作，官方尚未说明该矿是否持有许可或属于非法运营。",
+      "language": "en",
+      "interpretation": "事故确认了一个生产现场的短期停顿和安全风险，但来源没有给出矿点产量、经营者或许可状态，不能将伤亡人数换算成年产量损失。哥伦比亚非正规采金与武装组织、环境和供应链追溯风险相连，后续调查和整治可能影响当地可交付来源。",
+      "importance": "这起事故直接令一个约50人经常作业的非正式矿点停产，13死7伤把安全和许可风险传导至当地可交付黄金。由于官方尚未确认矿山是否持证、产量和经营者，当前无法量化年度减产；短期看救援、调查和整治是否导致区域非正规产能收缩，长期则影响合规供应链可追溯性。",
+      "verification_status": "verified",
+      "companies": [],
+      "projects": [
+        "Policarpa informal gold mine"
+      ],
+      "mining_com_source_note": "黄金分类页Playwright候选；普通HTTP受CloudFront限制后，用同一Playwright反检测会话打开正文，HTTP 200，核对作者、2026-08-20日期、Policarpa地点、伤亡及许可状态限制。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://news.smm.cn/news/104071049",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "中国2026年7月铜矿砂及其精矿进口量为2378520.35吨，同比下降6.95%",
+          "evidence": "上海有色网页面转载文华财经并标注数据来源为中国海关总署",
+          "source_url": "https://news.smm.cn/news/104071049",
+          "evidence_type": "customs import data reported by SMM",
+          "period": "2026-07",
+          "unit": "metric tons copper ore and concentrates; year-over-year change",
+          "value": "2378520.35; -6.95%"
+        }
+      ],
+      "publish_time": "2026-08-20T19:50:00+08:00",
+      "source": "上海有色网 / 文华财经",
+      "title": "中国7月铜矿砂及其精矿进口同比下降6.95%",
+      "excerpt": "上海有色网转载文华财经称，中国2026年7月铜矿砂及其精矿进口量为237.852035万吨，环比上升1.87%，同比下降6.95%；数据来源标注为中国海关总署。",
+      "language": "zh",
+      "interpretation": "这是中国冶炼原料到货的月度数据，不等同全球矿山产量；同比下降可能受船期、来源替换和贸易节奏影响。若后续月份仍弱，可能通过精矿现货采购和冶炼开工传导为原料约束，废铜进口回升则提供部分替代。",
+      "importance": "7月铜矿砂及精矿进口同比少6.95%，与进口规模约237.85万吨形成国内原料到货走弱的量化锚点；这会先影响冶炼厂原料可得性和进口依赖，后续再通过精炼铜供应传导。单月数据仍可能受船期和来源切换影响，不能直接等同全球矿山减产，需结合8月进口、冶炼开工和废铜替代验证。",
+      "verification_status": "verified",
+      "companies": [],
+      "projects": [],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily Episodes列表（https://www.miningstockdaily.com/episodes）HTTP 200，显示8月20日新节目。",
+      "直接打开Mining Stock Daily 2026-08-20节目页面（https://www.miningstockdaily.com/episodes/morning-briefing-gold-and-bonds-retesting-yesterdays-big-moves）HTTP 200，核对标题、日期和完整文字稿中的Gaspé、IMA、金矿回收率与锑金钻探事实。",
+      "The Northern Miner视频/最新列表（https://www.northernminer.com/category/video/）HTTP 200；8月20日Mineral War播客页面HTTP 200，但仅提供战略讨论和Southern Silver节目介绍，未提供足够可核验的实体供需数字，排除。",
+      "YouTube按gold/copper/silver mining interview及2026-08-18至2026-08-20窗口尝试搜索；页面请求多次超时，未将搜索摘要或不可打开视频作为证据。",
+      "按conference_calendar检查PDAC、Denver Gold Forum、Precious Metals Summit、Mines and Money、Diggers & Dealers、The Northern Miner等会议入口；窗口内没有新增、可打开且未重复的合格访谈。"
+    ],
+    "part1_result": "Part 1完成2026-08-18至2026-08-20北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检查；纳入1条Mining Stock Daily文字稿可核验的播客信号，其他候选超窗、重复、无足够实体供需事实或页面检索受限。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "按要求运行python scripts/daily_pipeline.py 2026-08-20 --collect-x；执行器在1800秒后终止，未产生原子审计输出，未再增加X流量。",
+      "运行前使用工作流指定Python 3.13.12执行scripts/x_search.py --check-login --headless并通过；该登录检查不代表报告日账号检索完成。",
+      "失败审计保留于x_outputs/2026-08-20_x_raw_materials.txt及x_outputs/2026-08-20_x_raw_materials.json，账户覆盖0/53。"
+    ],
+    "part2_result": "Part 2 failed：有序Playwright -> twscrape采集执行器超过1800秒，未在原子发布前产生账号级结果；失败审计保守记录0/53，候选为空不代表完整零结果，超时后未继续增加X流量。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 53,
+      "accounts_completed": 0,
+      "accounts_failed": 53,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: collector subprocess exceeded 1800 seconds before durable account-level output",
+        "twscrape: collector subprocess exceeded 1800 seconds before durable account-level output"
+      ],
+      "notes": [
+        "执行器在x_search原子审计发布前终止，完成数保守记为0/53。",
+        "已保存按日期命名的raw材料和sidecar；未将失败写成完整零结果，未继续新增X流量。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：使用工作流指定Python 3.13.12、Chromium headless、Chrome 131 UA、--disable-blink-features=AutomationControlled、--no-sandbox和DOM日期提取；HTTP 200，报告日候选15篇。",
+      "Mining.com黄金分类页辅助Playwright HTTP 200、报告日候选11篇；白银分类页辅助Playwright HTTP 200、报告日候选7篇；跨分类重复按URL去重。",
+      "Google site:mining.com gold August 20 2026：已执行，连接超时，无可用命中；未用搜索摘要作证据。",
+      "Google site:mining.com silver August 20 2026：已执行，连接超时，无可用命中；未用搜索摘要作证据。",
+      "BHP/SiTration、Seabridge KSM、Tampakan和Colombia文章普通请求受Mining.com CloudFront限制时，使用同一Playwright反检测会话逐篇打开；4篇HTTP 200，核对标题、主体、日期和核心数字。",
+      "直接打开SMM中文页面https://news.smm.cn/news/104071049，HTTP 200，核对标题、2026-08-20 19:50发布时间、来源文华财经、海关数据及2378520.35吨和-6.95%。",
+      "直接检查同日废铜进口页面https://news.smm.cn/news/104071053；与铜矿进口页面属于同一海关统计发布，作为辅助核对并因同事件去重未单独收录。",
+      "Mining.com候选中的价格复述、镍矿、铁矿、Fortescue人事、锂钴电池拨款、宏观评论、窗口外文章及8月19日Las Bambas/Zamboye后续按范围、核验、日期和去重规则排除；未使用sitemap、Wayback Machine或RSS。"
+    ],
+    "part3_result": "Part 3完成2026-08-20全天英文和中文新闻检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、SMM中文来源检查和逐篇URL核验；纳入5条供需信号（铜3、黄金2，其中Tampakan含金铜）。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200、报告日候选15篇；金、银辅助分类页分别11和7篇。4篇入选Mining.com文章在普通请求受限后通过同一Playwright会话核验，SMM中文信号直接网页核验；没有使用搜索摘要、sitemap、Wayback Machine或RSS。",
+    "url_verification": {
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1播客、4条Mining.com新闻和1条SMM中文新闻均已打开并核对标题、日期、主体和卡片中的核心数字，全部标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining.com Rob McEwen Top of Mine访谈已在2026-08-19日报收录；The Northern Miner Mineral War页面未提供足够新增实体供需事实。"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Las Bambas事故报道与2026-08-19日报同一事故，排除；中非Zamboye矿难关闭报道与2026-08-19日报同一矿难，排除。",
+      "Mining.com同一文章在铜、金、银分类页及MORE NEWS区域重复，仅按报告日URL保留一份候选。",
+      "SMM铜矿砂进口与废铜进口页面均来自同一批中国海关7月统计发布，保留铜矿砂页面作为更直接的精矿供给信号。",
+      "Omai、Gold Fields等页面日期为8月19日；金矿股价格、critical-minerals泛政策、镍矿和其他非目标矿种按窗口或范围排除。"
+    ],
+    "notes": "所有接受信号均填写唯一primary_metal且该值出现在metal_tags中；储量、资源量、项目方案、勘探结果、试验产量和海关统计口径均与实际产量、公司指引和研究判断分开。"
+  }
+}
