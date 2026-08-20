@@ -93,13 +93,23 @@ export interface ImageSource {
   note?: string;
 }
 
+export type HistoricalPart2Channel = "web_access_xai" | "twscrape" | "playwright";
+export type CurrentPart2Channel = "playwright" | "twscrape";
+export type Part2SelectedChannel =
+  | HistoricalPart2Channel
+  | "web_access_xai+twscrape"
+  | "web_access_xai+playwright"
+  | "twscrape+playwright"
+  | "web_access_xai+twscrape+playwright"
+  | "playwright+twscrape";
+
 export interface Part2Coverage {
   status: "complete" | "partial" | "failed";
   accounts_total: number;
   accounts_completed: number;
   accounts_failed: number;
-  attempted_channels: Array<"web_access_xai" | "twscrape" | "playwright">;
-  selected_channel: string | null;
+  attempted_channels: Array<HistoricalPart2Channel | CurrentPart2Channel>;
+  selected_channel: Part2SelectedChannel | null;
   channel_errors: string[];
   notes: string | string[];
 }

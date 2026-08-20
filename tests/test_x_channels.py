@@ -18,19 +18,19 @@ ACCOUNT = {
 
 
 class XChannelTests(unittest.TestCase):
-    def test_ordered_channels_do_not_pass_headless_to_optional_channels(self):
+    def test_playwright_complete_empty_result_does_not_call_twscrape(self):
         calls = []
 
-        async def unavailable(report_date, accounts, *, sleep=None):
-            calls.append(("twscrape", report_date, sleep))
-            raise x_search.ChannelUnavailable("not installed")
-
         async def empty(report_date, accounts, *, sleep=None, headless=False):
-            calls.append(("playwright", report_date, sleep, headless))
-            return x_search.ChannelResult(x_search.CHANNEL_PLAYWRIGHT)
+            calls.append((x_search.CHANNEL_PLAYWRIGHT, report_date, sleep, headless, [item["source_id"] for item in accounts]))
+            return x_search.ChannelResult(
+                x_search.CHANNEL_PLAYWRIGHT,
+                completed_accounts=["x-example"],
+                status="complete",
+            )
 
         async def should_not_run(*args, **kwargs):
-            self.fail("fallback ran after a valid empty result")
+            self.fail("twscrape ran after a valid Playwright zero-result completion")
 
         result, metadata = asyncio.run(
             x_search.run_ordered_channels(
@@ -38,82 +38,67 @@ class XChannelTests(unittest.TestCase):
                 [ACCOUNT],
                 headless=True,
                 runners=[
-                    (x_search.CHANNEL_TWSCRAPE, unavailable),
                     (x_search.CHANNEL_PLAYWRIGHT, empty),
+                    (x_search.CHANNEL_TWSCRAPE, should_not_run),
                 ],
             )
         )
 
         self.assertEqual(result.status, "complete")
         self.assertEqual(metadata["selected_channel"], x_search.CHANNEL_PLAYWRIGHT)
-        self.assertEqual([item[0] for item in calls], ["twscrape", "playwright"])
-        self.assertTrue(calls[1][3])
+        self.assertEqual([item[0] for item in calls], [x_search.CHANNEL_PLAYWRIGHT])
+        self.assertTrue(calls[0][3])
 
-    def test_web_access_complete_accounts_are_not_requeried_and_results_are_merged(self):
+    def test_playwright_failures_send_only_remaining_accounts_to_twscrape_and_dedupe(self):
         calls = []
         second = {"source_id": "x-two", "x_handle": "two", "display_name": "Two"}
+        first_tweet = {"source_id": "x-example", "author": "Example", "handle": "example", "text": "one", "url": "https://x.com/example/status/1"}
 
-        async def web(report_date, accounts, **kwargs):
-            calls.append((x_search.CHANNEL_WEB_ACCESS_XAI, [item["source_id"] for item in accounts]))
+        async def playwright(_date, accounts, **_kwargs):
+            calls.append((x_search.CHANNEL_PLAYWRIGHT, [item["source_id"] for item in accounts]))
             return x_search.ChannelResult(
-                x_search.CHANNEL_WEB_ACCESS_XAI,
+                x_search.CHANNEL_PLAYWRIGHT,
                 completed_accounts=["x-example"],
-                tweets=[{"source_id": "x-example", "author": "Example", "handle": "example", "text": "one", "url": "https://x.com/example/status/1"}],
+                failed_accounts=[("x-two", "two", "Two", "ordinary timeout")],
+                tweets=[first_tweet],
                 status="partial",
-                failed_accounts=[("x-two", "two", "Two", "staging failed")],
             )
 
-        async def twscrape(report_date, accounts, **kwargs):
+        async def twscrape(_date, accounts, **_kwargs):
             calls.append((x_search.CHANNEL_TWSCRAPE, [item["source_id"] for item in accounts]))
             return x_search.ChannelResult(
                 x_search.CHANNEL_TWSCRAPE,
                 completed_accounts=["x-two"],
-                tweets=[{"source_id": "x-two", "author": "Two", "handle": "two", "text": "two", "url": "https://twitter.com/two/status/2?utm_source=x"}],
+                tweets=[first_tweet, {"source_id": "x-two", "author": "Two", "handle": "two", "text": "two", "url": "https://x.com/two/status/2"}],
             )
 
-        async def playwright(*args, **kwargs):
-            self.fail("Playwright should not run after all accounts complete")
-
         result, metadata = asyncio.run(x_search.run_ordered_channels(
             "2026-08-19", [ACCOUNT, second],
-            runners=[(x_search.CHANNEL_WEB_ACCESS_XAI, web), (x_search.CHANNEL_TWSCRAPE, twscrape), (x_search.CHANNEL_PLAYWRIGHT, playwright)],
+            runners=[(x_search.CHANNEL_PLAYWRIGHT, playwright), (x_search.CHANNEL_TWSCRAPE, twscrape)],
         ))
         self.assertEqual(result.status, "complete")
-        self.assertEqual([item[1] for item in calls], [["x-example", "x-two"], ["x-two"]])
-        self.assertEqual(len(result.tweets), 2)
-        self.assertEqual(metadata["selected_channel"], "web_access_xai+twscrape")
+        self.assertEqual(calls, [(x_search.CHANNEL_PLAYWRIGHT, ["x-example", "x-two"]), (x_search.CHANNEL_TWSCRAPE, ["x-two"])])
+        self.assertEqual([tweet["url"] for tweet in result.tweets], [first_tweet["url"], "https://x.com/two/status/2"])
+        self.assertEqual(metadata["selected_channel"], "playwright+twscrape")
 
-    def test_partial_twscrape_falls_back_to_playwright_only_for_remaining_accounts(self):
+    def test_playwright_safety_stop_does_not_try_twscrape(self):
         calls = []
-        second = {"source_id": "x-two", "x_handle": "two", "display_name": "Two"}
 
-        async def web(_date, accounts, **_kwargs):
-            calls.append((x_search.CHANNEL_WEB_ACCESS_XAI, [item["source_id"] for item in accounts]))
-            raise x_search.ChannelUnavailable("staging missing")
+        async def blocked(*args, **kwargs):
+            calls.append(x_search.CHANNEL_PLAYWRIGHT)
+            raise x_search.XSafetyStop("HTTP 429 rate limit")
 
-        async def twscrape(_date, accounts, **_kwargs):
-            calls.append((x_search.CHANNEL_TWSCRAPE, [item["source_id"] for item in accounts]))
-            return x_search.ChannelResult(x_search.CHANNEL_TWSCRAPE, completed_accounts=["x-example"], status="partial")
-
-        async def playwright(_date, accounts, **_kwargs):
-            calls.append((x_search.CHANNEL_PLAYWRIGHT, [item["source_id"] for item in accounts]))
-            return x_search.ChannelResult(x_search.CHANNEL_PLAYWRIGHT, completed_accounts=["x-two"])
+        async def fallback(*args, **kwargs):
+            calls.append(x_search.CHANNEL_TWSCRAPE)
+            self.fail("twscrape ran after a Playwright safety stop")
 
         result, metadata = asyncio.run(x_search.run_ordered_channels(
-            "2026-08-19", [ACCOUNT, second],
-            runners=[
-                (x_search.CHANNEL_WEB_ACCESS_XAI, web),
-                (x_search.CHANNEL_TWSCRAPE, twscrape),
-                (x_search.CHANNEL_PLAYWRIGHT, playwright),
-            ],
+            "2026-07-14", [ACCOUNT],
+            runners=[(x_search.CHANNEL_PLAYWRIGHT, blocked), (x_search.CHANNEL_TWSCRAPE, fallback)],
         ))
-        self.assertEqual(result.status, "complete")
-        self.assertEqual(calls, [
-            (x_search.CHANNEL_WEB_ACCESS_XAI, ["x-example", "x-two"]),
-            (x_search.CHANNEL_TWSCRAPE, ["x-example", "x-two"]),
-            (x_search.CHANNEL_PLAYWRIGHT, ["x-two"]),
-        ])
-        self.assertEqual(metadata["selected_channel"], "twscrape+playwright")
+        self.assertEqual(result.status, "failed")
+        self.assertIsNone(metadata["selected_channel"])
+        self.assertEqual(calls, [x_search.CHANNEL_PLAYWRIGHT])
 
     def test_twscrape_curl_backend_is_unavailable_before_import(self):
         with mock.patch.object(x_search.importlib, "import_module") as import_module:
@@ -163,7 +148,7 @@ class XChannelTests(unittest.TestCase):
             )
         )
         self.assertEqual(result.status, "failed")
-        self.assertEqual(metadata["selected_channel"], x_search.CHANNEL_TWSCRAPE)
+        self.assertIsNone(metadata["selected_channel"])
         self.assertEqual(calls, ["blocked"])
 
     def test_default_safe_delay_config_is_uniform_35_to_50(self):
@@ -344,7 +329,7 @@ class XChannelTests(unittest.TestCase):
             )
 
         self.assertEqual(result.status, "failed")
-        self.assertEqual(metadata["selected_channel"], x_search.CHANNEL_TWSCRAPE)
+        self.assertIsNone(metadata["selected_channel"])
         self.assertIn("No account available", result.error or "")
 
     def test_safe_delay_validation_and_injected_selection(self):

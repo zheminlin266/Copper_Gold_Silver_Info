@@ -49,6 +49,33 @@ test("new X coverage audit accepts partial reports and rejects count conflicts",
   assert.throws(() => validateReport(report, "2026-08-19.json"), /counts must sum/);
 });
 
+test("current X coverage requires Playwright then twscrape and rejects web-access", () => {
+  const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"));
+  report.date = "2026-08-20";
+  report.windows = {
+    part1: { start: "2026-08-18T00:00:00+08:00", end: "2026-08-20T23:59:59+08:00" },
+    part2: { start: "2026-08-20T00:00:00+08:00", end: "2026-08-20T23:59:59+08:00" },
+    part3: { start: "2026-08-20T00:00:00+08:00", end: "2026-08-20T23:59:59+08:00" },
+  };
+  report.part1_broadcasts.forEach((item) => { item.publish_date = "2026-08-19"; });
+  report.part2_x_posts.forEach((item) => { item.publish_time = "2026-08-20"; });
+  report.part3_news.forEach((item) => { item.publish_time = "2026-08-20"; });
+  report.search_log.part1_searched = true;
+  report.search_log.part3_searched = true;
+  report.search_log.part2_searched = false;
+  report.search_log.part2_channel = "twscrape";
+  report.search_log.part2_result = "X coverage 1/2; one account failed";
+  report.search_log.part2_coverage = {
+    status: "partial", accounts_total: 2, accounts_completed: 1, accounts_failed: 1,
+    attempted_channels: ["playwright", "twscrape"], selected_channel: "playwright+twscrape",
+    channel_errors: ["one account failed"], notes: "candidate set preserved",
+  };
+  assert.doesNotThrow(() => validateReport(report, "2026-08-20.json"));
+  report.search_log.part2_coverage.attempted_channels = ["web_access_xai"];
+  report.search_log.part2_coverage.selected_channel = "web_access_xai";
+  assert.throws(() => validateReport(report, "2026-08-20.json"), /ordered channel prefix/);
+});
+
 test("archive pagination shows 20 newest items before older pages", () => {
   const reports = Array.from({ length: 45 }, (_, index) => `report-${index + 1}`);
   const first = getArchivePage(reports, 1);
