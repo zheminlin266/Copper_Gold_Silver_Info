@@ -1,0 +1,21 @@
+X 原始候选 — 2026-08-19
+采集时间: 2026-08-20T07:50:55+08:00
+选定通道: none (failed before durable result)
+尝试通道: web_access_xai, twscrape, playwright
+不可用通道: web_access_xai, twscrape, playwright
+采集方法: ordered web_access_xai -> twscrape -> Playwright
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 0/53 确认完成，53 状态未确认/失败
+各通道完成账户数: {}
+采集状态: failed
+失败账号数: 53
+通道错误:
+  web_access_xai: provider=xai timed out before a reliable timezone-qualified original-post payload was available
+  twscrape: collector subprocess exceeded 1800 seconds before durable account-level output
+  playwright: collector subprocess exceeded 1800 seconds before durable account-level output
+安全边界: 由于执行器超时，未继续新增X流量；没有把未完成检索写成完整零结果。
+============================================================
+
+总计候选: 0 条（失败审计，非完整零结果）
+============================================================

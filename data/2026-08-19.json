@@ -1,0 +1,385 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-19",
+  "report_time": "2026-08-20T07:57:52+08:00",
+  "summary": "铜：Caserones风暴停机、Las Bambas事故与矿端精矿紧张使短期供给偏紧，LME库存回流暂时缓解交割压力；电网与AI需求强化中长期缺口。黄金：Antino勘探整合与中非矿难分别增加未来管线和运营风险。白银：Terronera社区封锁直接中断爬坡期供给。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-17T00:00:00+08:00",
+      "end": "2026-08-19T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-19T00:00:00+08:00",
+      "end": "2026-08-19T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-19T00:00:00+08:00",
+      "end": "2026-08-19T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.mining.com/video/golds-next-move-mcewen-sees-a-new-cycle-starting/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Rob McEwen在Top of Mine访谈中讨论大型生产商勘探不足、铜需求增长和Los Azules供给管线",
+          "evidence": "Mining.com访谈页面正文明确列出上述讨论主题",
+          "source_url": "https://www.mining.com/video/golds-next-move-mcewen-sees-a-new-cycle-starting/",
+          "evidence_type": "direct webcast page",
+          "period": "2026-08-19 webcast",
+          "unit": "interview topics; no realized production value",
+          "value": null
+        }
+      ],
+      "publish_date": "2026-08-19",
+      "title": "Top of Mine：Rob McEwen谈铜供给管线、劳动力约束与Los Azules",
+      "source_type": "webcast",
+      "summary": "访谈中Rob McEwen认为大型生产商多年出售成长资产并减少勘探，导致铜供给项目管线收缩；随着电网、AI和关键矿产需求上升，他讨论了Los Azules项目的融资、开发前景及矿业劳动力约束。",
+      "detail": "页面文字确认这是Mining.com的Top of Mine访谈。内容是管理层观点和项目讨论，不是已实现产量公告；Los Azules仍属于开发管线，不能把访谈中的前景直接计入近期供应。",
+      "importance": "这场访谈的新增价值在于把铜供给瓶颈从矿山事故延伸到多年勘探不足、劳动力和项目开发周期，且把Los Azules放进资本重新进入管线的观察框架。电网与AI需求正在增加中长期用铜压力，但项目从融资、许可到投产仍需多年，短期供给判断仍应以在产矿山复工和指引变化为主。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Rob McEwen",
+        "background": "McEwen Mining董事长"
+      },
+      "companies": [
+        "McEwen Mining",
+        "McEwen Copper"
+      ],
+      "projects": [
+        "Los Azules"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/gold-fields-boosts-stake-in-suriname-focused-founders-for-55m/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gold Fields拟追加5,570万美元并将Founders持股提高至略低于20%",
+          "evidence": "文章正文披露追加投资金额和持股变化",
+          "source_url": "https://www.mining.com/gold-fields-boosts-stake-in-suriname-focused-founders-for-55m/",
+          "evidence_type": "company investment",
+          "period": "2026-08-19 announcement",
+          "unit": "USD million; equity stake",
+          "value": "55.7; just under 20%"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com / The Northern Miner Group",
+      "title": "Gold Fields加码Founders并整合Suriname Antino金矿区",
+      "excerpt": "Gold Fields拟追加投资5,570万美元，将其在Founders Metals的持股提高至略低于20%；交易同时帮助Founders以现金、股份和里程碑付款收购Nana Resources在Lawa Gold中的30%权益，取得Antino全区1,024平方公里的完整控制权。Founders今年计划钻探70,000米，尚未发布Antino初始资源量。",
+      "language": "en",
+      "interpretation": "这是勘探控制权、融资和资源转换信号，不是已实现黄金产量。Antino的里程碑付款与资源量、许可、建设决定和首产挂钩，说明项目仍处于从勘探到开发验证阶段。",
+      "importance": "Gold Fields追加5,570万美元并把Founders持股推近20%，使Antino从部分权益安排转向1,024平方公里全区控制，资金也锁定今年70,000米钻探。新增价值在于资源转换和后续许可的执行确定性提高，但项目尚无初始资源量，近期供给仍取决于钻探连续性、许可与建设决定。",
+      "verification_status": "verified",
+      "companies": [
+        "Gold Fields",
+        "Founders Metals",
+        "Nana Resources"
+      ],
+      "projects": [
+        "Antino",
+        "Lawa Gold"
+      ],
+      "mining_com_source_note": "Mining.com铜/金/银分类页由Python 3.13.12+Playwright提取报告日候选；随后直接WebFetch打开该文章并核对标题、交易金额、股权、项目面积、钻探计划及资源量限制。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/central-african-republic-gold-mine-collapse-kills-over-100-mining-official-says/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "当地矿业协会高级官员称矿难死亡人数超过100人",
+          "evidence": "文章正文转述该官员说法，同时说明检察官仍在核实具体人数",
+          "source_url": "https://www.mining.com/web/central-african-republic-gold-mine-collapse-kills-over-100-mining-official-says/",
+          "evidence_type": "reported incident",
+          "period": "2026-08-19 incident",
+          "unit": "people killed (initial report)",
+          "value": ">100"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com / Reuters",
+      "title": "中非共和国手工金矿坍塌造成逾百人死亡，官方调查仍在进行",
+      "excerpt": "Mining.com转引当地矿业协会高级官员称，中非共和国Zamboye村附近一座手工金矿周二坍塌，死亡人数超过100人；检察官确认发生坍塌并表示具体死亡人数、原因和经营者仍在核实，救援和调查继续。",
+      "language": "en",
+      "interpretation": "已确认的是矿难及人员伤亡，尚不能把逾百人死亡直接换算成年度黄金产量损失。若该矿点属于当地手工采金供应，短期影响首先是现场停产和正规化、监管及安全风险上升。",
+      "importance": "这起矿难把黄金供应风险落到一个具体生产现场，逾百人死亡的初步规模说明安全与监管约束可能直接中断手工采金供给。由于检察机关尚未确认最终人数、矿点产量和经营者，影响目前只能定性为短期可交付供应的不确定性，后续应跟踪调查结论与区域监管措施。",
+      "verification_status": "verified",
+      "companies": [],
+      "projects": [
+        "Zamboye artisanal gold mine"
+      ],
+      "mining_com_source_note": "Mining.com报告日金分类页由Playwright提取候选；直接WebFetch打开文章，核对矿点、坍塌、官方身份和“死亡人数仍在确认”的限制。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/community-blockade-keeps-endeavours-mexican-mine-shut/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Terronera自2026年8月12日起因社区封锁暂停运营，二季度生产582,043盎司可支付白银",
+          "evidence": "文章转述Endeavour公告和二季度报告",
+          "source_url": "https://www.mining.com/community-blockade-keeps-endeavours-mexican-mine-shut/",
+          "evidence_type": "company operations",
+          "period": "2026 Q2 and 2026-08-12 onward",
+          "unit": "payable oz silver; tonnes processed",
+          "value": "582043; 175729"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com",
+      "title": "社区封锁使Endeavour Silver的Terronera银金矿持续停运",
+      "excerpt": "Endeavour Silver称，墨西哥Terronera银金矿因Ejido社区封锁自8月12日起暂停运营，争议涉及道路、医疗和通信服务、供水及经济支持。该矿2026年第二季度处理175,729吨矿石、生产582,043盎司可支付白银，当前停运打断爬坡计划。",
+      "language": "en",
+      "interpretation": "这是运营中的直接供给中断，且Terronera尚未完成爬坡；公司仍在谈判并未量化全年影响，不能把全年指引缺口当成已实现减产。复工时间和社区协议是决定实际损失的前置条件。",
+      "importance": "Terronera停运已从单日事件进入第二周，直接打断一座二季度生产582,043盎司白银、仍处爬坡期的新矿，影响机制是社区通行和基础设施争议阻断生产恢复。公司尚未调整全年指引，实际供给损失取决于复工谈判与持续时间，后续公告比当前年化外推更关键。",
+      "verification_status": "verified",
+      "companies": [
+        "Endeavour Silver"
+      ],
+      "projects": [
+        "Terronera"
+      ],
+      "mining_com_source_note": "Mining.com金/银分类页Playwright提取报告日候选；直接WebFetch打开文章，核对停运起始日、封锁诉求、二季度处理量和可支付白银产量，并保留公司未量化影响的限制。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/lundin-mining-cuts-copper-outlook-as-chile-storms-strike-again/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Caserones 2026年铜产量指引从130,000—140,000吨下调至120,000—130,000吨",
+          "evidence": "Lundin官方公告与Mining.com报道一致披露修订指引",
+          "source_url": "https://www.lundinmining.com/news/lundin-minings-chile-operations-impacted-by-second-severe-winter-storm",
+          "evidence_type": "company guidance",
+          "period": "2026 full-year guidance",
+          "unit": "contained tonnes copper",
+          "value": "120000-130000 (prior 130000-140000)"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com / Lundin Mining",
+      "title": "Lundin Mining因智利第二轮冬季风暴下调Caserones铜产量指引",
+      "excerpt": "第二轮冬季风暴再次损坏Caserones输电设施并延长停电恢复，Lundin Mining将该矿2026年铜产量指引从130,000—140,000吨下调至120,000—130,000吨，现金成本指引从每磅2.05—2.25美元上调至2.15—2.35美元；公司合并铜产量指引改为300,000—325,000吨。",
+      "language": "en",
+      "interpretation": "这是公司指引下修和运营停机风险，不是已经实现的全年减产。第二次停电把天气冲击从短期恢复问题传导到全年产量和成本，后续电力恢复、基础设施维修和安全爬坡决定实际兑现。",
+      "importance": "Caserones指引下调10,000吨的上下限，说明连续风暴已从一次停电升级为全年供应约束，并把公司合并铜指引下限降至300,000吨。影响集中在短期可交付供给和成本，电力恢复虽预计在周内完成，复产爬坡与下一轮极端天气仍是兑现风险。",
+      "verification_status": "verified",
+      "companies": [
+        "Lundin Mining"
+      ],
+      "projects": [
+        "Caserones",
+        "Candelaria"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；直接打开Mining.com文章并交叉核对Lundin Mining官方新闻页，核验风暴时间、停电、产量和现金成本指引。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/peru-labor-watchdog-probes-chinas-mmg-las-bambas-mine-after-accident-kills-2-workers/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Las Bambas事故造成两名工人死亡、三人受伤并暂时停产，预计8月21日逐步复工",
+          "evidence": "Reuters署名文章转述公司和秘鲁劳动监察机构信息",
+          "source_url": "https://www.mining.com/web/peru-labor-watchdog-probes-chinas-mmg-las-bambas-mine-after-accident-kills-2-workers/",
+          "evidence_type": "reported mine disruption",
+          "period": "2026-08-19 incident",
+          "unit": "workers; restart date",
+          "value": "2 dead; 3 injured; 2026-08-21"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com / Reuters",
+      "title": "Las Bambas事故致两名工人死亡并暂时停产，预计8月21日逐步复工",
+      "excerpt": "秘鲁劳动监察机构对MMG运营的Las Bambas铜矿事故展开调查。事故造成两名工人死亡、三人受伤，矿山暂时停产；公司称预计8月21日开始逐步复工。该矿约占全球铜产量2%，上一年产铜410,829吨。",
+      "language": "en",
+      "interpretation": "这是短期运营中断与安全调查信号，复工日期是公司预期而非已经完成的恢复。Las Bambas的全球产量占比和上一年产量提供规模锚点，但事故持续时间、监管要求和复工速度决定实际影响。",
+      "importance": "Las Bambas约占全球铜产量2%，两死三伤导致的停产把安全事件快速传导到可交付供给，8月21日逐步复工是近期验证节点。若按期恢复，全球影响可能短暂；若调查导致更长停工或整改，410,829吨的上一年产量规模会放大区域精矿供应风险。",
+      "verification_status": "verified",
+      "companies": [
+        "MMG",
+        "Las Bambas"
+      ],
+      "projects": [
+        "Las Bambas"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径提取候选；直接打开Mining.com的Reuters署名正文，核对事故伤亡、暂时停产、预计复工日、全球产量占比和上一年产量。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/copper-inventories-surge-50-easing-lme-squeeze/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "8月17日至19日LME仓单铜库存增加63,000吨，现金对三个月价差降至约176美元/吨",
+          "evidence": "文章转述Benchmark Mineral Intelligence数据和现货价差变化",
+          "source_url": "https://www.mining.com/copper-inventories-surge-50-easing-lme-squeeze/",
+          "evidence_type": "exchange inventory",
+          "period": "2026-08-17 to 2026-08-19",
+          "unit": "tonnes copper; USD per tonne spread",
+          "value": "63000; 176"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com / Benchmark Mineral Intelligence",
+      "title": "LME铜库存三日增加逾50%，现货紧张暂时缓解",
+      "excerpt": "据Benchmark Mineral Intelligence，8月17日至19日LME仓单铜库存增加63,000吨，现货与三个月期价差从周一收盘的436美元/吨降至周三约176美元/吨。交割缓解了近月极端紧张，但美国关税不确定性仍在重排全球铜流向。",
+      "language": "en",
+      "interpretation": "库存回流说明高价和近月升水能够吸引金属进入交易所，属于短期可交付供给缓解；它没有消除美国吸入库存造成的区域错配，需区分LME仓单增加和全球矿山供应改善。",
+      "importance": "三日增加63,000吨仓单库存把铜市场从近月极端紧张拉回可交割状态，436美元/吨的周一价差降至约176美元/吨是即时缓解的量化锚点。机制是高升水吸引现货重新入库，长期矿端短缺并未改变；后续库存来源、美国库存回流和价差能否继续收窄决定缓解是否可持续。",
+      "verification_status": "verified",
+      "companies": [
+        "Benchmark Mineral Intelligence",
+        "London Metal Exchange"
+      ],
+      "projects": [],
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；直接WebFetch打开文章，核对8月17—19库存变化、Benchmark引述、价差变化和关税导致的贸易流扭曲。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/copper-prices-run-signals-deeper-supply-squeeze-sprott/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "铜精矿TC/RC跌至每吨负150美元以下，BHP估计2035年前需新增约1,000万吨铜供应",
+          "evidence": "文章转述Sprott分析和BHP长期需求/供给估计",
+          "source_url": "https://www.mining.com/copper-prices-run-signals-deeper-supply-squeeze-sprott/",
+          "evidence_type": "analyst and company estimate",
+          "period": "2026 analysis; through 2035",
+          "unit": "USD per metric ton TC/RC; metric tons new copper",
+          "value": "below -150; about 10000000"
+        }
+      ],
+      "publish_time": "2026-08-19",
+      "source": "Mining.com / Sprott Asset Management",
+      "title": "Sprott分析称铜精矿短缺叠加电网、AI和国防需求",
+      "excerpt": "Sprott分析师Jacob White称，铜矿供给低于预期、精炼费跌至每吨负150美元以下，电网、AI数据中心、国防和能源基础设施需求增强，推动铜市场呈现结构性紧张。文章还引述BHP估计，到2035年全球需要约1,000万吨新增铜供应以平衡需求。",
+      "language": "en",
+      "interpretation": "这是分析师判断和公司/行业估计，不是已实现的全球缺口。负TC/RC反映冶炼厂争夺稀缺精矿，AI需求还通过电力和电网建设形成间接用铜，供给响应受品位、项目开发周期和多年许可约束。",
+      "importance": "负150美元/吨以下的TC/RC把矿端紧张量化为冶炼厂争夺精矿的价格信号，BHP估计2035年前需新增约1,000万吨则给出长期规模锚点。短期库存和贸易流会造成波动，但矿山开发周期、智利产量走弱与电网/AI需求同时存在，意味着高价尚未等同于新增供给已经到位。",
+      "verification_status": "verified",
+      "companies": [
+        "Sprott Asset Management",
+        "BHP",
+        "Antofagasta",
+        "London Metal Exchange"
+      ],
+      "projects": [],
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；直接WebFetch打开文章，核对Sprott分析师身份、TC/RC、铜矿供给、AI/电网需求与BHP长期估计，并区分分析判断和实际数据。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按2026-08-17至2026-08-19北京时间72小时窗口检查Mining Stock Daily、The Northern Miner、YouTube/Mining.com视频入口、种子人物/公司访谈和conference_calendar；窗口内核验1条新的Top of Mine访谈。",
+      "直接打开Mining.com Top of Mine页面，核对Rob McEwen访谈标题、页面内容、铜供给管线、劳动力、AI/电网需求和Los Azules讨论；该卡按webcast归类。",
+      "Mining Stock Daily主页显示最新可见节目为2026-08-17，相关候选已在2026-08-17日报收录，未重复纳入；页面未显示8月18—19新增节目。",
+      "Diggers & Dealers 2026节目与演示期为8月3—5，超出本窗口；The Northern Miner、Denver Gold Forum和Precious Metals Summit入口已检查，未发现窗口内未重复且可核验的金银铜访谈。",
+      "PDAC主页返回403，Mines and Money页面无法提取结构化正文；两者只作为入口失败记录，不将搜索摘要当作证据。"
+    ],
+    "part1_result": "Part 1完成2026-08-17至2026-08-19的Podcast、Webcast、YouTube、公司访谈和会议入口检查；纳入1条可打开且能核验新增铜供给管线信息的Mining.com Top of Mine访谈，其他窗口内候选重复、超期或仅有价格/宏观内容。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "按X_Web_Access_Prompt使用web-search provider=xai尝试RealRickRule和KatusaResearch的严格日期查询；请求超时，未获得可靠的时区化原帖payload，未生成有效完成账户。",
+      "保存严格xAI staging至.runtime/web_access_2026-08-19.json，accounts_total=53、accounts_completed=0；未把超时转换为完整零结果。",
+      "运行python scripts/daily_pipeline.py 2026-08-19 --collect-x --x-web-access-input .runtime/web_access_2026-08-19.json；有序进入web_access_xai -> twscrape -> Playwright，但执行器在1800秒终止，x_search未能原子发布其审计文件。",
+      "为保留现场和防止继续新增X流量，按失败状态生成x_outputs/2026-08-19_x_raw_materials.txt及sidecar，确认完成账户数保守记为0/53，候选为空但不代表完整零结果。"
+    ],
+    "part2_result": "Part 2 failed/partial audit: 0/53 accounts confirmed complete. web_access_xai timed out without reliable original-post data; the ordered twscrape -> Playwright run exceeded 1800 seconds before durable account-level output. Existing candidates were not available, no further X traffic was added, and [] is not a complete zero-result search.",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 53,
+      "accounts_completed": 0,
+      "accounts_failed": 53,
+      "attempted_channels": [
+        "web_access_xai",
+        "twscrape",
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "web_access_xai: provider=xai timed out before a reliable timezone-qualified original-post payload was available",
+        "twscrape: collector subprocess exceeded 1800 seconds before durable account-level output",
+        "playwright: collector subprocess exceeded 1800 seconds before durable account-level output"
+      ],
+      "notes": [
+        "页面显示X账户完成数0/53；完成数保守记为0，因为执行器在x_search原子审计发布前终止。",
+        "x_outputs/2026-08-19_x_raw_materials.txt和.json为本次日期新审计，不覆盖历史材料。",
+        "发生执行器超时后未继续探测或增加X流量；Part 2失败不阻止本日报发布，因为Part 1和Part 3均完整。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "执行当前scripts/daily_pipeline.py 2026-08-19 --collect-mining；使用工作流指定Python 3.13.12和Playwright抓取https://www.mining.com/commodity/copper/，HTTP 200，提取18篇报告日候选；gold和silver辅助分类页各提取13篇，跨页URL重复由规范化去重。",
+      "Mining.com入选文章逐篇直接WebFetch核验：Gold Fields/Founders、CAR矿难、Endeavour Terronera、Lundin/Caserones、Las Bambas、LME库存和Sprott铜精矿分析；记录各篇核验路径和日期/数字口径。",
+      "Lundin候选交叉打开公司官方新闻页，核对Caserones风暴、停电、120,000—130,000吨指引和现金成本。",
+      "Las Bambas候选直接打开Reuters署名Mining.com正文，核对两死三伤、约2%全球铜产量、410,829吨上一年产量和8月21日逐步复工预期。",
+      "同步检查中文来源：SMM金属要闻列表及SMM关于Lundin的中文/英文转载页面；页面未提供比官方公告更独立且窗口内明确的中文金银铜新增事实，未把中文搜索摘要单独作为信号。",
+      "Mining.com金银铜分类页中的Treasury/矿业股价格、Fortescue铁矿、加拿大钢铝、锂、铁稀土、寻宝视频、旧日期Wheaton/Arizona Eagle及一般并购评论按范围、窗口或供需因果规则排除；未使用sitemap、Wayback或RSS。"
+    ],
+    "part3_result": "Part 3完成2026-08-19全天英文和中文来源检索、Mining.com铜分类页强制Playwright主路径、金银辅助路径、逐篇来源打开和去重；纳入7条供需信号（铜4、黄金2、白银1），其中Caserones另以官方公司页交叉核验。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200并提取18篇报告日候选；金、银辅助页各13篇。7篇入选Part 3文章均直接打开核验，另1条Mining.com视频作为Part 1访谈直接打开；跨分类重复、窗口外和非金银铜内容排除。",
+    "url_verification": {
+      "checked": 8,
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1访谈和7条Part 3信号均已打开来源并核对标题/主体/日期及核心事实；未核验项未进入正文。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "Mining Stock Daily 2026-08-17最新节目相关候选已出现在2026-08-17日报；Diggers & Dealers 2026节目为8月3—5，超出本次72小时窗口。"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Mining.com同一报告日文章在gold/silver/copper分类页重复出现，每个URL只保留一张信号卡。",
+      "Wheaton文章页面为2026年8月18日、Arizona Eagle文章页面为2026年8月17日，均超出2026-08-19 Part 3窗口，未重复收录近期日报事件。",
+      "Treasury/矿业股涨幅和铜价涨幅文章仅为价格或资本市场叙述；Fortescue铁矿、钢铝、锂、铁稀土和寻宝内容不属于金银铜供需。",
+      "Caserones同时有Mining.com报道、Lundin官方公告和SMM转载，保留Mining.com卡并在来源说明中以Lundin官方页交叉核验，不重复生成事件卡。"
+    ],
+    "notes": "所有接受信号均有唯一primary_metal且出现在metal_tags中；实际事故、公司指引、库存数据、分析估计和项目管线按来源口径区分，未将勘探/观点写成已实现产量。"
+  }
+}
