@@ -56,13 +56,16 @@ SOURCE_TYPES = frozenset({
 })
 LANGUAGES = frozenset({"en", "zh"})
 PART2_CHANNELS = frozenset({"browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "failed"})
-PART2_CHANNEL_ORDER = ("web_access_xai", "twscrape", "playwright")
-PART2_SELECTED_CHANNELS = frozenset({
+LEGACY_PART2_CHANNEL_ORDER = ("web_access_xai", "twscrape", "playwright")
+CURRENT_PART2_CHANNEL_ORDER = ("playwright", "twscrape")
+LEGACY_PART2_SELECTED_CHANNELS = frozenset({
     "web_access_xai", "twscrape", "playwright",
     "web_access_xai+twscrape", "web_access_xai+playwright", "twscrape+playwright",
     "web_access_xai+twscrape+playwright",
 })
+CURRENT_PART2_SELECTED_CHANNELS = frozenset({"playwright", "twscrape", "playwright+twscrape"})
 PART2_COVERAGE_REQUIRED_FROM = "2026-08-19"
+CURRENT_PART2_ORDER_FROM = "2026-08-20"
 PART3_CHANNELS = frozenset({"web", "playwright"})
 
 
@@ -182,7 +185,7 @@ def _validate_claims(value: Any, candidate_id: str) -> list[dict[str, Any]]:
     return claims
 
 
-def _validate_part2_coverage(value: Any) -> dict[str, Any]:
+def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict[str, Any]:
     coverage = dict(_is_mapping(value, "search_log.part2_coverage"))
     allowed = {"status", "accounts_total", "accounts_completed", "accounts_failed", "attempted_channels", "selected_channel", "channel_errors", "notes"}
     _reject_unknown(coverage, allowed, "search_log.part2_coverage")
@@ -195,19 +198,29 @@ def _validate_part2_coverage(value: Any) -> dict[str, Any]:
             raise ReportBuilderError(f"search_log.part2_coverage.{field} must be a non-negative integer")
     if coverage["accounts_completed"] + coverage["accounts_failed"] != coverage["accounts_total"]:
         raise ReportBuilderError("search_log.part2_coverage counts must sum to accounts_total")
-    if coverage["status"] == "complete" and coverage["accounts_completed"] != coverage["accounts_total"]:
-        raise ReportBuilderError("complete Part 2 coverage must complete every account")
-    if coverage["status"] != "complete" and coverage["accounts_completed"] == coverage["accounts_total"]:
-        raise ReportBuilderError("non-complete Part 2 coverage cannot complete every account")
+    completed = coverage["accounts_completed"]
+    failed = coverage["accounts_failed"]
+    if coverage["status"] == "complete" and (completed != coverage["accounts_total"] or failed != 0):
+        raise ReportBuilderError("complete Part 2 coverage must complete every account with no failures")
+    if coverage["status"] == "partial" and (completed < 1 or failed < 1):
+        raise ReportBuilderError("partial Part 2 coverage must complete and fail at least one account")
+    if coverage["status"] == "failed" and (completed != 0 or failed != coverage["accounts_total"]):
+        raise ReportBuilderError("failed Part 2 coverage must fail every account with zero completions")
+    channel_order = CURRENT_PART2_CHANNEL_ORDER if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_CHANNEL_ORDER
+    selected_channels = CURRENT_PART2_SELECTED_CHANNELS if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_SELECTED_CHANNELS
     attempted = coverage.get("attempted_channels")
-    if not isinstance(attempted, list) or attempted != list(PART2_CHANNEL_ORDER[:len(attempted)]):
+    if not isinstance(attempted, list) or attempted != list(channel_order[:len(attempted)]):
         raise ReportBuilderError("search_log.part2_coverage.attempted_channels must be an ordered channel prefix")
     selected = coverage.get("selected_channel")
-    if selected not in PART2_SELECTED_CHANNELS and selected is not None:
+    if selected not in selected_channels and selected is not None:
         raise ReportBuilderError("search_log.part2_coverage.selected_channel is unsupported")
+    if (selected is None) != (completed == 0):
+        raise ReportBuilderError("selected_channel must be null exactly when no accounts completed")
     if selected is not None:
         selected_parts = selected.split("+")
-        if any(part not in attempted for part in selected_parts) or selected_parts != sorted(selected_parts, key=PART2_CHANNEL_ORDER.index):
+        if len(selected_parts) > completed:
+            raise ReportBuilderError("selected_channel cannot contain more channels than completed accounts")
+        if any(part not in attempted for part in selected_parts) or selected_parts != sorted(selected_parts, key=channel_order.index):
             raise ReportBuilderError("search_log.part2_coverage.selected_channel conflicts with attempted_channels")
     for field in ("channel_errors", "notes"):
         if not isinstance(coverage[field], (str, list)):
@@ -219,7 +232,7 @@ def _validate_part2_coverage(value: Any) -> dict[str, Any]:
     return coverage
 
 
-def _validate_search_log(value: Any) -> dict[str, Any]:
+def _validate_search_log(value: Any, report_date: str | None = None) -> dict[str, Any]:
     """Validate the publish-time audit contract, not just its JSON shape."""
     data = dict(_is_mapping(value, "search_log"))
     _reject_unknown(data, SEARCH_LOG_FIELDS, "search_log")
@@ -236,7 +249,7 @@ def _validate_search_log(value: Any) -> dict[str, Any]:
             raise ReportBuilderError(f"search_log.{result} must be a non-empty string")
     coverage = data.get("part2_coverage")
     if coverage is not None:
-        coverage = _validate_part2_coverage(coverage)
+        coverage = _validate_part2_coverage(coverage, report_date)
         data["part2_coverage"] = coverage
         if data.get("part2_searched") is not (coverage["status"] == "complete"):
             raise ReportBuilderError("search_log.part2_searched conflicts with Part 2 coverage status")
@@ -258,10 +271,14 @@ def _validate_search_log(value: Any) -> dict[str, Any]:
             raise ReportBuilderError("legacy Part 2 requires part2_searched=true")
         if data.get("part2_channel") not in {"twscrape", "playwright", "browser_use", "rss_fallback"}:
             raise ReportBuilderError("search_log.part2_channel is unsupported")
+        if report_date and report_date >= CURRENT_PART2_ORDER_FROM and data.get("part2_channel") == "web_access_xai":
+            raise ReportBuilderError("new Part 2 reports cannot use web_access_xai")
         if not isinstance(data.get("part2_result"), str) or not data["part2_result"].strip():
             raise ReportBuilderError("search_log.part2_result must be a non-empty string")
     if data.get("part2_channel") is not None and data["part2_channel"] not in PART2_CHANNELS:
         raise ReportBuilderError("search_log.part2_channel is unsupported")
+    if report_date and report_date >= CURRENT_PART2_ORDER_FROM and data.get("part2_channel") == "web_access_xai":
+        raise ReportBuilderError("new Part 2 reports cannot use web_access_xai")
     verification = data.get("url_verification")
     if not isinstance(verification, Mapping):
         raise ReportBuilderError("search_log.url_verification is required")
@@ -500,11 +517,15 @@ def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None)
         ]
         for kind in KINDS
     }
-    search_log = _validate_search_log(data.get("search_log"))
+    search_log = _validate_search_log(data.get("search_log"), report_date)
     if report_date >= PART2_COVERAGE_REQUIRED_FROM and "part2_coverage" not in search_log:
         raise ReportBuilderError(
             f"search_log.part2_coverage is required for reports from {PART2_COVERAGE_REQUIRED_FROM}"
         )
+    if report_date >= CURRENT_PART2_ORDER_FROM and any(
+        item.get("source_channel") == "web_access_xai" for item in projected_by_kind["x"]
+    ):
+        raise ReportBuilderError("new Part 2 reports cannot use web_access_xai source_channel")
     _validate_verification_coverage(search_log, projected)
     output = {
         "schema_version": 3,

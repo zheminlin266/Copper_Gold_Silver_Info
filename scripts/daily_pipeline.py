@@ -209,14 +209,11 @@ def _collect_x(
     report_date: str,
     run_dir: Path,
     project_root: Path,
-    web_access_input: str | Path | None = None,
 ) -> CollectorResult:
     output_path = project_root / "x_outputs" / f"{report_date}_x_raw_materials.txt"
     sidecar_path = output_path.with_suffix(".json")
     existed_before = output_path.exists() or sidecar_path.exists()
     command = [sys.executable, str(project_root / "scripts" / "x_search.py"), report_date, "--headless"]
-    if web_access_input:
-        command.extend(["--web-access-input", str(web_access_input)])
     returncode, stdout, stderr, process_error = _run_process(command, cwd=project_root)
     stdout_artifact, stderr_artifact = _write_process_artifacts(run_dir, "x_search", stdout, stderr)
     errors: list[str] = []
@@ -252,8 +249,17 @@ def _collect_x(
                     raise ValueError(f"X sidecar {field} is invalid")
             if sidecar["accounts_total"] != expected_accounts_total:
                 raise ValueError("X sidecar accounts_total does not match source registry")
-            if sidecar["accounts_completed"] + sidecar["accounts_failed"] != sidecar["accounts_total"]:
+            accounts_total = sidecar["accounts_total"]
+            accounts_completed = sidecar["accounts_completed"]
+            accounts_failed = sidecar["accounts_failed"]
+            if accounts_completed + accounts_failed != accounts_total:
                 raise ValueError("X sidecar account counts are inconsistent")
+            if sidecar_status == "complete" and (accounts_completed != accounts_total or accounts_failed != 0):
+                raise ValueError("complete X sidecar must complete every account with no failures")
+            if sidecar_status == "partial" and (accounts_completed < 1 or accounts_failed < 1):
+                raise ValueError("partial X sidecar must complete and fail at least one account")
+            if sidecar_status == "failed" and (accounts_completed != 0 or accounts_failed != accounts_total):
+                raise ValueError("failed X sidecar must fail every account with zero completions")
             sidecar_errors = sidecar.get("errors")
             if not isinstance(sidecar_errors, list) or len(sidecar_errors) != sidecar["accounts_failed"]:
                 raise ValueError("X sidecar errors do not match failed account count")
@@ -265,7 +271,7 @@ def _collect_x(
                     raise ValueError("X sidecar error account mapping is invalid")
                 error_ids.add(error["source_id"])
             attempted_channels = sidecar.get("attempted_channels")
-            channel_order = ["web_access_xai", "twscrape", "playwright"]
+            channel_order = ["playwright", "twscrape"]
             if not isinstance(attempted_channels, list) or not attempted_channels or attempted_channels != channel_order[:len(attempted_channels)]:
                 raise ValueError("X sidecar attempted_channels must be an ordered channel prefix")
             channel_completed_accounts = sidecar.get("channel_completed_accounts")
@@ -273,12 +279,18 @@ def _collect_x(
                 raise ValueError("X sidecar channel_completed_accounts is invalid")
             if any(channel not in attempted_channels or type(count) is not int or count < 0 for channel, count in channel_completed_accounts.items()):
                 raise ValueError("X sidecar channel_completed_accounts is invalid")
-            if sum(channel_completed_accounts.values()) != sidecar["accounts_completed"]:
+            if sum(channel_completed_accounts.values()) != accounts_completed:
                 raise ValueError("X sidecar channel completion counts do not match accounts_completed")
             selected_channel = sidecar.get("selected_channel")
-            valid_selected = {None, *channel_order, "web_access_xai+twscrape", "web_access_xai+playwright", "twscrape+playwright", "web_access_xai+twscrape+playwright"}
+            valid_selected = {None, *channel_order, "playwright+twscrape"}
             if selected_channel not in valid_selected:
                 raise ValueError("X sidecar selected_channel is invalid")
+            expected_selected = "+".join(
+                channel for channel in channel_order
+                if channel in attempted_channels and channel_completed_accounts.get(channel, 0) > 0
+            ) or None
+            if selected_channel != expected_selected:
+                raise ValueError("X sidecar selected_channel does not match channel completion counts")
             if selected_channel is not None:
                 selected_parts = selected_channel.split("+")
                 attempted_indexes = [attempted_channels.index(part) if part in attempted_channels else -1 for part in selected_parts]
@@ -351,7 +363,6 @@ def run_pipeline(
     dry_run: bool = False,
     collect_mining: bool = False,
     collect_x: bool = False,
-    x_web_access_input: str | Path | None = None,
     project_root: str | Path = PROJECT_ROOT,
 ) -> dict[str, Any]:
     """Run preflight and optional collectors, returning the manifest dictionary."""
@@ -391,7 +402,7 @@ def run_pipeline(
         if collect_mining:
             results.append(_collect_mining(parsed_date, run_dir, root))
         if collect_x:
-            results.append(_collect_x(parsed_date, run_dir, root, x_web_access_input))
+            results.append(_collect_x(parsed_date, run_dir, root))
     candidates = [candidate for result in results for candidate in result.candidates]
     candidate_ids = [candidate.id for candidate in candidates]
     document_ids = [candidate.document_id for candidate in candidates]
@@ -433,7 +444,6 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--dry-run", action="store_true", help="preflight only; do not invoke collectors")
     parser.add_argument("--collect-mining", action="store_true")
     parser.add_argument("--collect-x", action="store_true")
-    parser.add_argument("--x-web-access-input", help="external xAI web-access staging JSON")
     args = parser.parse_args(argv)
     try:
         manifest = run_pipeline(
@@ -441,7 +451,6 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             collect_mining=args.collect_mining,
             collect_x=args.collect_x,
-            x_web_access_input=args.x_web_access_input,
         )
     except (PipelineError, ContractError, ValueError, FileExistsError) as error:
         parser.error(str(error))

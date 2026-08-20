@@ -1,6 +1,6 @@
 """
 X (Twitter) 供需信息搜索 — 有序多通道采集器。
-按 twscrape、Playwright 顺序获取窗口内帖子，保存原始候选到 x_outputs/。
+按 Playwright、twscrape 顺序获取窗口内帖子，保存原始候选到 x_outputs/。
 
 无 LLM 依赖，无 browser-use 依赖；可选通道按需安装。
 
@@ -68,10 +68,9 @@ TWSCRAPE_DB = PROJECT_ROOT / ".browser_profile" / "twscrape.db"
 
 TZ_BEIJING = timezone(timedelta(hours=8))
 SEARCH_QUERY = "(gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)"
-CHANNEL_WEB_ACCESS_XAI = "web_access_xai"
 CHANNEL_TWSCRAPE = "twscrape"
 CHANNEL_PLAYWRIGHT = "playwright"
-X_CHANNEL_ORDER = (CHANNEL_WEB_ACCESS_XAI, CHANNEL_TWSCRAPE, CHANNEL_PLAYWRIGHT)
+X_CHANNEL_ORDER = (CHANNEL_PLAYWRIGHT, CHANNEL_TWSCRAPE)
 DEFAULT_SAFE_DELAY_MIN_SECONDS = 35.0
 DEFAULT_SAFE_DELAY_MAX_SECONDS = 50.0
 DEFAULT_MAX_RESULTS_PER_QUERY = 20
@@ -261,162 +260,6 @@ def _is_status_url(value: Any) -> bool:
     )
 
 
-def _staging_error(message: str) -> ChannelUnavailable:
-    return ChannelUnavailable(f"invalid web-access staging: {message}")
-
-
-def validate_web_access_staging(value: Any, report_date: str, accounts: list[dict]) -> dict[str, Any]:
-    """Strictly validate an external provider=xai staging payload."""
-    if not isinstance(value, dict):
-        raise _staging_error("root must be an object")
-    allowed = {"provider", "report_date", "accounts_total", "accounts_completed", "account_results"}
-    unknown = set(value) - allowed
-    if unknown:
-        raise _staging_error(f"unsupported field(s): {', '.join(sorted(unknown))}")
-    if value.get("provider") != "xai":
-        raise _staging_error("provider must be xai")
-    if value.get("report_date") != report_date:
-        raise _staging_error("report_date does not match the requested report date")
-    total = value.get("accounts_total")
-    if type(total) is not int or total < 0 or total != len(accounts):
-        raise _staging_error(f"accounts_total must equal the registry X account count ({len(accounts)})")
-    results = value.get("account_results")
-    if not isinstance(results, list) or len(results) > total:
-        raise _staging_error("account_results must be a list no larger than accounts_total")
-    if type(value.get("accounts_completed")) is not int:
-        raise _staging_error("accounts_completed is required and must be an integer")
-    if value["accounts_completed"] != sum(item.get("status") == "complete" for item in results if isinstance(item, dict)):
-        raise _staging_error("accounts_completed does not match complete account results")
-
-    by_id = {account["source_id"]: account for account in accounts}
-    by_handle = {account["x_handle"].casefold(): account for account in accounts}
-    seen: set[str] = set()
-    seen_post_urls: set[str] = set()
-    normalised_results: list[dict[str, Any]] = []
-    for index, item in enumerate(results):
-        if not isinstance(item, dict):
-            raise _staging_error(f"account_results[{index}] must be an object")
-        if set(item) - {"source_id", "handle", "status", "error", "posts"}:
-            raise _staging_error(f"account_results[{index}] has unsupported fields")
-        if not {"source_id", "handle", "status", "posts"}.issubset(item):
-            raise _staging_error(f"account_results[{index}] is missing required fields")
-        source_id = item.get("source_id")
-        handle = item.get("handle")
-        if not isinstance(source_id, str) or not isinstance(handle, str):
-            raise _staging_error(f"account_results[{index}] needs source_id and handle")
-        account = by_id.get(source_id)
-        if account is None or by_handle.get(handle.lstrip("@").casefold()) is not account:
-            raise _staging_error(f"account_results[{index}] source_id and handle do not match the registry")
-        if source_id in seen:
-            raise _staging_error(f"duplicate account result: {source_id}")
-        seen.add(source_id)
-        status = item.get("status")
-        if status not in {"complete", "failed"}:
-            raise _staging_error(f"account_results[{index}].status must be complete or failed")
-        error = item.get("error")
-        posts = item.get("posts")
-        if status == "failed":
-            if not isinstance(error, str) or not error.strip():
-                raise _staging_error(f"account_results[{index}].error is required for failed accounts")
-            if posts not in (None, []):
-                raise _staging_error(f"failed account {source_id} must not contain posts")
-            normalised_results.append({"account": account, "status": status, "error": error.strip(), "posts": []})
-            continue
-        if not isinstance(posts, list):
-            raise _staging_error(f"account_results[{index}].posts must be a list for complete accounts")
-        normalised_posts: list[dict[str, Any]] = []
-        for post_index, post in enumerate(posts):
-            if not isinstance(post, dict):
-                raise _staging_error(f"{source_id}.posts[{post_index}] must be an object")
-            if set(post) - {"author", "handle", "url", "text", "publish_time"}:
-                raise _staging_error(f"{source_id}.posts[{post_index}] has unsupported fields")
-            if not {"author", "handle", "url", "text", "publish_time"}.issubset(post):
-                raise _staging_error(f"{source_id}.posts[{post_index}] is missing required fields")
-            post_handle = post.get("handle")
-            if not all(isinstance(post.get(key), str) and post[key].strip() for key in ("author", "url", "text", "publish_time")):
-                raise _staging_error(f"{source_id}.posts[{post_index}] is missing author, url, text, or publish_time")
-            if not isinstance(post_handle, str) or post_handle.lstrip("@").casefold() != account["x_handle"].casefold():
-                raise _staging_error(f"{source_id}.posts[{post_index}] handle does not match the account")
-            if not _is_status_url(post["url"]):
-                raise _staging_error(f"{source_id}.posts[{post_index}].url must be an x.com/twitter.com status URL")
-            try:
-                timestamp = parse_x_datetime(post["publish_time"])
-            except (TypeError, ValueError) as error:
-                raise _staging_error(f"{source_id}.posts[{post_index}].publish_time must include a timezone") from error
-            bj_time = timestamp.astimezone(TZ_BEIJING)
-            if bj_time.strftime("%Y-%m-%d") != report_date:
-                raise _staging_error(f"{source_id}.posts[{post_index}].publish_time is outside the report date")
-            normalised_url = _normalise_post_url(post["url"])
-            if normalised_url in seen_post_urls:
-                raise _staging_error(f"duplicate post URL: {post['url']}")
-            seen_post_urls.add(normalised_url)
-            normalised_posts.append({
-                "source_id": source_id,
-                "author": post["author"].strip(),
-                "handle": post_handle.lstrip("@"),
-                "utc_time": timestamp.astimezone(timezone.utc).isoformat(),
-                "bj_time": bj_time.isoformat(),
-                "text": post["text"].strip(),
-                "url": post["url"].strip(),
-            })
-        normalised_results.append({"account": account, "status": status, "error": None, "posts": normalised_posts})
-    return {
-        "provider": "xai",
-        "report_date": report_date,
-        "accounts_total": total,
-        "accounts_completed": sum(item["status"] == "complete" for item in normalised_results),
-        "account_results": normalised_results,
-    }
-
-
-def load_web_access_staging(path: str | Path, report_date: str, accounts: list[dict]) -> dict[str, Any]:
-    try:
-        value = json.loads(Path(path).read_text(encoding="utf-8"))
-    except (OSError, json.JSONDecodeError) as error:
-        raise _staging_error(f"could not read JSON: {error}") from error
-    return validate_web_access_staging(value, report_date, accounts)
-
-
-async def collect_web_access(
-    report_date: str,
-    accounts: list[dict],
-    *,
-    input_path: str | Path | None = None,
-) -> ChannelResult:
-    """Import only a validated external xAI web-access staging file."""
-    path = input_path or os.environ.get("X_WEB_ACCESS_INPUT")
-    if not path:
-        raise ChannelUnavailable("web-access xAI staging input is not configured")
-    staging = load_web_access_staging(path, report_date, accounts)
-    tweets: list[dict] = []
-    failed_accounts: list[tuple[str, str, str, str]] = []
-    completed_accounts: list[str] = []
-    for item in staging["account_results"]:
-        account = item["account"]
-        if item["status"] == "complete":
-            completed_accounts.append(account["source_id"])
-            tweets.extend(item["posts"])
-        else:
-            failure = (account["source_id"], account["x_handle"], account["display_name"], item["error"])
-            if is_x_safety_error(RuntimeError(item["error"])):
-                raise XSafetyStop(
-                    f"web-access safety stop for @{account['x_handle']}: {item['error']}",
-                    tweets=tweets,
-                    completed_accounts=completed_accounts,
-                    failed_accounts=failed_accounts + [failure],
-                )
-            failed_accounts.append(failure)
-    status = "complete" if len(completed_accounts) == len(accounts) else ("partial" if completed_accounts else "failed")
-    return ChannelResult(
-        CHANNEL_WEB_ACCESS_XAI,
-        tweets=tweets,
-        failed_accounts=failed_accounts,
-        status=status,
-        completed_accounts=completed_accounts,
-        metadata={"provider": "xai", "staging_input": str(path)},
-    )
-
-
 async def pace_between_accounts(
     index: int,
     total: int,
@@ -434,8 +277,29 @@ def _text_for_error(error: BaseException) -> str:
     return f"{type(error).__name__}: {error}".casefold()
 
 
+def _status_code(value: Any) -> int | None:
+    if isinstance(value, dict):
+        for name in ("status_code", "status"):
+            candidate = value.get(name)
+            if isinstance(candidate, int) and not isinstance(candidate, bool):
+                return candidate
+            if isinstance(candidate, str) and candidate.strip().isdigit():
+                return int(candidate.strip())
+        return None
+    for name in ("status_code", "status"):
+        candidate = getattr(value, name, None)
+        if isinstance(candidate, int) and not isinstance(candidate, bool):
+            return candidate
+        if isinstance(candidate, str) and candidate.strip().isdigit():
+            return int(candidate.strip())
+    return None
+
+
 def is_x_safety_error(error: BaseException) -> bool:
     """Classify stop conditions without retrying or probing another channel."""
+    for value in (error, getattr(error, "response", None)):
+        if _status_code(value) in {401, 403, 429}:
+            return True
     text = _text_for_error(error)
     return any(
         marker in text
@@ -443,6 +307,15 @@ def is_x_safety_error(error: BaseException) -> bool:
             "401",
             "403",
             "429",
+            "http 401",
+            "http 403",
+            "http 429",
+            "status 401",
+            "status 403",
+            "status 429",
+            "unauthorized",
+            "forbidden",
+            "toomanyrequests",
             "rate limit",
             "ratelimit",
             "challenge",
@@ -459,6 +332,9 @@ def is_x_safety_error(error: BaseException) -> bool:
             "authorization required",
             "no account available",
             "all accounts unavailable",
+            "account exhausted",
+            "accounts exhausted",
+            "account exhaustion",
         )
     )
 
@@ -472,6 +348,9 @@ def is_twscrape_safety_error(error: BaseException) -> bool:
         or "no account available" in text
         or "all accounts unavailable" in text
         or "all accounts are unavailable" in text
+        or "account exhausted" in text
+        or "accounts exhausted" in text
+        or "account exhaustion" in text
         or is_x_safety_error(error)
     )
 
@@ -632,21 +511,52 @@ def build_sidecar(
     channel_completed_accounts: dict[str, int] | None = None,
 ) -> dict:
     """Build deterministic structured output while retaining account audit errors."""
+    channel_order = list(X_CHANNEL_ORDER)
+    attempted = list(attempted_channels or [])
+    if attempted != channel_order[:len(attempted)]:
+        raise ValueError("attempted_channels must be a Playwright -> twscrape prefix")
     inferred_ids = {item.get("source_id") for item in tweets if item.get("source_id")}
     inferred_ids.update(item[0] for item in failed_accounts)
     total = len(inferred_ids) if accounts_total is None else accounts_total
     completed = max(0, total - len(failed_accounts)) if accounts_completed is None else accounts_completed
+    failed = len(failed_accounts)
+    if any(type(value) is not int or value < 0 for value in (total, completed, failed)):
+        raise ValueError("account counts must be non-negative integers")
+    if completed + failed != total:
+        raise ValueError("account counts must sum to accounts_total")
+    resolved_status = status or ("failed" if failed and completed == 0 else "partial" if failed else "complete")
+    if resolved_status not in {"complete", "partial", "failed"}:
+        raise ValueError("status must be complete, partial, or failed")
+    if resolved_status == "complete" and (completed != total or failed != 0):
+        raise ValueError("complete status requires all accounts completed and no failures")
+    if resolved_status == "partial" and (completed < 1 or failed < 1):
+        raise ValueError("partial status requires at least one completed and one failed account")
+    if resolved_status == "failed" and (completed != 0 or failed != total):
+        raise ValueError("failed status requires zero completed and all accounts failed")
+    channel_completed = dict(channel_completed_accounts or {})
+    if any(
+        channel not in attempted or type(count) is not int or count < 0
+        for channel, count in channel_completed.items()
+    ):
+        raise ValueError("channel_completed_accounts is invalid")
+    if sum(channel_completed.values()) != completed:
+        raise ValueError("channel completion counts do not match accounts_completed")
+    expected_selected = "+".join(
+        channel for channel in channel_order if channel in attempted and channel_completed.get(channel, 0) > 0
+    ) or None
+    if selected_channel != expected_selected:
+        raise ValueError("selected_channel does not match channel completion counts")
     sidecar = {
         "collector": "x_search",
         "report_date": report_date,
-        "status": status or ("partial" if failed_accounts else "complete"),
+        "status": resolved_status,
         "selected_channel": selected_channel,
         "attempted_channels": list(attempted_channels or []),
         "unavailable_channels": list(unavailable_channels or []),
         "accounts_total": total,
         "accounts_completed": completed,
-        "accounts_failed": len(failed_accounts),
-        "channel_completed_accounts": dict(channel_completed_accounts or {}),
+        "accounts_failed": failed,
+        "channel_completed_accounts": channel_completed,
         "candidates": [normalize_x_candidate(tweet, report_date) for tweet in tweets],
         "errors": [
             {"source_id": source_id, "handle": handle, "author": name, "error": error}
@@ -1153,22 +1063,15 @@ async def run_ordered_channels(
     accounts: list[dict],
     *,
     headless: bool = False,
-    web_access_input: str | Path | None = None,
     runners: list[tuple[str, Callable[..., Any]]] | None = None,
     sleep: Callable[[float], Any] | None = None,
     random_uniform: Callable[[float, float], float] | None = None,
 ) -> tuple[ChannelResult, dict[str, Any]]:
-    """Run web-access xAI, twscrape, then Playwright for only unfinished accounts."""
-    if runners is None:
-        async def web_runner(date: str, pending: list[dict], **_kwargs: Any) -> ChannelResult:
-            return await collect_web_access(date, pending, input_path=web_access_input)
-        channel_runners = [
-            (CHANNEL_WEB_ACCESS_XAI, web_runner),
-            (CHANNEL_TWSCRAPE, collect_twscrape),
-            (CHANNEL_PLAYWRIGHT, collect_playwright),
-        ]
-    else:
-        channel_runners = runners
+    """Run Playwright, then twscrape for only unfinished accounts."""
+    channel_runners = runners or [
+        (CHANNEL_PLAYWRIGHT, collect_playwright),
+        (CHANNEL_TWSCRAPE, collect_twscrape),
+    ]
     pending = {account["source_id"]: account for account in accounts}
     tweets: list[dict] = []
     seen_urls: set[str] = set()
@@ -1182,6 +1085,7 @@ async def run_ordered_channels(
 
     def validate_result_accounts(result: ChannelResult, requested: list[dict]) -> tuple[list[str], list[tuple[str, str, str, str]]]:
         requested_by_id = {account["source_id"]: account for account in requested}
+        requested_ids = set(requested_by_id)
         completed_accounts = list(result.completed_accounts)
         if len(set(completed_accounts)) != len(completed_accounts) or any(source_id not in requested_by_id for source_id in completed_accounts):
             raise ChannelUnavailable(f"{result.channel} returned an invalid completed account mapping")
@@ -1191,6 +1095,12 @@ async def run_ordered_channels(
             if not isinstance(failure, (tuple, list)) or len(failure) != 4 or failure[0] not in requested_by_id or failure[0] in failure_ids or failure[0] in completed_accounts:
                 raise ChannelUnavailable(f"{result.channel} returned an invalid failed account mapping")
             failure_ids.add(failure[0])
+        if result.status not in {"complete", "partial", "failed"}:
+            raise ChannelUnavailable(f"{result.channel} returned an invalid status")
+        if result.status == "complete" and (set(completed_accounts) != requested_ids or failures):
+            raise ChannelUnavailable(
+                f"{result.channel} reported complete without explicitly completing every requested account"
+            )
         return completed_accounts, [tuple(failure) for failure in failures]
 
     def merge_result(channel: str, result: ChannelResult, requested: list[dict], completed_accounts: list[str], failures: list[tuple[str, str, str, str]]) -> None:
@@ -1202,10 +1112,7 @@ async def run_ordered_channels(
             if key and key not in seen_urls:
                 seen_urls.add(key)
                 tweets.append(tweet)
-        explicit = set(completed_accounts)
-        if not explicit and result.status == "complete":
-            explicit = {account["source_id"] for account in requested}
-        explicit &= set(pending)
+        explicit = set(completed_accounts) & set(pending)
         completed.update(explicit)
         for failure in failures:
             failed[failure[0]] = failure
@@ -1307,7 +1214,11 @@ async def run_ordered_channels(
         completed_accounts=sorted(completed),
         metadata={"channel_completed_accounts": channel_completed, "channel_errors": channel_errors},
     )
-    selected = last_channel if len([channel for channel in attempted if channel in channel_completed]) <= 1 else "+".join(channel for channel in X_CHANNEL_ORDER if channel in attempted and channel in channel_completed)
+    completed_channels = [
+        channel for channel in X_CHANNEL_ORDER
+        if channel in attempted and channel_completed.get(channel, 0) > 0
+    ]
+    selected = "+".join(completed_channels) if completed_channels else None
     return outcome, {
         "selected_channel": selected,
         "attempted_channels": attempted,
@@ -1322,7 +1233,6 @@ async def main(
     headless: bool = False,
     overwrite: bool = False,
     output_suffix: str = "",
-    web_access_input: str | Path | None = None,
 ):
     report_date = parse_report_date(date_str).isoformat()
     if output_suffix and not re.fullmatch(r"[A-Za-z0-9_-]+", output_suffix):
@@ -1353,7 +1263,6 @@ async def main(
         report_date,
         all_accounts,
         headless=headless,
-        web_access_input=web_access_input,
     )
     all_tweets = outcome.tweets
     failed_accounts = outcome.failed_accounts
@@ -1371,7 +1280,7 @@ async def main(
         f"选定通道: {method}\n",
         f"尝试通道: {', '.join(attempted_channels) or '无'}\n",
         f"不可用通道: {', '.join(item['channel'] for item in unavailable_channels) or '无'}\n",
-        "采集方法: ordered web_access_xai -> twscrape -> Playwright\n",
+        "采集方法: ordered Playwright -> twscrape\n",
         f"搜索词: {SEARCH_QUERY}\n",
         f"账号批次: {len(all_accounts) - official_count} 个人 + {official_count} 官方\n",
         f"账号审计: {len(outcome.completed_accounts)}/{len(all_accounts)} 完成，失败 {len(failed_accounts)}\n",
@@ -1485,20 +1394,16 @@ if __name__ == "__main__":
     headless = "--headless" in sys.argv
     overwrite = "--overwrite" in sys.argv
     output_suffix = ""
-    web_access_input = os.environ.get("X_WEB_ACCESS_INPUT")
     for index, argument in enumerate(sys.argv[2:], start=2):
         if argument.startswith("--output-suffix="):
             output_suffix = argument.split("=", 1)[1]
         elif argument == "--output-suffix" and index + 1 < len(sys.argv):
             output_suffix = sys.argv[index + 1]
-        elif argument.startswith("--web-access-input="):
-            web_access_input = argument.split("=", 1)[1]
-        elif argument == "--web-access-input":
-            if index + 1 >= len(sys.argv):
-                raise ValueError("--web-access-input requires a path")
-            web_access_input = sys.argv[index + 1]
+        elif argument == "--web-access-input" or argument.startswith("--web-access-input="):
+            print("unsupported option --web-access-input; use Playwright -> twscrape", file=sys.stderr)
+            sys.exit(1)
     try:
-        asyncio.run(main(date, headless, overwrite, output_suffix, web_access_input))
+        asyncio.run(main(date, headless, overwrite, output_suffix))
     except XLoginRequired as error:
         print(f"X login required: {error}", file=sys.stderr)
         sys.exit(2)

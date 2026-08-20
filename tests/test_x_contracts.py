@@ -1,65 +1,56 @@
 import unittest
-from unittest import mock
 
 from scripts.x_search import (
-    ChannelUnavailable,
     build_sidecar,
     candidate_id,
     normalize_x_candidate,
     sidecar_path,
-    validate_web_access_staging,
 )
 
 
 class XContractTests(unittest.TestCase):
-    def setUp(self):
-        self.accounts = [
-            {"source_id": "x-example", "x_handle": "example", "display_name": "Example"},
-            {"source_id": "x-other", "x_handle": "other", "display_name": "Other"},
-        ]
+    def test_sidecar_accepts_only_current_channel_audit_values(self):
+        sidecar = build_sidecar(
+            "2026-08-20",
+            [],
+            [],
+            status="complete",
+            attempted_channels=["playwright", "twscrape"],
+            selected_channel="playwright+twscrape",
+            accounts_total=2,
+            accounts_completed=2,
+            channel_completed_accounts={"playwright": 1, "twscrape": 1},
+        )
+        self.assertEqual(sidecar["attempted_channels"], ["playwright", "twscrape"])
+        self.assertEqual(sidecar["selected_channel"], "playwright+twscrape")
+        with self.assertRaises(ValueError):
+            build_sidecar("2026-08-20", [], [], attempted_channels=["web_access_xai"])
+        with self.assertRaises(ValueError):
+            build_sidecar("2026-08-20", [], [], attempted_channels=["playwright"], selected_channel="web_access_xai")
 
-    def test_web_access_staging_requires_strict_account_and_post_contract(self):
-        staging = {
-            "provider": "xai",
-            "report_date": "2026-08-19",
-            "accounts_total": 2,
-            "accounts_completed": 1,
-            "account_results": [
-                {"source_id": "x-example", "handle": "example", "status": "complete", "error": None, "posts": [{
-                    "author": "Example", "handle": "example", "url": "https://x.com/example/status/1",
-                    "text": "Copper supply update", "publish_time": "2026-08-19T10:00:00+08:00",
-                }]},
-                {"source_id": "x-other", "handle": "other", "status": "failed", "error": "login wall", "posts": []},
-            ],
-        }
-        normalized = validate_web_access_staging(staging, "2026-08-19", self.accounts)
-        self.assertEqual(normalized["accounts_completed"], 1)
-        for bad in (
-            {**staging, "provider": "other"},
-            {**staging, "accounts_completed": 2},
-            {**staging, "account_results": [{**staging["account_results"][0], "handle": "other"}]},
-        ):
-            with self.subTest(bad=bad):
-                with self.assertRaises(ChannelUnavailable):
-                    validate_web_access_staging(bad, "2026-08-19", self.accounts)
-
-    def test_web_access_safety_failure_stops_fallback(self):
-        import asyncio
-        from scripts import x_search
-
-        staging = {
-            "provider": "xai",
-            "report_date": "2026-08-19",
-            "accounts_total": 2,
-            "accounts_completed": 1,
-            "account_results": [
-                {"source_id": "x-example", "handle": "example", "status": "complete", "posts": []},
-                {"source_id": "x-other", "handle": "other", "status": "failed", "error": "HTTP 429 rate limit", "posts": []},
-            ],
-        }
-        with self.assertRaises(x_search.XSafetyStop):
-            with mock.patch.object(x_search, "load_web_access_staging", return_value=x_search.validate_web_access_staging(staging, "2026-08-19", self.accounts)):
-                asyncio.run(x_search.collect_web_access("2026-08-19", self.accounts, input_path="ignored.json"))
+    def test_sidecar_rejects_status_and_selected_count_conflicts(self):
+        failed = [("x-failed", "failed", "Failed", "blocked")]
+        with self.assertRaisesRegex(ValueError, "complete status"):
+            build_sidecar(
+                "2026-08-20", [], failed,
+                status="complete", accounts_total=2, accounts_completed=1,
+                attempted_channels=["playwright"], selected_channel="playwright",
+                channel_completed_accounts={"playwright": 1},
+            )
+        with self.assertRaisesRegex(ValueError, "partial status"):
+            build_sidecar(
+                "2026-08-20", [], failed * 2,
+                status="partial", accounts_total=2, accounts_completed=0,
+                attempted_channels=["playwright"], selected_channel=None,
+                channel_completed_accounts={},
+            )
+        with self.assertRaisesRegex(ValueError, "selected_channel"):
+            build_sidecar(
+                "2026-08-20", [], failed,
+                status="partial", accounts_total=2, accounts_completed=1,
+                attempted_channels=["playwright", "twscrape"], selected_channel="playwright+twscrape",
+                channel_completed_accounts={"playwright": 1},
+            )
 
     def test_candidate_normalization_keeps_full_text_and_stable_id(self):
         tweet = {
@@ -87,6 +78,12 @@ class XContractTests(unittest.TestCase):
             "2026-07-14",
             [],
             [("x-example", "Example", "Example", "timeout")],
+            status="partial",
+            accounts_total=2,
+            accounts_completed=1,
+            channel_completed_accounts={"playwright": 1},
+            attempted_channels=["playwright"],
+            selected_channel="playwright",
         )
         self.assertEqual(sidecar["status"], "partial")
         self.assertEqual(sidecar["errors"][0]["source_id"], "x-example")
