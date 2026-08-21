@@ -32,7 +32,7 @@ python -m pip install -r scripts/requirements-optional.txt
 
 运行采集脚本时使用本项目要求的 managed Python 3.13；不要改用 Python 3.14 或 browser-use 的 Python 3.12。
 
-`x_search.py` 固定按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止立即结束整条链路。未设置 `X_TWSCRAPE_ENABLED`（或设置为其他值）时 twscrape 保持启用；设置为 `0`、`false`、`no` 或 `off` 会将 twscrape 标记为不可用。twscrape 只使用一个 `auth_token`/`ct0` cookie 账号，不使用密码登录。账号请求严格串行，默认每个账号间随机等待 `uniform(35.0, 50.0)` 秒；可用 `X_SAFE_DELAY_MIN_SECONDS` 和 `X_SAFE_DELAY_MAX_SECONDS` 配置范围（各为 5-300 秒），旧版 `X_SAFE_DELAY_SECONDS` 可固定覆盖。每个查询默认最多返回 20 条结果，可用 `X_MAX_RESULTS_PER_QUERY` 调整（1-500）。这些设置不保证不会触发 X 限制；不启用代理轮换、账号轮换或自动登录。
+`x_search.py` 固定按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止立即结束整条链路。未设置 `X_TWSCRAPE_ENABLED`（或设置为其他值）时 twscrape 保持启用；设置为 `0`、`false`、`no` 或 `off` 会将 twscrape 标记为不可用。twscrape 只使用一个 `auth_token`/`ct0` cookie 账号，不使用密码登录。账号请求严格串行，默认每个账号间随机等待 `uniform(25.0, 30.0)` 秒；可用 `X_SAFE_DELAY_MIN_SECONDS` 和 `X_SAFE_DELAY_MAX_SECONDS` 配置范围（各为 5-300 秒），旧版 `X_SAFE_DELAY_SECONDS` 可固定覆盖。每个查询默认最多返回 20 条结果，可用 `X_MAX_RESULTS_PER_QUERY` 调整（1-500）。这些设置不保证不会触发 X 限制；不启用代理轮换、账号轮换或自动登录。
 
 可用 `CHROME_EXECUTABLE` 覆盖 Chrome 路径；未设置或系统 Chrome 不存在时使用 Playwright Chromium。
 

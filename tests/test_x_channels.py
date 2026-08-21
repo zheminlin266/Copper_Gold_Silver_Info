@@ -210,17 +210,17 @@ class XChannelTests(unittest.TestCase):
         self.assertIsNone(metadata["selected_channel"])
         self.assertEqual(calls, ["blocked"])
 
-    def test_default_safe_delay_config_is_uniform_35_to_50(self):
+    def test_default_safe_delay_config_is_uniform_25_to_30(self):
         with mock.patch.dict(os.environ, {}, clear=True):
             config = x_search.parse_safe_delay_config()
 
-        self.assertEqual(config.min_seconds, 35.0)
-        self.assertEqual(config.max_seconds, 50.0)
+        self.assertEqual(config.min_seconds, 25.0)
+        self.assertEqual(config.max_seconds, 30.0)
         self.assertIsNone(config.fixed_seconds)
         self.assertEqual(config.metadata, {
             "safe_delay_mode": "uniform",
-            "safe_delay_min_seconds": 35.0,
-            "safe_delay_max_seconds": 50.0,
+            "safe_delay_min_seconds": 25.0,
+            "safe_delay_max_seconds": 30.0,
         })
         self.assertEqual(x_search.max_results_per_query(), 20)
 
@@ -228,7 +228,7 @@ class XChannelTests(unittest.TestCase):
         calls = []
         sleeps = []
         random_calls = []
-        selected_delays = iter((36.25, 48.75))
+        selected_delays = iter((26.25, 28.75))
 
         class Pool:
             async def get_all(self):
@@ -267,12 +267,12 @@ class XChannelTests(unittest.TestCase):
         self.assertEqual(result.status, "complete")
         self.assertEqual(calls[0], ("account", "x_authorized_account", "auth_token=a; ct0=c"))
         self.assertEqual([item[0] for item in calls[1:]], ["search", "search", "search"])
-        self.assertEqual(random_calls, [(35.0, 50.0), (35.0, 50.0)])
-        self.assertEqual(sleeps, [36.25, 48.75])
+        self.assertEqual(random_calls, [(25.0, 30.0), (25.0, 30.0)])
+        self.assertEqual(sleeps, [26.25, 28.75])
         self.assertEqual(result.metadata["max_results_per_query"], 20)
         self.assertEqual(result.metadata["safe_delay_mode"], "uniform")
-        self.assertEqual(result.metadata["safe_delay_min_seconds"], 35.0)
-        self.assertEqual(result.metadata["safe_delay_max_seconds"], 50.0)
+        self.assertEqual(result.metadata["safe_delay_min_seconds"], 25.0)
+        self.assertEqual(result.metadata["safe_delay_max_seconds"], 30.0)
 
     def test_twscrape_dedicated_db_fails_closed_on_extra_account(self):
         calls = []
@@ -403,11 +403,11 @@ class XChannelTests(unittest.TestCase):
             )
         with mock.patch.dict(os.environ, {"X_SAFE_DELAY_SECONDS": "15"}, clear=True):
             fixed_config = x_search.parse_safe_delay_config()
-        self.assertEqual(fixed_config, x_search.SafeDelayConfig(35.0, 50.0, 15.0))
+        self.assertEqual(fixed_config, x_search.SafeDelayConfig(25.0, 30.0, 15.0))
         self.assertEqual(fixed_config.metadata, {
             "safe_delay_mode": "fixed",
-            "safe_delay_min_seconds": 35.0,
-            "safe_delay_max_seconds": 50.0,
+            "safe_delay_min_seconds": 25.0,
+            "safe_delay_max_seconds": 30.0,
             "safe_delay_fixed_seconds": 15.0,
         })
         self.assertEqual(
@@ -418,7 +418,7 @@ class XChannelTests(unittest.TestCase):
         )
         self.assertEqual(
             x_search.select_safe_delay_seconds(
-                x_search.SafeDelayConfig(35.0, 50.0, 15.0),
+                x_search.SafeDelayConfig(25.0, 30.0, 15.0),
                 lambda *_: self.fail("fixed override called random_uniform"),
             ),
             15.0,
@@ -432,7 +432,7 @@ class XChannelTests(unittest.TestCase):
 
         sleeps = []
         random_calls = []
-        selected_delays = iter((36.0, 49.0))
+        selected_delays = iter((26.0, 29.0))
 
         def random_uniform(minimum, maximum):
             random_calls.append((minimum, maximum))
@@ -444,14 +444,14 @@ class XChannelTests(unittest.TestCase):
         config = x_search.parse_safe_delay_config()
         for index in range(3):
             asyncio.run(x_search.pace_between_accounts(index, 3, config, fake_sleep, random_uniform))
-        self.assertEqual(random_calls, [(35.0, 50.0), (35.0, 50.0)])
-        self.assertEqual(sleeps, [36.0, 49.0])
+        self.assertEqual(random_calls, [(25.0, 30.0), (25.0, 30.0)])
+        self.assertEqual(sleeps, [26.0, 29.0])
 
     def test_playwright_uses_injected_delays_without_network(self):
         calls = []
         sleeps = []
         random_calls = []
-        selected_delays = iter((35.5, 48.5))
+        selected_delays = iter((25.5, 28.5))
 
         class Context:
             async def new_page(self):
@@ -509,11 +509,11 @@ class XChannelTests(unittest.TestCase):
 
         self.assertEqual(result.status, "complete")
         self.assertEqual(calls, [("example", 20), ("two", 20), ("three", 20)])
-        self.assertEqual(random_calls, [(35.0, 50.0), (35.0, 50.0)])
-        self.assertEqual(sleeps, [35.5, 48.5])
+        self.assertEqual(random_calls, [(25.0, 30.0), (25.0, 30.0)])
+        self.assertEqual(sleeps, [25.5, 28.5])
         self.assertEqual(result.metadata["safe_delay_mode"], "uniform")
-        self.assertEqual(result.metadata["safe_delay_min_seconds"], 35.0)
-        self.assertEqual(result.metadata["safe_delay_max_seconds"], 50.0)
+        self.assertEqual(result.metadata["safe_delay_min_seconds"], 25.0)
+        self.assertEqual(result.metadata["safe_delay_max_seconds"], 30.0)
 
 
 if __name__ == "__main__":
