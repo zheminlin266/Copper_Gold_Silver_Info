@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
   "date": "2026-08-20",
-  "report_time": "2026-08-21T07:51:11+08:00",
-  "summary": "铜：矿水回收试验、Tampakan项目和中国原料数据分别提供中长期补充与短期供给约束线索，KSM社会许可风险增加潜在增量的不确定性。黄金：Tampakan项目推进与哥伦比亚矿难分别对应中长期管线和短期非正规产能风险。白银：IMA资源与相关勘探进展扩大项目管线，暂无当日已实现新增产量。",
+  "report_time": "2026-08-21T09:52:24+08:00",
+  "summary": "铜：矿水回收试验、Tampakan项目和中国原料数据分别提供中长期补充与短期供给约束线索，电动车用铜强度与销量增长强化中长期需求；KSM社会许可风险增加潜在增量的不确定性。黄金：Tampakan项目推进与哥伦比亚矿难分别对应中长期管线和短期非正规产能风险。白银：IMA资源与相关勘探进展扩大项目管线，暂无当日已实现新增产量。",
   "windows": {
     "part1": {
       "start": "2026-08-18T00:00:00+08:00",
@@ -73,7 +73,35 @@
       ]
     }
   ],
-  "part2_x_posts": [],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/IvanhoeMines_/status/2090188338884141402",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "Ivanhoe Mines称，传统车辆约使用23公斤铜，纯电动车最多使用83公斤；帖子转引IEA称全球电动车销量2025年超过2,000万辆、预计2026年约2,300万辆。",
+          "evidence": "Ivanhoe Mines 2026-08-20 X原帖，采集器核对作者、handle、发布时间、正文和原帖链接。",
+          "source_url": "https://x.com/IvanhoeMines_/status/2090188338884141402",
+          "evidence_type": "company X post citing IEA EV demand data",
+          "period": "2025 actual and 2026 forecast",
+          "unit": "kg copper per vehicle; EV units",
+          "value": "23; up to 83; >20 million; ~23 million"
+        }
+      ],
+      "publish_time": "2026-08-19T21:25:08+00:00",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "excerpt": "Ivanhoe Mines发帖称，传统车辆约使用23公斤铜，纯电动车最多使用83公斤；帖子转引IEA称全球电动车销量2025年超过2,000万辆，预计2026年约2,300万辆，并指出电动车只是铜需求的一部分。",
+      "interpretation": "该帖提供终端需求强度和EV销量增长的方向性证据，支持中长期铜需求扩张。它是公司社交媒体转述，且本次采集文本在“grid”处结束，未将后续内容纳入；IEA原始页面也未在本次X复核中单独打开。",
+      "importance": "每辆纯电动车最多用铜约83公斤，约为传统车辆23公斤的3.6倍；若2026年EV销量达到约2,300万辆，电动化会持续抬高单位交通工具的铜需求。这意味着交通电气化会通过单位用铜量和销量增长两条路径强化中长期铜需求，影响偏向未来几年而非当期现货。该信号不能直接换算全球新增消费，仍需结合IEA原始数据、车型结构和电网投资核验。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
   "part3_news": [
     {
       "url": "https://www.mining.com/bhp-mit-spinout-to-trial-copper-recovery-tech-at-historic-arizona-mine/",
@@ -259,31 +287,29 @@
       "按conference_calendar检查PDAC、Denver Gold Forum、Precious Metals Summit、Mines and Money、Diggers & Dealers、The Northern Miner等会议入口；窗口内没有新增、可打开且未重复的合格访谈。"
     ],
     "part1_result": "Part 1完成2026-08-18至2026-08-20北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检查；纳入1条Mining Stock Daily文字稿可核验的播客信号，其他候选超窗、重复、无足够实体供需事实或页面检索受限。",
-    "part2_searched": false,
-    "part2_channel": "failed",
+    "part2_searched": true,
+    "part2_channel": "playwright",
     "part2_sources_checked": [
-      "按要求运行python scripts/daily_pipeline.py 2026-08-20 --collect-x；执行器在1800秒后终止，未产生原子审计输出，未再增加X流量。",
-      "运行前使用工作流指定Python 3.13.12执行scripts/x_search.py --check-login --headless并通过；该登录检查不代表报告日账号检索完成。",
-      "失败审计保留于x_outputs/2026-08-20_x_raw_materials.txt及x_outputs/2026-08-20_x_raw_materials.json，账户覆盖0/53。"
+      "按新流程使用 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe scripts/x_search.py 2026-08-20 --headless --output-suffix=refresh_20260821；运行前登录检查通过。",
+      "Playwright按注册表顺序串行处理53个账号，默认账号间随机等待25–30秒；53/53完成后按有序流程未启动twscrape。",
+      "X采集器sidecar：x_outputs/2026-08-20_x_raw_materials_refresh_20260821.json；原始候选15条，按供需筛选接受1条，排除14条价格/宏观/口号或缺少直接供需事实的帖子。",
+      "https://x.com/IvanhoeMines_/status/2090188338884141402"
     ],
-    "part2_result": "Part 2 failed：有序Playwright -> twscrape采集执行器超过1800秒，未在原子发布前产生账号级结果；失败审计保守记录0/53，候选为空不代表完整零结果，超时后未继续增加X流量。",
+    "part2_result": "Part 2重跑完成：新流程使用Playwright先行，53/53账号完成，未触发twscrape；获取15条原始候选，按日报供需标准纳入1条铜需求信号，14条因价格、宏观、口号或缺少直接供需事实排除。",
     "part2_coverage": {
-      "status": "failed",
+      "status": "complete",
       "accounts_total": 53,
-      "accounts_completed": 0,
-      "accounts_failed": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
       "attempted_channels": [
-        "playwright",
-        "twscrape"
+        "playwright"
       ],
-      "selected_channel": null,
-      "channel_errors": [
-        "playwright: collector subprocess exceeded 1800 seconds before durable account-level output",
-        "twscrape: collector subprocess exceeded 1800 seconds before durable account-level output"
-      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
       "notes": [
-        "执行器在x_search原子审计发布前终止，完成数保守记为0/53。",
-        "已保存按日期命名的raw材料和sidecar；未将失败写成完整零结果，未继续新增X流量。"
+        "使用有序 Playwright -> twscrape 流程；Playwright完成全部账号后未启动twscrape。",
+        "默认账号间随机等待25–30秒；53个账号共52次间隔，sidecar保留于x_outputs/2026-08-20_x_raw_materials_refresh_20260821.json。",
+        "原始候选15条，接受1条；其余候选按日报供需筛选标准排除。"
       ]
     },
     "part3_searched": true,
@@ -300,11 +326,11 @@
     "part3_result": "Part 3完成2026-08-20全天英文和中文新闻检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、SMM中文来源检查和逐篇URL核验；纳入5条供需信号（铜3、黄金2，其中Tampakan含金铜）。",
     "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200、报告日候选15篇；金、银辅助分类页分别11和7篇。4篇入选Mining.com文章在普通请求受限后通过同一Playwright会话核验，SMM中文信号直接网页核验；没有使用搜索摘要、sitemap、Wayback Machine或RSS。",
     "url_verification": {
-      "checked": 6,
-      "passed": 6,
+      "checked": 7,
+      "passed": 7,
       "failed": 0,
       "failures": [],
-      "notes": "1条Part 1播客、4条Mining.com新闻和1条SMM中文新闻均已打开并核对标题、日期、主体和卡片中的核心数字，全部标记verified。"
+      "notes": "1条Part 1播客、4条Mining.com新闻、1条SMM中文新闻和1条X原帖均已由对应采集路径核对作者/标题、日期、主体和核心事实；全部标记verified。"
     },
     "new_sources_discovered": []
   },
@@ -319,6 +345,6 @@
       "SMM铜矿砂进口与废铜进口页面均来自同一批中国海关7月统计发布，保留铜矿砂页面作为更直接的精矿供给信号。",
       "Omai、Gold Fields等页面日期为8月19日；金矿股价格、critical-minerals泛政策、镍矿和其他非目标矿种按窗口或范围排除。"
     ],
-    "notes": "所有接受信号均填写唯一primary_metal且该值出现在metal_tags中；储量、资源量、项目方案、勘探结果、试验产量和海关统计口径均与实际产量、公司指引和研究判断分开。"
+    "notes": "所有接受信号均填写唯一primary_metal且该值出现在metal_tags中；新增X原始候选按价格/宏观/供需事实标准筛选，未把公司社交媒体转述写成已实现产量。"
   }
 }

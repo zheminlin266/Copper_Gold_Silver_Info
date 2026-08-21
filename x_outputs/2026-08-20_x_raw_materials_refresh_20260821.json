@@ -1,0 +1,205 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-20",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-a23529c97cb8b49b76f7f0b9",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-19T22:33:27+00:00",
+      "text": "If you own gold stocks you’ve felt this move.",
+      "url": "https://x.com/KatusaResearch/status/2090205529406652591",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3668653cd9fd72ce1657cf1c",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-08-20T11:54:44+00:00",
+      "text": "It’s been years since I’ve read that. Bryan was one of the greatest orators in American history, but this was purely a political speech in service of the “silver barons.”",
+      "url": "https://x.com/Brien_Lundin/status/2090407179127840881",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6f425b3c29150d9c1951a634",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-20T12:59:16+00:00",
+      "text": "David Morgan: Silver, Gold — My Year-End Price Targets and Forecast \nhttps://\nyoutu.be/fDq-9avI5F0?is\n=af9N474NRetxY_nr\n… via \n@YouTube",
+      "url": "https://x.com/silverguru22/status/2090423420538503380",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7dfd0462b3bf107b9076d60a",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-19T18:27:26+00:00",
+      "text": "Rate hikes worsen US debt costs. Rate cuts risk reigniting inflation. Either way, silver benefits.\n\nEarlier this month, \n@TedJButler\n  told \nhttps://\nMining.com.au why this summer may be a generational buying opportunity—with silver stocks offering 3–5x leverage.\n\nFull interview:",
+      "url": "https://x.com/peter_krauth/status/2090143620603224280",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-639911c9cfb9f56e442669a0",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-20T13:12:07+00:00",
+      "text": "Blood in the streets.\n\nThe problem is a simple fallacy: ig I'm not urging everyone to do what they think, I must think the opposite.\n\nNo so.\n\n(If I did, I'd short gold and silver.)\n\nIt's the lack of conviction that keeps me on the sidelines.\n\nNot so for other commodities...",
+      "url": "https://x.com/duediligenceguy/status/2090426655403610423",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6c1096ce7247256c3ed2a546",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-19T18:25:35+00:00",
+      "text": "No.\n\nThat's exactly my point: Things could take off without me and I'm okay with that.\n\nThe possibility does not make me want to buy high and hope to sell higher.\n\nAnd if gold and silver go nuts, something else will tank—that's what I'll look to buy.",
+      "url": "https://x.com/duediligenceguy/status/2090143153680511424",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-79a18f2296d08e122ef46add",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-19T17:55:29+00:00",
+      "text": "No thank you.\n\nPeople don’t seem to understand or believe that I have no problem with this train leaving without me.\n\nI’m looking for “blood in the streets,” not, “cheaper than a few months ago.”\n\nIf that’s in something other than gold and silver stocks, so be it.",
+      "url": "https://x.com/duediligenceguy/status/2090135580180975972",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2307287308727e45e67a55ee",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-20T01:12:06+00:00",
+      "text": "Here is the wild part about the Treasury market today:\n\nThe US debt‑to‑GDP ratio is now roughly on par with World War II — actually a bit worse.\n\nHowever, back then:\n\nNearly half of all Treasuries were backed by gold.\n\nToday, it’s about 3%.\n\nThat’s how deep the problem runs.",
+      "url": "https://x.com/TaviCosta/status/2090245458287567169",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1e8e319b9ebc67f39950e162",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-19T20:44:00+00:00",
+      "text": "GOLD STOCKS ARE CHEAP. \n\nht \n@kevinmuir",
+      "url": "https://x.com/RonStoeferle/status/2090177986322698742",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4f68a1cd55251bed7b9cb525",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-20T15:20:41+00:00",
+      "text": "Wake up ..",
+      "url": "https://x.com/wmiddelkoop/status/2090459009794904260",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f23b86e2899d87edf8ae195e",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-19T20:35:31+00:00",
+      "text": "Major North American Bank Comments:\n\nGold ripping +4% as the classic conspiracy theory of \"yield curve control\" has now become a reality\n\nThe debasement trade is alive and truly kicking. As we have consistently written, Bessen has a decision given the US' fiscal math: \"save the",
+      "url": "https://x.com/wmiddelkoop/status/2090175854563242360",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7b81f065b466ec9356888af2",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-19T16:59:11+00:00",
+      "text": "First, the FED has quietly added over $300 billion to its balance sheet since the start of this year (by buying Treasuries)\n\nNow, the US Treasury joins the party to support the Treasury markets a bit more .. \n\nThe money needed for these operations is printed out of thin air \n\nAll",
+      "url": "https://x.com/wmiddelkoop/status/2090121409477427219",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2676d5ea17a09df7d26c8074",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-20T01:38:55+00:00",
+      "text": "you are correct, gold did too!",
+      "url": "https://x.com/LawrenceLepard/status/2090252206347833432",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b690ae2754448b22a6f589f9",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-19T21:05:59+00:00",
+      "text": "agree, amounts small but direction is signal.  also, i think when he implied that the $60B FIMA swap line was not large enough market said, \"whoa...\"   gold up 7% that week, gold miners up 17% in one week.  has not happened in decades",
+      "url": "https://x.com/LawrenceLepard/status/2090183518823358586",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7c96cd5a616c7c7b9ff0fac3",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-08-19T21:25:08+00:00",
+      "text": "A conventional vehicle contains roughly 23 kg of copper. A battery-electric vehicle can use up to 83 kg.\n\nAccording to IEA global EV sales exceeded 20 million units in 2025 and are expected to reach around 23 million in 2026.\n\nAnd EVs are only one part of the equation, with grid",
+      "url": "https://x.com/IvanhoeMines_/status/2090188338884141402",
+      "collector": "x_search",
+      "report_date": "2026-08-20",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
