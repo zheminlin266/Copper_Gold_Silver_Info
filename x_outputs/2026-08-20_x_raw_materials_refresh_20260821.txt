@@ -1,0 +1,171 @@
+X 原始候选 — 2026-08-20
+采集时间: 2026-08-21T09:48:13.963713+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 15 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-19T22:33:27+00:00
+    北京: 2026-08-20T06:33:27+08:00
+    文本: If you own gold stocks you’ve felt this move.
+    链接: https://x.com/KatusaResearch/status/2090205529406652591
+
+[2] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-20T11:54:44+00:00
+    北京: 2026-08-20T19:54:44+08:00
+    文本: It’s been years since I’ve read that. Bryan was one of the greatest orators in American history, but this was purely a political speech in service of the “silver barons.”
+    链接: https://x.com/Brien_Lundin/status/2090407179127840881
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-08-20T12:59:16+00:00
+    北京: 2026-08-20T20:59:16+08:00
+    文本: David Morgan: Silver, Gold — My Year-End Price Targets and Forecast 
+https://
+youtu.be/fDq-9avI5F0?is
+=af9N474NRetxY_nr
+… via 
+@YouTube
+    链接: https://x.com/silverguru22/status/2090423420538503380
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-19T18:27:26+00:00
+    北京: 2026-08-20T02:27:26+08:00
+    文本: Rate hikes worsen US debt costs. Rate cuts risk reigniting inflation. Either way, silver benefits.
+
+Earlier this month, 
+@TedJButler
+  told 
+https://
+Mining.com.au why this summer may be a generational buying opportunity—with silver stocks offering 3–5x leverage.
+
+Full interview:
+    链接: https://x.com/peter_krauth/status/2090143620603224280
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-20T13:12:07+00:00
+    北京: 2026-08-20T21:12:07+08:00
+    文本: Blood in the streets.
+
+The problem is a simple fallacy: ig I'm not urging everyone to do what they think, I must think the opposite.
+
+No so.
+
+(If I did, I'd short gold and silver.)
+
+It's the lack of conviction that keeps me on the sidelines.
+
+Not so for other commodities...
+    链接: https://x.com/duediligenceguy/status/2090426655403610423
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-19T18:25:35+00:00
+    北京: 2026-08-20T02:25:35+08:00
+    文本: No.
+
+That's exactly my point: Things could take off without me and I'm okay with that.
+
+The possibility does not make me want to buy high and hope to sell higher.
+
+And if gold and silver go nuts, something else will tank—that's what I'll look to buy.
+    链接: https://x.com/duediligenceguy/status/2090143153680511424
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-19T17:55:29+00:00
+    北京: 2026-08-20T01:55:29+08:00
+    文本: No thank you.
+
+People don’t seem to understand or believe that I have no problem with this train leaving without me.
+
+I’m looking for “blood in the streets,” not, “cheaper than a few months ago.”
+
+If that’s in something other than gold and silver stocks, so be it.
+    链接: https://x.com/duediligenceguy/status/2090135580180975972
+
+[8] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-20T01:12:06+00:00
+    北京: 2026-08-20T09:12:06+08:00
+    文本: Here is the wild part about the Treasury market today:
+
+The US debt‑to‑GDP ratio is now roughly on par with World War II — actually a bit worse.
+
+However, back then:
+
+Nearly half of all Treasuries were backed by gold.
+
+Today, it’s about 3%.
+
+That’s how deep the problem runs.
+    链接: https://x.com/TaviCosta/status/2090245458287567169
+
+[9] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-19T20:44:00+00:00
+    北京: 2026-08-20T04:44:00+08:00
+    文本: GOLD STOCKS ARE CHEAP. 
+
+ht 
+@kevinmuir
+    链接: https://x.com/RonStoeferle/status/2090177986322698742
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-20T15:20:41+00:00
+    北京: 2026-08-20T23:20:41+08:00
+    文本: Wake up ..
+    链接: https://x.com/wmiddelkoop/status/2090459009794904260
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-19T20:35:31+00:00
+    北京: 2026-08-20T04:35:31+08:00
+    文本: Major North American Bank Comments:
+
+Gold ripping +4% as the classic conspiracy theory of "yield curve control" has now become a reality
+
+The debasement trade is alive and truly kicking. As we have consistently written, Bessen has a decision given the US' fiscal math: "save the
+    链接: https://x.com/wmiddelkoop/status/2090175854563242360
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-19T16:59:11+00:00
+    北京: 2026-08-20T00:59:11+08:00
+    文本: First, the FED has quietly added over $300 billion to its balance sheet since the start of this year (by buying Treasuries)
+
+Now, the US Treasury joins the party to support the Treasury markets a bit more .. 
+
+The money needed for these operations is printed out of thin air 
+
+All
+    链接: https://x.com/wmiddelkoop/status/2090121409477427219
+
+[13] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-20T01:38:55+00:00
+    北京: 2026-08-20T09:38:55+08:00
+    文本: you are correct, gold did too!
+    链接: https://x.com/LawrenceLepard/status/2090252206347833432
+
+[14] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-19T21:05:59+00:00
+    北京: 2026-08-20T05:05:59+08:00
+    文本: agree, amounts small but direction is signal.  also, i think when he implied that the $60B FIMA swap line was not large enough market said, "whoa..."   gold up 7% that week, gold miners up 17% in one week.  has not happened in decades
+    链接: https://x.com/LawrenceLepard/status/2090183518823358586
+
+[15] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-08-19T21:25:08+00:00
+    北京: 2026-08-20T05:25:08+08:00
+    文本: A conventional vehicle contains roughly 23 kg of copper. A battery-electric vehicle can use up to 83 kg.
+
+According to IEA global EV sales exceeded 20 million units in 2025 and are expected to reach around 23 million in 2026.
+
+And EVs are only one part of the equation, with grid
+    链接: https://x.com/IvanhoeMines_/status/2090188338884141402
+
