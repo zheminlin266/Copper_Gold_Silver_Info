@@ -63,7 +63,7 @@ AI 只接收代码产出的规范化候选，返回严格的分析决策和证�
 
 ### 5.2 Part 2：X 原帖
 
-X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
+X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
 
 在已授权的浏览器会话中检索种子账号和新发现的可靠账号。只收录原作者帖子，必须核对作者、handle、正文、原帖 URL 和发布时间。
 
