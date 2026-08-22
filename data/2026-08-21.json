@@ -1,0 +1,299 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-21",
+  "report_time": "2026-08-22T10:58:41+08:00",
+  "summary": "黄金：俄罗斯央行继续出售黄金，官方储备降至2020年1月以来低位；尼加拉瓜La India建设和斐济Tuvatu勘探推进未来供给。白银：Bunker Hill拟并购Silver47，依靠Idaho矿山爬坡和美国项目管线扩大中期供给。铜：本窗口未核验新的金属供需事件，周度精矿TC降至-182.14美元/干吨，显示原料压力延续。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-19T00:00:00+08:00",
+      "end": "2026-08-21T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-21T00:00:00+08:00",
+      "end": "2026-08-21T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-21T00:00:00+08:00",
+      "end": "2026-08-21T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.northernminer.com/news/central-nevada-gold-on-mine-hunt-ceo/1003894159/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Central Nevada以2,000万美元收购曾生产约50万盎司黄金的Mule Canyon，并计划在2027年下半年推进预可研和许可、2028年作出建设决策",
+          "evidence": "The Northern Miner采访正文披露收购金额、历史产量、预可研/许可时间表和建设决策目标",
+          "source_url": "https://www.northernminer.com/news/central-nevada-gold-on-mine-hunt-ceo/1003894159/",
+          "evidence_type": "direct interview article and project development plan",
+          "period": "2026 acquisition; 2027-2028 planned milestones",
+          "unit": "USD million; troy ounces gold; calendar year",
+          "value": "20; about 500000; 2027-2028"
+        }
+      ],
+      "publish_date": "2026-08-21",
+      "title": "Central Nevada Gold CEO谈Mule Canyon复产、资源更新与内华达贵金属资产",
+      "source_type": "conference_interview",
+      "summary": "The Northern Miner采访Central Nevada Gold CEO Simon Griffiths。公司在6月以2,000万美元收购曾生产约50万盎司黄金的Mule Canyon，计划在2027年下半年推进预可研和许可，并在未来数月公布新的矿产资源量；管理层也在评估内华达其他金银资产。",
+      "detail": "页面为可打开的The Northern Miner采访文章，核对了标题、2026年8月21日日期、受访者和项目事实。Mule Canyon历史产量、钻孔数据和历史资源口径属于项目背景，不等同当前产量或储量；新资源量、预可研、许可和2028年建设决策仍是未来步骤。",
+      "importance": "Mule Canyon从收购完成推进到资源更新、冶金采样和预可研准备，给未来黄金供给管线增加了明确的执行节点；项目历史约50万盎司产量和2,149个钻孔构成规模与数据基础。短期不会形成新增产量，2027年下半年许可与预可研、后续建设决策才决定兑现速度；管理层同时寻找银资产，扩大了内华达贵金属管线的潜在范围。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Simon Griffiths",
+        "background": "Central Nevada Gold CEO"
+      },
+      "companies": [
+        "Central Nevada Gold",
+        "Newmont",
+        "Gold Fields"
+      ],
+      "projects": [
+        "Mule Canyon"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/peter_krauth/status/2090511948203061436",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Pacifica Silver Claudia项目新增491个获准钻探平台，计划钻探30,000米并在月末增加第四台钻机，钻探资金已落实至2026年",
+          "evidence": "Peter Krauth在X原帖正文中的项目进度描述，Playwright已核对作者、handle、发布时间、正文和原帖URL",
+          "source_url": "https://x.com/peter_krauth/status/2090511948203061436",
+          "evidence_type": "original X post by registered industry author",
+          "period": "2026-08-20 UTC post; 2026 drilling program",
+          "unit": "drill pads; meters; rigs",
+          "value": "491; 30000; four rigs"
+        }
+      ],
+      "publish_time": "2026-08-20T18:51:02+00:00",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "excerpt": "Peter Krauth发帖称，Pacifica Silver的Claudia项目新增491个获准钻探平台，计划实施30,000米钻探，月末将增加第四台钻机，钻探资金已落实至2026年。",
+      "interpretation": "这是经Playwright采集并核对的注册账号原帖，内容指向银项目勘探许可、钻探强度和资金保障。它说明未来资源扩展的执行条件改善，不是已实现资源、储量或白银产量；原帖未提供公司公告链接，项目事实仍应以后续公司披露复核。",
+      "importance": "491个获准平台和30,000米计划把Claudia的勘探从单点结果推进到更大范围的系统验证，第四台钻机和2026年资金保障会缩短后续钻孔反馈周期。短期不会增加白银供给，真正的增量取决于钻探能否确认连续矿化、资源量和冶金条件；由于原帖为行业作者转述，仍需等待Pacifica正式公告。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://x.com/peter_krauth/status/2090510364446527806",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kingsmen Las Coloradas钻孔见1.40米433克/吨银当量，其中0.75米787克/吨银当量，矿化带在深部和走向上开放",
+          "evidence": "Peter Krauth在X原帖正文中的原始项目结果描述，Playwright已核对作者、handle、发布时间、正文和原帖URL",
+          "source_url": "https://x.com/peter_krauth/status/2090510364446527806",
+          "evidence_type": "original X post by registered industry author",
+          "period": "2026-08-20 UTC post; current drill results",
+          "unit": "meters; grams per tonne silver equivalent",
+          "value": "1.40 at 433; 0.75 at 787"
+        }
+      ],
+      "publish_time": "2026-08-20T18:44:45+00:00",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "excerpt": "Peter Krauth发帖称，Kingsmen Resources在Las Coloradas钻获1.40米、433克/吨银当量矿化，其中0.75米为787克/吨银当量，并指出矿化带在深部和走向上仍开放。",
+      "interpretation": "这是注册行业作者的原帖，提供了银金多金属勘探结果和延伸方向；钻孔长度不是实际厚度，银当量还包含金、铅和锌，不能直接换算可采储量或近期产量。项目供给意义取决于后续钻探能否确认连续性、真实厚度和资源规模。",
+      "importance": "1.40米、433克/吨银当量的步进钻探结果，连同0.75米、787克/吨的高品位段，为Las Coloradas沿深部和走向扩展提供了具体锚点。它强化的是中期资源管线，不是当期白银供给；真实厚度、未钻区域连续性和后续资源估算仍是决定性验证点，且银当量口径包含副产金属。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/russian-sales-bring-gold-reserves-to-their-lowest-since-2020/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "俄罗斯黄金持有量截至2026年8月1日为7,320万盎司，较年初减少160万盎司，达到2020年1月以来最低",
+          "evidence": "Mining.com文章引用俄罗斯央行数据，并同时说明销售与国家财富基金预算操作的关系",
+          "source_url": "https://www.mining.com/web/russian-sales-bring-gold-reserves-to-their-lowest-since-2020/",
+          "evidence_type": "central-bank reserve data reported by a financial news article",
+          "period": "2026-01-01 to 2026-08-01",
+          "unit": "million troy ounces gold",
+          "value": "73.2; decrease 1.6"
+        }
+      ],
+      "publish_time": "2026-08-21",
+      "source": "MINING.COM",
+      "title": "俄罗斯出售黄金，官方储备降至2020年以来最低",
+      "excerpt": "俄罗斯央行数据显示，截至2026年8月1日，货币黄金持有量为7,320万盎司，较年初减少160万盎司，降至2020年1月以来最低；文章称财政部通过国家财富基金出售黄金以应对能源收入走弱和预算缺口。",
+      "language": "en",
+      "interpretation": "这是官方部门持仓和销售流向，不是矿山产量变化。出售会减少俄罗斯官方部门的黄金需求并增加市场可流通供给，但文章没有给出每月实际进入国际市场的数量，且储备估值还受金价变动影响。",
+      "importance": "俄罗斯黄金持仓年内减少160万盎司并降至2020年1月以来低位，说明一个曾长期吸收本国产量的官方买方正在转为卖方，供需影响偏向削弱边际官方需求并增加潜在流动性。它不会改变矿山供给，但在能源收入和财政压力持续时可能压制官方购买的支撑；后续应跟踪央行月度持仓与国家财富基金操作，确认销售是否延续。",
+      "verification_status": "verified",
+      "companies": [
+        "Bank of Russia",
+        "Russian Finance Ministry"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.investegate.co.uk/announcement/mfn/metals-exploration--mtl/la-india-development-update/9733308",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "La India首金目标为2026年12月，设备贷款为2,700万美元且已提取2,020万美元，SMPEI约50%、CIL罐环88%、土方93%、预剥离71%",
+          "evidence": "Metals Exploration 2026年8月21日官方开发更新逐项披露融资、投产目标和工程进度",
+          "source_url": "https://www.investegate.co.uk/announcement/mfn/metals-exploration--mtl/la-india-development-update/9733308",
+          "evidence_type": "official company development update",
+          "period": "2026-08-21 update; first gold targeted December 2026",
+          "unit": "USD million; percent complete; tonnes ore",
+          "value": "27; 20.2 drawn; 50%; 88%; 93%; 71%; 244000"
+        }
+      ],
+      "publish_time": "2026-08-21",
+      "source": "Metals Exploration plc",
+      "title": "Metals Exploration完成La India设备融资，首金目标仍为2026年12月",
+      "excerpt": "Metals Exploration公告称，尼加拉瓜La India首金仍计划于2026年12月；公司完成2,700万美元设备贷款并已提取2,020万美元。工艺设备安装约50%、CIL罐环安装88%、土方93%、露天矿预剥离71%，现场已有约24.4万吨矿石堆存。",
+      "language": "en",
+      "interpretation": "这是建设、融资和设备到位进度，说明项目从开发阶段向投产准备推进，但12月首金是公司目标而非已实现产量。运输延误、尾矿设施、主变电站和运营许可仍可能改变调试时间；Runruno较高品位矿石带来的2026年指引上沿也属于公司预测。",
+      "importance": "La India同时完成2,700万美元设备融资、推进关键工艺安装并积累约24.4万吨ROM库存，使12月首金目标获得更强的资金和现场执行支撑。供给兑现仍集中在未来数月，CIL、尾矿、电力和许可证等节点任何延迟都会推迟首产；因此这是一条中短期潜在增量信号，不应提前计入实际黄金产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Metals Exploration plc",
+        "Banco de America Central S.A."
+      ],
+      "projects": [
+        "La India"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://silver-47.com/bunker-hill-and-silver47-announce-merger-to-create-a-made-in-america-u-s-silver-critical-minerals-champion/",
+      "metal_tags": [
+        "silver",
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Bunker Hill与Silver47公告拟合并，Bunker Hill商业化生产目标为2026年第四季度，分析师一致预期为2026年超过98万盎司和2027年250万盎司银当量",
+          "evidence": "Silver47 2026年8月21日官方公告的交易说明和脚注标注的分析师一致预期",
+          "source_url": "https://silver-47.com/bunker-hill-and-silver47-announce-merger-to-create-a-made-in-america-u-s-silver-critical-minerals-champion/",
+          "evidence_type": "official merger announcement and analyst-consensus production projection",
+          "period": "2026 Q4 target; 2026-2027 projections",
+          "unit": "silver-equivalent ounces per year",
+          "value": ">980000; 2500000"
+        }
+      ],
+      "publish_time": "2026-08-21",
+      "source": "Silver47 Exploration Corp.",
+      "title": "Bunker Hill与Silver47拟合并，扩大美国白银与关键矿产管线",
+      "excerpt": "Silver47公告称，拟议交易将把Bunker Hill Idaho矿山与Silver47在阿拉斯加、内华达和新墨西哥的白银勘探开发组合合并。Bunker Hill预计2026年第四季度达到商业化生产；公告列出的分析师一致预期为2026年超过98万盎司银当量、2027年250万盎司银当量，并计划通过扩建向每年超过500万盎司推进。",
+      "language": "en",
+      "interpretation": "交易把一个正在爬坡的运营矿山和多个美国项目管线放进同一资本平台，但商业化生产和产量数字均为目标或分析师一致预期，不是已经完成的产量。交易仍需股东、法院、交易所和其他监管批准；银当量还混合了铅、锌、金和铜，不能直接当作纯白银供给。",
+      "importance": "Bunker Hill预计在2026年第四季度进入商业化生产，并以运营现金流支持Silver47项目管线，使美国白银供给从单一复产转向“近期爬坡+中期勘探”的组合。2026年98万盎司银当量和2027年250万盎司是分析师一致预期，兑现取决于复产、扩建、融资和审批；因此影响偏中期，不能把资源量或目标当作当期产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Bunker Hill Mining Corp.",
+        "Silver47 Exploration Corp.",
+        "Ocean Partners",
+        "Teck Resources"
+      ],
+      "projects": [
+        "Bunker Hill Mine",
+        "Hughes",
+        "Red Mountain",
+        "Mogollon",
+        "Ranger-Page"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "web_search执行四组英文检索：gold/copper/silver mining CEO interview、Mining Stock Daily、The Northern Miner/Mining.com video、YouTube；记录到Central Nevada Gold CEO、Bunker Hill/Silver47、Metalero、Mining Stock Daily和Evolution Mining候选。",
+      "直接打开The Northern Miner Central Nevada Gold CEO文章，HTTP/正文可读，核对标题、2026-08-21日期、Simon Griffiths、Mule Canyon历史产量、项目时间表和金银资产事实。",
+      "直接打开Mining Stock Daily Lode Gold Wendy Chan页面，核对节目内容和Fremont项目事实；页面提取内容未明确显示发布日期，因此未作为本日报信号。",
+      "Bunker Hill/Silver47官方页面仅提供联合电话会预告和公司交易公告，没有实际听取的访谈/文字稿内容，未作为Part 1访谈重复收录；Metalero视频无法取得可靠正文，未作为证据。",
+      "按conference_calendar检查Mining Stock Daily、The Northern Miner、YouTube及会议入口，窗口内纳入1条可核验的新访谈。"
+    ],
+    "part1_result": "Part 1完成2026-08-19至2026-08-21北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检查；纳入1条The Northern Miner对Central Nevada Gold CEO的可打开访谈文章，其他候选因日期、正文或内容证据不足排除。",
+    "part2_searched": false,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行python scripts/daily_pipeline.py 2026-08-21 --collect-x；scripts/x_search.py按Playwright先行顺序串行处理53个注册账号。",
+      "Playwright完成51/53账号，@silverguru22和@duediligenceguy各有一条tweet正文提取失败；twscrape随后标记不可用（未安装），未增加后续X流量。",
+      "原始候选保存至x_outputs/2026-08-21_x_raw_materials.txt及x_outputs/2026-08-21_x_raw_materials.json；21条候选中仅2条具有可追溯的银供给事实，价格、宏观、转发/Google Alerts和无实体供需内容排除。"
+    ],
+    "part2_result": "Part 2为partial：Playwright完成51/53账号，2个账号因tweet正文提取失败；twscrape未安装，未把候选写成完整零结果。保留21条原始候选和sidecar审计，纳入2条银勘探供给信号。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 51,
+      "accounts_failed": 2,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text",
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 5: missing or empty tweet text"
+      ],
+      "notes": [
+        "Playwright按注册表顺序串行完成51/53；twscrape未安装，未继续增加X流量。",
+        "原始候选21条，纳入2条；其余因纯价格/宏观、Google Alerts、转述不足或没有直接金银铜供需事实排除。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径使用指定Python 3.13.12和Playwright，HTTP 200，报告日提取12篇候选；黄金分类页HTTP 200提取11篇，白银分类页HTTP 200提取9篇；未使用sitemap、Wayback或RSS。",
+      "因铜分类页没有获得合格的报告日铜供需候选，执行Google site:mining.com copper August 21 2026、gold August 21 2026和silver August 21 2026备用检索；铜未返回合格Mining.com供需文章，金/银结果主要为价格或重复/窗口外内容，未用搜索摘要作证据。",
+      "直接打开Mining.com Russian sales文章，核对2026-08-21文章、俄罗斯央行数据、7,320万盎司、年内减少160万盎司和2020年1月以来最低。",
+      "直接打开Metals Exploration官方La India Development Update，核对2026-08-21日期、首金目标、2,700万美元贷款、2,020万美元提款、工程进度和运输限制。",
+      "直接打开Silver47官方Bunker Hill/Silver47合并公告，核对2026-08-21日期、交易主体、Bunker Hill商业化生产目标及分析师一致预期脚注；没有把银当量目标写成实际纯白银产量。",
+      "直接核验并排除Goldgroup（官方稿日期2026-08-17）、Lion One和Kingsmen（官方稿日期2026-08-20）、Selkirk Copper（官方稿日期2026-08-20）等窗口外候选；Lundin/Antofagasta天气指引与2026-08-19日报事件重复。"
+    ],
+    "part3_result": "Part 3完成2026-08-21全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site备用查询、逐篇来源核验和跨日去重；纳入3条供需信号（黄金2、白银1），报告日内未找到可核验的新铜供需信号。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200、报告日候选12篇；金、银辅助分类页分别11和9篇。报告日Mining.com候选主要是黄金价格、银价、非目标矿种或项目/事件的窗口外版本；选入的俄罗斯黄金文章经直接网页核验，La India和Bunker Hill使用官方公司页面。",
+    "url_verification": {
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1访谈、2条Playwright X原帖和3条Part 3新闻均已由对应采集或直接网页路径核对标题/作者、日期、主体和核心事实；全部标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Lundin/Antofagasta智利风暴与Caserones/Los Pelambres产量指引变化与2026-08-19日报已收录事件重复，未再次纳入。",
+      "Goldgroup、Lion One、Kingsmen和Selkirk Copper的原始官方稿日期为8月17日或8月20日，超出8月21日Part 3窗口；其中Kingsmen X原帖作为窗口内原帖单独保留。",
+      "Mining.com报告日候选中的黄金价格、白银价格、Fortescue人事、稀土、镍矿和宏观评论没有金银铜实物供需传导，排除。",
+      "同一Mining.com文章在金/银/铜分类页重复时按规范化URL只保留一个候选；Google site搜索只作发现，未将摘要直接作为证据。"
+    ],
+    "notes": "所有接受信号均填写唯一primary_metal并出现在metal_tags中；实际储备、项目目标、分析师预期、勘探结果和官方部门销售按来源口径区分，未把资源、钻探或预测写成已实现产量。"
+  }
+}
