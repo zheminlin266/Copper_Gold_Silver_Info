@@ -1,0 +1,148 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-22",
+  "report_time": "2026-08-23T09:04:43+08:00",
+  "summary": "铜：X原帖显示现货精矿TC已降至负值，冶炼端原料竞争仍紧；Troilus金铜项目钻探在资源壳外确认高品位延伸，增加中长期供给管线。黄金、白银：本窗口未找到新的可核验实体供需新闻或访谈信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-20T00:00:00+08:00",
+      "end": "2026-08-22T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-22T00:00:00+08:00",
+      "end": "2026-08-22T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-22T00:00:00+08:00",
+      "end": "2026-08-22T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/KatusaResearch/status/2090992216986841210",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "铜精矿加工费从2015年107美元/吨、2024年80美元、2025年21美元降至2026年基准归零，2026年6月现货约为负127美元/吨。",
+          "evidence": "Marin Katusa在X原帖正文直接给出上述历史与现货TC/加工费序列；Playwright已核对作者、handle、发布时间、正文和原帖URL。",
+          "source_url": "https://x.com/KatusaResearch/status/2090992216986841210",
+          "evidence_type": "original X post by registered resource-industry author",
+          "period": "2015, 2024, 2025, 2026 and June 2026 spot market",
+          "unit": "USD per tonne copper concentrate treatment charge",
+          "value": "107; 80; 21; 0; -127"
+        }
+      ],
+      "publish_time": "2026-08-22T02:39:27+00:00",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "excerpt": "Marin Katusa在X帖子中解释铜精矿加工费（TC）是矿山精矿供给与冶炼厂原料竞争的温度计，并称基准加工费从2015年的107美元/吨降至2024年的80美元、2025年的21美元，2026年降至零；截至6月现货加工费约为负127美元/吨。",
+      "interpretation": "这是行业作者对铜精矿TC/RC的原帖解释，核心事实是冶炼厂为获得精矿压低加工费，极端情况下向矿山支付。帖子没有给出SMM具体口径或独立交易数据，不能替代官方报价；但它提供了报告日铜原料竞争持续偏紧的方向性证据。",
+      "importance": "TC从2015年107美元/吨降至2026年基准归零、6月现货约负127美元/吨，说明精矿供给相对冶炼需求的紧张已传导到加工费定价，部分冶炼厂需要让渡收入争取矿源。该信号影响的是短期精矿采购和冶炼利润，不能直接等同矿山减产；后续应结合SMM报价、冶炼开工和现货成交确认压力是否继续扩大。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://x.com/soarfinancial/status/2090834980503224792",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Troilus官方公告披露五个延伸孔合计2,915米，Z87区最高见8.84克/吨AuEq over 4.8米（含23.58克/吨 over 1米），矿化确认至现有资源壳外至少400米。",
+          "evidence": "Troilus Mining官方2026年8月20日公告直接披露钻孔、品位、金银铜组成及资源壳外延伸；X原帖于报告日北京时间发布并链接该公告。",
+          "source_url": "https://troilusmining.com/news-and-media/news-releases/troilus-drills-884-gt-aueq-over-48-m-at-z87-confirming-high-grade-mineralization-400-m-beyond-current-resource-pit-shell",
+          "evidence_type": "official company drill-results release linked by original X post",
+          "period": "2026-08-20 release; 2026 exploration program",
+          "unit": "grams per tonne AuEq; metres; metres beyond resource pit shell",
+          "value": "8.84 over 4.8 including 23.58 over 1; 400"
+        }
+      ],
+      "publish_time": "2026-08-21T16:14:39+00:00",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "excerpt": "Soar Financial在X转发Troilus Mining公告称，魁北克Troilus项目Z87区钻探见8.84克/吨AuEq over 4.8米（含23.58克/吨 over 1米）、5.07克/吨 over 5米和2.08克/吨 over 6.17米。",
+      "interpretation": "原帖是行业媒体账号对公司公告的转发，实际项目事实已通过Troilus官方8月20日新闻稿核对。钻探结果显示金铜矿化向现有资源壳外延伸，属于勘探和未来资源管线信号，不是当前产量或储量增量。",
+      "importance": "五个延伸孔全部见矿，最高品位段为8.84克/吨AuEq over 4.8米，官方称高品位连续性至少延伸至现有资源壳外400米；这为Troilus在既有露天开发方案之外保留地下高品位选项。短期不会形成金铜供给，真正影响取决于后续资源模型、工程评价和许可建设能否把深部矿化转化为可采储量。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily Episodes列表：https://www.miningstockdaily.com/episodes；直接打开最新节目页和文字稿。",
+      "Mining Stock Daily 2026-08-20节目：https://www.miningstockdaily.com/episodes/morning-briefing-gold-and-bonds-retesting-yesterdays-big-moves；日期和全文可读，但已在2026-08-21日报使用，按跨日报去重排除。",
+      "Resource Talks首页：https://resourcetalks.com/；最新相关访谈为2026-08-19，早于Part 1窗口。",
+      "CNBC Evolution Mining CEO视频：https://www.cnbc.com/video/2026/08/19/evolution-mining-ceo-remain-focused-on-upside-in-gold-and-copper.html；日期为2026-08-19，早于窗口。",
+      "YouTube Resource Talks候选：https://www.youtube.com/watch?v=sCctDjemSUc；页面显示上传日期2026-08-02，排除；其他YouTube候选无法取得可靠正文或日期。",
+      "按conference_calendar检查Mining Stock Daily、The Northern Miner、YouTube及会议入口，未发现窗口内新的可核验、未重复金银铜供需访谈。"
+    ],
+    "part1_result": "Part 1完成2026-08-20至2026-08-22北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检查。窗口内可读的Mining Stock Daily 8月20日节目已在前日报使用；其余候选超窗、无可靠日期/正文或没有新的实体供需事实，因此本期纳入0条。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe scripts/x_search.py 2026-08-22 --headless；登录检查通过。",
+      "Playwright按注册表顺序串行处理53个账户，53/53完成、0失败；因Playwright完整成功，按有序工作流未启动twscrape。",
+      "原始候选保存至x_outputs/2026-08-22_x_raw_materials.txt及x_outputs/2026-08-22_x_raw_materials.json，共13条；按供需标准纳入2条。",
+      "https://x.com/KatusaResearch/status/2090992216986841210",
+      "https://x.com/soarfinancial/status/2090834980503224792"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账户，未触发twscrape；获取13条原始候选，纳入1条铜精矿TC供给信号和1条Troilus金铜勘探供给信号，其余因价格/宏观、来源不完整、转引无法核验或缺少实体供需事实排除。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright按注册表顺序串行完成53/53；完整成功后未启动twscrape。",
+        "原始候选13条，纳入2条，保留日期命名raw materials和sidecar审计。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：指定managed Python 3.13.12 + Playwright，HTTP 200，2026-08-22 extraction_status=success_empty、article_count=0。",
+      "Mining.com黄金分类页主路径：HTTP 200，2026-08-22 extraction_status=success_empty、article_count=0。",
+      "Mining.com白银分类页主路径：HTTP 200，2026-08-22 extraction_status=success_empty、article_count=0。",
+      "Google site:mining.com copper August 22 2026、gold August 22 2026、silver August 22 2026备用检索：使用同一Chrome会话执行，Google返回unusual traffic验证页，未得到可用结果。",
+      "DuckDuckGo辅助发现：site:mining.com铜查询仅返回8月20日及更早文章；金、银查询无可解析的报告日结果；未用搜索摘要作为证据。",
+      "中文日期检索发现8月22日白银市场评论，但直接页面HTTP 403，且内容为价格/宏观评论，不满足实体供需标准；其他结果为窗口外或常青行业材料。",
+      "Mining.com分类页和首页普通读取出现内容不完整/CloudFront限制，未把不完整内容作为证据；未使用sitemap、Wayback或RSS。"
+    ],
+    "part3_result": "Part 3完成2026-08-22全天英文和中文来源检索、Mining.com三类分类页Playwright主路径、Google site备用检索和中文辅助检索。报告日未找到可核验的新增金银铜实体供需新闻，因此本期纳入0条；价格、宏观评论、窗口外文章和受限页面均排除。",
+    "mining_com_source_note": "Mining.com金、银、铜分类页均由Playwright主路径HTTP 200抓取，但2026-08-22均为success_empty、0篇报告日文章；Google site备用搜索受到Google unusual-traffic验证页限制，未将摘要作为证据。",
+    "url_verification": {
+      "checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "failures": [],
+      "notes": "2条入选X原帖由Playwright采集并通过直接页面核对；Troilus官方新闻稿也已直接打开核对钻孔数字、日期和资源壳外延伸。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.miningstockdaily.com/episodes/morning-briefing-gold-and-bonds-retesting-yesterdays-big-moves"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Mining.com检索结果中的2026-08-21 Bunker Hill/Silver47事件已在2026-08-21日报使用，且不属于2026-08-22报告日。",
+      "Mining.com分类页候选为空；中文白银市场评论仅复述价格和宏观因素，未纳入实体供需信号。",
+      "所有窗口外项目公告、常青市场展望和搜索摘要均排除。"
+    ],
+    "notes": "所有接受信号均填写唯一primary_metal并出现在metal_tags中；X帖子、公司公告、勘探结果和TC观点按来源口径区分，未把勘探结果写成已实现产量。"
+  }
+}
