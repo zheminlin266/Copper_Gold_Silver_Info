@@ -1,0 +1,230 @@
+X 原始候选 — 2026-08-21
+采集时间: 2026-08-22T10:39:46.482683+08:00
+选定通道: playwright
+尝试通道: playwright, twscrape
+不可用通道: twscrape
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 51/53 完成，失败 2
+各通道完成账户数: {"playwright": 51}
+采集状态: partial
+失败账号数: 2
+通道不可用原因:
+  twscrape: twscrape is not installed
+通道错误: playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 5: missing or empty tweet text
+失败账号:
+  @silverguru22 (David Morgan): tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text
+  @duediligenceguy (Lobo Tiggre): tweet extraction failed for 1 item(s): tweet 5: missing or empty tweet text
+============================================================
+
+总计候选: 21 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-20T21:44:52+00:00
+    北京: 2026-08-21T05:44:52+08:00
+    文本: Wow. 
+
+A 4% move up in Gold is CRAZY rare
+    链接: https://x.com/KatusaResearch/status/2090555691861725521
+
+[2] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-20T20:37:03+00:00
+    北京: 2026-08-21T04:37:03+08:00
+    文本: Gold Stocks are breaking higher relative to Gold.
+
+
+$GDX
+, by a hair, just closed at a new 13-year high vs. Gold, breaking out from a base more than a decade in the making.
+
+A major relative-strength shift may be underway.
+    链接: https://x.com/TheDailyGold/status/2090538627386462607
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-08-21T14:07:26+00:00
+    北京: 2026-08-21T22:07:26+08:00
+    文本: Dr. Copper usually pulls back under tougher economic conditions.  Copper is making new highs. Does this imply MMT (More "Money Today) is being forecast?
+    链接: https://x.com/silverguru22/status/2090802963266851112
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-08-21T14:00:40+00:00
+    北京: 2026-08-21T22:00:40+08:00
+    文本: Rick Rule Sold 80% of His Silver. He Won't Touch His Gold. - GoldSilver - 
+https://
+goo.gl/alerts/ZHbaC3 #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2090801261373464744
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-08-21T13:59:55+00:00
+    北京: 2026-08-21T21:59:55+08:00
+    文本: Nomi Prins Predicts Silver Could Reach $180. Should Investors Buy Silver Stocks Now? - 
+https://
+goo.gl/alerts/pdjdjq #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2090801073061765497
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-08-21T13:33:23+00:00
+    北京: 2026-08-21T21:33:23+08:00
+    文本: Scott Bessent's Surprise Bond Buyback Sparks a Silver Rally. Is It Too Late to Buy In? - 
+https://
+goo.gl/alerts/xwD2Us #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2090794393699787103
+
+[7] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-20T19:00:01+00:00
+    北京: 2026-08-21T03:00:01+08:00
+    文本: My good friend and former colleague Bill Patalon looks back at the 55 years since the U.S. closed the gold window—and what rising debt, eroding purchasing power and central bank gold buying mean for investors today.
+
+Well worth your time:
+
+https://
+stockpickerscorner.beehiiv.com/p/55-years-ago
+-america-killed-the-gold-standard-now-it-s-sorta-back
+…
+    链接: https://x.com/peter_krauth/status/2090514207959912937
+
+[8] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-20T18:51:02+00:00
+    北京: 2026-08-21T02:51:02+08:00
+    文本: Pacifica Silver 
+@Pacifica_Silver
+ is clearing the runway at Claudia.
+
+491 newly permitted drill pads. A 30,000-metre program. A fourth rig arriving by month-end—and drilling fully funded through 2026.
+
+This isn’t just paperwork. It means more targets, more holes and a faster path
+    链接: https://x.com/peter_krauth/status/2090511948203061436
+
+[9] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-20T18:44:45+00:00
+    北京: 2026-08-21T02:44:45+08:00
+    文本: Kingsmen 
+@Kingsmen_Res
+ just delivered 1.40m of 433 g/t AgEq at Las Coloradas, including 0.75m of 787 g/t AgEq.
+
+Strong grades—but the real opportunity may be the untested ground between Kingsmen’s best hits. The zone remains open at depth and along strike, with more assays coming
+    链接: https://x.com/peter_krauth/status/2090510364446527806
+
+[10] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T12:53:32+00:00
+    北京: 2026-08-21T20:53:32+08:00
+    文本: This is not enough to build one big mine...
+
+...but it beats government hostility.
+
+Hopefully, red tape reductions will be more impactful and lasting.
+    链接: https://x.com/duediligenceguy/status/2090784364636328230
+
+[11] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T12:29:15+00:00
+    北京: 2026-08-21T20:29:15+08:00
+    文本: Not exactly.
+
+I'm not buying gold and silver stocks without much lower entry points.
+
+If that means they take off without me, so be it.
+
+I'll make money buying whatever does go on sale next—don't care which commodity it is.
+    链接: https://x.com/duediligenceguy/status/2090778253329829976
+
+[12] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T12:25:16+00:00
+    北京: 2026-08-21T20:25:16+08:00
+    文本: Nonsense.
+
+I haven't sold an ounce of gold or silver, nor have I told anyone to do so.
+
+I did sell my stocks—at levels higher than today's.
+
+(And I remain just as vocal.)
+
+If you're going to diss me, at least do it for what I actually say and do.
+    链接: https://x.com/duediligenceguy/status/2090777251625283704
+
+[13] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T01:18:22+00:00
+    北京: 2026-08-21T09:18:22+08:00
+    文本: https://
+independentspeculator.com/sd/the-digest/
+gold-looks-to-have-bottomed-but
+…...
+    链接: https://x.com/duediligenceguy/status/2090609421059600427
+
+[14] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-20T19:29:31+00:00
+    北京: 2026-08-21T03:29:31+08:00
+    文本: What's going on with bonds is impressive.
+
+Dollar slide this morning reversed—somehow.
+
+So far, gold seems to be enjoying the show... and silver seems downright ecstatic.
+    链接: https://x.com/duediligenceguy/status/2090521629096919544
+
+[15] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-20T20:59:11+00:00
+    北京: 2026-08-21T04:59:11+08:00
+    文本: If you had to boil it down to one reason why we are in a secular bull market for gold.
+
+
+https://
+tavicosta.substack.com/p/the-gold-is-
+gone?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2090544198210719871
+
+[16] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-20T19:15:03+00:00
+    北京: 2026-08-21T03:15:03+08:00
+    文本: Ops..... 
+
+I thought this wasn’t supposed to happen again…..
+
+Yet here we are....  approaching $70/oz.
+
+
+https://
+substack.com/home/post/p-21
+1937742
+…
+    链接: https://x.com/TaviCosta/status/2090517988504223875
+
+[17] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-21T13:47:00+00:00
+    北京: 2026-08-21T21:47:00+08:00
+    文本: 16% of fund managers surveyed by BOFA now consider gold to be undervalued....
+    链接: https://x.com/RonStoeferle/status/2090797820861460578
+
+[18] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-21T05:10:16+00:00
+    北京: 2026-08-21T13:10:16+08:00
+    文本: 回到货币未来！
+
+9月10日，
+@MarkValek
+ 和我将抽出一小时时间，向你们展示，我们的《In Gold We Trust》报告中的论点如何转化为投资流程中的具体实践。
+
+用德语讲解，免费，且完全没有销售推销。我非常期待能有很多人参加！
+
+报名：
+    链接: https://x.com/RonStoeferle/status/2090667781926555717
+
+[19] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-21T10:47:54+00:00
+    北京: 2026-08-21T18:47:54+08:00
+    文本: Another very strong day for the metals ..
+    链接: https://x.com/wmiddelkoop/status/2090752751521177825
+
+[20] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-21T01:15:17+00:00
+    北京: 2026-08-21T09:15:17+08:00
+    文本: He also thinks the top is in on gold and silver.  He’s not very bright.
+    链接: https://x.com/LawrenceLepard/status/2090608644815561184
+
+[21] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-20T20:22:31+00:00
+    北京: 2026-08-21T04:22:31+08:00
+    文本: Gold, gold stocks, BTC
+    链接: https://x.com/LawrenceLepard/status/2090534970808823853
+

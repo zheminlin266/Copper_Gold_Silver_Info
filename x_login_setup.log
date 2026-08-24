@@ -1,0 +1,33 @@
+============================================================
+  X (Twitter) 登录设置
+============================================================
+
+Profile 目录: D:\Projects\Copper_Gold_Silver_Info\.browser_profile\chromium-data
+Auth 存储:    D:\Projects\Copper_Gold_Silver_Info\.browser_profile\x_auth.json
+超时时间:     600 秒
+
+即将打开 Chromium 并跳转到 X 登录页面。
+请在浏览器中完成以下操作:
+  1. 登录你的 X 账号
+  2. 如有 2FA 验证，请完成验证
+  3. 确认已成功登录到 X 首页
+
+浏览器将在 600 秒后自动关闭并保存登录状态。
+
+正在启动 Chrome: C:\Program Files\Google\Chrome\Application\chrome.exe
+正在打开 X (Twitter) 登录页面...
+
+============================================================
+  Chromium 已打开，请在浏览器中完成 X 登录
+  浏览器将在 600 秒后自动关闭并保存
+============================================================
+
+当前页面: https://x.com/home
+正在导出登录状态...
+登录状态已导出到: D:\Projects\Copper_Gold_Silver_Info\.browser_profile\x_auth.json
+
+============================================================
+  X 登录设置完成！
+============================================================
+
+验证登录: python scripts/x_search.py --check-login --headless

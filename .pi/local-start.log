@@ -1,0 +1,9 @@
+
+> copper-gold-silver-info@1.0.0 start
+> next start -p 3100
+
+▲ Next.js 16.3.0
+- Local:         http://localhost:3100
+- Network:       http://169.254.83.107:3100
+✓ Ready in 200ms
+✓ Running next.config.ts took 30ms

@@ -1,0 +1,88 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-16",
+  "status": "partial",
+  "selected_channel": "twscrape",
+  "attempted_channels": [
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "candidates": [
+    {
+      "candidate_id": "x-0c463d91eda537356eab9cd2",
+      "source_id": "x-katusaresearch",
+      "author": "Katusa Research",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-16T13:37:48+00:00",
+      "text": "Gold is knocking on a door it hasn't opened since June\n\nAnd about to cross its 100 -day MA https://t.co/NiyYjHzYZT",
+      "url": "https://x.com/KatusaResearch/status/2088983565799211465",
+      "collector": "x_search",
+      "report_date": "2026-08-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-84da37d8312e7151c57a7620",
+      "source_id": "x-katusaresearch",
+      "author": "Katusa Research",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-15T16:14:02+00:00",
+      "text": "Copper closed the week at its 12th RECORD weekly close of 2026 and third in a row.\n\nThat's a new all-time high roughly EVERY three weeks since the year began. https://t.co/7Q06qcHqHG",
+      "url": "https://x.com/KatusaResearch/status/2088660494684958904",
+      "collector": "x_search",
+      "report_date": "2026-08-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-864cd985226719b182f95270",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne CMT, MFTA ⛏⛏",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-15T21:41:28+00:00",
+      "text": "The boxes mark 20% declines during secular bulls in Gold.\n\nGold’s recent pullback was nearly identical to 1973 and modestly smaller in both price and duration than 2008.\n\nGold is not yet at the comparable 1975 stage of a secular bull market and likely will not be for another 2 to 3 years.\n\nHence, the odds favor this being the best buying opportunity for some time. \n\nThe next major opportunity will likely be at a higher price.",
+      "url": "https://x.com/TheDailyGold/status/2088742896686223567",
+      "collector": "x_search",
+      "report_date": "2026-08-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5c96977d1961f2c66d898a2b",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-16T12:03:10+00:00",
+      "text": "55 Years After Nixon Closed the Gold Window: Can Gold Still Be Controlled? https://t.co/pV2KT5Rwbi",
+      "url": "https://x.com/silverguru22/status/2088959753833611433",
+      "collector": "x_search",
+      "report_date": "2026-08-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-aa91942bf312ef84a2b25dad",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-16T15:53:37+00:00",
+      "text": "And people say gold is a boring pet rock…\n:-{)} https://t.co/RvlChrunnf",
+      "url": "https://x.com/duediligenceguy/status/2089017748105970159",
+      "collector": "x_search",
+      "report_date": "2026-08-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-07678e3baf46f0363060b8b8",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-16T15:35:22+00:00",
+      "text": "@BrownDwarfZeus Sure, but can anyone be stupid enough to plan a multi-billion-dollar smelter without addressing that?\n\nI'm sure they did, but people are paranoid anyway.",
+      "url": "https://x.com/duediligenceguy/status/2089013152235012317",
+      "collector": "x_search",
+      "report_date": "2026-08-16",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_error": "twscrape safety stop for @RonStoeferle: No account available for queue SearchTimeline"
+  }
+}

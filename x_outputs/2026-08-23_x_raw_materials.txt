@@ -1,0 +1,95 @@
+X 原始候选 — 2026-08-23
+采集时间: 2026-08-24T08:52:12.857155+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 10 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-22T16:09:16+00:00
+    北京: 2026-08-23T00:09:16+08:00
+    文本: Silver investors are ready for a show
+
+Prices just broke out of a 7-month falling wedge
+
+A clean breakout after months of compression is worth watching.
+    链接: https://x.com/KatusaResearch/status/2091196013776416867
+
+[2] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-22T21:07:47+00:00
+    北京: 2026-08-23T05:07:47+08:00
+    文本: Gold just declined 29%. That was the pullback.
+    链接: https://x.com/TheDailyGold/status/2091271137242251730
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-23T11:06:10+00:00
+    北京: 2026-08-23T19:06:10+08:00
+    文本: Three grams of gold.
+
+Such a sign of the times... and place.
+    链接: https://x.com/duediligenceguy/status/2091482122515103902
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-23T10:48:10+00:00
+    北京: 2026-08-23T18:48:10+08:00
+    文本: Hm.
+
+I can't remember the last time I saw gold and Bitcoin respond similarly to the same financial event...
+    链接: https://x.com/duediligenceguy/status/2091477591769133169
+
+[5] @KaiserResearch (John Kaiser)
+    UTC: 2026-08-23T06:25:06+00:00
+    北京: 2026-08-23T14:25:06+08:00
+    文本: KW Aug 21, 2026: The 2025 Gold Replay is Underway! - Part 3
+
+Discovery Favorites give a bigger bang for your buck than ounce in the ground juniors, but only if mother nature obliges with discovery holes. As the 2025 Gold Replay gains momentum, the advanced gold juniors grossly
+    链接: https://x.com/KaiserResearch/status/2091411389185434030
+
+[6] @KaiserResearch (John Kaiser)
+    UTC: 2026-08-23T06:16:55+00:00
+    北京: 2026-08-23T14:16:55+08:00
+    文本: KW Aug 21, 2026: The 2025 Gold Replay is Underway! - Part 2
+
+The market is starting to realize that the Department of War deal handcuffs Sunrise Energy, turning it into dead money while shifting the attention of the rest of the world's potential scandium end  users to similar NSW
+    链接: https://x.com/KaiserResearch/status/2091409328796488170
+
+[7] @KaiserResearch (John Kaiser)
+    UTC: 2026-08-23T06:03:35+00:00
+    北京: 2026-08-23T14:03:35+08:00
+    文本: KW Aug 21, 2026: The 2025 Gold Replay is Underway! - Part 1
+
+No Republican president has ever failed to increase the national debt by a greater amount than any predecessor, but based on a $43 trillion projection for 2028 this one will not beat Biden's record. Not that it any
+    链接: https://x.com/KaiserResearch/status/2091405976377438295
+
+[8] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-23T03:58:25+00:00
+    北京: 2026-08-23T11:58:25+08:00
+    文本: How about the markets next week?
+
+Oil and energy: Supportive bias overall. Iran/Hormuz constraints and Canadian oil-sands maintenance (~300k bpd offline next month) dominate, outweighing the Canada trade row (energy remains explicitly exempt from the new 50% US tariffs). Expect
+    链接: https://x.com/wmiddelkoop/status/2091374474356568300
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-22T19:00:50+00:00
+    北京: 2026-08-23T03:00:50+08:00
+    文本: Talon is our largest position. We know Jack as a very smart mining executive. Insiders sometimes understand stuff a bit more. We think that in 10 years, Talon will be remembered as one of the most remarkable nickel-copper discoveries.
+    链接: https://x.com/wmiddelkoop/status/2091239188687438139
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-23T15:26:09+00:00
+    北京: 2026-08-23T23:26:09+08:00
+    文本: Tavi nails it.  Which is the next reserve asset?
+    链接: https://x.com/LawrenceLepard/status/2091547549865783352
+

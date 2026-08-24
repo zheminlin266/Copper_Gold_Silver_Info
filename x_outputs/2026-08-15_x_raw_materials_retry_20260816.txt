@@ -1,0 +1,99 @@
+X 原始候选 — 2026-08-15
+采集时间: 2026-08-16T10:55:08.030385+08:00
+采集方法: Playwright + Chrome (persistent profile with storage_state fallback)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 34 个人 + 18 官方
+采集状态: partial
+失败账号数: 1
+失败账号:
+  @duediligenceguy (Lobo Tiggre): tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text
+============================================================
+
+总计候选: 8 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-14T16:52:09+00:00
+    北京: 2026-08-15T00:52:09+08:00
+    文本: the creditors are in no position to demand. The debtor has nuclear weapons
+    链接: https://x.com/RealRickRule/status/2088307702862925991
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-08-15T15:37:45+00:00
+    北京: 2026-08-15T23:37:45+08:00
+    文本: https://
+tinyurl.com/BRICS-Gold-Sta
+ndard
+…
+Why a BRICS Gold Standard Is a Fiction
+
+Since the sanctions on Russia over the invasion of Ukraine, combined with real domestic economic anxieties in the post-pandemic era and declining institutional trust, a handful of libertarians and a mix of anti-war
+    链接: https://x.com/silverguru22/status/2088651364356555259
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-08-14T17:40:11+00:00
+    北京: 2026-08-15T01:40:11+08:00
+    文本: TMR has factored this into our thinking on #Platinum. 
+For every ounce of platinum mined, the world mines roughly 19 ounces of gold.
+
+Platinum’s rarity does not automatically make it more expensive, however. Gold has a much larger monetary and investment demand base, while
+    链接: https://x.com/silverguru22/status/2088319789441966088
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-14T18:30:00+00:00
+    北京: 2026-08-15T02:30:00+08:00
+    文本: Silver is up 18% from its July lows. But the miners may be the bigger story.
+
+Today’s Silver Scoop:
+
+• Why I bought near the bottom
+• A “silver unicorn” up 34%
+• Our holding with the #1 intercept
+The setup is getting interesting.
+Read + subscribe free: 
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/aya-gold-silver-the-silver-scoop/#ay
+…
+    链接: https://x.com/peter_krauth/status/2088332325696450612
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-14T17:53:14+00:00
+    北京: 2026-08-15T01:53:14+08:00
+    文本: AYA 
+@AyaGoldSilver
+  just delivered a blowout quarter:
+
+Revenue +151%
+Net income +305%
+Cash flow +522%
+Production +61%
+Shares have soared 34% in two weeks—but I remain overweight. Aya is a silver unicorn that stands apart from the crowd.
+See why in today’s Silver Scoop. Subscribe
+    链接: https://x.com/peter_krauth/status/2088323074987057563
+
+[6] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-14T16:18:20+00:00
+    北京: 2026-08-15T00:18:20+08:00
+    文本: lol…. coming from someone who follows me, and watched Gold and Silver soar.
+
+But rather than say thank you, you introduce yourself by announcing that you’re a spineless prick. 
+
+So fuck off. There’s a reason no one cares about your opinion.
+    链接: https://x.com/ArcadiaEconomic/status/2088299191843856386
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-14T16:23:29+00:00
+    北京: 2026-08-15T00:23:29+08:00
+    文本: I can certainly see US/UK copper spreads varying with perceived tariff risk...
+
+But I think anyone who thinks they can predict Trump with such metrics is kidding themselves.
+    链接: https://x.com/duediligenceguy/status/2088300485795008719
+
+[8] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-15T14:44:54+00:00
+    北京: 2026-08-15T22:44:54+08:00
+    文本: Danielle always brings insights you won’t find anywhere else to New Orleans. Check out the rest of our top faculty and reserve your spot while you still can.
+    链接: https://x.com/Brien_Lundin/status/2088638065363300373
+

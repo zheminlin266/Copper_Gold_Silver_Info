@@ -1,0 +1,19 @@
+X 原始候选 — 2026-08-16
+采集时间: 2026-08-17T14:02:41.435624+08:00
+选定通道: x-tweet-fetcher
+尝试通道: twscrape, x-tweet-fetcher
+不可用通道: twscrape
+采集方法: ordered twscrape -> x-tweet-fetcher (Nitter only) -> Playwright
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+采集状态: complete
+失败账号数: 0
+通道不可用原因:
+  twscrape: twscrape is disabled by X_TWSCRAPE_ENABLED
+失败账号: 无
+============================================================
+
+总计候选: 0 条
+
+============================================================
+

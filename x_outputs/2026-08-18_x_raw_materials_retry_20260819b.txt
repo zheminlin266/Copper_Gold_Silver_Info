@@ -1,0 +1,70 @@
+X 原始候选 — 2026-08-18
+采集时间: 2026-08-19T08:57:23.316926+08:00
+选定通道: twscrape
+尝试通道: twscrape
+不可用通道: 无
+采集方法: ordered twscrape -> Playwright
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+采集状态: partial
+失败账号数: 0
+通道错误: twscrape safety stop for @RonStoeferle: No account available for queue SearchTimeline
+失败账号: 无
+============================================================
+
+总计候选: 6 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-17T16:22:52+00:00
+    北京: 2026-08-18T00:22:52+08:00
+    文本: Rick Rule: Copper Has WAY More Potential Than Gold https://t.co/edtxehcim3 via @YouTube 09-18-2026 Interview with Darrel Thomas, VRIC Media
+    链接: https://x.com/RealRickRule/status/2089387495444378045
+
+[2] @KobeissiLetter (The Kobeissi Letter)
+    UTC: 2026-08-18T15:46:00+00:00
+    北京: 2026-08-18T23:46:00+08:00
+    文本: BREAKING: Global physical gold-backed ETFs posted +$3.5 billion in inflows last week, the largest weekly intake since February 2026.
+
+This also marks the 6th consecutive weekly inflow, the longest streak since January.
+
+Over this 6-week period, ETFs have attracted +$10.0 billion in inflows.
+
+This is equivalent to +72.2 tons of gold, bringing ETF holdings up to 4,114 tons, the highest since May.
+
+European funds led last week’s demand at +$2.3 billion, followed by North America at +$1.1 billion, and Asia at +$200 million.
+
+Global demand for gold is acclerating sharply.
+    链接: https://x.com/KobeissiLetter/status/2089740606968901817
+
+[3] @KatusaResearch (Katusa Research)
+    UTC: 2026-08-17T18:57:05+00:00
+    北京: 2026-08-18T02:57:05+08:00
+    文本: Gold rocket incoming?
+
+A lot of people in this corner would revel coming out of this pause.
+    链接: https://x.com/KatusaResearch/status/2089426306937078226
+
+[4] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-17T17:25:22+00:00
+    北京: 2026-08-18T01:25:22+08:00
+    文本: Looks like gold is sniffing something....
+    链接: https://x.com/Brien_Lundin/status/2089403222226059718
+
+[5] @GoldNewsletter (Gold Newsletter)
+    UTC: 2026-08-17T16:59:47+00:00
+    北京: 2026-08-18T00:59:47+08:00
+    文本: https://t.co/6dQjfAmfFl https://t.co/WRf7I40uPU
+    链接: https://x.com/GoldNewsletter/status/2089396786964078883
+
+[6] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-17T17:44:58+00:00
+    北京: 2026-08-18T01:44:58+08:00
+    文本: The last couple of years belonged to #silver. I think the next couple could belong to silver stocks.
+
+Higher silver prices can take 2–4 quarters to feed through analysts’ models—and I don’t believe the rerating has fully happened yet. 
+
+Watch the full interview with @CapitalCosm: https://t.co/rMvkCfbWUY
+    链接: https://x.com/peter_krauth/status/2089408158527848766
+

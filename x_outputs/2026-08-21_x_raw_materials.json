@@ -1,0 +1,300 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-21",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "twscrape",
+      "error": "twscrape is not installed"
+    }
+  ],
+  "accounts_total": 53,
+  "accounts_completed": 51,
+  "accounts_failed": 2,
+  "channel_completed_accounts": {
+    "playwright": 51
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-40a1bf4dc53341082455d605",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-20T21:44:52+00:00",
+      "text": "Wow. \n\nA 4% move up in Gold is CRAZY rare",
+      "url": "https://x.com/KatusaResearch/status/2090555691861725521",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9cb3267d07c49c717aeb370d",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-20T20:37:03+00:00",
+      "text": "Gold Stocks are breaking higher relative to Gold.\n\n\n$GDX\n, by a hair, just closed at a new 13-year high vs. Gold, breaking out from a base more than a decade in the making.\n\nA major relative-strength shift may be underway.",
+      "url": "https://x.com/TheDailyGold/status/2090538627386462607",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-de972a80ebdbcb6e2a9e2278",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-21T14:07:26+00:00",
+      "text": "Dr. Copper usually pulls back under tougher economic conditions.  Copper is making new highs. Does this imply MMT (More \"Money Today) is being forecast?",
+      "url": "https://x.com/silverguru22/status/2090802963266851112",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3a77a795cab619de33b510d8",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-21T14:00:40+00:00",
+      "text": "Rick Rule Sold 80% of His Silver. He Won't Touch His Gold. - GoldSilver - \nhttps://\ngoo.gl/alerts/ZHbaC3 #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2090801261373464744",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5c84f5d7447ad07c65dcbafc",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-21T13:59:55+00:00",
+      "text": "Nomi Prins Predicts Silver Could Reach $180. Should Investors Buy Silver Stocks Now? - \nhttps://\ngoo.gl/alerts/pdjdjq #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2090801073061765497",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-01e733587f8f45258a29e9ec",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-21T13:33:23+00:00",
+      "text": "Scott Bessent's Surprise Bond Buyback Sparks a Silver Rally. Is It Too Late to Buy In? - \nhttps://\ngoo.gl/alerts/xwD2Us #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2090794393699787103",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6455968b40cc877f5431ff72",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-20T19:00:01+00:00",
+      "text": "My good friend and former colleague Bill Patalon looks back at the 55 years since the U.S. closed the gold window—and what rising debt, eroding purchasing power and central bank gold buying mean for investors today.\n\nWell worth your time:\n\nhttps://\nstockpickerscorner.beehiiv.com/p/55-years-ago\n-america-killed-the-gold-standard-now-it-s-sorta-back\n…",
+      "url": "https://x.com/peter_krauth/status/2090514207959912937",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f0903fac0a57bbcc39efb094",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-20T18:51:02+00:00",
+      "text": "Pacifica Silver \n@Pacifica_Silver\n is clearing the runway at Claudia.\n\n491 newly permitted drill pads. A 30,000-metre program. A fourth rig arriving by month-end—and drilling fully funded through 2026.\n\nThis isn’t just paperwork. It means more targets, more holes and a faster path",
+      "url": "https://x.com/peter_krauth/status/2090511948203061436",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3902600a24cc1921ab264861",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-20T18:44:45+00:00",
+      "text": "Kingsmen \n@Kingsmen_Res\n just delivered 1.40m of 433 g/t AgEq at Las Coloradas, including 0.75m of 787 g/t AgEq.\n\nStrong grades—but the real opportunity may be the untested ground between Kingsmen’s best hits. The zone remains open at depth and along strike, with more assays coming",
+      "url": "https://x.com/peter_krauth/status/2090510364446527806",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3b799976179b8420e2ec86dd",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-21T12:53:32+00:00",
+      "text": "This is not enough to build one big mine...\n\n...but it beats government hostility.\n\nHopefully, red tape reductions will be more impactful and lasting.",
+      "url": "https://x.com/duediligenceguy/status/2090784364636328230",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3d50681566b11cdf06bc1302",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-21T12:29:15+00:00",
+      "text": "Not exactly.\n\nI'm not buying gold and silver stocks without much lower entry points.\n\nIf that means they take off without me, so be it.\n\nI'll make money buying whatever does go on sale next—don't care which commodity it is.",
+      "url": "https://x.com/duediligenceguy/status/2090778253329829976",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6891b6236d4f5cbc519ba858",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-21T12:25:16+00:00",
+      "text": "Nonsense.\n\nI haven't sold an ounce of gold or silver, nor have I told anyone to do so.\n\nI did sell my stocks—at levels higher than today's.\n\n(And I remain just as vocal.)\n\nIf you're going to diss me, at least do it for what I actually say and do.",
+      "url": "https://x.com/duediligenceguy/status/2090777251625283704",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-325ee3b84037ca281e589a47",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-21T01:18:22+00:00",
+      "text": "https://\nindependentspeculator.com/sd/the-digest/\ngold-looks-to-have-bottomed-but\n…...",
+      "url": "https://x.com/duediligenceguy/status/2090609421059600427",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-62ae97f300d85b7c3a8bee22",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-20T19:29:31+00:00",
+      "text": "What's going on with bonds is impressive.\n\nDollar slide this morning reversed—somehow.\n\nSo far, gold seems to be enjoying the show... and silver seems downright ecstatic.",
+      "url": "https://x.com/duediligenceguy/status/2090521629096919544",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-63d40e3148e12c352bce9710",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-20T20:59:11+00:00",
+      "text": "If you had to boil it down to one reason why we are in a secular bull market for gold.\n\n\nhttps://\ntavicosta.substack.com/p/the-gold-is-\ngone?r=2m39jp&utm_medium=ios\n…",
+      "url": "https://x.com/TaviCosta/status/2090544198210719871",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a5bcd76ab11b9157dc90e455",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-20T19:15:03+00:00",
+      "text": "Ops..... \n\nI thought this wasn’t supposed to happen again…..\n\nYet here we are....  approaching $70/oz.\n\n\nhttps://\nsubstack.com/home/post/p-21\n1937742\n…",
+      "url": "https://x.com/TaviCosta/status/2090517988504223875",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-be211aef44f5877fd553cf27",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-21T13:47:00+00:00",
+      "text": "16% of fund managers surveyed by BOFA now consider gold to be undervalued....",
+      "url": "https://x.com/RonStoeferle/status/2090797820861460578",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c0e854a22b2d918c8084e247",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-21T05:10:16+00:00",
+      "text": "回到货币未来！\n\n9月10日，\n@MarkValek\n 和我将抽出一小时时间，向你们展示，我们的《In Gold We Trust》报告中的论点如何转化为投资流程中的具体实践。\n\n用德语讲解，免费，且完全没有销售推销。我非常期待能有很多人参加！\n\n报名：",
+      "url": "https://x.com/RonStoeferle/status/2090667781926555717",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c15481ecf85edd581a899634",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-21T10:47:54+00:00",
+      "text": "Another very strong day for the metals ..",
+      "url": "https://x.com/wmiddelkoop/status/2090752751521177825",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-93c7c86e4855becba5477fa2",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-21T01:15:17+00:00",
+      "text": "He also thinks the top is in on gold and silver.  He’s not very bright.",
+      "url": "https://x.com/LawrenceLepard/status/2090608644815561184",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-28143ee33b852317bea98b3e",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-20T20:22:31+00:00",
+      "text": "Gold, gold stocks, BTC",
+      "url": "https://x.com/LawrenceLepard/status/2090534970808823853",
+      "collector": "x_search",
+      "report_date": "2026-08-21",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-silverguru22",
+      "handle": "silverguru22",
+      "author": "David Morgan",
+      "error": "tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+    },
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "tweet extraction failed for 1 item(s): tweet 5: missing or empty tweet text"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 51
+    },
+    "channel_errors": [
+      "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text",
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 5: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 5: missing or empty tweet text"
+  }
+}

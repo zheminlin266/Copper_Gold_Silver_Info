@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "id": "SXIdJVNJau",
+      "name": "每日信息页更新",
+      "schedule": "0 0 7 * * *",
+      "prompt": "执行本次每日信息页更新任务前，必须完整读取并严格遵循文件 `D:\\Projects\\Copper_Gold_Silver_Info\\Daily_Task_Prompt.md` 的当前内容；将该文件内容作为本次任务的完整 task prompt。模型：gpt-5.6-luna；推理强度：xhigh。第一步按文件要求读取仓库根目录的 `Daily_Report_Workflow.md`，并以其当前内容为唯一权威规范。",
+      "enabled": true,
+      "type": "cron",
+      "createdAt": "2026-08-21T02:04:11.947Z",
+      "runCount": 3,
+      "model": "gpt-5.6-luna",
+      "notify": true,
+      "session": "01a0220c-b7ee-785a-ba11-f764f80e5c4c",
+      "lastStatus": "success",
+      "lastRun": "2026-08-23T23:00:55.116Z",
+      "nextRun": "2026-08-24T23:00:00.000Z"
+    }
+  ],
+  "version": 1
+}

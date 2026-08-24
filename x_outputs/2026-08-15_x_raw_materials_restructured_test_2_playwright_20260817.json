@@ -1,0 +1,25 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-15",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "twscrape",
+    "playwright"
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "twscrape",
+      "error": "twscrape is disabled by X_TWSCRAPE_ENABLED"
+    }
+  ],
+  "candidates": [],
+  "errors": [],
+  "metadata": {
+    "safe_delay_mode": "uniform",
+    "safe_delay_min_seconds": 5.0,
+    "safe_delay_max_seconds": 10.0,
+    "max_results_per_query": 20,
+    "selected_channel": "playwright"
+  }
+}

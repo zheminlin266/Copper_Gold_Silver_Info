@@ -1,0 +1,132 @@
+X 原始候选 — 2026-08-22
+采集时间: 2026-08-23T08:53:05.333653+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 13 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-22T02:40:40+00:00
+    北京: 2026-08-22T10:40:40+08:00
+    文本: When Washington floated copper tariffs, copper started moving, 
+
+And it hasn’t stopped…
+    链接: https://x.com/KatusaResearch/status/2090992522608996670
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-22T02:39:27+00:00
+    北京: 2026-08-22T10:39:27+08:00
+    文本: Smelters are PAYING copper miners 
+
+Get this…
+
+Most mines never sell finished copper. 
+
+They sell concentrate, a powder about one-quarter copper, and smelters charge a fee to turn it into metal. 
+
+That fee is a live reading on how much mine supply exists. Plenty of concentrate,
+    链接: https://x.com/KatusaResearch/status/2090992216986841210
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-21T17:44:20+00:00
+    北京: 2026-08-22T01:44:20+08:00
+    文本: Three days leaves no room for a strike, a smelter outage, or a slow ship. 
+
+The world outside America is living paycheck to paycheck on the metal that carries its electricity
+
+And buyers can feel it…
+    链接: https://x.com/KatusaResearch/status/2090857547024457987
+
+[4] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-21T17:43:16+00:00
+    北京: 2026-08-22T01:43:16+08:00
+    文本: There’s 3 days left of copper outside of America
+
+Then what?
+    链接: https://x.com/KatusaResearch/status/2090857281516687500
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-21T18:14:29+00:00
+    北京: 2026-08-22T02:14:29+08:00
+    文本: Silver is approaching $70 as U.S. government debt crosses $40T and long-term Treasury yields climb.
+
+This week’s Silver Scoop looks beyond the price move to examine what the bond market may be signalling—and why the backdrop for silver miners is becoming increasingly
+    链接: https://x.com/peter_krauth/status/2090865137875820764
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T21:22:43+00:00
+    北京: 2026-08-22T05:22:43+08:00
+    文本: Honestly, sales are up 20% over last year... but it was 40% in January. I am probably losing some Gold Maxis.
+
+But I'd rather lose clients than lie in order to tell people what they want to hear, and possibly lead them off a cliff.
+    链接: https://x.com/duediligenceguy/status/2090912505711202792
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T17:55:37+00:00
+    北京: 2026-08-22T01:55:37+08:00
+    文本: Depends on which sidelines... I've bought more oil and copper.
+
+But I said that if gold and silver took off, they would do so without me buying more stocks (I still have all my bullion, of course) and I'm sticking to that.
+
+No FOMO.
+    链接: https://x.com/duediligenceguy/status/2090860386274730411
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-21T17:31:23+00:00
+    北京: 2026-08-22T01:31:23+08:00
+    文本: "The bourse operator physically delivered 145kg (319.67lbs) of gold, the highest single-day tally since the product was first launched in 2018."
+
+Hm...
+    链接: https://x.com/duediligenceguy/status/2090854289363050874
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-21T19:49:31+00:00
+    北京: 2026-08-22T03:49:31+08:00
+    文本: Bloomberg: Dalio Says Sell Bonds, Buy Gold, Bitcoin as Debt Crisis Looms
+    链接: https://x.com/wmiddelkoop/status/2090889051851157744
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-22T10:57:53+00:00
+    北京: 2026-08-22T18:57:53+08:00
+    文本: He’s an idiot.  Thinks gold and silver will crash too 
+    链接: https://x.com/LawrenceLepard/status/2091117650466271612
+
+[11] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-21T17:07:50+00:00
+    北京: 2026-08-22T01:07:50+08:00
+    文本: Yep.  Just out.
+    链接: https://x.com/LawrenceLepard/status/2090848361041523062
+
+[12] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-08-21T16:14:39+00:00
+    北京: 2026-08-22T00:14:39+08:00
+    文本: Troilus Mining 
+$TLG.TO
+ reports new high-grade drill results from the Z87 Zone at its Troilus Project in Quebec.
+
+Highlights:
+ 8.84 g/t AuEq over 4.8m, incl. 23.58 g/t over 1m
+ 5.07 g/t AuEq over 5m, incl. 7.79 g/t over 3m
+ 2.08 g/t AuEq over 6.17m, incl. 9.26 g/t over 1.37m
+    链接: https://x.com/soarfinancial/status/2090834980503224792
+
+[13] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-08-21T18:04:05+00:00
+    北京: 2026-08-22T02:04:05+08:00
+    文本: Responsible mining is about more than what we produce, it’s about how we protect the places where we operate.
+
+From minimizing our environmental footprint and protecting biodiversity to advancing renewable energy and more efficient mining practices, we’re focused on responsible
+    链接: https://x.com/IvanhoeMines_/status/2090862516998176808
+

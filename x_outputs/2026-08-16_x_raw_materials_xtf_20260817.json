@@ -1,0 +1,27 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-16",
+  "status": "complete",
+  "selected_channel": "x-tweet-fetcher",
+  "attempted_channels": [
+    "twscrape",
+    "x-tweet-fetcher"
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "twscrape",
+      "error": "twscrape is disabled by X_TWSCRAPE_ENABLED"
+    }
+  ],
+  "candidates": [],
+  "errors": [],
+  "metadata": {
+    "nitter_url": "https://nitter.net",
+    "max_results_per_query": 20,
+    "safe_delay_mode": "uniform",
+    "safe_delay_min_seconds": 5.0,
+    "safe_delay_max_seconds": 10.0,
+    "published_at_precision": "query_date",
+    "selected_channel": "x-tweet-fetcher"
+  }
+}

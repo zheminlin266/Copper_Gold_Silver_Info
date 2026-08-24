@@ -1,0 +1,69 @@
+X 原始候选 — 2026-08-16
+采集时间: 2026-08-17T13:54:35.422205+08:00
+选定通道: twscrape
+尝试通道: twscrape
+不可用通道: 无
+采集方法: ordered twscrape -> x-tweet-fetcher (Nitter only) -> Playwright
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+采集状态: partial
+失败账号数: 0
+通道错误: twscrape safety stop for @RonStoeferle: No account available for queue SearchTimeline
+失败账号: 无
+============================================================
+
+总计候选: 6 条
+
+============================================================
+
+[1] @KatusaResearch (Katusa Research)
+    UTC: 2026-08-16T13:37:48+00:00
+    北京: 2026-08-16T21:37:48+08:00
+    文本: Gold is knocking on a door it hasn't opened since June
+
+And about to cross its 100 -day MA https://t.co/NiyYjHzYZT
+    链接: https://x.com/KatusaResearch/status/2088983565799211465
+
+[2] @KatusaResearch (Katusa Research)
+    UTC: 2026-08-15T16:14:02+00:00
+    北京: 2026-08-16T00:14:02+08:00
+    文本: Copper closed the week at its 12th RECORD weekly close of 2026 and third in a row.
+
+That's a new all-time high roughly EVERY three weeks since the year began. https://t.co/7Q06qcHqHG
+    链接: https://x.com/KatusaResearch/status/2088660494684958904
+
+[3] @TheDailyGold (Jordan Roy-Byrne CMT, MFTA ⛏⛏)
+    UTC: 2026-08-15T21:41:28+00:00
+    北京: 2026-08-16T05:41:28+08:00
+    文本: The boxes mark 20% declines during secular bulls in Gold.
+
+Gold’s recent pullback was nearly identical to 1973 and modestly smaller in both price and duration than 2008.
+
+Gold is not yet at the comparable 1975 stage of a secular bull market and likely will not be for another 2 to 3 years.
+
+Hence, the odds favor this being the best buying opportunity for some time. 
+
+The next major opportunity will likely be at a higher price.
+    链接: https://x.com/TheDailyGold/status/2088742896686223567
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-08-16T12:03:10+00:00
+    北京: 2026-08-16T20:03:10+08:00
+    文本: 55 Years After Nixon Closed the Gold Window: Can Gold Still Be Controlled? https://t.co/pV2KT5Rwbi
+    链接: https://x.com/silverguru22/status/2088959753833611433
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-16T15:53:37+00:00
+    北京: 2026-08-16T23:53:37+08:00
+    文本: And people say gold is a boring pet rock…
+:-{)} https://t.co/RvlChrunnf
+    链接: https://x.com/duediligenceguy/status/2089017748105970159
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-16T15:35:22+00:00
+    北京: 2026-08-16T23:35:22+08:00
+    文本: @BrownDwarfZeus Sure, but can anyone be stupid enough to plan a multi-billion-dollar smelter without addressing that?
+
+I'm sure they did, but people are paranoid anyway.
+    链接: https://x.com/duediligenceguy/status/2089013152235012317
+

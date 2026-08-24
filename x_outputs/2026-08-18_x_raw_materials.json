@@ -1,0 +1,88 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-18",
+  "status": "partial",
+  "selected_channel": "twscrape",
+  "attempted_channels": [
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "candidates": [
+    {
+      "candidate_id": "x-8ab02a8dcd3198e673569d4d",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-17T16:22:52+00:00",
+      "text": "Rick Rule: Copper Has WAY More Potential Than Gold https://t.co/edtxehcim3 via @YouTube 09-18-2026 Interview with Darrel Thomas, VRIC Media",
+      "url": "https://x.com/RealRickRule/status/2089387495444378045",
+      "collector": "x_search",
+      "report_date": "2026-08-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ea2b10473811c68e493feb5a",
+      "source_id": "x-katusaresearch",
+      "author": "The Kobeissi Letter",
+      "handle": "KobeissiLetter",
+      "publish_time": "2026-08-18T15:46:00+00:00",
+      "text": "BREAKING: Global physical gold-backed ETFs posted +$3.5 billion in inflows last week, the largest weekly intake since February 2026.\n\nThis also marks the 6th consecutive weekly inflow, the longest streak since January.\n\nOver this 6-week period, ETFs have attracted +$10.0 billion in inflows.\n\nThis is equivalent to +72.2 tons of gold, bringing ETF holdings up to 4,114 tons, the highest since May.\n\nEuropean funds led last week’s demand at +$2.3 billion, followed by North America at +$1.1 billion, and Asia at +$200 million.\n\nGlobal demand for gold is acclerating sharply.",
+      "url": "https://x.com/KobeissiLetter/status/2089740606968901817",
+      "collector": "x_search",
+      "report_date": "2026-08-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-130fe141e6c719633021e5cf",
+      "source_id": "x-katusaresearch",
+      "author": "Katusa Research",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-17T18:57:05+00:00",
+      "text": "Gold rocket incoming?\n\nA lot of people in this corner would revel coming out of this pause.",
+      "url": "https://x.com/KatusaResearch/status/2089426306937078226",
+      "collector": "x_search",
+      "report_date": "2026-08-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-84b8645b3f0c37546c7c51fa",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-08-17T17:25:22+00:00",
+      "text": "Looks like gold is sniffing something....",
+      "url": "https://x.com/Brien_Lundin/status/2089403222226059718",
+      "collector": "x_search",
+      "report_date": "2026-08-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3d0ae23ea8c1680d8666b8fe",
+      "source_id": "x-brien_lundin",
+      "author": "Gold Newsletter",
+      "handle": "GoldNewsletter",
+      "publish_time": "2026-08-17T16:59:47+00:00",
+      "text": "https://t.co/6dQjfAmfFl https://t.co/WRf7I40uPU",
+      "url": "https://x.com/GoldNewsletter/status/2089396786964078883",
+      "collector": "x_search",
+      "report_date": "2026-08-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8f375d4846c431ff340fb90f",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-17T17:44:58+00:00",
+      "text": "The last couple of years belonged to #silver. I think the next couple could belong to silver stocks.\n\nHigher silver prices can take 2–4 quarters to feed through analysts’ models—and I don’t believe the rerating has fully happened yet. \n\nWatch the full interview with @CapitalCosm: https://t.co/rMvkCfbWUY",
+      "url": "https://x.com/peter_krauth/status/2089408158527848766",
+      "collector": "x_search",
+      "report_date": "2026-08-18",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_error": "twscrape safety stop for @RonStoeferle: No account available for queue SearchTimeline"
+  }
+}
