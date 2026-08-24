@@ -1,0 +1,145 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-24",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-cd85cd89662de164c895c1bf",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-23T20:11:32+00:00",
+      "text": "So true Sid. Many are still waiting for a \"pullback\" when Gold just had nearly its biggest drawdown in a secular bull market (ex 1975-1976).",
+      "url": "https://x.com/TheDailyGold/status/2091619369604592110",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4d037dd9fc57a514f5093192",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-24T15:28:00+00:00",
+      "text": "Nice one by \n@TheDailyGold\n:\n\n\"Fart coin reached a market cap of 2.4 billion. What is going to happen to junior miners when the low-information retail crowd and our gambling culture focuses on our sector?\"\n\n#Gold #Silver #Miners #GDXJ",
+      "url": "https://x.com/RonStoeferle/status/2091910402451845489",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5f758e3ef8b1beb55b1ec73f",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-24T14:00:03+00:00",
+      "text": "11/ Slow variables don't make headlines.\n\nThey make regimes.\n\n \nhttp://\nsas.upenn.edu/~jesusfv/Demog\nraphics.pdf\n…\n\nIn Gold We Trust. \n\n#Gold #Demographics #Inflation",
+      "url": "https://x.com/RonStoeferle/status/2091888269080363063",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8b9aad8067cacb949e7a5a2d",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-24T12:24:24+00:00",
+      "text": "\"Gold can’t have a fiscal problem. Gold cannot have a gigantic budget deficit. Gold cannot have a war.\"\n\nTreasury Secretary Scott Bessent (talking to Tucker Carlson on 4/7/2025)\n\nAMEN \n\n\n@SecScottBessent\n \n@TuckerCarlson",
+      "url": "https://x.com/RonStoeferle/status/2091864200070992008",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5668f31810092bde8fce562b",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-24T12:58:22+00:00",
+      "text": "Gold & Bitcoin",
+      "url": "https://x.com/wmiddelkoop/status/2091872746326147488",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-943ddf7beceedb9ffce53aba",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-24T12:49:25+00:00",
+      "text": "The US is clearly getting very nervous about the demand for Treasuries\n\nExpect more and more creative solutions to support the market ... \n\nHow many years will it take to go from Weimar light to full Weimar?\n\nOr will Scott Bessent play the Gold Card?",
+      "url": "https://x.com/wmiddelkoop/status/2091870494647558453",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9b1daa8e5c5ac30fdf1eb7b1",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-24T12:45:11+00:00",
+      "text": "Gold trading (open interest) is moving away from the West",
+      "url": "https://x.com/wmiddelkoop/status/2091869430158344532",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ec2ca511666cfe8b8c0c4e6c",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-23T21:28:18+00:00",
+      "text": "Yep.  Bitcoin $10,000, gold and silver the top is in.  Right Mike?  You are going to be proven horribly wrong.",
+      "url": "https://x.com/LawrenceLepard/status/2091638688081965371",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c14b31fb2550d5d54d03ad05",
+      "source_id": "x-jayantbhandari5",
+      "author": "Jayant Bhandari",
+      "handle": "JayantBhandari5",
+      "publish_time": "2026-08-24T08:08:01+00:00",
+      "text": "[From my next article] The Third World... is not primarily a place but a structure of consciousness. The primitive mind is biological instinct acted upon by undisciplined cognitive faculties. Those faculties produce magical thinking, evasion, anxiety, and self-deception; they",
+      "url": "https://x.com/JayantBhandari5/status/2091799676442046738",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5529dc320eaa053f43464f32",
+      "source_id": "x-jayantbhandari5",
+      "author": "Jayant Bhandari",
+      "handle": "JayantBhandari5",
+      "publish_time": "2026-08-24T07:35:51+00:00",
+      "text": "He is scamming his way to supply the Indian youth to the 711s and equivalent. This also gets India rid of those who might come to the streets.",
+      "url": "https://x.com/JayantBhandari5/status/2091791583628906630",
+      "collector": "x_search",
+      "report_date": "2026-08-24",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

@@ -1,0 +1,112 @@
+X 原始候选 — 2026-08-24
+采集时间: 2026-08-25T07:27:11.703726+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 10 条
+
+============================================================
+
+[1] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-08-23T20:11:32+00:00
+    北京: 2026-08-24T04:11:32+08:00
+    文本: So true Sid. Many are still waiting for a "pullback" when Gold just had nearly its biggest drawdown in a secular bull market (ex 1975-1976).
+    链接: https://x.com/TheDailyGold/status/2091619369604592110
+
+[2] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-24T15:28:00+00:00
+    北京: 2026-08-24T23:28:00+08:00
+    文本: Nice one by 
+@TheDailyGold
+:
+
+"Fart coin reached a market cap of 2.4 billion. What is going to happen to junior miners when the low-information retail crowd and our gambling culture focuses on our sector?"
+
+#Gold #Silver #Miners #GDXJ
+    链接: https://x.com/RonStoeferle/status/2091910402451845489
+
+[3] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-24T14:00:03+00:00
+    北京: 2026-08-24T22:00:03+08:00
+    文本: 11/ Slow variables don't make headlines.
+
+They make regimes.
+
+ 
+http://
+sas.upenn.edu/~jesusfv/Demog
+raphics.pdf
+…
+
+In Gold We Trust. 
+
+#Gold #Demographics #Inflation
+    链接: https://x.com/RonStoeferle/status/2091888269080363063
+
+[4] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-24T12:24:24+00:00
+    北京: 2026-08-24T20:24:24+08:00
+    文本: "Gold can’t have a fiscal problem. Gold cannot have a gigantic budget deficit. Gold cannot have a war."
+
+Treasury Secretary Scott Bessent (talking to Tucker Carlson on 4/7/2025)
+
+AMEN 
+
+
+@SecScottBessent
+ 
+@TuckerCarlson
+    链接: https://x.com/RonStoeferle/status/2091864200070992008
+
+[5] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-24T12:58:22+00:00
+    北京: 2026-08-24T20:58:22+08:00
+    文本: Gold & Bitcoin
+    链接: https://x.com/wmiddelkoop/status/2091872746326147488
+
+[6] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-24T12:49:25+00:00
+    北京: 2026-08-24T20:49:25+08:00
+    文本: The US is clearly getting very nervous about the demand for Treasuries
+
+Expect more and more creative solutions to support the market ... 
+
+How many years will it take to go from Weimar light to full Weimar?
+
+Or will Scott Bessent play the Gold Card?
+    链接: https://x.com/wmiddelkoop/status/2091870494647558453
+
+[7] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-24T12:45:11+00:00
+    北京: 2026-08-24T20:45:11+08:00
+    文本: Gold trading (open interest) is moving away from the West
+    链接: https://x.com/wmiddelkoop/status/2091869430158344532
+
+[8] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-23T21:28:18+00:00
+    北京: 2026-08-24T05:28:18+08:00
+    文本: Yep.  Bitcoin $10,000, gold and silver the top is in.  Right Mike?  You are going to be proven horribly wrong.
+    链接: https://x.com/LawrenceLepard/status/2091638688081965371
+
+[9] @JayantBhandari5 (Jayant Bhandari)
+    UTC: 2026-08-24T08:08:01+00:00
+    北京: 2026-08-24T16:08:01+08:00
+    文本: [From my next article] The Third World... is not primarily a place but a structure of consciousness. The primitive mind is biological instinct acted upon by undisciplined cognitive faculties. Those faculties produce magical thinking, evasion, anxiety, and self-deception; they
+    链接: https://x.com/JayantBhandari5/status/2091799676442046738
+
+[10] @JayantBhandari5 (Jayant Bhandari)
+    UTC: 2026-08-24T07:35:51+00:00
+    北京: 2026-08-24T15:35:51+08:00
+    文本: He is scamming his way to supply the Indian youth to the 711s and equivalent. This also gets India rid of those who might come to the streets.
+    链接: https://x.com/JayantBhandari5/status/2091791583628906630
+
