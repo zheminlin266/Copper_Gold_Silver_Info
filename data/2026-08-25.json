@@ -1,0 +1,325 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-25",
+  "report_time": "2026-08-26T07:41:03+08:00",
+  "summary": "黄金：Gold Fields加纳Tarkwa租约续期仍不确定，约19.2万盎司上半年产量对应许可风险，但集团产量同比增长。白银：GoGold启动Los Ricos South建设，未来供给管线推进。铜：Tovaku项目瞄准2030年年产4.6万吨阴极铜，Troilus采购设备及Andina钻探扩大远期供给；美国库存迁移使现货市场供需预期趋紧。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-23T00:00:00+08:00",
+      "end": "2026-08-25T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-25T00:00:00+08:00",
+      "end": "2026-08-25T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-25T00:00:00+08:00",
+      "end": "2026-08-25T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-drill-results-from-andina-q2-1911-and-american-eagle",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Andina Copper在Cobrasco斑岩系统报告连续11个钻孔见近地表铜钼矿化；CDH011从32米起见206米、0.67%铜，包含在400米、0.46%铜区间内，矿化范围约1,200米×600米，并将调入第二台钻机。",
+          "evidence": "Mining Stock Daily 2026年8月25日节目页面正文直接披露钻孔、品位、矿化范围和第二台钻机安排。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-drill-results-from-andina-q2-1911-and-american-eagle",
+          "evidence_type": "direct podcast page transcript",
+          "period": "2026-08-25 briefing; 2026 drilling program",
+          "unit": "metres; copper grade; footprint; drill rigs",
+          "value": "11 holes; 206 at 0.67%; 400 at 0.46%; 1200 x 600; 2 rigs"
+        }
+      ],
+      "publish_date": "2026-08-25",
+      "title": "Morning Briefing: Drill Results from Andina, Q2, 1911 and American Eagle",
+      "source_type": "podcast",
+      "summary": "Mining Stock Daily 8月25日节目转述，Andina Copper在哥伦比亚Cobrasco斑岩系统连续11个钻孔见近地表铜钼矿化；CDH011从32米起见206米、0.67%铜，矿化范围约1,200米×600米，公司将调入第二台钻机。",
+      "detail": "节目页面可直接读取标题、日期和文字内容，并链接到相关新闻稿。该信号来自勘探钻孔，铜品位和矿化范围不等于资源量、储量或当前产量；第二台钻机是后续验证安排。",
+      "importance": "Andina连续见矿与约1,200×600米矿化范围，使Cobrasco从单孔发现转向系统性资源验证，第二台钻机有望缩短中期规模确认周期。该信号强化未来铜供给管线，尚不代表资源量、储量或近期产量；后续冶金、资源估算和许可是兑现条件。",
+      "verification_status": "verified",
+      "companies": [
+        "Andina Copper"
+      ],
+      "projects": [
+        "Cobrasco"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/soarfinancial/status/2092273688012116223",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Troilus选择Metso承担其铜金项目首个主要工艺设备包，范围包括破碎机、HPGR、球磨机、筛分机和给料机；Metso已纳入详细工程。",
+          "evidence": "Kai Hoffmann的X原帖直接披露设备包和详细工程整合；Troilus 2026年8月25日官方新闻稿核对了LOA、LNTP、设备范围和项目日期。",
+          "source_url": "https://troilusmining.com/news-and-media/news-releases/troilus-selects-metso-for-major-process-equipment-as-project-advances-towards-construction",
+          "evidence_type": "original X post cross-checked with official company release",
+          "period": "2026-08-25 announcement; September 2026 definitive arrangements target",
+          "unit": "process equipment package; project milestone",
+          "value": "LOA/LNTP; crushers; HPGRs; ball mills; screens; feeders"
+        }
+      ],
+      "publish_time": "2026-08-25T15:31:34+00:00",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "excerpt": "Kai Hoffmann在X原帖称，Troilus为其铜金项目选择Metso，负责破碎机、HPGR、球磨机、筛分机和给料机等首个主要工艺设备包；Metso已进入详细工程。",
+      "interpretation": "这是注册矿业媒体账号的原作者帖子，Troilus官方8月25日公告进一步确认已发出Letter of Award和Limited Notice to Proceed，并将设备接口纳入详细工程。采购里程碑改善未来项目施工准备，不代表已形成铜金产量。",
+      "importance": "8月25日把Metso设备包纳入详细工程，说明Troilus已从项目准备转向采购与施工接口管理，可能降低后续建设的设备和工期不确定性。该里程碑只增加未来铜金项目的执行确定性，设备最终供货协议预计9月完成，许可、融资和施工仍决定产量兑现时间。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://x.com/GoGoldResources/status/2092229175776027133",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "GoGold Resources官方账号宣布启动Fully-Funded Los Ricos South Mine建设。",
+          "evidence": "GoGold Resources官方X账号原帖直接发布项目开工公告，Playwright核对了作者、handle、发布时间、正文和原帖URL。",
+          "source_url": "https://x.com/GoGoldResources/status/2092229175776027133",
+          "evidence_type": "original X post by official company account",
+          "period": "2026-08-25 company announcement",
+          "unit": "project construction milestone",
+          "value": "construction commenced"
+        }
+      ],
+      "publish_time": "2026-08-25T12:34:41+00:00",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "excerpt": "GoGold Resources官方账号原帖宣布启动“Fully-Funded Los Ricos South Mine”建设。",
+      "interpretation": "这是矿业公司官方账号的原作者帖子，指向Los Ricos South从准备阶段进入建设阶段。原帖没有披露施工进度、处理能力或投产日期，不能把开工写成已经增加的白银产量。",
+      "importance": "8月25日宣布开工，使Los Ricos South从融资完成后的准备阶段进入现场建设，未来白银供给路径更清晰。帖子未披露施工进度、产能或投产日期，短期供给仍未增加，需跟踪选厂、矿山建设和投产节点。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/gold-fields-flags-ghana-licence-risk-as-half-year-profit-surges/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gold Fields的Tarkwa矿山租约将于2027年4月到期，公司自2025年11月提交续期申请后仍未收到正式回应。",
+          "evidence": "Mining.com页面直接显示Reuters报道、2026年8月25日日期、租约到期日和续期申请状态。",
+          "source_url": "https://www.mining.com/web/gold-fields-flags-ghana-licence-risk-as-half-year-profit-surges/",
+          "evidence_type": "Reuters report on company and regulator statements",
+          "period": "2025-11 application; leases expire April 2027",
+          "unit": "calendar date; licence status",
+          "value": "pending renewal"
+        },
+        {
+          "claim": "Tarkwa在2026年上半年产金192,000盎司，约占Gold Fields集团同期产量15%；集团同期产量为1.267 million ounces，同比增加12%，全年指引为2.4–2.6 million ounces。",
+          "evidence": "Mining.com页面直接披露Tarkwa产量占比、集团上半年产量、同比变化和全年指引。",
+          "source_url": "https://www.mining.com/web/gold-fields-flags-ghana-licence-risk-as-half-year-profit-surges/",
+          "evidence_type": "Reuters report of company half-year results",
+          "period": "H1 2026; full-year 2026 guidance",
+          "unit": "troy ounces; percent; ounces",
+          "value": "192000; 15%; 1267000; +12%; 2.4–2.6 million"
+        }
+      ],
+      "publish_time": "2026-08-25",
+      "source": "MINING.COM",
+      "title": "Gold Fields加纳Tarkwa租约续期存在不确定性",
+      "excerpt": "Reuters报道，Gold Fields在加纳Tarkwa矿山的租约将于2027年4月到期，公司自2025年11月提交续期申请后仍未收到正式回应。Tarkwa 2026年上半年产金192,000盎司，约占集团同期产量15%；集团上半年产量为126.7万盎司，同比增加12%，全年指引维持240万至260万盎司。",
+      "language": "en",
+      "interpretation": "租约续期是未来矿山可持续运营的许可条件，报道没有称Tarkwa已停产，也没有把不确定性计入已确认减产。集团仍维持全年产量指引，说明当前事实是资产许可风险与正常生产并存；续牌条款、开发计划审查和法律路径决定后续供给影响。",
+      "importance": "Tarkwa租约将于2027年4月到期，许可结果可能把集团约15%的上半年产量置于续期条件之下，影响窗口从当前估值延伸到明年。公司仍维持全年240万至260万盎司指引，说明目前尚未形成已确认减产；后续续牌条款和开发计划审批将决定风险是否转化为供给缺口。",
+      "verification_status": "verified",
+      "companies": [
+        "Gold Fields"
+      ],
+      "projects": [
+        "Tarkwa"
+      ],
+      "mining_com_source_note": "Mining.com黄金分类页Playwright DOM主路径发现；同一Playwright会话打开文章并返回HTTP 200，核对Reuters署名、2026-08-25日期、Tarkwa租约、192,000盎司和集团指引。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/codelco-pucobre-formalize-copper-project-targeting-2030-start-up/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Codelco与Pucobre正式成立合资企业开发智利北部Tovaku铜项目，Pucobre持股60%、Codelco持股40%，目标2030年投产。",
+          "evidence": "Mining.com页面直接显示Reuters报道、2026年8月25日日期、合资比例和投产目标。",
+          "source_url": "https://www.mining.com/web/codelco-pucobre-formalize-copper-project-targeting-2030-start-up/",
+          "evidence_type": "Reuters report of Codelco announcement",
+          "period": "2026-08-25 announcement; 2030 target",
+          "unit": "ownership; calendar year",
+          "value": "Pucobre 60%; Codelco 40%; 2030"
+        },
+        {
+          "claim": "Tovaku预计需要8.7亿美元投资，年产46,000公吨阴极铜；Pucobre已投资3,500万美元。",
+          "evidence": "Mining.com页面直接披露项目投资、年产目标和既有投入。",
+          "source_url": "https://www.mining.com/web/codelco-pucobre-formalize-copper-project-targeting-2030-start-up/",
+          "evidence_type": "Reuters report of company project details",
+          "period": "2030 target production",
+          "unit": "USD; metric tonnes cathode copper per year",
+          "value": "870 million; 46000; 35 million invested"
+        }
+      ],
+      "publish_time": "2026-08-25",
+      "source": "MINING.COM",
+      "title": "Codelco与Pucobre成立Tovaku铜项目合资企业，目标2030年投产",
+      "excerpt": "Reuters报道，Codelco已与Pucobre正式成立合资企业开发智利北部Tovaku铜项目，Pucobre持股60%、Codelco持股40%。项目预计需要8.7亿美元投资，目标2030年投产，年产46,000公吨阴极铜；Pucobre已投入3,500万美元。",
+      "language": "en",
+      "interpretation": "这是项目开发和合资结构的供给管线里程碑，不是当前矿山或冶炼产量。报道给出的是目标产能和资本需求，后续建设、许可、融资和投产爬坡仍可能改变兑现时间。",
+      "importance": "2030年目标年产4.6万吨阴极铜，使Tovaku成为智利中期新增供给管线；合资和8.7亿美元投资安排把项目从合作意向推进到开发执行。产量仍取决于后续建设、许可和投资兑现，不能提前计入当前精矿或阴极铜供应。",
+      "verification_status": "verified",
+      "companies": [
+        "Codelco",
+        "Pucobre"
+      ],
+      "projects": [
+        "Tovaku"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章并返回HTTP 200，核对Reuters署名、2026-08-25日期、合资比例、投资额和年产目标。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/copper-price-sets-fresh-record-as-us-tariff-threat-wipes-out-global-surplus/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "美国关税预期推动铜跨大西洋搬运：LME仓单库存一周增加74.5%，随后出现51,400公吨注销订单，近几日已有约65,400公吨标记待离库；Comex库存升至675,185公吨。",
+          "evidence": "Mining.com文章直接核对Reuters事实、库存数字和报告日。",
+          "source_url": "https://www.mining.com/copper-price-sets-fresh-record-as-us-tariff-threat-wipes-out-global-surplus/",
+          "evidence_type": "Reuters/Mining.com physical inventory report",
+          "period": "week ending 2026-08-25; recent warehouse movements",
+          "unit": "percent; metric tonnes",
+          "value": "+74.5%; 51400; 65400; 675185"
+        },
+        {
+          "claim": "美国2026年上半年进口精炼铜885,000公吨，同比增加3%；CRU原先预计2026年全球过剩639,000公吨，现判断市场至多实现平衡。",
+          "evidence": "Mining.com文章直接披露美国进口、同比变化和CRU供需判断。",
+          "source_url": "https://www.mining.com/copper-price-sets-fresh-record-as-us-tariff-threat-wipes-out-global-surplus/",
+          "evidence_type": "Reuters report citing CRU and market data",
+          "period": "H1 2026; full-year 2026 forecast",
+          "unit": "metric tonnes; percent; forecast balance",
+          "value": "885000; +3%; 639000 surplus -> at best balanced"
+        }
+      ],
+      "publish_time": "2026-08-25",
+      "source": "MINING.COM",
+      "title": "关税预期推动铜库存跨区域迁移，全球过剩预期趋于平衡",
+      "excerpt": "Reuters报道，关税预期推动精炼铜流向美国：LME仓单库存一周增加74.5%，随后出现51,400公吨注销订单，近几日约65,400公吨标记待离库；Comex库存升至675,185公吨。美国2026年上半年进口精炼铜885,000公吨，同比增加3%；CRU把原先预计的2026年639,000公吨全球过剩下调为市场至多平衡。",
+      "language": "en",
+      "interpretation": "这条报道同时包含实物流向、区域库存和供需预测，不是单纯价格复述。美国进口和Comex累库吸收了可交付金属，LME库存向美国转移可能收紧其他地区的现货可得性；CRU的预测变化仍是估计，关税政策和库存消化速度会影响最终平衡。",
+      "importance": "库存迁移说明关税预期正在改变铜的地域可得性：美国进口和Comex囤积吸收金属，LME库存虽一度回升，随后又出现6.54万吨待注销量。CRU把2026年原本63.9万吨过剩下调为“至多平衡”，短期压力集中在美国以外市场；后续关税落地与库存消化速度是关键验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "CRU",
+        "Southern Copper"
+      ],
+      "projects": [],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章并返回HTTP 200，核对Reuters/CRU归属、2026-08-25日期、LME/Comex库存、美国进口和预测口径。",
+      "source_channel": "playwright"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily节目列表：https://www.miningstockdaily.com/episodes；检查窗口内8月23日至25日节目标题、日期和标签。",
+      "Mining Stock Daily 2026-08-25节目：https://www.miningstockdaily.com/episodes/morning-briefing-drill-results-from-andina-q2-1911-and-american-eagle；页面HTTP 200，日期、全文和新闻稿链接可读，核对Andina Copper钻探事实。",
+      "Mining Stock Daily 2026-08-24 Agnico节目：https://www.miningstockdaily.com/episodes/morning-briefing-agnico-places-a-c57m-strategic-investment-into-radisson-mining；与2026-08-24日报Part 3事件重复，排除。",
+      "Resource Talks：https://resourcetalks.com/；8月24日Crossroads Gold和BP Silver采访已在2026-08-24日报使用，8月25日最新相关页面为稀土/锂，不属于金银铜合格新访谈。",
+      "The Northern Miner及YouTube、PDAC、Denver Gold Forum、Precious Metals Summit、Mining Indaba、Diggers & Dealers等会议入口按日和窗口检查，未发现新的可核验且不重复金银铜访谈。",
+      "Sprott Insights及部分会议页面受限或无窗口内新内容；未将搜索摘要、无法读取的页面或窗口外材料作为证据。"
+    ],
+    "part1_result": "Part 1完成2026-08-23至2026-08-25北京时间72小时Podcast、Webcast、YouTube、访谈和会议入口检索；纳入1条Mining Stock Daily可直接读取的8月25日铜矿勘探广播，8月24日重复节目、窗口外页面和非目标矿种材料排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe scripts/daily_pipeline.py 2026-08-25 --collect-x；内部调用当前 scripts/x_search.py。",
+      "运行 scripts/x_search.py --check-login --headless，持久化Playwright会话认证通过。",
+      "Playwright按注册表顺序完成52/53账号；@duediligenceguy一个账号出现普通正文提取失败，未完成账号按顺序交给twscrape，最终覆盖审计为53/53。",
+      "原始候选保存至x_outputs/2026-08-25_x_raw_materials.txt和x_outputs/2026-08-25_x_raw_materials.json，共16条；逐条保留作者、handle、正文、发布时间和原帖URL。",
+      "入选X原帖：https://x.com/soarfinancial/status/2092273688012116223；官方交叉核验：https://troilusmining.com/news-and-media/news-releases/troilus-selects-metso-for-major-process-equipment-as-project-advances-towards-construction。",
+      "入选X原帖：https://x.com/GoGoldResources/status/2092229175776027133；帖子为GoGold官方账号原作者公告。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成52/53，twscrape完成剩余1/53，最终53/53账号完成；尝试通道为Playwright -> twscrape，获取16条原始候选，纳入1条Troilus铜金项目设备采购信号和1条GoGold白银项目开工信号。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+      ],
+      "notes": [
+        "Playwright完成52/53；普通账号级提取失败的未完成账号交给twscrape，最终完成53/53。",
+        "raw materials和JSON sidecar均按2026-08-25日期保留；候选16条，纳入2条。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：https://www.mining.com/commodity/copper/；指定Python 3.13.12 + Chromium headless +反检测参数，HTTP 200，报告日文章14篇。",
+      "Mining.com黄金分类页辅助抓取：https://www.mining.com/commodity/gold/；HTTP 200，报告日文章14篇。",
+      "Mining.com白银分类页辅助抓取：https://www.mining.com/commodity/silver/；HTTP 200，报告日文章13篇；跨分类页重复URL按规范化URL去重。",
+      "Gold Fields文章：https://www.mining.com/web/gold-fields-flags-ghana-licence-risk-as-half-year-profit-surges/；同一Playwright会话HTTP 200，核对Reuters署名、日期、Tarkwa租约和产量数字。",
+      "Codelco/Pucobre文章：https://www.mining.com/web/codelco-pucobre-formalize-copper-project-targeting-2030-start-up/；同一Playwright会话HTTP 200，核对Reuters署名、日期、合资比例、投资和年产目标。",
+      "铜库存与CRU文章：https://www.mining.com/copper-price-sets-fresh-record-as-us-tariff-threat-wipes-out-global-surplus/；同一Playwright会话HTTP 200，核对库存、美国进口和CRU预测，因包含实体库存与供需变化而非单纯价格复述，纳入。",
+      "Goldgroup和Lion One赞助页面同一Playwright会话打开并核对原始公告日期分别为2026-08-17和2026-08-20，前者超窗、后者已在前日报按窗口外事件排除。",
+      "Google备用查询：site:mining.com gold/silver/copper August 25 2026；同一Chromium会话HTTP 200但均返回unusual-traffic验证页，可用结果数0，未使用搜索摘要作为证据。",
+      "中文检索：百度结果页受限；360搜索执行2026年8月25日金矿、银矿、铜矿和铜精矿供需查询，结果主要为旧资料、价格/宏观内容或非目标矿种；SMM铜页https://hq.smm.cn/copper、数据页https://hq.smm.cn/h5/copper-ore-data和https://www.smm.cn/均HTTP 200检查，未发现报告日新的合格金银铜实体事件。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-25全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site备用查询、候选逐篇核验和跨来源去重；纳入3条新闻：黄金1条、铜2条；白银未发现新的可核验新闻。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200、报告日14篇；金、银分类页分别14篇和13篇。入选3篇均由同一Playwright会话打开并返回HTTP 200，逐篇核对标题、日期、主体和核心数字；Google site查询因unusual-traffic无可用结果。",
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1广播、2条X原帖、Troilus官方交叉来源和3条Part 3新闻来源均已直接打开或由Playwright采集并核对标题/作者、日期、主体和核心事实。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/gold-stocks/gold-project-near-fosterville-but-can-they-deliver-economic-grades/",
+      "https://resourcetalks.com/silver-stocks/high-grade-silver-discovery-in-bolivia-but-is-there-enough-scale/",
+      "https://www.miningstockdaily.com/episodes/morning-briefing-agnico-places-a-c57m-strategic-investment-into-radisson-mining"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/peter_krauth/status/2091959449217114328"
+    ],
+    "part3_deduped_events": [
+      "Goldgroup Don David原始公告为2026-08-17，Mining.com赞助页面未形成2026-08-25窗口内的新事件；Lion One原始公告为2026-08-20，已在前日报按窗口外事件排除。",
+      "同一Mining.com候选在铜、金、银分类页重复出现，按规范化URL和事件统一去重。",
+      "Silver47与Bunker Hill拟合并事件已在2026-08-21日报收录，未因本日X评论重复纳入。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；钻探、项目目标、设备采购、开工、库存和公司指引按来源口径区分，未把勘探或目标产量写成已实现产量。"
+  }
+}

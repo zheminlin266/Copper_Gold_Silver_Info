@@ -1,0 +1,223 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-25",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-b0a15987008ecf54a1fc9b87",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-25T14:42:48+00:00",
+      "text": "Market Call: Rick Rule's outlook on Natural Resource Stocks (Aug. 24, 2026) \nhttps://\nyoutu.be/qzleV7xoR20?si\n=IUrCFHka0_OyD-QF\n… via \n@YouTube\n 08-24-2024 BNN market call, with frequent interruptions from some guy named \" Carney\".",
+      "url": "https://x.com/RealRickRule/status/2092261417294631021",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fd04b565f540c493b952e3d1",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-24T19:38:26+00:00",
+      "text": "You don't need to sell your gold, merely t5ransfer it",
+      "url": "https://x.com/RealRickRule/status/2091973428245090600",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-763ffa6d2626cd1f70a7c696",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-24T20:01:20+00:00",
+      "text": "so 2 provinces (Alberta and Saskatchewan) supply 93% of Canada's Oil exports to the USA?",
+      "url": "https://x.com/KatusaResearch/status/2091979189029310635",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7ef4b848b4cc8648cbe06deb",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-24T17:52:59+00:00",
+      "text": "More gold charts here:\n\n\nhttps://\nkatusaresearch.com/market-data",
+      "url": "https://x.com/KatusaResearch/status/2091946888220324332",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-58772f4b506ed45a1e1e1be1",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-08-24T22:26:23+00:00",
+      "text": "That net cash position has important implications. There's a limit to how much stock you can buy back and the dividends you can pay out.\n\nAt some point — coming up quickly now — they're going to start scooping up juniors to fill the production pipeline.",
+      "url": "https://x.com/Brien_Lundin/status/2092015693507993915",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3eb478acfeb4a8d6cd7939a6",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-08-24T18:35:02+00:00",
+      "text": "More thoughts on this rally in metals and mining...",
+      "url": "https://x.com/Brien_Lundin/status/2091957473166897397",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c66900f621c09478554ae05e",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-24T19:44:13+00:00",
+      "text": "Agree, JRB- this time is different, and the run to gold, which began some time ago, might be in the jog phase right now.  Once the all-out sprint begins, anything PM-related (think stocks) will be in high demand.",
+      "url": "https://x.com/silverguru22/status/2091974880300560550",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a37f67440281a1f6659a166e",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-24T18:42:54+00:00",
+      "text": "Silver47 \n@Silver47co\n shareholders are set to receive a 38% premium if the proposed merger with Bunker Hill closes.\n\nThat’s a great start.\n\nBut the real opportunity may be the combination: an operating mine, near-term cash flow and three exciting U.S. growth assets.\n\nI like this",
+      "url": "https://x.com/peter_krauth/status/2091959449217114328",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5988cf95ec142305507987a7",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-24T16:58:34+00:00",
+      "text": "Stamp mill. Kind of a coarse grinder...",
+      "url": "https://x.com/duediligenceguy/status/2091933196355047497",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-506415332715a03b1d4d73cb",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-25T00:31:36+00:00",
+      "text": "Amazes me that no one is mentioning this as a solution.\n\nWant to restore confidence in the Treasury market?\n\nPut something real behind it.\n\nAnnounce a massive gold-purchase program.\n\nThis would be a far better use of taxpayer dollars than another QE policy dressed up under a",
+      "url": "https://x.com/TaviCosta/status/2092047203204485277",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-158395b902a6286a74457b35",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-25T14:24:00+00:00",
+      "text": "In the second quarter, all five of the largest royalty and streaming companies increased or extended their credit lines.\n\nNot one or two of them. All five, in the same three months.\n\nThese are the firms that quietly fund new mine construction, and nobody raises capacity for deals",
+      "url": "https://x.com/RonStoeferle/status/2092256683976204614",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7a62b3e7e3027483a4d614ae",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-25T12:11:41+00:00",
+      "text": "Mining Biz News: \n\n· FMG ($55B) - Fortescue appointed Sigrid Kaag as director",
+      "url": "https://x.com/wmiddelkoop/status/2092223384931213405",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ea984a44a791b2b7f4d045d1",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-25T11:47:06+00:00",
+      "text": "Uranium 'Supply Can't Keep Up'",
+      "url": "https://x.com/wmiddelkoop/status/2092217199846998478",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-248e86bff6a46a57edf5d067",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-08-25T15:31:34+00:00",
+      "text": "Troilus (\n$TLG\n) continues to move closer to construction.\n\nThe company has selected Metso for its first major process equipment package at the Troilus copper-gold project, covering crushers, HPGRs, ball mills, screens and feeders.\n\nMetso is already being integrated into detailed",
+      "url": "https://x.com/soarfinancial/status/2092273688012116223",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-46ad4eb615465fe5a560d6db",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-08-25T14:20:54+00:00",
+      "text": "We are excited to kick off the 2026 Living Our Values Awards (LOVA) winners’ bios! Over the next four weeks, we will profile our eight global winners to share their stories, detailing how they live our values each day both at work and in their communities.\nThis week, we meet our",
+      "url": "https://x.com/kinrossgold/status/2092255904376734120",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-54412c750bfe2ec448eb077b",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-08-25T12:34:41+00:00",
+      "text": "$GGD $GLGDF\n\nGoGold Commences Construction of the Fully-Funded Los Ricos South Mine \n\n\nhttps://\nmailchi.mp/gogoldresource\ns/20260825\n…",
+      "url": "https://x.com/GoGoldResources/status/2092229175776027133",
+      "collector": "x_search",
+      "report_date": "2026-08-25",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+  }
+}

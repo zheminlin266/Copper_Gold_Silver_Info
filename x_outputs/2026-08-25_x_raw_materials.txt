@@ -1,0 +1,165 @@
+X 原始候选 — 2026-08-25
+采集时间: 2026-08-26T07:28:06.555875+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text
+失败账号: 无
+============================================================
+
+总计候选: 16 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-25T14:42:48+00:00
+    北京: 2026-08-25T22:42:48+08:00
+    文本: Market Call: Rick Rule's outlook on Natural Resource Stocks (Aug. 24, 2026) 
+https://
+youtu.be/qzleV7xoR20?si
+=IUrCFHka0_OyD-QF
+… via 
+@YouTube
+ 08-24-2024 BNN market call, with frequent interruptions from some guy named " Carney".
+    链接: https://x.com/RealRickRule/status/2092261417294631021
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-08-24T19:38:26+00:00
+    北京: 2026-08-25T03:38:26+08:00
+    文本: You don't need to sell your gold, merely t5ransfer it
+    链接: https://x.com/RealRickRule/status/2091973428245090600
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-24T20:01:20+00:00
+    北京: 2026-08-25T04:01:20+08:00
+    文本: so 2 provinces (Alberta and Saskatchewan) supply 93% of Canada's Oil exports to the USA?
+    链接: https://x.com/KatusaResearch/status/2091979189029310635
+
+[4] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-24T17:52:59+00:00
+    北京: 2026-08-25T01:52:59+08:00
+    文本: More gold charts here:
+
+
+https://
+katusaresearch.com/market-data
+    链接: https://x.com/KatusaResearch/status/2091946888220324332
+
+[5] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-24T22:26:23+00:00
+    北京: 2026-08-25T06:26:23+08:00
+    文本: That net cash position has important implications. There's a limit to how much stock you can buy back and the dividends you can pay out.
+
+At some point — coming up quickly now — they're going to start scooping up juniors to fill the production pipeline.
+    链接: https://x.com/Brien_Lundin/status/2092015693507993915
+
+[6] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-24T18:35:02+00:00
+    北京: 2026-08-25T02:35:02+08:00
+    文本: More thoughts on this rally in metals and mining...
+    链接: https://x.com/Brien_Lundin/status/2091957473166897397
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-08-24T19:44:13+00:00
+    北京: 2026-08-25T03:44:13+08:00
+    文本: Agree, JRB- this time is different, and the run to gold, which began some time ago, might be in the jog phase right now.  Once the all-out sprint begins, anything PM-related (think stocks) will be in high demand.
+    链接: https://x.com/silverguru22/status/2091974880300560550
+
+[8] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-24T18:42:54+00:00
+    北京: 2026-08-25T02:42:54+08:00
+    文本: Silver47 
+@Silver47co
+ shareholders are set to receive a 38% premium if the proposed merger with Bunker Hill closes.
+
+That’s a great start.
+
+But the real opportunity may be the combination: an operating mine, near-term cash flow and three exciting U.S. growth assets.
+
+I like this
+    链接: https://x.com/peter_krauth/status/2091959449217114328
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-24T16:58:34+00:00
+    北京: 2026-08-25T00:58:34+08:00
+    文本: Stamp mill. Kind of a coarse grinder...
+    链接: https://x.com/duediligenceguy/status/2091933196355047497
+
+[10] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-25T00:31:36+00:00
+    北京: 2026-08-25T08:31:36+08:00
+    文本: Amazes me that no one is mentioning this as a solution.
+
+Want to restore confidence in the Treasury market?
+
+Put something real behind it.
+
+Announce a massive gold-purchase program.
+
+This would be a far better use of taxpayer dollars than another QE policy dressed up under a
+    链接: https://x.com/TaviCosta/status/2092047203204485277
+
+[11] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-25T14:24:00+00:00
+    北京: 2026-08-25T22:24:00+08:00
+    文本: In the second quarter, all five of the largest royalty and streaming companies increased or extended their credit lines.
+
+Not one or two of them. All five, in the same three months.
+
+These are the firms that quietly fund new mine construction, and nobody raises capacity for deals
+    链接: https://x.com/RonStoeferle/status/2092256683976204614
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-25T12:11:41+00:00
+    北京: 2026-08-25T20:11:41+08:00
+    文本: Mining Biz News: 
+
+· FMG ($55B) - Fortescue appointed Sigrid Kaag as director
+    链接: https://x.com/wmiddelkoop/status/2092223384931213405
+
+[13] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-25T11:47:06+00:00
+    北京: 2026-08-25T19:47:06+08:00
+    文本: Uranium 'Supply Can't Keep Up'
+    链接: https://x.com/wmiddelkoop/status/2092217199846998478
+
+[14] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-08-25T15:31:34+00:00
+    北京: 2026-08-25T23:31:34+08:00
+    文本: Troilus (
+$TLG
+) continues to move closer to construction.
+
+The company has selected Metso for its first major process equipment package at the Troilus copper-gold project, covering crushers, HPGRs, ball mills, screens and feeders.
+
+Metso is already being integrated into detailed
+    链接: https://x.com/soarfinancial/status/2092273688012116223
+
+[15] @KinrossGold (Kinross Gold)
+    UTC: 2026-08-25T14:20:54+00:00
+    北京: 2026-08-25T22:20:54+08:00
+    文本: We are excited to kick off the 2026 Living Our Values Awards (LOVA) winners’ bios! Over the next four weeks, we will profile our eight global winners to share their stories, detailing how they live our values each day both at work and in their communities.
+This week, we meet our
+    链接: https://x.com/kinrossgold/status/2092255904376734120
+
+[16] @GoGoldResources (GoGold Resources)
+    UTC: 2026-08-25T12:34:41+00:00
+    北京: 2026-08-25T20:34:41+08:00
+    文本: $GGD $GLGDF
+
+GoGold Commences Construction of the Fully-Funded Los Ricos South Mine 
+
+
+https://
+mailchi.mp/gogoldresource
+s/20260825
+…
+    链接: https://x.com/GoGoldResources/status/2092229175776027133
+
