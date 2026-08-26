@@ -1,0 +1,281 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-26",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "twscrape",
+      "error": "twscrape is not installed"
+    }
+  ],
+  "accounts_total": 53,
+  "accounts_completed": 52,
+  "accounts_failed": 1,
+  "channel_completed_accounts": {
+    "playwright": 52
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-25e95ea0708275ba55808446",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-25T22:08:27+00:00",
+      "text": "Copper is nowhere near overheated and could really go for a run",
+      "url": "https://x.com/KatusaResearch/status/2092373566927085896",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a4a0516f155daf133e8d353a",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-25T17:54:56+00:00",
+      "text": "$7 copper is on the horizon\n\nAnd not too far away considering",
+      "url": "https://x.com/KatusaResearch/status/2092309768815911149",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4154df12c8447450571ff3ba",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-25T21:03:07+00:00",
+      "text": "9) Thank you for reading!\n\nKindly like and retweet if you think someone else would get value from this thread. \n\nWant to discover high-quality junior gold and silver stocks with the potential to deliver 5x–10x returns?",
+      "url": "https://x.com/TheDailyGold/status/2092357124760146214",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2c39560f3cd37c2dff09083b",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-25T21:01:06+00:00",
+      "text": "8) Summary\n\nGold Stocks may be entering a new period of relative strength.\n\nGDX has broken out from a 13-year-long base against Gold signaling increasing capital flow into gold stocks.\n\nGDX against the MAG7 and Gold against the Nasdaq are the next two major sector breakouts to",
+      "url": "https://x.com/TheDailyGold/status/2092356618671346151",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-404826e82532cb83eedc6ec8",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-25T20:59:07+00:00",
+      "text": "7) Gold Implied Allocation \n\nExcellent chart from \n@Callum_Thomas\n \n@topdowncharts\n \n(You should subscribe to his service.) \n\nIt plots the assets in all Gold ETFs against all ETF assets.\n\nThis is an outstanding sentiment indicator as it is based on real money and compares Gold",
+      "url": "https://x.com/TheDailyGold/status/2092356118223679664",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6000c25ba943841c95dec37a",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-25T20:57:09+00:00",
+      "text": "6) Gold Best Fit Analog\n\nHere we plot the rebounds from historical \"post-breakout\" corrections on the current scale.\n\nThe best fit has been a composite of 75% of the 1972 breakout and 25% of the 2005 breakout delayed by 6.5 months.\n\nIt's unlikely Gold will follow the moonshot",
+      "url": "https://x.com/TheDailyGold/status/2092355622003978587",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5a988bf2241041a35fc2293d",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-08-25T20:55:07+00:00",
+      "text": "5) Gold vs. Nasdaq\n\nAs far as big picture macro and precious metals, Gold against the Nasdaq could be the most significant potential breakout to watch.\n\nGold is trading within a 10-year-long base against the Nasdaq and there is work to do for it test major resistance. \n\nThe",
+      "url": "https://x.com/TheDailyGold/status/2092355113520074897",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f69a502cf2c9c4da7bbc0d29",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-25T17:50:15+00:00",
+      "text": "Only Buying Gold / Silver ETFs? It May Be Time to Expand Your Trading Toolkit with DLCs - \nhttps://\ngoo.gl/alerts/Fs3Ekn #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092308590061387879",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-03c67de46bba586aea7176c5",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-25T17:49:46+00:00",
+      "text": "Silver Price to Double Following First Half Slump | \nhttps://\nInvesting.com - \nhttps://\ngoo.gl/alerts/bXMxN2 #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092308469479329927",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8d98cac5f79f2cea5562dab0",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-25T17:49:17+00:00",
+      "text": "Gold, silver rally off ugly crash, but investors remain on edge - \nhttps://\nAOL.com - \nhttps://\ngoo.gl/alerts/4v9dWX #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092308344988209608",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f204d686de7b825c580f3733",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-25T17:48:27+00:00",
+      "text": "Don't Overlook Silver's Potential Amid the New Gold Rally - ETF Database - \nhttps://\ngoo.gl/alerts/XAGciw #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092308138058027355",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2a532d243776a53e20903d12",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-26T15:06:43+00:00",
+      "text": "Last week I said silver stocks had likely begun a new bull cycle. They’re already moving higher on Treasury bond-market interventions.\n\nYield Curve Control means more inflation.\n\nPlus: 7 portfolio updates covering high-grade hits, financings and M&A.\n\nThe crowd is catching on:",
+      "url": "https://x.com/peter_krauth/status/2092629824200478775",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f2e978638d11436e78ec7768",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-25T20:42:22+00:00",
+      "text": "It's the start of construction for \n@GoGoldResources\n Los Ricos South #silver mine.\n\n\n@TedJButler\n explains what this means for investors...",
+      "url": "https://x.com/peter_krauth/status/2092351901547274329",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-08f1bb2648b722c0206ff80c",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-25T18:19:52+00:00",
+      "text": "Most silver developers spend years talking about building a mine. \n@GoGoldResources\n  just broke ground.\n\nLos Ricos South is fully funded, backed by US$284M in cash and zero debt. Once running, it’s expected to average 7.3 Moz AgEq annually over its first five years—more than 4X",
+      "url": "https://x.com/peter_krauth/status/2092316043796750428",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2d9732d3129c4012757d5f74",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-26T08:24:05+00:00",
+      "text": "It'll be interesting to see what Trump actually does on copper tariffs...",
+      "url": "https://x.com/duediligenceguy/status/2092528494542565638",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-823a3c23692a9734ad1112ed",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-26T07:03:05+00:00",
+      "text": "Still one of my favourite paragraphs from #IGWT26:\n\n\"Michael Weeks sums up the case for gold – and in doing so, turns the usual valuation logic on its head: The value of the precious metal lies not in what it promises but in what it spares its owners. His via negativa approach is",
+      "url": "https://x.com/RonStoeferle/status/2092508113014337863",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c98d3aeb225e2d2493ce7b5f",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-25T17:00:03+00:00",
+      "text": "11/ Slow variables don't make headlines.\n\nThey make regimes.\n\n \nhttps://\nsas.upenn.edu/~jesusfv/Demog\nraphics.pdf\n…\n\nIn Gold We Trust. \n\n#Gold #Demographics #Inflation",
+      "url": "https://x.com/RonStoeferle/status/2092295956091826519",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-aded413b201bbb0a8d996a16",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-25T17:00:03+00:00",
+      "text": "10/ Slow variables don't make headlines.\n\nThey make regimes.\n\n \nhttps://\nsas.upenn.edu/~jesusfv/Demog\nraphics.pdf\n…\n\nIn Gold We Trust. \n\n#Gold #Demographics #Inflation",
+      "url": "https://x.com/RonStoeferle/status/2092295954737340737",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-cff08ca578140585fcf63074",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-08-26T15:27:19+00:00",
+      "text": "Over the past year, copper is up ~50%  more than 2.5x the S&P 500’s ~19% return.\n\nThe move reflects growing recognition of copper’s critical role in electrification, renewable energy and the infrastructure needed to power the global economy.\n\nKamoa-Kakula is positioned to be an",
+      "url": "https://x.com/IvanhoeMines_/status/2092635005768110568",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c42b633a8796b65ca6a4ffe1",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-08-26T13:45:50+00:00",
+      "text": "$GGD $GLGDF\n\nResource Talks: GoGold Resources CEO Interview",
+      "url": "https://x.com/GoGoldResources/status/2092609469297385610",
+      "collector": "x_search",
+      "report_date": "2026-08-26",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+  }
+}

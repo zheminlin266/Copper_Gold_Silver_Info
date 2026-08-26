@@ -1,0 +1,331 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-26",
+  "report_time": "2026-08-27T07:47:06+08:00",
+  "summary": "黄金：ETF上周增持超过28吨，投资需求出现边际改善。白银：本窗口未发现新的可核验实体供需变化。铜：矿山扰动与出口基础设施信息并存，短期可交付供应仍偏紧，长期运输与提取能力有望改善。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-24T00:00:00+08:00",
+      "end": "2026-08-26T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-26T00:00:00+08:00",
+      "end": "2026-08-26T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-26T00:00:00+08:00",
+      "end": "2026-08-26T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-vizsla-copper-hits-long-high-grade-copper-intersection-at-woodjam",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Vizsla Copper钻孔DH26-136在Deerhorn见矿266.0米、0.97%铜，含48.5米、3.32%铜并伴生金银。",
+          "evidence": "Mining Stock Daily 8月26日节目文字稿报道该钻孔；Vizsla Copper同日官方公告直接核对孔号、区间和品位。",
+          "source_url": "https://vizslacopper.com/news-releases/vizsla-copper-drills-48.5-meters-of-3.32-copper-within-266.0-meters-of-0.97-copper-at-the-deerhorn-deposit-woodjam-project/",
+          "evidence_type": "official company news release cross-checked with direct podcast transcript",
+          "period": "2026-08-26 summer 2026 drill program",
+          "unit": "metres; copper grade; gold and silver grade",
+          "value": "266.0 at 0.97% Cu; 48.5 at 3.32% Cu; 0.23 g/t Au; 16.59 g/t Ag"
+        }
+      ],
+      "publish_date": "2026-08-26",
+      "title": "Morning Briefing：Vizsla Copper公布Woodjam Deerhorn长区间铜金银钻探结果",
+      "source_type": "podcast",
+      "summary": "Mining Stock Daily 8月26日节目转述，Vizsla Copper在Woodjam项目Deerhorn矿床钻孔DH26-136见矿266.0米、0.97%铜，其中107.7米为2.01%铜，48.5米高品位核心为3.32%铜、0.23克/吨金和16.59克/吨银；矿化位于历史模型下方约100米并向多方向开放。",
+      "detail": "节目页面可直接读取标题、2026年8月26日日期和完整文字稿；Vizsla Copper同日官方公告进一步核对了孔号、区间、品位、历史估算口径和后续重测建模安排。该信息来自勘探钻孔，历史估算不等于当前资源量、储量或矿山产量。",
+      "importance": "该结果把Deerhorn从历史模型内的靶区推进到新的高品位连续性验证阶段，且矿化位于模型下方约100米并向多方向开放，未来资源扩展空间比单一浅部截获更明确。影响属于中长期铜供给管线，尚不能计入资源量、储量或产量；后续重测、三维建模、钻探连续性和冶金结果决定可采规模。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Vizsla Copper"
+      ],
+      "projects": [
+        "Woodjam",
+        "Deerhorn"
+      ]
+    },
+    {
+      "url": "https://www.northernminer.com/news/podcast-reuters-andy-home-on-declining-copper-and-aluminum-inventories-on-the-lme/1003894274/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "Andy Home在8月26日播客中讨论铜市场近期波动、交易所非俄罗斯库存偏低及关键矿产角色变化。",
+          "evidence": "The Northern Miner播客页面直接显示发布日期、嘉宾身份和节目简介。",
+          "source_url": "https://www.northernminer.com/news/podcast-reuters-andy-home-on-declining-copper-and-aluminum-inventories-on-the-lme/1003894274/",
+          "evidence_type": "direct podcast page synopsis",
+          "period": "2026-08-26 podcast",
+          "unit": "market discussion",
+          "value": null
+        }
+      ],
+      "publish_date": "2026-08-26",
+      "title": "The Northern Miner播客：Reuters Andy Home讨论LME铜库存与市场波动",
+      "source_type": "podcast",
+      "summary": "《The Northern Miner》8月26日播客邀请Reuters资深金属专栏作者Andy Home，讨论铜、铝近期波动、交易所非俄罗斯库存偏低及关键矿产在产业链中的角色变化。",
+      "detail": "页面为可打开的播客简介，明确记录嘉宾、主持人、发布日期和讨论范围，但没有给出具体库存吨位或新的产量数据；本卡只总结页面可确认的库存结构和市场机制，不把观点写成已实现供需变化。",
+      "importance": "8月26日访谈把铜的短期波动落到交易所可交割库存和区域供应结构，非俄罗斯库存偏低会放大现货紧张对期限价差的传导。页面未提供库存吨位或新的产量数据，判断属于研究者观点，后续库存、现货升贴水和冶炼供应数据仍需验证。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Andy Home",
+        "background": "Reuters senior metals columnist"
+      },
+      "companies": [
+        "Reuters"
+      ],
+      "projects": []
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/gold-price-retreats-from-three-month-high-as-inflation-us-gauge-runs-warm/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "金条支持型ETF上周增持超过28吨，为1月以来最高。",
+          "evidence": "Mining.com文章正文直接披露ETF持仓变化及时间比较。",
+          "source_url": "https://www.mining.com/gold-price-retreats-from-three-month-high-as-inflation-us-gauge-runs-warm/",
+          "evidence_type": "direct Mining.com market report",
+          "period": "week before 2026-08-26",
+          "unit": "tonnes of gold ETF holdings",
+          "value": ">28"
+        }
+      ],
+      "publish_time": "2026-08-26",
+      "source": "MINING.COM",
+      "title": "黄金ETF上周增持超过28吨，投资需求出现边际改善",
+      "excerpt": "Mining.com报道，金条支持型ETF上周增持超过28吨，为1月以来最高；报道同时指出，黄金在8月上涨后于8月26日回落。",
+      "language": "en",
+      "interpretation": "ETF持仓增加是可归因的投资需求变化，区别于单纯价格涨跌。报道没有拆分地区、产品或资金流口径，不能把超过28吨外推为全市场净流入。",
+      "importance": "上周贵金属ETF持仓增加超过28吨且为1月以来最高，说明本轮黄金上涨已有较强的投资需求承接，需求端的边际变化比单日价格更具信息量。该信号属于短期投资需求，不等同珠宝或央行购买；后续ETF持仓能否延续以及实际利率变化将决定需求是否转为持续性。",
+      "verification_status": "verified",
+      "companies": [],
+      "projects": [],
+      "mining_com_source_note": "Mining.com黄金分类页Playwright主路径发现；普通HTTP请求受限，随后在同一Playwright会话打开文章并返回HTTP 200，核对2026年8月26日日期、ETF持仓增加超过28吨及1月以来最高的表述。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/mota-engil-wins-congo-rail-concession-linked-to-us-backed-angola-corridor/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mota-Engil获得刚果铁路30年特许经营权，铁路长1,037公里，预计总投资18亿美元并连接铜带至Lobito港。",
+          "evidence": "Mining.com页面直接显示Reuters报道、日期、特许经营期限、线路长度、投资额和出口路线。",
+          "source_url": "https://www.mining.com/web/mota-engil-wins-congo-rail-concession-linked-to-us-backed-angola-corridor/",
+          "evidence_type": "Reuters report on company statement",
+          "period": "2026-08-26 announcement; 30-year concession",
+          "unit": "years; kilometres; USD",
+          "value": "30; 1037; 1.8 billion"
+        }
+      ],
+      "publish_time": "2026-08-26",
+      "source": "MINING.COM",
+      "title": "刚果铜带铁路特许经营接入安哥拉Lobito走廊",
+      "excerpt": "Reuters报道，Mota-Engil获得刚果（金）一条铁路30年特许经营权，将现代化并运营连接铜钴矿区与安哥拉Lobito走廊的1,037公里铁路；特许经营期总投资预计18亿美元，铁路预计每年最多处理1,370万吨货运。",
+      "language": "en",
+      "interpretation": "铁路连接Lualaba和Haut-Katanga等铜带与大西洋出口市场，改善的是精矿和其他关键矿产的运输条件，不是已经增加的矿山产量。货运能力是上限，施工、运营和矿山实际接入仍是兑现前提。",
+      "importance": "这条1,037公里铁路将刚果铜带接入Lobito大西洋通道，若按每年1,370万吨货运上限运行，可能缓解精矿外运和出口市场切换的基础设施约束。它是中长期运输供给条件，不是新增矿山产量；30年特许经营、18亿美元投资、升级进度和实际矿山接入仍决定铜流量何时兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Mota-Engil"
+      ],
+      "projects": [
+        "Lobito Corridor"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；普通HTTP请求返回403，随后同一Playwright会话打开文章并返回HTTP 200，核对Reuters署名、8月26日日期、特许经营期限、铁路长度、投资额和货运能力。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/copper-price-notches-another-record-before-retreating-as-squeeze-eases/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "印尼、刚果（金）和智利矿山扰动使2026年上半年全球损失约338,000吨产量，CRU将2026年639,000吨过剩预期下调为至多平衡。",
+          "evidence": "Mining.com文章正文直接披露Project Blue归因的产量损失及CRU预测变化。",
+          "source_url": "https://www.mining.com/copper-price-notches-another-record-before-retreating-as-squeeze-eases/",
+          "evidence_type": "direct Mining.com report citing Project Blue and CRU",
+          "period": "H1 2026; full-year 2026 forecast",
+          "unit": "metric tonnes",
+          "value": "338000 loss; 639000 surplus -> at best balanced"
+        },
+        {
+          "claim": "COMEX库存超过675,000吨并连续46个交易日增加，LME仓库周一收到超过50,000吨提货申请。",
+          "evidence": "Mining.com文章正文直接披露交易所库存和提货申请。",
+          "source_url": "https://www.mining.com/copper-price-notches-another-record-before-retreating-as-squeeze-eases/",
+          "evidence_type": "direct Mining.com physical inventory report",
+          "period": "2026-08-26 market update",
+          "unit": "metric tonnes; consecutive days",
+          "value": ">675000; 46; >50000"
+        }
+      ],
+      "publish_time": "2026-08-26",
+      "source": "MINING.COM",
+      "title": "矿山扰动与区域库存错配令铜现货供应仍偏紧",
+      "excerpt": "Mining.com报道，印尼、刚果（金）和智利矿山扰动使2026年上半年全球损失约33.8万吨产量；CRU将原先预计的2026年63.9万吨全球过剩下调为至多平衡。与此同时，LME仓库周一收到超过5万吨提货申请，COMEX库存超过67.5万吨并连续46个交易日增加。",
+      "language": "en",
+      "interpretation": "矿山损失代表供给端实际扰动，LME提货与COMEX累库则显示关税预期推动金属区域迁移，库存增加并不等于全球消费增加。CRU的平衡判断属于咨询机构预测，关税政策、库存地点和矿山修复会改变最终结果。",
+      "importance": "8月26日的关键变化是全球供需预期与区域可得性同时收紧：上半年约33.8万吨矿山产量损失把CRU的2026年63.9万吨过剩预期压到至多平衡，而COMEX库存超过67.5万吨并连续46日增加，说明金属被美国吸收后其他地区现货仍可能偏紧。它更像区域错配与供应扰动信号，关税决定、库存去化和矿山修复将验证是否形成持续缺口。",
+      "verification_status": "verified",
+      "companies": [
+        "Project Blue",
+        "CRU",
+        "COMEX",
+        "LME"
+      ],
+      "projects": [],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；普通HTTP请求返回403，随后同一Playwright会话打开文章并返回HTTP 200，核对8月26日日期、矿山产量损失、CRU预测、LME提货申请和COMEX库存。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.energy.gov/cmei/articles/does-critical-materials-innovation-hub-awards-10-million-early-stage-research-and",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "美国能源部于2026年8月26日宣布向7个早期研发项目提供总额1000万美元的选择支持，项目涵盖铜提取和硫化铜浸出。",
+          "evidence": "DOE官方公告直接列出日期、项目数、金额和铜技术方向，并说明选择仍需授予谈判。",
+          "source_url": "https://www.energy.gov/cmei/articles/does-critical-materials-innovation-hub-awards-10-million-early-stage-research-and",
+          "evidence_type": "official U.S. Department of Energy press release",
+          "period": "2026-08-26 announcement; early-stage R&D",
+          "unit": "USD; projects",
+          "value": "10 million; 7"
+        }
+      ],
+      "publish_time": "2026-08-26",
+      "source": "U.S. Department of Energy",
+      "title": "美国能源部向铜提取与关键材料早期研发项目提供1000万美元选择支持",
+      "excerpt": "美国能源部Office of Critical Minerals and Energy Innovation宣布向7个早期研发项目提供1000万美元选择支持，其中Colorado School of Mines研究原生硫化铜的水法和生物水法提取，University of Arizona研究用纳米气泡、表面活性剂和活性氧强化硫化铜浸出。公告明确，项目仍需经过授予谈判，选择不等于最终拨款承诺。",
+      "language": "en",
+      "interpretation": "该政策通过提高原生硫化铜提取和浸出效率，形成从既有矿石到未来有效供给的技术传导路径，但不代表当前产量、回收率或项目经济性已经改善。最终资助金额、研发成果、中试放大和成本表现仍未确定。",
+      "importance": "这笔经费把美国铜供给政策从矿山投资延伸到原生硫化铜提取和浸出效率，若研发进入中试并降低回收或处理成本，长期可提高既有矿石和低品位资源的有效供给。当前只是7个项目的早期研究选择，1000万美元不等于已获资金或产量增量，成果放大、经济性和DOE最终谈判仍是主要不确定性。",
+      "verification_status": "verified",
+      "companies": [
+        "U.S. Department of Energy",
+        "Colorado School of Mines",
+        "University of Arizona"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily节目列表：https://www.miningstockdaily.com/episodes；检查8月24日至26日节目标题、日期和标签。",
+      "Mining Stock Daily 8月26日节目：https://www.miningstockdaily.com/episodes/morning-briefing-vizsla-copper-hits-long-high-grade-copper-intersection-at-woodjam；HTTP 200，完整文字稿直接核对Vizsla Copper钻孔事实。",
+      "Vizsla Copper官方公告：https://vizslacopper.com/news-releases/vizsla-copper-drills-48.5-meters-of-3.32-copper-within-266.0-meters-of-0.97-copper-at-the-deerhorn-deposit-woodjam-project/；HTTP 200，核对孔号、品位、历史估算和后续钻探。",
+      "The Northern Miner播客：https://www.northernminer.com/news/podcast-reuters-andy-home-on-declining-copper-and-aluminum-inventories-on-the-lme/1003894274/；HTTP 200，页面简介核对嘉宾、发布日期和库存讨论范围。",
+      "Mining Stock Daily 8月25日及8月24日节目：窗口内检查但与最近日报已有事件或本期其他来源重复，未重复收录。",
+      "Resource Talks首页及窗口内页面：https://resourcetalks.com/；8月24日Crossroads Gold、BP Silver页面已在最近日报使用，窗口内没有新的不重复合格访谈。",
+      "YouTube检索：gold/silver/copper mining interview August 26 2026；三组动态结果约20/21/21条，8月26日Radisson和CEO.CA Vizsla视频与既有事件重复，其余无可靠正文或超出窗口。",
+      "conference_calendar入口逐项检查：可访问会议入口未发现窗口内新合格访谈；PDAC/LME受限，CHINA MINING证书错误。",
+      "Sprott Insights返回HTTP 403，未把搜索摘要或受限页面作为证据。"
+    ],
+    "part1_result": "Part 1完成2026-08-24至2026-08-26北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检索。纳入Mining Stock Daily的Vizsla Copper钻探广播和The Northern Miner的Reuters Andy Home铜库存播客各1条；最近日报重复事件、缺少可靠正文的YouTube结果和受限页面未纳入。",
+    "part2_searched": false,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 python scripts/daily_pipeline.py 2026-08-26 --collect-x，内部调用当前 scripts/x_search.py。",
+      "Playwright使用已认证持久化会话按注册表顺序处理53个账号；52/53完成，@duediligenceguy有1条帖子文本提取失败。",
+      "按Playwright -> twscrape顺序将未完成账号交给twscrape；本机twscrape未安装，未增加其他X流量。",
+      "原始候选保存至x_outputs/2026-08-26_x_raw_materials.txt及x_outputs/2026-08-26_x_raw_materials.json，共20条；全部保留作者、handle、发布时间、正文和原帖URL。"
+    ],
+    "part2_result": "Part 2部分完成：Playwright完成52/53，@duediligenceguy账号级正文提取失败；按有序规则尝试twscrape，但本机未安装，最终未完成该账号。共保留20条原始候选，均未纳入信号；part2_searched=false。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 52,
+      "accounts_failed": 1,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+      ],
+      "notes": [
+        "Playwright完成52/53；twscrape按顺序接手未完成账号，但本机未安装twscrape。",
+        "原始材料20条，未纳入X信号；raw materials和JSON sidecar按日期保留。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页Playwright主路径：https://www.mining.com/commodity/copper/；HTTP 200，extraction_status=success，报告日文章数10。",
+      "Mining.com黄金分类页Playwright辅助路径：https://www.mining.com/commodity/gold/；HTTP 200，extraction_status=success，报告日文章数11。",
+      "Mining.com白银分类页Playwright辅助路径：https://www.mining.com/commodity/silver/；HTTP 200，extraction_status=success，报告日文章数11；跨分类重复URL按规范化URL去重。",
+      "Mota-Engil文章：https://www.mining.com/web/mota-engil-wins-congo-rail-concession-linked-to-us-backed-angola-corridor/；普通HTTP 403，同一Playwright会话HTTP 200，核对Reuters署名、日期、铁路长度、特许经营、投资和货运能力。",
+      "铜市场文章：https://www.mining.com/copper-price-notches-another-record-before-retreating-as-squeeze-eases/；普通HTTP 403，同一Playwright会话HTTP 200，核对矿山产量损失、CRU预测、LME提货和COMEX库存。",
+      "黄金ETF文章：https://www.mining.com/gold-price-retreats-from-three-month-high-as-inflation-us-gauge-runs-warm/；同一Playwright会话HTTP 200，核对8月26日日期和超过28吨ETF持仓增加。",
+      "DOE Mining.com候选：https://www.mining.com/us-department-of-energy-awards-10m-for-critical-minerals-rd/；同一Playwright会话HTTP 200发现；官方DOE公告：https://www.energy.gov/cmei/articles/does-critical-materials-innovation-hub-awards-10-million-early-stage-research-and；HTTP 200并核对金额、项目数、铜技术方向和谈判限制。",
+      "Goldgroup与Lion One Mining.com赞助页面均由同一Playwright会话打开；页面分别显示原始Newsfile公告为8月17日和8月20日，均早于本窗口，排除。",
+      "Mining.com的纯市场观点、铝冶炼、铁矿石、稀土和泛矿业赞助内容逐篇打开核对后排除。",
+      "Google备用查询：site:mining.com gold August 26 2026、silver August 26 2026、copper August 26 2026；HTTP 200，gold受unusual-traffic限制，silver无报告日合格结果，copper仅作辅助发现，未以搜索摘要作为证据。",
+      "中文检索：百度5组查询中4组返回安全验证、1组SSL失败；360搜索5组均HTTP 200，但结果主要为旧资料、价格/宏观内容或无法直接读取正文的聚合页，未形成新的可核验金银铜信号。",
+      "SMM铜页面https://hq.smm.cn/copper、铜矿数据页https://hq.smm.cn/h5/copper-ore-data、SMM首页https://www.smm.cn/均HTTP 200检查，未发现报告日新的合格事件。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-26全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、中文搜索、候选逐篇核验和跨来源去重。本期纳入4条新闻：黄金1条、铜3条；白银未发现新的可核验新闻。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200并提取10篇报告日文章，黄金和白银辅助分类页分别提取11篇；入选Mining.com文章由同一Playwright会话逐篇打开并核对，普通HTTP文章请求受403限制。DOE信号最终改用已打开的官方energy.gov公告；未使用sitemap、Wayback Machine或RSS。",
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": "2条Part 1播客页面、3条Mining.com新闻页面、1条DOE官方公告和1条Vizsla官方交叉核验页面均已直接打开并核对标题/日期、主体及核心事实；全部标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.miningstockdaily.com/episodes/morning-briefing-drill-results-from-andina-q2-1911-and-american-eagle",
+      "https://resourcetalks.com/gold-stocks/gold-project-near-fosterville-but-can-they-deliver-economic-grades/",
+      "https://resourcetalks.com/silver-stocks/high-grade-silver-discovery-in-bolivia-but-is-there-enough-scale/"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/peter_krauth/status/2092351901547274329",
+      "https://x.com/peter_krauth/status/2092316043796750428",
+      "https://x.com/RonStoeferle/status/2092295956091826519",
+      "https://x.com/RonStoeferle/status/2092295954737340737"
+    ],
+    "part3_deduped_events": [
+      "Goldgroup和Lion One Mining.com赞助页分别对应8月17日和8月20日原始公告，早于8月26日新闻窗口。",
+      "GoGold Los Ricos South开工事件已在2026-08-25日报收录，Peter Krauth相关X帖子不重复纳入。",
+      "同一批Mining.com候选在金、银、铜分类页重复出现，按规范化URL和事件统一去重。",
+      "纯价格/矿业股观点、铝冶炼、铁矿石、稀土及泛矿业宣传不构成金银铜实体供需事件，未纳入。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；勘探截获、物流能力、ETF持仓、咨询机构预测和早期研发选择均按来源口径区分，未将资源或技术选择写成已实现产量。"
+  }
+}
