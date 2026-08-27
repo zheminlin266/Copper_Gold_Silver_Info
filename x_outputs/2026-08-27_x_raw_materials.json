@@ -1,0 +1,241 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-27",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-5acaad6ec588d9dac9c887ff",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-26T23:09:34+00:00",
+      "text": "If elected, I would demand an immediate recount",
+      "url": "https://x.com/RealRickRule/status/2092751334755950952",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-882c677785d1eaab91c8b3cf",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-26T18:05:05+00:00",
+      "text": "I save, systematically, in gold",
+      "url": "https://x.com/RealRickRule/status/2092674710442279083",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-94a24083dd35a9f5d12f5171",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-26T16:50:30+00:00",
+      "text": "Why Rick Rule Is Buying Gold Now: Monetary Shock Incoming \nhttps://\nyoutu.be/lYQw_7Myw2g?si\n=u7mYy0_zx0T7UH1G\n… via \n@YouTube\n 08-25-2026",
+      "url": "https://x.com/RealRickRule/status/2092655941024207033",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1394ec6672f73eef68d4cc6a",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-26T16:45:12+00:00",
+      "text": "Miners crush more rock every year for the same pound. \n\nA new mine takes about 17 years from discovery to first production\n\nAnd a high copper price cannot speed up geology",
+      "url": "https://x.com/KatusaResearch/status/2092654606711242841",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-74b5deec5723f5e0c60facd5",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-26T16:44:41+00:00",
+      "text": "As ore grades thin, output from existing operations falls from 22.7 million tonnes to 15.\n\nRecycling doubles and still leaves the world short 18.7 million tonnes a year.\n\nThat difference is nearly the size of today’s ENTIRE mined supply. \n\nAnd supply can’t sprint to close it...",
+      "url": "https://x.com/KatusaResearch/status/2092654475593072949",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6e1c8037471330faabdc2eae",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-27T02:06:46+00:00",
+      "text": "How a China gold vault network could promote the yuan’s international reach\n \nhttps://\nsc.mp/acgq2?utm_sour\nce=twitter&utm_campaign=3365092&utm_medium=share_widget\n… via \n@scmpnews",
+      "url": "https://x.com/silverguru22/status/2092795927602106840",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-637d2b77cedc5802252f0eca",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-27T01:42:45+00:00",
+      "text": "Gold drops 1% after in-line U.S. inflation data - CNBC - \nhttps://\ngoo.gl/alerts/XjdH5S #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092789886625681629",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e973b8c7bf8abdc19af1e2fd",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-27T01:41:09+00:00",
+      "text": "Silver price today, Wednesday, August 26, 2026: Silver prices hold, notching a 17% monthly gain - \nhttps://\ngoo.gl/alerts/YRJkmm #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092789484605874289",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-528c21ed89bd00bbccbf6757",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-27T00:16:18+00:00",
+      "text": "Gold drops 1% after in-line U.S. inflation data - CNBC - \nhttps://\ngoo.gl/alerts/JoVsvW #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092768130246287616",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a619952ef477132c40a72dfa",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-27T00:15:53+00:00",
+      "text": "Gold Slips as Markets Await Fed Chairman Comments at Jackson Hole - WSJ - \nhttps://\ngoo.gl/alerts/YgidWj #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092768025082536271",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2d022df1ee7f6b267f88a909",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-27T00:15:04+00:00",
+      "text": "Gold hits highest level in three months as traders worry about US inflation and bond market jit - \nhttps://\ngoo.gl/alerts/dW3Ks1 #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2092767821008707984",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dc6c01f8ad2a58a97d956f1e",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-08-26T23:22:18+00:00",
+      "text": "Bessent Launches Gold Rally 2.0 As Debt Concerns Mount... \n\n\nhttps://\nyoutu.be/d2UkYBnwle0?si\n=K2qUEAirL6Fg6pCP\n… via \n@YouTube",
+      "url": "https://x.com/ArcadiaEconomic/status/2092754540470648859",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4f01069efde5fab163077279",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-27T13:59:22+00:00",
+      "text": "Trump doesn’t like windmills, but windmills love copper!\n\nHappily they aren’t the only ones…\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2092975263130763438",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-15f315f9dadfb3296542000a",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-27T15:09:43+00:00",
+      "text": "We are likely in a secular bull market in metals and mining industry.\n\nAs always, I look forward to speaking at this outstanding investment conference in New Orleans.\n\n\nhttps://\nneworleansconference.com/costa/",
+      "url": "https://x.com/TaviCosta/status/2092992963932725465",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6a122bbab21f62ae04929256",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-27T00:55:24+00:00",
+      "text": "Here’s a reminder that commodity producers and LatAm stocks are close cousins.\n\nMakes perfect sense.\n\nThis is one of the most resource-driven regions in the world.\n\nWhat a compelling setup.\n\nHard-asset-minded investors know exactly what to do here.\n\n\nhttps://\ntavicosta.substack.com/p/the-inflatio\nn-paradox?r=2m39jp&utm_medium=ios\n…",
+      "url": "https://x.com/TaviCosta/status/2092777968581955853",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dab50ec6bfcfc25a96c1ffde",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-08-27T07:10:00+00:00",
+      "text": "回到货币未来！\n\n9月10日，\n@MarkValek\n 和我将抽出一小时时间，向你们展示，我们的《In Gold We Trust》报告中的论点如何转化为投资流程中的具体实践。\n\n用德语，免费，完全没有销售表演。我非常期待，许多人能加入我们！\n\n注册：",
+      "url": "https://x.com/RonStoeferle/status/2092872240052482107",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-597032018e5746e89f3bbc0e",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-27T00:36:42+00:00",
+      "text": "So banks via fractional reserve banking can expand the money supply by making new loans. A credit worthy customer shows up, takes out a loan, the bank deposits the cash in his account and records the loan as an asset. They don’t need a deposit (except when they get over",
+      "url": "https://x.com/LawrenceLepard/status/2092773263705333949",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0d63498f49c0e20e1fcfbbc3",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-08-27T15:22:57+00:00",
+      "text": "Another step forward for Troilus (\n$TLG\n) as it advances toward construction.\n\nFinnvera has issued a non-binding LOI for up to ~US$132M in potential export credit support tied to Troilus’ recently announced Metso equipment procurement.\n\nThis adds another potential source of",
+      "url": "https://x.com/soarfinancial/status/2092996294067548511",
+      "collector": "x_search",
+      "report_date": "2026-08-27",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

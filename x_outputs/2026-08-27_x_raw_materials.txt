@@ -1,0 +1,203 @@
+X 原始候选 — 2026-08-27
+采集时间: 2026-08-28T07:27:41.594996+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 18 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-26T23:09:34+00:00
+    北京: 2026-08-27T07:09:34+08:00
+    文本: If elected, I would demand an immediate recount
+    链接: https://x.com/RealRickRule/status/2092751334755950952
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-08-26T18:05:05+00:00
+    北京: 2026-08-27T02:05:05+08:00
+    文本: I save, systematically, in gold
+    链接: https://x.com/RealRickRule/status/2092674710442279083
+
+[3] @RealRickRule (Rick Rule)
+    UTC: 2026-08-26T16:50:30+00:00
+    北京: 2026-08-27T00:50:30+08:00
+    文本: Why Rick Rule Is Buying Gold Now: Monetary Shock Incoming 
+https://
+youtu.be/lYQw_7Myw2g?si
+=u7mYy0_zx0T7UH1G
+… via 
+@YouTube
+ 08-25-2026
+    链接: https://x.com/RealRickRule/status/2092655941024207033
+
+[4] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-26T16:45:12+00:00
+    北京: 2026-08-27T00:45:12+08:00
+    文本: Miners crush more rock every year for the same pound. 
+
+A new mine takes about 17 years from discovery to first production
+
+And a high copper price cannot speed up geology
+    链接: https://x.com/KatusaResearch/status/2092654606711242841
+
+[5] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-26T16:44:41+00:00
+    北京: 2026-08-27T00:44:41+08:00
+    文本: As ore grades thin, output from existing operations falls from 22.7 million tonnes to 15.
+
+Recycling doubles and still leaves the world short 18.7 million tonnes a year.
+
+That difference is nearly the size of today’s ENTIRE mined supply. 
+
+And supply can’t sprint to close it...
+    链接: https://x.com/KatusaResearch/status/2092654475593072949
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-08-27T02:06:46+00:00
+    北京: 2026-08-27T10:06:46+08:00
+    文本: How a China gold vault network could promote the yuan’s international reach
+ 
+https://
+sc.mp/acgq2?utm_sour
+ce=twitter&utm_campaign=3365092&utm_medium=share_widget
+… via 
+@scmpnews
+    链接: https://x.com/silverguru22/status/2092795927602106840
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-08-27T01:42:45+00:00
+    北京: 2026-08-27T09:42:45+08:00
+    文本: Gold drops 1% after in-line U.S. inflation data - CNBC - 
+https://
+goo.gl/alerts/XjdH5S #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2092789886625681629
+
+[8] @silverguru22 (David Morgan)
+    UTC: 2026-08-27T01:41:09+00:00
+    北京: 2026-08-27T09:41:09+08:00
+    文本: Silver price today, Wednesday, August 26, 2026: Silver prices hold, notching a 17% monthly gain - 
+https://
+goo.gl/alerts/YRJkmm #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2092789484605874289
+
+[9] @silverguru22 (David Morgan)
+    UTC: 2026-08-27T00:16:18+00:00
+    北京: 2026-08-27T08:16:18+08:00
+    文本: Gold drops 1% after in-line U.S. inflation data - CNBC - 
+https://
+goo.gl/alerts/JoVsvW #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2092768130246287616
+
+[10] @silverguru22 (David Morgan)
+    UTC: 2026-08-27T00:15:53+00:00
+    北京: 2026-08-27T08:15:53+08:00
+    文本: Gold Slips as Markets Await Fed Chairman Comments at Jackson Hole - WSJ - 
+https://
+goo.gl/alerts/YgidWj #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2092768025082536271
+
+[11] @silverguru22 (David Morgan)
+    UTC: 2026-08-27T00:15:04+00:00
+    北京: 2026-08-27T08:15:04+08:00
+    文本: Gold hits highest level in three months as traders worry about US inflation and bond market jit - 
+https://
+goo.gl/alerts/dW3Ks1 #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2092767821008707984
+
+[12] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-26T23:22:18+00:00
+    北京: 2026-08-27T07:22:18+08:00
+    文本: Bessent Launches Gold Rally 2.0 As Debt Concerns Mount... 
+
+
+https://
+youtu.be/d2UkYBnwle0?si
+=K2qUEAirL6Fg6pCP
+… via 
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2092754540470648859
+
+[13] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-27T13:59:22+00:00
+    北京: 2026-08-27T21:59:22+08:00
+    文本: Trump doesn’t like windmills, but windmills love copper!
+
+Happily they aren’t the only ones…
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2092975263130763438
+
+[14] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-27T15:09:43+00:00
+    北京: 2026-08-27T23:09:43+08:00
+    文本: We are likely in a secular bull market in metals and mining industry.
+
+As always, I look forward to speaking at this outstanding investment conference in New Orleans.
+
+
+https://
+neworleansconference.com/costa/
+    链接: https://x.com/TaviCosta/status/2092992963932725465
+
+[15] @TaviCosta (Otavio Costa)
+    UTC: 2026-08-27T00:55:24+00:00
+    北京: 2026-08-27T08:55:24+08:00
+    文本: Here’s a reminder that commodity producers and LatAm stocks are close cousins.
+
+Makes perfect sense.
+
+This is one of the most resource-driven regions in the world.
+
+What a compelling setup.
+
+Hard-asset-minded investors know exactly what to do here.
+
+
+https://
+tavicosta.substack.com/p/the-inflatio
+n-paradox?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2092777968581955853
+
+[16] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-08-27T07:10:00+00:00
+    北京: 2026-08-27T15:10:00+08:00
+    文本: 回到货币未来！
+
+9月10日，
+@MarkValek
+ 和我将抽出一小时时间，向你们展示，我们的《In Gold We Trust》报告中的论点如何转化为投资流程中的具体实践。
+
+用德语，免费，完全没有销售表演。我非常期待，许多人能加入我们！
+
+注册：
+    链接: https://x.com/RonStoeferle/status/2092872240052482107
+
+[17] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-27T00:36:42+00:00
+    北京: 2026-08-27T08:36:42+08:00
+    文本: So banks via fractional reserve banking can expand the money supply by making new loans. A credit worthy customer shows up, takes out a loan, the bank deposits the cash in his account and records the loan as an asset. They don’t need a deposit (except when they get over
+    链接: https://x.com/LawrenceLepard/status/2092773263705333949
+
+[18] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-08-27T15:22:57+00:00
+    北京: 2026-08-27T23:22:57+08:00
+    文本: Another step forward for Troilus (
+$TLG
+) as it advances toward construction.
+
+Finnvera has issued a non-binding LOI for up to ~US$132M in potential export credit support tied to Troilus’ recently announced Metso equipment procurement.
+
+This adds another potential source of
+    链接: https://x.com/soarfinancial/status/2092996294067548511
+

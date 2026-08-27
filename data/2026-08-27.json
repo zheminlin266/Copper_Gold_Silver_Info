@@ -1,0 +1,548 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-27",
+  "report_time": "2026-08-28T07:47:51+08:00",
+  "summary": "黄金：Veta Madre采矿启动、Cuiú Cuiú新矿化和Springpole协议推进未来供给，但Harmony黄金产量与指引下降。白银：Copalquin钻探和Boliden收购Nexa扩大中期供给管线。铜：Mocoa、Wedge、Opinaca、Haib勘探及跨境框架增加长期供给选项，Troilus融资改善开发条件。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-25T00:00:00+08:00",
+      "end": "2026-08-27T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-27T00:00:00+08:00",
+      "end": "2026-08-27T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-27T00:00:00+08:00",
+      "end": "2026-08-27T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Heliostar已在La Colorada的Veta Madre露天坑开始采矿；该坑储量4.8万盎司金，Veta Madre Plus目标增加2万盎司。",
+          "evidence": "Mining Stock Daily 8月27日节目文字稿直接披露采矿启动、Veta Madre储量和扩展坑目标。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+          "evidence_type": "direct podcast page transcript",
+          "period": "2026-08-27 announcement; 2026 production plan",
+          "unit": "gold ounces; mining milestone",
+          "value": "48000; 20000 target"
+        }
+      ],
+      "publish_date": "2026-08-27",
+      "title": "Morning Briefing：Heliostar启动La Colorada Veta Madre露天采矿",
+      "source_type": "podcast",
+      "summary": "Mining Stock Daily 8月27日节目介绍，Heliostar已在墨西哥La Colorada的Veta Madre坑开始露天采矿。Veta Madre储量为4.8万盎司金，公司计划以采矿和堆浸支撑2027—2028年现金流，并在扩展坑中寻找额外2万盎司。",
+      "detail": "节目页面可直接读取8月27日标题、日期和文字稿，内容同时提到La Colorada总储量37.6万盎司、Veta Madre年内产量计划及Veta Madre Plus扩展目标。采矿启动是运营里程碑，扩展目标和公司产量计划仍属公司披露的计划或目标。",
+      "importance": "Veta Madre已从准备阶段进入实际露天采矿，黄金供给兑现度高于单纯钻探或许可进展。该坑储量4.8万盎司，公司2026年产金指引为2万至2.23万盎司，短期增量仍取决于堆存、浸出和后续采矿节奏；额外2万盎司目标尚属扩展勘探。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Heliostar Metals"
+      ],
+      "projects": [
+        "La Colorada",
+        "Veta Madre"
+      ]
+    },
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Copper Giant的MD-070钻孔见矿771米、0.54% CuEq，含102米、0.87% CuEq；MD-068见到157米和154米矿化。",
+          "evidence": "Mining Stock Daily 8月27日节目文字稿直接列出Mocoa项目钻探区间和品位。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+          "evidence_type": "direct podcast page transcript",
+          "period": "2026-08-27 drill results",
+          "unit": "metres; copper-equivalent grade",
+          "value": "771 at 0.54%; 102 at 0.87%; 157 at 0.69%; 154 at 0.54%"
+        }
+      ],
+      "publish_date": "2026-08-27",
+      "title": "Morning Briefing：Copper Giant公布Mocoa铜钼斑岩钻探结果",
+      "source_type": "podcast",
+      "summary": "节目介绍Copper Giant在哥伦比亚Mocoa项目MD-070钻孔见矿771米、0.54% CuEq，含102米、0.87% CuEq；MD-068还在浅部和深部见到连续矿化，公司预计2026年第四季度完成PEA。",
+      "detail": "节目文字稿列出孔号、区间、铜当量品位、矿化深度变化和PEA时间表。CuEq含铜、钼等组成，钻探结果属于资源验证，不等同当前产量、储量或已批准项目。",
+      "importance": "Mocoa的771米连续矿化和102米高品位核心，把勘探信号推进到可用于PEA的工程资料积累阶段，深部矿化也扩大了未来资源评估空间。影响属于中长期铜供给管线，2026年第四季度PEA是首个规模与经济性检验点；冶金、许可和社区因素仍可能限制兑现。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Copper Giant Resources"
+      ],
+      "projects": [
+        "Mocoa"
+      ]
+    },
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+      "metal_tags": [
+        "copper",
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Nine Mile Metals的WD-26-10孔见31.95米、2.52% CuEq，包括14.15米、3.73%和4.15米、5.16% CuEq，并伴生银金铅锌。",
+          "evidence": "Mining Stock Daily 8月27日节目文字稿直接披露Wedge钻孔结果和多金属构成。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+          "evidence_type": "direct podcast page transcript",
+          "period": "2026-08-27 drill results",
+          "unit": "metres; copper-equivalent grade",
+          "value": "31.95 at 2.52%; 14.15 at 3.73%; 4.15 at 5.16%"
+        }
+      ],
+      "publish_date": "2026-08-27",
+      "title": "Morning Briefing：Nine Mile Metals公布Wedge VMS铜多金属钻探结果",
+      "source_type": "podcast",
+      "summary": "节目介绍Nine Mile Metals在新不伦瑞克Wedge矿WD-26-10孔见31.95米、2.52% CuEq，包括14.15米、3.73% CuEq和4.15米、5.16% CuEq，铜、银、金、铅、锌品位随深度提高。",
+      "detail": "文字稿直接披露钻孔区间、铜当量和多金属特征，并说明公司正在完善三维模型、推进未来资源量估算。钻孔截获尚不能直接转换为资源量、储量或矿山产量。",
+      "importance": "31.95米VMS矿化中包含5.16% CuEq的高品位核心，强化了Wedge矿床向资源量估算推进的地质连续性依据。铜为主金属，银金等副产金属增加潜在价值，但当前仍缺少资源量、冶金回收率和经济性数据；三维模型与后续资源估算是关键验证。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Nine Mile Metals"
+      ],
+      "projects": [
+        "Wedge Mine"
+      ]
+    },
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Opinaca二期金刚石钻探预算390万美元、最多4,400米，钻探预计在9月初完成。",
+          "evidence": "Mining Stock Daily 8月27日节目文字稿直接披露预算、米数和时间表。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+          "evidence_type": "direct podcast page transcript",
+          "period": "2026 summer exploration program",
+          "unit": "USD; metres of drilling; calendar timing",
+          "value": "3.9 million; up to 4400; early September 2026"
+        }
+      ],
+      "publish_date": "2026-08-27",
+      "title": "Morning Briefing：Kenorland与Targa启动Opinaca金矿二期钻探",
+      "source_type": "podcast",
+      "summary": "节目介绍Kenorland与Targa在魁北克Opinaca金矿发现启动二期金刚石钻探，预算390万美元、最多4,400米，目标验证矿化连续性和规模，钻探预计9月初完成。",
+      "detail": "节目文字稿给出项目预算、钻探米数、区域位置、金矿化发现和完成时间。该计划针对2025年首期钻探发现的侵入岩型金系统，属于未来资源验证，不是生产指导。",
+      "importance": "390万美元、最多4,400米的二期钻探把Opinaca从区域异常推进至连续性和规模验证，0.5至1公里孔距有助于判断4公里目标带能否形成可建模系统。影响属于中期黄金供给管线，9月初完钻后仍需化验、资源估算和许可，短期不会增加产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Kenorland Minerals",
+        "Targa Exploration"
+      ],
+      "projects": [
+        "Opinaca"
+      ]
+    },
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "CO26-001见11.70米、456克/吨银当量，含3.40米、1,239克/吨；CO26-002见13.95米、387克/吨，已确认550米走向。",
+          "evidence": "Mining Stock Daily 8月27日节目文字稿直接披露Copalquin钻探数据和矿化走向。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources",
+          "evidence_type": "direct podcast page transcript",
+          "period": "2026-08-27 drill results",
+          "unit": "metres; grams per tonne silver equivalent; strike length",
+          "value": "11.70 at 456; 3.40 at 1239; 13.95 at 387; 550"
+        }
+      ],
+      "publish_date": "2026-08-27",
+      "title": "Morning Briefing：Mithril公布Copalquin银金钻探结果",
+      "source_type": "podcast",
+      "summary": "节目介绍Mithril在墨西哥Copalquin Target 4的CO26-001孔见11.70米、456克/吨银当量，含3.40米、1,239克/吨；CO26-002见13.95米、387克/吨，矿化走向已确认550米。",
+      "detail": "节目文字稿直接列出两孔银当量区间、品位和矿化走向，并指出结构解释的潜在总走向约1.5公里且向走向和深部开放。银当量截获不等于白银资源量、储量或产量。",
+      "importance": "两个钻孔在550米已确认走向内取得456和387克/吨银当量，说明Copalquin的高品位结构具备继续扩展的地质依据。该信号影响中长期白银供给管线，潜在1.5公里走向仍需连续钻探和资源建模确认；银金当量口径与冶金回收率也会影响可采规模。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Mithril Silver and Gold"
+      ],
+      "projects": [
+        "Copalquin",
+        "Target 4"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.firstmininggold.com/news/cat-lake-first-nation-lac-seul-first-nation-and-first-mining-sign-project-agreement-for-the-development-of-the-springpole-gold-project",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "First Mining与Cat Lake First Nation、Lac Seul First Nation签署覆盖Springpole建设、运营和关闭阶段的项目协议。",
+          "evidence": "First Mining官方8月27日新闻稿直接显示协议标题、签约方、覆盖阶段和社区参与条款。",
+          "source_url": "https://www.firstmininggold.com/news/cat-lake-first-nation-lac-seul-first-nation-and-first-mining-sign-project-agreement-for-the-development-of-the-springpole-gold-project",
+          "evidence_type": "official company news release",
+          "period": "2026-08-27 announcement; more than four years of community-led process",
+          "unit": "project phases; years",
+          "value": "construction, operations, closure; >4 years"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "First Mining Gold",
+      "title": "First Mining与两支原住民族签署Springpole金矿项目协议",
+      "excerpt": "First Mining Gold公告称，公司与Cat Lake First Nation及Lac Seul First Nation签署Springpole项目咨询与利益协议，覆盖项目建设、运营和关闭，并包括环境管理、培训、就业、商业机会及经济利益安排。",
+      "language": "en",
+      "interpretation": "这是社区参与和社会许可路径的正式里程碑，不是新增黄金产量或储量。协议有助于把此前的Anishinaabe主导影响评估转入项目推进框架，但环境审批、工程和融资仍决定项目何时进入建设。",
+      "importance": "协议把社区参与落实到建设、运营和关闭三阶段，降低Springpole推进过程中社会许可与环境管理的执行不确定性。双方经过逾4年社区主导评估后达成确定性安排，但该项目仍处于开发阶段，金银资源转为供给取决于后续工程、许可和融资。",
+      "verification_status": "verified",
+      "companies": [
+        "First Mining Gold",
+        "Cat Lake First Nation",
+        "Lac Seul First Nation"
+      ],
+      "projects": [
+        "Springpole Gold Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://cabralgold.com/blog/2026/08/27/cabral-gold-drills-8-9m-5-8-g-t-gold-and-intersects-new-mineralized-zone-at-jerimum-cima-target-cuiu-cuiu-gold-district-brazil/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "DDH411见8.9米、5.8克/吨金，包括1.8米、28.4克/吨金；新带位于主矿化带南侧约200米且向多个方向开放。",
+          "evidence": "Cabral Gold官方8月27日公告直接披露孔号、区间、品位、空间位置和开放方向。",
+          "source_url": "https://cabralgold.com/blog/2026/08/27/cabral-gold-drills-8-9m-5-8-g-t-gold-and-intersects-new-mineralized-zone-at-jerimum-cima-target-cuiu-cuiu-gold-district-brazil/",
+          "evidence_type": "official company news release",
+          "period": "2026-08-27 drill results",
+          "unit": "metres; grams per tonne gold; distance",
+          "value": "8.9 at 5.8; 1.8 at 28.4; 200"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "Cabral Gold",
+      "title": "Cabral Gold在Cuiú Cuiú发现新的高品位矿化带",
+      "excerpt": "Cabral Gold公告称，Jerimum Cima靶区DDH411孔在208.1米深处见8.9米、5.8克/吨金，包括1.8米、28.4克/吨金；该新矿化带位于主矿化带以南约200米，并向东西两侧及深部开放。公司仍预计2026年第四季度进入商业产金。",
+      "language": "en",
+      "interpretation": "钻探扩大的是未来黄金资源管线，尚不是资源量、储量或当前产量。Cuiú Cuiú一期金氧化物堆浸项目正在建设，商业产金时间是公司计划，新的深部矿化还需要连续性钻探和资源估算。",
+      "importance": "DDH411在主带以南约200米确认新的高品位带，使Jerimum Cima的扩展不再局限于既有矿化中心，并为后续资源建模增加了空间。公司预计第四季度商业产金提供近期兑现节点，但新带仍需验证连续性，不能提前并入产量；氧化物与原生矿石的工程处理也会影响供给贡献。",
+      "verification_status": "verified",
+      "companies": [
+        "Cabral Gold"
+      ],
+      "projects": [
+        "Cuiú Cuiú",
+        "Jerimum Cima"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://troilusmining.com/news-and-media/news-releases/troilus-announces-finnvera-loi-for-up-to-approximately-us132-million-in-potential-export-credit-support-related-to-metso-equipment-procurement",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Finnvera就Troilus的Metso设备采购发出不具约束力LOI，潜在支持最高约1.32亿美元，对应约1.55亿美元交易额的85%。",
+          "evidence": "Troilus官方8月27日公告直接披露LOI身份、金额、交易额比例及尽调和最终批准条件。",
+          "source_url": "https://troilusmining.com/news-and-media/news-releases/troilus-announces-finnvera-loi-for-up-to-approximately-us132-million-in-potential-export-credit-support-related-to-metso-equipment-procurement",
+          "evidence_type": "official company news release",
+          "period": "2026-08-27 financing milestone",
+          "unit": "USD; percent",
+          "value": "132 million; 155 million; 85%"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "Troilus Mining",
+      "title": "Troilus获Finnvera最高1.32亿美元潜在出口信贷支持意向",
+      "excerpt": "Troilus公告称，芬兰出口信贷机构Finnvera就Metso设备采购发出不具约束力的LOI，潜在支持最高约1.32亿美元；该金额对应约1.55亿美元设备与服务交易的最高85%，融资须经尽调、商业银行安排和最终批准。",
+      "language": "en",
+      "interpretation": "这是铜金项目把设备采购与出口信贷结合的融资里程碑，不是已获得贷款或新增产量。Troilus仍需完成最终融资、许可、设备交付和建设，LOI的非约束性决定了实际资金支持尚未确定。",
+      "importance": "最高1.32亿美元潜在出口信贷覆盖约1.55亿美元设备与服务交易的85%，为Troilus向建设阶段推进增加了专门融资通道。该安排与8月25日设备采购衔接，可能降低资本筹措和设备接口风险，但LOI不具约束力，尽调、银行承贷、审批和施工仍是中长期铜金供给兑现条件。",
+      "verification_status": "verified",
+      "companies": [
+        "Troilus Mining",
+        "Finnvera",
+        "Metso"
+      ],
+      "projects": [
+        "Troilus Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/south-africas-harmony-raises-dividend-after-profit-surge/",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "Harmony截至2026年6月财年黄金产量同比下降3%至143万盎司，并预计当前财年产金130万至140万盎司；CSA铜矿产量18,207吨，2027财年预计2.8万至3万吨。",
+          "evidence": "Mining.com文章正文的Reuters报道直接披露实际产量、同比变化和公司指引。",
+          "source_url": "https://www.mining.com/web/south-africas-harmony-raises-dividend-after-profit-surge/",
+          "evidence_type": "Reuters report carried by Mining.com",
+          "period": "FY ended 2026-06-30; FY2027 guidance",
+          "unit": "troy ounces; metric tonnes; percent",
+          "value": "1.43 million; 1.3-1.4 million; 18207; 28000-30000; -3%"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "MINING.COM",
+      "title": "Harmony金产量下降、铜业务指引上升",
+      "excerpt": "Reuters经Mining.com报道，Harmony截至2026年6月的财年黄金产量同比下降3%至143万盎司，公司预计当前财年产金130万至140万盎司；其CSA铜矿产量为18,207吨，2027财年铜产量预计为28,000至30,000吨。",
+      "language": "en",
+      "interpretation": "黄金产量和指引下降是已实现及前瞻性供给压力，CSA铜产量和指引则显示多元化带来另一条供给管线。报道还涉及金价和利润，但本卡只采用产量、指引和矿山运营事实。",
+      "importance": "Harmony黄金产量降至143万盎司且下一财年指引为130万至140万盎司，显示现有金矿品位和产量压力短期仍在。CSA已产铜18,207吨、下一财年目标2.8万至3万吨，可部分改善铜供给，却不能抵消黄金端的即时收缩；后续需跟踪矿山指引兑现和Wafi-Golpu许可进展。",
+      "verification_status": "verified",
+      "companies": [
+        "Harmony Gold"
+      ],
+      "projects": [
+        "CSA Mine",
+        "Wafi-Golpu"
+      ],
+      "mining_com_source_note": "Mining.com黄金/铜分类页由指定Playwright路径发现；文章普通请求受限，随后同一Playwright会话打开并核对Reuters署名、8月27日日期、黄金产量和CSA铜指引。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/argentina-chile-revive-cross-border-mining-framework-for-investment/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利矿业部长称阿根廷—智利框架可能释放超过207亿美元投资并增加54万吨年铜产量；Vicuña、NexoAndino和Filo Sur获批准运营协议。",
+          "evidence": "Mining.com文章正文的Reuters报道直接披露政策框架、项目名称、投资规模和年产量判断。",
+          "source_url": "https://www.mining.com/web/argentina-chile-revive-cross-border-mining-framework-for-investment/",
+          "evidence_type": "Reuters report carried by Mining.com",
+          "period": "2026-08-27 policy announcement; future project pipeline",
+          "unit": "USD; metric tonnes per year",
+          "value": ">20.7 billion; 540000"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "MINING.COM",
+      "title": "阿根廷与智利重启跨境矿业框架，瞄准铜项目基础设施协同",
+      "excerpt": "Reuters经Mining.com报道，阿根廷和智利推进跨安第斯矿业整合框架，并为Vicuña、NexoAndino和Filo Sur等跨境项目批准运营协议。智利矿业部长称，该框架可能释放超过207亿美元投资，并增加54万吨年铜产量；报道同时指出措施没有固定实施时间表。",
+      "language": "en",
+      "interpretation": "框架通过共享港口、道路和其他基础设施降低阿根廷项目的运输与开发约束，供给传导路径明确，但54万吨是政策和项目管线估计，不是已承诺产量。三国项目的技术审查、跨境执行和投资决策决定长期增量能否落地。",
+      "importance": "超过207亿美元潜在投资和54万吨年铜产量目标，说明跨安第斯基础设施合作可能把项目许可与出口瓶颈转化为长期供给增量。该信号的兑现期取决于Vicuña等项目的技术审查和港口接入，政府尚无固定实施时间表，因此不能计入近期铜供应；项目资本开工是下一验证节点。",
+      "verification_status": "verified",
+      "companies": [
+        "Argentina",
+        "Chile",
+        "McEwen Copper",
+        "Glencore",
+        "Lundin Mining",
+        "BHP"
+      ],
+      "projects": [
+        "Vicuña",
+        "NexoAndino",
+        "Filo Sur",
+        "Los Azules",
+        "El Pachón"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章并核对Reuters署名、8月27日日期、投资和年产铜量表述。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://investors.boliden.com/en/press/boliden-acquire-controlling-stake-nexa-resources",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Boliden与Votorantim签署收购协议，交易完成后Boliden预计持有Nexa约64.68%股份和投票权，交割预计在2027年第一季度。",
+          "evidence": "Boliden投资者关系官方公告直接披露交易结构、控制权比例、交割时间和审批条件。",
+          "source_url": "https://investors.boliden.com/en/press/boliden-acquire-controlling-stake-nexa-resources",
+          "evidence_type": "official investor-relations press release",
+          "period": "2026-08-27 announcement; Q1 2027 expected closing",
+          "unit": "percent; calendar period",
+          "value": "64.68%; Q1 2027"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "Boliden",
+      "title": "Boliden拟收购Nexa控股权，扩大拉美银精矿平台",
+      "excerpt": "Boliden与Votorantim达成协议，Boliden将以换股方式收购Votorantim持有的Nexa股份，交易完成后预计持有Nexa约64.68%的股份和投票权。Nexa在巴西和秘鲁拥有锌银矿山与冶炼资产，交易预计于2027年第一季度完成，仍须股东及监管批准。",
+      "language": "en",
+      "interpretation": "收购的是现有矿山和冶炼资产控制权，能扩大Boliden未来银精矿和有色金属业务的经营平台，但不是报告日新增产量。交易完成、资产整合、矿山爬坡和少数股东要约都会影响可归属供应兑现。",
+      "importance": "约64.68%的Nexa控股权和预计2027年第一季度完成时间，把Boliden的银精矿业务扩展到巴西、秘鲁五座矿山和三座冶炼厂组成的平台。该交易可能带来中期白银供给整合选项，却没有在公告中给出新增吨数；股东、监管批准及整合执行决定产量何时真正并入。",
+      "verification_status": "verified",
+      "companies": [
+        "Boliden",
+        "Nexa Resources",
+        "Votorantim"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.northernminer.com/news/koryx-drills-nearly-1-km-of-copper-in-namibia/1003894377/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Haib HM167孔见969米、0.23%铜，19个孔合计8,586米；Koryx预计2026年第四季度完成预可研并更新资源量。",
+          "evidence": "Koryx 8月26日官方公告与The Northern Miner 8月27日报道交叉核对孔号、区间、品位、孔数、米数及项目节点。",
+          "source_url": "https://koryxcopper.com/wp-content/uploads/2026/08/2026_08_26_Koryx_Drill_Results_Final.pdf",
+          "evidence_type": "official company release cross-checked with direct mining publication",
+          "period": "2026-08-26 company release; 2026 Q4 study target",
+          "unit": "metres; copper grade; drill holes; calendar quarter",
+          "value": "969 at 0.27% CuEq; 0.23% Cu; 19; 8586; Q4 2026"
+        }
+      ],
+      "publish_time": "2026-08-27",
+      "source": "The Northern Miner",
+      "title": "Koryx在纳米比亚Haib钻出近1公里连续铜矿化",
+      "excerpt": "《The Northern Miner》8月27日报道，Koryx在Haib项目HM167孔钻遇969米、0.23%铜，19个孔合计8,586米均见厚层矿化；公司预计2026年第四季度完成预可研，年内更新资源量。",
+      "language": "en",
+      "interpretation": "钻探结果支持Haib资源模型和未来露天铜项目的规模验证，但新闻所述年产目标、资源量与储量均不能视为当前供给。矿业许可证、冶金研究、资源更新和融资是从钻探到开发的前置条件。",
+      "importance": "969米连续矿化和19孔、8,586米的批次结果，强化Haib大型斑岩铜系统的厚度与连续性证据，并为年内资源更新提供数据基础。该项目仍处于勘探和可研阶段，第四季度预可研、冶金研究及采矿许可证申请将决定中长期供给规模；钻探截获不会立即改变铜产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Koryx Copper"
+      ],
+      "projects": [
+        "Haib"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily Episodes列表：https://www.miningstockdaily.com/episodes；HTTP 200，按日期核对2026-08-25至27条目。",
+      "Mining Stock Daily 2026-08-27节目：https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources；HTTP 200，完整文字稿核对Heliostar、Copper Giant、Nine Mile、Kenorland/Targa和Mithril等事件。",
+      "Resource Talks首页：https://resourcetalks.com/；窗口内最新金银铜相关访谈早于本期或为锂、稀土等非目标金属，未把标题当作事实。",
+      "The Northern Miner首页及文章列表：https://www.northernminer.com/；核对2026-08-27 Koryx、Cabral、Boliden、Troilus等新内容及2026-08-26播客，非目标或重复项目未作广播卡。",
+      "YouTube三组检索：gold mining interview August 27 2026、silver mining interview August 27 2026、copper mining interview August 27 2026；页面可读，约20条动态结果按日期和文字简介筛选，旧视频、无可靠正文或价格/投资评论排除。",
+      "conference_calendar入口抽查：PDAC、Denver Gold Forum、Precious Metals Summit、Mining Indaba、Diggers & Dealers、The Northern Miner等；未发现窗口内比Mining Stock Daily更完整且不重复的目标访谈。"
+    ],
+    "part1_result": "Part 1完成2026-08-25至2026-08-27北京时间72小时Podcast、Webcast、YouTube、会议和公司演示入口检索。Mining Stock Daily 8月27日节目文字稿可直接核验，纳入5条实体供给广播；重复事件、非目标金属、价格评论和无法取得可靠正文的YouTube候选排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe scripts/daily_pipeline.py 2026-08-27 --collect-x；内部调用当前 scripts/x_search.py。",
+      "Playwright使用项目内持久化会话按注册表顺序串行处理53个账号，53/53完成、0失败；完整成功后未启动twscrape。",
+      "原始候选保存至x_outputs/2026-08-27_x_raw_materials.txt及x_outputs/2026-08-27_x_raw_materials.json，共18条；逐条核对作者、handle、正文、发布时间和原帖URL，未纳入符合标准的X信号。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号，未触发twscrape；获取18条原始候选。候选为宏观/价格评论、活动预告、转引、缺少实体供需新增事实或正文不完整，均按标准排除。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright按注册表顺序完成53/53；完整成功后未启动twscrape。",
+        "原始候选18条，纳入0条；日期命名raw materials和JSON sidecar均保留。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：https://www.mining.com/commodity/copper/；指定Python 3.13.12、Chrome headless、Playwright和反检测参数，HTTP 200，报告日文章16篇，主路径成功。",
+      "Mining.com黄金分类页辅助Playwright抓取：https://www.mining.com/commodity/gold/；HTTP 200，报告日文章12篇。",
+      "Mining.com白银分类页辅助Playwright抓取：https://www.mining.com/commodity/silver/；HTTP 200，报告日文章10篇；跨分类重复URL按规范化URL去重。",
+      "Mining.com文章逐篇使用同一Playwright会话打开；Harmony和阿根廷—智利框架候选按正文、日期和主题核验；价格、锌、锂、泛宏观和窗口外赞助内容排除。",
+      "Mining.com文章逐篇核验路径：普通请求受限的文章改由同一Playwright会话打开；本期入选的Harmony、阿根廷—智利框架文章均HTTP 200并核对正文。",
+      "Mining.com黄金分类页普通WebFetch：https://www.mining.com/commodity/gold/；HTTP 403；白银分类页普通WebFetch：https://www.mining.com/commodity/silver/；HTTP 403，均按规定改用Playwright。",
+      "Google备用查询：site:mining.com gold August 27 2026、site:mining.com silver August 27 2026；同一Chrome/Playwright会话HTTP 200但均返回unusual-traffic验证页，命中数0，未使用搜索摘要作证据；铜分类页主路径成功，未触发铜Google备用路径。",
+      "中文检索：360执行2026年8月27日铜矿、金矿、白银矿山供给和铜精矿冶炼需求查询；结果为聚合页、旧指引或价格内容，未发现可直接核验且未重复的报告日实体金银铜事件。SMM铜页https://hq.smm.cn/copper、数据页https://hq.smm.cn/h5/copper-ore-data打开检查，未形成新增合格卡。",
+      "First Mining官方公告：https://www.firstmininggold.com/news/cat-lake-first-nation-lac-seul-first-nation-and-first-mining-sign-project-agreement-for-the-development-of-the-springpole-gold-project；HTTP 200，核对协议、签约方和项目阶段。",
+      "Cabral官方公告：https://cabralgold.com/blog/2026/08/27/cabral-gold-drills-8-9m-5-8-g-t-gold-and-intersects-new-mineralized-zone-at-jerimum-cima-target-cuiu-cuiu-gold-district-brazil/；HTTP 200，核对钻孔、品位、空间位置和Q4商业产金口径。",
+      "Troilus官方公告：https://troilusmining.com/news-and-media/news-releases/troilus-announces-finnvera-loi-for-up-to-approximately-us132-million-in-potential-export-credit-support-related-to-metso-equipment-procurement；HTTP 200，核对LOI金额、交易额、85%比例和非约束条件。",
+      "Boliden官方投资者公告：https://investors.boliden.com/en/press/boliden-acquire-controlling-stake-nexa-resources；HTTP 200，核对交易结构、64.68%控制权、银业务和2027年第一季度交割预期。",
+      "Heliostar官方公告：https://www.heliostarmetals.com/news-media/news-releases/heliostar-commences-open-pit-mining-at-la-colorada-mine；HTTP 200，交叉核对Veta Madre启动、储量和产量指引。",
+      "Kenorland官方公告：https://www.kenorlandminerals.com/news/kenorland-minerals-and-targa-exploration-commence-phase-2-drill-program-at-the-opinaca-project-gold-discovery-quebec；HTTP 200，交叉核对预算、钻探米数、项目规模和时间表。",
+      "Koryx官方公告PDF：https://koryxcopper.com/wp-content/uploads/2026/08/2026_08_26_Koryx_Drill_Results_Final.pdf；HTTP 200，核对HM167、19孔、8,586米和CuEq口径；The Northern Miner 8月27日文章作为窗口内媒体发布日期来源。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-27全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、官方公告核验、候选逐篇读取和跨来源去重。本期纳入7条新闻：黄金3条、白银1条、铜3条；没有把价格、宏观评论、窗口外事件或重复转载纳入。",
+    "mining_com_source_note": "Mining.com铜分类页由指定Python 3.13.12 + Chromium headless Playwright主路径HTTP 200抓取，报告日16篇；金、银辅助分类页分别12/10篇。入选Mining.com文章由同一Playwright会话逐篇打开核验；普通WebFetch对金银分类页为403，Google gold/silver备用查询因unusual-traffic无可用结果。",
+    "url_verification": {
+      "checked": 12,
+      "passed": 12,
+      "failed": 0,
+      "failures": [],
+      "notes": "5条Mining Stock Daily广播页、6条官方公告/媒体新闻页及1条Koryx官方PDF交叉来源均已直接打开并核对标题/日期、主体和核心事实；全部入选卡标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.miningstockdaily.com/episodes/morning-briefing-vizsla-copper-hits-long-high-grade-copper-intersection-at-woodjam",
+      "https://www.miningstockdaily.com/episodes/morning-briefing-drill-results-from-andina-q2-1911-and-american-eagle",
+      "https://www.miningstockdaily.com/episodes/morning-briefing-agnico-places-a-c57m-strategic-investment-into-radisson-mining"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Boliden收购Nexa事件同时出现在8月27日Mining Stock Daily节目和新闻来源，按官方公告优先，仅保留Part 3新闻卡。",
+      "Troilus Finnvera融资事件同时出现在本期Kai Hoffmann X原帖和官方公告，X原帖仅作候选保留，按官方完整来源优先拒绝X正文卡。",
+      "同一批Mining.com候选在铜、金、银分类页重复出现，按规范化URL和事件统一去重。",
+      "Goldgroup、Lion One等赞助页面对应窗口外原始公告；铜价、黄金价格、矿业股观点、锌和锂材料没有独立金银铜实体供需传导，均排除。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；实际产量、公司指引、勘探截获、资源/储量、融资意向和政策目标按来源口径区分，未将目标或勘探结果写成已实现产量。"
+  }
+}
