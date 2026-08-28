@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "date": "2026-08-27",
-  "report_time": "2026-08-28T07:47:51+08:00",
+  "report_time": "2026-08-28T08:09:37+08:00",
   "summary": "黄金：Veta Madre采矿启动、Cuiú Cuiú新矿化和Springpole协议推进未来供给，但Harmony黄金产量与指引下降。白银：Copalquin钻探和Boliden收购Nexa扩大中期供给管线。铜：Mocoa、Wedge、Opinaca、Haib勘探及跨境框架增加长期供给选项，Troilus融资改善开发条件。",
   "windows": {
     "part1": {
@@ -519,7 +519,7 @@
       "Koryx官方公告PDF：https://koryxcopper.com/wp-content/uploads/2026/08/2026_08_26_Koryx_Drill_Results_Final.pdf；HTTP 200，核对HM167、19孔、8,586米和CuEq口径；The Northern Miner 8月27日文章作为窗口内媒体发布日期来源。",
       "未使用sitemap、Wayback Machine或RSS feed。"
     ],
-    "part3_result": "Part 3完成2026-08-27全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、官方公告核验、候选逐篇读取和跨来源去重。本期纳入7条新闻：黄金3条、白银1条、铜3条；没有把价格、宏观评论、窗口外事件或重复转载纳入。",
+    "part3_result": "Part 3完成2026-08-27全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、官方公告核验、候选逐篇读取和跨来源去重。本期纳入7条新闻：黄金4条、白银1条、铜2条；没有把价格、宏观评论、窗口外事件或重复转载纳入。",
     "mining_com_source_note": "Mining.com铜分类页由指定Python 3.13.12 + Chromium headless Playwright主路径HTTP 200抓取，报告日16篇；金、银辅助分类页分别12/10篇。入选Mining.com文章由同一Playwright会话逐篇打开核验；普通WebFetch对金银分类页为403，Google gold/silver备用查询因unusual-traffic无可用结果。",
     "url_verification": {
       "checked": 12,
