@@ -1,0 +1,169 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-28",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-eb59c046ac4bfa9b85a8ae73",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-27T16:27:39+00:00",
+      "text": "Run the numbers forward, and the gap widens.\n\nUS HALEU production today is 0.9 metric tonnes per year.\n\nIf EVERY planned facility gets built on schedule and hits every one of its targets, domestic capacity reaches about 12 tonnes by 2030. \n\nThe Department of Energy projects",
+      "url": "https://x.com/KatusaResearch/status/2093012577995678054",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7a2008bb59777cf348b8c0e3",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-27T16:27:02+00:00",
+      "text": "What the Reactor Eats\n\nToday’s fleet runs on uranium enriched to about 5%. \nThe next generation of small modular reactors runs on HALEU, uranium enriched between 5% and 20%.\n\nThis is because the higher enrichment gives a smaller reactor longer fuel cycles and more output per",
+      "url": "https://x.com/KatusaResearch/status/2093012420755357861",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-739702810751128e2e3b5886",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-28T13:42:00+00:00",
+      "text": "If a Stock Market Crash Is Coming, History Says There's a Major Silver Lining for Investors - \nhttps://\ngoo.gl/alerts/Yeo8sE #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2093333277134540943",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3f5aac494a406483ea2c0790",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-27T18:42:52+00:00",
+      "text": "Sierra Madre \n@SierraMadreSM\n is building for higher silver output. Phase I expansion is expected online this quarter.\n\nI’m looking beyond one quarter’s earnings—and maintaining a full weighting.\n\nRead \n@TedJButler\n's  take + subscribe to Silver Advisor:\nRead more:",
+      "url": "https://x.com/peter_krauth/status/2093046607944229153",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2bbc1b152b4552b866e76181",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-08-28T12:48:16+00:00",
+      "text": "nice to see #SILVER back over $70....",
+      "url": "https://x.com/ArcadiaEconomic/status/2093319755729867192",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-64eec6502a8104129b2d71a2",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-28T14:24:39+00:00",
+      "text": "Have been all along, to anyone objective.\n\nMy call wasn't for lower gold, but for caution.",
+      "url": "https://x.com/duediligenceguy/status/2093344011431952810",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-31b1d3a27853187aaf0db02d",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-28T11:55:59+00:00",
+      "text": "Show me a mining company that doesn't fill its press releases with superlatives...\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2093306597447483669",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fe8e7edf74b8754b5e77ee96",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-28T13:58:58+00:00",
+      "text": "Gold & Bitcoin, the debasement-trade is back",
+      "url": "https://x.com/wmiddelkoop/status/2093337547967451235",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ba2b190fb00ce7b653dd6765",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-27T21:18:00+00:00",
+      "text": "Decent.  Mine have killed chipmunks and bunnies.  The baby bunny was tragic.  They are bread to chase small mammals.",
+      "url": "https://x.com/LawrenceLepard/status/2093085647804244179",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e8194c26bd49c9f682c13c71",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-08-27T17:11:25+00:00",
+      "text": "Storm Exploration: Eric Sprott Backs Gold Standard Ahead of Drilling\n\nBruce Counts joins us to discuss Eric Sprott's recent $2M investment, Storm's upcoming 2,000–3,000m drill program and the 5 km VMS target at Gold Standard.\n\nWatch Here\n\nhttps://\nyoutu.be/d0bOyvCQnKI\n\n\n@StormExInc\n |",
+      "url": "https://x.com/soarfinancial/status/2093023591566803019",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-97746e6017dfa38cb4476a95",
+      "source_id": "x-frank_giustra",
+      "author": "Frank Giustra",
+      "handle": "Frank_Giustra",
+      "publish_time": "2026-08-27T21:21:21+00:00",
+      "text": "This system is just getting bigger and bigger.  A world-class copper/Moly deposit …there are only a handful of projects with this kind of scope owned by a junior miming Company.",
+      "url": "https://x.com/Frank_Giustra/status/2093086488842100744",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-80ba78d979faf7e6f45041f8",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-08-27T18:01:56+00:00",
+      "text": "Kinross Gold is excited to announce we have teamed up with \n@TroutUnlimited\n to further our partnership under the Alaska Abandoned Mine Restoration Initiative by launching our second project – the Cripple Creek Restoration Project.\nOn August 11, the teams celebrated the launch of",
+      "url": "https://x.com/kinrossgold/status/2093036303323447558",
+      "collector": "x_search",
+      "report_date": "2026-08-28",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

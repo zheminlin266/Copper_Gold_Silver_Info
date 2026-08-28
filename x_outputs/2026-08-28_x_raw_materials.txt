@@ -1,0 +1,130 @@
+X 原始候选 — 2026-08-28
+采集时间: 2026-08-29T07:27:57.926485+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 12 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-27T16:27:39+00:00
+    北京: 2026-08-28T00:27:39+08:00
+    文本: Run the numbers forward, and the gap widens.
+
+US HALEU production today is 0.9 metric tonnes per year.
+
+If EVERY planned facility gets built on schedule and hits every one of its targets, domestic capacity reaches about 12 tonnes by 2030. 
+
+The Department of Energy projects
+    链接: https://x.com/KatusaResearch/status/2093012577995678054
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-27T16:27:02+00:00
+    北京: 2026-08-28T00:27:02+08:00
+    文本: What the Reactor Eats
+
+Today’s fleet runs on uranium enriched to about 5%. 
+The next generation of small modular reactors runs on HALEU, uranium enriched between 5% and 20%.
+
+This is because the higher enrichment gives a smaller reactor longer fuel cycles and more output per
+    链接: https://x.com/KatusaResearch/status/2093012420755357861
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-08-28T13:42:00+00:00
+    北京: 2026-08-28T21:42:00+08:00
+    文本: If a Stock Market Crash Is Coming, History Says There's a Major Silver Lining for Investors - 
+https://
+goo.gl/alerts/Yeo8sE #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2093333277134540943
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-27T18:42:52+00:00
+    北京: 2026-08-28T02:42:52+08:00
+    文本: Sierra Madre 
+@SierraMadreSM
+ is building for higher silver output. Phase I expansion is expected online this quarter.
+
+I’m looking beyond one quarter’s earnings—and maintaining a full weighting.
+
+Read 
+@TedJButler
+'s  take + subscribe to Silver Advisor:
+Read more:
+    链接: https://x.com/peter_krauth/status/2093046607944229153
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-28T12:48:16+00:00
+    北京: 2026-08-28T20:48:16+08:00
+    文本: nice to see #SILVER back over $70....
+    链接: https://x.com/ArcadiaEconomic/status/2093319755729867192
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-28T14:24:39+00:00
+    北京: 2026-08-28T22:24:39+08:00
+    文本: Have been all along, to anyone objective.
+
+My call wasn't for lower gold, but for caution.
+    链接: https://x.com/duediligenceguy/status/2093344011431952810
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-28T11:55:59+00:00
+    北京: 2026-08-28T19:55:59+08:00
+    文本: Show me a mining company that doesn't fill its press releases with superlatives...
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2093306597447483669
+
+[8] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-28T13:58:58+00:00
+    北京: 2026-08-28T21:58:58+08:00
+    文本: Gold & Bitcoin, the debasement-trade is back
+    链接: https://x.com/wmiddelkoop/status/2093337547967451235
+
+[9] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-27T21:18:00+00:00
+    北京: 2026-08-28T05:18:00+08:00
+    文本: Decent.  Mine have killed chipmunks and bunnies.  The baby bunny was tragic.  They are bread to chase small mammals.
+    链接: https://x.com/LawrenceLepard/status/2093085647804244179
+
+[10] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-08-27T17:11:25+00:00
+    北京: 2026-08-28T01:11:25+08:00
+    文本: Storm Exploration: Eric Sprott Backs Gold Standard Ahead of Drilling
+
+Bruce Counts joins us to discuss Eric Sprott's recent $2M investment, Storm's upcoming 2,000–3,000m drill program and the 5 km VMS target at Gold Standard.
+
+Watch Here
+
+https://
+youtu.be/d0bOyvCQnKI
+
+
+@StormExInc
+ |
+    链接: https://x.com/soarfinancial/status/2093023591566803019
+
+[11] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-08-27T21:21:21+00:00
+    北京: 2026-08-28T05:21:21+08:00
+    文本: This system is just getting bigger and bigger.  A world-class copper/Moly deposit …there are only a handful of projects with this kind of scope owned by a junior miming Company.
+    链接: https://x.com/Frank_Giustra/status/2093086488842100744
+
+[12] @KinrossGold (Kinross Gold)
+    UTC: 2026-08-27T18:01:56+00:00
+    北京: 2026-08-28T02:01:56+08:00
+    文本: Kinross Gold is excited to announce we have teamed up with 
+@TroutUnlimited
+ to further our partnership under the Alaska Abandoned Mine Restoration Initiative by launching our second project – the Cripple Creek Restoration Project.
+On August 11, the teams celebrated the launch of
+    链接: https://x.com/kinrossgold/status/2093036303323447558
+
