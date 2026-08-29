@@ -1,0 +1,100 @@
+X 原始候选 — 2026-08-29
+采集时间: 2026-08-30T07:28:00.288258+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 8 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-08-29T01:35:39+00:00
+    北京: 2026-08-29T09:35:39+08:00
+    文本: Gold falls after Warsh flags persistent inflation, tighter Fed policy -
+https://
+Investing.com -
+https://
+goo.gl/alerts/1hXQQy #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2093512874727809503
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-08-28T18:16:28+00:00
+    北京: 2026-08-29T02:16:28+08:00
+    文本: Silver +25%. Miners nearly +40%. In less than a month.
+
+And I believe we could still be early.
+
+
+@TedJButler
+ and I explain why in this week’s Silver Scoop. Plus, The Great Silver Bull is now in Korean!
+
+Stay in the loop. Subscribe free
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-7/
+… #Silver
+    链接: https://x.com/peter_krauth/status/2093402351432524188
+
+[3] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-08-29T01:41:49+00:00
+    北京: 2026-08-29T09:41:49+08:00
+    文本: he probably has a lot of copper.
+    链接: https://x.com/ArcadiaEconomic/status/2093514427697922048
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-29T06:31:44+00:00
+    北京: 2026-08-29T14:31:44+08:00
+    文本: Nobody knows, of course, but frankly, I don't even have a strong hunch about the direction from here.
+
+I'm super-bullish long-term, but I remain cautious near-term.
+
+The war has been bad for gold, and it ain't over... but objectively, the war "should" be good for gold.
+
+    链接: https://x.com/duediligenceguy/status/2093587384730317230
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-08-28T20:45:32+00:00
+    北京: 2026-08-29T04:45:32+08:00
+    文本: I don't mind making money on other metals, but of course, if there's another idiotic sell-off, I'd back up the truck for the best gold and silver stocks big time.
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2093439865782243340
+
+[6] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-28T16:49:43+00:00
+    北京: 2026-08-29T00:49:43+08:00
+    文本: 厄尔尼诺 & 铜
+    链接: https://x.com/wmiddelkoop/status/2093380517055938960
+
+[7] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-08-28T17:18:06+00:00
+    北京: 2026-08-29T01:18:06+08:00
+    文本: Kevin, you do the hawkish act and:
+
+yen falls
+dollar rallies
+US ten year yield goes up
+US two year yield goes up
+stock market sells off
+gold falls
+bitcoin falls
+
+how do you like them apples?
+
+it was interesting that you mentioned that extraordinary measures could be used in a
+    链接: https://x.com/LawrenceLepard/status/2093387661109035191
+
+[8] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-08-28T17:05:17+00:00
+    北京: 2026-08-29T01:05:17+08:00
+    文本: Copper Giant intercepts 771 meters at Mocoa as Giustra says project is “getting bigger and bigger” | Kitco News
+    链接: https://x.com/Frank_Giustra/status/2093384434427019439

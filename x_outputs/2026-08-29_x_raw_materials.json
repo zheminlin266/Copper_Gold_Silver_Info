@@ -1,0 +1,121 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-29",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-04b352569ad1a2d825cc96a2",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-29T01:35:39+00:00",
+      "text": "Gold falls after Warsh flags persistent inflation, tighter Fed policy - \nhttps://\nInvesting.com - \nhttps://\ngoo.gl/alerts/1hXQQy #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2093512874727809503",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-70d31253bc5f7918a718909a",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-08-28T18:16:28+00:00",
+      "text": "Silver +25%. Miners nearly +40%. In less than a month.\n\nAnd I believe we could still be early.\n\n\n@TedJButler\n and I explain why in this week’s Silver Scoop. Plus, The Great Silver Bull is now in Korean!\n\nStay in the loop. Subscribe free  \nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/the-silver-scoop-7/\n… #Silver",
+      "url": "https://x.com/peter_krauth/status/2093402351432524188",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e6800171236d24c9ec50c445",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-08-29T01:41:49+00:00",
+      "text": "he probably has a lot of copper.",
+      "url": "https://x.com/ArcadiaEconomic/status/2093514427697922048",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-be5b5730541cfdad3dc9e948",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-29T06:31:44+00:00",
+      "text": "Nobody knows, of course, but frankly, I don't even have a strong hunch about the direction from here.\n\nI'm super-bullish long-term, but I remain cautious near-term.\n\nThe war has been bad for gold, and it ain't over... but objectively, the war \"should\" be good for gold.\n",
+      "url": "https://x.com/duediligenceguy/status/2093587384730317230",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-23ffaf74621d40509235fdda",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-08-28T20:45:32+00:00",
+      "text": "I don't mind making money on other metals, but of course, if there's another idiotic sell-off, I'd back up the truck for the best gold and silver stocks big time.\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2093439865782243340",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d628cbd002d1da59e575a1a8",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-28T16:49:43+00:00",
+      "text": "厄尔尼诺 & 铜 ",
+      "url": "https://x.com/wmiddelkoop/status/2093380517055938960",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-74148c5c89ebca6ebea923bd",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-08-28T17:18:06+00:00",
+      "text": "Kevin, you do the hawkish act and:\n\nyen falls\ndollar rallies\nUS ten year yield goes up\nUS two year yield goes up\nstock market sells off\ngold falls\nbitcoin falls\n\nhow do you like them apples?\n\nit was interesting that you mentioned that extraordinary measures could be used in a",
+      "url": "https://x.com/LawrenceLepard/status/2093387661109035191",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-839bdc8696e8a668c5670361",
+      "source_id": "x-frank_giustra",
+      "author": "Frank Giustra",
+      "handle": "Frank_Giustra",
+      "publish_time": "2026-08-28T17:05:17+00:00",
+      "text": "Copper Giant intercepts 771 meters at Mocoa as Giustra says project is “getting bigger and bigger” | Kitco News",
+      "url": "https://x.com/Frank_Giustra/status/2093384434427019439",
+      "collector": "x_search",
+      "report_date": "2026-08-29",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

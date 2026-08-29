@@ -1,0 +1,300 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-29",
+  "report_time": "2026-08-30T07:51:34+08:00",
+  "summary": "黄金：Aura许可与融资/工程排程推进远期供给，短期增量仍待兑现。白银：Santo Domingo更新资源量扩大中长期供给基础，Silvercorp中国复产仍受安全整改约束。铜：NAK钻探与资金支持扩大长期供给管线，但本窗口未发现新的可核验铜新闻。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-27T00:00:00+08:00",
+      "end": "2026-08-29T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-29T00:00:00+08:00",
+      "end": "2026-08-29T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-29T00:00:00+08:00",
+      "end": "2026-08-29T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://resourcetalks.com/gold-stocks/heap-leach-gold-in-nevada-but-can-they-build-it-on-schedule/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Doby George规划建设7500吨/日露天堆浸项目，矿山计划已提交，联邦许可目标为2027年第三季度，建设决策目标为2028年末。",
+          "evidence": "Resource Talks 2026年8月29日访谈页面的摘要和正文直接披露项目路径、产能设计及许可和建设时间表。",
+          "source_url": "https://resourcetalks.com/gold-stocks/heap-leach-gold-in-nevada-but-can-they-build-it-on-schedule/",
+          "evidence_type": "direct interview page transcript and synopsis",
+          "period": "2026-08-29 interview; 2027 Q3 to late 2028 targets",
+          "unit": "tonnes per day; calendar milestones",
+          "value": "7500; Q3 2027; late 2028"
+        },
+        {
+          "claim": "Gravel Creek的扩展目标为150万盎司金和3000万盎司银，需要2027至2028年约2万米钻探，PEA目标为2029年。",
+          "evidence": "Resource Talks访谈页面直接记录管理层对钻探规模、目标资源和研究时间表的说明。",
+          "source_url": "https://resourcetalks.com/gold-stocks/heap-leach-gold-in-nevada-but-can-they-build-it-on-schedule/",
+          "evidence_type": "direct interview page transcript",
+          "period": "2027-2029 planned exploration and study timeline",
+          "unit": "metres; troy ounces; calendar year",
+          "value": "20000; 1.5 million gold oz; 30 million silver oz; 2029 PEA"
+        }
+      ],
+      "publish_date": "2026-08-29",
+      "title": "Resource Talks访谈：Western Exploration推进Aura金银项目许可与开发",
+      "source_type": "youtube",
+      "summary": "Resource Talks 8月29日采访Western Exploration CEO Darcy Marud，介绍Aura项目Doby George的7500吨/日堆浸方案、矿山计划提交、许可时间表和融资约束；Gravel Creek的扩展钻探推迟至2027—2028年。",
+      "detail": "访谈页面显示2026年8月29日发布，直接列出Doby George、Gravel Creek和Wood Gulch的项目分工、矿山计划、环境研究、许可目标、建设决策及资本需求。Western Exploration官网可核对Aura资源构成、Doby George和Gravel Creek资源数字及8月矿山计划公告。页面未将目标时间表写成已获许可或已投产，且Gravel Creek的目标资源仍需钻探和PEA验证。",
+      "importance": "该访谈显示Aura的短期供给路径已从资源叙事转向许可与可研排程：Doby George的矿山计划已提交，若按目标在2027年三季度取得联邦许可、2028年末作出建设决定，7500吨/日堆浸项目才可能进入资本兑现期。Gravel Creek的2万米钻探推迟到2027—2028年，说明150万盎司金和3000万盎司银目标属于更远期扩展，融资、环境审查与冶金仍是主要约束。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Darcy Marud",
+        "background": "CEO of Western Exploration"
+      },
+      "companies": [
+        "Western Exploration"
+      ],
+      "projects": [
+        "Aura",
+        "Doby George",
+        "Gravel Creek",
+        "Wood Gulch"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "American Eagle Gold以约55000米年度钻探和三台连续作业钻机推进NAK项目，并计划形成首次资源量和PEA资料。",
+          "evidence": "Resource Talks 2026年8月29日访谈页面直接披露当前钻探规模、钻机数量和资源研究计划。",
+          "source_url": "https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/",
+          "evidence_type": "direct interview page transcript and synopsis",
+          "period": "2026 drill season through 2027",
+          "unit": "metres; drill rigs; study milestone",
+          "value": "55000; 3; maiden resource and PEA"
+        },
+        {
+          "claim": "管理层称公司有约5500万美元现金及应收款，后续化验预计约需三至四周。",
+          "evidence": "Resource Talks访谈页面摘要和正文直接记录现金状况、钻探资金覆盖范围及化验时间预期。",
+          "source_url": "https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/",
+          "evidence_type": "direct interview page transcript",
+          "period": "2026-08-29 interview; near-term assay timeline",
+          "unit": "USD; weeks",
+          "value": "approximately 55 million; 3-4 weeks"
+        }
+      ],
+      "publish_date": "2026-08-29",
+      "title": "Resource Talks访谈：American Eagle Gold以资金和钻探推进NAK铜金资源定义",
+      "source_type": "youtube",
+      "summary": "Resource Talks 8月29日采访American Eagle Gold管理层，讨论NAK约5.5万米钻探、三台钻机、约5500万美元现金及首次资源量和PEA计划；下一批化验约三至四周公布。页面标明为赞助内容。",
+      "detail": "访谈页面直接显示日期、嘉宾Anthony Moreau和Neil Prowse、NAK项目、当前钻探规模、现金和资源研究路径，并标注SPONSORED CONTENT及公司已支付内容制作费用。American Eagle官网可核对8月25日NAK26-89钻孔公告、8月27日土地包扩展公告、约5500万美元现金和约5.5万米计划。采访中的项目目标、化验时间和品位解释仍受冶金、资源分类和后续钻孔结果限制。",
+      "importance": "NAK的关键变化是资金、钻探和资源定义被放在同一条连续路径上：公司有约5500万美元现金并以三台钻机推进今年5.5万米，下一批化验约3—4周可验证东、南扩展。首次资源量和PEA仍要等2026—2027钻探及冶金结果，当前长区间截获只能扩大供给管线，不能计入可采储量或产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Anthony Moreau",
+        "background": "CEO of American Eagle Gold; interview also includes exploration lead Neil Prowse"
+      },
+      "companies": [
+        "American Eagle Gold"
+      ],
+      "projects": [
+        "NAK"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/silver-stocks/silver-mine-in-china-generating-cash-flow-but-can-they-execute-on-growth/",
+      "metal_tags": [
+        "silver",
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Silvercorp管理层预计Ying矿区当月恢复至约70%、9月恢复至100%，但GC仍没有确定复产日期。",
+          "evidence": "Resource Talks 2026年8月29日访谈页面摘要和正文直接记录中国运营恢复进度和GC复产不确定性。",
+          "source_url": "https://resourcetalks.com/silver-stocks/silver-mine-in-china-generating-cash-flow-but-can-they-execute-on-growth/",
+          "evidence_type": "direct interview page transcript and synopsis",
+          "period": "2026-08-29 interview; current month and September 2026",
+          "unit": "percent; mine restart status",
+          "value": "70%; 100%; GC no firm restart date"
+        },
+        {
+          "claim": "Silvercorp截至6月有3.87亿美元现金及约2亿至2.2亿美元未提款额度，El Domo目标2027年投产，Tulkubash目标2027年末首矿，Kyzyltash计划2027年PEA和2028年可研。",
+          "evidence": "Resource Talks访谈页面直接列出现金、信贷额度和多个项目的运营及研究节点；Silvercorp官网可核对公司资产和安全整改背景。",
+          "source_url": "https://resourcetalks.com/silver-stocks/silver-mine-in-china-generating-cash-flow-but-can-they-execute-on-growth/",
+          "evidence_type": "direct interview page transcript with official company context",
+          "period": "2026-06 balance; 2027-2028 project timeline",
+          "unit": "USD; calendar year",
+          "value": "387 million cash; 200-220 million undrawn credit; 2027; 2028"
+        }
+      ],
+      "publish_date": "2026-08-29",
+      "title": "Resource Talks访谈：Silvercorp中国复产与海外金银项目并行推进",
+      "source_type": "youtube",
+      "summary": "Resource Talks 8月29日采访Silvercorp Metals总裁Lon Shaver，介绍Ying和GC安全整改后的复产进度、现金与信贷，以及El Domo、Tulkubash和Kyzyltash的建设与研究节点。",
+      "detail": "访谈页面直接显示2026年8月29日、嘉宾身份和Ying、GC、El Domo、Tulkubash、Kyzyltash的运营与开发信息。Silvercorp官网及其6月29日中国运营公告可核对安全整改造成的停产背景；访谈中的70%和100%为管理层目标，GC无确定日期，海外项目时间为公司计划，均不等同已实现供给。",
+      "importance": "Silvercorp的短期白银供给先受中国安全停产拖累：Ying仅计划在当月恢复到约70%、9月再到100%，GC仍无确定复产日期，故现金流改善不能直接等同产量恢复。公司同时以3.87亿美元现金和约2亿—2.2亿美元未提款额度推进El Domo、Tulkubash和Kyzyltash，2027—2028年的项目节点提供中期补偿，但审批、建设和潜在股权融资仍会改变兑现速度。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Lon Shaver",
+        "background": "President of Silvercorp Metals"
+      },
+      "companies": [
+        "Silvercorp Metals"
+      ],
+      "projects": [
+        "Ying Mining District",
+        "GC Mine",
+        "El Domo",
+        "Tulkubash",
+        "Kyzyltash"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.newsfilecorp.com/release/312013/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Santo Domingo银金项目Measured and Indicated资源量为566万吨，平均品位79克/吨银和0.42克/吨金，含银1430万盎司、金7.6万盎司或约2000万盎司银当量。",
+          "evidence": "Newsfile发布的Silver Hammer与Stroud公告正文直接列出更新MRE的吨位、品位和含金属量。",
+          "source_url": "https://www.newsfilecorp.com/release/312013/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "MRE effective 2026-08-21; release 2026-08-28 EDT",
+          "unit": "metric tonnes; grams per tonne; million and thousand troy ounces",
+          "value": "5.66 million tonnes; 79 g/t Ag; 0.42 g/t Au; 14.3 Moz Ag; 76 koz Au; 20 Moz AgEq"
+        },
+        {
+          "claim": "更新MRE的Inferred资源量为390万吨，含银830万盎司、金3.6万盎司或约1100万盎司银当量，预计银回收率最高86%、金回收率最高95%。",
+          "evidence": "Newsfile公告正文直接列出Inferred资源量、含金属量和预计回收率。",
+          "source_url": "https://www.newsfilecorp.com/release/312013/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "MRE effective 2026-08-21",
+          "unit": "metric tonnes; troy ounces; percent recovery",
+          "value": "3.9 million tonnes; 8.3 Moz Ag; 36 koz Au; 11 Moz AgEq; 86%; 95%"
+        }
+      ],
+      "publish_time": "2026-08-29T06:51:00+08:00",
+      "source": "Silver Hammer Mining / Newsfile",
+      "title": "Silver Hammer与Stroud更新墨西哥Santo Domingo银金项目矿产资源量",
+      "excerpt": "Silver Hammer与Stroud公告称，Santo Domingo更新MRE的有效日期为2026年8月21日：Measured and Indicated资源量为566万吨，平均品位79克/吨银和0.42克/吨金，含银1430万盎司、金7.6万盎司或约2000万盎司银当量；Inferred资源量为390万吨，含银830万盎司、金3.6万盎司或约1100万盎司银当量。公告预计银回收率最高86%、金回收率最高95%。",
+      "language": "en",
+      "interpretation": "这是资源量更新，不是新增矿山产量；公告说明更新采用更严格和现代的地质与资源建模方法，报告含金属量相较2017年版本下降，但技术基础更稳健。资源量按地下采矿参数和90美元/吨盈亏平衡NSR cut-off报告，后续PEA、冶金、许可和融资决定其能否转化为可交付供给。",
+      "importance": "这份MRE把Santo Domingo推进到可评估经济性的技术基线：5.7Mt的Measured+Indicated资源和20Moz AgEq为后续PEA提供规模，地下NSR盈亏平衡阈值为US$90/t则把资源与潜在采矿路径连接起来。相比2017年资源量，报告的含金属量反而下降，说明“资源增加”不是结论；下一步要验证冶金、许可、资本和资源能否转化为产量。",
+      "verification_status": "verified",
+      "verification_note": "",
+      "companies": [
+        "Silver Hammer Mining",
+        "Stroud Resources"
+      ],
+      "projects": [
+        "Santo Domingo Silver-Gold Project"
+      ]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily节目列表：https://www.miningstockdaily.com/episodes；HTTP 200，按2026-08-27至29北京时间窗口检查，页面最新节目日期为8月27日，未发现窗口内新的不重复合格节目。",
+      "Resource Talks首页及2026-08-29日期页：https://resourcetalks.com/；HTTP 200，发现Aura、NAK、Rabbit North和Silvercorp等窗口内页面；Rabbit North与2026-08-28日报的Tower访谈实质重复，未重复纳入。",
+      "Resource Talks Aura访谈：https://resourcetalks.com/gold-stocks/heap-leach-gold-in-nevada-but-can-they-build-it-on-schedule/；HTTP 200，核对标题、2026-08-29日期、Darcy Marud身份、Doby George/Gravel Creek时间表和项目事实；页面未标为赞助内容，但包含利益冲突警示。",
+      "Resource Talks NAK访谈：https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/；HTTP 200，核对标题、日期、Anthony Moreau和Neil Prowse身份、55000米钻探、现金、资源计划和化验时间；页面明确标注SPONSORED CONTENT及付费制作警示。",
+      "Resource Talks Silvercorp访谈：https://resourcetalks.com/silver-stocks/silver-mine-in-china-generating-cash-flow-but-can-they-execute-on-growth/；HTTP 200，核对标题、日期、Lon Shaver身份、中国复产进度、现金信贷及海外项目节点；页面包含利益冲突警示。",
+      "Western Exploration官网：https://westernexploration.com/home/default.aspx；Playwright HTTP 200，核对Aura项目、资源构成、Doby George矿山计划公告和Gravel Creek项目身份。",
+      "American Eagle Gold官网：https://americaneaglegold.ca/；HTTP 200，核对NAK项目、2026年钻探计划、现金及新闻入口；8月25日钻孔和8月27日土地扩展公告直接打开核对。",
+      "Silvercorp官网：https://silvercorpmetals.com/；HTTP 200，核对公司资产、2026年8月28日企业演示入口和中国安全整改背景；6月29日中国运营公告直接打开核对停产原因。",
+      "YouTube动态检索：gold/silver/copper mining interview August 29 2026；读取结果和视频元数据，排除一般财经节目、价格评论、窗口外视频及与Tower/Selkirk等最近日报重复的访谈。",
+      "会议日历入口逐项检查：PDAC、Denver Gold Forum、Precious Metals Summit、Mines and Money、Mining Indaba、Future Minerals Forum、Diggers & Dealers、CRU/CESCO、LME Week、China Mining、China Gold、Deutsche Goldmesse、Rule Symposium、AME Roundup及The Northern Miner；未发现窗口内新的可核验不重复目标访谈。"
+    ],
+    "part1_result": "Part 1完成2026-08-27至2026-08-29北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检索。纳入Resource Talks的Western Exploration、American Eagle Gold和Silvercorp三条访谈；Tower Rabbit North与上一日报重复，其他价格评论、非目标金属、窗口外和无可靠正文候选排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe scripts/daily_pipeline.py 2026-08-29 --collect-x，内部调用当前 scripts/x_search.py；严格按Playwright优先顺序完成采集。",
+      "Playwright使用项目内持久化会话按注册表顺序串行处理53个账号，53/53完成、0失败；完整成功后未启动twscrape。",
+      "原始候选保存至x_outputs/2026-08-29_x_raw_materials.txt及x_outputs/2026-08-29_x_raw_materials.json，共8条；逐条保留作者、handle、正文、北京时间发布时间和原帖URL。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号，未触发twscrape；获得8条原始候选。候选均为价格或宏观评论、脱离上下文回复、空泛标题或已覆盖事件链接，按标准排除0条信号。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright按注册表顺序完成53/53；完整成功后未启动twscrape。",
+        "原始材料8条，纳入0条；raw materials和JSON sidecar按2026-08-29日期保留。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页Playwright主路径：https://www.mining.com/commodity/copper/；指定Python 3.13.12、Chrome headless、反检测参数，HTTP 200，body_chars=5825，报告日文章数0，完整空结果。",
+      "Mining.com黄金分类页Playwright辅助路径：https://www.mining.com/commodity/gold/；HTTP 200，body_chars=5805，报告日文章数0，完整空结果。",
+      "Mining.com白银分类页Playwright辅助路径：https://www.mining.com/commodity/silver/；HTTP 200，body_chars=5628，报告日文章数0，完整空结果。",
+      "因铜分类页未获得合格铜候选，按工作流执行Google备用查询：site:mining.com copper Aug 29 2026；HTTP 200但返回unusual-traffic挑战页，无可用命中。",
+      "Google备用查询：site:mining.com gold Aug 29 2026；HTTP 200但返回unusual-traffic挑战页，无可用命中。",
+      "Google备用查询：site:mining.com silver Aug 29 2026；HTTP 200，返回日文结果页，结果为2026年1月至2月旧文章，无2026-08-29合格命中。",
+      "Northern Miner首页：https://www.northernminer.com/；HTTP 200，最新目标矿业新闻为2026-08-28，未发现8月29日新的金银铜供需文章。",
+      "Kitco Mining News：https://www.kitco.com/news/category/mining；HTTP 200，最新矿业文章为2026-08-28，未发现8月29日新的金银铜供需文章；纯价格和重复报道排除。",
+      "Newsfile首页：https://www.newsfilecorp.com/；HTTP 200，检查最新发行列表；Silver Hammer/Stroud公告显示2026-08-28 6:51 PM EDT，换算为北京时间2026-08-29 06:51，进入报告窗口。",
+      "入选新闻逐篇核验：https://www.newsfilecorp.com/release/312013/；HTTP 200，直接核对标题、发行主体、2026-08-28 6:51 PM EDT时间、MRE有效日期、吨位、品位、含金属量、回收率和NSR口径。",
+      "发行方页面：https://silverhammermining.com/news-releases/2026/；HTTP 200，核对2026年8月28日公告条目及官方PDF链接；官方PDF：https://silverhammermining.com/site/assets/files/6171/hamr_nr_santo_domingo_mre-tr_update_aug28_2026_final.pdf。",
+      "Mining Weekly与Mining Journal首页分别检查；最新可见相关矿业内容为8月28日前后，未形成8月29日窗口内新的可核验金银铜事件。",
+      "中文检索：360执行2026年8月29日金矿产量、白银矿山、铜矿产量、铜精矿供需及金银铜矿业查询；结果主要为旧资料、价格/宏观内容、聚合页或无直接正文。百度返回安全验证，搜狗返回挑战页，未将摘要作为证据。",
+      "SMM页面检查：https://hq.smm.cn/copper、https://hq.smm.cn/h5/copper-ore-data、https://www.smm.cn/和https://news.smm.cn/；公开页面可访问，但未发现报告日新的可核验金银铜实体供需事件；铜精矿指数不作为日报新闻卡片。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-29全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、铜候选触发的Google site备用查询、英文矿业媒体、公司公告、中文搜索、候选逐篇核验和跨日去重。本期纳入1条新闻：白银1条；金和铜未发现新的可核验新闻。",
+    "mining_com_source_note": "Mining.com铜分类页指定Python 3.13.12 + Chromium headless Playwright主路径HTTP 200并提取0篇报告日文章；黄金和白银辅助分类页分别提取0篇。因未获得合格铜候选，执行Google site:mining.com铜、金、银三组备用查询；铜和金遇unusual-traffic，白银结果为旧文章，均未作为证据。未使用sitemap、Wayback Machine或RSS。",
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": "3条Resource Talks访谈页、Western Exploration官网、American Eagle Gold官网及新闻页、Silvercorp官网及公告、Silver Hammer发行方页与Newsfile公告均已直接打开并核对标题/日期、主体和核心事实；入选信号全部标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/gold-stocks/new-gold-discovery-between-two-major-mines-but-is-it-continuous/",
+      "https://www.youtube.com/watch?v=kI8I2U2jUds",
+      "https://www.miningstockdaily.com/episodes/morning-briefing-boliden-acquires-controlling-stake-in-nexa-resources"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/Frank_Giustra/status/2093384434427019439"
+    ],
+    "part3_deduped_events": [
+      "Tower Rabbit North访谈与2026-08-28日报已有同一事件和同一YouTube内容，排除重复广播。",
+      "Frank Giustra X帖子的Mocoa 771米钻探链接与前日报已覆盖事件重复，且原帖没有新增事实。",
+      "Mining.com铜、金、银分类页本期均无报告日文章；Google site备用查询未发现窗口内合格候选。",
+      "Kitco、Northern Miner、中文搜索和SMM结果中的价格复述、旧文章、聚合页和泛宏观内容不构成新的金银铜实体供需事件。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；许可目标、公司计划、钻探结果、资源量和预计回收率按来源口径区分，未将资源量或访谈目标写成已实现产量。"
+  }
+}
