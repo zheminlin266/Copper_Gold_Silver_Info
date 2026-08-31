@@ -1,0 +1,53 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-30",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [
+    {
+      "channel": "twscrape",
+      "error": "twscrape is not installed"
+    }
+  ],
+  "accounts_total": 53,
+  "accounts_completed": 52,
+  "accounts_failed": 1,
+  "channel_completed_accounts": {
+    "playwright": 52
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-9346e57072c2375b66d2390c",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-08-30T13:39:29+00:00",
+      "text": "You know better than me, my friend. I do know that the junior mining stocks were on fire and I was making more money, more quickly, than at any other point in my career. \n\nAnd that was a very weird feeling when just about every other aspect of my life had been tossed in the air.",
+      "url": "https://x.com/Brien_Lundin/status/2094057420293095546",
+      "collector": "x_search",
+      "report_date": "2026-08-30",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-silverguru22",
+      "handle": "silverguru22",
+      "author": "David Morgan",
+      "error": "tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52
+    },
+    "channel_errors": [
+      "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+  }
+}

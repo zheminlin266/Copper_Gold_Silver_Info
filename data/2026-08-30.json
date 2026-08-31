@@ -1,0 +1,379 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-30",
+  "report_time": "2026-08-31T08:21:44+08:00",
+  "summary": "黄金：Chifeng上半年产量构成现实供给，Radisson与MIDROC扩张项目增加中期供给选项，短期增量有限。白银：Los Ricos South建设推进，远期供给增加，短期新增产量仍有限。铜：Oroco与Gladiator勘探和开发管线推进，实际增量仍待资源、许可和建设兑现。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-28T00:00:00+08:00",
+      "end": "2026-08-30T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-30T00:00:00+08:00",
+      "end": "2026-08-30T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-30T00:00:00+08:00",
+      "end": "2026-08-30T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://resourcetalks.com/uncategorized/agnico-invests-57m-in-quebec-gold-project-but-is-it-enough-to-de-risk-it/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Agnico Eagle以5720万加元认购5342万单位，每单位1.07加元，另附半份1.39加元五年期认股权证；持股为10.45%未摊薄、行权后最高14.9%。",
+          "evidence": "Resource Talks访谈页面的TL;DR和正文直接披露融资金额、单位数量、价格、权证和持股比例。",
+          "source_url": "https://resourcetalks.com/uncategorized/agnico-invests-57m-in-quebec-gold-project-but-is-it-enough-to-de-risk-it/",
+          "evidence_type": "direct interview page transcript and synopsis",
+          "period": "2026-08-28 interview; placement announced immediately before interview",
+          "unit": "CAD; units; percent ownership",
+          "value": "C$57.2 million; 53.42 million units at C$1.07; 10.45%; up to 14.9%"
+        },
+        {
+          "claim": "O'Brien项目资源约230万盎司金，约60万盎司为Indicated、170万盎司为Inferred；公司运行八台钻机推进14万米钻探。",
+          "evidence": "Resource Talks页面正文直接列出资源分类、钻探总量和钻机数量。",
+          "source_url": "https://resourcetalks.com/uncategorized/agnico-invests-57m-in-quebec-gold-project-but-is-it-enough-to-de-risk-it/",
+          "evidence_type": "direct interview page transcript",
+          "period": "2026 interview; current exploration program",
+          "unit": "troy ounces; metres; drill rigs",
+          "value": "2.3 million oz; 0.6 million indicated; 1.7 million inferred; 140000 m; 8 rigs"
+        }
+      ],
+      "publish_date": "2026-08-28",
+      "title": "Resource Talks：Agnico以5720万加元投资推进Radisson O'Brien金项目",
+      "source_type": "youtube",
+      "summary": "Resource Talks采访Radisson Mining CEO Matthew Manson，介绍Agnico Eagle以5720万加元战略投资取得10.45%未摊薄权益，并为O'Brien项目地下勘探斜坡道和持续钻探提供资金。",
+      "detail": "访谈页面显示2026年8月28日发布并标注赞助内容。Agnico Eagle认购5342万单位，配套行权价1.39加元的半份认股权证；资金指定用于地下勘探斜坡道，现有资金继续支持14万米地表钻探。页面披露O'Brien资源约230万盎司金，其中约60万盎司为Indicated、170万盎司为Inferred；斜坡道需要新许可，项目仍处于PEA阶段。",
+      "importance": "这笔5720万加元战略资金把O'Brien从地表勘探推进到地下连续性验证，未来约三年的斜坡道和采掘巷道可直接检验窄脉金矿的连续性、采矿宽度与稀释率。230万盎司资源和14万米钻探扩大了供给管线，但新地下许可、地质条件和后续可研仍是兑现门槛，资金到账不等同生产决策。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Matthew Manson",
+        "background": "CEO of Radisson Mining"
+      },
+      "companies": [
+        "Radisson Mining",
+        "Agnico Eagle"
+      ],
+      "projects": [
+        "O'Brien Project"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/silver-stocks/building-a-silver-mine-in-mexico-but-can-costs-stay-under-control/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "GoGold已取得Los Ricos South最终SEMARNAT许可并开始建设；首浇目标为开工后24个月，全面商业化生产目标再晚约6个月。",
+          "evidence": "Resource Talks访谈页面正文直接披露开工、许可、建设进度和生产时间表。",
+          "source_url": "https://resourcetalks.com/silver-stocks/building-a-silver-mine-in-mexico-but-can-costs-stay-under-control/",
+          "evidence_type": "direct interview page transcript and synopsis",
+          "period": "2026-08-28 interview; 24 and 30 months after construction start",
+          "unit": "construction milestone; months",
+          "value": "construction started; first pour in 24 months; commercial production about 6 months later"
+        },
+        {
+          "claim": "Los Ricos South设计年产720万盎司银当量，全包成本低于每盎司12美元；通胀调整后资本开支约2.6亿美元，已支出约700万至800万美元。",
+          "evidence": "Resource Talks页面正文和TL;DR直接列出银当量产能、成本和资本开支口径。",
+          "source_url": "https://resourcetalks.com/silver-stocks/building-a-silver-mine-in-mexico-but-can-costs-stay-under-control/",
+          "evidence_type": "direct interview page transcript and synopsis",
+          "period": "2026 development plan",
+          "unit": "silver-equivalent ounces per year; USD per ounce; USD capex",
+          "value": "7.2 million oz AgEq/year; under US$12/oz; approximately US$260 million; US$7-8 million spent"
+        }
+      ],
+      "publish_date": "2026-08-28",
+      "title": "Resource Talks：GoGold推进Los Ricos South银金矿建设",
+      "source_type": "youtube",
+      "summary": "Resource Talks采访GoGold Resources CEO Brad Langille，介绍Los Ricos South已开工建设、24个月首浇目标、预计年产720万盎司银当量，以及Parral现金流对建设资金的支持。",
+      "detail": "访谈页面显示2026年8月28日发布并标注赞助内容。GoGold称已取得最终SEMARNAT许可并开始土建，详细工程完成约85%，地下采矿合同已授予；Los Ricos South设计年产720万盎司银当量、全包成本低于每盎司12美元，首浇目标为开工后24个月，商业化生产再需约6个月。公司期末现金约2.84亿美元、无债务，通胀调整后资本开支约2.6亿美元，已支出约700万至800万美元。",
+      "importance": "Los Ricos South已从许可阶段进入建设，720万盎司银当量的年度设计产能有明确首浇时间表，供给兑现度高于单纯资源或钻探项目。剩余资本开支约2.5亿美元、地下工程和墨西哥成本通胀决定2028年前后的产能能否落地；Parral约四年储量寿命也使新矿投产对公司持续供给十分关键。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Brad Langille",
+        "background": "CEO of GoGold Resources"
+      },
+      "companies": [
+        "GoGold Resources"
+      ],
+      "projects": [
+        "Los Ricos South",
+        "Los Ricos North",
+        "Parral"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EoyOQJ7ftkE",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Santa Tomas资源量约11亿吨、平均品位0.37% CuEq；项目PEA设定年产10万吨铜、23年矿山寿命。",
+          "evidence": "YouTube视频说明和自动字幕直接披露资源量、品位、PEA产能及矿山寿命。",
+          "source_url": "https://www.youtube.com/watch?v=EoyOQJ7ftkE",
+          "evidence_type": "direct YouTube interview transcript and description",
+          "period": "2026-08-29 Beijing publication; 2024 PEA and current project description",
+          "unit": "tonnes; copper-equivalent grade; tonnes copper per year; years",
+          "value": "1.1 billion tonnes; 0.37% CuEq; 100000 t copper/year; 23 years"
+        },
+        {
+          "claim": "Phase 2钻探为约2万米，主要用于把South Zone资源从Inferred升级到Indicated，PFS目标为2027年中。",
+          "evidence": "自动字幕直接记录钻探目的、米数、资源升级路径和PFS时间表。",
+          "source_url": "https://www.youtube.com/watch?v=EoyOQJ7ftkE",
+          "evidence_type": "direct YouTube interview transcript",
+          "period": "2026 drilling program; mid-2027 study target",
+          "unit": "metres; resource classification; calendar milestone",
+          "value": "approximately 20000 m; inferred to indicated; mid-2027 PFS"
+        }
+      ],
+      "publish_date": "2026-08-29",
+      "title": "The Deep Dive访谈：Oroco Resource推进Santa Tomas铜项目PFS",
+      "source_type": "youtube",
+      "summary": "The Deep Dive采访Oroco Resource CEO Charles Cryer，介绍Santa Tomas 11亿吨铜资源、PEA年产10万吨铜和23年矿山寿命，以及升级南部资源并在2027年中完成PFS的路径。",
+      "detail": "YouTube页面元数据显示视频于2026年8月28日美国太平洋时间发布，换算为8月29日北京时间。字幕和视频说明披露Santa Tomas为PFS阶段的大型铜项目，资源量约11亿吨、平均0.37% CuEq；2024年PEA设定年产10万吨铜、23年矿山寿命，当前约2万米Phase 2钻探用于把South Zone从Inferred升级到Indicated，PFS目标为2027年中。",
+      "importance": "Santa Tomas的11亿吨资源和年产10万吨铜的PEA规模，使其成为可对接长期供应缺口的大型项目管线，当前2万米升级钻探正在把资源从地质潜力推向PFS所需的工程基础。首个关键节点是2027年中PFS，资本开支、许可和墨西哥项目执行仍决定这项远期供给能否兑现，PEA产能不能当作近期产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Charles Cryer",
+        "background": "CEO of Oroco Resource Corp."
+      },
+      "companies": [
+        "Oroco Resource Corp."
+      ],
+      "projects": [
+        "Santa Tomas Copper Project"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=k21ZN79JAuQ",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gladiator计划在2026—2027年进行超过10万米钻探，并已完成3504万加元机构私募，勘探预算超过4000万加元。",
+          "evidence": "YouTube视频说明直接披露配售金额、计划钻探规模和资金覆盖范围。",
+          "source_url": "https://www.youtube.com/watch?v=k21ZN79JAuQ",
+          "evidence_type": "direct YouTube interview description",
+          "period": "2026-08-29 Beijing publication; 2026-2027 exploration campaign",
+          "unit": "CAD; metres; CAD budget",
+          "value": "C$35.04 million; more than 100000 m; more than C$40 million"
+        },
+        {
+          "claim": "Whitehorse Copper Belt长约35公里，重力和IP地球物理用于识别Cowley、Cub East及其他铜靶区，项目仍处于资源量公布前的勘探阶段。",
+          "evidence": "自动字幕直接记录矿带长度、地球物理方法、靶区和项目阶段。",
+          "source_url": "https://www.youtube.com/watch?v=k21ZN79JAuQ",
+          "evidence_type": "direct YouTube interview transcript",
+          "period": "2026 interview; ongoing exploration",
+          "unit": "kilometres; geophysical methods; project stage",
+          "value": "35 km; gravity and IP; pre-resource exploration"
+        }
+      ],
+      "publish_date": "2026-08-29",
+      "title": "Resource Stock Digest访谈：Gladiator推进Whitehorse Copper Belt勘探",
+      "source_type": "youtube",
+      "summary": "Resource Stock Digest采访Gladiator Metals CEO Jason Bontempo，介绍Yukon Whitehorse Copper Belt的Cowley和Cub East勘探、地球物理靶区、2026—2027年超过10万米钻探及3504万加元融资。",
+      "detail": "YouTube元数据显示视频于2026年8月28日美国太平洋时间发布，换算为8月29日北京时间。字幕和说明披露Whitehorse Copper Belt长约35公里，公司已完成Class 3勘探许可并以重力和IP地球物理识别Cub靶区；2026—2027年计划超过10万米钻探，2026年7月完成3504万加元机构配售，勘探预算超过4000万加元。",
+      "importance": "Gladiator把融资、许可和超过10万米钻探组合成连续的铜资源定义管线，后续Cowley、Cub East与Best Chance的钻探结果将决定35公里矿带能否从多个靶区形成可估算资源。当前公司仍处于资源前阶段，资金可延长勘探周期却不能替代品位连续性、资源量、冶金和许可验证。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Jason Bontempo",
+        "background": "CEO of Gladiator Metals"
+      },
+      "companies": [
+        "Gladiator Metals"
+      ],
+      "projects": [
+        "Whitehorse Copper Project",
+        "Whitehorse Copper Belt",
+        "Cowley",
+        "Cub East",
+        "Best Chance"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://finance.biggo.com/news/2b3178d0-1318-4a6e-96b3-2108bff7a117",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Chifeng Gold 2026年上半年产金6.2吨、生产电解铜5399吨。",
+          "evidence": "BigGo Finance可打开页面直接列出2026年上半年黄金和电解铜产量，并将数据归属于公司业绩披露。",
+          "source_url": "https://finance.biggo.com/news/2b3178d0-1318-4a6e-96b3-2108bff7a117",
+          "evidence_type": "accessible secondary earnings report",
+          "period": "six months ended 2026-06-30",
+          "unit": "metric tonnes of gold and electrolytic copper",
+          "value": "6.2 tonnes gold; 5399 tonnes electrolytic copper"
+        },
+        {
+          "claim": "上半年归母净利润为人民币17.3亿元，同比增长56.50%；营业收入为人民币70.2亿元，同比增长33.11%。",
+          "evidence": "BigGo Finance页面直接列出归母净利润、营业收入及同比变化。",
+          "source_url": "https://finance.biggo.com/news/2b3178d0-1318-4a6e-96b3-2108bff7a117",
+          "evidence_type": "accessible secondary earnings report",
+          "period": "first half of 2026 vs first half of 2025",
+          "unit": "RMB; percent",
+          "value": "RMB1.73 billion; +56.50%; RMB7.02 billion; +33.11%"
+        }
+      ],
+      "publish_time": "2026-08-30T12:35:25+00:00",
+      "source": "BigGo Finance",
+      "title": "金价推动赤峰黄金上半年归母净利润同比增长56.5%",
+      "excerpt": "BigGo Finance报道，Chifeng Gold 2026年上半年归属于股东的净利润为人民币17.3亿元，同比增长56.50%；上半年产金6.2吨、电解铜5399吨。",
+      "language": "en",
+      "interpretation": "这是实际产量与财务结果并列的供给信息：6.2吨黄金和5399吨电解铜是2026年上半年的产出，利润增速主要受高金价、成本控制和经营效率影响，不能把利润增长解释成产量同比增长。报道同时称资本开支为人民币14.1亿元、同比增长45.43%，可能支持未来产能或勘探，但尚未给出新增产量时间表。",
+      "importance": "该结果显示高金价已显著改善矿企现金生成，却没有证据表明供给同步加速：上半年产金6.2吨、产铜5399吨是当前供给基数，归母净利润增速56.5%高于收入增速33.11%。资本开支同比增加45.43%是中期扩张线索，后续需跟踪项目投产和全年产量指引，不能用盈利增速替代实物供给增长。",
+      "verification_status": "verified",
+      "companies": [
+        "Chifeng Gold / Chifeng Jilong Gold Mining Group"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://birrmetrics.com/midroc-gold-signs-deal-with-austrian-firm-for-new-processing-plant/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "MIDROC Gold Mine Co.与奥地利CEMETC GmbH签署设备协议，为埃塞俄比亚Metekel Zone金处理厂制造、安装和交付设备。",
+          "evidence": "Birr Metrics文章正文直接列出协议双方、设备供应范围和项目位置。",
+          "source_url": "https://birrmetrics.com/midroc-gold-signs-deal-with-austrian-firm-for-new-processing-plant/",
+          "evidence_type": "accessible industry news report",
+          "period": "2026-08-30 publication; delivery expected within one year",
+          "unit": "equipment supply agreement; calendar time",
+          "value": "MIDROC Gold and CEMETC; one-year delivery expectation"
+        },
+        {
+          "claim": "新处理厂设计年处理125万吨含金矿石，设备预计在一年内完成交付。",
+          "evidence": "Birr Metrics文章正文直接列出处理能力和交付时间。",
+          "source_url": "https://birrmetrics.com/midroc-gold-signs-deal-with-austrian-firm-for-new-processing-plant/",
+          "evidence_type": "accessible industry news report",
+          "period": "2026 agreement; one-year delivery target",
+          "unit": "metric tonnes of gold-bearing ore per year; calendar time",
+          "value": "1.25 million tonnes/year; within one year"
+        }
+      ],
+      "publish_time": "2026-08-30T08:37:22+00:00",
+      "source": "Birr Metrics",
+      "title": "MIDROC Gold与奥地利企业签署新金矿处理厂设备协议",
+      "excerpt": "Birr Metrics报道，MIDROC Gold Mine Co.与奥地利CEMETC GmbH签署设备供应协议，为埃塞俄比亚Benishangul-Gumuz地区Metekel Zone金矿处理厂提供设备；处理能力为每年125万吨含金矿石，预计一年内交付完成。",
+      "language": "en",
+      "interpretation": "协议针对矿石处理能力和设备交付，并未公布金品位、回收率、精炼金产量或已投产日期，因此125万吨/年是处理厂设计能力，不是新增黄金产量。若设备按期交付并有足够矿石供给，旧设备升级可能提高MIDROC未来的处理吞吐量。",
+      "importance": "这项协议增加的是埃塞俄比亚金矿的中期处理基础设施，125万吨/年和一年交付目标给出了可追踪的产能与时间锚点。它尚未改变即时黄金供给，后续必须验证设备交付、安装调试、矿石供给和实际回收率，才能判断处理能力能否转化为金属产量。",
+      "verification_status": "verified",
+      "companies": [
+        "MIDROC Gold Mine Co.",
+        "CEMETC GmbH"
+      ],
+      "projects": [
+        "Metekel Zone gold processing plant"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily节目列表与窗口检索：检查2026-08-28至30北京时间节目，未发现新的可核验不重复访谈。",
+      "Resource Talks首页及2026-08-28日期内容：直接打开Radisson和GoGold页面，核对标题、日期、嘉宾、页面正文、赞助标识和项目事实。",
+      "Resource Talks 2026-08-29内容及YouTube检索：核对Oroco和Gladiator视频标题、发布时间、字幕、视频说明和嘉宾身份；American Eagle、Impact Silver和Selkirk与前两日报实质重复，未重复纳入。",
+      "Bravo Mining YouTube页面及官方新闻稿：https://www.youtube.com/watch?v=LA2YSWcq7hE；https://bravomining.com/investors/news-releases/bravo-intercepts-high-grade-magmatic-sulphide-ni-cu-pgm-mineralization-at-luanga/；直接核对字幕、2026-08-24官方钻探结果和IP调查。",
+      "The Northern Miner K2 Gold页面：https://www.northernminer.com/promoted-content/sponsored-video-k2-gold-in-california/1003894406/；HTTP 200，核对2026-08-27日期、Anthony Margarit、Mojave和钻探结果主题；视频逐字稿未取得，卡片仅保留页面可证内容。",
+      "YouTube自动字幕原始材料：Oroco、Gladiator和Bravo字幕提取并保存于.runtime，未以标题推断缺失观点。",
+      "会议日历入口：按PDAC、Denver Gold Forum、Precious Metals Summit、Mines and Money、Mining Indaba、Future Minerals Forum、Diggers & Dealers、CRU/CESCO、LME Week、China Mining、China Gold、Deutsche Goldmesse、Rule Symposium和AME Roundup检查窗口内会议内容，未发现新的可核验不重复访谈。"
+    ],
+    "part1_result": "Part 1完成2026-08-28至2026-08-30北京时间72小时访谈、Podcast、Webcast、YouTube和会议入口检索。纳入Radisson、GoGold、Oroco和Gladiator四条；前日报已有的American Eagle、Impact Silver、Selkirk和Tower内容按实质重复排除；Bravo和K2页面虽已核验，但发布时间为8月27日，早于本报告Part 1窗口。",
+    "part2_searched": false,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行Python 3.13.12 scripts/x_search.py 2026-08-30 --headless，按Playwright -> twscrape顺序尝试。",
+      "原始材料保存至x_outputs/2026-08-30_x_raw_materials.txt及x_outputs/2026-08-30_x_raw_materials.json；Playwright完成52/53个账号，发现1条原始候选。"
+    ],
+    "part2_result": "X采集partial：Playwright完成52/53个账号，原始候选1条；twscrape不可用，原因是twscrape is not installed；@silverguru22因1条推文文本为空失败。Brien Lundin原帖为初级矿业股上涨和个人收益评论，纳入0条。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 52,
+      "accounts_failed": 1,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "twscrape: twscrape is not installed",
+        "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+      ],
+      "notes": [
+        "Playwright完成52/53个账号；twscrape不可用，未将失败静默改写为零结果。",
+        "失败账号为@silverguru22（David Morgan）；原始候选、账号数、失败原因和sidecar审计均保留。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页Playwright主路径：https://www.mining.com/commodity/copper/；指定Python 3.13.12、Chromium headless和反检测参数，采集状态success_empty，报告日文章数0。",
+      "Mining.com黄金分类页Playwright辅助路径：https://www.mining.com/commodity/gold/；采集状态success_empty，报告日文章数0。",
+      "Mining.com白银分类页Playwright辅助路径：https://www.mining.com/commodity/silver/；采集状态success_empty，报告日文章数0。",
+      "Google News英文和中文动态检索：执行gold/silver/copper/mining/production及公司项目日期查询，使用结果发现候选后逐篇打开原始或最接近原始页面，未将搜索摘要单独作为证据。",
+      "BigGo Finance：https://finance.biggo.com/news/2b3178d0-1318-4a6e-96b3-2108bff7a117；HTTP 200，核对2026-08-30发布时间、Chifeng上半年金铜产量、利润、收入和资本开支。",
+      "Birr Metrics：https://birrmetrics.com/midroc-gold-signs-deal-with-austrian-firm-for-new-processing-plant/；HTTP 200，核对2026-08-30发布时间、MIDROC/CEMETC协议、Metekel处理厂125万吨/年设计能力和一年交付目标。",
+      "窗口和时区复核：B2Gold GlobeNewswire公告为2026-08-28T20:32Z（北京时间8月29日），Avanti Gold为2026-08-30 17:00 EDT（北京时间8月31日05:00），均不属于Part 3；Silver Bullet原始稿为8月26日，China Gold官方事件为8月17日，ScanX的Soma/Hindustan页面为旧日期，均排除。",
+      "受限来源记录：DirectorsTalk返回HTTP 403，Streetwise Reports返回HTTP 406，TipRanks部分页面返回HTTP 403；未将受限摘要补写为已核验事实。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-30北京时间全天英文和中文来源检索、Mining.com三类分类页采集、日期换算、逐篇核验和跨日去重。本期纳入2条新闻：黄金2条；Chifeng同时涉及上半年电解铜实际产量；白银未发现新的Part 3新闻。",
+    "mining_com_source_note": "Mining.com铜、金、银分类页均按强制Playwright路径完成采集并返回success_empty，报告日文章数均为0；未以Google site搜索替代铜分类页主路径。",
+    "url_verification": {
+      "checked": 8,
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "notes": "6条访谈页面/视频、BigGo Finance和Birr Metrics均已直接打开并核对标题、日期、主体及卡片所用核心事实；所有入选信号标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/",
+      "https://www.youtube.com/watch?v=gAub34PmtLw",
+      "https://www.youtube.com/watch?v=EVLPaUGf5Xc",
+      "https://www.youtube.com/watch?v=sEyT9WPM5Bo",
+      "https://www.youtube.com/watch?v=kI8I2U2jUds"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "B2Gold Masbate公告虽已核验，但发布时间换算为北京时间2026-08-29，不在本报告Part 3窗口。",
+      "Avanti Gold Newsfile公告发布时间为2026-08-30 17:00 EDT，即北京时间2026-08-31 05:00，不在本报告Part 3窗口。",
+      "Silver Bullet原始公告为2026-08-26，China Gold官方事件为2026-08-17；Soma Gold和Hindustan Copper候选页面显示旧日期，均排除。",
+      "GoGold、Radisson、Oroco、Gladiator和Bravo已作为Part 1访谈卡片纳入；同一事件未在Part 3重复。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；资源量、处理能力、PEA产能、钻探目标和建设时间均按来源口径区分，未将计划或资源量写成已实现产量。 Bravo和K2页面虽已核验，但发布时间为北京时间8月27日，早于Part 1窗口，未纳入。"
+  }
+}

@@ -1,0 +1,31 @@
+X 原始候选 — 2026-08-30
+采集时间: 2026-08-31T07:28:11.633779+08:00
+选定通道: playwright
+尝试通道: playwright, twscrape
+不可用通道: twscrape
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 52/53 完成，失败 1
+各通道完成账户数: {"playwright": 52}
+采集状态: partial
+失败账号数: 1
+通道不可用原因:
+  twscrape: twscrape is not installed
+通道错误: playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text
+失败账号:
+  @silverguru22 (David Morgan): tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text
+============================================================
+
+总计候选: 1 条
+
+============================================================
+
+[1] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-30T13:39:29+00:00
+    北京: 2026-08-30T21:39:29+08:00
+    文本: You know better than me, my friend. I do know that the junior mining stocks were on fire and I was making more money, more quickly, than at any other point in my career. 
+
+And that was a very weird feeling when just about every other aspect of my life had been tossed in the air.
+    链接: https://x.com/Brien_Lundin/status/2094057420293095546
+
