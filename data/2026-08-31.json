@@ -1,0 +1,485 @@
+{
+  "schema_version": 3,
+  "date": "2026-08-31",
+  "report_time": "2026-09-01T07:47:56+08:00",
+  "summary": "黄金：Talamore获Coffee项目214公里道路许可，Harmony评估长期地表再处理增量，供给管线推进但短期新增有限；白银：Gold Runner勘探样品显示高品位银金线索，仍待钻探验证；铜：智利7月产量同比下降9.4%收紧近期供给，Collahuasi与Quebrada Blanca整合及Bonaparte钻探增加远期供给选项。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-29T00:00:00+08:00",
+      "end": "2026-08-31T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-08-31T00:00:00+08:00",
+      "end": "2026-08-31T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-08-31T00:00:00+08:00",
+      "end": "2026-08-31T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-bravada-gold-publishes-pea-for-wind-mountain",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Bravada Gold更新Wind Mountain金银项目PEA，税后NPV为4.15亿美元、税后IRR为60%，矿山寿命11.2年。",
+          "evidence": "Mining Stock Daily 8月31日节目正文直接披露Wind Mountain项目PEA的经济性和矿山寿命。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-bravada-gold-publishes-pea-for-wind-mountain",
+          "evidence_type": "direct Mining Stock Daily briefing",
+          "period": "2026-08-31 episode; updated PEA",
+          "unit": "USD; percent; years",
+          "value": "US$415 million NPV; 60% IRR; 11.2 years"
+        },
+        {
+          "claim": "Wind Mountain PEA生命周期产量为454,000盎司金和310万盎司银，项目资本开支为1.39亿美元含20%应急费；公司计划2027年下半年进入PFS。",
+          "evidence": "Mining Stock Daily节目正文及其链接的公司新闻稿披露产量、资本开支和研究时间表。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-bravada-gold-publishes-pea-for-wind-mountain",
+          "evidence_type": "direct podcast briefing with linked issuer release",
+          "period": "life-of-mine; future study",
+          "unit": "oz; USD; year",
+          "value": "454,000 oz Au; 3.1 Moz Ag; US$139 million; H2 2027"
+        },
+        {
+          "claim": "Vizsla Copper把Palmer项目2026年钻探计划由10,000米扩大至约12,250米；CMR26-199目视命中49.2米块状硫化物，化验结果待定。",
+          "evidence": "Mining Stock Daily节目正文直接披露钻探计划调整、孔号、长度和化验状态。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-bravada-gold-publishes-pea-for-wind-mountain",
+          "evidence_type": "direct podcast briefing with linked issuer release",
+          "period": "2026 exploration program",
+          "unit": "metres; assay status",
+          "value": "12,250 m; 49.2 m; assays pending"
+        }
+      ],
+      "publish_date": "2026-08-31",
+      "title": "Mining Stock Daily：Bravada更新PEA并报道多项金银铜项目进展",
+      "source_type": "podcast",
+      "summary": "Mining Stock Daily 8月31日节目报道Bravada Gold的Wind Mountain更新PEA、Perpetua Resources的Stibnite建设和勘探进展，以及Vizsla Copper扩大Palmer钻探计划；节目页面提供相关公司公告链接。",
+      "detail": "节目页面显示2026年8月31日、作者Trevor Hall和完整文字内容。Wind Mountain为棕地堆浸重启方案，PEA产能和经济指标属于项目设计口径；Stibnite的施工与钻探信息涉及未来供给，Palmer的块状硫化物截获仍待化验。节目还报道Magna融资、Barksdale earn-in和Centauri上市等项目资本与开发节点，未把它们写成即时产量。",
+      "importance": "该期节目把黄金从PEA资源叙事推进到可追踪的开发节点：Wind Mountain的454,000盎司金和3.1Moz银是11.2年寿命的设计供给，预计2027年下半年才进入PFS。Stibnite施工和Palmer扩钻提供中期增量，但部分截获仍待化验，资本、许可与工程执行决定兑现速度。",
+      "verification_status": "verified",
+      "companies": [
+        "Bravada Gold",
+        "Perpetua Resources",
+        "Vizsla Copper",
+        "Magna Mining",
+        "Barksdale Resources",
+        "Centauri Minerals"
+      ],
+      "projects": [
+        "Wind Mountain",
+        "Stibnite Gold Project",
+        "Palmer Project",
+        "McCreedy West Mine",
+        "Sunnyside",
+        "Rio Grande"
+      ]
+    },
+    {
+      "url": "https://www.miningweekly.com/article/harmony-very-optimistic-about-adding-additional-surface-gold-production-2026-08-31",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Harmony CEO Beyers Nel称Free State和West Wits地表再处理选项在概念层面可增加约100,000盎司/年长期、低成本和高利润黄金；截至6月30日的12个月，现有地表再处理资产贡献7吨黄金。",
+          "evidence": "Mining Weekly页面正文及结构化新闻数据直接披露CEO一对一采访、增量估计和现有资产产出。",
+          "source_url": "https://www.miningweekly.com/article/harmony-very-optimistic-about-adding-additional-surface-gold-production-2026-08-31",
+          "evidence_type": "direct Mining Weekly one-on-one interview",
+          "period": "2026-08-31 interview; long-term option",
+          "unit": "oz/year; tonnes gold",
+          "value": "approximately 100,000 oz/year; 7 tonnes gold in 12 months"
+        },
+        {
+          "claim": "Harmony表示CSA铜矿有明确路径达到40,000吨/年，建设中的Eva铜矿为60,000吨/年，目标约三年内形成100,000吨/年铜路径；Wafi-Golpu 100%口径年产180,000吨铜和超过200,000盎司金。",
+          "evidence": "Mining Weekly页面记录CEO访谈中的项目产能、时间表和合资项目口径。",
+          "source_url": "https://www.miningweekly.com/article/harmony-very-optimistic-about-adding-additional-surface-gold-production-2026-08-31",
+          "evidence_type": "direct Mining Weekly CEO interview",
+          "period": "2026 project pathway; approximately three years; Wafi-Golpu standalone basis",
+          "unit": "tonnes copper/year; oz gold/year; years",
+          "value": "40,000 t/y; 60,000 t/y; 100,000 t/y; 180,000 t/y; >200,000 oz/y"
+        }
+      ],
+      "publish_date": "2026-08-31",
+      "title": "Mining Weekly访谈：Harmony评估地表黄金增量并推进铜矿组合",
+      "source_type": "webcast",
+      "summary": "Mining Weekly对Harmony CEO Beyers Nel的一对一采访显示，公司评估Free State和West Wits地表再处理的长期黄金增量，同时推进CSA和Eva铜矿产能路径；Wafi-Golpu的产能为更远期合资项目口径。",
+      "detail": "Mining Weekly页面于2026年8月31日发布，并附Creamer Media视频。采访将地表再处理增量表述为概念性选项，需新尾矿库、水资源、监管审批和可研；CSA、Eva及Wafi-Golpu的数字分别属于运营路径、建设项目和100%独立口径，不能合并为当前Harmony产量。",
+      "importance": "Harmony的地表再处理增量仍是概念性供给，约100,000 oz/年要等尾矿库、水资源、监管和可研完成；现有资产过去12个月仅贡献7 t，说明短期不会自动转化为新增产量。铜方面CSA与Eva约三年内合计100,000 t/年路径扩大中期组合，Wafi-Golpu仍属更远期项目，需跟踪建设与许可。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Beyers Nel",
+        "background": "Harmony CEO"
+      },
+      "companies": [
+        "Harmony"
+      ],
+      "projects": [
+        "Free State surface retreatment",
+        "West Wits surface retreatment",
+        "CSA copper mine",
+        "Eva copper mine",
+        "Wafi-Golpu"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/talamore-gets-key-road-permit-for-coffee-gold-project/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Talamore Mining取得完成Coffee金矿项目214公里全天候道路所需的剩余主要许可，其中约29公里为新建道路，约180公里已有。",
+          "evidence": "Mining.com文章正文直接披露许可、道路长度和既有道路情况。",
+          "source_url": "https://www.mining.com/talamore-gets-key-road-permit-for-coffee-gold-project/",
+          "evidence_type": "direct Mining.com report",
+          "period": "2026-08-31 permit update; road infrastructure",
+          "unit": "km; road segments",
+          "value": "214 km total; 29 km new; 180 km existing"
+        },
+        {
+          "claim": "Coffee项目PEA设计前五个完整生产年度平均年产249,000盎司金、13年矿山寿命；公司仍需Quartz mining和Type A water两项主要许可证。",
+          "evidence": "Mining.com文章正文直接列出PEA生产情景、矿山寿命和未取得的许可证。",
+          "source_url": "https://www.mining.com/talamore-gets-key-road-permit-for-coffee-gold-project/",
+          "evidence_type": "direct Mining.com report",
+          "period": "PEA; future development timeline",
+          "unit": "oz/year; years; licences",
+          "value": "249,000 oz/year first five full years; 13 years; two licences pending"
+        }
+      ],
+      "publish_time": "2026-08-31",
+      "source": "MINING.COM",
+      "title": "Talamore获Coffee金矿项目关键道路许可，建设决策临近",
+      "excerpt": "MINING.COM 8月31日报道，Talamore Mining取得完成Coffee项目214公里全天候道路所需的剩余主要许可，其中约29公里为新建道路、约180公里已有。Coffee的PEA设计前五个完整生产年度平均年产249,000盎司金、13年矿山寿命；公司仍需取得Quartz mining和Type A water两项主要许可证。",
+      "language": "en",
+      "interpretation": "道路许可降低了Coffee项目的基础设施约束，设计产量属于PEA情景，不能视为已实现黄金供给。公司仍需完成可研、两项矿山许可和投资决策，许可、资本和施工执行决定远期增量能否兑现。",
+      "importance": "214公里道路中约180公里已有、约29公里新建，消除基础设施瓶颈后，Coffee才接近投资决策；PEA年产249,000盎司只是设计情景。项目仍缺两项主要许可证，2027年一季度可研及后续投资决策决定远期黄金供给能否落地。",
+      "verification_status": "verified",
+      "companies": [
+        "Talamore Mining"
+      ],
+      "projects": [
+        "Coffee Gold Project"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径及金银分类页报告日链接发现；同一Playwright会话打开文章HTTP 200，核对标题、8月31日日期、作者、214公里道路许可、项目融资、PEA产能和待办许可证。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/glencore-stands-between-anglo-teck-and-1-4b-copper-prize/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Anglo American与Glencore正讨论把智利Collahuasi铜矿部分资产与Teck的Quebrada Blanca综合，计划研究一条15公里输送带。",
+          "evidence": "Mining.com文章正文直接披露各方持股、邻近项目整合讨论和输送带方案。",
+          "source_url": "https://www.mining.com/glencore-stands-between-anglo-teck-and-1-4b-copper-prize/",
+          "evidence_type": "direct Mining.com report",
+          "period": "2026 discussions; future integration",
+          "unit": "km; projects",
+          "value": "15 km conveyor; Collahuasi and Quebrada Blanca"
+        },
+        {
+          "claim": "该系统预计在2030年至2049年间每年增加相当于新矿山产出的175,000吨铜。",
+          "evidence": "Mining.com文章正文直接披露输送系统的预计增量和期间。",
+          "source_url": "https://www.mining.com/glencore-stands-between-anglo-teck-and-1-4b-copper-prize/",
+          "evidence_type": "direct Mining.com report",
+          "period": "2030-2049 projection",
+          "unit": "tonnes copper/year; years",
+          "value": "175,000 tonnes copper per year"
+        }
+      ],
+      "publish_time": "2026-08-31",
+      "source": "MINING.COM",
+      "title": "Collahuasi与Quebrada Blanca整合谈判牵涉长期铜增量",
+      "excerpt": "MINING.COM 8月31日报道，Anglo American与Glencore正讨论把智利Collahuasi部分铜矿资产与Teck的Quebrada Blanca综合，并研究建设15公里输送带。文章称，该系统预计在2030年至2049年间每年增加175,000吨铜，低于独立项目开发成本和时间，但增量取决于资产估值、运营整合及协同收益分配谈判。",
+      "language": "en",
+      "interpretation": "175,000吨/年是综合开发方案的长期预测，不是当前矿山产量或已批准项目。输送带把高品位矿石接入既有处理设施，可能缩短供给兑现路径；Anglo-Teck与Glencore的估值和收益分配谈判仍是首要约束。",
+      "importance": "15公里输送带若落地，2030—2049年每年可增加约175,000吨铜，属于低于独立项目建设量的长期供给选项。增量要以Anglo-Teck与Glencore完成资产估值、运营整合和协同收益分配为前提，谈判不确定性比矿体本身更靠前。",
+      "verification_status": "verified",
+      "companies": [
+        "Anglo American",
+        "Glencore",
+        "Teck Resources"
+      ],
+      "projects": [
+        "Collahuasi",
+        "Quebrada Blanca"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章HTTP 200，核对标题、8月31日日期、作者、15公里输送带、2030—2049年175,000吨/年预测及谈判限制。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/chiles-copper-output-declines-9-4-in-july-hit-by-severe-weather/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利2026年7月铜产量为403,424吨，低于2025年7月445,322吨，同比下降9.4%。",
+          "evidence": "Mining.com转载Reuters并引用智利统计机构INE，正文直接给出两期产量和同比变化。",
+          "source_url": "https://www.mining.com/web/chiles-copper-output-declines-9-4-in-july-hit-by-severe-weather/",
+          "evidence_type": "Reuters report carried by Mining.com",
+          "period": "July 2026 vs July 2025",
+          "unit": "metric tonnes; percent",
+          "value": "403,424 tonnes vs 445,322 tonnes; -9.4%"
+        },
+        {
+          "claim": "INE称北部不利天气阻碍正常生产，主要矿山在7月的维护工作也造成影响。",
+          "evidence": "Mining.com文章正文直接转述INE对天气和维护因素的说明。",
+          "source_url": "https://www.mining.com/web/chiles-copper-output-declines-9-4-in-july-hit-by-severe-weather/",
+          "evidence_type": "Reuters report quoting Chile INE",
+          "period": "July 2026",
+          "unit": "operating conditions",
+          "value": "severe weather; maintenance"
+        }
+      ],
+      "publish_time": "2026-08-31",
+      "source": "MINING.COM / Reuters",
+      "title": "智利7月铜产量受暴雨与维护影响同比下降9.4%",
+      "excerpt": "Reuters经MINING.COM报道，智利统计机构INE称，智利2026年7月铜产量为403,424吨，低于2025年7月的445,322吨，同比下降9.4%。INE将铜矿采选下降归因于北部不利天气，报道还提到主要矿山在7月进行维护；智利制造业产量同期下降4.9%。",
+      "language": "en",
+      "interpretation": "403,424吨是智利当月实际产量，直接体现世界最大铜生产国的近期供给收缩。天气影响可能具有短期性，维护也有计划属性，后续月度产量和矿山恢复情况决定这次下降是否扩展为季度供应压力；制造业数据不能直接等同铜需求。",
+      "importance": "7月403,424吨较上年445,322吨少41,898吨，降幅9.4%，是当期可交付供给收缩，不代表产能永久损失。暴雨和主要矿山维护同时出现，若天气影响短暂，后续月度数据会决定其是否传导为季度缺口。",
+      "verification_status": "verified",
+      "companies": [
+        "Instituto Nacional de Estadísticas de Chile",
+        "Reuters"
+      ],
+      "projects": [
+        "Chilean copper mining sector"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章HTTP 200，核对Reuters署名、8月31日日期、INE、403,424吨、445,322吨、9.4%和天气/维护原因。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/312097/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Decade Resources在Bonaparte铜金项目第一口Phase I钻孔中，于高电荷异常下方首次钻遇斑岩型铜矿化和典型斑岩蚀变序列。",
+          "evidence": "Newsfile发布的Decade Resources公告正文直接披露首孔、地球物理异常、矿化和蚀变。",
+          "source_url": "https://www.newsfilecorp.com/release/312097/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026-08-31 release; Phase I drilling",
+          "unit": "drill hole; mineralization",
+          "value": "first hole; porphyry-style copper mineralization"
+        },
+        {
+          "claim": "该孔从地表至252.1米为闪长岩和长石斑岩，252.1至452米为绿帘石和绿泥石蚀变岩，421至557米见钾化岩。",
+          "evidence": "Newsfile公告正文直接给出钻孔岩性和蚀变深度区间。",
+          "source_url": "https://www.newsfilecorp.com/release/312097/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026 Phase I drill hole",
+          "unit": "metres",
+          "value": "252.1 m; 452 m; 557 m"
+        }
+      ],
+      "publish_time": "2026-08-31T20:00:00+08:00",
+      "source": "Decade Resources / Newsfile",
+      "title": "Decade首孔在Bonaparte验证深部斑岩型铜矿化",
+      "excerpt": "Decade Resources 8月31日公告称，Bonaparte铜金项目Phase I第一口钻孔在高电荷异常下方首次发现斑岩型铜矿化，并穿过典型蚀变序列：地表至252.1米为闪长岩和长石斑岩，252.1至452米为绿泥石—绿帘石蚀变岩，421至557米见钾化岩。",
+      "language": "en",
+      "interpretation": "公告验证了地球物理异常下存在斑岩系统的地质证据，但没有给出可计入资源量的品位、厚度或资源分类。该发现只扩大远期铜供给管线，后续钻探、化验、连续性和资源估算决定项目能否转向开发。",
+      "importance": "Bonaparte首孔首次在高电荷异常下方验证斑岩型铜矿化，把靶区从地球物理异常推进到可钻探的地质证据，但没有品位或资源量可计入供应。后续Phase I钻探、品位连续性和资源估算决定这条远期管线能否形成可开发项目，短期供给影响为零。",
+      "verification_status": "verified",
+      "companies": [
+        "Decade Resources"
+      ],
+      "projects": [
+        "Bonaparte Copper-Gold Property"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/312064/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Dryden Gold称Spyglass矿化向下延伸至约330米垂深，Buccaneer延伸至约370米垂深；Spyglass解释矿化footprint增加约110米乘50米。",
+          "evidence": "Newsfile发布的Dryden Gold公告正文直接列出两个矿化带的垂深延伸和footprint变化。",
+          "source_url": "https://www.newsfilecorp.com/release/312064/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026-08-31 release; deeper drilling",
+          "unit": "metres",
+          "value": "330 m; 370 m; 110 m x 50 m"
+        },
+        {
+          "claim": "DGR-073在Spyglass BM1交出9.40克/吨金、4.60米，包括0.38米78.40克/吨金；四个钻孔均在预测位置见可见金。",
+          "evidence": "Newsfile公告正文直接披露孔号、品位、厚度、包含区间和可见金。",
+          "source_url": "https://www.newsfilecorp.com/release/312064/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026 drill results",
+          "unit": "g/t Au; metres; holes",
+          "value": "9.40 g/t Au over 4.60 m; 78.40 g/t Au over 0.38 m; four holes"
+        }
+      ],
+      "publish_time": "2026-08-31T18:00:00+08:00",
+      "source": "Dryden Gold / Newsfile",
+      "title": "Dryden Gold深部钻探延伸Spyglass与Buccaneer矿化",
+      "excerpt": "Dryden Gold 8月31日公告称，Gold Rock项目四个钻孔测试Spyglass和Buccaneer高品位金矿化下倾延伸。Spyglass在DGR-073中交出9.40克/吨金、4.60米，包括0.38米78.40克/吨金；Spyglass延伸至约330米垂深，Buccaneer至约370米，解释矿化范围增加约110米乘50米。",
+      "language": "en",
+      "interpretation": "钻孔结果增强了Spyglass下倾连续性的地质证据，仍属于勘探结果，不能直接等同资源量或产量。后续需要更多钻孔、品位宽度、冶金和资源分类来评估其对中期黄金供给的贡献。",
+      "importance": "Spyglass由约190米延伸至330米垂深，解释矿化footprint增加约110×50米；这增强连续性证据，却仍是勘探结果而非可采储量。下探至330米并命中78.40g/t×0.38m的高品位段，支持后续资源定义，但冶金、宽度和资源分类仍决定中期黄金供给价值。",
+      "verification_status": "verified",
+      "companies": [
+        "Dryden Gold"
+      ],
+      "projects": [
+        "Gold Rock",
+        "Spyglass",
+        "Buccaneer"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/312096/",
+      "metal_tags": [
+        "silver",
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gold Runner在Golden Girl项目新发现的Gold Stack Trend长约350米、宽最多50米，首批样品最高25,306克/吨银和11.22克/吨金，折合12.7盎司/吨金当量。",
+          "evidence": "Newsfile发布的Gold Runner公告正文直接披露趋势规模和最高样品结果。",
+          "source_url": "https://www.newsfilecorp.com/release/312096/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026-08-31 release; surface sampling",
+          "unit": "metres; g/t Ag; g/t Au; oz/t AuEq",
+          "value": "350 m long; up to 50 m wide; 25,306 g/t Ag; 11.22 g/t Au; 12.7 oz/t AuEq"
+        },
+        {
+          "claim": "首批60个样品中11个超过1克/吨金当量，其中7个超过10克/吨金当量；公司为2027年计划的首次钻探生成靶区。",
+          "evidence": "Newsfile公告正文直接披露样品批次统计和后续钻探计划。",
+          "source_url": "https://www.newsfilecorp.com/release/312096/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026 exploration; planned 2027 drill program",
+          "unit": "samples; g/t AuEq; year",
+          "value": "11/60 over 1 g/t AuEq; 7 over 10 g/t AuEq; 2027 inaugural drilling"
+        }
+      ],
+      "publish_time": "2026-08-31T18:30:00+08:00",
+      "source": "Gold Runner Exploration / Newsfile",
+      "title": "Gold Runner报告Golden Girl高品位银金表面样品",
+      "excerpt": "Gold Runner Exploration 8月31日公告称，Golden Girl项目新发现的Gold Stack Trend长约350米、宽最多50米，首批样品最高25,306克/吨银和11.22克/吨金，折合12.7盎司/吨金当量。首批60个样品中11个超过1克/吨金当量、7个超过10克/吨金当量；公司计划在2027年进行首次钻探。",
+      "language": "en",
+      "interpretation": "表面样品显示高品位银金及铜铅锌伴生线索，提供了生成钻探靶区的地质依据；样品结果不等于连续矿体、资源量或可交付供给。2027年钻探、冶金和资源估算是把露头异常转为项目供给的验证环节。",
+      "importance": "Gold Stack Trend已形成350米长、最多50米宽的高品位表面样品带，增加的是钻探目标而非当前白银供给。首批60个样品中11个超过1g/t AuEq、2027年才计划首次钻探，样品连续性、冶金回收和资源量是将露头异常转为项目供给的关键。",
+      "verification_status": "verified",
+      "companies": [
+        "Gold Runner Exploration"
+      ],
+      "projects": [
+        "Golden Girl Property",
+        "Gold Stack Trend"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily节目列表：https://www.miningstockdaily.com/episodes；HTTP 200，窗口内发现2026-08-31节目。",
+      "Mining Stock Daily 8月31日节目：https://www.miningstockdaily.com/episodes/morning-briefing-bravada-gold-publishes-pea-for-wind-mountain；HTTP 200，核对Trevor Hall、发布日期、完整文字内容及Bravada/Perpetua/Vizsla等公司公告链接。",
+      "Mining Weekly Harmony采访：https://www.miningweekly.com/article/harmony-very-optimistic-about-adding-additional-surface-gold-production-2026-08-31；HTTP 200，核对2026-08-31日期、作者Martin Creamer、Harmony CEO Beyers Nel一对一采访、正文与附加视频说明。",
+      "Resource Talks首页：https://resourcetalks.com/；HTTP 200，最新相关帖子为8月29日；Western Exploration、American Eagle Gold、Tower Resources和Silvercorp页面与最近日报重复，未重复收录。",
+      "YouTube/Mining Discovery动态检索：发现Leviathan Metals视频页面https://www.youtube.com/watch?v=jpwN6XialVI；页面datePublished为2026-01-08，超出窗口，排除；U.S. Gold Corp更新页面为2026-08-20，超出窗口，排除。",
+      "会议日历入口按data/conference_calendar.json检查；2026-08-29至31不在已知会议高频窗口，未发现新的可核验会议演讲、回放或采访。"
+    ],
+    "part1_result": "Part 1完成2026-08-29至2026-08-31北京时间72小时访谈、Podcast、Webcast和会议入口检索，纳入2条：Mining Stock Daily 1条、Mining Weekly对Harmony CEO的一对一采访1条。Resource Talks窗口内页面与最近两份日报实质重复；Leviathan页面为2026-01-08，U.S. Gold页面为2026-08-20，均按窗口排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-08-31 --collect-x，内部调用scripts/x_search.py。",
+      "Playwright使用项目内持久化会话按注册表顺序串行处理53个账号，53/53完成、0失败；完整成功后未启动twscrape。",
+      "原始候选保存至x_outputs/2026-08-31_x_raw_materials.txt及x_outputs/2026-08-31_x_raw_materials.json，共7条；逐条核对作者、handle、正文、北京时间发布时间和原帖URL，未纳入合格X信号。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号，未触发twscrape；获得7条原始候选，均因价格/宏观评论、导流、提问或缺少新增实体供需事实排除，纳入0条信号。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright按注册表顺序完成53/53，完整成功包括真实零结果；未启动twscrape。",
+        "原始材料和JSON sidecar按2026-08-31日期保存，候选7条，纳入0条。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：https://www.mining.com/commodity/copper/；指定日报Python、Chrome headless、Playwright、反检测参数，HTTP 200，报告日文章14篇。",
+      "Mining.com黄金分类页辅助路径：https://www.mining.com/commodity/gold/；HTTP 200，报告日文章9篇。",
+      "Mining.com白银分类页辅助路径：https://www.mining.com/commodity/silver/；HTTP 200，报告日文章9篇；跨分类相同URL按规范化URL去重。",
+      "Mining.com入选文章逐篇核验：Talamore、Glencore、Chile铜产量文章均由同一Playwright会话打开，HTTP 200，提取标题、作者/来源、日期和正文。",
+      "Newsfile首页：https://www.newsfilecorp.com/；HTTP 200，核对2026-08-31 Top Releases并发现Decade、Dryden Gold和Gold Runner公告；Barksdale公告与Part 1节目同一事件，排除。",
+      "入选Newsfile文章逐篇核验：https://www.newsfilecorp.com/release/312097/、https://www.newsfilecorp.com/release/312064/、https://www.newsfilecorp.com/release/312096/；均HTTP 200，核对发行主体、2026-08-31 EDT时间、标题和核心钻探/样品数字。",
+      "Google备用查询：site:mining.com copper August 31 2026、site:mining.com gold August 31 2026、site:mining.com silver August 31 2026；均HTTP 200但返回Google验证/挑战内容，可用命中数0，未使用搜索摘要作证据。",
+      "DuckDuckGo动态检索金、银、铜矿业日期查询用于发现候选；搜索结果仅作发现，入选卡均回到具体Mining.com或Newsfile页面核验。",
+      "中文来源检索和SMM公开页检查：未发现窗口内新的可直接核验金银铜实体供需事件；价格及聚合内容排除。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-08-31北京时间全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、Newsfile发行列表、逐篇核验和跨来源去重。本期纳入6条新闻：黄金2条、白银1条、铜3条。",
+    "mining_com_source_note": "Mining.com铜分类页按指定Playwright主路径HTTP 200提取14篇报告日文章，金、银辅助分类页分别9/9篇；入选Mining.com文章由同一Playwright会话逐篇打开核验，普通搜索只作辅助发现。Google site金/银/铜查询遇验证挑战，无可用命中；未使用sitemap、Wayback Machine或RSS。",
+    "url_verification": {
+      "checked": 8,
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "notes": "2条Part 1页面及6条Part 3页面均已直接打开并核对标题/日期、主体和卡片所用核心事实；全部入选卡标记verified。"
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/gold-stocks/heap-leach-gold-in-nevada-but-can-they-build-it-on-schedule/",
+      "https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/",
+      "https://resourcetalks.com/gold-stocks/new-gold-discovery-between-two-major-mines-but-is-it-continuous/",
+      "https://resourcetalks.com/silver-stocks/silver-mine-in-china-generating-cash-flow-but-can-they-execute-on-growth/",
+      "https://resourcetalks.com/gold-stocks/gold-project-near-fosterville-but-can-they-deliver-economic-grades/"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/GoGoldResources/status/2094423962927112418"
+    ],
+    "part3_deduped_events": [
+      "Mining.com同一批报告日候选在铜、金、银分类页重复出现，按规范化URL仅保留一次。",
+      "Barksdale 2026-08-31 Newsfile公告与Mining Stock Daily同日节目同一earn-in事件，保留节目中的组合报道，排除重复新闻卡。",
+      "黄金价格/利率文章、赞助内容、稀土和锂文章不属于本日报供需范围；Peru文章及First Mining、Cabral Gold候选页面显示窗口外日期，排除。",
+      "X候选没有新增可核验的实体金银铜供需事实；GoGold X帖仅导向本期已纳入的Mining Stock Daily节目，其他候选按筛选标准排除。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；实际产量、项目设计、公司计划、勘探结果和长期预测按来源口径区分，未将资源、PEA产能或表面样品写成已实现产量。"
+  }
+}

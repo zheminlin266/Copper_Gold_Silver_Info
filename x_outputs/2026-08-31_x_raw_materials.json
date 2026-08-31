@@ -1,0 +1,109 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-08-31",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-18ae3287da774de174bf3621",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-31T15:54:54+00:00",
+      "text": "Rick Rule: Why He Owns Gold Out of Fear and Silver Out of Greed \nhttps://\nyoutu.be/GBInNGNixzw?si\n=IeMBT9M4TWS69Scm\n… via \n@YouTube\n 08-27-2026, a discussion of investing, and speculating in natural resources, and precious metals , from a young person's perspective",
+      "url": "https://x.com/RealRickRule/status/2094453885578641705",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f7da760bc57d497915829824",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-30T16:36:42+00:00",
+      "text": "Gold is up nearly 10% this August\n\nRoughly 5x its average August gain since 2000. \n\nOnly 2011 was better. \n\nThat’s when S&P cut the U.S. credit rating from AAA to AA+",
+      "url": "https://x.com/KatusaResearch/status/2094102019653161156",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2951f1d3390cf2ac459fedd1",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-31T00:15:08+00:00",
+      "text": "Do you own mining share?",
+      "url": "https://x.com/silverguru22/status/2094217387751227460",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e19278f9151ff5280268120e",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-30T21:20:11+00:00",
+      "text": "Warsh Speaks, Gold and Silver Drop — Summer Price Run Over? - YouTube - \nhttps://\ngoo.gl/alerts/usCLgT #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2094173361031283111",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-88aabd53a78dbcbf2ee6e699",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-30T21:19:45+00:00",
+      "text": "How Much Silver Should You Allocate In Your Portfolio? Expert Shares Ideal Portfolio Strategy - \nhttps://\ngoo.gl/alerts/bGFjzJ #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2094173252864332131",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1440df76a2b086e085c24fe7",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-08-30T21:33:21+00:00",
+      "text": "This chart is a good reminder that the mining industry is generating profits on a scale no other sector in the market can even come close to matching.\n\n\nhttps://\ntavicosta.substack.com/p/a-reminder",
+      "url": "https://x.com/TaviCosta/status/2094176672316838247",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1d0b459e8fb6f06334c8693f",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-08-31T13:55:59+00:00",
+      "text": "$GGD $GLGDF\n\nKE Report - Construction Commenced At The Los Ricos South Underground Mine & Q3 Financials",
+      "url": "https://x.com/GoGoldResources/status/2094423962927112418",
+      "collector": "x_search",
+      "report_date": "2026-08-31",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
