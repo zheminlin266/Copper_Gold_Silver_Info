@@ -4,7 +4,7 @@
       "id": "SXIdJVNJau",
       "name": "每日信息页更新",
       "schedule": "0 0 7 * * *",
-      "prompt": "执行本次每日信息页更新任务前，必须完整读取并严格遵循文件 `D:\\Projects\\Copper_Gold_Silver_Info\\Daily_Task_Prompt.md` 的当前内容；将该文件内容作为本次任务的完整 task prompt。模型：gpt-5.6-luna；推理强度：xhigh。第一步按文件要求读取仓库根目录的 `Daily_Report_Workflow.md`，并以其当前内容为唯一权威规范。",
+      "prompt": "执行本次每日信息页更新任务前，必须完整读取并严格遵循文件 `D:\\Projects\\Copper_Gold_Silver_Info\\Daily_Task_Prompt.md` 的当前内容；将该文件内容作为本次任务的完整 task prompt。模型：gpt-5.6-luna；推理强度：xhigh。第一步按文件要求读取仓库根目录的 `Daily_Report_Workflow.md`，并以其当前内容为唯一权威规范。所有 Python 命令必须显式使用 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`；禁止使用裸 `python`、`py` 或 `.workbuddy` 路径，且 `daily_pipeline.py` 会把 `sys.executable` 传给所有子采集器。",
       "enabled": true,
       "type": "cron",
       "createdAt": "2026-08-21T02:04:11.947Z",

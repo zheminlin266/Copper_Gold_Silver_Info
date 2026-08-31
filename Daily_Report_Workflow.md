@@ -38,9 +38,9 @@
 代码是确定性边界，负责日期窗口、preflight、来源 registry、各采集器、规范化、技术核验、通道审计、最终 JSON 写入、schema/内容校验、测试、构建和发布。用户已授权本定时任务在全部检查通过后自动执行精确范围的 Git 提交和推送，无需逐次确认；该授权不允许夹带其他文件或绕过失败边界。统一入口为：
 
 ```bash
-python scripts/daily_pipeline.py YYYY-MM-DD --dry-run
-python scripts/daily_pipeline.py YYYY-MM-DD --collect-mining
-python scripts/daily_pipeline.py YYYY-MM-DD --collect-x
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --dry-run
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-mining
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-x
 ```
 
 这些命令是采集与流程入口；不表示已经存在 AI API 集成。
@@ -63,7 +63,7 @@ AI 只接收代码产出的规范化候选，返回严格的分析决策和证�
 
 ### 5.2 Part 2：X 原帖
 
-X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径调用工作流规定的 Python 3.13.12、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。不要为日报 X 检索调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `python scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
+X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径使用日报固定的 Python 3.12.13（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。本任务仅使用该环境中的 Python、Playwright 和 twscrape 包，不调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
 
 在已授权的浏览器会话中检索种子账号和新发现的可靠账号。只收录原作者帖子，必须核对作者、handle、正文、原帖 URL 和发布时间。
 
@@ -83,9 +83,9 @@ X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须�
 
 mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端、`site:mining.com` Google 搜索和 WebFetch 均无法可靠获取 `/commodity/copper/` 页面的实际文章列表——Google 搜索返回的是首页/SEO 内容而非铜分类页文章。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
 
-1. **Playwright 直接抓取铜分类页**（Python 3.13.12 + Chromium headless + 反检测）。这是唯一可靠的 mining.com 信息采集路径。每次 Part 3 检索必须执行：
+1. **Playwright 直接抓取铜分类页**（日报固定 Python 3.12.13 + Chromium headless + 反检测）。这是唯一可靠的 mining.com 信息采集路径。每次 Part 3 检索必须执行：
    ```
-   C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe
+   C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe
    ```
    脚本参数：
    - 目标 URL：`https://www.mining.com/commodity/copper/`

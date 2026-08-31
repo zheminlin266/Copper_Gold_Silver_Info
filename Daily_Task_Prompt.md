@@ -8,7 +8,7 @@
 
 开始后第一步必须完整读取仓库根目录 `Daily_Report_Workflow.md`，并严格按其当前内容执行。该文件是日期窗口、研究范围、筛选标准、JSON 字段、来源核验、去重、校验、Git 和发布流程的唯一权威规范。
 
-本提示词只定义任务入口和安全边界。若本提示词、历史 memory、旧提示词或以前运行记录与 `Daily_Report_Workflow.md` 冲突，一律以 `Daily_Report_Workflow.md` 为准。历史日志只能帮助理解过去发生过什么，不能覆盖当前工作流。当前 CLI 入口为 `python scripts/daily_pipeline.py YYYY-MM-DD --dry-run`、`--collect-mining` 和 `--collect-x`；这些入口不代表已经存在 AI API 集成。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`。用户已授权本定时任务在研究完整、校验通过后自动运行精确路径的 Git add/commit/push，后续无需逐次确认；仅可提交本次日报、周六按工作流更新的 TC CSV、必要的按日期原始材料及明确纠错，不得夹带其他文件。采集器失败必须保留失败状态，不得静默当成零结果。
+本提示词只定义任务入口和安全边界。若本提示词、历史 memory、旧提示词或以前运行记录与 `Daily_Report_Workflow.md` 冲突，一律以 `Daily_Report_Workflow.md` 为准。历史日志只能帮助理解过去发生过什么，不能覆盖当前工作流。当前 CLI 入口必须使用日报固定 Python：`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --dry-run`、`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-mining` 和 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-x`；这些入口不代表已经存在 AI API 集成。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`。用户已授权本定时任务在研究完整、校验通过后自动运行精确路径的 Git add/commit/push，后续无需逐次确认；仅可提交本次日报、周六按工作流更新的 TC CSV、必要的按日期原始材料及明确纠错，不得夹带其他文件。采集器失败必须保留失败状态，不得静默当成零结果。
 
 ## 执行要求
 
@@ -19,7 +19,7 @@
 5. 优先使用监管文件、交易所公告、公司新闻稿、政府统计等一手来源。尽量实际打开每个入选 URL 核验标题、主体、发布日期和核心数字；暂时无法核验时只能生成标题/来源精简卡，设置 `verification_status: "unverified"` 并填写 `verification_note`，不得补写未经确认的事实。已核验卡设置 `verification_status: "verified"`。不得发明 URL、数字、引文、管理层评论或缺失信息。
 
 **mining.com 专用规则（每次 Part 3 检索必须执行）**：
-- mining.com 对自动化请求启用了 CloudFront 反爬。**主路径**是使用 Playwright 直接抓取 `https://www.mining.com/commodity/copper/` 分类页：使用工作流规定的 Python 3.13.12、Chromium headless 和反检测参数，从 DOM 提取报告日文章标题及链接。
+- mining.com 对自动化请求启用了 CloudFront 反爬。**主路径**是使用 Playwright 直接抓取 `https://www.mining.com/commodity/copper/` 分类页：使用日报固定的 Python 3.12.13（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、Chromium headless 和反检测参数，从 DOM 提取报告日文章标题及链接。
 - 若该分类页抓取失败、返回内容不完整，或未获得合格的铜供需候选，再按报告日逐日执行 Google `site:mining.com copper July DD 2026`、`site:mining.com gold July DD 2026` 和 `site:mining.com silver July DD 2026` 搜索，作为备用发现路径。
 - 对每篇候选，优先直接抓取文章全文；若返回 403 或超时，使用同一 Playwright 会话提取正文；仍受限时，寻找中文转载来源（如 SMM、新浪财经、东方财富网）交叉核验。搜索摘要只可用于发现候选，不能单独作为证据。在 `mining_com_source_note` 记录核验路径和局限性。
 - 在 `search_log.part3_sources_checked` 中逐条记录铜分类页主路径的 Playwright 抓取状态和文章数、Google `site:` 备用搜索命中数，以及每篇入选文章的核验路径。不得使用 sitemap、Wayback Machine 或 RSS feed。

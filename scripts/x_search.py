@@ -2,17 +2,19 @@
 X (Twitter) 供需信息搜索 — 有序多通道采集器。
 按 Playwright、twscrape 顺序获取窗口内帖子，保存原始候选到 x_outputs/。
 
-无 LLM 依赖，无 browser-use 依赖；可选通道按需安装。
+无 LLM 依赖，不调用 browser-use API；可选通道按需安装。
 
 用法:
-    python scripts/x_search.py 2026-07-13
-    python scripts/x_search.py 2026-07-13 --headless
-    python scripts/x_search.py 2026-07-13 --headless --overwrite
+    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13
+    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13 --headless
+    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13 --headless --overwrite
 
 Python 环境:
-    必须使用 managed Python 3.13 (唯一已安装 playwright 的运行时):
-        C:/Users/Zhemin/.workbuddy/binaries/python/versions/3.13.12/python.exe
-    不要使用 Python 3.14 或 browser-use 环境的 Python 3.12 — 它们没有 playwright
+    必须使用日报固定 Python 运行时（Playwright + twscrape）:
+        C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe
+    该解释器同时提供 Playwright 1.62.0 与 twscrape 0.20.1。
+    不要使用 `python`、`py` 或 `.workbuddy` Python；daily_pipeline.py 会以当前
+    `sys.executable` 启动子采集器
 
 输出:
     x_outputs/{date}_x_raw_materials.txt
@@ -1385,9 +1387,10 @@ if __name__ == "__main__":
         sys.exit(0)
 
     if len(sys.argv) < 2:
-        print("用法: python scripts/x_search.py <DATE> [--headless]")
-        print("示例: python scripts/x_search.py 2026-07-13")
-        print("      python scripts/x_search.py 2026-07-13 --headless")
+        python_path = "C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe"
+        print(f"用法: {python_path} scripts/x_search.py <DATE> [--headless]")
+        print(f"示例: {python_path} scripts/x_search.py 2026-07-13")
+        print(f"      {python_path} scripts/x_search.py 2026-07-13 --headless")
         sys.exit(1)
 
     date = sys.argv[1]

@@ -129,7 +129,7 @@ async def main(timeout: int = 300) -> None:
     print("  X 登录设置完成！")
     print("=" * 60)
     print()
-    print("验证登录: python scripts/x_search.py --check-login --headless")
+    print("验证登录: C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py --check-login --headless")
 
 
 if __name__ == "__main__":

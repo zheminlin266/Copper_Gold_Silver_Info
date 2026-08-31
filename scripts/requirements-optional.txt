@@ -1,2 +1,2 @@
 # Optional X collection channels; baseline requirements.txt is unchanged.
-twscrape==0.20.0
+twscrape==0.20.1
