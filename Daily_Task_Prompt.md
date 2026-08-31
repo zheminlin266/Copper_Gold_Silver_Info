@@ -8,7 +8,7 @@
 
 开始后第一步必须完整读取仓库根目录 `Daily_Report_Workflow.md`，并严格按其当前内容执行。该文件是日期窗口、研究范围、筛选标准、JSON 字段、来源核验、去重、校验、Git 和发布流程的唯一权威规范。
 
-本提示词只定义任务入口和安全边界。若本提示词、历史 memory、旧提示词或以前运行记录与 `Daily_Report_Workflow.md` 冲突，一律以 `Daily_Report_Workflow.md` 为准。历史日志只能帮助理解过去发生过什么，不能覆盖当前工作流。当前 CLI 入口为 `python scripts/daily_pipeline.py YYYY-MM-DD --dry-run`、`--collect-mining` 和 `--collect-x`；这些入口不代表已经存在 AI API 集成。AI 不得写入 `data/YYYY-MM-DD.json`、运行 Git，或把采集器失败静默当成零结果；代码必须保留失败状态并阻止发布。
+本提示词只定义任务入口和安全边界。若本提示词、历史 memory、旧提示词或以前运行记录与 `Daily_Report_Workflow.md` 冲突，一律以 `Daily_Report_Workflow.md` 为准。历史日志只能帮助理解过去发生过什么，不能覆盖当前工作流。当前 CLI 入口为 `python scripts/daily_pipeline.py YYYY-MM-DD --dry-run`、`--collect-mining` 和 `--collect-x`；这些入口不代表已经存在 AI API 集成。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`。用户已授权本定时任务在研究完整、校验通过后自动运行精确路径的 Git add/commit/push，后续无需逐次确认；仅可提交本次日报、周六按工作流更新的 TC CSV、必要的按日期原始材料及明确纠错，不得夹带其他文件。采集器失败必须保留失败状态，不得静默当成零结果。
 
 ## 执行要求
 
@@ -103,9 +103,11 @@ npm.cmd run build
 
 网络连接、Google Fonts 下载、来源不可访问、TypeScript、schema、测试或内容错误都不是缓存错误，不得因此删除 `.next`。缓存恢复后仍失败时停止，不要反复删除；保留完整错误输出和现场。
 
-校验命令全部通过后，按工作流检查首页、当日日报、归档、搜索、Historical TC、移动端布局、键盘焦点和来源链接。周六更新 TC 时还要确认图表最新值与 CSV 一致；涉及页面代码时，按“新页面行为基线”完成真实浏览器交互检查。任何检查失败都不得提交或推送。
+校验命令全部通过后，按工作流检查首页、当日日报、归档、搜索、Historical TC、移动端布局、键盘焦点和来源链接。周六更新 TC 时还要确认图表最新值与 CSV 一致；涉及页面代码时，按“新页面行为基线”完成真实浏览器交互检查。任何检查失败都不得提交或推送。检查全部通过后，依据用户对本定时任务的长期授权直接提交并推送，无需再次请求确认。
 
 ## Git 与发布
+
+本定时任务已获用户长期授权：完成全部研究、校验和生产检查后，可直接提交并推送，无需逐次确认。授权范围仅限本次日报文件、周六按工作流更新的 TC CSV、工作流允许的按日期原始材料和明确纠错；不得扩大提交范围。
 
 1. 提交前再次检查 `git status` 和 diff，只纳入本次日报文件、周六按工作流更新的 TC CSV 及工作流允许的追加材料。使用精确文件路径暂存，不要使用 `git add .`，不要夹带用户已有代码修改、临时脚本、浏览器配置、缓存或凭据。
 2. 未更新 TC 时提交信息使用 `Add REPORT_DATE daily report`；同一提交包含 TC 更新时使用 `Add REPORT_DATE daily report and update TC`。
