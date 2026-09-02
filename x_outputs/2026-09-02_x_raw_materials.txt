@@ -1,0 +1,149 @@
+X 原始候选 — 2026-09-02
+采集时间: 2026-09-03T07:27:46.839029+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text
+失败账号: 无
+============================================================
+
+总计候选: 16 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-09-02T15:09:04+00:00
+    北京: 2026-09-02T23:09:04+08:00
+    文本: Gold price prediction today: Will gold trade with bearish bias? Check September 1, 2026 outlook - The Times of India
+    链接: https://x.com/silverguru22/status/2095167127984758970
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-09-02T15:07:20+00:00
+    北京: 2026-09-02T23:07:20+08:00
+    文本: Gold Price Continues Fall As Expectations Of An Interest Rate Hike Grow - Forbes - 
+https://
+goo.gl/alerts/je2XCp #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2095166692586631679
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-01T19:04:58+00:00
+    北京: 2026-09-02T03:04:58+08:00
+    文本: Just think- the entire annual #silver market is ~ 65 billion. Yet, the debt in a week will buy the entire planet's mining and recycling for X 52- that is, fifty-two weeks.  Incredible.
+    链接: https://x.com/silverguru22/status/2094864107698868419
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-01T19:30:00+00:00
+    北京: 2026-09-02T03:30:00+08:00
+    文本: The Great Silver Bull just went global. 
+
+The Korean edition is officially out—and already a recommended title from The Korea Economic Daily.
+
+Silver’s monetary and industrial story is reaching a new audience at exactly the right time.
+
+Korean readers can get it here:
+    链接: https://x.com/peter_krauth/status/2094870406163292471
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-01T20:31:53+00:00
+    北京: 2026-09-02T04:31:53+08:00
+    文本: 0.8% ... but that's after previous declines. The direction is significant.
+
+(And Darth highlighted gold on the chart, not the Dow.
+; - )
+    链接: https://x.com/duediligenceguy/status/2094885981035872361
+
+[6] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-02T03:42:51+00:00
+    北京: 2026-09-02T11:42:51+08:00
+    文本: Tech is now officially more capital-intensive than mining.
+
+This represents a fundamental shift in the market.
+
+Miners offer stronger margins, healthier balance sheets, and more compelling embedded growth.
+
+They offer a far more asymmetric way to express the AI investment thesis
+    链接: https://x.com/TaviCosta/status/2094994435025317985
+
+[7] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-01T18:08:38+00:00
+    北京: 2026-09-02T02:08:38+08:00
+    文本: I will be moderating a special presentation on Altamira Gold tomorrow at 12:00 pm MTN.
+
+The event will be streamed live on X and Substack for anyone interested in joining.
+
+Mike Bennett, CEO of Altamira Gold, and Quinton Hennigh, CEO of San Cristobal Mining, will both participate
+    链接: https://x.com/TaviCosta/status/2094849931395875147
+
+[8] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-02T12:57:56+00:00
+    北京: 2026-09-02T20:57:56+08:00
+    文本: ‘Due to increasing geopolitical unrest, DNB is working to strengthen its crisis preparedness. Improving the tradability of Dutch gold, and thereby how quickly the gold can be deployed in crisis situations, is part of this. At the same time, a more balanced distribution of the
+    链接: https://x.com/wmiddelkoop/status/2095134126722425184
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-02T12:44:29+00:00
+    北京: 2026-09-02T20:44:29+08:00
+    文本: Over 200 tonnes of Dutch gold now moved out of the US since 2014
+    链接: https://x.com/wmiddelkoop/status/2095130741415747945
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-02T12:41:53+00:00
+    北京: 2026-09-02T20:41:53+08:00
+    文本: It’s Official:
+
+Dutch National Bank repatriates another 40% from the Federal Reserve vaults in New York  
+
+64% of the gold held in the US (before 2014) has now been moved out of the US
+    链接: https://x.com/wmiddelkoop/status/2095130089885159684
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-02T12:26:20+00:00
+    北京: 2026-09-02T20:26:20+08:00
+    文本: Diversification of Dutch gold storage
+    链接: https://x.com/wmiddelkoop/status/2095126175064502321
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-02T11:54:40+00:00
+    北京: 2026-09-02T19:54:40+08:00
+    文本: Breaking 
+
+Dutch Central Bank moved 86 tons of gold out of the US/Canada 
+
+‘DNB heeft 86 ton goud uit VS en Canada naar Londen verplaatst’
+    链接: https://x.com/wmiddelkoop/status/2095118206058819896
+
+[13] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-02T12:32:05+00:00
+    北京: 2026-09-02T20:32:05+08:00
+    文本: In Ann Arbor in 1975 there was a prominent company that raised millions claiming they were single digit years away from self sustaining cold fusion.  That was 50 years ago. Where is the fusion?  Many such cases.  I will believe asteroid mining when I see one proof of concept
+    链接: https://x.com/LawrenceLepard/status/2095127620983689627
+
+[14] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-01T18:24:47+00:00
+    北京: 2026-09-02T02:24:47+08:00
+    文本: the why is cyclicality. and Gold has a greater Lindy effect.  it smells debasement first. Bitcoin enjoys an adoption curve which is why its performance will crush golds in the next two years.
+    链接: https://x.com/LawrenceLepard/status/2094853996527636825
+
+[15] @Wheaton_PM (Wheaton Precious Metals)
+    UTC: 2026-09-01T21:47:21+00:00
+    北京: 2026-09-02T05:47:21+08:00
+    文本: We’re pleased to announce that 
+@Wheaton_PM
+ will host an Investor Day webcast on September 16, 2026, at 9:00 am ET.
+
+Join members of our executive leadership team, including President & CEO Haytham Hodaly, for an in-depth look at Wheaton’s business model, our disciplined approach
+    链接: https://x.com/Wheaton_PM/status/2094904974270472497
+
+[16] @silverguru22 (David Morgan)
+    UTC: 2026-09-02T15:10:05+00:00
+    北京: 2026-09-02T23:10:05+08:00
+    文本: https://t.co/1ECbkbEsQl
+    链接: https://x.com/silverguru22/status/2095167386278371632
+

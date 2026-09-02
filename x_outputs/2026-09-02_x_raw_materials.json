@@ -1,0 +1,223 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-02",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-5622d07857f4925142b5e428",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-02T15:09:04+00:00",
+      "text": "Gold price prediction today: Will gold trade with bearish bias? Check September 1, 2026 outlook - The Times of India",
+      "url": "https://x.com/silverguru22/status/2095167127984758970",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d163410a7154f61e24091530",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-02T15:07:20+00:00",
+      "text": "Gold Price Continues Fall As Expectations Of An Interest Rate Hike Grow - Forbes - \nhttps://\ngoo.gl/alerts/je2XCp #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2095166692586631679",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1900c8ce5a160694592c6a67",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-01T19:04:58+00:00",
+      "text": "Just think- the entire annual #silver market is ~ 65 billion. Yet, the debt in a week will buy the entire planet's mining and recycling for X 52- that is, fifty-two weeks.  Incredible.",
+      "url": "https://x.com/silverguru22/status/2094864107698868419",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1c48566b8bdc7cc420ff0cab",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-01T19:30:00+00:00",
+      "text": "The Great Silver Bull just went global. \n\nThe Korean edition is officially out—and already a recommended title from The Korea Economic Daily.\n\nSilver’s monetary and industrial story is reaching a new audience at exactly the right time.\n\nKorean readers can get it here:",
+      "url": "https://x.com/peter_krauth/status/2094870406163292471",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-220ad3af99bd5d774ec84a8a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-01T20:31:53+00:00",
+      "text": "0.8% ... but that's after previous declines. The direction is significant.\n\n(And Darth highlighted gold on the chart, not the Dow.\n; - )",
+      "url": "https://x.com/duediligenceguy/status/2094885981035872361",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8bb32c506726cb2f86f2d062",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-02T03:42:51+00:00",
+      "text": "Tech is now officially more capital-intensive than mining.\n\nThis represents a fundamental shift in the market.\n\nMiners offer stronger margins, healthier balance sheets, and more compelling embedded growth.\n\nThey offer a far more asymmetric way to express the AI investment thesis",
+      "url": "https://x.com/TaviCosta/status/2094994435025317985",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7c7454f7872ed52bf6294561",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-01T18:08:38+00:00",
+      "text": "I will be moderating a special presentation on Altamira Gold tomorrow at 12:00 pm MTN.\n\nThe event will be streamed live on X and Substack for anyone interested in joining.\n\nMike Bennett, CEO of Altamira Gold, and Quinton Hennigh, CEO of San Cristobal Mining, will both participate",
+      "url": "https://x.com/TaviCosta/status/2094849931395875147",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-47c407b83c2762ae43adadcd",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-02T12:57:56+00:00",
+      "text": "‘Due to increasing geopolitical unrest, DNB is working to strengthen its crisis preparedness. Improving the tradability of Dutch gold, and thereby how quickly the gold can be deployed in crisis situations, is part of this. At the same time, a more balanced distribution of the",
+      "url": "https://x.com/wmiddelkoop/status/2095134126722425184",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fa3096ea517d63c5fae0f030",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-02T12:44:29+00:00",
+      "text": "Over 200 tonnes of Dutch gold now moved out of the US since 2014",
+      "url": "https://x.com/wmiddelkoop/status/2095130741415747945",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-480f9ffcbada71ff5b2e4b85",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-02T12:41:53+00:00",
+      "text": "It’s Official:\n\nDutch National Bank repatriates another 40% from the Federal Reserve vaults in New York  \n\n64% of the gold held in the US (before 2014) has now been moved out of the US",
+      "url": "https://x.com/wmiddelkoop/status/2095130089885159684",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5cd1117a74f4cc9dd2073a64",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-02T12:26:20+00:00",
+      "text": "Diversification of Dutch gold storage",
+      "url": "https://x.com/wmiddelkoop/status/2095126175064502321",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c7a7e50edb1035edb124eb3e",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-02T11:54:40+00:00",
+      "text": "Breaking \n\nDutch Central Bank moved 86 tons of gold out of the US/Canada \n\n‘DNB heeft 86 ton goud uit VS en Canada naar Londen verplaatst’",
+      "url": "https://x.com/wmiddelkoop/status/2095118206058819896",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e6a73ec4cad2051b74b11d79",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-02T12:32:05+00:00",
+      "text": "In Ann Arbor in 1975 there was a prominent company that raised millions claiming they were single digit years away from self sustaining cold fusion.  That was 50 years ago. Where is the fusion?  Many such cases.  I will believe asteroid mining when I see one proof of concept",
+      "url": "https://x.com/LawrenceLepard/status/2095127620983689627",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d34589deafe16c95a9198d18",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-01T18:24:47+00:00",
+      "text": "the why is cyclicality. and Gold has a greater Lindy effect.  it smells debasement first. Bitcoin enjoys an adoption curve which is why its performance will crush golds in the next two years.",
+      "url": "https://x.com/LawrenceLepard/status/2094853996527636825",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-de3dba0ec5db6dafc218373c",
+      "source_id": "x-wheaton_pm",
+      "author": "Wheaton Precious Metals",
+      "handle": "Wheaton_PM",
+      "publish_time": "2026-09-01T21:47:21+00:00",
+      "text": "We’re pleased to announce that \n@Wheaton_PM\n will host an Investor Day webcast on September 16, 2026, at 9:00 am ET.\n\nJoin members of our executive leadership team, including President & CEO Haytham Hodaly, for an in-depth look at Wheaton’s business model, our disciplined approach",
+      "url": "https://x.com/Wheaton_PM/status/2094904974270472497",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-42bff3523a8cbe1e0edb36de",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-02T15:10:05+00:00",
+      "text": "https://t.co/1ECbkbEsQl",
+      "url": "https://x.com/silverguru22/status/2095167386278371632",
+      "collector": "x_search",
+      "report_date": "2026-09-02",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @silverguru22: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+  }
+}
