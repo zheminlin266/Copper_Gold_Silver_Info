@@ -1,0 +1,182 @@
+X 原始候选 — 2026-09-01
+采集时间: 2026-09-02T07:27:46.007942+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 18 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-08-31T20:11:18+00:00
+    北京: 2026-09-01T04:11:18+08:00
+    文本: started saving concurrently with starting part time work, pre age 10. Started saving in gold, 2000
+    链接: https://x.com/RealRickRule/status/2094518411628032185
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-08-31T19:34:17+00:00
+    北京: 2026-09-01T03:34:17+08:00
+    文本: the golden constant
+    链接: https://x.com/RealRickRule/status/2094509096431235135
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-01T15:09:27+00:00
+    北京: 2026-09-01T23:09:27+08:00
+    文本: It's been going on for more than a year now
+
+
+https://
+katusaresearch.com/the-worlds-new
+est-gold-buyer-made-13-billion-last-year/
+…
+    链接: https://x.com/KatusaResearch/status/2094804839125618784
+
+[4] @KatusaResearch (Marin Katusa)
+    UTC: 2026-08-31T19:05:39+00:00
+    北京: 2026-09-01T03:05:39+08:00
+    文本: Indeed. 
+
+Tether is strategically buying gold ounces AND gold stocks
+    链接: https://x.com/KatusaResearch/status/2094501892764389452
+
+[5] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-01T01:59:45+00:00
+    北京: 2026-09-01T09:59:45+08:00
+    文本: Remarkable visit to the Yukon properties of Banyan Gold 
+$BYN.V
+, Gladiator Metals 
+$GLAD.V
+ and Prospector Metals 
+$PPP.V
+ — all multi-baggers in the 
+@GoldNewsletter
+ portfolio with even bigger gains ahead of them IMO.
+    链接: https://x.com/Brien_Lundin/status/2094606101257863286
+
+[6] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-08-31T19:48:41+00:00
+    北京: 2026-09-01T03:48:41+08:00
+    文本: Quite a conundrum our monetary masters have — and one way out for us.
+
+Tackle inflation with tighter money...and rates rise.
+
+Refuse to tackle inflation...and rates rise.
+
+Rates rise, and doubts about Uncle Sam paying its debts in dollars valued anywhere near current valuations
+    链接: https://x.com/Brien_Lundin/status/2094512720934477864
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-08-31T18:48:12+00:00
+    北京: 2026-09-01T02:48:12+08:00
+    文本: Gold Price Forecast for Next Week: Can Bulls Defend Key Support After Recent Volatility? - 
+https://
+goo.gl/alerts/Kf2z1W #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2094497500774518826
+
+[8] @silverguru22 (David Morgan)
+    UTC: 2026-08-31T18:46:42+00:00
+    北京: 2026-09-01T02:46:42+08:00
+    文本: Stocks, Gold Drop on Fed Rate-Hike Bets; Oil Gains: Markets Wrap - 
+https://
+Bloomberg.com - 
+https://
+goo.gl/alerts/VG89jP #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2094497122913763825
+
+[9] @silverguru22 (David Morgan)
+    UTC: 2026-08-31T18:46:20+00:00
+    北京: 2026-09-01T02:46:20+08:00
+    文本: Gold hits near two-week low on Fed chief's hawkish stance - CNBC - 
+https://
+goo.gl/alerts/DRvpsq #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2094497029049467258
+
+[10] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-01T15:08:53+00:00
+    北京: 2026-09-01T23:08:53+08:00
+    文本: NEW SILVER ADVISOR PICK 
+
+Five operations. No long-term debt. Rising silver production—and a high-grade growth project targeting first production this year.
+
+
+@TedJButler
+  reveals why we’ve added 
+@SantacruzSilver
+  
+$SCZ
+ 
+$SCZM
+ to the portfolio.
+
+Subscribers get the full analysis:
+    链接: https://x.com/peter_krauth/status/2094804694614802914
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-08-31T23:17:38+00:00
+    北京: 2026-09-01T07:17:38+08:00
+    文本: Chile’s Copper production -9%
+    链接: https://x.com/wmiddelkoop/status/2094565305599009180
+
+[12] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-01T15:53:57+00:00
+    北京: 2026-09-01T23:53:57+08:00
+    文本: because it is ridiculous.  stupid really. gold is getting harder to find and mine, not easier, the easy deposits are long gone
+    链接: https://x.com/LawrenceLepard/status/2094816035203387599
+
+[13] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-01T15:30:14+00:00
+    北京: 2026-09-01T23:30:14+08:00
+    文本: using the term "sound money" to convey limited in supply with usage only as money (not jewelry, etc) and on that score bitcoin beats gold.
+    链接: https://x.com/LawrenceLepard/status/2094810068755656834
+
+[14] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-01T15:13:58+00:00
+    北京: 2026-09-01T23:13:58+08:00
+    文本: fair enough. the price of gold if that happens!  
+    链接: https://x.com/LawrenceLepard/status/2094805974091514200
+
+[15] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-01T14:27:20+00:00
+    北京: 2026-09-01T22:27:20+08:00
+    文本: Bitcoin is currently cheap compared to gold.   paper bitcoin will never be the threat that paper gold was because gold has never gone up 600% in 7 months. people can play with paper bitcoin but they will get their faces ripped off.  we will see $180,000+ BTC within 12 months IMO.
+    链接: https://x.com/LawrenceLepard/status/2094794236541444599
+
+[16] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-08-31T22:43:33+00:00
+    北京: 2026-09-01T06:43:33+08:00
+    文本: Copper connects us all. 
+
+From the energy that powers our lives to the infrastructure that keeps the world moving, copper is fundamental to a more connected, electrified future.
+
+As one of the world’s highest-grade, lowest-carbon-emitting major copper mines, Kamoa-Kakula is
+    链接: https://x.com/IvanhoeMines_/status/2094556729359192140
+
+[17] @Wheaton_PM (Wheaton Precious Metals)
+    UTC: 2026-09-01T14:39:55+00:00
+    北京: 2026-09-01T22:39:55+08:00
+    文本: In this episode of Dig Deep The Mining Podcast, Haytham Hodaly, President & CEO, discusses how 
+@Wheaton_PM
+ helps mining companies access capital, the significance of recent transactions, and why demand trends for gold and silver continue to support long-term growth.
+
+Catch the
+    链接: https://x.com/Wheaton_PM/status/2094797406508552199
+
+[18] @KinrossGold (Kinross Gold)
+    UTC: 2026-08-31T19:30:38+00:00
+    北京: 2026-09-01T03:30:38+08:00
+    文本: This summer, representatives from 
+@KinrossChile
+ were excited to participate in the first edition of the Atacama Women in Mining Forum!
+The Forum was an opportunity to bring together representatives from public, private and academic sectors to network and share strategies and
+    链接: https://x.com/kinrossgold/status/2094508178167803929
+

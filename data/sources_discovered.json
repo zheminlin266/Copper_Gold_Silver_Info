@@ -1,5 +1,13 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-07-06",
-  "entries": []
+  "last_updated": "2026-09-01",
+  "entries": [
+    {
+      "source_id": "source-resource-talks",
+      "display_name": "Resource Talks",
+      "category": "矿业公司访谈",
+      "notes": "2026-09-01 public interview page directly verified; page includes paid-content and conflict-of-interest disclosure.",
+      "channel": "https://resourcetalks.com/"
+    }
+  ]
 }

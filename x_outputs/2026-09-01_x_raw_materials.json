@@ -1,0 +1,241 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-01",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-7c0c695dddc122ab45c7749c",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-31T20:11:18+00:00",
+      "text": "started saving concurrently with starting part time work, pre age 10. Started saving in gold, 2000",
+      "url": "https://x.com/RealRickRule/status/2094518411628032185",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-786858b281aa9225cddf2361",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-08-31T19:34:17+00:00",
+      "text": "the golden constant",
+      "url": "https://x.com/RealRickRule/status/2094509096431235135",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0cb663f34959a4f959b3fdab",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-01T15:09:27+00:00",
+      "text": "It's been going on for more than a year now\n\n\nhttps://\nkatusaresearch.com/the-worlds-new\nest-gold-buyer-made-13-billion-last-year/\n…",
+      "url": "https://x.com/KatusaResearch/status/2094804839125618784",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-edad068ee591f51b32eb325e",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-08-31T19:05:39+00:00",
+      "text": "Indeed. \n\nTether is strategically buying gold ounces AND gold stocks",
+      "url": "https://x.com/KatusaResearch/status/2094501892764389452",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8a0496be571160fe028d2da2",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-01T01:59:45+00:00",
+      "text": "Remarkable visit to the Yukon properties of Banyan Gold \n$BYN.V\n, Gladiator Metals \n$GLAD.V\n and Prospector Metals \n$PPP.V\n — all multi-baggers in the \n@GoldNewsletter\n portfolio with even bigger gains ahead of them IMO.",
+      "url": "https://x.com/Brien_Lundin/status/2094606101257863286",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-402a118f71a094c98dea5fc2",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-08-31T19:48:41+00:00",
+      "text": "Quite a conundrum our monetary masters have — and one way out for us.\n\nTackle inflation with tighter money...and rates rise.\n\nRefuse to tackle inflation...and rates rise.\n\nRates rise, and doubts about Uncle Sam paying its debts in dollars valued anywhere near current valuations",
+      "url": "https://x.com/Brien_Lundin/status/2094512720934477864",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-116ed14bf6deacf3b1414191",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-31T18:48:12+00:00",
+      "text": "Gold Price Forecast for Next Week: Can Bulls Defend Key Support After Recent Volatility? - \nhttps://\ngoo.gl/alerts/Kf2z1W #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2094497500774518826",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ab114339be0a1d0f3d081272",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-31T18:46:42+00:00",
+      "text": "Stocks, Gold Drop on Fed Rate-Hike Bets; Oil Gains: Markets Wrap - \nhttps://\nBloomberg.com - \nhttps://\ngoo.gl/alerts/VG89jP #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2094497122913763825",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-027ae8002783620c84cb68e3",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-08-31T18:46:20+00:00",
+      "text": "Gold hits near two-week low on Fed chief's hawkish stance - CNBC - \nhttps://\ngoo.gl/alerts/DRvpsq #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2094497029049467258",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-88de643f2c617a8c0e528790",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-01T15:08:53+00:00",
+      "text": "NEW SILVER ADVISOR PICK \n\nFive operations. No long-term debt. Rising silver production—and a high-grade growth project targeting first production this year.\n\n\n@TedJButler\n  reveals why we’ve added \n@SantacruzSilver\n  \n$SCZ\n \n$SCZM\n to the portfolio.\n\nSubscribers get the full analysis:",
+      "url": "https://x.com/peter_krauth/status/2094804694614802914",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-743d5b144e7823379ca4130d",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-08-31T23:17:38+00:00",
+      "text": "Chile’s Copper production -9%",
+      "url": "https://x.com/wmiddelkoop/status/2094565305599009180",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9ed7dfbe63e4d8fa20738c3a",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-01T15:53:57+00:00",
+      "text": "because it is ridiculous.  stupid really. gold is getting harder to find and mine, not easier, the easy deposits are long gone",
+      "url": "https://x.com/LawrenceLepard/status/2094816035203387599",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2e2ab1780a61898f95b2481f",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-01T15:30:14+00:00",
+      "text": "using the term \"sound money\" to convey limited in supply with usage only as money (not jewelry, etc) and on that score bitcoin beats gold.",
+      "url": "https://x.com/LawrenceLepard/status/2094810068755656834",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-53d10c978ac7269af6f927ba",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-01T15:13:58+00:00",
+      "text": "fair enough. the price of gold if that happens!  ",
+      "url": "https://x.com/LawrenceLepard/status/2094805974091514200",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-892b05c50aff69eedd25088c",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-01T14:27:20+00:00",
+      "text": "Bitcoin is currently cheap compared to gold.   paper bitcoin will never be the threat that paper gold was because gold has never gone up 600% in 7 months. people can play with paper bitcoin but they will get their faces ripped off.  we will see $180,000+ BTC within 12 months IMO.",
+      "url": "https://x.com/LawrenceLepard/status/2094794236541444599",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f18a39cc9fc893f2aef3aa80",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-08-31T22:43:33+00:00",
+      "text": "Copper connects us all. \n\nFrom the energy that powers our lives to the infrastructure that keeps the world moving, copper is fundamental to a more connected, electrified future.\n\nAs one of the world’s highest-grade, lowest-carbon-emitting major copper mines, Kamoa-Kakula is",
+      "url": "https://x.com/IvanhoeMines_/status/2094556729359192140",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-46953f283a4a217b17a1a480",
+      "source_id": "x-wheaton_pm",
+      "author": "Wheaton Precious Metals",
+      "handle": "Wheaton_PM",
+      "publish_time": "2026-09-01T14:39:55+00:00",
+      "text": "In this episode of Dig Deep The Mining Podcast, Haytham Hodaly, President & CEO, discusses how \n@Wheaton_PM\n helps mining companies access capital, the significance of recent transactions, and why demand trends for gold and silver continue to support long-term growth.\n\nCatch the",
+      "url": "https://x.com/Wheaton_PM/status/2094797406508552199",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7b0e31675601045f312293bb",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-08-31T19:30:38+00:00",
+      "text": "This summer, representatives from \n@KinrossChile\n were excited to participate in the first edition of the Atacama Women in Mining Forum!\nThe Forum was an opportunity to bring together representatives from public, private and academic sectors to network and share strategies and",
+      "url": "https://x.com/kinrossgold/status/2094508178167803929",
+      "collector": "x_search",
+      "report_date": "2026-09-01",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

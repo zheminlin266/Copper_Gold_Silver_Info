@@ -1,0 +1,691 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-01",
+  "report_time": "2026-09-02T07:56:25+08:00",
+  "summary": "黄金：Apollo、Bralorne与Wenot钻探及Burnstone批准增加远期供给选项，短期实际产量未变；白银：Rainbow Block扩边和Mt Lyell副产银扩大中期供给可能。铜：ACG爬坡与智利减产分别增加、减少近期供给，Hudbay、Cascadia、Pecoy、DLP及印度—赞比亚布局增强中长期供给。",
+  "windows": {
+    "part1": {
+      "start": "2026-08-30T00:00:00+08:00",
+      "end": "2026-09-01T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-01T00:00:00+08:00",
+      "end": "2026-09-01T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-01T00:00:00+08:00",
+      "end": "2026-09-01T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.northernminer.com/news/sw-us-ceo-chat-hudbay-builds-copper-giant/1003894493/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Copper World融资组合包括Mitsubishi 6亿美元、Wheaton 2.3亿美元及约5亿美元项目债务。",
+          "evidence": "The Northern Miner访谈正文直接列出三部分融资安排。",
+          "source_url": "https://www.northernminer.com/news/sw-us-ceo-chat-hudbay-builds-copper-giant/1003894493/",
+          "evidence_type": "direct CEO interview",
+          "period": "2026 interview; planned project financing",
+          "unit": "USD",
+          "value": "$600 million; $230 million; approximately $500 million"
+        },
+        {
+          "claim": "Copper World首期设计约9.2万吨/年铜，Cactus设计约10.3万吨/年铜。",
+          "evidence": "访谈正文列出两个亚利桑那项目的设计产能。",
+          "source_url": "https://www.northernminer.com/news/sw-us-ceo-chat-hudbay-builds-copper-giant/1003894493/",
+          "evidence_type": "direct CEO interview",
+          "period": "project design; future production",
+          "unit": "tonnes copper/year",
+          "value": "92,000; 103,000"
+        }
+      ],
+      "publish_date": "2026-09-01",
+      "title": "The Northern Miner访谈：Hudbay CEO详述美国Copper World与Cactus扩张路径",
+      "source_type": "webcast",
+      "summary": "The Northern Miner 9月1日刊发对Hudbay CEO Peter Kukielski的访谈，介绍Copper World与Cactus的融资、建设排序和美国铜产能路径。",
+      "detail": "访谈称Copper World融资组合包括Mitsubishi 6亿美元、Wheaton 2.3亿美元及约5亿美元项目债务，目标避免股权融资。Copper World首期设计约9.2万吨/年，Cactus约10.3万吨/年；首期合计约19.5万吨/年，仍需可研、建设决策和施工。",
+      "importance": "这是一条已从资金安排推进到开发排序的铜供给路径：Mitsubishi、Wheaton与项目债务合计约13.3亿美元，意在覆盖Copper World首期和后续Cactus，减少股权融资约束。首期设计合计约19.5万吨/年，2030年代初才可能兑现；今年可研、年末施工决策和成本上升是关键验证点。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Peter Kukielski",
+        "background": "Hudbay Minerals CEO"
+      },
+      "companies": [
+        "Hudbay Minerals",
+        "Mitsubishi",
+        "Wheaton Precious Metals"
+      ],
+      "projects": [
+        "Copper World",
+        "Cactus",
+        "Mason",
+        "Copper Mountain"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/gold-stocks/high-grade-gold-samples-in-ontario-but-can-drilling-confirm-a-real-system/",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Total Metals完成Electrolode冬季2026项目25孔、8,408米钻探。",
+          "evidence": "Resource Talks访谈正文直接披露已完成孔数和米数。",
+          "source_url": "https://resourcetalks.com/gold-stocks/high-grade-gold-samples-in-ontario-but-can-drilling-confirm-a-real-system/",
+          "evidence_type": "direct interview page",
+          "period": "winter 2026 program",
+          "unit": "holes; metres",
+          "value": "25; 8,408 m"
+        },
+        {
+          "claim": "公司计划9月底前测试High Lake、年内测试Menary，首批化验预计10月上中旬。",
+          "evidence": "访谈的Upcoming catalysts部分直接列出后续工作和化验时间。",
+          "source_url": "https://resourcetalks.com/gold-stocks/high-grade-gold-samples-in-ontario-but-can-drilling-confirm-a-real-system/",
+          "evidence_type": "direct interview page",
+          "period": "2026 planned work",
+          "unit": "date; work program",
+          "value": "before end-September; before year-end; early-to-mid October"
+        }
+      ],
+      "publish_date": "2026-09-01",
+      "title": "Resource Talks访谈：Total Metals转向金矿勘探并等待秋季化验",
+      "source_type": "webcast",
+      "summary": "Resource Talks 9月1日采访Total Metals主席Michael Dehn，讨论Electrolode冬季钻探复盘、High Lake与Menary金矿勘探计划及许可约束。",
+      "detail": "页面称Electrolode冬季项目完成25孔、8,408米，模型复盘显示部分钻孔偏浅约200米；公司计划在9月底前测试High Lake、年内测试Menary，首批化验预计10月上中旬。页面同时披露约200万加元勘探预算，并明确提示内容存在商业利益冲突。",
+      "importance": "Total Metals的访谈把短期供给判断拉回“尚未成矿”：Electrolode冬季25孔、8,408米钻探已结束，模型复盘显示钻孔偏浅约200米，连续性仍弱。公司计划9月底前测试High Lake、年内测试Menary，首批化验约在10月；这支持勘探管线跟踪，不能提前计入产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Michael Dehn",
+        "background": "Total Metals chairman"
+      },
+      "companies": [
+        "Total Metals"
+      ],
+      "projects": [
+        "Electrolode",
+        "High Lake",
+        "Menary",
+        "West Hawk Lake",
+        "Pick Lake"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/collective-extends-colombias-apollo-on-15-g-t-gold-hit/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "APC172-D2交出141.4米、4.75g/t金，含38米、15.25g/t金。",
+          "evidence": "Mining.com文章正文直接披露钻孔长度、品位和包含区间。",
+          "source_url": "https://www.mining.com/collective-extends-colombias-apollo-on-15-g-t-gold-hit/",
+          "evidence_type": "direct Mining.com report",
+          "period": "2026-09-01 report; drill results",
+          "unit": "metres; g/t Au",
+          "value": "141.4 m at 4.75 g/t; 38 m at 15.25 g/t"
+        },
+        {
+          "claim": "Apollo新矿化体向北延伸约100米，且矿化在多个方向开放。",
+          "evidence": "Mining.com文章正文直接披露北向延伸和开放方向。",
+          "source_url": "https://www.mining.com/collective-extends-colombias-apollo-on-15-g-t-gold-hit/",
+          "evidence_type": "direct Mining.com report",
+          "period": "2026 exploration update",
+          "unit": "metres; geology",
+          "value": "approximately 100 m; open in multiple directions"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "MINING.COM",
+      "title": "Collective extends Colombia’s Apollo on 15-g/t gold hit",
+      "excerpt": "Mining.com 9月1日报道，Collective Mining在哥伦比亚Guayabales的Apollo系统向北延伸约100米；APC172-D2在约924米深处见141.4米、4.75g/t金，含38米、15.25g/t金。",
+      "language": "en",
+      "interpretation": "报道还称新北部breccia体在多个方向开放，后续孔已见目视有利矿化，初始资源预计本月发布。该结果是勘探扩展，不等同资源量、储量或当前产量。",
+      "importance": "Apollo向北延伸100米并在约1,000米深处命中高品位breccia，意味着深部连续性和资源边界仍有扩展空间。公司预计本月发布初始资源，当前累计钻探约18.8万米；资源量、冶金与地下工程能否把深部高品位转成可采储量，决定中期黄金供给意义，短期不构成产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Collective Mining"
+      ],
+      "projects": [
+        "Apollo",
+        "Guayabales",
+        "San Antonio"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章HTTP 200，核对标题、作者、9月1日日期和核心钻探数字。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/sibanye-stillwater-to-build-new-copper-gold-mines-on-two-continents/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mt Lyell目标2029年首矿，稳态预计年产2.6万吨铜、1.6万盎司金和11.6万盎司银。",
+          "evidence": "Mining.com文章正文直接披露项目时间表、产能和矿山寿命。",
+          "source_url": "https://www.mining.com/sibanye-stillwater-to-build-new-copper-gold-mines-on-two-continents/",
+          "evidence_type": "direct Mining.com report",
+          "period": "future project; 23-year mine life",
+          "unit": "tonnes Cu/year; oz Au/year; oz Ag/year",
+          "value": "26,000; 16,000; 116,000"
+        },
+        {
+          "claim": "Burnstone预计年产约13万盎司金，矿山寿命25年，并拥有270万盎司金储量。",
+          "evidence": "Mining.com文章正文直接披露Burnstone储量、产量和寿命。",
+          "source_url": "https://www.mining.com/sibanye-stillwater-to-build-new-copper-gold-mines-on-two-continents/",
+          "evidence_type": "direct Mining.com report",
+          "period": "future project; 25-year mine life",
+          "unit": "oz Au; oz/year",
+          "value": "2.7 Moz reserves; approximately 130,000 oz/year"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "MINING.COM",
+      "title": "Sibanye-Stillwater to build new copper, gold mines on two continents",
+      "excerpt": "Mining.com 9月1日报道，Sibanye-Stillwater批准澳大利亚Mt Lyell铜金项目和南非Burnstone金矿项目，Mt Lyell目标2029年首矿。",
+      "language": "en",
+      "interpretation": "Mt Lyell重启资本约3.4亿美元，稳态预计年产2.6万吨铜、1.6万盎司金和11.6万盎司银，矿山寿命23年；Burnstone拥有270万盎司金储量，预计年产约13万盎司、寿命25年。",
+      "importance": "Mt Lyell获董事会投资决定后，23年期、2.6万吨/年铜设计进入推进阶段，2029年首矿仍给建设留出较长兑现链条。与Burnstone合看，Sibanye在金铜两条管线同时增加供给选项；Mt Lyell约3.4亿美元资本和成本控制、Burnstone投产执行及金属价格决定资金能否持续。",
+      "verification_status": "verified",
+      "companies": [
+        "Sibanye-Stillwater"
+      ],
+      "projects": [
+        "Mt Lyell",
+        "Burnstone"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章HTTP 200，核对标题、作者、9月1日日期、投资决定、Mt Lyell和Burnstone数字。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://acgmetals.com/acg-metals-achieves-first-copper-concentrate-production-at-gediktepe/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "ACG Metals于2026年8月31日在Gediktepe产出首批铜精矿，项目进入爬坡阶段。",
+          "evidence": "ACG Metals官网9月1日RNS公告直接披露产出日期和运营阶段。",
+          "source_url": "https://acgmetals.com/acg-metals-achieves-first-copper-concentrate-production-at-gediktepe/",
+          "evidence_type": "direct issuer release",
+          "period": "2026-08-31 first concentrate; 2026-09-01 announcement",
+          "unit": "production milestone",
+          "value": "first copper concentrate; ramp-up"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "ACG Metals",
+      "title": "ACG Metals Achieves First Copper Concentrate Production at Gediktepe",
+      "excerpt": "ACG Metals 9月1日公告称，土耳其Gediktepe于8月31日产出首批铜精矿，项目进入爬坡阶段，目标2026年底全面生产。",
+      "language": "en",
+      "interpretation": "公司称试车按计划推进，下一步提高处理量、优化厂况和回收率，并逐步达到稳定生产；该公告未给出稳定态年产量，供给增量仍需后续运营数据验证。",
+      "importance": "首批铜精矿已从试车节点进入爬坡，Gediktepe由金银锌矿向铜生产切换，供给变化比单纯勘探更接近兑现。公司目标2026年底全面生产，但当前仍需提升处理量、回收率和精矿稳定性；稳态产能尚未在公告中量化，后续出货与回收率才是实际增量验证。",
+      "verification_status": "verified",
+      "companies": [
+        "ACG Metals"
+      ],
+      "projects": [
+        "Gediktepe"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/copper-price-stalls-short-of-record-as-chiles-storm-hit-output-slumps-to-2011-low/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利2026年7月铜产量403,424吨，较2025年7月445,322吨下降9.4%，较6月下降9.8%。",
+          "evidence": "Mining.com转载Reuters并引用智利统计机构INE，正文直接给出产量和变化。",
+          "source_url": "https://www.mining.com/copper-price-stalls-short-of-record-as-chiles-storm-hit-output-slumps-to-2011-low/",
+          "evidence_type": "Reuters report carried by Mining.com",
+          "period": "July 2026 vs July 2025 and June 2026",
+          "unit": "metric tonnes; percent",
+          "value": "403,424; -9.4%; -9.8%"
+        },
+        {
+          "claim": "INE将下降归因于北部天气影响正常生产及主要矿山维护。",
+          "evidence": "报道直接转述INE对天气和维护因素的说明。",
+          "source_url": "https://www.mining.com/copper-price-stalls-short-of-record-as-chiles-storm-hit-output-slumps-to-2011-low/",
+          "evidence_type": "Reuters report quoting Chile INE",
+          "period": "July 2026",
+          "unit": "operating conditions",
+          "value": "weather; maintenance"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "MINING.COM / Reuters",
+      "title": "Copper price stalls short of record as Chile’s storm-hit output slumps to 2011 low",
+      "excerpt": "Mining.com转载Reuters称，智利7月铜产量403,424吨，同比下降9.4%，为全球最大铜生产国2011年以来最弱的7月产量；北部天气和主要矿山维护造成影响。",
+      "language": "en",
+      "interpretation": "文章还称7月产量较6月下降9.8%，LME库存降至234,275吨，Comex库存约688,000吨；天气、维护、矿石品位和美国进口前置共同造成区域库存与现货流向分化。",
+      "importance": "智利7月少产4.19万吨，且同比下降发生在全球最大铜生产国，短期现货供给的收缩权重高于单一小矿扰动。天气、维护和矿石品位都可能有阶段性，后续8—9月产量及Antofagasta、Lundin指导能否恢复决定压力持续时间；库存分化也会影响传导。",
+      "verification_status": "verified",
+      "companies": [
+        "Instituto Nacional de Estadísticas de Chile",
+        "Reuters"
+      ],
+      "projects": [
+        "Chilean copper mining sector"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开文章HTTP 200，核对作者、9月1日日期、INE产量、同比变化和天气/维护原因。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/india-revives-talks-with-zambia-to-invest-in-critical-minerals-sources-say/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "印度矿业部官员与赞比亚官员于2026年8月26日就铜和其他关键矿产投资进行初步讨论。",
+          "evidence": "Reuters文章由Mining.com刊载，正文直接披露讨论日期和参与方。",
+          "source_url": "https://www.mining.com/web/india-revives-talks-with-zambia-to-invest-in-critical-minerals-sources-say/",
+          "evidence_type": "Reuters report carried by Mining.com",
+          "period": "2026-08-26 discussions; reported 2026-09-01",
+          "unit": "date; stage",
+          "value": "preliminary talks"
+        },
+        {
+          "claim": "印度政府称到2047年可能需要进口91%—97%的铜精矿。",
+          "evidence": "Reuters文章直接转述印度政府对未来精矿进口依赖的说法。",
+          "source_url": "https://www.mining.com/web/india-revives-talks-with-zambia-to-invest-in-critical-minerals-sources-say/",
+          "evidence_type": "Reuters report quoting government",
+          "period": "through 2047 projection",
+          "unit": "percent of copper concentrates",
+          "value": "91%-97%"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "MINING.COM / Reuters",
+      "title": "India revives talks with Zambia to invest in critical minerals, sources say",
+      "excerpt": "Reuters经Mining.com报道，印度矿业部官员8月26日与赞比亚官员初步讨论铜及其他关键矿产投资；印度正寻找海外原料和矿权。",
+      "language": "en",
+      "interpretation": "报道强调谈判仍属初步阶段，双方未确认此前停滞项目；印度政府曾表示到2047年可能需要进口91%—97%的铜精矿，Khanij Bidesh India也在评估其他国家机会。",
+      "importance": "印度与赞比亚在8月26日重启初步讨论，显示印度正把精矿保障从进口采购延伸到海外矿权、棕地项目和长期包销。谈判仍无协议，且此前因9,000平方公里矿权保障停滞；印度到2047年或需进口91%—97%铜精矿，需求增长提供驱动，权利与项目落地决定供给增量。",
+      "verification_status": "verified",
+      "companies": [
+        "India Ministry of Mines",
+        "Khanij Bidesh India Ltd"
+      ],
+      "projects": [
+        "India-Zambia critical minerals discussions"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一Playwright会话打开Reuters文章HTTP 200，核对标题、作者、9月1日日期、8月26日会谈和精矿进口预测。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://cascadiaminerals.com/cascadia-drilling-news-2026-09-01/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "CD-26-056交出82.69米、1.12%铜、0.64g/t金和1.78% CuEq。",
+          "evidence": "Cascadia官网公告直接披露孔号、长度、品位和铜当量。",
+          "source_url": "https://cascadiaminerals.com/cascadia-drilling-news-2026-09-01/",
+          "evidence_type": "direct issuer release",
+          "period": "2026-09-01 drill results",
+          "unit": "metres; percent Cu; g/t Au; percent CuEq",
+          "value": "82.69; 1.12%; 0.64; 1.78%"
+        },
+        {
+          "claim": "Zone 2000S硫化物矿化在既有资源外延伸约300米，2026年钻探计划由15,000米扩至18,000米。",
+          "evidence": "公告Highlights和钻探总结直接披露扩边距离和计划变化。",
+          "source_url": "https://cascadiaminerals.com/cascadia-drilling-news-2026-09-01/",
+          "evidence_type": "direct issuer release",
+          "period": "2026 exploration program",
+          "unit": "metres",
+          "value": "300 m beyond resource; 15,000 m to 18,000 m"
+        }
+      ],
+      "publish_time": "2026-09-01T04:00:00-07:00",
+      "source": "Cascadia Minerals",
+      "title": "Cascadia Drills 82.69 m of 1.12% Cu and 0.64 g/t Au (1.78% CuEq) at the Carmacks Project, Yukon",
+      "excerpt": "Cascadia Minerals公告称，Yukon Carmacks项目孔CD-26-056见82.69米、1.12%铜和0.64g/t金，折算1.78% CuEq；硫化物矿化超出既有资源边界约300米。",
+      "language": "en",
+      "interpretation": "公司将2026年钻探计划从15,000米扩大至18,000米，六个外围孔结果待定；82.69米为钻孔长度，真厚度估计为60%—70%，不等同资源量或储量。",
+      "importance": "82.69米、1.12%铜和0.64g/t金的孔位于既有资源外300米，且Zone 2000S解释走向从300米扩至约600米，显著提高资源扩边的验证价值。钻探计划由1.5万米增至1.8万米，六个加密/步外围孔结果待定；当前仍是勘探增量，连续性、真厚度和资源更新决定中期供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Cascadia Minerals"
+      ],
+      "projects": [
+        "Carmacks",
+        "Zone 2000S",
+        "Zone 147"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.pecoycopper.com/news/news-releases/pecoy-copper-adds-third-broad-south-breccia-intercept-northwest-returns-423-metres-at-101-cu-near-surface-and-expands-mineralized-footprint",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "PEC26-072交出804.0米、0.34%铜、0.08g/t金和1.19g/t银，含485.2米、0.40%铜。",
+          "evidence": "Pecoy官网公告表格和正文直接披露钻探结果。",
+          "source_url": "https://www.pecoycopper.com/news/news-releases/pecoy-copper-adds-third-broad-south-breccia-intercept-northwest-returns-423-metres-at-101-cu-near-surface-and-expands-mineralized-footprint",
+          "evidence_type": "direct issuer release",
+          "period": "2026-09-01 drill results",
+          "unit": "metres; percent Cu; g/t Au; g/t Ag",
+          "value": "804.0; 0.34%; 0.08; 1.19; 485.2 m at 0.40% Cu"
+        },
+        {
+          "claim": "PEC26-067从15米起见209.0米、0.40%铜，含42.3米、1.01%铜。",
+          "evidence": "Pecoy官网公告Highlights和表格直接披露浅部区间。",
+          "source_url": "https://www.pecoycopper.com/news/news-releases/pecoy-copper-adds-third-broad-south-breccia-intercept-northwest-returns-423-metres-at-101-cu-near-surface-and-expands-mineralized-footprint",
+          "evidence_type": "direct issuer release",
+          "period": "2026-09-01 drill results",
+          "unit": "metres; percent Cu",
+          "value": "209.0 m at 0.40%; 42.3 m at 1.01%"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "Pecoy Copper",
+      "title": "Pecoy Copper Adds Third Broad South Breccia Intercept; Northwest Returns 42.3 Metres at 1.01% Cu Near Surface and Expands Mineralized Footprint",
+      "excerpt": "Pecoy Copper公告称，南部角砾岩PEC26-072见804.0米、0.34%铜，Northwest的PEC26-067见209.0米、0.40%铜，均需后续钻探确认连续性和真厚度。",
+      "language": "en",
+      "interpretation": "PEC26-072包括485.2米、0.40%铜及100.8米、0.56%铜；PEC26-067从15米起见209米、0.40%铜，含42.3米、1.01%铜。公告明确这些是钻孔长度，不能据此证明不同靶区连续或具经济性。",
+      "importance": "South Breccia第三个宽厚截获与Northwest浅部高品位段同时出现，使Pecoy从单靶区结果转向多个方向的三维建模问题。804.0米、0.34%铜和209米、0.40%铜都属于孔内长度，项目仍需补钻验证连续性和真厚度；因此更像远期资源扩张期权，不能计入近期供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Pecoy Copper"
+      ],
+      "projects": [
+        "Pecoy Copper-Gold-Molybdenum-Silver Project",
+        "South Breccia",
+        "Northwest"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.silverbowmining.com/news/silver-bow-mining-intersects-9942-gt-ageq-over-40-m-including-15861-gt-ageq-over-23-m-from-the-rainbow-block-in-butte-montana",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "SBM26-03 Badger脉见4.0米、994.2g/t AgEq，含2.3米、1,586.1g/t AgEq。",
+          "evidence": "Silver Bow官网直接披露Business Wire发行的完整公告和分析数字。",
+          "source_url": "https://www.silverbowmining.com/news/silver-bow-mining-intersects-9942-gt-ageq-over-40-m-including-15861-gt-ageq-over-23-m-from-the-rainbow-block-in-butte-montana",
+          "evidence_type": "direct issuer release",
+          "period": "2026-09-01 drill results",
+          "unit": "metres; g/t AgEq",
+          "value": "4.0 m at 994.2; 2.3 m at 1,586.1"
+        },
+        {
+          "claim": "该Badger脉截获位于现有推断资源边界外约125米，项目一期钻探已完成约13,500英尺。",
+          "evidence": "公告正文直接披露相对资源边界的位置和钻探进度。",
+          "source_url": "https://www.silverbowmining.com/news/silver-bow-mining-intersects-9942-gt-ageq-over-40-m-including-15861-gt-ageq-over-23-m-from-the-rainbow-block-in-butte-montana",
+          "evidence_type": "direct issuer release",
+          "period": "2026 Phase I drilling",
+          "unit": "metres; feet",
+          "value": "125 m; approximately 13,500 ft of 25,000 ft"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "Silver Bow Mining",
+      "title": "Silver Bow Mining Intersects 994.2 g/t AgEq Over 4.0 m, including 1,586.1 g/t AgEq Over 2.3 m, from the Rainbow Block in Butte, Montana",
+      "excerpt": "Silver Bow Mining公告称，Montana Rainbow Block的Badger脉孔SBM26-03见4.0米、994.2g/t AgEq，含2.3米、1,586.1g/t AgEq，截获位于现有推断资源边界外约125米。",
+      "language": "en",
+      "interpretation": "主截获含309.0g/t银、1.85g/t金、9.98%锌和5.75%铅；公司正在进行25,000英尺一期钻探，已完成约13,500英尺，目标为扩展资源，计划2027年上半年更新MRE。",
+      "importance": "Badger脉新孔位于现有推断资源边界外约125米，且同一脉带相隔约125米再次出现高品位，扩张证据比单个孤立样品更完整。4.0米994.2g/t AgEq及2.3米1,586.1g/t AgEq仍依赖钻探连续性、资源升级和实际回收率；公司计划2027年上半年更新资源，白银与伴生金供给影响偏中期。",
+      "verification_status": "verified",
+      "companies": [
+        "Silver Bow Mining"
+      ],
+      "projects": [
+        "Rainbow Block",
+        "Badger Vein"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/312361/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "26ODD-193见40.5米、5.12g/t金，含10.4米、11.29g/t金；26ODD-197W见40.7米、2.68g/t金。",
+          "evidence": "Newsfile发布的Omai Gold公告正文直接披露孔号、区间和品位。",
+          "source_url": "https://www.newsfilecorp.com/release/312361/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026-09-01 drill results",
+          "unit": "metres; g/t Au",
+          "value": "40.5 m at 5.12; 10.4 m at 11.29; 40.7 m at 2.68"
+        },
+        {
+          "claim": "截至公告，2026年50,000米钻探项目完成74孔、35,149米，钻探预计持续至12月中旬。",
+          "evidence": "公告开头和管理层评论直接披露项目进度。",
+          "source_url": "https://www.newsfilecorp.com/release/312361/",
+          "evidence_type": "issuer press release distributed by Newsfile",
+          "period": "2026 exploration program",
+          "unit": "holes; metres; date",
+          "value": "74; 35,149 m; mid-December"
+        }
+      ],
+      "publish_time": "2026-09-01T06:45:00-04:00",
+      "source": "Omai Gold / Newsfile",
+      "title": "Omai Gold Drills 5.12 g/t Au over 40.5m and 2.68 g/t Au over 40.7m at Wenot",
+      "excerpt": "Omai Gold 9月1日公告称，Guyana Wenot钻探在26ODD-193见40.5米、5.12g/t金，26ODD-197W见40.7米、2.68g/t金；11个新增孔均遇到多个金矿化带。",
+      "language": "en",
+      "interpretation": "公司称2026年50,000米项目今年已完成74孔、35,149米，五台钻机继续工作；结果将用于年内资源更新并推进可研，PEA设计平均年产351,000盎司金属于项目情景。",
+      "importance": "Wenot连续宽厚金矿化在50,000米项目中继续补强，11孔结果把深部和沉积序列的可升级资源再向外推。公司今年已完成74孔35,149米，PEA平均351,000盎司/年只是项目设计；本批化验要通过资源更新和可研，短期不会改变实际金产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Omai Gold Mines"
+      ],
+      "projects": [
+        "Omai Gold Project",
+        "Wenot",
+        "Gilt"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://dlpresourcesinc.com/dlp-announces-positive-preliminary-economic-assessment-pea-for-the-aurora-copper-molybdenum-project-with-significant-multi-phase-expansion-potential/",
+      "metal_tags": [
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Aurora PEA计划17.5年，平均年支付铜9,050万磅、钼3,740万磅和白银121万盎司。",
+          "evidence": "DLP Resources官网公告直接披露矿山寿命和年度支付产量。",
+          "source_url": "https://dlpresourcesinc.com/dlp-announces-positive-preliminary-economic-assessment-pea-for-the-aurora-copper-molybdenum-project-with-significant-multi-phase-expansion-potential/",
+          "evidence_type": "direct issuer release",
+          "period": "PEA mine plan; 17.5 years",
+          "unit": "million lb/year Cu and Mo; Moz/year Ag",
+          "value": "90.5; 37.4; 1.21"
+        },
+        {
+          "claim": "PEA初始资本为23.77亿美元，402.9Mt处理量约占更新资源的30%。",
+          "evidence": "公告Highlights和Project Overview直接披露资本与资源覆盖口径。",
+          "source_url": "https://dlpresourcesinc.com/dlp-announces-positive-preliminary-economic-assessment-pea-for-the-aurora-copper-molybdenum-project-with-significant-multi-phase-expansion-potential/",
+          "evidence_type": "direct issuer release",
+          "period": "PEA 2026-09-01; updated MRE effective 2026-04-30",
+          "unit": "USD; million tonnes; percent",
+          "value": "$2,377 million; 402.9 Mt; approximately 30%"
+        }
+      ],
+      "publish_time": "2026-09-01T06:00:00-04:00",
+      "source": "DLP Resources",
+      "title": "DLP Announces Positive Preliminary Economic Assessment (PEA) for the Aurora Copper-Molybdenum Project",
+      "excerpt": "DLP Resources 9月1日发布Aurora铜钼银项目PEA：17.5年矿山寿命，平均年支付铜9,050万磅和白银121万盎司，初始资本23.77亿美元。",
+      "language": "en",
+      "interpretation": "PEA基准税后NPV8%为27.03亿美元、IRR 18.5%；402.9Mt处理量仅约占更新资源的30%，计划包括7年露天和15年地下阶段。PEA含推断资源，尚未证明经济可行性。",
+      "importance": "这一PEA把Aurora从资源叙事推进到可量化开发方案：17.5年计划平均每年支付铜9,050万磅、白银121万盎司，且仅覆盖约30%资源。初始资本23.77亿美元和包含推断资源的PEA使兑现存在融资、许可和可研风险；铜供给的时间点至少在建设决策之后，多期地下扩张仍未经济评价。",
+      "verification_status": "verified",
+      "companies": [
+        "DLP Resources"
+      ],
+      "projects": [
+        "Aurora Copper-Molybdenum-Silver Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://taliskerresources.com/news/news-releases/talisker-intersects-111.00-g-t-au-over-0.6-m-withi-15433/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "UB-2026-034A见0.60米、111g/t金，位于2.35米、30.83g/t金组合区间内。",
+          "evidence": "Talisker官网新闻稿直接披露Highlights中的孔号、品位和长度。",
+          "source_url": "https://taliskerresources.com/news/news-releases/talisker-intersects-111.00-g-t-au-over-0.6-m-withi-15433/",
+          "evidence_type": "direct issuer release",
+          "period": "2026-09-01 drill results",
+          "unit": "metres; g/t Au",
+          "value": "0.60 m at 111.00; 2.35 m at 30.83"
+        },
+        {
+          "claim": "Mustang Mine 2026年累计钻探为75孔、21,143米，项目继续进行Bralorne West地下开发和加密钻探。",
+          "evidence": "公告正文直接披露年度钻探进度和地下开发状态。",
+          "source_url": "https://taliskerresources.com/news/news-releases/talisker-intersects-111.00-g-t-au-over-0.6-m-withi-15433/",
+          "evidence_type": "direct issuer release",
+          "period": "2026 resource conversion program",
+          "unit": "holes; metres; development",
+          "value": "75; 21,143 m; underground drilling active"
+        }
+      ],
+      "publish_time": "2026-09-01",
+      "source": "Talisker Resources",
+      "title": "Talisker Intersects 111.00 g/t Au over 0.6 m within 30.83 g/t Au over 2.35 metres",
+      "excerpt": "Talisker Resources 9月1日公告披露Bralorne项目新增30孔资源转换钻探结果，重点孔UB-2026-034A见0.60米、111g/t金，位于2.35米、30.83g/t金组合区间内。",
+      "language": "en",
+      "interpretation": "Mustang Mine 2026年累计钻探达75孔、21,143米，Bralorne West地下开发和地下加密钻探继续；结果服务Alhambra、BK、BK-9870及Bralorne West脉体的资源模型，不能直接等同新增产量。",
+      "importance": "Mustang 2026年资源转换钻探已完成75孔、21,143米，并在BK脉报告111g/t×0.60米的高品位段，说明生产矿山周边仍有增储空间。新增结果主要服务资源模型和地下开发，Bralorne West首个地下钻孔结果尚待发布；因此对近期金产量是辅助信号，中期取决于资源转换、采矿宽度和加工能力。",
+      "verification_status": "verified",
+      "companies": [
+        "Talisker Resources"
+      ],
+      "projects": [
+        "Bralorne Gold Project",
+        "Mustang Mine",
+        "Bralorne West"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Northern Miner列表及Hudbay CEO访谈：https://www.northernminer.com/news/sw-us-ceo-chat-hudbay-builds-copper-giant/1003894493/；HTTP 200，核对9月1日日期、CEO身份、融资结构、项目产能和时间表。",
+      "Resource Talks首页及Total Metals访谈：https://resourcetalks.com/gold-stocks/high-grade-gold-samples-in-ontario-but-can-drilling-confirm-a-real-system/；HTTP 200，核对9月1日日期、Michael Dehn、Electrolode钻探、High Lake/Menary计划和披露的利益冲突。",
+      "Mining Stock Daily列表及9月1日Morning Briefing：https://www.miningstockdaily.com/episodes；HTTP 200，核对节目日期和正文；其中Collective、Talisker、Cascadia、DLP、Silver Bow、Pecoy事实已由本期新闻卡覆盖，未另列Part 1卡。",
+      "Resource Talks窗口内8月30—31页面：Western Exploration、American Eagle、Tower Resources、Silvercorp与最近日报实质重复，按跨日报去重；未将重复访谈纳入。",
+      "data/conference_calendar.json会议窗口检查：2026-08-30至09-01未发现需追加主办方、演讲者或回放的已登记会议。"
+    ],
+    "part1_result": "Part 1完成2026-08-30至2026-09-01北京时间72小时Podcast、Webcast、公司访谈和会议入口检索，纳入2条：The Northern Miner Hudbay CEO访谈1条、Resource Talks Total Metals访谈1条。Mining Stock Daily 9月1日简报已核对，但核心事件由Part 3来源覆盖；窗口内重复访谈和缺少新增供需事实的页面排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-01 --collect-x，内部调用scripts/x_search.py。",
+      "Playwright使用项目内持久化会话按注册表顺序串行处理53个账号，53/53完成、0失败；完整成功后未启动twscrape。",
+      "原始候选保存至x_outputs/2026-09-01_x_raw_materials.txt及x_outputs/2026-09-01_x_raw_materials.json，共18条；逐条核对作者、handle、正文、北京时间发布时间和原帖URL，未纳入合格X信号。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号，未触发twscrape；获得18条原始候选，均因价格/宏观评论、导流、提问或缺少新增实体供需事实排除，纳入0条信号。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright按注册表顺序完成53/53，完整成功包括真实零结果；未启动twscrape。",
+        "原始材料和JSON sidecar按2026-09-01日期保存，候选18条，纳入0条。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页主路径：https://www.mining.com/commodity/copper/；指定日报Python、Chrome headless、Playwright、反检测参数，HTTP 200，报告日文章14篇。",
+      "Mining.com黄金分类页辅助路径：https://www.mining.com/commodity/gold/；Playwright HTTP 200，报告日文章9篇。",
+      "Mining.com白银分类页辅助路径：https://www.mining.com/commodity/silver/；Playwright HTTP 200，报告日文章9篇；跨分类相同URL按规范化URL去重。",
+      "Mining.com入选文章逐篇核验：Collective、Sibanye、Chile铜产量、India-Zambia；同一Playwright会话打开文章HTTP 200，核对标题、作者/来源、9月1日日期和正文核心数字。",
+      "公司/发行方页面逐篇核验：ACG Metals、Cascadia Minerals、Pecoy Copper、Silver Bow Mining、Talisker Resources；均HTTP 200，核对9月1日日期、主体、标题和核心事实。",
+      "Omai Gold / Newsfile：https://www.newsfilecorp.com/release/312361/；HTTP 200，核对2026-09-01 6:45 AM EDT、发行主体和Wenot钻探数字。",
+      "DLP Resources官网及Newsfile发行页：https://dlpresourcesinc.com/dlp-announces-positive-preliminary-economic-assessment-pea-for-the-aurora-copper-molybdenum-project-with-significant-multi-phase-expansion-potential/；HTTP 200，核对PEA日期、项目口径、产量、资本和推断资源限制。",
+      "中文来源检索：https://news.china.com/socialgd/10000169/20260901/49713399.html；页面称自然资源部宣布宣城茶亭铜金矿，但未找到对应官方公告或可核对的资源/供给数字，未纳入；SMM公开铜页检查到的Codelco、哈萨克斯坦项目等内容未作为本期正文卡，分别因底层公告超出窗口或页面缺少具体文章链接。",
+      "Google备用查询：按动态日期执行site:mining.com copper September 1 2026、gold September 1 2026、silver September 1 2026；返回验证挑战，未使用摘要作为证据。",
+      "DuckDuckGo/Bing英文和中文日期检索用于发现候选；所有入选卡均回到具体文章、公司公告或Newsfile页面核验。",
+      "未使用sitemap、Wayback Machine或RSS feed。"
+    ],
+    "part3_result": "Part 3完成2026-09-01北京时间全天英文和中文来源检索、Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、公司公告/Newsfile核验和跨来源去重。本期纳入11条新闻：黄金3条、白银1条、铜7条。",
+    "mining_com_source_note": "Mining.com铜分类页按指定Playwright主路径HTTP 200提取14篇报告日文章，金、银辅助分类页分别9/9篇；4篇入选Mining.com文章由同一Playwright会话逐篇打开核验，普通搜索只作辅助发现。未使用sitemap、Wayback Machine或RSS。",
+    "url_verification": {
+      "checked": 13,
+      "passed": 13,
+      "failed": 0,
+      "failures": [],
+      "notes": "2条Part 1页面及11条Part 3页面均已直接打开并核对标题/日期、主体和卡片所用核心事实；全部入选卡标记verified。"
+    },
+    "new_sources_discovered": [
+      "https://resourcetalks.com/"
+    ]
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/gold-stocks/heap-leach-gold-in-nevada-but-can-they-build-it-on-schedule/",
+      "https://resourcetalks.com/gold-stocks/growing-copper-discovery-in-bc-but-will-the-grade-hold-up/",
+      "https://resourcetalks.com/gold-stocks/new-gold-discovery-between-two-major-mines-but-is-it-continuous/",
+      "https://resourcetalks.com/silver-stocks/silver-mine-in-china-generating-cash-flow-but-can-they-execute-on-growth/",
+      "https://resourcetalks.com/gold-stocks/gold-project-near-fosterville-but-can-they-deliver-economic-grades/"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Mining.com同一批报告日候选在铜、金、银分类页重复出现，按规范化URL仅保留一次。",
+      "Mining Stock Daily 2026-09-01简报与本期Collective、Talisker、Cascadia、DLP、Silver Bow、Pecoy新闻卡存在同一事件，保留具体文章/发行方来源，未重复列入Part 1。",
+      "Codelco官方半年度业绩公告发布日期为2026-08-28，超出本期Part 3窗口；SMM 9月1日复述未作为新事件纳入。",
+      "中国网宣城茶亭铜金矿页面未找到相应官方公告和可核对的资源/供给数字，作为未确认候选排除。",
+      "价格、利率、纯宏观评论、未具供需传导的X帖子和SMM聚合页内容按筛选标准排除。"
+    ],
+    "notes": "所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；实际产量、项目设计、公司计划、PEA、勘探结果和长期预测按来源口径区分，未将资源、钻孔或设计产能写成已实现产量。"
+  }
+}
