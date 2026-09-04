@@ -1,0 +1,193 @@
+X 原始候选 — 2026-09-03
+采集时间: 2026-09-04T21:40:13.757988+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 21 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-02T20:06:59+00:00
+    北京: 2026-09-03T04:06:59+08:00
+    文本: and then compare fiat vs gold vs bitcoin transaction volume
+    链接: https://x.com/KatusaResearch/status/2095242101055529217
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-09-03T03:34:19+00:00
+    北京: 2026-09-03T11:34:19+08:00
+    文本: Silver Is in Its Sixth Straight Year of Deficit, and the Hunt for Grade Is Pulling Capital Back -
+https://
+goo.gl/alerts/yde2er #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2095354677722570868
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-03T03:33:32+00:00
+    北京: 2026-09-03T11:33:32+08:00
+    文本: Silver Price Prediction: Why One Bank Cut Its Target 30%
+    链接: https://x.com/silverguru22/status/2095354481580118317
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-09-03T03:03:11+00:00
+    北京: 2026-09-03T11:03:11+08:00
+    文本: Gold Hits Three-Week Low On Stronger US Dollar, PM Modi Urges Indians to Avoid Buying -
+https://
+goo.gl/alerts/WWy767 #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2095346842251018433
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-09-03T03:01:12+00:00
+    北京: 2026-09-03T11:01:12+08:00
+    文本: Gold price erases 2026 gains as Fed hike bets climb to 70%, silver slides -
+https://
+Mining.com -
+https://
+goo.gl/alerts/FnJBAm #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2095346342256410696
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-09-03T00:14:06+00:00
+    北京: 2026-09-03T08:14:06+08:00
+    文本: I was interviewed recently with a guest confronting my assertion that gold outperformed all major Asset classes. He was suggesting we look at the past 25 years. Have a look 👀
+    链接: https://x.com/silverguru22/status/2095304289522741273
+
+[7] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-02T18:56:38+00:00
+    北京: 2026-09-03T02:56:38+08:00
+    文本: AbraSilver
+@AbraSilver
+ already has a robust DFS at Diablillos—yet drilling 4 km north of Oculto has uncovered shallow oxide gold, plus copper at depth.
+
+A potentially important new layer to an already compelling story.
+
+
+@TedJButler
+'s take inside today's Silver Advisor:
+    链接: https://x.com/peter_krauth/status/2095224396860608843
+
+[8] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-02T17:00:00+00:00
+    北京: 2026-09-03T01:00:00+08:00
+    文本: Silver is money that kills germs.
+
+It’s also the best conductor of electricity and heat—making it essential to medicine, EVs, AI and data centres.
+
+Solar may dominate the headlines, but silver demand has many engines.
+@MoneyMetals
+
+
+Watch:
+https://
+youtu.be/qtvjv9WW3co
+    链接: https://x.com/peter_krauth/status/2095195044865069373
+
+[9] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-02T16:03:55+00:00
+    北京: 2026-09-03T00:03:55+08:00
+    文本: Silver plunged 7% in one day after Fed Chair Warsh’s hawkish Jackson Hole speech rattled precious metals.
+
+But context matters: SIL is up 45% since July, while silver remains near $65—almost 70% above year-ago levels.
+
+Buying opportunity? I break it down and update 7 portfolio
+    链接: https://x.com/peter_krauth/status/2095180933548941674
+
+[10] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-03T13:01:18+00:00
+    北京: 2026-09-03T21:01:18+08:00
+    文本: Did THIS just spark the next leg of the #GOLD & #SILVER rally?!
+    链接: https://x.com/ArcadiaEconomic/status/2095497361728438464
+
+[11] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-03T05:29:28+00:00
+    北京: 2026-09-03T13:29:28+08:00
+    文本: What's Behind Huge #SILVER Premium in Shanghai? '
+
+“This Isn't Supposed to Happen….”
+
+
+https://
+youtu.be/9DdIbeVAOFo?is
+=L30_aHb9RLl1Ji95
+… via
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2095383654163701921
+
+[12] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-02T23:54:47+00:00
+    北京: 2026-09-03T07:54:47+08:00
+    文本: #Gold Rally To Re-accelerate Because Of THIS?!
+https://
+youtu.be/VZwPZBE4i1E?si
+=OqLOhcvLwS72ZQdN
+… via
+@goldseek
+    链接: https://x.com/ArcadiaEconomic/status/2095299429435605365
+
+[13] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-02T21:37:31+00:00
+    北京: 2026-09-03T05:37:31+08:00
+    文本: did THIS👇 just kick the #GOLD rally into its next leg?
+    链接: https://x.com/ArcadiaEconomic/status/2095264885579845642
+
+[14] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-02T21:35:42+00:00
+    北京: 2026-09-03T05:35:42+08:00
+    文本: #GOLD Rally To Re-accelerate Because Of THIS?!
+    链接: https://x.com/ArcadiaEconomic/status/2095264426844672267
+
+[15] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-02T19:41:43+00:00
+    北京: 2026-09-03T03:41:43+08:00
+    文本: Here could well be your next trigger in the #GOLD market....
+    链接: https://x.com/ArcadiaEconomic/status/2095235743568273513
+
+[16] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-03T11:38:12+00:00
+    北京: 2026-09-03T19:38:12+08:00
+    文本: I know copper is “bendier” than aluminum, but to see something this flat wound sideways is impressive…
+    链接: https://x.com/duediligenceguy/status/2095476450153394499
+
+[17] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-02T18:01:21+00:00
+    北京: 2026-09-03T02:01:21+08:00
+    文本: Live with Tavi Costa: Altamira Gold
+    链接: https://x.com/TaviCosta/status/2095210486036058495
+
+[18] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-03T08:34:34+00:00
+    北京: 2026-09-03T16:34:34+08:00
+    文本: Are you restarting the Hinde Capital Gold Fund?
+    链接: https://x.com/RonStoeferle/status/2095430235701293261
+
+[19] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-03T12:22:23+00:00
+    北京: 2026-09-03T20:22:23+08:00
+    文本: Caption this.
+Mine: "hey Scott you know i am kind of fucked, right? Bessent: relax we will use bluster and arrogance and it will work. Trump and I how to do this.  We will break it and then you will print to fix it and will be a hero!"
+    链接: https://x.com/LawrenceLepard/status/2095487568334782660
+
+[20] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-02T17:00:29+00:00
+    北京: 2026-09-03T01:00:29+08:00
+    文本: in the 70's inflation was in the double digits.  gold went up 22x
+    链接: https://x.com/LawrenceLepard/status/2095195167854580144
+
+[21] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-02T17:16:48+00:00
+    北京: 2026-09-03T01:16:48+08:00
+    文本: Gold Terra: A Major Economic Kicker at Yellowknife?
+
+Gerald Panneton joins us to discuss Gold Terra's C$10.1M financing, ongoing drilling and plans to test the historic Con Mine tailings ahead of the upcoming PEA.
+
+Could the tailings add ounces and boost the future production
+    链接: https://x.com/soarfinancial/status/2095199275282276559

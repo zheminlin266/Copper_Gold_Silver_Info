@@ -1,0 +1,277 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-03",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-1218d31987146697a66b0282",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-02T20:06:59+00:00",
+      "text": "and then compare fiat vs gold vs bitcoin transaction volume",
+      "url": "https://x.com/KatusaResearch/status/2095242101055529217",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-016f235e2b2daeb02198b8fa",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-03T03:34:19+00:00",
+      "text": "Silver Is in Its Sixth Straight Year of Deficit, and the Hunt for Grade Is Pulling Capital Back - \nhttps://\ngoo.gl/alerts/yde2er #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2095354677722570868",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-01f94c6e6cabc3a30703cca8",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-03T03:33:32+00:00",
+      "text": "Silver Price Prediction: Why One Bank Cut Its Target 30%",
+      "url": "https://x.com/silverguru22/status/2095354481580118317",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dc366564512f946d96b2fb53",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-03T03:03:11+00:00",
+      "text": "Gold Hits Three-Week Low On Stronger US Dollar, PM Modi Urges Indians to Avoid Buying - \nhttps://\ngoo.gl/alerts/WWy767 #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2095346842251018433",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-94a608e58713640303055a57",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-03T03:01:12+00:00",
+      "text": "Gold price erases 2026 gains as Fed hike bets climb to 70%, silver slides - \nhttps://\nMining.com - \nhttps://\ngoo.gl/alerts/FnJBAm #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2095346342256410696",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7be655bbe49fe5bf1a71724a",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-03T00:14:06+00:00",
+      "text": "I was interviewed recently with a guest confronting my assertion that gold outperformed all major Asset classes. He was suggesting we look at the past 25 years. Have a look 👀",
+      "url": "https://x.com/silverguru22/status/2095304289522741273",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c22014913061cb45c751079f",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-02T18:56:38+00:00",
+      "text": "AbraSilver \n@AbraSilver\n already has a robust DFS at Diablillos—yet drilling 4 km north of Oculto has uncovered shallow oxide gold, plus copper at depth.\n\nA potentially important new layer to an already compelling story.\n\n\n@TedJButler\n's take inside today's Silver Advisor:",
+      "url": "https://x.com/peter_krauth/status/2095224396860608843",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-68d3f9ac416a531aa4656bfe",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-02T17:00:00+00:00",
+      "text": "Silver is money that kills germs.\n\nIt’s also the best conductor of electricity and heat—making it essential to medicine, EVs, AI and data centres.\n\nSolar may dominate the headlines, but silver demand has many engines. \n@MoneyMetals\n \n\nWatch: \nhttps://\nyoutu.be/qtvjv9WW3co",
+      "url": "https://x.com/peter_krauth/status/2095195044865069373",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f550562deb8b59762fea43b5",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-02T16:03:55+00:00",
+      "text": "Silver plunged 7% in one day after Fed Chair Warsh’s hawkish Jackson Hole speech rattled precious metals.\n\nBut context matters: SIL is up 45% since July, while silver remains near $65—almost 70% above year-ago levels.\n\nBuying opportunity? I break it down and update 7 portfolio",
+      "url": "https://x.com/peter_krauth/status/2095180933548941674",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-25972515ccdd644cdd8a3ddd",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-03T13:01:18+00:00",
+      "text": "Did THIS just spark the next leg of the #GOLD & #SILVER rally?!",
+      "url": "https://x.com/ArcadiaEconomic/status/2095497361728438464",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fa182e244aca44c299ad6005",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-03T05:29:28+00:00",
+      "text": "What's Behind Huge #SILVER Premium in Shanghai? '\n\n“This Isn't Supposed to Happen….”\n\n\nhttps://\nyoutu.be/9DdIbeVAOFo?is\n=L30_aHb9RLl1Ji95\n… via \n@YouTube",
+      "url": "https://x.com/ArcadiaEconomic/status/2095383654163701921",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d06d56257816d7ee3b9cb0e2",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-02T23:54:47+00:00",
+      "text": "#Gold Rally To Re-accelerate Because Of THIS?! \nhttps://\nyoutu.be/VZwPZBE4i1E?si\n=OqLOhcvLwS72ZQdN\n… via \n@goldseek",
+      "url": "https://x.com/ArcadiaEconomic/status/2095299429435605365",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3b213a1524ac25564835091b",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-02T21:37:31+00:00",
+      "text": "did THIS👇 just kick the #GOLD rally into its next leg?",
+      "url": "https://x.com/ArcadiaEconomic/status/2095264885579845642",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4101140fa244e9c13dd1730d",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-02T21:35:42+00:00",
+      "text": "#GOLD Rally To Re-accelerate Because Of THIS?!",
+      "url": "https://x.com/ArcadiaEconomic/status/2095264426844672267",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-da96eeb26fb0fd55d1848194",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-02T19:41:43+00:00",
+      "text": "Here could well be your next trigger in the #GOLD market....",
+      "url": "https://x.com/ArcadiaEconomic/status/2095235743568273513",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-821e105a0516924499f092ae",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-03T11:38:12+00:00",
+      "text": "I know copper is “bendier” than aluminum, but to see something this flat wound sideways is impressive…",
+      "url": "https://x.com/duediligenceguy/status/2095476450153394499",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-52193d16440e5c5434c70c7d",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-02T18:01:21+00:00",
+      "text": "Live with Tavi Costa: Altamira Gold",
+      "url": "https://x.com/TaviCosta/status/2095210486036058495",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d4d2263af4c75260e1c61bf4",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-03T08:34:34+00:00",
+      "text": "Are you restarting the Hinde Capital Gold Fund?",
+      "url": "https://x.com/RonStoeferle/status/2095430235701293261",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ca8dd712e98a27b055009217",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-03T12:22:23+00:00",
+      "text": "Caption this.\nMine: \"hey Scott you know i am kind of fucked, right? Bessent: relax we will use bluster and arrogance and it will work. Trump and I how to do this.  We will break it and then you will print to fix it and will be a hero!\"",
+      "url": "https://x.com/LawrenceLepard/status/2095487568334782660",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7d156f60f38e22ed945416ac",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-02T17:00:29+00:00",
+      "text": "in the 70's inflation was in the double digits.  gold went up 22x",
+      "url": "https://x.com/LawrenceLepard/status/2095195167854580144",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5923b510728218450096a0cf",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-02T17:16:48+00:00",
+      "text": "Gold Terra: A Major Economic Kicker at Yellowknife?\n\nGerald Panneton joins us to discuss Gold Terra's C$10.1M financing, ongoing drilling and plans to test the historic Con Mine tailings ahead of the upcoming PEA.\n\nCould the tailings add ounces and boost the future production",
+      "url": "https://x.com/soarfinancial/status/2095199275282276559",
+      "collector": "x_search",
+      "report_date": "2026-09-03",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
