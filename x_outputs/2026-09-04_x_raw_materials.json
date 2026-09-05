@@ -1,0 +1,49 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-04",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-09c3a75c5a6de814573a12bf",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-03T20:36:15+00:00",
+      "text": "Market Call: Rick Rule's outlook on Natural Resource Stocks (Aug. 24, 2026) \nhttps://\nyoutu.be/qzleV7xoR20?si\n=D8xJVpXhLPkMaPmo\n… via \n@YouTube\n 08-24-2026,\nQ&A, frequently interupted by some guy named Carney",
+      "url": "https://x.com/RealRickRule/status/2095611854181879901",
+      "collector": "x_search",
+      "report_date": "2026-09-04",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ff832e846a97393fd36f77fa",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-03T19:24:51+00:00",
+      "text": "Live Q&A with Rick Rule and Steve Barton \nhttps://\nyoutube.com/live/wG5gHBGsi\nSk?si=E8w3BoBxTUDmobGt\n… via \n@YouTube\n 09-03-2026,\ncoming up, tune in. Natural resource and precious metals investing, and speculating Q&A, with Rick Rule",
+      "url": "https://x.com/RealRickRule/status/2095593885280174556",
+      "collector": "x_search",
+      "report_date": "2026-09-04",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
