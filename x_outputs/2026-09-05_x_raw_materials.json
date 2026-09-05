@@ -1,0 +1,295 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-05",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-b9389d902c113a12849a6e62",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-04T17:36:16+00:00",
+      "text": "Copper Has No Rescue\n\nAmerica imported 57 percent of the refined copper it used in 2025",
+      "url": "https://x.com/KatusaResearch/status/2095928948580655430",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8a1e73e27426fa10c4692c3c",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-05T14:41:04+00:00",
+      "text": "My favorite way to own silver! 😎",
+      "url": "https://x.com/Brien_Lundin/status/2096247246094221771",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-857add31d8040176d5bc6bca",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T23:28:14+00:00",
+      "text": "The key feature is “UNITED STATES NOTE” across the top rather than “Federal Reserve Note,” plus the red Treasury seal and red serial numbers. The Smithsonian confirms the 1963 $5 as a United States Note. \n\nKennedy did sign Executive Order 11110 on June 4, 1963, concerning",
+      "url": "https://x.com/silverguru22/status/2096017525285007867",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6c42accc802bc47964660f90",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T23:00:53+00:00",
+      "text": "[SMM Flash] Platinum's market outlook has strengthened significantly - Shanghai Metals Market (SMM)",
+      "url": "https://x.com/silverguru22/status/2096010639752016240",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2fde803d879a5610a9c1f387",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T22:59:28+00:00",
+      "text": "Why Old Electronics Could Be Worth 100 Times More Than Actual Gold Mines - Futura-Sciences",
+      "url": "https://x.com/silverguru22/status/2096010282594414742",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2cbbe0a1b77c16a78da9f22f",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T22:58:21+00:00",
+      "text": "First half PGM supply shows recovery, rather than sustained production growth – Heraeus",
+      "url": "https://x.com/silverguru22/status/2096010004432302425",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-eae238f1b8a996c6be3936e6",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T22:57:17+00:00",
+      "text": "Will Silver Finish Second in the Conductive Inks Race? | IDTechEx Research Article",
+      "url": "https://x.com/silverguru22/status/2096009733316682184",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8c2dcc205b002b26389341a7",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T22:54:43+00:00",
+      "text": "Central Bank Gold Buying 2026: Debt, Reserves, and the Next Rally \nhttps://\ncanadianminingreport.com/blog/central-b\nanks-keep-buying-gold-as-government-debt-mounts-could-another-major-rally-be-ahead\n…",
+      "url": "https://x.com/silverguru22/status/2096009089876963478",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-25884fc1023d2fb844119f16",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-04T22:05:17+00:00",
+      "text": "This is What Happens to Your Gold When They Tokenize Everything \nhttps://\nyoutu.be/5uysdbC3ViU?si\n=dnPH1oZTsxDZiCPI\n… via \n@YouTube",
+      "url": "https://x.com/silverguru22/status/2095996650150105211",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b848aef33cb89fb74b280079",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-04T19:00:01+00:00",
+      "text": "Here’s a calculation that stopped me in my tracks:\n\nSpend $100M on natural gas and generate electricity for one year.\n\nSpend $100M on solar panels and generate the equivalent annual output—for roughly 25 years.\n\nThat helps explain why solar demand matters so much for #silver.\n\nMy",
+      "url": "https://x.com/peter_krauth/status/2095950027013169461",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-705f8ab255c25f8089628322",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-04T17:29:34+00:00",
+      "text": "Silver was knocked back to ~$65 after payrolls tripled expectations.\n\nCue the bull-market obituaries? Not a chance.\n\nWith primary silver miners earning margins near 80%, this bull isn’t dead—it’s catching its breath.\n\n\nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/the-silver-scoop-8/\n…",
+      "url": "https://x.com/peter_krauth/status/2095927262214545554",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5bc0d9426c86c419ad140f0e",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-04T16:00:00+00:00",
+      "text": "Yesterday, \n@ESGold_Corp\n launched its first surface diamond drill program at Montauban, Québec.\n\nWe’re sharing this again because it could add an important new dimension to the story: exploration upside alongside planned near-term production.\n\nHere’s why it matters:",
+      "url": "https://x.com/peter_krauth/status/2095904722754662795",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-310838fad7275bb860f94672",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-04T16:31:47+00:00",
+      "text": "Do we see $100 #SILVER again in 2026? \n\n\nhttps://\nyoutu.be/6f3KG1C7c_w?si\n=hNUk3x6RChk_N-T_\n… \n@johnlee25893955\n \n@SilverElMining",
+      "url": "https://x.com/ArcadiaEconomic/status/2095912722005131539",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-503fcd82e9c8365f74845017",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-05T12:06:09+00:00",
+      "text": "Fun stuff.\n\nNot that we needed another reminder that silver is money...",
+      "url": "https://x.com/duediligenceguy/status/2096208261007511852",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fc87fa66e5395d120557f162",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-05T07:53:46+00:00",
+      "text": "No, the fundamentals all point to gold going higher.\n\nBut sometimes market sentiment defies fundamentals.",
+      "url": "https://x.com/duediligenceguy/status/2096144747693809718",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5ab43815fe94eaf52d2a3272",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-04T18:12:11+00:00",
+      "text": "Those who save in gold and silver…\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2095937986303013132",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b3ff699214c9d40ad9f436af",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-04T18:08:18+00:00",
+      "text": "Coincidence?\n\nI think not.\n\nCopper Lexus, anyone?\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2095937009776730123",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a2ea887a8161e4c2931321d3",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-04T21:22:53+00:00",
+      "text": "The Fed defending Treasuries is like the bartender explaining why you don’t have a drinking problem.\n\nAct accordingly.\n\n\nhttps://\ntavicosta.substack.com/p/america-a-ne\nw-emerging-market?r=2m39jp&utm_medium=ios\n…",
+      "url": "https://x.com/TaviCosta/status/2095985976577319380",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8b448bcc867ce41d9f0e24dd",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-05T06:35:29+00:00",
+      "text": "There will always be „enough“ gold. Its just a matter of price. #stocktoflow",
+      "url": "https://x.com/RonStoeferle/status/2096125045600862695",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-35134090b27491e560ad46df",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-05T14:22:54+00:00",
+      "text": "Stunning fact from this week's excellent FFTT report by Luke Gromen. \n@LukeGromen\n \n\n\"Long Term US Treasuries are already down by 85-90% in gold terms since global Central Banks stopped growing US Treasury holdings in 2014\"\n\nHey, maybe all us gold bugs have not been as crazy as the",
+      "url": "https://x.com/LawrenceLepard/status/2096242673417957393",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1e5de830db286d8cf84a5eb8",
+      "source_id": "x-frank_giustra",
+      "author": "Frank Giustra",
+      "handle": "Frank_Giustra",
+      "publish_time": "2026-09-04T20:08:44+00:00",
+      "text": "All about the Dutch gold exit and what it means",
+      "url": "https://x.com/Frank_Giustra/status/2095967316936958011",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e79ebd86687f2e9d283be708",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-05T12:06:40+00:00",
+      "text": "https://t.co/XZZt8r9oip",
+      "url": "https://x.com/duediligenceguy/status/2096208388065546672",
+      "collector": "x_search",
+      "report_date": "2026-09-05",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+  }
+}

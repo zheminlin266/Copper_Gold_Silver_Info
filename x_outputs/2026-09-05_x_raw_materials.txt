@@ -1,0 +1,222 @@
+X 原始候选 — 2026-09-05
+采集时间: 2026-09-06T07:27:55.865196+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text
+失败账号: 无
+============================================================
+
+总计候选: 22 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-04T17:36:16+00:00
+    北京: 2026-09-05T01:36:16+08:00
+    文本: Copper Has No Rescue
+
+America imported 57 percent of the refined copper it used in 2025
+    链接: https://x.com/KatusaResearch/status/2095928948580655430
+
+[2] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-05T14:41:04+00:00
+    北京: 2026-09-05T22:41:04+08:00
+    文本: My favorite way to own silver! 😎
+    链接: https://x.com/Brien_Lundin/status/2096247246094221771
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T23:28:14+00:00
+    北京: 2026-09-05T07:28:14+08:00
+    文本: The key feature is “UNITED STATES NOTE” across the top rather than “Federal Reserve Note,” plus the red Treasury seal and red serial numbers. The Smithsonian confirms the 1963 $5 as a United States Note. 
+
+Kennedy did sign Executive Order 11110 on June 4, 1963, concerning
+    链接: https://x.com/silverguru22/status/2096017525285007867
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T23:00:53+00:00
+    北京: 2026-09-05T07:00:53+08:00
+    文本: [SMM Flash] Platinum's market outlook has strengthened significantly - Shanghai Metals Market (SMM)
+    链接: https://x.com/silverguru22/status/2096010639752016240
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T22:59:28+00:00
+    北京: 2026-09-05T06:59:28+08:00
+    文本: Why Old Electronics Could Be Worth 100 Times More Than Actual Gold Mines - Futura-Sciences
+    链接: https://x.com/silverguru22/status/2096010282594414742
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T22:58:21+00:00
+    北京: 2026-09-05T06:58:21+08:00
+    文本: First half PGM supply shows recovery, rather than sustained production growth – Heraeus
+    链接: https://x.com/silverguru22/status/2096010004432302425
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T22:57:17+00:00
+    北京: 2026-09-05T06:57:17+08:00
+    文本: Will Silver Finish Second in the Conductive Inks Race? | IDTechEx Research Article
+    链接: https://x.com/silverguru22/status/2096009733316682184
+
+[8] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T22:54:43+00:00
+    北京: 2026-09-05T06:54:43+08:00
+    文本: Central Bank Gold Buying 2026: Debt, Reserves, and the Next Rally 
+https://
+canadianminingreport.com/blog/central-b
+anks-keep-buying-gold-as-government-debt-mounts-could-another-major-rally-be-ahead
+…
+    链接: https://x.com/silverguru22/status/2096009089876963478
+
+[9] @silverguru22 (David Morgan)
+    UTC: 2026-09-04T22:05:17+00:00
+    北京: 2026-09-05T06:05:17+08:00
+    文本: This is What Happens to Your Gold When They Tokenize Everything 
+https://
+youtu.be/5uysdbC3ViU?si
+=dnPH1oZTsxDZiCPI
+… via 
+@YouTube
+    链接: https://x.com/silverguru22/status/2095996650150105211
+
+[10] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-04T19:00:01+00:00
+    北京: 2026-09-05T03:00:01+08:00
+    文本: Here’s a calculation that stopped me in my tracks:
+
+Spend $100M on natural gas and generate electricity for one year.
+
+Spend $100M on solar panels and generate the equivalent annual output—for roughly 25 years.
+
+That helps explain why solar demand matters so much for #silver.
+
+My
+    链接: https://x.com/peter_krauth/status/2095950027013169461
+
+[11] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-04T17:29:34+00:00
+    北京: 2026-09-05T01:29:34+08:00
+    文本: Silver was knocked back to ~$65 after payrolls tripled expectations.
+
+Cue the bull-market obituaries? Not a chance.
+
+With primary silver miners earning margins near 80%, this bull isn’t dead—it’s catching its breath.
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-8/
+…
+    链接: https://x.com/peter_krauth/status/2095927262214545554
+
+[12] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-04T16:00:00+00:00
+    北京: 2026-09-05T00:00:00+08:00
+    文本: Yesterday, 
+@ESGold_Corp
+ launched its first surface diamond drill program at Montauban, Québec.
+
+We’re sharing this again because it could add an important new dimension to the story: exploration upside alongside planned near-term production.
+
+Here’s why it matters:
+    链接: https://x.com/peter_krauth/status/2095904722754662795
+
+[13] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-04T16:31:47+00:00
+    北京: 2026-09-05T00:31:47+08:00
+    文本: Do we see $100 #SILVER again in 2026? 
+
+
+https://
+youtu.be/6f3KG1C7c_w?si
+=hNUk3x6RChk_N-T_
+… 
+@johnlee25893955
+ 
+@SilverElMining
+    链接: https://x.com/ArcadiaEconomic/status/2095912722005131539
+
+[14] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-05T12:06:09+00:00
+    北京: 2026-09-05T20:06:09+08:00
+    文本: Fun stuff.
+
+Not that we needed another reminder that silver is money...
+    链接: https://x.com/duediligenceguy/status/2096208261007511852
+
+[15] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-05T07:53:46+00:00
+    北京: 2026-09-05T15:53:46+08:00
+    文本: No, the fundamentals all point to gold going higher.
+
+But sometimes market sentiment defies fundamentals.
+    链接: https://x.com/duediligenceguy/status/2096144747693809718
+
+[16] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-04T18:12:11+00:00
+    北京: 2026-09-05T02:12:11+08:00
+    文本: Those who save in gold and silver…
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2095937986303013132
+
+[17] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-04T18:08:18+00:00
+    北京: 2026-09-05T02:08:18+08:00
+    文本: Coincidence?
+
+I think not.
+
+Copper Lexus, anyone?
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2095937009776730123
+
+[18] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-04T21:22:53+00:00
+    北京: 2026-09-05T05:22:53+08:00
+    文本: The Fed defending Treasuries is like the bartender explaining why you don’t have a drinking problem.
+
+Act accordingly.
+
+
+https://
+tavicosta.substack.com/p/america-a-ne
+w-emerging-market?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2095985976577319380
+
+[19] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-05T06:35:29+00:00
+    北京: 2026-09-05T14:35:29+08:00
+    文本: There will always be „enough“ gold. Its just a matter of price. #stocktoflow
+    链接: https://x.com/RonStoeferle/status/2096125045600862695
+
+[20] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-05T14:22:54+00:00
+    北京: 2026-09-05T22:22:54+08:00
+    文本: Stunning fact from this week's excellent FFTT report by Luke Gromen. 
+@LukeGromen
+ 
+
+"Long Term US Treasuries are already down by 85-90% in gold terms since global Central Banks stopped growing US Treasury holdings in 2014"
+
+Hey, maybe all us gold bugs have not been as crazy as the
+    链接: https://x.com/LawrenceLepard/status/2096242673417957393
+
+[21] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-09-04T20:08:44+00:00
+    北京: 2026-09-05T04:08:44+08:00
+    文本: All about the Dutch gold exit and what it means
+    链接: https://x.com/Frank_Giustra/status/2095967316936958011
+
+[22] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-05T12:06:40+00:00
+    北京: 2026-09-05T20:06:40+08:00
+    文本: https://t.co/XZZt8r9oip
+    链接: https://x.com/duediligenceguy/status/2096208388065546672
+
