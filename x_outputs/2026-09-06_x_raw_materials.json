@@ -1,0 +1,109 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-06",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-b55295f60137ec5f99335d4d",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-06T11:19:28+00:00",
+      "text": "It's actually quite impressive to me that the gold-dollar exchange rate didn't fall more, given the huge amount of sovereign selling that's followed the Ukraine and Iran wars...",
+      "url": "https://x.com/duediligenceguy/status/2096558899008573863",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-30023b2113e1bb1cf7899449",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-06T11:13:23+00:00",
+      "text": "\"Why hide gold in a wall in the first place? There was no branch to walk into. A prosperous rural household in the 1600s held its wealth in metal, in a strongbox, in the roof, or behind granite, and turning a good harvest into gold was a sensible move.\"",
+      "url": "https://x.com/duediligenceguy/status/2096557368125411801",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-45e748386dcfae6c095b77c3",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-05T18:20:25+00:00",
+      "text": "It is remarkable that gold prices are nearly $3,000 per ounce higher than in 2022, yet drilling activity remains near historic lows.\n\nThe same is true across several other metals.\n\nThis situation speaks volumes about where we are in the mining cycle:\n\n· Reserves are being",
+      "url": "https://x.com/TaviCosta/status/2096302448365486223",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8de937f5eb3fbb4972ebab9e",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-06T13:49:47+00:00",
+      "text": "🏔️ Mount Everest: 8,849 meters. Our new gold base case: $8,900.\n\nPure coincidence, but a fitting one.\n\nAt ~$4,000 we've built base camp. The next stage of the expedition has begun.\n\nGreat conversation with \n@MichelleMakori\n at \n@MilesFranklinCo",
+      "url": "https://x.com/RonStoeferle/status/2096596726781968737",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-af864dc4f6984e0a63314c9e",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-06T07:47:20+00:00",
+      "text": "Our new \"Gold Compass\" is out! \n\nMore than 40 great charts on #gold, #silver, #miners, #macro and of course also our proprietary models! \n\n\nhttps://\ningoldwetrust.report/monthly-gold-c\nompass/?lang=en&utm_source=Newsletter&utm_medium=Email&utm_campaign=Monthly+Gold+Compass\n…\n\nEnjoy!!!!",
+      "url": "https://x.com/RonStoeferle/status/2096505516197286207",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2aff0ca7ddcb8fd1a4c07534",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-05T19:23:05+00:00",
+      "text": "Great new \"Weekly Nugget\" by our \n@SoundMoneyRpt\n:\n\n\nhttps://\nsoundmoneyreport.substack.com/p/gold-is-leav\ning-america\n…",
+      "url": "https://x.com/RonStoeferle/status/2096318216570089489",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f47a75d72639e16ca680ce53",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-06T09:10:58+00:00",
+      "text": "… and zero gold …",
+      "url": "https://x.com/wmiddelkoop/status/2096526560119472386",
+      "collector": "x_search",
+      "report_date": "2026-09-06",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

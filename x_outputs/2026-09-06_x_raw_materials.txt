@@ -1,0 +1,94 @@
+X 原始候选 — 2026-09-06
+采集时间: 2026-09-07T07:28:07.597561+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 7 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-06T11:19:28+00:00
+    北京: 2026-09-06T19:19:28+08:00
+    文本: It's actually quite impressive to me that the gold-dollar exchange rate didn't fall more, given the huge amount of sovereign selling that's followed the Ukraine and Iran wars...
+    链接: https://x.com/duediligenceguy/status/2096558899008573863
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-06T11:13:23+00:00
+    北京: 2026-09-06T19:13:23+08:00
+    文本: "Why hide gold in a wall in the first place? There was no branch to walk into. A prosperous rural household in the 1600s held its wealth in metal, in a strongbox, in the roof, or behind granite, and turning a good harvest into gold was a sensible move."
+    链接: https://x.com/duediligenceguy/status/2096557368125411801
+
+[3] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-05T18:20:25+00:00
+    北京: 2026-09-06T02:20:25+08:00
+    文本: It is remarkable that gold prices are nearly $3,000 per ounce higher than in 2022, yet drilling activity remains near historic lows.
+
+The same is true across several other metals.
+
+This situation speaks volumes about where we are in the mining cycle:
+
+· Reserves are being
+    链接: https://x.com/TaviCosta/status/2096302448365486223
+
+[4] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-06T13:49:47+00:00
+    北京: 2026-09-06T21:49:47+08:00
+    文本: 🏔️ Mount Everest: 8,849 meters. Our new gold base case: $8,900.
+
+Pure coincidence, but a fitting one.
+
+At ~$4,000 we've built base camp. The next stage of the expedition has begun.
+
+Great conversation with 
+@MichelleMakori
+ at 
+@MilesFranklinCo
+    链接: https://x.com/RonStoeferle/status/2096596726781968737
+
+[5] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-06T07:47:20+00:00
+    北京: 2026-09-06T15:47:20+08:00
+    文本: Our new "Gold Compass" is out! 
+
+More than 40 great charts on #gold, #silver, #miners, #macro and of course also our proprietary models! 
+
+
+https://
+ingoldwetrust.report/monthly-gold-c
+ompass/?lang=en&utm_source=Newsletter&utm_medium=Email&utm_campaign=Monthly+Gold+Compass
+…
+
+Enjoy!!!!
+    链接: https://x.com/RonStoeferle/status/2096505516197286207
+
+[6] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-05T19:23:05+00:00
+    北京: 2026-09-06T03:23:05+08:00
+    文本: Great new "Weekly Nugget" by our 
+@SoundMoneyRpt
+:
+
+
+https://
+soundmoneyreport.substack.com/p/gold-is-leav
+ing-america
+…
+    链接: https://x.com/RonStoeferle/status/2096318216570089489
+
+[7] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-06T09:10:58+00:00
+    北京: 2026-09-06T17:10:58+08:00
+    文本: … and zero gold …
+    链接: https://x.com/wmiddelkoop/status/2096526560119472386
+
