@@ -1,0 +1,108 @@
+X 原始候选 — 2026-09-07
+采集时间: 2026-09-08T07:28:54.705046+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 10 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T15:22:41+00:00
+    北京: 2026-09-07T23:22:41+08:00
+    文本: At the moment, it's mostly tariffs, and supply, but long-term, anything governments can't print...
+    链接: https://x.com/duediligenceguy/status/2096982496764174591
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T15:13:03+00:00
+    北京: 2026-09-07T23:13:03+08:00
+    文本: Not copper. Too bulky and no leverage.
+
+I meant copper stocks.
+    链接: https://x.com/duediligenceguy/status/2096980071953084640
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T15:12:27+00:00
+    北京: 2026-09-07T23:12:27+08:00
+    文本: Depends...
+
+I'm as long gold and silver bullion as ever.
+
+The stocks are only relatively on sale... and you know the formula.
+    链接: https://x.com/duediligenceguy/status/2096979921633501621
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T14:09:46+00:00
+    北京: 2026-09-07T22:09:46+08:00
+    文本: Got copper?
+
+(Me: Yes, but I wish I had more! ; - )
+    链接: https://x.com/duediligenceguy/status/2096964146109501793
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T13:08:20+00:00
+    北京: 2026-09-07T21:08:20+08:00
+    文本: Actually, you can, under $10K at a time...
+
+...and I've known people who put gold coins in their pockets with keys and such, and airport security types never ask.
+    链接: https://x.com/duediligenceguy/status/2096948686366380226
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T12:41:30+00:00
+    北京: 2026-09-07T20:41:30+08:00
+    文本: And this impacts the price of anything on any shelf in any store...
+
+...not to mention the cost of growing and mining things.
+    链接: https://x.com/duediligenceguy/status/2096941931666284981
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T12:01:30+00:00
+    北京: 2026-09-07T20:01:30+08:00
+    文本: This'd be over 2.2 tonnes of physical gold today.
+
+Can't steal that with a click—or even with a fast getaway car.
+
+Just sayin'...
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2096931865705738373
+
+[8] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-06T17:59:07+00:00
+    北京: 2026-09-07T01:59:07+08:00
+    文本: A reminder:
+
+The mining industry still represents only about 1% of the entire global equity market.
+
+I do not know whether that share will rise to 2%, 5%, 10%, or even 15–20% over the next decade.
+
+But I find it difficult to imagine it falling below 1%.
+
+This, my friends, is
+    链接: https://x.com/TaviCosta/status/2096659473624629756
+
+[9] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-07T13:36:00+00:00
+    北京: 2026-09-07T21:36:00+08:00
+    文本: September likes Gold.
+    链接: https://x.com/RonStoeferle/status/2096955646377705950
+
+[10] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-07T04:26:59+00:00
+    北京: 2026-09-07T12:26:59+08:00
+    文本: We are still so early... 
+
+ht 
+@Callum_Thomas
+, from his excellent monthly gold chartbook
+    链接: https://x.com/RonStoeferle/status/2096817484481359907
+

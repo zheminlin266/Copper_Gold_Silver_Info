@@ -1,0 +1,145 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-07",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-79a9ef7eed5d1689992c47dc",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T15:22:41+00:00",
+      "text": "At the moment, it's mostly tariffs, and supply, but long-term, anything governments can't print...",
+      "url": "https://x.com/duediligenceguy/status/2096982496764174591",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dff1cfca3426c1bc6ee52190",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T15:13:03+00:00",
+      "text": "Not copper. Too bulky and no leverage.\n\nI meant copper stocks.",
+      "url": "https://x.com/duediligenceguy/status/2096980071953084640",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8867039cdb344024da238bcb",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T15:12:27+00:00",
+      "text": "Depends...\n\nI'm as long gold and silver bullion as ever.\n\nThe stocks are only relatively on sale... and you know the formula.",
+      "url": "https://x.com/duediligenceguy/status/2096979921633501621",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1f16c20b6642e4a6333e785a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T14:09:46+00:00",
+      "text": "Got copper?\n\n(Me: Yes, but I wish I had more! ; - )",
+      "url": "https://x.com/duediligenceguy/status/2096964146109501793",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-759fabee23602c97b66e8b2e",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T13:08:20+00:00",
+      "text": "Actually, you can, under $10K at a time...\n\n...and I've known people who put gold coins in their pockets with keys and such, and airport security types never ask.",
+      "url": "https://x.com/duediligenceguy/status/2096948686366380226",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5484603d376965b7fb2dad34",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T12:41:30+00:00",
+      "text": "And this impacts the price of anything on any shelf in any store...\n\n...not to mention the cost of growing and mining things.",
+      "url": "https://x.com/duediligenceguy/status/2096941931666284981",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f2e4f2fd0e82775d776b7227",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T12:01:30+00:00",
+      "text": "This'd be over 2.2 tonnes of physical gold today.\n\nCan't steal that with a click—or even with a fast getaway car.\n\nJust sayin'...\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2096931865705738373",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-167c4228b511433550d593cd",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-06T17:59:07+00:00",
+      "text": "A reminder:\n\nThe mining industry still represents only about 1% of the entire global equity market.\n\nI do not know whether that share will rise to 2%, 5%, 10%, or even 15–20% over the next decade.\n\nBut I find it difficult to imagine it falling below 1%.\n\nThis, my friends, is",
+      "url": "https://x.com/TaviCosta/status/2096659473624629756",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e3c141dc18edecae860b5fe9",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-07T13:36:00+00:00",
+      "text": "September likes Gold.",
+      "url": "https://x.com/RonStoeferle/status/2096955646377705950",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ccc1a8c9877727dac6f37de3",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-07T04:26:59+00:00",
+      "text": "We are still so early... \n\nht \n@Callum_Thomas\n, from his excellent monthly gold chartbook",
+      "url": "https://x.com/RonStoeferle/status/2096817484481359907",
+      "collector": "x_search",
+      "report_date": "2026-09-07",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
