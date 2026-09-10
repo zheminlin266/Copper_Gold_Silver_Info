@@ -1,0 +1,271 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-08",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-00c666dc22fe421d5637d2b9",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-08T15:29:56+00:00",
+      "text": "Copper prices in nearly all currencies are at all time highs\n\nAnd it's not overbought yet\n\nThere's room to run",
+      "url": "https://x.com/KatusaResearch/status/2097346705318719579",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f22824366894a1091705fa65",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-07T19:16:28+00:00",
+      "text": "#Silver has two naturally occurring isotopes—but do they possess different properties beyond the laboratory?\n\n@clif_high\n \n@CryptoRichYT\n \nRead the full article- \n\nhttps://\nthemorganreport.substack.com/p/there-really\n-are-two-kinds-of-silver?r=bbp6c&utm_campaign=post-expanded-share&utm_medium=web\n…",
+      "url": "https://x.com/silverguru22/status/2097041327326372263",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-bc05329b979d61d068136d15",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T14:34:34+00:00",
+      "text": "Note: Trump hasn't announced any new tariffs on copper yet.\n\nCaveat emptor.",
+      "url": "https://x.com/duediligenceguy/status/2097332774222885105",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-94c727901d3fde4c80382b1e",
+      "source_id": "x-kaiserresearch",
+      "author": "John Kaiser",
+      "handle": "KaiserResearch",
+      "publish_time": "2026-09-08T05:00:04+00:00",
+      "text": "Five Reasons why Solitario is a top buy today:\n\n\nhttps://\nkaiserresearch.substack.com/p/five-reasons\n-why-solitario-is-a-top\n…\n\nSolitario Resources Corp dropped 25% on September 2, 2026 when it announced results for 3 holes of a 10 hole maiden drill program completed during May-July on the Ponderosa portion of the 100% owned Golden",
+      "url": "https://x.com/KaiserResearch/status/2097188196270620875",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ddaebd9266d6cf10f2561b86",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-07T17:52:00+00:00",
+      "text": "Bull Market, Not Bubble\n\nWe're in a bull market, not in a bubble yet.\n\nNo crazy M&A. Pristine balance sheets. Record free cash flows. Gold/silver ratio nowhere near 15–20 (where previous secular bulls ended).\n\nIt could become a great bubble. But not yet.",
+      "url": "https://x.com/RonStoeferle/status/2097020070689988732",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-cef27278a3f6b756f632aad6",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-07T17:01:19+00:00",
+      "text": "Incrementum Active Gold Fund: Der flexible Gold-Jäger -",
+      "url": "https://x.com/RonStoeferle/status/2097007315807318363",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-25fee63f9d7f65e2467b5489",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-08T08:18:53+00:00",
+      "text": "Spot the little gold trick by the US and the Dutch National Bank\n\nQuote 1: Between March and August 2026, approximately 86 tonnes of gold were transferred from the combined total of approximately 313 tonnes held in the United States and Canada to London\n\nQuote 2: The relocation",
+      "url": "https://x.com/wmiddelkoop/status/2097238230995235276",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8a501e4508166e0c50ad4c90",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-08T07:10:18+00:00",
+      "text": "· Russia is projected to control over a third of mined uranium supply by 2040 (FT)",
+      "url": "https://x.com/wmiddelkoop/status/2097220970402505202",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b2a535207f2e683284572d79",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-07T16:34:28+00:00",
+      "text": "I think gold, BTC, gold miners and BTC treasury companies will all revalue much higher.  Hopefully politicians will not go after or try to excessively tax those gains.",
+      "url": "https://x.com/LawrenceLepard/status/2097000560431956426",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8528c5aaa76fa3fb63c30d92",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-08T15:11:37+00:00",
+      "text": "Copper Giant: From 1 Billion Tonnes Toward Development\n\nIan Harris joins us to discuss the Mocoa copper project, a recent 771m drill intercept, the upcoming PEA and why Trafigura has already moved to secure a 20% offtake agreement.\n\nWatch Here\n\nhttps://\nyoutu.be/3xeH0ebMMl8\n\n\n@Cu_Giant",
+      "url": "https://x.com/soarfinancial/status/2097342099322437638",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0cbf749a37ff4440c6b09703",
+      "source_id": "x-frank_giustra",
+      "author": "Frank Giustra",
+      "handle": "Frank_Giustra",
+      "publish_time": "2026-09-08T06:36:13+00:00",
+      "text": "Why Frank Giustra Heavily Invested In The Most Overlooked Resource, W/ S... \nhttps://\nyoutu.be/Mlw9mvlcC5s?si\n=Dv3hbXxtjA-uisVK\n… via \n@YouTube\n  \n@OceanicIronOre",
+      "url": "https://x.com/Frank_Giustra/status/2097212391729561917",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e53c66814792df73a08f38b2",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-09-08T11:23:14+00:00",
+      "text": "Ivanhoe Mines expands its Western Forelands copper discovery by 30%, ranking it as the world’s largest and highest-grade copper discovery of the past decade.\nRead full news release ",
+      "url": "https://x.com/IvanhoeMines_/status/2097284623600689153",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c837104330b19e4b9143ba86",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-09-08T14:58:34+00:00",
+      "text": "We are excited to kick off our second category of winners in the 2026 Living Our Values Awards (LOVA) program with the Outstanding Corporate Citizenship category.\nCongratulations to Christopher from Kinross Alaska and Angélica from \n@KinrossChile\n!\nLearn more about Christopher and",
+      "url": "https://x.com/kinrossgold/status/2097338815274742106",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fa310a3b83b6827c12180797",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T14:35:36+00:00",
+      "text": "https://t.co/WP0O2laYZT",
+      "url": "https://x.com/duediligenceguy/status/2097333034508812440",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7881d9a94f885aec0065c9ec",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T14:35:17+00:00",
+      "text": "https://t.co/tmml7Yhtk8",
+      "url": "https://x.com/duediligenceguy/status/2097332955458785361",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6561a23988479acbfda3ab7c",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T14:15:58+00:00",
+      "text": "And that's just what they admit to...\n;-{)} https://t.co/tpeJKdimW9",
+      "url": "https://x.com/duediligenceguy/status/2097328093891318011",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-030c760ade7b61c660f9b845",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T08:28:36+00:00",
+      "text": "@TruthBelowG @Frank_Giustra @DonDurrett @ResourceTalks Anywhere pro-mining, not just Colombia...",
+      "url": "https://x.com/duediligenceguy/status/2097240676832330154",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d92d302f4d0f75df41c2eea0",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T07:59:40+00:00",
+      "text": "@uraniumfilledb1 Source?\n\nThe US military is also under civilian control and is sometimes sent on humanitarian missions.\n\nAnd I distinctly remember transactions in \"credits\" (presumably because replicators could make gold and anything else physical) in TOS.",
+      "url": "https://x.com/duediligenceguy/status/2097233395394695370",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fb183abbc5362e57c8becdba",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T07:56:57+00:00",
+      "text": "@bftd2025 @Jkoozi1 Arguable... some holes more gold than copper, but sure, there's copper in the story.",
+      "url": "https://x.com/duediligenceguy/status/2097232708439019770",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-18783352e6c76eb8979b22f5",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-07T17:38:39+00:00",
+      "text": "@ProVnone \"only 300%\"\n:-{)}\n\nFWIW, I turned specifically bullish on copper in late 2024. Draw a line from then, and you'll get a much shorter projection. https://t.co/72vczYgQoG",
+      "url": "https://x.com/duediligenceguy/status/2097016713971655045",
+      "collector": "x_search",
+      "report_date": "2026-09-08",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 2 item(s): tweet 4: missing or empty tweet text; tweet 5: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 2 item(s): tweet 4: missing or empty tweet text; tweet 5: missing or empty tweet text"
+  }
+}

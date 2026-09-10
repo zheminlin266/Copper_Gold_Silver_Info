@@ -1,0 +1,204 @@
+X 原始候选 — 2026-09-08
+采集时间: 2026-09-10T09:16:03.780566+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 2 item(s): tweet 4: missing or empty tweet text; tweet 5: missing or empty tweet text
+失败账号: 无
+============================================================
+
+总计候选: 20 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-08T15:29:56+00:00
+    北京: 2026-09-08T23:29:56+08:00
+    文本: Copper prices in nearly all currencies are at all time highs
+
+And it's not overbought yet
+
+There's room to run
+    链接: https://x.com/KatusaResearch/status/2097346705318719579
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-09-07T19:16:28+00:00
+    北京: 2026-09-08T03:16:28+08:00
+    文本: #Silver has two naturally occurring isotopes—but do they possess different properties beyond the laboratory?
+
+@clif_high
+
+@CryptoRichYT
+
+Read the full article-
+
+https://
+themorganreport.substack.com/p/there-really
+-are-two-kinds-of-silver?r=bbp6c&utm_campaign=post-expanded-share&utm_medium=web
+…
+    链接: https://x.com/silverguru22/status/2097041327326372263
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T14:34:34+00:00
+    北京: 2026-09-08T22:34:34+08:00
+    文本: Note: Trump hasn't announced any new tariffs on copper yet.
+
+Caveat emptor.
+    链接: https://x.com/duediligenceguy/status/2097332774222885105
+
+[4] @KaiserResearch (John Kaiser)
+    UTC: 2026-09-08T05:00:04+00:00
+    北京: 2026-09-08T13:00:04+08:00
+    文本: Five Reasons why Solitario is a top buy today:
+
+
+https://
+kaiserresearch.substack.com/p/five-reasons
+-why-solitario-is-a-top
+…
+
+Solitario Resources Corp dropped 25% on September 2, 2026 when it announced results for 3 holes of a 10 hole maiden drill program completed during May-July on the Ponderosa portion of the 100% owned Golden
+    链接: https://x.com/KaiserResearch/status/2097188196270620875
+
+[5] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-07T17:52:00+00:00
+    北京: 2026-09-08T01:52:00+08:00
+    文本: Bull Market, Not Bubble
+
+We're in a bull market, not in a bubble yet.
+
+No crazy M&A. Pristine balance sheets. Record free cash flows. Gold/silver ratio nowhere near 15–20 (where previous secular bulls ended).
+
+It could become a great bubble. But not yet.
+    链接: https://x.com/RonStoeferle/status/2097020070689988732
+
+[6] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-07T17:01:19+00:00
+    北京: 2026-09-08T01:01:19+08:00
+    文本: Incrementum Active Gold Fund: Der flexible Gold-Jäger -
+    链接: https://x.com/RonStoeferle/status/2097007315807318363
+
+[7] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-08T08:18:53+00:00
+    北京: 2026-09-08T16:18:53+08:00
+    文本: Spot the little gold trick by the US and the Dutch National Bank
+
+Quote 1: Between March and August 2026, approximately 86 tonnes of gold were transferred from the combined total of approximately 313 tonnes held in the United States and Canada to London
+
+Quote 2: The relocation
+    链接: https://x.com/wmiddelkoop/status/2097238230995235276
+
+[8] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-08T07:10:18+00:00
+    北京: 2026-09-08T15:10:18+08:00
+    文本: · Russia is projected to control over a third of mined uranium supply by 2040 (FT)
+    链接: https://x.com/wmiddelkoop/status/2097220970402505202
+
+[9] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-07T16:34:28+00:00
+    北京: 2026-09-08T00:34:28+08:00
+    文本: I think gold, BTC, gold miners and BTC treasury companies will all revalue much higher.  Hopefully politicians will not go after or try to excessively tax those gains.
+    链接: https://x.com/LawrenceLepard/status/2097000560431956426
+
+[10] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-08T15:11:37+00:00
+    北京: 2026-09-08T23:11:37+08:00
+    文本: Copper Giant: From 1 Billion Tonnes Toward Development
+
+Ian Harris joins us to discuss the Mocoa copper project, a recent 771m drill intercept, the upcoming PEA and why Trafigura has already moved to secure a 20% offtake agreement.
+
+Watch Here
+
+https://
+youtu.be/3xeH0ebMMl8
+
+
+@Cu_Giant
+    链接: https://x.com/soarfinancial/status/2097342099322437638
+
+[11] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-09-08T06:36:13+00:00
+    北京: 2026-09-08T14:36:13+08:00
+    文本: Why Frank Giustra Heavily Invested In The Most Overlooked Resource, W/ S...
+https://
+youtu.be/Mlw9mvlcC5s?si
+=Dv3hbXxtjA-uisVK
+… via
+@YouTube
+
+@OceanicIronOre
+    链接: https://x.com/Frank_Giustra/status/2097212391729561917
+
+[12] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-09-08T11:23:14+00:00
+    北京: 2026-09-08T19:23:14+08:00
+    文本: Ivanhoe Mines expands its Western Forelands copper discovery by 30%, ranking it as the world’s largest and highest-grade copper discovery of the past decade.
+Read full news release
+    链接: https://x.com/IvanhoeMines_/status/2097284623600689153
+
+[13] @KinrossGold (Kinross Gold)
+    UTC: 2026-09-08T14:58:34+00:00
+    北京: 2026-09-08T22:58:34+08:00
+    文本: We are excited to kick off our second category of winners in the 2026 Living Our Values Awards (LOVA) program with the Outstanding Corporate Citizenship category.
+Congratulations to Christopher from Kinross Alaska and Angélica from
+@KinrossChile
+!
+Learn more about Christopher and
+    链接: https://x.com/kinrossgold/status/2097338815274742106
+
+[14] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T14:35:36+00:00
+    北京: 2026-09-08T22:35:36+08:00
+    文本: https://t.co/WP0O2laYZT
+    链接: https://x.com/duediligenceguy/status/2097333034508812440
+
+[15] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T14:35:17+00:00
+    北京: 2026-09-08T22:35:17+08:00
+    文本: https://t.co/tmml7Yhtk8
+    链接: https://x.com/duediligenceguy/status/2097332955458785361
+
+[16] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T14:15:58+00:00
+    北京: 2026-09-08T22:15:58+08:00
+    文本: And that's just what they admit to...
+;-{)} https://t.co/tpeJKdimW9
+    链接: https://x.com/duediligenceguy/status/2097328093891318011
+
+[17] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T08:28:36+00:00
+    北京: 2026-09-08T16:28:36+08:00
+    文本: @TruthBelowG @Frank_Giustra @DonDurrett @ResourceTalks Anywhere pro-mining, not just Colombia...
+    链接: https://x.com/duediligenceguy/status/2097240676832330154
+
+[18] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T07:59:40+00:00
+    北京: 2026-09-08T15:59:40+08:00
+    文本: @uraniumfilledb1 Source?
+
+The US military is also under civilian control and is sometimes sent on humanitarian missions.
+
+And I distinctly remember transactions in "credits" (presumably because replicators could make gold and anything else physical) in TOS.
+    链接: https://x.com/duediligenceguy/status/2097233395394695370
+
+[19] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T07:56:57+00:00
+    北京: 2026-09-08T15:56:57+08:00
+    文本: @bftd2025 @Jkoozi1 Arguable... some holes more gold than copper, but sure, there's copper in the story.
+    链接: https://x.com/duediligenceguy/status/2097232708439019770
+
+[20] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-07T17:38:39+00:00
+    北京: 2026-09-08T01:38:39+08:00
+    文本: @ProVnone "only 300%"
+:-{)}
+
+FWIW, I turned specifically bullish on copper in late 2024. Draw a line from then, and you'll get a much shorter projection. https://t.co/72vczYgQoG
+    链接: https://x.com/duediligenceguy/status/2097016713971655045
