@@ -1,0 +1,1081 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-09",
+  "report_time": "2026-09-10T07:54:06+08:00",
+  "summary": "黄金：Mon、Kinsley等项目许可与融资仍延后潜在供给，但Apollo资源量、Troilus工程推进和Skouries首批精矿增加中长期及近端供给线索。白银：Guanajuato产量增长、Apollo/Troilus副产与白银缺口判断支撑需求和供给偏紧，项目扩建仍待验证。铜：Skouries首批精矿、Troilus及Vizsla扩张增加未来供给，智利加工/电力瓶颈、中国进口下滑和上半年矿产量下降显示近期可交付性偏紧。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-07T00:00:00+08:00",
+      "end": "2026-09-09T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-09T00:00:00+08:00",
+      "end": "2026-09-09T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-09T00:00:00+08:00",
+      "end": "2026-09-09T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/09/guanajuato-silver-q2-2026-financials-operations-development-and-exploration-across-all-5-mines/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Guanajuato Silver二季度白银产量为347,481盎司，环比增加2%。",
+          "evidence": "KER原始访谈页的Q2 2026 Highlights直接披露产量和环比变化。",
+          "source_url": "https://www.kereport.com/2026/09/09/guanajuato-silver-q2-2026-financials-operations-development-and-exploration-across-all-5-mines/",
+          "evidence_type": "direct CEO interview page",
+          "period": "Q2 2026 versus previous quarter",
+          "unit": "troy ounces; percent",
+          "value": "347,481 oz; +2% q/q"
+        },
+        {
+          "claim": "公司从El Cubo、Valenciana、San Ignacio、Bolanitos和Topia五座在产矿山生产金银或多金属精矿。",
+          "evidence": "KER访谈页直接列出五座在产矿山及其精矿种类。",
+          "source_url": "https://www.kereport.com/2026/09/09/guanajuato-silver-q2-2026-financials-operations-development-and-exploration-across-all-5-mines/",
+          "evidence_type": "direct CEO interview page",
+          "period": "Q2 2026 operations",
+          "unit": "producing mines",
+          "value": "5 mines"
+        },
+        {
+          "claim": "公司正在推进16,000米地下开发和75,000米钻探计划，使用8台钻机。",
+          "evidence": "KER页节目说明和Q2亮点直接披露开发、钻探米数及钻机数。",
+          "source_url": "https://www.kereport.com/2026/09/09/guanajuato-silver-q2-2026-financials-operations-development-and-exploration-across-all-5-mines/",
+          "evidence_type": "direct CEO interview page",
+          "period": "2026 ongoing programs",
+          "unit": "metres; drill rigs",
+          "value": "16,000 m underground development; 75,000 m drilling; 8 rigs"
+        },
+        {
+          "claim": "截至季度末现金、现金等价物和短期投资合计1,990万美元。",
+          "evidence": "KER页Q2亮点直接披露期末流动资金口径。",
+          "source_url": "https://www.kereport.com/2026/09/09/guanajuato-silver-q2-2026-financials-operations-development-and-exploration-across-all-5-mines/",
+          "evidence_type": "direct CEO interview page",
+          "period": "Q2 2026 quarter end",
+          "unit": "USD",
+          "value": "$19.9 million"
+        }
+      ],
+      "publish_date": "2026-09-09",
+      "title": "KER访谈：Guanajuato Silver二季度运营、开发与勘探",
+      "source_type": "webcast",
+      "summary": "KER采访Guanajuato Silver董事长兼CEO James Anderson：公司五座矿山中二季度白银产量347,481盎司，环比增2%，并推进16,000米地下开发和75,000米钻探。",
+      "detail": "页面还披露二季度收入4,250万美元、经营利润910万美元，Bolanitos金银矿仍在爬坡整合；截至季度末现金、现金等价物和短期投资为1,990万美元。",
+      "importance": "347,481盎司白银季度产量环比增2%，且公司拥有5座在产矿山，说明这条信号已经落在可实现供给而非单纯勘探。16,000米地下开发与75,000米钻探将决定中期扩张，1,990万美元现金及短投提供执行缓冲；Bolanitos仍在爬坡，销售对冲也会改变收入兑现节奏。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "James Anderson",
+        "background": "Guanajuato Silver Chairman and CEO"
+      },
+      "companies": [
+        "Guanajuato Silver"
+      ],
+      "projects": [
+        "El Cubo",
+        "Valenciana",
+        "San Ignacio",
+        "Bolanitos",
+        "Topia"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/09/sitka-gold-expanding-the-rhosgobel-gold-and-tungsten-footprint-at-the-rc-gold-project/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Sitka Gold在Rhosgobel金矿化体推进东西向和深部扩展钻探，页面提到有截获位于此前资源壳体下方100米以上。",
+          "evidence": "KER公司更新页的节目说明直接概括最新化验和深部、走向扩展。",
+          "source_url": "https://www.kereport.com/2026/09/09/sitka-gold-expanding-the-rhosgobel-gold-and-tungsten-footprint-at-the-rc-gold-project/",
+          "evidence_type": "direct company update page",
+          "period": "September 9, 2026 interview",
+          "unit": "metres below prior resource shell; exploration direction",
+          "value": "over 100 m below prior resource shell"
+        },
+        {
+          "claim": "项目有7台钻机作业，Clear Creek计划推进60,000米钻探。",
+          "evidence": "KER页节目说明直接披露钻机数和钻探计划。",
+          "source_url": "https://www.kereport.com/2026/09/09/sitka-gold-expanding-the-rhosgobel-gold-and-tungsten-footprint-at-the-rc-gold-project/",
+          "evidence_type": "direct company update page",
+          "period": "2026 campaign",
+          "unit": "drill rigs; metres",
+          "value": "7 rigs; 60,000 m"
+        },
+        {
+          "claim": "页面将金矿化石英脉中的粗粒scheelite钨矿化描述为潜在副产品抵扣。",
+          "evidence": "KER页的Strategic Tungsten Byproduct段落直接说明scheelite与金矿化石英脉及经济抵扣关系。",
+          "source_url": "https://www.kereport.com/2026/09/09/sitka-gold-expanding-the-rhosgobel-gold-and-tungsten-footprint-at-the-rc-gold-project/",
+          "evidence_type": "direct company update page",
+          "period": "September 9, 2026 interview",
+          "unit": "byproduct mineralization",
+          "value": "coarse scheelite in gold-bearing quartz veins"
+        }
+      ],
+      "publish_date": "2026-09-09",
+      "title": "KER访谈：Sitka Gold扩大Rhosgobel金矿化范围",
+      "source_type": "webcast",
+      "summary": "KER采访Sitka Gold公司发展副总裁Mike Burke，讨论Rhosgobel最新化验、资源壳体外深部截获、7台钻机和Clear Creek 60,000米钻探计划。",
+      "detail": "页面还讨论近地表连续性、地下潜力和粗粒scheelite钨副产品；页面未提供完整化验表，相关增储仍待正式结果。",
+      "importance": "Rhosgobel由资源边界内加密转向东西向和深部扩展，7台钻机与60,000米计划把潜在增储验证推进到持续钻探阶段。页面未给出完整化验表和资源量增幅，钨副产品价值及金矿化连续性仍需正式公告与后续化验确认；当前属于中期供应管线，不是可计入产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Mike Burke",
+        "background": "Sitka Gold Director and Vice President of Corporate Development"
+      },
+      "companies": [
+        "Sitka Gold"
+      ],
+      "projects": [
+        "RC Gold",
+        "Rhosgobel",
+        "Clear Creek"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/08/dave-erfle-site-visit-recap-cassiar-gold-scottie-resources/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Dave Erfle对Cassiar Gold约59,000公顷项目和Cassiar South等区域进行了现场调研回顾。",
+          "evidence": "KER Daily Editorial页面直接说明现场调研范围和项目面积。",
+          "source_url": "https://www.kereport.com/2026/09/08/dave-erfle-site-visit-recap-cassiar-gold-scottie-resources/",
+          "evidence_type": "direct site-visit recap page",
+          "period": "September 8, 2026 publication",
+          "unit": "hectares",
+          "value": "59,000-hectare Cassiar property"
+        },
+        {
+          "claim": "Scottie Resources在Stewart地区有8台钻机执行50,000米计划。",
+          "evidence": "KER页Scottie Resources Operational Footprint段落直接披露钻机数和计划米数。",
+          "source_url": "https://www.kereport.com/2026/09/08/dave-erfle-site-visit-recap-cassiar-gold-scottie-resources/",
+          "evidence_type": "direct site-visit recap page",
+          "period": "2026 exploration campaign",
+          "unit": "drill rigs; metres",
+          "value": "8 rigs; 50,000 m"
+        }
+      ],
+      "publish_date": "2026-09-08",
+      "title": "KER现场调研：Dave Erfle谈Cassiar Gold与Scottie Resources",
+      "source_type": "webcast",
+      "summary": "KER采访Dave Erfle，回顾其对Cassiar Gold和Scottie Resources项目的现场调研，涉及Cassiar约59,000公顷土地、港口与选厂协同，以及Scottie的8台钻机和50,000米计划。",
+      "detail": "页面还提及直接发运矿石、批量样品经济性以及Premier选厂附近基础设施的潜在协同；这些是现场调研和项目潜力描述，非正式资源或产量数据。",
+      "importance": "Scottie的8台钻机和50,000米计划把现场观察转化为近期勘探活动，Cassiar约59,000公顷土地及Premier选厂、深水港的邻近条件则提供中期开发路径。页面没有给出新增资源量或可研产量，直接发运和代加工潜力仍须以化验、冶金及正式经济研究验证。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Dave Erfle",
+        "background": "Founder and Editor of The Junior Miner Junky"
+      },
+      "companies": [
+        "Cassiar Gold",
+        "Scottie Resources"
+      ],
+      "projects": [
+        "Cassiar Gold Project",
+        "Cassiar South",
+        "Scottie Resources project",
+        "Premier mill"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/07/kirkland-lake-discoveries-600m-step-out-hole-makes-a-new-discovery-at-mirado-west-and-intersects-1-22-g-t-au-over-69-5m-doubling-the-gold-footprint-to-over-1300m/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "KLM26-037在Mirado West见1.22克/吨金、69.50米，其中包括5.67克/吨金、12.00米。",
+          "evidence": "KER原始访谈页Highlights直接列出孔号、长度和品位。",
+          "source_url": "https://www.kereport.com/2026/09/07/kirkland-lake-discoveries-600m-step-out-hole-makes-a-new-discovery-at-mirado-west-and-intersects-1-22-g-t-au-over-69-5m-doubling-the-gold-footprint-to-over-1300m/",
+          "evidence_type": "direct CEO interview page",
+          "period": "2026 summer drill program",
+          "unit": "grams per tonne gold; metres",
+          "value": "1.22 g/t Au over 69.50 m, including 5.67 g/t over 12.00 m"
+        },
+        {
+          "claim": "钻探将矿化向西延伸超过600米，横向矿化足迹扩大到超过1,300米，另有19孔待结果。",
+          "evidence": "KER页面直接披露延伸长度、足迹和待结果孔数。",
+          "source_url": "https://www.kereport.com/2026/09/07/kirkland-lake-discoveries-600m-step-out-hole-makes-a-new-discovery-at-mirado-west-and-intersects-1-22-g-t-au-over-69-5m-doubling-the-gold-footprint-to-over-1300m/",
+          "evidence_type": "direct CEO interview page",
+          "period": "2026 summer drill program",
+          "unit": "metres; drill holes",
+          "value": "over 600 m extension; over 1,300 m footprint; 19 holes pending"
+        }
+      ],
+      "publish_date": "2026-09-07",
+      "title": "KER访谈：Kirkland Lake Discoveries扩大Mirado West金矿化带",
+      "source_type": "webcast",
+      "summary": "KER采访Kirkland Lake Discoveries CEO Stefan Sklepowicz，披露KLM26-037在Mirado West见1.22克/吨金、69.50米，并将横向矿化足迹扩大到超过1,300米。",
+      "detail": "页面还列出KLM26-035多个截获及19孔待结果；公司将MZ靶区更名为Mirado West，解释为与历史Mirado矿床连续的矿化。",
+      "importance": "1.22克/吨金、69.50米的KLM26-037把Mirado West从区域靶区推进到可连续验证的宽矿化带，600米西延使横向足迹超过1,300米。19孔待结果决定这次扩展能否形成资源规模，当前钻孔截获仍是勘探供给线索，不能直接转为可采储量或产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Stefan Sklepowicz",
+        "background": "Kirkland Lake Discoveries CEO"
+      },
+      "companies": [
+        "Kirkland Lake Discoveries"
+      ],
+      "projects": [
+        "KL South",
+        "Mirado",
+        "Mirado West"
+      ]
+    },
+    {
+      "url": "https://www.northernminer.com/news/podcast-you-have-to-be-in-west-africa-fortuna-ceo-ganoza-on-senegal-ma/1003894669/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Fortuna Mining CEO Jorge Ganoza在播客中讨论公司近期收购塞内加尔Bambadji金矿勘探项目，并说明公司退出墨西哥及前沿辖区运营取向。",
+          "evidence": "The Northern Miner播客页的节目简介直接概括嘉宾、项目和讨论主题。",
+          "source_url": "https://www.northernminer.com/news/podcast-you-have-to-be-in-west-africa-fortuna-ceo-ganoza-on-senegal-ma/1003894669/",
+          "evidence_type": "direct podcast page",
+          "period": "September 9, 2026 podcast",
+          "unit": "project and portfolio event",
+          "value": "Bambadji acquisition; Mexico exit"
+        }
+      ],
+      "publish_date": "2026-09-09",
+      "title": "The Northern Miner播客：Fortuna CEO谈塞内加尔并购",
+      "source_type": "podcast",
+      "summary": "The Northern Miner播客采访Fortuna Mining CEO Jorge Ganoza，讨论收购塞内加尔Bambadji金矿勘探项目、退出墨西哥及在前沿辖区运营。",
+      "detail": "公开页面提供节目简介及Apple Podcasts、Spotify、YouTube和SoundCloud入口，没有披露Bambadji的资源量、项目规模或开发时间表。",
+      "importance": "Fortuna在9月9日访谈中把Bambadji收购与退出墨西哥放在同一资产组合调整框架，说明勘探资本将向塞内加尔等前沿辖区集中，潜在影响是中长期金矿供给管线变化。节目页面未披露Bambadji规模、资源量或开发时间表，当前只能记录为项目组合与勘探方向信号，不能量化新增产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Jorge Ganoza",
+        "background": "Fortuna Mining President and CEO"
+      },
+      "companies": [
+        "Fortuna Mining"
+      ],
+      "projects": [
+        "Bambadji"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/gold-stocks/historic-high-grade-gold-mine-in-canada-but-can-it-be-permitted/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Sixty North Gold的Mon Gold计划以100吨/日规模重启，2026年生产已被排除。",
+          "evidence": "Resource Talks访谈页的节目概述和TL;DR直接披露重启规模及生产时间变化。",
+          "source_url": "https://resourcetalks.com/gold-stocks/historic-high-grade-gold-mine-in-canada-but-can-it-be-permitted/",
+          "evidence_type": "direct CEO interview page",
+          "period": "September 9, 2026 interview and 2026 restart plan",
+          "unit": "tonnes per day; production schedule",
+          "value": "100 tpd; 2026 production off the table"
+        },
+        {
+          "claim": "监管方要求基线水样采集持续至2027年后再批准水管理计划，CEO未给出确定首产日期。",
+          "evidence": "Resource Talks页TL;DR直接记录监管要求和CEO时间表表述。",
+          "source_url": "https://resourcetalks.com/gold-stocks/historic-high-grade-gold-mine-in-canada-but-can-it-be-permitted/",
+          "evidence_type": "direct CEO interview page",
+          "period": "2026-2027 permitting process",
+          "unit": "year; permit condition",
+          "value": "baseline sampling through 2027"
+        },
+        {
+          "claim": "矿山和选厂设备已购置并在现场，营地有20人，项目没有资源量、储量或经济研究。",
+          "evidence": "访谈页直接披露现场准备和项目研究状态。",
+          "source_url": "https://resourcetalks.com/gold-stocks/historic-high-grade-gold-mine-in-canada-but-can-it-be-permitted/",
+          "evidence_type": "direct CEO interview page",
+          "period": "September 2026 project status",
+          "unit": "people; project-study status",
+          "value": "20-person camp; no resource, reserve or economic study"
+        }
+      ],
+      "publish_date": "2026-09-09",
+      "title": "Resource Talks：Sixty North Gold的Mon金矿重启受许可拖延",
+      "source_type": "webcast",
+      "summary": "Resource Talks采访Sixty North Gold管理层，确认Mon Gold按100吨/日重启的2026年生产计划落空，监管方要求基线水样持续至2027年后再推进水管理计划。",
+      "detail": "页面称设备、燃料和营地已准备，开发采矿约55吨/班；项目仍无资源量、储量或经济研究，节目还披露融资、贷款和稀释风险。",
+      "importance": "Mon Gold的100吨/日重启由2026年转为至少等待2027年基线水样，潜在金供给兑现时间明显后移，设备已到场也无法替代水管理许可。若采样和审批继续拖延，现金续航与3百万美元贷款偿还会先于首产形成融资压力；项目没有资源、储量和经济研究，实际产量仍缺乏独立验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Sixty North Gold"
+      ],
+      "projects": [
+        "Mon Gold",
+        "A-Zone",
+        "DD Zone"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/copper-stocks/high-grade-copper-in-brazil-but-is-there-a-real-system/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Prospectiva在São Francisco铜金项目实施10孔、2,500米首轮金刚石钻探，项目为335平方公里组合的一部分。",
+          "evidence": "Resource Talks页面节目概述和What have they done段落直接披露计划及土地规模。",
+          "source_url": "https://resourcetalks.com/copper-stocks/high-grade-copper-in-brazil-but-is-there-a-real-system/",
+          "evidence_type": "direct CEO interview page",
+          "period": "August-September 2026 maiden drill program",
+          "unit": "holes; metres; square kilometres",
+          "value": "10 holes; 2,500 m; 335 km²"
+        },
+        {
+          "claim": "固定环路电磁测量划出约3公里导体廊道，连接SF1西部高品位区和SF2东部浸染区。",
+          "evidence": "访谈TL;DR直接披露电磁测量结果和两个靶区。",
+          "source_url": "https://resourcetalks.com/copper-stocks/high-grade-copper-in-brazil-but-is-there-a-real-system/",
+          "evidence_type": "direct CEO interview page",
+          "period": "2026 exploration update",
+          "unit": "kilometres; geophysical corridor",
+          "value": "approximately 3 km conductor corridor"
+        },
+        {
+          "claim": "首轮钻探完成后，公司希望追加约5,000米并在明年初形成首份矿产资源量，追加阶段预计需要超过300万加元融资。",
+          "evidence": "访谈TL;DR和Upcoming catalysts直接披露后续钻探、资源量和融资需求。",
+          "source_url": "https://resourcetalks.com/copper-stocks/high-grade-copper-in-brazil-but-is-there-a-real-system/",
+          "evidence_type": "direct CEO interview page",
+          "period": "late 2026 to early 2027 plan",
+          "unit": "metres; CAD; resource milestone",
+          "value": "approximately 5,000 m; over C$3 million; first MRE early next year"
+        }
+      ],
+      "publish_date": "2026-09-09",
+      "title": "Resource Talks：Prospectiva推进巴西São Francisco铜金钻探",
+      "source_type": "webcast",
+      "summary": "Resource Talks采访Prospectiva Resources管理层，介绍São Francisco 2,500米首轮钻探、约3公里电磁导体廊道，以及追加5,000米钻探和首份资源量计划。",
+      "detail": "页面称首轮钻探完全融资，直接钻探成本约300加元/米；品位和连续性是管理层指出的主要未知，电磁异常也未必对应矿化。",
+      "importance": "São Francisco的2,500米首轮钻探把约3公里电磁导体廊道转入可验证阶段，若SF1与SF2之间的品位和连续性成立，铜金供给管线才可能从靶区升级为资源。追加约5,000米及明年初首份资源量是中期节点，超过300万加元融资、钻探许可和电磁异常真实性仍是兑现条件。",
+      "verification_status": "verified",
+      "companies": [
+        "Prospectiva Resources"
+      ],
+      "projects": [
+        "São Francisco",
+        "SF1",
+        "SF2",
+        "Tabira",
+        "Pico do Jabre",
+        "Desterro"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/gold-stocks/historic-gold-mine-in-nevada-but-can-they-really-restart-it/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kinsley Mountain五月资源更新含740,000盎司指示资源和69,000盎司推断资源，其中Secret Canyon含384,000盎司指示资源。",
+          "evidence": "Resource Talks访谈TL;DR直接披露资源分类和规模。",
+          "source_url": "https://resourcetalks.com/gold-stocks/historic-gold-mine-in-nevada-but-can-they-really-restart-it/",
+          "evidence_type": "direct CEO interview page",
+          "period": "May 2026 resource update",
+          "unit": "troy ounces; resource category",
+          "value": "740,000 indicated oz; 69,000 inferred oz; 384,000 indicated oz at Secret Canyon"
+        },
+        {
+          "claim": "PEA设想4,000吨/日堆浸作业，约四年产出略高于120,000盎司，初始资本约8,200万美元。",
+          "evidence": "访谈TL;DR直接披露处理量、计划产量和初始资本。",
+          "source_url": "https://resourcetalks.com/gold-stocks/historic-gold-mine-in-nevada-but-can-they-really-restart-it/",
+          "evidence_type": "direct CEO interview page",
+          "period": "2026 PEA project plan",
+          "unit": "tonnes per day; troy ounces; USD",
+          "value": "4,000 tpd; over 120,000 oz; US$82 million initial capital"
+        },
+        {
+          "claim": "初步运营计划已于2026年8月提交BLM，咨询方估计流程需12至18个月，只有约25%资源为氧化物且可浸出。",
+          "evidence": "访谈TL;DR和Upcoming catalysts直接披露许可时间和矿石类型比例。",
+          "source_url": "https://resourcetalks.com/gold-stocks/historic-gold-mine-in-nevada-but-can-they-really-restart-it/",
+          "evidence_type": "direct CEO interview page",
+          "period": "August 2026 permitting and project status",
+          "unit": "months; percent",
+          "value": "12-18 months; approximately 25% oxide and leachable"
+        }
+      ],
+      "publish_date": "2026-09-08",
+      "title": "Resource Talks：CopAur推进Kinsley Mountain金矿重启许可",
+      "source_type": "webcast",
+      "summary": "Resource Talks采访CopAur Minerals CEO Andrew Neale，讨论Kinsley Mountain 740,000盎司指示资源、4,000吨/日堆浸PEA和已提交BLM的初步运营计划。",
+      "detail": "项目PEA初始资本约8,200万美元、计划约四年产出略高于12万盎司；BLM流程预计12至18个月，75%资源为需另行研究的难处理硫化物。",
+      "importance": "Kinsley的740,000盎司指示资源和4,000吨/日、约12万盎司计划产量提供了可量化的金供给框架，BLM初步运营计划则把项目推进到许可排队阶段。12至18个月审批、约8,200万美元初始资本和仅25%氧化可浸资源把兑现时间推向中期；PEA及金价假设不等同已批准建设或实际产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Andrew Neale",
+        "background": "CopAur Minerals CEO"
+      },
+      "companies": [
+        "CopAur Minerals"
+      ],
+      "projects": [
+        "Kinsley Mountain",
+        "Secret Canyon",
+        "Troy Canyon"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/silver-stocks/big-zinc-lead-silver-project-in-the-nwt-but-can-they-really-build-it/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "PC Silver现有历史资源约10 Mt测量和指示资源、6.44 Mt推断资源；银品位分别约139克/吨和150克/吨。",
+          "evidence": "Resource Talks访谈页直接披露2021年历史资源口径。",
+          "source_url": "https://resourcetalks.com/silver-stocks/big-zinc-lead-silver-project-in-the-nwt-but-can-they-really-build-it/",
+          "evidence_type": "direct CEO interview page",
+          "period": "October 2021 historical resource cited in September 2026 interview",
+          "unit": "million tonnes; grams per tonne silver",
+          "value": "approximately 10 Mt at 139 g/t Ag M&I; 6.44 Mt at 150 g/t Ag inferred"
+        },
+        {
+          "claim": "公司预计9月底前发布PEA和新矿产资源量，夏季2027年计划小规模验证性生产，商业化生产更接近2028年。",
+          "evidence": "访谈TL;DR和Upcoming catalysts直接披露时间表。",
+          "source_url": "https://resourcetalks.com/silver-stocks/big-zinc-lead-silver-project-in-the-nwt-but-can-they-really-build-it/",
+          "evidence_type": "direct CEO interview page",
+          "period": "September 2026 to 2028 project plan",
+          "unit": "dates; production stage",
+          "value": "PEA/MRE before end-September; proof-of-concept summer 2027; commercial production closer to 2028"
+        },
+        {
+          "claim": "公司资金约700万加元，地下巷道约5公里且已完成约10%修复，矿山和道路已有许可。",
+          "evidence": "访谈页TL;DR和项目进展段落直接披露资金、修复进度和许可状态。",
+          "source_url": "https://resourcetalks.com/silver-stocks/big-zinc-lead-silver-project-in-the-nwt-but-can-they-really-build-it/",
+          "evidence_type": "direct CEO interview page",
+          "period": "September 2026 project status",
+          "unit": "CAD; kilometres; percent",
+          "value": "approximately C$7 million; approximately 5 km; 10% rehabilitated"
+        }
+      ],
+      "publish_date": "2026-09-08",
+      "title": "Resource Talks：Honey Badger推进PC Silver银铅锌项目重启",
+      "source_type": "webcast",
+      "summary": "Resource Talks采访Honey Badger Silver CEO，披露PC Silver历史银资源、约700万加元资金、地下修复和9月底前PEA/资源量计划，验证性生产目标为2027年夏季。",
+      "detail": "项目为历史矿山和选厂重启，PEA主要覆盖银、锌、铅并可能纳入铜；政府道路资金仍只是意向，选厂重启成本和生产许可边界尚未确定。",
+      "importance": "PC Silver的历史资源和约5公里地下工程让项目具备重启型银供给路径，9月底PEA与资源量、2027年夏季验证性生产和2028年商业化目标构成连续节点。约700万加元资金需覆盖矿山、道路和选厂工作，政府道路支持尚未落地，历史数据、劳动力和冬季运输风险决定银精矿能否按计划兑现。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Chad",
+        "background": "Honey Badger Silver CEO"
+      },
+      "companies": [
+        "Honey Badger Silver"
+      ],
+      "projects": [
+        "PC Silver",
+        "Nanisivik",
+        "Prairie Creek"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/KatusaResearch/status/2097705568471257321",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "Marin Katusa原帖称白银供不应求已持续五年，Silver Institute估计本年短缺1.17亿盎司，2021年以来累计缺口接近8亿盎司。",
+          "evidence": "KatusaResearch账号原帖正文直接给出持续年数、归因机构和两个缺口数字。",
+          "source_url": "https://x.com/KatusaResearch/status/2097705568471257321",
+          "evidence_type": "direct original X post",
+          "period": "September 9, 2026 post; current year and since 2021",
+          "unit": "million troy ounces; years",
+          "value": "117 million oz current-year shortfall; close to 800 million oz cumulative; five years"
+        }
+      ],
+      "publish_time": "2026-09-09T15:15:55+00:00",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "excerpt": "Marin Katusa原帖称白银连续五年供不应求，引用Silver Institute估计本年短缺1.17亿盎司，2021年以来累计缺口接近8亿盎司。",
+      "interpretation": "这是作者在X上的归因性转述，帖子未附Silver Institute原始报告链接，不能把数字当作独立官方核验结果。若口径成立，缺口需要通过库存释放、回收、替代或需求抑制来平衡，白银矿山供给短期弹性有限。",
+      "importance": "若Silver Institute所引口径成立，连续五年的缺口意味着白银需求需要通过库存释放、回收或价格抑制来平衡，供给端的短期弹性不足。1.17亿盎司是当年估计、近8亿盎司是累计判断，帖文未提供原始报告链接和供需表，后续应核对研究报告及实物库存，不能将作者数字直接当作官方结算值。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://x.com/soarfinancial/status/2097684778589856202",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kai Hoffmann原帖称Kodiak Copper的Ketchan首轮钻探见283.5米、0.70% CuEq，其中包含超过100米、1.02% CuEq。",
+          "evidence": "soarfinancial原帖正文直接给出项目、钻探阶段、长度和CuEq品位。",
+          "source_url": "https://x.com/soarfinancial/status/2097684778589856202",
+          "evidence_type": "direct original X post",
+          "period": "September 9, 2026 post and first Ketchan drill program",
+          "unit": "metres; percent copper equivalent",
+          "value": "283.5 m at 0.70% CuEq; over 100 m at 1.02% CuEq"
+        }
+      ],
+      "publish_time": "2026-09-09T13:53:18+00:00",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "excerpt": "Kai Hoffmann原帖称Kodiak Copper在Ketchan首轮钻探见283.5米、0.70% CuEq，其中包括超过100米、1.02% CuEq，并将结果与资源增长联系起来。",
+      "interpretation": "原帖是矿业媒体账号对公司访谈的导流和结果摘要，CuEq不是单一铜品位，也没有给出资源量、冶金回收率或可采计划。它可作为项目连续矿化和后续资源验证的新增线索，不能直接当作新增铜产量。",
+      "importance": "Ketchan首轮钻探的283.5米连续CuEq截获把项目从局部结果推进到连续性与资源扩张验证，后续钻孔将决定这一长度能否形成稳定的矿化模型。原帖未提供资源量、回收率或开发时间表，当前影响集中在中期供给管线，且CuEq口径需要用公司正式技术披露复核。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/collective-shares-slide-on-apollos-4-1m-oz-gold-resource/",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Collective Mining的Apollo初始资源量包括37.0 Mt、2.17 g/t AuEq的2.58 Moz指示资源，以及48.2 Mt、1.83 g/t AuEq的2.83 Moz推断资源。",
+          "evidence": "Mining.com全文披露Apollo资源规模，并与Collective官方发行页逐项核对。",
+          "source_url": "https://www.mining.com/collective-shares-slide-on-apollos-4-1m-oz-gold-resource/",
+          "evidence_type": "Mining.com report cross-checked against issuer release",
+          "period": "Apollo resource effective August 31, 2026; article September 9, 2026",
+          "unit": "million tonnes; grams per tonne AuEq; million troy ounces AuEq",
+          "value": "37.0 Mt at 2.17 g/t for 2.58 Moz indicated; 48.2 Mt at 1.83 g/t for 2.83 Moz inferred"
+        },
+        {
+          "claim": "资源量基于截至2026年3月31日的114,520米、265个钻孔，截点后又完成约40,000米钻探；公司目标在2027年下半年提交环评申请。",
+          "evidence": "Mining.com和Collective官方发行页均直接披露钻探数据库、截点后工作量和许可计划。",
+          "source_url": "https://www.mining.com/collective-shares-slide-on-apollos-4-1m-oz-gold-resource/",
+          "evidence_type": "Mining.com report cross-checked against issuer release",
+          "period": "March 31, 2026 database cut-off and 2027 permitting plan",
+          "unit": "metres; drill holes; date",
+          "value": "114,520 m in 265 holes; approximately 40,000 m after cut-off; environmental application H2 2027"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM / Collective Mining release",
+      "title": "Collective Mining公布Apollo金银铜钨初始资源量",
+      "excerpt": "Mining.com报道，Collective Mining的Apollo项目初始资源量含37.0 Mt、2.58 Moz AuEq指示资源和48.2 Mt、2.83 Moz AuEq推断资源；截至数据库截点后又完成约40,000米钻探。",
+      "language": "en",
+      "interpretation": "该资源量由官方发行人数据支持，但推断资源具有不确定性，资源量不等于储量或经济可采性。截点后钻探和2027年下半年环评申请提供后续增储及许可节点，当前影响是中长期金银铜供给管线。",
+      "importance": "Apollo把Collective的哥伦比亚供给管线推进到可量化资源阶段，37.0 Mt指示加48.2 Mt推断对应5.41 Moz AuEq，为后续工程和许可提供基准。约4万米截点后钻探未纳入本次资源，2027年下半年环评申请和后续资源更新是增量兑现节点；资源非储量，品位、冶金和许可仍决定可采供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Collective Mining"
+      ],
+      "projects": [
+        "Apollo",
+        "Guayabales"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/troilus-triples-value-to-3-2b-closes-in-on-funding/",
+      "metal_tags": [
+        "gold",
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Troilus更新NI 43-101技术报告规划约26年露天矿、50,000吨/日处理，生命周期可支付产量为563万盎司金、4.72亿磅铜和1,088万盎司银。",
+          "evidence": "Troilus官方9月9日发行页直接披露矿山寿命、处理量和可支付产量。",
+          "source_url": "https://troilusmining.com/news-and-media/news-releases/troilus-reports-updated-technical-report-following-completion-of-basic-engineering-delivering-after-tax-us32-billion-npv5-22-irr-and-cashflow-of-us69-billion-at-base-case-gold-price-of-us-3600oz",
+          "evidence_type": "issuer technical-report release",
+          "period": "September 9, 2026 updated technical report",
+          "unit": "years; tonnes per day; ounces; pounds",
+          "value": "approximately 26 years; 50,000 tpd; 5.63 Moz Au; 472 Mlb Cu; 10.88 Moz Ag"
+        },
+        {
+          "claim": "报告初始资本约14.28亿美元，约95,000小时基本工程已完成，约90%的价格输入用当前市场报价验证，AACE为Class 3精度。",
+          "evidence": "Troilus官方发行页直接披露资本、工程小时、报价验证比例和精度等级。",
+          "source_url": "https://troilusmining.com/news-and-media/news-releases/troilus-reports-updated-technical-report-following-completion-of-basic-engineering-delivering-after-tax-us32-billion-npv5-22-irr-and-cashflow-of-us69-billion-at-base-case-gold-price-of-us-3600oz",
+          "evidence_type": "issuer technical-report release",
+          "period": "September 2026 technical report",
+          "unit": "USD; engineering hours; percent; estimate class",
+          "value": "US$1.428 billion; 95,000 hours; approximately 90%; AACE Class 3"
+        },
+        {
+          "claim": "公司预计2027年开工、2029年9月首矿和2030年3月商业生产，前提是取得审批和融资。",
+          "evidence": "Troilus官方发行页Project Execution and Next Steps段落直接给出时间表和前提条件。",
+          "source_url": "https://troilusmining.com/news-and-media/news-releases/troilus-reports-updated-technical-report-following-completion-of-basic-engineering-delivering-after-tax-us32-billion-npv5-22-irr-and-cashflow-of-us69-billion-at-base-case-gold-price-of-us-3600oz",
+          "evidence_type": "issuer technical-report release",
+          "period": "2027-2030 development schedule",
+          "unit": "dates; project milestones",
+          "value": "construction 2027; first ore September 2029; commercial production March 2030"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "Troilus Mining Corporation",
+      "title": "Troilus基本工程完成后更新技术报告，规划26年金铜银矿山",
+      "excerpt": "Troilus官方报告显示，魁北克项目规划约26年、50,000吨/日，生命周期可支付产量为563万盎司金、4.72亿磅铜和1,088万盎司银；初始资本约14.28亿美元。",
+      "language": "en",
+      "interpretation": "这是发行人技术报告的项目计划和经济模型，产量属于可研/技术报告估计，受融资、许可、建设和金属价格假设约束。基本工程完成及约90%报价验证提高了执行可见度，预计2027开工、2029年9月首矿和2030年3月商业生产仍是前瞻目标。",
+      "importance": "Troilus的更新已把项目从可研模型推进到基本工程完成后的执行准备，26年矿山寿命与约563万盎司金、4.72亿磅铜、1,088万盎司银的可支付产量扩大了未来多金属供给管线。2027年拟开工、2029年9月首矿、2030年3月商业生产仍取决于许可和融资；14.28亿美元初始资本及金属价格假设是主要兑现约束。",
+      "verification_status": "verified",
+      "companies": [
+        "Troilus Mining"
+      ],
+      "projects": [
+        "Troilus Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/eldorados-skouries-turns-years-of-setbacks-into-copper/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Eldorado Gold于2026年9月8日在希腊Skouries产出首批铜金精矿，商业生产目标为2026年第四季度。",
+          "evidence": "Mining.com文章全文与Eldorado官方新闻稿均直接披露首批精矿日期和商业生产目标。",
+          "source_url": "https://www.mining.com/eldorados-skouries-turns-years-of-setbacks-into-copper/",
+          "evidence_type": "Mining.com report cross-checked against issuer release",
+          "period": "September 8-9, 2026 commissioning",
+          "unit": "date; production milestone",
+          "value": "first concentrate September 8, 2026; commercial production Q4 2026 target"
+        },
+        {
+          "claim": "矿石库存超过460万吨，可支持超过7个月计划处理量；生命周期平均年产约14万盎司金和6,700万磅铜。",
+          "evidence": "Mining.com及Eldorado官方发行页直接披露库存、处理缓冲和年均产量。",
+          "source_url": "https://www.mining.com/eldorados-skouries-turns-years-of-setbacks-into-copper/",
+          "evidence_type": "Mining.com report cross-checked against issuer release",
+          "period": "September 2026 ramp-up and life-of-mine plan",
+          "unit": "million tonnes; months; ounces; pounds",
+          "value": "over 4.6 Mt; more than 7 months; 140,000 oz Au/year; 67 Mlb Cu/year"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM / Eldorado Gold",
+      "title": "Eldorado的希腊Skouries产出首批铜金精矿",
+      "excerpt": "Mining.com报道，Eldorado Gold在Skouries产出首批铜金精矿，矿石库存超过460万吨，可支持逾7个月计划处理，商业生产目标为2026年第四季度，生命周期年均产铜约6,700万磅、产金14万盎司。",
+      "language": "en",
+      "interpretation": "首批精矿是已发生的调试里程碑，年产量和商业生产日期仍是公司前瞻目标。并网、选厂爬坡、冶金回收率和施工收尾决定首批精矿能否转化为稳定可销售供给。",
+      "importance": "Skouries已产出首批铜金精矿，距离商业化只剩调试和并网等执行环节，相比纯勘探项目更接近实际供给兑现。460万吨以上库存可支撑逾7个月处理、2026年第四季度商业生产目标和年均6,700万磅铜/14万盎司金构成近端增量锚点；爬坡、并网和回收率仍有风险。",
+      "verification_status": "verified",
+      "companies": [
+        "Eldorado Gold"
+      ],
+      "projects": [
+        "Skouries",
+        "Kassandra Mines Complex"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/agnico-takes-22-of-vizsla-in-32m-alaska-deal/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Vizsla Copper以约3,200万加元股票对价收购Agnico Eagle的Delta多金属项目和Helm Bay金项目，交易完成时Agnico预计持有约19.99%，股东批准递延股份后约22%。",
+          "evidence": "Mining.com全文与Agnico官方公告均直接披露交易对价、项目、持股和审批条件。",
+          "source_url": "https://www.mining.com/agnico-takes-22-of-vizsla-in-32m-alaska-deal/",
+          "evidence_type": "Mining.com report cross-checked against Agnico issuer release",
+          "period": "September 8-9, 2026 transaction",
+          "unit": "CAD; percent ownership",
+          "value": "C$32.0 million; 19.99% at closing; approximately 22% after approval"
+        },
+        {
+          "claim": "Delta的2006年历史推断资源为1,540万吨、0.6%铜、62克/吨银和1.7克/吨金，Vizsla称需验证、确认钻探和更新建模。",
+          "evidence": "Mining.com文章与Agnico公告披露交易资产的历史资源及验证限制。",
+          "source_url": "https://www.mining.com/agnico-takes-22-of-vizsla-in-32m-alaska-deal/",
+          "evidence_type": "Mining.com report cross-checked against Agnico issuer release",
+          "period": "2006 historical estimate cited in September 2026 transaction",
+          "unit": "million tonnes; percent copper; grams per tonne; resource status",
+          "value": "15.4 Mt at 0.6% Cu, 62 g/t Ag and 1.7 g/t Au; historical inferred"
+        },
+        {
+          "claim": "Delta后续里程碑包括披露至少30万吨铜当量资源、完成可行性研究和商业生产，另有最高2,000万加元或有付款。",
+          "evidence": "Agnico官方公告和Mining.com文章直接列出里程碑付款条件。",
+          "source_url": "https://www.mining.com/agnico-takes-22-of-vizsla-in-32m-alaska-deal/",
+          "evidence_type": "Mining.com report cross-checked against Agnico issuer release",
+          "period": "post-transaction contingent milestones",
+          "unit": "copper-equivalent tonnes; CAD",
+          "value": "300,000 CuEq tonnes; C$20 million contingent milestones"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM / Agnico Eagle",
+      "title": "Agnico以3,200万加元对价将阿拉斯加Delta和Helm Bay注入Vizsla",
+      "excerpt": "Mining.com报道，Vizsla Copper以约3,200万加元股票对价取得Agnico Eagle的Delta和Helm Bay项目；Delta有1,540万吨历史推断资源，品位0.6%铜、62克/吨银和1.7克/吨金，仍需验证。",
+      "language": "en",
+      "interpretation": "交易把Agnico的勘探项目转入junior平台，探索支出和开发风险主要由Vizsla承担，历史资源不能直接视为当前资源或储量。19.99%至22%持股、里程碑付款和12,250米Palmer钻探构成资本与勘探承接安排，短期不会增加矿山产量。",
+      "importance": "Agnico把Delta与Helm Bay注入Vizsla，使历史铜银金资源获得继续钻探和验证的资本平台，1,540万吨历史推断资源是中长期供给选项，非当前可采储量。3,200万加元股票对价和最高2,000万加元里程碑把付款与资源、可研及商业生产绑定，11月18日股东审批是近期节点，验证钻探和融资仍决定兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Vizsla Copper",
+        "Agnico Eagle"
+      ],
+      "projects": [
+        "Delta",
+        "Helm Bay",
+        "Palmer"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/copper-price-pauses-below-record-as-chinas-imports-slump-mine-supply-heads-for-first-drop-since-2017/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "国际铜研究组数据显示2026年上半年全球矿山产量下降1.1%，精矿产量下降2.6%，而SX-EW阴极产量增加4.3%。",
+          "evidence": "Mining.com文章全文直接援引ICSG并列出半年产量变化。",
+          "source_url": "https://www.mining.com/copper-price-pauses-below-record-as-chinas-imports-slump-mine-supply-heads-for-first-drop-since-2017/",
+          "evidence_type": "Mining.com report citing ICSG",
+          "period": "H1 2026",
+          "unit": "percent; mine and concentrate production",
+          "value": "-1.1% mine production; -2.6% concentrate; +4.3% SX-EW cathode"
+        },
+        {
+          "claim": "文章称Collahuasi计划重启闲置SX-EW工厂，目标明年生产6,000吨阴极铜；同时智利、印尼和刚果（金）矿端均出现不同程度下滑。",
+          "evidence": "Mining.com全文直接披露Collahuasi计划及ICSG国家产量变化。",
+          "source_url": "https://www.mining.com/copper-price-pauses-below-record-as-chinas-imports-slump-mine-supply-heads-for-first-drop-since-2017/",
+          "evidence_type": "Mining.com report citing SP Angel and ICSG",
+          "period": "2026 supply update and 2027 target",
+          "unit": "tonnes; percent",
+          "value": "6,000 t cathode next year; Chile -6.6%; Indonesia concentrate -32%; DRC concentrate -34%"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM / Reuters and Bloomberg",
+      "title": "全球铜矿上半年产量下降，Collahuasi计划重启湿法产能",
+      "excerpt": "Mining.com援引ICSG称，2026年上半年全球矿山产量下降1.1%、精矿下降2.6%，SX-EW阴极增加4.3%；Collahuasi计划重启闲置湿法厂，明年目标产出6,000吨阴极铜。",
+      "language": "en",
+      "interpretation": "精矿产量下降与SX-EW增加并存，说明供给弱点集中在传统矿山和精矿环节，不能将所有铜产量变化合并理解。Collahuasi的6,000吨计划只属于边际回流，酸价、调试和矿山品位会影响实际兑现；ICSG原有全年预测仍带有时间和口径限制。",
+      "importance": "2026年上半年矿山产量降1.1%、精矿降2.6%，即使SX-EW阴极增4.3%，传统精矿收缩仍把可交付铜供给推向更紧，形成短期供应压力。Collahuasi明年6,000吨湿法回流提供局部缓冲，却无法替代智利、印尼和刚果（金）多点下滑；新项目许可周期较长，后续应跟踪精矿产量和湿法实际爬坡。",
+      "verification_status": "verified",
+      "companies": [
+        "Collahuasi",
+        "Anglo American",
+        "Glencore",
+        "Capstone Copper"
+      ],
+      "projects": [
+        "Collahuasi SX-EW",
+        "Mantoverde"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/chile-bill-targets-foreign-cash-for-next-mining-boom/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利参议院批准的法案拟为junior勘探和创新公司建立专门投资框架，简化监管并提供资本利得税和绿地勘探费用激励。",
+          "evidence": "Mining.com文章全文直接说明参议院批准、拟议框架和税收激励内容。",
+          "source_url": "https://www.mining.com/chile-bill-targets-foreign-cash-for-next-mining-boom/",
+          "evidence_type": "Mining.com report",
+          "period": "September 9, 2026 proposed legislation",
+          "unit": "policy framework",
+          "value": "simplified regime; capital-gains exemption; greenfield exploration expense write-off"
+        },
+        {
+          "claim": "Cochilco预计智利2025年勘探支出8.74亿美元，其中铜占76%、约6.696亿美元；初始勘探约2.06亿美元。",
+          "evidence": "Mining.com文章援引Cochilco并直接列出金额和占比。",
+          "source_url": "https://www.mining.com/chile-bill-targets-foreign-cash-for-next-mining-boom/",
+          "evidence_type": "Mining.com report citing Cochilco",
+          "period": "2025 exploration spending",
+          "unit": "USD; percent",
+          "value": "US$874 million total; 76% copper; US$669.6 million copper; approximately US$206 million grassroots"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM",
+      "title": "智利法案拟吸引外资补充铜矿勘探管线",
+      "excerpt": "Mining.com报道，智利拟为初级勘探公司建立简化投资框架并提供税收激励；Cochilco预计2025年智利勘探支出8.74亿美元，其中铜占76%、约6.696亿美元。",
+      "language": "en",
+      "interpretation": "政策若落地，可能降低junior勘探上市和融资成本，改善铜矿长期项目管线；法案仍处于推进阶段，激励是否真正流向草根勘探尚未验证。勘探支出与未来产量之间还隔着发现、资源量、许可、融资和建设多个阶段。",
+      "importance": "智利把铜勘探融资制度作为补充长期供给的政策工具，2025年铜勘探占支出76%、约6.696亿美元说明资本基础已存在，新增框架可能扩大junior参与。法案没有即时增加铜产量，简化上市、税收激励和10月15日矿权拍卖安排仍需落地；资金能否转为发现、许可和建设是主要验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "Cochilco",
+        "Chile Ministry of Economy and Mining"
+      ],
+      "projects": [],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/chile-mines-a-quarter-of-worlds-copper-but-smelts-just-4/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利2025年生产约占全球23%的铜精矿，但全球冶炼铜份额仅4.2%；该国年精矿处理能力约544万吨，工厂利用率约60%。",
+          "evidence": "Mining.com文章全文援引Cochilco研究并直接列出产量份额、能力和利用率。",
+          "source_url": "https://www.mining.com/chile-mines-a-quarter-of-worlds-copper-but-smelts-just-4/",
+          "evidence_type": "Mining.com report citing Cochilco",
+          "period": "2025 production and September 2026 Cochilco study",
+          "unit": "percent; tonnes per year",
+          "value": "23% concentrate; 4.2% smelted copper; 5.44 Mt annual treatment capacity; approximately 60% utilization"
+        },
+        {
+          "claim": "智利约三分之二精矿出口至中国，全球在研项目到2041年可能新增相当于每年820万吨精炼铜的冶炼能力。",
+          "evidence": "Mining.com文章全文直接披露出口去向和Cochilco对全球扩能的估计。",
+          "source_url": "https://www.mining.com/chile-mines-a-quarter-of-worlds-copper-but-smelts-just-4/",
+          "evidence_type": "Mining.com report citing Cochilco",
+          "period": "current trade flow and through 2041 capacity pipeline",
+          "unit": "percent; tonnes per year",
+          "value": "approximately two-thirds to China; 8.2 Mt fine copper equivalent annual capacity by 2041"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM / Cochilco study",
+      "title": "Cochilco：智利采矿占全球铜精矿近四分之一，冶炼份额仅4.2%",
+      "excerpt": "Mining.com援引Cochilco称，智利2025年约产出全球23%的铜精矿，但冶炼铜份额仅4.2%，现有年处理能力约544万吨、利用率约60%；约三分之二精矿出口至中国。",
+      "language": "en",
+      "interpretation": "该信号是加工链和贸易流约束，不能直接等同矿山产量下降。利用率提升可能在不新建大型冶炼厂的情况下增加本地处理，但负TC/RC、设备连续性、环境许可和中国需求仍决定实际增量。",
+      "importance": "智利以全球约23%的精矿供给却仅有4.2%冶炼份额，现有5.44 Mt年处理能力只用约60%，说明短期瓶颈先落在加工利用率和精矿竞争。提高旧厂连续性可能比新建产能更早释放处理量；到2041年全球规划新增8.2 Mt精炼铜等效能力会加剧争夺精矿，TC/RC和出口流向仍需跟踪。",
+      "verification_status": "verified",
+      "companies": [
+        "Cochilco",
+        "Codelco",
+        "Glencore",
+        "Anglo American"
+      ],
+      "projects": [
+        "Caletones",
+        "Chuquicamata",
+        "Potrerillos",
+        "Altonorte",
+        "Chagres"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/op-ed-chiles-copper-sector-faces-a-growing-power-problem/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利铜矿平均品位从2005年的0.93%降至2024年的0.62%，同期每吨矿产铜耗电从3.07 MWh升至5.16 MWh，增加68%。",
+          "evidence": "Mining.com Op-Ed全文直接列出Cochilco数据和计算的耗电变化。",
+          "source_url": "https://www.mining.com/op-ed-chiles-copper-sector-faces-a-growing-power-problem/",
+          "evidence_type": "Mining.com op-ed citing Cochilco",
+          "period": "2005 versus 2024",
+          "unit": "percent copper; MWh per tonne; percent",
+          "value": "0.93% to 0.62%; 3.07 to 5.16 MWh/t; +68%"
+        },
+        {
+          "claim": "Cochilco预计铜矿用电量从2025年的27.6 TWh增至2034年的33.2 TWh、增加20.2%，同期铜产量仅增加8.3%。",
+          "evidence": "Mining.com全文直接列出Cochilco电力需求和产量预测。",
+          "source_url": "https://www.mining.com/op-ed-chiles-copper-sector-faces-a-growing-power-problem/",
+          "evidence_type": "Mining.com op-ed citing Cochilco",
+          "period": "2025-2034 forecast",
+          "unit": "TWh; percent",
+          "value": "27.6 to 33.2 TWh; +20.2% electricity; +8.3% copper production"
+        }
+      ],
+      "publish_time": "2026-09-09",
+      "source": "MINING.COM / GEM Consulting",
+      "title": "智利铜矿品位下降推高单位电力需求，电网成为供给约束",
+      "excerpt": "Mining.com刊载GEM Consulting分析称，智利铜矿平均品位从2005年0.93%降至2024年0.62%，每吨矿产铜耗电升至5.16 MWh；Cochilco预计矿业用电到2034年增至33.2 TWh。",
+      "language": "en",
+      "interpretation": "文章是基于Cochilco历史数据的评论分析，明确指出相关性不等于因果关系，电气化也会提高用电并可能减少柴油。单位电力需求增长会把发电、输电和矿区电气基础设施纳入未来铜供给成本与时间表。",
+      "importance": "智利铜矿品位从0.93%降至0.62%使维持相同含铜量需要处理更多矿石，耗电强度也从3.07升至5.16 MWh/吨；Cochilco预计2025至2034年矿业用电增20.2%，明显快于产量增8.3%。这把低品位压力传导到电网和项目基础设施，可能延迟未来供给；文章为分析性评论，相关性和电气化贡献仍需拆分验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Cochilco",
+        "GEM Consulting"
+      ],
+      "projects": [],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://news.smm.cn/news/104103410",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "中国2026年8月进口铜矿砂及其精矿250.8万吨，同比下降9.1%；前8个月累计进口1,949.2万吨，同比下降2.8%。",
+          "evidence": "SMM页面标明来源为海关数据，并直接列出8月和前8个月铜矿砂及精矿进口。",
+          "source_url": "https://news.smm.cn/news/104103410",
+          "evidence_type": "SMM report整理海关总署数据",
+          "period": "August 2026 and January-August 2026",
+          "unit": "万吨; percent",
+          "value": "250.8万吨, -9.1% y/y; 1,949.2万吨, -2.8% y/y"
+        },
+        {
+          "claim": "中国2026年8月未锻轧铜及铜材进口38.2万吨，同比下降10.1%；前8个月累计329.7万吨，同比下降6.7%。",
+          "evidence": "SMM页面直接列出未锻轧铜及铜材的月度和累计进口数据。",
+          "source_url": "https://news.smm.cn/news/104103410",
+          "evidence_type": "SMM report整理海关总署数据",
+          "period": "August 2026 and January-August 2026",
+          "unit": "万吨; percent",
+          "value": "38.2万吨, -10.1% y/y; 329.7万吨, -6.7% y/y"
+        }
+      ],
+      "publish_time": "2026-09-09T18:28:00+08:00",
+      "source": "上海有色网（SMM）",
+      "title": "海关总署：前8个月中国铜材进口下降6.7%",
+      "excerpt": "SMM根据海关数据称，2026年8月中国进口铜矿砂及其精矿250.8万吨、同比降9.1%，未锻轧铜及铜材进口38.2万吨、同比降10.1%；前8个月两者分别降2.8%和6.7%。",
+      "language": "zh",
+      "interpretation": "铜矿砂进口下降反映中国冶炼原料流入减少，铜材进口下降可能同时受国内需求、库存和替代来源影响，不能只凭进口额外推消费变化。该数据与当月贸易流相关，需结合国内矿山、精炼产量、交易所库存和冶炼开工率判断是需求减弱还是供应重新分配。",
+      "importance": "中国前8个月铜材进口同比降6.7%、8月铜矿砂及精矿进口降9.1%，显示进入中国的铜原料和金属流量同步走弱，短期需求承接与区域可交付性都受到检验。进口下降未必等于终端消费下降，也可能来自库存、国内产量或贸易流重排；后续应对照精炼产量、社会库存和冶炼开工率确认方向。",
+      "verification_status": "verified",
+      "companies": [
+        "中华人民共和国海关总署",
+        "上海有色网"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "时间窗口：北京时间2026-09-07至2026-09-09；按data/conference_calendar.json检查Denver Gold Forum、Precious Metals Summit、Mines and Money、The Northern Miner Symposium等会议入口，窗口内未发现可核验的额外会议演讲或回放。",
+      "Resource Talks首页：https://resourcetalks.com/；HTTP 200，核对2026-09-08和2026-09-09新增公司访谈，并确认2026-09-04、2026-09-09前后条目。",
+      "Resource Talks四个入选访谈页：Mon Gold、São Francisco、Kinsley Mountain、PC Silver；均HTTP 200，逐页核对标题、日期、节目说明、TL;DR和数字。",
+      "The Korelin Economics Report首页：https://www.kereport.com/；HTTP 200，检查2026-09-07至09-09最新节目入口。",
+      "KER Guanajuato原始访谈页：https://www.kereport.com/2026/09/09/guanajuato-silver-q2-2026-financials-operations-development-and-exploration-across-all-5-mines/；HTTP 200，核对James Anderson、五座在产矿山、347,481盎司白银、16,000米地下开发、75,000米钻探和1,990万美元流动资金。",
+      "KER Sitka原始访谈页：https://www.kereport.com/2026/09/09/sitka-gold-expanding-the-rhosgobel-gold-and-tungsten-footprint-at-the-rc-gold-project/；HTTP 200，核对Mike Burke、Rhosgobel扩展、7台钻机、60,000米计划和scheelite副产品说明。",
+      "KER Dave Erfle现场调研页：https://www.kereport.com/2026/09/08/dave-erfle-site-visit-recap-cassiar-gold-scottie-resources/；HTTP 200，核对现场调研、59,000公顷Cassiar、Scottie 8台钻机和50,000米计划。",
+      "KER Kirkland Lake Discoveries原始访谈页：https://www.kereport.com/2026/09/07/kirkland-lake-discoveries-600m-step-out-hole-makes-a-new-discovery-at-mirado-west-and-intersects-1-22-g-t-au-over-69-5m-doubling-the-gold-footprint-to-over-1300m/；HTTP 200，核对CEO、孔号、品位、长度、600米延伸、1,300米足迹和19孔待结果。",
+      "KER Sierra Madre访谈页：https://www.kereport.com/2026/09/07/sierra-madre-gold-and-silver-q2-operations-and-financial-update-at-la-guitarra-mining-complex-60k-meters-of-drilling-between-la-guitarra-and-del-toro-properties/；HTTP 200，已在2026-09-07日报收录，按跨日报去重。",
+      "Mining Stock Daily节目列表：https://www.miningstockdaily.com/episodes；HTTP 200，核对2026-09-08和09-09两期Morning Briefing；其内容主要为新闻简报，核心Apollo、钻探和项目事件与Part 3来源重叠，未另设栏目卡。",
+      "Mining Stock Daily 2026-09-09节目页：https://www.miningstockdaily.com/episodes/morning-briefing-collective-publishes-maiden-resource-for-apollo-aldebaran-drill-513m-of-106-cueq；HTTP 200，核对节目日期、逐项播报和候选事件。",
+      "Mining Stock Daily 2026-09-08节目页：https://www.miningstockdaily.com/episodes/morning-briefing-liberty-gold-publishes-black-pines-feasibility-study；HTTP 200，核对节目日期及Black Pine、Marimaca、Ivanhoe等播报；不将新闻简报重复写入Part 1。",
+      "The Northern Miner首页：https://www.northernminer.com/；HTTP 200，核对2026-09-07至09-09最新Podcast、视频和新闻入口。",
+      "The Northern Miner Fortuna播客页：https://www.northernminer.com/news/podcast-you-have-to-be-in-west-africa-fortuna-ceo-ganoza-on-senegal-ma/1003894669/；HTTP 200，核对发布日期、Jorge Ganoza、Bambadji收购和退出墨西哥的公开节目简介。",
+      "The Northern Miner Power Metallic页：https://www.northernminer.com/news/power-metallic-ceo-sees-low-costs-despite-lower-first-tonnage-at-lion-in-quebec/1003894691/；HTTP 200但触发免费阅读上限，公开导语不足以形成独立完整访谈卡，排除。",
+      "The Northern Miner SW US Spotlight页：https://www.northernminer.com/news/sw-us-spotlight-2-rio-teck-newmont-back-juniors/1003894624/；HTTP 200，作为新闻/项目综述检查，未另设Part 1访谈卡。",
+      "KER、Resource Talks和The Northern Miner入选页面均逐一打开并核对日期、主体、节目说明和使用的数字；页面中的投资披露和利益冲突提示已纳入解释限制。"
+    ],
+    "part1_result": "Part 1完成北京时间2026-09-07至2026-09-09的Podcast、Webcast、公司访谈、现场调研和会议入口检索。纳入9条可直接打开核验的访谈或节目页；Resource Talks、KER与Northern Miner的重复、宏观价格评论、付费受限或缺少实体供需事实的候选均已排除。",
+    "part2_searched": true,
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/daily_pipeline.py 2026-09-09 --collect-x；内部调用当前仓库scripts/x_search.py。",
+      "Playwright使用项目持久化会话按注册表顺序串行处理53个账号，52个完成；@duediligenceguy的1个帖子文本提取失败后仅将该账号交给twscrape。",
+      "twscrape仅处理未完成的@duediligenceguy，最终53/53账号完成、0失败，选定通道为playwright+twscrape，未增加其他账号流量。",
+      "X原始候选保存至x_outputs/2026-09-09_x_raw_materials.txt及同名JSON sidecar，共16条；逐条保留作者、handle、UTC发布时间、原帖URL和正文，纳入2条，14条按实体供需、证据和去重标准排除。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成52/53，twscrape完成剩余1个账号，最终53/53、0失败；保留16条原始候选，纳入Katusa白银缺口帖和Soar Financial的Kodiak钻探原帖各1条，其余因口号、宏观价格、导流、信息不完整或与新闻卡重复排除。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+      ],
+      "notes": [
+        "原始材料与JSON sidecar均按2026-09-09命名保留；Playwright和twscrape完成账户数分别为52和1。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/主路径：固定日报Python与Chrome Playwright、headless反检测参数；HTTP 200，报告日文章10篇。",
+      "Mining.com /commodity/gold/辅助路径：固定日报Python与Chrome Playwright；HTTP 200，报告日文章7篇。",
+      "Mining.com /commodity/silver/辅助路径：固定日报Python与Chrome Playwright；HTTP 200，报告日文章5篇。",
+      "Mining.com三分类页合计12个去重URL；文章列表和报告日期通过DOM提取，未使用sitemap、Wayback Machine或RSS feed。",
+      "Mining.com逐篇全文核验：先对12个去重URL执行直接HTTP请求，12/12返回HTTP 200；随后用同一固定Chrome Playwright会话打开12篇并提取正文，12/12正文超过500字符。入选Mining.com文章逐一核对标题、日期、主体和核心数字，并对Collective、Eldorado、Vizsla等事件打开发行人页面交叉核对。",
+      "Google备用查询：site:mining.com gold September 9 2026；HTTP 429，可靠命中0，未使用搜索摘要。",
+      "Google备用查询：site:mining.com silver September 9 2026；HTTP 429，可靠命中0，未使用搜索摘要。",
+      "DuckDuckGo仅作一手来源发现：Collective、Troilus、Eldorado、Vizsla/Agnico、Liberty Gold、K2 Gold等动态日期查询；搜索摘要只用于定位候选，入选事实均回到文章或发行人页面核验。",
+      "Collective官方发行页：https://collectivemining.com/collective-mining-announces-maiden-mineral-resource-for-its-apollo-deposit-at-the-guayabales-project/；HTTP 200，核对Apollo资源量、钻探截点和许可计划。",
+      "Troilus官方发行页：https://troilusmining.com/news-and-media/news-releases/troilus-reports-updated-technical-report-following-completion-of-basic-engineering-delivering-after-tax-us32-billion-npv5-22-irr-and-cashflow-of-us69-billion-at-base-case-gold-price-of-us-3600oz；HTTP 200，核对26年寿命、产量、资本、2027-2030时间表和技术报告口径。",
+      "Eldorado官方发行页：https://www.eldoradogold.com/investors/news-releases/eldorado-gold-announces-first-copper-gold-concentrate-skouries；HTTP 200，核对首批精矿日期、4.6Mt库存、并网和商业生产目标。",
+      "Agnico官方发行页：https://www.agnicoeagle.com/English/news-and-media/news-releases/news-details/2026/AGNICO-EAGLE-ANNOUNCES-DISPOSITION-OF-DELTA-AND-HELM-BAY-PROJECTS-AND-INVESTMENT-IN-VIZSLA-COPPER/default.aspx；HTTP 200，核对Delta历史资源、对价、持股和里程碑。",
+      "SMM资讯首页：https://news.smm.cn/；HTTP 200，检查报告日中文金银铜资讯入口；入选海关数据原始页面HTTP 200，显示2026-09-09 18:28和完整铜矿砂、铜材进口数据。",
+      "SMM海关数据页：https://news.smm.cn/news/104103410；HTTP 200，逐段核对标题、来源、日期、250.8万吨铜矿砂、38.2万吨铜材及前8个月同比变化。",
+      "TMX Newsfile首页：https://www.newsfilecorp.com/；HTTP 200，检查报告日发行入口，未发现比已核验事件更完整的金银铜新增发行。",
+      "PR Newswire发行列表：https://www.prnewswire.com/news-releases/news-releases-list/；HTTP 200，检查报告日公开发行入口。",
+      "The Northern Miner首页：https://www.northernminer.com/；HTTP 200，检查报告日新闻和Podcast入口；相关Mining.com事件已按一手资料和信息完整度去重。",
+      "中文与英文来源：SMM中文/英文入口、Mining.com、The Northern Miner及发行人页面均已检查；价格评论、宏观评论、项目出售而无供给变化、窗口外或搜索摘要候选均未纳入。"
+    ],
+    "part3_result": "Part 3完成北京时间2026-09-09全天英文和中文来源检索。Mining.com铜分类页Playwright主路径、金银辅助分类页、Google site辅助查询、发行人页面、SMM、Newsfile、PR Newswire和The Northern Miner入口均已检查；纳入8条Mining.com/官方交叉核验信号及1条SMM海关数据，排除纯价格、宏观和重复事件。",
+    "mining_com_source_note": "Mining.com铜分类页Playwright主路径HTTP 200、报告日文章10篇；黄金辅助页7篇、白银辅助页5篇，跨分类去重后12个URL。12个文章URL直接HTTP请求均返回200，随后同一Chrome Playwright会话逐篇提取正文且12/12超过500字符；入选文章中的Collective、Eldorado和Vizsla事件分别与Collective、Eldorado和Agnico官方发行页交叉核对，Troilus使用公司官方发行页。Google site:mining.com gold/silver September 9 2026两次均HTTP 429、可靠命中0，仅作辅助审计，未用摘要替代正文。",
+    "url_verification": {
+      "checked": 20,
+      "passed": 20,
+      "failed": 0,
+      "failures": [],
+      "notes": "9条Part 1页面、2条X原帖、8条Mining.com/官方新闻页面及1条SMM页面均已打开并核对标题/主体、日期和卡片核心事实，全部标记verified。"
+    },
+    "new_sources_discovered": [
+      "source-kereport",
+      "source-northern-miner"
+    ]
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/07/sierra-madre-gold-and-silver-q2-operations-and-financial-update-at-la-guitarra-mining-complex-60k-meters-of-drilling-between-la-guitarra-and-del-toro-properties/",
+      "https://resourcetalks.com/copper-stocks/growing-copper-system-in-botswana-but-is-the-grade-enough/",
+      "https://resourcetalks.com/copper-stocks/copper-target-in-montana-but-can-they-find-a-porphyry-centre/",
+      "https://resourcetalks.com/gold-stocks/high-grade-gold-discovery-in-wa-but-can-it-ever-be-a-mine/"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/soarfinancial/status/2097680075931963635"
+    ],
+    "part3_deduped_events": [
+      "Mining.com同一文章跨gold、silver、copper分类页重复出现，按规范URL和文章主体仅保留一份候选。",
+      "Mining Stock Daily 2026-09-09 Apollo简报与Collective官方发行及Mining.com报道为同一事件，保留Part 3完整来源，不另设Part 1卡。",
+      "SMM前8个月铜材进口下降与Mining.com铜市场文章存在同一海关数据交集；SMM卡仅承载官方进口数据，Mining.com卡仅承载ICSG矿山/精矿变化和Collahuasi湿法回流，避免重复结论。",
+      "Troilus X导流帖与Troilus官方技术报告为同一事件，保留官方发行页。"
+    ],
+    "notes": "已对最近三份日报、规范化URL、公司/项目和核心数字完成跨日、跨来源和跨栏目去重。所有入选信号均填写唯一primary_metal并确保其出现在metal_tags中；资源量、历史资源、钻孔截获、PEA和公司计划均按来源口径区分，未写成实际产量。"
+  }
+}

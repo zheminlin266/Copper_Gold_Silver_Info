@@ -1,0 +1,223 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-09",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-ffae3d20154a094edd570eb2",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-09T15:15:55+00:00",
+      "text": "The World Needs More Silver Than It Produces\n\nThat’s been true for five straight years.\n\nThe Silver Institute puts this year’s shortfall at 117 million ounces. \n\nSince 2021, the cumulative gap has hit close to 800 million ounces… almost a full year of global production.\n\nGone",
+      "url": "https://x.com/KatusaResearch/status/2097705568471257321",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-cd9108b079bb0840136a0cdc",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-09T14:33:24+00:00",
+      "text": "What's this guy so happy about?\n\nOh yeah...GOLD!",
+      "url": "https://x.com/Brien_Lundin/status/2097694869783236741",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-135621750ce1d8b56293a06e",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-09T10:49:01+00:00",
+      "text": "Haven’t heard much from them in a while… They did have drill results out earlier this year",
+      "url": "https://x.com/ArcadiaEconomic/status/2097638400874381719",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a67716d412d6a6d6059209c4",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-09T15:06:34+00:00",
+      "text": "About 22% copper, 22% oil, the rest uranium.",
+      "url": "https://x.com/duediligenceguy/status/2097703213738639663",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-56ab01348a4a6e81880f834c",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-09T14:19:54+00:00",
+      "text": "Copper is a hot commodity today, but I’ve long thought the color to be very beautiful.\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2097691472262787097",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e3cbbbdb700f5781b6882f2e",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-08T22:24:01+00:00",
+      "text": "Note: Afternoon reports indicate the US hit a ship near Kharg Island, not the island itself (Iran's big oil terminal).\n\nBut stocks and gold sold off in the morning, while oil rallied following the weekend's violence.\n\nDoesn't look like the war will end anytime soon...",
+      "url": "https://x.com/duediligenceguy/status/2097450916043518382",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2fe2066ba648f9e3f449cd75",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-09T12:33:39+00:00",
+      "text": "Silver miners are swimming in cash.\n\nThe industry has built its largest cash balance in history.\n\nYou know what comes next…\n\nM&A activity is likely on the horizon.\n\nGame on.\n\n\nhttps://\ntavicosta.substack.com/p/swimming-in-\ncash?r=2m39jp&utm_medium=ios\n…",
+      "url": "https://x.com/TaviCosta/status/2097664733575000093",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-90389eabec540e5d2df71920",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-09T14:06:28+00:00",
+      "text": "Incrementum Active Gold Fund: Der flexible Gold-Jäger -",
+      "url": "https://x.com/RonStoeferle/status/2097688088348602608",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-55cf6405a7528be47af29d0f",
+      "source_id": "x-junior_stock",
+      "author": "Brian Leni",
+      "handle": "Junior_Stock",
+      "publish_time": "2026-09-09T13:55:50+00:00",
+      "text": "In April I travelled to Uruguay to visit \n@SUNVMinerals\n’ Tarumán Gold-Silver Project - it was an excellent trip on several fronts. \n\nSun Valley is expected to begin trading publicly on the TSXV toward the end of this month, which makes my conversation with CEO Christo Stemmet",
+      "url": "https://x.com/Junior_Stock/status/2097685414186188848",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-186ba445f9770618ab1034ff",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-09T13:53:18+00:00",
+      "text": "Kodiak Copper: Best-Ever Drill Result at Ketchan\n\nClaudia Tornquist joins us to discuss 283.5m at 0.70% CuEq, including 100m+ at 1.02% CuEq, from Kodiak’s first drill program at Ketchan and what the results could mean for resource growth.\n\nWatch Here\n\nhttps://\nyoutu.be/U5JBpMPUQFA",
+      "url": "https://x.com/soarfinancial/status/2097684778589856202",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-eed05ef6b9d1cf0d05d95abf",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-09T13:34:37+00:00",
+      "text": "A major update from Troilus (\n$TLG\n).\n\nFollowing completion of Basic Engineering, the updated Technical Report for the Troilus gold-copper project delivers:\n US$3.2B after-tax NPV5%\n 22% after-tax IRR\n US$6.9B after-tax LOM cash flow\n 3.6-year payback\n ~26-year mine life",
+      "url": "https://x.com/soarfinancial/status/2097680075931963635",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fd605e38133a9c96ff268515",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-09-09T01:10:17+00:00",
+      "text": "Take a closer look at Ivanhoe Mines’ latest Mineral Resource update for the Makoko District in the Western Forelands.  \n\nMineralization remains open in multiple directions, with more drilling underway and another resource update expected in 2027.\n$IVN \nWatch the video. ",
+      "url": "https://x.com/IvanhoeMines_/status/2097492758256828589",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-073e05438602c32ac3028541",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-09-09T14:16:51+00:00",
+      "text": "We're proud to see the Hope Bay Wind Project move forward with an important investment from the \n@cib_en\n. By supporting renewable energy integration at Hope Bay, this project will help reduce emissions and fuel transportation needs while contributing to a more sustainable future",
+      "url": "https://x.com/agnicoeagle/status/2097690702972879359",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9daab5f1f2b3e93c8f9099f3",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-09-08T19:27:14+00:00",
+      "text": "As a \n@NYSE\n listed company, we are proud to see Agnico Eagle light up New York's Times Square, highlighting the people, partnerships and resilience that help make mining work. ",
+      "url": "https://x.com/agnicoeagle/status/2097406424372466115",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-cc85906055427f801ec35243",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-09-09T14:28:54+00:00",
+      "text": "$GGD.TO\n $GLGDF\n\nResource Talks Interview: Business Strategy Clip\n\n\nhttps://\ndrive.google.com/file/d/1GICuFE\nqOf0B6_jITCr0FL5aFN5VI_C8O/view?usp=sharing\n…",
+      "url": "https://x.com/GoGoldResources/status/2097693736159371387",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-63f7a733ae930cb4128b5e5e",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-09T12:44:40+00:00",
+      "text": "https://t.co/DVrE38bBXg",
+      "url": "https://x.com/duediligenceguy/status/2097667505229615231",
+      "collector": "x_search",
+      "report_date": "2026-09-09",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text"
+  }
+}

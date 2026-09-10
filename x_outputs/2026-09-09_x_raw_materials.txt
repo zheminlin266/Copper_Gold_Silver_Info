@@ -1,0 +1,181 @@
+X 原始候选 — 2026-09-09
+采集时间: 2026-09-10T07:27:44.561174+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 3: missing or empty tweet text
+失败账号: 无
+============================================================
+
+总计候选: 16 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-09T15:15:55+00:00
+    北京: 2026-09-09T23:15:55+08:00
+    文本: The World Needs More Silver Than It Produces
+
+That’s been true for five straight years.
+
+The Silver Institute puts this year’s shortfall at 117 million ounces.
+
+Since 2021, the cumulative gap has hit close to 800 million ounces… almost a full year of global production.
+
+Gone
+    链接: https://x.com/KatusaResearch/status/2097705568471257321
+
+[2] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-09T14:33:24+00:00
+    北京: 2026-09-09T22:33:24+08:00
+    文本: What's this guy so happy about?
+
+Oh yeah...GOLD!
+    链接: https://x.com/Brien_Lundin/status/2097694869783236741
+
+[3] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-09T10:49:01+00:00
+    北京: 2026-09-09T18:49:01+08:00
+    文本: Haven’t heard much from them in a while… They did have drill results out earlier this year
+    链接: https://x.com/ArcadiaEconomic/status/2097638400874381719
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-09T15:06:34+00:00
+    北京: 2026-09-09T23:06:34+08:00
+    文本: About 22% copper, 22% oil, the rest uranium.
+    链接: https://x.com/duediligenceguy/status/2097703213738639663
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-09T14:19:54+00:00
+    北京: 2026-09-09T22:19:54+08:00
+    文本: Copper is a hot commodity today, but I’ve long thought the color to be very beautiful.
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2097691472262787097
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-08T22:24:01+00:00
+    北京: 2026-09-09T06:24:01+08:00
+    文本: Note: Afternoon reports indicate the US hit a ship near Kharg Island, not the island itself (Iran's big oil terminal).
+
+But stocks and gold sold off in the morning, while oil rallied following the weekend's violence.
+
+Doesn't look like the war will end anytime soon...
+    链接: https://x.com/duediligenceguy/status/2097450916043518382
+
+[7] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-09T12:33:39+00:00
+    北京: 2026-09-09T20:33:39+08:00
+    文本: Silver miners are swimming in cash.
+
+The industry has built its largest cash balance in history.
+
+You know what comes next…
+
+M&A activity is likely on the horizon.
+
+Game on.
+
+
+https://
+tavicosta.substack.com/p/swimming-in-
+cash?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2097664733575000093
+
+[8] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-09T14:06:28+00:00
+    北京: 2026-09-09T22:06:28+08:00
+    文本: Incrementum Active Gold Fund: Der flexible Gold-Jäger -
+    链接: https://x.com/RonStoeferle/status/2097688088348602608
+
+[9] @Junior_Stock (Brian Leni)
+    UTC: 2026-09-09T13:55:50+00:00
+    北京: 2026-09-09T21:55:50+08:00
+    文本: In April I travelled to Uruguay to visit
+@SUNVMinerals
+’ Tarumán Gold-Silver Project - it was an excellent trip on several fronts.
+
+Sun Valley is expected to begin trading publicly on the TSXV toward the end of this month, which makes my conversation with CEO Christo Stemmet
+    链接: https://x.com/Junior_Stock/status/2097685414186188848
+
+[10] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-09T13:53:18+00:00
+    北京: 2026-09-09T21:53:18+08:00
+    文本: Kodiak Copper: Best-Ever Drill Result at Ketchan
+
+Claudia Tornquist joins us to discuss 283.5m at 0.70% CuEq, including 100m+ at 1.02% CuEq, from Kodiak’s first drill program at Ketchan and what the results could mean for resource growth.
+
+Watch Here
+
+https://
+youtu.be/U5JBpMPUQFA
+    链接: https://x.com/soarfinancial/status/2097684778589856202
+
+[11] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-09T13:34:37+00:00
+    北京: 2026-09-09T21:34:37+08:00
+    文本: A major update from Troilus (
+$TLG
+).
+
+Following completion of Basic Engineering, the updated Technical Report for the Troilus gold-copper project delivers:
+ US$3.2B after-tax NPV5%
+ 22% after-tax IRR
+ US$6.9B after-tax LOM cash flow
+ 3.6-year payback
+ ~26-year mine life
+    链接: https://x.com/soarfinancial/status/2097680075931963635
+
+[12] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-09-09T01:10:17+00:00
+    北京: 2026-09-09T09:10:17+08:00
+    文本: Take a closer look at Ivanhoe Mines’ latest Mineral Resource update for the Makoko District in the Western Forelands.
+
+Mineralization remains open in multiple directions, with more drilling underway and another resource update expected in 2027.
+$IVN
+Watch the video.
+    链接: https://x.com/IvanhoeMines_/status/2097492758256828589
+
+[13] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-09-09T14:16:51+00:00
+    北京: 2026-09-09T22:16:51+08:00
+    文本: We're proud to see the Hope Bay Wind Project move forward with an important investment from the
+@cib_en
+. By supporting renewable energy integration at Hope Bay, this project will help reduce emissions and fuel transportation needs while contributing to a more sustainable future
+    链接: https://x.com/agnicoeagle/status/2097690702972879359
+
+[14] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-09-08T19:27:14+00:00
+    北京: 2026-09-09T03:27:14+08:00
+    文本: As a
+@NYSE
+ listed company, we are proud to see Agnico Eagle light up New York's Times Square, highlighting the people, partnerships and resilience that help make mining work.
+    链接: https://x.com/agnicoeagle/status/2097406424372466115
+
+[15] @GoGoldResources (GoGold Resources)
+    UTC: 2026-09-09T14:28:54+00:00
+    北京: 2026-09-09T22:28:54+08:00
+    文本: $GGD.TO
+ $GLGDF
+
+Resource Talks Interview: Business Strategy Clip
+
+
+https://
+drive.google.com/file/d/1GICuFE
+qOf0B6_jITCr0FL5aFN5VI_C8O/view?usp=sharing
+…
+    链接: https://x.com/GoGoldResources/status/2097693736159371387
+
+[16] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-09T12:44:40+00:00
+    北京: 2026-09-09T20:44:40+08:00
+    文本: https://t.co/DVrE38bBXg
+    链接: https://x.com/duediligenceguy/status/2097667505229615231
