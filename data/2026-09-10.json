@@ -1,0 +1,689 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-10",
+  "report_time": "2026-09-11T08:01:35+08:00",
+  "summary": "黄金：苏丹黄金贸易与采金物资受限、湖南黄金上半年产量下降使已实现供给偏紧；Boumadine中长期潜在供给与黄金ETF投资需求增加形成对冲。白银：Boumadine扩建和Gaspé钻探带来中长期潜在供给，但尚未形成即时产量，投资需求信号仍主要集中于黄金。铜：Codelco减产使近端供给偏紧，AIC扩建、Winu同意和Gaspé勘探改善远期供给；美国关税不确定性与中国库存变化使贸易和需求分化。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-08T00:00:00+08:00",
+      "end": "2026-09-10T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-10T00:00:00+08:00",
+      "end": "2026-09-10T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-10T00:00:00+08:00",
+      "end": "2026-09-10T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/10/k2-gold-high-grade-step-outs-expanding-the-dragonfly-zone-mojave-project-27-43m-of-4-03-g-t-au/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Dragonfly区最新步钻结果将矿化外推至此前钻探外约40米",
+          "evidence": "KER节目页列出最新钻探延伸矿化40米，并说明Dragonfly结构与浅部矿化特征。",
+          "source_url": "https://www.kereport.com/2026/09/10/k2-gold-high-grade-step-outs-expanding-the-dragonfly-zone-mojave-project-27-43m-of-4-03-g-t-au/",
+          "evidence_type": "节目页事实摘要",
+          "period": "2026-09-10",
+          "unit": "米",
+          "value": 40
+        },
+        {
+          "claim": "标题披露27.43米、平均4.03 g/t Au的截段",
+          "evidence": "KER节目页标题为27.43m of 4.03 g/t Au。",
+          "source_url": "https://www.kereport.com/2026/09/10/k2-gold-high-grade-step-outs-expanding-the-dragonfly-zone-mojave-project-27-43m-of-4-03-g-t-au/",
+          "evidence_type": "节目标题",
+          "period": "2026-09-10",
+          "unit": "m; g/t Au",
+          "value": "27.43; 4.03"
+        },
+        {
+          "claim": "Mojave项目更大范围钻探计划为14,000米",
+          "evidence": "KER节目页说明更广泛的14,000米钻探计划仍在推进。",
+          "source_url": "https://www.kereport.com/2026/09/10/k2-gold-high-grade-step-outs-expanding-the-dragonfly-zone-mojave-project-27-43m-of-4-03-g-t-au/",
+          "evidence_type": "节目页事实摘要",
+          "period": "2026年",
+          "unit": "米",
+          "value": 14000
+        }
+      ],
+      "publish_date": "2026-09-10",
+      "title": "KER访谈：K2 Gold高品位步钻延伸Dragonfly区，Mojave项目见27.43米、4.03 g/t Au",
+      "source_type": "webcast",
+      "summary": "K2 Gold CEO Anthony Margarit介绍Mojave项目Dragonfly区最新步钻结果，矿化较此前钻探外推40米；标题披露27.43米、4.03 g/t Au高品位截段，14,000米钻探仍在推进。",
+      "importance": "Dragonfly本轮信息的核心价值在于矿化边界继续外推，且14,000米计划仍有待返回化验结果，短期先改善靶区连续性的证据。这会影响项目是否从勘探信号进入资源验证阶段，钻探潜力不等于资源或产量；后续应看Newmont靶区与待发化验是否支持更大规模开发。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Anthony Margarit",
+        "background": "K2 Gold总裁兼CEO"
+      },
+      "companies": [
+        "K2 Gold"
+      ],
+      "projects": [
+        "Mojave Project",
+        "Dragonfly zone"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/10/luca-mining-q2-operations-and-financials-ongoing-exploration-and-development-work-at-the-campo-morado-and-tahuehueto-mines/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Luca在2026年二季度完成约12,400米钻探，创季度纪录",
+          "evidence": "KER节目页列出二季度约12,400米钻探，年初至今约22,000米。",
+          "source_url": "https://www.kereport.com/2026/09/10/luca-mining-q2-operations-and-financials-ongoing-exploration-and-development-work-at-the-campo-morado-and-tahuehueto-mines/",
+          "evidence_type": "节目页事实摘要",
+          "period": "2026年第二季度",
+          "unit": "米",
+          "value": 12400
+        },
+        {
+          "claim": "Campo Morado扩建技术研究预计在2026年下半年发布",
+          "evidence": "KER节目页列出扩建技术研究将在2026年下半年完成，并涉及库存、回收率和水处理等方案。",
+          "source_url": "https://www.kereport.com/2026/09/10/luca-mining-q2-operations-and-financials-ongoing-exploration-and-development-work-at-the-campo-morado-and-tahuehueto-mines/",
+          "evidence_type": "节目页事实摘要",
+          "period": "2026年下半年",
+          "unit": "时间窗口",
+          "value": "H2 2026"
+        }
+      ],
+      "publish_date": "2026-09-10",
+      "title": "KER访谈：Luca Mining回顾Q2运营，推进Campo Morado与Tahuehueto扩建和勘探",
+      "source_type": "webcast",
+      "summary": "Luca Mining CEO回顾2026年二季度运营，Tahuehueto受加工厂和地下开发投资、承包商切换推动表现改善；Campo Morado通过库存、回收率和扩建研究提升后续供给弹性，二季度完成约12,400米钻探。",
+      "importance": "Luca的供给信号来自在产矿山的增产准备，而非单纯资源发现：Tahuehueto运营改善与Campo Morado扩建研究分别对应短期稳定性和中期处理能力。二季度12,400米钻探创季度纪录，但扩建技术研究要到2026年下半年，回收率、供矿和资本执行仍是兑现条件。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Dan Barnholden",
+        "background": "Luca Mining CEO"
+      },
+      "companies": [
+        "Luca Mining"
+      ],
+      "projects": [
+        "Campo Morado",
+        "Tahuehueto"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/gold-stocks/bc-gold-drill-program-starting-but-can-they-prove-continuity/",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Williams项目计划开展四孔、1,500—2,000米钻探，步距约50—80米",
+          "evidence": "Resource Talks文字稿列出2026年钻探孔数、总米数和步出距离。",
+          "source_url": "https://resourcetalks.com/gold-stocks/bc-gold-drill-program-starting-but-can-they-prove-continuity/",
+          "evidence_type": "采访文字稿",
+          "period": "2026年9月",
+          "unit": "孔; 米",
+          "value": "4; 1,500-2,000; 50-80"
+        },
+        {
+          "claim": "2026年钻孔化验预计从12月开始公布",
+          "evidence": "Resource Talks文字稿将钻孔化验首批结果时间放在12月左右，并延续至2027年初。",
+          "source_url": "https://resourcetalks.com/gold-stocks/bc-gold-drill-program-starting-but-can-they-prove-continuity/",
+          "evidence_type": "采访文字稿",
+          "period": "2026年12月至2027年初",
+          "unit": "时间窗口",
+          "value": "2026-12 to 2027-Q1"
+        }
+      ],
+      "publish_date": "2026-09-10",
+      "title": "Resource Talks：Omega Pacific启动BC金矿钻探，能否证明连续性？",
+      "source_type": "webcast",
+      "summary": "Omega Pacific CEO介绍Williams项目2026年钻探安排：四孔、1,500—2,000米，步距约50—80米；目标是厘清断层与成矿控制，为2027年5,000—10,000米计划积累依据，钻孔结果预计12月起陆续公布。",
+      "importance": "这是早期项目的验证性供给线索，当前钻探规模不足以证明连续资源，不能与在建矿山增产等量齐观。2026年12月至2027年初的化验结果将决定能否扩大钻探，资金余额、季节性施工和实验室积压构成主要兑现风险。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Justin Leikam",
+        "background": "Omega Pacific CEO"
+      },
+      "companies": [
+        "Omega Pacific Resources"
+      ],
+      "projects": [
+        "Williams property",
+        "West GIC",
+        "ROI"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/swiss-gold-ban-squeezes-sudans-war-economy/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "瑞士禁止采购、进口和过境源自苏丹的黄金，并限制相关采金物资供应",
+          "evidence": "Mining.com正文报道瑞士新措施涵盖苏丹黄金交易及包括化学品在内的部分采金和提金物资。",
+          "source_url": "https://www.mining.com/swiss-gold-ban-squeezes-sudans-war-economy/",
+          "evidence_type": "媒体报道",
+          "period": "2026-09-10",
+          "unit": "政策措施",
+          "value": "gold trade and mining supplies restricted"
+        }
+      ],
+      "publish_time": "2026-09-10",
+      "source": "Mining.com",
+      "title": "瑞士开始禁止苏丹黄金采购、进口，并限制采金物资",
+      "excerpt": "瑞士已开始禁止采购、进口和过境源自苏丹的黄金，并禁止向苏丹出售或供应部分采金、提金物资，包括化学品；措施与欧盟7月13日相关限制衔接。",
+      "language": "en",
+      "interpretation": "这不是矿山停产令，先影响的是苏丹黄金进入瑞士及其融资、服务和化学品通道。若欧盟等市场同步执行，合规黄金的可交易来源会收缩，非正规渠道和产地溯源风险上升；后续应跟踪贸易转移与实际产量变化。",
+      "importance": "影响更偏向贸易可得性与合规供给，短期不会等量减少全球矿山产量，但会抬高苏丹黄金进入主流精炼体系的摩擦成本。欧盟已于7月13日采取相关限制，若执行范围继续扩大，贸易转移和溯源审查可能先于实际产量变化兑现，需跟踪瑞士及欧盟进口流向。",
+      "verification_status": "verified",
+      "companies": [
+        "Switzerland",
+        "European Union"
+      ],
+      "projects": [
+        "Sudan gold trade"
+      ],
+      "mining_com_source_note": "Mining.com分类页使用固定Playwright主路径；候选逐篇打开并以Playwright复核正文，页面HTTP 200。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/aya-doubles-boumadine-value-to-3-5b/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Boumadine PEA预计14年产出225万盎司黄金和8120万盎司白银",
+          "evidence": "Mining.com正文列出Boumadine 14年矿山计划的黄金和白银预计产量。",
+          "source_url": "https://www.mining.com/aya-doubles-boumadine-value-to-3-5b/",
+          "evidence_type": "PEA转述",
+          "period": "项目14年寿命",
+          "unit": "金/银盎司",
+          "value": "2.25 million oz gold; 81.2 million oz silver"
+        },
+        {
+          "claim": "Boumadine可行性研究预计在2027年下半年完成",
+          "evidence": "Mining.com正文说明项目正推进可行性研究，目标时间为2027年下半年。",
+          "source_url": "https://www.mining.com/aya-doubles-boumadine-value-to-3-5b/",
+          "evidence_type": "公司项目时间表",
+          "period": "2027年下半年",
+          "unit": "时间窗口",
+          "value": "H2 2027"
+        }
+      ],
+      "publish_time": "2026-09-10",
+      "source": "Mining.com",
+      "title": "Aya更新Boumadine初步经济评估，14年预计产出225万盎司黄金和8120万盎司白银",
+      "excerpt": "Aya更新Boumadine PEA：矿山寿命由11年延长至14年，预计14年产出225万盎司黄金和8120万盎司白银；项目拟于2027年下半年完成可行性研究，初始资本估算4.63亿美元。",
+      "language": "en",
+      "interpretation": "这是尚未进入建设阶段的潜在贵金属供给，项目规划以露天矿和地下矿衔接，并保留将日处理量由8,000吨提高至10,000吨的选项。PEA采用的价格、品位和回收/付 payability 假设仍需通过可研、融资和许可验证，不能计入近期实际产量。",
+      "importance": "这是中长期潜在供给增量，规模足以改变Aya的贵金属产能结构，但项目尚未进入建设阶段。可研目标在2027年下半年，且PEA的黄金、白银价格假设分别为3,500美元/盎司和50美元/盎司，项目经济性对价格、品位和融资兑现仍敏感。",
+      "verification_status": "verified",
+      "companies": [
+        "Aya Gold & Silver"
+      ],
+      "projects": [
+        "Boumadine"
+      ],
+      "mining_com_source_note": "Mining.com分类页使用固定Playwright主路径；候选逐篇打开并以Playwright复核正文，页面HTTP 200。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/rio-tinto-wins-aboriginal-consent-for-winu-copper-mine/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Rio Tinto持有Winu 70%，目标2030年首次产铜",
+          "evidence": "Mining.com正文列出Winu合资权益、首铜目标以及最终监管批准和FID前置条件。",
+          "source_url": "https://www.mining.com/rio-tinto-wins-aboriginal-consent-for-winu-copper-mine/",
+          "evidence_type": "公司协议报道",
+          "period": "截至2026年9月",
+          "unit": "权益; 时间表",
+          "value": "70%; 2030"
+        }
+      ],
+      "publish_time": "2026-09-10",
+      "source": "Mining.com",
+      "title": "Rio Tinto获Nyangumarta同意，Winu铜金项目瞄准2030年首铜",
+      "excerpt": "Rio Tinto与Nyangumarta Warrarn Aboriginal Corporation达成涵盖Winu开发的长期合作协议；Rio持有项目70%，目标2030年首次产铜，但仍须最终监管批准和最终投资决定。",
+      "language": "en",
+      "interpretation": "协议移除了社区协商这一关键开发障碍，改善Winu进入铜金项目管线的条件，但尚未形成已批准的建设计划或产量指引。项目仍受监管审批和FID约束，实际供给兑现取决于后续资本和施工进度。",
+      "importance": "该协议把Winu从社区协商推进到可继续规划的阶段，对2030年后的铜金项目管线是正向变化。由于项目仍受最终监管审批和FID约束，当前更接近许可风险下降而非已确认产量；需跟踪审批、资本开支和建设时间表。",
+      "verification_status": "verified",
+      "companies": [
+        "Rio Tinto",
+        "Sumitomo Metal Mining",
+        "Nyangumarta Warrarn Aboriginal Corporation"
+      ],
+      "projects": [
+        "Winu"
+      ],
+      "mining_com_source_note": "Mining.com分类页使用固定Playwright主路径；候选逐篇打开并以Playwright复核正文，页面HTTP 200。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/copper-output-from-chiles-codelco-dips-in-july/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Codelco 2026年7月铜产量同比下降5%至112,800吨",
+          "evidence": "Reuters报道该数据来自智利国家铜业委员会Cochilco。",
+          "source_url": "https://www.mining.com/web/copper-output-from-chiles-codelco-dips-in-july/",
+          "evidence_type": "政府统计转引",
+          "period": "2026年7月",
+          "unit": "公吨",
+          "value": 112800
+        },
+        {
+          "claim": "智利7月铜总产量同比下降9.4%",
+          "evidence": "Reuters报道智利7月整体铜产量及天气、主要作业检修影响。",
+          "source_url": "https://www.mining.com/web/copper-output-from-chiles-codelco-dips-in-july/",
+          "evidence_type": "政府统计转引",
+          "period": "2026年7月",
+          "unit": "同比变化",
+          "value": -9.4
+        }
+      ],
+      "publish_time": "2026-09-10",
+      "source": "Reuters（经 Mining.com 发布）",
+      "title": "Codelco 7月铜产量同比降5%至11.28万吨",
+      "excerpt": "智利国营Codelco 7月铜产量为11.28万吨，同比下降5%；智利7月铜总产量同比下降9.4%，Cochilco预计2026年智利铜产量约下降2.5%。",
+      "language": "en",
+      "interpretation": "这项数据反映的是已实现矿端供应减少，且Codelco与智利全国产量同步走弱。天气、检修和关键矿山运营扰动可能造成短期波动，需结合后续月度数据判断是暂时性下降还是全年供给下修。",
+      "importance": "这是已实现的矿端收缩，且Codelco的弱势与智利全国产量下滑同向，短期可直接减少精矿和电解铜供应。Cochilco预计2026年智利产量仍降约2.5%，但极端天气、检修等扰动可能反转，后续要看8月后的产量是否恢复。",
+      "verification_status": "verified",
+      "companies": [
+        "Codelco",
+        "Cochilco"
+      ],
+      "projects": [
+        "Chile copper production"
+      ],
+      "mining_com_source_note": "Mining.com分类页使用固定Playwright主路径；候选逐篇打开并以Playwright复核正文，页面HTTP 200。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/white-house-copper-tariff-plan-stalls-amid-affordability-concerns-sources-say/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "美国每年约一半铜需求依赖进口，且仅有两座运营铜冶炼厂",
+          "evidence": "Reuters报道美国铜供应结构及运营冶炼厂数量。",
+          "source_url": "https://www.mining.com/web/white-house-copper-tariff-plan-stalls-amid-affordability-concerns-sources-say/",
+          "evidence_type": "媒体报道",
+          "period": "现状",
+          "unit": "供应结构",
+          "value": "roughly half imports; 2 smelters"
+        },
+        {
+          "claim": "拟议精炼铜关税为2027年1月15%，2028年升至30%",
+          "evidence": "Reuters报道Commerce Secretary被要求考虑的关税时间表。",
+          "source_url": "https://www.mining.com/web/white-house-copper-tariff-plan-stalls-amid-affordability-concerns-sources-say/",
+          "evidence_type": "政策方案报道",
+          "period": "2027-2028年",
+          "unit": "税率",
+          "value": "15%; 30%"
+        }
+      ],
+      "publish_time": "2026-09-10",
+      "source": "Reuters（经 Mining.com 发布）",
+      "title": "白宫尚未决定精炼铜关税，政策不确定性继续影响美国进口",
+      "excerpt": "两名知情人士称白宫尚未决定精炼铜关税；美国每年约一半铜需求依赖进口、仅有两座运营铜冶炼厂，拟议税率为2027年1月15%、2028年升至30%。",
+      "language": "en",
+      "interpretation": "关税尚未成为确定的矿山或冶炼产量政策，但预期和搁置都能改变实物贸易：前者促使库存向美国集中，后者可能让此前囤货重新寻找海外市场。制造业成本上升与国内项目经济性改善之间存在冲突，需把政策落地与库存、价差一起跟踪。",
+      "importance": "政策变量目前更像贸易流量约束，尚未形成美国矿山或冶炼的新增产量。美国每年约一半铜依赖进口且仅有两座运营冶炼厂，若关税落地，库存可能继续向美国集中并挤压其他市场供应；若继续搁置，前期囤货和价差则可能回吐，需跟踪2027年15%方案是否正式发布。",
+      "verification_status": "verified",
+      "companies": [
+        "White House",
+        "Freeport-McMoRan",
+        "Rio Tinto"
+      ],
+      "projects": [
+        "US refined copper market"
+      ],
+      "mining_com_source_note": "Mining.com分类页使用固定Playwright主路径；候选逐篇打开并以Playwright复核正文，页面HTTP 200。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://osiskometals.com/news/2026/osisko-intersects-256-metres-averaging-0-85-cu-at-gaspe/",
+      "metal_tags": [
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "孔号30-1228钻获256.5米、平均0.85%铜",
+          "evidence": "Osisko Metals 2026年9月10日公司新闻稿的Highlights列出该截段。",
+          "source_url": "https://osiskometals.com/news/2026/osisko-intersects-256-metres-averaging-0-85-cu-at-gaspe/",
+          "evidence_type": "公司新闻稿",
+          "period": "2026年9月10日",
+          "unit": "米; 铜品位",
+          "value": "256.5; 0.85%"
+        },
+        {
+          "claim": "同一孔含28.5米平均4.74%铜和27.4 g/t银",
+          "evidence": "公司新闻稿列出30-1228的高品位子截段。",
+          "source_url": "https://osiskometals.com/news/2026/osisko-intersects-256-metres-averaging-0-85-cu-at-gaspe/",
+          "evidence_type": "公司新闻稿",
+          "period": "2026年9月10日",
+          "unit": "米; 铜品位; 银品位",
+          "value": "28.5; 4.74%; 27.4 g/t"
+        }
+      ],
+      "publish_time": "2026-09-10T10:00:07+00:00",
+      "source": "Osisko Metals",
+      "title": "Osisko Gaspé铜项目钻获256.5米、平均0.85%铜",
+      "excerpt": "Osisko公告称Gaspé 2026年钻探新增28个矿化截段；孔号30-1228在资源模型外钻获256.5米、平均0.85%铜，其中28.5米平均4.74%铜并含27.4 g/t银。",
+      "language": "en",
+      "interpretation": "这项结果扩展了Gaspé资源模型外的潜在铜供给边界，并带来可观的银副产品线索。它仍是勘探截段，需经过资源估算、冶金和开发决策，近期更适合更新项目管线质量，不能直接计入产量平衡。",
+      "importance": "该结果不是当期产量，却把Gaspé的潜在铜供给边界继续外推，并在同一孔段出现高银副产品。钻孔位于2026年资源模型外约800米，后续要经过资源估算、冶金和开发决策，近期影响更多是提高项目管线质量，不能直接计入供应平衡。",
+      "verification_status": "verified",
+      "companies": [
+        "Osisko Metals"
+      ],
+      "projects": [
+        "Gaspé Copper"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.metal.com/newscontent/104108596-aic-mines-starts-dry-commissioning-of-eloise-plant-expansion-copper-output-targeted-at-25000%E2%80%9327000-t-in-fy2029",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Eloise处理能力拟由约725,000吨/年增至1.1百万吨/年",
+          "evidence": "SMM英文稿报道Stage 1扩建的现有和目标处理能力。",
+          "source_url": "https://news.metal.com/newscontent/104108596-aic-mines-starts-dry-commissioning-of-eloise-plant-expansion-copper-output-targeted-at-25000%E2%80%9327000-t-in-fy2029",
+          "evidence_type": "SMM公司动态",
+          "period": "扩建完成后",
+          "unit": "矿石处理能力",
+          "value": "725,000 to 1.1 million t/y"
+        },
+        {
+          "claim": "AIC Mines FY2029铜产量目标为25,000—27,000吨",
+          "evidence": "SMM英文稿列出公司三年铜产量展望。",
+          "source_url": "https://news.metal.com/newscontent/104108596-aic-mines-starts-dry-commissioning-of-eloise-plant-expansion-copper-output-targeted-at-25000%E2%80%9327000-t-in-fy2029",
+          "evidence_type": "公司产量展望",
+          "period": "FY2029",
+          "unit": "铜吨",
+          "value": "25,000-27,000"
+        }
+      ],
+      "publish_time": "2026-09-10T18:14:00+08:00",
+      "source": "SMM",
+      "title": "AIC Mines启动Eloise扩建干式调试，FY2029铜产量目标2.5万—2.7万吨",
+      "excerpt": "AIC Mines已启动澳大利亚Eloise铜金处理厂Stage 1扩建的干式调试，处理能力拟由约72.5万吨/年增至110万吨/年；公司FY2029铜产量目标为2.5万—2.7万吨。",
+      "language": "en",
+      "interpretation": "扩建已从规划进入设备通电和干式调试，且Jericho矿供矿开发同步推进，构成未来三年较清晰的铜供给增量路径。当前仍不是满负荷产量，兑现要看12月季度调试、Jericho供矿和90.3%—92.3%的试验回收率能否转化为稳定生产。",
+      "importance": "这是已进入干式调试的产能扩张，不是单纯远期勘探。处理能力从72.5万吨/年增至110万吨/年，FY2029铜产量目标2.5万—2.7万吨；兑现仍取决于Jericho供矿、湿式调试和回收率，需跟踪12月季度投产及后续FY2029爬坡。",
+      "verification_status": "verified",
+      "companies": [
+        "AIC Mines"
+      ],
+      "projects": [
+        "Eloise",
+        "Jericho"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.metal.com/newscontent/104108742-copper-inventories-fell-further-to-87500-mt-wow-with-regional-trends-diverging-smm-weekly-data",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "claims": [
+        {
+          "claim": "中国主流铜库存周环比减少1,400吨至87,500吨",
+          "evidence": "SMM周度数据页列出截至9月10日的库存总量和周变化。",
+          "source_url": "https://news.metal.com/newscontent/104108742-copper-inventories-fell-further-to-87500-mt-wow-with-regional-trends-diverging-smm-weekly-data",
+          "evidence_type": "SMM统计",
+          "period": "截至2026年9月10日",
+          "unit": "吨",
+          "value": "87,500; -1,400 WoW"
+        },
+        {
+          "claim": "该库存较去年同期减少56,800吨",
+          "evidence": "SMM周度数据页给出同比库存差额。",
+          "source_url": "https://news.metal.com/newscontent/104108742-copper-inventories-fell-further-to-87500-mt-wow-with-regional-trends-diverging-smm-weekly-data",
+          "evidence_type": "SMM统计",
+          "period": "截至2026年9月10日",
+          "unit": "吨",
+          "value": -56800
+        }
+      ],
+      "publish_time": "2026-09-10T18:20:00+08:00",
+      "source": "SMM",
+      "title": "SMM：中国主流铜库存周降1,400吨至8.75万吨",
+      "excerpt": "截至9月10日，SMM统计中国主流铜社会库存为87,500吨，周环比减少1,400吨，较去年同期减少56,800吨；SMM预计短期到货增加、下游高价接受度低，下周库存或小幅累积。",
+      "language": "en",
+      "interpretation": "低于去年同期的库存仍支持现货可得性偏紧，但本周去库幅度收窄且到货增加，供给边际有转松迹象。需求端高价观望与供给端累库预期同时出现，说明低库存不等于需求强劲；该数据含SMM内部模型处理，需与交易所库存和现货升贴水复核。",
+      "importance": "库存绝对量仍低于去年同期，但周度去库已放缓且SMM预计下周小幅累库，短期信号从现货紧张转向供给边际改善。供给端到货增加、需求端高价接受度下降同时出现，若兑现，将削弱低库存对铜价的支撑；该数据为SMM统计模型，需结合交易所库存与现货升贴水复核。",
+      "verification_status": "verified",
+      "companies": [
+        "SMM"
+      ],
+      "projects": [
+        "China copper social inventories"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/news/104108273",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "全球黄金ETF在2026年8月净流入180亿美元，持仓增加121吨至4,189吨",
+          "evidence": "SMM页面转引世界黄金协会报告，列出8月资金流和持仓变化。",
+          "source_url": "https://news.smm.cn/news/104108273",
+          "evidence_type": "世界黄金协会报告转引",
+          "period": "2026年8月",
+          "unit": "美元; 吨",
+          "value": "$18 billion; +121 t; 4,189 t"
+        },
+        {
+          "claim": "北美和欧洲合计贡献约90%的全球黄金ETF资金流入",
+          "evidence": "SMM页面转引世界黄金协会对区域资金流的分解。",
+          "source_url": "https://news.smm.cn/news/104108273",
+          "evidence_type": "世界黄金协会报告转引",
+          "period": "2026年8月",
+          "unit": "占比",
+          "value": 90
+        }
+      ],
+      "publish_time": "2026-09-10T14:35:00+08:00",
+      "source": "SMM（转引世界黄金协会）",
+      "title": "世界黄金协会：8月全球黄金ETF净流入180亿美元，持仓创新高",
+      "excerpt": "据世界黄金协会9月9日报告，全球黄金ETF 8月净流入180亿美元，资产管理规模环比增16%至6,150亿美元，持仓增加121吨至4,189吨并创历史新高；北美与欧洲贡献约90%资金流入。",
+      "language": "zh",
+      "interpretation": "该信号对应投资需求而非矿山供给，且北美、欧洲共同流入说明西方配置回归具有广度。财政可持续性、美元和债券市场担忧是报告归因的主要驱动，若宏观叙事变化，9月流入可能回落，需跟踪持仓与区域资金是否延续。",
+      "importance": "这是投资需求的实质性扩张，8月单月180亿美元流入已足以改变全球黄金ETF持仓的边际斜率，并非单一地区偶发买盘。欧洲与北美贡献约90%，说明西方配置回归是主导渠道；若财政、美元和债券市场担忧缓解，资金流可能回落，需观察9月持仓是否延续。",
+      "verification_status": "verified",
+      "companies": [
+        "World Gold Council"
+      ],
+      "projects": [
+        "Global gold ETFs"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/news/104108787",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "湖南黄金2026年上半年生产黄金29,614千克，同比减少20.7%",
+          "evidence": "SMM页面援引湖南黄金2026年半年报的产量数据。",
+          "source_url": "https://news.smm.cn/news/104108787",
+          "evidence_type": "公司半年报转引",
+          "period": "2026年上半年",
+          "unit": "千克; 同比变化",
+          "value": "29,614; -20.7%"
+        },
+        {
+          "claim": "公司上半年自产金1,616千克，同比减少6.16%",
+          "evidence": "SMM页面援引湖南黄金半年报的自产金数据。",
+          "source_url": "https://news.smm.cn/news/104108787",
+          "evidence_type": "公司半年报转引",
+          "period": "2026年上半年",
+          "unit": "千克; 同比变化",
+          "value": "1,616; -6.16%"
+        },
+        {
+          "claim": "拟收购两项资产100%股权并募集配套资金不超过10.5亿元，仍需后续批准",
+          "evidence": "SMM页面列出国资委原则同意的交易范围、募资上限和后续审批条件。",
+          "source_url": "https://news.smm.cn/news/104108787",
+          "evidence_type": "监管批复转引",
+          "period": "2026年9月",
+          "unit": "股权; 人民币",
+          "value": "100%; 10.5亿元"
+        }
+      ],
+      "publish_time": "2026-09-10T19:38:00+08:00",
+      "source": "SMM",
+      "title": "湖南黄金上半年黄金产量同比下降20.7%，资产重组获国资委原则同意",
+      "excerpt": "SMM援引湖南黄金半年报称，公司2026年上半年生产黄金29,614千克，同比减少20.7%，其中自产金1,616千克，同比减少6.16%；公司拟收购天岳矿业和中南黄金冶炼100%股权的重组获国资委原则同意，但仍需后续审批。",
+      "language": "zh",
+      "interpretation": "产量数据是已实现的供给变化，SMM同时提到个别子公司短期停产是自产金和锑产量下滑的扰动因素。资产重组可能改善资源和冶炼整合，但不等于当期新增矿山产量，且交易审批仍存在不确定性。",
+      "importance": "这是一项已实现的2026年上半年产量收缩，直接影响公司当期黄金供给，表明供给端受子公司短停产扰动，不能用利润增长替代产量恢复。拟收购天岳矿业及中南冶炼并非即时新增矿山产量，且仍需股东会及其他批准；后续重点是恢复自产金和并表资产的可生产能力。",
+      "verification_status": "verified",
+      "companies": [
+        "湖南黄金",
+        "湖南省国资委"
+      ],
+      "projects": [
+        "湖南黄金天岳矿业",
+        "湖南中南黄金冶炼"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "KER首页与Company Interviews栏目：HTTP 200，检查2026-09-08至2026-09-10窗口。",
+      "https://www.kereport.com/2026/09/10/k2-gold-high-grade-step-outs-expanding-the-dragonfly-zone-mojave-project-27-43m-of-4-03-g-t-au/：HTTP 200，核对标题、2026-09-10日期、嘉宾和27.43m/4.03 g/t Au标题事实。",
+      "https://www.kereport.com/2026/09/10/luca-mining-q2-operations-and-financials-ongoing-exploration-and-development-work-at-the-campo-morado-and-tahuehueto-mines/：HTTP 200，核对标题、2026-09-10日期、嘉宾和Q2运营/钻探文字稿。",
+      "Resource Talks首页：HTTP 200，检查当期Gold/Silver/Copper栏目。",
+      "https://resourcetalks.com/gold-stocks/bc-gold-drill-program-starting-but-can-they-prove-continuity/：HTTP 200，核对标题、2026-09-10日期、嘉宾、钻探规模和化验时间。",
+      "Mining Stock Daily首页：HTTP 200，按窗口日期检查节目列表，未发现达到金银铜供需纳入阈值的可核验节目。",
+      "data/conference_calendar.json及当期会议线索：已检查主办方/回放入口，未发现需另行纳入Part 1的合格回放。"
+    ],
+    "part1_result": "完成：72小时窗口检索并核验3条访谈/节目，均为可打开原始节目页；与最近两份日报比较后无同事件重复。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "x_outputs/2026-09-10_x_raw_materials.json：Playwright原始材料及通道审计。",
+      "x_outputs/2026-09-10_x_raw_materials.txt：Playwright原始候选文本。",
+      ".runtime/pipeline/2026-09-10/2026-09-10-20260910T230112278473Z-3668/manifest.json：53个账号覆盖清单。"
+    ],
+    "part2_result": "Playwright完整完成53/53账号，发现20条候选；逐条筛选后无符合金银铜供需纳入标准的原帖，发布0条。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright串行完成全部注册账号；无登录墙、challenge、CAPTCHA或账号失败。",
+        "原始候选与覆盖审计已保留于按日报日期命名的x_outputs文件。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "https://www.mining.com/commodity/copper/：Playwright主路径完成，提取报告日铜候选20条。",
+      "Mining.com金分类Playwright路径：报告日候选15条；银分类Playwright路径：报告日候选16条。",
+      "Google site:mining.com gold September 10 2026：0个可靠Mining.com文章链接命中，作为辅助参考，未替代Playwright。",
+      "Google site:mining.com silver September 10 2026：0个可靠Mining.com文章链接命中，作为辅助参考，未替代Playwright。",
+      "Mining.com候选逐篇核验：21篇URL均尝试打开；20篇正文可核验，Osisko页面受免费阅读限制，转用官方公司新闻稿。",
+      "https://www.mining.com/swiss-gold-ban-squeezes-sudans-war-economy/：Playwright文章HTTP 200，正文核验。",
+      "https://www.mining.com/aya-doubles-boumadine-value-to-3-5b/：Playwright文章HTTP 200，正文核验。",
+      "https://www.mining.com/rio-tinto-wins-aboriginal-consent-for-winu-copper-mine/：Playwright文章HTTP 200，正文核验。",
+      "https://www.mining.com/web/copper-output-from-chiles-codelco-dips-in-july/：Playwright文章HTTP 200，正文核验。",
+      "https://www.mining.com/web/white-house-copper-tariff-plan-stalls-amid-affordability-concerns-sources-say/：Playwright文章HTTP 200，正文核验。",
+      "https://osiskometals.com/news/2026/osisko-intersects-256-metres-averaging-0-85-cu-at-gaspe/：公司新闻稿HTTP 200，核验28个截段及核心品位。",
+      "https://news.metal.com/newscontent/104108596-aic-mines-starts-dry-commissioning-of-eloise-plant-expansion-copper-output-targeted-at-25000%E2%80%9327000-t-in-fy2029：SMM英文页HTTP 200，核验干式调试和FY2029展望。",
+      "https://news.metal.com/newscontent/104108742-copper-inventories-fell-further-to-87500-mt-wow-with-regional-trends-diverging-smm-weekly-data：SMM英文页HTTP 200，核验9月10日库存数据。",
+      "https://news.smm.cn/news/104108273：SMM中文页HTTP 200，核验日期、来源归属、ETF流入和持仓数据。",
+      "https://news.smm.cn/news/104108787：SMM中文页HTTP 200，核验日期、半年产量和重组批复事实。",
+      "https://ayagoldsilver.com/portfolio/boumadine/：Aya项目页HTTP 200，交叉核对Boumadine 2026 PEA项目参数。",
+      "https://www.riotinto.com/en/operations/anz/western-australia/winu：Rio运营页HTTP 200，核对Winu铜金项目背景。",
+      "https://www.cochilco.cl/web/historico-produccion-de-cobre-y-molibdeno/：Cochilco官方统计页HTTP 200，确认可下载企业月度/年度产量表。",
+      "同日SMM White House copper tariff快讯与Reuters报道已交叉检查，未重复纳入。"
+    ],
+    "part3_result": "完成：英文与中文来源均已检索；Mining.com铜分类页Playwright提取20条、金15条、银16条，Google金/银备用搜索各0个可靠命中；逐篇核验后纳入10条独立新闻。",
+    "mining_com_source_note": "Mining.com分类页严格使用固定Python+Playwright主路径；文章优先逐篇打开并以Playwright提取正文，受限页面使用官方公司新闻稿交叉核验，未使用sitemap、Wayback或RSS。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 13,
+      "passed": 13,
+      "failed": 0,
+      "failures": []
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Mining.com/Reuters铜关税与SMM同日White House copper tariff快讯：同一政策事件，保留信息更完整的Reuters报道。",
+      "Eldorado Skouries首批铜金精矿、智利冶炼份额和智利品位/电力约束：与2026-09-09日报同一事件或同一数据链，排除重复。",
+      "Ivanhoe Western Forelands/Makoko扩张：与2026-09-08日报同一项目事件，SMM转载不重复纳入。",
+      "Osisko Mining.com文章正文受免费阅读限制：以2026-09-10 Osisko Metals官方新闻稿替代，避免同事件双发。"
+    ],
+    "notes": "候选先与data/2026-09-08.json、data/2026-09-09.json比较，再按一手来源、事件唯一性和供需相关性筛选；未将价格评论、纯市场观点或非金银铜主题写入正文。"
+  }
+}

@@ -1,0 +1,206 @@
+X 原始候选 — 2026-09-10
+采集时间: 2026-09-11T07:27:41.206555+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 20 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-09T20:12:17+00:00
+    北京: 2026-09-10T04:12:17+08:00
+    文本: A trillion dollars can be authorized with a vote
+
+A copper mine cannot
+    链接: https://x.com/KatusaResearch/status/2097780148921852218
+
+[2] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-09-09T16:51:22+00:00
+    北京: 2026-09-10T00:51:22+08:00
+    文本: This chart is some serious data mining from a perma-bull shop. We are in an earnings bubble right now. Not to mention using 40x forward earnings as a speculation barometer is silly.
+    链接: https://x.com/TheDailyGold/status/2097729589279924282
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-10T02:39:40+00:00
+    北京: 2026-09-10T10:39:40+08:00
+    文本: #Silver’s many uses- Mapping a sustainable approach with whey-biosynthesized silver nanocomposites versus ... - Natu - 
+https://
+goo.gl/alerts/Pdo7kM #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2097877637482139793
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-09-10T02:38:47+00:00
+    北京: 2026-09-10T10:38:47+08:00
+    文本: Gold, silver track dollar moves at historical extremes | 
+https://
+FOREX.com Singapore - 
+https://
+goo.gl/alerts/Wr6YmG #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2097877415519555902
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-09-10T02:37:16+00:00
+    北京: 2026-09-10T10:37:16+08:00
+    文本: Gold soars, but China keeps buying - The Times of India - 
+https://
+goo.gl/alerts/qzFBMA #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2097877037197496637
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-09-10T02:35:10+00:00
+    北京: 2026-09-10T10:35:10+08:00
+    文本: Should you wait until after the September Fed meeting to invest in gold? - CBS News - 
+https://
+goo.gl/alerts/28Mj1y #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2097876507976937475
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-09-09T16:12:37+00:00
+    北京: 2026-09-10T00:12:37+08:00
+    文本: Not much to add, other than retail is "dead"; buying is very light. Retail sales built up once #silver went over $50 USD. Yes, there was buying all the way into the $120 print. However, on a net basis, retail sales were significant; it was backing up refiners. It hasn't backed up
+    链接: https://x.com/silverguru22/status/2097719838504517666
+
+[8] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-09T18:52:06+00:00
+    北京: 2026-09-10T02:52:06+08:00
+    文本: 958% in three years. #5 in the TSX30. And still roughly 37% below its 52-week high.
+
+That’s why 
+$ASM
+ 
+@Avino_ASM
+ has my attention.
+
+With $144M in cash and silver-rich La Preciosa ramping up, the next re-rating may already be taking shape. I remain overweight.
+
+@TedJButler
+ dives in:
+    链接: https://x.com/peter_krauth/status/2097759974034391165
+
+[9] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-09T16:28:14+00:00
+    北京: 2026-09-10T00:28:14+08:00
+    文本: Silver looks quiet. That’s exactly when I pay attention.
+
+With the Fed decision coming Sept. 16, pressure is building—and undervalued silver names may offer a window.
+
+Plus: a major 4-country mining pact and a FREE newsletter offer.
+
+Act fast: 
+https://
+thegoldadvisor.com/silver-stock-i
+nvestor/newsletters/the-feds-dilemma-silver-coasts-a-new-newsletter/
+…
+    链接: https://x.com/peter_krauth/status/2097723765966995882
+
+[10] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-10T00:30:47+00:00
+    北京: 2026-09-10T08:30:47+08:00
+    文本: China's Central Bank #GOLD purchases just SOARED.....
+
+at the same time the US debt market is flashing CODE RED......
+    链接: https://x.com/ArcadiaEconomic/status/2097845204434731495
+
+[11] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-09T23:14:41+00:00
+    北京: 2026-09-10T07:14:41+08:00
+    文本: China added the most gold to its reserves since 2023, accelerating purchases in August even as bullion prices surged.... 
+
+
+https://
+youtu.be/uh-UTO3iUBc?si
+=59U2Bd5QsvXVhNGx
+… 
+@BrianKuszmar
+ 
+@KingKong9888
+ 
+@goldseek
+ 
+@EFbullion
+    链接: https://x.com/ArcadiaEconomic/status/2097826051359379577
+
+[12] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-09T19:23:30+00:00
+    北京: 2026-09-10T03:23:30+08:00
+    文本: China Gold Buying SURGES, As Debt Crisis Nears Boiling Point
+    链接: https://x.com/ArcadiaEconomic/status/2097767875989664137
+
+[13] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-10T11:48:29+00:00
+    北京: 2026-09-10T19:48:29+08:00
+    文本: This suggests that the tariff tailwind for copper may last until the US elections.
+
+I don't think anyone can know if Trump will TACO or go for broke then...
+
+But in the end, reality always matters. In this case, that's structural supply constraints for many years to come.
+    链接: https://x.com/duediligenceguy/status/2098015751261090298
+
+[14] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-10T06:29:05+00:00
+    北京: 2026-09-10T14:29:05+08:00
+    文本: Mining stocks have to be actively timed.
+    链接: https://x.com/RonStoeferle/status/2097935373791859003
+
+[15] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-10T05:06:59+00:00
+    北京: 2026-09-10T13:06:59+08:00
+    文本: August 8th Tweet
+
+Sept 10th news: ‘Talon Delivers Extraordinary Drill Intercept: 51 Meters of 50%+ CuEq At Vault Zone’
+
+Talon Metals is now our largest position 
+    链接: https://x.com/wmiddelkoop/status/2097914712352538919
+
+[16] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-09T17:12:30+00:00
+    北京: 2026-09-10T01:12:30+08:00
+    文本: Silver +4%
+    链接: https://x.com/wmiddelkoop/status/2097734907267056109
+
+[17] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-10T12:06:03+00:00
+    北京: 2026-09-10T20:06:03+08:00
+    文本: the pattern holds.  i have read a lot about the '49 gold rush and the similarities are there
+    链接: https://x.com/LawrenceLepard/status/2098020174293004735
+
+[18] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-10T15:47:54+00:00
+    北京: 2026-09-10T23:47:54+08:00
+    文本: White Gold Corp: PEA Complete, Now Comes the Growth
+
+David D'Onofrio joins us to discuss White Gold's maiden PEA, including a 42% IRR and 1.5-year payback, plus its largest-ever exploration program targeting further growth of its 3M oz Yukon gold resource.
+
+Watch Here
+    链接: https://x.com/soarfinancial/status/2098076006229680492
+
+[19] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-10T13:51:16+00:00
+    北京: 2026-09-10T21:51:16+08:00
+    文本: Pan Global Resources: High-Grade Gold at Providencia
+
+Tim Moody joins us to discuss new results from Spain, including 15m at 3.9 g/t gold plus cobalt, nickel & copper, and what the emerging scale of the Providencia system could mean for exploration.
+
+More targets are also
+    链接: https://x.com/soarfinancial/status/2098046650883170545
+
+[20] @KinrossGold (Kinross Gold)
+    UTC: 2026-09-09T18:46:52+00:00
+    北京: 2026-09-10T02:46:52+08:00
+    文本: Kinross Gold is proud to announce that we have been recognized on the 2026 #TSX30 for the second consecutive year! 
+Our 452% dividend-adjusted share price appreciation over the past three years reflects our commitment to delivering exceptional value for our shareholders. 
+
+Learn
+    链接: https://x.com/kinrossgold/status/2097758655579930963
+
