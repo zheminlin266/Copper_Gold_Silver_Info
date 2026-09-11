@@ -1,0 +1,387 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-11",
+  "report_time": "2026-09-12T07:45:02+08:00",
+  "summary": "黄金：波兰央行继续增持黄金，投资需求保持韧性；近端矿端新增证据有限。白银：哈萨克斯坦铅锌项目规划每年回收20吨白银，但要到2028年完工，短期供给未变。铜：Cobre Panamá存量矿石拟发运、赞比亚出口增加但矿产量仅小幅增长；线缆开工率下降显示下游需求走弱。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-09T00:00:00+08:00",
+      "end": "2026-09-11T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-11T00:00:00+08:00",
+      "end": "2026-09-11T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-11T00:00:00+08:00",
+      "end": "2026-09-11T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-talon-metals-drill-longest-massive-and-mixed-massive-sulphide-intercept-ever-at-tamarack",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "1911 Gold的True North项目L10区钻获10.73 g/t Au over 8.90 m和50.61 g/t Au over 1.60 m，节目称地下开发已开始并向2027年生产推进。",
+          "evidence": "Mining Stock Daily原始节目文字页直接列出截获、地下开发和2027年生产信息。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-talon-metals-drill-longest-massive-and-mixed-massive-sulphide-intercept-ever-at-tamarack",
+          "evidence_type": "direct podcast transcript page",
+          "period": "September 10, 2026 episode; 2027 production target",
+          "unit": "grams per tonne gold; metres; production schedule",
+          "value": "10.73 g/t over 8.90 m; 50.61 g/t over 1.60 m; 2027 target"
+        },
+        {
+          "claim": "Sierra Madre Gold and Silver已在La Guitarra完成两台各1,500千瓦柴油发电机的调试，节目称前八个月因电网停电损失278小时产出。",
+          "evidence": "Mining Stock Daily原始节目文字页直接列出发电机功率和停电损失时长。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-talon-metals-drill-longest-massive-and-mixed-massive-sulphide-intercept-ever-at-tamarack",
+          "evidence_type": "direct podcast transcript page",
+          "period": "first eight months of 2026 and September 10, 2026 update",
+          "unit": "kilowatts; hours",
+          "value": "2 x 1,500 kW; 278 hours"
+        },
+        {
+          "claim": "Cabral Gold在Cuiu Cuiu Phase 1矿山完成约1,130盎司金锭首浇，商业生产目标为年底前达到3,000吨/日堆矿。",
+          "evidence": "Mining Stock Daily原始节目文字页直接列出首金数量、处理节奏和商业生产目标。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-talon-metals-drill-longest-massive-and-mixed-massive-sulphide-intercept-ever-at-tamarack",
+          "evidence_type": "direct podcast transcript page",
+          "period": "September 10, 2026 episode; year-end 2026 target",
+          "unit": "troy ounces; tonnes per day",
+          "value": "approximately 1,130 oz gold dore; 3,000 tpd"
+        }
+      ],
+      "publish_date": "2026-09-10",
+      "title": "Mining Stock Daily：Talon Metals在Tamarack钻获最长块状及混合块状硫化物截获",
+      "source_type": "podcast",
+      "summary": "Mining Stock Daily 9月10日节目汇总多家公司的钻探、首金、供电、开发与生产进展，其中Cuiu Cuiu已完成首金，La Guitarra补足备用电力，True North向2027年生产推进。",
+      "detail": "节目还汇总Tocvan、Gold X2、Hemlo Mining、Coppernico和Talon的公司更新；Talon主题为镍铜钴项目，未作为独立正文卡片展示。节目页面附各公司新闻链接，内容属于播客对发行人信息的集中整理。",
+      "importance": "这期节目把多个项目放在从勘探到首产的供给链条上：Cuiu Cuiu已有约1,130盎司金锭首浇，La Guitarra补足电力后可减少停机损失，True North则把地下开发和2027年目标连接起来。信息主要是节目对公司公告的汇总，实际爬坡、资源转换和时间表仍需发行人文件持续确认。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Trevor Hall",
+        "background": "Mining Stock Daily host"
+      },
+      "companies": [
+        "Mining Stock Daily",
+        "1911 Gold",
+        "Sierra Madre Gold and Silver",
+        "Cabral Gold"
+      ],
+      "projects": [
+        "True North Gold Project",
+        "La Guitarra",
+        "Cuiu Cuiu"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://hq.smm.cn/copper/content/104110614",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Cobre Panamá计划于当地时间2026年9月11日向印度发运约3.8万吨铜精矿，这是2026年第二批存量矿石加工所得精矿。",
+          "evidence": "SMM公开原文直接披露发运日期、目的地、数量及存量矿石来源。",
+          "source_url": "https://hq.smm.cn/copper/content/104110614",
+          "evidence_type": "direct SMM analysis page",
+          "period": "September 11, 2026 planned shipment",
+          "unit": "tonnes copper concentrate",
+          "value": "approximately 38,000 t"
+        },
+        {
+          "claim": "截至报道时Cobre Panamá已处理约630万吨关停前堆存原矿，约占计划总量16%，尚有约3160万吨待处理。",
+          "evidence": "SMM公开原文直接披露已处理量、进度比例和剩余量。",
+          "source_url": "https://hq.smm.cn/copper/content/104110614",
+          "evidence_type": "direct SMM analysis page",
+          "period": "September 11, 2026 stockpile processing status",
+          "unit": "million tonnes; percent",
+          "value": "6.3 Mt processed; approximately 16%; approximately 31.6 Mt remaining"
+        }
+      ],
+      "publish_time": "2026-09-11T13:17:00+08:00",
+      "source": "SMM",
+      "title": "Cobre Panamá第二批3.8万吨铜精矿拟发往印度，存量原矿处理进度达16%",
+      "excerpt": "SMM称Cobre Panamá计划于9月11日向印度发运约3.8万吨由关停前存量矿石加工所得的铜精矿；截至报道时已处理约630万吨存量原矿，完成约16%，尚有约3160万吨待处理。",
+      "language": "zh",
+      "interpretation": "这是关停矿山存量原矿的加工和出口，不包含钻探、爆破或新增采矿活动，因此不能写成矿山复产。发运会在短期增加一批铜精矿可得量，但全球供给影响受存量处理速度、出口许可和回收率限制。",
+      "importance": "这是一项已获出口许可的存量矿石释放，短期增加的是精矿可交付量，不代表Cobre Panamá恢复采矿。若按当前进度处理剩余约3160万吨仍需约13个月，后续供给取决于出口许可、处理速度和存量矿石回收率，缓解作用偏阶段性且规模有限。",
+      "verification_status": "verified",
+      "companies": [
+        "Cobre Panamá",
+        "First Quantum Minerals",
+        "巴拿马工商部"
+      ],
+      "projects": [
+        "Cobre Panamá"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.metal.com/en/newscontent/104111486-zambias-refined-copper-exports-rise-74-in-h1-2026-as-domestic-copper-production-grows-045",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "赞比亚2026年1—6月精炼铜出口446.1 kt，同比增加7.4%，全国铜产量447,181吨，同比增加0.45%。",
+          "evidence": "SMM页面直接列出出口和全国铜产量的期间、数值及同比变化。",
+          "source_url": "https://news.metal.com/en/newscontent/104111486-zambias-refined-copper-exports-rise-74-in-h1-2026-as-domestic-copper-production-grows-045",
+          "evidence_type": "SMM analysis citing ZamStats and Ministry of Mines",
+          "period": "H1 2026 versus H1 2025",
+          "unit": "thousand tonnes; tonnes; percent",
+          "value": "446.1 kt exports, +7.4% YoY; 447,181 t production, +0.45% YoY"
+        },
+        {
+          "claim": "赞比亚2026年上半年小规模铜产量同比下降35.2%，页面将其与国内硫酸供应不足和雨季结束延迟联系起来。",
+          "evidence": "SMM页面的Small-scale weakness段落直接披露降幅和供给约束。",
+          "source_url": "https://news.metal.com/en/newscontent/104111486-zambias-refined-copper-exports-rise-74-in-h1-2026-as-domestic-copper-production-grows-045",
+          "evidence_type": "SMM analysis citing Ministry of Mines",
+          "period": "H1 2026",
+          "unit": "percent; production input constraint",
+          "value": "-35.2% YoY; inadequate sulphuric acid and delayed rainy-season end"
+        }
+      ],
+      "publish_time": "2026-09-11T22:41:00+08:00",
+      "source": "SMM",
+      "title": "Zambia上半年精炼铜出口增长7.4%，全国铜产量仅增0.45%",
+      "excerpt": "SMM称赞比亚2026年上半年精炼铜出口446.1 kt、同比增7.4%，同期全国铜产量447,181吨、同比增0.45%；小规模铜产量同比下降35.2%，硫酸供应不足是约束之一。",
+      "language": "en",
+      "interpretation": "出口量与矿产量属于供应链不同环节，库存释放、销售时点、第三方精矿和赞比亚加工能力都可能造成增速差异。大型矿山的局部增量未能转化为全行业明显增长，小型矿山还受到硫酸投入不足约束。",
+      "importance": "赞比亚出口增速明显高于矿产量增速，说明短期跨境供应改善很大程度受库存、销售时点和第三方原料影响，不能外推为矿山供给同步扩张。小型矿山产量因硫酸供应不足下降35.2%，显示加工投入品会限制2026年产量扩张；后续需看大型矿山增量能否扩散并持续。",
+      "verification_status": "verified",
+      "companies": [
+        "Zambia Statistics Agency",
+        "Zambia Ministry of Mines and Minerals Development",
+        "First Quantum Minerals",
+        "Barrick Mining"
+      ],
+      "projects": [
+        "Kansanshi",
+        "Sentinel",
+        "Lumwana"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.metal.com/en/newscontent/104111484-copper-wire-and-cable-operating-rate-falls-to-6371-amid-high-prices-and-weak-demand",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "2026年9月4日至10日SMM铜线缆企业开工率为63.71%，周环比下降2.93个百分点，同比下降3.91个百分点。",
+          "evidence": "SMM公开页面直接披露统计周、开工率及环比同比变化。",
+          "source_url": "https://news.metal.com/en/newscontent/104111484-copper-wire-and-cable-operating-rate-falls-to-6371-amid-high-prices-and-weak-demand",
+          "evidence_type": "direct SMM statistics page",
+          "period": "September 4-10, 2026",
+          "unit": "percent; percentage points",
+          "value": "63.71%; -2.93 pp WoW; -3.91 pp YoY"
+        },
+        {
+          "claim": "同期铜线缆企业原料库存天数周环比下降2.93%，成品库存天数周环比上升2.63%。",
+          "evidence": "SMM公开页面直接列出原料和成品库存天数变化。",
+          "source_url": "https://news.metal.com/en/newscontent/104111484-copper-wire-and-cable-operating-rate-falls-to-6371-amid-high-prices-and-weak-demand",
+          "evidence_type": "direct SMM statistics page",
+          "period": "September 4-10, 2026",
+          "unit": "percent WoW",
+          "value": "raw-material inventory days -2.93%; finished-product inventory days +2.63%"
+        }
+      ],
+      "publish_time": "2026-09-11T21:44:00+08:00",
+      "source": "SMM",
+      "title": "SMM铜线缆企业开工率降至63.71%，高价与弱需求形成压制",
+      "excerpt": "SMM统计显示，9月4日至10日铜线缆企业开工率为63.71%，周环比降2.93个百分点、同比降3.91个百分点；原料库存天数下降2.93%，成品库存天数上升2.63%。",
+      "language": "en",
+      "interpretation": "开工率和库存结构共同指向下游订单释放偏弱：企业减少原料备货，成品去化速度也承压。该统计由高铜价和终端需求传导形成，反映的是加工环节的实际活动变化，不等同于铜矿或冶炼供给变化。",
+      "importance": "63.71%的周度开工率与成品库存上升表明高铜价已通过订单延迟和库存策略压制实体消费，需求端出现可量化收缩。原料库存天数同步下降说明企业在降低备货暴露；短期需求修复取决于采购窗口和终端订单，后续应跟踪开工率与库存是否止跌。",
+      "verification_status": "verified",
+      "companies": [
+        "SMM"
+      ],
+      "projects": [
+        "China copper wire and cable enterprises"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/news/104109033",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "截至2026年8月底波兰央行黄金储备增至648吨，8月增持近8吨，年内净购金达到98吨。",
+          "evidence": "SMM页面正文直接列出波兰央行储备、8月增持和年内净购金数据，并归因彭博及世界黄金协会信息。",
+          "source_url": "https://news.smm.cn/news/104109033",
+          "evidence_type": "SMM page citing Bloomberg and World Gold Council",
+          "period": "August 2026 and year to August 2026",
+          "unit": "tonnes gold",
+          "value": "648 t reserves; nearly 8 t bought in August; 98 t net YTD"
+        },
+        {
+          "claim": "波兰央行重申将黄金储备提高至700吨，按648吨储备计算仍约需增持52吨。",
+          "evidence": "SMM页面直接披露700吨目标；52吨为基于页面648吨储备的算术差额。",
+          "source_url": "https://news.smm.cn/news/104109033",
+          "evidence_type": "direct article fact plus arithmetic",
+          "period": "August 31, 2026 stated target",
+          "unit": "tonnes gold",
+          "value": "700 t target; approximately 52 t remaining"
+        }
+      ],
+      "publish_time": "2026-09-11T10:02:00+08:00",
+      "source": "华尔街见闻（转引彭博、世界黄金协会）",
+      "title": "波兰央行8月增持黄金至648吨，重申700吨储备目标",
+      "excerpt": "据SMM转载内容，截至8月底波兰央行黄金储备增至648吨，8月增持近8吨，年内净购金98吨，并重申将储备提高至700吨。",
+      "language": "zh",
+      "interpretation": "该信号对应央行储备配置需求，属于实物黄金需求，不是矿山供给或单日价格评论。储备目标和持续购金节奏提供中长期需求支撑，但报道中的部分数字来自转引，后续仍需核对波兰央行月度储备及世界黄金协会更新。",
+      "importance": "波兰年内净购金98吨且仍距700吨目标约52吨，表明官方储备配置在高价环境下依然持续，需求来自长期资产配置，难以用单日价格波动衡量。该信号对矿山供给没有即时影响，9月后的购金节奏和全球央行流量才决定需求趋势是否延续。",
+      "verification_status": "verified",
+      "companies": [
+        "波兰国家银行",
+        "Bloomberg",
+        "World Gold Council"
+      ],
+      "projects": [
+        "Poland official gold reserves"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.metal.com/en/newscontent/104111423-liaoning-hongda-group-breaks-ground-on-lead-zinc-mining-project-in-kazakhstan",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "辽宁宏达集团在哈萨克斯坦克孜勒奥尔达州启动布拉拜铅锌采选项目，建设周期两年、计划2028年完工。",
+          "evidence": "SMM页面直接披露开工事件、地点、建设周期和完工时间，并注明信息来自外媒。",
+          "source_url": "https://news.metal.com/en/newscontent/104111423-liaoning-hongda-group-breaks-ground-on-lead-zinc-mining-project-in-kazakhstan",
+          "evidence_type": "SMM page citing foreign media",
+          "period": "September 11, 2026 project start and 2028 completion plan",
+          "unit": "years; date",
+          "value": "two-year construction; planned completion in 2028"
+        },
+        {
+          "claim": "项目一期全面投产后预计年产21万吨铅锌原料并回收20吨白银。",
+          "evidence": "SMM页面直接列出一期规划的铅锌原料产量和白银回收量。",
+          "source_url": "https://news.metal.com/en/newscontent/104111423-liaoning-hongda-group-breaks-ground-on-lead-zinc-mining-project-in-kazakhstan",
+          "evidence_type": "SMM page citing foreign media",
+          "period": "Phase I planned annual production after commissioning",
+          "unit": "tonnes lead-zinc feed; tonnes silver",
+          "value": "210,000 t lead-zinc raw materials; 20 t silver per year"
+        }
+      ],
+      "publish_time": "2026-09-11T18:30:00+08:00",
+      "source": "SMM（转引外媒）",
+      "title": "哈萨克斯坦布拉拜铅锌项目开工，一期规划年回收20吨白银",
+      "excerpt": "SMM称辽宁宏达集团在哈萨克斯坦启动布拉拜铅锌采选项目，建设周期两年、计划2028年完工；一期规划全面投产后年产21万吨铅锌原料并回收20吨白银。",
+      "language": "en",
+      "interpretation": "白银在此处是铅锌采选项目的潜在副产物，规划产量不能等同于当前供应。项目仍处建设初期，实际回收量还取决于资源量、选矿回收率、处理能力、融资和投产进度。",
+      "importance": "布拉拜把20吨/年白银副产潜力放入2028年完工后的项目供给曲线，但当前仍处于建设阶段，不能计入近期矿山供应。白银实际兑现还取决于采选厂投产、资源扩张和铅锌矿石处理稳定性，当前更接近远期副产供给选项。",
+      "verification_status": "verified",
+      "companies": [
+        "辽宁宏达集团"
+      ],
+      "projects": [
+        "Burabay Lead-Zinc Mining and Processing Project"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Korelin Economics Report首页及2026-09-11 Westhaven Gold节目页：原始页面可打开；核对标题、页面日期、50,000米钻探、Shovelnose金银项目和PEA生产参数。",
+      "Resource Talks WordPress公开文章接口：检查2026-09-09至09-11条目；Omega Pacific、Kirkland Lake和Sixty North等内容与最近两份日报重复或属于前一窗口延续，SAGA Metals为钛钒铁非目标金属，均未重复纳入。",
+      "Mining Stock Daily Episodes页及原始节目页：https://www.miningstockdaily.com/episodes/morning-briefing-talon-metals-drill-longest-massive-and-mixed-massive-sulphide-intercept-ever-at-tamarack；HTTP 200，核对2026-09-10页面日期、文字内容及公司新闻链接。",
+      "data/conference_calendar.json及会议入口：检查Denver Gold Forum、Precious Metals Summit及其他会议窗口，未发现9月9日至11日可核验且未重复的合格回放。",
+      "data/2026-09-09.json、data/2026-09-10.json：按URL和实质事件完成跨日前置去重。"
+    ],
+    "part1_result": "Part 1完成北京时间2026-09-09至09-11窗口的Podcast、Webcast、YouTube及会议回放检索；纳入Mining Stock Daily 1条可打开核验的供给进展节目，其他候选因重复、非目标金属、宏观/价格内容或缺少可归因供需事实排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-11 --collect-x；内部调用scripts/x_search.py并按Playwright -> twscrape顺序配置。",
+      "Playwright使用已认证持久会话串行完成53/53账号，0失败；采集16条窗口内候选，未启动后续twscrape。",
+      "x_outputs/2026-09-11_x_raw_materials.txt及x_outputs/2026-09-11_x_raw_materials.json：保留原始候选、账号覆盖、选定通道和sidecar审计。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号、0失败，取得16条原始候选；经作者、正文、时间、原帖链接和供需标准筛选后0条纳入，排除项为价格/宏观评论、推广、重复已知事件或缺少新的可归因实体事实。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright持久会话已认证，53/53账号串行完成；无登录墙、challenge、CAPTCHA或账号级失败。",
+        "未启动twscrape，未增加其他X流量；原始材料和sidecar按2026-09-11命名保留。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页https://www.mining.com/commodity/copper/：固定Python Playwright主路径HTTP 200，DOM提取9条报告日关联候选；金分类页HTTP 200、11条；银分类页HTTP 200、8条。逐条检查后铜页中Osisko候选实际显示2026-09-10并与前日报重复，其余候选为镍、煤炭、锂、铀、稀土、赞助或不含目标金银铜供需事实。",
+      "Google备用查询site:mining.com copper September 11 2026、gold September 11 2026、silver September 11 2026：均HTTP 429，未获得可靠命中；仅记录为备用渠道受限，不替代已成功的Mining.com Playwright分类页主路径。未使用sitemap、Wayback或RSS。",
+      "SMM Cobre Panamá原文：https://hq.smm.cn/copper/content/104110614；HTTP 200，核对2026-09-11 13:17、3.8万吨发运、630万吨已处理、16%和剩余约3160万吨。",
+      "SMM Zambia分析：https://news.metal.com/en/newscontent/104111486-zambias-refined-copper-exports-rise-74-in-h1-2026-as-domestic-copper-production-grows-045；HTTP 200，核对H1出口、全国矿产量、同比变化及硫酸瓶颈。",
+      "SMM铜线缆数据：https://news.metal.com/en/newscontent/104111484-copper-wire-and-cable-operating-rate-falls-to-6371-amid-high-prices-and-weak-demand；HTTP 200，核对9月4日至10日开工率、订单和库存天数变化。",
+      "SMM波兰央行黄金：https://news.smm.cn/news/104109033；HTTP 200，核对648吨储备、8月近8吨增持、年内98吨和700吨目标，记录彭博及世界黄金协会归属。",
+      "SMM哈萨克斯坦铅锌项目：https://news.metal.com/en/newscontent/104111423-liaoning-hongda-group-breaks-ground-on-lead-zinc-mining-project-in-kazakhstan；HTTP 200，核对开工、2028年完工计划和20吨/年白银回收规划，并保留外媒归属限制。",
+      "SMM 2026-09-11铜线缆预期、进口矿市场、铜精矿TC周评及中国铜产业链周报页面已检查；预测、锁定正文或纯加工费/价格内容未作为独立日报信号。",
+      "最近两份日报已用于跨日去重：Winu、美国铜关税、铜库存、AIC扩建及Osisko Gaspé事件均未重复发布。"
+    ],
+    "part3_result": "Part 3完成北京时间2026-09-11全天英文与中文新闻检索；Mining.com分类页主路径和SMM中文/英文页面均已检查，纳入5条独立供需信号：Cobre Panamá存量铜精矿、赞比亚铜出口与矿产量、铜线缆需求、波兰央行黄金需求、哈萨克斯坦铅锌项目的潜在白银副产。",
+    "mining_com_source_note": "严格执行Mining.com铜分类页Playwright主路径，并辅助抓取金、银分类页；铜/金/银分别提取9/11/8条报告日关联候选。所有候选均按文章日期、金银铜供需事实和最近两份日报去重，未有合格的新Mining.com文章入选；Google site:备用查询因HTTP 429无可靠命中，未用于证据。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1节目页和5条Part 3来源均已直接打开并核对标题、发布日期、主体及卡片核心事实，全部标记verified。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/gold-stocks/bc-gold-drill-program-starting-but-can-they-prove-continuity/：已在2026-09-10日报纳入。",
+      "https://resourcetalks.com/gold-stocks/new-gold-zone-in-wide-intervals-but-is-there-enough-size/：与2026-09-09至09-10的Kirkland Lake Mirado事件实质重复。",
+      "https://www.kereport.com/2026/09/10/k2-gold-high-grade-step-outs-expanding-the-dragonfly-zone-mojave-project-27-43m-of-4-03-g-t-au/：已在2026-09-10日报纳入。",
+      "https://www.kereport.com/2026/09/10/luca-mining-q2-operations-and-financials-ongoing-exploration-and-development-work-at-the-campo-morado-and-tahuehueto-mines/：已在2026-09-10日报纳入。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/IvanhoeMines_/status/2098089841485594995：重复2026-09-08 Makoko资源事件。",
+      "https://x.com/soarfinancial/status/2098090448086569132：重复2026-09-09 Troilus融资与开发事件。",
+      "https://x.com/peter_krauth/status/2098134114654359827：与本次Mining Stock Daily节目中的La Guitarra发电事件重复。"
+    ],
+    "part3_deduped_events": [
+      "Osisko Gaspé铜银钻探：Mining.com分类页关联候选实际标注2026-09-10，已在2026-09-10日报以公司官方公告纳入。",
+      "Rio Tinto Winu原住民同意：与2026-09-10日报同一项目事件，排除SMM转载。",
+      "美国精炼铜关税未决：与2026-09-10日报同一政策事件，保留此前信息更完整的报道。",
+      "中国铜库存周降：来源日期为2026-09-10，已在2026-09-10日报纳入。",
+      "AIC Mines Eloise扩建：来源日期为2026-09-10，已在2026-09-10日报纳入。"
+    ],
+    "notes": "候选先按2026-09-09至09-11窗口筛选，再与2026-09-09、2026-09-10日报比较URL、项目、事件和核心数字；Mining.com非目标金属/赞助候选及X价格、宏观、推广候选仅保留在采集审计，不进入正文。"
+  }
+}

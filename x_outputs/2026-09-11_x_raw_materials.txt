@@ -1,0 +1,168 @@
+X 原始候选 — 2026-09-11
+采集时间: 2026-09-12T07:28:39.779419+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 16 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-11T15:41:36+00:00
+    北京: 2026-09-11T23:41:36+08:00
+    文本: "I’ve spent more than twenty years walking pits, and every visit starts with the same question: 
+
+what can stop this mine?"
+
+
+https://
+katusaresearch.com/missing-escond
+ida/
+…
+    链接: https://x.com/KatusaResearch/status/2098436807763571044
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-11T15:32:11+00:00
+    北京: 2026-09-11T23:32:11+08:00
+    文本: Every January the copper industry writes off a mine the size of Escondida
+
+Your index fund owns it through the biggest producers, BHP and Freeport. And your pension owns it through the analyst who models them.
+
+Every one of them opens with the same instruction: subtract 5%.
+    链接: https://x.com/KatusaResearch/status/2098434438195712095
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-10T18:18:51+00:00
+    北京: 2026-09-11T02:18:51+08:00
+    文本: Two mines, Grasberg and Cobre Panamá, have already eaten 60% of 2026's copper disruption allowance. 
+
+And that's before a single storm, strike or judge is counted
+    链接: https://x.com/KatusaResearch/status/2098113992413892771
+
+[4] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-11T15:01:36+00:00
+    北京: 2026-09-11T23:01:36+08:00
+    文本: Always fun and informative to talk with 
+@Charlotte_McL
+...
+
+Brien Lundin: Gold, Bonds Sending Warning — What's Next for Price 
+https://
+youtu.be/xMMgWlI9sFE?si
+=kR6EnXZjox80dIlu
+… via 
+@YouTube
+    链接: https://x.com/Brien_Lundin/status/2098426740385132697
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-10T19:38:49+00:00
+    北京: 2026-09-11T03:38:49+08:00
+    文本: Sierra Madre 
+@SierraMadreSM
+ is doing the unsexy work that can make a mine a lot more profitable.
+La Guitarra just brought twin backup generators online after losing 278 hours of production to grid outages this year.
+With throughput set to climb, protecting uptime matters.
+I’m
+    链接: https://x.com/peter_krauth/status/2098134114654359827
+
+[6] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-10T19:17:17+00:00
+    北京: 2026-09-11T03:17:17+08:00
+    文本: ESGOLD 
+@ESGold_Corp
+ is starting to look less like a development story — and more like a mine approaching the starting line.
+Key processing equipment just landed at Montauban as commissioning advances across its fully permitted 1,000 tpd facility.
+And the market noticed: $ESAU
+    链接: https://x.com/peter_krauth/status/2098128695500369976
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-11T07:57:48+00:00
+    北京: 2026-09-11T15:57:48+08:00
+    文本: Note that the coin shop sign says "Gold & Silver"...
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2098320087786602652
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-11T07:55:48+00:00
+    北京: 2026-09-11T15:55:48+08:00
+    文本: As I've been saying, the war has been bad for gold and it ain't over yet...
+    链接: https://x.com/duediligenceguy/status/2098319584126177353
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-10T18:02:06+00:00
+    北京: 2026-09-11T02:02:06+08:00
+    文本: My concern is that copper could drop and the stocks almost ignore it like in 2025…
+    链接: https://x.com/duediligenceguy/status/2098109777582670274
+
+[10] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-10T17:58:57+00:00
+    北京: 2026-09-11T01:58:57+08:00
+    文本: It would today... but I'm keen to add more silver anyway.
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2098108982405521757
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-11T08:53:01+00:00
+    北京: 2026-09-11T16:53:01+08:00
+    文本: 'Saudi Arabia just reported something that should scare the hell out of anyone who understands how the Middle East actually functions. According to Bloomberg, Riyadh told OPEC that crude production collapsed by 1.9 million barrels per day in August to just 6.238 million barrels
+    链接: https://x.com/wmiddelkoop/status/2098333983234777381
+
+[12] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-11T08:19:31+00:00
+    北京: 2026-09-11T16:19:31+08:00
+    文本: Gold Help Me
+    链接: https://x.com/wmiddelkoop/status/2098325553950416974
+
+[13] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-10T20:09:36+00:00
+    北京: 2026-09-11T04:09:36+08:00
+    文本: Talon Metals +34% today
+
+Important breakout on record volume after the release of the best drill-hole assay results ever 
+
+$TLO is our largest position; we took a bit of profit
+    链接: https://x.com/wmiddelkoop/status/2098141862578049502
+
+[14] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-10T16:45:18+00:00
+    北京: 2026-09-11T00:45:18+08:00
+    文本: Troilus Mining: Closing In on Full Project Financing
+
+Justin Reid joins us to discuss Troilus' US$3.2B NPV gold-copper project, its proposed US$1.2B debt package, permitting and the path toward construction and first gold.
+
+Plus, why Germany is playing a key role in financing the
+    链接: https://x.com/soarfinancial/status/2098090448086569132
+
+[15] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-09-10T16:42:53+00:00
+    北京: 2026-09-11T00:42:53+08:00
+    文本: The Western Foreland’s Makoko District and Kiala deposits, together rank as the largest and highest-grade copper discovery of the past decade.
+
+Ivanhoe’s geologists have discovered over 55 million tonnes of contained copper in the Western Foreland shelf, including Makoko
+    链接: https://x.com/IvanhoeMines_/status/2098089841485594995
+
+[16] @GoGoldResources (GoGold Resources)
+    UTC: 2026-09-11T13:51:53+00:00
+    北京: 2026-09-11T21:51:53+08:00
+    文本: $GGD.TO
+ $GLGDF
+
+Resource Talks: Catalyst Calendar 
+
+
+https://
+drive.google.com/file/d/1gZV1hi
+GN-BUl8lJ-2H23dfVV6dzYuPz_/view
+…
+    链接: https://x.com/GoGoldResources/status/2098409197159260396
+

@@ -1,0 +1,217 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-11",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-98c3d6ceadbb70c67f371567",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-11T15:41:36+00:00",
+      "text": "\"I’ve spent more than twenty years walking pits, and every visit starts with the same question: \n\nwhat can stop this mine?\"\n\n\nhttps://\nkatusaresearch.com/missing-escond\nida/\n…",
+      "url": "https://x.com/KatusaResearch/status/2098436807763571044",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4cbe9e756f0c5081ebbb7573",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-11T15:32:11+00:00",
+      "text": "Every January the copper industry writes off a mine the size of Escondida\n\nYour index fund owns it through the biggest producers, BHP and Freeport. And your pension owns it through the analyst who models them.\n\nEvery one of them opens with the same instruction: subtract 5%.",
+      "url": "https://x.com/KatusaResearch/status/2098434438195712095",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-be8df237708d86282a93bd1c",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-10T18:18:51+00:00",
+      "text": "Two mines, Grasberg and Cobre Panamá, have already eaten 60% of 2026's copper disruption allowance. \n\nAnd that's before a single storm, strike or judge is counted",
+      "url": "https://x.com/KatusaResearch/status/2098113992413892771",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3bceef057497de7987c9b3e4",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-11T15:01:36+00:00",
+      "text": "Always fun and informative to talk with \n@Charlotte_McL\n...\n\nBrien Lundin: Gold, Bonds Sending Warning — What's Next for Price \nhttps://\nyoutu.be/xMMgWlI9sFE?si\n=kR6EnXZjox80dIlu\n… via \n@YouTube",
+      "url": "https://x.com/Brien_Lundin/status/2098426740385132697",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7fddc62ce749cd45f42a04f3",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-10T19:38:49+00:00",
+      "text": "Sierra Madre \n@SierraMadreSM\n is doing the unsexy work that can make a mine a lot more profitable.\nLa Guitarra just brought twin backup generators online after losing 278 hours of production to grid outages this year.\nWith throughput set to climb, protecting uptime matters.\nI’m",
+      "url": "https://x.com/peter_krauth/status/2098134114654359827",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-37426cbe0423ec93efb9e994",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-10T19:17:17+00:00",
+      "text": "ESGOLD \n@ESGold_Corp\n is starting to look less like a development story — and more like a mine approaching the starting line.\nKey processing equipment just landed at Montauban as commissioning advances across its fully permitted 1,000 tpd facility.\nAnd the market noticed: $ESAU",
+      "url": "https://x.com/peter_krauth/status/2098128695500369976",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4eaa4ddfa57a986a1cbb5b71",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-11T07:57:48+00:00",
+      "text": "Note that the coin shop sign says \"Gold & Silver\"...\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2098320087786602652",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-84e15b905cd7efc8fce9d7fc",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-11T07:55:48+00:00",
+      "text": "As I've been saying, the war has been bad for gold and it ain't over yet...",
+      "url": "https://x.com/duediligenceguy/status/2098319584126177353",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-601c5225a7b40e8e1a201dda",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-10T18:02:06+00:00",
+      "text": "My concern is that copper could drop and the stocks almost ignore it like in 2025…",
+      "url": "https://x.com/duediligenceguy/status/2098109777582670274",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1ec72bcbbcc1f0a2ed3e9693",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-10T17:58:57+00:00",
+      "text": "It would today... but I'm keen to add more silver anyway.\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2098108982405521757",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-52ef745ee5f20c0a5f89d382",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-11T08:53:01+00:00",
+      "text": "'Saudi Arabia just reported something that should scare the hell out of anyone who understands how the Middle East actually functions. According to Bloomberg, Riyadh told OPEC that crude production collapsed by 1.9 million barrels per day in August to just 6.238 million barrels",
+      "url": "https://x.com/wmiddelkoop/status/2098333983234777381",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-77e116bf6888da572356800a",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-11T08:19:31+00:00",
+      "text": "Gold Help Me",
+      "url": "https://x.com/wmiddelkoop/status/2098325553950416974",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f3f331d4158e7ece9e20df23",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-10T20:09:36+00:00",
+      "text": "Talon Metals +34% today\n\nImportant breakout on record volume after the release of the best drill-hole assay results ever \n\n$TLO is our largest position; we took a bit of profit",
+      "url": "https://x.com/wmiddelkoop/status/2098141862578049502",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-83b53facab80170ec0dce6f5",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-10T16:45:18+00:00",
+      "text": "Troilus Mining: Closing In on Full Project Financing\n\nJustin Reid joins us to discuss Troilus' US$3.2B NPV gold-copper project, its proposed US$1.2B debt package, permitting and the path toward construction and first gold.\n\nPlus, why Germany is playing a key role in financing the",
+      "url": "https://x.com/soarfinancial/status/2098090448086569132",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0adedcf800236055d6b5e9c8",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-09-10T16:42:53+00:00",
+      "text": "The Western Foreland’s Makoko District and Kiala deposits, together rank as the largest and highest-grade copper discovery of the past decade.\n\nIvanhoe’s geologists have discovered over 55 million tonnes of contained copper in the Western Foreland shelf, including Makoko",
+      "url": "https://x.com/IvanhoeMines_/status/2098089841485594995",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8ebf2856ade5692a6f4cdaef",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-09-11T13:51:53+00:00",
+      "text": "$GGD.TO\n $GLGDF\n\nResource Talks: Catalyst Calendar \n\n\nhttps://\ndrive.google.com/file/d/1gZV1hi\nGN-BUl8lJ-2H23dfVV6dzYuPz_/view\n…",
+      "url": "https://x.com/GoGoldResources/status/2098409197159260396",
+      "collector": "x_search",
+      "report_date": "2026-09-11",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
