@@ -1,0 +1,133 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-12",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-e61db8d5d383de84d7609abf",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-12T00:23:22+00:00",
+      "text": "Initial Episode with Some #Silver Sacred Cows Challenged \nhttps://\nyoutube.com/live/mORE4Mnpt\nqU?is=qmNJlyZdfnAPbkIH\n… via \n@YouTube",
+      "url": "https://x.com/silverguru22/status/2098568112253849868",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a042580ba67c75b67b58883a",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-11T17:42:12+00:00",
+      "text": "Silver is defying the odds—up 2.5% to $65 despite a hawkish inflation print.\n\nWhen a yieldless metal rises while bonds buckle, the market is sending a message.\n\nToday’s FREE Silver Scoop unpacks it—and a blockbuster week for 8 silver names. \n@TedJButler\n dives in:",
+      "url": "https://x.com/peter_krauth/status/2098467155482395078",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-97fec470a9e1e06c4f22c1b9",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-11T21:38:18+00:00",
+      "text": "A reminder:\n\nSilver miners are now producing four times more free cash flow than they did at their last peak. \n\n\nhttps://\ntavicosta.substack.com/p/a-reminder-7\nad\n…",
+      "url": "https://x.com/TaviCosta/status/2098526572529713496",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6d7c497fbd8bfe75b76eea99",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-12T13:40:38+00:00",
+      "text": "Friedland on copper (podcast)",
+      "url": "https://x.com/wmiddelkoop/status/2098768750510043221",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-08e6a47d95f7e0df9a6b9b0d",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-11T22:36:54+00:00",
+      "text": "Well said. Maybe a distributed neutral verifiable reserve asset?",
+      "url": "https://x.com/LawrenceLepard/status/2098541319136174271",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-83415ec02e555cf4bf46b464",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-11T19:27:47+00:00",
+      "text": "That is an important chart.  Invert it.  Miners are breaking out of a multi year box versus gold.",
+      "url": "https://x.com/LawrenceLepard/status/2098493728222564830",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-828184b7ef7bc7075e0d57a7",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-09-11T18:57:44+00:00",
+      "text": "\"Mining with a greater purpose\" means more than producing the critical minerals the world needs for the energy transition.\n\nIt means creating lasting value where we operate through local jobs, stronger schools, and community development programs across the DRC and South Africa.",
+      "url": "https://x.com/IvanhoeMines_/status/2098486164273701303",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f58129771473a2d3a8f2a62d",
+      "source_id": "x-newmontcorp",
+      "author": "Newmont",
+      "handle": "NewmontCorp",
+      "publish_time": "2026-09-11T17:00:20+00:00",
+      "text": "Emergency preparedness is increasingly being built into how mining operations are planned and executed.\n\nAs operations become deeper and more complex, disciplined risk management is critical to strengthening readiness before an incident occurs.\n\nLearn more about Newmont's",
+      "url": "https://x.com/NewmontCorp/status/2098456621231841527",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-799fe759fc46accb2f58cbfa",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-09-11T18:20:00+00:00",
+      "text": "Ahead of next week's Canada Investment Summit in Toronto, Agnico Eagle's Chair of the Board, Sean Boyd, and President and CEO, Ammar Al-Joundi, have co-signed a new op-ed on the opportunity for Canada to strengthen its economy through responsible resource development and",
+      "url": "https://x.com/agnicoeagle/status/2098476670101385401",
+      "collector": "x_search",
+      "report_date": "2026-09-12",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

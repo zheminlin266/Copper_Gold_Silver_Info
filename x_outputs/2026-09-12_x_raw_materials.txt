@@ -1,0 +1,97 @@
+X 原始候选 — 2026-09-12
+采集时间: 2026-09-13T07:27:19.631125+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 9 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-09-12T00:23:22+00:00
+    北京: 2026-09-12T08:23:22+08:00
+    文本: Initial Episode with Some #Silver Sacred Cows Challenged
+https://
+youtube.com/live/mORE4Mnpt
+qU?is=qmNJlyZdfnAPbkIH
+… via
+@YouTube
+    链接: https://x.com/silverguru22/status/2098568112253849868
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-11T17:42:12+00:00
+    北京: 2026-09-12T01:42:12+08:00
+    文本: Silver is defying the odds—up 2.5% to $65 despite a hawkish inflation print.
+
+When a yieldless metal rises while bonds buckle, the market is sending a message.
+
+Today’s FREE Silver Scoop unpacks it—and a blockbuster week for 8 silver names.
+@TedJButler
+ dives in:
+    链接: https://x.com/peter_krauth/status/2098467155482395078
+
+[3] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-11T21:38:18+00:00
+    北京: 2026-09-12T05:38:18+08:00
+    文本: A reminder:
+
+Silver miners are now producing four times more free cash flow than they did at their last peak.
+
+
+https://
+tavicosta.substack.com/p/a-reminder-7
+ad
+…
+    链接: https://x.com/TaviCosta/status/2098526572529713496
+
+[4] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-12T13:40:38+00:00
+    北京: 2026-09-12T21:40:38+08:00
+    文本: Friedland on copper (podcast)
+    链接: https://x.com/wmiddelkoop/status/2098768750510043221
+
+[5] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-11T22:36:54+00:00
+    北京: 2026-09-12T06:36:54+08:00
+    文本: Well said. Maybe a distributed neutral verifiable reserve asset?
+    链接: https://x.com/LawrenceLepard/status/2098541319136174271
+
+[6] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-11T19:27:47+00:00
+    北京: 2026-09-12T03:27:47+08:00
+    文本: That is an important chart.  Invert it.  Miners are breaking out of a multi year box versus gold.
+    链接: https://x.com/LawrenceLepard/status/2098493728222564830
+
+[7] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-09-11T18:57:44+00:00
+    北京: 2026-09-12T02:57:44+08:00
+    文本: "Mining with a greater purpose" means more than producing the critical minerals the world needs for the energy transition.
+
+It means creating lasting value where we operate through local jobs, stronger schools, and community development programs across the DRC and South Africa.
+    链接: https://x.com/IvanhoeMines_/status/2098486164273701303
+
+[8] @NewmontCorp (Newmont)
+    UTC: 2026-09-11T17:00:20+00:00
+    北京: 2026-09-12T01:00:20+08:00
+    文本: Emergency preparedness is increasingly being built into how mining operations are planned and executed.
+
+As operations become deeper and more complex, disciplined risk management is critical to strengthening readiness before an incident occurs.
+
+Learn more about Newmont's
+    链接: https://x.com/NewmontCorp/status/2098456621231841527
+
+[9] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-09-11T18:20:00+00:00
+    北京: 2026-09-12T02:20:00+08:00
+    文本: Ahead of next week's Canada Investment Summit in Toronto, Agnico Eagle's Chair of the Board, Sean Boyd, and President and CEO, Ammar Al-Joundi, have co-signed a new op-ed on the opportunity for Canada to strengthen its economy through responsible resource development and
+    链接: https://x.com/agnicoeagle/status/2098476670101385401

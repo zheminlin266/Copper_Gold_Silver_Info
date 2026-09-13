@@ -1,0 +1,312 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-12",
+  "report_time": "2026-09-13T08:04:52+08:00",
+  "summary": "黄金：Westhaven扩大Shovelnose金银项目钻探，中国官方披露金矿产勘探增量，Altyn Tor金厂进入投产阶段。白银：矿企现金流改善观点可能增强供给激励，但口径仍待核验。铜：Vicuña北部通道授标推进项目可达性，短期供给量尚未增加。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-10T00:00:00+08:00",
+      "end": "2026-09-12T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-12T00:00:00+08:00",
+      "end": "2026-09-12T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-12T00:00:00+08:00",
+      "end": "2026-09-12T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/11/westhaven-gold-ongoing-50000m-drill-program-at-the-shovelnose-gold-silver-project-in-british-columbia/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Shovelnose南区资源加密钻探为35,000米、四台钻机，第五台钻机执行15,000米勘探计划至12月。",
+          "evidence": "KER页面正文明确写明ongoing 35,000m four-rig resource infill drilling，以及新增fifth rig开展through December的15,000m exploration drill program。",
+          "source_url": "https://www.kereport.com/2026/09/11/westhaven-gold-ongoing-50000m-drill-program-at-the-shovelnose-gold-silver-project-in-british-columbia/",
+          "evidence_type": "source_text",
+          "period": "2026-09-11",
+          "unit": "metres and rigs",
+          "value": "35,000m; 4 rigs; 15,000m; through December"
+        },
+        {
+          "claim": "Dundee第一阶段至少承诺3,000万加元，覆盖50,000米钻探及预可研工作。",
+          "evidence": "KER正文说明Dundee第一阶段minimum CDN$30,000,000，包含fully funded 50,000m drill program and pre-feasibility work。",
+          "source_url": "https://www.kereport.com/2026/09/11/westhaven-gold-ongoing-50000m-drill-program-at-the-shovelnose-gold-silver-project-in-british-columbia/",
+          "evidence_type": "source_text",
+          "period": "2026-02-23 agreement, reiterated on 2026-09-11 page",
+          "unit": "CAD and metres",
+          "value": "C$30,000,000 minimum; 50,000m"
+        }
+      ],
+      "publish_date": "2026-09-11",
+      "title": "Westhaven Gold – Ongoing 50,000m Drill Program At The Shovelnose Gold-Silver Project In British Columbia",
+      "source_type": "podcast",
+      "summary": "Westhaven CEO Ken Armstrong介绍Shovelnose金银项目的Dundee战略入股及50,000米钻探计划：南区资源加密钻探35,000米、四台钻机作业，第五台钻机执行15,000米勘探计划至12月。",
+      "detail": "KER页面还说明，Dundee第一阶段至少承诺3,000万加元，覆盖50,000米钻探和预可研工作；节目所述钻探持续验证South Zone及Vein Zones 1–3的矿化连续性。",
+      "importance": "钻探规模从资源加密延伸至新增勘探，四台资源钻机加第五台勘探钻机形成明确的并行推进机制。15,000米计划持续至12月，短期不会直接增加产量，结果和预可研进度决定Shovelnose能否向未来金银供给转化。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Ken Armstrong",
+        "background": "Westhaven Gold Corp. CEO"
+      },
+      "companies": [
+        "Westhaven Gold Corp.",
+        "Dundee Corporation"
+      ],
+      "projects": [
+        "Shovelnose Gold-Silver Project"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/TaviCosta/status/2098526572529713496",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Otavio Costa发帖称白银矿企当前自由现金流为上一次峰值时的四倍。",
+          "evidence": "X原作者帖子正文直接写明Silver miners are now producing four times more free cash flow than they did at their last peak。",
+          "source_url": "https://x.com/TaviCosta/status/2098526572529713496",
+          "evidence_type": "original_x_post",
+          "period": "2026-09-12",
+          "unit": "relative free cash flow",
+          "value": "4x prior peak"
+        }
+      ],
+      "publish_time": "2026-09-12T05:38:18+08:00",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "excerpt": "Silver miners are now producing four times more free cash flow than they did at their last peak.",
+      "interpretation": "若该“四倍”比较口径得到财报或矿企样本支持，较高自由现金流可改善勘探、维护和扩产的供给激励；帖子未给出样本、期间和计算方法，不能直接推导产量增长。",
+      "importance": "4倍是明确的盈利能力锚点，供给传导路径是现金流改善后资本开支和项目开发能力增强。由于原帖没有披露比较基期、矿企范围或来源数据，该条只作为待核验的行业观点，不作为产量预测。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "http://www.china.org.cn/2026-09/12/content_118692334.shtml",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "中国2025年新发现200处非油气矿产地，其中16处为金矿。",
+          "evidence": "China.org.cn页面摘要与正文援引自然资源部报告给出该统计。",
+          "source_url": "http://www.china.org.cn/2026-09/12/content_118692334.shtml",
+          "evidence_type": "government_report_cited_by_source",
+          "period": "2025",
+          "unit": "deposits",
+          "value": "200 total; 16 gold"
+        },
+        {
+          "claim": "“十四五”期间中国发现大型和特大型战略性矿产地398处，包含铜、金、钾盐等矿种。",
+          "evidence": "China.org.cn正文对自然资源部报告的概述列出398处及相关矿种。",
+          "source_url": "http://www.china.org.cn/2026-09/12/content_118692334.shtml",
+          "evidence_type": "government_report_cited_by_source",
+          "period": "14th Five-Year Plan period",
+          "unit": "large and extra-large deposits",
+          "value": 398
+        }
+      ],
+      "publish_time": "2026-09-12",
+      "source": "China.org.cn",
+      "title": "200 mineral deposits newly discovered in China in 2025: Report",
+      "excerpt": "China.org.cn援引自然资源部报告称，2025年中国新发现200处非油气矿产地，其中包括16处金矿和11处铁矿；“十四五”期间发现大型、特大型战略性矿产地398处，涉及铜、金、钾盐等。",
+      "language": "en",
+      "interpretation": "这是勘探发现端的供给信号，不等于2026年矿山产量增加。16处金矿和398处战略性矿产地为资源基础提供规模锚点，但品位、可采性、项目审批和投产时间未在该报道中展开。",
+      "importance": "统计口径同时覆盖年度新发现与“十四五”累计发现，说明供给增量仍处在资源发现和储备形成阶段。对金的短期现货影响有限；若其中铜金项目完成评价、许可和建设，才可能在更长周期形成可交付供给。",
+      "verification_status": "verified",
+      "companies": [
+        "中国自然资源部"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "http://www.panorama-minero.com/en/news/vicuna-awards-63-6-km-of-the-northern-corridor-to-a-joint-venture-with-san-juan-participation",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Vicuña北部通道A1、A2段授标给Contreras、BBC和Construmin合资企业，路段长63.6公里。",
+          "evidence": "Panorama Minero正文列明承包联合体、A1/A2路段及Angualasto至Junta La Palca之间的63.6公里范围。",
+          "source_url": "http://www.panorama-minero.com/en/news/vicuna-awards-63-6-km-of-the-northern-corridor-to-a-joint-venture-with-san-juan-participation",
+          "evidence_type": "source_text",
+          "period": "2026-09-12",
+          "unit": "kilometres",
+          "value": 63.6
+        },
+        {
+          "claim": "63.6公里路段属于约220公里规划中的Vicuña项目未来通道。",
+          "evidence": "Panorama Minero正文称该工程对应北部通道约220公里规划，并服务项目后续阶段的物流需求。",
+          "source_url": "http://www.panorama-minero.com/en/news/vicuna-awards-63-6-km-of-the-northern-corridor-to-a-joint-venture-with-san-juan-participation",
+          "evidence_type": "source_text",
+          "period": "future project access route",
+          "unit": "kilometres",
+          "value": 220
+        }
+      ],
+      "publish_time": "2026-09-12T09:22:19+08:00",
+      "source": "Panorama Minero",
+      "title": "Vicuña Awards 63.6 km of the Northern Corridor to a Joint Venture with San Juan Participation",
+      "excerpt": "Vicuña将北部通道A1、A2段授予Contreras、BBC与Construmin组成的合资企业，路段长63.6公里，连接Angualasto与Junta La Palca，属于约220公里未来项目通道。",
+      "language": "en",
+      "interpretation": "通道授标改善Josemaría与Filo del Sol铜金银项目后续建设的物流可达性，属于供给链前置条件改善。授标不代表道路已完工，也不代表矿山当期产量或精矿供应已经增加。",
+      "importance": "已授标的63.6公里约占规划220公里的29%，项目基础设施从规划向施工合同推进了一步。其影响先体现在未来建设和物流风险下降，实际金属供给仍取决于施工进度、项目审批、资本投入及矿山开发时间表。",
+      "verification_status": "verified",
+      "companies": [
+        "Vicuña Corp.",
+        "BHP",
+        "Lundin Mining",
+        "Contreras",
+        "BBC",
+        "Construmin"
+      ],
+      "projects": [
+        "Josemaría",
+        "Filo del Sol",
+        "Northern Corridor"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "http://scanx.trade/stock-market-news/companies/kyrgyz-president-inaugurate-deccan-gold-mines-plant-september-12/50638497",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "吉尔吉斯斯坦总统于2026年9月12日为Altyn Tor金处理厂揭幕。",
+          "evidence": "ScanX正文及关键要点均写明Sadyr N. Japarov于September 12, 2026 inaugurated the Altyn Tor gold processing plant。",
+          "source_url": "http://scanx.trade/stock-market-news/companies/kyrgyz-president-inaugurate-deccan-gold-mines-plant-september-12/50638497",
+          "evidence_type": "source_text",
+          "period": "2026-09-12",
+          "unit": "event",
+          "value": "inauguration"
+        },
+        {
+          "claim": "Altyn Tor项目从勘探和开发阶段推进至生产阶段。",
+          "evidence": "ScanX项目里程碑段落明确写明The Altyn Tor Gold Project has progressed from exploration and development to production。",
+          "source_url": "http://scanx.trade/stock-market-news/companies/kyrgyz-president-inaugurate-deccan-gold-mines-plant-september-12/50638497",
+          "evidence_type": "source_text",
+          "period": "2026-09-12",
+          "unit": "project stage",
+          "value": "production stage"
+        }
+      ],
+      "publish_time": "2026-09-12T20:03:50+08:00",
+      "source": "ScanX",
+      "title": "Deccan Gold inaugurates Altyn Tor gold plant in Kyrgyzstan",
+      "excerpt": "ScanX报道吉尔吉斯斯坦总统Sadyr N. Japarov于2026年9月12日为Deccan Gold的Altyn Tor金矿处理厂线上揭幕，并称项目已从勘探开发阶段推进至生产阶段。",
+      "language": "en",
+      "interpretation": "这是金项目从开发准备向生产阶段切换的节点信号，但报道未披露首年产量、处理能力、回收率或销售数据。供给影响应先按产能投运准备度记录，待公司披露实际运行数据后再量化。",
+      "importance": "Altyn Tor从勘探开发转向生产阶段，意味着项目建设端的主要里程碑已经完成，潜在供给从资源端靠近可交付端。由于没有产量和爬坡时间表，当前不能把揭幕等同于新增金属产量，后续应跟踪处理厂运行、精矿/金属销售和现金成本。",
+      "verification_status": "verified",
+      "verification_note": "原始页面可访问；JSON-LD datePublished为2026-09-12T12:03:50.007Z且正文事件日期为9月12日，但页面可见时间行显示Published on 11 Sept、Updated on 12 Sept，日期冲突已保留。",
+      "companies": [
+        "Deccan Gold Mines Ltd.",
+        "Avelum Partner LLC"
+      ],
+      "projects": [
+        "Altyn Tor Gold Project"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "KER Westhaven Gold page: https://www.kereport.com/2026/09/11/westhaven-gold-ongoing-50000m-drill-program-at-the-shovelnose-gold-silver-project-in-british-columbia/",
+      "KER Jayant Bhandari page: https://www.kereport.com/2026/09/11/jayant-bhandari-commodities-are-the-place-to-be-in-this-market/",
+      "KER Weekend Show page: https://www.kereport.com/2026/09/12/the-weekend-show-axel-merk-tg-watkins/",
+      "Resource Talks results for 2026-09-10 through 2026-09-12"
+    ],
+    "part1_result": "已完成72小时窗口检索和页面核验；收录Westhaven Gold访谈1条。Jayant Bhandari及Weekend Show候选未形成同等强度的金银铜供需新增事实，因此未收录。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "scripts/x_search.py via Playwright",
+      "53 configured X accounts, processed serially",
+      "x_outputs/2026-09-12_x_raw_materials.txt",
+      "x_outputs/2026-09-12_x_raw_materials.json"
+    ],
+    "part2_result": "Playwright完成53/53账号，采集9条候选，0个账号失败；按金属供需相关性和信息完整度收录1条，其余8条保留为拒绝决策。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright真实完成全部账号；无需启动twscrape。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "MINING.COM gold category via Playwright: https://www.mining.com/commodity/gold/",
+      "MINING.COM silver category via Playwright: https://www.mining.com/commodity/silver/",
+      "MINING.COM copper category via Playwright: https://www.mining.com/commodity/copper/",
+      "China Daily mineral exploration AI report",
+      "China.org.cn mineral discoveries report: http://www.china.org.cn/2026-09/12/content_118692334.shtml",
+      "Panorama Minero Vicuña report: http://www.panorama-minero.com/en/news/vicuna-awards-63-6-km-of-the-northern-corridor-to-a-joint-venture-with-san-juan-participation",
+      "ScanX Deccan Gold report: http://scanx.trade/stock-market-news/companies/kyrgyz-president-inaugurate-deccan-gold-mines-plant-september-12/50638497",
+      "Pindula Zimbabwe gold deliveries report: https://www.pindula.co.zw/2026/09/12/gold-deliveries-rise-22-in-august-2026/",
+      "Fidelity Gold Refinery feed: https://fgr.co.zw/feed/"
+    ],
+    "part3_result": "完成报告日新闻检索；MINING.COM金银铜分类页均HTTP 200且真实零结果，备用检索和公开页面核验后收录3条。Pindula黄金交付量候选因原始页面HTTP 000/空回复、Herald替代页403而不纳入报告。",
+    "mining_com_source_note": "主路径按要求使用 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe 的Playwright Chromium headless访问 https://www.mining.com/commodity/{gold,silver,copper}/；三页对2026-09-12均返回HTTP 200、extraction_status=success_empty、article_count=0。备用Google site:mining.com检索遇到429/CAPTCHA或无可靠合格命中，未将其误写为零结果。",
+    "new_sources_discovered": [
+      "China.org.cn（新华社/自然资源部报告转述）",
+      "Panorama Minero",
+      "ScanX"
+    ],
+    "url_verification": {
+      "checked": 6,
+      "passed": 5,
+      "failed": 1,
+      "failures": [
+        {
+          "url": "https://www.pindula.co.zw/2026/09/12/gold-deliveries-rise-22-in-august-2026/",
+          "reason": "直接HTTPS请求HTTP 000/空回复；Herald替代报道返回403，核心数字未独立核验，因此未纳入信号。"
+        }
+      ],
+      "notes": [
+        "5条入选信号的原始页面或X页面已获取并核验标题、主体、日期和核心内容。",
+        "ScanX原始页面JSON-LD datePublished为2026-09-12，但可见时间行显示Published on 11 Sept、Updated on 12 Sept，报告卡保留冲突说明。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [],
+    "notes": "Kodiak Copper与American Pacific Mining候选的原文发布日期为2026-09-09，超出本日报Part 1和Part 3窗口，未收录。中国日报AI勘探系统消息缺少金银铜具体项目或产量传导，未收录。Pindula津巴布韦黄金交付量因来源访问失败未收录。ScanX页面日期冲突已在信号卡和URL核验备注中披露。"
+  }
+}
