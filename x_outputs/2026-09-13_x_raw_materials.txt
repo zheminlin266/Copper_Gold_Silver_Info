@@ -1,0 +1,72 @@
+X 原始候选 — 2026-09-13
+采集时间: 2026-09-14T07:27:03.015029+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text
+失败账号: 无
+============================================================
+
+总计候选: 8 条
+
+============================================================
+
+[1] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-13T00:07:08+00:00
+    北京: 2026-09-13T08:07:08+08:00
+    文本: Gold and the 10-year yield are sending the same message.
+    链接: https://x.com/Brien_Lundin/status/2098926416188297461
+
+[2] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-13T00:05:58+00:00
+    北京: 2026-09-13T08:05:58+08:00
+    文本: He's precisely correct. I've been writing about the positive correlation between gold and the 10-year yield since late June. They're sending the same message.
+    链接: https://x.com/Brien_Lundin/status/2098926121274270083
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-13T00:06:21+00:00
+    北京: 2026-09-13T08:06:21+08:00
+    文本: Platinum could outperform gold price as debasement trade regains momentum – WPIC | Kitco News
+    链接: https://x.com/silverguru22/status/2098926220016820560
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-09-13T00:04:45+00:00
+    北京: 2026-09-13T08:04:45+08:00
+    文本: UBS Sees Silver at $70 in 2026 and $80 by Late 2027 
+https://
+canadianminingreport.com/blog/ubs-forec
+asts-silver-at-70-in-2026-and-80-in-2027-could-silver-s-rally-have-further-to-run
+…
+    链接: https://x.com/silverguru22/status/2098925817451667651
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-09-13T00:03:22+00:00
+    北京: 2026-09-13T08:03:22+08:00
+    文本: Silver Surges Near $67 as Solar Makers Race to Cut It From Their Products - Startup Fortune
+    链接: https://x.com/silverguru22/status/2098925468892467223
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-09-13T00:01:44+00:00
+    北京: 2026-09-13T08:01:44+08:00
+    文本: Gold and silver prices drop sharply as oil rally and US rate uncertainty shake bullion market
+    链接: https://x.com/silverguru22/status/2098925058261741940
+
+[7] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-13T07:27:59+00:00
+    北京: 2026-09-13T15:27:59+08:00
+    文本: This week we discussed the latest developments in oil and gold markets on CNBC Arabia. We also spoke about the mounting problems for the US in the Middle East.
+    链接: https://x.com/wmiddelkoop/status/2099037360105087369
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-13T09:07:37+00:00
+    北京: 2026-09-13T17:07:37+08:00
+    文本: https://t.co/EfSlAggFak
+    链接: https://x.com/duediligenceguy/status/2099062435042750537
+

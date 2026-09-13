@@ -1,0 +1,203 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-13",
+  "report_time": "2026-09-14T07:36:00+08:00",
+  "summary": "黄金：Scottie Resources钻探结果和2028年首产计划改善中期潜在供给，但当前没有新增产量。白银：本窗口未发现经核验的新增供需信号。铜：Panguna重启准备受设备被毁扰动，远期供给兑现风险上升。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-11T00:00:00+08:00",
+      "end": "2026-09-13T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-13T00:00:00+08:00",
+      "end": "2026-09-13T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-13T00:00:00+08:00",
+      "end": "2026-09-13T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/13/scottie-resources-first-high-grade-gold-assay-results-from-the-52000-metre-2026-drill-program/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Scottie Resources在Blueberry Contact/Lemoffe矿脉钻孔中报告9.7 g/t金18.00米（含40.4 g/t金2.0米）、26.2 g/t金2.45米和14.6 g/t金2.45米的截段。",
+          "evidence": "KER访谈页的Highlights逐项列出SR26-492、SR26-489和SR26-490的金品位与截段长度。",
+          "source_url": "https://www.kereport.com/2026/09/13/scottie-resources-first-high-grade-gold-assay-results-from-the-52000-metre-2026-drill-program/",
+          "evidence_type": "direct interview page text",
+          "period": "2026-09-13 page; 2026 drilling results",
+          "unit": "g/t gold and metres",
+          "value": "9.7 g/t over 18.00 m including 40.4 g/t over 2.0 m; 26.2 g/t over 2.45 m; 14.6 g/t over 2.45 m"
+        },
+        {
+          "claim": "本季已完成160孔、超过40,000米钻探，预算内预计再完成12,000—16,000米；今年总钻探计划约52,000—56,000米，首产预期为2028年。",
+          "evidence": "KER访谈页列出已完成米数、孔数、预算内追加米数、年度计划及首产时间表。",
+          "source_url": "https://www.kereport.com/2026/09/13/scottie-resources-first-high-grade-gold-assay-results-from-the-52000-metre-2026-drill-program/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 drilling season; first production anticipated 2028",
+          "unit": "metres, holes, and year",
+          "value": ">40,000 m; 160 holes; additional 12,000-16,000 m; 52,000-56,000 m total; 2028 first production"
+        }
+      ],
+      "publish_date": "2026-09-13",
+      "title": "Scottie Resources：52,000米钻探计划首批高品位金矿化结果",
+      "source_type": "podcast",
+      "summary": "Scottie Resources执行主席Brad Rourke在KER介绍Blueberry Contact区首批钻探结果：多段高品位金截段，2026年已完成160孔、超过40,000米，预算内预计再完成12,000—16,000米，首产预期为2028年。",
+      "detail": "节目页称八台金刚石钻机正在作业，其中七台位于Scottie Gold Mine Project、一台位于Cambria Project；公司将在2026年数据完成后更新资源量，并以2027年公布可行性研究、2028年首产为当前路径。",
+      "importance": "这期访谈把勘探结果与可交付供给的时间表连接起来：钻探效率支持在现有预算内追加1.2万—1.6万米，有助于资源升级和项目评价，但不会改变2026年的实际产量。2027年资源更新与可研、2028年首产是兑现节点，待返化验结果及许可和建设执行仍是主要不确定性。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Brad Rourke",
+        "background": "Scottie Resources Corp. Executive Chairman"
+      },
+      "companies": [
+        "Scottie Resources Corp."
+      ],
+      "projects": [
+        "Scottie Gold Mine Project",
+        "Cambria Project",
+        "Blueberry Contact Zone",
+        "Lemoffe vein zone"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/pacific-island-bougainville-vows-action-after-alleged-mine-arson/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "涉嫌纵火烧毁了Lloyds Metals & Energy在Panguna矿区营地的重型设备和车辆，Bougainville政府随后表示将采取行动。",
+          "evidence": "Mining.com文章正文报道设备损毁、Lloyds承包商身份和Bougainville政府表态。",
+          "source_url": "https://www.mining.com/web/pacific-island-bougainville-vows-action-after-alleged-mine-arson/",
+          "evidence_type": "direct Mining.com article text",
+          "period": "2026-09-13",
+          "unit": "event",
+          "value": "equipment and vehicles destroyed by alleged arson"
+        },
+        {
+          "claim": "Panguna剩余储量估计为530万吨铜和1,930万盎司黄金；2020年估算重建并恢复全面运营需7—8年和50—60亿美元。",
+          "evidence": "Mining.com正文同时给出2020年重建估算和剩余铜金储量估计，并明确这些是项目重启背景数据。",
+          "source_url": "https://www.mining.com/web/pacific-island-bougainville-vows-action-after-alleged-mine-arson/",
+          "evidence_type": "direct Mining.com article text",
+          "period": "2020 restart estimate; remaining project reserves as reported in 2026",
+          "unit": "tonnes copper; troy ounces gold; years; USD",
+          "value": "5.3 million t copper; 19.3 million oz gold; 7-8 years; $5-6 billion"
+        }
+      ],
+      "publish_time": "2026-09-13",
+      "source": "Mining.com",
+      "title": "Panguna矿区设备遭纵火，Bougainville承诺推进铜金矿重启",
+      "excerpt": "Mining.com援引Bloomberg News报道，Panguna重启准备阶段Lloyds Metals & Energy营地的重型设备和车辆遭涉嫌纵火毁坏；文章称项目剩余储量估计为530万吨铜和1,930万盎司黄金，2020年估算全面重启需7—8年、50—60亿美元。",
+      "language": "en",
+      "interpretation": "设备损毁发生在可行性研究和重启准备阶段，首先影响现场动员与开发时间表，不代表当前在产矿山减产。Panguna曾于1989年停产，后续还受治理、社区、监管、安全和资本执行约束；储量估计与历史重建成本不能直接转化为可交付供给。",
+      "importance": "设备被毁直接增加Panguna重启前可研和现场动员的不确定性，影响的是远期供给管线而非当前产量。2020年估算的7—8年、50—60亿美元重建周期已显示兑现较慢；即便530万吨铜和1,930万盎司黄金储量可验证，治理、社区与安全风险仍可能把首产进一步后移。",
+      "verification_status": "verified",
+      "companies": [
+        "Lloyds Metals & Energy Ltd.",
+        "Bougainville Copper Limited",
+        "CMOC Group",
+        "Rio Tinto Group"
+      ],
+      "projects": [
+        "Panguna mine"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页由固定Python Playwright主路径提取该报告日候选；直接HTTP请求返回403，随后使用同一反检测Playwright Chrome会话打开文章，HTTP 200并提取正文核验。",
+      "source_channel": "playwright"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "KER首页及2026-09-13 Scottie Resources访谈页：HTTP 200；核对标题、页面日期、嘉宾、钻探数字、资源更新和2028年首产时间表。",
+      "Resource Talks首页及2026-09-11至09-13日期范围：检查公开节目入口，未发现可打开且有新增金银铜供需事实的合格访谈。",
+      "Mining Stock Daily Episodes页：检查2026-09-11至09-13节目列表，未发现比最近日报新增且可核验的合格节目。",
+      "The Northern Miner podcast入口：请求返回404，未据此补写任何候选。",
+      "data/conference_calendar.json：检查Denver Gold Forum、Precious Metals Summit及其他会议入口和回放线索，报告日窗口内未发现合格、未重复的公开回放。",
+      "data/2026-09-11.json、data/2026-09-12.json：完成URL和实质事件去重；Westhaven Gold访谈已在2026-09-12日报纳入。"
+    ],
+    "part1_result": "完成北京时间2026-09-11至09-13的Podcast、Webcast、YouTube和会议回放检索；收录KER的Scottie Resources访谈1条。其他入口未发现可核验的新增金银铜供需事实，或内容为宏观/价格观点、重复事件。",
+    "part2_searched": true,
+    "part2_sources_checked": [
+      "C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-13 --collect-x；内部调用scripts/x_search.py。",
+      "Playwright先串行处理53个账号，52个账号完成；@duediligenceguy正文提取失败后仅将该账号交给twscrape，最终53/53完成、0失败。",
+      "x_outputs/2026-09-13_x_raw_materials.txt及x_outputs/2026-09-13_x_raw_materials.json：保留8条原始候选、选定通道和sidecar审计。"
+    ],
+    "part2_result": "Part 2完整：Playwright+twscrape按有序前缀完成53/53账号，0个账号失败，取得8条原始候选；按原作者、正文、日期、链接及供需标准筛选后0条纳入。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+      ],
+      "notes": [
+        "Playwright完成52个账号；仅未完成的@duediligenceguy账号按规则交给twscrape，最终全账号覆盖完成。",
+        "8条原始候选均保留在按报告日命名的txt和JSON sidecar；没有把价格/宏观帖写成供需信号。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com https://www.mining.com/commodity/copper/：固定Python Playwright Chromium主路径，HTTP 200，DOM提取1条2026-09-13候选；Panguna文章为合格铜金供给管线信号。",
+      "Mining.com https://www.mining.com/commodity/gold/：固定Python Playwright主路径，HTTP 200，提取2条2026-09-13候选；BMO投资展望不构成具体供需信号，Bougainville候选在铜页已统一处理，未重复收录。",
+      "Mining.com https://www.mining.com/commodity/silver/：固定Python Playwright主路径，HTTP 200，报告日候选0条。",
+      "Mining.com Panguna文章逐篇核验：直接HTTP请求HTTP 403；同一Playwright Chrome会话打开成功HTTP 200，提取正文、标题、日期和核心储量/重启数字。",
+      "Mining.com BMO文章逐篇核验：直接HTTP请求HTTP 403；同一Playwright Chrome会话打开成功HTTP 200，因内容为宽泛投资展望而排除。",
+      "Google site:mining.com gold September 13 2026：HTTP 429，0个可靠命中；仅作辅助发现，未替代Playwright分类页。",
+      "Google site:mining.com silver September 13 2026：HTTP 429，0个可靠命中；仅作辅助发现，未替代Playwright分类页。",
+      "Google site:mining.com copper September 13 2026：HTTP 429，0个可靠命中；铜分类页已成功获得合格候选，未依赖该备用搜索。",
+      "SMM中文公开首页及中文检索入口：页面可打开但未发现报告日可核验金银铜供需条目；没有使用搜索摘要单独写入事实。",
+      "SMM英文公开首页及英文检索入口：页面可打开但未发现报告日可核验金银铜供需条目；没有使用搜索摘要单独写入事实。",
+      "Bing中文/英文日期检索：结果无可靠报告日金银铜供需页面，作为发现渠道记录，未作为证据。",
+      "data/2026-09-11.json、data/2026-09-12.json：完成跨日报URL、项目、事件和核心数字去重。"
+    ],
+    "part3_result": "完成北京时间2026-09-13英文和中文来源检索；Mining.com三金属分类页Playwright主路径均成功，逐篇核验2篇报告日文章，最终收录Panguna铜金矿重启受扰1条。BMO投资展望、价格/宏观内容和无可靠中文报告日页面均未纳入。",
+    "mining_com_source_note": "严格执行Mining.com铜分类页Playwright主路径并辅助抓取金、银分类页；铜/金/银分别提取1/2/0条报告日候选。入选Panguna文章的直接HTTP请求被CloudFront返回403，使用同一Playwright Chrome会话成功提取正文；Google site:备用查询均HTTP 429，未把搜索结果当作证据。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 11,
+      "passed": 10,
+      "failed": 1,
+      "failures": [
+        {
+          "url": "https://x.com/duediligenceguy/status/2099062435042750537",
+          "reason": "twscrape保留了原帖短链接，但Playwright正文提取为空，无法核验短链接指向内容；已排除，不作为报告事实。"
+        }
+      ],
+      "notes": [
+        "入选的KER访谈页和Mining.com Panguna文章均已直接打开并核对标题、日期、主体及核心数字，标记verified。",
+        "BMO Mining.com文章已用Playwright打开并核对，但因缺少具体金银铜供需变化而排除；其余X候选均有采集器原帖正文或明确排除理由。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/11/westhaven-gold-ongoing-50000m-drill-program-at-the-shovelnose-gold-silver-project-in-british-columbia/：已在2026-09-12日报纳入。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/Brien_Lundin/status/2098926121274270083：与同日Brien Lundin相关性评论重复且无新增供需事实。",
+      "https://x.com/silverguru22/status/2098925817451667651：价格目标，按工作流排除。",
+      "https://x.com/silverguru22/status/2098925468892467223：价格标题，未提供可核验用银量或替代事实。"
+    ],
+    "part3_deduped_events": [],
+    "notes": "候选先按2026-09-11至09-13窗口筛选，再与最近两份日报比较URL、项目、事件和核心数字；BMO加拿大矿业投资展望虽已打开核验，但因泛化投资建议和缺少具体金银铜供需变化排除。"
+  }
+}

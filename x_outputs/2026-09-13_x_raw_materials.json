@@ -1,0 +1,127 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-13",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-8c5979e49b2181af422e788c",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-13T00:07:08+00:00",
+      "text": "Gold and the 10-year yield are sending the same message.",
+      "url": "https://x.com/Brien_Lundin/status/2098926416188297461",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-bfef707bd94f56a520bb6413",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-13T00:05:58+00:00",
+      "text": "He's precisely correct. I've been writing about the positive correlation between gold and the 10-year yield since late June. They're sending the same message.",
+      "url": "https://x.com/Brien_Lundin/status/2098926121274270083",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8fb0f5d976b9a62beb4a8d33",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-13T00:06:21+00:00",
+      "text": "Platinum could outperform gold price as debasement trade regains momentum – WPIC | Kitco News",
+      "url": "https://x.com/silverguru22/status/2098926220016820560",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a9aa2c85d26eafaa28c2c39a",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-13T00:04:45+00:00",
+      "text": "UBS Sees Silver at $70 in 2026 and $80 by Late 2027 \nhttps://\ncanadianminingreport.com/blog/ubs-forec\nasts-silver-at-70-in-2026-and-80-in-2027-could-silver-s-rally-have-further-to-run\n…",
+      "url": "https://x.com/silverguru22/status/2098925817451667651",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-84a848efa5d79ee3b3e1969f",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-13T00:03:22+00:00",
+      "text": "Silver Surges Near $67 as Solar Makers Race to Cut It From Their Products - Startup Fortune",
+      "url": "https://x.com/silverguru22/status/2098925468892467223",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-139fef532fc750fad7209488",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-13T00:01:44+00:00",
+      "text": "Gold and silver prices drop sharply as oil rally and US rate uncertainty shake bullion market",
+      "url": "https://x.com/silverguru22/status/2098925058261741940",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6ade9c70f5cdc880428f7f9b",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-13T07:27:59+00:00",
+      "text": "This week we discussed the latest developments in oil and gold markets on CNBC Arabia. We also spoke about the mounting problems for the US in the Middle East.",
+      "url": "https://x.com/wmiddelkoop/status/2099037360105087369",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4cf146709da26bee0f33eb55",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-13T09:07:37+00:00",
+      "text": "https://t.co/EfSlAggFak",
+      "url": "https://x.com/duediligenceguy/status/2099062435042750537",
+      "collector": "x_search",
+      "report_date": "2026-09-13",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+  }
+}
