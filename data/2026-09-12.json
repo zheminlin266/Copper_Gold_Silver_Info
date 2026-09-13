@@ -1,7 +1,7 @@
 {
   "schema_version": 3,
   "date": "2026-09-12",
-  "report_time": "2026-09-13T08:04:52+08:00",
+  "report_time": "2026-09-13T08:07:41+08:00",
   "summary": "黄金：Westhaven扩大Shovelnose金银项目钻探，中国官方披露金矿产勘探增量，Altyn Tor金厂进入投产阶段。白银：矿企现金流改善观点可能增强供给激励，但口径仍待核验。铜：Vicuña北部通道授标推进项目可达性，短期供给量尚未增加。",
   "windows": {
     "part1": {
@@ -270,9 +270,12 @@
     },
     "part3_searched": true,
     "part3_sources_checked": [
-      "MINING.COM gold category via Playwright: https://www.mining.com/commodity/gold/",
-      "MINING.COM silver category via Playwright: https://www.mining.com/commodity/silver/",
-      "MINING.COM copper category via Playwright: https://www.mining.com/commodity/copper/",
+      "MINING.COM /commodity/copper/ via Playwright: HTTP 200, 0 qualifying 2026-09-12 articles (success_empty); no article URL needed verification.",
+      "MINING.COM /commodity/gold/ via Playwright: HTTP 200, 0 qualifying 2026-09-12 articles (success_empty).",
+      "MINING.COM /commodity/silver/ via Playwright: HTTP 200, 0 qualifying 2026-09-12 articles (success_empty).",
+      "Google site:mining.com gold September 12 2026 fallback: blocked by 429/CAPTCHA or yielded no reliable qualifying hit.",
+      "Google site:mining.com silver September 12 2026 fallback: blocked by 429/CAPTCHA or yielded no reliable qualifying hit.",
+      "MINING.COM article-level verification: no qualifying category-page article was extracted, so no article-level path was required.",
       "China Daily mineral exploration AI report",
       "China.org.cn mineral discoveries report: http://www.china.org.cn/2026-09/12/content_118692334.shtml",
       "Panorama Minero Vicuña report: http://www.panorama-minero.com/en/news/vicuna-awards-63-6-km-of-the-northern-corridor-to-a-joint-venture-with-san-juan-participation",
