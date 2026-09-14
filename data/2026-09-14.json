@@ -1,0 +1,427 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-14",
+  "report_time": "2026-09-15T07:40:02+08:00",
+  "summary": "黄金：Cariboo正式转入建设、Monument Bay更新资源，潜在供给管线增强但均未形成当期产量。白银：Boumadine更新经济性并扩大14年期产量规划，实际供给仍待融资建设。铜：美国入股Trilogy推进Arctic许可与基础设施，Makoko资源增长强化中长期供给潜力，短期产量未变。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-12T00:00:00+08:00",
+      "end": "2026-09-14T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-14T00:00:00+08:00",
+      "end": "2026-09-14T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-14T00:00:00+08:00",
+      "end": "2026-09-14T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/14/inflection-resources-trangie-exploration-update-92-holes-completed-anglogold-ashanti-as-exploration-partner/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Trangie项目正在完成92孔、超过16000米的air-core钻探计划，并在AngloGold Ashanti勘探协议下推进。",
+          "evidence": "KER访谈页正文及要点列出92孔、超过16000米计划和AngloGold Ashanti协议。",
+          "source_url": "https://www.kereport.com/2026/09/14/inflection-resources-trangie-exploration-update-92-holes-completed-anglogold-ashanti-as-exploration-partner/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration program",
+          "unit": "holes and metres",
+          "value": "92 holes; over 16,000 m"
+        },
+        {
+          "claim": "Endurance项目Big Eye和Barrel Eye异常已完成重力与诱导极化调查，访谈页称其将为大型IOCG目标的首次侦察钻探铺路。",
+          "evidence": "KER访谈页的Target Definition要点明确列出调查类型、异常名称和后续首轮侦察钻探。",
+          "source_url": "https://www.kereport.com/2026/09/14/inflection-resources-trangie-exploration-update-92-holes-completed-anglogold-ashanti-as-exploration-partner/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration update",
+          "unit": "survey and drilling milestone",
+          "value": "gravity and IP surveys; maiden scout drilling planned"
+        }
+      ],
+      "publish_date": "2026-09-14",
+      "title": "Inflection Resources：Trangie完成92孔勘探，AngloGold Ashanti参与合作",
+      "source_type": "podcast",
+      "summary": "Inflection Resources首席执行官Alistair Waddell在KER介绍澳大利亚铜金组合：Trangie在AngloGold Ashanti协议下推进92孔、超过16000米钻探，Endurance的重力和诱导极化调查为IOCG首轮侦察钻探做准备。",
+      "detail": "节目页还说明Trangie将通过多元素化验和蚀变范围寻找类似Northparkes的碱性斑岩集群；完整化验结果和Endurance后续钻探仍是项目由靶区走向资源量的关键验证。",
+      "importance": "这条访谈把澳大利亚铜金勘探从靶区识别推进到有明确工作量的钻探节点：92孔、逾1.6万米计划与Endurance首钻安排构成中长期供给管线的实物锚点。影响尚未兑现，完整化验、矿化连续性和后续许可及资金执行决定能否转化为资源量，不能计入当前产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Alistair Waddell",
+        "background": "Inflection Resources President and CEO"
+      },
+      "companies": [
+        "Inflection Resources",
+        "AngloGold Ashanti"
+      ],
+      "projects": [
+        "Trangie Project",
+        "Endurance Project"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/silver-stocks/high-grade-silver-veins-in-mexico-but-are-the-widths-mineable/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mercado Minerals在Copalito完成跨7条构造的25孔首轮钻探，并将累计矿脉走向扩展至约11公里，其中包括从未钻探的1100米Renata矿脉。",
+          "evidence": "Resource Talks访谈页TL;DR和正文直接列出25孔、7条构造、约11公里和1100米Renata矿脉。",
+          "source_url": "https://resourcetalks.com/silver-stocks/high-grade-silver-veins-in-mexico-but-are-the-widths-mineable/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 maiden program and current exploration update",
+          "unit": "holes and metres",
+          "value": "25 holes; seven structures; about 11 km strike; 1,100 m Renata vein"
+        },
+        {
+          "claim": "公司现金略低于300万加元，访谈页称10000米Phase II钻探成本超过300万加元；Zamora约3000公顷特许权预计在五至六个月内恢复有效状态。",
+          "evidence": "Resource Talks访谈页的TL;DR、资金段和Upcoming catalysts段直接列出现金、Phase II成本和Zamora时间表。",
+          "source_url": "https://resourcetalks.com/silver-stocks/high-grade-silver-veins-in-mexico-but-are-the-widths-mineable/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 interview outlook",
+          "unit": "CAD, metres, hectares, and months",
+          "value": "under C$3m cash; Phase II up to 10,000 m costs over C$3m; about 3,000 ha in 5-6 months"
+        }
+      ],
+      "publish_date": "2026-09-14",
+      "title": "High-Grade Silver Veins in Mexico, But Are the Widths Mineable?",
+      "source_type": "youtube",
+      "summary": "Resource Talks访谈Mercado Minerals，讨论墨西哥Copalito银矿25孔首轮钻探、约11公里矿脉走向和未钻探的1100米Renata矿脉；Phase II钻探及Zamora复工准备仍待资金、许可和安全条件。",
+      "detail": "访谈页称Copalito首轮计划覆盖7条构造，化验结果在夏季陆续返回；公司尚未承诺资源量或冶金工作，Phase II规模可能为3000—10000米，Zamora则在处理社区准入、许可和约3000公顷特许权状态。",
+      "importance": "25孔首钻完成并把未钻的1100米Renata矿脉纳入下一阶段，说明白银供给故事仍处于靶区扩展和化验验证阶段。Phase II若达到3000—10000米将超过现有近300万加元现金规模，资金稀释、Sinaloa安全和矿化连续性是中期兑现约束，目前不能外推产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Mercado Minerals"
+      ],
+      "projects": [
+        "Copalito",
+        "Zamora",
+        "San Rafael",
+        "La California"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/roosens-osisko-greenlights-cariboo-gold-project-in-bc/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Osisko Gold决定建设价值8.41亿美元的Cariboo地下金矿，目标为2029年初首浇金，商业生产预计在2029年下半年开始。",
+          "evidence": "Mining.com文章正文直接列出最终投资决定、建设成本、首浇金和商业生产时间表。",
+          "source_url": "https://www.mining.com/roosens-osisko-greenlights-cariboo-gold-project-in-bc/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026-09-14 decision; 2029 production schedule",
+          "unit": "USD, date, and project milestone",
+          "value": "$841 million; first pour early 2029; commercial production H2 2029"
+        },
+        {
+          "claim": "2025年可研预计Cariboo在10年寿命期生产约189万盎司黄金；截至7月底项目约完成22%，地下开发约3公里。",
+          "evidence": "Mining.com正文同时列出可研生产量、项目完成度和地下开发进度。",
+          "source_url": "https://www.mining.com/roosens-osisko-greenlights-cariboo-gold-project-in-bc/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2025 feasibility study and July 2026 construction status",
+          "unit": "troy ounces, years, percent, and kilometres",
+          "value": "1.89 million oz over 10 years; 22% complete; 3 km underground development"
+        }
+      ],
+      "publish_time": "2026-09-14T23:12:25+08:00",
+      "source": "Mining.com",
+      "title": "Osisko批准推进Cariboo金矿项目建设",
+      "excerpt": "Mining.com报道，Osisko Gold决定建设不列颠哥伦比亚省Cariboo地下金矿，项目投资约8.41亿美元，目标2029年初首浇金、2029年下半年商业生产；截至7月底项目约完成22%，地下开发约3公里。",
+      "language": "en",
+      "interpretation": "这是从开发向主动建设转换的供给管线里程碑，已完成的地下工程和融资安排降低了部分执行不确定性，但仍处于建设期。2025年可研的189万盎司为项目生命周期规划值，不代表2026年新增矿山产量。",
+      "importance": "Cariboo的最终投资决定把一项规划产能推进到有建设预算和首浇时间表的阶段，供给兑现概率高于单纯资源或勘探项目。2029年首产仍受30个月建设、长周期设备和融资交割约束，短期现货供给不会因本次决定增加。",
+      "verification_status": "verified",
+      "companies": [
+        "Osisko Gold Group",
+        "Trafigura"
+      ],
+      "projects": [
+        "Cariboo underground mine"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径及金分类页均提取到该报告日候选；文章直接请求HTTP 403，随后用同一反检测Chrome Playwright会话打开，HTTP 200，核对标题、2026-09-14日期、建设金额、首产时间和可研产量。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/ongold-revives-monument-bay-with-2m-oz-resource/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "ONGold公布Monument Bay金矿项目7400万吨测定与指示资源、品位0.84克/吨、含金约200万盎司，另有2450万吨推断资源、品位0.62克/吨、含金49.1万盎司。",
+          "evidence": "Mining.com正文直接列出资源量、品位和含金量，并说明采用0.2克/吨边界品位和每盎司3000美元金价。",
+          "source_url": "https://www.mining.com/ongold-revives-monument-bay-with-2m-oz-resource/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026-09-14 resource update",
+          "unit": "million tonnes, grams per tonne, and troy ounces",
+          "value": "74.4 Mt at 0.84 g/t for 2.0 Moz M&I; 24.5 Mt at 0.62 g/t for 0.491 Moz inferred"
+        },
+        {
+          "claim": "SRK建议先开展20孔、11150米钻探，重点测试现有露天坑壳下方及东部高品位区域。",
+          "evidence": "Mining.com正文的Deeper targets段直接列出初始钻探规模和目标区域。",
+          "source_url": "https://www.mining.com/ongold-revives-monument-bay-with-2m-oz-resource/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 follow-up exploration plan",
+          "unit": "holes and metres",
+          "value": "20 holes; 11,150 m"
+        }
+      ],
+      "publish_time": "2026-09-14T23:05:44+08:00",
+      "source": "Mining.com",
+      "title": "ONGold以200万盎司资源重启Monument Bay金矿",
+      "excerpt": "Mining.com报道，ONGold为沉寂近十年的Manitoba Monument Bay项目建立新的资源模型：测定与指示资源约200万盎司，推断资源约49.1万盎司；SRK建议后续开展20孔、11150米钻探。",
+      "language": "en",
+      "interpretation": "资源更新增加了项目进入后续评价和钻探阶段的供给基础，但资源量不等同于储量或可采产量。新模型采用较低边界品位，且项目仍需深部钻探、经济评价、许可和建设，兑现时间处于中长期。",
+      "importance": "Monument Bay从历史资产恢复为有当前资源模型的开发候选，200万盎司测定与指示资源和11150米后续钻探为规模扩张提供了量化抓手。由于资源仍非储量，品位与采矿方案尚待验证，短期不会改变金矿实际供应。",
+      "verification_status": "verified",
+      "companies": [
+        "ONGold Resources",
+        "Agnico Eagle Mines",
+        "Yamana Gold"
+      ],
+      "projects": [
+        "Monument Bay gold project"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径未将该金文章作为铜候选，金/银分类页提取到该报告日候选；文章直接请求HTTP 403，使用同一反检测Chrome Playwright会话HTTP 200核验正文、资源数字和钻探计划。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/us-government-secures-10-stake-in-trilogy-metals/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "美国政府完成对Trilogy Metals的3560万美元投资并成为其10%股东，资金将支持阿拉斯加Upper Kobuk Mineral Projects的勘探开发。",
+          "evidence": "Mining.com正文直接列出投资金额、持股比例、项目范围和资金再投入安排。",
+          "source_url": "https://www.mining.com/us-government-secures-10-stake-in-trilogy-metals/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026-09-14 investment closing",
+          "unit": "USD and percent",
+          "value": "$35.6 million; 10% ownership"
+        },
+        {
+          "claim": "Arctic项目技术报告规划13年矿山寿命，年均应付产量约1.49亿磅铜、1.73亿磅锌、32538盎司黄金和280万盎司白银；联邦许可流程预计于2028年末完成。",
+          "evidence": "Mining.com正文的Arctic advances段直接列出技术报告产量、许可申请和时间表。",
+          "source_url": "https://www.mining.com/us-government-secures-10-stake-in-trilogy-metals/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "technical report and permitting outlook",
+          "unit": "years, pounds, troy ounces, and date",
+          "value": "13 years; 149 million lb copper; 173 million lb zinc; 32,538 oz gold; 2.8 million oz silver; late 2028"
+        }
+      ],
+      "publish_time": "2026-09-14T20:05:00+08:00",
+      "source": "Mining.com",
+      "title": "美国政府入股Trilogy Metals，推进阿拉斯加铜项目",
+      "excerpt": "Mining.com报道，美国政府完成3560万美元投资并取得Trilogy Metals 10%股权，资金将投入阿拉斯加Upper Kobuk项目；Arctic技术报告规划13年矿山寿命，年均应付铜产量约1.49亿磅，联邦许可预计2028年末完成。",
+      "language": "en",
+      "interpretation": "政府资本、许可协调和340公里Ambler Road支持改善了远程项目的前置条件，但股权投资不等于矿山获批或建设开始。Arctic仍受Section 404许可、基础设施和环境及原住民反对影响，供给兑现至少在中长期。",
+      "importance": "3560万美元政府资本与许可、道路支持同时落地，使Arctic从单一公司开发议题变成美国关键矿产政策的一部分，未来铜供给的项目可达性有所改善。规划中的年均1.49亿磅铜要到许可、道路和建设完成后才可能兑现，2028年许可节点是最早的验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "Trilogy Metals",
+        "South32",
+        "Ambler Metals"
+      ],
+      "projects": [
+        "Upper Kobuk Mineral Projects",
+        "Arctic project",
+        "Ambler Road"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径HTTP 200提取该报告日候选；直接文章请求HTTP 403，随后以同一反检测Chrome Playwright会话HTTP 200提取并核对政府投资、技术报告、许可和道路信息。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://news.smm.cn/news/104113821",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "SMM转载自然资源部页面称，Aya Gold & Silver更新Boumadine初步经济评价，按金价3500美元/盎司和银价50美元/盎司假设，税后净现值为35亿美元、初始投资4.63亿美元、矿山寿命14年。",
+          "evidence": "SMM页面标题、发布时间、来源链接和正文直接列出经济评价假设、NPV、资本开支与寿命。",
+          "source_url": "https://news.smm.cn/news/104113821",
+          "evidence_type": "direct SMM page with linked Ministry of Natural Resources source",
+          "period": "2026-09-14 updated PEA",
+          "unit": "USD, years, and USD per troy ounce",
+          "value": "$3.5 billion after-tax NPV; $463 million initial investment; 14 years; $3,500 gold and $50 silver assumptions"
+        },
+        {
+          "claim": "更新研究预计14年生产期产出225万盎司黄金、8120万盎司白银、42.2万吨锌和19.5万吨铅，并规划日处理8000吨矿石。",
+          "evidence": "SMM页面正文直接列出14年产量规划和选厂处理能力。",
+          "source_url": "https://news.smm.cn/news/104113821",
+          "evidence_type": "direct SMM page with linked Ministry of Natural Resources source",
+          "period": "updated PEA production plan",
+          "unit": "troy ounces, tonnes, and tonnes per day",
+          "value": "2.25 Moz gold; 81.2 Moz silver; 422,000 t zinc; 195,000 t lead; 8,000 tpd"
+        }
+      ],
+      "publish_time": "2026-09-14T19:40:00+08:00",
+      "source": "SMM（来源：自然资源部）",
+      "title": "摩洛哥布马丁多金属矿经济性提升",
+      "excerpt": "SMM转载自然资源部信息称，Aya Gold & Silver更新摩洛哥Boumadine项目初步经济评价：在金价3500美元/盎司、银价50美元/盎司假设下，税后净现值35亿美元、初始投资4.63亿美元、矿山寿命14年；规划产出225万盎司黄金和8120万盎司白银。",
+      "language": "zh",
+      "interpretation": "这是项目经济评价和规划产量信号，核心数字受金银价格假设、品位下降、融资和许可条件影响。项目虽已有采矿许可证并计划推进2027年下半年可行性研究，仍不能将规划产量计入当前白银或黄金供应。",
+      "importance": "Boumadine把金银潜在供给从资源叙事推进到有14年矿山寿命、初始资本开支和处理能力的经济评价阶段，远期供给可量化程度提高。2027年下半年可研、融资与建设是兑现节点，且规划产量依赖金银价格假设和品位，短期现货影响有限。",
+      "verification_status": "verified",
+      "companies": [
+        "Aya Gold & Silver",
+        "自然资源部"
+      ],
+      "projects": [
+        "Boumadine polymetallic project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/news/104113820",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "SMM转载自然资源部页面称，Ivanhoe Mines的刚果（金）Makoko项目铜金属资源量约1200万吨，较2025年估算增加30%；最新估算包括4200万吨、铜品位2.66%的推定矿石资源和6.12亿吨、品位1.8%的推测矿石资源。",
+          "evidence": "SMM页面正文、来源链接和引用的资源更新内容直接列出资源量、同比变化和两类资源口径。",
+          "source_url": "https://news.smm.cn/news/104113820",
+          "evidence_type": "direct SMM page with linked Ministry of Natural Resources source",
+          "period": "2026-09-14 reprint of 2026 resource update",
+          "unit": "tonnes and percent copper grade",
+          "value": "about 12 Mt contained copper; +30% versus 2025; 42 Mt at 2.66% indicated and 612 Mt at 1.8% inferred ore"
+        },
+        {
+          "claim": "公司计划在2027年第一季度开始Makoko概略研究，2026年约6万米钻探尚未纳入最新资源量估算。",
+          "evidence": "SMM页面正文直接列出概略研究时间和未纳入资源量的钻探规模。",
+          "source_url": "https://news.smm.cn/news/104113820",
+          "evidence_type": "direct SMM page with linked Ministry of Natural Resources source",
+          "period": "2026 drilling and 2027 Q1 study plan",
+          "unit": "metres and date",
+          "value": "about 60,000 m drilling; PEA planned for Q1 2027"
+        }
+      ],
+      "publish_time": "2026-09-14T19:41:00+08:00",
+      "source": "SMM（来源：自然资源部）",
+      "title": "刚果（金）马库库铜矿资源量大增",
+      "excerpt": "SMM转载自然资源部信息称，Ivanhoe Mines的Makoko铜矿铜金属资源量约1200万吨，较2025年估算增30%；2027年第一季度计划启动概略研究，2026年约6万米钻探尚未纳入最新资源量估算。",
+      "language": "zh",
+      "interpretation": "资源量增长扩大了刚果（金）中长期铜供给管线，但推定和推测资源仍需进一步钻探、经济评价、许可和建设，不能等同于储量或当前产量。项目邻近Kamoa-Kakula基础设施的叙述改善了潜在开发路径，兑现时间仍取决于后续研究和资本执行。",
+      "importance": "Makoko的铜资源量同比增加30%，且尚有约6万米钻探未计入模型，说明项目规模仍可能上修，未来供给弹性高于一次性资源公告。2027年第一季度概略研究是把地质规模转成经济可开发性的首个时间锚点，短期铜矿产量不会因此增加。",
+      "verification_status": "verified",
+      "companies": [
+        "Ivanhoe Mines"
+      ],
+      "projects": [
+        "Makoko copper project",
+        "Western Forelands"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Korelin Economics Report首页及2026-09-14 Inflection Resources访谈页：HTTP 200；核对标题、日期、嘉宾、92孔、超过16000米、AngloGold Ashanti协议和Endurance调查要点。",
+      "Resource Talks WordPress公开接口及2026-09-14 Mercado Minerals访谈页：HTTP 200；核对标题、发布日期、25孔首轮钻探、约11公里矿脉走向、Renata矿脉、现金和Phase II计划。",
+      "Mining Stock Daily Episodes首页及2026-09-14 Blue Moon Metals页面：HTTP 200；核对日期和页面内容，主要为钨、锑及关键矿产主题，Nussir铜项目只有摘要级提及，未纳入完整铜供需卡。",
+      "The Northern Miner首页及公开入口：检查2026-09-12至09-14节目/视频和报告日更新；发现的Cariboo、Monument Bay、Trilogy新闻与Part 3 Mining.com事件重复，没有新增访谈事实。",
+      "Denver Gold Forum、Precious Metals Summit公开首页及data/conference_calendar.json：检查会议日期、回放和演示入口，报告日窗口内未发现可核验且未重复的金银铜访谈。",
+      "data/2026-09-11.json、data/2026-09-12.json、data/2026-09-13.json：完成URL、项目、事件和核心数字跨日报去重。"
+    ],
+    "part1_result": "完成北京时间2026-09-12至09-14的Podcast、YouTube、Webcast和会议回放检索；收录Inflection Resources和Mercado Minerals访谈各1条。Blue Moon页面的主要事实属于钨锑，宏观/价格内容、重复新闻和非目标金属内容均排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-14 --collect-x；内部调用scripts/x_search.py。",
+      "Playwright持久会话按注册表顺序串行处理53个账号，53/53完成、0失败，未启动twscrape。",
+      "x_outputs/2026-09-14_x_raw_materials.txt及x_outputs/2026-09-14_x_raw_materials.json：保留4条原始候选、账号覆盖、尝试路径和选定通道。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号、0个账号失败，取得4条原始候选；按原作者、正文、日期、原帖URL和供需标准筛选后0条纳入。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright真实完成全部53个账号；无登录墙、challenge、CAPTCHA或账号级失败。",
+        "4条原始候选均保留在按报告日命名的txt和JSON sidecar，均因价格/宏观/信息不足排除。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com https://www.mining.com/commodity/copper/：固定Python Playwright Chromium主路径HTTP 200，DOM提取9条2026-09-14候选。",
+      "Mining.com https://www.mining.com/commodity/gold/：固定Python Playwright主路径HTTP 200，提取13条2026-09-14候选。",
+      "Mining.com https://www.mining.com/commodity/silver/：固定Python Playwright主路径HTTP 200，提取10条2026-09-14候选。",
+      "Mining.com Cariboo、Monument Bay、Trilogy逐篇核验：直接HTTP请求均403；使用同一反检测Playwright Chrome会话均HTTP 200，核对标题、发布日期和核心数字。",
+      "Google site:mining.com gold September 14 2026：HTTP 429，0个可靠命中；仅作为辅助发现，未替代分类页。",
+      "Google site:mining.com silver September 14 2026：HTTP 429，0个可靠命中；仅作为辅助发现，未替代分类页。",
+      "Google site:mining.com copper September 14 2026：HTTP 429，0个可靠命中；铜分类页主路径已成功获得候选，未依赖备用搜索。",
+      "SMM中文首页/列表及https://news.smm.cn/news/104113821、https://news.smm.cn/news/104113820：HTTP 200；核对报告日标题、发布时间、正文数字、自然资源部来源链接及中文供给传导。",
+      "自然资源部原文https://geoglobal.mnr.gov.cn/zx/kcykf/kfjs/202609/t20260914_10313021.htm和https://geoglobal.mnr.gov.cn/zx/kcykf/resources_update/202609/t20260911_10312021.htm：HTTP 200；交叉核对Boumadine和Makoko原文标题、日期及核心数字。",
+      "The Northern Miner报告日列表：Cariboo、Monument Bay和Trilogy与Mining.com同组新闻重复，优先保留已用Playwright完整核验的Mining.com文章；赞助、估值、价格和非目标金属候选排除。",
+      "data/2026-09-11.json、data/2026-09-12.json、data/2026-09-13.json：完成跨日报URL、项目、事件和核心数字去重。"
+    ],
+    "part3_result": "完成北京时间2026-09-14英文和中文新闻检索；Mining.com金银铜分类页Playwright主路径成功，逐篇核验3篇入选文章；SMM/自然资源部中文页面核验2篇独立供给信号，最终收录5条。估值、价格、宏观政策泛论、重复新闻和非目标金属内容排除。",
+    "mining_com_source_note": "严格执行铜分类页Playwright主路径并辅助抓取金、银分类页；铜/金/银分别提取9/13/10条报告日候选。入选Cariboo、Monument Bay、Trilogy文章直接HTTP请求均403，使用同一反检测Chrome Playwright会话HTTP 200提取正文；Google site:金/银/铜查询均HTTP 429，未把搜索摘要当作证据。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 11,
+      "passed": 11,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "2条Part 1访谈、5条Part 3新闻页面均已直接打开并核对标题、发布日期、主体和核心数字，全部标记verified。",
+        "4条X候选由Playwright采集时核对作者、正文、发布时间和原帖URL，均因筛选标准排除，不作为报告事实。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.miningstockdaily.com/episodes/morning-briefing-talon-metals-drill-longest-massive-and-mixed-massive-sulphide-intercept-ever-at-tamarack：与2026-09-11日报的Mining Stock Daily节目相同，未重复纳入。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/KatusaResearch/status/2099247539757412824：黄金与比特币价格相对表现，排除。",
+      "https://x.com/Brien_Lundin/status/2099229827182019020：货币与黄金持有宏观观点，排除。",
+      "https://x.com/wmiddelkoop/status/2099492909108142441：黄金回运讨论无数量和已发生事件，排除。",
+      "https://x.com/soarfinancial/status/2099526645900247213：有条件竞标和申诉信息缺少可量化供给事实，排除。"
+    ],
+    "part3_deduped_events": [
+      "The Northern Miner对Cariboo、Monument Bay和Trilogy的同日文章与Mining.com同组报道重复，保留Mining.com完整Playwright核验版本。",
+      "Mining.com Stormlands估值、BMO投资展望和价格相关候选没有新增实物供需事实，排除。",
+      "SMM 104113819美国矿业技术试验基地和104113818刚果地质资料制度属于泛关键矿产/勘探基础设施信息，没有足够具体的金银铜项目供给变化，排除。",
+      "Mining.com赞助内容、铀、稀土和钨文章不属于本日报金银铜信号，排除。"
+    ],
+    "notes": "候选先按2026-09-12至09-14 Part 1窗口和2026-09-14 Part 3窗口筛选，再与最近三份日报比较URL、项目、事件和核心数字；资源量、经济评价和项目规划均明确标为潜在或规划供给，不写成当期产量。"
+  }
+}

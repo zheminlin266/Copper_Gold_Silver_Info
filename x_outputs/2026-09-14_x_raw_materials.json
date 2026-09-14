@@ -1,0 +1,73 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-14",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-fccbd1f9e6ddbe2f845c2a35",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-13T21:23:10+00:00",
+      "text": "Missiles over the Gulf for seven months and the market picked its safe haven. \n\nBitcoin +18%\nGold -18%\n\nMillennials own the one that went up",
+      "url": "https://x.com/KatusaResearch/status/2099247539757412824",
+      "collector": "x_search",
+      "report_date": "2026-09-14",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-cfc4aa512173f697d881ae75",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-13T20:12:47+00:00",
+      "text": "Does anyone really expect the trend of currency depreciation to stop, or even slow down?\n\nThis is why we can’t afford to not own gold.",
+      "url": "https://x.com/Brien_Lundin/status/2099229827182019020",
+      "collector": "x_search",
+      "report_date": "2026-09-14",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-08516e825cb11227be5f01f7",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-14T13:38:10+00:00",
+      "text": "Just had a long chat with a German newspaper journalist working on a story on the gold repatriation efforts by European central banks … getting interesting indeed",
+      "url": "https://x.com/wmiddelkoop/status/2099492909108142441",
+      "collector": "x_search",
+      "report_date": "2026-09-14",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c66b501f0eb3878568cfc0c0",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-14T15:52:14+00:00",
+      "text": "Pan Global Resources is expanding its footprint in northern Spain.\n\nThe company’s bids for the Salamón Gold Project have been accepted, subject to the disposition of an ongoing appeal from a competing bidder.\n\nSalamón sits along the 100km-long León Fault and just 30km east of Pan",
+      "url": "https://x.com/soarfinancial/status/2099526645900247213",
+      "collector": "x_search",
+      "report_date": "2026-09-14",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
