@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-15",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -22,6 +22,27 @@
       "category": "矿业媒体/播客",
       "notes": "2026-09-08 and 2026-09-09 public podcast and mining-news pages directly verified.",
       "channel": "https://www.northernminer.com/"
+    },
+    {
+      "source_id": "source-ppx-mining",
+      "display_name": "PPX Mining Corp.",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-09-15 Callanquitas underground drilling release directly verified; includes QA/QC and qualified-person disclosure.",
+      "channel": "https://www.ppxmining.com/"
+    },
+    {
+      "source_id": "source-arizona-eagle",
+      "display_name": "Arizona Eagle Mining Corp.",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-09-15 Eagle Silver Zone sampling release directly verified through Newsfile.",
+      "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-zodiac-gold",
+      "display_name": "Zodiac Gold Inc.",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-09-15 Lewis North trenching release directly verified through Newsfile.",
+      "channel": "https://www.newsfilecorp.com/"
     }
   ]
 }

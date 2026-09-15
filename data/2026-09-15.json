@@ -1,0 +1,631 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-15",
+  "report_time": "2026-09-16T07:49:05+08:00",
+  "summary": "黄金：Hemlo停电拖慢爬坡，南非金矿产量走弱；Alkane资源与储量更新、Zodiac沟槽和PPX钻探扩大中长期供给线索。白银：Pinnacle、PPX和Arizona Eagle勘探推进，短期尚无新增产量。铜：刚果（金）上半年出口创新高，非洲项目管线扩张但新增产能兑现周期较长；Nisk勘探推进。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-13T00:00:00+08:00",
+      "end": "2026-09-15T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-15T00:00:00+08:00",
+      "end": "2026-09-15T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-15T00:00:00+08:00",
+      "end": "2026-09-15T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/15/power-metallic-mines-key-takeaways-from-the-updated-mineral-resource-estimate-exploration-update-working-towards-a-pea-at-the-nisk-project/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Nisk Lion区含4.145Mt指示资源、品位3.86% CuEq，另有0.601Mt推断资源、品位4.01% CuEq。",
+          "evidence": "KER页面Key Highlights列出Lion区指示与推断资源量、CuEq品位及铜、金、银等品位。",
+          "source_url": "https://www.kereport.com/2026/09/15/power-metallic-mines-key-takeaways-from-the-updated-mineral-resource-estimate-exploration-update-working-towards-a-pea-at-the-nisk-project/",
+          "evidence_type": "direct interview page text",
+          "period": "2026-09-08 resource estimate discussed on 2026-09-15",
+          "unit": "million tonnes and CuEq",
+          "value": "4.145 Mt indicated at 3.86% CuEq; 0.601 Mt inferred at 4.01% CuEq"
+        },
+        {
+          "claim": "Nisk仍有5台钻机参与100,000米勘探计划，新增化验预计9月底返回，并以2027年上半年PEA为工作目标。",
+          "evidence": "KER页面列出5台钻机、100,000米计划、9月底化验和H1 2027 PEA时间表。",
+          "source_url": "https://www.kereport.com/2026/09/15/power-metallic-mines-key-takeaways-from-the-updated-mineral-resource-estimate-exploration-update-working-towards-a-pea-at-the-nisk-project/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration update",
+          "unit": "rigs, metres, and date",
+          "value": "5 rigs; 100,000 m; assays late September; PEA H1 2027"
+        },
+        {
+          "claim": "冶金研究显示铜回收率超过98%，铜精矿品位超过25%。",
+          "evidence": "KER页面Key Highlights直接列出铜回收率和精矿品位。",
+          "source_url": "https://www.kereport.com/2026/09/15/power-metallic-mines-key-takeaways-from-the-updated-mineral-resource-estimate-exploration-update-working-towards-a-pea-at-the-nisk-project/",
+          "evidence_type": "direct interview page text",
+          "period": "reported metallurgical studies",
+          "unit": "percent",
+          "value": ">98% Cu recovery; 25%+ Cu concentrate"
+        }
+      ],
+      "publish_date": "2026-09-15",
+      "title": "Power Metallic Mines：Nisk更新资源量与10万米勘探计划",
+      "source_type": "podcast",
+      "summary": "Power Metallic Mines CEO Terry Lynch在KER介绍Nisk更新资源量和100,000米勘探计划：Lion区含4.145Mt指示资源与0.601Mt推断资源，5台钻机仍在作业，化验预计9月底返回，PEA目标为2027年上半年。",
+      "detail": "访谈页还称约59%的资源吨位位于露天采资源中，Lion深部仍在寻找镍端元矿化，并用Muon Tomography、ANT、重力和SQUIDs等方法优化后续钻探。",
+      "importance": "这次更新把Nisk从单纯靶区推进到含有4.145Mt指示资源、0.601Mt推断资源的多金属资源基础，且约59%吨位位于露天采资源中，未来矿山设计的可达性更清晰。5台钻机继续推进10万米计划，9月底化验和2027年上半年PEA是把资源转成可开发供给的关键节点；深部镍矿化尚未找到，回收率和经济性仍需验证。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Terry Lynch",
+        "background": "Power Metallic Mines Inc. CEO"
+      },
+      "companies": [
+        "Power Metallic Mines Inc.",
+        "Critical Elements Lithium Corp."
+      ],
+      "projects": [
+        "NISK Project",
+        "Lion Zone",
+        "Nisk Main deposit"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/15/pinnacle-silver-gold-high-grade-gold-silver-drill-hits-and-surface-exploration-plans-at-el-potrero/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Pinos Cuatas矿井Hole 68截获6.19 g/t金和90 g/t银，长度10.89米，其中0.41米含58.2 g/t金和631 g/t银。",
+          "evidence": "KER访谈页High-Grade Drill Highlights逐项列出Hole 68的金银品位、长度和高品位内含段。",
+          "source_url": "https://www.kereport.com/2026/09/15/pinnacle-silver-gold-high-grade-gold-silver-drill-hits-and-surface-exploration-plans-at-el-potrero/",
+          "evidence_type": "direct interview page text",
+          "period": "recent underground drill results",
+          "unit": "g/t and metres",
+          "value": "6.19 g/t Au and 90 g/t Ag over 10.89 m; including 58.2 g/t Au and 631 g/t Ag over 0.41 m"
+        },
+        {
+          "claim": "公司正在推进井下钻探，并准备在多条矿脉目标上开展5,000米地表钻探。",
+          "evidence": "KER访谈页列出当前井下活动和即将开展的5,000-meter surface drill program。",
+          "source_url": "https://www.kereport.com/2026/09/15/pinnacle-silver-gold-high-grade-gold-silver-drill-hits-and-surface-exploration-plans-at-el-potrero/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration program",
+          "unit": "metres",
+          "value": "5,000 m surface drilling"
+        }
+      ],
+      "publish_date": "2026-09-15",
+      "title": "Pinnacle Silver & Gold：El Potrero高品位金银钻探结果",
+      "source_type": "podcast",
+      "summary": "Pinnacle Silver & Gold CEO Bob Archer在KER介绍El Potrero Pinos Cuatas矿井结果：Hole 68报告6.19 g/t金和90 g/t银跨10.89米，含0.41米58.2 g/t金和631 g/t银；公司准备开展5,000米地表钻探。",
+      "detail": "访谈页称定向井下钻探确认沿走向和上倾方向的连续性，并将矿化扩展到历史地下工程之外，后续工作覆盖多条矿脉目标。",
+      "importance": "这不是单一窄高品位截段的孤立展示：井下钻探已在走向和上倾方向确认连续性，并把矿化推过历史巷道范围，增强未来采场圈定的地质依据。即将开展的5000米地表钻探将把验证范围扩展到多条矿脉，但目前仍只有勘探结果，资源量、冶金和许可决定何时形成可交付白银供给。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Bob Archer",
+        "background": "Pinnacle Silver and Gold President and CEO"
+      },
+      "companies": [
+        "Pinnacle Silver and Gold"
+      ],
+      "projects": [
+        "El Potrero Project",
+        "Pinos Cuatas mine"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/peter_krauth/status/2099589010167652694",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Peter Krauth称Blackrock Silver获准有条件升级至高级TSX市场，并同时提到Tonopah West推进扩边钻探和许可。",
+          "evidence": "X原作者帖子正文直接写明conditional approval、senior TSX、expansion drilling和permitting。",
+          "source_url": "https://x.com/peter_krauth/status/2099589010167652694",
+          "evidence_type": "original_x_post",
+          "period": "2026-09-15 Beijing time",
+          "unit": "listing and project milestones",
+          "value": "conditional senior TSX approval; expansion drilling; permitting"
+        }
+      ],
+      "publish_time": "2026-09-14T20:00:03+00:00",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "excerpt": "Blackrock Silver获准有条件升级至高级TSX市场；Peter Krauth同时提到Tonopah West正在推进扩边钻探和许可。",
+      "interpretation": "帖子把上市板块升级与Tonopah West的扩边钻探、许可推进放在同一项目叙事中，可能改善后续融资和开发可见度；帖子没有披露资源、品位或产量，供给判断仅限项目条件改善。",
+      "importance": "上市板块升级若在条件批准后于短期完成，可能扩大机构资金进入勘探开发的渠道；但它本身不增加白银产量。Tonopah West的扩边钻探和许可仍是未来资源转化的实物验证，现阶段应跟踪最终上市条件与项目技术披露。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/blackout-at-hemlo-gold-mine-to-slow-ramp-up/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hemlo矿区9月4日Alimak区域发生临时停电，受影响区域开发和勘探受限，但处理厂及其他区域采矿未中断。",
+          "evidence": "Mining.com正文直接报道停电位置、影响范围和仍在继续的作业。",
+          "source_url": "https://www.mining.com/blackout-at-hemlo-gold-mine-to-slow-ramp-up/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026-09-04 incident reported 2026-09-15",
+          "unit": "event",
+          "value": "temporary power outage at Alimak zone; processing and other mining continued"
+        },
+        {
+          "claim": "Hemlo原计划年末爬坡至4,800吨/日；Scotia预计下半年产金约59,600盎司、减少20%，National Bank认为吞吐量可能更接近3,800吨/日。",
+          "evidence": "Mining.com正文引用TD、Scotia和National Bank分析师，列出4,800/3,800吨日处理量、59,600盎司和20%降幅。",
+          "source_url": "https://www.mining.com/blackout-at-hemlo-gold-mine-to-slow-ramp-up/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "second half 2026 outlook",
+          "unit": "tonnes per day, troy ounces, and percent",
+          "value": "4,800 tpd planned; about 3,800 tpd possible; about 59,600 oz H2; -20%"
+        },
+        {
+          "claim": "公司已订购价值250,000美元的替换变电站，预计12月到达。",
+          "evidence": "Mining.com正文说明关键备件计划中的替换变电站金额和预计到货月份。",
+          "source_url": "https://www.mining.com/blackout-at-hemlo-gold-mine-to-slow-ramp-up/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 repair plan",
+          "unit": "USD and month",
+          "value": "$250,000; arrival expected in December"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "Mining.com",
+      "title": "Hemlo金矿停电拖慢产量爬坡",
+      "excerpt": "Mining.com报道，Hemlo Mining的Hemlo金矿Alimak区域9月4日发生临时停电，影响地下开发和勘探；处理厂及其他区域采矿继续运行。分析师预计产量爬坡至4,800吨/日的计划放缓，Scotia预计下半年产金约59,600盎司，较此前减少20%。",
+      "language": "en",
+      "interpretation": "停电影响发生在矿山扩产阶段，首先改变2026年下半年采矿率、品位和爬坡节奏，不代表整座矿山停产。公司拥有多个作业区并安排替换变电站，部分损失可能延后兑现；59,600盎司和20%降幅是分析师估计，不是公司新指引。",
+      "importance": "停电把Hemlo原定年末提升至4,800吨/日的爬坡推迟，若产能更接近3,800吨/日，影响首先落在2026年下半年金矿供给节奏。Scotia预计下半年约59,600盎司、较此前少20%，但判断主要是延迟而非永久损失；12月替换变电站和Alimak修复进度是近期验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "Hemlo Mining"
+      ],
+      "projects": [
+        "Hemlo mine"
+      ],
+      "mining_com_source_note": "Mining.com文章直接HTTP请求返回403；随后使用同一反检测Chrome Playwright会话打开，HTTP 200并核对正文、标题、日期和核心数字。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/congo-copper-exports-hit-record-levels-as-sales-to-us-and-europe-double/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "刚果（金）2026年1—6月铜出口为1,724,217吨，高于上年同期1,650,189吨。",
+          "evidence": "Mining.com正文引述矿业部上半年统计报告，逐项列出本期和上年同期铜出口量。",
+          "source_url": "https://www.mining.com/web/congo-copper-exports-hit-record-levels-as-sales-to-us-and-europe-double/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "January-June 2026 versus January-June 2025",
+          "unit": "metric tonnes",
+          "value": "1,724,217 versus 1,650,189"
+        },
+        {
+          "claim": "美国和欧洲占刚果铜销售的份额较2025年翻倍；上半年铜精矿出口仍为151,202吨、含铜50,629吨。",
+          "evidence": "Mining.com正文引述报告说明美国和欧洲份额变化，并列出铜精矿出口量及含铜量。",
+          "source_url": "https://www.mining.com/web/congo-copper-exports-hit-record-levels-as-sales-to-us-and-europe-double/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "first half 2026",
+          "unit": "share and tonnes",
+          "value": "US/Europe share doubled; 151,202 t concentrate containing 50,629 t copper"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "Mining.com（Reuters）",
+      "title": "刚果（金）上半年铜出口创纪录",
+      "excerpt": "Mining.com援引Reuters称，刚果（金）2026年上半年铜出口达到1,724,217吨，高于上年同期1,650,189吨；美国和欧洲销售份额较2025年翻倍，上半年铜精矿出口为151,202吨、含铜50,629吨。",
+      "language": "en",
+      "interpretation": "该信号来自实际出口统计，直接反映现有矿山向市场交付的铜量增长；美国和欧洲份额变化主要改变贸易流向，未公布相应销量，不能把份额翻倍等同于新增产量。6月精矿出口禁令与既有装运数据并存，后续政策执行和产品结构会影响可交付供应的持续性。",
+      "importance": "刚果（金）上半年铜出口从165.0万吨升至172.4万吨，体现现有矿山出货仍在增加，短期可交付供给强于单纯资源公告。出口转向美国和欧洲的份额翻倍会改变贸易流向，但报告未给出该部分销量，且6月禁运铜钴精矿后仍有15.12万吨精矿出口，后续需跟踪政策执行与产品结构。",
+      "verification_status": "verified",
+      "companies": [
+        "Gecamines",
+        "CMOC Group",
+        "Glencore",
+        "Mercuria"
+      ],
+      "projects": [
+        "Tenke Fungurume Mining",
+        "Kamoto Copper Company"
+      ],
+      "mining_com_source_note": "Mining.com文章直接HTTP请求返回403；随后使用同一反检测Chrome Playwright会话打开，HTTP 200并核对正文、标题、日期和核心数字。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.ppxmining.com/news/ppx-intercepts-high-grade-gold-silver-and-copper-at-callanq-2026-09-15-qm-5979725256468993",
+      "metal_tags": [
+        "silver",
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "PPX地下孔CA-26-31在Tension脉截获3.37 g/t金、1329.6 g/t银和1.81%铜跨1.60米；CA-26-32截获6.92 g/t金、654.0 g/t银和1.69%铜跨0.80米。",
+          "evidence": "PPX官方公告的Drilling Highlights和表1直接列出两孔Tension脉截段、长度和平均品位。",
+          "source_url": "https://www.ppxmining.com/news/ppx-intercepts-high-grade-gold-silver-and-copper-at-callanq-2026-09-15-qm-5979725256468993",
+          "evidence_type": "direct company press release",
+          "period": "2026 underground drilling results",
+          "unit": "g/t and percent over metres",
+          "value": "CA-26-31: 3.37 Au/1329.6 Ag/1.81 Cu over 1.60 m; CA-26-32: 6.92 Au/654 Ag/1.69 Cu over 0.80 m"
+        },
+        {
+          "claim": "CA-26-33在Tension脉截获8.66 g/t金、289.6 g/t银和0.10%铜跨3.60米，最终74米化验结果待定；三孔确认Tension脉和Callanquitas East连续性。",
+          "evidence": "PPX官方公告列出CA-26-33截段、待化验长度，并在正文明确三孔确认两处矿化连续性。",
+          "source_url": "https://www.ppxmining.com/news/ppx-intercepts-high-grade-gold-silver-and-copper-at-callanq-2026-09-15-qm-5979725256468993",
+          "evidence_type": "direct company press release",
+          "period": "2026 underground drilling program",
+          "unit": "g/t, percent, and metres",
+          "value": "8.66 Au/289.6 Ag/0.10 Cu over 3.60 m; 74 m pending"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "PPX Mining Corp.",
+      "title": "PPX在Callanquitas截获高品位金、银和铜",
+      "excerpt": "PPX官方公告称，Callanquitas地下钻探在Tension脉和Callanquitas East取得多段金银铜矿化：CA-26-31含3.37 g/t金、1329.6 g/t银和1.81%铜跨1.60米，CA-26-33含8.66 g/t金、289.6 g/t银和0.10%铜跨3.60米；三孔确认矿化连续性，另有74米待化验。",
+      "language": "en",
+      "interpretation": "三孔在约120米垂向范围内重复截获Tension脉并确认Callanquitas East，说明钻探结果可以用于更新硫化物和氧化物资源模型。高品位截段是勘探事实，尚不等于新增金属产量；待化验区间、资源更新、采矿计划和冶金回收率仍决定供给兑现。",
+      "importance": "三孔在约120米垂向范围内重复截获Tension脉并确认Callanquitas East，说明这项正在运行的金银矿具备把钻探结果转入资源更新的连续性依据。最高0.90米含2251 g/t银、3.01%铜的截段与20.04 g/t金为明显品位锚点，但CA-26-33仍有74米待化验，新增供给要经过资源、采矿和冶金验证。",
+      "verification_status": "verified",
+      "companies": [
+        "PPX Mining Corp."
+      ],
+      "projects": [
+        "Igor Project",
+        "Callanquitas Mine",
+        "Tension vein",
+        "Callanquitas East"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/314310/Arizona-Eagle-Mining-Corp.-Announces-Sampling-Results-on-Recently-Acquired-Silver-Mine-Claims",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Eagle Silver Zone地表样品最高达到467、455、340、271、182、172和136 g/t银，覆盖约500米走向。",
+          "evidence": "Newsfile公告的Highlighted silver sample grades和正文直接列出样品品位及走向范围。",
+          "source_url": "https://www.newsfilecorp.com/release/314310/Arizona-Eagle-Mining-Corp.-Announces-Sampling-Results-on-Recently-Acquired-Silver-Mine-Claims",
+          "evidence_type": "direct company press release via Newsfile",
+          "period": "2026 surface sampling",
+          "unit": "g/t silver and metres",
+          "value": "up to 467 g/t Ag; about 500 m strike"
+        },
+        {
+          "claim": "历史银矿最大深度约150米，Arizona Eagle计划把样品与一期钻探结果合并，并在本季度启动详细SkyTem航空地球物理调查。",
+          "evidence": "官方公告说明历史矿井深度、结果整合和SkyTem调查预期时间。",
+          "source_url": "https://www.newsfilecorp.com/release/314310/Arizona-Eagle-Mining-Corp.-Announces-Sampling-Results-on-Recently-Acquired-Silver-Mine-Claims",
+          "evidence_type": "direct company press release via Newsfile",
+          "period": "2026 exploration plan",
+          "unit": "metres and quarter",
+          "value": "about 150 m; SkyTem expected this quarter"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "Arizona Eagle Mining Corp.（Newsfile）",
+      "title": "Arizona Eagle公布新收购银矿权地表采样结果",
+      "excerpt": "Arizona Eagle官方公告称，Eagle Silver Zone地表样品最高达467 g/t银，矿化覆盖约500米走向；相关历史矿井最大深度约150米，公司计划结合一期钻探结果并在本季度启动SkyTem航空地球物理调查。",
+      "language": "en",
+      "interpretation": "样品和历史矿井信息支持进一步验证银矿化沿走向和深部延伸的勘探假设，但地表样品不代表资源平均品位，历史资源估计也不是当前储量。SkyTem调查和后续系统钻探是把高品位露头转成连续资源的前置步骤。",
+      "importance": "467g/t银的地表样品出现在约500米走向范围，且三座历史银矿最深仅约150米，说明后续钻探的目标是验证浅部氧化带以下是否存在可连续矿化，并非已恢复产量。公司计划把样品与一期钻探结果合并，并在本季度启动SkyTem航空调查；历史资源和过去生产数据不能替代新的资源量与经济评价。",
+      "verification_status": "verified",
+      "companies": [
+        "Arizona Eagle Mining Corp."
+      ],
+      "projects": [
+        "Eagle Silver Project",
+        "Eagle Silver Zone",
+        "McCabe Mine"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/314338/Zodiac-Gold-Intersects-58-Metres-at-3.15-gt-Au-Including-1-Metre-at-158-gt-Au-in-Trenching-at-Lewis-North",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "沟槽LWT003截获58米、3.15 g/t金，其中11米15.40 g/t金、1米158 g/t金，位置在LWT001以西约310米。",
+          "evidence": "Zodiac Gold官方公告直接列出LWT003品位、长度、内含段和与LWT001的距离。",
+          "source_url": "https://www.newsfilecorp.com/release/314338/Zodiac-Gold-Intersects-58-Metres-at-3.15-gt-Au-Including-1-Metre-at-158-gt-Au-in-Trenching-at-Lewis-North",
+          "evidence_type": "direct company press release via Newsfile",
+          "period": "2026 trenching results",
+          "unit": "g/t gold and metres",
+          "value": "58 m at 3.15 g/t Au; including 11 m at 15.40 g/t and 1 m at 158 g/t; 310 m west"
+        },
+        {
+          "claim": "LWT001、LWT002和LWT003在超过700米走向范围返回宽矿化，Lewis North土壤异常长1.8公里，Lewis North钻探计划本周启动。",
+          "evidence": "官方公告Highlights和正文列出超过700米走向、1.8公里异常和本周钻探安排。",
+          "source_url": "https://www.newsfilecorp.com/release/314338/Zodiac-Gold-Intersects-58-Metres-at-3.15-gt-Au-Including-1-Metre-at-158-gt-Au-in-Trenching-at-Lewis-North",
+          "evidence_type": "direct company press release via Newsfile",
+          "period": "2026 exploration program",
+          "unit": "metres and project milestone",
+          "value": ">700 m strike; 1.8 km anomaly; drilling due to commence this week"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "Zodiac Gold Inc.（Newsfile）",
+      "title": "Zodiac Gold在Lewis North沟槽截获58米金矿化",
+      "excerpt": "Zodiac Gold官方公告称，Todi Gold Project的Lewis North沟槽LWT003截获58米、3.15 g/t金，包括11米15.40 g/t金和1米158 g/t金；三条沟槽已在超过700米走向范围返回宽矿化，Lewis North钻探计划本周启动。",
+      "language": "en",
+      "interpretation": "沟槽结果扩大了金矿化的地表连续性，并为钻探靶区排序提供事实依据；它仍处于资源发现前阶段，不能当作储量或产量。后续钻孔需验证1.8公里土壤异常的厚度、品位和连续性，之后才有资源估算和开发路径。",
+      "importance": "58米宽截段和1米158g/t金把Lewis North从土壤异常推进到具有连续地表矿化的钻探靶区，三条沟槽已覆盖超过700米走向，扩大了潜在资源评价的空间。矿化仍处于沟槽阶段，钻探本周启动，1.8公里异常和16公里Monterra趋势能否形成连续厚度、品位和可采资源，需通过后续钻孔与评价验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Zodiac Gold Inc."
+      ],
+      "projects": [
+        "Todi Gold Project",
+        "Monterra Trend",
+        "Lewis North"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/news/104116189",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Alkane总矿石资源量为5.79亿吨，金品位0.46 g/t、铜0.19%、锑2.1%，含金862万盎司、铜101万吨、锑4.2万吨。",
+          "evidence": "SMM页面逐项列出Alkane总资源量、品位及金铜锑含量。",
+          "source_url": "https://news.smm.cn/news/104116189",
+          "evidence_type": "direct SMM page citing Ministry of Natural Resources",
+          "period": "2026 resource update",
+          "unit": "tonnes, grades, and contained metal",
+          "value": "579 Mt at 0.46 g/t Au, 0.19% Cu, 2.1% Sb; 8.62 Moz Au; 1.01 Mt Cu; 42,000 t Sb"
+        },
+        {
+          "claim": "Alkane矿石储量为2500万吨、含金137万盎司；Tomingley和Bjorkdal储量增长3%—4%，Costerfield资源金增13%、锑增40%。",
+          "evidence": "SMM页面直接列出矿石储量、含金量和各项目变化比例。",
+          "source_url": "https://news.smm.cn/news/104116189",
+          "evidence_type": "direct SMM page citing Ministry of Natural Resources",
+          "period": "2026 resource and reserve update",
+          "unit": "tonnes, troy ounces, and percent",
+          "value": "25 Mt; 1.37 Moz Au reserves; +3%-4% reserves; Costerfield +13% Au resource and +40% Sb"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "SMM（来源：自然资源部）",
+      "title": "阿尔卡尼资源公司更新金铜资源量与储量",
+      "excerpt": "SMM转载自然资源部信息称，Alkane总矿石资源量5.79亿吨，含金862万盎司和铜101万吨；矿石储量2500万吨、含金137万盎司。Tomingley和Bjorkdal储量增长3%—4%，Costerfield资源金增13%、锑增40%。",
+      "language": "zh",
+      "interpretation": "储量与资源更新把多个在运营或开发资产的潜在供给规模重新量化，但资源、储量和实际产量属于不同口径。页面未提供新增产量或兑现时间表，铜和锑的伴生资源也不能直接推导短期金属交付。",
+      "importance": "Alkane同时更新资源量与储量，金储量137万盎司为可开发供给锚点，且Tomingley、Bjorkdal储量增长3%—4%，比单纯勘探异常更接近生产端。Costerfield资源金增13%、锑增40%及总资源含铜101万吨扩大长期组合弹性，但页面未给出新增矿山产量或时间表，须继续跟踪储量转化和运营指引。",
+      "verification_status": "verified",
+      "companies": [
+        "Alkane Resources"
+      ],
+      "projects": [
+        "Boda-Kaiser",
+        "Tomingley",
+        "Costerfield",
+        "Bjorkdal"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/news/104116188",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "南非矿业7月产值同比下降7.5%，铂族金属产量下降13.5%，煤炭下降7.5%，铁矿石下降8.1%。",
+          "evidence": "SMM页面引用Stats SA报告，直接列出南非7月矿业生产和主要拖累矿种。",
+          "source_url": "https://news.smm.cn/news/104116188",
+          "evidence_type": "direct SMM page citing Ministry of Natural Resources",
+          "period": "July 2026 year-on-year",
+          "unit": "percent",
+          "value": "mining -7.5%; PGM -13.5%; coal -7.5%; iron ore -8.1%"
+        },
+        {
+          "claim": "经季节调整的5—7月矿业产量环比下降5.5%，其中金产量下降4.6%；7月矿产品销售额按现价同比下降5.6%，金销售额下降33.4%。",
+          "evidence": "SMM页面分开列出5—7月矿业产量和7月现价销售额的分矿种变化。",
+          "source_url": "https://news.smm.cn/news/104116188",
+          "evidence_type": "direct SMM page citing Ministry of Natural Resources",
+          "period": "May-July 2026 and July 2026",
+          "unit": "percent",
+          "value": "mining -5.5% over May-July; gold -4.6%; gold sales -33.4%"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "SMM（来源：自然资源部）",
+      "title": "南非7月矿业生产同比下降7.5%",
+      "excerpt": "SMM转载自然资源部信息称，南非矿业7月产值同比下降7.5%；经季调的5—7月矿业产量下降5.5%，其中金产量下降4.6%。7月按现价计的矿产品销售额同比下降5.6%，金销售额下降33.4%。",
+      "language": "zh",
+      "interpretation": "金产量下降是矿端供给数据，销售额变化同时受价格和销量影响，应分别解读。报道使用月度和三个月季调口径，能够提示近期供给走弱，但尚不足以判断全年产量趋势。",
+      "importance": "南非矿业7月同比下降7.5%，且经季调的5—7月矿业产量下降5.5%，说明供给走弱并非单日价格波动；其中金产量在该三个月区间下降4.6%，直接收紧南非黄金矿端的近期供给。7月金矿产品销售额按现价下降33.4%同时受价格和数量影响，不能单独等同于产量变化，后续需要Stats SA月度分矿种数据确认持续性。",
+      "verification_status": "verified",
+      "companies": [
+        "Statistics South Africa",
+        "自然资源部"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.northernminer.com/news/africa-critical-minerals-pipeline-surges-as-output-lags/1003894852/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "非洲关键矿产项目数量从2025年一季度的483个增至658个；勘探项目增至198个、增长82%，开发项目增至129个、增长70%，在产项目增至288个、仅增长11%。",
+          "evidence": "The Northern Miner正文直接转述Africa Business+与EY数据库的项目总量、阶段数量和增幅。",
+          "source_url": "https://www.northernminer.com/news/africa-critical-minerals-pipeline-surges-as-output-lags/1003894852/",
+          "evidence_type": "direct The Northern Miner article text",
+          "period": "early 2025 to September 2026 database update",
+          "unit": "projects and percent",
+          "value": "658 versus 483; exploration 198/+82%; development 129/+70%; production 288/+11%"
+        },
+        {
+          "claim": "Kansanshi预计2026年产铜175,000—205,000吨、2028年最高260,000吨；Lumwana扩建首铜目标为2028年第一季度，发现到投产周期估计15—17年。",
+          "evidence": "The Northern Miner Major projects段列出Kansanshi产量、Lumwana时间表和数据库研究者对周期的估计。",
+          "source_url": "https://www.northernminer.com/news/africa-critical-minerals-pipeline-surges-as-output-lags/1003894852/",
+          "evidence_type": "direct The Northern Miner article text",
+          "period": "2026-2028 outlook",
+          "unit": "tonnes and years",
+          "value": "175,000-205,000 t in 2026; up to 260,000 t in 2028; first copper Q1 2028; 15-17 years"
+        }
+      ],
+      "publish_time": "2026-09-15",
+      "source": "The Northern Miner",
+      "title": "非洲关键矿产项目管线增长但产量兑现滞后",
+      "excerpt": "The Northern Miner援引Africa Business+与EY数据库称，非洲关键矿产项目从483个增至658个，勘探项目增长82%、开发项目增长70%，在产项目仅增长11%。铜方面，Kansanshi预计2026年产铜175,000—205,000吨、2028年最高260,000吨，Lumwana扩建目标2028年第一季度产出首铜。",
+      "language": "en",
+      "interpretation": "项目数量的增长主要发生在勘探和开发阶段，不能直接替代可交付产量；对铜而言，既有矿山扩建比新发现更可能在中期贡献供给。数据库覆盖多种关键矿产，Kansanshi和Lumwana的铜数据是其中的具体例证，仍受建设、许可和运营执行约束。",
+      "importance": "非洲关键矿产项目从483增至658，但在产项目仅增加11%至288，说明勘探和开发项目扩张暂未同步转成金属流。对铜而言，Kansanshi扩建今年175,000—205,000吨、2028年最高260,000吨，Lumwana首铜目标为2028年一季度；15—17年的发现到投产周期意味着管线规模不能替代短期供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Africa Business+",
+        "EY",
+        "First Quantum Minerals",
+        "Barrick Mining",
+        "Ivanhoe Mines"
+      ],
+      "projects": [
+        "Kansanshi expansion",
+        "Lumwana expansion",
+        "Makoko district"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "KER首页及公司访谈索引：检查2026-09-13至09-15新增页面和重复项。",
+      "KER Power Metallic Mines访谈：https://www.kereport.com/2026/09/15/power-metallic-mines-key-takeaways-from-the-updated-mineral-resource-estimate-exploration-update-working-towards-a-pea-at-the-nisk-project/；HTTP 200，核对9月15日日期、Terry Lynch、Nisk资源、钻探和PEA信息。",
+      "KER Pinnacle Silver & Gold访谈：https://www.kereport.com/2026/09/15/pinnacle-silver-gold-high-grade-gold-silver-drill-hits-and-surface-exploration-plans-at-el-potrero/；HTTP 200，核对9月15日日期、Bob Archer、金银截段和5,000米地表钻探计划。",
+      "Resource Talks WordPress公开接口（after=2026-09-12、before=2026-09-16）：发现9月14日Mercado Minerals页面，已在2026-09-14日报纳入；未发现新的9月15日合格页面。",
+      "Mining Stock Daily /episodes及9月15日GDXJ Morning Briefing：HTTP 200，核对完整文字稿；内容为新闻摘要、价格/宏观和个别公告转述，未形成比直接来源更强的独立访谈信号。",
+      "The Northern Miner podcast标签页及报告日入口：HTTP 200；报告日窗口没有新的可核验金银铜访谈，Fortuna CEO节目日期为9月9日，超出窗口。",
+      "data/conference_calendar.json：检查Denver Gold Forum、Precious Metals Summit、Mines and Money、SMM非洲关键矿产大会等会议入口与回放线索；窗口内无新的可核验且未重复访谈。",
+      "data/2026-09-13.json、data/2026-09-14.json：完成Part 1 URL、项目、事件和核心数字去重。"
+    ],
+    "part1_result": "完成北京时间2026-09-13至09-15的Podcast、Webcast、YouTube和会议入口检索；收录KER的Power Metallic Mines和Pinnacle Silver & Gold访谈各1条。重复访谈、宏观/价格内容、新闻摘要和非目标金属内容排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-15 --collect-x；内部调用scripts/x_search.py。",
+      "Playwright持久会话按注册表顺序串行处理53个账号，53/53完成，0个账号失败，未启动twscrape。",
+      "x_outputs/2026-09-15_x_raw_materials.txt及x_outputs/2026-09-15_x_raw_materials.json：保留13条原始候选、账号覆盖、尝试路径和选定通道。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号、0个账号失败，取得13条原始候选；按原作者、正文、日期、原帖URL和供需标准筛选后收录1条。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright真实完成全部53个账号；没有登录墙、challenge、CAPTCHA或账号级失败。",
+        "13条原始候选保留在按报告日命名的txt和JSON sidecar；其中1条形成供给管线信号，Zodiac原帖与Part 3官方公告按同一事件去重。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com https://www.mining.com/commodity/copper/：固定Python Playwright Chromium主路径HTTP 200，DOM提取15条2026-09-15候选；其中包含Hercules、White Cliff、Bitterroot、Congo等候选。",
+      "Mining.com https://www.mining.com/commodity/gold/：固定Python Playwright Chromium主路径HTTP 200，DOM提取10条2026-09-15候选；其中包含Hemlo和Argentina exports等候选。",
+      "Mining.com https://www.mining.com/commodity/silver/：固定Python Playwright Chromium主路径HTTP 200，DOM提取11条2026-09-15候选。",
+      "Mining.com 21篇分类页候选逐篇核验：直接HTTP请求均返回403；同一反检测Chrome Playwright会话全部返回HTTP 200并提取标题及正文，按日期、供需标准和赞助/重复规则筛选。",
+      "Mining.com Hemlo：https://www.mining.com/blackout-at-hemlo-gold-mine-to-slow-ramp-up/；Playwright HTTP 200，核对停电、4,800/3,800吨日爬坡、59,600盎司、20%和12月变电站。",
+      "Mining.com Congo copper exports：https://www.mining.com/web/congo-copper-exports-hit-record-levels-as-sales-to-us-and-europe-double/；Playwright HTTP 200，核对1,724,217吨、1,650,189吨、美国/欧洲份额及铜精矿量。",
+      "Google site:mining.com gold September 15 2026：HTTP 200，未解析出可靠可用结果；未替代Mining.com分类页。",
+      "Google site:mining.com silver September 15 2026：HTTP 200，未解析出可靠可用结果；未替代Mining.com分类页。",
+      "Google site:mining.com copper September 15 2026：HTTP 200，未解析出可靠可用结果；铜分类页主路径已成功获得候选。",
+      "PPX官方新闻稿：https://www.ppxmining.com/news/ppx-intercepts-high-grade-gold-silver-and-copper-at-callanq-2026-09-15-qm-5979725256468993；HTTP 200，核对9月15日日期、CA-26-31/32/33金银铜截段、连续性和待化验区间。",
+      "Arizona Eagle官方Newsfile公告：https://www.newsfilecorp.com/release/314310/Arizona-Eagle-Mining-Corp.-Announces-Sampling-Results-on-Recently-Acquired-Silver-Mine-Claims；HTTP 200，核对9月15日日期、最高467 g/t银、约500米走向、历史150米深度和SkyTem计划。",
+      "Zodiac Gold官方Newsfile公告：https://www.newsfilecorp.com/release/314338/Zodiac-Gold-Intersects-58-Metres-at-3.15-gt-Au-Including-1-Metre-at-158-gt-Au-in-Trenching-at-Lewis-North；HTTP 200，核对9月15日日期、58米3.15 g/t金、1米158 g/t金、700米走向和本周钻探。",
+      "SMM Alkane页面：https://news.smm.cn/news/104116189；HTTP 200，核对自然资源部来源署名、资源量、储量及项目增幅。",
+      "SMM南非矿业生产页面：https://news.smm.cn/news/104116188；HTTP 200，核对自然资源部来源署名、7月及5—7月Stats SA生产口径。",
+      "The Northern Miner Africa pipeline：https://www.northernminer.com/news/africa-critical-minerals-pipeline-surges-as-output-lags/1003894852/；HTTP 200，核对Africa Business+与EY数据库、658/483项目、阶段增幅、Kansanshi和Lumwana铜时间表。",
+      "SMM 104115891日评、104114055国家统计局工业增加值、104111000非洲大会直播页面：HTTP 200；因纯价格/宏观、非目标金属或未提供可归因新增供需事实而排除。",
+      "The Northern Miner同日Hemlo、Hercules和White Cliff镜像页面：检查并与Mining.com事件去重，保留已用Playwright完整核验的Mining.com版本。",
+      "data/2026-09-13.json、data/2026-09-14.json：完成跨日报URL、项目、事件和核心数字去重。"
+    ],
+    "part3_result": "完成北京时间2026-09-15中英文新闻检索；Mining.com金银铜分类页主路径全部成功，21篇候选逐篇完成Playwright正文核验；另核验PPX、Arizona Eagle、Zodiac、SMM两篇和The Northern Miner一篇，最终收录8条。价格/宏观、赞助内容、非目标金属、缺少供需传导和重复镜像排除。",
+    "mining_com_source_note": "严格执行Mining.com铜分类页Playwright主路径并辅助抓取金、银分类页；铜/金/银分别提取15/10/11条报告日候选。21篇候选直接HTTP请求均受CloudFront返回403，随后以同一反检测Chrome Playwright会话HTTP 200逐篇核验；Google site:金/银/铜查询HTTP 200但未解析出可靠结果，未把搜索摘要当作证据。",
+    "new_sources_discovered": [
+      "PPX Mining Corp.官方新闻页",
+      "Arizona Eagle Mining Corp.官方Newsfile公告",
+      "Zodiac Gold Inc.官方Newsfile公告",
+      "Africa Business+与EY数据库（经The Northern Miner报道）"
+    ],
+    "url_verification": {
+      "checked": 42,
+      "passed": 42,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "2条KER访谈、1条X原帖、2条Mining.com入选文章、3条Mining.com外部来源，以及6条补充新闻页面均已直接打开并核对标题、日期、主体和核心数字，入选信号全部标记verified。",
+        "13条X候选、21篇Mining.com分类候选均保留采集与逐篇核验审计；被排除项没有写入报告正文。",
+        "Mining.com直接HTTP 403是已记录的CloudFront限制，Playwright同一会话正文核验成功，不计为入选信号失败。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/11/westhaven-gold-ongoing-50000m-drill-program-at-the-shovelnose-gold-silver-project-in-british-columbia/：已在2026-09-12日报纳入。",
+      "https://www.kereport.com/2026/09/14/inflection-resources-trangie-exploration-update-92-holes-completed-anglogold-ashanti-as-exploration-partner/：已在2026-09-14日报纳入。",
+      "https://resourcetalks.com/silver-stocks/high-grade-silver-veins-in-mexico-but-are-the-widths-mineable/：已在2026-09-14日报纳入。",
+      "https://www.kereport.com/2026/09/13/scottie-resources-first-high-grade-gold-assay-results-from-the-52000-metre-2026-drill-program/：已在2026-09-13日报纳入。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/RonStoeferle/status/2099845065812189210：链接至Zodiac Gold 9月15日官方公告，已作为Part 3官方来源收录，同一事件不在X重复展示。",
+      "https://x.com/wmiddelkoop/status/2099586985719447561：加拿大一万亿投资宏观叙事，无具体目标金属新增供需事实。",
+      "https://x.com/soarfinancial/status/2099554071275508112：GDXJ纳入与可见度叙事，无具体产量或资源事实。"
+    ],
+    "part3_deduped_events": [
+      "The Northern Miner对Hemlo、Hercules和White Cliff的同日镜像报道与Mining.com候选重复；保留Mining.com逐篇Playwright核验版本。",
+      "Zodiac Gold X分享与9月15日Newsfile官方公告为同一沟槽事件；保留官方公告，排除X重复。",
+      "Mining.com Trekor和Imwelo赞助内容的页面实际日期分别为9月9日和9月4日，超出报告日窗口，排除。",
+      "Mining.com Argentina出口价值、铜价/中国采购、Red Sea模型、ETF/投资展望和公司股权交易候选没有足够新增目标金属实物供需事实，排除。"
+    ],
+    "notes": "候选先按2026-09-15单日Part 3窗口及2026-09-13至09-15 Part 1窗口筛选，再与最近三份日报比较URL、项目、事件和核心数字；资源量、储量、钻探和项目规划均明确区分于实际产量。"
+  }
+}

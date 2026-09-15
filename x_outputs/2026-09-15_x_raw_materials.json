@@ -1,0 +1,181 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-15",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-557a24199d857f0df411579e",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-15T14:29:27+00:00",
+      "text": "Mining in Mexico",
+      "url": "https://x.com/RealRickRule/status/2099868201891037258",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8902d350b6b03caaa88b3009",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-14T18:03:22+00:00",
+      "text": "Things are heating up in \n\nThe headlines went to the $35B West Coast pipeline and the $57B Port of Churchill. \n\nThe mining chapter has 63 line items with proponent contacts attached\n\nFrom a $2B nickel mine in Timmins to a $2.5B lithium plant in Alberta",
+      "url": "https://x.com/KatusaResearch/status/2099559649129513012",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b554fc6904a18d9820201342",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-09-14T19:56:10+00:00",
+      "text": "The first hike of a new Fed tightening cycle marks a low in Gold when Gold weakens into the decision.\n\nThe bigger signal comes when the 2-year Treasury yield peaks.\n\nAfter the last three peaks in the 2-year yield, Gold surged:\n\n+215% in 2.3 years\n+78% in 1.8 years\n+63% in 9",
+      "url": "https://x.com/TheDailyGold/status/2099588035172282842",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-44c18ee9bd3f68adaed18318",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-15T15:47:39+00:00",
+      "text": "The World's 20 Largest Primary #Silver Mines by 2025 Output",
+      "url": "https://x.com/peter_krauth/status/2099887879342231938",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9266ec7ec70b0e55e9eb5e6b",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-14T20:00:03+00:00",
+      "text": "Blackrock Silver \n@BRCSilver\n is moving up.\n\nConditional approval to graduate to the senior TSX should bring greater visibility and broader institutional access—just as Tonopah West advances through expansion drilling and permitting.\n\nThe pieces are coming together. \n@tedbutler\n and",
+      "url": "https://x.com/peter_krauth/status/2099589010167652694",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-77d55a6ba8f02dd814d3fd27",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-15T12:24:54+00:00",
+      "text": "Dancing with Darth Silver?\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2099836857248788771",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8938615acaf692118ff370b0",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-15T12:57:31+00:00",
+      "text": "Wow!\n\nZodiac Gold Intersects 58 Metres at 3.15 g/t Au, Including 1 Metre at 158 g/t Au in Trenching at Lewis North \nhttps://\nnewsfilecorp.com/release/314338\n/Zodiac-Gold-Intersects-58-Metres-at-3.15-gt-Au-Including-1-Metre-at-158-gt-Au-in-Trenching-at-Lewis-North\n… #GoldExploration #MineralExploration #MiningNews #TSXV #ZodiacGoldInc #Gold #JuniorMining #Mining #MiningStocks #PreciousMetals",
+      "url": "https://x.com/RonStoeferle/status/2099845065812189210",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dc32fbf074d7b29cdf3adc6e",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-14T19:52:00+00:00",
+      "text": "Canada hopes to invest $1 trillion\n\nThis bull market in mining is just getting started",
+      "url": "https://x.com/wmiddelkoop/status/2099586985719447561",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-63b5477bab3a16df9ad8ef08",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-14T19:49:25+00:00",
+      "text": "AFD: Get our gold back! (In German)",
+      "url": "https://x.com/wmiddelkoop/status/2099586335145185666",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2bbacaed3c577274bfdc5d66",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-15T12:58:55+00:00",
+      "text": "In gold terms Bitcoin is very cheap right now.",
+      "url": "https://x.com/LawrenceLepard/status/2099845417353535763",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-537b70ad1e49abe9b8a23f2d",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-14T17:41:13+00:00",
+      "text": "Troilus Mining is set to join the VanEck Junior Gold Miners ETF (GDXJ), effective at market close on September 18.\n\nThe addition comes as Troilus continues to advance its gold-copper project toward a construction decision and could bring increased visibility, liquidity and",
+      "url": "https://x.com/soarfinancial/status/2099554071275508112",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6f2523b38aee4f124ce13b58",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-09-14T16:40:10+00:00",
+      "text": "What does it take for a mining operation and a world-class tourism destination to thrive side by side?\n\nThe latest episode of Gold: The Journey Continues, produced by the \n@GOLDCOUNCIL\n, takes viewers to Kittilä, Finland, where collaborative efforts between the gold mine, the",
+      "url": "https://x.com/agnicoeagle/status/2099538710005965090",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9335b35f0e33b865a01bad76",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-09-14T19:10:05+00:00",
+      "text": "At the end of August, our Toronto office ‘Gold Rush’ students completed their 2026 summer internships after four successful months working at our corporate headquarters. A special thanks to our interns for their contributions this summer through both their in-office roles and",
+      "url": "https://x.com/kinrossgold/status/2099576437090959814",
+      "collector": "x_search",
+      "report_date": "2026-09-15",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

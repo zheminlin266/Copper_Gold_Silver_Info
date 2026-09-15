@@ -1,0 +1,134 @@
+X 原始候选 — 2026-09-15
+采集时间: 2026-09-16T07:27:16.298773+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 13 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-15T14:29:27+00:00
+    北京: 2026-09-15T22:29:27+08:00
+    文本: Mining in Mexico
+    链接: https://x.com/RealRickRule/status/2099868201891037258
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-14T18:03:22+00:00
+    北京: 2026-09-15T02:03:22+08:00
+    文本: Things are heating up in 
+
+The headlines went to the $35B West Coast pipeline and the $57B Port of Churchill. 
+
+The mining chapter has 63 line items with proponent contacts attached
+
+From a $2B nickel mine in Timmins to a $2.5B lithium plant in Alberta
+    链接: https://x.com/KatusaResearch/status/2099559649129513012
+
+[3] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-09-14T19:56:10+00:00
+    北京: 2026-09-15T03:56:10+08:00
+    文本: The first hike of a new Fed tightening cycle marks a low in Gold when Gold weakens into the decision.
+
+The bigger signal comes when the 2-year Treasury yield peaks.
+
+After the last three peaks in the 2-year yield, Gold surged:
+
++215% in 2.3 years
++78% in 1.8 years
++63% in 9
+    链接: https://x.com/TheDailyGold/status/2099588035172282842
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-15T15:47:39+00:00
+    北京: 2026-09-15T23:47:39+08:00
+    文本: The World's 20 Largest Primary #Silver Mines by 2025 Output
+    链接: https://x.com/peter_krauth/status/2099887879342231938
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-14T20:00:03+00:00
+    北京: 2026-09-15T04:00:03+08:00
+    文本: Blackrock Silver 
+@BRCSilver
+ is moving up.
+
+Conditional approval to graduate to the senior TSX should bring greater visibility and broader institutional access—just as Tonopah West advances through expansion drilling and permitting.
+
+The pieces are coming together. 
+@tedbutler
+ and
+    链接: https://x.com/peter_krauth/status/2099589010167652694
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-15T12:24:54+00:00
+    北京: 2026-09-15T20:24:54+08:00
+    文本: Dancing with Darth Silver?
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2099836857248788771
+
+[7] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-15T12:57:31+00:00
+    北京: 2026-09-15T20:57:31+08:00
+    文本: Wow!
+
+Zodiac Gold Intersects 58 Metres at 3.15 g/t Au, Including 1 Metre at 158 g/t Au in Trenching at Lewis North 
+https://
+newsfilecorp.com/release/314338
+/Zodiac-Gold-Intersects-58-Metres-at-3.15-gt-Au-Including-1-Metre-at-158-gt-Au-in-Trenching-at-Lewis-North
+… #GoldExploration #MineralExploration #MiningNews #TSXV #ZodiacGoldInc #Gold #JuniorMining #Mining #MiningStocks #PreciousMetals
+    链接: https://x.com/RonStoeferle/status/2099845065812189210
+
+[8] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-14T19:52:00+00:00
+    北京: 2026-09-15T03:52:00+08:00
+    文本: Canada hopes to invest $1 trillion
+
+This bull market in mining is just getting started
+    链接: https://x.com/wmiddelkoop/status/2099586985719447561
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-14T19:49:25+00:00
+    北京: 2026-09-15T03:49:25+08:00
+    文本: AFD: Get our gold back! (In German)
+    链接: https://x.com/wmiddelkoop/status/2099586335145185666
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-15T12:58:55+00:00
+    北京: 2026-09-15T20:58:55+08:00
+    文本: In gold terms Bitcoin is very cheap right now.
+    链接: https://x.com/LawrenceLepard/status/2099845417353535763
+
+[11] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-14T17:41:13+00:00
+    北京: 2026-09-15T01:41:13+08:00
+    文本: Troilus Mining is set to join the VanEck Junior Gold Miners ETF (GDXJ), effective at market close on September 18.
+
+The addition comes as Troilus continues to advance its gold-copper project toward a construction decision and could bring increased visibility, liquidity and
+    链接: https://x.com/soarfinancial/status/2099554071275508112
+
+[12] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-09-14T16:40:10+00:00
+    北京: 2026-09-15T00:40:10+08:00
+    文本: What does it take for a mining operation and a world-class tourism destination to thrive side by side?
+
+The latest episode of Gold: The Journey Continues, produced by the 
+@GOLDCOUNCIL
+, takes viewers to Kittilä, Finland, where collaborative efforts between the gold mine, the
+    链接: https://x.com/agnicoeagle/status/2099538710005965090
+
+[13] @KinrossGold (Kinross Gold)
+    UTC: 2026-09-14T19:10:05+00:00
+    北京: 2026-09-15T03:10:05+08:00
+    文本: At the end of August, our Toronto office ‘Gold Rush’ students completed their 2026 summer internships after four successful months working at our corporate headquarters. A special thanks to our interns for their contributions this summer through both their in-office roles and
+    链接: https://x.com/kinrossgold/status/2099576437090959814
+
