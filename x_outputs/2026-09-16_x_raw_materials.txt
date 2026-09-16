@@ -1,0 +1,163 @@
+X 原始候选 — 2026-09-16
+采集时间: 2026-09-17T07:27:14.844765+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 13 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-16T14:44:28+00:00
+    北京: 2026-09-16T22:44:28+08:00
+    文本: Rick Rule: “Gold Companies are  selling at the greatest discount” 
+https://
+youtu.be/5ACnFzj-kQQ?si
+=6uk4-YhYnw14hFlk
+… via 
+@YouTube
+ 09-09-2026
+    链接: https://x.com/RealRickRule/status/2100234369957065013
+
+[2] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-16T12:16:10+00:00
+    北京: 2026-09-16T20:16:10+08:00
+    文本: It’s important to understand what’s happening here. 
+
+Bond yields are rising due to repayment risk. (This risk is bullish for gold.)
+
+Why would anyone buy a bond today? Certainly not for yield, but for capital appreciation potential when/if the Fed is forced to lower rates. (This
+    链接: https://x.com/Brien_Lundin/status/2100197047869509922
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-15T22:38:10+00:00
+    北京: 2026-09-16T06:38:10+08:00
+    文本: Suggestion-
+
+Check out the Ten Rules of Silver Investing 
+
+I wrote them over two decades ago in the Investing Rules Book
+    链接: https://x.com/silverguru22/status/2099991192704626943
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-09-15T22:22:59+00:00
+    北京: 2026-09-16T06:22:59+08:00
+    文本: You Need to Save 100 Ounces Of SILVER!! #financialfreedom #silverbullion... 
+https://
+youtube.com/shorts/mWKgo8V
+68go?is=9dXoHqCEzdCIz7lh
+… via 
+@YouTube
+    链接: https://x.com/silverguru22/status/2099987369650987469
+
+[5] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-16T14:19:23+00:00
+    北京: 2026-09-16T22:19:23+08:00
+    文本: Rate hike, cut or hold—silver will react.
+
+But the bigger trend won’t care.
+
+In the latest Silver Stock Investor, I cover the Fed, three TSX30 standouts, a new GDXJ addition and the companies making moves now.
+
+The silver bull isn’t waiting. Neither should investors. Subscribers
+    链接: https://x.com/peter_krauth/status/2100228057101738198
+
+[6] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-16T04:38:57+00:00
+    北京: 2026-09-16T12:38:57+08:00
+    文本: This is still one of the most important macro divergences in markets today.
+
+Ever since the US seized Russian assets, we have seen this historical relationship come apart.
+
+Gold is now the main collateral for central banks.
+
+Meanwhile, the current trajectory of real yields is
+    链接: https://x.com/TaviCosta/status/2100081984974237965
+
+[7] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-15T16:58:03+00:00
+    北京: 2026-09-16T00:58:03+08:00
+    文本: Breaking 
+
+Our next CDFund Discovery Award ceremony will be in Panama City (April 2027) 
+
+Glad to team up with the Bally Family for the second edition of their (SMI) mining conference in Panama 
+
+#discoveryinvesting
+    链接: https://x.com/wmiddelkoop/status/2099905597202145699
+
+[8] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-16T15:20:00+00:00
+    北京: 2026-09-16T23:20:00+08:00
+    文本: Storm Exploration: Drilling Is Underway at Gold Standard!
+
+Bruce Counts joins us to discuss the first drill test of a 5km copper-zinc conductor, with up to 10 holes planned.
+
+Plus, Storm's C$3.2M financing, including C$2M from Eric Sprott.
+
+Watch Here
+
+https://
+youtu.be/Y_tuzqRoV24
+    链接: https://x.com/soarfinancial/status/2100243311982444784
+
+[9] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-15T17:30:27+00:00
+    北京: 2026-09-16T01:30:27+08:00
+    文本: Storm Exploration has closed an oversubscribed $3.2M private placement, strengthening its treasury ahead of further drilling at the Gold Standard Project.
+
+Notably, Eric Sprott invested $2M in the financing and now holds approximately 15.8% of Storm on a non-diluted basis.
+
+With
+    链接: https://x.com/soarfinancial/status/2099913751642403096
+
+[10] @Frank_Giustra (Frank Giustra)
+    UTC: 2026-09-16T15:41:30+00:00
+    北京: 2026-09-16T23:41:30+08:00
+    文本: Frank Giustra: This Is a Forever War. Own Gold and Copper 
+https://
+youtu.be/NF4r9k34F5Y?si
+=TvBqqAKkpYUd3bBG
+… via 
+@YouTube
+    链接: https://x.com/Frank_Giustra/status/2100248720671457632
+
+[11] @AmirAdnani (Amir Adnani)
+    UTC: 2026-09-16T08:51:15+00:00
+    北京: 2026-09-16T16:51:15+08:00
+    文本: Same week the Guide launched:
+
+DOE closed a $1.9 billion loan to restart Duane Arnold.
+
+Google committed $15 billion to Finland, backed by a 22-year nuclear power deal.
+
+A U.S. nuclear company launched a $900 million IPO.
+
+Three drivers of nuclear expansion, all in one week:
+    链接: https://x.com/AmirAdnani/status/2100145479807881239
+
+[12] @Wheaton_PM (Wheaton Precious Metals)
+    UTC: 2026-09-15T16:54:39+00:00
+    北京: 2026-09-16T00:54:39+08:00
+    文本: We’re pleased to share the publication of Wheaton’s 2026/2027 Guidebook, which provides a comprehensive overview of our company and value proposition.
+
+We invite you to explore the Guidebook and learn more about the strategy, portfolio, and business model that have made
+    链接: https://x.com/Wheaton_PM/status/2099904740813668664
+
+[13] @KinrossGold (Kinross Gold)
+    UTC: 2026-09-15T20:03:31+00:00
+    北京: 2026-09-16T04:03:31+08:00
+    文本: This summer, Kinross Tasiast hosted a series of training sessions aimed at strengthening our workforces' incident investigation capabilities to advance our proactive safety culture at Tasiast. 
+Learn more here
+    链接: https://x.com/kinrossgold/status/2099952272260157627
+

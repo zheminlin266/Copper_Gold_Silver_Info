@@ -1,0 +1,556 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-16",
+  "report_time": "2026-09-17T07:42:07+08:00",
+  "summary": "黄金：Hammerdown达到商业生产，巴西和哥伦比亚勘探资源扩大，苏丹事故增加非正规供给风险。白银：Santa Ana资源增至4180万盎司，Gowganda尾矿仅保留未核验精简卡。铜：Codelco较低产量基线延后确认，勘探与冶金项目继续增加中长期供给管线。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-14T00:00:00+08:00",
+      "end": "2026-09-16T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-16T00:00:00+08:00",
+      "end": "2026-09-16T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-16T00:00:00+08:00",
+      "end": "2026-09-16T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://resourcetalks.com/gold-stocks/cash-flowing-gold-mine-in-ontario-but-can-they-get-costs-under-control/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hemlo当前磨机处理量约为3,800吨/日，许可能力为13,500吨/日。",
+          "evidence": "Resource Talks访谈页面TL;DR直接列出当前处理量与许可能力。",
+          "source_url": "https://resourcetalks.com/gold-stocks/cash-flowing-gold-mine-in-ontario-but-can-they-get-costs-under-control/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 operational update",
+          "unit": "tonnes per day",
+          "value": "about 3,800 current; 13,500 permitted"
+        },
+        {
+          "claim": "公司目标是2026年底约4,800吨/日、2027年底约6,000吨/日，并在约三年内达到10,000吨/日及约25万盎司上下的年产量。",
+          "evidence": "Resource Talks访谈页面TL;DR和Upcoming catalysts段落直接列出处理量、产量与时间表。",
+          "source_url": "https://resourcetalks.com/gold-stocks/cash-flowing-gold-mine-in-ontario-but-can-they-get-costs-under-control/",
+          "evidence_type": "direct interview page text",
+          "period": "2026-2029 expansion outlook",
+          "unit": "tonnes per day and troy ounces per year",
+          "value": "4,800 by end-2026; 6,000 by end-2027; 10,000 in about three years; about 250,000 oz"
+        },
+        {
+          "claim": "Q2归属产量降至略高于25,000盎司，原因包括采矿顺序调整和较低品位开发矿入选。",
+          "evidence": "Resource Talks访谈页面TL;DR直接说明Q2归属产量、前期产量和运营转型原因。",
+          "source_url": "https://resourcetalks.com/gold-stocks/cash-flowing-gold-mine-in-ontario-but-can-they-get-costs-under-control/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 Q2",
+          "unit": "troy ounces",
+          "value": "a little over 25,000 oz attributable"
+        }
+      ],
+      "publish_date": "2026-09-15",
+      "title": "Hemlo Mining：安大略金矿扩产与成本控制访谈",
+      "source_type": "youtube",
+      "summary": "Resource Talks访谈Hemlo Mining CEO Jason Kosec：Hemlo金矿当前约3,800吨/日，计划2026年底达到4,800吨/日、2027年底达到6,000吨/日，并在约三年内扩至10,000吨/日；Q2归属产量约2.5万盎司。",
+      "detail": "访谈页称Hemlo磨机许可能力为13,500吨/日，现阶段约3,800吨/日；公司目标是2027年达到约20万盎司归属产量，约三年内达到10,000吨/日、约25万盎司上下的年产量。当前资源量约500万盎司测定与指示资源，另有近100万盎司推断资源；公司还在推进13万米钻探。",
+      "importance": "这次访谈把Hemlo的短期波动与扩产路径拆开：Q2归属产量降至约2.5万盎司，但管理层计划把处理量从3,800吨/日推向2027年的6,000吨/日，长期再到10,000吨/日。劳动力、提升机备件和资源转储量验证是兑现约束，2027年指引与更新技术报告比口头目标更关键。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Jason Kosec",
+        "background": "Hemlo Mining CEO"
+      }
+    },
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-gdxj-highlights-major-rebalancing-in-holdings",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "C3 Metals在Khaleesi铜金靶区报告119.5米、0.30%铜当量和164.6米、0.35%铜当量截段，矿化确认至500米深。",
+          "evidence": "Mining Stock Daily节目正文列出C3 Metals的报告日钻探结果与深度。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-gdxj-highlights-major-rebalancing-in-holdings",
+          "evidence_type": "direct podcast page text",
+          "period": "2026 report-date drilling update",
+          "unit": "metres and copper equivalent grade",
+          "value": "119.5 m at 0.30% CuEq; 164.6 m at 0.35% CuEq; to 500 m depth"
+        },
+        {
+          "claim": "Gladiator Metals将Whitehorse Copper项目计划扩大至5万米、5台钻机，代表性孔段为21.2米、3.07%铜并伴生金银。",
+          "evidence": "Mining Stock Daily节目正文列出孔号、品位、计划规模和钻机数量。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-gdxj-highlights-major-rebalancing-in-holdings",
+          "evidence_type": "direct podcast page text",
+          "period": "2026 drilling program",
+          "unit": "metres, percent, and rigs",
+          "value": "21.2 m at 3.07% Cu; 50,000 m; five rigs"
+        },
+        {
+          "claim": "NGEx Minerals的Lunahuasi冶金试验显示铜回收率92%—94.2%，金回收率最高87.1%。",
+          "evidence": "Mining Stock Daily节目正文列出不同复合样的铜、金回收率和流程结果。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-gdxj-highlights-major-rebalancing-in-holdings",
+          "evidence_type": "direct podcast page text",
+          "period": "2026 preliminary metallurgical results",
+          "unit": "recovery percentage",
+          "value": "92%-94.2% copper; up to 87.1% gold"
+        }
+      ],
+      "publish_date": "2026-09-15",
+      "title": "Mining Stock Daily：GDXJ大幅调仓与金银铜矿业进展",
+      "source_type": "podcast",
+      "summary": "Mining Stock Daily报道C3 Metals在秘鲁Khaleesi铜金靶区获得两段铜当量钻探结果，矿化确认至500米深；Gladiator Metals扩大Whitehorse铜项目钻探至5万米；NGEx的Lunahuasi冶金试验显示铜回收率92%—94.2%。",
+      "detail": "节目页还报告C3同一钻孔出现119.5米、0.30%铜当量和164.6米、0.35%铜当量矿化，Gladiator一孔见21.2米、3.07%铜并伴生金银，NGEx铜精矿试验在无需清洁段的流程下达到23.4%—39.4%铜精矿品位。节目所述内容来自各公司报告日新闻稿链接。",
+      "importance": "这期简报显示铜金勘探端的增量正在从靶区走向可验证工序：C3的矿化延伸至500米、Gladiator已把计划扩大到5万米钻探，NGEx则以92%—94.2%铜回收率完成冶金验证。它们仍是勘探与试验结果，短期供给不会增加，后续资源量、许可和经济评价决定能否转成项目产能。",
+      "verification_status": "verified"
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/venezuela-aluminum-heads-to-us-as-heeney-unveils-gold-deal/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Heeney Capital与Mercuria计划在委内瑞拉Choco金矿未来30年投入最多10亿美元，并将矿山产出运往美国。",
+          "evidence": "Mining.com正文援引Bloomberg News直接列出投资上限、期限、项目和销售方向。",
+          "source_url": "https://www.mining.com/web/venezuela-aluminum-heads-to-us-as-heeney-unveils-gold-deal/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026-09-16 investment plan",
+          "unit": "USD and years",
+          "value": "up to $1 billion over 30 years"
+        },
+        {
+          "claim": "Choco 10矿区曾由政府接管，当前面临产量下降和投资不足。",
+          "evidence": "Mining.com正文直接描述矿区历史运营状态和投资背景。",
+          "source_url": "https://www.mining.com/web/venezuela-aluminum-heads-to-us-as-heeney-unveils-gold-deal/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "current project background",
+          "unit": "operating condition",
+          "value": "declining production; lack of investment"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "委内瑞拉Choco金矿获最多10亿美元、30年投资计划",
+      "excerpt": "Mining.com援引Bloomberg News报道，Heeney Capital与Mercuria计划在委内瑞拉Choco金矿未来30年投入最多10亿美元，并将该矿产出运往美国；Choco矿区长期受投资不足和产量下降影响。",
+      "language": "en",
+      "interpretation": "这是存量金矿重启与跨境销售安排，影响首先落在资本、运营和销售渠道的前置条件。报道没有给出新增年产量或复产时间，政府审批、运营控制和矿山重整仍决定最终供给。",
+      "importance": "最多10亿美元、30年投资承诺把Choco从低投资存量资产重新接入跨境资本和销售渠道，改善了未来金供给恢复的资金前置条件。影响兑现取决于许可、运营控制、矿山重整和复产节奏；报道没有新增年产量，短期不能计入供应。",
+      "verification_status": "verified",
+      "companies": [
+        "Heeney Capital",
+        "Mercuria Energy Group",
+        "CVG"
+      ],
+      "projects": [
+        "Choco gold mine",
+        "Choco 10 mine"
+      ],
+      "mining_com_source_note": "铜分类页未将该文作为主候选；金分类页Playwright提取报告日文章，直接页面用同一反检测Chrome Playwright打开并核对标题、日期、最多10亿美元、30年和Choco供给背景。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/new-found-gold-hits-commercial-output-at-hammerdown/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hammerdown在约60个连续生产日达到约748吨/日、87.7%金回收率和2.92克/吨平均入选品位后，于8月19日达到商业生产。",
+          "evidence": "Mining.com正文直接列出商业生产判定的持续运行基准与日期。",
+          "source_url": "https://www.mining.com/new-found-gold-hits-commercial-output-at-hammerdown/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026-08-19 commercial production milestone",
+          "unit": "days, tonnes per day, percent, and grams per tonne",
+          "value": "60 days; about 748 tpd; 87.7% recovery; 2.92 g/t"
+        },
+        {
+          "claim": "Hammerdown今年前八个月生产9,140盎司黄金，其中8月为1,989盎司。",
+          "evidence": "Mining.com正文的9,140 oz段落直接列出年内和单月产量。",
+          "source_url": "https://www.mining.com/new-found-gold-hits-commercial-output-at-hammerdown/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 January-August",
+          "unit": "troy ounces",
+          "value": "9,140 oz total; 1,989 oz in August"
+        },
+        {
+          "claim": "公司计划将Pine Cove从约700吨/日扩至1,400吨/日，改造预计2027年第四季度完成。",
+          "evidence": "Mining.com正文直接列出当前和目标处理能力及完工时间。",
+          "source_url": "https://www.mining.com/new-found-gold-hits-commercial-output-at-hammerdown/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2027 expansion plan",
+          "unit": "tonnes per day and quarter",
+          "value": "700 to 1,400 tpd; Q4 2027"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "New Found Gold的Hammerdown金矿达到商业生产",
+      "excerpt": "Mining.com报道，New Found Gold的纽芬兰Hammerdown金矿在连续约60天达到约748吨/日处理量、87.7%回收率和2.92克/吨平均入选品位后，于8月19日达到商业生产；今年前八个月产金9,140盎司，8月产金1,989盎司。",
+      "language": "en",
+      "interpretation": "商业生产里程碑与持续运行指标提供了实际供给证据，区别于资源量或规划产能。当前产量仍由Pine Cove工厂处理能力约700吨/日约束，公司计划在2027年第四季度完成扩至1,400吨/日的改造。",
+      "importance": "Hammerdown已从试运行转为具备连续运行证据的商业生产，金供给影响从项目建设推进到当期产出兑现。前八个月9,140盎司和8月1,989盎司构成当前基线，2027年扩建将决定后续增量，不能把13年规划产量直接当作短期供给。",
+      "verification_status": "verified",
+      "companies": [
+        "New Found Gold",
+        "Maritime Resources"
+      ],
+      "projects": [
+        "Hammerdown mine",
+        "Pine Cove mill",
+        "Queensway project"
+      ],
+      "mining_com_source_note": "金分类页Playwright提取报告日候选；文章直接请求受限后用同一反检测Chrome Playwright打开，HTTP 200，核对商业生产日期、60天运行指标、年内产量和工厂扩建计划。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/outcrop-doubles-inferred-silver-at-santa-ana-in-colombia/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Santa Ana新资源包含约1.8百万吨指示资源，品位376克/吨银和1.8克/吨金，含银2,170万盎司；推断资源约2.3百万吨，含银2,010万盎司。",
+          "evidence": "Mining.com正文直接列出两类资源量、品位和含金属量。",
+          "source_url": "https://www.mining.com/outcrop-doubles-inferred-silver-at-santa-ana-in-colombia/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 resource update",
+          "unit": "tonnes, grams per tonne, and troy ounces",
+          "value": "21.7 Moz indicated silver; 20.1 Moz inferred silver"
+        },
+        {
+          "claim": "合计含银量由2023年的2,720万盎司增至4,180万盎司，推断银资源增加约107%。",
+          "evidence": "Mining.com正文的More drilling段落直接给出前后资源量和增幅。",
+          "source_url": "https://www.mining.com/outcrop-doubles-inferred-silver-at-santa-ana-in-colombia/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2023 versus 2026 resource models",
+          "unit": "troy ounces and percent",
+          "value": "41.8 Moz versus 27.2 Moz; inferred +107%"
+        },
+        {
+          "claim": "新模型纳入130,006米、646孔钻探，另有35,000米钻探计划。",
+          "evidence": "Mining.com正文直接列出已纳入钻探量和持续钻探计划。",
+          "source_url": "https://www.mining.com/outcrop-doubles-inferred-silver-at-santa-ana-in-colombia/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 exploration program",
+          "unit": "metres and holes",
+          "value": "130,006 m; 646 holes; 35,000 m ongoing campaign"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "Outcrop大幅增加哥伦比亚Santa Ana银资源",
+      "excerpt": "Mining.com报道，Outcrop在哥伦比亚Santa Ana更新资源模型：指示资源约2,170万盎司白银和10.4万盎司黄金，推断资源约2,010万盎司白银和9.8万盎司黄金；合计含银量由2023年的2,720万盎司增至4,180万盎司。",
+      "language": "en",
+      "interpretation": "这是钻探支撑的资源分类扩展，扩大了未来银供给管线，但资源量不是储量、矿山产量或可交付库存。模型纳入13万米、646孔钻探，项目仍需冶金、经济评价、许可和建设才能转化。",
+      "importance": "Santa Ana的含银资源从27.2百万盎司升至41.8百万盎司，推断部分约增107%，使中长期供给规模和勘探延展性明显上修。35,000米后续钻探仍在验证13个矿脉系统，资源分类与地下可采形状尚不能替代储量，短期现货供应不会变化。",
+      "verification_status": "verified",
+      "companies": [
+        "Outcrop Silver & Gold"
+      ],
+      "projects": [
+        "Santa Ana project",
+        "Mariquita silver district"
+      ],
+      "mining_com_source_note": "银分类页Playwright提取报告日候选；文章直接请求在达到免费阅读限制前返回可见内容，使用同一反检测Chrome Playwright核对标题、日期、资源量、钻探米数和项目计划。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/g-mining-discovers-new-gold-deposit-in-brazil/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Grodiocal靶区钻孔GUR-26-068见23米、1.97克/吨金，含9米、4.24克/吨金；另一孔见10米、3.42克/吨金。",
+          "evidence": "Mining.com正文直接列出两孔钻探结果、品位和深度。",
+          "source_url": "https://www.mining.com/g-mining-discovers-new-gold-deposit-in-brazil/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 drilling results",
+          "unit": "metres and grams per tonne gold",
+          "value": "23 m at 1.97 g/t including 9 m at 4.24 g/t; 10 m at 3.42 g/t"
+        },
+        {
+          "claim": "Grodiocal首轮钻探覆盖17,667米、127孔，矿化廊道约5公里长、最多1公里宽。",
+          "evidence": "Mining.com正文的Near-surface zone段落直接列出工作量和矿化范围。",
+          "source_url": "https://www.mining.com/g-mining-discovers-new-gold-deposit-in-brazil/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "maiden drilling program",
+          "unit": "metres, holes, and kilometres",
+          "value": "17,667 m; 127 holes; 5 km by up to 1 km"
+        },
+        {
+          "claim": "Gurupi计划在2026年年底前更新资源量并完成初步经济评价。",
+          "evidence": "Mining.com正文直接列出年末资源更新和PEA时间表。",
+          "source_url": "https://www.mining.com/g-mining-discovers-new-gold-deposit-in-brazil/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 year-end outlook",
+          "unit": "milestone",
+          "value": "updated resource estimate and PEA"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "G Mining在巴西Gurupi发现新的近地表金矿化",
+      "excerpt": "Mining.com报道，G Mining Ventures在巴西Gurupi项目Grodiocal靶区钻获23米、1.97克/吨金的矿化，其中包括9米、4.24克/吨金；首轮钻探覆盖17,667米、127孔，年末计划更新资源量并完成初步经济评价。",
+      "language": "en",
+      "interpretation": "新靶区和既有矿床延伸扩大了Tocantinzinho之外的金供给管线，但钻探截段不等于资源量或可采储量。年末资源更新和PEA是把矿化连续性、规模与经济性转化为开发决策的下一步。",
+      "importance": "Grodiocal把Gurupi从单一资源故事推进到具有新近地表矿化和年末经济评价节点的开发候选，未来供给的选择权有所增加。17,667米首轮钻探和2026年末资源/PEA时间表提供了验证锚点，但仍需连续性、冶金、许可和资本执行，短期不会增加金产量。",
+      "verification_status": "verified",
+      "companies": [
+        "G Mining Ventures",
+        "BHP"
+      ],
+      "projects": [
+        "Gurupi project",
+        "Grodiocal target",
+        "Tocantinzinho mine"
+      ],
+      "mining_com_source_note": "金分类页Playwright提取报告日候选；文章直接请求后用同一反检测Chrome Playwright打开，HTTP 200，核对标题、日期、钻探截段、孔数、资源背景和年末资源/PEA计划。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/sudan-gold-mine-collapse-kills-at-least-60-miners/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "苏丹西科尔多凡州al-Zara金矿坍塌造成至少60人死亡，监测组织称超过70名手工采矿者死亡或失踪。",
+          "evidence": "Mining.com正文援引Reuters与Kordofan Observatory直接列出伤亡数字。",
+          "source_url": "https://www.mining.com/sudan-gold-mine-collapse-kills-at-least-60-miners/",
+          "evidence_type": "direct Mining.com article text via Playwright; Reuters cited",
+          "period": "2026-09-16 report of Sunday collapse",
+          "unit": "people",
+          "value": "at least 60 killed; more than 70 dead or missing"
+        },
+        {
+          "claim": "救援受到不稳定砂土地层和缺少专业救援设备影响。",
+          "evidence": "Mining.com正文的Rescue struggle段落直接描述救援限制。",
+          "source_url": "https://www.mining.com/sudan-gold-mine-collapse-kills-at-least-60-miners/",
+          "evidence_type": "direct Mining.com article text via Playwright",
+          "period": "2026 rescue effort",
+          "unit": "operational constraint",
+          "value": "unstable sandy ground; no specialized rescue teams"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "苏丹西科尔多凡金矿坍塌，至少60人死亡",
+      "excerpt": "Mining.com援引Reuters报道，苏丹西科尔多凡州al-Zara金矿相邻井巷坍塌，至少60人死亡；监测组织称超过70名手工采矿者死亡或失踪。救援受不稳定砂土地层和缺乏专业设备影响。",
+      "language": "en",
+      "interpretation": "事故直接影响事发矿点和当地非正规金供应的安全与可持续性，但报道没有给出该矿点产量，也不能把伤亡人数换算成全国供给缺口。冲突控制、制裁和手工采矿占比提高了实际贸易流向的不确定性。",
+      "importance": "这起事故把苏丹金供给的约束从资源禀赋转向生产安全、救援能力和冲突治理：超过70名手工采矿者死亡或失踪，事发点短期停产风险上升。由于苏丹大量黄金来自手工采矿且许多产出被走私，事件更可能削弱可追踪供应和正规出口，不能据此量化全国减产。",
+      "verification_status": "verified",
+      "companies": [
+        "Kordofan Observatory"
+      ],
+      "projects": [
+        "al-Zara gold mine"
+      ],
+      "mining_com_source_note": "金分类页Playwright提取报告日候选；文章直接请求后用同一反检测Chrome Playwright打开，HTTP 200，核对标题、日期、伤亡数字、救援条件和Reuters署名。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/silver-price-surge-revives-nords-gowganda-tailings-near-cobalt/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gowganda项目历史尾矿中约有280万盎司指示银资源。",
+          "evidence": "Mining.com页面可见文章首段摘要直接列出该数字；完整正文受免费阅读限制。",
+          "source_url": "https://www.mining.com/silver-price-surge-revives-nords-gowganda-tailings-near-cobalt/",
+          "evidence_type": "visible article teaser via Playwright",
+          "period": "2026-09-16 report",
+          "unit": "troy ounces of indicated silver",
+          "value": "about 2.8 million oz"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "银价上涨重新激活Nord的Gowganda尾矿项目",
+      "excerpt": "Mining.com文章页面可见摘要显示，Nord Precious Metals Mining在加拿大安大略Gowganda项目历史尾矿中圈定约280万盎司指示银资源。",
+      "language": "en",
+      "verification_status": "unverified",
+      "verification_note": "同一反检测Chrome Playwright可打开页面并核对标题、日期和首段摘要，但页面随后显示免费阅读额度已用尽，完整资源口径、项目计划和核心数字无法继续核对；按精简卡发布，不补写付费墙后的事实。",
+      "companies": [
+        "Nord Precious Metals Mining"
+      ],
+      "projects": [
+        "Gowganda project"
+      ],
+      "mining_com_source_note": "银分类页Playwright提取报告日候选；同一Playwright会话HTTP 200并显示标题、日期和含2.8百万盎司指示银资源的首段摘要，随后进入Free Article Limit页面，未将搜索摘要或付费墙外未知内容当作证据。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/chiles-state-owned-miner-codelco-says-restructuring-plan-may-be-delayed-until-end-of-2026/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Codelco原定10月公布的重组计划可能推迟至2026年末。",
+          "evidence": "Mining.com文章由Reuters署名并直接列出公司对重组诊断和时间表的说明。",
+          "source_url": "https://www.mining.com/web/chiles-state-owned-miner-codelco-says-restructuring-plan-may-be-delayed-until-end-of-2026/",
+          "evidence_type": "direct Mining.com article text via Playwright; Reuters",
+          "period": "2026 restructuring outlook",
+          "unit": "date",
+          "value": "end of 2026"
+        },
+        {
+          "claim": "Codelco董事长称未来几年产量可能约为130万吨，此前计划曾设定本十年末达到170万吨。",
+          "evidence": "Mining.com正文的Turnaround strategy段落直接列出两种产量口径。",
+          "source_url": "https://www.mining.com/web/chiles-state-owned-miner-codelco-says-restructuring-plan-may-be-delayed-until-end-of-2026/",
+          "evidence_type": "direct Mining.com article text via Playwright; Reuters",
+          "period": "future production outlook",
+          "unit": "metric tonnes of copper per year",
+          "value": "about 1.3 Mt versus prior 1.7 Mt target"
+        },
+        {
+          "claim": "消息人士称人员调整幅度可能为5%—20%，Codelco员工规模接近7.7万人，公司表示目前判断仍为时过早。",
+          "evidence": "Mining.com正文直接区分消息人士说法与Codelco的谨慎回应。",
+          "source_url": "https://www.mining.com/web/chiles-state-owned-miner-codelco-says-restructuring-plan-may-be-delayed-until-end-of-2026/",
+          "evidence_type": "direct Mining.com article text via Playwright; Reuters",
+          "period": "2026 restructuring discussion",
+          "unit": "percent and employees",
+          "value": "5%-20%; nearly 77,000 workers"
+        }
+      ],
+      "publish_time": "2026-09-16",
+      "source": "Mining.com",
+      "title": "Codelco重组计划可能推迟至2026年末",
+      "excerpt": "Mining.com援引Reuters报道，Codelco原定10月公布的重组计划可能推迟到2026年末；消息人士称方案或涉及约5%—20%人员调整，Codelco当前预计未来几年产量约130万吨，低于此前本十年末170万吨的目标。",
+      "language": "en",
+      "interpretation": "重组延后本身不等于立即减产，核心供给信息是公司对未来产量的较低基线以及出售、关闭低盈利业务或推迟项目的可能路径。约7.7万人的组织调整和成本压力可能改变维护、项目投资与产量恢复速度，仍需等待正式方案。",
+      "importance": "Codelco把未来几年约130万吨的产量表述置于此前170万吨目标之下，显示全球重要铜矿供给恢复仍存在约40万吨的规划缺口。重组推迟至年末会延后产能、项目和人员决策，5%—20%人员调整仍属消息人士推测，正式方案与产量指引是下一验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "Codelco"
+      ],
+      "projects": [
+        "Chuquicamata smelter"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径提取报告日候选；文章直接请求后用同一反检测Chrome Playwright打开，HTTP 200，核对Reuters署名、重组时间、员工规模和130万/170万吨产量口径。",
+      "source_channel": "playwright"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Resource Talks WordPress公开接口及Hemlo Mining访谈页：HTTP 200；核对页面标题、2026-09-15来源日期、Jason Kosec、处理量、产量、资源量、钻探和资本开支信息。",
+      "Mining Stock Daily Episodes列表及GDXJ Morning Briefing页面：HTTP 200；页面JSON-LD发布时间为2026-09-15T11:21:32-04:00（北京时间2026-09-15 23:21），核对C3、Gladiator和NGEx的节目正文及新闻稿链接。",
+      "Resource Talks 2026-09-14 Mercado Minerals页面：HTTP 200，但与2026-09-14日报已纳入的访谈重复，按跨日报去重。",
+      "Resource Talks 2026-09-16 Nations Royalty页面：HTTP 200，但页面发布时间为2026-09-16T20:33:25Z（北京时间2026-09-17 04:33），超出Part 1窗口，未纳入。",
+      "KER公开接口返回HTTP 403；未据此补写候选，使用可打开的Resource Talks和Mining Stock Daily页面完成替代检索。",
+      "Denver Gold Forum、Precious Metals Summit公开入口及data/conference_calendar.json：检查报告日窗口内回放、演示和会议入口，未发现可核验且未重复的目标金属访谈。",
+      "data/2026-09-14.json、data/2026-09-15.json（不存在）及最近三份可用日报：完成跨日报URL、项目和实质事件去重。"
+    ],
+    "part1_result": "完成北京时间2026-09-14至09-16的Podcast、YouTube访谈、Mining Stock Daily简报和会议入口检索；收录Hemlo Mining访谈及GDXJ Morning Briefing各1条。重复Mercado访谈、超出北京时间窗口的Nations Royalty页面、价格宏观内容和无法直接核验的入口均排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "C:/Users/Zhemin/.codex/tools/browser-use/Scripts/daily_pipeline.py 2026-09-16 --collect-x；内部调用scripts/x_search.py。",
+      "Playwright按注册表顺序串行处理53个账号，53/53完成、0失败，未启动twscrape。",
+      "x_outputs/2026-09-16_x_raw_materials.txt及x_outputs/2026-09-16_x_raw_materials.json：保留13条原始候选、账号覆盖、选定通道、尝试通道和失败审计。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号、0个账号失败，取得13条原始候选；逐条核对原作者、正文、发布时间和原帖URL后，因价格/宏观、宣传、会议预告、信息不足或非目标金属供需事实，最终0条纳入。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright真实完成全部53个账号；无登录墙、challenge、CAPTCHA或账号级失败。",
+        "13条候选均保留在按报告日命名的txt和JSON sidecar，未把价格、宏观或宣传帖写成供需信号。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com https://www.mining.com/commodity/copper/：固定Python Playwright Chromium主路径HTTP 200，DOM提取10条2026-09-16候选；Codelco文章为合格铜供给基线信号。",
+      "Mining.com https://www.mining.com/commodity/gold/：固定Python Playwright主路径HTTP 200，提取15条2026-09-16候选；选入Venezuela、Hammerdown、Gurupi和Sudan文章。",
+      "Mining.com https://www.mining.com/commodity/silver/：固定Python Playwright主路径HTTP 200，提取10条2026-09-16候选；选入Outcrop，Nord仅保留可见摘要精简卡。",
+      "Mining.com入选文章逐篇核验：Venezuela、Hammerdown、Outcrop、Gurupi、Sudan和Codelco直接请求受限或不稳定时，均使用同一反检测Chrome Playwright会话打开并核对标题、日期和正文；Nord页面在首段摘要后触发Free Article Limit。",
+      "Google site:mining.com gold September 16 2026、silver September 16 2026、copper September 16 2026：均返回HTTP 200的Google访问提示页，0个可靠文章命中；未用搜索摘要替代分类页或正文。",
+      "Mining Stock Daily 2026-09-16页面及其报告日新闻稿链接：用于Part 1广播事实核验；Gurupi的重复简报内容不另设Part 3信号，Part 3保留Mining.com完整文章。",
+      "SMM新闻首页、SMM搜索入口、SMM主站和Google中文日期检索：页面/入口可访问但未发现报告日可打开且具备独立金银铜供需数字的合格中文条目；Baidu日期检索返回访问验证页，未把搜索摘要当作证据。",
+      "data/2026-09-14.json、data/2026-09-13.json、data/2026-09-12.json：完成跨日报URL、项目、事件和核心数字去重。"
+    ],
+    "part3_result": "完成北京时间2026-09-16英文和中文新闻检索；Mining.com三金属分类页Playwright主路径均成功，逐篇核验6篇完整文章并对1篇付费墙文章保留未核验精简卡，最终收录7条。中文公开入口未发现可独立核验的报告日合格信号；价格、宏观、赞助、泛政策和非目标金属候选排除。",
+    "mining_com_source_note": "严格执行铜分类页Playwright主路径并辅助抓取金、银分类页；铜/金/银分别提取10/15/10条报告日候选。入选完整文章均按文章URL核验，直接请求受限时使用同一反检测Chrome Playwright会话；Google site:金/银/铜查询均为访问提示页，未把搜索摘要当作证据。Nord文章仅核对页面可见首段摘要并标记unverified。",
+    "url_verification": {
+      "checked": 22,
+      "passed": 21,
+      "failed": 1,
+      "failures": [
+        {
+          "url": "https://www.mining.com/silver-price-surge-revives-nords-gowganda-tailings-near-cobalt/",
+          "reason": "Playwright可核对标题、日期和首段摘要，但免费阅读额度用尽，无法核对完整正文与项目后续信息；仅发布精简卡并标记来源未核验。"
+        }
+      ],
+      "notes": [
+        "2条Part 1页面和6条完整Part 3文章直接打开并核对标题、日期、主体和核心数字，全部标记verified。",
+        "Nord摘要卡计入1个未核验URL；13条X候选均由Playwright核对原作者、正文、发布时间和原帖URL后排除。"
+      ]
+    },
+    "new_sources_discovered": []
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://resourcetalks.com/silver-stocks/high-grade-silver-veins-in-mexico-but-are-the-widths-mineable/：已在2026-09-14日报纳入Mercado Minerals访谈，未重复纳入。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/RealRickRule/status/2100234369957065013：金矿股估值/折价与外部YouTube宣传，缺少新增实物供需事实。",
+      "https://x.com/Brien_Lundin/status/2100197047869509922：债券收益率和黄金宏观观点，排除。",
+      "https://x.com/silverguru22/status/2099991192704626943：旧书宣传，排除。",
+      "https://x.com/silverguru22/status/2099987369650987469：实物银储蓄口号/YouTube宣传，排除。",
+      "https://x.com/peter_krauth/status/2100228057101738198：付费研究宣传和宏观评论，排除。",
+      "https://x.com/TaviCosta/status/2100081984974237965：央行抵押品和实际收益率宏观观点，排除。",
+      "https://x.com/wmiddelkoop/status/2099905597202145699：会议预告，排除。",
+      "https://x.com/soarfinancial/status/2100243311982444784：视频宣传，信息已由节目页或新闻稿承载，未单列X信号。",
+      "https://x.com/soarfinancial/status/2099913751642403096：私募宣传，缺少可追溯供需新增事实。",
+      "https://x.com/Frank_Giustra/status/2100248720671457632：地缘和持有黄金铜的宏观视频宣传，排除。",
+      "https://x.com/AmirAdnani/status/2100145479807881239：核电投资信息与金银铜供需无直接传导，排除。",
+      "https://x.com/Wheaton_PM/status/2099904740813668664：公司指南宣传，无报告日新增供需事实。",
+      "https://x.com/kinrossgold/status/2099952272260157627：安全培训更新，未形成可量化产量或供给变化。"
+    ],
+    "part3_deduped_events": [
+      "G Mining Gurupi发现同时出现在Mining Stock Daily简报和Mining.com文章；Part 1广播卡采用C3/Gladiator/NGEx独有内容，Part 3保留Mining.com完整Gurupi文章。",
+      "Mining.com分类页中的价格、利率、投资展望、赞助内容、核电/铝/镍/铀和泛关键矿产候选缺少金银铜直接供需变化，排除。",
+      "Lundin Gold税务争议页面明确写明运营无影响，未作为供给信号发布。",
+      "SMM、Baidu和中文日期检索未获得可打开且可核验的报告日独立金银铜供需文章，未以摘要补写信号。"
+    ],
+    "notes": "候选先按北京时间Part 1窗口2026-09-14至09-16和Part 3窗口2026-09-16筛选，再与最近日报比较URL、项目、事件和核心数字；资源量、钻探、经济评价和规划产量均明确标为潜在供给，Hammerdown商业生产单独标为实际产出，Nord仅发布来源未核验精简卡。"
+  }
+}
