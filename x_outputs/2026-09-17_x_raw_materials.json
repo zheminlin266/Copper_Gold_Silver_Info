@@ -1,0 +1,271 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-17",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-451c32119b700cba7c85b896",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-17T14:35:44+00:00",
+      "text": "in the period covered ( Jan 2026 to present,) the silver stocks i bought with the proceeds of the physical silver sale have handilly out performed physical silver",
+      "url": "https://x.com/RealRickRule/status/2100594560040845710",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-569002aa5ca6779d83b70801",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-16T20:51:56+00:00",
+      "text": "09-16-2028 Primer on Gold",
+      "url": "https://x.com/RealRickRule/status/2100326842381246479",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3502891c8a52462048578fc3",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-17T14:24:31+00:00",
+      "text": "Land — they're not making any more of it.\n\nThat said, timber has a particular supply problem. After decades of over-planting, there's a huge supply overhang. And regardless of demand, that supply just keeps growing. Literally.\n\nIn the Covid building/remodeling boom, timber",
+      "url": "https://x.com/Brien_Lundin/status/2100591736086991001",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1812c784878d9e4a10ad2821",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-17T13:16:57+00:00",
+      "text": "Gold is up strongly today, the day after the Fed's widely anticipated rate hike. To understand why, a little history....\n\nIn December 2015, the market expected the Fed to hike at its mid-month meeting. I made a pretty bold call that this would mark the bottom for the price, as",
+      "url": "https://x.com/Brien_Lundin/status/2100574730063368661",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-48cc92fe4dc6ccb9e6413f14",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-16T20:03:29+00:00",
+      "text": " Silver Advisor Heads to Germany\n\nGermany has a deep precious-metals investor base — and we want more of those investors seeing the mining stories we follow.\n\nSilver Advisor has partnered with \n@axinocapital\n to expand our reach across Germany, Austria and Switzerland.\n\nMore",
+      "url": "https://x.com/peter_krauth/status/2100314650013577383",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f674041fddd7a305a3f11339",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-16T18:20:38+00:00",
+      "text": "Aya’s \n@AyaGoldSilver\n's Zgounder Mine keeps laying “silver eggs.”\n\n7,717 g/t over 1.5m\n4,770 g/t over 2.4m\n1,362 g/t over 8.4m\nStrong grades. Real widths. More drilling ahead.\n\nI remain overweight with no plans to sell. Subscribe for my \n@TedJButler\n's  analysis:",
+      "url": "https://x.com/peter_krauth/status/2100288769652043876",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2de6dc61307aa27d02bf673d",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-16T18:13:34+00:00",
+      "text": "Kootenay Silver \n@KootenaySilver\n  is ~59% below its 52-week high—but the drills haven’t slowed.\n\nColumba is growing beyond 54.1 Moz, new veins are emerging, and Lupe-B2 could drive the next leg.\n\nSilver investors should be watching. Subscribe for \n@TedJButler\n's full take:",
+      "url": "https://x.com/peter_krauth/status/2100286989484670995",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f2ed2f7e4d2a0f4fe55851ea",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-17T12:28:35+00:00",
+      "text": "Gold & Silver Plunge As Bond Crisis Worsens After Fed Meeting \nhttps://\nyoutu.be/IiuNt6a1aNk?si\n=5WtML1jJiyPgCiEH\n… via \n@YouTube",
+      "url": "https://x.com/ArcadiaEconomic/status/2100562561657696534",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b84c4290fc9c80b0c992d37c",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-17T00:00:01+00:00",
+      "text": "The gold and silver charts look like they fell off a cliff after the Fed announced that it was hiking interest rates by 25 basis points today.   \n\nBut the real story is that the crisis in the US government bond market is really starting to accelerate now.",
+      "url": "https://x.com/ArcadiaEconomic/status/2100374176229994902",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-25bd27180c05b08358188c5b",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-16T23:47:47+00:00",
+      "text": "Gold & Silver Plunge As Bond Crisis Worsens After Fed Meeting...",
+      "url": "https://x.com/ArcadiaEconomic/status/2100371099561213993",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-81bcf053c5f62279294b396f",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-17T14:34:58+00:00",
+      "text": "Sad...\n\nThe issue here is the poverty that makes \"artisanal\" miners take on such dangerous work without modern best practices.\n\nNot only is there little budget for safety, there's generally none for clean-up once the mining peters out.",
+      "url": "https://x.com/duediligenceguy/status/2100594363889844233",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b62bae0f1c8fb6d2dc09a922",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-17T13:59:00+00:00",
+      "text": "A new US home now costs less than 100 oz of #gold: never happened before in 63 years of data.\n\n1970: 684 oz\n2026: 91 oz\n\nChoose your unit of account wisely.\n\nvia \n@MiningVisuals\n \n\n\nhttps://\nminingvisuals.com/post/a-us-new-\nhome-now-costs-less-than-100-ounces-of-gold\n…",
+      "url": "https://x.com/RonStoeferle/status/2100585313127055365",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dfd9be36905f7b669a6b8acc",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-17T13:43:36+00:00",
+      "text": "Beer + Gold = Happiness. \n\n#Oktoberfest #Wiesn #SoundMoney #PurchasingPower #Inflation",
+      "url": "https://x.com/RonStoeferle/status/2100581439758585944",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3e5a4cbfe2512de94312f53c",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-17T12:29:00+00:00",
+      "text": "England has been singing \"It's Coming Home\" since 1996.\n\nFootball never did.\n\nGold did: 2,000+ tonnes repatriated since 2011 — Germany 674t, France 348t, India 215t. Two weeks ago the Dutch moved 86t out of New York and Ottawa.\n\nNobody ever said the word \"repatriation.\"\n\nWhen",
+      "url": "https://x.com/RonStoeferle/status/2100562664455848023",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-57819759964c7d79a61260ca",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-17T13:28:36+00:00",
+      "text": "Correction over?\n\nVery strong recovery in the metals ..",
+      "url": "https://x.com/wmiddelkoop/status/2100577664557875327",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a7c545f43ee28c681fa30163",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-17T12:48:24+00:00",
+      "text": "The price of money (interest rate) should be set in the free market at a level which balances the demand for and supply of capital.  Pretty simple.  Explained in my book.",
+      "url": "https://x.com/LawrenceLepard/status/2100567546126553260",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dafaca50e9c800f9c1ac0764",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-17T15:31:06+00:00",
+      "text": "Pan Global Resources reports its widest high-grade gold intercept to date at Providencia, Spain.\n\n 83m @ 1.74 g/t Au from just 9m downhole\n\nIncluding: \n• 9m @ 4.88 g/t Au \n• 2m @ 12.57 g/t Au \n• 12m @ 2.65 g/t Au\n\nThe results expand the gold zone beyond previous drilling,",
+      "url": "https://x.com/soarfinancial/status/2100608493497770188",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4c16effd400550318050dd4b",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-16T17:26:15+00:00",
+      "text": "Aya Gold & Silver: Boumadine's Updated PEA Delivers US$3.5B NPV & 93% IRR\n\nCEO Benoit La Salle joins us to discuss the 14-year mine plan, Q4 groundbreaking target, major drilling program and how Zgounder's silver production is supporting development.\n\nWatch Here",
+      "url": "https://x.com/soarfinancial/status/2100275082849632412",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f4296a25326ffbd22087ff91",
+      "source_id": "x-frank_giustra",
+      "author": "Frank Giustra",
+      "handle": "Frank_Giustra",
+      "publish_time": "2026-09-17T08:22:54+00:00",
+      "text": "The same barrels cost more because Hormuz / Iran disrupted supply. You cannot “demand” the missing oil into existence by making mortgages expensive. What you can do is destroy enough other demand that core prices and wages stop chasing energy. That is a recession-as-policy",
+      "url": "https://x.com/Frank_Giustra/status/2100500730477965748",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-84a01eb351f9ad9a923c22a8",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-17T14:35:49+00:00",
+      "text": "https://t.co/G0ya7LNDxO",
+      "url": "https://x.com/duediligenceguy/status/2100594578520739964",
+      "collector": "x_search",
+      "report_date": "2026-09-17",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+  }
+}
