@@ -1,0 +1,72 @@
+X 原始候选 — 2026-09-18
+采集时间: 2026-09-19T22:57:29.936045+08:00
+选定通道: none (all channels unavailable)
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 0/53 完成，失败 53
+各通道完成账户数: {}
+采集状态: failed
+失败账号数: 53
+通道错误: playwright: X session is missing or expired; run scripts/setup_x_login.py
+失败账号:
+  @RealRickRule (Rick Rule): X session is missing or expired; run scripts/setup_x_login.py
+  @KatusaResearch (Marin Katusa): X session is missing or expired; run scripts/setup_x_login.py
+  @ResourceMaven (Gwen Preston): X session is missing or expired; run scripts/setup_x_login.py
+  @TheDailyGold (Jordan Roy-Byrne): X session is missing or expired; run scripts/setup_x_login.py
+  @Brien_Lundin (Brien Lundin): X session is missing or expired; run scripts/setup_x_login.py
+  @silverguru22 (David Morgan): X session is missing or expired; run scripts/setup_x_login.py
+  @peter_krauth (Peter Krauth): X session is missing or expired; run scripts/setup_x_login.py
+  @ArcadiaEconomic (Chris Marcus): X session is missing or expired; run scripts/setup_x_login.py
+  @duediligenceguy (Lobo Tiggre): X session is missing or expired; run scripts/setup_x_login.py
+  @mercenarygeo (Mickey Fulp): X session is missing or expired; run scripts/setup_x_login.py
+  @JoeMazumdar (Joe Mazumdar): X session is missing or expired; run scripts/setup_x_login.py
+  @KaiserResearch (John Kaiser): X session is missing or expired; run scripts/setup_x_login.py
+  @SteveTodoruk (Steve Todoruk): X session is missing or expired; run scripts/setup_x_login.py
+  @TaviCosta (Otavio Costa): X session is missing or expired; run scripts/setup_x_login.py
+  @RonStoeferle (Ronnie Stoeferle): X session is missing or expired; run scripts/setup_x_login.py
+  @wmiddelkoop (Willem Middelkoop): X session is missing or expired; run scripts/setup_x_login.py
+  @LawrenceLepard (Lawrence Lepard): X session is missing or expired; run scripts/setup_x_login.py
+  @mjgeiger (Matt Geiger): X session is missing or expired; run scripts/setup_x_login.py
+  @Junior_Stock (Brian Leni): X session is missing or expired; run scripts/setup_x_login.py
+  @Jamie_Keech (Jamie Keech): X session is missing or expired; run scripts/setup_x_login.py
+  @JuniorMinerJunky (David Erfle): X session is missing or expired; run scripts/setup_x_login.py
+  @JohnFeneck (John Feneck): X session is missing or expired; run scripts/setup_x_login.py
+  @JayantBhandari5 (Jayant Bhandari): X session is missing or expired; run scripts/setup_x_login.py
+  @chenpicks (Chen Lin): X session is missing or expired; run scripts/setup_x_login.py
+  @GerardoDelReal (Gerardo Del Real): X session is missing or expired; run scripts/setup_x_login.py
+  @TekoaDaSilva (Tekoa Da Silva): X session is missing or expired; run scripts/setup_x_login.py
+  @soarfinancial (Kai Hoffmann): X session is missing or expired; run scripts/setup_x_login.py
+  @RobMcEwenMUX (Rob McEwen): X session is missing or expired; run scripts/setup_x_login.py
+  @keith_neumeyer (Keith Neumeyer): X session is missing or expired; run scripts/setup_x_login.py
+  @Frank_Giustra (Frank Giustra): X session is missing or expired; run scripts/setup_x_login.py
+  @NolanWatson (Nolan Watson): X session is missing or expired; run scripts/setup_x_login.py
+  @AmirAdnani (Amir Adnani): X session is missing or expired; run scripts/setup_x_login.py
+  @MichaelKonnert (Michael Konnert): X session is missing or expired; run scripts/setup_x_login.py
+  @WalterColesJr (Walter Coles Jr.): X session is missing or expired; run scripts/setup_x_login.py
+  @ivanbebek (Ivan Bebek): X session is missing or expired; run scripts/setup_x_login.py
+  @IvanhoeMines_ (Ivanhoe Mines): X session is missing or expired; run scripts/setup_x_login.py
+  @FreeportMcMoRan (Freeport-McMoRan): X session is missing or expired; run scripts/setup_x_login.py
+  @NewmontCorp (Newmont): X session is missing or expired; run scripts/setup_x_login.py
+  @BarrickGold (Barrick Gold): X session is missing or expired; run scripts/setup_x_login.py
+  @TeckResources (Teck Resources): X session is missing or expired; run scripts/setup_x_login.py
+  @AntofagastaPLC (Antofagasta): X session is missing or expired; run scripts/setup_x_login.py
+  @LundinMining (Lundin Mining): X session is missing or expired; run scripts/setup_x_login.py
+  @AgnicoEagle (Agnico Eagle): X session is missing or expired; run scripts/setup_x_login.py
+  @FirstMajestic (First Majestic Silver): X session is missing or expired; run scripts/setup_x_login.py
+  @PanAmericanSlvr (Pan American Silver): X session is missing or expired; run scripts/setup_x_login.py
+  @Wheaton_PM (Wheaton Precious Metals): X session is missing or expired; run scripts/setup_x_login.py
+  @EndeavourMining (Endeavour Mining): X session is missing or expired; run scripts/setup_x_login.py
+  @SSRMining (SSR Mining): X session is missing or expired; run scripts/setup_x_login.py
+  @KinrossGold (Kinross Gold): X session is missing or expired; run scripts/setup_x_login.py
+  @SandstormGold (Sandstorm Gold): X session is missing or expired; run scripts/setup_x_login.py
+  @Fortuna_Silver (Fortuna Mining): X session is missing or expired; run scripts/setup_x_login.py
+  @GoGoldResources (GoGold Resources): X session is missing or expired; run scripts/setup_x_login.py
+  @vizslasilver (Vizsla Silver): X session is missing or expired; run scripts/setup_x_login.py
+============================================================
+
+总计候选: 0 条
+
+============================================================

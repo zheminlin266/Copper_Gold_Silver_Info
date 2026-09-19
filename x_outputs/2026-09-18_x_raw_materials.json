@@ -1,0 +1,342 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-18",
+  "status": "failed",
+  "selected_channel": null,
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 0,
+  "accounts_failed": 53,
+  "channel_completed_accounts": {},
+  "candidates": [],
+  "errors": [
+    {
+      "source_id": "x-realrickrule",
+      "handle": "RealRickRule",
+      "author": "Rick Rule",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-katusaresearch",
+      "handle": "KatusaResearch",
+      "author": "Marin Katusa",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-resourcemaven",
+      "handle": "ResourceMaven",
+      "author": "Gwen Preston",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-thedailygold",
+      "handle": "TheDailyGold",
+      "author": "Jordan Roy-Byrne",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-brien_lundin",
+      "handle": "Brien_Lundin",
+      "author": "Brien Lundin",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-silverguru22",
+      "handle": "silverguru22",
+      "author": "David Morgan",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-peter_krauth",
+      "handle": "peter_krauth",
+      "author": "Peter Krauth",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-arcadiaeconomic",
+      "handle": "ArcadiaEconomic",
+      "author": "Chris Marcus",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-mercenarygeo",
+      "handle": "mercenarygeo",
+      "author": "Mickey Fulp",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-joemazumdar",
+      "handle": "JoeMazumdar",
+      "author": "Joe Mazumdar",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-kaiserresearch",
+      "handle": "KaiserResearch",
+      "author": "John Kaiser",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-stevetodoruk",
+      "handle": "SteveTodoruk",
+      "author": "Steve Todoruk",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-tavicosta",
+      "handle": "TaviCosta",
+      "author": "Otavio Costa",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-ronstoeferle",
+      "handle": "RonStoeferle",
+      "author": "Ronnie Stoeferle",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-wmiddelkoop",
+      "handle": "wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-lawrencelepard",
+      "handle": "LawrenceLepard",
+      "author": "Lawrence Lepard",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-mjgeiger",
+      "handle": "mjgeiger",
+      "author": "Matt Geiger",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-junior_stock",
+      "handle": "Junior_Stock",
+      "author": "Brian Leni",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-jamie_keech",
+      "handle": "Jamie_Keech",
+      "author": "Jamie Keech",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-juniorminerjunky",
+      "handle": "JuniorMinerJunky",
+      "author": "David Erfle",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-johnfeneck",
+      "handle": "JohnFeneck",
+      "author": "John Feneck",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-jayantbhandari5",
+      "handle": "JayantBhandari5",
+      "author": "Jayant Bhandari",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-chenpicks",
+      "handle": "chenpicks",
+      "author": "Chen Lin",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-gerardodelreal",
+      "handle": "GerardoDelReal",
+      "author": "Gerardo Del Real",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-tekoadasilva",
+      "handle": "TekoaDaSilva",
+      "author": "Tekoa Da Silva",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-soarfinancial",
+      "handle": "soarfinancial",
+      "author": "Kai Hoffmann",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-robmcewenmux",
+      "handle": "RobMcEwenMUX",
+      "author": "Rob McEwen",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-keith_neumeyer",
+      "handle": "keith_neumeyer",
+      "author": "Keith Neumeyer",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-frank_giustra",
+      "handle": "Frank_Giustra",
+      "author": "Frank Giustra",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-nolanwatson",
+      "handle": "NolanWatson",
+      "author": "Nolan Watson",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-amiradnani",
+      "handle": "AmirAdnani",
+      "author": "Amir Adnani",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-michaelkonnert",
+      "handle": "MichaelKonnert",
+      "author": "Michael Konnert",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-waltercolesjr",
+      "handle": "WalterColesJr",
+      "author": "Walter Coles Jr.",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "handle": "ivanbebek",
+      "author": "Ivan Bebek",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-ivanhoemines_",
+      "handle": "IvanhoeMines_",
+      "author": "Ivanhoe Mines",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "handle": "FreeportMcMoRan",
+      "author": "Freeport-McMoRan",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-newmontcorp",
+      "handle": "NewmontCorp",
+      "author": "Newmont",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "handle": "BarrickGold",
+      "author": "Barrick Gold",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-teckresources",
+      "handle": "TeckResources",
+      "author": "Teck Resources",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "handle": "AntofagastaPLC",
+      "author": "Antofagasta",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "handle": "LundinMining",
+      "author": "Lundin Mining",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "handle": "AgnicoEagle",
+      "author": "Agnico Eagle",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "handle": "FirstMajestic",
+      "author": "First Majestic Silver",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "handle": "PanAmericanSlvr",
+      "author": "Pan American Silver",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "handle": "Wheaton_PM",
+      "author": "Wheaton Precious Metals",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "handle": "EndeavourMining",
+      "author": "Endeavour Mining",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "handle": "SSRMining",
+      "author": "SSR Mining",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "handle": "KinrossGold",
+      "author": "Kinross Gold",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "handle": "SandstormGold",
+      "author": "Sandstorm Gold",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "handle": "Fortuna_Silver",
+      "author": "Fortuna Mining",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "handle": "GoGoldResources",
+      "author": "GoGold Resources",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "handle": "vizslasilver",
+      "author": "Vizsla Silver",
+      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {},
+    "channel_errors": [
+      "playwright: X session is missing or expired; run scripts/setup_x_login.py"
+    ],
+    "channel_error": "playwright: X session is missing or expired; run scripts/setup_x_login.py"
+  }
+}

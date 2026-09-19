@@ -1,0 +1,138 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-18",
+  "report_time": "2026-09-19T23:19:23+08:00",
+  "summary": "黄金：本窗口未形成可核验的新增实体供给信号。白银：Santacruz收购500吨/日选矿厂，若按期调试，可能在2026年末至2027年释放处理能力。铜：未新增可核验实体事件，精矿TC继续下探指向原料偏紧与冶炼端压力。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-16T00:00:00+08:00",
+      "end": "2026-09-18T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-18T00:00:00+08:00",
+      "end": "2026-09-18T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-18T00:00:00+08:00",
+      "end": "2026-09-18T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.newsfilecorp.com/release/314945/Santacruz-Silver-Acquires-New-500TonnePerDay-Milling-Facility-to-Unlock-Further-Production-Growth-in-Bolivia",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "公司已完成收购一座500吨/日选矿厂，设备由两个250吨/日选择性浮选回路组成，可处理含铅、锌及高品位银的矿石。",
+          "evidence": "Newsfile中的Santacruz Silver Mining公司公告直接列出处理能力、回路结构和可处理矿石类型。",
+          "source_url": "https://www.newsfilecorp.com/release/314945/Santacruz-Silver-Acquires-New-500TonnePerDay-Milling-Facility-to-Unlock-Further-Production-Growth-in-Bolivia",
+          "evidence_type": "direct company release via Newsfile",
+          "period": "2026-09-18 acquisition announcement",
+          "unit": "tonnes per day and circuits",
+          "value": "500 tpd; two 250 tpd selective flotation circuits"
+        },
+        {
+          "claim": "新厂距Reserva矿约5公里，预计2026年第四季度调试并在2026年底前达到商业生产；公司预计2027年合并产量增加，但未量化新增银产量。",
+          "evidence": "公司公告直接披露厂址距离、调试和商业化时间表，并明确把产量增幅留给后续合并产量结果。",
+          "source_url": "https://www.newsfilecorp.com/release/314945/Santacruz-Silver-Acquires-New-500TonnePerDay-Milling-Facility-to-Unlock-Further-Production-Growth-in-Bolivia",
+          "evidence_type": "direct company release via Newsfile",
+          "period": "2026 Q4 commissioning and 2027 production outlook",
+          "unit": "kilometres, date, and production outlook",
+          "value": "approximately 5 km; Q4 2026; 2027 increase not quantified"
+        },
+        {
+          "claim": "项目总投资预计约1,400万美元，其中收购价为920万美元，另计划投入480万美元用于升级和营运资金。",
+          "evidence": "公司公告直接列出交易对价、升级投资和营运资金安排。",
+          "source_url": "https://www.newsfilecorp.com/release/314945/Santacruz-Silver-Acquires-New-500TonnePerDay-Milling-Facility-to-Unlock-Further-Production-Growth-in-Bolivia",
+          "evidence_type": "direct company release via Newsfile",
+          "period": "2026 acquisition and commissioning budget",
+          "unit": "USD",
+          "value": "approximately $14 million total; $9.2 million acquisition; $4.8 million upgrades and working capital"
+        }
+      ],
+      "publish_time": "2026-09-18T19:00:00+08:00",
+      "source": "Newsfile（Santacruz Silver Mining）",
+      "title": "Santacruz收购玻利维亚500吨/日选矿厂以推动银产量增长",
+      "excerpt": "Santacruz Silver Mining已完成收购玻利维亚一座500吨/日选矿厂，由两个250吨/日选择性浮选回路组成，计划在2026年第四季度调试并于年底前达到商业生产；公司预计该设施与矿山开发将推动2027年合并产量增加，但未公布新增银产量数值。",
+      "language": "en",
+      "interpretation": "这是一项已完成交易、尚待调试的处理能力扩容，目标是缓解San Lucas矿石的处理瓶颈并释放现有三座矿山设施的能力。公告没有给出新增银盎司，实际供给取决于第四季度调试、500吨/日达产、San Lucas矿源和后续矿山开发，不能把购买处理厂直接视为已实现产量。",
+      "importance": "500吨/日新厂把Santacruz的增供路径从矿山开发推进到处理能力落地，最快在2026年第四季度调试、年底商业化，影响窗口偏短中期。公告未量化新增银盎司，实际增量取决于San Lucas矿源、回路达产和调试进度；2027年合并产量变化是关键验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "Santacruz Silver Mining"
+      ],
+      "projects": [
+        "San Lucas",
+        "Reserva",
+        "Caballo Blanco"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily、Resource Talks、The Assay及会议/公司演示入口按北京时间2026-09-16至09-18窗口检查，并逐项核对原始页面日期。",
+      "最近三份日报中的KER、Resource Talks、Mining Stock Daily等访谈URL和实质事件已用于去重；页面显示为2025年或2026-09-08的候选均排除。",
+      "The Assay America Needs Copper页面返回403，无法核验日期和事实，未纳入。"
+    ],
+    "part1_result": "Part 1已完成2026-09-16至2026-09-18北京时间窗口内的访谈、播客、会议和公司演示检索；未找到同时满足日期、可打开原始页面、金银铜实体供需事实和跨日报去重要求的合格信号，因此保留空数组。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-18 --collect-x；内部调用 scripts/x_search.py。",
+      "X sidecar：x_outputs/2026-09-18_x_raw_materials.json；原始材料：x_outputs/2026-09-18_x_raw_materials.txt。",
+      "Playwright在首个账号前确认持久化会话缺失或过期，未启动twscrape回退，未增加后续X流量。"
+    ],
+    "part2_result": "Part 2失败：Playwright确认X会话缺失或过期，未开始账号检索；覆盖审计为0/53，53个账号失败，未将其解释为完整零结果。需运行 scripts/setup_x_login.py 完成用户登录后再重跑。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 53,
+      "accounts_completed": 0,
+      "accounts_failed": 53,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: X session is missing or expired; run scripts/setup_x_login.py"
+      ],
+      "notes": [
+        "运行ID：2026-09-18-20260919T145718332163Z-36144。",
+        "安全停止：X登录会话失效后未启动twscrape，不增加后续X流量。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com黄金分类页 https://www.mining.com/commodity/gold/：固定日报Python + Playwright HTTP 200，报告日文章13篇；候选逐篇核对，受限或不具备实体供需路径者排除。",
+      "Mining.com白银分类页 https://www.mining.com/commodity/silver/：固定日报Python + Playwright HTTP 200，报告日文章12篇；Aya钻探正文受限，未纳入已核验卡。",
+      "Mining.com铜分类页 https://www.mining.com/commodity/copper/：固定日报Python + Playwright HTTP 200，报告日文章14篇；Sprott供给、DOE清理和铜物流等正文受限或缺少可核验核心数字，未纳入。",
+      "Santacruz Silver Mining / Newsfile https://www.newsfilecorp.com/release/314945/Santacruz-Silver-Acquires-New-500TonnePerDay-Milling-Facility-to-Unlock-Further-Production-Growth-in-Bolivia：Playwright正文渲染成功，核对标题、2026-09-18日期、500吨/日、Q4调试、商业生产时间表和投资数字。",
+      "辅助检查了DLP、Americas Gold and Silver及Coeur等报告日附近候选；DLP和Coeur超出窗口，Americas Gold and Silver为9月17日，均排除。"
+    ],
+    "part3_result": "Part 3已完成2026-09-18北京时间全天英文和中文新闻检索。Mining.com三分类页及可靠公司公告均已检查，最终纳入Santacruz收购500吨/日选矿厂这一条可核验的白银供给扩容信号；其余候选因正文受限、超出窗口、金融/价格属性或缺少明确实体供需路径排除。",
+    "mining_com_source_note": "严格执行固定Python + Chromium Playwright抓取Mining.com金、银、铜分类页：金13篇、银12篇、铜14篇报告日文章，候选已逐项检查。报告日Mining.com文章中正文受限或缺少可核验核心事实的条目未纳入；最终银供给卡采用可打开的Santacruz公司公告Newsfile页面。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 1,
+      "passed": 1,
+      "failed": 0,
+      "failures": [],
+      "notes": "唯一入选Part 3来源已通过Playwright打开并核对标题、日期、主体和核心数字；Part 1无入选来源，Part 2无入选来源且保留失败覆盖审计。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "窗口外或重复的DLP、Americas Gold and Silver、Coeur候选已排除；Mining.com受限/金融库存/价格评论候选未形成可核验实体供需卡。"
+    ],
+    "notes": "Part 1完成检索但无合格信号；Part 2因X登录会话失效安全停止并保留0/53覆盖审计；Part 3仅保留Santacruz处理能力扩容，未将购买设备直接写成已实现银产量。"
+  }
+}
