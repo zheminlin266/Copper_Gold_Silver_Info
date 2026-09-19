@@ -1,72 +1,188 @@
 X 原始候选 — 2026-09-18
-采集时间: 2026-09-19T22:57:29.936045+08:00
-选定通道: none (all channels unavailable)
-尝试通道: playwright
+采集时间: 2026-09-20T00:19:37.251929+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
 不可用通道: 无
 采集方法: ordered Playwright -> twscrape
 搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
 账号批次: 35 个人 + 18 官方
-账号审计: 0/53 完成，失败 53
-各通道完成账户数: {}
-采集状态: failed
-失败账号数: 53
-通道错误: playwright: X session is missing or expired; run scripts/setup_x_login.py
-失败账号:
-  @RealRickRule (Rick Rule): X session is missing or expired; run scripts/setup_x_login.py
-  @KatusaResearch (Marin Katusa): X session is missing or expired; run scripts/setup_x_login.py
-  @ResourceMaven (Gwen Preston): X session is missing or expired; run scripts/setup_x_login.py
-  @TheDailyGold (Jordan Roy-Byrne): X session is missing or expired; run scripts/setup_x_login.py
-  @Brien_Lundin (Brien Lundin): X session is missing or expired; run scripts/setup_x_login.py
-  @silverguru22 (David Morgan): X session is missing or expired; run scripts/setup_x_login.py
-  @peter_krauth (Peter Krauth): X session is missing or expired; run scripts/setup_x_login.py
-  @ArcadiaEconomic (Chris Marcus): X session is missing or expired; run scripts/setup_x_login.py
-  @duediligenceguy (Lobo Tiggre): X session is missing or expired; run scripts/setup_x_login.py
-  @mercenarygeo (Mickey Fulp): X session is missing or expired; run scripts/setup_x_login.py
-  @JoeMazumdar (Joe Mazumdar): X session is missing or expired; run scripts/setup_x_login.py
-  @KaiserResearch (John Kaiser): X session is missing or expired; run scripts/setup_x_login.py
-  @SteveTodoruk (Steve Todoruk): X session is missing or expired; run scripts/setup_x_login.py
-  @TaviCosta (Otavio Costa): X session is missing or expired; run scripts/setup_x_login.py
-  @RonStoeferle (Ronnie Stoeferle): X session is missing or expired; run scripts/setup_x_login.py
-  @wmiddelkoop (Willem Middelkoop): X session is missing or expired; run scripts/setup_x_login.py
-  @LawrenceLepard (Lawrence Lepard): X session is missing or expired; run scripts/setup_x_login.py
-  @mjgeiger (Matt Geiger): X session is missing or expired; run scripts/setup_x_login.py
-  @Junior_Stock (Brian Leni): X session is missing or expired; run scripts/setup_x_login.py
-  @Jamie_Keech (Jamie Keech): X session is missing or expired; run scripts/setup_x_login.py
-  @JuniorMinerJunky (David Erfle): X session is missing or expired; run scripts/setup_x_login.py
-  @JohnFeneck (John Feneck): X session is missing or expired; run scripts/setup_x_login.py
-  @JayantBhandari5 (Jayant Bhandari): X session is missing or expired; run scripts/setup_x_login.py
-  @chenpicks (Chen Lin): X session is missing or expired; run scripts/setup_x_login.py
-  @GerardoDelReal (Gerardo Del Real): X session is missing or expired; run scripts/setup_x_login.py
-  @TekoaDaSilva (Tekoa Da Silva): X session is missing or expired; run scripts/setup_x_login.py
-  @soarfinancial (Kai Hoffmann): X session is missing or expired; run scripts/setup_x_login.py
-  @RobMcEwenMUX (Rob McEwen): X session is missing or expired; run scripts/setup_x_login.py
-  @keith_neumeyer (Keith Neumeyer): X session is missing or expired; run scripts/setup_x_login.py
-  @Frank_Giustra (Frank Giustra): X session is missing or expired; run scripts/setup_x_login.py
-  @NolanWatson (Nolan Watson): X session is missing or expired; run scripts/setup_x_login.py
-  @AmirAdnani (Amir Adnani): X session is missing or expired; run scripts/setup_x_login.py
-  @MichaelKonnert (Michael Konnert): X session is missing or expired; run scripts/setup_x_login.py
-  @WalterColesJr (Walter Coles Jr.): X session is missing or expired; run scripts/setup_x_login.py
-  @ivanbebek (Ivan Bebek): X session is missing or expired; run scripts/setup_x_login.py
-  @IvanhoeMines_ (Ivanhoe Mines): X session is missing or expired; run scripts/setup_x_login.py
-  @FreeportMcMoRan (Freeport-McMoRan): X session is missing or expired; run scripts/setup_x_login.py
-  @NewmontCorp (Newmont): X session is missing or expired; run scripts/setup_x_login.py
-  @BarrickGold (Barrick Gold): X session is missing or expired; run scripts/setup_x_login.py
-  @TeckResources (Teck Resources): X session is missing or expired; run scripts/setup_x_login.py
-  @AntofagastaPLC (Antofagasta): X session is missing or expired; run scripts/setup_x_login.py
-  @LundinMining (Lundin Mining): X session is missing or expired; run scripts/setup_x_login.py
-  @AgnicoEagle (Agnico Eagle): X session is missing or expired; run scripts/setup_x_login.py
-  @FirstMajestic (First Majestic Silver): X session is missing or expired; run scripts/setup_x_login.py
-  @PanAmericanSlvr (Pan American Silver): X session is missing or expired; run scripts/setup_x_login.py
-  @Wheaton_PM (Wheaton Precious Metals): X session is missing or expired; run scripts/setup_x_login.py
-  @EndeavourMining (Endeavour Mining): X session is missing or expired; run scripts/setup_x_login.py
-  @SSRMining (SSR Mining): X session is missing or expired; run scripts/setup_x_login.py
-  @KinrossGold (Kinross Gold): X session is missing or expired; run scripts/setup_x_login.py
-  @SandstormGold (Sandstorm Gold): X session is missing or expired; run scripts/setup_x_login.py
-  @Fortuna_Silver (Fortuna Mining): X session is missing or expired; run scripts/setup_x_login.py
-  @GoGoldResources (GoGold Resources): X session is missing or expired; run scripts/setup_x_login.py
-  @vizslasilver (Vizsla Silver): X session is missing or expired; run scripts/setup_x_login.py
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 52, "twscrape": 1}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 4: missing or empty tweet text
+失败账号: 无
 ============================================================
 
-总计候选: 0 条
+总计候选: 20 条
 
 ============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-17T18:36:00+00:00
+    北京: 2026-09-18T02:36:00+08:00
+    文本: for people who save, where some of their savings can be of gold, this matters right now. For me, it has mattered, a lot, since 2000
+    链接: https://x.com/RealRickRule/status/2100655021402755309
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-09-17T16:35:31+00:00
+    北京: 2026-09-18T00:35:31+08:00
+    文本: Residential real estate is cheap, priced in gold
+    链接: https://x.com/RealRickRule/status/2100624701857161483
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-17T17:18:38+00:00
+    北京: 2026-09-18T01:18:38+08:00
+    文本: Gold rate hikes have some good historical news for investors.
+
+Throw cyclicality in the mix and things get spicy
+
+h/t
+@sentimentrader
+    链接: https://x.com/KatusaResearch/status/2100635553930887665
+
+[4] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-09-17T18:01:07+00:00
+    北京: 2026-09-18T02:01:07+08:00
+    文本: Before today Gold was down 25%. So everyone is not on the same side of the boat. Moreover, in secular bull markets, the parameters change. I could argue from this level of positioning in 2024 Gold went on to double.
+    链接: https://x.com/TheDailyGold/status/2100646245085893007
+
+[5] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-18T15:53:52+00:00
+    北京: 2026-09-18T23:53:52+08:00
+    文本: We talked a lot here about the evolution of the mining share market and why this one is different than any before. I think you’ll find it valuable.
+    链接: https://x.com/Brien_Lundin/status/2100976608437829660
+
+[6] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-17T21:44:55+00:00
+    北京: 2026-09-18T05:44:55+08:00
+    文本: If in fact the next leg of the metals and mining bull market has begun, do you really think you can afford to miss this year's New Orleans Investment Conference?
+
+(...Or even if it hasn't yet begun?)
+
+Check out this partial speaker line up...
+
+
+https://
+neworleansconference.com/blx/
+    链接: https://x.com/Brien_Lundin/status/2100702567449632805
+
+[7] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-17T19:34:45+00:00
+    北京: 2026-09-18T03:34:45+08:00
+    文本: Less than a month into the portfolio—and
+@SantacruzSilver
+ is already moving up to the big leagues.
+
+Santacruz Silver begins trading on the TSX September 21, keeping its SCZ ticker.
+
+Stronger profile. Deeper capital markets. And 1.57Moz of Q2 silver production behind it.
+
+Timing?
+    链接: https://x.com/peter_krauth/status/2100669809960882472
+
+[8] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-17T16:55:56+00:00
+    北京: 2026-09-18T00:55:56+08:00
+    文本: Exactly my thoughts on #Silver
+    链接: https://x.com/peter_krauth/status/2100629839279706114
+
+[9] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-18T15:29:45+00:00
+    北京: 2026-09-18T23:29:45+08:00
+    文本: So the US is going to end up with Venezuela's #GOLD in the end?
+    链接: https://x.com/ArcadiaEconomic/status/2100970539267285010
+
+[10] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-18T12:19:24+00:00
+    北京: 2026-09-18T20:19:24+08:00
+    文本: "When the technology was demonstrated at a national laboratory, production costs exceeded $200 per pound..."
+
+That may fall someday, but I'm not going to lose any sleep over it.
+    链接: https://x.com/duediligenceguy/status/2100922635462783227
+
+[11] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-18T12:07:28+00:00
+    北京: 2026-09-18T20:07:28+08:00
+    文本: "Tether has turned out to be a major gold lender, providing approximately $1.5 billion in financing to the popular U.S. dealer,
+https://
+Gold.com."
+
+Does this affect XAUT backing? Article doesn't say...
+
+Call me old-fashioned, but I like gold I can hold in my hand.
+    链接: https://x.com/duediligenceguy/status/2100919635457520097
+
+[12] @KaiserResearch (John Kaiser)
+    UTC: 2026-09-18T05:27:18+00:00
+    北京: 2026-09-18T13:27:18+08:00
+    文本: KW Sept 11, 2026: Juniors pause for Federal Reserve Decision
+
+
+https://
+kaiserresearch.substack.com/p/kw-sept-11-2
+026-juniors-pause-for
+…
+
+Now we know the Fed increased by 0.25. Even better, gold has shrugged and seems poised to resume an uptrend as the Bridge away from America. It will take a couple weeks for the 2025 gold replay
+    链接: https://x.com/KaiserResearch/status/2100818927790256343
+
+[13] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-18T12:49:00+00:00
+    北京: 2026-09-18T20:49:00+08:00
+    文本: Who's buying #Gold? Not one G7 Country...
+    链接: https://x.com/RonStoeferle/status/2100930084605718878
+
+[14] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-18T08:12:00+00:00
+    北京: 2026-09-18T16:12:00+08:00
+    文本: Off to #Colorado: #PreciousMetalsSummit, then #DenverGold #AmericasForum.
+
+74 one-on-one meetings with mining companies on the calendar. Rumor has it
+@LawrenceLepard
+ holds the record... Larry, consider yourself warned .-)
+
+Cu soon!
+    链接: https://x.com/RonStoeferle/status/2100860375382069731
+
+[15] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-18T04:02:29+00:00
+    北京: 2026-09-18T12:02:29+08:00
+    文本: Measured in Gold: Schnäppchen!
+    链接: https://x.com/RonStoeferle/status/2100797581483819292
+
+[16] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-17T20:52:00+00:00
+    北京: 2026-09-18T04:52:00+08:00
+    文本: 一点点 #Gold、#Tether 和 #BTC 在和亲爱的
+@NikoJilch
+ 闲聊。变得很酷了，非常感谢！
+    链接: https://x.com/RonStoeferle/status/2100689247472693712
+
+[17] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-18T11:31:09+00:00
+    北京: 2026-09-18T19:31:09+08:00
+    文本: I am writing this piece while flying at over 30k feet over the Atlantic, en route to visit Talon Metals critical metals (nickel, copper) project in Minnesota. Talon Metals has been awarded about $138 million in U.S. government support in total, in an effort to support western
+    链接: https://x.com/wmiddelkoop/status/2100910495251476720
+
+[18] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-18T10:24:58+00:00
+    北京: 2026-09-18T18:24:58+08:00
+    文本: Follow the Money (or gold)
+    链接: https://x.com/wmiddelkoop/status/2100893836570738947
+
+[19] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-09-17T20:25:22+00:00
+    北京: 2026-09-18T04:25:22+08:00
+    文本: According IEA, global copper demand is rising, while supply from existing and announced projects is projected to fall short.
+
+That makes developing new, high-quality copper resources increasingly important.
+
+Kamoa-Kakula is part of the answer.  It's one of the world’s
+    链接: https://x.com/IvanhoeMines_/status/2100682548217106517
+
+[20] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-18T12:19:45+00:00
+    北京: 2026-09-18T20:19:45+08:00
+    文本: https://t.co/1H6hhV1Nlt
+    链接: https://x.com/duediligenceguy/status/2100922724033982565

@@ -1,342 +1,271 @@
 {
   "collector": "x_search",
   "report_date": "2026-09-18",
-  "status": "failed",
-  "selected_channel": null,
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
   "attempted_channels": [
-    "playwright"
+    "playwright",
+    "twscrape"
   ],
   "unavailable_channels": [],
   "accounts_total": 53,
-  "accounts_completed": 0,
-  "accounts_failed": 53,
-  "channel_completed_accounts": {},
-  "candidates": [],
-  "errors": [
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
     {
+      "candidate_id": "x-4f3d2434031a39ff407c45af",
       "source_id": "x-realrickrule",
-      "handle": "RealRickRule",
       "author": "Rick Rule",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-17T18:36:00+00:00",
+      "text": "for people who save, where some of their savings can be of gold, this matters right now. For me, it has mattered, a lot, since 2000",
+      "url": "https://x.com/RealRickRule/status/2100655021402755309",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
+      "candidate_id": "x-085e59eba80b2a8dec14f075",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-17T16:35:31+00:00",
+      "text": "Residential real estate is cheap, priced in gold",
+      "url": "https://x.com/RealRickRule/status/2100624701857161483",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e0f6cd63d4f26f4b554c1026",
       "source_id": "x-katusaresearch",
-      "handle": "KatusaResearch",
       "author": "Marin Katusa",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-17T17:18:38+00:00",
+      "text": "Gold rate hikes have some good historical news for investors.\n\nThrow cyclicality in the mix and things get spicy\n\nh/t \n@sentimentrader",
+      "url": "https://x.com/KatusaResearch/status/2100635553930887665",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-resourcemaven",
-      "handle": "ResourceMaven",
-      "author": "Gwen Preston",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
+      "candidate_id": "x-9c7c96b09765df7922618872",
       "source_id": "x-thedailygold",
-      "handle": "TheDailyGold",
       "author": "Jordan Roy-Byrne",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "TheDailyGold",
+      "publish_time": "2026-09-17T18:01:07+00:00",
+      "text": "Before today Gold was down 25%. So everyone is not on the same side of the boat. Moreover, in secular bull markets, the parameters change. I could argue from this level of positioning in 2024 Gold went on to double.",
+      "url": "https://x.com/TheDailyGold/status/2100646245085893007",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
+      "candidate_id": "x-8e0fb54cfe65ce137f14b461",
       "source_id": "x-brien_lundin",
-      "handle": "Brien_Lundin",
       "author": "Brien Lundin",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-18T15:53:52+00:00",
+      "text": "We talked a lot here about the evolution of the mining share market and why this one is different than any before. I think you’ll find it valuable.",
+      "url": "https://x.com/Brien_Lundin/status/2100976608437829660",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-silverguru22",
-      "handle": "silverguru22",
-      "author": "David Morgan",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "candidate_id": "x-bf49ae8b31d0422284b92432",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-17T21:44:55+00:00",
+      "text": "If in fact the next leg of the metals and mining bull market has begun, do you really think you can afford to miss this year's New Orleans Investment Conference?\n\n(...Or even if it hasn't yet begun?)\n\nCheck out this partial speaker line up...\n\n\nhttps://\nneworleansconference.com/blx/",
+      "url": "https://x.com/Brien_Lundin/status/2100702567449632805",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
+      "candidate_id": "x-e7f90bea35db88fe68ef6dd9",
       "source_id": "x-peter_krauth",
-      "handle": "peter_krauth",
       "author": "Peter Krauth",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-17T19:34:45+00:00",
+      "text": "Less than a month into the portfolio—and \n@SantacruzSilver\n is already moving up to the big leagues.\n\nSantacruz Silver begins trading on the TSX September 21, keeping its SCZ ticker.\n\nStronger profile. Deeper capital markets. And 1.57Moz of Q2 silver production behind it.\n\nTiming?",
+      "url": "https://x.com/peter_krauth/status/2100669809960882472",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
+      "candidate_id": "x-db6d513ee81ada6e3a780931",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-17T16:55:56+00:00",
+      "text": "Exactly my thoughts on #Silver",
+      "url": "https://x.com/peter_krauth/status/2100629839279706114",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c1eec9f2ef590f2190917403",
       "source_id": "x-arcadiaeconomic",
-      "handle": "ArcadiaEconomic",
       "author": "Chris Marcus",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-18T15:29:45+00:00",
+      "text": "So the US is going to end up with Venezuela's #GOLD in the end?",
+      "url": "https://x.com/ArcadiaEconomic/status/2100970539267285010",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
+      "candidate_id": "x-40668fa368526ce34aca7f3d",
       "source_id": "x-duediligenceguy",
-      "handle": "duediligenceguy",
       "author": "Lobo Tiggre",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-18T12:19:24+00:00",
+      "text": "\"When the technology was demonstrated at a national laboratory, production costs exceeded $200 per pound...\"\n\nThat may fall someday, but I'm not going to lose any sleep over it.",
+      "url": "https://x.com/duediligenceguy/status/2100922635462783227",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-mercenarygeo",
-      "handle": "mercenarygeo",
-      "author": "Mickey Fulp",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "candidate_id": "x-1c6f6e2f8f61f566d47d4006",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-18T12:07:28+00:00",
+      "text": "\"Tether has turned out to be a major gold lender, providing approximately $1.5 billion in financing to the popular U.S. dealer, \nhttps://\nGold.com.\"\n\nDoes this affect XAUT backing? Article doesn't say...\n\nCall me old-fashioned, but I like gold I can hold in my hand.",
+      "url": "https://x.com/duediligenceguy/status/2100919635457520097",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-joemazumdar",
-      "handle": "JoeMazumdar",
-      "author": "Joe Mazumdar",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
+      "candidate_id": "x-00942b39429b0d7927c37612",
       "source_id": "x-kaiserresearch",
-      "handle": "KaiserResearch",
       "author": "John Kaiser",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "KaiserResearch",
+      "publish_time": "2026-09-18T05:27:18+00:00",
+      "text": "KW Sept 11, 2026: Juniors pause for Federal Reserve Decision\n\n\nhttps://\nkaiserresearch.substack.com/p/kw-sept-11-2\n026-juniors-pause-for\n…\n\nNow we know the Fed increased by 0.25. Even better, gold has shrugged and seems poised to resume an uptrend as the Bridge away from America. It will take a couple weeks for the 2025 gold replay",
+      "url": "https://x.com/KaiserResearch/status/2100818927790256343",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-stevetodoruk",
-      "handle": "SteveTodoruk",
-      "author": "Steve Todoruk",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-tavicosta",
-      "handle": "TaviCosta",
-      "author": "Otavio Costa",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
+      "candidate_id": "x-95cc70731283d3e4c161644a",
       "source_id": "x-ronstoeferle",
-      "handle": "RonStoeferle",
       "author": "Ronnie Stoeferle",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-18T12:49:00+00:00",
+      "text": "Who's buying #Gold? Not one G7 Country...",
+      "url": "https://x.com/RonStoeferle/status/2100930084605718878",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
+      "candidate_id": "x-6ce99bc44de273c91ab302f8",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-18T08:12:00+00:00",
+      "text": "Off to #Colorado: #PreciousMetalsSummit, then #DenverGold #AmericasForum.\n\n74 one-on-one meetings with mining companies on the calendar. Rumor has it \n@LawrenceLepard\n holds the record... Larry, consider yourself warned .-) \n\nCu soon!",
+      "url": "https://x.com/RonStoeferle/status/2100860375382069731",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7db0320b033a64f538d7d570",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-18T04:02:29+00:00",
+      "text": "Measured in Gold: Schnäppchen!",
+      "url": "https://x.com/RonStoeferle/status/2100797581483819292",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ecf43515355da5917d78e4a6",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-17T20:52:00+00:00",
+      "text": "一点点 #Gold、#Tether 和 #BTC 在和亲爱的 \n@NikoJilch\n 闲聊。变得很酷了，非常感谢！",
+      "url": "https://x.com/RonStoeferle/status/2100689247472693712",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-892b53866040adaa471afe12",
       "source_id": "x-wmiddelkoop",
-      "handle": "wmiddelkoop",
       "author": "Willem Middelkoop",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-18T11:31:09+00:00",
+      "text": "I am writing this piece while flying at over 30k feet over the Atlantic, en route to visit Talon Metals critical metals (nickel, copper) project in Minnesota. Talon Metals has been awarded about $138 million in U.S. government support in total, in an effort to support western",
+      "url": "https://x.com/wmiddelkoop/status/2100910495251476720",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-lawrencelepard",
-      "handle": "LawrenceLepard",
-      "author": "Lawrence Lepard",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "candidate_id": "x-5f711df55666edde0e6ac381",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-18T10:24:58+00:00",
+      "text": "Follow the Money (or gold)",
+      "url": "https://x.com/wmiddelkoop/status/2100893836570738947",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-mjgeiger",
-      "handle": "mjgeiger",
-      "author": "Matt Geiger",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-junior_stock",
-      "handle": "Junior_Stock",
-      "author": "Brian Leni",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-jamie_keech",
-      "handle": "Jamie_Keech",
-      "author": "Jamie Keech",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-juniorminerjunky",
-      "handle": "JuniorMinerJunky",
-      "author": "David Erfle",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-johnfeneck",
-      "handle": "JohnFeneck",
-      "author": "John Feneck",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-jayantbhandari5",
-      "handle": "JayantBhandari5",
-      "author": "Jayant Bhandari",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-chenpicks",
-      "handle": "chenpicks",
-      "author": "Chen Lin",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-gerardodelreal",
-      "handle": "GerardoDelReal",
-      "author": "Gerardo Del Real",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-tekoadasilva",
-      "handle": "TekoaDaSilva",
-      "author": "Tekoa Da Silva",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-soarfinancial",
-      "handle": "soarfinancial",
-      "author": "Kai Hoffmann",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-robmcewenmux",
-      "handle": "RobMcEwenMUX",
-      "author": "Rob McEwen",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-keith_neumeyer",
-      "handle": "keith_neumeyer",
-      "author": "Keith Neumeyer",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-frank_giustra",
-      "handle": "Frank_Giustra",
-      "author": "Frank Giustra",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-nolanwatson",
-      "handle": "NolanWatson",
-      "author": "Nolan Watson",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-amiradnani",
-      "handle": "AmirAdnani",
-      "author": "Amir Adnani",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-michaelkonnert",
-      "handle": "MichaelKonnert",
-      "author": "Michael Konnert",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-waltercolesjr",
-      "handle": "WalterColesJr",
-      "author": "Walter Coles Jr.",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-ivanbebek",
-      "handle": "ivanbebek",
-      "author": "Ivan Bebek",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
+      "candidate_id": "x-d07c0699f95ccc7eb59a9aa6",
       "source_id": "x-ivanhoemines_",
-      "handle": "IvanhoeMines_",
       "author": "Ivanhoe Mines",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-09-17T20:25:22+00:00",
+      "text": "According IEA, global copper demand is rising, while supply from existing and announced projects is projected to fall short.\n\nThat makes developing new, high-quality copper resources increasingly important.\n\nKamoa-Kakula is part of the answer.  It's one of the world’s",
+      "url": "https://x.com/IvanhoeMines_/status/2100682548217106517",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     },
     {
-      "source_id": "x-freeportmcmoran",
-      "handle": "FreeportMcMoRan",
-      "author": "Freeport-McMoRan",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-newmontcorp",
-      "handle": "NewmontCorp",
-      "author": "Newmont",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-barrickgold",
-      "handle": "BarrickGold",
-      "author": "Barrick Gold",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-teckresources",
-      "handle": "TeckResources",
-      "author": "Teck Resources",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-antofagastaplc",
-      "handle": "AntofagastaPLC",
-      "author": "Antofagasta",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-lundinmining",
-      "handle": "LundinMining",
-      "author": "Lundin Mining",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-agnicoeagle",
-      "handle": "AgnicoEagle",
-      "author": "Agnico Eagle",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-firstmajestic",
-      "handle": "FirstMajestic",
-      "author": "First Majestic Silver",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-panamericanslvr",
-      "handle": "PanAmericanSlvr",
-      "author": "Pan American Silver",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-wheaton_pm",
-      "handle": "Wheaton_PM",
-      "author": "Wheaton Precious Metals",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-endeavourmining",
-      "handle": "EndeavourMining",
-      "author": "Endeavour Mining",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-ssrmining",
-      "handle": "SSRMining",
-      "author": "SSR Mining",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-kinrossgold",
-      "handle": "KinrossGold",
-      "author": "Kinross Gold",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-sandstormgold",
-      "handle": "SandstormGold",
-      "author": "Sandstorm Gold",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-fortuna_silver",
-      "handle": "Fortuna_Silver",
-      "author": "Fortuna Mining",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-gogoldresources",
-      "handle": "GoGoldResources",
-      "author": "GoGold Resources",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
-    },
-    {
-      "source_id": "x-vizslasilver",
-      "handle": "vizslasilver",
-      "author": "Vizsla Silver",
-      "error": "X session is missing or expired; run scripts/setup_x_login.py"
+      "candidate_id": "x-e50adf9c9c3d529e2d43edac",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-18T12:19:45+00:00",
+      "text": "https://t.co/1H6hhV1Nlt",
+      "url": "https://x.com/duediligenceguy/status/2100922724033982565",
+      "collector": "x_search",
+      "report_date": "2026-09-18",
+      "status": "ok"
     }
   ],
+  "errors": [],
   "metadata": {
-    "channel_completed_accounts": {},
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
     "channel_errors": [
-      "playwright: X session is missing or expired; run scripts/setup_x_login.py"
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 4: missing or empty tweet text"
     ],
-    "channel_error": "playwright: X session is missing or expired; run scripts/setup_x_login.py"
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 4: missing or empty tweet text"
   }
 }

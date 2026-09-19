@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
   "date": "2026-09-18",
-  "report_time": "2026-09-19T23:19:23+08:00",
-  "summary": "黄金：本窗口未形成可核验的新增实体供给信号。白银：Santacruz收购500吨/日选矿厂，若按期调试，可能在2026年末至2027年释放处理能力。铜：未新增可核验实体事件，精矿TC继续下探指向原料偏紧与冶炼端压力。",
+  "report_time": "2026-09-20T00:23:30+08:00",
+  "summary": "黄金：本窗口未形成可核验的新增实体供给信号。白银：Santacruz Q2产量和500吨/日选矿厂扩容构成当前运营基线与后续增供线索。铜：未新增可核验实体事件，精矿TC继续下探指向原料偏紧与冶炼端压力。",
   "windows": {
     "part1": {
       "start": "2026-09-16T00:00:00+08:00",
@@ -18,7 +18,35 @@
     }
   },
   "part1_broadcasts": [],
-  "part2_x_posts": [],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/peter_krauth/status/2100669809960882472",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Peter Krauth原帖称Santacruz Silver将于9月21日开始在TSX交易并保留SCZ代码，同时给出Q2白银产量为157万盎司。",
+          "evidence": "X原作者帖子正文直接写明TSX交易日期、股票代码和Q2白银产量。",
+          "source_url": "https://x.com/peter_krauth/status/2100669809960882472",
+          "evidence_type": "original_x_post",
+          "period": "2026 Q2 production and September 21, 2026 listing milestone",
+          "unit": "troy ounces and date",
+          "value": "1.57 million oz Q2 silver production; TSX trading begins September 21"
+        }
+      ],
+      "publish_time": "2026-09-17T19:34:45+00:00",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "excerpt": "Peter Krauth原帖称Santacruz Silver将于9月21日开始在TSX交易、保留SCZ代码，并称公司已有157万盎司的Q2白银产量。",
+      "interpretation": "原帖把上市迁移与Q2产量放在一起，供给判断的可核验部分是157万盎司季度产量；上市本身主要改变融资可见度，不直接增加矿山产量。帖子未给出产量口径、矿山分项或同比基准，需结合公司报告核对。",
+      "importance": "157万盎司的Q2白银产量给Santacruz提供了当前运营基线，上市变更主要改善融资与资本市场可见度，影响供给的渠道是后续项目开发而非挂牌本身。由于帖子未提供矿山分项、同比变化或来源链接，短期只能把它作为公司既有产量的补充证据，不能据此推导增产幅度。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
   "part3_news": [
     {
       "url": "https://www.newsfilecorp.com/release/314945/Santacruz-Silver-Acquires-New-500TonnePerDay-Milling-Facility-to-Unlock-Further-Production-Growth-in-Bolivia",
@@ -83,29 +111,29 @@
       "The Assay America Needs Copper页面返回403，无法核验日期和事实，未纳入。"
     ],
     "part1_result": "Part 1已完成2026-09-16至2026-09-18北京时间窗口内的访谈、播客、会议和公司演示检索；未找到同时满足日期、可打开原始页面、金银铜实体供需事实和跨日报去重要求的合格信号，因此保留空数组。",
-    "part2_searched": false,
-    "part2_channel": "failed",
+    "part2_searched": true,
     "part2_sources_checked": [
-      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-18 --collect-x；内部调用 scripts/x_search.py。",
-      "X sidecar：x_outputs/2026-09-18_x_raw_materials.json；原始材料：x_outputs/2026-09-18_x_raw_materials.txt。",
-      "Playwright在首个账号前确认持久化会话缺失或过期，未启动twscrape回退，未增加后续X流量。"
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-09-18 --headless --overwrite；按Playwright -> twscrape顺序完成采集。",
+      "Playwright完成52/53个账号，@duediligenceguy的1个账号因帖子文本提取失败交由twscrape；最终53/53完成、0失败，selected_channel=playwright+twscrape。",
+      "X原始候选保存至x_outputs/2026-09-18_x_raw_materials.txt及同名JSON sidecar，共20条；逐条核对作者、handle、原帖URL、正文和北京时间窗口。"
     ],
-    "part2_result": "Part 2失败：Playwright确认X会话缺失或过期，未开始账号检索；覆盖审计为0/53，53个账号失败，未将其解释为完整零结果。需运行 scripts/setup_x_login.py 完成用户登录后再重跑。",
+    "part2_result": "Part 2完整：Playwright完成52/53，twscrape完成剩余1个账号，最终53/53、0失败；20条原始候选中仅Peter Krauth关于Santacruz Q2白银产量和TSX挂牌的原帖形成实体供给补充信号，其余19条因价格/宏观、推广、会议、金融库存或缺少新增实体供需事实排除。",
     "part2_coverage": {
-      "status": "failed",
+      "status": "complete",
       "accounts_total": 53,
-      "accounts_completed": 0,
-      "accounts_failed": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
       "attempted_channels": [
-        "playwright"
+        "playwright",
+        "twscrape"
       ],
-      "selected_channel": null,
+      "selected_channel": "playwright+twscrape",
       "channel_errors": [
-        "playwright: X session is missing or expired; run scripts/setup_x_login.py"
+        "Playwright @duediligenceguy：1个帖子文本提取失败，未完成账号交由twscrape；twscrape完成该账号。"
       ],
       "notes": [
-        "运行ID：2026-09-18-20260919T145718332163Z-36144。",
-        "安全停止：X登录会话失效后未启动twscrape，不增加后续X流量。"
+        "Playwright和twscrape合计完成53/53账号，0失败；未增加其他账号流量。",
+        "本次为对2026-09-18报告的补跑修正，原先的失败覆盖审计已保留在上一提交历史中。"
       ]
     },
     "part3_searched": true,
@@ -120,11 +148,11 @@
     "mining_com_source_note": "严格执行固定Python + Chromium Playwright抓取Mining.com金、银、铜分类页：金13篇、银12篇、铜14篇报告日文章，候选已逐项检查。报告日Mining.com文章中正文受限或缺少可核验核心事实的条目未纳入；最终银供给卡采用可打开的Santacruz公司公告Newsfile页面。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 1,
-      "passed": 1,
+      "checked": 2,
+      "passed": 2,
       "failed": 0,
       "failures": [],
-      "notes": "唯一入选Part 3来源已通过Playwright打开并核对标题、日期、主体和核心数字；Part 1无入选来源，Part 2无入选来源且保留失败覆盖审计。"
+      "notes": "Santacruz Newsfile来源和Peter Krauth原帖均已打开并核对标题/正文、日期、主体及入选事实；其余X候选均作为原始候选审计并按收录标准排除。"
     }
   },
   "dedup_log": {
@@ -133,6 +161,6 @@
     "part3_deduped_events": [
       "窗口外或重复的DLP、Americas Gold and Silver、Coeur候选已排除；Mining.com受限/金融库存/价格评论候选未形成可核验实体供需卡。"
     ],
-    "notes": "Part 1完成检索但无合格信号；Part 2因X登录会话失效安全停止并保留0/53覆盖审计；Part 3仅保留Santacruz处理能力扩容，未将购买设备直接写成已实现银产量。"
+    "notes": "Part 1完成检索但无合格信号；Part 2补跑后Playwright+twscrape完成53/53，仅保留Santacruz Q2产量原帖作为对Part 3扩容信号的补充，不重复展示同一处理厂事件；Part 3仅保留Santacruz处理能力扩容，未将购买设备直接写成已实现银产量。"
   }
 }
