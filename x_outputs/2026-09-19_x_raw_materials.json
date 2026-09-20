@@ -1,0 +1,269 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-19",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 27,
+  "accounts_failed": 26,
+  "channel_completed_accounts": {
+    "playwright": 27
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-6a0d401e55e9ca9195ce86e8",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-18T21:21:40+00:00",
+      "text": "Thanks Sean,\nEvery now and then, I have seen a valid use for #silver that, in theory, utilizes more than the available silver supply.  This is another case. However, these uses have not come to fruition so far.",
+      "url": "https://x.com/silverguru22/status/2101059103774920898",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0b22d6e178d8eb22cc28ce3a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-19T13:27:03+00:00",
+      "text": "High prices to cure high prices... but it takes time.\n\nNew production needs to first replace lost production before it can start pooling up a glut.\n\nI've seen no evidence we're there yet.",
+      "url": "https://x.com/duediligenceguy/status/2101302050789204019",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6369efcc1dd803a181fd3a66",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-19T15:48:45+00:00",
+      "text": "Very interesting insight by Ammar Al-Joundi on the \n@inthemoneypod\n \n\nConfirms our view at \n@IGWTreport\n, that the \"Gold Light\"-countries like Canada, Australia, Japan,... will at some point start buying gold...",
+      "url": "https://x.com/RonStoeferle/status/2101337709721932167",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1b415a0c05db43b021799d37",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-19T14:09:00+00:00",
+      "text": "Indians are now buying more Gold for investment than for jewellery!\n\nGreat chart by the \n@GOLDCOUNCIL\n!",
+      "url": "https://x.com/RonStoeferle/status/2101312605109576037",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-23dad816acb8ac4f4b7cbaab",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-19T13:34:04+00:00",
+      "text": "Ironically his father knew this well and wrote a treatise on gold, sound money and freedom.  He ignored all that and played the fiat system like a fiddle and became wealthy doing so. His comment that people debasing money is just the system and not particularly evil tells you all",
+      "url": "https://x.com/LawrenceLepard/status/2101303814988984784",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fa5f6c9d8e79e672bfd6bfa7",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-18T18:47:38+00:00",
+      "text": "But he's a trader!  gold down for a few months: avoid. lots of morons on X.",
+      "url": "https://x.com/LawrenceLepard/status/2101020340428161400",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-434bf9c84ebdc7a9d168c0d2",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-18T17:54:16+00:00",
+      "text": "you held forth on gold as if you have a clue what is driving its performance.  answer: you don't",
+      "url": "https://x.com/LawrenceLepard/status/2101006910111527277",
+      "collector": "x_search",
+      "report_date": "2026-09-19",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "tweet extraction failed for 2 item(s): tweet 1: missing or empty tweet text; tweet 2: missing or empty tweet text"
+    },
+    {
+      "source_id": "x-keith_neumeyer",
+      "handle": "keith_neumeyer",
+      "author": "Keith Neumeyer",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-frank_giustra",
+      "handle": "Frank_Giustra",
+      "author": "Frank Giustra",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-nolanwatson",
+      "handle": "NolanWatson",
+      "author": "Nolan Watson",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-amiradnani",
+      "handle": "AmirAdnani",
+      "author": "Amir Adnani",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-michaelkonnert",
+      "handle": "MichaelKonnert",
+      "author": "Michael Konnert",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-waltercolesjr",
+      "handle": "WalterColesJr",
+      "author": "Walter Coles Jr.",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "handle": "ivanbebek",
+      "author": "Ivan Bebek",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-ivanhoemines_",
+      "handle": "IvanhoeMines_",
+      "author": "Ivanhoe Mines",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "handle": "FreeportMcMoRan",
+      "author": "Freeport-McMoRan",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-newmontcorp",
+      "handle": "NewmontCorp",
+      "author": "Newmont",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "handle": "BarrickGold",
+      "author": "Barrick Gold",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-teckresources",
+      "handle": "TeckResources",
+      "author": "Teck Resources",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "handle": "AntofagastaPLC",
+      "author": "Antofagasta",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "handle": "LundinMining",
+      "author": "Lundin Mining",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "handle": "AgnicoEagle",
+      "author": "Agnico Eagle",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "handle": "FirstMajestic",
+      "author": "First Majestic Silver",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "handle": "PanAmericanSlvr",
+      "author": "Pan American Silver",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "handle": "Wheaton_PM",
+      "author": "Wheaton Precious Metals",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "handle": "EndeavourMining",
+      "author": "Endeavour Mining",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "handle": "SSRMining",
+      "author": "SSR Mining",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "handle": "KinrossGold",
+      "author": "Kinross Gold",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "handle": "SandstormGold",
+      "author": "Sandstorm Gold",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "handle": "Fortuna_Silver",
+      "author": "Fortuna Mining",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "handle": "GoGoldResources",
+      "author": "GoGold Resources",
+      "error": "X redirected the search page to a login/onboarding wall"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "handle": "vizslasilver",
+      "author": "Vizsla Silver",
+      "error": "X redirected the search page to a login/onboarding wall"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 27
+    },
+    "channel_errors": [
+      "playwright: X redirected the search page to a login/onboarding wall"
+    ],
+    "channel_error": "playwright: X redirected the search page to a login/onboarding wall"
+  }
+}

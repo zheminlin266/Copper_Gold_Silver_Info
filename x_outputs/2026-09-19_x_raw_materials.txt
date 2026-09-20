@@ -1,0 +1,102 @@
+X 原始候选 — 2026-09-19
+采集时间: 2026-09-20T16:50:27.410356+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 27/53 完成，失败 26
+各通道完成账户数: {"playwright": 27}
+采集状态: partial
+失败账号数: 26
+通道错误: playwright: X redirected the search page to a login/onboarding wall
+失败账号:
+  @duediligenceguy (Lobo Tiggre): tweet extraction failed for 2 item(s): tweet 1: missing or empty tweet text; tweet 2: missing or empty tweet text
+  @keith_neumeyer (Keith Neumeyer): X redirected the search page to a login/onboarding wall
+  @Frank_Giustra (Frank Giustra): X redirected the search page to a login/onboarding wall
+  @NolanWatson (Nolan Watson): X redirected the search page to a login/onboarding wall
+  @AmirAdnani (Amir Adnani): X redirected the search page to a login/onboarding wall
+  @MichaelKonnert (Michael Konnert): X redirected the search page to a login/onboarding wall
+  @WalterColesJr (Walter Coles Jr.): X redirected the search page to a login/onboarding wall
+  @ivanbebek (Ivan Bebek): X redirected the search page to a login/onboarding wall
+  @IvanhoeMines_ (Ivanhoe Mines): X redirected the search page to a login/onboarding wall
+  @FreeportMcMoRan (Freeport-McMoRan): X redirected the search page to a login/onboarding wall
+  @NewmontCorp (Newmont): X redirected the search page to a login/onboarding wall
+  @BarrickGold (Barrick Gold): X redirected the search page to a login/onboarding wall
+  @TeckResources (Teck Resources): X redirected the search page to a login/onboarding wall
+  @AntofagastaPLC (Antofagasta): X redirected the search page to a login/onboarding wall
+  @LundinMining (Lundin Mining): X redirected the search page to a login/onboarding wall
+  @AgnicoEagle (Agnico Eagle): X redirected the search page to a login/onboarding wall
+  @FirstMajestic (First Majestic Silver): X redirected the search page to a login/onboarding wall
+  @PanAmericanSlvr (Pan American Silver): X redirected the search page to a login/onboarding wall
+  @Wheaton_PM (Wheaton Precious Metals): X redirected the search page to a login/onboarding wall
+  @EndeavourMining (Endeavour Mining): X redirected the search page to a login/onboarding wall
+  @SSRMining (SSR Mining): X redirected the search page to a login/onboarding wall
+  @KinrossGold (Kinross Gold): X redirected the search page to a login/onboarding wall
+  @SandstormGold (Sandstorm Gold): X redirected the search page to a login/onboarding wall
+  @Fortuna_Silver (Fortuna Mining): X redirected the search page to a login/onboarding wall
+  @GoGoldResources (GoGold Resources): X redirected the search page to a login/onboarding wall
+  @vizslasilver (Vizsla Silver): X redirected the search page to a login/onboarding wall
+============================================================
+
+总计候选: 7 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-09-18T21:21:40+00:00
+    北京: 2026-09-19T05:21:40+08:00
+    文本: Thanks Sean,
+Every now and then, I have seen a valid use for #silver that, in theory, utilizes more than the available silver supply.  This is another case. However, these uses have not come to fruition so far.
+    链接: https://x.com/silverguru22/status/2101059103774920898
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-19T13:27:03+00:00
+    北京: 2026-09-19T21:27:03+08:00
+    文本: High prices to cure high prices... but it takes time.
+
+New production needs to first replace lost production before it can start pooling up a glut.
+
+I've seen no evidence we're there yet.
+    链接: https://x.com/duediligenceguy/status/2101302050789204019
+
+[3] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-19T15:48:45+00:00
+    北京: 2026-09-19T23:48:45+08:00
+    文本: Very interesting insight by Ammar Al-Joundi on the
+@inthemoneypod
+
+
+Confirms our view at
+@IGWTreport
+, that the "Gold Light"-countries like Canada, Australia, Japan,... will at some point start buying gold...
+    链接: https://x.com/RonStoeferle/status/2101337709721932167
+
+[4] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-19T14:09:00+00:00
+    北京: 2026-09-19T22:09:00+08:00
+    文本: Indians are now buying more Gold for investment than for jewellery!
+
+Great chart by the
+@GOLDCOUNCIL
+!
+    链接: https://x.com/RonStoeferle/status/2101312605109576037
+
+[5] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-19T13:34:04+00:00
+    北京: 2026-09-19T21:34:04+08:00
+    文本: Ironically his father knew this well and wrote a treatise on gold, sound money and freedom.  He ignored all that and played the fiat system like a fiddle and became wealthy doing so. His comment that people debasing money is just the system and not particularly evil tells you all
+    链接: https://x.com/LawrenceLepard/status/2101303814988984784
+
+[6] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-18T18:47:38+00:00
+    北京: 2026-09-19T02:47:38+08:00
+    文本: But he's a trader!  gold down for a few months: avoid. lots of morons on X.
+    链接: https://x.com/LawrenceLepard/status/2101020340428161400
+
+[7] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-18T17:54:16+00:00
+    北京: 2026-09-19T01:54:16+08:00
+    文本: you held forth on gold as if you have a clue what is driving its performance.  answer: you don't
+    链接: https://x.com/LawrenceLepard/status/2101006910111527277

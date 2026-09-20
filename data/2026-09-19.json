@@ -1,0 +1,321 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-19",
+  "report_time": "2026-09-20T17:03:23+08:00",
+  "summary": "黄金：Kurmuk接近首次浇金、Ternera建立储量，供给管线推进；印度购金结构偏向投资需求。白银：本窗口未形成可核验新增实体供需信号。铜：全球矿山供给面临年度下降风险，精矿偏紧压力上升。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-17T00:00:00+08:00",
+      "end": "2026-09-19T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-19T00:00:00+08:00",
+      "end": "2026-09-19T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-19T00:00:00+08:00",
+      "end": "2026-09-19T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.miningstockeducation.com/2026/09/scorpio-golds-nasdaq-debut-sgld-manhattan-district-scale-potential-and-reprocessing-upside/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "公司目标在2026年将Manhattan项目资源更新至约200万盎司黄金。",
+          "evidence": "Mining Stock Education访谈页面直接列出公司资源更新目标；该数值属于公司目标，尚非已实现资源。",
+          "source_url": "https://www.miningstockeducation.com/2026/09/scorpio-golds-nasdaq-debut-sgld-manhattan-district-scale-potential-and-reprocessing-upside/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 resource update target",
+          "unit": "million troy ounces Au",
+          "value": "approximately 2 million oz target"
+        },
+        {
+          "claim": "公司正在实施约60万美元、32个孔的声波钻探与冶金项目，评估历史浸出垫、废石及库存物料的再处理和委托加工。",
+          "evidence": "访谈页面直接列出项目预算、孔数和再处理/冶金评估内容。",
+          "source_url": "https://www.miningstockeducation.com/2026/09/scorpio-golds-nasdaq-debut-sgld-manhattan-district-scale-potential-and-reprocessing-upside/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration and metallurgy program",
+          "unit": "USD and holes",
+          "value": "approximately $0.6 million; 32 holes"
+        },
+        {
+          "claim": "公司目前使用2台钻机推进勘探。",
+          "evidence": "访谈页面直接说明当前钻机数量。",
+          "source_url": "https://www.miningstockeducation.com/2026/09/scorpio-golds-nasdaq-debut-sgld-manhattan-district-scale-potential-and-reprocessing-upside/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration update",
+          "unit": "drill rigs",
+          "value": "2 rigs"
+        }
+      ],
+      "publish_date": "2026-09-19",
+      "title": "Scorpio Gold：Manhattan项目资源更新与再处理潜力访谈",
+      "source_type": "podcast",
+      "summary": "Scorpio Gold CEO Zayn Kalyan介绍Manhattan项目：公司目标在2026年更新至约200万盎司黄金资源，正在开展约60万美元、32孔的声波钻探与冶金项目，并评估历史浸出垫、废石和库存物料的再处理。",
+      "detail": "访谈页称项目目前使用2台钻机，工作包括资源更新、冶金测试和委托加工/再处理评估；约200万盎司是公司目标，不是已完成资源量或当前产量。",
+      "importance": "Manhattan的供给管线从单纯资源目标推进到资源更新、32孔钻探和再处理试验并行，约60万美元投入给出近期验证尺度。若历史浸出垫、废石和库存物料具备可回收性，增量可能先来自棕地再处理而非新矿山；2026年资源更新、冶金回收率和委托加工安排是关键验证点。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Zayn Kalyan",
+        "background": "Scorpio Gold CEO"
+      },
+      "companies": [
+        "Scorpio Gold"
+      ],
+      "projects": [
+        "Manhattan District",
+        "Manhattan Project"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/RonStoeferle/status/2101312605109576037",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "Ronnie Stoeferle原帖称印度目前投资购金量超过珠宝购金量，并将图表归因于World Gold Council。",
+          "evidence": "X原作者帖子正文直接写明投资购金与珠宝购金的相对关系，并标注@GOLDCOUNCIL。",
+          "source_url": "https://x.com/RonStoeferle/status/2101312605109576037",
+          "evidence_type": "original_x_post",
+          "period": "2026-09-19 X post",
+          "unit": "demand mix",
+          "value": "investment gold buying greater than jewellery buying; magnitude not disclosed"
+        }
+      ],
+      "publish_time": "2026-09-19T14:09:00+00:00",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "excerpt": "Ronnie Stoeferle原帖称印度目前投资购金量超过珠宝购金量，并将图表归因于World Gold Council。",
+      "interpretation": "如果该结构变化得到World Gold Council完整数据确认，印度黄金需求的驱动将更多来自投资而非珠宝，需求对价格、宏观和资产配置的敏感度可能上升。原帖没有给出时间区间、吨数或同比幅度，当前只能作为方向性需求线索。",
+      "importance": "若WGC数据确认印度购金结构已转向投资，黄金需求的传导将更偏向资产配置，而非珠宝消费，短期敏感度可能随金融条件变化。原帖没有披露时间区间、吨数或同比幅度，后续需对照WGC完整图表验证规模，不能据此推导总需求增幅。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.skillings.net/ethiopias-500m-kurmuk-gold-mine-nears-first-pour/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kurmuk项目进入最终调试，132 kV输电线路已通电，首批矿石已进入破碎回路。",
+          "evidence": "Skillings正文直接描述最终调试、输电线路通电和首批矿石进入破碎回路。",
+          "source_url": "https://www.skillings.net/ethiopias-500m-kurmuk-gold-mine-nears-first-pour/",
+          "evidence_type": "direct industry article text",
+          "period": "2026-09-19 project commissioning update",
+          "unit": "project milestone",
+          "value": "final commissioning; 132 kV energized; first ore to crusher"
+        },
+        {
+          "claim": "文章列出的产量指引为2026年约10万—15万盎司、2027年24万—27万盎司、2028年约30万盎司。",
+          "evidence": "Skillings正文引用Allied项目披露和投资者材料列出年度产量指引。",
+          "source_url": "https://www.skillings.net/ethiopias-500m-kurmuk-gold-mine-nears-first-pour/",
+          "evidence_type": "direct industry article text",
+          "period": "2026-2028 production guidance",
+          "unit": "troy ounces per year",
+          "value": "100,000-150,000 oz in 2026; 240,000-270,000 oz in 2027; about 300,000 oz in 2028"
+        },
+        {
+          "claim": "项目预生产资本约为5亿美元，矿石库存约100万吨并计划增至150万吨。",
+          "evidence": "Skillings正文列出预生产资本和矿石库存安排。",
+          "source_url": "https://www.skillings.net/ethiopias-500m-kurmuk-gold-mine-nears-first-pour/",
+          "evidence_type": "direct industry article text",
+          "period": "2026 construction and commissioning",
+          "unit": "USD and tonnes",
+          "value": "$500 million; 1.0 Mt stockpile planned to 1.5 Mt"
+        }
+      ],
+      "publish_time": "2026-09-19T15:15:00+00:00",
+      "source": "Skillings Mining Review",
+      "title": "Kurmuk金矿进入最终调试，接近首次浇金",
+      "excerpt": "Skillings Mining Review报道，Allied Gold的埃塞俄比亚Kurmuk金矿进入最终调试，132 kV输电线路已通电，首批矿石已进入破碎回路；文章列出的产量指引为2026年约10万—15万盎司、2027年24万—27万盎司、2028年约30万盎司。",
+      "language": "en",
+      "interpretation": "项目已从建设转入试车阶段，供给影响最先表现为首次浇金和商业化爬坡，而不是稳定产量。文章引用公司项目页、投资者披露和NI 43-101技术报告，但Allied官网当前受限，产量区间属于指引，仍需跟踪回收率、库存消耗、商业生产声明和实际产量。",
+      "importance": "Kurmuk已具备132 kV供电和首批矿石进破碎回路，黄金供给信号从建设进度进入最终调试，2026年10万—15万盎司与2027年24万—27万盎司构成可量化爬坡节点。首次浇金不等于稳定商业生产，矿石库存、回收率和商业化声明决定短期产量能否兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Allied Gold"
+      ],
+      "projects": [
+        "Kurmuk Gold Mine"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.skillings.net/tesoro-gold-ternera-1-28moz-reserve-anchors-chile-mine-plan/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Ternera首次矿石储量为128万盎司黄金，矿石量4280万吨、品位0.93 g/t。",
+          "evidence": "Skillings正文直接列出首次矿石储量、矿石量和品位，并说明数据来自ASX公告。",
+          "source_url": "https://www.skillings.net/tesoro-gold-ternera-1-28moz-reserve-anchors-chile-mine-plan/",
+          "evidence_type": "direct industry article text",
+          "period": "2026 Ternera maiden ore reserve",
+          "unit": "million troy ounces; tonnes; grams per tonne",
+          "value": "1.28 Moz Au; 42.8 Mt at 0.93 g/t Au"
+        },
+        {
+          "claim": "矿山计划处理量为300万吨/年，矿山寿命超过13年，储量中87%为Measured及Indicated资源转换。",
+          "evidence": "Skillings正文列出处理量、寿命和资源类别转换比例。",
+          "source_url": "https://www.skillings.net/tesoro-gold-ternera-1-28moz-reserve-anchors-chile-mine-plan/",
+          "evidence_type": "direct industry article text",
+          "period": "Ternera mine plan",
+          "unit": "million tonnes per year; years; percent",
+          "value": "3 Mt/y; >13 years; 87% M&I"
+        },
+        {
+          "claim": "公司目标在2026年底完成DFS。",
+          "evidence": "Skillings正文直接列出DFS目标时间表。",
+          "source_url": "https://www.skillings.net/tesoro-gold-ternera-1-28moz-reserve-anchors-chile-mine-plan/",
+          "evidence_type": "direct industry article text",
+          "period": "2026 development study timeline",
+          "unit": "date",
+          "value": "end-2026 DFS target"
+        }
+      ],
+      "publish_time": "2026-09-19T12:45:00+00:00",
+      "source": "Skillings Mining Review",
+      "title": "Ternera建立128万盎司黄金储量并推进矿山方案",
+      "excerpt": "Skillings Mining Review报道，Tesoro Gold的Ternera首次矿石储量为128万盎司黄金，矿石量4280万吨、品位0.93 g/t，计划处理量300万吨/年、矿山寿命超过13年，DFS目标为2026年底完成。",
+      "language": "en",
+      "interpretation": "这是开发阶段储量和矿山方案信号，储量相较资源量提高了供给可研的置信度，但尚未转化为产量。文章明确说明数据来自澳大利亚证券交易所公告；资本开支、许可、融资和DFS结果仍是建设前置条件。",
+      "importance": "Ternera把黄金项目从资源叙事推进到128万盎司储量和300万吨/年处理方案，13年以上矿山寿命为中长期供给管线提供了时间尺度。该项目仍处DFS与开发准备阶段，储量转为实际产量取决于资本开支、许可和融资，不能将其直接计入近期供应。",
+      "verification_status": "verified",
+      "companies": [
+        "Tesoro Gold"
+      ],
+      "projects": [
+        "Ternera",
+        "El Zorro Gold Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.geomechanics.io/news/article/copper-mine-supply-risks-first-decline-since-2017-planning-notes-for-engineers",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "文章称2026年上半年全球矿铜产量同比下降1.1%，Grasberg与Kamoa-Kakula预计使2026年产量减少约60万吨。",
+          "evidence": "Geomechanics.io正文明确列出该数字并归因于Sprott分析；该条为二手行业汇总。",
+          "source_url": "https://www.geomechanics.io/news/article/copper-mine-supply-risks-first-decline-since-2017-planning-notes-for-engineers",
+          "evidence_type": "direct industry article text",
+          "period": "2026 H1 and 2026 mine supply outlook",
+          "unit": "percent and tonnes",
+          "value": "-1.1% YoY; approximately 600,000 tonnes reduction"
+        },
+        {
+          "claim": "文章称智利铜产量上半年下降6.6%、7月下降9.4%，Cochilco预测2026年产量为527万吨。",
+          "evidence": "Geomechanics.io正文列出智利产量变化和Cochilco预测口径。",
+          "source_url": "https://www.geomechanics.io/news/article/copper-mine-supply-risks-first-decline-since-2017-planning-notes-for-engineers",
+          "evidence_type": "direct industry article text",
+          "period": "2026 Chile copper production",
+          "unit": "percent and million tonnes",
+          "value": "-6.6% H1; -9.4% July; 5.27 Mt forecast"
+        }
+      ],
+      "publish_time": "2026-09-19",
+      "source": "Geomechanics.io",
+      "title": "全球铜矿供给面临2017年以来首次年度下降风险",
+      "excerpt": "Geomechanics.io称2026年上半年全球矿铜产量同比下降1.1%，Grasberg与Kamoa-Kakula预计使2026年产量减少约60万吨；智利上半年下降6.6%、7月下降9.4%，Cochilco预测全年产量527万吨。",
+      "language": "en",
+      "interpretation": "该文是二手行业汇总，不是单一矿山或政府原始公告；它把矿山事故、项目波动和智利产量下滑合并为供给风险，适合作为方向性精矿偏紧线索。后续应分别核验Grasberg、Kamoa-Kakula、Cochilco和Escondida的一手数据，不能把汇总数字当作独立全球缺口估计。",
+      "importance": "二手汇总中的1.1%上半年降幅和约60万吨项目扰动，说明2026年铜供给风险已从单个矿山事件扩散到多个主要产区，短期更可能体现为精矿可得性和冶炼原料压力。证据同时混合Sprott、Cochilco和公司口径，且未给出统一的全球缺口模型，后续核验各一手来源比直接采用年度下降结论更重要。",
+      "verification_status": "verified",
+      "companies": [
+        "Freeport-McMoRan",
+        "Ivanhoe Mines",
+        "Codelco",
+        "BHP"
+      ],
+      "projects": [
+        "Grasberg",
+        "Kamoa-Kakula",
+        "Escondida"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Education Scorpio Gold CEO访谈：https://www.miningstockeducation.com/2026/09/scorpio-golds-nasdaq-debut-sgld-manhattan-district-scale-potential-and-reprocessing-upside/；页面显示2026-09-19，核对嘉宾、Manhattan资源目标、32孔钻探和再处理事实。",
+      "Resource Talks、Mining Stock Daily、Crux及会议/公司演示入口按北京时间2026-09-17至09-19窗口检查，并与2026-09-17、2026-09-18日报去重；窗口外、缺日期、重复或无法提取完整内容的候选排除。"
+    ],
+    "part1_result": "Part 1完成2026-09-17至2026-09-19北京时间窗口的访谈、播客、会议和公司演示检索；纳入Scorpio Gold CEO关于Manhattan资源更新、声波钻探与再处理评估的一条可核验黄金供给信号。",
+    "part2_searched": false,
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py 2026-09-19 --collect-x；按Playwright -> twscrape顺序尝试。",
+      "持久化Chrome profile启动失败后使用x_auth.json回退；Playwright在完成27/53个账号后遇到登录墙并安全停止，未启动后续X流量。",
+      "X原始候选保存至x_outputs/2026-09-19_x_raw_materials.txt及同名JSON sidecar，共7条；逐条核对作者、handle、原帖URL、正文和北京时间窗口。"
+    ],
+    "part2_result": "Part 2部分完成：Playwright回退路径完成27/53个账号、失败26个账号，随后因登录墙安全停止；7条原始候选中仅印度投资购金结构变化形成方向性黄金需求卡，其余因宏观/价格观点或缺少实体供需事实排除。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 27,
+      "accounts_failed": 26,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "playwright: X redirected the search page to a login/onboarding wall"
+      ],
+      "notes": [
+        "运行ID：2026-09-19-20260920T083605326706Z-13252。",
+        "持久化Chrome profile启动失败后使用x_auth.json回退；登录墙触发安全停止，未增加后续X流量。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com黄金分类页 https://www.mining.com/commodity/gold/：固定Python + Playwright HTTP 200，报告日0篇；真实零结果。",
+      "Mining.com白银分类页 https://www.mining.com/commodity/silver/：固定Python + Playwright HTTP 200，报告日0篇；真实零结果。",
+      "Mining.com铜分类页 https://www.mining.com/commodity/copper/：固定Python + Playwright HTTP 200，报告日0篇；真实零结果。",
+      "Skillings Mining Review Kurmuk：https://www.skillings.net/ethiopias-500m-kurmuk-gold-mine-nears-first-pour/；直接打开正文，核对2026-09-19日期、调试里程碑、132 kV、首批矿石、资本和产量指引。",
+      "Skillings Mining Review Ternera：https://www.skillings.net/tesoro-gold-ternera-1-28moz-reserve-anchors-chile-mine-plan/；直接打开正文，核对2026-09-19日期、储量、矿石量、品位、处理量和DFS时间表。",
+      "Geomechanics.io铜供给汇总：https://www.geomechanics.io/news/article/copper-mine-supply-risks-first-decline-since-2017-planning-notes-for-engineers；直接打开正文，核对日期和归因数字；标记为二手汇总，未将其作为独立全球缺口模型。",
+      "Skillings/公司公告、行业媒体和中文入口的窗口候选已检查；KCM、Orvana、Metallic Minerals等因事件日期超窗或旧事件排除，白银未找到同时满足日期、正文核验和实体供需路径的合格候选。"
+    ],
+    "part3_result": "Part 3完成2026-09-19全天英文和中文新闻检索。Mining.com三分类页均为报告日真实零结果；纳入Kurmuk最终调试、Ternera首次储量和铜矿供给风险汇总三条信号，其余候选因超窗、正文受限、重复或缺少明确实体供需路径排除。",
+    "mining_com_source_note": "严格执行固定Python + Chromium Playwright抓取Mining.com金、银、铜分类页，三页均HTTP 200且报告日0篇；同时记录了三页真实零结果，不将其误写为采集失败。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 5,
+      "passed": 5,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1、1条Part 2和3条Part 3入选来源均已打开并核对标题/日期/主体/核心事实；Part 3铜供给为二手行业汇总，已在解释中标明证据限制。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "KCM尾矿浸出厂因原始公告日期为2026-09-18排除；Orvana首批铜阴极因实际事件日期为2026-09-16排除；Cartier等与前日报实质重复。"
+    ],
+    "notes": "Part 2部分完成并保留27/53覆盖审计；Part 3的铜供给风险为二手汇总，未把其数字当作独立全球缺口模型。"
+  }
+}
