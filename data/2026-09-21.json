@@ -1,0 +1,568 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-21",
+  "report_time": "2026-09-22T07:43:25+08:00",
+  "summary": "黄金：澳洲产量基本稳定，Hillgrove首批金精矿、Mt Todd收购与NICO许可扩充中长期供给管线。白银：La Negra重启项目释放潜在增供线索，规模待确认。铜：可用库存收缩与Nchanga复产并存，现货偏紧和冶炼恢复同时出现。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-19T00:00:00+08:00",
+      "end": "2026-09-21T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-21T00:00:00+08:00",
+      "end": "2026-09-21T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-21T00:00:00+08:00",
+      "end": "2026-09-21T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/21/red-canyon-osiris-project-drill-updates-nautilus-camp-target-developments/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "公司以31孔aug​​er钻探在冰碛覆盖下采样基岩，并覆盖五个区域。",
+          "evidence": "KER访谈页面直接列出31孔计划和五个区域。",
+          "source_url": "https://www.kereport.com/2026/09/21/red-canyon-osiris-project-drill-updates-nautilus-camp-target-developments/",
+          "evidence_type": "direct interview page",
+          "period": "2026 exploration update",
+          "unit": "holes and zones",
+          "value": "31 holes; five zones"
+        },
+        {
+          "claim": "Nautilus靶区发现蚀变岩和含黄铜矿石英脉，将进入地球物理和秋季钻探优先序列。",
+          "evidence": "KER访谈页面直接描述矿化迹象和后续工作。",
+          "source_url": "https://www.kereport.com/2026/09/21/red-canyon-osiris-project-drill-updates-nautilus-camp-target-developments/",
+          "evidence_type": "direct interview page",
+          "period": "2026 fall exploration",
+          "unit": "milestone",
+          "value": "geophysics and fall drilling priority"
+        },
+        {
+          "claim": "Camp靶区313个新增土壤样本将铜矿化范围向北延伸2公里，夏季岩心钻探化验待公布。",
+          "evidence": "KER访谈页面直接列出样本量、延伸距离和待出化验。",
+          "source_url": "https://www.kereport.com/2026/09/21/red-canyon-osiris-project-drill-updates-nautilus-camp-target-developments/",
+          "evidence_type": "direct interview page",
+          "period": "2026 summer/fall exploration",
+          "unit": "samples and kilometres",
+          "value": "313 samples; 2 km northward extension"
+        }
+      ],
+      "publish_date": "2026-09-21",
+      "title": "Red Canyon：Osiris项目钻探更新、Nautilus与Camp靶区进展",
+      "source_type": "podcast",
+      "summary": "The Korelin Economics Report采访Red Canyon Resources CEO Wendell Zerb，介绍Osiris铜金项目31孔取样、Nautilus靶区黄铜矿石英脉，以及Camp靶区313个土壤样本将铜矿化 footprint 向北延伸2公里。",
+      "detail": "页面还称Nautilus将进入地球物理和秋季钻探优先序列，Camp夏季岩心钻探的化验结果仍待公布；这些是勘探和资源管线信号，不是已实现的矿山产量。",
+      "importance": "31孔取样、313个土壤样本和向北延伸2公里把Osiris从靶区叙事推进到可验证的秋季钻探节点，短中期影响在于扩大铜金资源发现概率而非立即增加精矿。Nautilus的黄铜矿脉和Camp待出化验结果是下一步验证点，项目仍处勘探阶段。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Wendell Zerb",
+        "background": "Red Canyon Resources Chairman and CEO"
+      },
+      "companies": [
+        "Red Canyon Resources"
+      ],
+      "projects": [
+        "Osiris Copper-Gold Project",
+        "Inzana Project",
+        "Nautilus",
+        "Camp Target"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/20/talisker-resources-operations-development-and-exploration-update-at-bralorne-bralorne-west-and-mustang/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mustang转向关键矿脉开发并在2026年第三季度实现首次生产，计划在第四季度和2027年第一季度继续爬坡。",
+          "evidence": "KER页面直接列出录制内容中的运营和时间表。",
+          "source_url": "https://www.kereport.com/2026/09/20/talisker-resources-operations-development-and-exploration-update-at-bralorne-bralorne-west-and-mustang/",
+          "evidence_type": "direct interview page",
+          "period": "2026 Q3 to 2027 Q1",
+          "unit": "production milestone",
+          "value": "first production in Q3; ramp-up in Q4 and Q1"
+        },
+        {
+          "claim": "XRT分选单独运行可剔除57%—67%废料，使金品位提高2.0—2.5倍，含金回收率为84%—87%。",
+          "evidence": "KER页面直接列出SRC、TOMRA和Canenco测试结果。",
+          "source_url": "https://www.kereport.com/2026/09/20/talisker-resources-operations-development-and-exploration-update-at-bralorne-bralorne-west-and-mustang/",
+          "evidence_type": "direct interview page",
+          "period": "2026 sorting test",
+          "unit": "percent and grade multiple",
+          "value": "57%-67% rejected; 2.0x-2.5x grade; 84%-87% recovery"
+        },
+        {
+          "claim": "PEA计划在第四季度发布。",
+          "evidence": "KER页面直接列出即将发布的经济研究节点。",
+          "source_url": "https://www.kereport.com/2026/09/20/talisker-resources-operations-development-and-exploration-update-at-bralorne-bralorne-west-and-mustang/",
+          "evidence_type": "direct interview page",
+          "period": "2026 Q4",
+          "unit": "date",
+          "value": "Q4 PEA target"
+        }
+      ],
+      "publish_date": "2026-09-20",
+      "title": "Talisker：Bralorne运营、开发与勘探更新",
+      "source_type": "podcast",
+      "summary": "Talisker CEO介绍Bralorne金矿运营、Bralorne West开发和Mustang首次生产：Mustang计划在2026年第四季度和2027年第一季度爬坡，XRT分选测试可剔除57%—67%废料并使金品位提高2.0—2.5倍。",
+      "detail": "节目页标注录制日期为2026-09-18、页面发布日期为2026-09-20；公司还称PEA预计第四季度发布。分选测试为试验结果，不能直接等同于商业回收率或新增产量。",
+      "importance": "Mustang从首次生产进入Q4至2027年Q1爬坡，配合Bralorne West补充产量，供给影响已从开发推进到近期运营兑现。XRT测试剔除57%—67%废料并提高品位2.0—2.5倍，为降低处理负荷提供路径，但PEA、实际回收率和爬坡吨位仍决定可实现增量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Terry Harbort",
+        "background": "Talisker Resources President and CEO"
+      },
+      "companies": [
+        "Talisker Resources"
+      ],
+      "projects": [
+        "Bralorne Gold Project",
+        "Bralorne West",
+        "Mustang Mine"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/RonStoeferle/status/2101720434123436279",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "Ronnie Stoeferle原帖称中国8月进口黄金141.7吨，比7月多7.2吨。",
+          "evidence": "X原作者帖子正文直接写明两个月数量和比较，并标注信息来源。",
+          "source_url": "https://x.com/RonStoeferle/status/2101720434123436279",
+          "evidence_type": "original_x_post",
+          "period": "2026 August versus July",
+          "unit": "tonnes of gold",
+          "value": "141.7 tonnes; +7.2 tonnes month-on-month"
+        }
+      ],
+      "publish_time": "2026-09-20T17:09:34+00:00",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "excerpt": "Ronnie Stoeferle原帖称，中国海关数据显示8月进口黄金141.7吨，比7月多7.2吨，并将信息归因于@BruceIkeGold。",
+      "interpretation": "原帖提供的是中国进口量环比增加的方向性需求线索，影响主要通过实物流入和投资/消费补库传导；帖子没有给出同比口径、进口来源或海关原始链接，不能据此推导中国总需求或全年趋势。",
+      "importance": "8月进口141.7吨、较7月增加7.2吨，显示中国实物黄金流入在短期仍有韧性，需求端可能对高价保持承接。该数字来自原作者转述且缺少海关原始表格，规模和持续性仍需对照官方月度数据，不能把环比增加直接外推为全年需求增长。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/fortune-minerals-gets-water-licence-and-land-use-permit-for-nico-mine-in-northwest-territories/",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "NICO水许可证续期获批，并取得土地使用许可。",
+          "evidence": "Mining.com正文直接报道西北地区主管部门批准和WLWB许可。",
+          "source_url": "https://www.mining.com/fortune-minerals-gets-water-licence-and-land-use-permit-for-nico-mine-in-northwest-territories/",
+          "evidence_type": "direct article text",
+          "period": "2026-09-21",
+          "unit": "permits",
+          "value": "water licence renewal and land use permit"
+        },
+        {
+          "claim": "NICO项目含约110万盎司原位黄金，并计划提供铜cement等产品。",
+          "evidence": "Mining.com正文直接列出项目金属和产品规划。",
+          "source_url": "https://www.mining.com/fortune-minerals-gets-water-licence-and-land-use-permit-for-nico-mine-in-northwest-territories/",
+          "evidence_type": "direct article text",
+          "period": "development-stage project",
+          "unit": "in-situ troy ounces and product",
+          "value": "1.1 million in-situ oz gold; copper cement"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "NICO铜金铋项目获水许可证续期和土地使用许可",
+      "excerpt": "Mining.com报道，Fortune Minerals的NICO铜金铋项目在西北地区获得水许可证续期和土地使用许可；项目为开发阶段资产，含约110万盎司原位黄金，并计划生产铜 cement等产品。",
+      "language": "en",
+      "interpretation": "两项许可为矿山设施建设和运营设定了条件，但NICO仍是开发阶段项目，110万盎司是原位资源/副产品口径，不是当前产量。供给传导取决于融资、建设、选矿和阿尔伯塔湿法冶金设施落地，时间更偏中长期。",
+      "importance": "许可获批把NICO从环境评估后的许可等待推进到可建设条件明确的阶段，未来可为北美增加金、铜副产品管线。约110万盎司只是原位黄金、没有生产时间表，短期供给不应计入，后续需跟踪融资、施工和投产决定。",
+      "verification_status": "verified",
+      "companies": [
+        "Fortune Minerals"
+      ],
+      "projects": [
+        "NICO Project"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一反检测Playwright会话打开文章HTTP 200，核对2026-09-21日期、两项许可、开发阶段、110万盎司原位黄金及铜cement描述。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/artemis-to-buy-vista-for-427m-in-australia-push/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Artemis拟以4.27亿美元全股票交易收购Vista，交易预计在2027年1月完成并需审批。",
+          "evidence": "Mining.com正文直接列出交易结构、金额、时间和审批条件。",
+          "source_url": "https://www.mining.com/artemis-to-buy-vista-for-427m-in-australia-push/",
+          "evidence_type": "direct article text",
+          "period": "2026-09-21 announcement; January 2027 target",
+          "unit": "USD and date",
+          "value": "$427 million; January closing target"
+        },
+        {
+          "claim": "Mt Todd含910万盎司Measured及Indicated黄金和140万盎司Inferred黄金，处理厂设计能力为5万吨/日。",
+          "evidence": "Mining.com正文直接列出2025资源量和可研处理能力。",
+          "source_url": "https://www.mining.com/artemis-to-buy-vista-for-427m-in-australia-push/",
+          "evidence_type": "direct article text",
+          "period": "2025 resource and feasibility study",
+          "unit": "troy ounces and tonnes per day",
+          "value": "9.1 Moz M&I; 1.4 Moz inferred; 50,000 tpd"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "Artemis拟以4.27亿美元收购Vista，取得Mt Todd金矿项目",
+      "excerpt": "Mining.com报道，Artemis Gold拟以4.27亿美元全股票交易收购Vista Gold，取得澳大利亚Mt Todd项目；项目资源包括910万盎司Measured及Indicated黄金和140万盎司Inferred黄金，处理厂设计能力为5万吨/日。",
+      "language": "en",
+      "interpretation": "这是开发资产控制权和资本配置变化，不是立即新增产量；Mt Todd已有许可但Artemis仍要优化方案并排定Blackwater之后的资本投入。收购完成预计在2027年1月且需审批，未来超过100万盎司/年的组合产能是公司路径而非已兑现产量。",
+      "importance": "4.27亿美元交易把9.1百万盎司Measured及Indicated资源的已许可Mt Todd纳入生产商管线，并与Blackwater扩张形成超过100万盎司/年的组合目标。短期增供仍受2027年1月交割、方案优化和资本排序约束，Mt Todd不能按资源量直接计入现货供应。",
+      "verification_status": "verified",
+      "companies": [
+        "Artemis Gold",
+        "Vista Gold"
+      ],
+      "projects": [
+        "Mt Todd",
+        "Blackwater"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright主路径发现；同一反检测Playwright会话打开文章HTTP 200，核对2026-09-21日期、4.27亿美元交易、Mt Todd资源、5万吨/日处理设计和审批条件。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/australia-gold-output-holds-near-decade-average/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "澳大利亚截至6月财年黄金产量为303吨、约970万盎司，比上财年多4吨。",
+          "evidence": "Mining.com正文直接援引Surbiton Associates数据。",
+          "source_url": "https://www.mining.com/australia-gold-output-holds-near-decade-average/",
+          "evidence_type": "direct article text citing Surbiton",
+          "period": "financial year ended June 2026",
+          "unit": "tonnes and troy ounces",
+          "value": "303 tonnes; about 9.7 Moz; +4 tonnes YoY"
+        },
+        {
+          "claim": "截至6月30日季度产量为76吨，Cadia产量因地震活动减少约6万盎司。",
+          "evidence": "Mining.com正文直接列出季度数据和Cadia变化。",
+          "source_url": "https://www.mining.com/australia-gold-output-holds-near-decade-average/",
+          "evidence_type": "direct article text",
+          "period": "quarter ended June 30, 2026",
+          "unit": "tonnes and troy ounces",
+          "value": "76 tonnes; Cadia -60,000 oz"
+        },
+        {
+          "claim": "Super Pit处理厂扩张目标为每年2700万吨，高于1300万吨，调试已开始。",
+          "evidence": "Mining.com正文直接列出扩产前后处理能力和调试状态。",
+          "source_url": "https://www.mining.com/australia-gold-output-holds-near-decade-average/",
+          "evidence_type": "direct article text",
+          "period": "2026 expansion",
+          "unit": "tonnes per year",
+          "value": "27 Mt/y from 13 Mt/y"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "澳大利亚黄金产量接近十年均值，Cadia扰动与扩产并存",
+      "excerpt": "Mining.com援引Surbiton Associates称，澳大利亚截至6月的财年黄金产量为303吨、约970万盎司，比上财年增加4吨；截至6月30日季度产量为76吨，Cadia受地震影响减产约6万盎司。",
+      "language": "en",
+      "interpretation": "全国供给目前保持稳定，局部Cadia扰动被其他矿山增产和小型生产商启动部分抵消；Super Pit处理能力从每年1300万吨扩至2700万吨且已开始调试，提供中期增供路径。季度数据不是全年指引，扩产兑现仍取决于调试和矿山运行。",
+      "importance": "303吨年度产量仅比上年增加4吨，说明澳洲供给总量暂时稳定，Cadia少产约6万盎司的冲击被其他矿山部分抵消。Super Pit从1300万吨扩至2700万吨/年的调试把增供预期推向中期，但实际产量仍需观察扩产爬坡和地震风险。",
+      "verification_status": "verified",
+      "companies": [
+        "Newmont",
+        "Northern Star Resources",
+        "AngloGold Ashanti",
+        "Regis Resources"
+      ],
+      "projects": [
+        "Cadia",
+        "Super Pit",
+        "Boddington"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright主路径发现；同一反检测Playwright会话打开文章HTTP 200，核对2026-09-21日期、Surbiton归因、303吨、76吨季度产量、Cadia减产及Super Pit扩产。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/larvotto-begins-gold-antimony-production-at-hillgrove/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hillgrove已产出首批金锑精矿。",
+          "evidence": "Mining.com正文直接报道公司首批精矿和浮选回路调试。",
+          "source_url": "https://www.mining.com/larvotto-begins-gold-antimony-production-at-hillgrove/",
+          "evidence_type": "direct article text",
+          "period": "2026-09-21 production milestone",
+          "unit": "milestone",
+          "value": "first gold and antimony concentrate"
+        },
+        {
+          "claim": "项目预计初始8年矿山寿命内年产约4.05万盎司黄金。",
+          "evidence": "Mining.com正文直接列出项目预期产量和寿命。",
+          "source_url": "https://www.mining.com/larvotto-begins-gold-antimony-production-at-hillgrove/",
+          "evidence_type": "direct article text",
+          "period": "initial eight-year mine life",
+          "unit": "troy ounces per year",
+          "value": "40,500 oz gold annually"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "Larvotto在Hillgrove产出首批金锑精矿",
+      "excerpt": "Mining.com报道，Larvotto Resources在新南威尔士Hillgrove矿山产出首批金锑精矿；项目预计在初始8年矿山寿命内年产约4.05万盎司黄金，现阶段重点是爬坡至设计能力。",
+      "language": "en",
+      "interpretation": "首批精矿说明项目已从建设和调试进入供给兑现阶段，但年产4.05万盎司仍是项目预期，实际可售黄金取决于浮选回路、过滤设备和爬坡。金与锑共生产提高项目的运行激励，影响时间是短期启动至中期稳定生产。",
+      "importance": "Hillgrove首批精矿使黄金供给信号从项目建设进入实际生产启动，年产约4.05万盎司和8年初始寿命给出可量化的中期锚点。这会影响短期可售供给，但当前仍处爬坡阶段，精矿产出不等于稳定年化产量，后续要跟踪达到设计能力的时间和实际交付。",
+      "verification_status": "verified",
+      "companies": [
+        "Larvotto Resources"
+      ],
+      "projects": [
+        "Hillgrove"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright主路径发现；同一反检测Playwright会话打开文章HTTP 200，核对2026-09-21日期、首批精矿、4.05万盎司年产预期和8年初始矿山寿命。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/copper-prices-bounce-as-us-runs-out-of-warehouse-space/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "LME仓库库存255,900吨，其中115,450吨或45%为注销仓单，实际可用库存133,725吨。",
+          "evidence": "Mining.com正文直接列出库存结构和可用量。",
+          "source_url": "https://www.mining.com/copper-prices-bounce-as-us-runs-out-of-warehouse-space/",
+          "evidence_type": "direct article text",
+          "period": "2026-09-21",
+          "unit": "metric tonnes",
+          "value": "255,900 total; 115,450 cancelled; 133,725 available"
+        },
+        {
+          "claim": "Yangshan溢价上周收于每吨124美元，现金铜较三个月合约升水每吨26美元，而一周前为贴水86美元。",
+          "evidence": "Mining.com正文直接列出中国进口溢价和LME期限结构变化。",
+          "source_url": "https://www.mining.com/copper-prices-bounce-as-us-runs-out-of-warehouse-space/",
+          "evidence_type": "direct article text",
+          "period": "week ended 2026-09-21",
+          "unit": "USD per tonne",
+          "value": "$124 Yangshan premium; $26 cash premium; prior $86 discount"
+        },
+        {
+          "claim": "Comex库存为696,204吨，9月和10月预计还有约10万吨非洲及南美铜到港。",
+          "evidence": "Mining.com正文直接列出美国库存和到港安排。",
+          "source_url": "https://www.mining.com/copper-prices-bounce-as-us-runs-out-of-warehouse-space/",
+          "evidence_type": "direct article text",
+          "period": "September-October 2026",
+          "unit": "metric tonnes",
+          "value": "696,204 tonnes; about 100,000 tonnes incoming"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "LME可用铜库存收缩，亚洲溢价与现货升水显示供应偏紧",
+      "excerpt": "Mining.com报道，LME仓库铜库存为255,900吨，其中115,450吨、约45%为已注销仓单，实际可供市场的库存约133,725吨；Yangshan溢价上周达到每吨124美元，现金铜较三个月合约升水26美元。",
+      "language": "en",
+      "interpretation": "注销仓单和现货升水将库存结构从总量问题转为可交割金属可得性问题，亚洲进口需求与港口拥堵共同延长补库时间。美国Comex库存高达696,204吨、未来两个月还有约10万吨到港，表明区域库存错配和关税前置囤货并存，不能把高总库存直接等同于全球短缺。",
+      "importance": "LME可用库存约13.37万吨、注销仓单占45%，叠加Yangshan每吨124美元溢价和现金铜对三个月升水26美元，短期精炼铜可得性明显紧于总库存数字。美国Comex的69.62万吨库存与未来约10万吨到港形成区域错配，后续要看港口去库、进口流向和中国冶炼检修是否缓解现货压力。",
+      "verification_status": "verified",
+      "companies": [
+        "Saxo Bank",
+        "Shanghai Metals Market"
+      ],
+      "projects": [],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一反检测Playwright会话打开文章HTTP 200，核对2026-09-21日期、Yangshan溢价、LME注销仓单/可用库存、现金-三月价差、Comex库存和到港描述。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/silvercos-la-negra-posts-329m-value-over-21m-costs/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "页面可见标题将Silverco的La Negra与329百万美元价值和21百万美元成本并列，并将文章标为PEA相关。",
+          "evidence": "文章页面可见标题和付费墙前导语；完整正文无法访问。",
+          "source_url": "https://www.mining.com/silvercos-la-negra-posts-329m-value-over-21m-costs/",
+          "evidence_type": "visible page title and paywall teaser",
+          "period": "2026-09-21 page publication",
+          "unit": "USD and source status",
+          "value": "$329M value over $21M costs; full PEA unverified"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "Silverco的La Negra PEA显示项目价值高于成本",
+      "excerpt": "Mining.com页面可见标题为“Silverco’s La Negra posts $329M value over $21M costs”，导语说明文章涉及PEA和恢复这座历史生产矿山；正文受到免费阅读限制，未采用其余核心数字。",
+      "language": "en",
+      "verification_status": "unverified",
+      "verification_note": "文章页面HTTP 200但显示Free Article Limit Reached，无法直接核对PEA完整正文、发布日期上下文和供给数字；仅保留页面可见标题与项目身份。",
+      "mining_com_source_note": "Mining.com银分类页Playwright主路径发现；同一Playwright会话打开文章HTTP 200，但页面为Free Article Limit Reached，未找到可替代的一手公开正文。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/vedantas-zambian-unit-resumes-copper-smelter-operations-after-maintenance/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Nchanga冶炼厂在超过三个月维护和修复后复产，实际停产106天。",
+          "evidence": "Mining.com正文署名Reuters并直接列出复产和停产天数。",
+          "source_url": "https://www.mining.com/web/vedantas-zambian-unit-resumes-copper-smelter-operations-after-maintenance/",
+          "evidence_type": "direct Reuters article text",
+          "period": "2026-09-21 restart",
+          "unit": "days",
+          "value": "106 days"
+        },
+        {
+          "claim": "Nchanga设计铜产能为31.1万吨，修复成本约4000万美元；KCM 2025年产铜80,215吨。",
+          "evidence": "Mining.com正文直接列出工厂能力、修复成本和矿业部产量口径。",
+          "source_url": "https://www.mining.com/web/vedantas-zambian-unit-resumes-copper-smelter-operations-after-maintenance/",
+          "evidence_type": "direct Reuters article text",
+          "period": "2025 actual and 2026 restart",
+          "unit": "metric tonnes and USD",
+          "value": "311,000 t/y capacity; $40 million; 80,215 tonnes in 2025"
+        }
+      ],
+      "publish_time": "2026-09-21",
+      "source": "Mining.com",
+      "title": "赞比亚Nchanga铜冶炼厂在106天检修后复产",
+      "excerpt": "Mining.com援引Reuters报道，Vedanta旗下Konkola Copper Mines的Nchanga冶炼厂在超过三个月检修后复产；该厂设计产能为31.1万吨铜，检修持续106天、耗资约4000万美元。",
+      "language": "en",
+      "interpretation": "复产恢复的是冶炼端处理能力，不等同于新增矿山精矿；31.1万吨是工厂能力，KCM 2025年实际铜产量为80,215吨。短期影响是此前检修造成的精炼供应缺口收窄，中期仍要看原料供应和向2030年30万吨目标爬坡。",
+      "importance": "Nchanga在106天检修后复产，意味着31.1万吨/年设计能力重新回到铜冶炼链，短期可缓解此前停产对精炼铜供应的压制。4000万美元修复完成并不等于立即满产，KCM 2025年仅产8.02万吨，后续需跟踪进料、开工率和向2030年30万吨目标的兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Vedanta",
+        "Konkola Copper Mines"
+      ],
+      "projects": [
+        "Nchanga smelter"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright主路径发现；同一反检测Playwright会话打开Reuters文章HTTP 200，核对2026-09-21日期、106天检修、31.1万吨设计能力、4000万美元成本和2025年产量。",
+      "source_channel": "playwright"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Korelin Economics Report首页和2026-09-19至09-21文章列表：直接打开HTTP 200，检查访谈/播客标题、页面日期、嘉宾和供需事实。",
+      "https://www.kereport.com/2026/09/21/red-canyon-osiris-project-drill-updates-nautilus-camp-target-developments/：直接打开HTTP 200，核对2026-09-21页面日期、Wendell Zerb、31孔、313个土壤样本、2公里铜 footprint 和秋季钻探。",
+      "https://www.kereport.com/2026/09/20/talisker-resources-operations-development-and-exploration-update-at-bralorne-bralorne-west-and-mustang/：直接打开HTTP 200，核对2026-09-20页面日期、录制日期2026-09-18、Mustang首次生产、XRT分选结果和Q4 PEA节点。",
+      "Mining Stock Education、The Northern Miner、Resource Talks、KER及会议/公司演示入口均按2026-09-19至09-21窗口检查；窗口外、重复、新闻稿、宏观评论或无法核对完整内容的候选排除。",
+      "Denver Gold Forum、Precious Metals Summit（2026 Beaver Creek为9月22-25日，超出报告日）和YouTube检索入口已检查；未将报告日后或无法核验正文的候选纳入。"
+    ],
+    "part1_result": "Part 1已完成2026-09-19至2026-09-21北京时间三日的访谈、播客、视频和会议回放检索；纳入KER的Red Canyon铜金勘探更新和Talisker黄金运营/开发更新两条。KER 9公司回顾页所列单集均为9月13-18日，超出或重复窗口，未单独纳入；周末节目主要为价格/宏观评论。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/daily_pipeline.py 2026-09-21 --collect-x；内部按Playwright -> twscrape调用scripts/x_search.py。",
+      "Playwright使用持久化Chrome登录会话串行处理53个账号，最终53/53完成、0失败，selected_channel=playwright；未启动twscrape。",
+      "x_outputs/2026-09-21_x_raw_materials.txt及同名JSON sidecar保留12条原始候选、账号覆盖、尝试通道和失败审计；逐条核对作者、handle、原帖URL、正文和北京时间窗口。"
+    ],
+    "part2_result": "Part 2完整：Playwright完成53/53账号、0失败；12条原始候选中仅Ronnie Stoeferle关于中国8月黄金进口141.7吨、较7月增加7.2吨的原帖形成方向性黄金需求信号，其余因价格、宏观、视频标题、无新增实体供需事实或油/比特币主题排除。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright持久化Chrome会话完整处理53个账号；完整成功包括真实零结果，未触发安全停止或后续通道。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：固定日报Python + Chromium headless Playwright反检测主路径HTTP 200，报告日文章12篇；未使用Google site:搜索替代铜分类页。",
+      "Mining.com /commodity/gold/：固定日报Python + Chromium headless Playwright主路径HTTP 200，报告日文章15篇。",
+      "Mining.com /commodity/silver/：固定日报Python + Chromium headless Playwright主路径HTTP 200，报告日文章10篇。",
+      "Google site:mining.com gold September 21 2026：HTTP 200但触发Google unusual-traffic页，可靠可解析命中0；仅作辅助发现，未使用其摘要作证据。",
+      "Google site:mining.com silver September 21 2026：HTTP 200，原始解析到35个Mining.com链接（含导航、历史结果和重复链接），报告日合格命中0；仅作辅助发现，未使用摘要作证据。",
+      "https://www.mining.com/fortune-minerals-gets-water-licence-and-land-use-permit-for-nico-mine-in-northwest-territories/、https://www.mining.com/artemis-to-buy-vista-for-427m-in-australia-push/、https://www.mining.com/australia-gold-output-holds-near-decade-average/、https://www.mining.com/larvotto-begins-gold-antimony-production-at-hillgrove/、https://www.mining.com/copper-prices-bounce-as-us-runs-out-of-warehouse-space/、https://www.mining.com/web/vedantas-zambian-unit-resumes-copper-smelter-operations-after-maintenance/：均由同一反检测Playwright会话打开HTTP 200，逐篇核对标题、日期、主体和核心数字。",
+      "https://www.mining.com/silvercos-la-negra-posts-329m-value-over-21m-costs/：Playwright打开HTTP 200但显示Free Article Limit Reached；保留为未核验精简卡，不补写付费正文事实。",
+      "Mining.com其他报告日候选逐篇筛选：价格/利率、非金银铜矿种、赞助内容、窗口外文章、ESG/金融评论和没有直接供需传导的所有权变化均排除；没有使用sitemap、Wayback Machine或RSS。"
+    ],
+    "part3_result": "Part 3已完成2026-09-21北京时间全天英文和中文新闻检索。Mining.com三金属分类页主路径均成功，逐篇打开入选候选；纳入NICO许可、Mt Todd收购、澳洲黄金产量、Hillgrove首批精矿、LME铜库存结构、La Negra未核验PEA卡和Nchanga冶炼复产七条。",
+    "mining_com_source_note": "严格执行固定Python + Chromium headless Playwright反检测抓取Mining.com铜分类页主路径，并辅助抓取金、银分类页；报告日文章数为铜12、金15、银10。补充核验使用明确Chrome路径、Chrome 131 UA、viewport 1920x1080、locale en-US、webdriver=false、非空plugins和window.chrome；入选文章均记录逐篇核验路径。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 10,
+      "passed": 9,
+      "failed": 1,
+      "failures": [
+        {
+          "url": "https://www.mining.com/silvercos-la-negra-posts-329m-value-over-21m-costs/",
+          "reason": "HTTP 200但页面显示Free Article Limit Reached，正文核心数字和供给细节无法核对；仅保留标题/可见导语精简卡。"
+        }
+      ],
+      "notes": "2条Part 1、1条Part 2和7条Part 3入选来源均完成URL打开检查；La Negra为唯一未核验来源并在页面标注。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "https://x.com/RealRickRule/status/2102049198359339249：仅转发YouTube视频标题，未听取或核对新增实体供需事实。",
+      "https://x.com/RealRickRule/status/2102048935422709999：白银矿企表现标题和价格/投资观点，无可核验实体新增事实。",
+      "https://x.com/silverguru22/status/2101754158575734983：上海白银价差标题链接指向窗口外2026-09-10文章。",
+      "https://x.com/silverguru22/status/2101753994947563594：仅有太阳能和AI需求判断标题，无数字或可核验正文。",
+      "https://x.com/silverguru22/status/2101753555644485870：黄金价格与美国住房数据，属于价格/宏观评论。",
+      "https://x.com/duediligenceguy/status/2102025025700163765：Hormuz和石油供应评论，非金银铜信号。",
+      "https://x.com/duediligenceguy/status/2101715288223785421：黄金储藏观点，无新增实体供需事实。",
+      "https://x.com/TaviCosta/status/2101775764077056282：矿企资本市场泛评论。",
+      "https://x.com/RonStoeferle/status/2101729463830819159：Gold/Oktoberfest比率，无供需事实。",
+      "https://x.com/wmiddelkoop/status/2101994839457841563：泛化实物黄金配置口号。",
+      "https://x.com/LawrenceLepard/status/2101748938134929417：黄金/比特币观点，无新增实体事实。"
+    ],
+    "part3_deduped_events": [
+      "Gold falls、Gold miners ESG、Uganda出口收入和Gold tariff-proof为价格/宏观、ESG或缺少实物数量；后者原始文章日期为2026-09-18，超出Part 3窗口。",
+      "Greenland Mines、China rare earth和Trump potash为非金银铜矿种或泛关键矿产/化肥政策，没有可纳入的金银铜实体供需变化。",
+      "Hayasa、Volta、Everything moves和A2Gold为SPONSORED内容；A2Gold正文实际日期为2025-11-28，均未纳入。",
+      "Capstone出售Cozamin是所有权转移，现有生产预测未构成报告日新增供给变化；Mining.com文章中的Grasberg/Kamoa-Kakula约60万吨说法与最近日报铜供给事件重复，未重复展示。",
+      "Silverco La Negra正文受付费墙限制，未与其他来源拼接未经核验数字；仅保留标题/可见导语精简卡。"
+    ],
+    "notes": "先按三个窗口筛选，再与2026-09-18至09-20日报比较URL、项目、事件和核心数字；将资源量、项目指引、首批精矿、实际产量、冶炼能力和库存可得性分别标注，未把预测或许可直接写成当前产量。"
+  }
+}

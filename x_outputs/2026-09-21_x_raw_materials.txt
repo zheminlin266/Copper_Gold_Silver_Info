@@ -1,0 +1,149 @@
+X 原始候选 — 2026-09-21
+采集时间: 2026-09-22T07:27:55.690837+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 12 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-21T14:55:57+00:00
+    北京: 2026-09-21T22:55:57+08:00
+    文本: Empress Royalty CEO & President Alexandra Woodyer Sherron on Tongon Gold... 
+https://
+youtu.be/ef8XYEgFS30?si
+=NZh-SuJw5t6F3Y_5
+… via 
+@YouTube
+    链接: https://x.com/RealRickRule/status/2102049198359339249
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-09-21T14:54:55+00:00
+    北京: 2026-09-21T22:54:55+08:00
+    文本: Why SILVER Miners Are Set To Outperform - Major Returns Ahead: Rick Rule 
+https://
+youtu.be/FugTA8I49Rk?si
+=shnqkSSeRrSo-a9-
+… via 
+@YouTube
+ decent interview, clickbait title
+    链接: https://x.com/RealRickRule/status/2102048935422709999
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-20T19:23:34+00:00
+    北京: 2026-09-21T03:23:34+08:00
+    文本: Why silver costs $8 more in Shanghai 
+https://
+kitco.com/opinion/2026-0
+9-10/why-silver-costs-8-more-shanghai
+… via 
+@KitcoNewsNOW
+    链接: https://x.com/silverguru22/status/2101754158575734983
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-09-20T19:22:55+00:00
+    北京: 2026-09-21T03:22:55+08:00
+    文本: Silver demand under pressure: Solar use drops and AI thesis wobbles
+    链接: https://x.com/silverguru22/status/2101753994947563594
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-09-20T19:21:11+00:00
+    北京: 2026-09-21T03:21:11+08:00
+    文本: Gold price near high after U.S. housing starts fall 2.6%, building permits fall 2.7% in August 
+https://
+kitco.com/news/article/2
+026-09-17/gold-price-near-high-after-us-housing-starts-fall-26-building-permits-fall
+… via 
+@KitcoNewsNOW
+    链接: https://x.com/silverguru22/status/2101753555644485870
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-21T13:19:54+00:00
+    北京: 2026-09-21T21:19:54+08:00
+    文本: This is good news.
+
+Just keep in mind that it's going to take a long time to make Hormuz "irrelevant," repair infrastructure, replace shut-in production, etc.
+
+Ideally (for me), Mr. Market gets giddy about peace at some point, oil gets oversold, and I get a chance to Buy Low...
+    链接: https://x.com/duediligenceguy/status/2102025025700163765
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-20T16:49:07+00:00
+    北京: 2026-09-21T00:49:07+08:00
+    文本: Sorry, but I can't agree.
+
+The gold in the ground is not a sovereign reserve, but private property that would have to be confiscated (which would be suicidally disruptive).
+
+And gold mixed with rock in the ground is not at all the same thing as purified bullion in a vault.
+    链接: https://x.com/duediligenceguy/status/2101715288223785421
+
+[8] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-20T20:49:25+00:00
+    北京: 2026-09-21T04:49:25+08:00
+    文本: Remember when miners were relentless destroyers of capital?
+
+Constant dilution. Chronic losses. Mountains of debt.
+
+Today, we’re watching the exact opposite unfold.
+
+The mining industry has fundamentally changed.
+
+The market’s perception hasn’t.
+
+
+https://
+tavicosta.substack.com/p/two-defining
+-forces?r=2m39jp&utm_medium=ios
+…
+    链接: https://x.com/TaviCosta/status/2101775764077056282
+
+[9] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-20T17:45:27+00:00
+    北京: 2026-09-21T01:45:27+08:00
+    文本: ...well we are publishing the Gold/Oktoberfest-ratio for 15 years already... 
+
+
+https://
+ingoldwetrust.report/download/64597
+/?tmstv=1789603009
+…
+    链接: https://x.com/RonStoeferle/status/2101729463830819159
+
+[10] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-20T17:09:34+00:00
+    北京: 2026-09-21T01:09:34+08:00
+    文本: "Chinese custom figures for August is out. China imported 141.7 tons gold, 7.2 tons more than July. Still keeps quite high levels."
+
+ht 
+@BruceIkeGold
+    链接: https://x.com/RonStoeferle/status/2101720434123436279
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-21T11:19:57+00:00
+    北京: 2026-09-21T19:19:57+08:00
+    文本: From digital dollars to physical gold
+
+From paper to hard assets
+
+From west to east 
+
+The Big Reset is happening as we type …
+    链接: https://x.com/wmiddelkoop/status/2101994839457841563
+
+[12] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-20T19:02:50+00:00
+    北京: 2026-09-21T03:02:50+08:00
+    文本: No as long as you are not opposed to sound money. Buffett lost me when he called Gold a pet rock and Bitcoin “rat poison”.
+    链接: https://x.com/LawrenceLepard/status/2101748938134929417
+
