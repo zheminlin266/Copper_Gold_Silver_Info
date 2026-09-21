@@ -1,0 +1,103 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-20",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-856b37a88a9126fbb0e61889",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-20T15:50:05+00:00",
+      "text": "No bill of rights, so I dunno... but gold in the ground is not the same as liquid reserves in purified form.",
+      "url": "https://x.com/duediligenceguy/status/2101700433114746955",
+      "collector": "x_search",
+      "report_date": "2026-09-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-bec764839a630118e2b075c1",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-20T12:38:36+00:00",
+      "text": "Canada's official gold reserves...\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2101652244898717842",
+      "collector": "x_search",
+      "report_date": "2026-09-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-eaefb0a39fca16f6c5809dce",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-20T12:30:43+00:00",
+      "text": "Multiple metals, including gold.\n\nThe goal is to become a price setter...",
+      "url": "https://x.com/duediligenceguy/status/2101650261869556130",
+      "collector": "x_search",
+      "report_date": "2026-09-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1bfb6a5532c8c76c18d2f988",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-19T17:14:11+00:00",
+      "text": "The player defended the game. Gold is a pet rock. Bitcoin is rat poison.  Fuck him.",
+      "url": "https://x.com/LawrenceLepard/status/2101359208687927765",
+      "collector": "x_search",
+      "report_date": "2026-09-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a92cca0e08a51df0ee4eaaa6",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-19T17:13:00+00:00",
+      "text": "Yes but he also advocated against sound money, gold and Bitcoin which he called rat poison. (It is, he is the rat). He is too smart not to know the game is rigged in his favor.  Never did anything to change it.  Just lined his pockets and ran up the score.",
+      "url": "https://x.com/LawrenceLepard/status/2101358911483703682",
+      "collector": "x_search",
+      "report_date": "2026-09-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1a6c06bcf320f516b2ae2efa",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-20T12:34:17+00:00",
+      "text": "https://t.co/xv374JQMF8",
+      "url": "https://x.com/duediligenceguy/status/2101651158968213821",
+      "collector": "x_search",
+      "report_date": "2026-09-20",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 4: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 4: missing or empty tweet text"
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-20",
+  "report_time": "2026-09-21T09:58:41+08:00",
+  "summary": "黄金：Loulo-Gounkoto劳资中断风险使恢复中的供给承压，San Antonio钻探与许可推进扩充中期管线。白银：本窗口未形成可核验新增实体供需信号。铜：Balochistan安全风险可能拖慢Reko Diq等项目的运输与开发兑现。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-18T00:00:00+08:00",
+      "end": "2026-09-20T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-20T00:00:00+08:00",
+      "end": "2026-09-20T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-20T00:00:00+08:00",
+      "end": "2026-09-20T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://resourcetalks.com/copper-stocks/1m-ounces-of-heap-leach-gold-in-mexico-but-can-they-really-restart-it/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Axo以三台钻机推进全额融资的30,000米钻探计划。",
+          "evidence": "Resource Talks访谈正文直接说明钻机数量、钻探规模和融资状态。",
+          "source_url": "https://resourcetalks.com/copper-stocks/1m-ounces-of-heap-leach-gold-in-mexico-but-can-they-really-restart-it/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 exploration program",
+          "unit": "metres and drill rigs",
+          "value": "30,000 metres; 3 rigs"
+        },
+        {
+          "claim": "Luz del Cobre出现46.5米、1.44克/吨金的浅部截段，位于现有资源外约750米。",
+          "evidence": "访谈页面TL;DR直接列出截段、品位和相对现有资源的位置。",
+          "source_url": "https://resourcetalks.com/copper-stocks/1m-ounces-of-heap-leach-gold-in-mexico-but-can-they-really-restart-it/",
+          "evidence_type": "direct interview page text",
+          "period": "2026 drilling update",
+          "unit": "grams per tonne gold over metres",
+          "value": "46.5 m at 1.44 g/t Au"
+        },
+        {
+          "claim": "公司已取得主要环境许可，目标2028年生产，PEA目标调整至2027年初。",
+          "evidence": "访谈正文分别说明2026年7月取得MIA、生产目标和PEA时间表。",
+          "source_url": "https://resourcetalks.com/copper-stocks/1m-ounces-of-heap-leach-gold-in-mexico-but-can-they-really-restart-it/",
+          "evidence_type": "direct interview page text",
+          "period": "2026-2028 development schedule",
+          "unit": "date and milestone",
+          "value": "MIA received July 2026; production target 2028; PEA early 2027"
+        }
+      ],
+      "publish_date": "2026-09-19",
+      "title": "Axo Metals：San Antonio金矿钻探、许可与重启计划访谈",
+      "source_type": "podcast",
+      "summary": "Resource Talks采访Axo Metals CEO Jonathan Egilo：San Antonio项目以三台钻机推进全额融资的30,000米钻探，Luz del Cobre出现46.5米、1.44克/吨金的浅部矿化；公司已取得主要环境许可，目标2028年生产。",
+      "detail": "页面正文还称约85个孔已完成、约50个孔已发布，Sapuchi有18米、8克/吨金氧化矿截段；项目仍需年内取得change of use of soils许可，PEA已推迟至2027年初，2027年上半年建设和2028年生产属于管理层计划。",
+      "importance": "三台钻机和3万米全额融资钻探把San Antonio从历史生产项目的重启叙事推进到资源扩边与可行性验证阶段，46.5米、1.44克/吨金的浅部截段提供了新靶区锚点。2028年目标投产仍取决于年内土壤用途许可、明年初PEA和债务融资，新增矿化尚不能计入近期供给。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Jonathan Egilo",
+        "background": "Axo Metals CEO"
+      },
+      "companies": [
+        "Axo Metals"
+      ],
+      "projects": [
+        "San Antonio",
+        "Luz del Cobre",
+        "Sapuchi"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Balochistan在2026年1月至9月记录38起与采掘作业相关的袭击，过去三年超过130起。",
+          "evidence": "Mining.com正文明确归因于ACLED报告并列出期间和数量。",
+          "source_url": "https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/",
+          "evidence_type": "direct article text citing ACLED",
+          "period": "2026 January-September and prior three years",
+          "unit": "attacks",
+          "value": "38 in 2026 Jan-Sep; more than 130 over three years"
+        },
+        {
+          "claim": "近九成针对矿业项目的分离主义袭击发生在道路。",
+          "evidence": "文章直接说明ACLED对袭击地点的统计。",
+          "source_url": "https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/",
+          "evidence_type": "direct article text citing ACLED",
+          "period": "2026 security pattern",
+          "unit": "percent of attacks",
+          "value": "nearly 90% on roads"
+        },
+        {
+          "claim": "文章将Reko Diq铜矿和Saindak铜金矿列为受到保护的旗舰项目。",
+          "evidence": "文章正文直接点名两个项目及其安保背景。",
+          "source_url": "https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/",
+          "evidence_type": "direct article text",
+          "period": "2026 project security context",
+          "unit": "named projects",
+          "value": "Reko Diq and Saindak"
+        }
+      ],
+      "publish_time": "2026-09-20",
+      "source": "Mining.com（ACLED报道汇总）",
+      "title": "巴基斯坦Balochistan采矿袭击增加，铜金项目安全风险上升",
+      "excerpt": "Mining.com报道，巴基斯坦资源丰富的Balochistan省2026年1月至9月记录38起与采掘作业相关的袭击，过去三年总数超过130起；近九成针对矿业项目的分离主义袭击发生在道路，文章点名Reko Diq铜矿和Saindak铜金矿。",
+      "language": "en",
+      "interpretation": "这是项目执行和运输安全的供给风险，不是已发生的铜金停产。道路袭击会通过矿石、物资和人员运输中断影响项目连续性，并增加安保、社区关系和资本落地成本；文章引用ACLED数据，未给出Reko Diq或Saindak的实际停产吨数。",
+      "importance": "2026年前九个月38起采掘相关袭击、且近九成矿业项目袭击发生在道路，说明风险已具体传导到铜金项目的运输链，而不只是泛化的政治风险。Reko Diq等项目的中期供给兑现可能被安保、运输和社区关系拖慢，当前没有停产吨数，需跟踪项目运营和资本落地。",
+      "verification_status": "verified",
+      "companies": [
+        "Reko Diq project partners",
+        "Saindak Copper-Gold Mine"
+      ],
+      "projects": [
+        "Reko Diq",
+        "Saindak"
+      ],
+      "mining_com_source_note": "铜分类页Playwright主路径提取；文章链接以正文Playwright会话HTTP 200打开，核对2026-09-20日期、ACLED归因、38起事件、道路占比和点名项目。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/multiple-unions-threaten-strikes-at-barricks-flagship-mali-gold-mine-documents-show/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Loulo-Gounkoto多个工会通知可能自2026年9月28日开始罢工，SOMILO和GOUNKOTO工人计划罢工至10月1日。",
+          "evidence": "Reuters文章正文直接列出工会通知和日期。",
+          "source_url": "https://www.mining.com/web/multiple-unions-threaten-strikes-at-barricks-flagship-mali-gold-mine-documents-show/",
+          "evidence_type": "direct Reuters article text",
+          "period": "2026-09-28 to 2026-10-01",
+          "unit": "labour action window",
+          "value": "four-day strike notices"
+        },
+        {
+          "claim": "该综合体2026年上半年产金约190,000盎司，低于争议前水平。",
+          "evidence": "Reuters文章引用Barrick披露并明确比较基准。",
+          "source_url": "https://www.mining.com/web/multiple-unions-threaten-strikes-at-barricks-flagship-mali-gold-mine-documents-show/",
+          "evidence_type": "direct Reuters article text citing Barrick",
+          "period": "2026 H1",
+          "unit": "troy ounces of gold",
+          "value": "about 190,000 oz; below pre-dispute levels"
+        }
+      ],
+      "publish_time": "2026-09-20",
+      "source": "Mining.com（Reuters）",
+      "title": "Loulo-Gounkoto工会发出罢工通知，Barrick恢复中的马里金矿供给面临扰动",
+      "excerpt": "Reuters经Mining.com报道，Mali Loulo-Gounkoto金矿综合体多个工会发出罢工通知，若加班费、差旅报销和劳动协议问题未解决，SOMILO与GOUNKOTO工人拟于2026年9月28日至10月1日罢工；该综合体2026年上半年产金约190,000盎司，仍低于争议前水平。",
+      "language": "en",
+      "interpretation": "罢工威胁直接作用于仍在恢复的金矿运营，影响可能通过工人、餐饮支持和监管服务的中断减少短期可售产量或延缓爬坡。190,000盎司是上半年实际产量，不是全年指引；实际停产天数、谈判结果和Barrick后续生产披露决定影响规模。",
+      "importance": "Loulo-Gounkoto在上半年仅产约19万盎司且仍低于争议前水平，9月28日开始的四天罢工窗口可能把恢复中的供给再次打断。劳资协议和加班费争议若延续，影响先落在短期可售产量与爬坡节奏；后续复工、实际停产天数和Barrick生产披露是验证点。",
+      "verification_status": "verified",
+      "companies": [
+        "Barrick Mining"
+      ],
+      "projects": [
+        "Loulo-Gounkoto"
+      ],
+      "mining_com_source_note": "金分类页Playwright主路径提取；文章链接由同一反检测Playwright会话HTTP 200打开，核对Reuters署名、2026-09-20日期、罢工日期和上半年产量。",
+      "source_channel": "playwright"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Resource Talks 2026-09-18至09-20公开文章列表及Axo Metals页面：https://resourcetalks.com/copper-stocks/1m-ounces-of-heap-leach-gold-in-mexico-but-can-they-really-restart-it/；直接打开HTTP 200，核对标题、发布日期、嘉宾、正文事实和YouTube嵌入。",
+      "Mining Stock Daily /episodes 页面直接打开HTTP 200；页面最新合格节目为2026-09-17，未发现2026-09-18至09-20窗口内的可核验新访谈。",
+      "Mining Stock Education公开WordPress文章列表：核对2026-09-18至09-20候选，主要为公司新闻稿、融资和治理公告，未将其冒充访谈/播客纳入Part 1；2026-09-19 Scorpio Gold页面与2026-09-19日报重复。",
+      "The Northern Miner公开WordPress文章列表：核对窗口内页面，发现的是新闻文章而非访谈/回放；与Part 3候选交叉去重。",
+      "The Korelin Economics Report WordPress接口返回HTTP 403，未把不可访问结果当作零结果；会议日历中的Precious Metals Summit等窗口外或未提供窗口内可核验回放。"
+    ],
+    "part1_result": "Part 1完成2026-09-18至09-20北京时间三日访谈、播客、视频和会议回放检索；纳入Resource Talks对Axo Metals CEO的1条黄金供给管线访谈，其余候选为窗口外、重复、公司新闻稿、宏观评论或无法核验。",
+    "part2_searched": true,
+    "part2_sources_checked": [
+      "运行 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/daily_pipeline.py 2026-09-20 --collect-x；内部按Playwright -> twscrape调用当前scripts/x_search.py。",
+      "Playwright按注册表顺序处理53个账号，52个完成；@duediligenceguy一项文本提取失败后仅将未完成账号交给twscrape，最终53/53完成、0失败。",
+      "x_outputs/2026-09-20_x_raw_materials.txt及同名JSON sidecar：保留6条按日期原始候选和完整通道审计。"
+    ],
+    "part2_result": "Part 2完整：Playwright+twscrape完成53/53账号、0失败；6条原始候选均因缺少可归因的金银铜实体供需新增事实、纯观点或短链接不可核验而排除。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 4: missing or empty tweet text"
+      ],
+      "notes": [
+        "Playwright完成52个账号，twscrape完成剩余1个账号；未触发登录墙、challenge、CAPTCHA或账号耗尽安全停止。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/gold/：固定Python + Chromium Playwright主路径HTTP 200，报告日文章8篇；其中3篇为报告日正文候选，1篇为赞助内容，其他候选正文日期为9月18日或主题不符。",
+      "Mining.com /commodity/silver/：固定Python + Chromium Playwright主路径HTTP 200，报告日文章8篇；未发现报告日独立白银实体供需信号。",
+      "Mining.com /commodity/copper/：固定Python + Chromium Playwright主路径HTTP 200，报告日文章9篇；Pakistan安全风险和赞助候选出现于分类页，未使用Google site:搜索替代铜主路径。",
+      "Mining.com Pakistan文章：https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/；同一反检测Playwright会话HTTP 200，核对日期、ACLED归因、38起袭击、道路占比和Reko Diq/Saindak项目。",
+      "Mining.com Reuters/Barrick文章：https://www.mining.com/web/multiple-unions-threaten-strikes-at-barricks-flagship-mali-gold-mine-documents-show/；同一反检测Playwright会话HTTP 200，核对日期、罢工通知、Loulo-Gounkoto和约190,000盎司上半年产量。",
+      "Mining.com其他分类候选逐项处理：香港黄金市场为金融基础设施政策；加拿大许可、DOE清理和稀土股权实际日期为9月18日；Glencore/Radiant为铁矿融资；SPONSORED候选排除。",
+      "SMM公开搜索页按2026-09-20铜、黄金、白银和铜精矿关键词检查，搜索结果列表为空；未用搜索摘要或无法归属的内容写入日报。"
+    ],
+    "part3_result": "Part 3完成2026-09-20北京时间全天英文和中文新闻检索。Mining.com三金属分类页Playwright主路径全部成功，逐篇核对入选新闻；纳入Barrick Loulo-Gounkoto罢工风险和Pakistan铜金项目安全风险两条，白银无合格信号，其余因日期、主题、赞助或缺少实体供需路径排除。",
+    "mining_com_source_note": "严格执行固定Python + Chromium Playwright抓取Mining.com铜分类页主路径，并辅助抓取金、银分类页；金/银/铜文章数为8/8/9。入选文章均由同一反检测Playwright会话HTTP 200打开并核对正文；未使用sitemap、Wayback或RSS。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "failures": [],
+      "notes": "1条Part 1和2条Part 3入选来源均已直接打开并核对标题、日期、主体和核心数字；全部标记verified。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "https://x.com/duediligenceguy/status/2101700433114746955：抽象储量评论，无新增实体事实。",
+      "https://x.com/duediligenceguy/status/2101652244898717842：暗示性短句，无可核验事实。",
+      "https://x.com/duediligenceguy/status/2101650261869556130：价格定位泛评论。",
+      "https://x.com/LawrenceLepard/status/2101359208687927765：政治和比特币评论。",
+      "https://x.com/LawrenceLepard/status/2101358911483703682：货币和比特币观点。",
+      "https://x.com/duediligenceguy/status/2101651158968213821：只有短链接，正文事实不可核验。"
+    ],
+    "part3_deduped_events": [
+      "2026-09-18 Northern Miner的Aya白银、Aura黄金和DOE/加拿大许可文章均超出2026-09-20 Part 3窗口，未纳入；不把分类页上下文日期误当作发布日期。",
+      "Mining.com Hong Kong人民币黄金市场为金融基础设施政策，未形成可量化实体供需变化；Glencore/Radiant为铁矿融资争议。",
+      "Mining.com全部SPONSORED候选按来源属性和缺少独立核验排除。",
+      "Part 1 Scorpio Gold 2026-09-19访谈已在前一日报纳入，本次按URL和实质内容去重。"
+    ],
+    "notes": "先按2026-09-18至09-20 Part 1和2026-09-20 Part 3窗口筛选，再与最近三份日报比较URL、项目、事件和核心数字；将矿化、许可、安保和罢工风险与实际产量明确区分。"
+  }
+}
