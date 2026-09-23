@@ -1,0 +1,668 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-22",
+  "report_time": "2026-09-23T11:29:23+08:00",
+  "summary": "黄金：勘探、许可和可研扩张增强中长期供给，但Syama指引下调形成短期减供压力。白银：Panuco推进，供给仍处建设前期。铜：Minto重启和物流/政策改善支持中长期供给，Escondida劳资谈判构成短期风险。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-20T00:00:00+08:00",
+      "end": "2026-09-22T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-22T00:00:00+08:00",
+      "end": "2026-09-22T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-22T00:00:00+08:00",
+      "end": "2026-09-22T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/22/vizsla-silver-panuco-project-update-site-access-the-path-and-timeline-to-production/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "管理层目标在2026年末恢复Panuco现场活动，并已推进M3 EPCM和FLSmidth设备合作。",
+          "evidence": "KER原始访谈页直接记录管理层对现场、工程和设备路径的表述。",
+          "source_url": "https://www.kereport.com/2026/09/22/vizsla-silver-panuco-project-update-site-access-the-path-and-timeline-to-production/",
+          "evidence_type": "direct interview page",
+          "period": "2026 project update",
+          "unit": "milestones",
+          "value": "late-2026 site activity; M3 EPCM; FLSmidth cooperation"
+        },
+        {
+          "claim": "Panuco已知矿脉中不足5%完成钻探，现金储备超过4亿美元。",
+          "evidence": "KER访谈页直接列出勘探覆盖和现金储备口径。",
+          "source_url": "https://www.kereport.com/2026/09/22/vizsla-silver-panuco-project-update-site-access-the-path-and-timeline-to-production/",
+          "evidence_type": "direct interview page",
+          "period": "2026 company update",
+          "unit": "percent and USD",
+          "value": "less than 5% drilled; more than US$400m cash"
+        }
+      ],
+      "publish_date": "2026-09-22",
+      "title": "Vizsla Silver：Panuco现场通行、工程与投产路径更新",
+      "source_type": "podcast",
+      "summary": "Vizsla Silver CEO称Panuco目标在2026年末恢复现场活动，EPCM和设备合作已推进，项目仍处建设前期。",
+      "detail": "不足5%的已知矿脉完成钻探，说明资源验证空间仍大；超过4亿美元现金是管理层对建设能力的支持口径，不等于已获得完整建设许可或已形成产量。",
+      "importance": "Panuco在2026年末恢复现场活动的时间点，使白银供给管线从停滞转向准备阶段。不足5%的钻探覆盖意味着中长期资源扩张空间仍大，但短期供应不会因现场重启目标立即增加，后续要看许可、EPCM落地和设备交付。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Mike Konnert",
+        "background": "Vizsla Silver President and CEO"
+      },
+      "companies": [
+        "Vizsla Silver"
+      ],
+      "projects": [
+        "Panuco",
+        "Copala"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/22/summit-royalties-comprehensive-update-on-4-producing-and-3-key-development-assets/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Summit拥有48项royalties/streams，其中4项正在生产。",
+          "evidence": "KER原始访谈页直接列出组合规模和生产资产数量。",
+          "source_url": "https://www.kereport.com/2026/09/22/summit-royalties-comprehensive-update-on-4-producing-and-3-key-development-assets/",
+          "evidence_type": "direct interview page",
+          "period": "2026 company update",
+          "unit": "assets",
+          "value": "48 total; 4 producing"
+        },
+        {
+          "claim": "Copperstone目标2027年中首产，对应约46,000盎司/年金流；Pitangui目标2027年首产。",
+          "evidence": "KER访谈页列出项目目标和管理层/项目估计。",
+          "source_url": "https://www.kereport.com/2026/09/22/summit-royalties-comprehensive-update-on-4-producing-and-3-key-development-assets/",
+          "evidence_type": "direct interview page",
+          "period": "2027 development targets",
+          "unit": "gold ounces per year and dates",
+          "value": "approximately 46,000 oz/year; mid-2027; 2027"
+        }
+      ],
+      "publish_date": "2026-09-22",
+      "title": "Summit Royalties：4项生产资产与3项开发资产更新",
+      "source_type": "podcast",
+      "summary": "Summit Royalties披露4项生产资产和3项关键开发资产，Copperstone与Pitangui的2027年投产目标扩充黄金供给管线。",
+      "detail": "46,000盎司/年是金流对应的项目估计，不是Summit已实现产量；组合中生产资产与开发资产需区分。",
+      "importance": "Copperstone约46,000盎司/年的金流目标把2027年中期的潜在增供规模具体化，Pitangui同年首产目标则增加第二个时间锚点。短期仍取决于矿山运营和项目建设，不能把管理层目标提前计入现货供应。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Summit Royalties CEO",
+        "background": "Summit Royalties management"
+      },
+      "companies": [
+        "Summit Royalties"
+      ],
+      "projects": [
+        "Copperstone",
+        "Pitangui",
+        "Madsen",
+        "Bomboré",
+        "Zancudo",
+        "AurMac"
+      ]
+    },
+    {
+      "url": "https://resourcetalks.com/copper-stocks/copper-sulphides-in-8-drill-holes-but-is-there-a-real-discovery/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Central项目首阶段计划钻探10,000米，已完成14个孔，其中8个孔出现可见铜硫化物。",
+          "evidence": "Resource Talks原始访谈页正文直接记录钻探计划、孔数和矿化观察。",
+          "source_url": "https://resourcetalks.com/copper-stocks/copper-sulphides-in-8-drill-holes-but-is-there-a-real-discovery/",
+          "evidence_type": "direct interview page",
+          "period": "2026 exploration update",
+          "unit": "metres and drill holes",
+          "value": "10,000 m; 14 holes completed; 8 with visible copper sulphides"
+        },
+        {
+          "claim": "公司现金超过800万美元，钻探预算约460万美元，首批化验结果尚未公布。",
+          "evidence": "Resource Talks正文列出现金、预算和化验状态。",
+          "source_url": "https://resourcetalks.com/copper-stocks/copper-sulphides-in-8-drill-holes-but-is-there-a-real-discovery/",
+          "evidence_type": "direct interview page",
+          "period": "2026 exploration program",
+          "unit": "USD and assay status",
+          "value": "more than US$8m cash; approximately US$4.6m budget; assays pending"
+        }
+      ],
+      "publish_date": "2026-09-22",
+      "title": "Leviathan Metals：Central项目8个钻孔出现铜硫化物",
+      "source_type": "podcast",
+      "summary": "Leviathan Metals Central项目已完成14个孔，8个孔出现可见铜硫化物，首阶段计划10,000米钻探。",
+      "detail": "公司现金和预算支持后续钻探，但尚无品位、真实厚度或经济截段，不能把可见硫化物当作新增铜产量。",
+      "importance": "8个矿化孔把Central从单一靶区推进到待化验的连续验证阶段，10,000米计划提供了未来资源发现的明确工作量。短中期影响仍是勘探概率而非精矿供给，首批化验结果是决定信号强度的下一节点。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Leviathan Metals management",
+        "background": "Leviathan Metals company interview"
+      },
+      "companies": [
+        "Leviathan Metals"
+      ],
+      "projects": [
+        "Central Project",
+        "Kalahari Copper Belt"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/22/sitka-gold-high-grade-gold-results-at-blackjack-saddle-eiger-rc-gold-project-yukon/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "2026年RC Gold钻探计划为60,000米，现场有7台钻机。",
+          "evidence": "KER原始公司更新页直接列出年度计划和现场设备数量。",
+          "source_url": "https://www.kereport.com/2026/09/22/sitka-gold-high-grade-gold-results-at-blackjack-saddle-eiger-rc-gold-project-yukon/",
+          "evidence_type": "direct interview page",
+          "period": "2026 exploration program",
+          "unit": "metres and rigs",
+          "value": "60,000 m; 7 rigs"
+        },
+        {
+          "claim": "Saddle步进钻探沿走向扩展约550米，Blackjack与Eiger矿化体可能连接。",
+          "evidence": "KER页面直接描述步进钻探和矿化带连接假设。",
+          "source_url": "https://www.kereport.com/2026/09/22/sitka-gold-high-grade-gold-results-at-blackjack-saddle-eiger-rc-gold-project-yukon/",
+          "evidence_type": "direct interview page",
+          "period": "2026 exploration update",
+          "unit": "metres and geological interpretation",
+          "value": "approximately 550 m; possible connection"
+        }
+      ],
+      "publish_date": "2026-09-22",
+      "title": "Sitka Gold：RC Gold项目Blackjack、Saddle与Eiger钻探更新",
+      "source_type": "podcast",
+      "summary": "Sitka Gold在RC Gold部署7台钻机推进6万米年度计划，Saddle步进钻探扩展约550米。",
+      "detail": "这些是勘探与资源扩张进度，不是近期黄金产量；Blackjack与Eiger的连接仍是地质解释，需要后续钻孔和资源更新验证。",
+      "importance": "6万米计划和7台钻机显示RC Gold进入高强度资源验证阶段，550米步进范围为潜在矿化连续性提供了中期扩张方向。但在资源量、可研和许可完成前，影响仍限于未来黄金供给管线。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Sitka Gold management",
+        "background": "Sitka Gold company update"
+      },
+      "companies": [
+        "Sitka Gold"
+      ],
+      "projects": [
+        "RC Gold",
+        "Blackjack",
+        "Saddle",
+        "Eiger"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/wmiddelkoop/status/2102424570644869313",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Willem Middelkoop原帖称，Vault Zone最新钻探结果出现46米、55% CuEq的区间。",
+          "evidence": "X原作者帖子正文直接给出钻探长度和铜当量品位，并明确指向Vault Zone。",
+          "source_url": "https://x.com/wmiddelkoop/status/2102424570644869313",
+          "evidence_type": "original_x_post",
+          "period": "2026-09-22 X post",
+          "unit": "metres and percent CuEq",
+          "value": "46 m at 55% CuEq"
+        }
+      ],
+      "publish_time": "2026-09-22T23:47:33+08:00",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "excerpt": "Willem Middelkoop原帖称，Vault Zone最新钻探结果出现46米、55% CuEq的区间，并称该镍系统规模和品位突出。",
+      "interpretation": "这是原作者转述的勘探结果，提供铜当量矿化的供给管线线索，但帖子未给出完整钻孔表、真实厚度、回收率或资源量；CuEq也不等同于已实现铜产量。",
+      "importance": "46米、55% CuEq是本窗口X材料中唯一具备明确实体勘探数字的铜供给线索，短中期影响在于提高后续资源验证的优先级，而非立即改变精矿供应。下一步需核对公司公告、孔号、真实厚度和实验室结果，避免把铜当量区间外推成可采储量。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.militarymetalscorp.com/military-metals-receives-mineral-exploration-grant-from-government-of-nova-scotia/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Nova Scotia政府提供C$100,000矿产勘探补助，West Gore计划实施7个钻孔、合计1,750米。",
+          "evidence": "Military Metals官方公告列出补助金额、钻孔数量和计划进尺。",
+          "source_url": "https://www.militarymetalscorp.com/military-metals-receives-mineral-exploration-grant-from-government-of-nova-scotia/",
+          "evidence_type": "direct official release",
+          "period": "2026 exploration program",
+          "unit": "CAD and metres",
+          "value": "C$100,000; 7 holes; 1,750 m"
+        },
+        {
+          "claim": "West Gore历史数据包括7,149盎司黄金和7,761吨46%锑精矿。",
+          "evidence": "Military Metals官方公告列出历史生产口径。",
+          "source_url": "https://www.militarymetalscorp.com/military-metals-receives-mineral-exploration-grant-from-government-of-nova-scotia/",
+          "evidence_type": "direct official release",
+          "period": "historical production",
+          "unit": "gold ounces and tonnes at grade",
+          "value": "7,149 oz gold; 7,761 tonnes at 46% antimony"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "Military Metals official release",
+      "title": "Military Metals获Nova Scotia政府West Gore锑金项目勘探补助",
+      "excerpt": "Military Metals公告称，Nova Scotia政府提供C$100,000矿产勘探补助，West Gore计划实施7个钻孔、合计1,750米；历史数据包括7,149盎司黄金和7,761吨46%锑精矿。",
+      "language": "en",
+      "interpretation": "补助和钻探计划是勘探推进事实，但尚未形成新资源量或经济性结论；历史产量不是现行储量，也不代表当前供应。",
+      "importance": "C$100,000补助把West Gore从历史矿区叙事推进到可执行的1,750米钻探阶段，短期不会增加黄金或锑供应，中期价值在于验证历史矿化是否具有可开发连续性。后续应跟踪钻孔结果和资源估算。",
+      "verification_status": "verified",
+      "companies": [
+        "Military Metals"
+      ],
+      "projects": [
+        "West Gore Antimony-Gold Project"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright发现；Mining.com正文受限时以Military Metals官方公告核对补助、钻孔计划和历史数据。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.investegate.co.uk/announcement/rns/meridian-mining-plc--mno/meridian-s-dfs-delivers-npv5-usd-2-09b-108-irr/9783230",
+      "metal_tags": [
+        "gold",
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Cabaçal DFS税后NPV5为20.92亿美元、IRR 107.6%，初始资本开支3.22亿美元。",
+          "evidence": "Meridian RNS/Investegate公告列出DFS经济性和资本开支。",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/meridian-mining-plc--mno/meridian-s-dfs-delivers-npv5-usd-2-09b-108-irr/9783230",
+          "evidence_type": "direct RNS release",
+          "period": "2026 Cabaçal DFS",
+          "unit": "USD and percent",
+          "value": "US$2.092bn NPV5; 107.6% IRR; US$322m capex"
+        },
+        {
+          "claim": "矿山寿命约13.9年，前5年平均约183,526盎司AuEq/年。",
+          "evidence": "Meridian RNS/Investegate公告列出矿山寿命和前五年生产口径。",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/meridian-mining-plc--mno/meridian-s-dfs-delivers-npv5-usd-2-09b-108-irr/9783230",
+          "evidence_type": "direct RNS release",
+          "period": "DFS mine plan",
+          "unit": "years and gold-equivalent ounces per year",
+          "value": "13.9 years; 183,526 oz AuEq/year"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "Meridian Mining / RNS (Investegate)",
+      "title": "Meridian Cabaçal DFS：NPV5达20.92亿美元、IRR 107.6%",
+      "excerpt": "Meridian RNS披露Cabaçal DFS税后NPV5为20.92亿美元、IRR 107.6%，初始资本开支3.22亿美元，矿山寿命约13.9年，前5年平均约183,526盎司AuEq/年。",
+      "language": "en",
+      "interpretation": "这是DFS经济性估算和潜在项目供给，不是已实现产量；数字对金属价格高度敏感，许可、融资和建设仍是投产前置条件。",
+      "importance": "20.92亿美元NPV5和约13.9年矿山寿命把Cabaçal从勘探资产推进到可比较的开发供给管线，但3.22亿美元初始资本和价格敏感性意味着实际增供仍取决于融资、许可与建设执行。前5年约18.35万盎司AuEq/年的规模锚点值得纳入中长期供给跟踪。",
+      "verification_status": "verified",
+      "companies": [
+        "Meridian Mining"
+      ],
+      "projects": [
+        "Cabaçal",
+        "Mato Grosso"
+      ],
+      "mining_com_source_note": "Mining.com金/铜分类页Playwright发现；以Meridian RNS/Investegate公告核对DFS的NPV、IRR、资本开支和生产口径。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.i80gold.com/i-80-gold-announces-positive-feasibility-study-and-initial-mineral-reserves-for-granite-creek-underground-after-tax-npv5-of-118-million-at-2750-oz-au-increasing-to-598-million-at-4500-oz-au/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Granite Creek M&I资源为373万吨、7.17g/t Au、859,500盎司，较2025年PEA增加229%。",
+          "evidence": "i-80 Gold官方公告列出资源量、品位、盎司和同比口径。",
+          "source_url": "https://www.i80gold.com/i-80-gold-announces-positive-feasibility-study-and-initial-mineral-reserves-for-granite-creek-underground-after-tax-npv5-of-118-million-at-2750-oz-au-increasing-to-598-million-at-4500-oz-au/",
+          "evidence_type": "direct official release",
+          "period": "2026 Granite Creek feasibility study",
+          "unit": "tonnes, g/t, ounces, percent",
+          "value": "3.73 Mt at 7.17 g/t; 859,500 oz; +229%"
+        },
+        {
+          "claim": "P&P储量为220万吨、7.87g/t、556,500盎司，生命周期AISC约2,273美元/盎司。",
+          "evidence": "i-80 Gold官方公告列出储量和生命周期成本。",
+          "source_url": "https://www.i80gold.com/i-80-gold-announces-positive-feasibility-study-and-initial-mineral-reserves-for-granite-creek-underground-after-tax-npv5-of-118-million-at-2750-oz-au-increasing-to-598-million-at-4500-oz-au/",
+          "evidence_type": "direct official release",
+          "period": "2026 Granite Creek feasibility study",
+          "unit": "tonnes, g/t, ounces, USD/oz",
+          "value": "2.20 Mt at 7.87 g/t; 556,500 oz; US$2,273/oz AISC"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "i-80 Gold official release",
+      "title": "i-80 Gold Granite Creek资源量扩大但成本上升",
+      "excerpt": "i-80 Gold公告披露Granite Creek M&I资源为373万吨、7.17g/t Au、859,500盎司，较2025年PEA增加229%；P&P储量为220万吨、7.87g/t、556,500盎司，生命周期AISC约2,273美元/盎司。",
+      "language": "en",
+      "interpretation": "资源扩张和正面可研支持项目推进，但资源不等于储量；AISC、加工设施投产和后续资本投入仍可能限制实际供给。",
+      "importance": "M&I资源较2025年PEA增加229%，把Granite Creek的可开发黄金管线显著做大，但生命周期AISC约2,273美元/盎司压缩了价格下行缓冲。后续应同时跟踪储量转换、加工设施和资本执行，不能只按资源增幅外推产量。",
+      "verification_status": "verified",
+      "companies": [
+        "i-80 Gold"
+      ],
+      "projects": [
+        "Granite Creek Underground",
+        "Nevada"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright发现；以i-80 Gold官方公告核对资源、储量、NPV和AISC数字。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://selkirkcopper.com/selkirk-copper-announces-positive-pea-for-the-minto-project-delivering-after-tax-npv-of-c494m-with-48-irr/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Minto PEA税后NPV7为4.94亿加元、IRR 47.8%，初始资本1.86亿加元。",
+          "evidence": "Selkirk Copper官方公告列出PEA经济性和资本开支。",
+          "source_url": "https://selkirkcopper.com/selkirk-copper-announces-positive-pea-for-the-minto-project-delivering-after-tax-npv-of-c494m-with-48-irr/",
+          "evidence_type": "direct official release",
+          "period": "2026 Minto PEA",
+          "unit": "CAD and percent",
+          "value": "C$494m NPV7; 47.8% IRR; C$186m capex"
+        },
+        {
+          "claim": "初始矿山寿命13年，目标2028年下半年产出首批精矿。",
+          "evidence": "Selkirk Copper官方公告列出矿山寿命和首产目标。",
+          "source_url": "https://selkirkcopper.com/selkirk-copper-announces-positive-pea-for-the-minto-project-delivering-after-tax-npv-of-c494m-with-48-irr/",
+          "evidence_type": "direct official release",
+          "period": "Minto restart plan",
+          "unit": "years and date",
+          "value": "13 years; first concentrate target H2 2028"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "Selkirk Copper official release",
+      "title": "Selkirk Copper Minto重启PEA：税后NPV 4.94亿加元",
+      "excerpt": "Selkirk Copper公告披露Minto PEA税后NPV7为4.94亿加元、IRR 47.8%，初始资本1.86亿加元，初始矿山寿命13年，目标2028年下半年产出首批精矿。",
+      "language": "en",
+      "interpretation": "既有基础设施有利于重启资本效率，但PEA包含推断资源，脱水、修复、许可和重启执行尚未完成；2028年目标不是已锁定产量。",
+      "importance": "4.94亿加元NPV和2028年下半年首批精矿目标使Minto重启成为明确的中期铜供给候选，1.86亿加元初始资本相对较低有利于推进。但PEA和推断资源带来的执行风险要求继续跟踪许可、脱水和施工里程碑。",
+      "verification_status": "verified",
+      "companies": [
+        "Selkirk Copper"
+      ],
+      "projects": [
+        "Minto",
+        "Yukon"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright发现；以Selkirk Copper官方PEA公告核对NPV、IRR、资本开支、矿山寿命和首产目标。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.investegate.co.uk/announcement/rns/resolute-mining-limited-npv-di---rsg/syama-operational-update-/9780678",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Syama 2026年产量指引从195,000—210,000盎司下调至150,000—160,000盎司。",
+          "evidence": "Resolute RNS/Investegate公告列出原指引和下调后指引。",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/resolute-mining-limited-npv-di---rsg/syama-operational-update-/9780678",
+          "evidence_type": "direct RNS release",
+          "period": "2026 production guidance",
+          "unit": "gold ounces",
+          "value": "150,000-160,000 oz revised from 195,000-210,000 oz"
+        },
+        {
+          "claim": "AISC升至2,300—2,400美元/盎司，集团指引降至205,000—225,000盎司。",
+          "evidence": "Resolute RNS/Investegate公告列出AISC和集团指引。",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/resolute-mining-limited-npv-di---rsg/syama-operational-update-/9780678",
+          "evidence_type": "direct RNS release",
+          "period": "2026 production guidance",
+          "unit": "USD/oz and gold ounces",
+          "value": "US$2,300-2,400/oz AISC; 205,000-225,000 oz group guidance"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "Resolute Mining / RNS (Investegate)",
+      "title": "Resolute下调马里Syama金矿2026年产量指引",
+      "excerpt": "Resolute公告将Syama 2026年产量指引从195,000—210,000盎司下调至150,000—160,000盎司，AISC从1,950—2,150美元/盎司升至2,300—2,400美元/盎司；集团指引降至205,000—225,000盎司。",
+      "language": "en",
+      "interpretation": "供应、炸药、采矿承包商和A21矿区延迟已进入公司运营口径，属于明确的产量下修而非市场猜测；公司Q4恢复目标仍取决于9月运营改善能否持续。",
+      "importance": "Syama指引中点约减少47,500盎司、同时AISC上调约350美元/盎司，说明马里运营和供应链问题已从风险转化为可量化的短期减供与成本压力。Q4约45—50koz的恢复目标仍需用实际出矿和承包商恢复验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Resolute Mining"
+      ],
+      "projects": [
+        "Syama",
+        "Mali"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright发现；以Resolute RNS/Investegate及Mining Weekly交叉核对指引、AISC和运营限制。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://ca.marketscreener.com/news/bhp-s-escondida-mine-supervisors-say-collective-contract-deal-far-off-ce785ad9d989fe23",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Escondida主管工会称谈判相距甚远，现合同9月30日到期。",
+          "evidence": "Reuters转载报道列出谈判状态和合同到期日。",
+          "source_url": "https://ca.marketscreener.com/news/bhp-s-escondida-mine-supervisors-say-collective-contract-deal-far-off-ce785ad9d989fe23",
+          "evidence_type": "Reuters article via Marketscreener",
+          "period": "2026 labor negotiation",
+          "unit": "date and status",
+          "value": "contract expires September 30; talks far apart"
+        },
+        {
+          "claim": "若拒绝最终报价，将进入至少5天强制调解，并可能再延长5天。",
+          "evidence": "Reuters转载报道列出智利劳资调解流程。",
+          "source_url": "https://ca.marketscreener.com/news/bhp-s-escondida-mine-supervisors-say-collective-contract-deal-far-off-ce785ad9d989fe23",
+          "evidence_type": "Reuters article via Marketscreener",
+          "period": "2026 labor negotiation",
+          "unit": "days",
+          "value": "at least 5 days mediation; possible 5-day extension"
+        }
+      ],
+      "publish_time": "2026-09-22T13:32:00+00:00",
+      "source": "Reuters（Marketscreener转载）",
+      "title": "BHP Escondida主管工会称集体合同谈判仍相距甚远",
+      "excerpt": "Reuters报道称Escondida主管工会称谈判相距甚远，现合同9月30日到期；若拒绝最终报价，将进入至少5天强制调解，并可能再延长5天。",
+      "language": "en",
+      "interpretation": "这是谈判风险，不是已经罢工或减产；Escondida的运营稳定性取决于最终报价、调解和工会是否接受合同安排。",
+      "importance": "9月30日合同到期把Escondida劳资风险压缩到一周级别，至少5天强制调解意味着短期供应不确定性可能在月底集中释放。目前没有减产事实，后续应跟踪最终报价、调解结果和现场出勤。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP"
+      ],
+      "projects": [
+        "Escondida",
+        "Chile"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright发现；以Reuters Marketscreener转载及智利行业媒体核对合同到期日、调解机制和争议内容。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.kitco.com/news/off-the-wire/2026-09-22/zimbabwe-secures-funds-key-commodity-gateway-upgrade",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "津巴布韦与Chirundu Border Consortium达成融资协议，口岸连接Zambia-DRC Copperbelt与南部非洲港口。",
+          "evidence": "Reuters/Kitco转载报道列出融资协议和物流通道。",
+          "source_url": "https://www.kitco.com/news/off-the-wire/2026-09-22/zimbabwe-secures-funds-key-commodity-gateway-upgrade",
+          "evidence_type": "Reuters article via Kitco",
+          "period": "2026 logistics project",
+          "unit": "project and corridor",
+          "value": "Chirundu financing agreement; Zambia-DRC Copperbelt to southern African ports"
+        },
+        {
+          "claim": "该口岸运输铜、钴、燃料和矿山设备，政府此前估算项目成本约6,680万美元。",
+          "evidence": "Reuters/Kitco转载报道列出运输品类和成本估算。",
+          "source_url": "https://www.kitco.com/news/off-the-wire/2026-09-22/zimbabwe-secures-funds-key-commodity-gateway-upgrade",
+          "evidence_type": "Reuters article via Kitco",
+          "period": "2026 logistics project",
+          "unit": "commodities and USD",
+          "value": "copper, cobalt, fuel and equipment; approximately US$66.8m"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "Reuters（Kitco转载）",
+      "title": "津巴布韦为Chirundu铜矿物流通道升级融资",
+      "excerpt": "Reuters报道称津巴布韦与Chirundu Border Consortium达成融资协议；该口岸连接Zambia-DRC Copperbelt与南部非洲港口，运输铜、钴、燃料和矿山设备，政府此前估算项目成本约6,680万美元。",
+      "language": "en",
+      "interpretation": "边境口岸改善的传导路径是减少矿产品和设备运输延误，不是立即增加铜矿产量；最终投资额、施工进度和通行能力仍需跟踪。",
+      "importance": "约6,680万美元的通道升级把Copperbelt供给约束落到可执行的物流项目，若按计划改善口岸，2027年前后的有效供给可能更多受运输瓶颈而非矿山能力约束。但融资落地尚不等于工程完工，短期铜产量不应提前上调。",
+      "verification_status": "verified",
+      "companies": [
+        "Zimbabwe government",
+        "Chirundu Border Consortium"
+      ],
+      "projects": [
+        "Chirundu Border Upgrade"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright发现；以Reuters/Kitco转载核对融资协议、Copperbelt物流路径和项目成本口径。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://in.marketscreener.com/news/congo-plans-centralised-mining-investment-agency-under-us-deal-sources-say-ce785ad8dc8bff21",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "刚果民主共和国拟集中处理公司注册、许可、税务和合规，初期可能覆盖超过10亿美元的合资项目。",
+          "evidence": "Reuters转载报道列出拟议机构职能和项目规模。",
+          "source_url": "https://in.marketscreener.com/news/congo-plans-centralised-mining-investment-agency-under-us-deal-sources-say-ce785ad8dc8bff21",
+          "evidence_type": "Reuters article via Marketscreener",
+          "period": "2026 proposed policy",
+          "unit": "USD and functions",
+          "value": "more than US$1bn; registration, licensing, tax and compliance"
+        },
+        {
+          "claim": "拟议机构包括Sicomines等项目，计划在2026年晚些时候运行，但立法仍待颁布。",
+          "evidence": "Reuters转载报道列出项目范围、时间计划和政策状态。",
+          "source_url": "https://in.marketscreener.com/news/congo-plans-centralised-mining-investment-agency-under-us-deal-sources-say-ce785ad8dc8bff21",
+          "evidence_type": "Reuters article via Marketscreener",
+          "period": "2026 proposed policy",
+          "unit": "projects and date",
+          "value": "Sicomines; late-2026 target; legislation pending"
+        }
+      ],
+      "publish_time": "2026-09-22",
+      "source": "Reuters（Marketscreener转载）",
+      "title": "刚果民主共和国拟设集中式矿业投资机构",
+      "excerpt": "Reuters报道称刚果民主共和国拟集中处理公司注册、许可、税务和合规，初期可能覆盖超过10亿美元的合资项目，包括Sicomines，计划在2026年晚些时候运行。",
+      "language": "en",
+      "interpretation": "集中审批可能降低大型铜钴项目的行政摩擦并吸引资本，但信息来自匿名政府官员、外交人士和分析师，法律尚未颁布，不能当作已生效政策。",
+      "importance": "超过10亿美元合资项目的集中审批设想，可能改善刚果铜钴项目从协议到许可的转化效率，影响偏中长期。由于立法和执行机构尚未落地，当前更适合作为政策供给催化剂而非已确认的产能增加。",
+      "verification_status": "verified",
+      "companies": [
+        "DRC mining investment system"
+      ],
+      "projects": [
+        "Sicomines and other copper-cobalt joint ventures"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright发现；以Reuters Marketscreener转载核对拟议机构职能、项目规模和2026年运行计划，并保留匿名来源限制。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "2026-09-20至2026-09-22北京时间窗口内检索KER、Resource Talks、Mining Stock Daily、公司更新和会议/回放页面；原始节目页逐条核对标题、日期和主体。",
+      "Part 1找到5条候选；Meridian Cabaçal与Part 3同一DFS事件去重，保留4条访谈/公司更新。",
+      "已与data/2026-09-20.json和data/2026-09-21.json按URL、项目和核心事件去重。"
+    ],
+    "part1_result": "Part 1完整：5条候选均在窗口内并完成原始页面核验；Meridian Cabaçal与Part 3直接DFS来源重复，去重后纳入Vizsla、Summit、Leviathan和Sitka 4条。",
+    "part2_searched": true,
+    "part2_sources_checked": [
+      "scripts/daily_pipeline.py 2026-09-22 --collect-x成功完成；有效运行ID为2026-09-22-20260923T025328608632Z-33248。",
+      "Playwright先串行处理53个账号；@duediligenceguy 1条文本提取失败后，仅将该未完成账号交给twscrape；最终53/53、0失败、9条原始候选。",
+      "原始材料和sidecar分别保存至x_outputs/2026-09-22_x_raw_materials.txt及同名JSON。"
+    ],
+    "part2_result": "Part 2完整：Playwright+twscrape完成53/53，9条原始候选；仅纳入Willem Middelkoop关于Vault Zone 46米、55% CuEq钻探结果的1条原帖，其余8条排除。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "Playwright @duediligenceguy：1个帖子文本提取失败，随后由twscrape完成该账号。"
+      ],
+      "notes": []
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com金分类页Playwright成功，报告日17篇候选；银分类页成功，11篇候选；铜分类页成功，15篇候选；跨分类URL规范化后20条候选。",
+      "8条入选Mining.com候选均逐条打开或通过同一Playwright发现后，使用官方公告、RNS、Reuters/Kitco或Reuters转载核对标题、日期、主体和核心数字。",
+      "入选路径：Military Metals官方公告、Meridian RNS、i-80 Gold官方公告、Selkirk Copper官方公告、Resolute RNS、Reuters/Marketscreener、Reuters/Kitco。",
+      "关键排除：纯股票观点、纯价格/库存评论、镍/锂/钾盐、铁矿金融诉讼、旧日期和缺少明确供需路径的安全评论。"
+    ],
+    "part3_result": "Part 3完整：从20条规范化Mining.com候选中纳入8条金银铜实体供需信号，覆盖勘探/开发增供、Syama短期减供、Escondida劳资风险及铜矿物流/政策供给催化剂。",
+    "mining_com_source_note": "使用固定Python + Chromium Playwright抓取Mining.com金、银、铜分类页；修复Windows GBK stdout后，三页均成功完成DOM提取。文章正文受限的条目均记录官方或可靠转载交叉核验路径。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 13,
+      "passed": 13,
+      "failed": 0,
+      "failures": [],
+      "notes": "4条Part 1、1条Part 2和8条Part 3入选来源均已核验；Part 3优先保留官方公告或Reuters归因来源。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.miningstockdaily.com/episodes/morning-briefing-elemental-royalty-announces-us290-million-acquisition-of-royalty-and-streaming-portfolio"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Cabaçal DFS在Part 1 Morning Briefing与Part 3 Meridian/RNS候选之间去重，保留Part 3直接来源。",
+      "Mining.com金/银/铜分类页同一URL跨分类重复候选已规范化为单一候选。"
+    ],
+    "notes": "所有候选均有对应决策；原始候选保留在分析bundle和按日期X sidecar中，页面只投影接受信号。"
+  }
+}

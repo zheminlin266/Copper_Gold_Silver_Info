@@ -1,0 +1,139 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-22",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 52,
+    "twscrape": 1
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-5bdb5df0bca65e282194cc00",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-21T16:35:05+00:00",
+      "text": "Yuuuuge tracts of land.... mostly moose pasture.\n\nGold in the ground is not at all the same thing as refined gold bars in sovereign reserves.",
+      "url": "https://x.com/duediligenceguy/status/2102074146158973066",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a1a043723d39544d7601da49",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-22T15:47:33+00:00",
+      "text": "Special  to Brian Goldner (L) and Thomas Amroz for taking the time to show me around. \n\nBoth geologists are responsible for amazing recent drill results at the Vault Zone (46m of 55% CuEq)\n\nThis nickel system is so spectacular (in size and grade) it is already being compared to",
+      "url": "https://x.com/wmiddelkoop/status/2102424570644869313",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6351c41b36c04fa332c22177",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-22T09:09:08+00:00",
+      "text": "And mining?!",
+      "url": "https://x.com/wmiddelkoop/status/2102324304280961321",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f94d8f35bd38ed6645459ae0",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-22T02:54:57+00:00",
+      "text": "Some red tape to be cut #mining",
+      "url": "https://x.com/wmiddelkoop/status/2102230141573423114",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ebaf86aa7b86719572f21d94",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-21T19:28:48+00:00",
+      "text": "Great new junior mining interview: \n\nHercules Metals Executive Management Team On The Vision For A New Americ...  \n\n#long",
+      "url": "https://x.com/wmiddelkoop/status/2102117860587835407",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6a4032428b3376b1d584ab74",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-09-22T14:45:38+00:00",
+      "text": "Agnico Eagle President and CEO Ammar Al-Joundi joined the In the Money podcast with Amber Kanwar to discuss Canada's evolving investment climate, the outlook for gold, and why he believes this could be a pivotal moment for the country's resource sector. \n\nThe conversation",
+      "url": "https://x.com/agnicoeagle/status/2102408989887639838",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-88e2e0164c1cde8dd01b8cd4",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-09-22T15:54:49+00:00",
+      "text": "As we move into our third week of profiling the 2026 Living Our Values Awards (LOVA) winners, we are excited to introduce the winners in the High Performance Culture category!\nCongratulations Fatimetou from Kinross Tasiast and Ryan from Kinross Round Mountain!\nLearn more about",
+      "url": "https://x.com/kinrossgold/status/2102426398619046358",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fcc2d2320d84063742769ee6",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-09-22T13:32:05+00:00",
+      "text": "$GGD $GLGDF\n\nGoGold Advances Los Ricos South Construction\n\n\nhttps://\nmailchi.mp/gogoldresource\ns/20260922\n…",
+      "url": "https://x.com/GoGoldResources/status/2102390479463846225",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b2c018d274ccb4f9ff6c78c8",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-22T13:32:38+00:00",
+      "text": "https://t.co/wFo3ypYY9H",
+      "url": "https://x.com/duediligenceguy/status/2102390616860623242",
+      "collector": "x_search",
+      "report_date": "2026-09-22",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52,
+      "twscrape": 1
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text"
+  }
+}
