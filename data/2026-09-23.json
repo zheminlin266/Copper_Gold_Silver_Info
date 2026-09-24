@@ -1,0 +1,629 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-23",
+  "report_time": "2026-09-24T10:21:55+08:00",
+  "summary": "黄金：Kinross下调2026–2027年金当量产量展望，TRX报告FY2026创纪录产量；GoldBod出口暂停影响官方黄金流向。白银：Corani融资委托推进开发准备。铜：Escondida事故停产及劳资投票、Centinela罢工投票增加短期风险；Santa Cruz PFS和Storm勘探扩充中长期供给管线。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-21T00:00:00+08:00",
+      "end": "2026-09-23T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-23T00:00:00+08:00",
+      "end": "2026-09-23T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-23T00:00:00+08:00",
+      "end": "2026-09-23T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/trx-gold-tsxtrx-record-gold-345972258/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "TRX Gold初步FY2026黄金产量为29,650盎司，较FY2025增加57%，处于公司指引上限。",
+          "evidence": "iHeart访谈页面摘要给出全年产量、同比变化和指引位置。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/trx-gold-tsxtrx-record-gold-345972258/",
+          "evidence_type": "interview publisher summary",
+          "period": "preliminary fiscal year 2026",
+          "unit": "gold ounces and year-over-year percent",
+          "value": "29,650 oz; +57%; top of guidance range"
+        },
+        {
+          "claim": "Buckreef正在建设新增3,500吨/日SAG/球磨回路，约US$50m成本由运营现金流承担。",
+          "evidence": "iHeart访谈页面摘要列出扩建规模、项目成本和资金来源。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/trx-gold-tsxtrx-record-gold-345972258/",
+          "evidence_type": "interview publisher summary",
+          "period": "current expansion; interview recorded 2026-09-16",
+          "unit": "tonnes per day and USD",
+          "value": "3,500 tpd; approximately US$50m"
+        },
+        {
+          "claim": "页面称新增回路与已升级的2,000吨/日工厂合计理论处理能力约5,500吨/日，高于2025年PEA规划的3,000吨/日。",
+          "evidence": "iHeart访谈页面摘要列出既有与新增回路的理论处理能力及PEA对比。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/trx-gold-tsxtrx-record-gold-345972258/",
+          "evidence_type": "interview publisher summary",
+          "period": "current construction versus May 2025 PEA",
+          "unit": "tonnes per day",
+          "value": "5,500 tpd theoretical combined versus 3,000 tpd PEA"
+        }
+      ],
+      "publish_date": "2026-09-21",
+      "title": "TRX Gold：FY2026创纪录产量推动Buckreef磨机扩建",
+      "source_type": "podcast",
+      "summary": "iHeart于9月21日发布TRX Gold CEO访谈（录制于9月16日）。页面摘要称Buckreef FY2026初步产金29,650盎司、同比增长57%；新增3,500吨/日磨机回路建设中，约US$50m由运营现金流支持。",
+      "detail": "29,650盎司为公司初步FY2026产量口径；扩建完成前新增处理能力尚未转化为实际产量。页面同时称现有升级后处理能力为2,000吨/日，新增回路理论合计5,500吨/日。",
+      "importance": "FY2026初步产量同比增长57%，显示Buckreef已从勘探资产转为可自筹扩产的生产矿山；新回路将把理论处理能力提高至约5,500吨/日。新增供给仍取决于建设、调试和资源序列，下一节点是扩建投产及早期2027年更新的PEA。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Stephen Mullowney",
+        "background": "TRX Gold Director and CEO"
+      },
+      "companies": [
+        "TRX Gold"
+      ],
+      "projects": [
+        "Buckreef Gold Project"
+      ]
+    },
+    {
+      "url": "https://finance.yahoo.com/video/critical-mineral-resources-ceo-striking-151514293.html",
+      "metal_tags": [
+        "copper",
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Proactive访谈摘要列出公司勘探结果：银超过5,000 g/t、铜10.2%、金2.8 g/t。",
+          "evidence": "视频访谈页面直接列出这些品位，并将其归于公司近期勘探结果；摘要未证明三项数字来自同一截段。",
+          "source_url": "https://finance.yahoo.com/video/critical-mineral-resources-ceo-striking-151514293.html",
+          "evidence_type": "interview publisher summary",
+          "period": "2026 exploration update; interview published 2026-09-23",
+          "unit": "g/t Ag, percent Cu, g/t Au",
+          "value": "Ag >5,000 g/t; Cu 10.2%; Au 2.8 g/t"
+        },
+        {
+          "claim": "访谈摘要称公司铜系统出现超过10米、0.72%铜的截段，首份资源量目标在2026年10月底至11月。",
+          "evidence": "Proactive页面转述CEO关于铜矿化和首份资源量时间表的说明。",
+          "source_url": "https://finance.yahoo.com/video/critical-mineral-resources-ceo-striking-151514293.html",
+          "evidence_type": "interview publisher summary",
+          "period": "2026 exploration and maiden resource target",
+          "unit": "metres, percent Cu, target date",
+          "value": ">10 m at 0.72% Cu; late October/November 2026"
+        }
+      ],
+      "publish_date": "2026-09-23",
+      "title": "Critical Mineral Resources：高品位银铜矿化与首份资源量计划",
+      "source_type": "youtube",
+      "summary": "Proactive对Critical Mineral Resources CEO Charlie Long的访谈摘要提及高品位银、铜、金矿化及超过10米、0.72%铜截段；公司继续推进沉积型铜系统勘探，首份资源量目标为2026年10月底至11月。",
+      "detail": "这些是勘探截段及管理层时间目标，不是矿产资源、储量或可售金属；页面摘要没有证明多种金属品位属于同一钻孔区间。",
+      "importance": "该公司仍以沉积型铜为主线，同时高品位银矿化可能拓宽未来资源组合；超过10米、0.72%铜截段为铜系统提供了可量化的后续验证点。首份资源量若在2026年10月底至11月完成，才可能把单孔结果转化为可用于评估的规模与连续性。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Charlie Long",
+        "background": "Critical Mineral Resources CEO"
+      },
+      "companies": [
+        "Critical Mineral Resources PLC"
+      ]
+    },
+    {
+      "url": "https://clearcommodity.net/podcasts/mining-stock-daily/berenguelas-silver-copper-manganese-story-takes-shape",
+      "metal_tags": [
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mining Stock Daily节目简介称访谈覆盖秘鲁Berenguela银-铜-锰项目的选冶/PFS工作、铜靶区，以及Challacollo勘探计划。",
+          "evidence": "Clear Commodity直接访谈页的节目简介列出这些项目和讨论主题。",
+          "source_url": "https://clearcommodity.net/podcasts/mining-stock-daily/berenguelas-silver-copper-manganese-story-takes-shape",
+          "evidence_type": "interview publisher summary",
+          "period": "interview published 2026-09-23",
+          "unit": "project milestones and exploration topics",
+          "value": "Berenguela metallurgy/PFS; copper targets; increased Challacollo exploration"
+        }
+      ],
+      "publish_date": "2026-09-23",
+      "title": "Aftermath Silver：Berenguela选冶与PFS、铜靶区更新",
+      "source_type": "podcast",
+      "summary": "Aftermath Silver CEO Ralph Rushton在Mining Stock Daily访谈中介绍秘鲁Berenguela银-铜-锰项目的选冶与PFS工作、铜靶区，以及智利Challacollo增加勘探活动的计划。",
+      "detail": "本卡依据节目页的发布者摘要；摘要说明的是正在开展的研究和计划，不代表PFS已经完成或铜靶区已形成资源量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Ralph Rushton",
+        "background": "Aftermath Silver CEO"
+      },
+      "companies": [
+        "Aftermath Silver"
+      ],
+      "projects": [
+        "Berenguela",
+        "Challacollo"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://highlandersilver.com/news/highlander-silver-announces-330m-senior-secured-project-finance-facility-mandate-with-natixis-cib/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Highlander与Natixis CIB签署委托，由后者牵头一笔拟全额包销、7年期、US$330m的Corani高级担保项目融资。",
+          "evidence": "Highlander 2026-09-23官方公告列出融资金额、期限、委托安排和用途。",
+          "source_url": "https://highlandersilver.com/news/highlander-silver-announces-330m-senior-secured-project-finance-facility-mandate-with-natixis-cib/",
+          "evidence_type": "direct source page",
+          "period": "financing mandate announced 2026-09-23; proposed closing Q1 2027",
+          "unit": "USD and years",
+          "value": "US$330m; 7-year senior secured facility"
+        },
+        {
+          "claim": "融资仍需最终文件、授信批准和技术/财务/环境/社会尽调；公司拟在首次提款前提供最高US$100m成本超支额度。",
+          "evidence": "官方公告明确说明融资条件、尽调状态和公司提供的成本超支额度。",
+          "source_url": "https://highlandersilver.com/news/highlander-silver-announces-330m-senior-secured-project-finance-facility-mandate-with-natixis-cib/",
+          "evidence_type": "direct source page",
+          "period": "conditions outstanding as of 2026-09-23",
+          "unit": "USD and expected date",
+          "value": "up to US$100m; expected closing Q1 2027"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Highlander Silver",
+      "title": "Highlander Silver为Corani银矿取得US$330m项目融资委托",
+      "excerpt": "Highlander Silver于9月23日公告，已委托Natixis CIB牵头一笔拟全额包销、7年期US$330m高级担保融资，用于秘鲁Corani银矿开发建设；公司另拟提供最高US$100m成本超支额度，融资预计2027年第一季度完成，仍待尽调、授信和最终文件。",
+      "language": "en",
+      "interpretation": "这是融资委托而非已关闭或已提款的贷款；项目推进至融资尽调阶段，但建设资金、合同条件和成本超支额度仍是前置条件。",
+      "importance": "US$330m、7年期融资委托让Corani建设资金路径从项目计划推进到正式尽调和授信阶段，但尚未构成已落实融资。预计2027年第一季度才收尾，且最高US$100m超支支持由公司另行提供，因此近期白银供应没有新增，投产时间仍取决于融资关闭和施工执行。",
+      "verification_status": "verified",
+      "companies": [
+        "Highlander Silver"
+      ],
+      "projects": [
+        "Corani Silver Project"
+      ],
+      "mining_com_source_note": "Mining.com分类页Playwright发现；正文访问受限或仅作候选发现，核心事实以所列公司公告/Reuters归因来源复核。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.kitco.com/news/off-the-wire/2026-09-23/ghana-focus-rebuilding-reserves-gold-exports-pause",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Ghana央行行长称GoldBod自2026年8月以来暂停黄金出口，并将重建外汇储备列为未来数月优先事项。",
+          "evidence": "Kitco刊载的Reuters报道直接转述央行行长在9月23日货币政策会议上的讲话。",
+          "source_url": "https://www.kitco.com/news/off-the-wire/2026-09-23/ghana-focus-rebuilding-reserves-gold-exports-pause",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "export pause since August 2026; remarks on 2026-09-23",
+          "unit": "time period and policy priority",
+          "value": "GoldBod exports paused since August; reserve rebuilding prioritized"
+        },
+        {
+          "claim": "报道记载Ghana官方黄金储备在2026年6月为24.4吨，较一年前的33吨减少。",
+          "evidence": "Reuters报道给出央行黄金储备数值及同比比较。",
+          "source_url": "https://www.kitco.com/news/off-the-wire/2026-09-23/ghana-focus-rebuilding-reserves-gold-exports-pause",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "June 2026 versus June 2025",
+          "unit": "metric tonnes",
+          "value": "24.4 t versus 33 t"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Kitco News (Reuters)",
+      "title": "Ghana GoldBod自8月暂停黄金出口，央行优先重建外汇储备",
+      "excerpt": "Reuters报道，Ghana央行行长称GoldBod自8月以来暂停黄金出口，外汇储备重建将成为未来数月优先事项；Ghana黄金储备于2026年6月降至24.4吨，低于一年前的33吨。",
+      "language": "en",
+      "interpretation": "报道描述的是国营买方GoldBod的出口暂停和官方储备压力，未披露暂停出口的吨数，也不能据此推断矿山产量下降或全球黄金供给同比减少。",
+      "importance": "GoldBod出口暂停改变的是本地收购黄金的外流与官方储备配置，不等同于矿山减产；24.4吨储备低于一年前33吨，解释了政策方优先保留外汇缓冲的动机。暂停持续时间和出口吨数未披露，后续需观察出口恢复及大型矿山售金比例，才能判断对国际现货可用量的实际影响。",
+      "verification_status": "verified",
+      "companies": [
+        "Ghana Gold Board (GoldBod)",
+        "Bank of Ghana"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright发现；Mining.com正文403，以Kitco刊载的Reuters报道核对行长表述、出口暂停时间及储备数字。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://nexgold.com/nexgold-intersects-14-07-g-t-gold-over-7-0-metres-9-76-g-t-gold-over-8-0-metres-and-2-84-g-t-gold-over-13-0-metres-at-the-goldlund-deposit-ontario/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "NexGold钻孔GL-26-034在Goldlund Zone 4见14.07 g/t金、7.0米截段，其中包括1.0米95.70 g/t金。",
+          "evidence": "NexGold 2026-09-23官方公告中的钻孔结果表列出该截段和包含关系。",
+          "source_url": "https://nexgold.com/nexgold-intersects-14-07-g-t-gold-over-7-0-metres-9-76-g-t-gold-over-8-0-metres-and-2-84-g-t-gold-over-13-0-metres-at-the-goldlund-deposit-ontario/",
+          "evidence_type": "direct source page",
+          "period": "2026 drilling results",
+          "unit": "g/t gold and metres",
+          "value": "14.07 g/t over 7.0 m; including 95.70 g/t over 1.0 m"
+        },
+        {
+          "claim": "截至公告日，扩大后的35,000米钻探计划已完成约31,971米，重点为Goldlund Zone 4加密和延伸钻探。",
+          "evidence": "NexGold官方公告直接列出已完成进尺、总计划及目标区域。",
+          "source_url": "https://nexgold.com/nexgold-intersects-14-07-g-t-gold-over-7-0-metres-9-76-g-t-gold-over-8-0-metres-and-2-84-g-t-gold-over-13-0-metres-at-the-goldlund-deposit-ontario/",
+          "evidence_type": "direct source page",
+          "period": "as of 2026-09-23",
+          "unit": "metres drilled",
+          "value": "31,971 m of 35,000 m"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "NexGold",
+      "title": "NexGold在Goldlund钻遇14.07 g/t金矿段，扩大的年度钻探已近3.2万米",
+      "excerpt": "NexGold报告Goldlund Zone 4钻孔GL-26-034见14.07 g/t金、7.0米截段（含1.0米95.70 g/t）；扩大后的35,000米计划已完成约31,971米，目标为资源加密和矿化延伸。",
+      "language": "en",
+      "interpretation": "这是公司钻探结果及资源模型验证，不是矿产储量或当前产量；公告称本轮结果用于完善地质模型，未来资源分类还需更多钻探、数据验证和技术研究。",
+      "importance": "14.07 g/t、7.0米截段为Goldlund Zone 4提供新的高品位连续性证据，31,971/35,000米的完成度意味着公司已接近本轮钻探收尾。该信息可能支持未来资源模型更新，但现阶段不增加黄金产量；后续需看资源估算、矿体连续性和技术研究能否把截段转化为可采储量。",
+      "verification_status": "verified",
+      "companies": [
+        "NexGold Mining Corp."
+      ],
+      "projects": [
+        "Goldlund Deposit",
+        "Goliath Gold Complex"
+      ],
+      "mining_com_source_note": "Mining.com分类页Playwright发现；正文访问受限或仅作候选发现，核心事实以所列公司公告/Reuters归因来源复核。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.ivanhoeelectric.com/news/2026-preliminary-feasibility-study-for-the-santa-cruz-copper-project-in-arizona-confirms-high-grade-low-cost-project-with/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Ivanhoe Electric 2026 PFS估算Santa Cruz初始资本US$1.43bn，前15年平均阴极铜产量约75,000吨/年，首产目标为2029年。",
+          "evidence": "Ivanhoe Electric官方PFS公告直接列出初始资本、前15年产量和首产时间目标。",
+          "source_url": "https://www.ivanhoeelectric.com/news/2026-preliminary-feasibility-study-for-the-santa-cruz-copper-project-in-arizona-confirms-high-grade-low-cost-project-with/",
+          "evidence_type": "direct source page",
+          "period": "2026 PFS; first 15 operating years; first production targeted 2029",
+          "unit": "USD, metric tonnes per year, year",
+          "value": "US$1.43bn; approximately 75,000 t/y; 2029"
+        },
+        {
+          "claim": "按US$4.75/lb基准铜价，PFS估算税后NPV8%为US$1.5bn、税后IRR为19%；成本更新反映材料/人工通胀和工程设计变化。",
+          "evidence": "官方公告列出基准情境经济指标及与2025年PFS相比的初始资本更新原因。",
+          "source_url": "https://www.ivanhoeelectric.com/news/2026-preliminary-feasibility-study-for-the-santa-cruz-copper-project-in-arizona-confirms-high-grade-low-cost-project-with/",
+          "evidence_type": "direct source page",
+          "period": "2026 PFS base-case assumptions",
+          "unit": "USD per pound, USD, percent",
+          "value": "US$4.75/lb; US$1.5bn NPV8%; 19% IRR"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Ivanhoe Electric",
+      "title": "Ivanhoe Electric Santa Cruz铜项目PFS估算资本US$1.43bn，首产目标2029年",
+      "excerpt": "Ivanhoe Electric的2026年Santa Cruz PFS估算初始资本US$1.43bn，首15年平均年产阴极铜约75,000吨，首产目标2029年；US$4.75/lb基准铜价下税后NPV8%为US$1.5bn、IRR为19%。",
+      "language": "en",
+      "interpretation": "上述为预可研估算和公司时间目标，不是已建成产能；初始资本上调与材料/人工通胀、通风井和TBM通道工程设计及SX-EW设施范围变化有关。",
+      "importance": "约75,000吨/年的前15年平均产量为美国新增铜供给管线提供了量化规模，2029年目标意味着短期现货不会立即增加。US$1.43bn初始资本和19%基准IRR显示项目仍需大额融资与施工执行；材料成本、工程设计及许可/建设节点将决定该供给何时兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Ivanhoe Electric"
+      ],
+      "projects": [
+        "Santa Cruz Copper Project"
+      ],
+      "mining_com_source_note": "Mining.com分类页Playwright发现；正文访问受限或仅作候选发现，核心事实以所列公司公告/Reuters归因来源复核。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://finance.yahoo.com/news/fatal-accident-occurs-bhps-chile-181850851.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Reuters报道，2026-09-23一名工人在Escondida维护作业事故中死亡，BHP称全矿运营活动暂停，且没有给出复产时间。",
+          "evidence": "Reuters报道转述BHP声明，明确记载停产范围及未公布复产时间。",
+          "source_url": "https://finance.yahoo.com/news/fatal-accident-occurs-bhps-chile-181850851.html",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "2026-09-23 incident and suspension",
+          "unit": "operational status and restart timing",
+          "value": "all operations suspended; restart date not provided"
+        },
+        {
+          "claim": "BHP此前估计Escondida 2026年产量最高可达1.28百万公吨铜。",
+          "evidence": "Reuters报道给出BHP对该矿当年产量的估计上限。",
+          "source_url": "https://finance.yahoo.com/news/fatal-accident-occurs-bhps-chile-181850851.html",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "2026 company estimate",
+          "unit": "metric tonnes of copper per year",
+          "value": "up to 1.28 million metric tonnes"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Reuters / Yahoo Finance",
+      "title": "Escondida致命事故后暂停全矿运营，BHP未给出复产时间",
+      "excerpt": "Reuters报道，Escondida一名工人在维护作业中死亡后，BHP于9月23日暂停全矿运营，未给出复产时间；BHP此前估计该矿2026年产铜最高可达128万吨。",
+      "language": "en",
+      "interpretation": "停产由安全事故触发，监管检查完成前复产时间不明；128万吨是年度估计上限，不应视作已经损失的产量。",
+      "importance": "Escondida的年度产量估计最高达128万吨，短暂停运也可能影响全球铜矿供给，但截至报道时复产日期和事故影响范围尚未量化。关键观察点是监管安全核查、作业恢复时间及停产是否影响全年产量，而不是把年度产能全部计作损失。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP"
+      ],
+      "projects": [
+        "Escondida Mine"
+      ],
+      "mining_com_source_note": "Mining.com铜/金/银分类页Playwright发现；Mining.com页面403，以Reuters英文转载页核对事故、全矿暂停和年度产量估计。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.marketscreener.com/news/bhp-escondida-mine-supervisors-union-urges-rejection-of-contract-offer-strike-looms-ce785ad9df8ff521",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Escondida主管工会董事会一致反对BHP最新合同方案，并呼吁会员在2026-09-28至09-30投票支持罢工。",
+          "evidence": "Marketscreener刊载的Reuters报道说明工会立场、投票日期和合同谈判阶段。",
+          "source_url": "https://www.marketscreener.com/news/bhp-escondida-mine-supervisors-union-urges-rejection-of-contract-offer-strike-looms-ce785ad9df8ff521",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "collective bargaining update published 2026-09-23",
+          "unit": "vote dates and labor status",
+          "value": "vote scheduled 2026-09-28 to 2026-09-30; strike not yet authorized"
+        },
+        {
+          "claim": "若会员投票拒绝方案，依法仍需先进行五天政府调解，双方同意时可再延长五天。",
+          "evidence": "Reuters报道列出智利劳动法下罢工前的强制调解程序。",
+          "source_url": "https://www.marketscreener.com/news/bhp-escondida-mine-supervisors-union-urges-rejection-of-contract-offer-strike-looms-ce785ad9df8ff521",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "after a possible rejection vote",
+          "unit": "calendar days",
+          "value": "mandatory 5-day mediation; potentially extended by 5 days"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Reuters / MarketScreener",
+      "title": "Escondida主管工会建议拒绝BHP新方案，9月28–30日投票",
+      "excerpt": "Reuters报道，Escondida主管工会董事会一致反对BHP最新合同方案，并呼吁会员于9月28–30日投票支持罢工；若方案被拒，法律规定仍需先进行五天政府调解，可经双方同意延长五天。",
+      "language": "en",
+      "interpretation": "截至9月23日尚未举行投票、也未发生罢工；这是对谈判僵局的升级更新，不能与事故导致的全矿暂停混为同一事件。",
+      "importance": "与前一日仅称谈判相距甚远相比，工会已转向明确建议拒绝并设定9月28–30日罢工投票，劳资风险进入可量化时间窗。即便投票通过，仍需至少五天政府调解后才可能合法罢工，因此近期影响取决于投票结果和调解进展。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP"
+      ],
+      "projects": [
+        "Escondida Mine"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright发现；Mining.com正文403，以Marketscreener转载的Reuters报道核对合同方案、投票窗口和法定调解步骤。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.kitco.com/news/off-the-wire/2026-09-23/unions-call-strike-vote-antofagasta-copper-mine-chile",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Antofagasta Minerals旗下Centinela的两个工会称谈判陷入僵局，并安排会员于2026-09-26至09-28举行罢工投票。",
+          "evidence": "Kitco刊载的Reuters报道确认工会、矿山、谈判状态和投票日期。",
+          "source_url": "https://www.kitco.com/news/off-the-wire/2026-09-23/unions-call-strike-vote-antofagasta-copper-mine-chile",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "collective bargaining update published 2026-09-23",
+          "unit": "vote dates and labor status",
+          "value": "vote scheduled 2026-09-26 to 2026-09-28; no strike yet"
+        },
+        {
+          "claim": "如最新方案被否决，智利法律要求罢工前先进行五天政府调解，双方可同意再延长五天。",
+          "evidence": "Reuters报道列出方案遭拒后的强制调解要求。",
+          "source_url": "https://www.kitco.com/news/off-the-wire/2026-09-23/unions-call-strike-vote-antofagasta-copper-mine-chile",
+          "evidence_type": "Reuters-attributed reporting",
+          "period": "after a possible rejection vote",
+          "unit": "calendar days",
+          "value": "mandatory 5-day mediation; potentially extended by 5 days"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Kitco News (Reuters)",
+      "title": "Centinela两工会安排9月26–28日罢工投票",
+      "excerpt": "Reuters报道，Antofagasta Minerals旗下Centinela的两个工会认为谈判陷入僵局，将于9月26–28日组织罢工投票；若最新方案被否，仍须先完成法定政府调解。",
+      "language": "en",
+      "interpretation": "投票尚未发生，且法定调解先于合法罢工；本条表示潜在供给风险而非已经中断的铜产量。",
+      "importance": "Centinela的劳资冲突已进入9月26–28日投票阶段，结果可能影响这一智利铜矿运营，但截至报道时没有停产。若方案被否，五天强制调解及可能延长的时间意味着供给风险是否兑现仍取决于投票和后续谈判。",
+      "verification_status": "verified",
+      "companies": [
+        "Antofagasta Minerals"
+      ],
+      "projects": [
+        "Centinela Mine"
+      ],
+      "mining_com_source_note": "Mining.com铜分类页Playwright发现；使用Kitco刊载的Reuters报道核对工会声明、投票窗口和调解程序。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/09/23/3367874/0/en/kinross-provides-operational-and-return-of-capital-update.html",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kinross下调2026与2027年归属产量展望至每年约1.84–1.86百万金当量盎司，较先前指引下限低2%–3%。",
+          "evidence": "Kinross通过GlobeNewswire发布的官方公告给出两年展望、产量范围和下修幅度。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/23/3367874/0/en/kinross-provides-operational-and-return-of-capital-update.html",
+          "evidence_type": "direct source page",
+          "period": "full-year 2026 and 2027 guidance",
+          "unit": "million gold-equivalent ounces per year and percent",
+          "value": "1.84–1.86 Moz/year; 2%–3% below previous guidance low end"
+        },
+        {
+          "claim": "下修集中于La Coipa和Round Mountain；La Coipa的部分高铜硫化矿因回收率和天气问题被堆存，Round Mountain的高品位Phase S矿石递延。",
+          "evidence": "Kinross官方公告逐项说明天气、采矿/选厂表现、回收率和矿石递延原因。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/23/3367874/0/en/kinross-provides-operational-and-return-of-capital-update.html",
+          "evidence_type": "direct source page",
+          "period": "Q3 2026 operating update",
+          "unit": "operational factors",
+          "value": "lower mining/milling rates; lower recoveries; high-grade ore deferred"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Kinross Gold Corporation / GlobeNewswire",
+      "title": "Kinross下调2026–2027年黄金当量产量展望",
+      "excerpt": "Kinross将2026及2027年归属产量展望下调至每年约184万–186万金当量盎司，较此前指引下限低2%–3%；下修集中于La Coipa与Round Mountain。La Coipa受冬季天气、低回收率影响，部分高铜硫化矿料暂时堆存；Round Mountain亦递延部分高品位矿石。",
+      "language": "en",
+      "interpretation": "金当量产量展望是公司指引而非实际产量；La Coipa的高铜硫化矿未来可能经浮选回收，但相关研究尚未形成新增产量承诺。",
+      "importance": "公司把未来两年归属产量下修至较此前指引下限低2%–3%，表明短期供给压力并非单季表面扰动；影响集中在天气、采矿率和回收率较弱的两座矿山。部分高品位或高铜矿石只是递延而非永久损失，但恢复节奏及未来选矿投资仍待验证，2028年Phase X计划是后续供给回升节点。",
+      "verification_status": "verified",
+      "companies": [
+        "Kinross Gold"
+      ],
+      "projects": [
+        "La Coipa",
+        "Round Mountain",
+        "Round Mountain Phase X"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://stormex.ca/2026/09/23/new-mineralised-vms-system-discovered-at-storms-gold-standard-project/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Storm在Gold Standard项目完成5个钻孔、合计1,000米，覆盖VMS靶带7公里走向中的1.9公里。",
+          "evidence": "Storm 2026-09-23官方公告列出完成孔数、总进尺和覆盖范围。",
+          "source_url": "https://stormex.ca/2026/09/23/new-mineralised-vms-system-discovered-at-storms-gold-standard-project/",
+          "evidence_type": "direct source page",
+          "period": "2026 exploration program as of 2026-09-23",
+          "unit": "drill holes and metres",
+          "value": "5 holes; 1,000 m; 1.9 km of a 7 km target"
+        },
+        {
+          "claim": "公司称所有钻孔均见硫化物，并在每孔确认黄铜矿和闪锌矿；化验结果尚未公布。",
+          "evidence": "Storm官方公告列出矿物观察结果并说明尚待实验室化验。",
+          "source_url": "https://stormex.ca/2026/09/23/new-mineralised-vms-system-discovered-at-storms-gold-standard-project/",
+          "evidence_type": "direct source page",
+          "period": "2026 drilling update",
+          "unit": "mineral identification and assay status",
+          "value": "chalcopyrite and sphalerite in all holes; assays pending"
+        }
+      ],
+      "publish_time": "2026-09-23",
+      "source": "Storm Exploration",
+      "title": "Storm在Gold Standard发现新VMS系统，5孔见硫化物但化验待出",
+      "excerpt": "Storm Exploration公告称，Gold Standard项目已完成5孔、合计1,000米，覆盖7公里VMS靶带中的1.9公里；所有钻孔均见硫化物，并确认黄铜矿和闪锌矿，实验室化验尚待公布。",
+      "language": "en",
+      "interpretation": "黄铜矿和闪锌矿为矿物识别，不等同于已确认的铜锌品位、资源量或可采储量；该发现仍属勘探阶段。",
+      "importance": "5孔、1,000米钻探在7公里靶带中覆盖1.9公里，并在所有孔中发现硫化物，为新的VMS系统提供了首轮连续性线索。由于化验结果尚未公布，当前只能确认含铜矿物存在，后续品位、真厚度和资源连续性才决定其对未来铜供给的意义。",
+      "verification_status": "verified",
+      "companies": [
+        "Storm Exploration Inc."
+      ],
+      "projects": [
+        "Gold Standard Project"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Part 1窗口为2026-09-21至2026-09-23北京时间；检索Company Interviews/iHeart、Proactive、Mining Stock Daily/Clear Commodity、Resource Talks、KE Report及会议回放页面。",
+      "直接核验并纳入3条新访谈：https://www.iheart.com/podcast/256-company-interviews-43066696/episode/trx-gold-tsxtrx-record-gold-345972258/；https://finance.yahoo.com/video/critical-mineral-resources-ceo-striking-151514293.html；https://clearcommodity.net/podcasts/mining-stock-daily/berenguelas-silver-copper-manganese-story-takes-shape。iHeart访谈页注明录制于9月16日，按9月21日节目发布日期纳入。",
+      "与2026-09-21及2026-09-22两份日报逐条按URL、项目及核心事件去重；Red Canyon、Vizsla、Summit、Leviathan和Sitka等已收录页面排除。",
+      "另核查Blossom Gold、Sun Valley、Firefox Gold和Intrepid Metals访谈；前两者仅有章节/标题、Firefox回放对应9月18日活动且未取得新事实、Intrepid重复9月16日钻探启动且无新结果，均未纳入。"
+    ],
+    "part1_result": "Part 1检索完整：窗口内找到并核验Company Interviews、Proactive及Mining Stock Daily三条具有可引用项目供需信息的访谈；既有重复、旧活动回放和仅有访谈章节但缺少可核事实的候选已排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "scripts/daily_pipeline.py 2026-09-23 --collect-x完整结束；运行ID：2026-09-23-20260923T230500002507Z-11780。",
+      "Playwright按注册表顺序串行处理53个账号；53/53完成、0失败、18条原始候选，未启动twscrape回退。",
+      "按日期保存的原始文本及JSON sidecar：x_outputs/2026-09-23_x_raw_materials.txt 和 x_outputs/2026-09-23_x_raw_materials.json。"
+    ],
+    "part2_result": "Part 2完整：Playwright 53/53、0失败，产生18条原始候选；0条纳入。Kai Hoffmann关于Storm VMS发现的原帖与Part 3发行人正式公告重复，其他帖子主要是价格/宏观观点、推广或缺乏可核验实体供需证据。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright全部账号完成后按规则停止；未触发twscrape回退。",
+        "原始候选保留于按日期文本和JSON sidecar。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜分类页Playwright成功，15篇候选；金分类页成功，9篇候选；银分类页成功，10篇候选。三页HTTP 200，跨页规范化为18个Mining.com候选。",
+      "按工作流补做site:mining.com gold September 23 2026与site:mining.com silver September 23 2026辅助发现查询；未取代成功的分类页主路径。",
+      "Kinross 9月23日官方运营及指引公告通过GlobeNewswire发行人公告核验；Santa Cruz 2026 PFS通过Ivanhoe Electric官方公告核验。",
+      "NexGold、Highlander Silver、Storm Exploration的9月23日钻探/融资公告分别通过发行人官网核验；三项Mining.com候选正文受限时均采用一手来源复核。",
+      "Escondida事故停运通过Reuters英文转载（Yahoo Finance）核验；Escondida主管工会谈判更新通过Reuters/MarketScreener核验；Centinela工会投票通过Kitco转载Reuters核验。",
+      "Ghana GoldBod出口暂停及储备数据通过Kitco刊载的Reuters报道核验；未把出口暂停解释为矿山减产或量化的全球供给损失。",
+      "排除Minto PEA（发行人公告为9月22日且已在前一日报告）、未指明金银铜的关键矿产储备融资、纯价格/库存评论、镍/煤/钾盐/锂及无明确目标金属的广义政策/融资候选。"
+    ],
+    "part3_result": "Part 3完整：Mining.com三类页面均成功抓取并核验日期窗口；纳入9条金银铜实体供需信号，包括黄金产量指引和出口流向、铜矿事故/劳资风险、银矿融资、预可研和勘探进展。",
+    "mining_com_source_note": "按固定Python和Chromium Playwright抓取Mining.com铜、金、银分类页，状态均为success；各页文章数15/9/10。Mining.com个别正文403或抽取正文含分类页相邻文章片段时，仅将其用于发现候选，入选事实以发行人公告或Reuters归因报道复核；未使用RSS、sitemap或Wayback。",
+    "new_sources_discovered": [
+      "source-company-interviews：Company Interviews (Crux Investor/iHeart)，2026-09-21 TRX Gold CEO访谈页面及摘要已核验，已追加至data/sources_discovered.json。",
+      "source-proactive：Proactive，2026-09-23 Critical Mineral Resources CEO视频访谈页面及发布日期已核验，已追加至data/sources_discovered.json。"
+    ],
+    "url_verification": {
+      "checked": 12,
+      "passed": 12,
+      "failed": 0,
+      "failures": [],
+      "notes": "3条Part 1和9条Part 3入选来源均已直接打开并核对标题、发布日期、主体和所用事实；Part 2无入选卡片，完整覆盖记录见part2_coverage。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/21/red-canyon-osiris-project-drill-updates-nautilus-camp-target-developments/",
+      "https://www.kereport.com/2026/09/22/vizsla-silver-panuco-project-update-site-access-the-path-and-timeline-to-production/",
+      "https://www.kereport.com/2026/09/22/summit-royalties-comprehensive-update-on-4-producing-and-3-key-development-assets/",
+      "https://resourcetalks.com/copper-stocks/copper-sulphides-in-8-drill-holes-but-is-there-a-real-discovery/",
+      "https://www.kereport.com/2026/09/22/sitka-gold-high-grade-gold-results-at-blackjack-saddle-eiger-rc-gold-project-yukon/"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/soarfinancial/status/2102769948821168576"
+    ],
+    "part3_deduped_events": [
+      "Selkirk Copper Minto PEA：Mining.com分类页显示9月23日，但发行人公告日期为9月22日且该事件已纳入2026-09-22日报，按同一PEA事件排除。",
+      "Mining.com金/银/铜分类页跨页重复URL已规范化；Escondida事故停运、Escondida合同投票和Centinela合同投票为不同事件/矿山，分别保留。"
+    ],
+    "notes": "所有Mining.com和X规范化候选均有决策。Storm Exploration X帖与Part 3正式公告为同一发现，保留公司一手公告。Glencore/VaultCo公告未具体列出目标金银铜金属，故不纳入目标金属供需卡。"
+  }
+}

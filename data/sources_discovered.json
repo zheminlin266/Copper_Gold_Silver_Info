@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-09-15",
+  "last_updated": "2026-09-24",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -43,6 +43,20 @@
       "category": "矿业公司官方新闻",
       "notes": "2026-09-15 Lewis North trenching release directly verified through Newsfile.",
       "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-company-interviews",
+      "display_name": "Company Interviews (Crux Investor)",
+      "category": "矿业公司访谈/播客",
+      "notes": "2026-09-21 TRX Gold CEO episode page directly verified on iHeart; includes recording date and detailed preliminary FY2026 production and mill-expansion summary.",
+      "channel": "https://www.iheart.com/podcast/256-company-interviews-43066696/"
+    },
+    {
+      "source_id": "source-proactive",
+      "display_name": "Proactive",
+      "category": "矿业媒体/视频访谈",
+      "notes": "2026-09-23 Critical Mineral Resources CEO interview directly verified on Yahoo Finance; page provides publication time and interview summary with drilling figures.",
+      "channel": "https://www.proactiveinvestors.co.uk/"
     }
   ]
 }

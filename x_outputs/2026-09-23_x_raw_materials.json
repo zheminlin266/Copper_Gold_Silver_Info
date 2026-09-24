@@ -1,0 +1,241 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-23",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-26ab31d31c869c81aec68d51",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-22T19:40:21+00:00",
+      "text": " A Rick Rule Gold Masterclass  Learn Why, How to Buy, Store & Sell  G... \nhttps://\nyoutu.be/nd823tZJizc?si\n=G1x2BqPjF0pqR69f\n… via \n@YouTube",
+      "url": "https://x.com/RealRickRule/status/2102483155643146607",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3697529b9b574b07a9660acc",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-22T20:26:13+00:00",
+      "text": "The Bitcoin/Gold ratio looks like it's changing trajectory here",
+      "url": "https://x.com/KatusaResearch/status/2102494697822589120",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1232dc336d629f094d567876",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-22T20:00:42+00:00",
+      "text": "Copper broke out today in Euros, GBP and CAD\n\nThe last one is the USD",
+      "url": "https://x.com/KatusaResearch/status/2102488278301904971",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-bf8f345ecba8b57c74062055",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-22T17:56:29+00:00",
+      "text": "FACT\n\nSuper Intelligence now uses more copper than artificial intelligence",
+      "url": "https://x.com/KatusaResearch/status/2102457017801847136",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e81bd238974e4194cabfd2d0",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-23T13:34:56+00:00",
+      "text": "Chris is literally the best...and Aquitaine is literally the best gold story I've ever encountered. (And I've seen a few.)\n\nThe problem with Aquitaine is that there'll be so little float in the stock, because no one will want to sell.",
+      "url": "https://x.com/Brien_Lundin/status/2102753583464862020",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e5ac86777c62c5b3e2bbb086",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-23T14:28:04+00:00",
+      "text": "Silver Is Trading the Bond Market, Not the Deficit | \nhttps://\nInvesting.com - \nhttps://\ngoo.gl/alerts/BWRNdR #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2102766954977313206",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9315fd51b11a41487532a1e4",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-23T13:59:05+00:00",
+      "text": "High Beta, Short Supply: The Drivers of Silver's New Rally - \nhttps://\ngoo.gl/alerts/qL6bbk #GoogleAlerts",
+      "url": "https://x.com/silverguru22/status/2102759664106836142",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-071645fdc6374f7e8f498599",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-22T18:37:42+00:00",
+      "text": "I am bullish copper, but not to the degree of the money metals. Take a look at copper inventory.",
+      "url": "https://x.com/silverguru22/status/2102467391376789674",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a13ee069428f9d0f6670c54e",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-23T14:21:11+00:00",
+      "text": "Silver bounced after the Fed. Here’s my take on why—and what I’m watching next.\n\nFresh from Vancouver’s Metals Investor Forum, I’ve got plenty to share.\n\n10 company updates. My silver outlook.\n\nSubscribe to Silver Stock Investor for the full issue \n\nhttps://\nthegoldadvisor.com/silver-stock-i\nnvestor/newsletters/silver-bounces-post-fed-10-company-updates/\n…",
+      "url": "https://x.com/peter_krauth/status/2102765225665867888",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3661c88a65d724fb35502072",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-22T19:03:32+00:00",
+      "text": "Aya Gold & Silver \n@AyaGoldSilver\n keeps giving investors reasons to watch Boumadine.\n\nHigh grades. A 5.4-kilometre Main Trend still open in all directions. Fourteen drills turning.\n\nHow much bigger could this get?\n\nOur latest Silver Advisor breaks down the growth potential.",
+      "url": "https://x.com/peter_krauth/status/2102473891637772635",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a341e0db2867250cdd563264",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-22T18:53:22+00:00",
+      "text": "Kingsmen Resources \n@Kingsmen_Res\n has now hit high-grade silver-gold in two holes on structure #8.\n\nThe bigger question: how much of Las Coloradas remains undiscovered?\n\n\n@TedJButler\n  examines the largely untested ground—and why we remain fully weighted. \n\nRead his latest analysis.",
+      "url": "https://x.com/peter_krauth/status/2102471334500749617",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d3dde1b7149020830138ad3a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-23T14:22:34+00:00",
+      "text": "Fun with copper…\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2102765572648030395",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-367eef4cd0a72e393ed9d25d",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-23T12:51:26+00:00",
+      "text": "Ruh-roh...\n\n(Unless you're long copper.  ; - )",
+      "url": "https://x.com/duediligenceguy/status/2102742638247969118",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a208912054d2c46a58098cf5",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-23T12:48:54+00:00",
+      "text": "It's not just the Trump Effect... there are supply issues as well.",
+      "url": "https://x.com/duediligenceguy/status/2102741998486876550",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2cc26a02c61af17f1d1d7f2e",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-23T12:34:25+00:00",
+      "text": "Beware when the problem with supply is politics...",
+      "url": "https://x.com/duediligenceguy/status/2102738354223644695",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-87f4ea6d1cd8c5ad623b7163",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-23T12:02:09+00:00",
+      "text": "Silver adjusted for money supply.\n\nWhat a great chart that tells the silver story incredibly well.\n\nA breakout with authority earlier this year, followed by a move from euphoria back to neglect as silver corrected toward former resistance, which has now become major support.\n\nThe",
+      "url": "https://x.com/TaviCosta/status/2102730235594584538",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2bc57b8103f71a336720032f",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-23T14:06:00+00:00",
+      "text": "If you're at the #PreciousMetalsSummit in #BeaverCreek this week: don't leave without a printed copy of the In Gold We Trust report.\n\nYes, a real one. Paper, ink, lots of charts and insights.... The kind of report you can throw at a bear ,-) \n\n#IGWT #Gold #BeaverCreek #Mining",
+      "url": "https://x.com/RonStoeferle/status/2102761402192822574",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6c8a60b408d36534a3493769",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-23T14:39:58+00:00",
+      "text": "Storm Exploration has identified a new mineralized VMS system at its Gold Standard Project in Ontario.\n\n 5 holes / 1,000m completed\n Sulphide mineralization in all 5 holes\n Chalcopyrite + sphalerite confirmed in all holes\n Drilling covers just 1.9km of a 7km target\n\nThe",
+      "url": "https://x.com/soarfinancial/status/2102769948821168576",
+      "collector": "x_search",
+      "report_date": "2026-09-23",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

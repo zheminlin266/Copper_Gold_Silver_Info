@@ -1,0 +1,192 @@
+X 原始候选 — 2026-09-23
+采集时间: 2026-09-24T07:31:17.071626+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 18 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-22T19:40:21+00:00
+    北京: 2026-09-23T03:40:21+08:00
+    文本:  A Rick Rule Gold Masterclass  Learn Why, How to Buy, Store & Sell  G...
+https://
+youtu.be/nd823tZJizc?si
+=G1x2BqPjF0pqR69f
+… via
+@YouTube
+    链接: https://x.com/RealRickRule/status/2102483155643146607
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-22T20:26:13+00:00
+    北京: 2026-09-23T04:26:13+08:00
+    文本: The Bitcoin/Gold ratio looks like it's changing trajectory here
+    链接: https://x.com/KatusaResearch/status/2102494697822589120
+
+[3] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-22T20:00:42+00:00
+    北京: 2026-09-23T04:00:42+08:00
+    文本: Copper broke out today in Euros, GBP and CAD
+
+The last one is the USD
+    链接: https://x.com/KatusaResearch/status/2102488278301904971
+
+[4] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-22T17:56:29+00:00
+    北京: 2026-09-23T01:56:29+08:00
+    文本: FACT
+
+Super Intelligence now uses more copper than artificial intelligence
+    链接: https://x.com/KatusaResearch/status/2102457017801847136
+
+[5] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-23T13:34:56+00:00
+    北京: 2026-09-23T21:34:56+08:00
+    文本: Chris is literally the best...and Aquitaine is literally the best gold story I've ever encountered. (And I've seen a few.)
+
+The problem with Aquitaine is that there'll be so little float in the stock, because no one will want to sell.
+    链接: https://x.com/Brien_Lundin/status/2102753583464862020
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-09-23T14:28:04+00:00
+    北京: 2026-09-23T22:28:04+08:00
+    文本: Silver Is Trading the Bond Market, Not the Deficit |
+https://
+Investing.com -
+https://
+goo.gl/alerts/BWRNdR #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2102766954977313206
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-09-23T13:59:05+00:00
+    北京: 2026-09-23T21:59:05+08:00
+    文本: High Beta, Short Supply: The Drivers of Silver's New Rally -
+https://
+goo.gl/alerts/qL6bbk #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2102759664106836142
+
+[8] @silverguru22 (David Morgan)
+    UTC: 2026-09-22T18:37:42+00:00
+    北京: 2026-09-23T02:37:42+08:00
+    文本: I am bullish copper, but not to the degree of the money metals. Take a look at copper inventory.
+    链接: https://x.com/silverguru22/status/2102467391376789674
+
+[9] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-23T14:21:11+00:00
+    北京: 2026-09-23T22:21:11+08:00
+    文本: Silver bounced after the Fed. Here’s my take on why—and what I’m watching next.
+
+Fresh from Vancouver’s Metals Investor Forum, I’ve got plenty to share.
+
+10 company updates. My silver outlook.
+
+Subscribe to Silver Stock Investor for the full issue
+
+https://
+thegoldadvisor.com/silver-stock-i
+nvestor/newsletters/silver-bounces-post-fed-10-company-updates/
+…
+    链接: https://x.com/peter_krauth/status/2102765225665867888
+
+[10] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-22T19:03:32+00:00
+    北京: 2026-09-23T03:03:32+08:00
+    文本: Aya Gold & Silver
+@AyaGoldSilver
+ keeps giving investors reasons to watch Boumadine.
+
+High grades. A 5.4-kilometre Main Trend still open in all directions. Fourteen drills turning.
+
+How much bigger could this get?
+
+Our latest Silver Advisor breaks down the growth potential.
+    链接: https://x.com/peter_krauth/status/2102473891637772635
+
+[11] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-22T18:53:22+00:00
+    北京: 2026-09-23T02:53:22+08:00
+    文本: Kingsmen Resources
+@Kingsmen_Res
+ has now hit high-grade silver-gold in two holes on structure #8.
+
+The bigger question: how much of Las Coloradas remains undiscovered?
+
+
+@TedJButler
+  examines the largely untested ground—and why we remain fully weighted.
+
+Read his latest analysis.
+    链接: https://x.com/peter_krauth/status/2102471334500749617
+
+[12] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-23T14:22:34+00:00
+    北京: 2026-09-23T22:22:34+08:00
+    文本: Fun with copper…
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2102765572648030395
+
+[13] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-23T12:51:26+00:00
+    北京: 2026-09-23T20:51:26+08:00
+    文本: Ruh-roh...
+
+(Unless you're long copper.  ; - )
+    链接: https://x.com/duediligenceguy/status/2102742638247969118
+
+[14] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-23T12:48:54+00:00
+    北京: 2026-09-23T20:48:54+08:00
+    文本: It's not just the Trump Effect... there are supply issues as well.
+    链接: https://x.com/duediligenceguy/status/2102741998486876550
+
+[15] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-23T12:34:25+00:00
+    北京: 2026-09-23T20:34:25+08:00
+    文本: Beware when the problem with supply is politics...
+    链接: https://x.com/duediligenceguy/status/2102738354223644695
+
+[16] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-23T12:02:09+00:00
+    北京: 2026-09-23T20:02:09+08:00
+    文本: Silver adjusted for money supply.
+
+What a great chart that tells the silver story incredibly well.
+
+A breakout with authority earlier this year, followed by a move from euphoria back to neglect as silver corrected toward former resistance, which has now become major support.
+
+The
+    链接: https://x.com/TaviCosta/status/2102730235594584538
+
+[17] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-23T14:06:00+00:00
+    北京: 2026-09-23T22:06:00+08:00
+    文本: If you're at the #PreciousMetalsSummit in #BeaverCreek this week: don't leave without a printed copy of the In Gold We Trust report.
+
+Yes, a real one. Paper, ink, lots of charts and insights.... The kind of report you can throw at a bear ,-)
+
+#IGWT #Gold #BeaverCreek #Mining
+    链接: https://x.com/RonStoeferle/status/2102761402192822574
+
+[18] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-23T14:39:58+00:00
+    北京: 2026-09-23T22:39:58+08:00
+    文本: Storm Exploration has identified a new mineralized VMS system at its Gold Standard Project in Ontario.
+
+ 5 holes / 1,000m completed
+ Sulphide mineralization in all 5 holes
+ Chalcopyrite + sphalerite confirmed in all holes
+ Drilling covers just 1.9km of a 7km target
+
+The
+    链接: https://x.com/soarfinancial/status/2102769948821168576
