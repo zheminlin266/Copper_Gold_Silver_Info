@@ -1,0 +1,192 @@
+X 原始候选 — 2026-09-24
+采集时间: 2026-09-25T07:29:07.614817+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 16 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-24T15:19:31+00:00
+    北京: 2026-09-24T23:19:31+08:00
+    文本: Rick Rule Says If You Aren’t In Mexico You Aren’t A Silver Investor 
+https://
+youtu.be/I0YYwV3oi7g?si
+=VLzRyxv4Ycky-Wvk
+… via 
+@YouTube
+ 09-23-2026 Do you receive interest on your checking account?
+    链接: https://x.com/RealRickRule/status/2103142291200528398
+
+[2] @RealRickRule (Rick Rule)
+    UTC: 2026-09-24T15:10:17+00:00
+    北京: 2026-09-24T23:10:17+08:00
+    文本: You could be half a silver investor, if you invested in Peru!
+Or, you could be an indirect silver investor, buy buying Wheaton Precious, who is of course, heavily invested in Mexico and Peru
+    链接: https://x.com/RealRickRule/status/2103139969896529929
+
+[3] @RealRickRule (Rick Rule)
+    UTC: 2026-09-24T14:35:29+00:00
+    北京: 2026-09-24T22:35:29+08:00
+    文本: Rick Rule Says If You Aren’t In Mexico You Aren’t A Silver Investor 
+https://
+youtu.be/I0YYwV3oi7g?si
+=OLDr7s0nRAE8SAIb
+… via 
+@YouTube
+ 09-23-2026
+Mining in Mexico, things your bank does not want you to know
+    链接: https://x.com/RealRickRule/status/2103131210017038727
+
+[4] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-24T15:56:12+00:00
+    北京: 2026-09-24T23:56:12+08:00
+    文本: Even after the monster equity and tech bull market since 2010
+
+Neither the S&P nor Nasdaq has regained its 1999 level when priced in gold.
+    链接: https://x.com/KatusaResearch/status/2103151523874447835
+
+[5] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-23T18:24:24+00:00
+    北京: 2026-09-24T02:24:24+08:00
+    文本: START YOUR ENGINES
+
+For Copper, Lithium, Tungsten, Nickel
+
+Among others
+    链接: https://x.com/KatusaResearch/status/2102826432028348860
+
+[6] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-23T17:23:13+00:00
+    北京: 2026-09-24T01:23:13+08:00
+    文本: If this works.
+
+Canadian mining and energy projects...
+
+SHWIIIIING
+    链接: https://x.com/KatusaResearch/status/2102811034755154025
+
+[7] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-09-23T18:02:11+00:00
+    北京: 2026-09-24T02:02:11+08:00
+    文本: Gold & Silver peaked before the Iran War started. They are also not widely owned. They are down because they are correcting and digesting record moves while the yield curve is flattening and real interest rates have moved higher. No relation to any potential credit event.
+    链接: https://x.com/TheDailyGold/status/2102820841633529991
+
+[8] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-24T15:29:54+00:00
+    北京: 2026-09-24T23:29:54+08:00
+    文本: The market may be overlooking 
+@ESGold
+. I’m not.
+
+2,000+ metres drilled. Assays pending. Could Montauban have more to reveal?
+
+I remain overweight—with no plans to sell.
+
+Subscribe free to Silver Advisor to read why 
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/esgold-10/
+…
+    链接: https://x.com/peter_krauth/status/2103144902783844504
+
+[9] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-23T19:04:13+00:00
+    北京: 2026-09-24T03:04:13+08:00
+    文本: High grades get attention. Room to grow keeps mine.
+
+
+@BRCSilver
+'s  latest results suggest Tonopah West has more to reveal. Ted digs into the bigger picture in today’s Silver Advisor.
+
+
+@TedJButler
+ and I remain overweight.
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/blackrock-silver/
+…
+    链接: https://x.com/peter_krauth/status/2102836453533491215
+
+[10] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-24T10:46:48+00:00
+    北京: 2026-09-24T18:46:48+08:00
+    文本: Hong Kong maps out gold, bond and liquidity push to deepen offshore yuan use...
+
+ 
+https://
+sc.mp/lly3c?utm_sour
+ce=twitter&utm_campaign=3368483&utm_medium=share_widget
+… via 
+@scmpnews
+    链接: https://x.com/ArcadiaEconomic/status/2103073659304976623
+
+[11] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-24T00:02:48+00:00
+    北京: 2026-09-24T08:02:48+08:00
+    文本: China GOLD Imports Surge Amidst US Debt Market Meltdown 
+https://
+youtu.be/_81GmaRX2po?is
+=TNlkrQT_V9wpa9-Q
+… via 
+@YouTube
+    链接: https://x.com/ArcadiaEconomic/status/2102911590471291267
+
+[12] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-23T19:20:46+00:00
+    北京: 2026-09-24T03:20:46+08:00
+    文本: the U.S. bond market's melting down NOW, while China's importing a staggering amount of #GOLD....
+    链接: https://x.com/ArcadiaEconomic/status/2102840615021220059
+
+[13] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-24T15:06:20+00:00
+    北京: 2026-09-24T23:06:20+08:00
+    文本: Mood check from Beaver Creek: the global bond sell-off is hitting gold, silver and miners hard. 
+
+Next up: the policy reaction function….Time to find out whether Bessent really owns the house…..
+
+#PreciousSummitBC2026 #BeaverCreek #PMS
+    链接: https://x.com/RonStoeferle/status/2103138975993184290
+
+[14] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-23T20:24:38+00:00
+    北京: 2026-09-24T04:24:38+08:00
+    文本: Always great fun doing interviews with 
+@PaulHarrisGold
+ at 
+@KitcoMining
+ 
+
+We discussed fiscal dominance, how miners should improve their marketing, the corporate gold standard etc.
+
+Glad this time Paul did not call the #IGWT the „Playboy for Gold bugs“ 
+    链接: https://x.com/RonStoeferle/status/2102856688625950923
+
+[15] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-09-23T23:04:04+00:00
+    北京: 2026-09-24T07:04:04+08:00
+    文本: They aren’t mine. Still at the breeder. Home in 2 weeks.
+    链接: https://x.com/LawrenceLepard/status/2102896811459711174
+
+[16] @Junior_Stock (Brian Leni)
+    UTC: 2026-09-24T14:35:55+00:00
+    北京: 2026-09-24T22:35:55+08:00
+    文本: Much of the copper narrative surrounds the demand side of the market. This isn't wrong, it just doesn't tell the full story.  This past weekend I presented 
+@MetalsInvtForum
+ and gave my thoughts on copper and gold.
+    链接: https://x.com/Junior_Stock/status/2103131319345852479
+

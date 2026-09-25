@@ -1,0 +1,217 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-24",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-44c7fc3cacce50cde48f125a",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-24T15:19:31+00:00",
+      "text": "Rick Rule Says If You Aren’t In Mexico You Aren’t A Silver Investor \nhttps://\nyoutu.be/I0YYwV3oi7g?si\n=VLzRyxv4Ycky-Wvk\n… via \n@YouTube\n 09-23-2026 Do you receive interest on your checking account?",
+      "url": "https://x.com/RealRickRule/status/2103142291200528398",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-deffccec7a3cf18e1cae0ea2",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-24T15:10:17+00:00",
+      "text": "You could be half a silver investor, if you invested in Peru!\nOr, you could be an indirect silver investor, buy buying Wheaton Precious, who is of course, heavily invested in Mexico and Peru",
+      "url": "https://x.com/RealRickRule/status/2103139969896529929",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-88f80d54dfbe9aef4cb64b5a",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-24T14:35:29+00:00",
+      "text": "Rick Rule Says If You Aren’t In Mexico You Aren’t A Silver Investor \nhttps://\nyoutu.be/I0YYwV3oi7g?si\n=OLDr7s0nRAE8SAIb\n… via \n@YouTube\n 09-23-2026\nMining in Mexico, things your bank does not want you to know",
+      "url": "https://x.com/RealRickRule/status/2103131210017038727",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6067783f9446fa2f309de690",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-24T15:56:12+00:00",
+      "text": "Even after the monster equity and tech bull market since 2010\n\nNeither the S&P nor Nasdaq has regained its 1999 level when priced in gold.",
+      "url": "https://x.com/KatusaResearch/status/2103151523874447835",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-83f3ad0436d50860363e8f21",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-23T18:24:24+00:00",
+      "text": "START YOUR ENGINES\n\nFor Copper, Lithium, Tungsten, Nickel\n\nAmong others",
+      "url": "https://x.com/KatusaResearch/status/2102826432028348860",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-23309eb1259a5511367c178b",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-23T17:23:13+00:00",
+      "text": "If this works.\n\nCanadian mining and energy projects...\n\nSHWIIIIING",
+      "url": "https://x.com/KatusaResearch/status/2102811034755154025",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ed08d437acf77bc409857f90",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-09-23T18:02:11+00:00",
+      "text": "Gold & Silver peaked before the Iran War started. They are also not widely owned. They are down because they are correcting and digesting record moves while the yield curve is flattening and real interest rates have moved higher. No relation to any potential credit event.",
+      "url": "https://x.com/TheDailyGold/status/2102820841633529991",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c8d6072851a971b7901dec7e",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-24T15:29:54+00:00",
+      "text": "The market may be overlooking \n@ESGold\n. I’m not.\n\n2,000+ metres drilled. Assays pending. Could Montauban have more to reveal?\n\nI remain overweight—with no plans to sell.\n\nSubscribe free to Silver Advisor to read why \n\nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/esgold-10/\n…",
+      "url": "https://x.com/peter_krauth/status/2103144902783844504",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0a9a6930ddcc379d06619586",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-23T19:04:13+00:00",
+      "text": "High grades get attention. Room to grow keeps mine.\n\n\n@BRCSilver\n's  latest results suggest Tonopah West has more to reveal. Ted digs into the bigger picture in today’s Silver Advisor.\n\n\n@TedJButler\n and I remain overweight.\n\n\nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/blackrock-silver/\n…",
+      "url": "https://x.com/peter_krauth/status/2102836453533491215",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-838c022e3b916996337f23db",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-24T10:46:48+00:00",
+      "text": "Hong Kong maps out gold, bond and liquidity push to deepen offshore yuan use...\n\n \nhttps://\nsc.mp/lly3c?utm_sour\nce=twitter&utm_campaign=3368483&utm_medium=share_widget\n… via \n@scmpnews",
+      "url": "https://x.com/ArcadiaEconomic/status/2103073659304976623",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a5a142865ae053f52cc8d3b8",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-24T00:02:48+00:00",
+      "text": "China GOLD Imports Surge Amidst US Debt Market Meltdown \nhttps://\nyoutu.be/_81GmaRX2po?is\n=TNlkrQT_V9wpa9-Q\n… via \n@YouTube",
+      "url": "https://x.com/ArcadiaEconomic/status/2102911590471291267",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-12fa7eba389681f1cd0fdfd9",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-23T19:20:46+00:00",
+      "text": "the U.S. bond market's melting down NOW, while China's importing a staggering amount of #GOLD....",
+      "url": "https://x.com/ArcadiaEconomic/status/2102840615021220059",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b49272ff51bc64b2ecdc906e",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-24T15:06:20+00:00",
+      "text": "Mood check from Beaver Creek: the global bond sell-off is hitting gold, silver and miners hard. \n\nNext up: the policy reaction function….Time to find out whether Bessent really owns the house…..\n\n#PreciousSummitBC2026 #BeaverCreek #PMS",
+      "url": "https://x.com/RonStoeferle/status/2103138975993184290",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-eef0a5ac4020b2cc80617ef6",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-23T20:24:38+00:00",
+      "text": "Always great fun doing interviews with \n@PaulHarrisGold\n at \n@KitcoMining\n \n\nWe discussed fiscal dominance, how miners should improve their marketing, the corporate gold standard etc.\n\nGlad this time Paul did not call the #IGWT the „Playboy for Gold bugs“ ",
+      "url": "https://x.com/RonStoeferle/status/2102856688625950923",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-320e20545994cc3d34a140bb",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-09-23T23:04:04+00:00",
+      "text": "They aren’t mine. Still at the breeder. Home in 2 weeks.",
+      "url": "https://x.com/LawrenceLepard/status/2102896811459711174",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9c26bd584cd31aaefd6d1913",
+      "source_id": "x-junior_stock",
+      "author": "Brian Leni",
+      "handle": "Junior_Stock",
+      "publish_time": "2026-09-24T14:35:55+00:00",
+      "text": "Much of the copper narrative surrounds the demand side of the market. This isn't wrong, it just doesn't tell the full story.  This past weekend I presented \n@MetalsInvtForum\n and gave my thoughts on copper and gold.",
+      "url": "https://x.com/Junior_Stock/status/2103131319345852479",
+      "collector": "x_search",
+      "report_date": "2026-09-24",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

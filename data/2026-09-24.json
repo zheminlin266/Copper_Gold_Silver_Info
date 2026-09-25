@@ -1,0 +1,659 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-24",
+  "report_time": "2026-09-25T08:45:13+08:00",
+  "summary": "黄金：山东黄金下调年度矿产金计划，运营与勘探项目补充中长期供给管线，俄罗斯税案增加政策不确定性。白银：Zgounder维持2026年产量指引，精炼交期延长与美国成品库存充足并存。铜：税制资金占用影响扩产空间，勘探融资与钻探为远期供给提供线索。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-22T00:00:00+08:00",
+      "end": "2026-09-24T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-24T00:00:00+08:00",
+      "end": "2026-09-24T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-24T00:00:00+08:00",
+      "end": "2026-09-24T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/09/24/west-red-lake-gold-mines-q2-financial-results-h2-development-and-production-ramp-up-exploration-update-big-picture-vision/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Madsen Q2 2026实际产金8,576盎司，较Q1的5,667盎司增加51%。",
+          "evidence": "West Red Lake Gold的Q2新闻稿逐项列出两个季度的产量及增幅；9月24日访谈页也复述并讨论该运营结果。",
+          "source_url": "https://westredlakegold.com/west-red-lake-gold-reports-q2-2026-results-including-51-increase-in-gold-production-and-30-reduction-in-aisc/",
+          "evidence_type": "direct issuer Q2 results and interview page",
+          "period": "Q2 2026 versus Q1 2026",
+          "unit": "gold ounces and quarter-on-quarter percent",
+          "value": "8,576 oz; 5,667 oz; +51%"
+        },
+        {
+          "claim": "公司预计904 Zone首采目标在2027年下半年，Madsen竖井修复和矿化序列调整支持后续爬坡。",
+          "evidence": "KER采访页对CEO关于H2开发、shaft rehabilitation及904 Zone时间表的文字总结。",
+          "source_url": "https://www.kereport.com/2026/09/24/west-red-lake-gold-mines-q2-financial-results-h2-development-and-production-ramp-up-exploration-update-big-picture-vision/",
+          "evidence_type": "publisher interview notes attributed to CEO",
+          "period": "H2 2026 development; 904 Zone first mining targeted H2 2027",
+          "unit": "development milestones and date",
+          "value": "shaft rehabilitation in H2 2026; 904 Zone H2 2027 target"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "West Red Lake Gold Mines：Q2生产增长与Madsen后续爬坡访谈",
+      "source_type": "podcast",
+      "summary": "The Korelin Economics Report于9月24日采访West Red Lake Gold CEO Shane Williams，回顾Madsen Q2实际产金8,576盎司、环比增长51%，并讨论H2竖井修复和904 Zone后续采矿计划。",
+      "detail": "Q2产量、销售和成本为公司截至2026年6月30日的实际运营数据；904 Zone首采时间为管理层目标，预计在2027年下半年，不能视作当期产量。",
+      "importance": "Madsen Q2产金升至8,576盎司、环比增长51%，显示地下开发推进已转成实际金锭供应，且单位成本同步回落。H2竖井修复与4447区矿化纳入采序有望继续支撑爬坡，但904 Zone预计2027年下半年才开始采矿，需将近端运营改善与中期增量分开跟踪。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Shane Williams",
+        "background": "West Red Lake Gold Mines President and CEO"
+      },
+      "companies": [
+        "West Red Lake Gold Mines"
+      ],
+      "projects": [
+        "Madsen Gold Project",
+        "904 Zone"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/23/getty-copper-high-grade-intercepts-at-getty-south-accelerated-drilling-and-a-15m-financing/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Getty South最新钻探包括46米、1.47%铜的截段，并位于150米、0.71%铜的更宽区间内。",
+          "evidence": "KER 2026-09-23公司访谈页直接列出截段长度、品位及更宽矿化区间。",
+          "source_url": "https://www.kereport.com/2026/09/23/getty-copper-high-grade-intercepts-at-getty-south-accelerated-drilling-and-a-15m-financing/",
+          "evidence_type": "direct interview publisher notes",
+          "period": "Getty South 2026 drilling update",
+          "unit": "metres and percent Cu",
+          "value": "46 m at 1.47% Cu within 150 m at 0.71% Cu"
+        },
+        {
+          "claim": "管理层称一笔超额认购的$15m融资将支持秋冬计划并动员两台钻机。",
+          "evidence": "KER访谈页将融资与两台钻机及扩大冬季钻探计划相连；页面未标明币种。",
+          "source_url": "https://www.kereport.com/2026/09/23/getty-copper-high-grade-intercepts-at-getty-south-accelerated-drilling-and-a-15m-financing/",
+          "evidence_type": "direct interview publisher notes",
+          "period": "2026 fall/winter exploration program",
+          "unit": "dollar amount and drill rigs",
+          "value": "$15m (currency not specified); two rigs"
+        }
+      ],
+      "publish_date": "2026-09-23",
+      "title": "Getty Copper：Getty South钻探截段与秋季加密计划访谈",
+      "source_type": "podcast",
+      "summary": "The Korelin Economics Report于9月23日采访Getty Copper CEO Ryan O’Regan和勘探副总裁Roy Greig。访谈页列出Getty South 46米、1.47%铜截段（位于150米、0.71%铜的更宽区间），并称一笔超额认购的$15m融资将扩大秋冬钻探计划；页面未注明币种。",
+      "detail": "钻孔结果是勘探截段，不是资源量、储量或近期矿山产量；访谈页将融资金额写作$15m但未明确C$或US$，不能擅自换算。",
+      "importance": "超额认购的$15m融资让Getty South秋冬钻探从单一截段跟进转为可动用双钻机扩大验证，但该金额来源未说明币种，不能直接与其他融资规模比较。46米、1.47%铜矿段仍是勘探证据，后续需以更多孔位、连续性和资源估算确认其供给意义。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Ryan O’Regan and Roy Greig",
+        "background": "Getty Copper CEO and VP Exploration"
+      },
+      "companies": [
+        "Getty Copper"
+      ],
+      "projects": [
+        "Getty South",
+        "Highland Valley Copper District"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/09/23/oceanagold-production-growth-outlook-advancing-high-margin-gold-production-strategic-ma-and-balance-sheet-strength/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "管理层将Ausgold/Katanning收购及有机项目开发列入公司组合增长路径，并提及年产65万盎司黄金目标。",
+          "evidence": "KER 2026-09-23访谈页面列出Katanning收购、Macraes Phase 4、Waihi North及650,000 ounces per year路径。",
+          "source_url": "https://www.kereport.com/2026/09/23/oceanagold-production-growth-outlook-advancing-high-margin-gold-production-strategic-ma-and-balance-sheet-strength/",
+          "evidence_type": "direct interview publisher notes attributed to management",
+          "period": "company growth pathway; future project development",
+          "unit": "gold ounces per year",
+          "value": "650,000 oz/year pathway"
+        }
+      ],
+      "publish_date": "2026-09-23",
+      "title": "OceanaGold：Ausgold并购与有机项目推动生产增长访谈",
+      "source_type": "podcast",
+      "summary": "The Korelin Economics Report于9月23日采访OceanaGold高级副总裁Brian Martin，讨论Katanning项目并购、Macraes Phase 4及Waihi North等资产的开发顺序；访谈页称公司形成通往每年65万盎司黄金产量的增长路径。",
+      "detail": "65万盎司/年是管理层描述的组合增长路径，不是当前生产或已落实的公司指引；兑现依赖Katanning及有机项目建设、许可和投产。",
+      "importance": "每年65万盎司的组合目标把Katanning并购与Macraes、Waihi等有机项目放进同一中期供给路径，但仍属管理层增长愿景而非已实现产量。实际增量取决于并购整合、许可和各项目建设顺序；本期Part 3另列的Wharekirauponga钻探与选厂研究是不同的Waihi事件，不重复该公司目标。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Brian Martin",
+        "background": "OceanaGold Senior Vice President, Business Development and Investor Relations"
+      },
+      "companies": [
+        "OceanaGold"
+      ],
+      "projects": [
+        "Katanning",
+        "Macraes Phase 4",
+        "Waihi North"
+      ]
+    },
+    {
+      "url": "https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/g3-goldfields-inc/play",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "G3 Goldfields于2026年7月从G2 Goldfields spin-out，演示披露未审计现金约C$45m。",
+          "evidence": "官方会议页面关联的G3 Goldfields September 2026公司演示PDF列出spin-out月份和未审计现金余额。",
+          "source_url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004638_oyqZxIDg.pdf",
+          "evidence_type": "issuer company presentation",
+          "period": "September 2026 presentation; July 2026 spin-out",
+          "unit": "CAD",
+          "value": "C$45 million cash (unaudited)"
+        },
+        {
+          "claim": "公司将首轮勘探重点放在历史Peter’s Mine；演示描述历史矿区曾有超过41 g/t Au的高品位矿化。",
+          "evidence": "公司演示将Peter’s Mine称为历史生产矿，并把>41 g/t Au列为历史高品位信息；不是本轮孔结果。",
+          "source_url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004638_oyqZxIDg.pdf",
+          "evidence_type": "issuer company presentation; historical mining information",
+          "period": "initial exploration target; historical mine information",
+          "unit": "g/t Au",
+          "value": "historical >41 g/t Au; current assays not reported"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "G3 Goldfields：Guyana Oko金带首轮勘探公司演示",
+      "source_type": "company_presentation",
+      "summary": "G3 Goldfields在9月24日Precious Metals Summit公司演示中称，公司于2026年7月spin-out后持有约C$45m现金，首轮勘探重点为Guyana Oko金带的Peter’s Mine；演示引用的超过41 g/t金品位属于该历史矿区记录，并非本轮新钻探结果。",
+      "detail": "演示将Peter’s Mine定位为首轮勘探靶区；历史高品位不是本轮钻探结果或当前合规资源量。G3尚未报告当前Peter’s Mine钻孔结果。",
+      "importance": "约C$45m资金与Guyana本地勘探团队为首轮钻探提供执行能力，令G3从2026年7月spin-out后的资产组合进入验证阶段；但超过41 g/t是历史矿化记录，演示没有给出本轮孔结果或合规资源量。只有新化验、连续性和资源估算才能把勘探潜力转为可计量供给，现阶段不应上调产量预期。",
+      "verification_status": "verified",
+      "companies": [
+        "G3 Goldfields"
+      ],
+      "projects": [
+        "Oko Gold District",
+        "Peter’s Mine"
+      ]
+    },
+    {
+      "url": "https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/aya-gold-silver-inc/play",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "公司列出Zgounder 2026年银产量指引5.2至5.8 Moz。",
+          "evidence": "Aya Gold & Silver September 2026公司演示表格列明2026E silver production guidance。",
+          "source_url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004639_lkUDuwhv.pdf",
+          "evidence_type": "issuer company presentation; company guidance",
+          "period": "full-year 2026 estimate",
+          "unit": "million ounces of silver",
+          "value": "5.2-5.8 Moz Ag"
+        },
+        {
+          "claim": "Boumadine 2026 PEA估算前五年年均产量348 koz AuEq、全寿命年均271 koz AuEq，矿山寿命14年。",
+          "evidence": "演示的Boumadine PEA highlights页列出Y1-Y5、life-of-mine年均产量及14年矿山寿命，并声明PEA含推断资源。",
+          "source_url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004639_lkUDuwhv.pdf",
+          "evidence_type": "issuer preliminary economic assessment summary",
+          "period": "2026 PEA; first five years and 14-year life of mine",
+          "unit": "thousand ounces gold equivalent per year",
+          "value": "348 koz/y Y1-Y5; 271 koz/y LOM; 14 years"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "Aya Gold & Silver：Zgounder与Boumadine供应组合演示",
+      "source_type": "company_presentation",
+      "summary": "Aya Gold & Silver的9月24日公司演示列出Zgounder 2026年产银指引520万至580万盎司；Boumadine 2026年PEA估算前五年年均34.8万盎司AuEq、全寿命年均27.1万盎司AuEq，矿山寿命14年。",
+      "detail": "Zgounder是正在运营的银矿，2026产量为公司指引；Boumadine仍处PEA阶段、含推断资源且不是商业生产，AuEq由金、银、铅、锌价格折算。",
+      "importance": "近期银供应仍由运营中的Zgounder贡献；Boumadine则把Aya扩展为金主导多金属开发管线，14年PEA矿山寿命提供中长期时间锚点，因此可能增加未来金属供给。该PEA包含推断资源且项目未商业生产，兑现仍取决于可研、许可、融资和建设，不能将AuEq估算当作已落实的单一白银产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Aya Gold & Silver"
+      ],
+      "projects": [
+        "Zgounder Silver Mine",
+        "Boumadine Polymetallic Project"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/russia-to-make-miners-pay-for-high-war-spending-via-new-tax/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "财政部提出对黄金销售增量收入征税，拟议税率为20%；部分其他矿企及化肥企业拟适用30%。",
+          "evidence": "Mining.com刊载的Bloomberg News正文明确区分了财政部提案、黄金20%税率和其他行业30%税率。",
+          "source_url": "https://www.mining.com/web/russia-to-make-miners-pay-for-high-war-spending-via-new-tax/",
+          "evidence_type": "Bloomberg-attributed article text",
+          "period": "proposal reported 2026-09-24",
+          "unit": "percent tax rate",
+          "value": "20% gold; 30% some other miners and fertilizer producers"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "Mining.com（Bloomberg News）",
+      "title": "俄罗斯拟对黄金及部分矿业收入征收新税",
+      "excerpt": "Bloomberg报道，俄罗斯财政部提出针对黄金、部分基本金属和化肥销售增量收入征税；提案为黄金设定20%税率，其他部分矿企和化肥生产商拟适用30%税率。此方案仍是财政部提案，并非已生效税法。",
+      "language": "en",
+      "interpretation": "税案意在扩大财政收入，不表示矿山已减产或税负已落地。若获通过，黄金等资源企业可留存的额外现金可能减少，影响首先经由资本开支和项目回报传导。",
+      "importance": "若落地，20%的拟议黄金税率可能压缩矿企留存现金与扩产回报，但适用基数、立法程序和生效时间仍未确定。俄罗斯是重要黄金生产国，后续应跟踪正式法案及企业资本预算，不能把提案直接计作当期减产。",
+      "verification_status": "verified",
+      "companies": [
+        "Russian Ministry of Finance"
+      ],
+      "mining_com_source_note": "Mining.com gold分类页Playwright主路径HTTP 200、17篇报告日候选；普通HTTP文章请求返回403，随后同一Chrome 131/Chromium Playwright会话打开本文HTTP 200。正文署名Bloomberg News。未使用RSS、sitemap或Wayback。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://oceanagold.com/news/oceanagold-reports-exceptional-high-grade-drill-results-at-wharekirauponga-and-progress-on-waihi-north-project/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Wharekirauponga的16个新钻孔包括6.3米、97.2克/吨金的估算真厚度截段。",
+          "evidence": "OceanaGold 2026-09-24官方新闻稿列出孔号、截段、品位及估算真厚度。",
+          "source_url": "https://oceanagold.com/news/oceanagold-reports-exceptional-high-grade-drill-results-at-wharekirauponga-and-progress-on-waihi-north-project/",
+          "evidence_type": "direct issuer release",
+          "period": "2026 drilling results",
+          "unit": "metres and g/t Au",
+          "value": "6.3 m at 97.2 g/t Au"
+        },
+        {
+          "claim": "公司正在评估将Waihi选厂处理能力从800,000吨/年提升至1.2百万吨/年，并以2032年Wharekirauponga首产为目标。",
+          "evidence": "OceanaGold官方公告将该事项表述为技术研究评估，并给出项目首产目标年份。",
+          "source_url": "https://oceanagold.com/news/oceanagold-reports-exceptional-high-grade-drill-results-at-wharekirauponga-and-progress-on-waihi-north-project/",
+          "evidence_type": "direct issuer release",
+          "period": "2026 technical study; target first production 2032",
+          "unit": "tonnes per annum and year",
+          "value": "0.8 Mtpa to 1.2 Mtpa; 2032"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "OceanaGold",
+      "title": "OceanaGold在Wharekirauponga见高品位矿段，评估将Waihi选厂扩容50%",
+      "excerpt": "OceanaGold于9月24日公布Wharekirauponga 16个新钻孔结果，包括估算真厚度6.3米、97.2克/吨金，以及8.5米、41.5克/吨金；公司正在评估将Waihi处理能力从每年80万吨提高至120万吨，以支持Martha与Wharekirauponga于2032年后并行开采。",
+      "language": "en",
+      "interpretation": "上述高品位区位于公司已报储量之外，当前属于勘探和资源转换线索；120万吨/年是正在评估的处理能力，Wharekirauponga预计2032年才投产，均非当前新增产量。",
+      "importance": "若选厂扩至每年120万吨，Waihi可由先后接续转向Martha与Wharekirauponga并行处理，为新西兰金矿供应增加中长期平台；该方案仍待2027年1月技术报告评估，且6.3米高品位截段目前位于已报储量之外。资源转换、工程批准和2032年投产目标是供给兑现的关键闸门。",
+      "verification_status": "verified",
+      "companies": [
+        "OceanaGold"
+      ],
+      "projects": [
+        "Waihi",
+        "Wharekirauponga",
+        "Martha Underground"
+      ],
+      "mining_com_source_note": "Mining.com gold分类页Playwright主路径HTTP 200、17篇报告日候选发现；文章WebFetch直接请求HTTP 200。核心数字以OceanaGold于2026-09-24发布的官方公告逐项复核。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/video/silvers-bottleneck-is-at-the-refinery-not-the-vault-scottsdale-mint-ceo-says/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "美国精炼厂处理进度落后约3至4个月，但美国仍有充足的精炼成品银。",
+          "evidence": "Mining.com页面直接刊载Josh Phair在Top of Mine采访中的表述，并指出这是对加工积压和库存状态的评论。",
+          "source_url": "https://www.mining.com/video/silvers-bottleneck-is-at-the-refinery-not-the-vault-scottsdale-mint-ceo-says/",
+          "evidence_type": "direct interview article text",
+          "period": "as of 2026-09-24 interview",
+          "unit": "months of refining backlog and finished-silver availability",
+          "value": "3-4 months; ample finished refined silver in the US"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "Mining.com",
+      "title": "Scottsdale Mint CEO称白银瓶颈在精炼环节，非美国成品库存",
+      "excerpt": "Mining.com于9月24日刊出对Scottsdale Mint CEO Josh Phair的采访摘要。Phair称，因地缘变化使矿产银转向美国友好地区的精炼厂，精炼进度落后约3至4个月；同时美国仍有充足的精炼成品银。",
+      "language": "en",
+      "interpretation": "这是受访者对加工流向与库存的判断，描述精炼环节的区域性延迟，而不是矿山停产或美国银锭短缺。长期矿端风险来自多年投资不足、许可周期和司法辖区难度，仍需后续数据验证。",
+      "importance": "当前延迟发生在精炼而非矿山产出；受访CEO同时称美国精炼成品银供应充足，因此3至4个月的排队不能解读为即期银锭全面短缺。若积压持续并叠加多年矿山投资不足，瓶颈才可能向矿端上移，后续应跟踪交期与区域实物流向。",
+      "verification_status": "verified",
+      "companies": [
+        "Scottsdale Mint"
+      ],
+      "mining_com_source_note": "Mining.com silver分类页Playwright主路径HTTP 200、14篇报告日候选发现；普通HTTP文章请求返回403，随后同一Chrome 131/Chromium Playwright会话打开本文HTTP 200。页面为Mining.com Top of Mine对Scottsdale Mint CEO的采访摘要。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/indian-copper-producers-urge-government-to-cut-indirect-tax-to-5-from-18/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "印度铜生产商团体申请将铜产品GST从18%降至5%，并称现行税制占用超过4,900亿卢比营运资金。",
+          "evidence": "Mining.com刊载Reuters正文，记载BME及四家生产商的申请日期、税率诉求、营运资金估算和4至5个月加工周期。",
+          "source_url": "https://www.mining.com/web/indian-copper-producers-urge-government-to-cut-indirect-tax-to-5-from-18/",
+          "evidence_type": "Reuters-attributed article text",
+          "period": "petition sent 2026-09-22; reported 2026-09-24",
+          "unit": "GST percent and INR working capital",
+          "value": "18% requested to 5%; over INR 490 billion"
+        },
+        {
+          "claim": "BME信函称生产商承诺到2030年投入4,400亿卢比资本开支，预计创造45,000个岗位。",
+          "evidence": "Mining.com的Reuters报道将该数字归于提交给GST Council的BME信函。",
+          "source_url": "https://www.mining.com/web/indian-copper-producers-urge-government-to-cut-indirect-tax-to-5-from-18/",
+          "evidence_type": "Reuters report quoting industry petition",
+          "period": "through 2030 company/industry commitment",
+          "unit": "INR capex and jobs",
+          "value": "INR 440 billion; 45,000 jobs"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "Mining.com（Reuters）",
+      "title": "印度铜生产商要求将铜产品GST由18%降至5%以释放营运资金",
+      "excerpt": "Reuters报道，Bharat Metal Exchange及Hindalco、Vedanta、Kutch Copper和Hindustan Copper于9月22日向GST Council申请将铜产品间接税从18%降至5%。申请方称现行税制在4至5个月的加工周期中占用超过4,900亿卢比（约51.1亿美元）营运资金，并提出到2030年4,400亿卢比资本开支计划。",
+      "language": "en",
+      "interpretation": "税率调整尚未获批，资本开支也属于行业提交的承诺，不是已建产能。若流动性约束缓解，可能支持原料采购和国内冶炼投资，但实际传导要看GST Council决策及项目执行。",
+      "importance": "这项提案作用于加工周期中的资金周转，而非即时改变精炼铜产量：申请方估算超过4,900亿卢比被锁在4至5个月的流程中，降低税率或改善扩建与原料采购能力。到2030年的4,400亿卢比资本开支仍是企业承诺，后续须核实税改是否获批及新增产能何时兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Bharat Metal Exchange",
+        "Hindalco Industries",
+        "Vedanta",
+        "Kutch Copper",
+        "Hindustan Copper"
+      ],
+      "mining_com_source_note": "Mining.com copper分类页Playwright主路径HTTP 200、17篇报告日候选发现；普通HTTP文章请求返回403，随后同一Chrome 131/Chromium Playwright会话打开本文HTTP 200。正文为Reuters报道。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.stcn.com/article/detail/4198513.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "山东黄金董事会将2026年黄金产量计划从不低于49吨调整为36至38吨。",
+          "evidence": "证券时报·人民财讯页面引述公司9月24日董事会公告，并给出原计划和调整后区间。",
+          "source_url": "https://www.stcn.com/article/detail/4198513.html",
+          "evidence_type": "issuer-announcement reporting by Securities Times",
+          "period": "2026 annual plan revised on 2026-09-24",
+          "unit": "tonnes of mine-produced gold",
+          "value": "at least 49 t revised to 36-38 t"
+        },
+        {
+          "claim": "公司披露2025年矿产金产量48.89吨，并预计2026年同比减少约11至13吨。",
+          "evidence": "证券时报·人民财讯报道直接列出上一年实际产量和公司对2026年同比变化的说明。",
+          "source_url": "https://www.stcn.com/article/detail/4198513.html",
+          "evidence_type": "company result and outlook quoted by Securities Times",
+          "period": "2025 actual versus 2026 plan",
+          "unit": "tonnes of mine-produced gold",
+          "value": "48.89 t; expected decrease 11-13 t"
+        }
+      ],
+      "publish_time": "2026-09-24T17:05:00+08:00",
+      "source": "证券时报·人民财讯",
+      "title": "山东黄金下调2026年矿产金产量计划至36—38吨",
+      "excerpt": "山东黄金9月24日公告将2026年黄金产量计划由原“不低于49吨”调整为36—38吨；公司2025年矿产金实际产量为48.89吨，并预计2026年同比减少约11—13吨。",
+      "language": "zh",
+      "interpretation": "这是单一公司的年度生产计划，不代表全国或全球黄金产量的同幅下修。公司将调整归因于经营环境变化及项目建设推进，须区分管理层计划与最终实际产量。",
+      "importance": "新计划比2025年48.89吨实际产量低约11至13吨，显示安全与项目进度变化已传导为大型矿企的全年减供预期。该调整仍是公司指导值而非实际产量，后续要核实季度出矿、项目建设与安全运营，不能按单家公司差额外推全国或全球缺口。",
+      "verification_status": "verified",
+      "companies": [
+        "山东黄金矿业股份有限公司"
+      ]
+    },
+    {
+      "url": "https://www.manilatimes.net/2026/09/24/tmt-newswire/globenewswire/blossom-gold-intercepts-1068m-at-042gaut-and-448m-at-122gaut-and-extends-near-surface-mineralization-at-its-rosebud-open-pit-heap-leach-project/2432051",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "South Zone孔BG26-031见44.8米、1.22克/吨金，包含3.2米、5.06克/吨金。",
+          "evidence": "The Manila Times刊载的GlobeNewswire公司新闻稿列出孔号、截段和品位。",
+          "source_url": "https://www.manilatimes.net/2026/09/24/tmt-newswire/globenewswire/blossom-gold-intercepts-1068m-at-042gaut-and-448m-at-122gaut-and-extends-near-surface-mineralization-at-its-rosebud-open-pit-heap-leach-project/2432051",
+          "evidence_type": "issuer press release syndicated by GlobeNewswire",
+          "period": "2026 exploration drilling",
+          "unit": "metres and g/t Au",
+          "value": "44.8 m at 1.22 g/t; including 3.2 m at 5.06 g/t"
+        },
+        {
+          "claim": "近地表氧化矿孔RC26-009见60.1米、0.33克/吨金；2026年计划尚有11,585米地表钻探，资源估算预期2027年Q1发布。",
+          "evidence": "新闻稿的highlight和program update列出近地表截段、剩余钻探进尺和资源估算时间。",
+          "source_url": "https://www.manilatimes.net/2026/09/24/tmt-newswire/globenewswire/blossom-gold-intercepts-1068m-at-0-42gau-t-and-448m-at-122gaut-and-extends-near-surface-mineralization-at-its-rosebud-open-pit-heap-leach-project/2432051",
+          "evidence_type": "issuer press release syndicated by GlobeNewswire",
+          "period": "2026 drill program; resource estimate expected Q1 2027",
+          "unit": "metres and date",
+          "value": "60.1 m at 0.33 g/t Au; 11,585 m remaining; Q1 2027 MRE target"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "Blossom Gold / GlobeNewswire（The Manila Times转载）",
+      "title": "Blossom Gold在Rosebud取得厚层黄金截段，推进近地表勘探",
+      "excerpt": "Blossom Gold报告Rosebud South Zone钻孔BG26-031见44.8米、1.22克/吨金（含3.2米、5.06克/吨）；近地表氧化矿RC孔见60.1米、0.33克/吨金。2026年已完成19,911米钻探，另有11,585米地表钻探计划，更新矿产资源估算预计2027年第一季度发布。",
+      "language": "en",
+      "interpretation": "厚层截段支持South Zone及近地表氧化带扩张，但钻探结果尚未转换为资源或储量；Heap-leach经济性仍需品位连续性、氧化状态和冶金测试验证。",
+      "importance": "近地表氧化矿是露天堆浸路线的关键，60.1米见矿为该方向提供了直接靶区证据，而44.8米、1.22克/吨的South Zone截段支持矿体扩展。2026年仍有11,585米计划钻探、资源更新排到2027年第一季度，故当前只增加勘探管线，不能提前计入可售黄金。",
+      "verification_status": "verified",
+      "companies": [
+        "Blossom Gold"
+      ],
+      "projects": [
+        "Rosebud Open-Pit Heap-Leach Project"
+      ]
+    },
+    {
+      "url": "https://collectivemining.com/collective-mining-discovers-high-grade-tungsten-and-gold-mineralization-in-schist-at-depth-outside-the-apollo-breccia-body/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "APC150-D4在地表下927米见8.15米、14.82克/吨AuEq，其中含8.47克/吨金、0.40% WO3及4克/吨银。",
+          "evidence": "Collective Mining 2026-09-24官方新闻稿给出区间、深度、等价品位和组成金属分析。",
+          "source_url": "https://collectivemining.com/collective-mining-discovers-high-grade-tungsten-and-gold-mineralization-in-schist-at-depth-outside-the-apollo-breccia-body/",
+          "evidence_type": "direct issuer release and assay table",
+          "period": "2026 Guayabales drilling results",
+          "unit": "metres, g/t AuEq, g/t Au, percent WO3 and g/t Ag",
+          "value": "8.15 m at 14.82 g/t AuEq; 8.47 g/t Au; 0.40% WO3; 4 g/t Ag"
+        },
+        {
+          "claim": "公司称该矿化位于Apollo已定义资源模型以外，后续需要钻探确定范围和连续性。",
+          "evidence": "发行人新闻稿说明孔位位于南侧breccia body外侧，并计划追加钻探。",
+          "source_url": "https://collectivemining.com/collective-mining-discovers-high-grade-tungsten-and-gold-mineralization-in-schist-at-depth-outside-the-apollo-breccia-body/",
+          "evidence_type": "direct issuer release",
+          "period": "as of 2026-09-24; follow-up exploration pending",
+          "unit": "geological location and milestone",
+          "value": "outside current resource model; follow-up drilling planned"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "Collective Mining",
+      "title": "Collective Mining在Apollo资源模型外发现深部钨金矿化",
+      "excerpt": "Collective Mining公布Guayabales四个钻孔结果，孔APC150-D4在地表下927米见8.15米、14.82克/吨AuEq，包含8.47克/吨金、0.40% WO3和4克/吨银；矿段位于Apollo当前资源模型南缘以外。",
+      "language": "en",
+      "interpretation": "AuEq包含金与钨价值，不能等同于单一金品位；新矿段在深部、模型外，仍属单孔勘探发现，没有资源分类、储量或近期生产安排。",
+      "importance": "8.15米、8.47克/吨实际金品位和0.40% WO3截段位于Apollo模型南界之外、地下927米，因此打开围岩深部新靶区。该矿段尚无资源分类且仅由首孔识别，后续加密钻探和连续性将决定其能否纳入长期黄金供给估算，短期产量不变。",
+      "verification_status": "verified",
+      "companies": [
+        "Collective Mining"
+      ],
+      "projects": [
+        "Guayabales Project",
+        "Apollo Deposit"
+      ]
+    },
+    {
+      "url": "https://www.miningstockdaily.com/episodes/morning-briefing-treasury-yields-surge-collective-mining-hits-a-new-tungsten-gold-zone",
+      "metal_tags": [
+        "copper",
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Wedge Mine孔WD-26-14见14.15米真厚度、5.09% CuEq，包括6.00米、7.45% CuEq。",
+          "evidence": "Mining Stock Daily 2026-09-24公开节目页的详细show notes列出孔号、true width、等价品位和包含区间。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-treasury-yields-surge-collective-mining-hits-a-new-tungsten-gold-zone",
+          "evidence_type": "publisher show notes reporting issuer drill release",
+          "period": "2026-09-24 drilling update",
+          "unit": "metres true width and percent CuEq",
+          "value": "14.15 m at 5.09% CuEq; including 6.00 m at 7.45% CuEq"
+        },
+        {
+          "claim": "该区间平均含2.10% Cu、4.85% Zn、0.84 g/t Au及42.31 g/t Ag，CuEq计算对五种金属统一假设95%回收率。",
+          "evidence": "同一节目页show notes列出组成金属品位并明确回收率假设由公司承认仍属初步。",
+          "source_url": "https://www.miningstockdaily.com/episodes/morning-briefing-treasury-yields-surge-collective-mining-hits-a-new-tungsten-gold-zone",
+          "evidence_type": "publisher show notes reporting issuer drill release",
+          "period": "2026-09-24 assay interval and preliminary equivalency calculation",
+          "unit": "percent Cu/Zn; g/t Au/Ag; percent recovery assumption",
+          "value": "2.10% Cu; 4.85% Zn; 0.84 g/t Au; 42.31 g/t Ag; 95% recovery assumption"
+        }
+      ],
+      "publish_time": "2026-09-24",
+      "source": "Mining Stock Daily (Clear Commodity Network)",
+      "title": "Nine Mile Metals：Wedge矿山钻孔见14.15米铜当量矿化",
+      "excerpt": "Mining Stock Daily 9月24日早间简报称，Nine Mile Metals孔WD-26-14在Wedge矿山截获14.15米真厚度、5.09% CuEq，包括6.00米、7.45% CuEq；区间实际铜品位平均2.10%，另含4.85%锌、0.84克/吨金及42.31克/吨银。简报指出CuEq计算将五种金属回收率统一假设为95%，公司称该假设尚早。",
+      "language": "en",
+      "interpretation": "项目是多金属VMS勘探，5.09% CuEq并非实际铜品位；高等价品位依赖锌、金、银等副金属及尚未验证的统一回收率假设。暂无资源估算或矿山产量，不能将其换算为近期铜供应。",
+      "importance": "实际铜品位约2.10%，低于5.09% CuEq，且该等价数采用五种金属统一95%回收率的早期假设，因此该截段首先体现多金属靶区潜力，不能直接推算铜产量。后续选冶试验和资源模型需厘清锌、金、银等副产回收对项目价值的贡献，当前仍属远期勘探线索。",
+      "verification_status": "verified",
+      "companies": [
+        "Nine Mile Metals"
+      ],
+      "projects": [
+        "Wedge Mine",
+        "Bathurst Camp"
+      ]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Part 1窗口为2026-09-22 00:00至2026-09-24 23:59:59北京时间。按种子中的KER、iHeart/Company Interviews、Proactive、The Assay及Precious Metals Summit会议日历检查。",
+      "Precious Metals Summit官方页面https://www.precioussummit.com/events/2026-precious-metals-summit-beaver-creek/确认会议为2026-09-22至09-25；官方webcast日程https://www.gowebcasting.com/conferences/2026/09/22/precious-metals-summit/day/3列出9月24日公司演示。",
+      "9月24日G3 Goldfields webcast页https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/g3-goldfields-inc/play及其官方PDF已直接打开；核对演示标题、日期、C$45m现金口径、Peter’s Mine初期勘探重点及历史品位说明。",
+      "9月24日Aya Gold & Silver webcast页https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/aya-gold-silver-inc/play及其官方PDF已直接打开；核对Zgounder 2026E指引和Boumadine 2026 PEA生产曲线及风险披露。",
+      "KER首页直接检查9月22日至24日条目：纳入West Red Lake Gold（9月24日）、Getty Copper（9月23日）及OceanaGold（9月23日）三条访谈；逐页打开并核对标题、发布日期、嘉宾及show notes。West Red Lake Q2数字又与发行人Q2公告复核。",
+      "KER的2026-09-22 Sitka Gold、Vizsla Silver及Summit Royalties三篇访谈已出现在2026-09-22日报，按URL去重；Darrell Fletcher条目属于宏观/交易台评论且没有可归因的具体实体供需变化；Firefox Gold页面称其回放原播出日为9月18日且无本窗口新增事实，均排除。",
+      "Mining Stock Daily 9月24日Morning Briefing页面已打开，作为Part 1的新闻简报不当作访谈纳入；其Nine Mile Metals详细show notes作为Part 3候选来源核验。",
+      "The Assay及Resource Talks目录页面已检查，相关候选发布日期为窗口外；Proactive与iHeart页面及搜索入口检查未发现可直接核验的新增窗口内采访。针对这些站点的部分Brave定向查询返回HTTP 429；没有将其搜索摘要当作事实。",
+      "Investing.com的G3及Novo会议转录候选以搜索发现，但原页直连及Chromium访问均返回HTTP 403；未使用其摘要或未核验内容。"
+    ],
+    "part1_result": "Part 1检索完整，纳入5条：3条在窗口内发布的KER管理层访谈，以及Precious Metals Summit于9月24日举行的G3 Goldfields和Aya Gold & Silver两份公司演示。所有入选页面及证据文档均打开核验标题、日期和数字；重复访谈、旧回放、宏观评论与受限转录排除。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行日报固定Python的scripts/daily_pipeline.py 2026-09-24 --collect-x；run_id=2026-09-24-20260924T230247064050Z-23744。",
+      "scripts/x_search.py按Playwright→twscrape顺序处理注册表账号；Playwright持久化登录会话完成53/53账号、0失败、16条原始候选，因全账号成功未启动twscrape。",
+      "保留x_outputs/2026-09-24_x_raw_materials.txt及x_outputs/2026-09-24_x_raw_materials.json sidecar；逐条审阅作者、handle、正文、原帖URL和北京时间。"
+    ],
+    "part2_result": "Part 2完整：Playwright 53/53账号完成、0失败，保留16条原始候选；0条纳入，候选为价格/利率宏观观点、推广/付费内容、含糊的项目预告或没有金银铜实体供需新增事实。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright完整处理所有个人及官方账号；完整零失败状态后按规则停止，未触发twscrape回退。",
+        "sidecar保留16条原始候选及53/53账户审计。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/ Playwright主路径成功，17篇报告日文章候选；/commodity/gold/成功17篇；/commodity/silver/成功14篇。三页均HTTP 200，DOM标题、链接和报告日日期通过真实性检查。",
+      "按要求尝试Google site:mining.com gold 2026-09-24及silver 2026-09-24；两次HTTP 200响应均为Google重定向/JavaScript提示页，无可解析SERP，因此实际可计的站内搜索命中为0（搜索服务响应受限），不以摘要作为证据。",
+      "WebFetch尝试Mining.com金、银分类页均返回HTTP 403；已由同一固定Python+Chromium Playwright主路径成功抓取。铜分类页Playwright主路径成功，且有合格供需候选，未触发铜页Google备用查询。未使用sitemap、RSS或Wayback。",
+      "OceanaGold：Mining.com金分类页发现，文章WebFetch HTTP 200；正式卡片事实以发行人2026-09-24新闻稿https://oceanagold.com/news/oceanagold-reports-exceptional-high-grade-drill-results-at-wharekirauponga-and-progress-on-waihi-north-project/核实。",
+      "Russian tax与印度铜GST：Mining.com金/铜分类页发现；普通HTTP文章请求分别返回403，同一Playwright会话打开正文均HTTP 200。前者标注Bloomberg News，后者标注Reuters；逐项核对提案状态、税率、金额与发布日期。",
+      "Scottsdale Mint白银精炼采访：Mining.com银分类页发现；普通HTTP请求403，同一Playwright会话打开正文HTTP 200，核对CEO归因、3至4个月延迟及美国精炼成品库存充足的限定。",
+      "Collective Mining 9月24日钻探结果通过发行人官网https://collectivemining.com/collective-mining-discovers-high-grade-tungsten-and-gold-mineralization-in-schist-at-depth-outside-the-apollo-breccia-body/核实标题、日期、APC150-D4孔号、金/钨数字和资源模型外位置。",
+      "Blossom Gold新闻稿由The Manila Times转载GlobeNewswire页https://www.manilatimes.net/2026/09/24/tmt-newswire/globenewswire/blossom-gold-intercepts-1068m-at-042gaut-and-448m-at-122gaut-and-extends-near-surface-mineralization-at-its-rosebud-open-pit-heap-leach-project/2432051直接打开，核对9月24日、钻孔、品位、计划进尺及2027年Q1资源估算时间。",
+      "Nine Mile Metals：Mining Stock Daily 9月24日节目页直接打开，show notes列出WD-26-14实际铜/锌/金/银品位和95%统一回收率假设。Junior Mining Network/Stockhouse转载页面返回403，故明确以该可打开行业媒体节目页为引用来源，不将其冒充发行人页面。",
+      "中文检索使用Sogou动态查询2026年9月24日矿业/金银铜公告，发现证券时报·人民财讯山东黄金产量计划下调报道；该文章https://www.stcn.com/article/detail/4198513.html直接打开HTTP 200，核对发布时间、董事会计划、2025年实际产量和2026年同比变化。中文搜索中的价格复述、泛宏观及窗口外项目内容排除。",
+      "A2Gold 141.10 g/t新闻稿PRNewswire元数据日期为2026-09-21，Mining.com sponsored-content卡片的日期上下文不充分，按窗口外排除；Kinross 9月24日媒体报道复述9月23日已纳入前一日报的公司指引更新，去重排除。BHP事故、阿根廷走廊为9月23日事件；其他纯价格、宏观、铬/镍/锂内容不纳入。"
+    ],
+    "part3_result": "Part 3英文及中文来源检索完整。纳入8条经核验信号：黄金5条（山东黄金计划下修、OceanaGold钻探/扩建、Blossom Gold勘探、Collective深部金钨勘探及俄罗斯拟议税案）；白银1条精炼瓶颈访谈；铜2条（印度GST提案、Nine Mile多金属钻探）。同一新闻简报中重复的独立公司公告只保留最直接来源。",
+    "mining_com_source_note": "严格执行Playwright直接抓取https://www.mining.com/commodity/copper/，报告日DOM文章17篇；辅助金、银分类页分别17篇和14篇。WebFetch直接抓取金/银分类页为403，之后用同一Chromium Playwright抽取成功；入选文章逐篇记录直连/Playwright/发行人或可靠转载核验路径。Google site:金/银查询受重定向提示限制，未用搜索摘要作证据；未使用RSS、sitemap或Wayback。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 13,
+      "passed": 13,
+      "failed": 0,
+      "failures": [],
+      "notes": "5条Part 1、8条Part 3入选卡片的展示URL均已打开核验标题、发布日期/演示日、主体和使用事实；部分Part 3 Mining.com正文经Playwright核验，来源路径见对应mining_com_source_note。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/22/sitka-gold-high-grade-gold-results-at-blackjack-saddle-eiger-rc-gold-project-yukon/",
+      "https://www.kereport.com/2026/09/22/vizsla-silver-panuco-project-update-site-access-the-path-and-timeline-to-production/",
+      "https://www.kereport.com/2026/09/22/summit-royalties-comprehensive-update-on-4-producing-and-3-key-development-assets/"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/RealRickRule/status/2103142291200528398：仅转发YouTube节目标题及宣传语，原帖未提供可核验的金属供需事实。",
+      "https://x.com/RealRickRule/status/2103139969896529929：银矿股/投资配置观点，无新增矿山产量、项目或实物需求数据。",
+      "https://x.com/RealRickRule/status/2103131210017038727：重复宣传同一Mexico silver YouTube视频，正文没有实体供需数字。",
+      "https://x.com/KatusaResearch/status/2103151523874447835：黄金计价股指的宏观比较，不是黄金供需变化。",
+      "https://x.com/KatusaResearch/status/2102826432028348860：多矿种笼统预告，无项目、数量或可核验供需信息。",
+      "https://x.com/KatusaResearch/status/2102811034755154025：Canadian mining/energy项目的含糊 teaser，没有指明金银铜实体变化。",
+      "https://x.com/TheDailyGold/status/2102820841633529991：利率、收益率与贵金属价格的宏观观点，无新增实物供需事实。",
+      "https://x.com/peter_krauth/status/2103144902783844504：推广付费newsletter；仅称已钻2,000多米且化验待出，没有新结果或可验证的资源变化。",
+      "https://x.com/peter_krauth/status/2102836453533491215：BRC Silver营销及持仓观点，没有新的可核验矿山供需事实。",
+      "https://x.com/ArcadiaEconomic/status/2103073659304976623：转述香港黄金、债券及流动性政策新闻标题，没有原帖新增实物黄金供需数据。",
+      "https://x.com/ArcadiaEconomic/status/2102911590471291267：仅分享YouTube标题，没有可核验的中国黄金进口数量或原始数据。",
+      "https://x.com/ArcadiaEconomic/status/2102840615021220059：债券与中国黄金进口的泛化宏观评论，没有可核验数量或来源。",
+      "https://x.com/RonStoeferle/status/2103138975993184290：Precious Metals Summit现场债券/贵金属价格情绪评论，不涉及实体供需。",
+      "https://x.com/RonStoeferle/status/2102856688625950923：仅介绍与Kitco的访谈主题，没有摘录可核验的金银铜供需观点或数据。",
+      "https://x.com/LawrenceLepard/status/2102896811459711174：个人生活内容，与金银铜无关。",
+      "https://x.com/Junior_Stock/status/2103131319345852479：笼统评论铜叙事及会议演讲，没有新增项目、数量或供需事实。"
+    ],
+    "part3_deduped_events": [
+      "Kinross 2026—2027年产量指引下调：Mining.com 9月24日报道的底层公司更新已于9月23日纳入2026-09-23日报，按同一事件排除。",
+      "A2Gold Castle 141.10 g/t钻孔公告：PRNewswire实际发布日期为2026-09-21，尽管Mining.com sponsored-content卡片出现在分类页，仍因报告日窗口外排除；McIntosh/Eastside sponsored候选未能核实窗口日期，不纳入。",
+      "BHP Escondida事故及美国—阿根廷矿业走廊的原始事件日期为2026-09-23，不属于本期Part 3报告日；BHP事故亦与前一日报重复。",
+      "Mining Stock Daily 9月24日简报重复摘述OceanaGold、Blossom Gold及Collective Mining发行人公告；这三项保留直接发行人/新闻稿来源，简报仅用于候选发现。Nine Mile Metals发行人转载页面403，使用可打开且含完整show notes的Mining Stock Daily页面作为唯一引用来源。",
+      "Mining.com分类页中的纯金/铜价格评论、宏观判断、上市融资但无增发、铬/镍/锂项目，以及无目标金属供需传导的内容均排除。"
+    ],
+    "notes": "跨日、跨来源和跨栏目按事件、核心数据及窗口去重。Part 1 OceanaGold访谈讨论Ausgold/Katanning组合增长路径；Part 3 OceanaGold发行人公告为Wharekirauponga新钻孔和Waihi处理能力评估，关注事项不同，分列保留。其余Mining Stock Daily简报与公司公告不重复展示。RUN_DATE为周五，不适用周六TC更新。 Part 2的16条X原始候选均有逐条筛选理由，完整原文及sidecar另存按日期文件。"
+  }
+}
