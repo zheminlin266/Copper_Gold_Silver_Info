@@ -1,0 +1,452 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-25",
+  "report_time": "2026-09-26T11:12:01+08:00",
+  "summary": "黄金：Ashley Gold高品位截段扩展勘探潜力，Sun Summit化验仍待出炉，均未转化为新增产量。白银：GR Silver在San Marcial推进加密钻探，资源更新目标为2027年上半年。铜：Escondida逐步复产缓解停工风险，秘鲁远期扩产规划与赞比亚硫酸供应约束并存。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-23T00:00:00+08:00",
+      "end": "2026-09-25T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-25T00:00:00+08:00",
+      "end": "2026-09-25T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-25T00:00:00+08:00",
+      "end": "2026-09-25T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kitco.com/news/video/2026-09-25/mackay-gold-brings-the-comstock-district-under-one-roof-darwin-green",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mackay Gold & Silver CEO Darwin Green said consolidating the major historic lodes across Nevada's Comstock district enables district-scale exploration for the first time.",
+          "evidence": "Kitco Mining interview page directly describes the lode consolidation and the removal of property-boundary barriers that limited exploration.",
+          "source_url": "https://www.kitco.com/news/video/2026-09-25/mackay-gold-brings-the-comstock-district-under-one-roof-darwin-green",
+          "evidence_type": "Direct Kitco Mining video-interview page and video metadata",
+          "period": "2026 Precious Metals Summit interview; current Comstock exploration position",
+          "unit": "land package and exploration access",
+          "value": "major historic lodes consolidated; district-scale exploration"
+        },
+        {
+          "claim": "Step-out drilling at Occidental South extended the known mineralized zone to roughly 550 metres; management also aims to frame 2–3 million ounces over 12–24 months through drilling and conversion of historic estimates.",
+          "evidence": "The interview page attributes both the 550-metre extension and the 2–3 million-ounce, 12–24-month goal to CEO Darwin Green.",
+          "source_url": "https://www.kitco.com/news/video/2026-09-25/mackay-gold-brings-the-comstock-district-under-one-roof-darwin-green",
+          "evidence_type": "Direct Kitco Mining interview summary attributed to the CEO",
+          "period": "Maiden drill program; management target over the next 12–24 months",
+          "unit": "metres of known zone; ounces (metal-equivalent basis not specified)",
+          "value": "approximately 550 m; 2–3 million ounces prospective target"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Mackay Gold brings the Comstock district under one roof | Darwin Green",
+      "source_type": "conference_interview",
+      "summary": "Kitco Mining在2026年Precious Metals Summit采访Mackay Gold & Silver CEO Darwin Green。Green称整合Comstock地区主要历史矿脉后，公司首次可按区域尺度部署勘探；Occidental South步进钻探把已知矿化延伸至约550米，并提出未来12–24个月框定200万至300万盎司的管理层目标。",
+      "detail": "2–3百万盎司是管理层目标，来源未说明等价金属口径，不能视为合规资源或储量；约550米指已知矿化带范围，不是真厚度或已确认资源。",
+      "importance": "跨矿权整合让Comstock从分散历史矿脉转向可做区级连续勘探，是项目验证范围扩大而非已新增资源量。约550米是已知矿化带的延伸范围，不代表真厚度；2–3百万盎司为未来12–24个月管理层目标，需新钻孔和历史估算转换确认后才可能进入长期供给。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Darwin Green",
+        "background": "Mackay Gold & Silver CEO and Director"
+      },
+      "companies": [
+        "Mackay Gold & Silver"
+      ],
+      "projects": [
+        "Comstock District",
+        "Occidental South",
+        "Sutro Tunnel"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/gr-silver-infills-record-silver-hole-ahead-of-2027-resource-update",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "GR Silver's May 2026 hole SMS26-04 at San Marcial returned 45.1 metres true width at 1,623 g/t silver, including 8.25 metres at 8,579 g/t silver.",
+          "evidence": "Crux Investor interview page reproduces the hole number, true width, grade and included interval and links the May 2026 issuer release.",
+          "source_url": "https://www.cruxinvestor.com/posts/gr-silver-infills-record-silver-hole-ahead-of-2027-resource-update",
+          "evidence_type": "Direct Crux interview article with linked issuer drill release",
+          "period": "May 2026 drill result; discussed in September 25, 2026 interview",
+          "unit": "metres true width and grams per tonne silver",
+          "value": "45.1 m at 1,623 g/t Ag; including 8.25 m at 8,579 g/t Ag"
+        },
+        {
+          "claim": "At interview publication, about 7,000 metres of the 20,000-metre program were completed; infill drilling at about 45-metre spacing aimed to move the zone toward indicated classification ahead of an H1 2027 resource update.",
+          "evidence": "The interview page records CEO Eric Zaunscherb's current drilling progress, infill spacing and resource-update target.",
+          "source_url": "https://www.cruxinvestor.com/posts/gr-silver-infills-record-silver-hole-ahead-of-2027-resource-update",
+          "evidence_type": "Direct interview page with management-attributed program status and target",
+          "period": "2026 drilling program; resource update targeted H1 2027",
+          "unit": "metres drilled, infill spacing, target date",
+          "value": "approximately 7,000/20,000 m; 45 m spacing; H1 2027"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "GR Silver Infills Record Silver Hole Ahead of 2027 Resource Update",
+      "source_type": "youtube",
+      "summary": "CEO Eric Zaunscherb称San Marcial的20,000米钻探计划已完成约7,000米；五月SMS26-04取得45.1米真厚度、1,623克/吨银的高品位截段后，当前以约45米间距加密，支撑2027年上半年资源更新。",
+      "detail": "45.1米截段发表于2026年5月，并非9月25日新化验。本次新增的是钻探进度与资源转换安排；安全、雨季道路和审批仍可能影响后续工作，当前没有新增矿山产量。",
+      "importance": "本次访谈的新信息是资源转化和进度，而非五月高品位孔重发：20,000米计划约完成7,000米，拟收紧至45米间距以争取将发现升级至指示资源，目标于2027年上半年更新。若Sinaloa治安和道路条件继续拖慢钻探，近期白银供应不会增加，后续应看化验、矿化连续性与审批进度。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Eric Zaunscherb",
+        "background": "GR Silver Mining President and CEO"
+      },
+      "companies": [
+        "GR Silver Mining"
+      ],
+      "projects": [
+        "San Marcial",
+        "Plomosas"
+      ]
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/315966",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "CEO.CA's September 25 release says Sixty North Gold CEO Dave Webb discussed an unconventional restart strategy for the past-producing Mon Gold Mine; the interview was recorded September 14.",
+          "evidence": "The Newsfile release directly names Webb, the Mon Gold Mine, the interview topic, publication date and recording date; it does not state a new restart schedule.",
+          "source_url": "https://www.newsfilecorp.com/release/315966",
+          "evidence_type": "Direct Newsfile release and interview description",
+          "period": "Interview recorded 2026-09-14; published 2026-09-25",
+          "unit": "publication/recording dates and restart topic",
+          "value": "strategy discussion; no restart date or current output disclosed"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "CEO.CA's Inside the Boardroom: Sixty North Gold on Fast-Track to Gold Mine Restart",
+      "source_type": "youtube",
+      "summary": "CEO.CA于9月25日刊出对Sixty North Gold CEO Dave Webb的采访，主题为西北地区历史Mon Gold矿的非传统重启策略；采访录制于9月14日，新闻稿未提供新的复产时间或运营数据。",
+      "detail": "该页面是视频访谈发行说明，未提供新的许可、施工或投产里程碑；标题中的“Fast-Track”不能视作已复产或已落实时间表。",
+      "importance": "这条发布只能确认管理层仍在讨论Mon Gold重启策略，新闻稿没有提供新的许可、施工或投产节点，因此不足以改变近端黄金供应判断。标题中的“Fast-Track”不是复产证明，后续须等待公司披露的审批状态、现场工程和实际产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Dave Webb",
+        "background": "Sixty North Gold Mining President and CEO"
+      },
+      "companies": [
+        "Sixty North Gold Mining Ltd."
+      ],
+      "projects": [
+        "Mon Gold Mine"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/Junior_Stock/status/2103453309981839630",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Sun Summit completed 55 drill holes totaling more than 16,000 metres across Creek, Finn and Schmitt at its JD Project; assays remained pending and the company targeted an inaugural resource estimate for Q1 2027.",
+          "evidence": "The September 15 issuer release confirms program completion, metres, hole count, zones, pending assays and the Q1 2027 resource-estimate target; Brian Leni's September 25 X post repeats the completion status while promoting a Field Notes episode.",
+          "source_url": "https://www.newsfilecorp.com/release/314351",
+          "evidence_type": "Direct issuer release cross-checking an original X post",
+          "period": "2026 JD Project drill program; issuer announcement 2026-09-15; X post 2026-09-25",
+          "unit": "drill holes, metres and target date",
+          "value": "55 holes; >16,000 m; assays pending; Q1 2027 resource target"
+        }
+      ],
+      "publish_time": "2026-09-25T19:55:24+08:00",
+      "author": "Brian Leni",
+      "handle": "Junior_Stock",
+      "excerpt": "Brian Leni称Sun Summit Minerals的JD项目已完成55孔、超过16,000米钻探，覆盖Creek、Finn和新测试的Schmitt Zone；化验仍待发布。",
+      "interpretation": "该X帖推广一集新Field Notes节目，但所述钻探完成进度可由9月15日公司公告核实；这是勘探管线进度，不代表已形成资源、储量或可售黄金/白银。",
+      "importance": "完成超过16,000米钻探并把Schmitt纳入测试，扩大了JD资源估算的验证范围，但55孔尚未披露化验，不能据此提高当前金供应预期。首份资源估算目标在2027年Q1，矿化连续性、金银品位和资源分类才决定其能否成为长期供应。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.thenewswire.com/press-releases/1L5PFrvY6-ashley-gold-corp-announces-drilling-discovery-in-eastern-step-out-of-67z-cutting-3-333-g-t-au-over-60-00m-from-24-00m-downhole-including-229-g-t-au-over-0-65m-at-63-15m-downhole-abutting-the-nexgold-goliath-gold-complex.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "TAK-26-16 at Ashley Gold's Tak Project returned 60.00 metres downhole at 3.333 g/t Au from 24.00 metres, including 0.65 metres at 229 g/t Au at 63.15 metres.",
+          "evidence": "The issuer's September 25 release provides the hole interval and assay table; the reported interval is downhole length, not true width.",
+          "source_url": "https://www.thenewswire.com/press-releases/1L5PFrvY6-ashley-gold-corp-announces-drilling-discovery-in-eastern-step-out-of-67z-cutting-3-333-g-t-au-over-60-00m-from-24-00m-downhole-including-229-g-t-au-over-0-65m-at-63-15m-downhole-abutting-the-nexgold-goliath-gold-complex.html",
+          "evidence_type": "Direct issuer assay release distributed by TheNewswire",
+          "period": "Phase III drilling; September 25, 2026 release",
+          "unit": "downhole metres and grams per tonne gold",
+          "value": "60.00 m at 3.333 g/t Au; including 0.65 m at 229 g/t Au"
+        },
+        {
+          "claim": "The company said there were not yet enough assay counts to statistically identify an appropriate grade cap for the high-grade zone and used a 40 g/t cap only for demonstration.",
+          "evidence": "The issuer release explicitly distinguishes the illustrative 40 g/t cap from assumptions for a future block or resource model.",
+          "source_url": "https://www.thenewswire.com/press-releases/1L5PFrvY6-ashley-gold-corp-announces-drilling-discovery-in-eastern-step-out-of-67z-cutting-3-333-g-t-au-over-60-00m-from-24-00m-downhole-including-229-g-t-au-over-0-65m-at-63-15m-downhole-abutting-the-nexgold-goliath-gold-complex.html",
+          "evidence_type": "Direct issuer release and grade-cap disclosure",
+          "period": "September 25, 2026 release; current Phase III assay set",
+          "unit": "g/t Au cap and assay sample count",
+          "value": "40 g/t illustrative cap; statistical cap not yet established"
+        }
+      ],
+      "publish_time": "2026-09-25",
+      "source": "TheNewswire (Ashley Gold Corp. issuer release)",
+      "title": "Ashley Gold在Tak项目东部步进孔见60米、3.333克/吨金",
+      "excerpt": "Ashley Gold报告TAK-26-16在Tak项目从24米起见60.00米、3.333克/吨金的下孔截段，含0.65米、229克/吨金；公司表示高品位区样本数尚不足以统计确定封顶值。",
+      "language": "en",
+      "interpretation": "这是勘探截段，不是真厚度、资源量或产量。公司暂以40克/吨作示例封顶，并明确该值不代表未来资源模型假设；四个Phase III孔的化验仍待发布。",
+      "importance": "60米下孔截段与229克/吨高品位窄段显示Tak存在新的浅部金矿化靶区，但单孔结果尚不代表真厚度、连续性或资源规模。公司称高品位区化验数量不足以确定合适的统计封顶，后续加密孔和剩余化验将决定其是否可能扩展长期金供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Ashley Gold Corp."
+      ],
+      "projects": [
+        "Tak Project",
+        "Burnthut Project"
+      ]
+    },
+    {
+      "url": "https://news.metal.com/newscontent/104134711-sulphuric-acid-shortage-emerges-as-a-constraint-on-zambias-copper-growth",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Zambia's H1 2026 small-scale copper production fell 35.2% year on year; SMM says inadequate domestic sulphuric-acid supply and a delayed rainy-season end were among the factors, while national production rose 0.45% to 447,181 tonnes.",
+          "evidence": "SMM's September 25 analysis attributes the figures to Zambia Ministry of Mines data and identifies acid supply as a partial, not exclusive, cause.",
+          "source_url": "https://news.metal.com/newscontent/104134711-sulphuric-acid-shortage-emerges-as-a-constraint-on-zambias-copper-growth",
+          "evidence_type": "SMM analysis citing Zambia Ministry of Mines data",
+          "period": "H1 2026 year over year",
+          "unit": "tonnes of copper and percent change",
+          "value": "447,181 t national output (+0.45%); small-scale production -35.2%"
+        },
+        {
+          "claim": "Jubilee Metals reported domestic acid costs up more than 200% in Q4 FY2026; Sable Refinery produced 250 tonnes of copper cathode in Q4 versus 361 tonnes in Q3, with maintenance and pre-stripping also contributing to the decline.",
+          "evidence": "SMM's review of Jubilee's FY2026 update reports acid cost and quarterly cathode data and cautions that acid was one of several operating constraints.",
+          "source_url": "https://news.metal.com/newscontent/104134711-sulphuric-acid-shortage-emerges-as-a-constraint-on-zambias-copper-growth",
+          "evidence_type": "SMM analysis citing Jubilee Metals FY2026 operational update",
+          "period": "Q4 FY2026 versus Q3 FY2026",
+          "unit": "percent acid-cost increase and tonnes of cathode copper",
+          "value": ">200% acid-cost increase; 250 t Q4 vs 361 t Q3"
+        }
+      ],
+      "publish_time": "2026-09-25",
+      "source": "Shanghai Metals Market (SMM)",
+      "title": "硫酸供应趋紧成为赞比亚铜业增长约束",
+      "excerpt": "SMM称赞比亚小规模铜产量2026年上半年同比下降35.2%，国内硫酸供应不足是因素之一；Jubilee报告Q4 FY2026酸成本上涨逾200%，Sable阴极铜产量降至250吨，低于Q3的361吨。",
+      "language": "en",
+      "interpretation": "酸供应影响依赖外采试剂的浸出和加工环节；SMM同时指出Roan延长检修和Molefe剥采等因素，不能把Sable产量下降全部归因于硫酸。大型一体化矿山的自用酸会进一步限制可供第三方购买的市场量。",
+      "importance": "硫酸瓶颈作用在浸出和精炼环节：赞比亚小矿H1产量同比下滑35.2%，Jubilee的Sable Q4阴极铜降至250吨。SMM同时列出延长检修和剥采等因素，故不能把减产全归因于酸；商用酸价格、第三方供应和冶炼厂开工率将决定2026年余下时间的供给弹性。",
+      "verification_status": "verified",
+      "companies": [
+        "Jubilee Metals",
+        "First Quantum Minerals",
+        "Konkola Copper Mines"
+      ],
+      "projects": [
+        "Sable Refinery",
+        "Kansanshi",
+        "Nchanga Smelter"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.marketscreener.com/news/chile-s-escondida-mine-gradually-resumes-operations-after-fatal-accident-ce785adfdb89fe26",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Operations at BHP's Escondida mine in Chile were progressively resuming on September 24 local time after a fatal maintenance accident on September 23, while safety and operational assessments continued.",
+          "evidence": "Reuters report hosted by MarketScreener gives the accident date, progressive-resumption status and continuing assessment conditions; its article metadata converts to September 25, 08:02:24 Beijing time.",
+          "source_url": "https://www.marketscreener.com/news/chile-s-escondida-mine-gradually-resumes-operations-after-fatal-accident-ce785adfdb89fe26",
+          "evidence_type": "Reuters report; publication timestamp from page metadata",
+          "period": "Fatal accident 2026-09-23; restart update published 2026-09-25 Beijing time",
+          "unit": "mine operating status and publication time",
+          "value": "progressive resumption; normal-rate timing not stated"
+        }
+      ],
+      "publish_time": "2026-09-25T08:02:24+08:00",
+      "source": "Reuters (MarketScreener)",
+      "title": "Escondida事故后逐步恢复矿山作业",
+      "excerpt": "路透社报道称，BHP智利Escondida矿在9月23日维护事故造成承包商死亡后，正逐步恢复矿山活动；安全、运营准备和监管要求仍在评估。",
+      "language": "en",
+      "interpretation": "更新确认作业从暂停转为渐进复产，但并未说明恢复至正常产率的时间或吨位；其他运营区域部分活动仍以较低速率进行。",
+      "importance": "状态由全面停运转为渐进复产，缩短了事故导致持续断供的风险窗口，但Reuters未给出正常产率恢复时间或复产吨位。监管安全核查、员工状态和操作准备仍是约束，不能把逐步复产等同恢复满产。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP",
+        "Rio Tinto",
+        "JECO Corp"
+      ],
+      "projects": [
+        "Escondida Mine"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.marketscreener.com/news/chinese-us-firms-line-up-for-peru-copper-projects-as-government-cuts-red-tape-ce785adfde8ef622",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Peru's Energy and Mines Minister said new mining projects could add about 1 million metric tonnes of annual copper production within five to six years; 2026 output was expected to be 2.5–2.7 million tonnes.",
+          "evidence": "Reuters interview with Minister Guillermo Shinno reports the long-term projection, 2026 output forecast and constraints from declining ore grades and recurring social conflicts.",
+          "source_url": "https://www.marketscreener.com/news/chinese-us-firms-line-up-for-peru-copper-projects-as-government-cuts-red-tape-ce785adfde8ef622",
+          "evidence_type": "Reuters interview with Peru's Energy and Mines Minister",
+          "period": "2026 output forecast; potential additions over 5–6 years",
+          "unit": "million metric tonnes of annual copper production",
+          "value": "approximately +1.0 Mt/y in 5–6 years; 2.5–2.7 Mt expected in 2026"
+        },
+        {
+          "claim": "The government identified 27 permitting requirements that could be eliminated; First Quantum's La Granja and Chinalco's Los Calatos were discussed as projects seeking advancement, not as the sole source of the 1-million-tonne target.",
+          "evidence": "The Reuters article attributes the potential permit reduction and project statuses to the minister; it reports estimated investment of $2.4 billion for La Granja and $655 million for Los Calatos.",
+          "source_url": "https://www.marketscreener.com/news/chinese-us-firms-line-up-for-peru-copper-projects-as-government-cuts-red-tape-ce785adfde8ef622",
+          "evidence_type": "Reuters interview and government estimates",
+          "period": "Policy proposal and project pipeline as of September 25, 2026",
+          "unit": "permit count and estimated project investment in USD",
+          "value": "27 permits identified; La Granja $2.4bn; Los Calatos $655m"
+        }
+      ],
+      "publish_time": "2026-09-25T23:17:30+08:00",
+      "source": "Reuters (MarketScreener)",
+      "title": "秘鲁铜项目或推动年产量在五至六年内增加约100万吨",
+      "excerpt": "秘鲁能源与矿业部长对Reuters表示，新项目有望在五至六年内增加约100万吨/年铜产量；2026年产量预计为250万至270万吨。政府称已识别27项可能取消的许可要求，并讨论La Granja与Los Calatos项目。",
+      "language": "en",
+      "interpretation": "新增100万吨/年是部长对项目管线的中长期预期，La Granja和Los Calatos的投资额并不代表两者单独贡献该目标。2026年的预期投资多用于维持运营或延长寿命，矿石品位下降与社区冲突仍是实际供给的制约。",
+      "importance": "年增100万吨目标代表长期供应扩张潜力，不是近期可交付产量：2026年产量仍预计为250万至270万吨，项目新增量需五至六年兑现。拟减少27项许可要求可能缩短行政等待，但品位下滑、社区冲突和项目延误仍构成执行风险，应视作政策驱动的远期管线目标。",
+      "verification_status": "verified",
+      "companies": [
+        "Peru Ministry of Energy and Mines",
+        "First Quantum Minerals",
+        "Chinalco"
+      ],
+      "projects": [
+        "La Granja",
+        "Los Calatos"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Part 1窗口为2026-09-23 00:00至2026-09-25 23:59:59北京时间；按既有人物与媒体种子、Precious Metals Summit/Mining Forum Americas会议日历及Crux、Kitco、CEO.CA、Mining Stock Daily、GOLDINVEST等入口检索。",
+      "Crux Investor的GR Silver文章直接打开；原始HTML Last Published为2026-09-25 08:13:58 UTC，即北京时间2026-09-25 16:13:58；正文及嵌入的CEO访谈核对SMS26-04、20,000米计划、7,000米进度、45米间距及H1 2027目标。",
+      "Kitco Mining Mackay Gold & Silver视频页直接打开；JSON-LD uploadDate为2026-09-24T21:30:00Z，即北京时间2026-09-25 05:30；核对Precious Metals Summit采访、约550米矿化延伸和管理层2–3百万盎司/12–24个月目标，并保留目标非资源的限定。",
+      "CEO.CA访谈的Newsfile发行页直接打开；页面显示2026-09-25 08:30 EDT（北京时间20:30）发布，视频录制于9月14日，主题为Mon Gold重启策略；发行说明未给出新的许可、施工或投产节点，因此卡片明确限定内容。",
+      "Clear Commodity的Sierra Madre页面直接检查，datetime为2026-09-25T11:31:00-05:00，换算北京时间为2026-09-26 00:31，晚于Part 1截止时间，排除。",
+      "GOLDINVEST的Laiva Gold页面显示文章时间2026-09-25T05:05:02Z，但检索到同一YouTube视频列表显示9月5日；发布日期证据冲突，未把它当作本窗口新发布的访谈。",
+      "对照2026-09-23和2026-09-24报告，7条窗口内重复URL列入dedup_log.part1_deduped_urls；Precious Metals Summit的9月24日演示及KER/Proactive旧采访不重复展示。"
+    ],
+    "part1_result": "Part 1检索完成，纳入3条经过日期与内容核验的采访：Mackay Gold & Silver、GR Silver和Sixty North Gold。Sierra Madre采访按北京时间换算后超出窗口；Laiva Gold视频的原始上传日期冲突，均未纳入。",
+    "part2_searched": false,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "运行scripts/daily_pipeline.py 2026-09-25 --collect-x；run_id=2026-09-25-20260926T022606959900Z-24860；执行scripts/x_search.py 2026-09-25 --headless。",
+      "Playwright按种子注册表串行处理53个账号，完成52/53并保留10条原始候选；完整文本、原帖URL、作者、handle、UTC和北京时间保存在x_outputs/2026-09-25_x_raw_materials.txt及JSON sidecar。",
+      "@duediligenceguy有一条推文无法提取正文；仅将该未完成账号交给twscrape，因No account available for queue SearchTimeline触发安全停止；未重试、未启动额外通道。对10条候选逐条筛选，纳入1条，9条以主题不符、宏观观点、旧事件复述或缺少可核验事实排除。"
+    ],
+    "part2_result": "Part 2为partial而非零结果：Playwright完成52/53个账号；10条候选中纳入Brian Leni关于Sun Summit JD项目钻探完成的1条，9条排除。剩余@duediligenceguy正文提取失败，twscrape回退因无可用账号安全停止，故保留52/53覆盖审计。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 52,
+      "accounts_failed": 1,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "Playwright @duediligenceguy: tweet extraction failed for 1 item: missing or empty tweet text.",
+        "twscrape @duediligenceguy: No account available for queue SearchTimeline; stopped without further retries."
+      ],
+      "notes": [
+        "Playwright completed 52 registered accounts; the one incomplete account alone received the ordered twscrape fallback.",
+        "The fallback safety-stopped because no account was available. The run was not repeated; both date-specific sidecars were preserved."
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com强制主路径由固定Python运行scripts/daily_pipeline.py 2026-09-25 --collect-mining并完成：gold分类页11篇、silver 9篇、copper 12篇日期候选，16个唯一URL；三类采集状态均complete。另用WebFetch直接尝试三张commodity分类页，均返回HTTP 403。",
+      "辅助web_search执行site:mining.com gold 2026-09-25及silver 2026-09-25查询，未找到可直接使用的新增报告日金/银条目；未把搜索摘要当作证据。未使用RSS、sitemap或Wayback。",
+      "SMM 9月25日《Sulphuric Acid Shortage Emerges as a Constraint on Zambia’s Copper Growth》直接打开，核对赞比亚H1 2026产量、Jubilee酸成本与Sable季度阴极铜数据，并保留检修/剥采等其他因素限定。",
+      "Ashley Gold 9月25日TheNewswire发行人公告直接打开，核对TAK-26-16孔号、60.00米下孔截段、品位、包含区间、后续孔和暂用40 g/t示例封顶说明。",
+      "Reuters/MarketScreener Escondida报道全文及HTML metadata已打开；datePublished 2026-09-24T20:02:24-04:00换算为北京时间2026-09-25 08:02:24，正文确认9月23日致死事故后矿山逐步复产，仍受安全与运营评估约束。",
+      "Reuters/MarketScreener秘鲁报道全文及HTML metadata已打开；datePublished 2026-09-25T11:17:30-04:00换算为北京时间2026-09-25 23:17:30，核对部长的1 Mt/y、5–6年目标、2026产量区间、27项许可以及La Granja/Los Calatos背景。",
+      "对Mining.com日期候选逐项核对：WGC AI/黄金文章和Lundin Gold底层公告发布日期为9月24日，均在本期Part 3窗口外；A2Gold McIntosh原公告为9月17日、Castle高品位孔为9月21日；Rio Tinto交易新闻为9月24日；均排除。Rhodium、rare-earth、oil储备和宏观价格评论不属于金银铜实体供需信号。",
+      "中文与英文检索未发现其他9月25日银矿产量或金属实物流向的合格新信号；Escondida的9月25日复产状态与9月23日事故/9月24日报告中的停运状态不同，作为新的运营状态更新纳入。"
+    ],
+    "part3_result": "Part 3英文及中文检索完整，纳入4条经核验信号：黄金1条（Ashley Gold勘探截段）；铜3条（Escondida渐进复产、秘鲁远期项目目标、赞比亚硫酸供应约束）。白银矿端未发现报告日新增生产公告；旧公告和非目标金属/纯宏观候选按日期与主题排除。",
+    "mining_com_source_note": "Mining.com类别页通过固定Python/Chromium主路径成功采集，gold 11、silver 9、copper 12篇报告日候选，16个唯一URL；普通WebFetch对三张分类页均为403，已记录为辅助路径失败。铜页主路径成功且报出Escondida复产与秘鲁项目候选；事实最终分别以可打开的Reuters/MarketScreener报道核对。金银site:补充搜索未给出新增可用证据；未使用RSS、sitemap或Wayback。",
+    "new_sources_discovered": [
+      "Kitco Mining (source-kitco-mining)",
+      "CEO.CA Inside the Boardroom (source-ceoca-inside-boardroom)",
+      "Sun Summit Minerals Corp. (source-sun-summit-minerals)"
+    ],
+    "url_verification": {
+      "checked": 8,
+      "passed": 8,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "8个纳入卡片的展示URL均直接打开并核对标题、主体、日期/时间与使用事实；X卡片由Playwright原帖侧车核验作者、handle、正文和UTC发布时间，并用公司原始公告交叉核对钻探数字。",
+        "Reuters时间戳按页面显示时区换算为北京时间；无精确时刻的发行人/SMM页面按来源显示日期记录。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://finance.yahoo.com/video/critical-mineral-resources-ceo-striking-151514293.html",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/berenguelas-silver-copper-manganese-story-takes-shape",
+      "https://www.kereport.com/2026/09/24/west-red-lake-gold-mines-q2-financial-results-h2-development-and-production-ramp-up-exploration-update-big-picture-vision/",
+      "https://www.kereport.com/2026/09/23/getty-copper-high-grade-intercepts-at-getty-south-accelerated-drilling-and-a-15m-financing/",
+      "https://www.kereport.com/2026/09/23/oceanagold-production-growth-outlook-advancing-high-margin-gold-production-strategic-ma-and-balance-sheet-strength/",
+      "https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/g3-goldfields-inc/play",
+      "https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/aya-gold-silver-inc/play"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/RealRickRule/status/2103510124740636985 — promo for a September 27 video; no report-day metal supply/demand data.",
+      "https://x.com/KatusaResearch/status/2103507807874277751 — U.S. Strategic Petroleum Reserve/oil content, outside gold, silver and copper.",
+      "https://x.com/Brien_Lundin/status/2103287295457759735 — price-direction commentary only.",
+      "https://x.com/peter_krauth/status/2103179404101001291 — broad silver-demand ratio and a promotional interview link; no new dated physical-demand change or primary source in the post.",
+      "https://x.com/duediligenceguy/status/2103486876493795406 — uranium technology/costs, outside the target metals; account coverage remains partial due a separate extraction failure.",
+      "https://x.com/wmiddelkoop/status/2103347938466623566 — speculative acquisition opinion about Hercules; no new verifiable copper-supply event.",
+      "https://x.com/wmiddelkoop/status/2103345921165803934 — retrospective March conversation and discovery opinion; no new assay or resource result.",
+      "https://x.com/wmiddelkoop/status/2103167002194166176 — title-only image/link about copper supply disruptions; no extractable claim or source detail.",
+      "https://x.com/GoGoldResources/status/2103480962512527782 — tickers and 'See below' only; the post text contains no verifiable metal fact."
+    ],
+    "part3_deduped_events": [
+      "The Mining.com Lundin Gold candidate pointed to an issuer drill release dated September 24, outside this report's September 25 Part 3 window; it was not backfilled.",
+      "The Mining.com/WGC AI-demand candidate resolves to the World Gold Council article dated September 24, outside the Part 3 date window.",
+      "Mining.com A2Gold McIntosh and Castle candidates were checked against issuer releases dated September 17 and September 21 respectively; the later category-card context did not make those older events report-day news."
+    ],
+    "notes": "跨时区窗口按来源显示时间换算为北京时间。Part 1中Mackay视频于9月25日05:30、GR Silver访谈于16:13:58、CEO.CA访谈发行说明于20:30北京时间发布；Sierra Madre页面发布于9月26日00:31北京时间，Laiva Gold视频原上传日期与GOLDINVEST页面日期冲突，均不计入。Escondida事故停运曾在9月23日报告中出现；本期只纳入9月25日08:02北京时间确认的渐进复产状态更新，不重复事故本身。X中的Sun Summit内容来自9月25日新帖，但转述的钻探完成公告本身发布于9月15日；卡片明确作为当前帖子里的项目进度复述，不写成9月25日新化验。"
+  }
+}

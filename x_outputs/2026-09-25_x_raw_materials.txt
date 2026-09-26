@@ -1,0 +1,117 @@
+X 原始候选 — 2026-09-25
+采集时间: 2026-09-26T10:53:09.534084+08:00
+选定通道: playwright
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 52/53 完成，失败 1
+各通道完成账户数: {"playwright": 52}
+采集状态: partial
+失败账号数: 1
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text; twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline
+失败账号:
+  @duediligenceguy (Lobo Tiggre): No account available for queue SearchTimeline
+============================================================
+
+总计候选: 10 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-25T15:41:09+00:00
+    北京: 2026-09-25T23:41:09+08:00
+    文本: Rick Rule: Monetary Destruction, Oil Shocks & the Gold Producer Ladder #... 
+https://
+youtu.be/w8re4CXmdFM?si
+=a6YcIRwr9bne_zU5
+… via 
+@YouTube
+ 09-27-2026
+    链接: https://x.com/RealRickRule/status/2103510124740636985
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-25T15:31:57+00:00
+    北京: 2026-09-25T23:31:57+08:00
+    文本: Meet America’s 714-Million-Barrel Underground VAULT
+
+
+
+The United States doesn’t store its emergency oil in giant steel tanks.
+
+It stores most of it inside salt.
+
+Along the Gulf Coast, the Strategic Petroleum Reserve contains 60 enormous underground salt caverns spread across
+    链接: https://x.com/KatusaResearch/status/2103507807874277751
+
+[3] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-25T00:55:43+00:00
+    北京: 2026-09-25T08:55:43+08:00
+    文本: And gold rises with either path.
+    链接: https://x.com/Brien_Lundin/status/2103287295457759735
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-24T17:46:59+00:00
+    北京: 2026-09-25T01:46:59+08:00
+    文本: Silver has been money for 5,000 years.
+
+Industry now consumes ~65% of supply, up from ~50% a decade ago.
+
+What happens when investment demand returns in a big way?
+
+That’s the tension I discussed with Charlotte McLeod at 
+@INN_Resource
+. Watch below. 
+
+https://
+thegoldadvisor.com/interviews/
+    链接: https://x.com/peter_krauth/status/2103179404101001291
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-25T14:08:46+00:00
+    北京: 2026-09-25T22:08:46+08:00
+    文本: "Economic performance will remain a major test for the technology. Fluxnium says its projected costs could compete with conventional uranium mining."
+
+It's a long way from the lab to the marketplace...
+    链接: https://x.com/duediligenceguy/status/2103486876493795406
+
+[6] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-25T04:56:41+00:00
+    北京: 2026-09-25T12:56:41+08:00
+    文本: George sold three of his previous companies, and thinks Hercules will be bought by a major producer looking for copper reserves as well .. although that might take a very years.
+    链接: https://x.com/wmiddelkoop/status/2103347938466623566
+
+[7] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-25T04:48:40+00:00
+    北京: 2026-09-25T12:48:40+08:00
+    文本: In March I asked CEO Georgie Ogilvie, who just sold $ASCU for $2 bln, if he knew about Hercules copper discovery in Idaho. He didn’t but promised to look into it. 
+
+Now he is also convinced ‘a new copper district’ could well have been found by geologist Chris Paul. Chris needed
+    链接: https://x.com/wmiddelkoop/status/2103345921165803934
+
+[8] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-24T16:57:42+00:00
+    北京: 2026-09-25T00:57:42+08:00
+    文本: Copper Supply Disruptions (Haywood Research)
+    链接: https://x.com/wmiddelkoop/status/2103167002194166176
+
+[9] @Junior_Stock (Brian Leni)
+    UTC: 2026-09-25T11:55:24+00:00
+    北京: 2026-09-25T19:55:24+08:00
+    文本: A new Field Notes episode is out: JD Emerges: The Next Prize in the Toodoggone Gold Camp
+
+This year’s drill program is their biggest yet — 16,000+ metres across Creek, Finn and the new Schmitt Zone, assays still pending.
+
+The camp is heating up with the addition of 
+@AngloGold_07
+    链接: https://x.com/Junior_Stock/status/2103453309981839630
+
+[10] @GoGoldResources (GoGold Resources)
+    UTC: 2026-09-25T13:45:16+00:00
+    北京: 2026-09-25T21:45:16+08:00
+    文本: $GGD $GLGDF
+
+See below:
+    链接: https://x.com/GoGoldResources/status/2103480962512527782
+

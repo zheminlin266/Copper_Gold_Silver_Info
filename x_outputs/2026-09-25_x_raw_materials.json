@@ -1,0 +1,157 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-25",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 52,
+  "accounts_failed": 1,
+  "channel_completed_accounts": {
+    "playwright": 52
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-c42bba20cde21c0bc59f1090",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-25T15:41:09+00:00",
+      "text": "Rick Rule: Monetary Destruction, Oil Shocks & the Gold Producer Ladder #... \nhttps://\nyoutu.be/w8re4CXmdFM?si\n=a6YcIRwr9bne_zU5\n… via \n@YouTube\n 09-27-2026",
+      "url": "https://x.com/RealRickRule/status/2103510124740636985",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9e3434f365c2de46e2907993",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-25T15:31:57+00:00",
+      "text": "Meet America’s 714-Million-Barrel Underground VAULT\n\n\n\nThe United States doesn’t store its emergency oil in giant steel tanks.\n\nIt stores most of it inside salt.\n\nAlong the Gulf Coast, the Strategic Petroleum Reserve contains 60 enormous underground salt caverns spread across",
+      "url": "https://x.com/KatusaResearch/status/2103507807874277751",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f3cab9adae1bf459389f0cbb",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-25T00:55:43+00:00",
+      "text": "And gold rises with either path.",
+      "url": "https://x.com/Brien_Lundin/status/2103287295457759735",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f8aa4ea7086aab2776aa971b",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-24T17:46:59+00:00",
+      "text": "Silver has been money for 5,000 years.\n\nIndustry now consumes ~65% of supply, up from ~50% a decade ago.\n\nWhat happens when investment demand returns in a big way?\n\nThat’s the tension I discussed with Charlotte McLeod at \n@INN_Resource\n. Watch below. \n\nhttps://\nthegoldadvisor.com/interviews/",
+      "url": "https://x.com/peter_krauth/status/2103179404101001291",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-774d37c656de826d4b679aba",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-25T14:08:46+00:00",
+      "text": "\"Economic performance will remain a major test for the technology. Fluxnium says its projected costs could compete with conventional uranium mining.\"\n\nIt's a long way from the lab to the marketplace...",
+      "url": "https://x.com/duediligenceguy/status/2103486876493795406",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e08f28dda4087de55e2108fb",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-25T04:56:41+00:00",
+      "text": "George sold three of his previous companies, and thinks Hercules will be bought by a major producer looking for copper reserves as well .. although that might take a very years.",
+      "url": "https://x.com/wmiddelkoop/status/2103347938466623566",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c8ff9215100a70131de1e7f3",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-25T04:48:40+00:00",
+      "text": "In March I asked CEO Georgie Ogilvie, who just sold $ASCU for $2 bln, if he knew about Hercules copper discovery in Idaho. He didn’t but promised to look into it. \n\nNow he is also convinced ‘a new copper district’ could well have been found by geologist Chris Paul. Chris needed",
+      "url": "https://x.com/wmiddelkoop/status/2103345921165803934",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-13714b135bc171a23c30d04b",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-24T16:57:42+00:00",
+      "text": "Copper Supply Disruptions (Haywood Research)",
+      "url": "https://x.com/wmiddelkoop/status/2103167002194166176",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-71b9c887ec8184ec44577658",
+      "source_id": "x-junior_stock",
+      "author": "Brian Leni",
+      "handle": "Junior_Stock",
+      "publish_time": "2026-09-25T11:55:24+00:00",
+      "text": "A new Field Notes episode is out: JD Emerges: The Next Prize in the Toodoggone Gold Camp\n\nThis year’s drill program is their biggest yet — 16,000+ metres across Creek, Finn and the new Schmitt Zone, assays still pending.\n\nThe camp is heating up with the addition of \n@AngloGold_07",
+      "url": "https://x.com/Junior_Stock/status/2103453309981839630",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9259414f3c173db202686a86",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-09-25T13:45:16+00:00",
+      "text": "$GGD $GLGDF\n\nSee below:",
+      "url": "https://x.com/GoGoldResources/status/2103480962512527782",
+      "collector": "x_search",
+      "report_date": "2026-09-25",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "No account available for queue SearchTimeline"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 52
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text",
+      "twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text; twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline"
+  }
+}
