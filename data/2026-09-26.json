@@ -1,0 +1,951 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-26",
+  "report_time": "2026-09-27T09:07:57+08:00",
+  "summary": "黄金：在产矿山现金流、许可和钻探推进多个开发项目，新增产量仍受融资与建设约束。白银：矿山扩能和高品位勘探拓展中期供应管线，资源转换仍需验证。铜：Gunnison报告商业化产出，Cozamin和Minto重启提供扩张路径；Escondida劳资与安全争议升温，尚无新罢工或停产。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-24T00:00:00+08:00",
+      "end": "2026-09-26T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-26T00:00:00+08:00",
+      "end": "2026-09-26T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-26T00:00:00+08:00",
+      "end": "2026-09-26T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/luca-mining-tsxvluca-high-grade-polymetallic-346287051/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Luca Mining signed a definitive agreement to acquire the Cozamin mine for up to US$385 million; the upfront consideration is US$290 million and closing is expected in Q4 2026 subject to approvals.",
+          "evidence": "The Company Interviews episode page published September 26 quotes CEO Dan Barnholden on the signed agreement, payment structure and expected close.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/luca-mining-tsxvluca-high-grade-polymetallic-346287051/",
+          "evidence_type": "Direct published executive interview page and show notes",
+          "period": "Agreement signed September 2026; expected closing Q4 2026",
+          "unit": "USD transaction consideration",
+          "value": "up to US$385m; US$290m upfront"
+        },
+        {
+          "claim": "Cozamin's mill capacity is 4,400 tonnes per day and it currently processes about 3,700 tonnes per day; management estimates mine-site free cash flow of US$140–150 million per year at current prices.",
+          "evidence": "The same episode attributes operating throughput and the free-cash-flow estimate to CEO Dan Barnholden; the latter is a management estimate, not a guaranteed result.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/luca-mining-tsxvluca-high-grade-polymetallic-346287051/",
+          "evidence_type": "Management-attributed interview statements",
+          "period": "Current Cozamin operations as discussed September 26, 2026",
+          "unit": "tonnes per day; annual USD mine-site free cash flow",
+          "value": "4,400 t/d capacity; ~3,700 t/d throughput; estimated US$140–150m/y"
+        }
+      ],
+      "publish_date": "2026-09-26",
+      "title": "Luca Mining拟以最高US$3.85亿收购Cozamin铜矿",
+      "source_type": "podcast",
+      "summary": "Luca Mining CEO Dan Barnholden称公司已签署以最高US$385m收购墨西哥Cozamin铜矿的协议，预计Q4完成；矿山约3,700吨/日运行，提升Luca的铜产量与多金属组合。",
+      "detail": "交易含US$290m upfront、递延与铜价挂钩付款；交割需墨西哥反垄断及TSXV批准。管理层估算Cozamin按当前价格年矿山自由现金流约US$140–150m，并计划每年投入US$7–10m勘探以延长现有约2030年的储量寿命。",
+      "importance": "若Q4交割，Luca将从两座墨西哥多金属矿扩展为持有4,400吨/日处理能力的铜矿，管理层估算的现金流可支持后续金铜项目。交易仍受监管、融资和25%铜产量套保约束，Cozamin现有产量须待交割后才可计入Luca。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Dan Barnholden",
+        "background": "Luca Mining CEO"
+      },
+      "companies": [
+        "Luca Mining",
+        "Capstone Copper"
+      ],
+      "projects": [
+        "Cozamin",
+        "Campo Morado",
+        "Tahuehueto",
+        "El Barqueño"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/banyan-gold-tsxvbyn-franco-nevada-backs-346284674/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "AurMac hosts 3.64 million ounces Indicated at 0.68 g/t and 4.98 million ounces Inferred at 0.58 g/t; Banyan's maiden PEA is targeted for Q4 2026.",
+          "evidence": "The iHeart episode page published September 26 quotes President and CEO Tara Christie and identifies the resource categories, grades and PEA timing.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/banyan-gold-tsxvbyn-franco-nevada-backs-346284674/",
+          "evidence_type": "Direct published interview page and management-attributed show notes",
+          "period": "AurMac resource status and 2026 PEA target",
+          "unit": "million ounces; grams per tonne; target quarter",
+          "value": "3.64 Moz Indicated at 0.68 g/t; 4.98 Moz Inferred at 0.58 g/t; Q4 2026 PEA"
+        },
+        {
+          "claim": "The 2026 programme totals 70,000 metres; 60,000 metres at AurMac focus on high-grade conversion, and hole AX-26-874 returned 13.03 g/t gold over 14.2 metres in a previously untested gap.",
+          "evidence": "The direct interview summary attributes the programme, interval and the proposed starter-pit implication to management; these are exploration observations, not reserves.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/banyan-gold-tsxvbyn-franco-nevada-backs-346284674/",
+          "evidence_type": "Management-attributed interview page",
+          "period": "2026 drilling programme",
+          "unit": "metres drilled; g/t Au over metres",
+          "value": "70,000 m planned; 13.03 g/t Au over 14.2 m"
+        }
+      ],
+      "publish_date": "2026-09-26",
+      "title": "Banyan Gold获融资支持，推进AurMac PEA与高密度钻探",
+      "source_type": "podcast",
+      "summary": "Banyan Gold CEO Tara Christie称AurMac的Q4 PEA由2026年70,000米钻探支持，其中约60,000米用于高品位转换；新孔AX-26-874在两处矿床间隙见13.03克/吨金、14.2米。",
+      "detail": "公司9月宣布C$50m LIFE融资及C$8m配售，Franco-Nevada认购10m股；管理层预计资金可支持至2027并进入2028。资源中Inferred部分仍较大，钻孔和矿坑设计结果尚未转化为储量。",
+      "importance": "70,000米计划与间隙新孔可能改变AurMac早期矿坑排序，Q4 PEA将首次量化规模、剥采比和起始产量；C$58m融资为转换钻探和工程研究提供缓冲。资源仍以Inferred为主，单孔高品位截段不能证明连续矿化或可采储量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Tara Christie",
+        "background": "Banyan Gold President and CEO"
+      },
+      "companies": [
+        "Banyan Gold",
+        "Franco-Nevada"
+      ],
+      "projects": [
+        "AurMac",
+        "Nitra"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/selkirk-copper-tsxvscmi-fast-track-minto-346282945/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Selkirk's Minto restart depends on government approval for a five-month dewatering programme; management aims to begin pumping before the end of 2026, with a restart decision targeted for H2 2027 and first concentrate in H2 2028.",
+          "evidence": "The direct iHeart episode page published September 26 attributes the schedule and water-management gate to CEO Colin Joudrie; it also notes the mine is flooded and requires rehabilitation.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/selkirk-copper-tsxvscmi-fast-track-minto-346282945/",
+          "evidence_type": "Direct published executive interview page",
+          "period": "Restart planning as of September 26, 2026",
+          "unit": "months and calendar milestones",
+          "value": "five-month dewatering; target pumping by end-2026; first concentrate H2 2028"
+        }
+      ],
+      "publish_date": "2026-09-26",
+      "title": "Selkirk Copper推进Minto重启，抽水许可是关键路径",
+      "source_type": "podcast",
+      "summary": "Selkirk Copper CEO Colin Joudrie称Minto重启的主要关口是政府批准为期五个月的地下排水，目标在2026年底前抽水，2027年下半年作重启决策，首批精矿目标为2028年下半年。",
+      "detail": "Minto历史上生产铜精矿，矿山因前运营商进入破产接管程序而停产；2026 PEA及13年矿山计划已在9月22日报告中讨论。本次访谈新增的重点是排水、恢复工程与水务管理门槛。",
+      "importance": "重启产量的近期关键是能否按期取得排水许可并处理历史水务问题。五个月抽水计划若在2026年底启动，才有机会衔接2027年重启决策和2028年下半年首批精矿；时间或环境要求变化会直接推迟供应，影响2028年目标兑现。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Colin Joudrie",
+        "background": "Selkirk Copper CEO"
+      },
+      "companies": [
+        "Selkirk Copper"
+      ],
+      "projects": [
+        "Minto Mine"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/amex-gold-mining-tsxvamx-self-funded-346276672/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Amex Gold has begun a fully permitted 40,000-tonne bulk sample at Perron; the access ramp is about 100 metres deep and is advancing 5–6 metres per day toward the 235-metre level.",
+          "evidence": "The direct iHeart episode page published September 26 attributes the bulk-sample, ramp and schedule details to CEO Victor Cantore.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/amex-gold-mining-tsxvamx-self-funded-346276672/",
+          "evidence_type": "Direct published executive interview page",
+          "period": "Perron bulk-sample and ramp work underway in September 2026",
+          "unit": "tonnes; metres; metres per day",
+          "value": "40,000 t bulk sample; ~100 m ramp; 5–6 m/day"
+        },
+        {
+          "claim": "The company estimates the bulk sample at about C$60 million, including roughly C$40 million in infrastructure intended for reuse in Phase 1; the feasibility study outlines 774,000 ounces of reserves and average output of 147,000 ounces per year over five years.",
+          "evidence": "The interview notes distinguish the CEO's bulk-sample estimate from the Phase 1 feasibility-study figures.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/amex-gold-mining-tsxvamx-self-funded-346276672/",
+          "evidence_type": "Management estimate and feasibility-study figures summarized in the interview",
+          "period": "Perron Phase 1 feasibility study and current bulk-sample plan",
+          "unit": "CAD capital; ounces of gold",
+          "value": "C$60m sample; C$40m reusable infrastructure; 774,000 oz reserves; 147,000 oz/year"
+        }
+      ],
+      "publish_date": "2026-09-26",
+      "title": "Amex Gold Mining以Perron地下工程与40,000吨试样推进建设准备",
+      "source_type": "podcast",
+      "summary": "Amex Gold Mining已在Perron推进获批的40,000吨试样，地下斜坡约100米深、每日掘进5–6米；管理层估算试样约需C$60m，其中约C$40m基础设施可用于Phase 1。",
+      "detail": "Perron可研列出77.4万盎司探明与概略储量、五年期平均年产14.7万盎司；试样的回款和C$135m收入情景为管理层估算，取决于品位核算、金价及加工协议。Phase 1许可目标为2027年下半年。",
+      "importance": "把试样设施按未来矿山规格建设，可减少Phase 1重复资本并尽早验证高品位矿段，但C$60m试样支出仍是商业生产前的融资与执行风险。公司所称C$135m回款情景不是可研保证值，选厂协议和2027年许可进度是需要跟踪的关键。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Victor Cantore",
+        "background": "Amex Gold Mining President and CEO"
+      },
+      "companies": [
+        "Amex Gold Mining"
+      ],
+      "projects": [
+        "Perron Gold Project",
+        "Champagne Zone"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/heliostar-metals-tsxvhstr-mine-cash-346281324/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Heliostar intends to allocate about US$150 million of operating cash flow to Ana Paula construction over roughly two years, net of overhead and exploration; the feasibility study was 34% complete and targeted for Q2 2027.",
+          "evidence": "The direct iHeart episode page published September 26 includes the interview with VP Stephen Soock and states both the proposed funding amount and feasibility-study progress.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/heliostar-metals-tsxvhstr-mine-cash-346281324/",
+          "evidence_type": "Direct published management interview page",
+          "period": "Current funding plan; feasibility study target Q2 2027",
+          "unit": "USD construction funding; percent complete; target quarter",
+          "value": "~US$150m over ~2 years; feasibility study 34% complete"
+        },
+        {
+          "claim": "Management expects a construction decision around mid-2027 and targets first gold before the end of 2028; expected initial capital is around US$330 million, compared with US$300 million in the 2025 PEA.",
+          "evidence": "The episode summary distinguishes the current capital expectation from the older PEA estimate and attributes schedule targets to management.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/heliostar-metals-tsxvhstr-mine-cash-346281324/",
+          "evidence_type": "Direct management interview summary",
+          "period": "Construction decision target 2027; first gold target before end-2028",
+          "unit": "USD initial capital; project milestone dates",
+          "value": "~US$330m expected capital; US$300m 2025 PEA; first gold before end-2028"
+        }
+      ],
+      "publish_date": "2026-09-26",
+      "title": "Heliostar计划以既有矿山现金流支持Ana Paula建设",
+      "source_type": "podcast",
+      "summary": "Heliostar副总裁Stephen Soock称，公司计划在约两年内从La Colorada与San Agustin现金流中拨出约US$150m用于Ana Paula建设；可研完成34%，目标2027年第二季度完成。",
+      "detail": "建设决策目标为2027年中，首金目标为2028年底前；预计初始资本约US$330m，高于2025年PEA的US$300m。计划依赖在产矿现金流、许可和项目融资，尚不是已作出的建设决定。",
+      "importance": "以现有矿山现金流承担约US$150m建设资金，可降低对新股融资的依赖，但也把开发节奏绑定于La Colorada与San Agustin的持续产出。Ana Paula仍处可研阶段，约US$330m资本与2027年中决策目标尚待工程、许可和融资确认，2028年前首金仍属管理层目标；在产现金流与工程、许可进度会影响实际开工时间。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Stephen Soock",
+        "background": "Heliostar VP, Investor Relations and Development"
+      },
+      "companies": [
+        "Heliostar Metals"
+      ],
+      "projects": [
+        "Ana Paula",
+        "La Colorada",
+        "San Agustin"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/g-mining-tsxgmin-three-asset-growth-346165476/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Tocantinzinho produced 68,691 ounces of gold in H1 2026; management's 2026 guidance is 160,000–190,000 ounces, with 2027 guidance targeted at 200,000–235,000 ounces after tailings-pumping capacity expansion.",
+          "evidence": "The direct iHeart episode page published September 24 quotes CEO Louis-Pierre Gignac on H1 output, annual guidance and the expected 2027 ramp.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/g-mining-tsxgmin-three-asset-growth-346165476/",
+          "evidence_type": "Direct published executive interview page",
+          "period": "H1 and full-year 2026 output; 2027 production guidance",
+          "unit": "ounces of gold",
+          "value": "68,691 oz H1; 160,000–190,000 oz 2026 guidance; 200,000–235,000 oz 2027 target"
+        },
+        {
+          "claim": "Oko West had spent US$423 million of capital by June 30, with US$628 million committed; first gold is targeted for H2 2027 and commercial production for January 2028.",
+          "evidence": "The interview page attributes the construction progress and target dates to company management.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/g-mining-tsxgmin-three-asset-growth-346165476/",
+          "evidence_type": "Management-attributed project update",
+          "period": "Capital status at June 30, 2026; target first gold H2 2027",
+          "unit": "USD capital and project dates",
+          "value": "US$423m spent; US$628m committed; first gold H2 2027"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "G Mining以Tocantinzinho产量和现金流支持三资产增长",
+      "source_type": "podcast",
+      "summary": "G Mining Ventures CEO Louis-Pierre Gignac称Tocantinzinho上半年产金68,691盎司，2026年指引为16万–19万盎司；Oko West已进入建设，目标2027年下半年首金。",
+      "detail": "Tocantinzinho第二季度后半段预期提高品位与处理量，Oko West商业生产目标为2028年1月。指引、项目成本及目标日期均为公司口径；新收购G2资源仍需升级。",
+      "importance": "Tocantinzinho上半年产量只覆盖2026年指引的一部分，后半年爬坡将决定现金流能否支撑Oko West；该项目已投入US$423m、仍有US$628m承诺资本，供应增量最早从2027年下半年体现。若在产矿产量或建设成本偏离计划，相关现金流与建设安排将受约束，三资产扩张节奏可能后移。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Louis-Pierre Gignac",
+        "background": "G Mining Ventures CEO"
+      },
+      "companies": [
+        "G Mining Ventures"
+      ],
+      "projects": [
+        "Tocantinzinho",
+        "Oko West",
+        "Gurupi"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/nine-mile-metals-csenine-three-346253916/",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Nine Mile had completed about 5,500 metres across 22 holes of its 10,000-metre Wedge Phase 3 programme at the time of interview; results had been reported for only five holes, and a borehole EM survey is planned across eight holes.",
+          "evidence": "The direct iHeart episode page published September 25 quotes CEO Patrick Cruickshank on drilling progress, assay lag and the EM survey.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/nine-mile-metals-csenine-three-346253916/",
+          "evidence_type": "Direct published executive interview page",
+          "period": "Phase 3 programme status as of September 24, 2026 recording",
+          "unit": "metres and holes",
+          "value": "~5,500/10,000 m; 22 holes; 5 reported; 8-hole EM survey planned"
+        },
+        {
+          "claim": "The company expects an updated NI 43-101 technical report in Q1 2027 followed by a maiden mineral resource estimate; management's stated target of up to 10 million tonnes remains untested.",
+          "evidence": "The interview notes distinguish the stated exploration objective from an established resource.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/nine-mile-metals-csenine-three-346253916/",
+          "evidence_type": "Management-attributed interview page",
+          "period": "Technical report target Q1 2027",
+          "unit": "tonnes and target date",
+          "value": "up to 10 Mt management target; no maiden resource yet"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Nine Mile Metals推进Wedge第三阶段钻探与资源建模",
+      "source_type": "podcast",
+      "summary": "Nine Mile Metals CEO Patrick Cruickshank称Wedge第三阶段10,000米计划已钻约5,500米、完成22孔，但仅5孔公布结果；公司安排8孔井中电磁调查并瞄准2027年第一季度更新技术报告。",
+      "detail": "9月24日报告已收录WD-26-14的14.15米、5.09% CuEq截段；本次新增重点是钻探进度、三透镜体模型和井中电磁调查，管理层提出的1,000万吨目标尚未形成资源量。",
+      "importance": "从“高品位单孔”转向22孔系统性加密和井中电磁调查，是验证Wedge连续性与旧采空区边界的关键步骤；目前仅5孔有结果，实验室周转和历史采空区资料仍限制解释。2027年首份资源量是否支持管理层规模目标，将决定这条铜供给管线的可信度。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Patrick Cruickshank",
+        "background": "Nine Mile Metals Director and CEO"
+      },
+      "companies": [
+        "Nine Mile Metals"
+      ],
+      "projects": [
+        "Wedge",
+        "Tribag",
+        "Nine Mile Brook"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/new-found-gold-tsxnfgc-producing-346242231/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hammerdown declared commercial production on August 19, 2026 after 60 consecutive days above operating thresholds; average throughput was about 748 tonnes per day, recovery 87.7% and feed grade 2.92 g/t, with 9,140 ounces produced in the first eight months of 2026.",
+          "evidence": "The direct iHeart episode published September 25 reports the declaration date and operating figures in CEO Keith Boyle's interview summary.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/new-found-gold-tsxnfgc-producing-346242231/",
+          "evidence_type": "Management-attributed interview page",
+          "period": "Hammerdown operating status through August 2026",
+          "unit": "tonnes/day; percent recovery; g/t Au; ounces",
+          "value": "748 t/d; 87.7%; 2.92 g/t; 9,140 oz"
+        },
+        {
+          "claim": "Management guided to 20,000–25,000 ounces per year at about US$2,500/oz AISC and said Pine Cove mill conversion to Gravity-CIL is targeted for Q4 2027.",
+          "evidence": "The interview notes identify company guidance and the mill conversion as a future project milestone.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/new-found-gold-tsxnfgc-producing-346242231/",
+          "evidence_type": "Management guidance in direct interview page",
+          "period": "2026 production guidance; mill conversion targeted Q4 2027",
+          "unit": "ounces/year; USD/oz; project date",
+          "value": "20,000–25,000 oz/year; ~US$2,500/oz AISC; Q4 2027 conversion target"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "New Found Gold称Hammerdown已商业生产，Pine Cove改造制约Queensway节奏",
+      "source_type": "podcast",
+      "summary": "New Found Gold CEO Keith Boyle称Hammerdown已于8月19日达到商业生产标准，前八个月产金9,140盎司；公司仍以年产2万–2.5万盎司指引爬坡，Pine Cove选厂改造是Queensway后续供给的关键路径。",
+      "detail": "Hammerdown阶段平均处理约748吨/日、回收率87.7%、入选品位2.92克/吨。Pine Cove计划转换为Gravity-CIL并于2027年第四季度完成，Queensway还需环评、扩能许可及后续建设。",
+      "importance": "9,140盎司的前八个月产量确认Hammerdown开始贡献金供给，但年产指引仍要求维持回收率和进料品位。Pine Cove选厂转换要到2027年第四季度，Queensway增量又取决于许可与700吨/日扩能，因此现阶段应把它视为小型生产爬坡，而非大型新矿投产。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Keith Boyle",
+        "background": "New Found Gold Director and CEO"
+      },
+      "companies": [
+        "New Found Gold"
+      ],
+      "projects": [
+        "Hammerdown",
+        "Pine Cove Mill",
+        "Queensway"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/gunnison-copper-tsxgcu-commercial-production-346239426/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Johnson Camp declared commercial production on September 22 after August record output of 1,304,448 pounds of copper cathode, equivalent to roughly 63% of the monthly run-rate implied by its 25-million-pound annual nameplate capacity.",
+          "evidence": "The direct iHeart episode published September 25 quotes CEO Craig Hallworth on the commercial-production declaration, August output and capacity share.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/gunnison-copper-tsxgcu-commercial-production-346239426/",
+          "evidence_type": "Direct published executive interview page",
+          "period": "August 2026 production; commercial production declared September 22",
+          "unit": "pounds of copper cathode",
+          "value": "1,304,448 lb in August; ~63% of the monthly 25m lb/year nameplate rate"
+        },
+        {
+          "claim": "The remaining ramp-up depends on leach recovery curves and requires no additional permits or construction; Nuton has invested more than US$200 million, with mine profits allocated to repayment until recovered or mid-2030, whichever comes first.",
+          "evidence": "The episode summary records the technical ramp-up condition and the Nuton repayment arrangement as management statements.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/gunnison-copper-tsxgcu-commercial-production-346239426/",
+          "evidence_type": "Management-attributed interview page",
+          "period": "Ramp-up and Nuton repayment terms as of September 2026",
+          "unit": "recovery curves; USD invested; repayment horizon",
+          "value": ">US$200m invested; repayment until recovery or mid-2030"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Gunnison Copper的Johnson Camp进入商业生产并继续爬坡",
+      "source_type": "podcast",
+      "summary": "Gunnison Copper CEO Craig Hallworth称Johnson Camp于9月22日宣布商业生产，8月产出创纪录的1,304,448磅阴极铜，按年名义产能折算约为月化名义产能的63%；爬坡取决于浸出回收曲线。",
+      "detail": "公司称后续爬坡不需新增许可或建设，但Nuton已投入超过US$200m，Johnson Camp利润将先用于偿还该投入，直至回收或到2030年年中，以较早者为准。",
+      "importance": "商业生产声明把Johnson Camp从建设故事转为实际铜供给，8月产量对应月化名义产能约63%；若浸出回收继续改善，现有设施即可提高产出。短期股东现金流仍受Nuton超过US$200m的优先回收安排约束，不能把矿山产值等同自由现金流。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Craig Hallworth",
+        "background": "Gunnison Copper President and CEO"
+      },
+      "companies": [
+        "Gunnison Copper",
+        "Rio Tinto"
+      ],
+      "projects": [
+        "Johnson Camp Mine",
+        "Gunnison Project"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/americas-gold-silver-tsxusa--346172392/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Galena's shaft hoisting capacity increased from about 650 to more than 1,400 tons per day after two upgrade phases costing about US$7 million; the mill currently processes about 750 tons per day and targets 1,200 by year-end 2026.",
+          "evidence": "The direct iHeart episode published September 24 reports the executive team's Galena shaft and mill status.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/americas-gold-silver-tsxusa--346172392/",
+          "evidence_type": "Direct management interview page",
+          "period": "Galena upgrade status in September 2026; mill target by year-end 2026",
+          "unit": "tons per day; USD capital",
+          "value": "~650 to >1,400 t/d hoisting; ~750 to 1,200 t/d mill; ~US$7m upgrades"
+        },
+        {
+          "claim": "Americas Gold & Silver produced 1.45 million ounces of silver in H1 2026 against annual guidance of 3.2–3.6 million ounces; H1 AISC was US$36.92/oz.",
+          "evidence": "CEO Paul Andre Huet and EVP Oliver Turner state the H1 output and guidance in the published interview notes.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/americas-gold-silver-tsxusa--346172392/",
+          "evidence_type": "Management-attributed H1 production and guidance",
+          "period": "H1 and FY2026",
+          "unit": "ounces of silver; USD per ounce",
+          "value": "1.45m oz H1; 3.2–3.6m oz guidance; US$36.92/oz AISC"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "Americas Gold & Silver扩建Galena提升系统，银产量仍需下半年追赶",
+      "source_type": "podcast",
+      "summary": "Americas Gold & Silver管理层称Galena提升系统两期改造后井筒能力已超过1,400吨/日，但选厂约750吨/日仍是瓶颈；上半年产银145万盎司，要达到全年320万–360万盎司指引需下半年加速。",
+      "detail": "公司目标在2026年底将选厂能力提高至1,200吨/日；该目标尚未实现。Galena磨矿改造及Cosalá钻探进展将决定后续供应增长，访谈中的估值观点属于管理层意见。",
+      "importance": "Galena井筒能力已翻倍，但选厂仍低于1,000吨/日，说明采矿端扩能暂时快于处理能力。要达成全年3.2–3.6Moz银指引，下半年需产约1.75–2.15Moz；2026年底选厂扩至1,200吨/日及采场回填速度是关键验证点。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Paul Andre Huet and Oliver Turner",
+        "background": "Americas Gold & Silver CEO and EVP Corporate Development"
+      },
+      "companies": [
+        "Americas Gold & Silver"
+      ],
+      "projects": [
+        "Galena Complex",
+        "Cosalá",
+        "Crescent"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/us-gold-corp-nasdaqusau-advances-346169291/",
+      "metal_tags": [
+        "gold",
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "CK Gold's March 2026 feasibility study outlines 1.015 million ounces of gold, 260 million pounds of copper and 3 million ounces of silver reserves, with US$394 million initial capital and first-year targets of 130,000 ounces of gold and 24 million pounds of copper.",
+          "evidence": "Executive Chairman Luke Norman's direct interview page summarizes the feasibility study and management's first-year production estimates.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/us-gold-corp-nasdaqusau-advances-346169291/",
+          "evidence_type": "Feasibility study figures summarized in direct executive interview",
+          "period": "March 2026 feasibility study; future first-year production target",
+          "unit": "reserves; initial capital; annual production",
+          "value": "1.015 Moz Au; 260m lb Cu; 3 Moz Ag; US$394m; 130koz Au and 24m lb Cu first year"
+        },
+        {
+          "claim": "The CK Gold project remains unfunded; Norman identified debt, a silver stream and forward sale of first-year gold as possible funding routes, and said the Keystone spin-out was expected within six to eight weeks.",
+          "evidence": "The direct interview page records these as management's financing options and expected corporate timetable; it gives no committed financing date.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/us-gold-corp-nasdaqusau-advances-346169291/",
+          "evidence_type": "Management interview statements",
+          "period": "Interview published September 24, 2026",
+          "unit": "project funding status and spin-out target",
+          "value": "No committed financing date; Keystone distribution targeted within 6–8 weeks"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "U.S. Gold讨论CK Gold融资与Keystone分拆安排",
+      "source_type": "podcast",
+      "summary": "U.S. Gold Corp执行主席Luke Norman讨论CK Gold的融资与Keystone分拆；2026年3月可研列出US$394m初始资本和首年13万盎司金、2,400万磅铜目标，但融资尚未落实。",
+      "detail": "可研储量包含101.5万盎司金、2.6亿磅铜和300万盎司银；公司称项目已取得州级许可，仍需完成先进工程设计与融资。Keystone分拆属于公司结构安排，不直接增加矿山供应。",
+      "importance": "CK Gold若建成可形成金铜副产品供应，但US$394m建设资本尚无已承诺资金，首年产量仍是可研情景而非指引。融资进度会影响项目兑现时间；应跟踪融资条款和先进工程设计，Keystone分拆可能改变股权结构，不直接增加矿山供应。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Luke Norman",
+        "background": "U.S. Gold Corp Executive Chairman"
+      },
+      "companies": [
+        "U.S. Gold Corp"
+      ],
+      "projects": [
+        "CK Gold",
+        "Keystone"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/kodiak-copper-tsxvkdk-fully-funded-346158706/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kodiak's 2026 fully funded programme totals 16,500 metres; more than 7,000 metres had been drilled at Ketchan, including hole AG-26-019 with 283.5 metres at 0.70% CuEq from 37.5 metres downhole.",
+          "evidence": "The direct iHeart episode published September 24 gives the programme status and hole result, attributed to CEO Claudia Tornquist and Chairman Christopher Taylor.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/kodiak-copper-tsxvkdk-fully-funded-346158706/",
+          "evidence_type": "Management-attributed interview and drill result",
+          "period": "2026 drilling programme",
+          "unit": "metres; copper-equivalent grade",
+          "value": "16,500 m planned; >7,000 m at Ketchan; 283.5 m at 0.70% CuEq"
+        },
+        {
+          "claim": "MPD's December 2025 resource totals about 439 million tonnes across seven deposits, including 82.9 million tonnes Indicated at 0.39% CuEq and 356.3 million tonnes Inferred at 0.32% CuEq; no economic study is scheduled.",
+          "evidence": "The interview page gives the resource categories and says management has not committed to an economic-study date.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/kodiak-copper-tsxvkdk-fully-funded-346158706/",
+          "evidence_type": "Resource and management schedule summarized in direct interview page",
+          "period": "December 2025 MRE; current 2026 exploration status",
+          "unit": "million tonnes; percent CuEq",
+          "value": "439 Mt total; 82.9 Mt Indicated at 0.39%; 356.3 Mt Inferred at 0.32%"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "Kodiak Copper以全额资助钻探推动MPD资源增长",
+      "source_type": "podcast",
+      "summary": "Kodiak Copper管理层称MPD的16,500米2026钻探计划已全额融资，Ketchan孔AG-26-019见283.5米、0.70% CuEq；项目现有439Mt资源仍以Inferred吨位为主。",
+      "detail": "管理层认为浅部较高品位矿段可能支持未来starter pit，但尚未安排经济研究。矿体扩大、CuEq口径、矿坑设计和回收率均需更多钻探与工程验证。",
+      "importance": "浅部连续矿化若能扩大，可能改善首期矿坑的品位和资本回收速度；但现有资源约81%为Inferred且公司没有经济研究时间表，长截段不能直接视为可采储量。高比例Inferred资源限制了项目供给判断，后续钻探和资源转换才是关键验证点。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Claudia Tornquist and Christopher Taylor",
+        "background": "Kodiak Copper President and CEO, and Chairman"
+      },
+      "companies": [
+        "Kodiak Copper"
+      ],
+      "projects": [
+        "MPD",
+        "Kay Copper"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/south-pacific-metals-tsxvspmc-funded-346172393/",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "South Pacific Metals' Kili Teke project carries a 2022 Inferred Resource of 237 million tonnes at 0.24 g/t gold and 0.34% copper; drilling at Osena's Megabe target returned 8 metres at 8.95 g/t gold and extended the mineralised strike beyond 300 metres.",
+          "evidence": "The direct iHeart episode published September 24 reports the existing resource and recent step-out results in Executive Chairman Michael Murphy's interview notes.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/south-pacific-metals-tsxvspmc-funded-346172393/",
+          "evidence_type": "Management interview summary with stated resource and drill results",
+          "period": "2022 Kili Teke resource; 2026 Osena drilling update",
+          "unit": "million tonnes; g/t Au; percent Cu; metres",
+          "value": "237 Mt at 0.24 g/t Au and 0.34% Cu; 8 m at 8.95 g/t Au; >300 m strike"
+        },
+        {
+          "claim": "Management said a roughly US$20 million financing was in its final stages to fund the current work programme through year-end 2026; additional assays at nearby Ontenu Central were pending.",
+          "evidence": "The episode page attributes the financing status and pending assays to the executive chairman; the financing was not described as closed.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/south-pacific-metals-tsxvspmc-funded-346172393/",
+          "evidence_type": "Management interview statement",
+          "period": "Funding and exploration status at interview recording, September 22, 2026",
+          "unit": "USD financing; assay status",
+          "value": "~US$20m proposed financing; Ontenu assays pending"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "South Pacific Metals推进PNG金铜钻探并延伸Osena矿化",
+      "source_type": "podcast",
+      "summary": "South Pacific Metals执行主席Michael Murphy称PNG的Osena步进钻探已将矿化延伸至300米以上，并报告8米、8.95克/吨金截段；另有约US$20m融资仍处于最终阶段。",
+      "detail": "Kili Teke 237Mt资源为2022年Inferred估算，Osena结果属于早期勘探，不能直接推算储量或产量。四个项目位于既有矿区邻近地带，融资和实验室结果尚待确认。",
+      "importance": "Osena短期步进钻探继续延伸高品位矿化，若后续孔确认连续性，可能成为Kainantu矿区外新的金铜勘探管线；目前已报告的8米截段和2022年Kili Teke资源仍不能折算成未来产量。融资尚未完成，PNG执行风险与待返化验是关键限制。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Michael Murphy",
+        "background": "South Pacific Metals Executive Chairman"
+      },
+      "companies": [
+        "South Pacific Metals"
+      ],
+      "projects": [
+        "Kili Teke",
+        "Osena",
+        "Anga",
+        "May River"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/western-exploration-tsxvwex-starts-permitting-346214694/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Western Exploration's 2025 PEA for Doby George outlines an open-pit heap-leach operation averaging about 58,700 ounces of gold per year for five years; permitting has begun and the company targets a record of decision by end-2027.",
+          "evidence": "The direct iHeart episode published September 25 gives the PEA production case and permitting schedule in CEO Darcy Marud's interview notes.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/western-exploration-tsxvwex-starts-permitting-346214694/",
+          "evidence_type": "Management interview summary and PEA figures",
+          "period": "2025 PEA; permitting timeline as of September 2026",
+          "unit": "ounces/year; years; permitting milestones",
+          "value": "~58,700 oz/year for five years; decision target end-2027"
+        },
+        {
+          "claim": "The wider Aura project contains about 1.5 million ounces gold-equivalent Indicated and Inferred across Doby George and Gravel Creek; production is targeted for 2030, subject to permits and financing.",
+          "evidence": "The episode page distinguishes the two project deposits and presents the production date as a management target, not a committed schedule.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/western-exploration-tsxvwex-starts-permitting-346214694/",
+          "evidence_type": "Company project summary in direct interview page",
+          "period": "Current Aura project plan; potential production in 2030",
+          "unit": "gold-equivalent ounces; target year",
+          "value": "~1.5 Moz AuEq; 2030 target"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Western Exploration为Doby George金矿启动许可流程",
+      "source_type": "podcast",
+      "summary": "Western Exploration启动Doby George矿的联邦许可流程；2025年PEA设想五年露天堆浸、平均年产约58,700盎司金，目标2030年投产。",
+      "detail": "公司希望在2027年中前完成预可研，并以2027年底环境决策为目标；之后仍需州级许可和融资。Gravel Creek的金银资源与冶金试验是额外上行选项，不在Doby George首期产量内。",
+      "importance": "提前启动许可把环境审查设为主要工期而非可研完成后的临时步骤，目标决策日期为2027年底；若审批推进，Doby George可成为2030年前后的美国堆浸金供应。五年矿山计划和融资资本仍需工程研究验证，Gravel Creek资源不能并入首期产量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Darcy Marud",
+        "background": "Western Exploration President and CEO"
+      },
+      "companies": [
+        "Western Exploration"
+      ],
+      "projects": [
+        "Aura",
+        "Doby George",
+        "Gravel Creek"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/revival-gold-tsxvrvg-advances-mercur-346211820/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Revival Gold had completed about 11,600 metres of its 2026 Mercur programme by late September; the PFS is targeted for Q1 2027 and the company plans a construction decision in early 2028.",
+          "evidence": "The direct iHeart episode published September 25 reports drilling progress and development milestones from CEO Hugh Agro.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/revival-gold-tsxvrvg-advances-mercur-346211820/",
+          "evidence_type": "Management interview page",
+          "period": "2026 drilling status; PFS Q1 2027; decision early 2028",
+          "unit": "metres drilled; project milestones",
+          "value": "~11,600 m; PFS target Q1 2027; build decision early 2028"
+        },
+        {
+          "claim": "The 2025 PEA outlined average production of about 95,600 ounces per year for 10 years, and eighteen metallurgical columns were under leach during the interview.",
+          "evidence": "The episode summary distinguishes the PEA production scenario from current metallurgical testing.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/revival-gold-tsxvrvg-advances-mercur-346211820/",
+          "evidence_type": "PEA case and current testwork summarized in interview",
+          "period": "2025 PEA; metallurgical testwork underway in 2026",
+          "unit": "ounces/year; test columns",
+          "value": "95,600 oz/year over 10 years; 18 columns under leach"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Revival Gold推进Mercur预可研并筹备建设决策",
+      "source_type": "podcast",
+      "summary": "Revival Gold完成Mercur 2026年钻探约11,600米，目标2027年第一季度完成PFS并于2028年初作建设决策；公司称18个冶金柱浸试验仍在进行。",
+      "detail": "2025年PEA设想10年平均年产95,600盎司金；当前PFS工作与试验用于核实浸出回收率、矿坑设计和成本。融资、许可与能源价格仍可能改变经济性。",
+      "importance": "11,600米钻探和18个柱浸试验正在为2027年PFS补齐矿化连续性与回收率数据，若结果贴近PEA，2028年建设决策的风险可下降。95,600盎司/年仍是2025年经济研究假设，成本上涨、许可和融资安排仍会影响最终投资决定。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Hugh Agro",
+        "background": "Revival Gold President and CEO"
+      },
+      "companies": [
+        "Revival Gold"
+      ],
+      "projects": [
+        "Mercur",
+        "Beartrack-Arnett"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/silver-acadia-csesla-high-grade-silver-346217466/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Silver Acadia is re-assaying 20–22 selected historical holes, about 6,000–7,000 metres, from roughly 125,000 metres of historic drilling; results are expected around November.",
+          "evidence": "The direct iHeart episode published September 25 reports the planned re-assay work and timing from CEO Julien Davy.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/silver-acadia-csesla-high-grade-silver-346217466/",
+          "evidence_type": "Direct management interview page",
+          "period": "Re-assay programme underway in 2026; results expected around November",
+          "unit": "metres and holes",
+          "value": "125,000 m historic; 20–22 holes / 6,000–7,000 m selected for re-assay"
+        },
+        {
+          "claim": "Phase 1 drilling of about 3,600 metres included 24.8 metres at 328.9 g/t silver and 1.0 g/t gold; a 15,000-metre Phase 2 programme is planned, with estimated cost about C$4.8 million at C$320 per metre.",
+          "evidence": "The episode page provides the result and planned programme while noting Silver Acadia has about C$2 million in cash and would need additional financing.",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/silver-acadia-csesla-high-grade-silver-346217466/",
+          "evidence_type": "Management-attributed drill result and programme estimate",
+          "period": "Phase 1 result; proposed winter 2026–27 Phase 2",
+          "unit": "g/t Ag and Au over metres; metres; CAD",
+          "value": "328.9 g/t Ag and 1.0 g/t Au over 24.8 m; 15,000 m; ~C$4.8m"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Silver Acadia重测历史岩芯并规划Nicholas-Denys冬季钻探",
+      "source_type": "podcast",
+      "summary": "Silver Acadia计划从约125,000米历史钻探中选取6,000–7,000米重测，并在冬季开展15,000米Phase 2钻探；Phase 1曾取得24.8米、328.9克/吨银与1.0克/吨金截段。",
+      "detail": "公司将第一阶段结果作为目标生成依据，目标2027年提交首份资源量；约C$2m现金不足以覆盖估算C$4.8m的Phase 2成本，融资、历史数据合规性及矿化连续性均未解决。",
+      "importance": "重测历史岩芯可用较低成本筛选靶区，24.8米高银截段为冬季钻探提供方向，但历史资料中约一半岩芯未测银且尚无合规资源量。Phase 2预算高于现有现金，新增供给前仍需融资、连续性验证和冶金工作，不能把局部截段视作储量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Julien Davy",
+        "background": "Silver Acadia CEO"
+      },
+      "companies": [
+        "Silver Acadia"
+      ],
+      "projects": [
+        "Nicholas-Denys",
+        "Goldstrike",
+        "SEDEX"
+      ]
+    },
+    {
+      "url": "https://www.kitco.com/news/video/2026-09-25/blackrock-silver-extends-tonopah-west-by-600-meters-andrew-pollard",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Blackrock Silver says step-out drilling extended high-grade mineralization at Tonopah West another 600 metres northwest along the Denver vein system; further assays were pending and follow-up drilling was underway.",
+          "evidence": "Kitco Mining's direct video-interview page shows Sep 24, 2026, 5:00 PM and summarizes President and CEO Andrew Pollard's comments at the 2026 Precious Metals Summit.",
+          "source_url": "https://www.kitco.com/news/video/2026-09-25/blackrock-silver-extends-tonopah-west-by-600-meters-andrew-pollard",
+          "evidence_type": "Direct Kitco Mining interview page and video summary",
+          "period": "2026 exploration update; assays pending",
+          "unit": "metres of mineralized extension",
+          "value": "~600 m northwest extension"
+        },
+        {
+          "claim": "Management described permitting for an exploration decline and a minimum 50,000-tonne bulk sample as part of a path toward feasibility, with groundbreaking targeted in 2027.",
+          "evidence": "The direct interview page attributes the development path and target date to Andrew Pollard; these are plans, not completed milestones.",
+          "source_url": "https://www.kitco.com/news/video/2026-09-25/blackrock-silver-extends-tonopah-west-by-600-meters-andrew-pollard",
+          "evidence_type": "Management-attributed interview summary",
+          "period": "Targeted 2027 development milestones",
+          "unit": "tonnes and target year",
+          "value": "minimum 50,000 t bulk sample; 2027 groundbreaking target"
+        }
+      ],
+      "publish_date": "2026-09-24",
+      "title": "Blackrock Silver称Tonopah West高品位矿化再向西北延伸600米",
+      "source_type": "conference_interview",
+      "summary": "Blackrock Silver CEO Andrew Pollard称Tonopah West向西北的步进钻探将高品位矿化延伸约600米，后续化验与钻探仍在进行；公司推进探矿斜坡许可和至少50,000吨大样方案。",
+      "detail": "访谈发布于9月24日、在Precious Metals Summit Beaver Creek录制。管理层目标为2027年动工；大样和斜坡许可尚未完成，600米为矿化延伸长度，不是真厚度或资源增量。",
+      "importance": "约600米步进延伸扩大了Tonopah West的勘探边界，若后续化验支持连续性，可能提升银矿项目的资源转换空间。当前尚无新增资源量，至少50,000吨大样、探矿斜坡许可和2027年动工都属于待完成计划，许可与试采结果会影响项目供给前景。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Andrew Pollard",
+        "background": "Blackrock Silver President and CEO"
+      },
+      "companies": [
+        "Blackrock Silver"
+      ],
+      "projects": [
+        "Tonopah West",
+        "Denver Vein System"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://news.smm.cn/news/104134767",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "SMM reports that Escondida unions rejected BHP's request to suspend contract talks after the fatal accident; negotiations continue, and supervisors are due to vote on the latest offer on September 28–30.",
+          "evidence": "The SMM article page directly displays publication time 2026-09-26 11:17 and the union response, safety concerns and upcoming ballot. The September 28–30 vote dates had already appeared in the September 23 report; the new update here is the rejection of a pause request after the accident.",
+          "source_url": "https://news.smm.cn/news/104134767",
+          "evidence_type": "SMM page carrying Wenhua Finance report",
+          "period": "Published Sep 26, 2026; union response occurred Sep 25 after the fatal accident",
+          "unit": "negotiation status and voting dates",
+          "value": "talks continue; vote scheduled Sep 28–30; no strike reported"
+        },
+        {
+          "claim": "Union representatives alleged poor safety conditions and said some work at the mine continued after the death; the article does not report a new strike or a fresh production stoppage.",
+          "evidence": "The article attributes the safety allegations to union statements and describes regulator intervention; these are union claims, not independently measured production losses.",
+          "source_url": "https://news.smm.cn/news/104134767",
+          "evidence_type": "Quoted union statements in SMM/Wenhua report",
+          "period": "After the fatal maintenance accident of Sep 23, 2026",
+          "unit": "safety and operating status",
+          "value": "negotiations ongoing; no additional outage quantified"
+        }
+      ],
+      "publish_time": "2026-09-26",
+      "source": "SMM / 文华财经",
+      "title": "智利Escondida矿工会拒绝暂停合同谈判的请求",
+      "excerpt": "SMM于9月26日11:17发布消息称，Escondida工会拒绝BHP因致命事故而暂停合同谈判的请求，谈判按原计划继续。监督人员工会将于9月28日至30日就新合同提议投票；文章未报告新的罢工或新增停产。",
+      "language": "zh",
+      "interpretation": "这条更新是事故后的劳资与安全争议，不代表Escondida再次停产。9月28–30日的投票安排已在9月23日报告提及；本条新增的是工会拒绝暂缓谈判以及对事故后现场安全状况的指控。",
+      "importance": "Escondida是大型铜矿，若劳资矛盾从投票升级为罢工，短期供应风险将显著上升；但截至本次报道，谈判仍继续且没有新增停产或损失吨数。应把它视为事故后风险升温，而非已发生的供给中断，后续关键节点是9月28–30日投票及监管安全审查。",
+      "verification_status": "verified",
+      "companies": [
+        "BHP",
+        "Rio Tinto",
+        "JECO Corp"
+      ],
+      "projects": [
+        "Escondida Mine"
+      ]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "计算Part1窗口为2026-09-24 00:00至2026-09-26 23:59:59北京时间；直接打开Company Interviews/iHeart官方节目页，按页面发布日期逐条检查9月24–26日节目，并直接打开本期纳入的16个episode页面核对标题、嘉宾、发布时间标签和文字show notes。",
+      "纳入16条Company Interviews/iHeart访谈：9月24日5条（Americas Gold & Silver、South Pacific Metals、U.S. Gold、G Mining、Kodiak）；9月25日6条（Nine Mile、New Found Gold、Gunnison、Silver Acadia、Western Exploration、Revival Gold）；9月26日5条（Luca Mining、Banyan Gold、Selkirk Copper、Heliostar、Amex Gold）。所有录音日期与发布日分别记录，报告按节目页面发布日筛选。",
+      "Kitco Mining Blackrock Silver视频页直接打开，页面显示2026-09-24 17:00；核对Andrew Pollard关于Tonopah West西北步进延伸、后续化验、探矿斜坡和大样的访谈摘要。",
+      "Denver Gold Group的官方Moderator RSVP页面直接打开，确认Mining Forum Americas 2026日期为9月27–30日；官方agenda页面返回HTTP 403，未尝试绕过挑战。论坛首日为9月27日，晚于本期Part1截止日，故没有9月24–26的演示或回放可纳入。",
+      "KE Report Heliostar/Charles Funk访谈页面直接打开，发布日期9月25日；主要讨论与9月26日Company Interviews/Crux的Ana Paula可研进度、2,000 t/d方案和中期建设安排高度重叠，保留发布较晚且含现金流融资细节更完整的Stephen Soock访谈。",
+      "对照2026-09-24与2026-09-25报告：Kitco Mackay访谈、G3 Goldfields和Aya Gold & Silver演示已在前两日报告出现；GR Silver iHeart节目与9月25日Crux访谈为同一录音/事实集，均作去重。",
+      "排除Company Interviews中的enCore Energy（铀）、Atlas Salt（盐）及Discovery Group泛行业资本评论（无具体金银铜项目的新供需事实）。"
+    ],
+    "part1_result": "Part1检索完整，纳入17条在窗口内发布且有可核验供需或项目进展的访谈/节目（16条iHeart/Company Interviews，1条Kitco Mining）。Denver Gold Group活动安排已通过官方RSVP页确认于9月27日开始，晚于本期窗口；已排除前两日报告重复的Mackay、G3、Aya与GR Silver内容。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "固定Python运行scripts/daily_pipeline.py 2026-09-26 --collect-x；run_id=2026-09-26-20260926T230323561334Z-23472，scripts/x_search.py 2026-09-26 --headless。",
+      "Playwright按注册表顺序完整处理53个账号，完成53/53、失败0、保留2条窗口内候选；原始帖子文本、handle、URL和UTC/BJT发布时间保存在x_outputs/2026-09-26_x_raw_materials.txt及JSON sidecar。",
+      "逐条核验两条候选：Peter Krauth的Silver Scoop为推广邮件及价格观点；Ronnie Stoeferle回复为私人闲谈。二者均无新增、可归属的金银铜供需事实，故纳入0条；Playwright完成后未启动twscrape。"
+    ],
+    "part2_result": "Part2采集完整，Playwright完成53/53账号、0失败；两条候选均经核验但不符合供需收录标准，纳入0条。未触发twscrape回退，覆盖状态为complete。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright真实完成全部53个账号；2条候选均已复核，不需要后续通道。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "固定Python/Chromium Playwright主路径抓取Mining.com gold、silver、copper分类页，run_id=2026-09-26-20260926T230207510000Z-22584；三页HTTP 200、标题正常、gold 0/silver 0/copper 0篇当日文章，均为success_empty。",
+      "按工作流查询site:mining.com gold/silver加2026-09-26日期词，两个搜索均0命中；WebFetch对gold与silver分类页均返回HTTP 403。未使用RSS、sitemap或Wayback。",
+      "SMM中文Escondida工会报道https://news.smm.cn/news/104134767直接打开；HTML页面显示2026-09-26 11:17，正文核对工会拒绝BHP暂缓合同谈判、谈判继续、工会安全指控和9月28–30日投票。仅将新出现的暂缓谈判拒绝与安全争议纳入，不重复既有投票公告或事故停产。",
+      "SMM秘鲁部长铜产量展望条目直接打开，正文指向9月25日事件/Reuters同一采访，1 Mt/y、5–6年目标及2026年250–270万吨区间已在2026-09-25报告收录，作为重复转载排除。",
+      "SMM进口铜精矿周评直接核对指数为2026-09-24的-224.53 USD/dmt、变化-2.64；该评估已用于9月25日TC记录，日期不属本期Part3，且本次RUN_DATE为周日不触发TC更新。",
+      "SMM 9月26日假期行情回顾直接打开，仅有周度与隔夜市场价格变动，没有新的实体金属供需事件；9月25日LME收盘综述也属价格复述并超出Part3日期，均排除。",
+      "SMM BHP/Amazon低碳铜EAC试点文章HTML显示datePublished 2026-09-25T05:25:56Z（北京时间9月25日13:25）；报道事件为9月22日试点发布，日期不在本期Part3窗口，排除。",
+      "International Copper Association Australia的Copper Weekly Brief直接打开，article:published_time为2026-09-24T01:43:00Z（北京时间9月24日09:43），周度市场内容早于本期Part3窗口，排除。",
+      "紫金矿业官网H1核心金属产量新闻稿直接打开，页面显示公司2026年中报于8月21日发布；搜索引擎中的9月26日证券之星摘要是旧报告复述，不作报告日新产量信号。",
+      "中英文日期限定检索、SMM新闻页与矿业发行人公告搜索未找到其他在2026-09-26首次发布且符合金银铜实体供需标准的项目、产量或库存事件；更早公告均按发布日期和跨日报告去重。"
+    ],
+    "part3_result": "Part3检索完整，纳入1条报告日新信息：SMM于9月26日发布的Escondida工会谈判更新。其他候选为9月25日秘鲁部长采访的重复转载、9月24日TC周评/ICA周报、9月25日EAC试点、旧中报复述或纯价格回顾，均已按窗口和事件去重排除。",
+    "mining_com_source_note": "2026-09-26 Mining.com gold/silver/copper分类页均经固定Python/Chromium Playwright完成抓取，HTTP 200且当日文章数分别为0/0/0；web_search的site:mining.com gold/silver日期查询均0命中，WebFetch对gold/silver分类页为403。铜页主路径成功但success_empty；未用RSS、sitemap或Wayback。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 18,
+      "passed": 18,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "17条访谈卡片均链接至iHeart Company Interviews具体episode页或Kitco Mining具体视频页，页面标题、页面发布日期标签、嘉宾和摘要已直接核对；1条新闻卡片链接至SMM具体文章，页面发布时间与正文已核对。",
+        "iHeart节目页仅显示日期、不显示可靠发布时刻，按YYYY-MM-DD记录；Kitco采访日期使用页面显示日期，不推定时区。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kitco.com/news/video/2026-09-25/mackay-gold-brings-the-comstock-district-under-one-roof-darwin-green — 已纳入2026-09-25 Part 1。",
+      "https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/g3-goldfields-inc/play — 已纳入2026-09-24 Part 1。",
+      "https://www.gowebcasting.com/events/precious-metals-summit-conferences-llc/2026/09/24/aya-gold-silver-inc/play — 已纳入2026-09-24 Part 1。",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/gr-silver-mining-tsxvgrsl-high-grade-346229434/ — 与2026-09-25 Crux Investor GR Silver采访为同一录音和事实集。",
+      "https://www.kereport.com/2026/09/25/heliostar-inside-the-ana-paula-feasibility-study-mill-scalability-cost-optimization-and-permitting-milestones/ — 同为Ana Paula可研与融资更新；本期保留9月26日Crux/Company Interviews中更聚焦现金流融资的访谈。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/peter_krauth/status/2103527788674453569 — Newsletter promotion and silver-price pullback/bear-trap commentary; no new dated physical supply or demand fact.",
+      "https://x.com/RonStoeferle/status/2103859764761653492 — Personal reply unrelated to gold, silver or copper supply/demand."
+    ],
+    "part3_deduped_events": [
+      "SMM Peru output outlook (104134762/104134768): repeats the September 25 Reuters minister interview already included in 2026-09-25 report; no new report-date event.",
+      "SMM copper concentrate TC weekly review 104133941: actual assessment 2026-09-24, already reflected in the prior Saturday CSV update; outside 2026-09-26 Part3 window.",
+      "SMM September 26 holiday market review and September 25 LME-close article: price-only/weekly recap with no new physical supply-demand event.",
+      "BHP/Amazon copper EAC pilot page 104134605: published September 25 BJT and describes a September 22 pilot; outside this Part3 window.",
+      "International Copper Association Australia weekly brief: published September 24 BJT; week-ending data are not a September 26 event.",
+      "Zijin 2026 H1 report: official company page dates the report to August 21; the September 26 search result is a republication, not a new release."
+    ],
+    "notes": "本期窗口：Part1为2026-09-24至09-26，Part2和Part3为09-26北京时间。RUN_DATE为周日，不触发周六TC更新。Escondida在9月23日报告已有主管工会投票/潜在罢工风险，在9月25日报告已有事故后逐步复产；本期只保留SMM于9月26日发布的工会拒绝暂停谈判与安全争议新进展，未把投票或事故重复计为新事件。iHeart节目发布日期按页面日期标签记录为date-only；节目录制日期仅作为背景，不替代发布日期。"
+  }
+}

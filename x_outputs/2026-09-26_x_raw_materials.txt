@@ -1,0 +1,40 @@
+X 原始候选 — 2026-09-26
+采集时间: 2026-09-27T07:29:49.690053+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-25T16:51:21+00:00
+    北京: 2026-09-26T00:51:21+08:00
+    文本: Silver pulled back. Did the opportunity?
+
+This week’s Silver Scoop covers 9 companies making moves—and why I think investors need to watch for a silver “bear trap.”
+
+Before you write off this pullback, catch up 
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-11/
+…
+    链接: https://x.com/peter_krauth/status/2103527788674453569
+
+[2] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-26T14:50:30+00:00
+    北京: 2026-09-26T22:50:30+08:00
+    文本: Not at all! Got 4 ladies at home. Happy to invite some female gold bugs, but there are veeery few out there, unfortunately
+    链接: https://x.com/RonStoeferle/status/2103859764761653492
+

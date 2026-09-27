@@ -1,0 +1,49 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-26",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-a4f092e3a5f6b3890c6de823",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-09-25T16:51:21+00:00",
+      "text": "Silver pulled back. Did the opportunity?\n\nThis week’s Silver Scoop covers 9 companies making moves—and why I think investors need to watch for a silver “bear trap.”\n\nBefore you write off this pullback, catch up \n\nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/the-silver-scoop-11/\n…",
+      "url": "https://x.com/peter_krauth/status/2103527788674453569",
+      "collector": "x_search",
+      "report_date": "2026-09-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8ac85c5ed39ae6a634ad2f7b",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-26T14:50:30+00:00",
+      "text": "Not at all! Got 4 ladies at home. Happy to invite some female gold bugs, but there are veeery few out there, unfortunately",
+      "url": "https://x.com/RonStoeferle/status/2103859764761653492",
+      "collector": "x_search",
+      "report_date": "2026-09-26",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
