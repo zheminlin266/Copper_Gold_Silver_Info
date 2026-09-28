@@ -1,0 +1,580 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-27",
+  "report_time": "2026-09-28T08:19:42+08:00",
+  "summary": "黄金供给：科内首批浇铸确认新增矿山进入爬坡，勘探与扩产项目补充中期管线，但Donlin许可风险上升。白银供给：在产矿山扩能与复产预期指向中期增量。铜供给：钻探计划拓展远期资源，尚未转化为新增产量。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-25T00:00:00+08:00",
+      "end": "2026-09-27T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-27T00:00:00+08:00",
+      "end": "2026-09-27T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-27T00:00:00+08:00",
+      "end": "2026-09-27T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/ridgeline-minerals-tsxvrdg-c33m-sale-funds-hunt-for-transformational-deal-in-north-america-346330762",
+      "metal_tags": [
+        "copper",
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Ridgeline于2026年8月以现金US$23.15m（约C$32.7m）出售Swift、Black Ridge、Bell Creek和Atlas四个无定义资源的早期金项目。",
+          "evidence": "iHeart于2026年9月27日发布的CEO访谈页面列出出售资产、交易金额及资产当时没有定义资源。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/ridgeline-minerals-tsxvrdg-c33m-sale-funds-hunt-for-transformational-deal-in-north-america-346330762",
+          "evidence_type": "直接管理层访谈页面及节目说明",
+          "period": "交易于2026年8月完成；采访发布于2026年9月27日",
+          "unit": "美元和加元交易金额；项目资源状态",
+          "value": "US$23.15m; approximately C$32.7m; no defined resources"
+        },
+        {
+          "claim": "Selena铜银项目计划进行3至4孔约100米步进钻探；South32已投入US$8.5m/US$10m取得首阶段60%权益。",
+          "evidence": "同一CEO访谈页面说明钻探数量、步进方式、向南测试方向及South32首阶段投资与持股比例。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/ridgeline-minerals-tsxvrdg-c33m-sale-funds-hunt-for-transformational-deal-in-north-america-346330762",
+          "evidence_type": "直接管理层访谈页面及节目说明",
+          "period": "采访发布于2026年9月27日；Selena当前勘探计划",
+          "unit": "钻孔数、米、美元、权益比例",
+          "value": "3–4 holes; approximately 100 m step-outs; US$8.5m of US$10m for 60%"
+        }
+      ],
+      "publish_date": "2026-09-27",
+      "title": "Ridgeline Minerals出售四个早期金项目，转向铜银勘探与并购",
+      "source_type": "podcast",
+      "summary": "CEO Chad Peters称，公司8月以现金US$23.15m（约C$32.7m）出售Swift、Black Ridge、Bell Creek和Atlas四个尚无定义资源的金项目。近端勘探集中于South32参与的Selena铜银项目，计划进行3–4孔、约100米步进钻探测试矿化连续性。",
+      "detail": "South32已在首阶段投入US$8.5m/US$10m取得Selena 60%权益，并可选择再投US$10m升至80%；CEO称本轮3–4孔计划包括向南测试较高铜银含量。出售金项目的交易已于2026年8月完成；管理层希望利用资本寻找规模更大的铜、金或银资产。Selena及相关勘探结果尚未构成资源量或储量。",
+      "importance": "四个金项目均无定义资源，出售后资本转向South32支持的Selena铜银靶区，避免把资产交易误读为新增金供给。3–4孔、约100米步进只能检验矿化连续性；若南向高品位铜银区获得化验确认，才会影响中长期勘探管线，目前仍无可采资源。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Chad Peters",
+        "background": "Ridgeline Minerals President and CEO"
+      },
+      "companies": [
+        "Ridgeline Minerals",
+        "South32",
+        "Nevada Gold Mines"
+      ],
+      "projects": [
+        "Selena",
+        "Big Blue",
+        "Swift",
+        "Black Ridge",
+        "Bell Creek",
+        "Atlas"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/visionary-copper-gold-tsxvvcg-new-drill-phase-to-upgrade-massive-newfoundland-copper-asset-346325808",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Pt. Leamington的2021年NI 43-101资源为Indicated 5.0Mt、1.42% CuEq及Inferred 15.4Mt、1.32% CuEq。",
+          "evidence": "iHeart于2026年9月27日发布的CEO访谈页面列明资源类别、吨位和铜当量品位。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/visionary-copper-gold-tsxvvcg-new-drill-phase-to-upgrade-massive-newfoundland-copper-asset-346325808",
+          "evidence_type": "直接管理层访谈页面及节目说明；2021年NI 43-101资源数据",
+          "period": "2021年资源估算；访谈发布于2026年9月27日",
+          "unit": "百万吨；% CuEq",
+          "value": "5.0Mt Indicated at 1.42% CuEq; 15.4Mt Inferred at 1.32% CuEq"
+        },
+        {
+          "claim": "2026年第一阶段10孔共3,556米，PL-112见75.8米、0.45%铜，包括12.0米、1.09%铜；Kraken尚未计入资源。",
+          "evidence": "同一访谈页面列示第一阶段孔数、钻探米数、PL-112截段及Kraken在当前资源以外。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/visionary-copper-gold-tsxvvcg-new-drill-phase-to-upgrade-massive-newfoundland-copper-asset-346325808",
+          "evidence_type": "直接管理层访谈页面及节目说明；公司钻探结果口径",
+          "period": "2026年第一阶段钻探",
+          "unit": "孔数；米；% Cu",
+          "value": "10 holes; 3,556 m; 75.8 m at 0.45% Cu, including 12.0 m at 1.09% Cu"
+        },
+        {
+          "claim": "公司计划进行20,000米第二阶段钻探，约90%预算投入Pt. Leamington。",
+          "evidence": "访谈页面说明第二阶段钻探规模、主要预算用途及融资仍在完成。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/visionary-copper-gold-tsxvvcg-new-drill-phase-to-upgrade-massive-newfoundland-copper-asset-346325808",
+          "evidence_type": "管理层计划，非已完成钻探",
+          "period": "后续第二阶段计划；访谈发布于2026年9月27日",
+          "unit": "米；预算占比",
+          "value": "20,000 m; approximately 90% at Pt. Leamington"
+        }
+      ],
+      "publish_date": "2026-09-27",
+      "title": "Visionary Copper & Gold计划对Pt. Leamington开展20,000米第二阶段钻探",
+      "source_type": "podcast",
+      "summary": "CEO Max Porterfield称Pt. Leamington的2021年NI 43-101资源包括Indicated 5.0Mt、1.42% CuEq及Inferred 15.4Mt、1.32% CuEq。2026年第一阶段10孔、3,556米钻探发现的Kraken铜脉状带尚未计入资源，公司计划第二阶段钻探20,000米。",
+      "detail": "公司称第二阶段约90%钻探预算用于Pt. Leamington，目标转换约一半坑内Inferred资源并延伸主矿体、定义Kraken。首阶段PL-112返回75.8米、0.45%铜（含12.0米、1.09%铜）；该矿化未计入现有资源。20,000米计划的融资仍在落实，Kraken铜品位和整体露天矿经济性仍待钻探检验。",
+      "importance": "20,000米钻探若能把坑内Inferred资源转换并将Kraken纳入下一版资源，可同时改善潜在铜矿量与采坑经济性；这可能改变远期项目供给，但新铜矿化尚未纳入资源，也不是可采储量。约90%预算集中于Pt. Leamington，后续融资、钻孔品位和资源更新将决定增量能否兑现。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Max Porterfield",
+        "background": "Visionary Copper & Gold CEO"
+      },
+      "companies": [
+        "Visionary Copper & Gold"
+      ],
+      "projects": [
+        "Pt. Leamington",
+        "Kraken"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/santacruz-silver-mining-tsxscz-cash-growth-production-increase-more-acquisitions-under-review-346324237",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Bolivar 2026年Q2白银产量环比上升32%；管理层预计2026年Q4完成排水。",
+          "evidence": "iHeart于2026年9月27日发布的CEO访谈页面给出季度产量变化及排水时间表。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/santacruz-silver-mining-tsxscz-cash-growth-production-increase-more-acquisitions-under-review-346324237",
+          "evidence_type": "直接管理层访谈页面及节目说明；产量为公司报告口径，排水为管理层预计",
+          "period": "2026年Q2对比Q1；排水目标为2026年Q4",
+          "unit": "白银产量环比百分比；日历季度",
+          "value": "+32% QoQ; full dewatering targeted Q4 2026"
+        },
+        {
+          "claim": "San Lucas专用选厂平均释放约500吨/日能力；公司预计三项资产合计2027年产量增长约10%。",
+          "evidence": "访谈页面记载San Lucas选厂转型释放的处理能力，以及Bolivar、San Lucas和Zimapan的管理层合计产量预期。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/santacruz-silver-mining-tsxscz-cash-growth-production-increase-more-acquisitions-under-review-346324237",
+          "evidence_type": "管理层访谈说明；2027年增幅为公司预测",
+          "period": "当前平均处理能力；2027年产量预测",
+          "unit": "吨/日；产量同比/年度增幅百分比",
+          "value": "approximately 500 t/d; approximately 10% production growth in 2027"
+        },
+        {
+          "claim": "Zimapan新钻区约200g/t银、7%锌；管理层预计2027年月处理量由74,000吨增至80,000吨、银头品位约100g/t。",
+          "evidence": "直接访谈页面列出钻探品位和未来吞吐量、品位目标。",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/santacruz-silver-mining-tsxscz-cash-growth-production-increase-more-acquisitions-under-review-346324237",
+          "evidence_type": "管理层访谈；钻探结果与未来运营目标分列",
+          "period": "当前新钻区及2027年运营目标",
+          "unit": "克/吨银；锌百分比；吨/月",
+          "value": "approximately 200 g/t Ag and 7% Zn; 74,000 to 80,000 t/month; target approximately 100 g/t Ag head grade"
+        }
+      ],
+      "publish_date": "2026-09-27",
+      "title": "Santacruz预计2027年银产量增长约10%，复产与选厂扩能是关键",
+      "source_type": "podcast",
+      "summary": "CEO Arturo Préstamo Elizondo称，Bolivar 2026年Q2白银产量环比增32%，管理层预计Q4完成排水；San Lucas专用选厂平均释放约500吨/日处理能力。公司预计Bolivar、San Lucas、Zimapan三项合计2027年产量增长约10%。",
+      "detail": "San Lucas释放产能相当于Porco约15–20%。Zimapan钻探遇到约200g/t银、7%锌区段，管理层希望自2027年把月处理量由74,000吨增至80,000吨并将银头品位提高至约100g/t。Soracaya为4.14Mt、260g/t银的Inferred资源，首产目标为2026年12月，仍待许可；Bolivar与Porco的合资安排至2028年。",
+      "importance": "若Q4完成Bolivar排水并兑现2027年约10%增长指引，复产、San Lucas释出约500吨/日处理能力和Zimapan提品位将合力支持银精矿增量。该增长仍属管理层预测，Soracaya资源为Inferred且首产目标依赖许可；应以实际月处理量和Q3产量验证。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Arturo Préstamo Elizondo",
+        "background": "Santacruz Silver Mining Executive Chairman and CEO"
+      },
+      "companies": [
+        "Santacruz Silver Mining",
+        "COMIBOL"
+      ],
+      "projects": [
+        "Bolivar",
+        "San Lucas",
+        "Porco",
+        "Zimapan",
+        "Soracaya"
+      ]
+    },
+    {
+      "url": "https://mining.com.au/aurbis-puts-ecru-to-the-lie-detector-beaver-creek-2026/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Aurbis计划于2026年11月在Ecru开展约3,000米钻探，并预计2027年2月前后取得化验结果。",
+          "evidence": "Mining.com.au在2026年9月25日的Beaver Creek采访文章列出公司下一步钻探和预计化验时间。",
+          "source_url": "https://mining.com.au/aurbis-puts-ecru-to-the-lie-detector-beaver-creek-2026/",
+          "evidence_type": "会议现场CEO视频访谈及出版方文字摘要；计划数字归因于管理层",
+          "period": "拟于2026年11月钻探；预计2027年2月化验",
+          "unit": "米；日历月份",
+          "value": "approximately 3,000 m; assays expected around February 2027"
+        },
+        {
+          "claim": "Ecru项目距Robertson金项目不足2公里，测绘、地球化学及物探结果共同形成多个首钻靶区。",
+          "evidence": "同一篇Mining.com.au会议采访页面列出项目位置和靶区生成方法。",
+          "source_url": "https://mining.com.au/aurbis-puts-ecru-to-the-lie-detector-beaver-creek-2026/",
+          "evidence_type": "出版方现场采访摘要",
+          "period": "截至2026年9月25日的项目勘探状态",
+          "unit": "公里；勘探方法",
+          "value": "less than 2 km; mapping, geochemistry and geophysics"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Aurbis为Ecru金项目拟定11月3,000米首钻计划",
+      "source_type": "conference_interview",
+      "summary": "Mining.com.au于9月25日在Precious Metals Summit Beaver Creek现场采访Aurbis Resources CEO Johan Lambrechts。Ecru项目的地质测绘、地球化学和地球物理结果共同圈定靶区；公司拟11月开展约3,000米首钻，预计2027年2月前后取得化验结果。",
+      "detail": "Ecru位于内华达州、距Robertson金项目不足2公里。Lambrechts称该项目仍处于靶区生成到首钻验证阶段；邻近Robertson仅是地理信息，不能据此推定矿体连续。公司未在该采访中披露资源量、储量或生产计划。",
+      "importance": "11月3,000米首钻将把Ecru从靶区生成推进到实钻验证，预计2027年2月化验结果构成近端勘查节点；与Robertson不足2公里的距离本身不证明矿化连续。现无资源量、储量或生产计划，供给影响只能视为早期发现选项，须由化验和后续资源建模确认。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Johan Lambrechts",
+        "background": "Aurbis Resources CEO and Director"
+      },
+      "companies": [
+        "Aurbis Resources"
+      ],
+      "projects": [
+        "Ecru Gold Project",
+        "Robertson Gold Project"
+      ]
+    },
+    {
+      "url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004622_SkYUAr2d.pdf",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Talisker在Precious Metals Summit Beaver Creek的公司演示日期为2026年9月25日，配套演示稿标注September 2026。",
+          "evidence": "GOWebcasting会议议程列出Talisker Resources presentation并链接至该公司演示PDF；议程中该演示位于9月25日。",
+          "source_url": "https://www.gowebcasting.com/C1672",
+          "evidence_type": "官方会议 webcast 列表及公司演示稿",
+          "period": "2026年9月25日会议演示",
+          "unit": "日历日期",
+          "value": "September 25, 2026"
+        },
+        {
+          "claim": "公司规划Mustang金矿于2026年Q3达到500吨/日、2027年达到750吨/日并于2028年达到1,000吨/日。",
+          "evidence": "Talisker公司演示稿的五年计划页逐年列示Mustang处理量爬坡节点。",
+          "source_url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004622_SkYUAr2d.pdf",
+          "evidence_type": "公司演示中的前瞻性计划",
+          "period": "2026年Q3至2028年运营目标",
+          "unit": "吨/日处理量",
+          "value": "500 t/d in Q3 2026; 750 t/d in 2027; 1,000 t/d in 2028"
+        },
+        {
+          "claim": "Bralorne PEA情景假设约2,700吨/日处理、14年矿山寿命及年均产金110,000盎司。",
+          "evidence": "演示稿的PEA highlights和Bralorne生产假设页列出设计处理量、矿山寿命与平均年产量；同一文件注明Talisker尚无定义储量。",
+          "source_url": "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004622_SkYUAr2d.pdf",
+          "evidence_type": "PEA经济研究假设，不是实际产量或矿山储量",
+          "period": "Bralorne PEA项目寿命情景",
+          "unit": "吨/日；年；盎司黄金/年",
+          "value": "2,700 t/d; 14 years; 110,000 oz Au/year"
+        }
+      ],
+      "publish_date": "2026-09-25",
+      "title": "Talisker披露Mustang金矿扩产路径及Bralorne PEA情景",
+      "source_type": "company_presentation",
+      "summary": "Talisker Resources在2026年9月25日Precious Metals Summit公司演示中列出Mustang金矿Q3日处理量提升至500吨的计划，并规划2027年750吨/日、2028年1,000吨/日。演示稿的Bralorne PEA情景为约2,700吨/日处理、14年矿山寿命和年均产金110,000盎司，均为公司研究/计划假设。",
+      "detail": "公司演示稿说明Mustang已于2025年Q3首次销售黄金；这不是本次窗口内的新生产事件。Bralorne资源为Measured & Indicated 206,300盎司、Inferred 3.1519Moz，Talisker明确指出项目尚无定义储量，PEA情景和Mustang处理量爬坡仍须实际运营和工程数据确认。",
+      "importance": "Mustang在2026年Q3提升至500吨/日的目标，若落实将把初期金矿运营推向更高吞吐；但演示未披露当前实际处理量或季度产量，后续扩产计划仍需运营数据验证。Bralorne年均11万盎司、14年寿命来自PEA情景，项目尚无定义储量，不能计作已锁定新增产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Talisker Resources Ltd."
+      ],
+      "projects": [
+        "Mustang Mine",
+        "Bralorne Gold Project"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://montagegold.com/_resources/news/2026/20260927_Montage-Gold-Announces-First-Gold-Pour-at-the-Kon%C3%A9-Mine.pdf",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Koné矿于2026年9月26日首次浇铸约1,140盎司黄金；自9月8日投矿以来已处理逾400,000吨矿石。",
+          "evidence": "Montage Gold于9月27日发布的官方新闻稿PDF直接列出首浇日期、首批产量和累计处理矿石量。",
+          "source_url": "https://montagegold.com/_resources/news/2026/20260927_Montage-Gold-Announces-First-Gold-Pour-at-the-Kon%C3%A9-Mine.pdf",
+          "evidence_type": "矿企官方新闻稿；实际启动数据",
+          "period": "首次浇铸2026年9月26日；矿石处理自2026年9月8日起",
+          "unit": "盎司黄金；吨矿石",
+          "value": "approximately 1,140 oz; more than 400,000 tonnes"
+        },
+        {
+          "claim": "公司根据2024年Updated Feasibility Study预计Koné矿首8年年产超过300,000盎司，矿山寿命估计16年。",
+          "evidence": "同一公告的公司简介段落注明产量及寿命数字来自2024年可研；这些为预测而非当前实际产量。",
+          "source_url": "https://montagegold.com/_resources/news/2026/20260927_Montage-Gold-Announces-First-Gold-Pour-at-the-Kon%C3%A9-Mine.pdf",
+          "evidence_type": "公司可行性研究预测",
+          "period": "预计运营首8年；全矿山寿命情景",
+          "unit": "盎司黄金/年；年",
+          "value": ">300,000 oz/year for first 8 years; 16-year estimated mine life"
+        }
+      ],
+      "publish_time": "2026-09-27",
+      "source": "Montage Gold Corp.",
+      "title": "Montage Gold旗下Koné金矿提前实现首批浇铸",
+      "excerpt": "Montage Gold于2026年9月27日公告，科特迪瓦Koné金矿于9月26日完成首次浇铸，产出约1,140盎司黄金；自9月8日向氧化矿线路投矿以来已处理逾400,000吨矿石。公司预计氧化矿线路于2026年Q4达到商业生产，硬岩破碎磨矿线路按计划于2027年Q2完工。",
+      "language": "en",
+      "interpretation": "首次浇铸是已实现的启动里程碑；Q4商业生产及硬岩线路完工仍是公司前瞻目标。首批1,140盎司仅代表开车初期，不能外推为稳定年产量。",
+      "importance": "Koné首批浇铸提前原定Q2 2027的首次产金时间表，氧化矿线路已由建设转为生产爬坡；但约1,140盎司仅是启动批次，不能代表稳定产能。若Q4商业生产和硬岩回路按期完成，2024可研所估首八年年均逾30万盎司将转为实物供应；在此前须以爬坡和产量数据验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Montage Gold Corp."
+      ],
+      "projects": [
+        "Koné Mine"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/ngos-warn-donlin-mine-spill-could-devastate-region/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "美国陆军工兵团与土地管理局Donlin Gold Draft SEIS列出27%尾矿释放情景，释放量109,730 acre-feet，并将其作为假设情景评估。",
+          "evidence": "官方Draft Supplemental Environmental Impact Statement第3–5页列出5.4%、13.3%和27%三种情景及27%对应体积；文件说明尾矿坝失效和释放极不可能，情景用于法院要求的补充分析。",
+          "source_url": "https://www.donlingoldseis.com/docs/Donlin%20Gold%20Project%20Draft%20SEIS%20Volume%20I.pdf",
+          "evidence_type": "美国陆军工兵团/土地管理局官方环境影响声明草案",
+          "period": "Draft SEIS, September 2026",
+          "unit": "尾矿释放占比；acre-feet",
+          "value": "27%; 109,730 acre-feet"
+        },
+        {
+          "claim": "公开评论期为2026年9月23日至10月23日；主管机构将使用补充分析决定是否修改、维持或撤销既有许可。",
+          "evidence": "MINING.COM 2026年9月27日文章给出评论期；官方Draft SEIS说明分析用于既有授权后续决策。",
+          "source_url": "https://www.mining.com/ngos-warn-donlin-mine-spill-could-devastate-region/",
+          "evidence_type": "当日新闻报道及其链接的官方草案文件",
+          "period": "评论期2026年9月23日至10月23日；后续许可决定",
+          "unit": "日历日期和监管决定",
+          "value": "September 23–October 23, 2026"
+        },
+        {
+          "claim": "Donlin公司预计该未建金矿年产约1.1Moz，矿山寿命27年。",
+          "evidence": "MINING.COM文章将该生产规模和矿山寿命归因于NOVAGOLD的项目预期；不是当前实际产量。",
+          "source_url": "https://www.mining.com/ngos-warn-donlin-mine-spill-could-devastate-region/",
+          "evidence_type": "矿企项目预测，经媒体报道",
+          "period": "拟建矿山全寿命预测",
+          "unit": "百万盎司黄金/年；年",
+          "value": "approximately 1.1Moz/year; 27 years"
+        }
+      ],
+      "publish_time": "2026-09-27",
+      "source": "Mining.com",
+      "title": "Donlin拟建金矿补充环评模拟大型尾矿释放情景",
+      "excerpt": "MINING.COM于2026年9月27日报道美国陆军工兵团与土地管理局公布Donlin Gold项目补充环境影响声明草案。官方草案模拟27%尾矿释放情景，量为109,730 acre-feet；公众意见征集截至10月23日，机构其后将决定维持、修改或撤销现有许可。Donlin公司预计项目年产约1.1Moz、寿命27年，属于未建矿山的公司预测。",
+      "language": "en",
+      "interpretation": "环境声明仅补评法院指出的较大尾矿释放风险，并未发生实际事故或立即撤销许可；评估结果可能影响环境条件和未来许可决定，相关产量仍是开发项目预测。",
+      "importance": "这项分析只重新评估尾矿坝失效后果，并不意味着矿山发生事故或现有许可已被撤销；公众意见征集至10月23日，随后机构才决定维持、修改或撤销许可。Donlin公司预计年产约110万盎司、寿命27年的项目若因此增加防护要求或审批时间，将影响大型金供应节奏；27%释放仍是假设情景。",
+      "verification_status": "verified",
+      "companies": [
+        "NOVAGOLD",
+        "Donlin Gold"
+      ],
+      "projects": [
+        "Donlin Gold Project"
+      ],
+      "mining_com_source_note": "主发现路径为Mining.com铜分类页Playwright抓取（HTTP 200）；本文由category DOM候选发现。普通HTTP请求文章页返回403，随后在同一Playwright Chromium会话直接打开文章，返回HTTP 200并核对标题、2026-09-27发布日期与正文。文章链接的USACE/BLM草案SEIS PDF已单独打开并核实27%情景为109,730 acre-feet。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.mining.com/web/barrick-mining-reaches-deal-with-unions-at-mali-gold-mine-easing-strike-threat/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Barrick确认与Loulo-Gounkoto工会签署新的集体协议，工会官员确认计划罢工撤销。",
+          "evidence": "MINING.COM全文转载Reuters 2026年9月27日报道，直接列出Barrick发言人确认以及工会官员Bani Sacko的确认。",
+          "source_url": "https://www.mining.com/web/barrick-mining-reaches-deal-with-unions-at-mali-gold-mine-easing-strike-threat/",
+          "evidence_type": "Reuters新闻报道，含公司发言人和工会官员具名确认",
+          "period": "协议于2026年9月21日达成；报道于2026年9月27日发布",
+          "unit": "劳资协议及计划罢工状态",
+          "value": "Collective Bargaining Agreement signed; strike action called off"
+        },
+        {
+          "claim": "Loulo-Gounkoto工会此前提出15项诉求，原计划在9月底发动罢工。",
+          "evidence": "Reuters报道列出15项工会诉求，并说明此前声明称若未达成要求将在9月底罢工。",
+          "source_url": "https://www.mining.com/web/barrick-mining-reaches-deal-with-unions-at-mali-gold-mine-easing-strike-threat/",
+          "evidence_type": "Reuters报道对工会诉求和先前罢工通知的说明",
+          "period": "2026年9月底计划行动；9月21日达成协议后取消",
+          "unit": "项诉求；日历时间",
+          "value": "15 demands; strike threat for end of September"
+        }
+      ],
+      "publish_time": "2026-09-27",
+      "source": "Reuters (via MINING.COM)",
+      "title": "Barrick与马里Loulo-Gounkoto金矿工会达成协议，罢工威胁解除",
+      "excerpt": "Reuters于2026年9月27日报道，Barrick已与马里西部Loulo-Gounkoto金矿工会签署新集体协议；工会官员称协议于9月21日达成，原计划罢工已撤销。工会此前提出15项诉求，涉及加班费、差旅报销及劳动协议执行。",
+      "language": "en",
+      "interpretation": "协议降低了原计划在9月底发生的劳资停工概率；报道没有称此次争议已经造成产量损失，也没有给出产量变化，故这是短期供应中断风险缓和，不是新增产量。",
+      "importance": "取消的是原定9月底的罢工风险，并非新增产量：工会称9月21日达成协议后，Loulo-Gounkoto工人的停工行动已撤销。此举降低短期供应中断概率，但该矿过去曾受马里与Barrick的控制权争端影响；本次报道没有披露减产或复产吨数，政治与监管风险仍需跟踪。",
+      "verification_status": "verified",
+      "companies": [
+        "Barrick Mining"
+      ],
+      "projects": [
+        "Loulo-Gounkoto"
+      ],
+      "mining_com_source_note": "Mining.com金分类页Playwright抓取成功，本文作为9月27日新闻候选发现。普通HTTP文章请求返回403；在同一Playwright Chromium会话打开文章返回HTTP 200，核实Reuters署名、发布日期、协议签署及罢工取消内容。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.miningforum.live/p/minerals-260s-rapid-growth-trajectory",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "矿区面积由约130平方公里扩至1,500平方公里，资源量由2.3Moz增至6.2Moz；管理层称新增资源发现成本约A$12/oz。",
+          "evidence": "Denver Gold Group旗下Mining Forum Live 2026年9月27日报道引述Minerals 260管理层说明Bullabulling资源增长、扩张面积和发现成本。",
+          "source_url": "https://www.miningforum.live/p/minerals-260s-rapid-growth-trajectory",
+          "evidence_type": "会议主办方媒体对管理层的采访报道；资源量为公司报告口径",
+          "period": "2025年4月收购后至2026年9月报道；约一年半",
+          "unit": "平方公里；百万盎司黄金；澳元/盎司",
+          "value": "approximately 130 to 1,500 km2; 2.3Moz to 6.2Moz; A$12/oz discovery cost"
+        },
+        {
+          "claim": "2026年7月Bullabulling PFS设定19年矿山寿命、年产150,000盎司黄金、初始储量2.5Moz、AISC A$2,520/oz。",
+          "evidence": "9月27日采访报道转述7月PFS的规划生产、储量及成本；均为可研计划指标，不是实际运营数据。",
+          "source_url": "https://www.miningforum.live/p/minerals-260s-rapid-growth-trajectory",
+          "evidence_type": "公司PFS结果经会议媒体报道",
+          "period": "2026年7月PFS；矿山寿命和年度生产计划",
+          "unit": "年；盎司黄金/年；百万盎司储量；澳元/盎司",
+          "value": "19 years; 150,000 oz/year; initial reserve 2.5Moz; AISC A$2,520/oz"
+        },
+        {
+          "claim": "公司目标在2027年Q1完成DFS、更新储量和FID，首金目标为2028年末；A$250m配售已完成，另计划寻求A$30m SPP，另有A$170m royalty交易。",
+          "evidence": "9月27日文章记录管理层里程碑目标及资金结构；SPP为拟筹集金额，尚非已到账资金。",
+          "source_url": "https://www.miningforum.live/p/minerals-260s-rapid-growth-trajectory",
+          "evidence_type": "管理层计划与融资安排经会议媒体报道",
+          "period": "截至2026年9月27日；目标DFS/FID为2027年Q1、首金为2028年末",
+          "unit": "日历季度；日历年份；澳元",
+          "value": "Q1 2027 DFS/FID target; late-2028 first-gold target; A$250m placement; A$30m proposed SPP; A$170m royalty transaction"
+        }
+      ],
+      "publish_time": "2026-09-27",
+      "source": "Mining Forum Live (Denver Gold Group)",
+      "title": "Minerals 260推进Bullabulling金矿开发，目标2028年末首金",
+      "excerpt": "Mining Forum Live于2026年9月27日发布Minerals 260 Bullabulling项目报道。公司称资源量在不足一年半内从2.3Moz增至6.2Moz；7月PFS设定19年矿山寿命、年产150,000盎司黄金、初始储量2.5Moz及AISC A$2,520/oz。管理层目标2027年Q1完成DFS、更新储量并作最终投资决定，首金目标为2028年末；截至报道日现场有80–90名人员。",
+      "language": "en",
+      "interpretation": "2026年9月公布的进度把重点从单纯扩充资源推进至DFS、FID和早期施工，但150,000盎司/年仍是PFS计划产能而非当期产量；A$170m royalty交易、A$250m配售及拟议A$30m SPP提供资金路径，需以最终融资、许可与建设进度验证。",
+      "importance": "Bullabulling的PFS若沿2027年Q1 DFS/FID节点推进，年产15万盎司、19年寿命方案可能成为2028年末后的澳洲新增金源，供给兑现取决于DFS、最终投资决定和建设进度。A$250m配售及A$170m royalty交易改善资金可得性，但首金仍是公司目标，需以许可和现场施工验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Minerals 260",
+        "Franco-Nevada"
+      ],
+      "projects": [
+        "Bullabulling Gold Project"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/ — HTTP 200; 检查最新节目列表及发布日期。",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/ridgeline-minerals-tsxvrdg-c33m-sale-funds-hunt-for-transformational-deal-in-north-america-346330762 — 直接打开核对标题、9月27日发布日期、采访对象和节目说明。",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/visionary-copper-gold-tsxvvcg-new-drill-phase-to-upgrade-massive-newfoundland-copper-asset-346325808 — 直接打开核对标题、9月27日发布日期、采访对象和钻探/资源说明。",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/santacruz-silver-mining-tsxscz-cash-growth-production-increase-more-acquisitions-under-review-346324237 — 直接打开核对标题、9月27日发布日期、采访对象及生产和扩能说明。",
+      "https://www.kereport.com/ — 检查9月25至27日节目列表；9月26日仅列No Weekend Show。",
+      "https://www.kereport.com/2026/09/25/heliostar-inside-the-ana-paula-feasibility-study-mill-scalability-cost-optimization-and-permitting-milestones/ — 页面可打开，9月25日Heliostar访谈与前一份日报已收录的Ana Paula项目/Heliostar访谈实质重复，排除。",
+      "https://www.miningstockdaily.com/ — 检查本周播客日程；最新节目为9月25日。",
+      "https://www.miningstockdaily.com/episodes/morning-briefing-treasury-yields-surge-collective-mining-hits-a-new-tungsten-gold-zone — 直接核对节目正文日期为9月24日，超出Part 1窗口。",
+      "https://www.kitco.com/news/video/ — 检查视频列表；未找到窗口内可核验的新增采访内容。",
+      "https://www.precioussummit.com/events/2026-precious-metals-summit-beaver-creek/ — 主办方页面核实会议于9月22至25日举行、议程/演讲者及webcast入口。",
+      "https://www.gowebcasting.com/C1672 — 官方webcast目录检查9月25日公司演示；Talisker Resources条目链接至公司演示PDF。",
+      "https://staticcdn1.gowebcasting.com/documents/files/events/event_00004622_SkYUAr2d.pdf — 直接下载并提取Talisker Resources 2026年9月演示稿文本。",
+      "https://mining.com.au/aurbis-puts-ecru-to-the-lie-detector-beaver-creek-2026/ — Mining.com.au页面核对9月25日Beaver Creek现场CEO采访、Ecru钻探计划和发布日期。",
+      "https://mining.com.au/goldinxs-geophysics-results-align-for-maiden-drill-targets/ — 直接核对9月25日GoldInxs采访；仅描述靶区生成/首钻准备，无具体项目规模、钻探长度或新供给里程碑，排除。",
+      "https://mining.com.au/larvotto-builds-hillgrove-around-the-locals/ — 直接核对9月25日Hillgrove现场采访；重点为社区、营地和采购安排，未见新的金矿产量或供给节点，排除。",
+      "https://www.denvergold.org/ — Denver Gold Group主页显示Mining Forum Americas于9月27至30日在Colorado Springs举行。",
+      "https://americas.miningforum.com/ — 官方活动链接返回HTTP 403；Google News会议/演讲者/回放检索未找到9月27日发布的可核验演示或采访。",
+      "https://www.miningforum.live/feed — Denver Gold Group的Mining Forum Live帖子列表；检查9月27日会议前后报道及回放入口。",
+      "https://www.youtube.com/watch?v=eKg5xJxRG4w — Rick Rule分享的视频页核实标题及上传时间为9月25日；只有自动字幕轨道，公开timedtext端点返回空内容，未据标题总结或收录。"
+    ],
+    "part1_result": "Part 1窗口2026-09-25至09-27检索完成，收录5条：3条iHeart管理层访谈、1条Aurbis现场采访、1条Talisker公司演示。已检查Precious Metals Summit 9月22–25日议程/回放与Denver Gold Group 9月27–30日论坛入口；后者活动子域403且截至检索时未发现可核验的新回放。Heliostar访谈与前日报重复；GoldInxs仅为靶区准备、Larvotto以本地运营配套为主、Mining Stock Daily节目为9月24日、Rick Rule视频缺可用字幕，均未纳入。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "Playwright按注册表顺序串行完成35个人账号和18个公司账号；完整成功后无需启动twscrape。",
+        "共保留6条原帖候选，筛选后0条符合供需信息要求；候选均不作为完整零结果的替代。",
+        "原始材料及sidecar：x_outputs/2026-09-27_x_raw_materials.txt、x_outputs/2026-09-27_x_raw_materials.json。"
+      ]
+    },
+    "part2_sources_checked": [
+      "x_outputs/2026-09-27_x_raw_materials.txt — 保存53/53账号覆盖、Playwright选定路径、6条原始候选和发布时间。",
+      "x_outputs/2026-09-27_x_raw_materials.json — sidecar记录53/53、0失败、Playwright完成53账号及候选原帖URL。"
+    ],
+    "part2_result": "X采集完整：Playwright完成53/53账号，0失败，未触发twscrape回退；审查6条原帖候选后无合格供需信号。剔除宏观利息评论、价格相对表现、只含链接/标题的帖子、未证实并购传闻及无关个人内容。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Google News RSS English query: (gold OR silver OR copper) mining after:2026-09-26 before:2026-09-28 — 用于发现9月27日新闻候选，并逐篇打开核验。",
+      "Google News RSS Chinese query: 铜矿 OR 金矿 OR 银矿 after:2026-09-26 before:2026-09-28；另查铜矿 2026年9月27日 — 检查中文行业和媒体报道。",
+      "https://www.mining.com/commodity/copper/ — 必需Playwright主路径HTTP 200，Copper Archives页标题通过真实性检查；daily_pipeline DOM提取9条报告日候选。",
+      "https://www.mining.com/commodity/gold/ — Playwright HTTP 200，Gold Archives页，提取10条候选。",
+      "https://www.mining.com/commodity/silver/ — Playwright HTTP 200，Silver Archives页，提取9条候选。",
+      "Google site:mining.com copper September 27 2026 — HTTP 200但返回JavaScript重定向/拦截页，无可解析标题（0条可读命中）。",
+      "Google site:mining.com gold September 27 2026 — HTTP 200但返回JavaScript重定向/拦截页，无可解析标题（0条可读命中）。",
+      "Google site:mining.com silver September 27 2026 — HTTP 200但返回JavaScript重定向/拦截页，无可解析标题（0条可读命中）。",
+      "https://www.mining.com/ngos-warn-donlin-mine-spill-could-devastate-region/ — 普通HTTP请求403；同一Playwright Chromium会话直开后HTTP 200并核验正文、日期和题名。",
+      "https://www.donlingoldseis.com/docs/Donlin%20Gold%20Project%20Draft%20SEIS%20Volume%20I.pdf — 官方USACE/BLM Draft SEIS直接下载，PDF 154页，核验27%/109,730 acre-feet情景及许可用途。",
+      "https://www.mining.com/web/barrick-mining-reaches-deal-with-unions-at-mali-gold-mine-easing-strike-threat/ — 普通HTTP请求403；同一Playwright Chromium会话直开后HTTP 200，核验Reuters署名、9月27日日期、签约及罢工取消事实。",
+      "https://montagegold.com/_resources/news/2026/20260927_Montage-Gold-Announces-First-Gold-Pour-at-the-Kon%C3%A9-Mine.pdf — 从Montage官方主页链接到的9月27日公司公告PDF，直接核验首浇日期、约1,140盎司及矿石处理量。",
+      "https://www.miningforum.live/feed — Denver Gold Group Mining Forum Live近期文章列表；发现9月27日Minerals 260 Bullabulling项目报道并逐篇核验。",
+      "https://www.miningforum.live/p/minerals-260s-rapid-growth-trajectory — 直接打开核验文章日期、作者、资源/PFS数据、融资安排和管理层目标。",
+      "Mining Forum Live候选What Might It Take to Buy Northern Star?及Gold M&A Speculation Heats Up — 页面明确说明无公司要约、仅属假设/传闻，排除。",
+      "MINING.COM Escondida报道 https://www.mining.com/web/union-at-bhps-escondida-mine-in-chile-refuses-to-pause-contract-talks-after-fatal-accident/ — 直接Playwright核验；与2026-09-26日报SMM Escondida工会谈判事件实质重复，排除。",
+      "MINING.COM Gold Fields/Northern Star approach及People are turning to a trustless asset文章 — Playwright打开核验；前者为未确认并购意向且无供给变化，后者为一般投资情绪，排除。",
+      "MINING.COM A2Gold sponsored-content候选 — Playwright打开核验原文日期为2026-09-22，超出Part 3窗口，排除。"
+    ],
+    "part3_result": "Part 3窗口2026-09-27双语搜索及Mining.com强制路径均完成，收录4条：Koné首次浇铸、Donlin假设尾矿风险评估、Barrick马里工会协议、Minerals 260 Bullabulling开发更新。Escondida文章与9月26日SMM同一工会/事故事件重复；Gold Fields–Northern Star为未确认交易推测；Gold投资情绪无明确供需传导；A2Gold稿件日期为9月22日，均排除。Mining.com分类抓取成功；Google site:备用搜索受重定向拦截，0条可读标题，不以搜索摘要作为证据。",
+    "mining_com_source_note": "强制铜分类页Playwright主路径HTTP 200、页面标题Copper Archives，daily_pipeline记录9条日期候选。其余金、银分类页分别HTTP 200并提取10和9条。铜分类页没有去重后合格信号，按后备要求尝试Google site:mining.com铜/金/银动态日期搜索；三者均返回无法解析的JavaScript重定向拦截页，记录为0条可读命中。入选Donlin及Barrick文章的普通HTTP请求均403，随后在同一Playwright Chromium会话直开文章并分别核对标题、日期和正文（HTTP 200）；Donlin文章链接的官方SEIS PDF另行直接核验。未使用sitemap、Wayback或Mining.com RSS。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 11,
+      "passed": 11,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "核验9条日报正文来源URL：5条Part 1、4条Part 3，均直接打开并核对标题、主体、发布日期和关键事实。",
+        "另核验Donlin官方Draft SEIS PDF及Talisker演示所属GOWebcasting 2026-09-25目录页；两者均可打开并支持卡片日期/证据。",
+        "Mining.com普通HTTP访问403由Playwright同会话成功读取解决，最终入选来源状态为verified，不计为未核验失败。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/25/heliostar-inside-the-ana-paula-feasibility-study-mill-scalability-cost-optimization-and-permitting-milestones/ — 与前一日报iHeart Heliostar/Ana Paula开发、融资和建设决策访谈实质重叠，避免跨来源重复。"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Escondida 9月初致命事故后的工会合同谈判/拒绝暂停谈判：Mining.com/Reuters于9月27日发布的版本与2026-09-26日报SMM卡片https://news.smm.cn/news/104134767是同一事件，排除。",
+      "Gold Fields接洽Northern Star及可能收购：Mining.com/Bloomberg和Denver Gold Group文章均未确认公司要约，且没有已发生的实物供需变化，作为传闻/假设排除。"
+    ],
+    "notes": "对Part 1逐项比对前两份日报的URL和实质事件；接受的五条广播/会议内容互不重复。Part 3跨来源合并同一Escondida事件，未把市场价格评论、纯宏观情绪或未落实交易列为供需信号。"
+  }
+}

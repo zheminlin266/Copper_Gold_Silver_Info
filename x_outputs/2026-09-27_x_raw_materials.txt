@@ -1,0 +1,68 @@
+X 原始候选 — 2026-09-27
+采集时间: 2026-09-28T07:28:18.053794+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 6 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-27T15:57:19+00:00
+    北京: 2026-09-27T23:57:19+08:00
+    文本: Rick Rule: The Next 10 Years Will Be Nothing Like The Last 40
+https://
+youtu.be/eKg5xJxRG4w?si
+=sDXadctysqG2mVMB
+… via
+@YouTube
+ 09-25-2026
+    链接: https://x.com/RealRickRule/status/2104238966644101447
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-26T17:16:02+00:00
+    北京: 2026-09-27T01:16:02+08:00
+    文本: The federal government paid $1.36 trillion in gross interest over the past year
+
+Selling the entire reserve would cover just 9.9 months of interest.
+    链接: https://x.com/KatusaResearch/status/2103896389436813646
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-09-27T15:03:09+00:00
+    北京: 2026-09-27T23:03:09+08:00
+    文本: Gold Holds, Silver Reloads, and Oil Sends a Warning
+https://
+archive.aweber.com/t/NuStx
+    链接: https://x.com/silverguru22/status/2104225337068376107
+
+[4] @TaviCosta (Otavio Costa)
+    UTC: 2026-09-26T16:52:50+00:00
+    北京: 2026-09-27T00:52:50+08:00
+    文本: The lag in silver prices is becoming one of the market’s most compelling divergences.
+
+With copper continuing to lead, the setup into year-end could get very interesting.
+
+Just a reminder that the metal benefits from the industrial forces driving copper and the monetary forces
+    链接: https://x.com/TaviCosta/status/2103890553309888968
+
+[5] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-26T23:04:06+00:00
+    北京: 2026-09-27T07:04:06+08:00
+    文本: Gold Fields looking to Buy Northern Star- Bloomberg news but no details yet….
+    链接: https://x.com/RonStoeferle/status/2103983982006169681
+
+[6] @JayantBhandari5 (Jayant Bhandari)
+    UTC: 2026-09-26T17:02:34+00:00
+    北京: 2026-09-27T01:02:34+08:00
+    文本: Mine was stolen in Italy. The Indian embassy was not only unhelpful but invisible.
+    链接: https://x.com/JayantBhandari5/status/2103893001407991853

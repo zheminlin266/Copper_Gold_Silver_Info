@@ -1,0 +1,97 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-27",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-edcfc6bc7cf3f9a002a699e3",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-27T15:57:19+00:00",
+      "text": "Rick Rule: The Next 10 Years Will Be Nothing Like The Last 40 \nhttps://\nyoutu.be/eKg5xJxRG4w?si\n=sDXadctysqG2mVMB\n… via \n@YouTube\n 09-25-2026",
+      "url": "https://x.com/RealRickRule/status/2104238966644101447",
+      "collector": "x_search",
+      "report_date": "2026-09-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3dba0c48d7e17ead939b8278",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-26T17:16:02+00:00",
+      "text": "The federal government paid $1.36 trillion in gross interest over the past year\n\nSelling the entire reserve would cover just 9.9 months of interest.",
+      "url": "https://x.com/KatusaResearch/status/2103896389436813646",
+      "collector": "x_search",
+      "report_date": "2026-09-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2ad702ca7d5d7c2fba310a37",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-09-27T15:03:09+00:00",
+      "text": "Gold Holds, Silver Reloads, and Oil Sends a Warning \nhttps://\narchive.aweber.com/t/NuStx",
+      "url": "https://x.com/silverguru22/status/2104225337068376107",
+      "collector": "x_search",
+      "report_date": "2026-09-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3ca167bec85561cf977ae808",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-09-26T16:52:50+00:00",
+      "text": "The lag in silver prices is becoming one of the market’s most compelling divergences.\n\nWith copper continuing to lead, the setup into year-end could get very interesting.\n\nJust a reminder that the metal benefits from the industrial forces driving copper and the monetary forces",
+      "url": "https://x.com/TaviCosta/status/2103890553309888968",
+      "collector": "x_search",
+      "report_date": "2026-09-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c58c26e65fb8857197b13b04",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-26T23:04:06+00:00",
+      "text": "Gold Fields looking to Buy Northern Star- Bloomberg news but no details yet….",
+      "url": "https://x.com/RonStoeferle/status/2103983982006169681",
+      "collector": "x_search",
+      "report_date": "2026-09-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8f9f48f4a1ed65d27cf334e1",
+      "source_id": "x-jayantbhandari5",
+      "author": "Jayant Bhandari",
+      "handle": "JayantBhandari5",
+      "publish_time": "2026-09-26T17:02:34+00:00",
+      "text": "Mine was stolen in Italy. The Indian embassy was not only unhelpful but invisible.",
+      "url": "https://x.com/JayantBhandari5/status/2103893001407991853",
+      "collector": "x_search",
+      "report_date": "2026-09-27",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
