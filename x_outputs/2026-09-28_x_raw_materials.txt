@@ -1,0 +1,137 @@
+X 原始候选 — 2026-09-28
+采集时间: 2026-09-29T09:52:38.369100+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 12 条
+
+============================================================
+
+[1] @RealRickRule (Rick Rule)
+    UTC: 2026-09-27T16:05:00+00:00
+    北京: 2026-09-28T00:05:00+08:00
+    文本: And I've been correct.
+I began saving in gold in the year 2000.
+    链接: https://x.com/RealRickRule/status/2104240903275860421
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-27T16:41:11+00:00
+    北京: 2026-09-28T00:41:11+08:00
+    文本: Power supply is expanding faster than the wires needed to move it
+
+America curtailed 23.8 TWh of renewable power in the first seven months of 2026, 
+
+That’s up 17.5% from a year earlier and roughly enough electricity to power 2.2 million U.S. homes for a year. 
+
+At the same time,
+    链接: https://x.com/KatusaResearch/status/2104250006438133791
+
+[3] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-09-28T02:50:48+00:00
+    北京: 2026-09-28T10:50:48+08:00
+    文本: Same happened in the 1960s. Then, Gold Stocks = Gold. Secular bond bear began then and early this decade.
+    链接: https://x.com/TheDailyGold/status/2104403422896439580
+
+[4] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-09-28T12:45:34+00:00
+    北京: 2026-09-28T20:45:34+08:00
+    文本: Algos are directing the short-term moves in gold and every other market. Watch what happens when their selling pressure is exhausted and they sense the switch in momentum when the long-term buyers move back in.
+    链接: https://x.com/Brien_Lundin/status/2104553102062039295
+
+[5] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-28T13:02:05+00:00
+    北京: 2026-09-28T21:02:05+08:00
+    文本: well...at least if you've been wanting to get a discount on your gold, looks like today's your day...
+    链接: https://x.com/ArcadiaEconomic/status/2104557258222801147
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-28T15:14:25+00:00
+    北京: 2026-09-28T23:14:25+08:00
+    文本: I'm not a TA... but 52-week lows would be attractive to me... sub $3K gold would, IMO, be a generational gift from Mr. Market.
+    链接: https://x.com/duediligenceguy/status/2104590561285910874
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-28T14:16:54+00:00
+    北京: 2026-09-28T22:16:54+08:00
+    文本: Contrary to hot-head opinion, I didn't _want_ gold's rebound to turn into a dead cat bounce.
+
+But I did warn it was possible—for which I was hated.
+
+On the bright side, if this continues, my critics may get to see what they wanted: me buying gold & silver stocks again.
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2104576085543256166
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-27T17:45:11+00:00
+    北京: 2026-09-28T01:45:11+08:00
+    文本: Who's got projects of merit?
+
+Who's got takeover potential?
+
+Who's headed for the Pre-Production Sweet Spot?
+
+My Take can help you decide what to buy, sell, or hold...
+
+https://
+independentspeculator.com/reports/the-mu
+st-have-tool-for-resource-investors
+…
+    链接: https://x.com/duediligenceguy/status/2104266114733932584
+
+[9] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-27T17:38:56+00:00
+    北京: 2026-09-28T01:38:56+08:00
+    文本: A long-overdue wave of M&A in the mining sector could finally be getting going.
+
+Got takeover targets?
+
+My Take can help with that...
+
+(Link in reply so X won't hide this post.)
+    链接: https://x.com/duediligenceguy/status/2104264539139100742
+
+[10] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-27T17:31:54+00:00
+    北京: 2026-09-28T01:31:54+08:00
+    文本: Sure, just "cut demand."
+
+Who decides who gets the energy they need?
+
+A pity there isn't a 24/7/365, non-carbon-emitting source of unlimited energy.
+
+Oh, wait...
+
+Got uranium (stocks)?
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2104262772427026439
+
+[11] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-09-28T13:35:15+00:00
+    北京: 2026-09-28T21:35:15+08:00
+    文本: Going to be an interesting and busy day here at 
+@DenGoldGroup
+ Americas Forum in Colorado Springs.... Yields continue to surge, #GOLD selling off and lots of chatter reg. the Northern Star/Goldfields deal... 13 one-on-one meetings ahead at the conference today...
+    链接: https://x.com/RonStoeferle/status/2104565605231968728
+
+[12] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-28T15:15:08+00:00
+    北京: 2026-09-28T23:15:08+08:00
+    文本: Troilus Mining 的一个重大融资里程碑。
+
+Troilus 已从 KfW IPEX-Bank 和 Société Générale 获得 8.5 亿美元信贷批准的债务承诺，以支持其魁北克金铜项目的开发。
+
+这些承诺构成了计划中的 11 亿美元债务融资方案的一部分，EDC 正在推进对拟议额外 2.5 亿美元的批准。
+
+Troilus
+    链接: https://x.com/soarfinancial/status/2104590738508153112
+

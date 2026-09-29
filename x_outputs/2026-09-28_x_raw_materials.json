@@ -1,0 +1,169 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-09-28",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-abe056f7a6d4ba842e8c5b64",
+      "source_id": "x-realrickrule",
+      "author": "Rick Rule",
+      "handle": "RealRickRule",
+      "publish_time": "2026-09-27T16:05:00+00:00",
+      "text": "And I've been correct.\nI began saving in gold in the year 2000.",
+      "url": "https://x.com/RealRickRule/status/2104240903275860421",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1a87be8f4b188d7e24280780",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-27T16:41:11+00:00",
+      "text": "Power supply is expanding faster than the wires needed to move it\n\nAmerica curtailed 23.8 TWh of renewable power in the first seven months of 2026, \n\nThat’s up 17.5% from a year earlier and roughly enough electricity to power 2.2 million U.S. homes for a year. \n\nAt the same time,",
+      "url": "https://x.com/KatusaResearch/status/2104250006438133791",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-41cf2ef693bd4ed3ba1287c4",
+      "source_id": "x-thedailygold",
+      "author": "Jordan Roy-Byrne",
+      "handle": "TheDailyGold",
+      "publish_time": "2026-09-28T02:50:48+00:00",
+      "text": "Same happened in the 1960s. Then, Gold Stocks = Gold. Secular bond bear began then and early this decade.",
+      "url": "https://x.com/TheDailyGold/status/2104403422896439580",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e467ab3cbe2e23749ba7ed2e",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-09-28T12:45:34+00:00",
+      "text": "Algos are directing the short-term moves in gold and every other market. Watch what happens when their selling pressure is exhausted and they sense the switch in momentum when the long-term buyers move back in.",
+      "url": "https://x.com/Brien_Lundin/status/2104553102062039295",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6d380a86b18917f4fc442632",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-28T13:02:05+00:00",
+      "text": "well...at least if you've been wanting to get a discount on your gold, looks like today's your day...",
+      "url": "https://x.com/ArcadiaEconomic/status/2104557258222801147",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-130f9e7fc5bdb333e71d2b4b",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-28T15:14:25+00:00",
+      "text": "I'm not a TA... but 52-week lows would be attractive to me... sub $3K gold would, IMO, be a generational gift from Mr. Market.",
+      "url": "https://x.com/duediligenceguy/status/2104590561285910874",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0663305c902cceed5a6a4928",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-28T14:16:54+00:00",
+      "text": "Contrary to hot-head opinion, I didn't _want_ gold's rebound to turn into a dead cat bounce.\n\nBut I did warn it was possible—for which I was hated.\n\nOn the bright side, if this continues, my critics may get to see what they wanted: me buying gold & silver stocks again.\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2104576085543256166",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f1d2bdde1733bab03f3f23e0",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-27T17:45:11+00:00",
+      "text": "Who's got projects of merit?\n\nWho's got takeover potential?\n\nWho's headed for the Pre-Production Sweet Spot?\n\nMy Take can help you decide what to buy, sell, or hold...\n\nhttps://\nindependentspeculator.com/reports/the-mu\nst-have-tool-for-resource-investors\n…",
+      "url": "https://x.com/duediligenceguy/status/2104266114733932584",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8b20301a86e17ab3370c806c",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-27T17:38:56+00:00",
+      "text": "A long-overdue wave of M&A in the mining sector could finally be getting going.\n\nGot takeover targets?\n\nMy Take can help with that...\n\n(Link in reply so X won't hide this post.)",
+      "url": "https://x.com/duediligenceguy/status/2104264539139100742",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-10ab42392388efa07a5289d6",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-27T17:31:54+00:00",
+      "text": "Sure, just \"cut demand.\"\n\nWho decides who gets the energy they need?\n\nA pity there isn't a 24/7/365, non-carbon-emitting source of unlimited energy.\n\nOh, wait...\n\nGot uranium (stocks)?\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2104262772427026439",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9d0d77918b2df406343041c5",
+      "source_id": "x-ronstoeferle",
+      "author": "Ronnie Stoeferle",
+      "handle": "RonStoeferle",
+      "publish_time": "2026-09-28T13:35:15+00:00",
+      "text": "Going to be an interesting and busy day here at \n@DenGoldGroup\n Americas Forum in Colorado Springs.... Yields continue to surge, #GOLD selling off and lots of chatter reg. the Northern Star/Goldfields deal... 13 one-on-one meetings ahead at the conference today...",
+      "url": "https://x.com/RonStoeferle/status/2104565605231968728",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f496acf61080f5688f43e518",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-09-28T15:15:08+00:00",
+      "text": "Troilus Mining 的一个重大融资里程碑。\n\nTroilus 已从 KfW IPEX-Bank 和 Société Générale 获得 8.5 亿美元信贷批准的债务承诺，以支持其魁北克金铜项目的开发。\n\n这些承诺构成了计划中的 11 亿美元债务融资方案的一部分，EDC 正在推进对拟议额外 2.5 亿美元的批准。\n\nTroilus",
+      "url": "https://x.com/soarfinancial/status/2104590738508153112",
+      "collector": "x_search",
+      "report_date": "2026-09-28",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}

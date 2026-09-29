@@ -1,0 +1,364 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-28",
+  "report_time": "2026-09-29T11:31:30+08:00",
+  "summary": "黄金供给信号分化：山东黄金下调2026年矿产金目标，Goose矿恢复破碎爬坡，Hudbay上修Snow Lake中期产金计划，Troilus融资推进仍待落地。黄金进口与ETF流量显示需求支撑。铜方面，Cowley高品位钻探扩大远期潜力，尚未转为资源或产量。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-26T00:00:00+08:00",
+      "end": "2026-09-28T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-28T00:00:00+08:00",
+      "end": "2026-09-28T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-28T00:00:00+08:00",
+      "end": "2026-09-28T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Enhances-Gold-Production-Profile-at-Snow-Lake-Extends-Reserve-Mine-Life-to-18-Years-and-Identifies-Further-Growth-Potential-from-Resource-Conversion-and-the-Britannia-Gold-Project/default.aspx",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Hudbay将Snow Lake 2026—2030年五年平均年产金预测设为185,000盎司，较2021技术报告的预测高约37%，增量约250,000盎司。",
+          "evidence": "Hudbay第一方新闻稿列出五年平均年产量、相对2021技术报告的增幅及新增盎司数。",
+          "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Enhances-Gold-Production-Profile-at-Snow-Lake-Extends-Reserve-Mine-Life-to-18-Years-and-Identifies-Further-Growth-Potential-from-Resource-Conversion-and-the-Britannia-Gold-Project/default.aspx",
+          "evidence_type": "公司第一方运营计划新闻稿；前瞻性预测",
+          "period": "2026—2030五年平均；与2021技术报告对比",
+          "unit": "盎司黄金/年；同比/对比百分比；累计盎司",
+          "value": "185,000 oz/year; +37%; approximately +250,000 oz over five years"
+        },
+        {
+          "claim": "Snow Lake全生命周期产金预测增至280万盎司（2021技术报告为180万盎司），储量矿寿延长两年至2043年。",
+          "evidence": "同一Hudbay公告逐项说明全矿山寿命预测、2021技术报告基准及储量矿寿日期。",
+          "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Enhances-Gold-Production-Profile-at-Snow-Lake-Extends-Reserve-Mine-Life-to-18-Years-and-Identifies-Further-Growth-Potential-from-Resource-Conversion-and-the-Britannia-Gold-Project/default.aspx",
+          "evidence_type": "公司第一方矿山计划和储量更新",
+          "period": "更新计划；比较基准为2021技术报告",
+          "unit": "百万盎司黄金；矿山寿命年份",
+          "value": "2.8 Moz versus 1.8 Moz; reserve mine life extended to 2043"
+        }
+      ],
+      "publish_time": "2026-09-28",
+      "source": "Hudbay Minerals Inc.",
+      "title": "Hudbay Enhances Gold Production Profile at Snow Lake, Extends Reserve Mine Life to 18 Years and Identifies Further Growth Potential",
+      "excerpt": "Hudbay于2026年9月28日发布Snow Lake更新计划：2026—2030年平均年产金18.5万盎司；全生命周期产金预测由2021技术报告的180万盎司提高至280万盎司，储量矿寿延至2043年。",
+      "language": "en",
+      "interpretation": "这是公司更新的在产矿山计划，不是已实现的新增产量。公告将增量归因于New Britannia持续处理量及Stall回收率等改进，并继续依赖资源转储量和后续项目推进。",
+      "importance": "Snow Lake五年平均年产金预期升至18.5万盎司，较2021技术报告高约37%，全寿命产金增至280万盎司并将储量矿寿延至2043年，扩展了在产矿山的中期供应曲线。增量仍依赖处理量、回收率与资源转储量，不是已经实现的新增产量；应以2026—2030年实际产量和储量转换验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Hudbay Minerals Inc."
+      ],
+      "projects": [
+        "Snow Lake",
+        "Lalor",
+        "New Britannia",
+        "Stall"
+      ],
+      "mining_com_source_note": "Mining.com候选页经Playwright读取；报告优先采用Hudbay第一方新闻稿。Hudbay页在Chromium中HTTP 200，正文日期为2026-09-28，已核对标题、产量计划和矿寿。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/09/28/3369764/0/en/b2gold-provides-operations-update-for-the-goose-mine-and-announces-drill-results-at-the-back-river-gold-district.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Goose移动破碎厂于2026年8月投运，8月中旬以来移动破碎矿石处理量平均超过3,000吨/日。",
+          "evidence": "B2Gold第一方运营更新将设备投运月份和8月中旬以来平均处理量列入Goose运营进展。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/28/3369764/0/en/b2gold-provides-operations-update-for-the-goose-mine-and-announces-drill-results-at-the-back-river-gold-district.html",
+          "evidence_type": "公司第一方运营更新；已发生处理量",
+          "period": "2026年8月中旬以来",
+          "unit": "吨矿石/日",
+          "value": ">3,000 t/d"
+        },
+        {
+          "claim": "固定破碎线完成火灾维修和一期升级后，预计2026年10月持续达到3,200吨/日；公司仍预计Goose 2026年产金17万—20万盎司。",
+          "evidence": "同一公司公告分别列出固定线预计吞吐量和2026年产金指引，并将固定线数字明确标为未来预期。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/28/3369764/0/en/b2gold-provides-operations-update-for-the-goose-mine-and-announces-drill-results-at-the-back-river-gold-district.html",
+          "evidence_type": "公司运营计划和年度产量指引；前瞻性预测",
+          "period": "固定线目标为2026年10月起；全年产金指引为2026年",
+          "unit": "吨矿石/日；盎司黄金/年",
+          "value": "3,200 t/d; 170,000–200,000 oz Au in 2026"
+        }
+      ],
+      "publish_time": "2026-09-28",
+      "source": "B2Gold Corp. (GlobeNewswire)",
+      "title": "B2Gold更新Goose金矿运营：移动破碎已超过3,000吨/日，固定线预计10月恢复",
+      "excerpt": "B2Gold称Goose移动破碎厂于2026年8月投运，8月中旬以来平均处理矿石超过3,000吨/日；固定破碎线完成火灾维修和一期升级后，预计10月达到持续日均3,200吨，公司维持2026年17万—20万盎司产金指引。",
+      "language": "en",
+      "interpretation": "移动破碎设备在固定破碎线维修期间提供临时处理能力；10月的3,200吨/日是固定线完成升级后的预期，不是已实现数据。公司称Goose仍按计划实现2026年产金指引。",
+      "importance": "移动破碎设备在固定线维修期间已补回约3,000吨/日矿石处理能力，固定线若于10月按计划恢复至3,200吨/日，将支撑Goose继续爬坡。当前产量仍取决于维修、季节条件和选厂衔接；年产17万—20万盎司是公司目标，不代表全年已实现。",
+      "verification_status": "verified",
+      "companies": [
+        "B2Gold Corp."
+      ],
+      "projects": [
+        "Goose Mine",
+        "Back River Gold District"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/09/28/3369746/0/en/troilus-receives-us-850-million-credit-approved-debt-commitment-letter-for-the-troilus-gold-copper-project.html",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Troilus于2026年9月28日07:00 ET收到KfW IPEX-Bank与Société Générale合计8.5亿美元的信贷批准债务承诺函。",
+          "evidence": "Troilus公司新闻稿由GlobeNewswire发布，顶部标注日期/时间，并确认两家商业贷款人拟承销8.5亿美元项目债务。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/28/3369746/0/en/troilus-receives-us-850-million-credit-approved-debt-commitment-letter-for-the-troilus-gold-copper-project.html",
+          "evidence_type": "公司第一方融资公告；承诺函而非放款",
+          "period": "2026年9月28日；截至公告发布时",
+          "unit": "美元债务承诺",
+          "value": "US$850 million"
+        },
+        {
+          "claim": "计划债务融资包为11亿美元；拟议的EDC 2.5亿美元仍待最终批准，融资还受正式文件、尽调及先决条件约束。",
+          "evidence": "同一公告说明EDC部分仍在审批，并列明承诺函的条件及公司下一步目标为最终投资决定和财务关闭。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/28/3369746/0/en/troilus-receives-us-850-million-credit-approved-debt-commitment-letter-for-the-troilus-gold-copper-project.html",
+          "evidence_type": "公司公告所述融资结构与未满足条件",
+          "period": "公告时的拟议融资结构",
+          "unit": "美元债务融资",
+          "value": "US$1.1 billion planned; US$250 million EDC portion pending"
+        }
+      ],
+      "publish_time": "2026-09-28T19:00:00+08:00",
+      "source": "Troilus Mining Corp. (GlobeNewswire)",
+      "title": "Troilus获8.5亿美元信贷批准承诺函，推进魁北克金铜项目融资",
+      "excerpt": "GlobeNewswire页面标注2026年9月28日07:00 ET。Troilus称已获KfW IPEX-Bank与Société Générale提供合计8.5亿美元信贷批准债务承诺函；拟议总债务包为11亿美元，其中EDC拟提供的2.5亿美元仍待最终审批。",
+      "language": "en",
+      "interpretation": "8.5亿美元为承销承诺函，并非已提款或项目已作最终投资决定。公司仍需完成EDC及其他出口信贷机构审批、尽调、正式协议和财务关闭条件。",
+      "importance": "两家银行的8.5亿美元信贷批准承诺，把融资从一般授权推进到具体承销安排，为大型魁北克金铜项目迈向最终投资决定提供关键资金路径。整体包仍依赖EDC拟议2.5亿美元和其他先决条件，尚未财务关闭或产生矿产品；后续应看正式协议、融资关闭及建设决定。",
+      "verification_status": "verified",
+      "companies": [
+        "Troilus Mining Corp.",
+        "KfW IPEX-Bank",
+        "Société Générale",
+        "Export Development Canada"
+      ],
+      "projects": [
+        "Troilus Gold-Copper Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://finance.sina.com.cn/jjxw/2026-09-28/doc-initiwim9742079.shtml",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "山东黄金把2026年度矿产金计划从不低于49吨调整为36—38吨；公告编号临2026-052于2026年9月25日披露，9月24日董事会审议通过，且目标不构成产量承诺。",
+          "evidence": "新浪财经公司公告档案收录山东黄金公告全文，列明原目标、新目标、公告编号、董事会审议日期和非承诺说明。",
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10001299&gather=1&id=12620969",
+          "evidence_type": "公司公告全文的公开披露档案；管理层指导性计划",
+          "period": "2026年度计划；董事会审议于2026-09-24，公告日期2026-09-25",
+          "unit": "吨矿产金",
+          "value": "≥49 t revised to 36–38 t"
+        },
+        {
+          "claim": "公司预计2026年矿产金较2025年的48.89吨减少约11—13吨，理由包括上半年安全自查导致产量同比下降，以及下半年加大矿山基建、减少当期生产作业面。",
+          "evidence": "山东黄金公告全文列示2025年实际产量、2026年同比减少预期及安全自查和建设投入影响。",
+          "source_url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=10001299&gather=1&id=12620969",
+          "evidence_type": "公司公告中的实际产量和管理层预测/原因说明",
+          "period": "2025年实际与2026年公司预测",
+          "unit": "吨矿产金",
+          "value": "48.89 t in 2025; 2026 forecast decrease of approximately 11–13 t"
+        }
+      ],
+      "publish_time": "2026-09-28",
+      "source": "财闻（新浪财经）",
+      "title": "山东黄金下调2026年矿产金产量目标至36—38吨",
+      "excerpt": "财闻于9月28日报道，山东黄金将2026年矿产金指导目标由“不低于49吨”调整为36—38吨。公司编号临2026-052的公告于9月25日披露、董事会于9月24日审议，称安全自查及下半年基建投入压缩生产作业面；目标不构成承诺。",
+      "language": "zh",
+      "interpretation": "媒体页面的发布时间为9月28日，所述公司公告本身于9月25日披露；报告以窗口内新闻报道为入口，并以公告档案核对目标、原因和预测口径。",
+      "importance": "目标下调意味着公司预计2026年矿产金较2025年少11—13吨，安全自查与基建投入已通过减少作业面压低年内供给预期。该目标仍是指导性预测，海外矿山增产或部分抵消，最终影响要由年度实际产量验证；9月28日媒体报道所述公告原于9月25日披露，不代表当天发生新的停产。",
+      "verification_status": "verified",
+      "companies": [
+        "山东黄金矿业股份有限公司"
+      ],
+      "projects": [
+        "烟台区域金矿资源整合项目"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.gladiatormetals.com/news/news-2026/gladiator-intersects-240m--237-cu-including-131m--3892026-09-28-040502",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Cowley孔CPG-170自8.0米返回24.0米、2.37%铜，包括13.1米、3.89%铜。",
+          "evidence": "Gladiator 2026年9月28日公告的钻孔化验表和摘要列出CPG-170交会长度、品位和起始深度，并说明区间并非真厚度。",
+          "source_url": "https://www.gladiatormetals.com/news/news-2026/gladiator-intersects-240m--237-cu-including-131m--3892026-09-28-040502",
+          "evidence_type": "公司勘探结果公告；钻孔区间而非真厚度",
+          "period": "2026年报告的Cowley钻探结果",
+          "unit": "米；铜品位百分比",
+          "value": "24.0 m at 2.37% Cu from 8.0 m; including 13.1 m at 3.89% Cu"
+        },
+        {
+          "claim": "公司将Cowley钻探计划由8,000米扩大至逾16,000米，并启用第二台钻机以推进资源圈定。",
+          "evidence": "同一公告说明计划米数翻倍及第二台钻机的用途；这属于未来勘探计划。",
+          "source_url": "https://www.gladiatormetals.com/news/news-2026/gladiator-intersects-240m--237-cu-including-131m--3892026-09-28-040502",
+          "evidence_type": "公司勘探计划；非已完成钻探或资源量",
+          "period": "2026年Cowley计划",
+          "unit": "钻探米",
+          "value": ">16,000 m, up from 8,000 m"
+        }
+      ],
+      "publish_time": "2026-09-28",
+      "source": "Gladiator Metals Corp. (Newsfile)",
+      "title": "Gladiator报告Cowley浅部高品位铜矿化，钻探计划扩大至逾16,000米",
+      "excerpt": "Gladiator 9月28日公布Cowley孔CPG-170自8米见24.0米、2.37%铜，包括13.1米、3.89%铜；公司将Cowley计划由8,000米扩大至逾16,000米，并在Southern Limb启动系统钻探。所报区间不是矿体真厚度。",
+      "language": "en",
+      "interpretation": "这是勘探与潜在资源增长，不是当前矿山产量或已登记资源/储量。公告还报告铜矿化伴生金、银和钼，但尚未量化可采副产品。",
+      "importance": "24.0米、2.37%铜且含13.1米、3.89%的浅部交会，促使公司把Cowley钻探由8,000米增至逾16,000米，扩大潜在资源定义工作。项目仍处勘探阶段，区间不是真厚度且未形成新资源或储量，短期供给无变化；后续资源估算与连续性验证决定其远期意义。",
+      "verification_status": "verified",
+      "companies": [
+        "Gladiator Metals Corp."
+      ],
+      "projects": [
+        "Cowley",
+        "Whitehorse Copper Project"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.kitco.com/news/article/2026-09-28/rising-bond-yields-could-push-gold-price-4000-state-streets-doshi-still",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "claims": [
+        {
+          "claim": "State Street称中国2026年1—7月非货币黄金进口创纪录达到1,000吨，同比增加78%，同期当地黄金均价同比高约45%。",
+          "evidence": "Kitco 9月28日访谈页面转述State Street 9月Monthly Gold Monitor的进口量、同比变化和价格比较。",
+          "source_url": "https://www.kitco.com/news/article/2026-09-28/rising-bond-yields-could-push-gold-price-4000-state-streets-doshi-still",
+          "evidence_type": "Kitco News对State Street黄金策略主管的采访，并归因于State Street月报",
+          "period": "2026年1—7月，对比2025年同期",
+          "unit": "吨黄金；同比百分比",
+          "value": "1,000 t; +78%; local average gold price approximately +45% y/y"
+        },
+        {
+          "claim": "State Street报告2026年8月全球黄金ETF流入171亿美元，美国上市基金流入79亿美元。",
+          "evidence": "Kitco访谈页面直接列出全球及美国上市黄金ETF的8月资金流入，并称美国基金创2025年9月以来最强月份。",
+          "source_url": "https://www.kitco.com/news/article/2026-09-28/rising-bond-yields-could-push-gold-price-4000-state-streets-doshi-still",
+          "evidence_type": "Kitco News访谈对State Street月报数据的转述",
+          "period": "2026年8月",
+          "unit": "美元资金流入",
+          "value": "US$17.1 billion global; US$7.9 billion U.S.-listed"
+        }
+      ],
+      "publish_time": "2026-09-28",
+      "source": "Kitco News",
+      "title": "State Street称中国黄金实物进口与ETF流入为金价提供需求支撑",
+      "excerpt": "Kitco于9月28日刊出对State Street黄金策略主管Aakash Doshi的访谈。Doshi援引State Street 9月黄金监测称，2026年1—7月中国非货币黄金进口达1,000吨、同比增78%，当地均价同比高约45%；8月全球黄金ETF流入171亿美元，其中美国上市基金79亿美元。",
+      "language": "en",
+      "interpretation": "中国进口和ETF流入是不同的需求渠道；进口数据截至7月、ETF流量截至8月，均为滞后月度指标。本文标题含金价判断，报告只采用可核对的需求数字，不将价格预测当作供需事实。",
+      "importance": "1—7月中国非货币黄金进口达1,000吨、同比增78%，而同期当地均价约高45%，显示实物吸收在高价下仍强；8月全球黄金ETF净流入171亿美元，其中美国上市基金79亿美元，提供另一条投资需求支撑。数字分别截至7月和8月，不能代表9月当日流量；后续海关和ETF月度数据若延续，才可验证买盘是否持续。",
+      "verification_status": "verified",
+      "companies": [
+        "State Street Investment Management"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Company Interviews/iHeart节目页与最近日期：窗口内未找到2026-09-26至09-28合格新节目；最近矿业访谈发表于9月25日。",
+      "Crux Investor interviews / Gold Forum主题页及Mining Forum Americas 2026官方日程：核对9月28日演讲安排；只有日程，无可核验的窗口内采访内容/回放。",
+      "Kitco Mining /news/video列表：未找到窗口内新增的可核验矿业采访；直接核对Kitco 9月28日State Street文字访谈页并将其按新闻文章归入Part 3。",
+      "Denver Gold Group / Mining Forum Americas主办方页面：确认会议日期与9月28日演讲安排；计划页和HTTP 403的日程页不足以证明采访正文或观点，未纳入Part 1。",
+      "对照data/2026-09-27.json及data/2026-09-26.json：未发现本期合格广播候选的URL或实质内容重复。"
+    ],
+    "part1_result": "Part 1检索完成。未核验到窗口内新增、符合podcast/webcast/YouTube/会议采访等形式且含金银铜供需信息的广播；iHeart、Crux、Kitco视频和会议日程均已检查。Kitco 9月28日Aakash Doshi页面是文字采访而非可确认的音视频节目，故按新闻文章放入Part 3。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "x_outputs/2026-09-28_x_raw_materials.json：Playwright 53/53账户完成、0失败、12条原帖；sidecar状态complete。",
+      "x_outputs/2026-09-28_x_raw_materials.txt：逐条核对作者、handle、正文、原帖URL和UTC发布时间，再换算北京时间；未重跑采集。",
+      "Kai Hoffmann/Soar Financial原帖于2026-09-28 23:15 BJT发布；核对Troilus同日19:00 BJT公司融资公告，作为重复项排除。其余11条为价格/交易观点、个人回顾、推广、铀或无具体金银铜供需事实。"
+    ],
+    "part2_result": "Playwright完整覆盖53/53账户，0失败，12条帖子全部筛查；合格新增X信号0条。Troilus融资帖已由Part 3公司公告覆盖，其余帖子不满足实物供需纳入标准。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "53/53账户完成；12条原帖经正文和发布时间审阅。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/ 分类页：Playwright Chromium HTTP 200；目标日三类分类合并后去重得到18个候选；运行 2026-09-28-20260929T012319856201Z-13352 完成。",
+      "Mining.com gold/silver 分类页：WebFetch返回403；使用同一Playwright会话核对页面与候选；site:mining.com gold/silver 辅助查询未发现新增合格条目。",
+      "Mining.com候选文章逐篇核对；mining_com_article_fetch.json所列9篇正文均为Playwright HTTP 200。候选18条逐项按BJT发布时间、金银铜相关性、前日报重复和供需传导筛选。",
+      "Hudbay第一方新闻稿：Playwright HTTP 200；页面日期2026-09-28，核对185,000 oz/year、+37%、2.8 Moz及矿寿到2043年。",
+      "B2Gold/GlobeNewswire Goose运营更新：直接正文可读；页面日期2026-09-28；核对移动破碎>3,000 t/d、固定线预计10月3,200 t/d及2026年170,000–200,000 oz指引。",
+      "Troilus/GlobeNewswire融资公告：直接正文可读，页面标注2026-09-28 07:00 ET（2026-09-28 19:00 BJT）；核对US$850m承诺、拟议US$1.1bn包及EDC US$250m仍待审批。",
+      "山东黄金9月28日财闻/新浪财经报道：文章日期为2026-09-28；全文可读。公告档案显示原始公告编号临2026-052，公告日2026-09-25，董事会审议日2026-09-24；尝试的上交所PDF链接解析失败，故事实以完整公告档案文本核验。",
+      "Gladiator Metals/Newsfile Cowley公告：直接正文可读，Newsfile日期2026-09-28；核对CPG-170区间、非真厚度限定及计划从8,000m扩大到>16,000m。",
+      "Kitco News State Street采访文章：原文HTML与正文直接可读，页面日期2026-09-28；核对中国黄金进口和8月ETF流量。文章为文字采访，不作为广播/播客纳入Part 1；需求数字作为当日市场新闻纳入Part 3。",
+      "排除项复核：Montage Koné首浇与Donlin SEIS和9月27日报同一事件；Barrick Loulo工会协议与前日报重复；B2Gold Mining.com报道为9月29日BJT，采用9月28日公司一手更新；Centinela及LAURION文章越过BJT窗口；Good Delivery诉讼尚无现行资格/供应变化。",
+      "中文供需检索：山东黄金2026产量计划下调新闻及公告档案；铜库存/ICSG结果未找到可确认的窗口内一手原始公告，未纳入；未检得窗口内合格新增白银新闻。"
+    ],
+    "part3_result": "Part 3英文、中文和Mining.com检索完成。纳入6条：Hudbay、B2Gold、Troilus、山东黄金、Gladiator及Kitco报道的黄金需求数据；未检得合格新增白银新闻。采集的18个Mining.com候选均已按日期、目标金属、供需传导和旧报告重复逐项筛选。",
+    "mining_com_source_note": "强制发现路径已执行：Mining.com copper分类页Playwright HTTP 200；Gold/Silver页面普通抓取403后用Playwright核对；18个去重候选落盘。逐篇优先使用同会话Playwright正文，article_fetch记录中的9篇均HTTP 200。文章时间按页面原时区换算BJT；仅以公开公司公告替代二手报道时，在相应卡片标注第一方来源。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "7个唯一的报告/证据URL已直接读取并核对标题、主体、日期和核心事实：6个正文卡片链接，加山东黄金公告档案链接。",
+        "上交所静态PDF的抓取器返回Invalid PDF structure；该PDF未进入报告引用，改以可读的完整公司公告档案文本核验。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [
+      "https://x.com/soarfinancial/status/2104590738508153112 — 与Troilus 2026-09-28 19:00 BJT第一方融资公告为同一事件；保留公司新闻稿。"
+    ],
+    "part3_deduped_events": [
+      "Montage Gold/Koné 9月26日首浇：9月27日报已收录，同一事件不重复。",
+      "Donlin Gold Draft SEIS/尾矿释放情景：9月27日报已收录，同一官方文件和评论窗口不重复。",
+      "Barrick Loulo-Gounkoto工会协议/撤销罢工：9月27日报已收录；Mining.com转载不重复。"
+    ],
+    "notes": "排除其余Mining.com候选：B2Gold Mining.com稿件及Centinela等页面按精确时间属于9月29日BJT；LAURION同样越窗并引用旧事件；钨/稀土和不含目标金属的关键矿物政策不在范围；并购、股价、价格和交易评论无新增实物供需；Good Delivery诉讼尚未改变认证或交割资格。山东黄金卡片采用9月28日新闻报道作为窗口内入口，并在证据中标明公司原公告日期为9月25日。"
+  }
+}
