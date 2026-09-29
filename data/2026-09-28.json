@@ -1,8 +1,8 @@
 {
   "schema_version": 3,
   "date": "2026-09-28",
-  "report_time": "2026-09-29T11:31:30+08:00",
-  "summary": "黄金供给信号分化：山东黄金下调2026年矿产金目标，Goose矿恢复破碎爬坡，Hudbay上修Snow Lake中期产金计划，Troilus融资推进仍待落地。黄金进口与ETF流量显示需求支撑。铜方面，Cowley高品位钻探扩大远期潜力，尚未转为资源或产量。",
+  "report_time": "2026-09-29T19:42:31+08:00",
+  "summary": "铜端，Centinela工会否决合同后进入法定调解，停工和减产尚未发生；Northmin与Eastport公布勘探进展，尚未形成当前供给。黄金端，Goose维持产量指引、Hudbay提高Snow Lake中期计划，Troilus融资推进，但都需按进度兑现。",
   "windows": {
     "part1": {
       "start": "2026-09-26T00:00:00+08:00",
@@ -287,6 +287,138 @@
       ],
       "projects": [],
       "source_channel": "web"
+    },
+    {
+      "url": "https://www.reuters.com/business/world-at-work/workers-antofagastas-centinela-mine-reject-offer-pave-way-strike-2026-09-28/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Centinela两个工会否决合同提案，98.73%的投票会员支持罢工；须先经过5天政府调解，双方可同意延长5天。",
+          "evidence": "Reuters原文列出投票结果和法定调解程序，没有称已停产。",
+          "source_url": "https://www.reuters.com/business/world-at-work/workers-antofagastas-centinela-mine-reject-offer-pave-way-strike-2026-09-28/",
+          "evidence_type": "Reuters劳资谈判报道",
+          "period": "2026-09-28",
+          "unit": "投票比例；调解天数",
+          "value": "98.73%; 5 days, extendable by 5 days"
+        },
+        {
+          "claim": "Centinela铜矿2025年产铜240,400吨。",
+          "evidence": "Reuters原文给出的2025年实际产铜口径。",
+          "source_url": "https://www.reuters.com/business/world-at-work/workers-antofagastas-centinela-mine-reject-offer-pave-way-strike-2026-09-28/",
+          "evidence_type": "Reuters引用历史产量",
+          "period": "2025年",
+          "unit": "吨铜",
+          "value": "240,400 metric tons"
+        }
+      ],
+      "publish_time": "2026-09-28T23:24:00+08:00",
+      "source": "Reuters",
+      "title": "Centinela铜矿两工会否决合同提案，进入法定调解程序",
+      "excerpt": "Reuters于9月28日15:24 UTC报道，智利Centinela铜矿两个工会否决公司合同提案，98.73%的投票会员支持罢工；依法须先经过5天政府调解，双方同意可再延长5天。该矿2025年产铜240,400吨。",
+      "language": "en",
+      "interpretation": "这是潜在停工风险，不是已发生罢工或已减少铜产量。调解结果和矿山实际生产状态决定短期供给影响。",
+      "importance": "Centinela在2025年产铜240,400吨，因此劳资谈判若演变为停工，可能影响短期铜供应；但本次只是合同被否决、进入至少5天的调解，不能将产量风险计作已经发生的损失。后续应追踪调解期限、工会是否正式罢工及矿山实际运行，而非按投票结果直接下调供给。",
+      "verification_status": "verified",
+      "companies": [
+        "Antofagasta Minerals"
+      ],
+      "projects": [
+        "Centinela"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/316211/Northmin-Reports-Highest-Grade-Copper-and-Silver-Results-Received-to-Date-from-Its-Tynagh-Drill-Program",
+      "metal_tags": [
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Tynagh钻孔3615-26-08自106.75米起2.45米岩芯区间为4.03%铜和313.82克/吨银。",
+          "evidence": "Northmin原始公告的摘要和化验表对该主区间数值一致；内部0.75米铜品位摘要与表格不一致，故不引用。",
+          "source_url": "https://www.newsfilecorp.com/release/316211/Northmin-Reports-Highest-Grade-Copper-and-Silver-Results-Received-to-Date-from-Its-Tynagh-Drill-Program",
+          "evidence_type": "公司原始钻探公告",
+          "period": "2026-09-28发布",
+          "unit": "米岩芯长；铜%；银克/吨",
+          "value": "2.45 m at 4.03% Cu and 313.82 g/t Ag"
+        },
+        {
+          "claim": "已报告的首四个钻孔覆盖约125米走向，另四孔化验待出。",
+          "evidence": "Northmin原始公告的勘探进度说明。",
+          "source_url": "https://www.newsfilecorp.com/release/316211/Northmin-Reports-Highest-Grade-Copper-and-Silver-Results-Received-to-Date-from-Its-Tynagh-Drill-Program",
+          "evidence_type": "公司原始钻探公告",
+          "period": "2026-09-28",
+          "unit": "钻孔数；米走向",
+          "value": "4 holes, 125 m; 4 assays pending"
+        }
+      ],
+      "publish_time": "2026-09-28T18:00:00+08:00",
+      "source": "Northmin Corporation (Newsfile)",
+      "title": "Northmin披露Tynagh铜银高品位钻探结果，尚属资源勘查",
+      "excerpt": "Northmin于9月28日06:00 EDT披露爱尔兰Tynagh项目3615-26-08孔：106.75米起2.45米岩芯长，品位4.03%铜和313.82克/吨银。四个已测钻孔覆盖约125米走向，另四孔化验待出。公告摘要与表格对内部0.75米铜品位口径不一致，本卡不引用该数字。",
+      "language": "en",
+      "interpretation": "钻孔结果显示局部铜银矿化潜力；岩芯区间不等于可采厚度，需进一步钻探、资源估算和经济评估，不能列作新增当期供给。",
+      "importance": "2.45米、4.03%铜和313.82克/吨银是Tynagh局部钻探的高品位证据，四孔目前仅覆盖约125米走向。它提升后续资源圈定的关注度，但矿化连续性、规模和经济性仍待更多钻孔与资源估算确认；对当期铜银供应没有可量化增量。",
+      "verification_status": "verified",
+      "companies": [
+        "Northmin Corporation"
+      ],
+      "projects": [
+        "Tynagh"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/316204/Eastport-Reports-110.8m-at-0.43-Cu-at-NakMain-and-Launches-291-km2-Gravity-Survey-at-30km-TholeCopper-Snake-Copper-in-Soil-Anomaly",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Nak-Main钻孔NAKDD25-006自123.6米起110.8米岩芯长，品位0.43%铜；化验口径含超限样本封顶及2.37米未采样稀释段。",
+          "evidence": "Eastport原始公告的钻孔结果及脚注。",
+          "source_url": "https://www.newsfilecorp.com/release/316204/Eastport-Reports-110.8m-at-0.43-Cu-at-NakMain-and-Launches-291-km2-Gravity-Survey-at-30km-TholeCopper-Snake-Copper-in-Soil-Anomaly",
+          "evidence_type": "公司原始钻探公告",
+          "period": "2026-09-28",
+          "unit": "米岩芯长；铜%",
+          "value": "110.8 m at 0.43% Cu from 123.6 m"
+        },
+        {
+          "claim": "公司启动291平方公里重力测量，覆盖约30公里的Thole–Copper Snake铜土壤异常带。",
+          "evidence": "Eastport公告的物探范围及用途。",
+          "source_url": "https://www.newsfilecorp.com/release/316204/Eastport-Reports-110.8m-at-0.43-Cu-at-NakMain-and-Launches-291-km2-Gravity-Survey-at-30km-TholeCopper-Snake-Copper-in-Soil-Anomaly",
+          "evidence_type": "公司原始勘探公告",
+          "period": "2026-09-28",
+          "unit": "平方公里；公里",
+          "value": "291 km²; 30 km trend"
+        }
+      ],
+      "publish_time": "2026-09-28T19:00:00+08:00",
+      "source": "Eastport Critical Metals Corp. (Newsfile)",
+      "title": "Eastport披露Nak-Main铜钻孔，并启动Thole–Copper Snake重力测量",
+      "excerpt": "Eastport于9月28日07:00 EDT披露博茨瓦纳Matsitama项目Nak-Main钻孔NAKDD25-006自123.6米起110.8米岩芯长、品位0.43%铜；公司同时启动覆盖291平方公里、沿约30公里Thole–Copper Snake异常带的重力测量。",
+      "language": "en",
+      "interpretation": "钻探与物探用于验证历史资料和确定后续勘探靶区。公司强调2013年的Nak资源估算属历史数据，不可当作当前NI 43-101资源，也不是已投产供给。",
+      "importance": "110.8米、0.43%铜为Nak-Main的新增钻孔证据，291平方公里重力测量将帮助筛选约30公里异常带的后续目标。项目仍处勘查和资源核验阶段，2013年估算不属于当前合规资源；是否形成可开发铜量取决于后续验证、资源估算与经济研究，不能转成近期供应预测。",
+      "verification_status": "verified",
+      "companies": [
+        "Eastport Critical Metals Corp."
+      ],
+      "projects": [
+        "Matsitama Copper Project",
+        "Nakalakwana",
+        "Thole–Copper Snake"
+      ],
+      "source_channel": "web"
     }
   ],
   "search_log": {
@@ -296,9 +428,11 @@
       "Crux Investor interviews / Gold Forum主题页及Mining Forum Americas 2026官方日程：核对9月28日演讲安排；只有日程，无可核验的窗口内采访内容/回放。",
       "Kitco Mining /news/video列表：未找到窗口内新增的可核验矿业采访；直接核对Kitco 9月28日State Street文字访谈页并将其按新闻文章归入Part 3。",
       "Denver Gold Group / Mining Forum Americas主办方页面：确认会议日期与9月28日演讲安排；计划页和HTTP 403的日程页不足以证明采访正文或观点，未纳入Part 1。",
-      "对照data/2026-09-27.json及data/2026-09-26.json：未发现本期合格广播候选的URL或实质内容重复。"
+      "对照data/2026-09-27.json及data/2026-09-26.json：未发现本期合格广播候选的URL或实质内容重复。",
+      "KER 2026-09-28 Banyan Gold/Tara Christie专访：已核对正文与2026-09-26 Crux访谈，同一融资、Powerline钻探、PEA和2027钻探计划，按事件去重。",
+      "KER 2026-09-28 TG Watkins与TF Metals栏目：市场走势与泛化AI铜需求评论，未提供可核实的新增矿山或实体需求量，不入选。"
     ],
-    "part1_result": "Part 1检索完成。未核验到窗口内新增、符合podcast/webcast/YouTube/会议采访等形式且含金银铜供需信息的广播；iHeart、Crux、Kitco视频和会议日程均已检查。Kitco 9月28日Aakash Doshi页面是文字采访而非可确认的音视频节目，故按新闻文章放入Part 3。",
+    "part1_result": "重检iHeart、KER、Kitco及Mining Forum Americas；Banyan 9月28日访谈与9月26日报同一事件，其他候选无合格新增实体供需事实，Part 1不新增卡片。",
     "part2_searched": true,
     "part2_channel": "playwright",
     "part2_sources_checked": [
@@ -333,24 +467,31 @@
       "Gladiator Metals/Newsfile Cowley公告：直接正文可读，Newsfile日期2026-09-28；核对CPG-170区间、非真厚度限定及计划从8,000m扩大到>16,000m。",
       "Kitco News State Street采访文章：原文HTML与正文直接可读，页面日期2026-09-28；核对中国黄金进口和8月ETF流量。文章为文字采访，不作为广播/播客纳入Part 1；需求数字作为当日市场新闻纳入Part 3。",
       "排除项复核：Montage Koné首浇与Donlin SEIS和9月27日报同一事件；Barrick Loulo工会协议与前日报重复；B2Gold Mining.com报道为9月29日BJT，采用9月28日公司一手更新；Centinela及LAURION文章越过BJT窗口；Good Delivery诉讼尚无现行资格/供应变化。",
-      "中文供需检索：山东黄金2026产量计划下调新闻及公告档案；铜库存/ICSG结果未找到可确认的窗口内一手原始公告，未纳入；未检得窗口内合格新增白银新闻。"
+      "中文供需检索：山东黄金2026产量计划下调新闻及公告档案；铜库存/ICSG结果未找到可确认的窗口内一手原始公告，未纳入；未检得窗口内合格新增白银新闻。",
+      "Mining.com铜/金/银分类页本次Playwright均HTTP 200；33条栏目候选，跨栏目去重16个URL。栏目列表仅作发现，入选卡片以原始报道核验为准。",
+      "Reuters 2026-09-28 15:24 UTC Centinela两工会否决提案；换算北京时间23:24仍属9月28日，明确未罢工、先行5天法定调解。",
+      "Northmin/Newsfile 2026-09-28 06:00 EDT Tynagh公告正文和化验表：北京时间18:00，2.45m/4.03% Cu/313.82 g/t Ag；内部0.75m铜品位摘要和表格分别为12.75%/12.85%，不引用争议数字。",
+      "Eastport/Newsfile 2026-09-28 07:00 EDT Matsitama公告正文和脚注：北京时间19:00，110.8m/0.43% Cu及291 km²重力测量；历史资源不得视作当前资源。"
     ],
-    "part3_result": "Part 3英文、中文和Mining.com检索完成。纳入6条：Hudbay、B2Gold、Troilus、山东黄金、Gladiator及Kitco报道的黄金需求数据；未检得合格新增白银新闻。采集的18个Mining.com候选均已按日期、目标金属、供需传导和旧报告重复逐项筛选。",
-    "mining_com_source_note": "强制发现路径已执行：Mining.com copper分类页Playwright HTTP 200；Gold/Silver页面普通抓取403后用Playwright核对；18个去重候选落盘。逐篇优先使用同会话Playwright正文，article_fetch记录中的9篇均HTTP 200。文章时间按页面原时区换算BJT；仅以公开公司公告替代二手报道时，在相应卡片标注第一方来源。",
+    "part3_result": "在原6张卡片基础上，按北京时间复核新增Centinela潜在停工风险和Northmin、Eastport两项早期铜勘探卡片；Part 3共9张。调解不等于停产，钻探不等于当前产量。",
+    "mining_com_source_note": "强制发现路径已执行：Mining.com copper分类页Playwright HTTP 200；Gold/Silver页面普通抓取403后用Playwright核对；18个去重候选落盘。逐篇优先使用同会话Playwright正文，article_fetch记录中的9篇均HTTP 200。文章时间按页面原时区换算BJT；仅以公开公司公告替代二手报道时，在相应卡片标注第一方来源。 本次重检分类页33条栏目候选、16个唯一URL；Centinela改以Reuters原文时间核定为9月28日23:24 BJT。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 7,
-      "passed": 7,
+      "checked": 10,
+      "passed": 10,
       "failed": 0,
       "failures": [],
       "notes": [
         "7个唯一的报告/证据URL已直接读取并核对标题、主体、日期和核心事实：6个正文卡片链接，加山东黄金公告档案链接。",
-        "上交所静态PDF的抓取器返回Invalid PDF structure；该PDF未进入报告引用，改以可读的完整公司公告档案文本核验。"
+        "上交所静态PDF的抓取器返回Invalid PDF structure；该PDF未进入报告引用，改以可读的完整公司公告档案文本核验。",
+        "新增Reuters、Northmin、Eastport三条独立原始URL均直接打开并核对发布时间与正文；合计10条验证通过。"
       ]
     }
   },
   "dedup_log": {
-    "part1_deduped_urls": [],
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/09/28/banyan-gold-high-grade-drill-results-from-powerline-58mil-financing-franco-nevada-20mil-investment-gdxj-inclusion/：融资、Powerline钻探、PEA及2027计划已见2026-09-26 Crux访谈。"
+    ],
     "part2_deduped_urls": [
       "https://x.com/soarfinancial/status/2104590738508153112 — 与Troilus 2026-09-28 19:00 BJT第一方融资公告为同一事件；保留公司新闻稿。"
     ],
@@ -359,6 +500,6 @@
       "Donlin Gold Draft SEIS/尾矿释放情景：9月27日报已收录，同一官方文件和评论窗口不重复。",
       "Barrick Loulo-Gounkoto工会协议/撤销罢工：9月27日报已收录；Mining.com转载不重复。"
     ],
-    "notes": "排除其余Mining.com候选：B2Gold Mining.com稿件及Centinela等页面按精确时间属于9月29日BJT；LAURION同样越窗并引用旧事件；钨/稀土和不含目标金属的关键矿物政策不在范围；并购、股价、价格和交易评论无新增实物供需；Good Delivery诉讼尚未改变认证或交割资格。山东黄金卡片采用9月28日新闻报道作为窗口内入口，并在证据中标明公司原公告日期为9月25日。"
+    "notes": "排除其余Mining.com候选：B2Gold Mining.com稿件及LAURION同样越窗并引用旧事件；钨/稀土和不含目标金属的关键矿物政策不在范围；并购、股价、价格和交易评论无新增实物供需；Good Delivery诉讼尚未改变认证或交割资格。山东黄金卡片采用9月28日新闻报道作为窗口内入口，并在证据中标明公司原公告日期为9月25日。 本次更正：Reuters原文15:24 UTC换算为9月28日23:24 BJT；旧版将Centinela误作9月29日而排除。"
   }
 }
