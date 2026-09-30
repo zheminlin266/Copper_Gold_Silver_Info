@@ -1,0 +1,399 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-29",
+  "report_time": "2026-09-30T12:14:15+08:00",
+  "summary": "黄金：Gold Fields称2026年产量指引为240万—260万盎司，并维持2030年独立产量约310万盎司路径；Greatland称Havieron已动员、目标年产金约27万盎司，Barrick规划NGM年产金恢复至300万盎司以上。白银：Blackrock拟将Tonopah土地持有增加约45%，仍无新增资源或产量。铜：CoTec签署刚果（金）尾矿合资框架但尚无具体资产；拉美风险评估指出部分铜项目资本冻结。加纳Namdini收到预关闭通知，尚未确认停产。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-27T00:00:00+08:00",
+      "end": "2026-09-29T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-29T00:00:00+08:00",
+      "end": "2026-09-29T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-29T00:00:00+08:00",
+      "end": "2026-09-29T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://americas.miningforum.com/member-webcast/4549",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Greatland称Havieron在2026年第三季度取得全部所需许可并已开始动员；管理层预计项目年产约270,000盎司黄金及10,000吨铜，初始矿寿约17年。",
+          "evidence": "Denver Gold Group公司演示文字稿记录Shaun Day称项目已获全套许可、正在动员，并预计约270,000盎司金/年、约10,000吨铜/年及17年矿寿。",
+          "source_url": "https://americas.miningforum.com/member-webcast/4549",
+          "evidence_type": "公司管理层演示文字稿（前瞻性计划）",
+          "period": "2026-09-28演示时状态及未来运营计划",
+          "unit": "许可/动员状态；盎司金/年；吨铜/年；年",
+          "value": "fully permitted and mobilizing; ~270,000 oz Au/year; ~10,000 t Cu/year; ~17 years"
+        }
+      ],
+      "publish_date": "2026-09-29",
+      "title": "Greatland称Havieron已获全套许可并启动动员，目标年产金约27万盎司",
+      "source_type": "company_presentation",
+      "summary": "Greatland董事总经理Shaun Day在Mining Forum Americas演示中称，Havieron本季度已取得全部许可并开始动员，矿石将运往Telfer选厂处理；管理层预计该项目年产金约27万盎司、年产铜约1万吨，初始矿寿约17年。",
+      "importance": "Havieron从待开发项目转入动员，管理层计划依托Telfer既有选厂形成每年约27万盎司金及1万吨铜、初始矿寿约17年的新增供应。以上均为前瞻性计划而非现产量，地下工程进度、运输衔接与选厂爬坡决定实际首产和稳态产出，因此短期供应影响仍取决于建设节点能否兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Greatland Resources"
+      ],
+      "projects": [
+        "Havieron",
+        "Telfer"
+      ]
+    },
+    {
+      "url": "https://americas.miningforum.com/member-webcast/4438",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Gold Fields报告2025年产金244万盎司；2026年指引为240万至260万盎司，CEO称当前进度朝区间上端。",
+          "evidence": "Mining Forum公司演示文字稿直接记录CEO给出的2025年产量、2026年指引及执行进度判断。",
+          "source_url": "https://americas.miningforum.com/member-webcast/4438",
+          "evidence_type": "公司CEO演示文字稿（管理层产量指引）",
+          "period": "2025实际及2026全年指引",
+          "unit": "百万盎司黄金",
+          "value": "2.44 Moz in 2025; 2.4–2.6 Moz guidance for 2026"
+        },
+        {
+          "claim": "Gold Fields称其独立业务有机增长路径约为2030年年产金310万盎司；与Northern Star潜在合并的估算约410万盎司，但尚无具约束力协议。",
+          "evidence": "演示文字稿分别陈述独立增长路径及潜在合并规模估算，并指出交易没有确定性。",
+          "source_url": "https://americas.miningforum.com/member-webcast/4438",
+          "evidence_type": "公司CEO演示文字稿（增长目标及非约束性并购情景）",
+          "period": "至2030年目标；潜在合并按2026年估算",
+          "unit": "百万盎司黄金/年",
+          "value": "~3.1 Moz standalone by 2030; ~4.1 Moz proposed combination, not agreed"
+        }
+      ],
+      "publish_date": "2026-09-29",
+      "title": "Gold Fields维持2026年产金指引2.4–2.6Moz，称独立业务2030年可增至约3.1Moz",
+      "source_type": "company_presentation",
+      "summary": "CEO Mike Fraser称Gold Fields 2026年产金指引为240万至260万盎司，进度朝区间上端；公司仍预计独立业务可在2030年前后有机增长至约310万盎司。与Northern Star的合并估算约410万盎司，但目前没有具约束力协议。",
+      "importance": "Gold Fields称2026年产金指引为240万至260万盎司且趋近上端，并预计独立业务至2030年约310万盎司，较当前指引简单高出约50万至70万盎司/年。增长仍取决于在建与成长项目兑现；约410万盎司的Northern Star合并情景尚无约束性协议，不能视为已增产或纳入当前供给。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Mike Fraser",
+        "background": "Gold Fields首席执行官"
+      },
+      "companies": [
+        "Gold Fields Ltd.",
+        "Northern Star Resources"
+      ]
+    },
+    {
+      "url": "https://americas.miningforum.com/member-webcast/4440",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Barrick称计划通过整合Fourmile、研究Cortez新增处理能力并加大勘探，使Nevada Gold Mines恢复至每年300万盎司或更高的黄金产量；潜在处理能力增量预计在2030年以后。该产量目标按NGM合资整体口径，Barrick持有61.5%。",
+          "evidence": "Mining Forum演示中Tim Cribb说明NGM恢复至300万盎司/年的计划、Cortez处理能力方案仍在研究，并提及合资权益比例及2030年后的增长路径。",
+          "source_url": "https://americas.miningforum.com/member-webcast/4440",
+          "evidence_type": "公司管理层演示文字稿（未来目标；方案尚在研究）",
+          "period": "2030年后潜在生产路径；目标延续约十年",
+          "unit": "百万盎司黄金/年；合资权益比例",
+          "value": ">3 Moz/year gross NGM target; Barrick 61.5% interest"
+        }
+      ],
+      "publish_date": "2026-09-29",
+      "title": "Barrick称Nevada Gold Mines拟恢复至年产金300万盎司以上",
+      "source_type": "company_presentation",
+      "summary": "Barrick管理层称，Fourmile整合、Cortez新增处理能力研究及勘探投资有望使Nevada Gold Mines合资整体回到年产金300万盎司以上；超过300万盎司/年的长期潜力主要在2030年后，相关处理方案仍在研究。",
+      "importance": "管理层拟通过Fourmile整合、Cortez额外处理能力和加大勘探，使Nevada Gold Mines合资整体年产金回升至300万盎司以上，并称2030年后具备维持该水平十年以上的潜力。新增处理方案仍在研究，目标按合资100%权益口径而非Barrick的61.5%应占产量，须由工程决策、建设和增储结果验证。",
+      "verification_status": "verified",
+      "companies": [
+        "Barrick Mining Corporation",
+        "Nevada Gold Mines"
+      ],
+      "projects": [
+        "Nevada Gold Mines",
+        "Cortez",
+        "Fourmile"
+      ]
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/peter_krauth/status/2104630593204244555",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Blackrock Silver于9月28日公布拟收购Tonopah East的购买协议，包含146项未专利矿权，新增12.1平方公里；公司土地面积由26.6平方公里增至近39平方公里，约增加45%，交割预计9月30日。",
+          "evidence": "Newsfile转载公司第一方公告，列明矿权数量、面积增量、现有与交易后土地面积及预计交割日；Peter Krauth的X原帖概括为45%。",
+          "source_url": "https://www.newsfilecorp.com/release/316185/Blackrock-Silver-Acquires-Tonopah-East-Project-Increasing-Landholdings-by-45-in-Tonopah-Mining-District",
+          "evidence_type": "公司第一方购买协议新闻稿；交易待交割",
+          "period": "协议于2026-09-28公布；预计2026-09-30交割",
+          "unit": "矿权项数；平方公里；土地持有增幅",
+          "value": "146 claims; +12.1 km²; 26.6 to ~39 km²; ~45%"
+        }
+      ],
+      "publish_time": "2026-09-28T17:53:30+00:00",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "excerpt": "“白银回撤之际，Blackrock Silver正在扩大Tonopah布局；土地持有增加约45%的交易，为关注银价日常波动之外的项目进展提供了新理由。”",
+      "interpretation": "该帖发表于北京时间9月29日01:53，指向Blackrock Silver 9月28日签署的Tonopah East收购协议。公司拟新增146项未专利矿权、12.1平方公里土地，交割预计9月30日；这扩大勘探空间但未增加已知资源或产量。",
+      "importance": "Tonopah East拟增加12.1平方公里，使公司持有面积从26.6增至近39平方公里、约扩张45%，并沿Fraction caldera含银金成矿走廊、距计划选厂约5公里。购买协议预计9月30日交割，但新矿权面积本身不构成资源量或产量，后续供给仍取决于交割、勘探、许可及开发决策。",
+      "verification_status": "verified",
+      "source_channel": "playwright"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.thenewswire.com/press-releases/1LPRFgZZp-golden-cariboo-announces-inaugural-ni-43-101-mineral-resource-estimate-for-the-quesnelle-gold-quartz-mine-property-british-columbia.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Quesnelle基准露天矿壳资源估算为指示资源9.966 Mt、0.556 g/t AuEq（0.547 g/t Au）、含金178,000 oz；推断资源70.851 Mt、0.444 g/t AuEq（0.437 g/t Au）、含金1.011 Moz。",
+          "evidence": "TheNewswire刊载的NI 43-101资源表及新闻稿摘要列出资源类别、吨位、品位、金属量及0.15 g/t AuEq基准cut-off。",
+          "source_url": "https://www.thenewswire.com/press-releases/1LPRFgZZp-golden-cariboo-announces-inaugural-ni-43-101-mineral-resource-estimate-for-the-quesnelle-gold-quartz-mine-property-british-columbia.html",
+          "evidence_type": "独立Qualified Person编制的NI 43-101矿产资源估算；非储量",
+          "period": "资源估算生效日2026-09-26；新闻稿2026-09-29",
+          "unit": "百万吨；g/t AuEq及Au；盎司Au",
+          "value": "9.966 Mt Indicated at 0.556 g/t AuEq / 0.547 g/t Au, 178 koz Au; 70.851 Mt Inferred at 0.444 g/t AuEq / 0.437 g/t Au, 1.011 Moz Au"
+        },
+        {
+          "claim": "公司称尚未完成PEA、预可行性或可行性研究、冶金测试，也未作生产决定；所报资源不具备已证明的经济可采性。",
+          "evidence": "公告的技术披露说明无储量、无经济研究、无冶金测试、无生产决定，并提示推断资源可信度较低。",
+          "source_url": "https://www.thenewswire.com/press-releases/1LPRFgZZp-golden-cariboo-announces-inaugural-ni-43-101-mineral-resource-estimate-for-the-quesnelle-gold-quartz-mine-property-british-columbia.html",
+          "evidence_type": "公司技术披露及NI 43-101风险声明",
+          "period": "截至2026-09-29公告日",
+          "unit": "研究/生产阶段",
+          "value": "no PEA/PFS/FS; no metallurgical testwork; no reserves or production decision"
+        }
+      ],
+      "publish_time": "2026-09-29",
+      "source": "Golden Cariboo Resources Ltd. (TheNewswire)",
+      "title": "Golden Cariboo公布Quesnelle首份NI 43-101资源量：17.8万盎司指示金、101.1万盎司推断金",
+      "excerpt": "公司9月29日公布首份独立资源估算：指示资源9.966 Mt、0.547 g/t Au，含金178,000 oz；推断资源70.851 Mt、0.437 g/t Au，含金1.011 Moz。资源量不等于储量或已实现供给。",
+      "language": "en",
+      "interpretation": "资源估算生效日为9月26日、新闻稿发布日为9月29日。公告明确没有矿产储量、冶金测试、经济评价或生产决定；大部分所含金属为推断类别。",
+      "importance": "首份资源估算报告约178,000盎司指示金与1.011百万盎司推断金，主要部分仍属低置信度推断资源，且MRE仅基于24孔、8,466米钻探。公司尚未完成冶金测试、PEA或预可研/可研，也无储量和生产决定，因此该规模是远期勘探潜力而非可供市场的当前金产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Golden Cariboo Resources Ltd."
+      ],
+      "projects": [
+        "Quesnelle Gold Quartz Mine Property",
+        "Halo-North Hixon"
+      ],
+      "mining_com_source_note": "Mining.com金类列表显示9月29日08:43文章但未标时区；卡片引用TheNewswire原始公司公告，页面给出9月29日发布日而无可靠时刻，故按日期记录。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.reuters.com/world/asia-pacific/ghanas-environmental-authority-targets-chinese-owned-cardinal-others-mining-2026-09-29",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "加纳环保局向Shandong Gold旗下Cardinal Namdini发出预关闭通知；监管官员称原因部分涉及涉嫌未及时报告尾矿输送管线脱接并造成矿废输送系统溢漏。",
+          "evidence": "Reuters于2026-09-29 13:25 UTC报道并直接引述EPA副首席执行官Michael Ayamga；报道同时说明公司未立即回应。",
+          "source_url": "https://www.reuters.com/world/asia-pacific/ghanas-environmental-authority-targets-chinese-owned-cardinal-others-mining-2026-09-29",
+          "evidence_type": "Reuters直接引述监管官员；事故及未报告为涉嫌事项",
+          "period": "报道发布时间2026-09-29 13:25 UTC；未给出确定停产日期",
+          "unit": "监管通知及事故状态",
+          "value": "pre-closure notice; alleged pipeline decoupling/spill; no confirmed closure reported"
+        }
+      ],
+      "publish_time": "2026-09-29T21:25:00+08:00",
+      "source": "Reuters",
+      "title": "加纳环保局向Cardinal Namdini发出预关闭通知，涉嫌尾矿管线事故未及时报告",
+      "excerpt": "Reuters于9月29日13:25 UTC报道，加纳环保局向中国山东黄金旗下Cardinal Namdini发出预关闭通知，涉及涉嫌未及时报告尾矿管线脱接造成的溢漏；报道时未宣布实际关停。",
+      "language": "en",
+      "interpretation": "Reuters直接引述EPA副首席执行官。预关闭通知和涉嫌事故尚未被报道为实际停产；监管没有公布受影响产量、执行日期或整改期限。",
+      "importance": "预关闭通知针对涉嫌未及时报告尾矿管线脱接及溢漏，可能经环境执法影响Namdini短期运营；Reuters未提供确定的停产日期、整改期限或受影响产量。报道发布时仍是监管通知而非实际关停，后续应以EPA决定、矿方回应及现场运行验证供给风险是否兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Cardinal Namdini Mining",
+        "Shandong Gold",
+        "Ghana Environmental Protection Authority"
+      ],
+      "projects": [
+        "Cardinal Namdini"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/316507/Copper-Intelligence-and-CoTec-Finalise-Joint-Venture-Shareholder-Agreement-to-Target-Processing-Historical-Copper-Tailings-Opportunities-in-the-Democratic-Republic-of-Congo",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Copper Intelligence、CoTec及两家与双方高管相关的投资实体于2026年9月29日敲定确定性合资股东协议，目标是在刚果（金）历史铜尾矿中筛选处理机会。",
+          "evidence": "Newsfile原始公司新闻稿列明协议各方、签署状态及项目范围，发布时间为7:00 AM EDT。",
+          "source_url": "https://www.newsfilecorp.com/release/316507/Copper-Intelligence-and-CoTec-Finalise-Joint-Venture-Shareholder-Agreement-to-Target-Processing-Historical-Copper-Tailings-Opportunities-in-the-Democratic-Republic-of-Congo",
+          "evidence_type": "公司第一方确定性合资协议公告",
+          "period": "2026-09-29 07:00 EDT（19:00 BJT）",
+          "unit": "合资协议及目标项目",
+          "value": "definitive JV framework; no identified asset or production target"
+        },
+        {
+          "claim": "合资机会须逐项完成法律和技术尽调并签订约束性资产协议，且须经合资及CoTec独立董事批准；资金计划待达到足够规模后再寻求。",
+          "evidence": "同一公告明确每项机会需单独尽调、签约和董事批准，并将外部融资安排置于取得足够规模之后。",
+          "source_url": "https://www.newsfilecorp.com/release/316507/Copper-Intelligence-and-CoTec-Finalise-Joint-Venture-Shareholder-Agreement-to-Target-Processing-Historical-Copper-Tailings-Opportunities-in-the-Democratic-Republic-of-Congo",
+          "evidence_type": "公司新闻稿列明的先决条件与未来融资计划",
+          "period": "截至2026-09-29协议披露时",
+          "unit": "项目审批阶段及融资条件",
+          "value": "asset-by-asset diligence and binding agreements; funding sought only after sufficient scale"
+        }
+      ],
+      "publish_time": "2026-09-29T19:00:00+08:00",
+      "source": "Copper Intelligence Inc. (Newsfile)",
+      "title": "Copper Intelligence与CoTec签署刚果（金）历史铜尾矿合资协议，尚未确定具体资产",
+      "excerpt": "双方称确定性股东协议建立了在刚果（金）历史铜矿区寻找并处理尾矿机会的框架；具体机会需逐项法律、技术尽调并另行签约，待达到规模后才寻求资金。",
+      "language": "en",
+      "interpretation": "Newsfile原始稿时间为9月29日07:00 EDT，换算北京时间为19:00。公告没有公布尾矿资产、吨位、品位或预计产能，项目仍处于机会筛选阶段。",
+      "importance": "此次签订的确定性股东协议为在刚果（金）历史尾矿区逐项寻找铜处理机会建立合作框架，未来或借助CoTec技术回收二次资源。公告未指明资产、吨位、品位或投产时点，机会仍须通过法律与技术尽调并逐项签约，融资也要待规模成熟后推进，近期新增供给尚不可计量。",
+      "verification_status": "verified",
+      "companies": [
+        "Copper Intelligence Inc.",
+        "CoTec Holdings Corp."
+      ],
+      "projects": [
+        "Democratic Republic of the Congo historical copper tailings"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/latin-america-mining-risks-carry-54b-price-tag/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Americas Market Intelligence估算，2018年以来拉美采矿地上风险对应约380亿美元已记录损失及法律和解、罚款等，另有约160亿美元资本处于延期或停滞项目。",
+          "evidence": "Mining.com报道转述AMI矿业风险团队的区域估算，并区分已发生损失和受阻项目资本；文章同时指出该计算未被独立核实。",
+          "source_url": "https://www.mining.com/latin-america-mining-risks-carry-54b-price-tag/",
+          "evidence_type": "Mining.com转述AMI区域风险估算；未独立审计",
+          "period": "2018年以来累计估算",
+          "unit": "十亿美元；已记录损失与冻结资本",
+          "value": "~US$38bn documented losses; ~US$16bn capital tied up"
+        },
+        {
+          "claim": "AMI估算中约70亿美元为社会反对、监管不确定性及非法采矿影响下受阻的秘鲁铜项目资本；另约40亿美元涉及墨西哥三个受许可问题影响的项目。",
+          "evidence": "Mining.com正文列出秘鲁铜项目与墨西哥项目的受阻资本估算，并提醒这些是投资金额而非实际供给损失。",
+          "source_url": "https://www.mining.com/latin-america-mining-risks-carry-54b-price-tag/",
+          "evidence_type": "行业风险咨询公司估算；项目资本而非产量",
+          "period": "2018年以来风险评估中的受阻项目资本",
+          "unit": "十亿美元项目资本",
+          "value": "approximately US$7bn Peru copper projects; US$4bn across three Mexico projects"
+        }
+      ],
+      "publish_time": "2026-09-29",
+      "source": "MINING.COM",
+      "title": "Mining.com估算拉美采矿地上风险代价达540亿美元，部分铜项目资本受阻",
+      "excerpt": "Mining.com转述Americas Market Intelligence估算：2018年以来约380亿美元为已记录损失，另有约160亿美元资本被冻结于延期或停滞项目，其中约70亿美元涉及秘鲁铜项目。该估算不是产量损失。",
+      "language": "en",
+      "interpretation": "页面显示9月29日03:53但未标时区；所显示时刻按北美时区换算均落在北京时间9月29日。文章转述AMI估算并说明顾问未独立核验，仅将秘鲁铜项目资本冻结作为未来供应管线执行风险，不视为已损失产量。",
+      "importance": "AMI估算2018年以来拉美采矿地上风险对应约380亿美元已发生损失及160亿美元延期或停滞资本，其中约70亿美元为秘鲁铜项目、约40亿美元为墨西哥三项审批受阻项目，提示未来铜项目管线面临执行约束。该估算不是已损失产量，且Mining.com指出未独立核实AMI计算，不能据此下调短期供应；应继续观察具体项目许可、社区谈判与投资恢复。",
+      "verification_status": "verified",
+      "companies": [
+        "Americas Market Intelligence"
+      ],
+      "projects": [
+        "Peruvian copper projects",
+        "El Arco",
+        "San Nicolás",
+        "Cordero"
+      ],
+      "mining_com_source_note": "Mining.com原文页头显示9月29日03:53且未标时区。文中明确说AMI的540亿美元估算未经独立核实，并将已发生损失与被冻结资本分开。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Company Interviews/iHeart、Crux Investor、Kitco Mining、Soar Financial及YouTube节目列表：按2026-09-27至09-29北京时间窗口检索；无其他可核验的新采访增量。",
+      "Denver Gold Group / Mining Forum Americas 2026官方会议与webcast页：读取Greatland、Gold Fields及Barrick演示页和文字稿，核对发言人及原始MDT时间。Greatland 9/28 10:20 MDT=9/29 00:20 BJT；Gold Fields 9/29 08:20 MDT=22:20 BJT；Barrick 9/29 09:00 MDT=23:00 BJT，均在Part 1窗口。",
+      "Mining Forum其他演示按金银铜实体供需内容及北京时间筛选；Endeavour Silver 9/29下午MDT回放换算为9/30 BJT，排除；没有具体实体供需事实的演讲不纳入。",
+      "与data/2026-09-28.json、data/2026-09-27.json及data/2026-09-26.json对照：本期三场演示URL及实质供需更新均未在前三日报重复。"
+    ],
+    "part1_result": "Part 1完成72小时访谈、会议演示和回放检索；纳入Greatland Havieron动员、Gold Fields产量路径及Barrick NGM产量路径三场公司演示。其他窗口内候选不具新增实体供需事实或北京时间越窗。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "x_outputs/2026-09-29_x_raw_materials.json：X sidecar complete，selected_channel=playwright，53/53账户完成、0失败；运行manifest 2026-09-29-20260930T032537021927Z-30992状态complete。",
+      "x_outputs/2026-09-29_x_raw_materials.txt：逐条核对17条窗口内原帖作者、正文、status URL及UTC发布时间并换算北京时间；经事实、来源、实体供需和既有日报重复筛选。",
+      "Peter Krauth原帖发表于2026-09-29 01:53:30 BJT；以Blackrock Silver/Newsfile一手公告核对Tonopah East 146项矿权、12.1 km²及+45%土地面积。其余原帖不具可核验的新增金银铜实体供需事实。"
+    ],
+    "part2_result": "Playwright完整覆盖53/53账户、0失败，筛查17条窗口内原帖；纳入Peter Krauth转述Blackrock Silver Tonopah East收购协议的一条银供给前置项目动态。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "53/53账户完成，0失败；17条候选均已筛查。采集运行时间2026-09-30 11:25:37至11:52:09 BJT。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com gold/silver/copper分类页完成检索；运行manifest 2026-09-29-20260930T032503684314Z-42872状态complete，40条分类命中跨栏去重为20个唯一URL，逐条筛查日期、供需相关性、来源性质和重复。",
+      "Golden Cariboo/TheNewswire原始9月29日公告：核对NI 43-101资源表、资源生效日、cut-off及无PEA/冶金/储量/生产决定等限定。",
+      "Reuters Ghana/Cardinal原文：核对2026-09-29 13:25 UTC发布时间、预关闭通知、涉嫌管线事故及报道时尚无关停信息。",
+      "Copper Intelligence/CoTec Newsfile原始稿：核对2026-09-29 07:00 EDT（19:00 BJT）、确定性合资协议、逐项尽调要求及无具体资产/吨位。",
+      "Mining.com拉美风险报道：核对AMI估算中已记录损失与受阻资本的区别；约70亿美元秘鲁铜项目资本不是产量损失，估算未独立核验。",
+      "排除复核：Centinela换算后越过9/29 BJT窗口且与9/28日报同一事件；B2Gold Goose与9/28日报同一公司更新；Montage Koné首浇已在9/27日报收录；LAURION sponsored稿转载8月5日公告；Hayasa/Japan Gold公告为9月21/23日；多篇9/29下午稿换算后越窗；盛达上半年银产量数据与9月4日报重复。"
+    ],
+    "part3_result": "Part 3完成北京时间9月29日全天中英文新闻与Mining.com强制检索；纳入Golden Cariboo首份金资源、Cardinal Namdini预关闭通知、CoTec刚果（金）尾矿合资框架及AMI拉美铜项目资本风险估算。资源、资本与潜在停产分别标注为非当前产量或未兑现风险。",
+    "mining_com_source_note": "Mining.com三金属分类页完成抓取，20个唯一候选逐项按日期/时刻、供需主题、重复及Sponsored标记筛选；入选稿和重点排除项直接读取正文。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 9,
+      "passed": 9,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "核验3个Mining Forum演示页、X原帖及Blackrock一手公告、Golden Cariboo一手公告、Reuters、CoTec/Newsfile一手公告及Mining.com分析稿。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Centinela工会拒绝合同/罢工威胁：9月28日报已收录同一谈判事件；本次Mining.com稿亦换算后越过9月29日BJT窗口。",
+      "B2Gold Goose新矿化带与选厂恢复：9月28日报已用同一份公司运营及勘探更新，转载不重复。",
+      "Montage Gold/Koné首浇：9月27日报已收录同一事件；Mining.com页面对应北京时间9月28日。",
+      "LAURION A-Zone/Garvey钻孔：Sponsored稿正文原公告日期为2026-08-05，不以转载日期刷新。",
+      "盛达资源2026年上半年矿产银增长8.82%：此前9月4日报已使用同一上半年产量数据。"
+    ],
+    "notes": "严格以报告日及北京时间判定；X原帖可在9月29日窗口内报告其所引的9月28日协议，但Part 3未将协议发布日倒填为9月29日。推断资源、未签约机会、冻结资本和预关闭通知均未记作当前实际产量变化。"
+  }
+}
