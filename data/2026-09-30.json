@@ -1,0 +1,329 @@
+{
+  "schema_version": 3,
+  "date": "2026-09-30",
+  "report_time": "2026-10-01T07:37:49+08:00",
+  "summary": "金：Cabral首销逾2,400盎司、Monument FY2026产量增加，但Windfall许可延误限制未来增量；铜：智利矿业指数走弱，Cobre Panamá仅进入有条件谈判，节前国内库存小幅回升显示现货紧张边际缓和；银：未见可验证的新增供需信号。",
+  "windows": {
+    "part1": {
+      "start": "2026-09-28T00:00:00+08:00",
+      "end": "2026-09-30T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-09-30T00:00:00+08:00",
+      "end": "2026-09-30T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-09-30T00:00:00+08:00",
+      "end": "2026-09-30T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.newsfilecorp.com/release/316721",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Cabral称已完成巴西Cuiú Cuiú一期氧化矿项目首批金锭销售，售出逾2,400盎司，平均净实现价格超过4,200美元/盎司；公司仍预计2026年第四季度实现商业生产。",
+          "evidence": "公司公告明确称首批销售逾2,400盎司、平均净实现价逾US$4,200/oz，并预计2026年第四季度商业生产。",
+          "source_url": "https://www.newsfilecorp.com/release/316721",
+          "evidence_type": "公司一手运营公告；已实现销售与前瞻指引区分",
+          "period": "2026-09-30首销；商业生产目标为2026年第四季度",
+          "unit": "盎司黄金；美元/盎司；商业生产时间",
+          "value": ">2,400 oz; >US$4,200/oz; Q4 2026 target"
+        }
+      ],
+      "publish_time": "2026-09-30T18:29:00+08:00",
+      "source": "Cabral Gold Inc.（Newsfile）",
+      "title": "Cabral Gold完成Cuiú Cuiú一期矿山首批黄金销售",
+      "excerpt": "Cabral称已完成巴西Cuiú Cuiú一期氧化矿项目首批金锭销售，售出逾2,400盎司，平均净实现价格超过4,200美元/盎司；公司仍预计2026年第四季度实现商业生产。",
+      "language": "en",
+      "interpretation": "首批销售验证了采矿、堆浸、金锭运输与炼厂销售链条已实际运行，但尚不等于达到设计产能。公司称干式堆场及湿式回路已转为每日24小时、双班运行，后续重点是提升日处理量与回收率。",
+      "importance": "逾2,400盎司首销将Cuiú Cuiú从首浇金推进到实际收入阶段，并验证了矿山至炼厂的商业链条；公司仍把商业生产时间定在2026年第四季度，说明当前仍处爬坡期。短期供给贡献取决于后续处理量和回收率提升，首批销售规模不能外推为稳定年产量。",
+      "verification_status": "verified",
+      "companies": [
+        "Cabral Gold Inc."
+      ],
+      "projects": [
+        "Cuiú Cuiú"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/316688",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Kobrea公告称，管理委员会批准Western Malargüe项目2026/27勘探季400万美元预算，由BHP Metals Exploration按联盟协议出资，计划包括El Destino斑岩铜金钼靶区钻探及区域地化、地球物理工作。",
+          "evidence": "公司公告称批准预算为US$4m，由BHP Metals Exploration按联盟协议资助，并计划在El Destino进行金刚石钻探。",
+          "source_url": "https://www.newsfilecorp.com/release/316688",
+          "evidence_type": "公司一手勘探计划公告；预算获批，活动为计划",
+          "period": "2026/2027勘探季",
+          "unit": "美元；项目面积平方公里；勘探计划",
+          "value": "US$4m; 733 km²; planned drilling and surveys"
+        }
+      ],
+      "publish_time": "2026-09-30T20:00:00+08:00",
+      "source": "Kobrea Exploration Corp.（Newsfile）",
+      "title": "Kobrea获批由BHP资助的400万美元勘探计划",
+      "excerpt": "Kobrea公告称，管理委员会批准Western Malargüe项目2026/27勘探季400万美元预算，由BHP Metals Exploration按联盟协议出资，计划包括El Destino斑岩铜金钼靶区钻探及区域地化、地球物理工作。",
+      "language": "en",
+      "interpretation": "资金已获批，具体野外工作与钻探仍属计划。预算覆盖733平方公里项目组合，除El Destino钻探外还包括IP测量、地质填图、岩屑及溪流沉积物采样，目标是推进已知斑岩靶区并筛查新靶区。",
+      "importance": "400万美元由BHP承担，降低了Kobrea本轮勘探的自筹资金压力；但这是2026/27季的批准预算而非已完成钻探或新增资源。对铜供给的意义仍处早期勘探阶段，后续需看El Destino钻探结果及区域靶区能否形成连续矿化证据。",
+      "verification_status": "verified",
+      "companies": [
+        "Kobrea Exploration Corp.",
+        "BHP Metals Exploration"
+      ],
+      "projects": [
+        "Western Malargüe Copper Projects",
+        "El Destino"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/09/30/3371500/0/en/monument-reports-fourth-quarter-and-fiscal-2026-results.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Monument披露截至2026年6月30日财年黄金产量44,942盎司，高于上年38,530盎司；售金45,010盎司，现金成本升至1,243美元/盎司（上年814美元/盎司），AISC为1,446美元/盎司。",
+          "evidence": "FY2026产量44,942 oz（FY2025: 38,530 oz），现金成本US$1,243/oz（FY2025: US$814/oz），均见公司业绩公告。",
+          "source_url": "https://www.globenewswire.com/news-release/2026/09/30/3371500/0/en/monument-reports-fourth-quarter-and-fiscal-2026-results.html",
+          "evidence_type": "公司年度运营及财务业绩公告；历史实绩",
+          "period": "截至2026-06-30财年；同比基期截至2025-06-30",
+          "unit": "盎司黄金；美元/盎司",
+          "value": "44,942 vs 38,530 oz; US$1,243 vs US$814/oz"
+        }
+      ],
+      "publish_time": "2026-09-30T12:05:00+08:00",
+      "source": "Monument Mining（GlobeNewswire）",
+      "title": "Monument FY2026黄金产量同比增长约17%，单位成本上升",
+      "excerpt": "Monument披露截至2026年6月30日财年黄金产量44,942盎司，高于上年38,530盎司；售金45,010盎司，现金成本升至1,243美元/盎司（上年814美元/盎司），AISC为1,446美元/盎司。",
+      "language": "en",
+      "interpretation": "年产量增加约16.6%，但单位现金成本约上升53%，公司归因于采矿深度增加、特许权使用费率和金价相关费用上升，部分被回收率改善抵消。财年业绩是既成运营数据，不代表下一财年指引。",
+      "importance": "FY2026的44,942盎司产量较上年增加6,412盎司，显示Selinsing仍有实际产出增长；同时现金成本由814升至1,243美元/盎司，说明较深采矿和特许权费用削弱了成本缓冲。市场应将产量增长与成本扩张并看，下一步关注矿山寿命延伸勘探和Murchison潜在复产研究能否带来可持续增量。",
+      "verification_status": "verified",
+      "companies": [
+        "Monument Mining Limited"
+      ],
+      "projects": [
+        "Selinsing Gold Mine"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2026/09/30/%C3%ADndice-de-producci%C3%B3n-industrial-disminuy%C3%B3-5-7-interanualmente-en-agosto-de-2026",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "智利INE公布，2026年8月矿业生产指数同比下降11.7%；金属采矿分项下降16.9%，主要受铜开采与加工减少影响。",
+          "evidence": "INE公布IPMin同比-11.7%、金属采矿-16.9%，并称铜开采和加工下降是主要原因。",
+          "source_url": "https://www.ine.gob.cl/sala-de-prensa/prensa/general/noticia/2026/09/30/%C3%ADndice-de-producci%C3%B3n-industrial-disminuy%C3%B3-5-7-interanualmente-en-agosto-de-2026",
+          "evidence_type": "国家统计局月度指数公告",
+          "period": "2026年8月；公告日期2026-09-30",
+          "unit": "同比百分比；生产指数",
+          "value": "IPMin -11.7%; metallic mining -16.9%"
+        }
+      ],
+      "publish_time": "2026-09-30",
+      "source": "智利国家统计局（INE）",
+      "title": "智利8月矿业生产指数同比下降11.7%，铜开采加工走弱",
+      "excerpt": "智利INE公布，2026年8月矿业生产指数同比下降11.7%；金属采矿分项下降16.9%，主要受铜开采与加工减少影响。",
+      "language": "en",
+      "interpretation": "这是月度工业生产指数而非铜吨数，适合确认方向和同比幅度，不应直接换算成精炼铜或矿山产量缺口。统计局将矿业分项走弱归因于金属采矿活动减少，铜开采与加工是主要因素。",
+      "importance": "矿业生产指数同比下降11.7%、金属采矿下降16.9%，为智利铜供应端提供了官方活动走弱信号；但指数不能与实物吨数等同，且数据对应8月。后续要结合智利铜委员会或公司月度产量数据，确认天气扰动、矿石品位及加工变化分别贡献多少。",
+      "verification_status": "verified",
+      "companies": [
+        "Instituto Nacional de Estadísticas de Chile"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.first-quantum.com/news/first-quantum-provides-update-on-cobre-panama-3/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "First Quantum称，巴拿马部长级委员会报告首项建议是正式开启与公司谈判，评估一项允许项目重新运作以实现有序关闭、且不延长运营的协议；任何协议还涉及终结未决国际仲裁。",
+          "evidence": "First Quantum公告转述报告第1项建议为开启正式谈判，讨论允许项目运行并有序关闭、不可延期的框架；矿山自2023年11月处于保全状态。",
+          "source_url": "https://www.first-quantum.com/news/first-quantum-provides-update-on-cobre-panama-3/",
+          "evidence_type": "公司一手公告转述部长级委员会报告；谈判建议非复产决定",
+          "period": "2026-09-30委员会报告；矿山自2023-11保全",
+          "unit": "政策状态；停产年份",
+          "value": "formal negotiations recommended; no restart approval"
+        }
+      ],
+      "publish_time": "2026-09-30",
+      "source": "First Quantum Minerals Ltd.",
+      "title": "巴拿马委员会建议与First Quantum谈判制定Cobre Panamá有序关闭框架",
+      "excerpt": "First Quantum称，巴拿马部长级委员会报告首项建议是正式开启与公司谈判，评估一项允许项目重新运作以实现有序关闭、且不延长运营的协议；任何协议还涉及终结未决国际仲裁。",
+      "language": "en",
+      "interpretation": "这不是已批准复产决定。公司称矿山自2023年11月处于保全与安全管理阶段，下一步取决于巴拿马政府指引、协议谈判及法律安排。建议文本将潜在运行与最终有序关闭相连，存在重大政策和执行不确定性。",
+      "importance": "委员会报告把“恢复运行以实现有序关闭”纳入谈判建议，令Cobre Panamá重新进入政策讨论，但并未作出复产授权或时间表。该矿停产前约占全球铜产量1%，若形成可信法律框架，潜在供应影响不容忽视；在政府决定、仲裁终结和协议达成前，不应计入近期供应。",
+      "verification_status": "verified",
+      "companies": [
+        "First Quantum Minerals Ltd.",
+        "Government of Panama"
+      ],
+      "projects": [
+        "Cobre Panamá"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.metal.com/newscontent/104142593-rate-hike-expectations-fluctuate-amid-easing-tariff-trades-copper-prices-retreat-from-highs-smm-macro-weekly-review",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "SMM称，截至2026年9月30日，国内主要地区铜库存较上周增加900吨至73,700吨；节前备货基本结束，进口及国产货源到货补充流通，国内供需紧张程度较此前有所缓解。",
+          "evidence": "SMM周报直接披露截至9月30日主要国内地区库存73,700吨、周增900吨，并描述到货补充及节前采购基本结束。",
+          "source_url": "https://news.metal.com/newscontent/104142593-rate-hike-expectations-fluctuate-amid-easing-tariff-trades-copper-prices-retreat-from-highs-smm-macro-weekly-review",
+          "evidence_type": "SMM市场周报；库存估算口径由SMM说明",
+          "period": "截至2026-09-30；环比一周",
+          "unit": "吨铜；SMM国内主要地区库存",
+          "value": "73,700 t; +900 t WoW"
+        }
+      ],
+      "publish_time": "2026-09-30T16:36:00+08:00",
+      "source": "上海有色网（SMM）",
+      "title": "SMM：节前国内铜库存周增900吨至73,700吨，现货紧张边际缓和",
+      "excerpt": "SMM称，截至2026年9月30日，国内主要地区铜库存较上周增加900吨至73,700吨；节前备货基本结束，进口及国产货源到货补充流通，国内供需紧张程度较此前有所缓解。",
+      "language": "en",
+      "interpretation": "库存仍处低位，但周增量显示到货开始补充现货流通；高铜价、期货深度backwardation及下游采购受抑构成需求侧压力。该库存口径为SMM主要地区社会库存，不能与交易所库存或全球库存直接相加。",
+      "importance": "主要地区库存一周增加900吨至73,700吨，显示节前到货已开始改善现货可得性；SMM同时指出库存仍低，故这更像紧张程度边际缓解，而非库存宽松。节后冶炼和进口到货继续、下游停工增加是后续累库风险，需观察假期后的实际库存变化验证。",
+      "verification_status": "verified",
+      "companies": [
+        "上海有色网（SMM）"
+      ],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/gold-fields-halts-windfall-work-as-quebec-permit-lapses/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "claims": [
+        {
+          "claim": "Mining.com报道，Gold Fields因批量勘探作业许可证于8月底到期，已暂停魁北克Windfall地下开发；项目仍等待省级环境审批。公司未调整2029年首次生产目标，但停工压缩了后续进度缓冲。",
+          "evidence": "Mining.com报道许可证8月底到期、地下开发暂停，Windfall拟年产300,000 oz，首产目标仍为2029年。",
+          "source_url": "https://www.mining.com/gold-fields-halts-windfall-work-as-quebec-permit-lapses/",
+          "evidence_type": "Mining.com报道并引用Gold Fields CEO；直接页面已核对标题、日期及正文",
+          "period": "2026-09-30报道；许可证于2026年8月底到期；首产目标2029年",
+          "unit": "盎司/年；资本开支美元；审批与开发状态",
+          "value": "~300,000 oz/year; US$1.9bn proposed mine; underground work paused"
+        }
+      ],
+      "publish_time": "2026-09-30",
+      "source": "MINING.COM",
+      "title": "Gold Fields暂停Windfall地下开发，等待魁北克环境审批",
+      "excerpt": "Mining.com报道，Gold Fields因批量勘探作业许可证于8月底到期，已暂停魁北克Windfall地下开发；项目仍等待省级环境审批。公司未调整2029年首次生产目标，但停工压缩了后续进度缓冲。",
+      "language": "en",
+      "interpretation": "工程及招标准备仍在继续，环境社会影响审查委员会尚待向魁北克政府提出建议；公司此前预计审批可在年底前取得。许可到期导致的地下开发暂停与项目最终投产日期仍需区分。",
+      "importance": "Windfall拟建矿年产约30万盎司、资本开支约19亿美元，地下开发许可到期已造成实际工作暂停；虽然Gold Fields未改2029年首产目标，但等待审批会消耗进度余量。若审批或后续建设继续延迟，新增金供给将后移，关键验证点是年底前是否取得环境批准及地下工程何时恢复。",
+      "verification_status": "verified",
+      "companies": [
+        "Gold Fields"
+      ],
+      "projects": [
+        "Windfall"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Company Interviews/iHeart、Crux Investor、Kitco Mining及Soar Financial节目/视频列表；核查2026-09-28至09-30发布日期、原始页面与访谈/演示内容。",
+      "Denver Gold Forum / Mining Forum Americas官方议程及公司演示/回放页面；核对原始日期并对照2026-09-28、2026-09-29已发布日报去重。",
+      "公司演示及回放候选按窗口、此前日报URL与同一会议内容去重；未找到可单独入选且新增供需信息的Part 1项目。"
+    ],
+    "part1_result": "完成72小时访谈/演示搜索及前两日报去重；无符合条件的新增、非重复信号。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "scripts/x_search.py Playwright采集；x_outputs/2026-09-30_x_raw_materials.json及.txt逐帖审核原作者、UTC时间、原始URL与文本。",
+      "完整性核验：53/53账号完成、0失败；14条候选均按北京时间窗口、事实性、独立来源及前两日报重复项审核。"
+    ],
+    "part2_result": "Playwright完成53/53账号（0失败）；14条原帖均审阅，合格新增供需信号0条。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 53,
+      "accounts_completed": 53,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "采集于2026-10-01 07:01–07:27 +08；覆盖目标报告日2026-09-30。14条候选全部审核，0条符合收录标准。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：按工作流规定Playwright直接读取，列表采集成功（16条）；逐篇核对入选候选。",
+      "Mining.com gold/silver：工作流要求站内搜索与栏目检查；Google site:查询未获可用结果，WebFetch栏目页请求失败（403）；记录为搜索缺口，其他官方来源继续覆盖贵金属。",
+      "Cabral Gold/Newsfile原始公告：WebFetch成功；核对2026-09-30 6:29 AM EDT、首销>2,400 oz、净价>US$4,200/oz及Q4 2026商业生产目标。",
+      "Kobrea/Newsfile原始公告：WebFetch成功；核对2026-09-30 8:00 AM EDT、BHP资助US$4m 2026/27计划。",
+      "Monument/GlobeNewswire FY2026业绩公告：WebFetch成功；核对FY截止日、产量及单位成本同比数据。",
+      "智利INE官方新闻稿：WebFetch成功；核对发布日期、IPMin -11.7%、金属采矿 -16.9%及铜开采加工原因。",
+      "First Quantum公司公告及SMM周报：WebFetch成功；分别核实巴拿马委员会建议性质、截至9月30日库存73,700吨/周增900吨。",
+      "Mining.com Gold Fields/Windfall文章：Playwright列表发现，WebFetch正文成功；核对9月30日报道、许可证8月底到期、地下开发暂停及2029首产目标。"
+    ],
+    "part3_result": "Part 3完成；收录7条可核验的官方披露/统计及可靠媒体信号。金银栏目搜索存在403/站内搜索覆盖缺口，未将其表述为已覆盖；贵金属由公司公告和INE官方资料补充。",
+    "mining_com_source_note": "Mining.com铜栏目通过规定的Playwright直接抓取；共列16条候选并审核。选中的Windfall正文通过WebFetch成功读取。Gold/Silver栏目按工作流尝试WebFetch/站内搜索时遇403/无可用结果，作为明确覆盖缺口记录。",
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "逐一直接读取7个入选URL并核对标题、发布日期及摘要核心事实；时间戳可用时换算北京时间，未披露可靠时刻者只用日期。"
+      ]
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "2026-09-28至09-30会议/采访候选与data/2026-09-29.json、data/2026-09-28.json中已收录的Denver Gold Forum相关演示/回放重复，未重复加入。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/soarfinancial/status/2105311716082909251：Troilus US$850m融资公告已见前日报；该帖为相关访谈导流，无新增事实。",
+      "https://x.com/duediligenceguy/status/2105314777622777970：Cobre Panamá同一委员会事件，观点性评论；以First Quantum原始公告替代。"
+    ],
+    "part3_deduped_events": [
+      "智利铜产量走弱：以INE官方IPMin统计为准，排除Mining.com对同类数据的转述。",
+      "巴拿马委员会Cobre Panamá建议：以First Quantum原始公司公告为准，排除Mining.com转述。",
+      "Mining.com copper price月末报道库存信息与SMM当日库存周报部分重叠；只保留SMM明确库存口径并排除价格新闻。"
+    ],
+    "notes": "Part 1/2/3均使用REPORT_DATE=2026-09-30。搜索完成不等于每部分均有入选项；Part 2完整覆盖但0条合格。勘探阶段预算/钻探与运营供给、统计指数与实物吨数、政策谈判与复产决定均分别标明，不将计划或建议写成已实现产量。"
+  }
+}

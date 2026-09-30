@@ -1,0 +1,173 @@
+X 原始候选 — 2026-09-30
+采集时间: 2026-10-01T07:27:50.206993+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 14 条
+
+============================================================
+
+[1] @silverguru22 (David Morgan)
+    UTC: 2026-09-30T15:52:24+00:00
+    北京: 2026-09-30T23:52:24+08:00
+    文本: 1 in ~ 4000 ever becomes a mine (economic ore body).
+    链接: https://x.com/silverguru22/status/2105324892472414387
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-30T14:39:56+00:00
+    北京: 2026-09-30T22:39:56+08:00
+    文本: Silver volatility is back—and this time it’s to the downside.
+
+Am I worried? No.
+
+In fact, I view weakness like this as an opportunity to initiate or add to positions in silver and quality miners.
+
+In my latest Silver Stock Investor, I explain what’s driving the volatility, what
+    链接: https://x.com/peter_krauth/status/2105306656863400168
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-29T18:35:00+00:00
+    北京: 2026-09-30T02:35:00+08:00
+    文本: BP Silver’s 
+@BPSilverCorp
+ latest hit deserves a closer look.
+
+1,328.8 g/t AgEq over 3m, within 74m of mineralization at Cosuño.
+
+Could that feeder lead to richer silver mineralization at depth? That’s the next test.
+
+I remain overweight. 
+@TedJButler
+ explains:
+    链接: https://x.com/peter_krauth/status/2105003427646570945
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-09-29T18:30:00+00:00
+    北京: 2026-09-30T02:30:00+08:00
+    文本: For silver producers, execution matters.
+
+
+@SierraMadreSM
+'s  La Guitarra is reaching up to 720 tonnes/day, with a new ball mill scheduled for November commissioning.
+
+The next expansion could arrive 8+ months early.
+
+I maintain a full position.  
+@TedJButler
+ give the full analysis
+    链接: https://x.com/peter_krauth/status/2105002169586085992
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-30T15:46:41+00:00
+    北京: 2026-09-30T23:46:41+08:00
+    文本: I thought about that on the copper...
+
+But no. Can you recall me even mentioning a ticker in public since I became The Independent Speculator?
+    链接: https://x.com/duediligenceguy/status/2105323456191668444
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-30T15:32:47+00:00
+    北京: 2026-09-30T23:32:47+08:00
+    文本: If it’s mostly copper, a precise scale should have, no?
+    链接: https://x.com/duediligenceguy/status/2105319955541410191
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-30T15:12:12+00:00
+    北京: 2026-09-30T23:12:12+08:00
+    文本: "Ministers advise Mulino to wind down the copper operation while shielding Panama from the financial burden of closure."
+
+Sure, shield a country from permanent loss of its biggest taxpayer.
+
+Easy-peasy.
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2105314777622777970
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-30T14:23:59+00:00
+    北京: 2026-09-30T22:23:59+08:00
+    文本: Visual representation of mining stocks promoters…
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2105302643698753644
+
+[9] @KaiserResearch (John Kaiser)
+    UTC: 2026-09-30T02:21:16+00:00
+    北京: 2026-09-30T10:21:16+08:00
+    文本: Is the Artemis deal a capitulation event or does it put Vista Gold into play?
+
+
+https://
+kaiserresearch.substack.com/p/is-the-artem
+is-deal-a-capitulation
+…
+
+No question the Vista Gold acquisition terms are a sweet deal for Artemis Gold, but ultimately the shareholders will decide whether or not Artemis succeeds. 
+
+@Vista_GoldCorp
+    链接: https://x.com/KaiserResearch/status/2105120766815834265
+
+[10] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-30T15:00:02+00:00
+    北京: 2026-09-30T23:00:02+08:00
+    文本: US$850M in credit approvals for Troilus Mining.
+
+CEO Justin Reid joins us to break down the milestone, the broader US$1.1B debt package, remaining financing requirements and what's next as Troilus advances toward construction.
+
+Watch 
+
+https://
+youtu.be/tMs65-ldlb4
+
+
+@TroilusMining
+ |
+    链接: https://x.com/soarfinancial/status/2105311716082909251
+
+[11] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-29T18:46:24+00:00
+    北京: 2026-09-30T02:46:24+08:00
+    文本: Gold Terra has reported visible gold in early sonic drilling of the historic Con Mine tailings in Yellowknife.
+
+The discovery came in hole CMUP-005 at 25–26m depth, just 17 holes into a planned ~7,000m program.
+ 429m completed to date
+ ~7,000m program planned
+ 40x40m drill
+    链接: https://x.com/soarfinancial/status/2105006296093397288
+
+[12] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-09-29T17:14:52+00:00
+    北京: 2026-09-30T01:14:52+08:00
+    文本: Could Regency Silver be making the move from explorer to producer?
+
+CEO Bruce Bragagnolo joins us to discuss the acquisition of the past-producing Jabali Gold Project, plans for a potential restart and the exploration upside at Dios Padre.
+
+Watch 
+
+https://
+youtu.be/ZanwNlvO5vs
+    链接: https://x.com/soarfinancial/status/2104983258450854265
+
+[13] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-09-30T00:01:41+00:00
+    北京: 2026-09-30T08:01:41+08:00
+    文本: Building the future starts with securing the metals that make it possible.
+
+From Kamoa-Kakula and Kipushi to Platreef, Ivanhoe Mines is advancing world-class operations and development projects that supply the critical metals needed for electrification, infrastructure and
+    链接: https://x.com/IvanhoeMines_/status/2105085638555164825
+
+[14] @KinrossGold (Kinross Gold)
+    UTC: 2026-09-30T15:44:06+00:00
+    北京: 2026-09-30T23:44:06+08:00
+    文本: Today, we recognize #NationalDayforTruthandReconciliation, a time to reflect on the impacts of Canada's residential school system, honour the Survivors and their families, and Indigenous history, culture and communities. 
+Captured below, employees at our Toronto office this
+    链接: https://x.com/kinrossgold/status/2105322806737039577
+
