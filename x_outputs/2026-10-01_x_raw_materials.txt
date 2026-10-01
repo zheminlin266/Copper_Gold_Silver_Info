@@ -1,0 +1,114 @@
+X 原始候选 — 2026-10-01
+采集时间: 2026-10-02T07:27:48.914016+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 53/53 完成，失败 0
+各通道完成账户数: {"playwright": 53}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 11 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-30T19:21:17+00:00
+    北京: 2026-10-01T03:21:17+08:00
+    文本: Canada isn't running OUT of resources
+
+It's running out of demand for its CURRENCY
+
+The loonie is one bad week from the 1986, 1998 and the 2002 record lows
+    链接: https://x.com/KatusaResearch/status/2105377461961965981
+
+[2] @KatusaResearch (Marin Katusa)
+    UTC: 2026-09-30T18:53:42+00:00
+    北京: 2026-10-01T02:53:42+08:00
+    文本: The stage has been set for a couple of years...
+
+
+https://
+katusaresearch.com/the-worlds-new
+est-gold-buyer-made-13-billion-last-year/
+…
+    链接: https://x.com/KatusaResearch/status/2105370519721873740
+
+[3] @Brien_Lundin (Brien Lundin)
+    UTC: 2026-10-01T15:20:36+00:00
+    北京: 2026-10-01T23:20:36+08:00
+    文本: Remarkable short-term prediction of $10 copper coming from Deutsche Bank:
+    链接: https://x.com/Brien_Lundin/status/2105679277454934246
+
+[4] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-09-30T21:18:36+00:00
+    北京: 2026-10-01T05:18:36+08:00
+    文本: Bond Crisis Explodes In Bessent's Face, & Hammers Gold & Silver Lower...
+    链接: https://x.com/ArcadiaEconomic/status/2105406986561151176
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-01T14:10:00+00:00
+    北京: 2026-10-01T22:10:00+08:00
+    文本: I'd discount a peak day, but I've heard that it's reaching pre-war levels, sans Iranian production.
+
+The trend is upward, which is good news indeed.
+
+But don't forget that the workarounds are higher-cost, and the months of inventory depletion must be reversed...
+    链接: https://x.com/duediligenceguy/status/2105661513939948028
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-01T02:20:53+00:00
+    北京: 2026-10-01T10:20:53+08:00
+    文本: 1] Experience & knowledge (you can tell when someone is gilding the lily).
+
+2] The "On the internet, if it's free, you are the product!" notion applies to free mining stock tips (or any free stock tips broadcast to the world).
+    链接: https://x.com/duediligenceguy/status/2105483056698003693
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-30T22:33:47+00:00
+    北京: 2026-10-01T06:33:47+08:00
+    文本: I haven't been bearish on silver (or gold—I agree they track) this millennium.
+
+I've just been more cautious than über-bulls wanted to hear at times... like earlier this year... and after the surge in 2020... and 2011—but not cautious enough, then!
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2105425907033006215
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-09-30T18:11:23+00:00
+    北京: 2026-10-01T02:11:23+08:00
+    文本: Not true.
+
+I was long, and long-term bullish.
+
+But I would certainly have been warning people about getting too excited when silver was rising sharply.
+
+And since silver struggled for much of 2022, I think that was reasonable.
+    链接: https://x.com/duediligenceguy/status/2105359871411634191
+
+[9] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-09-30T17:24:59+00:00
+    北京: 2026-10-01T01:24:59+08:00
+    文本: Just reading your remark now after I posted mine  .. we had exactly the same first reaction
+    链接: https://x.com/wmiddelkoop/status/2105348191894085679
+
+[10] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-10-01T01:28:40+00:00
+    北京: 2026-10-01T09:28:40+08:00
+    文本: I spent a lot of time over the past two weeks trying to make this point to gold investors. Mixed results.  I get it, geology controls the gold ledger, but what if an algorithm created an even sounder ledger with zero storage cost, instant verification and 10 minute transmission
+    链接: https://x.com/LawrenceLepard/status/2105469918174982561
+
+[11] @NewmontCorp (Newmont)
+    UTC: 2026-09-30T19:30:54+00:00
+    北京: 2026-10-01T03:30:54+08:00
+    文本: Yesterday, our President and CEO Natascha Viljoen and newly appointed CTO Dave Thornton joined 
+@DenGoldGroup
+’s Mining Forum Americas for a conversation on Newmont’s strategy, operational performance, and opportunities across our portfolio.
+
+Together, they highlighted key
+    链接: https://x.com/NewmontCorp/status/2105379880850296918
+

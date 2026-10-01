@@ -1,0 +1,157 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-01",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 53,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 53
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-8a5f5e3ce1fd3f7b5b551032",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-30T19:21:17+00:00",
+      "text": "Canada isn't running OUT of resources\n\nIt's running out of demand for its CURRENCY\n\nThe loonie is one bad week from the 1986, 1998 and the 2002 record lows",
+      "url": "https://x.com/KatusaResearch/status/2105377461961965981",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-81a6bb2974e1f3ab8008d5e1",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-09-30T18:53:42+00:00",
+      "text": "The stage has been set for a couple of years...\n\n\nhttps://\nkatusaresearch.com/the-worlds-new\nest-gold-buyer-made-13-billion-last-year/\n…",
+      "url": "https://x.com/KatusaResearch/status/2105370519721873740",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c2d1a80c81f1d66f323b0fe1",
+      "source_id": "x-brien_lundin",
+      "author": "Brien Lundin",
+      "handle": "Brien_Lundin",
+      "publish_time": "2026-10-01T15:20:36+00:00",
+      "text": "Remarkable short-term prediction of $10 copper coming from Deutsche Bank:",
+      "url": "https://x.com/Brien_Lundin/status/2105679277454934246",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dbb72e1de4ce71af12a0247e",
+      "source_id": "x-arcadiaeconomic",
+      "author": "Chris Marcus",
+      "handle": "ArcadiaEconomic",
+      "publish_time": "2026-09-30T21:18:36+00:00",
+      "text": "Bond Crisis Explodes In Bessent's Face, & Hammers Gold & Silver Lower...",
+      "url": "https://x.com/ArcadiaEconomic/status/2105406986561151176",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-21b07030f5b63cb1bbd26306",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-01T14:10:00+00:00",
+      "text": "I'd discount a peak day, but I've heard that it's reaching pre-war levels, sans Iranian production.\n\nThe trend is upward, which is good news indeed.\n\nBut don't forget that the workarounds are higher-cost, and the months of inventory depletion must be reversed...",
+      "url": "https://x.com/duediligenceguy/status/2105661513939948028",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b5126e844e5fd09fec487a41",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-01T02:20:53+00:00",
+      "text": "1] Experience & knowledge (you can tell when someone is gilding the lily).\n\n2] The \"On the internet, if it's free, you are the product!\" notion applies to free mining stock tips (or any free stock tips broadcast to the world).",
+      "url": "https://x.com/duediligenceguy/status/2105483056698003693",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-127b867ad3f8ae0050957a5b",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-30T22:33:47+00:00",
+      "text": "I haven't been bearish on silver (or gold—I agree they track) this millennium.\n\nI've just been more cautious than über-bulls wanted to hear at times... like earlier this year... and after the surge in 2020... and 2011—but not cautious enough, then!\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2105425907033006215",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6be2c3f93b1175cdd2d644fd",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-09-30T18:11:23+00:00",
+      "text": "Not true.\n\nI was long, and long-term bullish.\n\nBut I would certainly have been warning people about getting too excited when silver was rising sharply.\n\nAnd since silver struggled for much of 2022, I think that was reasonable.",
+      "url": "https://x.com/duediligenceguy/status/2105359871411634191",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6579c7c3ba958a1f538b190f",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-09-30T17:24:59+00:00",
+      "text": "Just reading your remark now after I posted mine  .. we had exactly the same first reaction",
+      "url": "https://x.com/wmiddelkoop/status/2105348191894085679",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9da15454567b8f9630e6ff4f",
+      "source_id": "x-lawrencelepard",
+      "author": "Lawrence Lepard",
+      "handle": "LawrenceLepard",
+      "publish_time": "2026-10-01T01:28:40+00:00",
+      "text": "I spent a lot of time over the past two weeks trying to make this point to gold investors. Mixed results.  I get it, geology controls the gold ledger, but what if an algorithm created an even sounder ledger with zero storage cost, instant verification and 10 minute transmission",
+      "url": "https://x.com/LawrenceLepard/status/2105469918174982561",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b1c651cbaa6db03574a3af6b",
+      "source_id": "x-newmontcorp",
+      "author": "Newmont",
+      "handle": "NewmontCorp",
+      "publish_time": "2026-09-30T19:30:54+00:00",
+      "text": "Yesterday, our President and CEO Natascha Viljoen and newly appointed CTO Dave Thornton joined \n@DenGoldGroup\n’s Mining Forum Americas for a conversation on Newmont’s strategy, operational performance, and opportunities across our portfolio.\n\nTogether, they highlighted key",
+      "url": "https://x.com/NewmontCorp/status/2105379880850296918",
+      "collector": "x_search",
+      "report_date": "2026-10-01",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 53
+    },
+    "channel_errors": []
+  }
+}
