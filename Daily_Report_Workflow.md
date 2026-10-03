@@ -26,8 +26,8 @@
 ## 3. 开始前检查
 
 1. 读取本文件、`data/daily_report_schema.json`、最近三份 `data/*.json`、`mining_people_broadcast_x_articles.csv`、`data/sources_discovered.json` 和 `data/conference_calendar.json`。
-2. 检查 `git status`，保留用户已有修改；不要覆盖或删除不属于本次日报的文件。用户已确认：`.pi/schedule-prompts.json`、`x_outputs/2026-09-28_x_raw_materials_rerun_20260929.json`、同名 `.txt` 以及已完成日报的按日期 X 原始材料是需要保留的无关工作，不得仅因这些文件未提交而停止。本次用户授权维护的 `Daily_Report_Workflow.md`、`Daily_Task_Prompt.md`、`scripts/run_scheduled_daily.py` 和 `tests/test_scheduled_daily.py` 的待提交改动也有明确来源，不是日报阻塞；不得由每日任务编辑或提交这些文件。将以上文件排除于本次编辑和提交范围。其他修改先只读检查；能确定与本次目标无关的改动同样保留并排除，只有与目标日报、TC、执行脚本发生冲突、存在并发写入或无法安全隔离时才停止。
-3. 确认 `data/REPORT_DATE.json` 不存在。若已存在，停止并先判断是重跑、纠错还是日期计算错误。
+2. 检查 `git status`，保留用户已有修改，不覆盖、回滚、删除或提交无关文件。`.pi/schedule-prompts.json`、已完成日报的历史 X 原始材料，以及用户另行授权维护的代码、Prompt/工作流文档均须与日常任务隔离；这些文件未提交本身不构成阻塞。其他修改先只读检查，只有与目标日报、TC 或执行代码冲突、存在并发写入或无法安全隔离时才停止。日常任务不自行编辑或提交上述维护文件；明确授权的手动维护走第 11.1 节。
+3. 检查 `data/REPORT_DATE.json` 是否存在。已存在时先核对冻结日期，停止采集与写入，仅恢复已有成品的校验和发布；已发布且核验通过则幂等成功。历史内容纠错须有用户明确授权并遵守第 9 节，不因重跑或文档维护自动改写日报。
 4. 记录三个时间窗口，后续每条候选都据此筛选。
 5. 若 `RUN_DATE` 是北京时间周六，同时读取 `data/smm_copper_concentrate_index_2026.csv`，按第 9A 节判断是否需要追加前一日（周五）的 TC；其他星期不得修改该 CSV。
 
@@ -211,6 +211,8 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 新写入的已核验卡必须将 `claims.evidence` 逐字绑定到同一 `source_url` 的已保存文本，仅允许空白差异，不接受同义改写、异源引句或搜索摘要。候选原 URL 使用非空 `text`/`raw_text`；两者同时存在时内容必须一致。若引用另一份一手文件，在候选 `evidence_documents` 中提供本地结构化 capture 的相对路径及 SHA-256，格式见 `scripts/README.md`。该检查只证明引句存在及 URL 对应，不证明网页真实、访问权限或研究结论成立，仍须执行第 7 节的实际核验。X/新闻正文必须显式写 `excerpt`，不得将 `interpretation` 复制为事实。
 
+**用户明确授权的历史内容纠错**：只改授权字段，使用既有材料，不自动重采集或重新访问附带音视频。仅翻译或去重展示时，保留原 `report_time`、日期/窗口、URL、原始 `claims`、覆盖审计及未授权改动的研究判断；在 `report_note` 记录纠错日期、原因和范围，不把修订时间冒充最初生成时间。原始材料保持字节不变。纠错后重新运行校验并按第 11.1、14 节发布和验证，旧 success 不能证明修订内容已上线。
+
 原始材料应保留且不得覆盖：X 候选继续写入按日期命名的 `x_outputs/REPORT_DATE_x_raw_materials.txt`；其他确有复核价值的原始材料使用带日期的新文件。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
 
 ## 9A. 每周六 TC 更新（公开来源或用户已授权登录会话）
@@ -289,11 +291,18 @@ npm run build
 - `/daily/REPORT_DATE` 的标题、分组、来源链接和空状态；“黄金 / 白银 / 铜 / 来源审计”内导航属于正文普通流，向下滚动后必须随正文离开视口，不得固定或悬浮在内容上方。
 - `/archive` 能找到新日期，并能按中文关键词和金属搜索。
 - `/historical-tc` 可正常打开，摘要、折线图、鼠标提示和完整数据表读取同一份 CSV；横轴按实际评估日期间隔绘制，纵轴单位为 `USD/dmt`。周六追加 TC 时，页面必须显示新的实际评估日期、指数值和周变化。
-- 新日报每条已填写的 `importance` 都通过 2–4 句、80–300 字、具体锚点和非泛化结论检查；精简卡允许省略，历史日报按历史兼容规则保留，不因本次规则回填。
-- 页头 `TC` 是双入口悬浮菜单。鼠标移到 `TC` 后菜单应平滑向下出现，菜单顶边与页头分隔线贴合；鼠标从 `TC` 向左下方移动到菜单时不得提前消失。菜单必须包含外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`，两个链接均可打开。
-- 800px 以下视口没有横向滚动，键盘焦点可见。
+- 正文按第 6.0 节显示无“事实/解释”标签的中文摘要；没有补充信息的访谈只显示一段，有新增解释时保留第二段。不能用固定段数要求所有卡片，也不能只靠字面去重判断语义不重复。
+- 新日报每条已填写的 `importance` 都通过 2–4 句、80–300 字、具体锚点和非泛化结论检查；精简卡允许省略，历史日报按历史兼容规则保留，不因本次规则回填。未核验卡只显示标题、来源、必要分类和原因，不显示正文或重要性判断；涉及卡片渲染变更时同时抽查一张历史未核验卡。
+- 页头 `TC` 是双入口悬浮菜单。鼠标移到 `TC` 后菜单平滑向下出现，顶边与页头分隔线贴合；从触发按钮斜向移入菜单左侧、中央、右侧，停留超过 280 毫秒关闭延时仍保持打开，主动移到“库存”时能正常切换。两个菜单入口的 href 正确，站内 `Historical TC` 可打开；外部 SMM 只核对 href，不为导航测试访问或登录外站。
+- 在 1440、800、390px 视口检查布局和菜单，无横向溢出；键盘焦点可见，Tab 可进入菜单链接，Escape 可关闭菜单。
 
-若本次变更只包含日报 JSON 或 TC CSV，可对上述固定页面行为做快速冒烟检查；若本次变更包含 `app/`、`components/` 或样式文件，必须使用真实浏览器逐项操作，并确认没有 Next.js 错误覆盖层、浏览器控制台错误或失败的站内请求。
+若本次变更只包含日报 JSON 或 TC CSV，可对上述固定页面行为做快速冒烟检查；若包含影响页面行为的 `app/`、`components/`、`lib/` 或样式变更，必须使用真实浏览器逐项操作，并确认没有 Next.js 错误覆盖层、浏览器控制台错误或失败的站内请求。本地导航回归可在已构建并启动的 loopback 服务上执行（端口按实际服务填写）：
+
+```bash
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000 --executable-path "C:/Program Files/Google/Chrome/Application/chrome.exe"
+```
+
+该脚本只接受本地地址，不代表 Preview 或正式站已验证。使用隔离浏览器、不读取私人标签或现有 profile；证据放在 git 忽略的 `.runtime/` 中。若本地 Vercel analytics 脚本确实返回 404，可单独记录这一个环境例外，不忽略其他错误，也不把例外沿用到生产站。
 
 任一检查失败，修复后从第一条命令重新运行。校验失败时不得提交或推送。
 
@@ -315,24 +324,33 @@ npm run build
 
 ## 11. 提交与发布
 
-用户已授权本定时任务在满足完成定义后自动提交并推送到 `main`，无需逐次确认。授权范围仅限本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料和明确纠错；不覆盖其他文件、删除操作或失败状态下的发布。
+用户已授权本定时任务在研究、来源处理及第 10 节本地检查通过后自动提交并推送到 `main`，无需逐次确认；推送后仍须完成本节及第 14 节生产验证，才能宣告任务完成。授权范围仅限本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料和明确纠错；不覆盖其他文件、删除操作或失败状态下的发布。
 
 确认变更范围只包含本次日报、周六按第 9A 节更新的 TC CSV 及必要的纠错后：
 
-1. 未更新 TC 时提交信息使用 `Add YYYY-MM-DD daily report`；同一提交包含周六 TC 更新时使用 `Add YYYY-MM-DD daily report and update TC`。
-2. 推送到 `main`。
+1. 再查 `git status` 和 diff，用精确路径暂存授权文件，检查 staged diff；禁止 `git add .`。未更新 TC 时提交信息使用 `Add YYYY-MM-DD daily report`；同一提交包含周六 TC 更新时使用 `Add YYYY-MM-DD daily report and update TC`。
+2. 推送到 `main`，记录实际远程提交 SHA；不强推、不夹带其他工作。
 3. GitHub Actions 运行校验、测试和构建；它不收集或生成内容。
 4. Vercel 监听 `main` 并自动部署。
 5. 部署完成后检查 `https://metals.zhemin.ltd/`、`https://metals.zhemin.ltd/daily/REPORT_DATE`、`https://metals.zhemin.ltd/archive` 和 `https://metals.zhemin.ltd/historical-tc`。
-6. 检查站点导航中的库存和 TC 悬浮菜单。TC 菜单必须同时显示外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`；外部页面需要用户自行登录，只确认链接及登录提示正常，不代替用户登录。
+6. 检查站点导航中的库存和 TC 悬浮菜单。TC 菜单必须同时显示外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`；导航测试只核对外链 href，不为检查登录提示访问外站，不代替用户登录。TC 取值仍按第 9A 节执行。
 
    MacroMicro 铜库存外链 `https://sc.macromicro.me/charts/40914/tong-ku-cun-jia-ge` 按用户要求不再执行外站访问验证：不得为每日或每周任务对该目标发起 HTTP 请求、打开 Chrome/headless Chrome 或执行安全验证检查；只确认站内菜单和 href 保持正确，最终状态写“按用户要求跳过外站验证”，不得写成访问通过。其他已有外部库存/SMM 链接，检查站内菜单及 href 正确即可；外站的登录墙、Cloudflare 验证、403/429 或临时不可用需保留 URL、检查结果和限制说明，但不单独阻止纯日报/TC 数据发布，也不代表外站内容已核验。不得绕过验证、反复重试挑战、修改既有导航目标或把限制当成站内故障。站内页面、目标日期、来源卡核验规则及构建检查仍须通过；外站访问限制不放宽 Part 1/3 完整采集要求。
 7. 周六写入 TC 后，确认生产 `Historical TC` 页面的最新日期和值与 CSV 一致。
-8. 若提交包含页面或样式代码，必须在生产站用真实浏览器复核：TC 菜单动画及左下安全移动区有效、菜单顶边与页头分隔线贴合、Historical TC Tooltip 能跟随鼠标显示准确数据、日报内导航随正文滚走。只验证 HTTP 200 或页面 HTML 不足以替代这一步。
+8. 若提交包含页面行为或样式变更，必须在生产站按第 10 节用真实浏览器复核正文、桌面/手机布局、归档搜索、TC 菜单各方向移入及兄弟菜单切换、键盘操作、Tooltip 和日报内导航。检查控制台和失败请求；只验证 HTTP 200 或页面 HTML 不足以替代这一步。
+9. 前台执行第 14 节 `--verify-only`，核对实际远程 main 的日报/TC、该 SHA 的 push CI 和四个生产路由；不能把 PR CI 或本地构建成功当成正式发布成功。
 
-07:00 是任务开始时间。只有生产页可访问、日期正确且来源链接正常，才算发布完成。
+07:00 是任务开始时间；“已提交”“已推送”“已部署”“生产验证通过”分别报告，不提前宣告完成。
 
-日常任务不得自行改写或提交工作流文档。用户明确授权的手动维护可在专用分支纳入日报及已验证的方法文档，精确暂存授权路径并完成本地校验，经 PR 的 CI/Preview 检查后合并，再核验 main 对应生产页面，最后清理本次分支并回到 main；不夹带无关文件。
+### 11.1 明确授权的手动维护与 PR
+
+日常任务不得自行改写或提交 Prompt/工作流文档。用户明确授权的手动维护、历史纠错、页面或代码更新采用以下流程；纯文档维护不触发日报研究或 TC 更新：
+
+1. 获取 `origin/main`，核对基线和无关工作区改动。在专用分支修改授权路径，完成相关本地校验，检查精确暂存的文件集合和 diff；发现并发目标变更时停止，不强推或丢弃他人改动。
+2. 提交、推送并创建 PR，写明范围、验证及仍未实现的边界。等待 PR 对应 head SHA 的 Windows/Ubuntu CI 通过，确认该提交的 Vercel Preview 为 Ready；页面行为变更在 Preview 按第 10 节测试，纯文档变更可只做部署冒烟检查。
+3. 受保护 Preview 仅使用已有授权的 Vercel CLI 或浏览器访问，不降低项目保护、不复制私人 cookies。若 CLI 使用临时访问头，只向确切 Preview origin 发送，临时凭据/trace 不打印、不提交并及时删除。隔离浏览器主动阻止注入的外部 Vercel feedback toolbar 时可单独记录这一 Preview 环境例外，不忽略应用错误，不沿用到生产。
+4. 仅在用户已授权 merge 且检查通过时合并校验过的 head SHA。获取合并后的实际 main SHA，等待它的 push CI 和生产部署；按第 14 节验证现有报告和 TC，涉及页面行为时额外执行生产浏览器检查。文档合并不等于新调度、授权或告警服务已启用。
+5. 生产验证完成后记录 PR、merge SHA、CI 和正式审核链接，清理本次分支并回到与远程同步的 `main`；保留无关改动、原始材料和本地证据。
 
 ## 12. 失败与恢复
 
@@ -355,7 +373,15 @@ X 每完成或失败一个账号就保存 `.runtime/x/REPORT_DATE/checkpoint.jso
 
 ## 14. 完成定义
 
-当前正式入口是已有 Pi 定时任务，已启用 `extensions: true`；浏览器访问仍受第 7.1 节 live Pi 进程授权、profile 可用性及网站会话条件约束。推送后执行 `scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。独立 Windows 计划任务尚未注册；另行授权并配置后才会定时执行，不能与当前 Pi 入口同时启用。OpenCode 正常退出不等于日报成功：入口还检查目标 JSON、内容校验、类型检查、Python/Node 测试、构建、远程 main 报告和 TC 内容、该 SHA 的 push 校验工作流以及四个生产页面。CI 排队、暂时网络失败和页面仍旧时有期限地等待；CI 明确失败或权限错误立即失败。页面内容验证不等于 Vercel 部署 SHA 证明，也不替代涉及页面改动时的真实浏览器测试。
+当前正式入口是已有 Pi 定时任务，已启用 `extensions: true`；浏览器访问仍受第 7.1 节 live Pi 进程授权、profile 可用性及网站会话条件约束。推送或 PR 合并后，使用固定 Python **前台执行并等待退出**：
+
+```bash
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD
+```
+
+`YYYY-MM-DD` 为本次已存在的目标报告日期；纯文档维护选择并记录现有最新报告日期，不生成新日报。外层工具总超时至少 `10800` 秒，覆盖命令校验与发布等待；这不改变 X 的单独 3600 秒预算。入口不会替用户推送、重采集或写报告。只有退出码为 0 且保存 state 为 `success`，才接受其验证结果。
+
+独立 Windows 计划任务尚未注册；另行授权并配置后才会定时执行，不能与当前 Pi 入口同时启用。OpenCode 正常退出不等于日报成功：入口还检查目标 JSON、内容校验、类型检查、Python/Node 测试、构建、远程 main 报告和 TC 内容、该 SHA 的 push 校验工作流以及四个生产页面。CI 排队、暂时网络失败和页面仍旧时有期限地等待；CI 明确失败或权限错误立即失败。页面内容验证不等于 Vercel 部署 SHA 证明，也不替代涉及页面改动时的真实浏览器测试。
 
 包装入口使用全局 OS 锁，按日期原子记录 `.runtime/scheduled/YYYY-MM-DD.state.json`，命令日志保存在 `.runtime/scheduled/runs/`；Windows 原生 Job Object 会在包装进程退出或被强杀时清理其子进程树。锁文件保持原位，OS 在进程退出后自动解锁，不要通过删除锁文件解除并发保护。默认 AI 阶段预算 3 小时、单个校验命令 30 分钟、发布等待 30 分钟；这不改变 X 单次采集的 60 分钟预算。任何失败返回非零，不自动重采集或覆盖日报。
 
@@ -373,6 +399,6 @@ X 每完成或失败一个账号就保存 `.runtime/x/REPORT_DATE/checkpoint.jso
 - [ ] 重复事件已排除并记录。
 - [ ] 网站内容只新增 `data/REPORT_DATE.json`；若为周六，只按第 9A 节额外追加最多一条 TC CSV 记录；必要的原始材料和来源登记按日期追加，没有手改首页、HTML 或图片。
 - [ ] 内容校验、测试和生产构建全部通过。
-- [ ] 推送后 GitHub Actions、Vercel 和 `https://metals.zhemin.ltd` 的四个生产页面检查通过。
+- [ ] 实际远程 main SHA 的 push CI、Vercel 和四个生产页面检查通过；`--verify-only` 成功，保存的报告/TC 哈希匹配当前文件。手动维护另有已合并 PR，未把文档或代码发布误报为调度激活。
 - [ ] 库存和 TC 站内导航及外链 href 正确；TC 悬浮菜单有两个入口，Historical TC 正常显示；外站登录/验证/访问限制单独记录，未尝试代替用户登录或绕过验证。
 - [ ] 新页面行为符合基线：TC 菜单可稳定移入、顶边对齐，Historical TC 图表与 CSV 一致，日报内导航不悬浮；涉及页面代码时已用真实浏览器验证且无错误覆盖层或控制台错误。
