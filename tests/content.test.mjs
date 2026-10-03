@@ -7,6 +7,7 @@ import test from "node:test";
 
 import { getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
 import { compareReportTimesDesc } from "../lib/report-time.ts";
+import { getSignalParagraphs } from "../lib/signal-paragraphs.ts";
 import { parseTcCsv } from "../lib/tc-data.ts";
 import { loadReports, validateReport } from "../scripts/validate-content.mjs";
 
@@ -183,11 +184,11 @@ test("all daily reports are valid and uniquely dated", () => {
   assert.deepEqual(dates, [...dates].sort());
 });
 
-test("TC CSV parsing validates, sorts, and preserves quoted source notes", () => {
+test("TC CSV parsing validates chronological order, arithmetic, and quoted source notes", () => {
   const csv = [
     "assessment_date,value_usd_per_dmt,change_usd_per_dmt,source_url,source_note",
-    '2026-01-16,-46.53,-1.12,https://example.com/2,"weekly review, verified"',
     "2026-01-09,-45.41,-0.43,https://example.com/1,direct review",
+    '2026-01-16,-46.53,-1.12,https://example.com/2,"weekly review, verified"',
   ].join("\n");
 
   const points = parseTcCsv(csv);
@@ -199,6 +200,24 @@ test("TC CSV parsing validates, sorts, and preserves quoted source notes", () =>
     () => parseTcCsv(`${csv}\n2026-01-16,-47,-0.47,https://example.com/3,duplicate`),
     /duplicate assessment_date/,
   );
+});
+
+test("TC rejects wrong deltas, reordered rows, and sub-cent precision", () => {
+  const header = "assessment_date,value_usd_per_dmt,change_usd_per_dmt,source_url,source_note";
+  const first = "2026-09-24,-224.53,-2.64,https://example.com/1,prior";
+  const next = "2026-09-30,-231.68,-7.15,https://example.com/2,holiday schedule";
+  assert.equal(parseTcCsv([header, first, next].join("\n"))[1].change, -7.15);
+  assert.throws(() => parseTcCsv([header, first, next.replace("-7.15", "999")].join("\n")), /must equal current value minus prior/);
+  assert.throws(() => parseTcCsv([header, next, first].join("\n")), /strictly increasing/);
+  assert.throws(() => parseTcCsv([header, first, next.replace("-231.68", "-231.681")].join("\n")), /two decimal places/);
+  // Positive changes and zero remain valid; do not confuse lower negative values with increases.
+  const increasing = "2026-10-09,-230.00,1.68,https://example.com/3,increase";
+  const unchanged = "2026-10-16,-230.00,0.00,https://example.com/4,unchanged";
+  assert.equal(parseTcCsv([header, first, next, increasing, unchanged].join("\n")).length, 4);
+  for (const value of ["1e30", "0.000000001", "1e-10", "9007199254740992"]) {
+    assert.throws(() => parseTcCsv([header, first.replace("-224.53", value)].join("\n")), /two decimal places|safe numeric range/);
+  }
+  assert.ok(parseTcCsv(fs.readFileSync("data/smm_copper_concentrate_index_2026.csv", "utf8")).length >= 38);
 });
 
 test("daily summaries stay within the 300-character editorial limit", () => {
@@ -499,6 +518,37 @@ test("unverified source-only cards require a visible reason and audit coverage",
   );
 });
 
+test("signal paragraphs omit empty and duplicate explanations without fuzzy deletion", () => {
+  assert.deepEqual(getSignalParagraphs(" 摘要。 ", ""), ["摘要。"]);
+  assert.deepEqual(getSignalParagraphs("摘要。", " 摘要。 "), ["摘要。"]);
+  assert.deepEqual(getSignalParagraphs("项目 A\n计划。", "项目 A  计划。"), ["项目 A\n计划。"]);
+  assert.deepEqual(getSignalParagraphs("产量10吨。", "目标产量10吨，尚未实现。"), ["产量10吨。", "目标产量10吨，尚未实现。"]);
+  assert.deepEqual(getSignalParagraphs("", "旧卡只有解释。"), ["旧卡只有解释。"]);
+  assert.deepEqual(getSignalParagraphs(" ", "\n"), []);
+  const card = fs.readFileSync("components/signal-card.tsx", "utf8");
+  assert.match(card, /getSignalParagraphs\(signal\.fact, signal\.interpretation\)/);
+  assert.doesNotMatch(card, /<h4>(事实|解释)<\/h4>/);
+  const reports = fs.readFileSync("lib/reports.ts", "utf8");
+  assert.doesNotMatch(reports, /interpretation: item\.detail \|\| item\.summary/);
+});
+
+test("October 2 Kai summaries are Chinese and preserve original English evidence", () => {
+  const report = JSON.parse(fs.readFileSync("data/2026-10-02.json", "utf8"));
+  assert.equal(report.part1_broadcasts.length + report.part2_x_posts.length + report.part3_news.length, 31);
+  assert.equal(report.part2_x_posts.length, 2);
+  for (const item of report.part2_x_posts) {
+    assert.equal(item.author, "Kai Hoffmann");
+    assert.match(item.excerpt, /[\u4e00-\u9fff]/u);
+    assert.doesNotMatch(item.excerpt, /Meet Prospectiva|Visible gold in/);
+    assert.equal(getSignalParagraphs(item.excerpt, item.interpretation).length, 2);
+    assert.match(item.interpretation, /视频未打开/);
+    assert.ok(item.claims.every((claim) => /[a-z]{3}/i.test(claim.evidence)));
+  }
+  assert.match(report.part2_x_posts[0].excerpt, /7\.5米、铜品位6\.5%/);
+  assert.match(report.part2_x_posts[0].excerpt, /2,500米/);
+  assert.match(report.part2_x_posts[1].excerpt, /20,000米/);
+});
+
 test("unverified source labels are rendered by signal cards", () => {
   const card = fs.readFileSync(
     path.join(process.cwd(), "components", "signal-card.tsx"),
@@ -507,6 +557,8 @@ test("unverified source labels are rendered by signal cards", () => {
   assert.match(card, /verificationStatus === "unverified"/);
   assert.match(card, /来源未核验/);
   assert.match(card, /verificationNote/);
+  assert.match(card, /signal\.verificationStatus !== "unverified" && getSignalParagraphs/);
+  assert.match(card, /signal\.verificationStatus !== "unverified" && signal\.importance/);
 });
 
 test("reports from 2026-08-09 reject replacement characters", () => {

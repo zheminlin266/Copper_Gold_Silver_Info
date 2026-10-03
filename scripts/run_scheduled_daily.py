@@ -5,6 +5,7 @@ from __future__ import annotations
 import argparse
 import base64
 import csv
+import hashlib
 import html
 from html.parser import HTMLParser
 import io
@@ -400,6 +401,11 @@ def main(argv: list[str] | None = None) -> int:
                         command.extend(["--file", str(ROOT / "Daily_Task_Prompt.md"), prompt])
                         stage("ai", lambda: execute(command, log, timeout=args.ai_timeout, heartbeat=heartbeat, env=env))
                     stage("report", lambda: require_report(target, report_date))
+                    # Bind success to the exact local inputs checked during this run.
+                    checked_hashes = {
+                        "verified_report_sha256": hashlib.sha256(target.read_bytes()).hexdigest(),
+                        "verified_tc_sha256": hashlib.sha256((ROOT / TC_PATH).read_bytes()).hexdigest(),
+                    }
                     checks = [
                         ("validate:content", ["npm.cmd", "run", "validate:content"]),
                         ("typecheck", ["npm.cmd", "run", "typecheck"]),
@@ -412,6 +418,10 @@ def main(argv: list[str] | None = None) -> int:
                     state["verified_main_sha"] = stage("publication", lambda: verify_publication(
                         report_date, log, poll_timeout=args.poll_timeout, poll_interval=args.poll_interval,
                         command_timeout=min(120, args.command_timeout), heartbeat=heartbeat, env=env))
+                    if (hashlib.sha256(target.read_bytes()).hexdigest() != checked_hashes["verified_report_sha256"]
+                            or hashlib.sha256((ROOT / TC_PATH).read_bytes()).hexdigest() != checked_hashes["verified_tc_sha256"]):
+                        raise RuntimeError("Report or TC changed during verification; success cannot be attested")
+                    state.update(checked_hashes)
                     state["production_evidence"] = "route content only; deployment SHA not attested"
                     state["status"] = "success"
                     result = 0

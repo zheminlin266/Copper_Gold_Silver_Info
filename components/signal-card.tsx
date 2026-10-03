@@ -1,4 +1,5 @@
 import type { ReportSignal } from "@/lib/report-types";
+import { getSignalParagraphs } from "@/lib/signal-paragraphs";
 import {
   directionLabel,
   formatDateTime,
@@ -35,19 +36,10 @@ export function SignalCard({ signal }: { signal: ReportSignal }) {
           来源未核验：{signal.verificationNote}
         </p>
       )}
-      {signal.fact && (
-        <div className="signal-block">
-          <h4>事实</h4>
-          <p>{signal.fact}</p>
-        </div>
-      )}
-      {signal.interpretation && (
-        <div className="signal-block">
-          <h4>解释</h4>
-          <p>{signal.interpretation}</p>
-        </div>
-      )}
-      {signal.importance && (
+      {signal.verificationStatus !== "unverified" && getSignalParagraphs(signal.fact, signal.interpretation).map((paragraph, index) => (
+        <p className="signal-block" key={index}>{paragraph}</p>
+      ))}
+      {signal.verificationStatus !== "unverified" && signal.importance && (
         <details className="signal-details">
           <summary>展开重要性判断</summary>
           <p>{signal.importance}</p>

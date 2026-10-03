@@ -1,3 +1,5 @@
+import copy
+import hashlib
 import json
 import os
 import subprocess
@@ -20,7 +22,7 @@ class ReportBuilderTests(unittest.TestCase):
                 "document_id": "d-1",
                 "source_url": "https://example.com/news/1",
                 "title": "Project update",
-                "text": "raw source text",
+                "text": "The source states the project advanced.",
                 "published_at": "2024-02-29T08:00:00+08:00",
                 "kind": "news",
                 "source": "Example",
@@ -244,17 +246,17 @@ class ReportBuilderTests(unittest.TestCase):
                 with tempfile.TemporaryDirectory() as directory:
                     self.assertTrue(write_report(bundle, directory).exists())
                 decision["importance"] = "unsupported short judgment"
-                with self.assertRaisesRegex(ReportBuilderError, "80-300"):
+                with self.assertRaisesRegex(ReportBuilderError, "source-only.*importance"):
                     build_report(bundle)
                 decision.pop("importance")
                 decision["detail"] = "unsupported factual field"
-                with self.assertRaisesRegex(ReportBuilderError, "unsupported"):
+                with self.assertRaisesRegex(ReportBuilderError, "source-only.*detail"):
                     build_report(bundle)
 
     def test_broadcast_retains_schema_required_summary_without_inventing_claims(self):
         bundle = self.current_bundle()
         decision = bundle["decisions"][0]
-        decision.update(kind="broadcast", verification_status="unverified", verification_note="Source inaccessible", source_type="podcast", summary="Source title and availability note")
+        decision.update(kind="broadcast", verification_status="unverified", verification_note="Source inaccessible", source_type="podcast", summary=decision["title"])
         decision.pop("claims")
         decision.pop("excerpt")
         bundle["search_log"]["url_verification"] = {
@@ -276,6 +278,135 @@ class ReportBuilderTests(unittest.TestCase):
             bundle["decisions"][0].pop(field)
             with self.assertRaises(ReportBuilderError):
                 build_report(bundle)
+
+    def source_only_bundle(self, kind):
+        bundle = self.current_bundle()
+        decision = bundle["decisions"][0]
+        decision.update(kind=kind, verification_status="unverified", verification_note="Source inaccessible")
+        decision.pop("claims")
+        decision.pop("excerpt")
+        if kind == "broadcast":
+            decision.update(source_type="podcast", summary=decision["title"])
+        if kind == "x":
+            decision.update(author="Example", handle="@example")
+        bundle["search_log"]["url_verification"] = {
+            "checked": 1, "passed": 0, "failed": 1,
+            "failures": [{"url": bundle["candidates"][0]["source_url"], "reason": "Source inaccessible"}],
+        }
+        return bundle
+
+    def assert_prewrite_failure(self, bundle, message):
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(ReportBuilderError, message):
+                write_report(bundle, directory)
+            self.assertEqual(list(Path(directory).iterdir()), [])
+
+    def test_source_only_all_kinds_reject_direct_and_inherited_narrative(self):
+        for kind in ("broadcast", "x", "news"):
+            bundle = self.source_only_bundle(kind)
+            build_report(bundle)
+            for owner in ("candidates", "decisions"):
+                for field in ("detail", "excerpt", "interpretation", "importance", "claims", "summary"):
+                    with self.subTest(kind=kind, owner=owner, field=field):
+                        invalid = copy.deepcopy(bundle)
+                        invalid[owner][0][field] = self.bundle()["decisions"][0]["claims"] if field == "claims" else "unrelated narrative"
+                        self.assert_prewrite_failure(invalid, "source-only")
+                invalid = copy.deepcopy(bundle)
+                invalid[owner][0]["excerpt"] = None
+                self.assert_prewrite_failure(invalid, "source-only")
+            bundle["decisions"][0]["claims"] = []
+            self.assertNotIn("claims", build_report(bundle)[{"broadcast": "part1_broadcasts", "x": "part2_x_posts", "news": "part3_news"}[kind]][0])
+
+    def test_verified_explanation_is_never_copied_to_excerpt(self):
+        for kind in ("news", "x"):
+            bundle = self.current_bundle()
+            decision = bundle["decisions"][0]
+            decision.update(kind=kind, interpretation="A judgment, not a fact", author="Example", handle="@example")
+            decision.pop("excerpt")
+            self.assert_prewrite_failure(bundle, "explicit excerpt")
+
+    def test_claim_requires_url_bound_matching_text(self):
+        for mutate, message in (
+            (lambda b: b["candidates"][0].pop("text"), "captured text"),
+            (lambda b: b["candidates"][0].update(text=""), "non-empty"),
+            (lambda b: b["candidates"][0].update(text="raw source text"), "quote"),
+            (lambda b: b["decisions"][0]["claims"][0].update(source_url="https://example.com/other"), "captured text"),
+            (lambda b: b["decisions"][0].update(url="https://example.com/uncaptured"), "captured text"),
+            (lambda b: b["candidates"][0].update(raw_text="conflicting text"), "conflict"),
+        ):
+            bundle = self.bundle()
+            mutate(bundle)
+            self.assert_prewrite_failure(bundle, message)
+        bundle = self.bundle()
+        bundle["candidates"][0]["text"] = "Preface. The source\n\tstates the project advanced. End."
+        build_report(bundle)
+        bundle["candidates"][0]["raw_text"] = "Preface. The source states the project advanced. End."
+        build_report(bundle)
+        bundle["candidates"][0].pop("text")
+        build_report(bundle)
+        bundle["decisions"][0]["claims"][0]["evidence"] = "the source states the project advanced."
+        self.assert_prewrite_failure(bundle, "quote")
+
+    def test_multisource_capture_contract(self):
+        with tempfile.TemporaryDirectory() as directory, patch("scripts.report_builder.PROJECT_ROOT", Path(directory)):
+            root = Path(directory)
+            (root / ".runtime").mkdir()
+            artifact = root / ".runtime" / "capture.json"
+            document = {"source_url": "https://example.com/release", "text": "Production rose to 100 tonnes.",
+                        "captured_at": "2026-10-03T09:00:00+08:00", "access_status": "public"}
+            def save(doc):
+                raw = json.dumps(doc).encode("utf-8")
+                artifact.write_bytes(raw)
+                return {"artifact_path": ".runtime/capture.json", "sha256": hashlib.sha256(raw).hexdigest()}
+            bundle = self.bundle()
+            bundle["candidates"][0]["evidence_documents"] = [save(document)]
+            claim = copy.deepcopy(bundle["decisions"][0]["claims"][0])
+            claim.update(source_url=document["source_url"], evidence=document["text"])
+            bundle["decisions"][0]["claims"].append(claim)
+            # Projection is offline; patched root must not redirect Node validation.
+            self.assertEqual(len(project_report(bundle)["part3_news"][0]["claims"]), 2)
+            primary_source = copy.deepcopy(bundle)
+            primary_source["decisions"][0]["url"] = document["source_url"]
+            self.assertEqual(project_report(primary_source)["part3_news"][0]["url"], document["source_url"])
+            for access in ("public", "authenticated-visible"):
+                bundle["candidates"][0]["evidence_documents"] = [save({**document, "access_status": access})]
+                project_report(bundle)
+            for mutation, message in (
+                (lambda b: b["candidates"][0]["evidence_documents"][0].update(sha256="0" * 64), "sha256 mismatch"),
+                (lambda b: b["candidates"][0]["evidence_documents"][0].update(artifact_path=".runtime/../outside.json"), "beneath"),
+                (lambda b: b["candidates"][0]["evidence_documents"][0].update(artifact_path=str(artifact)), "beneath"),
+                (lambda b: b["decisions"][0]["claims"][1].update(evidence="The source states the project advanced."), "quote"),
+            ):
+                invalid = copy.deepcopy(bundle)
+                mutation(invalid)
+                self.assert_prewrite_failure(invalid, message)
+            for doc, message in (
+                ({**document, "source_url": "https://example.com/wrong"}, "captured text"),
+                ({**document, "text": ""}, "non-empty"),
+                ({**document, "captured_at": "yesterday"}, "captured_at"),
+                ({**document, "access_status": "login-wall"}, "access_status"),
+                ({**document, "access_status": "hidden"}, "access_status"),
+            ):
+                invalid = copy.deepcopy(bundle)
+                invalid["candidates"][0]["evidence_documents"] = [save(doc)]
+                self.assert_prewrite_failure(invalid, message)
+            bundle["candidates"][0]["evidence_documents"] = [save(document)]
+            with patch("pathlib.Path.is_symlink", return_value=True):
+                self.assert_prewrite_failure(bundle, "symlinks")
+            same_url = {**document, "source_url": bundle["candidates"][0]["source_url"],
+                        "text": bundle["candidates"][0]["text"]}
+            invalid = self.bundle()
+            invalid["candidates"][0]["evidence_documents"] = [save(same_url)]
+            invalid["candidates"][0].pop("text")
+            self.assert_prewrite_failure(invalid, "candidate captured text")
+            invalid = self.bundle()
+            invalid["candidates"][0]["evidence_documents"] = [save({**same_url, "text": "conflicting source"})]
+            self.assert_prewrite_failure(invalid, "conflicting evidence")
+            for raw, message in ((b"{", "invalid evidence artifact"), (b"\\xff", "invalid evidence artifact"), (b"x" * (2 * 1024 * 1024 + 1), "2 MiB")):
+                artifact.write_bytes(raw)
+                invalid = copy.deepcopy(bundle)
+                invalid["candidates"][0]["evidence_documents"][0]["sha256"] = hashlib.sha256(raw).hexdigest()
+                self.assert_prewrite_failure(invalid, message)
 
     def test_coverage_rejects_empty_attempts_and_zero_accounts(self):
         for zero_accounts in (False, True):

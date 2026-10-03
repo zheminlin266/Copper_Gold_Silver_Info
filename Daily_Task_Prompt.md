@@ -28,14 +28,14 @@
 
 PiChrome 回退以工作流第 7.1 节为准：先截图/检查访问门禁，再提取可见正文；不接受登录墙后的隐藏 DOM，不自动登录或绕过 challenge。单 actor、inactive 自有标签、准确 tab ID，保留私人标签，仅清理自有标签。逐页保存 URL、标题、发布日期精度、精确引文/定位、capture time、访问状态和本地 ignored artifacts（截图可能含账号名称）；capture time 不是发布日期。有限导航/超时，不盲目 reload；保存 completed/pending，授权失败、登录失效或 challenge 停止浏览器路径，恢复只处理 pending。单条未核验与分类发现未完成分别处理。普通 Mining 403 或 Firecrawl lockdown miss 不允许关闭 lockdown、修改 VPN/DNS/SSRF/TLS、复制 profile/cookies、重启 Chrome 或直接绕过 bridge 权限；CUA 未获独立 existing-profile grant 时不自动替换。
 
-当前正式 Pi 定时任务加载 `extensions: true`。用户确认的 `/chrome authorize indefinite` 只覆盖 live Pi 进程生命周期；同进程 `/reload` 和加载扩展的新 scheduled session 可继承，实际一次性 scheduled 测试已通过。Pi/PC 重启需用户重新授权，不自动授予或修改权限检查；不保证网站会话、重启或锁屏桌面可用。Windows 独立计划任务尚未注册，不并行启用。推送后用 `scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。
+当前正式 Pi 定时任务加载 `extensions: true`。用户确认的 `/chrome authorize indefinite` 只覆盖 live Pi 进程生命周期；同进程 `/reload` 和加载扩展的新 scheduled session 可继承，实际一次性 scheduled 测试已通过。Pi/PC 重启需用户重新授权，不自动授予或修改权限检查；不保证网站会话、重启或锁屏桌面可用。Windows 独立计划任务尚未注册，不并行启用。推送后用 `scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。此尾部 wrapper 尚未监督此前 Pi AI 全流程；不得将缺少 wrapper state 解释为从未启动 AI，也不得嵌套 OpenCode 或自行切换调度入口。`scripts/check_daily_health.py` 可只读检查最近应有日报及保存验证证据，非零只表示需要处理，不授权自动补采集；该工具未注册任何新触发器或外部告警。
 
 6. 所有数字保留期间、单位、币种和口径；明确区分实际值、估计、市场一致预期、公司指引和研究判断。纯价格复述、价格目标、泛宏观情绪、无法追溯的传闻和没有供需传导路径的内容不得纳入。
 7. 完成跨日、跨来源和跨栏目去重。同一事件优先保留一手且信息最完整的来源。每条信号必须填写唯一的 `primary_metal`，按最重要的未来供需变化或催化剂确定，并确保它也出现在 `metal_tags` 中；其他实质相关金属保留为标签，但同一信号只在主金属板块完整展示一次。不得仅因正文提到某种金属或价格就添加标签。并如实填写 `search_log`、`url_verification` 和 `dedup_log`。
 
 ### 重要性判断生成流程
 
-允许只生成标题和来源的精简卡；精简卡省略 `excerpt`、`interpretation` 和 `importance`，不得用推测补齐。需要生成完整研究卡时，不要直接根据新闻标题写入 JSON，先建立内部分析备忘：
+允许只生成标题和来源的精简卡；未核验卡必须省略 `excerpt`、`detail`、`interpretation`、`importance` 及非空 `claims`，同时清除候选中遗留的这些字段，禁止用 null/空字符串占位。访谈必填 `summary` 仅原样复制 `title` 作为 schema 占位，页面不显示。不得用推测补齐。需要生成完整研究卡时，不要直接根据新闻标题写入 JSON，先建立内部分析备忘：
 
 - 来源确认的新增事实；
 - 相比最近日报或已知事件的新增变化；
@@ -43,10 +43,12 @@ PiChrome 回退以工作流第 7.1 节为准：先截图/检查访问门禁，�
 - 影响规模和时间范围；
 - 证据强度、主要限制和需要跟踪的后续信息。
 
+完整研究卡的每条 `claims.evidence` 必须在同一 URL 的保存文本中逐字出现（只容许空白差异）；候选原 URL 使用 `text`/`raw_text`，其他一手来源使用候选 `evidence_documents` 引用带 SHA-256 的本地 capture，具体契约见 `scripts/README.md`。文本匹配不替代语义与实际来源核验。
+
 完成内部分析后，再分别填写：
 
-- `excerpt`：只写来源事实；
-- `interpretation`：解释事实如何传导、有哪些假设和限制；
+- `excerpt`（访谈为 `summary`）：用中文概述来源确认的新闻事实，英文正文也翻译成中文，保留必要专有名词、术语和单位；精确英文引文放在 `claims.evidence` 和原始材料中；
+- `interpretation`（访谈为 `detail`）：仅在有新增信息时解释传导机制、口径、假设和限制，删去与摘要重复的表述；无新增解释则省略字段，不复制摘要。页面直接显示这两段，不标注“事实”“解释”；
 - `importance`：先去掉与 `summary`、`detail`、`excerpt` 或 `interpretation` 已经重复的事实，只保留必要的数字或日期锚点，再压缩成新增研究结论，说明这条信息为什么改变对金银铜供需的判断。不得把正文完整改写一遍。
 
 写完所有信号后逐条复核：

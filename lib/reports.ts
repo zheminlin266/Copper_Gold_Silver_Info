@@ -219,7 +219,7 @@ export function getSignals(report: DailyReport): ReportSignal[] {
     primaryMetal: item.primary_metal || item.metal_tags[0],
     direction: item.supply_demand,
     fact: item.summary,
-    interpretation: item.detail || item.summary,
+    interpretation: item.detail || "",
     importance: item.importance || "",
     verificationStatus: item.verification_status || (report.date < "2026-08-09" ? "verified" : "unverified"),
     verificationNote: item.verification_note || (report.date < "2026-08-09" ? "" : "核验状态缺失"),

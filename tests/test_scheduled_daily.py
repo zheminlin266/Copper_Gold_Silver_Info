@@ -1,5 +1,6 @@
 """Wrapper checks: no AI, X or external network; HTTP regressions use localhost."""
 import base64
+import hashlib
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -104,6 +105,23 @@ class ScheduledDailyTests(unittest.TestCase):
         self.assertEqual(publication.call_count, 3)
         self.assertEqual(self.state()["status"], "success")
         self.assertEqual(self.state()["verified_main_sha"], SHA)
+        self.assertEqual(self.state()["verified_report_sha256"], hashlib.sha256((self.root / f"data/{DATE}.json").read_bytes()).hexdigest())
+        self.assertEqual(self.state()["verified_tc_sha256"], hashlib.sha256((self.root / daily.TC_PATH).read_bytes()).hexdigest())
+
+    def test_inputs_changed_during_verification_cannot_be_success(self):
+        for relative in (f"data/{DATE}.json", daily.TC_PATH):
+            with self.subTest(path=relative):
+                self.report()
+                execute, publication = self.main_mocks()
+                target = self.root / relative
+                def change(*args, **kwargs):
+                    target.write_bytes(target.read_bytes() + b"\n")
+                    return SHA
+                publication.side_effect = change
+                self.assertEqual(daily.main(["--verify-only", "--report-date", DATE]), 1)
+                self.assertEqual(self.state()["status"], "failed")
+                self.assertIn("changed during verification", self.state()["error"])
+                self.assertNotIn("verified_report_sha256", self.state())
 
     def test_date_boundary_is_frozen_and_optional_model(self):
         execute, publication = self.main_mocks()
