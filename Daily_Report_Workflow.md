@@ -11,7 +11,7 @@
 - `report_time` 写实际完成报告的北京时间 ISO 8601 时间，不伪造为 07:00。
 - JSON 是首页、日报、归档和搜索的唯一内容源；TC 历史页只读取 `data/smm_copper_concentrate_index_2026.csv`。
 - 生产站点固定为 `https://metals.zhemin.ltd`。
-- 信息采集未完成或本地检查失败时不得推送。单条来源未核验时可以发布，但必须按第 7、9 节标注为“来源未核验”，不得伪装成已核验来源。
+- Part 1/Part 3 采集未完成或本地检查失败时不得推送；X partial/failed 仅在第 5.2 节的真实 coverage 审计完整时允许降级发布。单条来源未核验时可以发布，但必须按第 7、9 节标注为“来源未核验”，不得伪装成已核验来源。
 
 ## 2. 时间窗口
 
@@ -26,7 +26,7 @@
 ## 3. 开始前检查
 
 1. 读取本文件、`data/daily_report_schema.json`、最近三份 `data/*.json`、`mining_people_broadcast_x_articles.csv`、`data/sources_discovered.json` 和 `data/conference_calendar.json`。
-2. 检查 `git status`，保留用户已有修改；不要覆盖或删除不属于本次日报的文件。
+2. 检查 `git status`，保留用户已有修改；不要覆盖或删除不属于本次日报的文件。用户已确认：`.pi/schedule-prompts.json`、`x_outputs/2026-09-28_x_raw_materials_rerun_20260929.json`、同名 `.txt` 以及已完成日报的按日期 X 原始材料是需要保留的无关工作，不得仅因这些文件未提交而停止。本次用户授权维护的 `Daily_Report_Workflow.md`、`Daily_Task_Prompt.md`、`scripts/run_scheduled_daily.py` 和 `tests/test_scheduled_daily.py` 的待提交改动也有明确来源，不是日报阻塞；不得由每日任务编辑或提交这些文件。将以上文件排除于本次编辑和提交范围。其他修改先只读检查；能确定与本次目标无关的改动同样保留并排除，只有与目标日报、TC、执行脚本发生冲突、存在并发写入或无法安全隔离时才停止。
 3. 确认 `data/REPORT_DATE.json` 不存在。若已存在，停止并先判断是重跑、纠错还是日期计算错误。
 4. 记录三个时间窗口，后续每条候选都据此筛选。
 5. 若 `RUN_DATE` 是北京时间周六，同时读取 `data/smm_copper_concentrate_index_2026.csv`，按第 9A 节判断是否需要追加前一日（周五）的 TC；其他星期不得修改该 CSV。
@@ -43,9 +43,11 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeli
 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-x
 ```
 
-这些命令是采集与流程入口；不表示已经存在 AI API 集成。
+这些命令是采集与流程入口；不表示已经存在 AI API 集成。流水线对同日同一采集器加跨进程锁；不同采集器可以独立运行，X 另有跨日期的共享账号锁。stdout/stderr 实时写入运行目录，每个完成的采集器立即保存 `*.result.json`、候选和清单；Mining 各分类完成后还保存各自候选文件。进程心跳保存在 `*.process.json`，清单未完成不代表零结果。
 
-AI 只接收代码产出的规范化候选，返回严格的分析决策和证据字段（事实提取、供需判断、去重、中文摘要等）。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`；在本次已授权的定时任务范围内，AI 可在全部研究和校验通过后运行精确路径的 Git add/commit/push。只可提交本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料及明确纠错，不得提交其他文件，也不得把采集器失败静默当成零结果；失败必须保留为失败状态并阻止发布。普通公开网页优先使用搜索和网页读取工具。Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；不要为了普通静态网页启动浏览器自动化。网站本身不调用模型，也不保存模型密钥。
+定时主流程必须等待所有采集命令和委派任务结束、读取其最终结果后再汇总、生成日报及发布；不能以“仍在等待采集”的进度汇报结束主流程。定时任务的关键路径委派使用前台执行，不启动无人收尾的后台研究。恢复时先确认旧采集进程已退出，复用已有候选、sidecar 和已生成日报，不重复 X 采集，不覆盖原始材料或日报。
+
+AI 只接收代码产出的规范化候选，返回严格的分析决策和证据字段（事实提取、供需判断、去重、中文摘要等）。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`；在本次已授权的定时任务范围内，AI 可在全部研究和校验通过后运行精确路径的 Git add/commit/push。只可提交本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料及明确纠错，不得提交其他文件，也不得把采集器失败静默当成零结果；Part 1/Part 3 失败阻止发布，X partial/failed 按第 5.2 节保留审计并降级。普通公开网页优先使用搜索和网页读取工具。Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；不要为了普通静态网页启动浏览器自动化。网站本身不调用模型，也不保存模型密钥。
 
 ## 5. 收集流程
 
@@ -63,7 +65,9 @@ AI 只接收代码产出的规范化候选，返回严格的分析决策和证�
 
 ### 5.2 Part 2：X 原帖
 
-X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径使用日报固定的 Python 3.12.13（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。本任务仅使用该环境中的 Python、Playwright 和 twscrape 包，不调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
+**X 采集外层超时预算固定为 60 分钟（3600 秒）**：执行 `scripts/daily_pipeline.py YYYY-MM-DD --collect-x` 或直接执行 `scripts/x_search.py` 时，命令执行工具的总超时必须显式设置为 `3600` 秒；工具以毫秒计时则设置为 `3600000`。该预算覆盖完整的 `Playwright -> twscrape` 采集链，不是单账号、单次页面导航或整份日报的超时。外层委派或包装调用不得设置更短的超时，不得沿用历史运行的 1000 秒预算。保持账号间 25–30 秒安全等待和现有单次请求超时不变；认证、限流或其他安全停止仍须立即停止。若达到 60 分钟仍未完成，保留现场并报告超时，不自动重试 X；先确认旧进程已退出并核查已有材料，不得把未完成采集记为完整零结果。
+
+X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径使用日报固定的 Python 3.12.x（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。本任务仅使用该环境中的 Python、Playwright 和 twscrape 包，不调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
 
 在已授权的浏览器会话中检索种子账号和新发现的可靠账号。只收录原作者帖子，必须核对作者、handle、正文、原帖 URL 和发布时间。
 
@@ -83,7 +87,7 @@ X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须�
 
 mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端、`site:mining.com` Google 搜索和 WebFetch 均无法可靠获取 `/commodity/copper/` 页面的实际文章列表——Google 搜索返回的是首页/SEO 内容而非铜分类页文章。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
 
-1. **Playwright 直接抓取铜分类页**（日报固定 Python 3.12.13 + Chromium headless + 反检测）。这是唯一可靠的 mining.com 信息采集路径。每次 Part 3 检索必须执行：
+1. **Playwright 直接抓取铜分类页**（日报固定 Python 3.12.x + Chromium headless + 反检测）。这是唯一可靠的 mining.com 信息采集路径。每次 Part 3 检索必须执行：
    ```
    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe
    ```
@@ -188,6 +192,8 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 不要修改旧 HTML、首页组件、搜索代码或归档列表。新增 JSON 后，Next.js 会自动更新所有页面。不要生成图片或 AI 模块。
 
+`report_builder.py` 在最终原子写入之前，调用现有 Node/AJV schema 和语义校验；`--validate-only` 使用同一道校验。需先安装仓库既有 npm 依赖；Node 不可用、验证超时或验证失败时不创建、不替换目标 JSON。修正 analysis bundle 后再验证，不用直接编辑成品绕过校验。
+
 原始材料应保留且不得覆盖：X 候选继续写入按日期命名的 `x_outputs/REPORT_DATE_x_raw_materials.txt`；其他确有复核价值的原始材料使用带日期的新文件。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
 
 ## 9A. 每周六 TC 更新（无需 SMM 登录）
@@ -254,6 +260,8 @@ Remove-Item Env:NODE_OPTIONS -ErrorAction SilentlyContinue
 
 ```bash
 npm run validate:content
+npm run typecheck
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B -m unittest discover -s tests -p "test_*.py"
 npm test
 npm run build
 ```
@@ -300,6 +308,8 @@ npm run build
 4. Vercel 监听 `main` 并自动部署。
 5. 部署完成后检查 `https://metals.zhemin.ltd/`、`https://metals.zhemin.ltd/daily/REPORT_DATE`、`https://metals.zhemin.ltd/archive` 和 `https://metals.zhemin.ltd/historical-tc`。
 6. 检查站点导航中的库存和 TC 悬浮菜单。TC 菜单必须同时显示外部 `SMM Copper Concentrate Index` 和内部 `Historical TC`；外部页面需要用户自行登录，只确认链接及登录提示正常，不代替用户登录。
+
+   MacroMicro 铜库存外链 `https://sc.macromicro.me/charts/40914/tong-ku-cun-jia-ge` 按用户要求不再执行外站访问验证：不得为每日或每周任务对该目标发起 HTTP 请求、打开 Chrome/headless Chrome 或执行安全验证检查；只确认站内菜单和 href 保持正确，最终状态写“按用户要求跳过外站验证”，不得写成访问通过。其他已有外部库存/SMM 链接，检查站内菜单及 href 正确即可；外站的登录墙、Cloudflare 验证、403/429 或临时不可用需保留 URL、检查结果和限制说明，但不单独阻止纯日报/TC 数据发布，也不代表外站内容已核验。不得绕过验证、反复重试挑战、修改既有导航目标或把限制当成站内故障。站内页面、目标日期、来源卡核验规则及构建检查仍须通过；外站访问限制不放宽 Part 1/3 完整采集要求。
 7. 周六写入 TC 后，确认生产 `Historical TC` 页面的最新日期和值与 CSV 一致。
 8. 若提交包含页面或样式代码，必须在生产站用真实浏览器复核：TC 菜单动画及左下安全移动区有效、菜单顶边与页头分隔线贴合、Historical TC Tooltip 能跟随鼠标显示准确数据、日报内导航随正文滚走。只验证 HTTP 200 或页面 HTML 不足以替代这一步。
 
@@ -307,11 +317,15 @@ npm run build
 
 ## 12. 失败与恢复
 
+X 每完成或失败一个账号就保存 `.runtime/x/REPORT_DATE/checkpoint.json`。存在 checkpoint、原始 TXT 或 sidecar 时默认拒绝新增采集，即使指定 `--overwrite` 也不重采集。确认旧进程退出后，可执行 `x_search.py REPORT_DATE --recover-checkpoint` 离线导出已保存结果，再执行 `daily_pipeline.py REPORT_DATE --import-x` 校验导入；两者不增加 X 流量。未完成、在途或未访问账号一律标注未知/未完成，仅把已有持久化证据的账号计为完成，不按运行时长估算进度。离线导出的 partial/failed 仍返回非零，不能因此自动重试。
+
+已完成的 Mining 结果可用 `daily_pipeline.py REPORT_DATE --reuse-mining .runtime/pipeline/REPORT_DATE/RUN_ID` 复用。流水线只接受同日、同注册表的完整结果，并写入新清单，不修改旧运行；不同日期、损坏材料或原始文件与 sidecar 哈希冲突必须停止。原始文件对中断只允许补齐与 checkpoint 一致的缺失半份，不覆盖任何已有文件。新的 X `--output-suffix` 仅供用户明确授权的新采集，每日任务不能自行使用它绕过保护。操作示例和状态路径见 `scripts/README.md`。
+
 - 某一部分完整检索后没有合格内容：保留空数组，把对应 `*_searched` 写为 `true` 并写清检索范围，仍可发布“无合格信号”的日报。
 - Part 1 或 Part 3 采集失败：把对应 `*_searched` 写为 `false` 并停止发布。X partial/failed：保留候选和 sidecar 审计，Part 2 写 `part2_searched=false` 与 coverage，继续完成其他部分；只要 Part 1 和 Part 3 完整，报告仍可发布，不能把缺失账号写成完整零结果。安全停止后不增加 X 流量。
 - 来源冲突：优先一手、时间更近且口径更完整的来源，并在解释中说明口径差异。
 - 任务延迟或补跑：明确指定目标 `REPORT_DATE`，窗口仍按该日期计算，不能直接用当前日期覆盖。
-- 文件已存在或工作区有不明修改：停止写入，先确认修改来源，避免数据丢失。
+- 目标文件已存在：停止写入，判断重复运行或发布恢复；已发布且核验通过则幂等成功，不覆盖。工作区改动按第 3 节隔离；不能安全隔离、与目标冲突或存在并发写入时才停止危险操作，不把无关未提交文件一律当作阻塞。
 - TC 找不到任何一个能明确提供当期指标身份、评估日期、TC 值和单位的合格来源，或相同日期出现不同当期值、日期/单位无效：保留 CSV 不变并报告，继续完成日报，不用搜索摘要或旧值填补。其他页面受登录限制不构成失败。
 - 构建疑似缓存故障：按第 10 节精确清理 `.next` 并且只重试一次；不得用自定义分批删除脚本绕过 safe-delete。
 - 推送后构建失败：不要新增另一份日报掩盖问题；修复原提交并重新完成全部检查。
@@ -322,6 +336,12 @@ npm run build
 
 ## 14. 完成定义
 
+独立调度入口为 `scripts/run_scheduled_daily.py`，需另行授权并配置 Windows 计划任务后才会定时执行；仓库存在入口脚本不代表系统任务已注册，不能与旧 Pi 定时入口同时启用。OpenCode 正常退出不等于日报成功：入口还检查目标 JSON、内容校验、类型检查、Python/Node 测试、构建、远程 main 报告和 TC 内容、该 SHA 的 push 校验工作流以及四个生产页面。CI 排队、暂时网络失败和页面仍旧时有期限地等待；CI 明确失败或权限错误立即失败。页面内容验证不等于 Vercel 部署 SHA 证明，也不替代涉及页面改动时的真实浏览器测试。
+
+入口使用全局 OS 锁，按日期原子记录 `.runtime/scheduled/YYYY-MM-DD.state.json`，命令日志保存在 `.runtime/scheduled/runs/`；Windows 原生 Job Object 会在包装进程退出或被强杀时清理其子进程树。锁文件保持原位，OS 在进程退出后自动解锁，不要通过删除锁文件解除并发保护。默认 AI 阶段预算 3 小时、单个校验命令 30 分钟、发布等待 30 分钟；这不改变 X 单次采集的 60 分钟预算。任何失败返回非零，不自动重采集或覆盖日报。
+
+目标报告已存在时，普通入口和 `--resume --report-date YYYY-MM-DD` 都跳过 AI，仅重新验证现有报告及发布；`--verify-only` 也不会采集或写报告。曾启动 AI 但未留下成品的任务不能自动重启，需要先恢复已有材料并完成 analysis bundle/report builder。尚未推送的成品必须由已授权的发布流程提交/推送，包装入口不会替用户执行新的 Git 写入。
+
 - [ ] 日期和三个窗口计算正确。
 - [ ] Part 1 和 Part 3 完成检索且对应 `*_searched=true`；Part 2 有严格 coverage 审计，complete 为全账号完成，partial/failed 显示 n/N 和原因；空结果也有检索范围记录，采集失败没有冒充零结果。
 - [ ] 每个正文来源都有 `verification_status`；未核验来源显示明确标注和原因，没有虚构链接或未经确认的正文事实。
@@ -331,5 +351,5 @@ npm run build
 - [ ] 网站内容只新增 `data/REPORT_DATE.json`；若为周六，只按第 9A 节额外追加最多一条 TC CSV 记录；必要的原始材料和来源登记按日期追加，没有手改首页、HTML 或图片。
 - [ ] 内容校验、测试和生产构建全部通过。
 - [ ] 推送后 GitHub Actions、Vercel 和 `https://metals.zhemin.ltd` 的四个生产页面检查通过。
-- [ ] 库存和 TC 导航可打开；TC 悬浮菜单有两个入口，Historical TC 正常显示；外部 SMM 页面显示正常登录入口，未尝试代替用户登录。
+- [ ] 库存和 TC 站内导航及外链 href 正确；TC 悬浮菜单有两个入口，Historical TC 正常显示；外站登录/验证/访问限制单独记录，未尝试代替用户登录或绕过验证。
 - [ ] 新页面行为符合基线：TC 菜单可稳定移入、顶边对齐，Historical TC 图表与 CSV 一致，日报内导航不悬浮；涉及页面代码时已用真实浏览器验证且无错误覆盖层或控制台错误。

@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import os from "node:os";
+import { spawnSync } from "node:child_process";
 import path from "node:path";
 import test from "node:test";
 
@@ -79,6 +81,69 @@ test("current X coverage requires Playwright then twscrape and rejects web-acces
   report.search_log.part2_coverage.attempted_channels = ["web_access_xai"];
   report.search_log.part2_coverage.selected_channel = "web_access_xai";
   assert.throws(() => validateReport(report, "2026-08-20.json"), /ordered channel prefix/);
+});
+
+test("validator CLI shares semantic validation for stdin and single files", () => {
+  const report = makeFutureReport();
+  const filename = "2026-08-09.json";
+  const env = { ...process.env };
+  delete env.NODE_OPTIONS;
+  const run = (args, input) => spawnSync(process.execPath, ["scripts/validate-content.mjs", ...args], {
+    input, encoding: "utf8", env, timeout: 30_000,
+  });
+  const valid = run(["--stdin", filename], JSON.stringify(report));
+  assert.equal(valid.status, 0, valid.stderr);
+  assert.match(valid.stdout, /Validated 2026-08-09.json/);
+  const directory = fs.mkdtempSync(path.join(os.tmpdir(), "report-validator-"));
+  try {
+    const fullPath = path.join(directory, filename);
+    fs.writeFileSync(fullPath, JSON.stringify(report));
+    assert.equal(run([fullPath]).status, 0);
+    report.date = "2026-08-08";
+    assert.match(run(["--stdin", filename], JSON.stringify(report)).stderr, /date does not match filename/);
+    report.date = "2026-08-09";
+    report.windows.part1.start = "2026-08-06T00:00:00+08:00";
+    const invalid = run(["--stdin", filename], JSON.stringify(report));
+    assert.notEqual(invalid.status, 0);
+    assert.match(invalid.stderr, /windows.part1 must be/);
+    for (const [args, input, pattern] of [
+      [["--stdin"], "", /Usage:/],
+      [["--unknown"], "", /Usage:/],
+      [["--stdin", "../2026-08-09.json"], "{}", /requires a YYYY-MM-DD/],
+      [["--stdin", filename], "{", /invalid JSON/],
+      [["--stdin", filename], "[]", /JSON Schema validation failed/],
+      [[path.join(directory, "2026-08-10.json")], "", /ENOENT/],
+    ]) {
+      const result = run(args, input);
+      assert.notEqual(result.status, 0);
+      assert.match(result.stderr, pattern);
+      assert.doesNotMatch(result.stderr, /at main\(/);
+    }
+  } finally {
+    fs.rmSync(directory, { recursive: true, force: true });
+  }
+});
+
+test("current coverage rejects zero accounts and empty attempted channels", () => {
+  const report = makeFutureReport();
+  report.date = "2026-08-20";
+  report.windows = {
+    part1: { start: "2026-08-18T00:00:00+08:00", end: "2026-08-20T23:59:59+08:00" },
+    part2: { start: "2026-08-20T00:00:00+08:00", end: "2026-08-20T23:59:59+08:00" },
+    part3: { start: "2026-08-20T00:00:00+08:00", end: "2026-08-20T23:59:59+08:00" },
+  };
+  report.part1_broadcasts = [];
+  report.part2_x_posts = [];
+  report.part3_news = [];
+  report.search_log.part2_coverage = {
+    status: "complete", accounts_total: 0, accounts_completed: 0, accounts_failed: 0,
+    attempted_channels: ["playwright"], selected_channel: null, channel_errors: [], notes: "audit",
+  };
+  assert.throws(() => validateReport(report, "2026-08-20.json"), /accounts_total must be positive/);
+  Object.assign(report.search_log.part2_coverage, {
+    accounts_total: 1, accounts_completed: 1, selected_channel: "playwright", attempted_channels: [],
+  });
+  assert.throws(() => validateReport(report, "2026-08-20.json"), /must NOT have fewer than 1 items/);
 });
 
 test("archive pagination shows 20 newest items before older pages", () => {

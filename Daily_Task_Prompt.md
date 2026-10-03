@@ -12,17 +12,19 @@
 
 ## 执行要求
 
-1. 使用 `Asia/Shanghai` 当前时间计算 `RUN_DATE`，并按工作流计算 `REPORT_DATE` 和三个检索窗口；不得写死日期。`report_time` 必须是实际完成报告时的北京时间。
-2. 读取工作流要求的 schema、最近日报、种子来源、已发现来源和会议日历；先检查 `git status`。保留用户已有修改，不覆盖、回滚、删除或提交不属于本次日报的文件。代码负责 date windows、preflight、registry、collectors、normalization、technical verification 和通道审计；AI 只处理规范化候选并返回严格分析决策与证据。
-3. 如果 `data/REPORT_DATE.json` 已存在，停止写入并判断是重复运行、纠错还是日期错误；不得直接覆盖。最终 JSON 写入、校验、测试、构建和发布也必须由代码流程执行。
+1. 入口未提供日期时，使用 `Asia/Shanghai` 当前时间计算 `RUN_DATE`，并按工作流计算 `REPORT_DATE` 和三个检索窗口；入口已提供冻结的 `RUN_DATE`/`REPORT_DATE` 时核对两者相差一个自然日并沿用，跨午夜不得重算。不得写死日期。`report_time` 必须是实际完成报告时的北京时间。
+2. 读取工作流要求的 schema、最近日报、种子来源、已发现来源和会议日历；先检查 `git status`。按工作流第 3 节保留并排除已确认的无关改动，不得仅因 `.pi/schedule-prompts.json`、历史 X 原始材料或其他可安全隔离的文件未提交而停止。只有目标冲突、并发写入或无法安全隔离时才停止；不覆盖、回滚、删除或提交无关文件。代码负责 date windows、preflight、registry、collectors、normalization、technical verification 和通道审计；AI 只处理规范化候选并返回严格分析决策与证据。
+3. 如果 `data/REPORT_DATE.json` 已存在，停止写入与采集，核验日期后仅恢复校验/发布；不得直接覆盖。独立入口 `run_scheduled_daily.py --resume --report-date YYYY-MM-DD` 会跳过 AI，但不会自动推送尚未发布的成品。最终 JSON 写入必须通过 report builder 的写前 Node/AJV 校验，校验失败不得留下无效目标文件。
 4. 完成 Part 1 访谈、Part 2 X 原帖和 Part 3 新闻的实际检索。普通公开网页使用搜索和网页读取；只有 X、登录会话、动态交互或必须操作页面时才使用现有 Browser Use / Playwright / Pi-chrome。X 必须调用当前仓库的 `scripts/x_search.py`，严格按 `Playwright -> twscrape` 顺序尝试：Playwright 先串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束；普通不可用、普通失败或账号级失败只把未完成账号交给 twscrape。不要为普通网页启动浏览器自动化，也不要安装新依赖来解决一次性问题。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得增加后续 X 流量。Part 2 partial/failed 必须保留候选、账户 n/N、路径和失败原因，允许在 Part 1 与 Part 3 完整时发布；不得静默写成完整零结果。
+   X 采集命令的外层总超时固定为 **60 分钟（3600 秒；毫秒制工具为 3600000）**，覆盖完整采集链；外层包装不得设置更短超时，不得沿用历史 1000 秒预算，也不得缩短账号间安全等待。超时处理遵守工作流第 5.2 节，不自动重试 X。
+   所有关键路径采集与委派任务使用前台执行并等待最终结果；不得在“等待 X/研究完成”时结束主流程。恢复时先确认旧采集结束，复用原始材料、sidecar 及已生成日报，只补未完成的校验/发布，不重采集 X 或覆盖目标文件。
 5. 优先使用监管文件、交易所公告、公司新闻稿、政府统计等一手来源。尽量实际打开每个入选 URL 核验标题、主体、发布日期和核心数字；暂时无法核验时只能生成标题/来源精简卡，设置 `verification_status: "unverified"` 并填写 `verification_note`，不得补写未经确认的事实。已核验卡设置 `verification_status: "verified"`。不得发明 URL、数字、引文、管理层评论或缺失信息。
 
 **mining.com 专用规则（每次 Part 3 检索必须执行）**：
-- mining.com 对自动化请求启用了 CloudFront 反爬。**主路径**是使用 Playwright 直接抓取 `https://www.mining.com/commodity/copper/` 分类页：使用日报固定的 Python 3.12.13（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、Chromium headless 和反检测参数，从 DOM 提取报告日文章标题及链接。
-- 若该分类页抓取失败、返回内容不完整，或未获得合格的铜供需候选，再按报告日逐日执行 Google `site:mining.com copper July DD 2026`、`site:mining.com gold July DD 2026` 和 `site:mining.com silver July DD 2026` 搜索，作为备用发现路径。
+- mining.com 对自动化请求启用了 CloudFront 反爬。**主路径**是使用 Playwright 直接抓取 `https://www.mining.com/commodity/copper/` 分类页：使用日报固定的 Python 3.12.x（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、Chromium headless 和反检测参数，从 DOM 提取报告日文章标题及链接。
+- 铜分类页抓取失败或内容不完整时，必须记录失败，不得用 Google `site:mining.com copper` 的首页/SEO 命中代替完整分类页采集或标记 Part 3 完成。金/银 `site:mining.com` 搜索仅作辅助发现，日期动态计算，具体路径以工作流第 5.3A 节为准。
 - 对每篇候选，优先直接抓取文章全文；若返回 403 或超时，使用同一 Playwright 会话提取正文；仍受限时，寻找中文转载来源（如 SMM、新浪财经、东方财富网）交叉核验。搜索摘要只可用于发现候选，不能单独作为证据。在 `mining_com_source_note` 记录核验路径和局限性。
-- 在 `search_log.part3_sources_checked` 中逐条记录铜分类页主路径的 Playwright 抓取状态和文章数、Google `site:` 备用搜索命中数，以及每篇入选文章的核验路径。不得使用 sitemap、Wayback Machine 或 RSS feed。
+- 在 `search_log.part3_sources_checked` 中逐条记录铜分类页主路径的 Playwright 抓取状态和文章数、金/银 Google `site:` 辅助搜索命中数，以及每篇入选文章的核验路径。不得使用 sitemap、Wayback Machine 或 RSS feed。
 
 6. 所有数字保留期间、单位、币种和口径；明确区分实际值、估计、市场一致预期、公司指引和研究判断。纯价格复述、价格目标、泛宏观情绪、无法追溯的传闻和没有供需传导路径的内容不得纳入。
 7. 完成跨日、跨来源和跨栏目去重。同一事件优先保留一手且信息最完整的来源。每条信号必须填写唯一的 `primary_metal`，按最重要的未来供需变化或催化剂确定，并确保它也出现在 `metal_tags` 中；其他实质相关金属保留为标签，但同一信号只在主金属板块完整展示一次。不得仅因正文提到某种金属或价格就添加标签。并如实填写 `search_log`、`url_verification` 和 `dedup_log`。
@@ -89,6 +91,8 @@
 ```powershell
 Remove-Item Env:NODE_OPTIONS -ErrorAction SilentlyContinue
 npm.cmd run validate:content
+npm.cmd run typecheck
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B -m unittest discover -s tests -p "test_*.py"
 npm.cmd test
 npm.cmd run build
 ```
@@ -114,13 +118,14 @@ npm.cmd run build
 3. 推送 `main`，等待 GitHub Actions 校验和 Vercel 自动部署。
 4. 部署后检查生产站 `https://metals.zhemin.ltd` 的 `/`、`/daily/REPORT_DATE`、`/archive` 和 `/historical-tc`。确认最新日期、内容、来源链接、归档搜索和 TC 图表正确。
 5. 检查站点导航中的库存和 TC 悬浮菜单。TC 菜单应同时显示 `SMM Copper Concentrate Index` 和 `Historical TC`；外部 SMM 页面需要用户自行登录，只确认链接和登录提示正常，不代替用户登录。
+   用户明确要求跳过 MacroMicro 铜库存外链 `https://sc.macromicro.me/charts/40914/tong-ku-cun-jia-ge` 的外站验证：不发起 HTTP 请求，不打开 Chrome/headless Chrome，不检查安全验证；只确认站内菜单和 href 正确，汇报“按用户要求跳过外站验证”，不伪称访问通过。其他已有外链的站内 href 和菜单正确时，外站登录墙、Cloudflare 验证、403/429 或临时不可用只记录访问限制，不单独阻止纯数据发布；不得绕过验证、反复重试挑战或改变导航目标。此规则不放宽正文来源核验、Part 1/3 采集和站内页面检查。
 6. 周六写入 TC 后，确认生产 Historical TC 页的最新日期和值与 CSV 一致。
 7. 若提交包含页面或样式代码，在生产站用真实浏览器确认 TC 菜单动画、安全移动区和顶边对齐，Historical TC Tooltip 数据正确，日报内导航随正文滚走，并检查错误覆盖层与控制台。
-8. 只有研究完整、来源已核验、本地校验通过、推送成功、远程构建成功、生产页面正常且导航链接可打开，任务才算完成。TC 无登录公开来源不足时允许日报继续发布，但最终汇报必须明确标记 TC 未更新及原因。
+8. 只有研究完整、来源按工作流核验或明确标记、本地校验通过、推送成功、远程构建成功、生产页面正常且站内导航及外链 href 正确，任务才算完成。已有外站访问限制单独汇报，不伪称外站已通过。TC 无登录公开来源不足时允许日报继续发布，但最终汇报必须明确标记 TC 未更新及原因。
 
 ## 停止条件与最终汇报
 
-遇到权限不足、登录失效、外部服务持续不可用、目标日报已存在且意图不明、工作区修改来源不明，或需要扩大删除/提交范围时，不要猜测或绕过安全机制；停止相关危险操作，保留现场并明确说明需要用户处理的事项。单个栏目完整检索后没有合格内容不属于失败，可以发布空数组；信息采集失败必须标记对应 `*_searched: false`，不得发布为零结果。
+遇到权限不足、登录失效、外部服务持续不可用、目标日报已存在且意图不明、工作区改动与目标冲突或无法安全隔离，或需要扩大删除/提交范围时，不要猜测或绕过安全机制；停止相关危险操作，保留现场并明确说明需要用户处理的事项。已完成发布的目标日报按幂等成功处理，只复核不重采集、不覆盖。单个栏目完整检索后没有合格内容不属于失败，可以发布空数组；信息采集失败必须标记对应 `*_searched: false`，不得发布为零结果。
 
 最终汇报必须简洁列出：
 

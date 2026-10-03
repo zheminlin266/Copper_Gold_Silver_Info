@@ -66,7 +66,10 @@ async def is_x_authenticated(page: Any) -> bool:
         return False
 
 
-def _atomic_write(path: Path, writer: Callable[[TextIO], None], *, secure: bool = False) -> None:
+def _atomic_write(
+    path: Path, writer: Callable[[TextIO], None], *, secure: bool = False,
+    overwrite: bool = True,
+) -> None:
     temporary_path: Path | None = None
     try:
         with tempfile.NamedTemporaryFile(
@@ -87,7 +90,11 @@ def _atomic_write(path: Path, writer: Callable[[TextIO], None], *, secure: bool 
             writer(temporary)
             temporary.flush()
             os.fsync(temporary.fileno())
-        os.replace(temporary_path, path)
+        if overwrite:
+            os.replace(temporary_path, path)
+        else:
+            # Exclusive publication: an exists()/replace() pair has a race.
+            os.link(temporary_path, path)
     finally:
         if temporary_path is not None:
             try:
@@ -96,13 +103,16 @@ def _atomic_write(path: Path, writer: Callable[[TextIO], None], *, secure: bool 
                 pass
 
 
-def atomic_write_json(path: str | os.PathLike[str], data: Any) -> None:
+def atomic_write_json(
+    path: str | os.PathLike[str], data: Any, *, overwrite: bool = True
+) -> None:
     """Write JSON through a same-directory, fsynced temporary file."""
     target = Path(path)
     _atomic_write(
         target,
         lambda stream: (json.dump(data, stream, ensure_ascii=False, indent=2), stream.write("\n")),
         secure=True,
+        overwrite=overwrite,
     )
 
 
@@ -113,4 +123,4 @@ def atomic_write_text(
     target = Path(path)
     if target.exists() and not overwrite:
         raise FileExistsError(f"Refusing to overwrite existing file: {target}")
-    _atomic_write(target, lambda stream: stream.write(text))
+    _atomic_write(target, lambda stream: stream.write(text), overwrite=overwrite)

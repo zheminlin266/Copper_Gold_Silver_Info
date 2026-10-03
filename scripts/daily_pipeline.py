@@ -11,9 +11,8 @@ import hashlib
 import json
 import os
 import re
-import subprocess
 import sys
-import tempfile
+from contextlib import ExitStack
 from urllib.parse import urldefrag, urlsplit
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
@@ -21,17 +20,21 @@ from typing import Any, Iterable, Mapping
 
 try:
     from scripts.pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest, validate_datetime, validate_url
-    from scripts.script_utils import parse_report_date
+    from scripts.script_utils import atomic_write_json, parse_report_date
+    from scripts.runtime_support import AlreadyRunning, exclusive_lock, run_logged_process
     from scripts.source_registry import get_x_accounts, load_registry
 except ModuleNotFoundError:
     from pipeline_contracts import Candidate, CollectorResult, ContractError, RunManifest, validate_datetime, validate_url  # type: ignore[no-redef]
-    from script_utils import parse_report_date  # type: ignore[no-redef]
+    from script_utils import atomic_write_json, parse_report_date  # type: ignore[no-redef]
+    from runtime_support import AlreadyRunning, exclusive_lock, run_logged_process  # type: ignore[no-redef]
     from source_registry import get_x_accounts, load_registry  # type: ignore[no-redef]
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RUNTIME_ROOT = PROJECT_ROOT / ".runtime" / "pipeline"
 TZ_BEIJING = timezone(timedelta(hours=8))
 METALS = ("gold", "silver", "copper")
+X_TIMEOUT_SECONDS = 3600
+MINING_TIMEOUT_SECONDS = 300
 
 
 class PipelineError(RuntimeError):
@@ -54,24 +57,7 @@ def calculate_windows(report_date: str) -> dict[str, dict[str, str]]:
 
 def _atomic_json(path: Path, data: Any, *, overwrite: bool = True) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and not overwrite:
-        raise FileExistsError(f"Refusing to overwrite existing file: {path}")
-    temporary: Path | None = None
-    try:
-        with tempfile.NamedTemporaryFile("w", encoding="utf-8", dir=path.parent, prefix=f".{path.name}.", suffix=".tmp", delete=False) as stream:
-            temporary = Path(stream.name)
-            json.dump(data, stream, ensure_ascii=False, indent=2)
-            stream.write("\n")
-            stream.flush()
-            os.fsync(stream.fileno())
-        os.replace(temporary, path)
-        temporary = None
-    finally:
-        if temporary is not None:
-            try:
-                temporary.unlink()
-            except OSError:
-                pass
+    atomic_write_json(path, data, overwrite=overwrite)
 
 
 def _stable_id(prefix: str, *parts: str) -> str:
@@ -80,6 +66,8 @@ def _stable_id(prefix: str, *parts: str) -> str:
 
 
 def _candidate_from_mining(article: Mapping[str, Any], report_date: str, metal: str) -> Candidate:
+    if not isinstance(article, Mapping):
+        raise ContractError("Mining article must be an object")
     url = article.get("url")
     title = article.get("title")
     raw_text = article.get("date_match_text", "")
@@ -102,6 +90,8 @@ def _candidate_from_mining(article: Mapping[str, Any], report_date: str, metal: 
 
 
 def _candidate_from_x(item: Mapping[str, Any], report_date: str) -> Candidate:
+    if not isinstance(item, Mapping):
+        raise ContractError("X candidate must be an object")
     required = ("candidate_id", "source_id", "author", "handle", "text", "url", "publish_time", "collector", "status", "report_date")
     if any(not isinstance(item.get(field), str) or not item[field].strip() for field in required):
         raise ContractError("X sidecar candidate is missing a required non-empty field")
@@ -133,25 +123,38 @@ def _candidate_from_x(item: Mapping[str, Any], report_date: str) -> Candidate:
 def _write_process_artifacts(run_dir: Path, stem: str, stdout: str, stderr: str) -> tuple[str, str]:
     stdout_path = run_dir / f"{stem}.stdout.txt"
     stderr_path = run_dir / f"{stem}.stderr.txt"
-    stdout_path.write_text(stdout, encoding="utf-8")
-    stderr_path.write_text(stderr, encoding="utf-8")
+    # Real processes already streamed these files; mocks/imports may not have.
+    if not stdout_path.exists():
+        stdout_path.write_text(stdout, encoding="utf-8")
+    if not stderr_path.exists():
+        stderr_path.write_text(stderr, encoding="utf-8")
     return str(stdout_path.relative_to(run_dir)), str(stderr_path.relative_to(run_dir))
 
 
-def _run_process(command: list[str], *, cwd: Path) -> tuple[int, str, str, str | None]:
+def _run_process(
+    command: list[str], *, cwd: Path, run_dir: Path, stem: str, timeout: float,
+) -> tuple[int, str, str, str | None]:
+    stdout_path, stderr_path = run_dir / f"{stem}.stdout.txt", run_dir / f"{stem}.stderr.txt"
+    state_path = run_dir / f"{stem}.process.json"
+    state: dict[str, Any] = {"status": "running", "timeout_seconds": timeout}
+    def heartbeat(progress: dict) -> None:
+        state.update(progress, updated_at=datetime.now(TZ_BEIJING).isoformat())
+        _atomic_json(state_path, state)
     try:
-        completed = subprocess.run(
-            command,
-            cwd=str(cwd),
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            errors="replace",
-            check=False,
+        completed = run_logged_process(
+            command, cwd=cwd, stdout_path=stdout_path, stderr_path=stderr_path,
+            timeout=timeout, heartbeat=heartbeat,
         )
-        return completed.returncode, completed.stdout, completed.stderr, None
-    except OSError as error:
-        return 127, "", "", f"{type(error).__name__}: {error}"
+        error = f"collector exceeded {timeout:g}s; no automatic retry" if completed.timed_out else None
+        state.update(status="timed_out" if completed.timed_out else "exited", returncode=completed.returncode)
+        heartbeat({})
+        return completed.returncode, stdout_path.read_text(encoding="utf-8", errors="replace"), stderr_path.read_text(encoding="utf-8", errors="replace"), error
+    except BaseException as error:
+        state.update(status="interrupted" if isinstance(error, (KeyboardInterrupt, SystemExit)) else "failed", error=f"{type(error).__name__}: {error}")
+        heartbeat({})
+        if not isinstance(error, OSError):
+            raise
+        return 127, "", "", state["error"]
 
 
 def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> CollectorResult:
@@ -165,14 +168,16 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
     for metal in METALS:
         stem = f"mining_{metal}"
         command = [sys.executable, str(project_root / "scripts" / "mining_com_search.py"), report_date, "--metal", metal]
-        returncode, stdout, stderr, process_error = _run_process(command, cwd=project_root)
+        returncode, stdout, stderr, process_error = _run_process(
+            command, cwd=project_root, run_dir=run_dir, stem=stem, timeout=MINING_TIMEOUT_SECONDS,
+        )
         stdout_artifact, stderr_artifact = _write_process_artifacts(run_dir, stem, stdout, stderr)
         artifacts.extend((stdout_artifact, stderr_artifact))
         stdout_parts.append(f"[{metal}]\\n{stdout}")
         stderr_parts.append(f"[{metal}]\\n{stderr}")
         exit_codes.append(returncode)
-        if process_error:
-            errors.append(f"{metal}: {process_error}")
+        if process_error or returncode != 0:
+            errors.append(f"{metal}: {process_error or f'collector exited with status {returncode}'}")
             continue
         try:
             result = json.loads(stdout)
@@ -183,8 +188,9 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
             articles = result.get("articles")
             if not isinstance(articles, list):
                 raise ValueError("collector articles is not a list")
-            for article in articles:
-                candidate = _candidate_from_mining(article, report_date, metal)
+            category_candidates = [_candidate_from_mining(article, report_date, metal) for article in articles]
+            _atomic_json(run_dir / f"{stem}.candidates.json", [candidate.to_dict() for candidate in category_candidates])
+            for candidate in category_candidates:
                 source_key = urldefrag(candidate.source_url)[0].rstrip("/")
                 if source_key in seen_source_urls:
                     continue
@@ -209,12 +215,43 @@ def _collect_x(
     report_date: str,
     run_dir: Path,
     project_root: Path,
+    *, import_only: bool = False,
 ) -> CollectorResult:
     output_path = project_root / "x_outputs" / f"{report_date}_x_raw_materials.txt"
     sidecar_path = output_path.with_suffix(".json")
     existed_before = output_path.exists() or sidecar_path.exists()
     command = [sys.executable, str(project_root / "scripts" / "x_search.py"), report_date, "--headless"]
-    returncode, stdout, stderr, process_error = _run_process(command, cwd=project_root)
+    if import_only:
+        # An offline import never invokes a collector. Take the same profile lock
+        # as x_search so a half-published pair cannot be read concurrently.
+        with exclusive_lock(project_root / ".runtime" / "locks" / "x-collection.lock"):
+            return _import_x(report_date, run_dir, project_root)
+    if existed_before:
+        return CollectorResult(collector="x_search", status="failed", errors=(
+            "Existing X artifacts: use --import-x after verification; collection was not invoked",
+        ), exit_code=3)
+    returncode, stdout, stderr, process_error = _run_process(
+        command, cwd=project_root, run_dir=run_dir, stem="x_search", timeout=X_TIMEOUT_SECONDS,
+    )
+    return _load_x_result(report_date, run_dir, project_root, returncode, stdout, stderr, process_error)
+
+
+def _import_x(report_date: str, run_dir: Path, project_root: Path) -> CollectorResult:
+    sidecar_path = project_root / "x_outputs" / f"{report_date}_x_raw_materials.json"
+    try:
+        sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
+        status = sidecar.get("status") if isinstance(sidecar, Mapping) else None
+        returncode = {"complete": 0, "partial": 4, "failed": 5}.get(status, 5)
+    except (OSError, ValueError):
+        returncode = 5
+    return _load_x_result(report_date, run_dir, project_root, returncode,
+                          "Offline X artifact import; no collection invoked\n", "", None)
+
+
+def _load_x_result(report_date: str, run_dir: Path, project_root: Path,
+                   returncode: int, stdout: str, stderr: str, process_error: str | None) -> CollectorResult:
+    output_path = project_root / "x_outputs" / f"{report_date}_x_raw_materials.txt"
+    sidecar_path = output_path.with_suffix(".json")
     stdout_artifact, stderr_artifact = _write_process_artifacts(run_dir, "x_search", stdout, stderr)
     errors: list[str] = []
     candidates: list[Candidate] = []
@@ -226,9 +263,8 @@ def _collect_x(
     elif returncode != 0:
         status = "partial" if returncode == 4 else "failed"
         errors.append(f"x_search exited with status {returncode}")
-    # A pre-existing raw/sidecar pair must never be mistaken for this run's output.
     sidecar_metadata: dict[str, Any] = {}
-    if not existed_before and output_path.exists() and sidecar_path.exists():
+    if output_path.exists() and sidecar_path.exists():
         try:
             sidecar = json.loads(sidecar_path.read_text(encoding="utf-8"))
             raw_candidates = sidecar.get("candidates") if isinstance(sidecar, Mapping) else None
@@ -308,9 +344,18 @@ def _collect_x(
                 for item in unavailable_channels
             ):
                 raise ValueError("X sidecar unavailable_channels is invalid")
-            candidates = [_candidate_from_x(item, report_date) for item in raw_candidates]
-            if any(item.get("source_id") not in expected_account_ids for item in raw_candidates):
-                raise ValueError("X sidecar candidate account mapping is invalid")
+            parsed_candidates = [_candidate_from_x(item, report_date) for item in raw_candidates]
+            expected_by_id = {account["source_id"]: account for account in expected_accounts}
+            for item in raw_candidates:
+                account = expected_by_id.get(item["source_id"])
+                if account is None or item["handle"].lstrip("@").casefold() != account["x_handle"].lstrip("@").casefold():
+                    raise ValueError("X sidecar candidate account mapping is invalid")
+                if urlsplit(item["url"]).path.split("/")[1].casefold() != item["handle"].lstrip("@").casefold():
+                    raise ValueError("X sidecar candidate URL does not match its handle")
+            raw_hash = sidecar_metadata_raw.get("raw_sha256")
+            if raw_hash is not None and raw_hash != hashlib.sha256(output_path.read_bytes()).hexdigest():
+                raise ValueError("X raw text does not match its sidecar hash")
+            candidates = parsed_candidates
             sidecar_metadata = {"part2_coverage": {
                 "status": sidecar_status,
                 "accounts_total": sidecar["accounts_total"],
@@ -340,6 +385,8 @@ def _collect_x(
             artifacts.append(str(sidecar_path.relative_to(project_root)))
         except (OSError, json.JSONDecodeError, ValueError, TypeError, ContractError) as error:
             status = "failed"
+            candidates = []
+            sidecar_metadata = {}
             errors.append(f"invalid X sidecar: {error}")
     else:
         status = "failed"
@@ -357,83 +404,121 @@ def _collect_x(
     )
 
 
+def _reuse_mining_result(directory: Path, root: Path, report_date: str, registry_ids: tuple[str, ...]) -> CollectorResult:
+    source = directory.resolve()
+    if not source.is_relative_to(root / ".runtime" / "pipeline" / report_date):
+        raise PipelineError("Mining reuse must point to this report date's pipeline run directory")
+    record = json.loads((source / "mining_com_search.result.json").read_text(encoding="utf-8"))
+    if record.get("report_date") != report_date or record.get("registry_source_ids") != list(registry_ids):
+        raise PipelineError("Mining result date or registry does not match this run")
+    result = CollectorResult(**record["result"])
+    if result.collector != "mining_com_search" or result.status != "complete":
+        raise PipelineError("Only a complete persisted Mining collector result can be reused")
+    if any(candidate.collector != "mining_com_search" or candidate.kind != "news"
+           or candidate.published_at != report_date for candidate in result.candidates):
+        raise PipelineError("Mining result contains inconsistent candidate provenance")
+    return CollectorResult(**{
+        **result.to_dict(),
+        "artifacts": [str(source / artifact) for artifact in result.artifacts],
+        "metadata": {**result.metadata, "reused_from": str(source)},
+    })
+
+
 def run_pipeline(
     report_date: str,
     *,
     dry_run: bool = False,
     collect_mining: bool = False,
     collect_x: bool = False,
+    import_x: bool = False,
+    reuse_mining: str | Path | None = None,
     project_root: str | Path = PROJECT_ROOT,
 ) -> dict[str, Any]:
-    """Run preflight and optional collectors, returning the manifest dictionary."""
+    """Run explicit collectors or offline imports, persisting every stage.
+
+    Different collectors may run independently; duplicate runs of a collector
+    for one date cannot overlap. x_search additionally locks its shared profile.
+    """
     parsed_date = parse_report_date(report_date).isoformat()
     root = Path(project_root).resolve()
-    final_path = root / "data" / f"{parsed_date}.json"
-    if final_path.exists():
-        raise PipelineError(f"Refusing to run because final report already exists: {final_path}")
-    registry_path = root / "data" / "source_registry.json"
-    try:
-        registry = load_registry(registry_path)
-    except Exception as error:
-        raise PipelineError(str(error)) from error
-    started_at = datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat()
-    run_id = f"{parsed_date}-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')}-{os.getpid()}"
-    run_dir = root / ".runtime" / "pipeline" / parsed_date / run_id
-    run_dir.mkdir(parents=True, exist_ok=False)
-    windows = calculate_windows(parsed_date)
+    if collect_x and import_x or collect_mining and reuse_mining is not None:
+        raise PipelineError("Choose collection or offline reuse, not both for the same collector")
     planned = []
-    if collect_mining:
+    if collect_mining or reuse_mining is not None:
         planned.append("mining_com_search")
-    if collect_x:
+    if collect_x or import_x:
         planned.append("x_search")
-    manifest = RunManifest(
-        run_id=run_id,
-        started_at=started_at,
-        report_date=parsed_date,
-        run_dir=str(run_dir),
-        windows=windows,
-        status="preflight" if dry_run or not planned else "preflight",
-        registry_source_ids=tuple(entry["source_id"] for entry in registry),
-        collectors=tuple({"collector": name, "status": "planned"} for name in planned),
-    )
-    _atomic_json(run_dir / "manifest.json", manifest.to_dict())
-    results: list[CollectorResult] = []
-    if not dry_run:
-        if collect_mining:
-            results.append(_collect_mining(parsed_date, run_dir, root))
-        if collect_x:
-            results.append(_collect_x(parsed_date, run_dir, root))
-    candidates = [candidate for result in results for candidate in result.candidates]
-    candidate_ids = [candidate.id for candidate in candidates]
-    document_ids = [candidate.document_id for candidate in candidates]
-    if len(set(candidate_ids)) != len(candidate_ids):
-        raise PipelineError("collectors returned duplicate candidate IDs")
-    _atomic_json(run_dir / "candidates.json", [candidate.to_dict() for candidate in candidates])
-    if dry_run or not planned:
-        overall_status = "preflight"
-    elif any(result.status == "failed" for result in results):
-        overall_status = "failed"
-    elif any(result.status == "partial" for result in results):
-        overall_status = "partial"
-    else:
-        overall_status = "complete"
-    completed_at = datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat()
-    final_manifest = RunManifest(
-        run_id=run_id,
-        started_at=started_at,
-        completed_at=completed_at,
-        report_date=parsed_date,
-        run_dir=str(run_dir),
-        windows=windows,
-        status=overall_status,
-        document_ids=tuple(document_ids),
-        candidate_ids=tuple(candidate_ids),
-        decision_ids=(),
-        collectors=tuple(result.to_dict() for result in results) if results else manifest.collectors,
-        registry_source_ids=tuple(entry["source_id"] for entry in registry),
-    )
-    _atomic_json(run_dir / "manifest.json", final_manifest.to_dict())
-    return final_manifest.to_dict()
+    with ExitStack() as locks:
+        if not dry_run:
+            for name in sorted(planned):
+                locks.enter_context(exclusive_lock(root / ".runtime" / "locks" / f"pipeline-{parsed_date}-{name}.lock"))
+        final_path = root / "data" / f"{parsed_date}.json"
+        if final_path.exists():
+            raise PipelineError(f"Refusing to run because final report already exists: {final_path}")
+        try:
+            registry = load_registry(root / "data" / "source_registry.json")
+        except Exception as error:
+            raise PipelineError(str(error)) from error
+        registry_ids = tuple(entry["source_id"] for entry in registry)
+        started_at = datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat()
+        run_id = f"{parsed_date}-{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%S%fZ')}-{os.getpid()}"
+        run_dir = root / ".runtime" / "pipeline" / parsed_date / run_id
+        run_dir.mkdir(parents=True, exist_ok=False)
+        windows = calculate_windows(parsed_date)
+        results: list[CollectorResult] = []
+        collector_states = {name: {"collector": name, "status": "planned"} for name in planned}
+
+        def persist(*, final: bool = False) -> dict[str, Any]:
+            candidates = [candidate for result in results for candidate in result.candidates]
+            candidate_ids = [candidate.id for candidate in candidates]
+            overall_status = "preflight"
+            if final and not dry_run and planned:
+                overall_status = "failed" if any(result.status == "failed" for result in results) else (
+                    "partial" if any(result.status == "partial" for result in results) else "complete"
+                )
+            manifest = RunManifest(
+                run_id=run_id, started_at=started_at, report_date=parsed_date,
+                completed_at=datetime.now(TZ_BEIJING).replace(microsecond=0).isoformat() if final else None,
+                run_dir=str(run_dir), windows=windows, status=overall_status,
+                document_ids=tuple(dict.fromkeys(candidate.document_id for candidate in candidates)),
+                candidate_ids=tuple(candidate_ids), collectors=tuple(collector_states.values()),
+                registry_source_ids=registry_ids,
+            ).to_dict()
+            _atomic_json(run_dir / "candidates.json", [candidate.to_dict() for candidate in candidates])
+            _atomic_json(run_dir / "manifest.json", manifest)
+            return manifest
+
+        persist()
+        if not dry_run:
+            for name in planned:
+                collector_states[name] = {"collector": name, "status": "running"}
+                persist()
+                interrupted = None
+                try:
+                    if name == "mining_com_search":
+                        result = (_reuse_mining_result(Path(reuse_mining), root, parsed_date, registry_ids)
+                                  if reuse_mining is not None else _collect_mining(parsed_date, run_dir, root))
+                    else:
+                        result = _collect_x(parsed_date, run_dir, root, import_only=import_x)
+                    previous_ids = {candidate.id for previous in results for candidate in previous.candidates}
+                    new_ids = [candidate.id for candidate in result.candidates]
+                    if len(set(new_ids)) != len(new_ids) or previous_ids.intersection(new_ids):
+                        raise PipelineError("collectors returned duplicate candidate IDs")
+                except BaseException as error:
+                    result = CollectorResult(collector=name, status="failed", exit_code=1,
+                                             errors=(f"{type(error).__name__}: {error}",))
+                    if not isinstance(error, Exception):
+                        interrupted = error
+                results.append(result)
+                collector_states[name] = result.to_dict()
+                _atomic_json(run_dir / f"{name}.result.json", {
+                    "report_date": parsed_date, "registry_source_ids": list(registry_ids),
+                    "result": result.to_dict(),
+                })
+                persist(final=interrupted is not None)
+                if interrupted is not None:
+                    raise interrupted
+        return persist(final=True)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -442,8 +527,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Run deterministic daily-pipeline preflight or explicit collectors")
     parser.add_argument("report_date", help="Report date in YYYY-MM-DD")
     parser.add_argument("--dry-run", action="store_true", help="preflight only; do not invoke collectors")
-    parser.add_argument("--collect-mining", action="store_true")
-    parser.add_argument("--collect-x", action="store_true")
+    mining = parser.add_mutually_exclusive_group()
+    mining.add_argument("--collect-mining", action="store_true")
+    mining.add_argument("--reuse-mining", type=Path, metavar="RUN_DIR", help="reuse a complete persisted Mining result without traffic")
+    x = parser.add_mutually_exclusive_group()
+    x.add_argument("--collect-x", action="store_true")
+    x.add_argument("--import-x", action="store_true", help="validate and import existing raw/sidecar files without traffic")
     args = parser.parse_args(argv)
     try:
         manifest = run_pipeline(
@@ -451,8 +540,10 @@ def main(argv: list[str] | None = None) -> int:
             dry_run=args.dry_run,
             collect_mining=args.collect_mining,
             collect_x=args.collect_x,
+            import_x=args.import_x,
+            reuse_mining=args.reuse_mining,
         )
-    except (PipelineError, ContractError, ValueError, FileExistsError) as error:
+    except (PipelineError, ContractError, AlreadyRunning, ValueError, FileExistsError) as error:
         parser.error(str(error))
     print(json.dumps(manifest, ensure_ascii=False, indent=2))
     if manifest["status"] == "failed":

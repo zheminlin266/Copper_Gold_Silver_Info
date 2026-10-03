@@ -327,6 +327,7 @@ function validatePart2Coverage(report, filename) {
   for (const field of ["accounts_total", "accounts_completed", "accounts_failed"]) {
     if (!Number.isInteger(coverage[field]) || coverage[field] < 0) throw new Error(`${filename}: search_log.part2_coverage.${field} must be a non-negative integer`);
   }
+  if (coverage.accounts_total === 0) throw new Error(`${filename}: search_log.part2_coverage.accounts_total must be positive`);
   if (coverage.accounts_completed + coverage.accounts_failed !== coverage.accounts_total) throw new Error(`${filename}: Part 2 coverage counts must sum to accounts_total`);
   if (coverage.status === "complete" && (coverage.accounts_completed !== coverage.accounts_total || coverage.accounts_failed !== 0)) throw new Error(`${filename}: complete Part 2 coverage must complete every account with no failures`);
   if (coverage.status === "partial" && (coverage.accounts_completed < 1 || coverage.accounts_failed < 1)) throw new Error(`${filename}: partial Part 2 coverage must complete and fail at least one account`);
@@ -510,11 +511,40 @@ export function loadReports(dataDir = path.join(process.cwd(), "data")) {
   return reports;
 }
 
-function main() {
-  const reports = loadReports();
-  console.log(`Validated ${reports.length} daily reports (${reports[0].date} to ${reports.at(-1).date}).`);
+function main(args = process.argv.slice(2)) {
+  if (args.length === 0) {
+    const reports = loadReports();
+    console.log(`Validated ${reports.length} daily reports (${reports[0].date} to ${reports.at(-1).date}).`);
+    return;
+  }
+  let filename;
+  let text;
+  if (args.length === 2 && args[0] === "--stdin") {
+    filename = args[1];
+    if (!DATE_FILE.test(filename)) throw new Error("--stdin requires a YYYY-MM-DD.json filename");
+    text = fs.readFileSync(0, "utf8");
+  } else if (args.length === 1 && !args[0].startsWith("-")) {
+    filename = path.basename(args[0]);
+    if (!DATE_FILE.test(filename)) throw new Error("report file must be named YYYY-MM-DD.json");
+    text = fs.readFileSync(args[0], "utf8");
+  } else {
+    throw new Error("Usage: node scripts/validate-content.mjs [REPORT_FILE | --stdin YYYY-MM-DD.json]");
+  }
+  let report;
+  try {
+    report = JSON.parse(text);
+  } catch (error) {
+    throw new Error(`${filename}: invalid JSON: ${error.message}`);
+  }
+  validateReport(report, filename);
+  console.log(`Validated ${filename}.`);
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  main();
+  try {
+    main();
+  } catch (error) {
+    console.error(error.message);
+    process.exitCode = 1;
+  }
 }
