@@ -11,6 +11,7 @@ import argparse
 import json
 import os
 import re
+import subprocess
 import tempfile
 from datetime import date, datetime, time, timedelta, timezone
 from pathlib import Path
@@ -196,6 +197,8 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
     for field in ("accounts_total", "accounts_completed", "accounts_failed"):
         if type(coverage.get(field)) is not int or coverage[field] < 0:
             raise ReportBuilderError(f"search_log.part2_coverage.{field} must be a non-negative integer")
+    if coverage["accounts_total"] == 0:
+        raise ReportBuilderError("search_log.part2_coverage.accounts_total must be positive")
     if coverage["accounts_completed"] + coverage["accounts_failed"] != coverage["accounts_total"]:
         raise ReportBuilderError("search_log.part2_coverage counts must sum to accounts_total")
     completed = coverage["accounts_completed"]
@@ -209,7 +212,7 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
     channel_order = CURRENT_PART2_CHANNEL_ORDER if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_CHANNEL_ORDER
     selected_channels = CURRENT_PART2_SELECTED_CHANNELS if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_SELECTED_CHANNELS
     attempted = coverage.get("attempted_channels")
-    if not isinstance(attempted, list) or attempted != list(channel_order[:len(attempted)]):
+    if not isinstance(attempted, list) or not attempted or attempted != list(channel_order[:len(attempted)]):
         raise ReportBuilderError("search_log.part2_coverage.attempted_channels must be an ordered channel prefix")
     selected = coverage.get("selected_channel")
     if selected not in selected_channels and selected is not None:
@@ -361,6 +364,8 @@ def _validate_decision(data: Any, index: int) -> dict[str, Any]:
         raise ReportBuilderError(f"decisions[{index}] must include decision or accepted")
     if accepted is not None and type(accepted) is not bool:
         raise ReportBuilderError(f"decisions[{index}].accepted must be boolean")
+    if raw_decision is not None and accepted is not None and accepted != is_accept:
+        raise ReportBuilderError(f"decisions[{index}].accepted and decision disagree")
     if not is_accept:
         reason = _nonempty(decision.get("reason"), f"decisions[{index}].reason")
         decision["decision"] = "reject"
@@ -379,7 +384,6 @@ def _validate_decision(data: Any, index: int) -> dict[str, Any]:
     if "confidence" not in decision:
         raise ReportBuilderError(f"decisions[{index}].confidence is required")
     decision["confidence"] = validate_confidence(decision["confidence"], f"decisions[{index}].confidence")
-    decision["claims"] = _validate_claims(decision.get("claims"), candidate_id)
     return decision
 
 
@@ -404,7 +408,6 @@ def _base_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], inde
         "metal_tags": normalized_tags,
         "primary_metal": metal,
         "supply_demand": decision["direction"],
-        "claims": decision["claims"],
     }
     if kind == "broadcast":
         if len(published) != 10:
@@ -418,6 +421,15 @@ def _base_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], inde
 def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], index: int) -> dict[str, Any]:
     result = _base_signal(decision, candidate, index)
     kind = decision["kind"]
+    unverified = _field(decision, candidate, "verification_status") == "unverified"
+    claims = _field(decision, candidate, "claims")
+    if claims is not None or not unverified:
+        result["claims"] = _validate_claims(claims, decision["candidate_id"])
+    # Supplied factual fields must not vanish when a card cannot represent them.
+    unsupported = {"broadcast": ("excerpt", "interpretation"), "x": ("summary", "detail"), "news": ("summary", "detail")}
+    for key in unsupported[kind]:
+        if _field(decision, candidate, key) is not None:
+            raise ReportBuilderError(f"decisions[{index}].{key} is unsupported for {kind}")
     if kind == "broadcast":
         result["title"] = _nonempty(_field(decision, candidate, "title"), f"decisions[{index}].title")
         result["source_type"] = _field(decision, candidate, "source_type")
@@ -430,9 +442,10 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
         result["author"] = _nonempty(_field(decision, candidate, "author"), f"decisions[{index}].author")
         result["handle"] = _nonempty(_field(decision, candidate, "handle"), f"decisions[{index}].handle")
         body = _field(decision, candidate, "excerpt", "interpretation")
-        if body is None:
+        if body is None and not unverified:
             raise ReportBuilderError(f"decisions[{index}] needs a non-empty excerpt or interpretation")
-        result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
+        if body is not None:
+            result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
         for key in ("interpretation", "importance", "verification_status", "verification_note", "source_channel"):
             _copy_optional(result, decision, candidate, key)
         if result.get("source_channel") is not None and result["source_channel"] not in PART2_CHANNELS - {"failed"}:
@@ -441,9 +454,10 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
         result["source"] = _nonempty(_field(decision, candidate, "source"), f"decisions[{index}].source")
         result["title"] = _nonempty(_field(decision, candidate, "title"), f"decisions[{index}].title")
         body = _field(decision, candidate, "excerpt", "interpretation")
-        if body is None:
+        if body is None and not unverified:
             raise ReportBuilderError(f"decisions[{index}] needs a non-empty excerpt or interpretation")
-        result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
+        if body is not None:
+            result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
         language = _field(decision, candidate, "language")
         if language not in LANGUAGES:
             raise ReportBuilderError(f"decisions[{index}].language is unsupported or missing")
@@ -465,7 +479,7 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
 
 
 def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None) -> dict[str, Any]:
-    """Validate and project a bundle into the published report schema."""
+    """Pure bundle validation/projection; build_report adds final semantic validation."""
     data = dict(_is_mapping(bundle, "analysis bundle"))
     _reject_unknown(data, BUNDLE_FIELDS, "analysis bundle")
     report_date = validate_date(data.get("report_date"), "report_date")
@@ -544,7 +558,8 @@ def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None)
 
 def _atomic_write_json(path: Path, data: Mapping[str, Any], *, overwrite: bool = False) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists() and not overwrite:
+    # Keep the legacy keyword accepted, but final reports are always immutable.
+    if path.exists():
         raise FileExistsError(f"Refusing to overwrite existing report: {path}")
     temporary: Path | None = None
     try:
@@ -554,10 +569,6 @@ def _atomic_write_json(path: Path, data: Mapping[str, Any], *, overwrite: bool =
             stream.write("\n")
             stream.flush()
             os.fsync(stream.fileno())
-        if overwrite:
-            os.replace(temporary, path)
-            temporary = None
-            return
         # A hard-link publish is atomic and cannot replace an existing target.
         os.link(temporary, path)
         temporary.unlink()
@@ -570,9 +581,29 @@ def _atomic_write_json(path: Path, data: Mapping[str, Any], *, overwrite: bool =
                 pass
 
 
+def validate_report(report: Mapping[str, Any]) -> None:
+    """Reuse the authoritative offline JS schema and semantic validator."""
+    try:
+        filename = f"{validate_date(report.get('date'), 'date')}.json"
+        payload = json.dumps(report, ensure_ascii=False, allow_nan=False)
+        env = os.environ.copy()
+        env.pop("NODE_OPTIONS", None)
+        result = subprocess.run(
+            ["node", str(PROJECT_ROOT / "scripts" / "validate-content.mjs"), "--stdin", filename],
+            input=payload, capture_output=True, text=True, encoding="utf-8",
+            cwd=PROJECT_ROOT, env=env, timeout=30, check=False,
+        )
+    except (OSError, ValueError, TypeError, subprocess.TimeoutExpired) as error:
+        raise ReportBuilderError(f"report validation could not complete: {error}") from error
+    if result.returncode != 0:
+        raise ReportBuilderError(f"report validation failed: {result.stderr.strip() or result.stdout.strip() or 'Node validator failed'}")
+
+
 def build_report(bundle: Mapping[str, Any], *, report_time: str | None = None) -> dict[str, Any]:
-    """Public name for the pure validation/projection step."""
-    return project_report(bundle, report_time=report_time)
+    """Project and fully validate a report without writing any files."""
+    report = project_report(bundle, report_time=report_time)
+    validate_report(report)
+    return report
 
 
 def write_report(bundle: Mapping[str, Any], data_dir: str | Path = DEFAULT_DATA_DIR, *, overwrite: bool = False, report_time: str | None = None) -> Path:
@@ -597,13 +628,18 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Build one deterministic daily report from an analysis bundle")
     parser.add_argument("bundle", help="analysis bundle JSON path, or - for stdin")
     parser.add_argument("--data-dir", default=str(DEFAULT_DATA_DIR))
-    parser.add_argument("--overwrite", action="store_true", help="explicitly allow replacing the final report")
+    parser.add_argument("--overwrite", action="store_true", help="legacy flag; existing final reports still cannot be replaced")
+    parser.add_argument("--validate-only", action="store_true", help="fully validate without writing a report")
     args = parser.parse_args(argv)
     try:
-        target = write_report(load_bundle(args.bundle), args.data_dir, overwrite=args.overwrite)
-    except (ReportBuilderError, FileExistsError) as error:
+        bundle = load_bundle(args.bundle)
+        if args.validate_only:
+            report = build_report(bundle)
+            print(f"Validated {report['date']}.json")
+        else:
+            print(write_report(bundle, args.data_dir, overwrite=args.overwrite))
+    except (ContractError, OSError) as error:
         parser.error(str(error))
-    print(target)
     return 0
 
 

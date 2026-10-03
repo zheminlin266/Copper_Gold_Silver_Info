@@ -47,8 +47,9 @@ class FakeArticle:
 class FakePage:
     url = "https://x.com/search"
 
-    def __init__(self, articles):
+    def __init__(self, articles, empty_text=None):
         self.articles = articles
+        self.empty_text = empty_text
 
     async def goto(self, *args, **kwargs):
         return FakeResponse()
@@ -59,6 +60,9 @@ class FakePage:
     async def query_selector_all(self, selector):
         return self.articles
 
+    async def query_selector(self, selector):
+        return FakeElement(text=self.empty_text) if self.empty_text is not None else None
+
     def locator(self, selector):
         return FakeLocator()
 
@@ -67,6 +71,25 @@ class XSearchTests(unittest.TestCase):
     def test_parse_x_datetime_rejects_naive_datetime(self):
         with self.assertRaisesRegex(ValueError, "timezone"):
             parse_x_datetime("2026-07-14T10:00:00")
+
+    def test_zero_results_require_explicit_empty_state(self):
+        for text, expected_error in ((None, True), ("Loading...", True), ("No results for this query", False)):
+            tweets, error = asyncio.run(search_account(FakePage([], text), "example", "Example", "2026-07-14"))
+            self.assertEqual(tweets, [])
+            self.assertEqual(error is not None, expected_error)
+
+    def test_reaching_query_limit_is_not_completion(self):
+        article = FakeArticle(text="Copper", href="/example/status/1")
+        tweets, error = asyncio.run(search_account(FakePage([article]), "example", "Example", "2026-07-14", max_results=1))
+        self.assertEqual(len(tweets), 1)
+        self.assertIn("completeness unknown", error)
+
+    def test_quoted_or_wrong_author_status_link_is_not_a_candidate(self):
+        tweets, error = asyncio.run(search_account(
+            FakePage([FakeArticle(text="Copper", href="/someone_else/status/1")]),
+            "example", "Example", "2026-07-14"))
+        self.assertEqual(tweets, [])
+        self.assertIn("requested author", error)
 
     def test_missing_time_is_an_extraction_error(self):
         tweets, error = asyncio.run(

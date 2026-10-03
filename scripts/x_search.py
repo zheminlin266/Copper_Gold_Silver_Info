@@ -7,7 +7,8 @@ X (Twitter) 供需信息搜索 — 有序多通道采集器。
 用法:
     C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13
     C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13 --headless
-    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13 --headless --overwrite
+    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13 --recover-checkpoint
+    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py 2026-07-13 --headless --output-suffix manual
 
 Python 环境:
     必须使用日报固定 Python 运行时（Playwright + twscrape）:
@@ -54,6 +55,11 @@ except ModuleNotFoundError:
     )
 
 try:
+    from scripts.runtime_support import exclusive_lock
+except ModuleNotFoundError:
+    from runtime_support import exclusive_lock  # type: ignore[no-redef]
+
+try:
     from scripts.source_registry import get_x_accounts, load_registry
 except ModuleNotFoundError:
     from source_registry import get_x_accounts, load_registry  # type: ignore[no-redef]
@@ -76,7 +82,12 @@ X_CHANNEL_ORDER = (CHANNEL_PLAYWRIGHT, CHANNEL_TWSCRAPE)
 DEFAULT_SAFE_DELAY_MIN_SECONDS = 25.0
 DEFAULT_SAFE_DELAY_MAX_SECONDS = 30.0
 DEFAULT_MAX_RESULTS_PER_QUERY = 20
+COLLECTION_TIMEOUT_SECONDS = 3600
 _UNSET = object()
+
+
+class XCheckpointError(RuntimeError):
+    """Persistence/validation failed: do not send any further traffic."""
 
 
 class XLoginRequired(RuntimeError):
@@ -411,6 +422,8 @@ def normalize_backend_tweet(
     if bj_time.strftime("%Y-%m-%d") != report_date:
         return None
     clean_handle = handle.strip().lstrip("@")
+    if clean_handle.casefold() != account["x_handle"].lstrip("@").casefold():
+        raise XNormalizationUnavailable(f"{channel} returned a post by an unexpected author")
     return {
         "source_id": account["source_id"],
         "author": str(author).strip() or account["display_name"],
@@ -690,6 +703,7 @@ async def collect_twscrape(
     *,
     sleep: Callable[[float], Any] | None = None,
     random_uniform: Callable[[float, float], float] | None = None,
+    per_account_callback: Callable[..., Any] | None = None,
 ) -> ChannelResult:
     """Use one cookie account and sequential twscrape queries only."""
     if os.environ.get("X_TWSCRAPE_ENABLED", "1").strip().casefold() in {"0", "false", "no", "off"}:
@@ -733,16 +747,24 @@ async def collect_twscrape(
                 raise ChannelUnavailable("twscrape API has no search method")
             query_started = True
             raw_items = await _collect_items(_call_with_supported_kwargs(search, query, limit=limit))
+            account_tweets = []
             for raw_item in raw_items[:limit]:
                 normalized = normalize_twscrape_tweet(raw_item, account, report_date)
                 if normalized is not None:
-                    tweets.append(normalized)
+                    account_tweets.append(normalized)
+            tweets.extend(account_tweets)
+            error = "query result limit reached; completeness unknown" if len(raw_items) >= limit else None
+            if per_account_callback:
+                await _maybe_await(per_account_callback(account, account_tweets, error))
+            if error:
+                raise XSafetyStop(error, tweets=tweets, completed_accounts=completed_accounts,
+                                  failed_accounts=[(account["source_id"], account["x_handle"], account["display_name"], error)])
             completed_accounts.append(account["source_id"])
-        except XNormalizationUnavailable:
-            raise
-        except ChannelUnavailable:
+        except XSafetyStop:
             raise
         except Exception as error:
+            if per_account_callback:
+                await _maybe_await(per_account_callback(account, [], str(error)))
             if is_twscrape_safety_error(error):
                 raise XSafetyStop(
                     f"twscrape safety stop for @{account['x_handle']}: {error}",
@@ -808,7 +830,8 @@ async def search_account(
 
         tweets = []
         extraction_errors = []
-        articles = (await page.query_selector_all('article[data-testid="tweet"]'))[:limit]
+        all_articles = await page.query_selector_all('article[data-testid="tweet"]')
+        articles = all_articles[:limit]
 
         for index, article in enumerate(articles, start=1):
             try:
@@ -838,6 +861,9 @@ async def search_account(
                     extraction_errors.append(f"tweet {index}: missing status URL")
                     continue
                 post_url = urljoin("https://x.com", href)
+                if not _is_status_url(post_url) or urlsplit(post_url).path.split("/")[1].casefold() != handle.lstrip("@").casefold():
+                    extraction_errors.append(f"tweet {index}: status URL does not belong to requested author")
+                    continue
 
                 tweets.append(
                     {
@@ -861,6 +887,13 @@ async def search_account(
             print(f"    失败: {error}")
             return tweets, error
 
+        if len(all_articles) >= limit:
+            return tweets, "query result limit reached; completeness unknown"
+        if not all_articles:
+            empty = await page.query_selector('[data-testid="emptyState"]')
+            empty_text = (await empty.inner_text()).casefold() if empty else ""
+            if not any(marker in empty_text for marker in ("no results", "没有结果", "未找到", "無結果")):
+                return [], "no explicit no-results marker; completeness unknown"
         print(f"    {len(tweets)} 条窗口内帖子")
         return tweets, None
     except (XLoginRequired, XSafetyStop):
@@ -897,15 +930,26 @@ async def _validate_context_authentication(context) -> None:
     page = await context.new_page()
     try:
         await assert_authenticated(page)
-    finally:
+    except BaseException:
+        try:
+            await page.close()
+        except Exception:
+            pass
+        raise
+    try:
         await page.close()
+    except Exception as error:
+        raise XSafetyStop(f"authenticated page cleanup failed: {error}") from error
 
 
-async def _close_context_quietly(context) -> None:
+async def _close_context_quietly(context) -> Exception | None:
+    if context is None:
+        return None
     try:
         await context.close()
-    except Exception:
-        pass
+    except Exception as error:
+        return error
+    return None
 
 
 async def open_x_context(playwright, headless: bool):
@@ -930,12 +974,16 @@ async def open_x_context(playwright, headless: bool):
             await _validate_context_authentication(context)
             print(f"登录会话: authenticated persistent profile ({PROFILE_DIR})")
             return context, None
-        except XSafetyStop:
+        except (XLoginRequired, XSafetyStop):
             await _close_context_quietly(context)
             raise
         except Exception as error:
             persistent_error = error
-            await _close_context_quietly(context)
+            cleanup_error = await _close_context_quietly(context)
+            if cleanup_error:
+                raise XSafetyStop(f"browser cleanup failed after {error}: {cleanup_error}") from error
+            if is_x_safety_error(error):
+                raise XSafetyStop(str(error)) from error
             if chrome_executable:
                 print(f"persistent Chrome profile unavailable or unauthenticated ({error})，尝试 Playwright Chromium...")
                 chromium_options = {
@@ -947,12 +995,16 @@ async def open_x_context(playwright, headless: bool):
                     await _validate_context_authentication(context)
                     print(f"登录会话: authenticated persistent profile ({PROFILE_DIR})")
                     return context, None
-                except XSafetyStop:
+                except (XLoginRequired, XSafetyStop):
                     await _close_context_quietly(context)
                     raise
                 except Exception as chromium_error:
                     persistent_error = chromium_error
-                    await _close_context_quietly(context)
+                    cleanup_error = await _close_context_quietly(context)
+                    if cleanup_error:
+                        raise XSafetyStop(f"browser cleanup failed after {chromium_error}: {cleanup_error}") from chromium_error
+                    if is_x_safety_error(chromium_error):
+                        raise XSafetyStop(str(chromium_error)) from chromium_error
             else:
                 print(f"persistent profile unavailable or unauthenticated: {error}")
 
@@ -967,7 +1019,11 @@ async def open_x_context(playwright, headless: bool):
         browser_options["executable_path"] = chrome_executable
     try:
         browser = await playwright.chromium.launch(**browser_options)
+    except (XLoginRequired, XSafetyStop):
+        raise
     except Exception as error:
+        if is_x_safety_error(error):
+            raise XSafetyStop(str(error)) from error
         if chrome_executable:
             print(f"Chrome auth fallback unavailable ({error})，使用 Playwright Chromium...")
             browser = await playwright.chromium.launch(
@@ -982,7 +1038,9 @@ async def open_x_context(playwright, headless: bool):
             viewport={"width": 1280, "height": 900},
         )
     except Exception as error:
-        await browser.close()
+        await _close_context_quietly(browser)
+        if isinstance(error, (XLoginRequired, XSafetyStop)):
+            raise
         raise XLoginRequired(f"x_auth.json could not be loaded: {error}") from error
     print(f"登录会话: exported state fallback ({STORAGE_STATE_FILE})")
     return context, browser
@@ -995,6 +1053,7 @@ async def collect_playwright(
     headless: bool = False,
     sleep: Callable[[float], Any] | None = None,
     random_uniform: Callable[[float, float], float] | None = None,
+    per_account_callback: Callable[..., Any] | None = None,
 ) -> ChannelResult:
     """Final, existing Playwright channel with sequential conservative pacing."""
     try:
@@ -1007,7 +1066,9 @@ async def collect_playwright(
     all_tweets: list[dict] = []
     failed_accounts: list[tuple[str, str, str, str]] = []
     completed_accounts: list[str] = []
-    async with async_playwright() as playwright:
+    manager = async_playwright()
+    playwright = await manager.__aenter__()
+    try:
         context, browser = await open_x_context(playwright, headless)
         try:
             page = await context.new_page()
@@ -1026,6 +1087,8 @@ async def collect_playwright(
                         limit,
                     )
                 except (XLoginRequired, XSafetyStop) as safety_error:
+                    if per_account_callback:
+                        await _maybe_await(per_account_callback(account, [], str(safety_error)))
                     raise XSafetyStop(
                         str(safety_error),
                         tweets=all_tweets,
@@ -1033,6 +1096,8 @@ async def collect_playwright(
                         completed_accounts=completed_accounts,
                     ) from safety_error
                 all_tweets.extend(tweets)
+                if per_account_callback:
+                    await _maybe_await(per_account_callback(account, tweets, error))
                 if error:
                     if is_x_safety_error(RuntimeError(error)):
                         raise XSafetyStop(
@@ -1047,9 +1112,30 @@ async def collect_playwright(
                 else:
                     completed_accounts.append(account["source_id"])
         finally:
-            await context.close()
-            if browser:
-                await browser.close()
+            primary_error = sys.exc_info()[1]
+            cleanup_error = None
+            for resource in (context, browser):
+                if resource is not None:
+                    try:
+                        await resource.close()
+                    except Exception as error:
+                        cleanup_error = error
+            if cleanup_error is not None and (primary_error is None or (
+                    isinstance(primary_error, Exception)
+                    and not isinstance(primary_error, (XLoginRequired, XSafetyStop, XCheckpointError)))):
+                raise XSafetyStop(f"authenticated browser cleanup failed: {cleanup_error}",
+                                  tweets=all_tweets, failed_accounts=failed_accounts,
+                                  completed_accounts=completed_accounts)
+    finally:
+        primary = sys.exc_info()
+        try:
+            await manager.__aexit__(*primary)
+        except Exception as error:
+            if primary[1] is None or (isinstance(primary[1], Exception)
+                                     and not isinstance(primary[1], (XLoginRequired, XSafetyStop, XCheckpointError))):
+                raise XSafetyStop(f"Playwright cleanup failed: {error}", tweets=all_tweets,
+                                  failed_accounts=failed_accounts, completed_accounts=completed_accounts) from error
+            # Preserve authentication/safety/cancellation/persistence failures over cleanup.
     return ChannelResult(
         CHANNEL_PLAYWRIGHT,
         tweets=all_tweets,
@@ -1068,6 +1154,7 @@ async def run_ordered_channels(
     runners: list[tuple[str, Callable[..., Any]]] | None = None,
     sleep: Callable[[float], Any] | None = None,
     random_uniform: Callable[[float, float], float] | None = None,
+    checkpoint_callback: Callable[[dict], Any] | None = None,
 ) -> tuple[ChannelResult, dict[str, Any]]:
     """Run Playwright, then twscrape for only unfinished accounts."""
     channel_runners = runners or [
@@ -1082,6 +1169,7 @@ async def run_ordered_channels(
     attempted: list[str] = []
     unavailable: list[dict[str, str]] = []
     channel_completed: dict[str, int] = {}
+    completed_channels: dict[str, str] = {}
     channel_errors: list[str] = []
     last_channel: str | None = None
 
@@ -1116,6 +1204,7 @@ async def run_ordered_channels(
                 tweets.append(tweet)
         explicit = set(completed_accounts) & set(pending)
         completed.update(explicit)
+        completed_channels.update({source_id: channel for source_id in explicit})
         for failure in failures:
             failed[failure[0]] = failure
             channel_errors.append(f"{channel} @{failure[1]}: {failure[3]}")
@@ -1126,13 +1215,43 @@ async def run_ordered_channels(
             pending.pop(source_id, None)
             failed.pop(source_id, None)
 
+    def save_progress() -> None:
+        if checkpoint_callback:
+            try:
+                checkpoint_callback({
+                    "tweets": tweets, "completed_accounts": sorted(completed),
+                    "failed_accounts": list(failed.values()), "attempted_channels": attempted,
+                    "unavailable_channels": unavailable,
+                    "channel_completed_accounts": channel_completed,
+                    "completed_channels": completed_channels,
+                    "channel_errors": channel_errors,
+                })
+            except Exception as error:
+                raise XCheckpointError(f"X checkpoint persistence failed: {error}") from error
+
     for channel, runner in channel_runners:
         if not pending:
             break
         attempted.append(channel)
         requested = list(pending.values())
+        save_progress()  # Persist the channel attempt before any browser/backend traffic.
+
+        def account_finished(account: dict, account_tweets: list[dict], error: str | None) -> None:
+            source_id = account["source_id"]
+            if source_id not in {item["source_id"] for item in requested}:
+                raise XCheckpointError("runner reported an unrequested account")
+            result = ChannelResult(channel, tweets=account_tweets,
+                                   completed_accounts=[] if error else [source_id],
+                                   failed_accounts=[(source_id, account["x_handle"], account["display_name"], error)] if error else [],
+                                   status="partial" if error else "complete")
+            merge_result(channel, result, [account], result.completed_accounts, result.failed_accounts)
+            save_progress()
+
         try:
             runner_kwargs = {"sleep": sleep}
+            parameters = inspect.signature(runner).parameters
+            if "per_account_callback" in parameters or any(p.kind is inspect.Parameter.VAR_KEYWORD for p in parameters.values()):
+                runner_kwargs["per_account_callback"] = account_finished
             if random_uniform is not None:
                 runner_kwargs["random_uniform"] = random_uniform
             if channel == CHANNEL_PLAYWRIGHT:
@@ -1155,12 +1274,17 @@ async def run_ordered_channels(
             merge_result(channel, result, requested, reported_completed, reported_failures)
         except XSafetyStop as error:
             requested_ids = {account["source_id"] for account in requested}
-            safety_completed = set(error.completed_accounts) & requested_ids
+            safety_completed = (set(error.completed_accounts) & requested_ids) - completed
             completed.update(safety_completed)
+            completed_channels.update({source_id: channel for source_id in safety_completed})
+            for source_id in safety_completed:
+                pending.pop(source_id, None)
+                failed.pop(source_id, None)
             if safety_completed:
                 channel_completed[channel] = channel_completed.get(channel, 0) + len(safety_completed)
             for failure in error.failed_accounts:
-                failed[failure[0]] = failure
+                if failure[0] not in completed:
+                    failed[failure[0]] = failure
             for account in requested:
                 if account["source_id"] not in completed and account["source_id"] not in failed:
                     failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], str(error))
@@ -1172,13 +1296,18 @@ async def run_ordered_channels(
                     tweets.append(tweet)
             channel_errors.append(f"{channel}: {error}")
             last_channel = channel
+            save_progress()
             break
+        except XCheckpointError:
+            raise
         except (ChannelUnavailable, ChannelTransient) as error:
             unavailable.append({"channel": channel, "error": str(error)})
+            save_progress()
             continue
         except XLoginRequired as error:
             for account in requested:
-                failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], str(error))
+                if account["source_id"] not in completed:
+                    failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], str(error))
             channel_errors.append(f"{channel}: {error}")
             last_channel = channel
             break
@@ -1186,12 +1315,14 @@ async def run_ordered_channels(
             text = f"{type(error).__name__}: {error}"
             if is_x_safety_error(error) or (channel == CHANNEL_TWSCRAPE and is_twscrape_safety_error(error)):
                 for account in requested:
-                    failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], text)
+                    if account["source_id"] not in completed:
+                        failed[account["source_id"]] = (account["source_id"], account["x_handle"], account["display_name"], text)
                 channel_errors.append(f"{channel}: {text}")
                 last_channel = channel
                 break
             unavailable.append({"channel": channel, "error": text})
 
+    save_progress()
     if pending and attempted:
         for account in pending.values():
             if account["source_id"] not in failed and account["source_id"] not in completed:
@@ -1207,6 +1338,7 @@ async def run_ordered_channels(
         status = "failed"
     if not attempted:
         status = "failed"
+    save_progress()
     outcome = ChannelResult(
         last_channel or (attempted[-1] if attempted else CHANNEL_PLAYWRIGHT),
         tweets=tweets,
@@ -1230,12 +1362,113 @@ async def run_ordered_channels(
     }
 
 
+def checkpoint_path(report_date: str, output_suffix: str = "") -> Path:
+    suffix = f"_{output_suffix}" if output_suffix else ""
+    return PROJECT_ROOT / ".runtime" / "x" / report_date / f"checkpoint{suffix}.json"
+
+
+def _account_binding(accounts: list[dict], report_date: str) -> list[dict]:
+    return [{"source_id": a["source_id"], "x_handle": a["x_handle"],
+             "display_name": a["display_name"], "category": a.get("category", ""),
+             "query": build_search_query(a["x_handle"], report_date)} for a in accounts]
+
+
+def validate_checkpoint(data: dict, report_date: str, accounts: list[dict], output_file: Path) -> None:
+    """Fail closed on incompatible/corrupt persisted provenance; never repair it silently."""
+    try:
+        if (type(data["version"]) is not int or data["version"] != 1 or data["collector"] != "x_search"
+                or data["report_date"] != report_date or data["output_name"] != output_file.name
+                or data["query"] != SEARCH_QUERY or data["channels"] != list(X_CHANNEL_ORDER)
+                or data["accounts"] != _account_binding(accounts, report_date)):
+            raise ValueError("date/registry/query/output provenance mismatch")
+        parse_x_datetime(data["collected_at"])
+        attempted = data["attempted_channels"]
+        if not isinstance(attempted, list) or attempted != list(X_CHANNEL_ORDER)[:len(attempted)]:
+            raise ValueError("invalid channel attempts")
+        ids = {a["source_id"]: a for a in accounts}
+        done = data["completed_accounts"]
+        if not isinstance(done, list) or len(done) != len(set(done)) or not set(done) <= set(ids):
+            raise ValueError("invalid completed accounts")
+        counts = data["channel_completed_accounts"]
+        if not isinstance(counts, dict) or any(k not in attempted or type(v) is not int or v < 0 for k, v in counts.items()) or sum(counts.values()) != len(done):
+            raise ValueError("invalid saved completion counts")
+        provenance = data["completed_channels"]
+        if (not isinstance(provenance, dict) or set(provenance) != set(done)
+                or any(c not in attempted for c in provenance.values())
+                or any(sum(c == channel for c in provenance.values()) != counts.get(channel, 0) for channel in attempted)):
+            raise ValueError("invalid completed account channel provenance")
+        failures = data["failed_accounts"]
+        if not isinstance(failures, list):
+            raise ValueError("invalid failures")
+        failed_ids = set()
+        for item in failures:
+            if (not isinstance(item, (list, tuple)) or len(item) != 4 or item[0] not in ids
+                    or item[0] in done or item[0] in failed_ids
+                    or tuple(item[1:3]) != (ids[item[0]]["x_handle"], ids[item[0]]["display_name"])
+                    or not isinstance(item[3], str) or not item[3]):
+                raise ValueError("invalid account error provenance")
+            failed_ids.add(item[0])
+        if not isinstance(data["tweets"], list):
+            raise ValueError("invalid tweets")
+        for tweet in data["tweets"]:
+            a = ids[tweet["source_id"]]
+            if (tweet["handle"].casefold() != a["x_handle"].casefold()
+                    or not isinstance(tweet["author"], str) or not tweet["author"].strip()
+                    or not _is_status_url(tweet["url"])
+                    or urlsplit(tweet["url"]).path.split("/")[1].casefold() != a["x_handle"].casefold()
+                    or not isinstance(tweet["text"], str) or not tweet["text"].strip()
+                    or parse_x_datetime(tweet["utc_time"]).astimezone(TZ_BEIJING).date().isoformat() != report_date
+                    or parse_x_datetime(tweet["bj_time"]) != parse_x_datetime(tweet["utc_time"])):
+                raise ValueError("invalid tweet provenance")
+        if data["tweets"] and not attempted or done and not attempted:
+            raise ValueError("results without channel attempt")
+        if not isinstance(data["channel_errors"], list) or any(not isinstance(e, str) for e in data["channel_errors"]):
+            raise ValueError("invalid channel errors")
+        if not isinstance(data["unavailable_channels"], list) or any(not isinstance(e, dict) or e.get("channel") not in attempted or not isinstance(e.get("error"), str) for e in data["unavailable_channels"]):
+            raise ValueError("invalid channel availability provenance")
+    except (KeyError, TypeError, ValueError, AttributeError) as error:
+        raise XCheckpointError(f"Invalid X checkpoint: {error}") from error
+
+
+def _checkpoint_outcome(data: dict, accounts: list[dict]) -> tuple[ChannelResult, dict]:
+    completed = data["completed_accounts"]
+    failures = {item[0]: tuple(item) for item in data["failed_accounts"] if item[0] not in completed}
+    for account in accounts:
+        source_id = account["source_id"]
+        if source_id not in completed and source_id not in failures:
+            failures[source_id] = (source_id, account["x_handle"], account["display_name"],
+                                   "checkpoint: in-flight/unvisited account; completion unknown (offline, no retry)")
+    counts = data["channel_completed_accounts"]
+    selected = "+".join(c for c in X_CHANNEL_ORDER if counts.get(c, 0)) or None
+    status = "complete" if len(completed) == len(accounts) else "partial" if completed else "failed"
+    channel_errors = list(dict.fromkeys([
+        *data["channel_errors"],
+        *[f"@{failure[1]}: {failure[3]}" for failure in failures.values()],
+    ]))
+    errors = "; ".join(channel_errors) or None
+    return ChannelResult(selected or CHANNEL_PLAYWRIGHT, tweets=data["tweets"],
+                         failed_accounts=list(failures.values()), completed_accounts=completed,
+                         status=status, error=errors,
+                         metadata={"channel_completed_accounts": counts, "channel_errors": channel_errors}), {
+        "selected_channel": selected, "attempted_channels": data["attempted_channels"],
+        "unavailable_channels": data["unavailable_channels"], "channel_completed_accounts": counts,
+        "channel_errors": channel_errors,
+    }
+
+
 async def main(
     date_str: str,
     headless: bool = False,
     overwrite: bool = False,
     output_suffix: str = "",
+    recover_checkpoint: bool = False,
 ):
+    # ponytail: one global profile lock; throughput is intentionally sequential.
+    with exclusive_lock(PROJECT_ROOT / ".runtime" / "locks" / "x-collection.lock"):
+        return await _main_locked(date_str, headless, overwrite, output_suffix, recover_checkpoint)
+
+
+async def _main_locked(date_str, headless, overwrite, output_suffix, recover_checkpoint):
     report_date = parse_report_date(date_str).isoformat()
     if output_suffix and not re.fullmatch(r"[A-Za-z0-9_-]+", output_suffix):
         raise ValueError("output suffix may contain only letters, numbers, underscores, and hyphens")
@@ -1245,10 +1478,12 @@ async def main(
     suffix = f"_{output_suffix}" if output_suffix else ""
     output_file = output_dir / f"{report_date}_x_raw_materials{suffix}.txt"
     structured_file = sidecar_path(output_file)
-    if (output_file.exists() or structured_file.exists()) and not overwrite:
+    saved_path = checkpoint_path(report_date, output_suffix)
+    if not recover_checkpoint and any(p.exists() for p in (saved_path, output_file, structured_file)):
         raise FileExistsError(
-            f"Refusing to overwrite existing X raw materials or sidecar: {output_file}. "
-            "Move it aside or use a new report date after confirming the workflow state."
+            f"Refusing new X traffic: checkpoint/raw/sidecar exists for {output_file}. "
+            "Use --recover-checkpoint offline, or an explicitly chosen new --output-suffix. "
+            "--overwrite never authorizes recollection."
         )
 
     registry = load_registry()
@@ -1261,11 +1496,47 @@ async def main(
     print(f"搜索词: {SEARCH_QUERY}")
     print()
 
-    outcome, channel_metadata = await run_ordered_channels(
-        report_date,
-        all_accounts,
-        headless=headless,
-    )
+    if recover_checkpoint:
+        try:
+            data = json.loads(saved_path.read_text(encoding="utf-8"))
+        except (OSError, ValueError) as error:
+            raise XCheckpointError(f"Cannot read X checkpoint {saved_path}: {error}") from error
+        validate_checkpoint(data, report_date, all_accounts, output_file)
+        if not data["attempted_channels"]:
+            raise XCheckpointError("Checkpoint records no channel attempt; cannot export publishable X coverage")
+    else:
+        data = {
+            "version": 1, "collector": "x_search", "report_date": report_date,
+            "output_name": output_file.name, "query": SEARCH_QUERY,
+            "channels": list(X_CHANNEL_ORDER), "accounts": _account_binding(all_accounts, report_date),
+            "collected_at": datetime.now(TZ_BEIJING).isoformat(),
+            "tweets": [], "completed_accounts": [], "failed_accounts": [],
+            "attempted_channels": [], "unavailable_channels": [],
+            "channel_completed_accounts": {}, "completed_channels": {}, "channel_errors": [],
+        }
+        saved_path.parent.mkdir(parents=True, exist_ok=True)
+
+        def save_progress(progress):
+            data.update(json.loads(json.dumps(progress)))  # Freeze mutable runner accumulators.
+            validate_checkpoint(data, report_date, all_accounts, output_file)
+            atomic_write_json(saved_path, data)
+
+        save_progress({})  # Durable refusal marker before first channel/network attempt.
+        try:
+            async with asyncio.timeout(COLLECTION_TIMEOUT_SECONDS):
+                await run_ordered_channels(report_date, all_accounts, headless=headless,
+                                           checkpoint_callback=save_progress)
+        except TimeoutError:
+            data["channel_errors"].append("whole X collection deadline exceeded; no fallback")
+            save_progress({})
+    outcome, channel_metadata = _checkpoint_outcome(data, all_accounts)
+    return _write_checkpoint_outputs(report_date, all_accounts, outcome, channel_metadata,
+                                     output_file, structured_file, data["collected_at"])
+
+
+def _write_checkpoint_outputs(report_date, all_accounts, outcome, channel_metadata,
+                              output_file, structured_file, collected_at):
+    official_count = sum(a.get("category") == "official/company account" for a in all_accounts)
     all_tweets = outcome.tweets
     failed_accounts = outcome.failed_accounts
     metadata = dict(outcome.metadata)
@@ -1278,7 +1549,7 @@ async def main(
     method = selected_channel or "none (all channels unavailable)"
     output = [
         f"X 原始候选 — {report_date}\n",
-        f"采集时间: {datetime.now(TZ_BEIJING).isoformat()}\n",
+        f"采集时间: {collected_at}\n",
         f"选定通道: {method}\n",
         f"尝试通道: {', '.join(attempted_channels) or '无'}\n",
         f"不可用通道: {', '.join(item['channel'] for item in unavailable_channels) or '无'}\n",
@@ -1329,10 +1600,9 @@ async def main(
             ]
         )
 
-    atomic_write_text(output_file, "".join(output), overwrite=overwrite)
-    atomic_write_json(
-        structured_file,
-        build_sidecar(
+    raw_text = "".join(output)
+    metadata["raw_sha256"] = hashlib.sha256(raw_text.encode("utf-8")).hexdigest()
+    sidecar = build_sidecar(
             report_date,
             all_tweets,
             failed_accounts,
@@ -1344,8 +1614,21 @@ async def main(
             accounts_total=len(all_accounts),
             accounts_completed=len(outcome.completed_accounts),
             channel_completed_accounts=channel_metadata.get("channel_completed_accounts", {}),
-        ),
-    )
+        )
+    # Validate BOTH existing files before completing an interrupted pair. Never overwrite either.
+    if output_file.exists() and output_file.read_bytes() != raw_text.encode("utf-8"):
+        raise FileExistsError(f"Existing raw output does not match checkpoint: {output_file}")
+    if structured_file.exists():
+        try:
+            existing = json.loads(structured_file.read_text(encoding="utf-8"))
+        except ValueError as error:
+            raise FileExistsError(f"Existing sidecar is not checkpoint output: {structured_file}") from error
+        if existing != sidecar:
+            raise FileExistsError(f"Existing sidecar does not match checkpoint: {structured_file}")
+    if not output_file.exists():
+        atomic_write_text(output_file, raw_text, overwrite=False)
+    if not structured_file.exists():
+        atomic_write_json(structured_file, sidecar, overwrite=False)
     if status == "failed":
         if outcome.error and "login" in outcome.error.casefold():
             raise XLoginRequired(outcome.error)
@@ -1359,7 +1642,12 @@ async def main(
 
 
 async def check_login(headless: bool = True):
-    """Check the active X profile without creating or changing report files."""
+    """Check the active X profile under the same profile lock as collection."""
+    with exclusive_lock(PROJECT_ROOT / ".runtime" / "locks" / "x-collection.lock"):
+        return await _check_login_locked(headless)
+
+
+async def _check_login_locked(headless):
     from playwright.async_api import async_playwright
 
     async with async_playwright() as playwright:
@@ -1375,6 +1663,9 @@ async def check_login(headless: bool = True):
 
 
 if __name__ == "__main__":
+    if "--recover-checkpoint" in sys.argv and "--check-login" in sys.argv:
+        print("--recover-checkpoint is offline and cannot be combined with --check-login", file=sys.stderr)
+        sys.exit(1)
     if "--check-login" in sys.argv:
         try:
             asyncio.run(check_login(headless=True))
@@ -1388,7 +1679,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) < 2:
         python_path = "C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe"
-        print(f"用法: {python_path} scripts/x_search.py <DATE> [--headless]")
+        print(f"用法: {python_path} scripts/x_search.py <DATE> [--headless] [--recover-checkpoint] [--output-suffix NAME]")
         print(f"示例: {python_path} scripts/x_search.py 2026-07-13")
         print(f"      {python_path} scripts/x_search.py 2026-07-13 --headless")
         sys.exit(1)
@@ -1406,7 +1697,10 @@ if __name__ == "__main__":
             print("unsupported option --web-access-input; use Playwright -> twscrape", file=sys.stderr)
             sys.exit(1)
     try:
-        asyncio.run(main(date, headless, overwrite, output_suffix))
+        asyncio.run(main(date, headless, overwrite, output_suffix, "--recover-checkpoint" in sys.argv))
+    except XCheckpointError as error:
+        print(f"X checkpoint failed: {error}", file=sys.stderr)
+        sys.exit(5)
     except XLoginRequired as error:
         print(f"X login required: {error}", file=sys.stderr)
         sys.exit(2)
