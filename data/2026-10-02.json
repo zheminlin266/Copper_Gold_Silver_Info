@@ -2,6 +2,7 @@
   "schema_version": 3,
   "date": "2026-10-02",
   "report_time": "2026-10-03T14:59:44+08:00",
+  "report_note": "2026-10-03按用户要求修正展示：Kai Hoffmann两条原帖正文改为中文摘要，补充段只保留新增口径与核验限制；原始英文证据、来源、发布时间、覆盖审计及最初生成时间不变，未重新采集。访谈缺少补充段时页面不再重复摘要。",
   "summary": "铜：Hope & Gorob进入精矿调试，Freeport恢复仍需爬坡；Sierra Gorda扩建增量主要在2030年，Vedanta复产有审批条件。黄金：印度贴水收窄，广州婚嫁销售局部改善，北京首饰与投资金条需求分化；Fenix全年预期承压。白银：Ying处理量恢复提高近期供给可见性，其他项目仍处钻探、冶金及建矿阶段。",
   "windows": {
     "part1": {
@@ -786,11 +787,11 @@
       ],
       "author": "Kai Hoffmann",
       "handle": "soarfinancial",
-      "excerpt": "Meet Prospectiva Resources, a newly listed copper-gold explorer drilling its flagship São Francisco VMS Project in Brazil.\n\nHistorical drilling returned 7.5m at 6.5% Cu, with a new 2,500m program now underway.\n\nCEO Dan James breaks down the opportunity \n\nhttps://\nyoutu.be/vZkzMfR_52s",
-      "interpretation": "Kai Hoffmann称Prospectiva Resources在巴西São Francisco VMS项目开展新的2,500米钻探，原帖还引述历史7.5米、6.5%铜的结果。后者仅为作者引用的历史钻段，未独立核验报告、钻孔编号、真厚度或代表性；新项目规模是钻探米数，不能换算为资源、储量或铜产量。未打开帖子中的YouTube链接，不归属任何未听取的CEO发言，也不补充投产年、融资或黄金品位。",
+      "excerpt": "Kai Hoffmann介绍，新上市的铜金勘探公司Prospectiva Resources正在巴西旗舰São Francisco火山成因块状硫化物（VMS）项目开展钻探。原帖称，历史钻探曾见7.5米、铜品位6.5%的矿段，新一轮2,500米钻探正在进行，并附上CEO Dan James介绍项目机会的访谈链接。",
+      "interpretation": "历史钻段的原始报告、孔号、真厚度及代表性尚未独立核验；钻探米数不能换算为资源量、储量或铜产量。所附YouTube视频未打开，不能据此归属CEO的具体发言，也不能补充投产时间、融资或黄金品位。",
       "importance": "新钻探将São Francisco的研究重点转为历史高品位能否在新增钻孔中重现，可能改善远期铜资源管线的证据质量。2,500米计划首先影响地质验证，近期不改变可交付铜供应；只有化验、连续性及后续经济研究成立，才适合提高长期开发权重，单段历史品位不足以量化增量。",
       "verification_status": "verified",
-      "verification_note": "离线核对既有Playwright捕获原作者、handle、UTC发布时间、status URL和保存原帖正文；verified限定为捕获文本及身份一致，不表示当前链接可访问、底层历史钻探独立证实或视频已打开。保留原帖换行及链接显示形式。",
+      "verification_note": "离线核对既有Playwright捕获原作者、handle、UTC发布时间、status URL和保存原帖正文；verified限定为捕获文本及身份一致，不表示当前链接可访问、底层历史钻探独立证实或视频已打开。页面正文为原帖中文摘要，英文精确引文及原帖换行、链接显示形式保留在claims和既有原始材料中。",
       "source_channel": "playwright"
     },
     {
@@ -823,8 +824,8 @@
       ],
       "author": "Kai Hoffmann",
       "handle": "soarfinancial",
-      "excerpt": "Visible gold in the historical Con Mine tailings \n\nGold Terra CEO Gerald Panneton joins us to discuss the early sonic drilling results, what they could mean for the upcoming PEA and the company's broader 20,000m drill program in Yellowknife.\n\nWatch \n\nhttps://\nyoutu.be/Ee5lI3ZGUFA",
-      "interpretation": "Kai Hoffmann原帖称Con Mine历史尾矿中出现可见金，访谈主题涉及Gold Terra早期声波钻探、即将开展的PEA及Yellowknife更广泛20,000米钻探项目。核验仅限保存原帖：没有化验品位、尾矿吨位、回收率、经济研究结论或供给时间表，20,000米不能全部归为尾矿声波钻探，也不能算作已完成米数。链接视频未打开，不能把主题描述扩展为Gerald Panneton的具体口述结论。",
+      "excerpt": "Kai Hoffmann称Con Mine历史尾矿中出现可见金，并附上Gold Terra CEO Gerald Panneton的访谈链接。原帖介绍的访谈主题包括早期声波钻探结果、这些结果对即将进行的初步经济评估（PEA）的潜在意义，以及公司在Yellowknife范围更广的20,000米钻探计划。",
+      "interpretation": "核验仅限保存的原帖，未取得化验品位、尾矿吨位、回收率、经济研究结论或供给时间表。20,000米不能全部归为尾矿声波钻探，也不能视为已完成米数；链接视频未打开，主题介绍不代表已核实Gerald Panneton的具体口述结论。",
       "importance": "Con Mine尾矿线索的价值在于检验既有废弃物能否转为经济可回收黄金，供应意义仍处研究阶段。潜在增量取决于PEA能否把取样代表性、冶金回收和处理成本连起来；20,000米是更广泛钻探规模，近期不能据此上调金产量，关键是尾矿独立化验及经济性是否得到支持。",
       "verification_status": "verified",
       "verification_note": "离线核对既有Playwright保存原作者、handle、UTC时刻、status URL及原帖正文；verified仅为捕获文本身份一致。可见金、钻探规模及PEA主题是作者陈述，未独立核验历史尾矿或经济研究，未打开视频或新增URL请求。",

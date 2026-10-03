@@ -8,6 +8,7 @@ browser service.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -118,7 +119,7 @@ CANDIDATE_FIELDS = {
     "handle", "metal", "metal_tags", "direction", "supply_demand", "language", "source_type",
     "source_channel", "excerpt", "summary", "detail", "interpretation", "importance", "claims",
     "guest", "companies", "projects", "verification_status", "verification_note",
-    "mining_com_source_note", "duplicate_of", "raw",
+    "mining_com_source_note", "duplicate_of", "raw", "evidence_documents",
 }
 DECISION_FIELDS = {
     "candidate_id", "accepted", "decision", "kind", "metal", "primary_metal", "metal_tags",
@@ -173,15 +174,84 @@ def _copy_optional(output: dict[str, Any], decision: Mapping[str, Any], candidat
         output[key] = value
 
 
-def _validate_claims(value: Any, candidate_id: str) -> list[dict[str, Any]]:
+def _normalize_evidence(text: str) -> str:
+    return " ".join(text.split())
+
+
+def _evidence_sources(candidate: Mapping[str, Any]) -> dict[str, str]:
+    """Bind quotes to URL-specific captured text; NOT origin authenticity or entailment.
+
+    Optional evidence_documents references contain artifact_path and sha256.
+    Captures are UTF-8 JSON with source_url, text, captured_at, access_status.
+    No network access or output-schema provenance is introduced.
+    """
+    own_text = [_normalize_evidence(_nonempty(candidate[key], f"candidate.{key}"))
+                for key in ("text", "raw_text") if key in candidate]
+    if len(set(own_text)) > 1:
+        raise ReportBuilderError("candidate text/raw_text conflict")
+    sources = {_candidate_url(candidate): own_text[0]} if own_text else {}
+    refs = candidate.get("evidence_documents", [])
+    if not isinstance(refs, list) or len(refs) > 32:
+        raise ReportBuilderError("candidate.evidence_documents must be a list of at most 32 references")
+    for ref in refs:
+        ref = _is_mapping(ref, "evidence document reference")
+        _reject_unknown(ref, {"artifact_path", "sha256"}, "evidence document reference")
+        relative = Path(_nonempty(ref.get("artifact_path"), "artifact_path"))
+        if relative.is_absolute() or relative.drive or not relative.parts or relative.parts[0] not in {".runtime", "x_outputs"} or ".." in relative.parts:
+            raise ReportBuilderError("evidence artifact_path must stay beneath .runtime or x_outputs")
+        digest = ref.get("sha256")
+        if not isinstance(digest, str) or not re.fullmatch(r"[0-9a-fA-F]{64}", digest):
+            raise ReportBuilderError("evidence sha256 must be a SHA-256 hex digest")
+        path = PROJECT_ROOT / relative
+        try:
+            for parent in (path, *path.parents):
+                if parent == PROJECT_ROOT:
+                    break
+                if parent.is_symlink() or (hasattr(parent, "is_junction") and parent.is_junction()):
+                    raise ReportBuilderError("evidence artifact symlinks/junctions are forbidden")
+            if not path.resolve(strict=True).is_relative_to((PROJECT_ROOT / relative.parts[0]).resolve(strict=True)):
+                raise ReportBuilderError("evidence artifact_path escapes allowed directory")
+            if not path.is_file():
+                raise ReportBuilderError("evidence artifact must be a regular file")
+            with path.open("rb") as stream:
+                raw = stream.read(2 * 1024 * 1024 + 1)
+            if len(raw) > 2 * 1024 * 1024:
+                raise ReportBuilderError("evidence artifact exceeds 2 MiB")
+            if hashlib.sha256(raw).hexdigest() != digest.lower():
+                raise ReportBuilderError("evidence artifact sha256 mismatch")
+            document = _is_mapping(json.loads(raw.decode("utf-8")), "evidence artifact")
+            url = validate_url(document.get("source_url"), "evidence source_url")
+            text = _normalize_evidence(_nonempty(document.get("text"), "evidence text"))
+            validate_datetime(document.get("captured_at"), "evidence captured_at")
+            if document.get("access_status") not in {"public", "authenticated-visible"}:
+                raise ReportBuilderError("evidence access_status must be public or authenticated-visible")
+            if url in sources and sources[url] != text:
+                raise ReportBuilderError("conflicting evidence text for the same source_url")
+            sources[url] = text
+        except (OSError, UnicodeError, ValueError, ContractError) as error:
+            raise ReportBuilderError(f"invalid evidence artifact: {error}") from error
+    return sources
+
+
+def _validate_claims(value: Any, candidate_id: str, candidate: Mapping[str, Any], signal_url: str) -> list[dict[str, Any]]:
     if not isinstance(value, list) or not value:
         raise ReportBuilderError(f"decision {candidate_id} must include at least one evidence claim")
+    sources = _evidence_sources(candidate)
+    if signal_url not in sources:
+        raise ReportBuilderError(f"verified signal {candidate_id} URL needs captured text bound to source_url")
     claims = []
     for index, claim in enumerate(value):
         try:
             parsed = claim if isinstance(claim, EvidenceClaim) else EvidenceClaim.from_dict(claim)
         except (ContractError, TypeError) as error:
             raise ReportBuilderError(f"invalid evidence claim for {candidate_id}[{index}]: {error}") from error
+        source_text = sources.get(parsed.source_url)
+        if parsed.source_url == _candidate_url(candidate) and not any(key in candidate for key in ("text", "raw_text")):
+            raise ReportBuilderError(f"evidence claim {candidate_id}[{index}] needs candidate captured text for its source_url")
+        if source_text is None:
+            raise ReportBuilderError(f"evidence claim {candidate_id}[{index}] needs captured text bound to source_url")
+        if _normalize_evidence(parsed.evidence) not in source_text:
+            raise ReportBuilderError(f"evidence claim {candidate_id}[{index}] quote does not occur in source text")
         claims.append(parsed.to_dict())
     return claims
 
@@ -423,8 +493,18 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
     kind = decision["kind"]
     unverified = _field(decision, candidate, "verification_status") == "unverified"
     claims = _field(decision, candidate, "claims")
-    if claims is not None or not unverified:
-        result["claims"] = _validate_claims(claims, decision["candidate_id"])
+    if unverified:
+        # Inspect BOTH inputs: overrides must not hide inherited narratives.
+        for record in (candidate, decision):
+            for key in ("detail", "excerpt", "interpretation", "importance"):
+                if key in record:
+                    raise ReportBuilderError(f"unverified source-only signal forbids {key}")
+            if "claims" in record and record["claims"] != []:
+                raise ReportBuilderError("unverified source-only signal forbids nonempty claims")
+            if "summary" in record and (kind != "broadcast" or record["summary"] != _field(decision, candidate, "title")):
+                raise ReportBuilderError("unverified source-only summary must exactly equal broadcast title")
+    else:
+        result["claims"] = _validate_claims(claims, decision["candidate_id"], candidate, result["url"])
     # Supplied factual fields must not vanish when a card cannot represent them.
     unsupported = {"broadcast": ("excerpt", "interpretation"), "x": ("summary", "detail"), "news": ("summary", "detail")}
     for key in unsupported[kind]:
@@ -441,9 +521,9 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
     elif kind == "x":
         result["author"] = _nonempty(_field(decision, candidate, "author"), f"decisions[{index}].author")
         result["handle"] = _nonempty(_field(decision, candidate, "handle"), f"decisions[{index}].handle")
-        body = _field(decision, candidate, "excerpt", "interpretation")
+        body = _field(decision, candidate, "excerpt")
         if body is None and not unverified:
-            raise ReportBuilderError(f"decisions[{index}] needs a non-empty excerpt or interpretation")
+            raise ReportBuilderError(f"decisions[{index}] needs a non-empty explicit excerpt")
         if body is not None:
             result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
         for key in ("interpretation", "importance", "verification_status", "verification_note", "source_channel"):
@@ -453,9 +533,9 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
     else:
         result["source"] = _nonempty(_field(decision, candidate, "source"), f"decisions[{index}].source")
         result["title"] = _nonempty(_field(decision, candidate, "title"), f"decisions[{index}].title")
-        body = _field(decision, candidate, "excerpt", "interpretation")
+        body = _field(decision, candidate, "excerpt")
         if body is None and not unverified:
-            raise ReportBuilderError(f"decisions[{index}] needs a non-empty excerpt or interpretation")
+            raise ReportBuilderError(f"decisions[{index}] needs a non-empty explicit excerpt")
         if body is not None:
             result["excerpt"] = _nonempty(body, f"decisions[{index}].excerpt")
         language = _field(decision, candidate, "language")

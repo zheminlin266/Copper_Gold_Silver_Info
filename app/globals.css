@@ -213,7 +213,8 @@ select {
   width: 310px;
   height: calc(50% + 12px);
   background: transparent;
-  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  /* Cover the trigger center, so diagonal entry does not hit its sibling menu. */
+  clip-path: polygon(calc(100% - 32px) 0, 100% 0, 100% 100%, 0 100%);
   pointer-events: none;
 }
 
@@ -562,11 +563,6 @@ select {
 
 .signal-block {
   margin-top: 18px;
-}
-
-.signal-block h4 {
-  margin-bottom: 4px;
-  color: var(--text-muted);
 }
 
 .signal-details,

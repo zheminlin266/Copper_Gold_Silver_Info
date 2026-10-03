@@ -85,6 +85,10 @@ function parseFiniteNumber(value: string, field: string, rowNumber: number): num
   if (!Number.isFinite(parsed)) {
     throw new Error(`TC CSV row ${rowNumber} has an invalid ${field}: ${value}`);
   }
+  // TC values are recorded in cents. Reject extra precision before arithmetic.
+  if (!/^[+-]?(?:\d+(?:\.\d{0,2})?|\.\d{1,2})$/.test(normalized) || !Number.isSafeInteger(Math.round(parsed * 100))) {
+    throw new Error(`TC CSV row ${rowNumber} ${field} must have at most two decimal places within the safe numeric range`);
+  }
   return parsed;
 }
 
@@ -136,7 +140,20 @@ export function parseTcCsv(csv: string): TcDataPoint[] {
     };
   });
 
-  return points.sort((left, right) => left.assessmentDate.localeCompare(right.assessmentDate));
+  // Preserve source order: sorting would conceal an invalid append or changed history.
+  // The first row has no preceding observation in this file, so its change is not checked.
+  for (let index = 1; index < points.length; index += 1) {
+    const prior = points[index - 1];
+    const current = points[index];
+    if (current.assessmentDate <= prior.assessmentDate) {
+      throw new Error(`TC CSV row ${index + 2} assessment_date must be strictly increasing`);
+    }
+    const expectedCents = Math.round(current.value * 100) - Math.round(prior.value * 100);
+    if (!Number.isSafeInteger(expectedCents) || Math.round(current.change * 100) !== expectedCents) {
+      throw new Error(`TC CSV row ${index + 2} change_usd_per_dmt must equal current value minus prior CSV value (${(expectedCents / 100).toFixed(2)})`);
+    }
+  }
+  return points;
 }
 
 export function getTcData(): TcDataPoint[] {

@@ -6,9 +6,10 @@
 - `setup_x_login.py`：设置 X 的 Playwright 登录会话。
 - `x_search.py`：按权威工作流采集 X 原始候选。
 - `mining_com_search.py`：按日期从 Mining.com 金、银、铜分类页采集候选。
-- `validate-content.mjs`：校验日报内容；支持成品路径和 `--stdin YYYY-MM-DD.json`，供 report builder 写前调用。
+- `validate-content.mjs`：校验日报内容；无参数时也校验 TC CSV 的日期顺序、两位小数和相邻变化值。支持成品路径和 `--stdin YYYY-MM-DD.json`，供 report builder 写前调用。
 - `runtime_support.py`：标准库 OS 锁、实时命令日志、超时及子进程树清理；不自动重试。
 - `run_scheduled_daily.py`：独立调度入口，记录阶段/心跳并验证发布；脚本存在不代表 Windows 计划任务已注册。
+- `check_daily_health.py`：只读检查最近应有日报及本地保存的业务验证证据，JSON 告警和非零退出不触发补跑、网络请求或任何外部通知。
 
 ## 确定性流水线
 
@@ -74,7 +75,32 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeli
 
 ## 写入与发布验证
 
-先安装既有 npm 依赖。`report_builder.py --validate-only`、`build_report()` 和最终 `write_report()` 共用 Node/AJV schema 与语义校验；验证失败或 Node 不可用时不写目标文件。既有成品始终不可覆盖，兼容的 `--overwrite` 参数不再允许替换日报；明确授权的内容纠错另行处理。`project_report()` 仅供纯投影，不代表最终验证通过。未核验新闻/X 可省略正文与 claims；访谈 `summary` 仍受现有 schema 的必填规则约束，不自动编造摘要。
+先安装既有 npm 依赖。`report_builder.py --validate-only`、`build_report()` 和最终 `write_report()` 共用 Node/AJV schema 与语义校验；验证失败或 Node 不可用时不写目标文件。既有成品始终不可覆盖，兼容的 `--overwrite` 参数不再允许替换日报；明确授权的内容纠错另行处理。`project_report()` 仅供纯投影，不代表最终验证通过。未核验卡的候选和决策均不得携带 `excerpt`、`detail`、`interpretation`、`importance` 或非空 `claims`（不要写 null/空字符串）；访谈必填 `summary` 只能原样使用卡片 `title`，前端隐藏该占位正文。builder 立即执行这些规则；Node 成品校验从 `2026-10-03` 起执行，历史文件不回填。
+
+已核验完整研究卡的 X/新闻事实须显式写 `excerpt`，不再回退复制 `interpretation`。显示为中文摘要和可选的不重复补充段，内部原文引句与研究判断保持分离。
+
+### 引句与捕获文本绑定
+
+每条 `claims.evidence` 必须在同一 `claims.source_url` 的捕获文本中出现，只规范化空白，不忽略大小写、标点或替换词。候选原 URL 使用非空 `text` 或 `raw_text`；同时提供时必须一致。另一来源（例如媒体引用的公司公告）可在候选中加 `evidence_documents`：
+
+```json
+{"artifact_path": ".runtime/browser-verification/RUN_ID/issuer.json", "sha256": "替换为该文件字节的64位SHA-256"}
+```
+
+该对象须放在 `evidence_documents` 数组中（最多 32 个）。每个引用的 UTF-8 JSON 至少包含：
+
+```json
+{
+  "source_url": "https://example.com/issuer-release",
+  "text": "实际读取并保存的原文全文或相关连续段落",
+  "captured_at": "2026-10-03T09:00:00+08:00",
+  "access_status": "public"
+}
+```
+
+`artifact_path` 相对仓库根目录，仅允许 `.runtime/` 或 `x_outputs/` 内的普通文件，禁止绝对路径、`..`、符号链接和 junction；文件上限 2 MiB，SHA-256 按原始字节核对。`access_status` 仅接受 `public` 或 `authenticated-visible`。同一 URL 的文本冲突、哈希冲突、引句跨源错配或找不到引句都会在写入前失败，不联网补全，不创建成品。
+
+该约束证明文本匹配、URL 绑定和引用文件字节一致，不能证明来源真实性、实际访问权限或结论成立；仍需人工/AI 按工作流核验语义、数值和可见页面，不能把搜索摘要或访问门禁后的隐藏内容包装为 capture。证据 artifact 不写入最终 JSON，不提交账号截图或私有会话信息。旧 analysis bundle 可能因缺少文本/引用而失败；只能从已有材料补齐证据，不能因此自动重采集。
 
 ```bash
 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/report_builder.py analysis.json --validate-only
@@ -84,8 +110,30 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/run_schedule
 
 独立入口在目标报告存在时跳过 AI；首次正常运行才启动已安装的 OpenCode，可用 `--model` 明确指定其模型。默认 AI 3 小时、单个校验 30 分钟、发布等待 30 分钟，均有限期。已开始 AI 的中断任务缺少成品时拒绝自动重新调用，需先完成材料恢复与报告生成。`--resume` 仅重新校验现有成品，不负责自动 Git 提交或推送。
 
-状态在 `.runtime/scheduled/YYYY-MM-DD.state.json`，日志在 `.runtime/scheduled/runs/`；旧日志不改写。GitHub 检查绑定 remote main SHA，CI pending/临时故障/生产旧页面有限退避等待，CI 明确失败和权限错误停止。四个生产路由检查日期、来源 href、导航及最新 TC 日期/值；不访问 MacroMicro 外站，也不声称验证了 Vercel 部署 SHA。
+状态在 `.runtime/scheduled/YYYY-MM-DD.state.json`，日志在 `.runtime/scheduled/runs/`；旧日志不改写。新成功状态包含 `verified_report_sha256` 和 `verified_tc_sha256`，验证期间文件变化将失败；修正成品后旧成功不能继续作为当前内容的验证证据。GitHub 检查绑定 remote main SHA，CI pending/临时故障/生产旧页面有限退避等待，CI 明确失败和权限错误停止。四个生产路由检查日期、来源 href、导航及最新 TC 日期/值；不访问 MacroMicro 外站，也不声称验证了 Vercel 部署 SHA。
 
 保留 `.runtime/locks/` 下的锁文件；锁由 OS 在进程退出时释放，不靠删除文件解锁。Windows 使用原生 Job Object 约束子进程树，监督进程被强杀也会清理后代；POSIX 使用进程组，监督进程自身遭 SIGKILL 时仍需子级锁/checkpoint 防止重复操作。当前正式 Pi 定时任务已启用 `extensions: true`，浏览器仍需上述进程授权及有效网站会话；推送后使用 `run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。独立 Windows 计划任务尚未注册，不能与当前 Pi 入口同时启用；切换入口及外部告警服务需要另行授权配置，本次代码不会自动启用它们。
+
+### 本地导航边缘回归（不访问外站）
+
+在 `npm run build` 后启动本地 `npm run start -- --hostname 127.0.0.1 --port 3000`，另一个终端运行：
+
+```bash
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000 --executable-path "C:/Program Files/Google/Chrome/Application/chrome.exe"
+```
+
+该检查使用隔离的 headless Chrome，在 1440/800/390px 下实际操作 TC 菜单左/中/右斜向移入、切换库存、键盘导航与关闭，并校验顶边对齐和无横向溢出。只接受 loopback HTTP 地址，阻止外站请求，不使用已有 profile。它是显式本地检查，不加入日常采集或新调度。
+
+### 只读健康检查与尚未覆盖的监督边界
+
+```bash
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B scripts/check_daily_health.py
+# 可重放指定时刻；时间必须带时区
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B scripts/check_daily_health.py --now 2026-10-03T12:00:00+08:00 --grace-minutes 240
+```
+
+按北京时间 07:00 选择最近应执行周期，默认完成宽限 4 小时。缺报告、超期、失败/损坏状态、缺少成功阶段或当前内容与保存哈希不符时返回非零。`pending` 在宽限内不告警；`verified` 只表示当前本地文件匹配保存的成功验证，不是实时生产检查。历史成功 state 无哈希时返回 `verification_required`，需要仅验证已有成品，不重采集。工具不设置任何新 cron/OS 任务或外部告警通道。
+
+正式 Pi 任务只在尾部调用 `--verify-only`，现有 wrapper 的锁、开始标记、deadline 尚未覆盖前面的 Pi AI；缺少 state 不能证明 AI 从未启动。不要在 Pi 任务内调用普通 wrapper 来嵌套 OpenCode。完整 Pi 监督需在 SDK 启动前接入；隔离 worker 无法继承当前 Chrome 进程授权，切换入口、替换调度扩展或激活新行为须另行确认。Pi/PC 重启仍需用户重新授权，当前未变更该边界。
 
 日常任务不自行改写或提交工作流文档。明确授权的手动维护可在专用分支精确提交日报及已验证的方法文档；先通过本地校验和 PR/CI/Preview，再合并并核验 main 生产页面，最后清理本次分支并回到 main。无关文件始终排除。

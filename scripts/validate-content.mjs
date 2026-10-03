@@ -3,6 +3,7 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
+import { getTcData } from "../lib/tc-data.ts";
 
 const DATE_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
 const DATE = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -34,6 +35,8 @@ const LEGACY_PART2_SELECTED_CHANNELS = new Set([
 ]);
 const CURRENT_PART2_SELECTED_CHANNELS = new Set(["playwright", "twscrape", "playwright+twscrape"]);
 const VERIFICATION_STATUS_REQUIRED_FROM = "2026-08-09";
+// Preserve published historical narratives; new unverified cards are source-only.
+const SOURCE_ONLY_REQUIRED_FROM = "2026-10-03";
 const WINDOW_BOUNDARY_REQUIRED_FROM = "2026-07-06";
 const PUBLISH_WINDOW_REQUIRED_FROM = "2026-07-06";
 // These four published historical values stay fixed because moving them would change historical semantics.
@@ -174,6 +177,23 @@ function validateSignal(
     throw new Error(`${filename}: ${prefix} has invalid supply_demand`);
   }
   validateUrl(item.url, `${prefix}.url`, filename);
+  if (filename.slice(0, 10) >= SOURCE_ONLY_REQUIRED_FROM) {
+    if (item.verification_status === "unverified") {
+      for (const field of ["detail", "excerpt", "interpretation", "importance"]) {
+        if (Object.hasOwn(item, field)) throw new Error(`${filename}: ${prefix} source-only card forbids ${field}`);
+      }
+      if (item.claims !== undefined && (!Array.isArray(item.claims) || item.claims.length > 0)) {
+        throw new Error(`${filename}: ${prefix} source-only card forbids nonempty claims`);
+      }
+      if (item.summary !== undefined && (!prefix.startsWith("part1_broadcasts[") || item.summary !== item.title)) {
+        throw new Error(`${filename}: ${prefix} source-only summary must exactly equal broadcast title`);
+      }
+    } else if (item.verification_status === "verified" && !prefix.startsWith("part1_broadcasts[")
+      && (item.interpretation !== undefined || item.importance !== undefined || item.excerpt !== undefined)) {
+      // Existing title/source-only cards remain valid; judgments cannot replace facts.
+      requireString(item.excerpt, `${prefix}.excerpt (explicit facts)`, filename);
+    }
+  }
   if (validateImportanceContent && item.importance !== undefined) {
     validateImportance(item.importance, `${prefix}.importance`, filename);
   }
@@ -514,7 +534,8 @@ export function loadReports(dataDir = path.join(process.cwd(), "data")) {
 function main(args = process.argv.slice(2)) {
   if (args.length === 0) {
     const reports = loadReports();
-    console.log(`Validated ${reports.length} daily reports (${reports[0].date} to ${reports.at(-1).date}).`);
+    const tcRows = getTcData();
+    console.log(`Validated ${reports.length} daily reports (${reports[0].date} to ${reports.at(-1).date}); ${tcRows.length} TC rows.`);
     return;
   }
   let filename;

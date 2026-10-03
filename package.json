@@ -10,7 +10,7 @@
     "start": "next start",
     "validate:content": "node scripts/validate-content.mjs",
     "typecheck": "tsc --noEmit",
-    "test": "node --test tests/content.test.mjs"
+    "test": "node --test tests/*.test.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
