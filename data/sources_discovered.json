@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-10-03",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -78,6 +78,55 @@
       "category": "矿业公司官方新闻",
       "notes": "2026-09-15 JD Project drill-completion release directly verified on the issuer site and Newsfile; 55 holes, more than 16,000 metres, assays pending, and an inaugural resource estimate targeted for Q1 2027.",
       "channel": "https://sunsummitminerals.com/"
+    },
+    {
+      "source_id": "source-clear-commodity-msd",
+      "display_name": "Mining Stock Daily / Clear Commodity",
+      "category": "矿业公司访谈/播客",
+      "notes": "Verified Sep 30-Oct 2 Beijing episode pages and publisher descriptions for the Oct 2 report. Descriptions are attributed written summaries, not proof that interview audio was heard.",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/orezone-gold-is-no-longer-just-a-burkina-faso-story"
+    },
+    {
+      "source_id": "source-prospector-news",
+      "display_name": "The Prospector News",
+      "category": "矿业媒体/播客",
+      "notes": "Dryden Gold programme page and publication metadata directly verified for the Oct 2 report; only written publisher claims used, with financing and drilling plans distinguished from output.",
+      "channel": "https://theprospectornews.com/prospector-podcast-trey-wasser-dryden-gold-ceo-on-district-scale-exploration-in-northwest-ontario/"
+    },
+    {
+      "source_id": "source-natural-resource-stocks",
+      "display_name": "Natural Resource Stocks",
+      "category": "矿业公司访谈/视频说明",
+      "notes": "Four Nines programme description directly verified, with Beijing publication Oct 2 23:14. Promotional company coverage is attributed; drill intervals are not true thickness or mineral resources.",
+      "channel": "https://naturalresourcestocks.net/four-nines-gold-inc-reports-results-from-first-hayden-hill-hole-in-nearly-30-years/"
+    },
+    {
+      "source_id": "source-yangcheng-evening-news",
+      "display_name": "羊城晚报",
+      "category": "中文媒体/实物消费走访",
+      "notes": "Oct 2 original A02 newspaper report directly verified. Guangzhou store interviews provide local sales comparisons only, not national gold-consumption volume.",
+      "channel": "https://ep.ycwb.com/epaper/ycwb/html/2026-10/02/content_2975_767863.htm"
+    },
+    {
+      "source_id": "source-time-weekly",
+      "display_name": "时代周报",
+      "category": "中文媒体/实物消费走访",
+      "notes": "Oct 2 18:23:48 original Beijing gold-retail report directly verified. Oct 1 observations distinguish jewellery transactions, subdued investment-bar counters and unchanged local YoY traffic.",
+      "channel": "https://www.time-weekly.com/post/333300"
+    },
+    {
+      "source_id": "source-kghm-media",
+      "display_name": "KGHM Polska Miedz",
+      "category": "矿业公司官方新闻",
+      "notes": "Oct 2 Sierra Gorda fourth grinding-line release directly verified; ore throughput and future copper-production targets kept separate, with 2029 completion and H2 2030 full-capacity guidance.",
+      "channel": "https://media.kghm.com/en/news-and-press-releases/kghm-polska-miedz-s-a-is-launching-an-expansion-of-the-sierra-gorda-mine-worth-usd-725-million"
+    },
+    {
+      "source_id": "source-bezant-rns",
+      "display_name": "Bezant Resources / RNS",
+      "category": "矿业公司监管公告",
+      "notes": "Oct 2 Hope & Gorob RNS directly verified. Commissioning and ore-throughput targets are not full-rate metal output; first saleable concentrate expected available for offtake, not already delivered.",
+      "channel": "https://www.investegate.co.uk/index.php/announcement/rns/bezant-resources--bzt/hope-gorob-commercial-production-commences/9803012"
     }
   ]
 }

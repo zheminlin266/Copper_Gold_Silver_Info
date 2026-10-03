@@ -56,9 +56,21 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeli
 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --reuse-mining .runtime/pipeline/YYYY-MM-DD/RUN_ID
 ```
 
+`.gitattributes` 将按日期保存的 X 原始 TXT/JSON 固定为 LF，防止 Windows `core.autocrlf` 改写 TXT 字节后破坏 sidecar 的 SHA-256；不要对历史材料运行全仓库换行重整。
+
 前两条命令使用默认日期输出；带 suffix 的恢复保留独立材料，不会自动替换默认材料。离线恢复的退出码仍反映覆盖情况：partial 为 4、failed 为 5（登录错误可为 2），不意味着应重跑采集。`--import-x` 校验现有 raw/sidecar 后导入；`--reuse-mining` 只复用同日、同注册表的完整 `mining_com_search.result.json`。新运行保存自己的清单，不改旧运行。
 
-流水线 stdout/stderr 实时写入每次运行目录，`*.process.json` 记录心跳/终态。每个完成采集器立即保存 `*.result.json` 和候选，后续失败不会抹去前面结果。Mining 每个分类的候选也单独落盘；分类页完整性与逐篇核验仍按工作流执行，缓存不代替事实核验。
+流水线 stdout/stderr 实时写入每次运行目录，`*.process.json` 记录心跳/终态。每个完成采集器立即保存 `*.result.json` 和候选，后续失败不会抹去前面结果。Mining 每个分类的候选也单独落盘；分类页完整性与逐篇核验仍按工作流执行，缓存不代替事实核验。强制分类发现可由同日、同注册表且分类完整的保存结果及 provenance 满足，恢复不要求重新采集；逐篇困难原文允许按工作流第 7.1 节使用 PiChrome 现有 profile 回退。
+
+## PiChrome 困难原文核验（不改采集器）
+
+普通搜索/网页读取优先；此前 Mining 403 文章、FCX 原文和用户已登录 SMM 的可见页面已通过现有 profile 读取。当前普通 Mining 403、Firecrawl 缓存 lockdown miss 不证明原文无法通过已授权浏览器核验，也不允许关闭 lockdown。此回退只用于困难原文，不替代分类发现或扩大为全页面抓取；不新增采集器或 TC CSV 逻辑。
+
+- 先检查访问状态/截图，再读可见正文；登录墙、付费墙或 challenge 后的 DOM/嵌入数据/响应不作证据。允许用户预先登录的可见会话，不自动填写凭据或绕过安全机制。已授权登录 SMM 可作为 TC 单一合格来源，记录 authenticated-visible；指标身份、实际评估日期、USD/dmt、CSV 上期值算术及节假日规则保持不变。
+- 单 actor、少量 inactive 自有标签、准确 tab ID；不读私人标签，仅清理自有标签。证据保存在 ignored `.runtime/browser-verification/` 新目录，截图可能含账号名称，不提交或共享。逐页记录 URL、标题、publication precision、精确引文/定位、capture time、access status 和 artifact 引用；capture time 不替代发布日期，截图失败如实记录。
+- 有限导航/超时，不盲目 reload；保存 completed/pending，恢复只处理 pending。授权失败、登录失效或 challenge 停止浏览器路径；单条未核验可降级，分类发现不完整仍阻止 Part 3 发布。
+- 不改 VPN/DNS/SSRF/TLS，不复制 profile/cookies、不重启 Chrome、不直接调用 bridge 绕过授权。CUA 需要独立 existing-profile grant，未授权不自动替换。
+- `/chrome authorize indefinite` 是用户确认的 live Pi **进程生命周期**授权；同进程 `/reload` 和加载扩展的新 scheduled session 可继承，实际一次性 scheduled 测试已通过。Pi/PC 重启需用户重新授权，不自动授予或修改检查；不是重启持久权限或网站权益，重启/锁屏桌面未验证。
 
 ## 写入与发布验证
 
@@ -74,4 +86,6 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/run_schedule
 
 状态在 `.runtime/scheduled/YYYY-MM-DD.state.json`，日志在 `.runtime/scheduled/runs/`；旧日志不改写。GitHub 检查绑定 remote main SHA，CI pending/临时故障/生产旧页面有限退避等待，CI 明确失败和权限错误停止。四个生产路由检查日期、来源 href、导航及最新 TC 日期/值；不访问 MacroMicro 外站，也不声称验证了 Vercel 部署 SHA。
 
-保留 `.runtime/locks/` 下的锁文件；锁由 OS 在进程退出时释放，不靠删除文件解锁。Windows 使用原生 Job Object 约束子进程树，监督进程被强杀也会清理后代；POSIX 使用进程组，监督进程自身遭 SIGKILL 时仍需子级锁/checkpoint 防止重复操作。系统定时任务注册、旧 Pi 入口停用及外部告警服务需要单独配置，本次代码不会自动启用它们。
+保留 `.runtime/locks/` 下的锁文件；锁由 OS 在进程退出时释放，不靠删除文件解锁。Windows 使用原生 Job Object 约束子进程树，监督进程被强杀也会清理后代；POSIX 使用进程组，监督进程自身遭 SIGKILL 时仍需子级锁/checkpoint 防止重复操作。当前正式 Pi 定时任务已启用 `extensions: true`，浏览器仍需上述进程授权及有效网站会话；推送后使用 `run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。独立 Windows 计划任务尚未注册，不能与当前 Pi 入口同时启用；切换入口及外部告警服务需要另行授权配置，本次代码不会自动启用它们。
+
+日常任务不自行改写或提交工作流文档。明确授权的手动维护可在专用分支精确提交日报及已验证的方法文档；先通过本地校验和 PR/CI/Preview，再合并并核验 main 生产页面，最后清理本次分支并回到 main。无关文件始终排除。
