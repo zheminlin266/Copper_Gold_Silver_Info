@@ -1,0 +1,231 @@
+X 原始候选 — 2026-10-02
+采集时间: 2026-10-03T12:03:05.435173+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 35/53 完成，失败 18
+各通道完成账户数: {"playwright": 10, "twscrape": 25}
+采集状态: partial
+失败账号数: 18
+通道错误: playwright @RealRickRule: no explicit no-results marker; completeness unknown; playwright @KatusaResearch: no explicit no-results marker; completeness unknown; playwright @ResourceMaven: no explicit no-results marker; completeness unknown; playwright @duediligenceguy: no explicit no-results marker; completeness unknown; playwright @mercenarygeo: no explicit no-results marker; completeness unknown; playwright @JoeMazumdar: no explicit no-results marker; completeness unknown; playwright @KaiserResearch: no explicit no-results marker; completeness unknown; playwright @SteveTodoruk: no explicit no-results marker; completeness unknown; playwright @mjgeiger: no explicit no-results marker; completeness unknown; playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @Jamie_Keech: no explicit no-results marker; completeness unknown; playwright @JuniorMinerJunky: no explicit no-results marker; completeness unknown; playwright @JohnFeneck: no explicit no-results marker; completeness unknown; playwright @JayantBhandari5: no explicit no-results marker; completeness unknown; playwright @chenpicks: no explicit no-results marker; completeness unknown; playwright @GerardoDelReal: no explicit no-results marker; completeness unknown; playwright @TekoaDaSilva: no explicit no-results marker; completeness unknown; playwright @RobMcEwenMUX: no explicit no-results marker; completeness unknown; playwright @keith_neumeyer: no explicit no-results marker; completeness unknown; playwright @Frank_Giustra: no explicit no-results marker; completeness unknown; playwright @NolanWatson: no explicit no-results marker; completeness unknown; playwright @AmirAdnani: no explicit no-results marker; completeness unknown; playwright @MichaelKonnert: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown; twscrape @IvanhoeMines_: No account available for queue SearchTimeline; twscrape: twscrape safety stop for @IvanhoeMines_: No account available for queue SearchTimeline; @IvanhoeMines_: No account available for queue SearchTimeline; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; @NewmontCorp: no explicit no-results marker; completeness unknown; @BarrickGold: no explicit no-results marker; completeness unknown; @TeckResources: no explicit no-results marker; completeness unknown; @AntofagastaPLC: no explicit no-results marker; completeness unknown; @LundinMining: no explicit no-results marker; completeness unknown; @AgnicoEagle: no explicit no-results marker; completeness unknown; @FirstMajestic: no explicit no-results marker; completeness unknown; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; @Wheaton_PM: no explicit no-results marker; completeness unknown; @EndeavourMining: no explicit no-results marker; completeness unknown; @SSRMining: no explicit no-results marker; completeness unknown; @KinrossGold: no explicit no-results marker; completeness unknown; @SandstormGold: no explicit no-results marker; completeness unknown; @Fortuna_Silver: no explicit no-results marker; completeness unknown; @GoGoldResources: no explicit no-results marker; completeness unknown; @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号:
+  @IvanhoeMines_ (Ivanhoe Mines): No account available for queue SearchTimeline
+  @FreeportMcMoRan (Freeport-McMoRan): no explicit no-results marker; completeness unknown
+  @NewmontCorp (Newmont): no explicit no-results marker; completeness unknown
+  @BarrickGold (Barrick Gold): no explicit no-results marker; completeness unknown
+  @TeckResources (Teck Resources): no explicit no-results marker; completeness unknown
+  @AntofagastaPLC (Antofagasta): no explicit no-results marker; completeness unknown
+  @LundinMining (Lundin Mining): no explicit no-results marker; completeness unknown
+  @AgnicoEagle (Agnico Eagle): no explicit no-results marker; completeness unknown
+  @FirstMajestic (First Majestic Silver): no explicit no-results marker; completeness unknown
+  @PanAmericanSlvr (Pan American Silver): no explicit no-results marker; completeness unknown
+  @Wheaton_PM (Wheaton Precious Metals): no explicit no-results marker; completeness unknown
+  @EndeavourMining (Endeavour Mining): no explicit no-results marker; completeness unknown
+  @SSRMining (SSR Mining): no explicit no-results marker; completeness unknown
+  @KinrossGold (Kinross Gold): no explicit no-results marker; completeness unknown
+  @SandstormGold (Sandstorm Gold): no explicit no-results marker; completeness unknown
+  @Fortuna_Silver (Fortuna Mining): no explicit no-results marker; completeness unknown
+  @GoGoldResources (GoGold Resources): no explicit no-results marker; completeness unknown
+  @vizslasilver (Vizsla Silver): no explicit no-results marker; completeness unknown
+============================================================
+
+总计候选: 17 条
+
+============================================================
+
+[1] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-10-01T20:39:06+00:00
+    北京: 2026-10-02T04:39:06+08:00
+    文本: 8) Thank you for reading!
+
+Kindly like and retweet if you think someone else would get value from this thread. 
+
+Looking for high-quality junior gold and silver stocks with genuine 5x–10x upside potential? Now is the time.
+    链接: https://x.com/TheDailyGold/status/2105759433103917229
+
+[2] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-10-01T20:37:06+00:00
+    北京: 2026-10-02T04:37:06+08:00
+    文本: 7) Summary: Putting it all together
+
+Short-term trend is down as metals and miners look to make the "start of the rate hike cycle low."
+
+Gold volatility should remain low for months and this makes sense during the rate hike cycle.    
+
+The major fundamental development to look
+    链接: https://x.com/TheDailyGold/status/2105758927887515976
+
+[3] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-10-01T20:31:08+00:00
+    北京: 2026-10-02T04:31:08+08:00
+    文本: 4) Gold & Silver Daily Chart
+
+You do not need to be a technical analyst to recognize the short-term trend is down.
+
+A retest of the summer lows in precious metals is becoming increasingly likely.
+
+Be advised, Gold is notorious for false breakdowns & false new lows.
+    链接: https://x.com/TheDailyGold/status/2105757426964181488
+
+[4] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-10-01T20:29:07+00:00
+    北京: 2026-10-02T04:29:07+08:00
+    文本: 3) Gold Volatility
+
+Gold exploded higher in Q1, sending volatility indicators sharply higher.
+
+Volatility spikes are followed by periods of compression and subdued volatility.
+
+$GVZ has fallen to an 8-month low, while 40-week Bollinger Band Width has declined to an 18-month low.
+    链接: https://x.com/TheDailyGold/status/2105756920728465679
+
+[5] @TheDailyGold (Jordan Roy-Byrne)
+    UTC: 2026-10-01T20:27:06+00:00
+    北京: 2026-10-02T04:27:06+08:00
+    文本: 2) Fed Rate Hike Cycle
+
+Gold made key lows in 1999, 2004, 2016, and 2017, each around the start of Fed tightening.
+
+When Gold weakens in advance of rate hikes, the first hike has often marked the low. The market tends to discount the tightening cycle before it actually begins.
+    链接: https://x.com/TheDailyGold/status/2105756414312382717
+
+[6] @silverguru22 (David Morgan)
+    UTC: 2026-10-01T16:36:20+00:00
+    北京: 2026-10-02T00:36:20+08:00
+    文本: Gold Down 8.5% in Sept, Silver -13.5% as Real Yields 'Re-Price Fast' - BullionVault - 
+https://
+goo.gl/alerts/qawiRZ #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2105698340235276355
+
+[7] @silverguru22 (David Morgan)
+    UTC: 2026-10-01T16:35:42+00:00
+    北京: 2026-10-02T00:35:42+08:00
+    文本: Silver Option Contract Specs - CME Group - 
+https://
+goo.gl/alerts/zR1eak #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2105698178708434952
+
+[8] @silverguru22 (David Morgan)
+    UTC: 2026-10-01T16:35:26+00:00
+    北京: 2026-10-02T00:35:26+08:00
+    文本: Silver Has Now Lost Nearly Half Its Value. Here's What Broke the Metals Trade - 
+https://
+goo.gl/alerts/m8QyLs #GoogleAlerts
+    链接: https://x.com/silverguru22/status/2105698110764904945
+
+[9] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-02T14:14:51+00:00
+    北京: 2026-10-02T22:14:51+08:00
+    文本: Silver at $60+ still isn’t the whole story.
+
+The bigger opportunity, in my view, is what could happen next in quality silver stocks.
+
+I break down why I remain so bullish in my latest piece, available only on 
+@OrestocksDotCom
+:
+
+
+https://
+orestocks.com/article/3910a4
+50-906a-4e02-9dbf-81f8e78ff3cc
+…
+
+For more silver insights,
+    链接: https://x.com/peter_krauth/status/2106025118921011366
+
+[10] @ArcadiaEconomic (Chris Marcus)
+    UTC: 2026-10-02T15:19:09+00:00
+    北京: 2026-10-02T23:19:09+08:00
+    文本: #GOLD & #SILVER just informed the opposition that checkmate status has been achieved.....
+    链接: https://x.com/ArcadiaEconomic/status/2106041301409886377
+
+[11] @TaviCosta (Otavio Costa)
+    UTC: 2026-10-02T00:23:10+00:00
+    北京: 2026-10-02T08:23:10+08:00
+    文本: Wild.
+
+US and China’s combined money supply is surging almost as fast as it did during the Covid stimulus madness.
+
+That is a 10% increase in just 12 months!
+
+Let that sink in.
+
+
+https://
+tavicosta.substack.com/p/party-like-i
+ts-2020
+…
+    链接: https://x.com/TaviCosta/status/2105815820949725572
+
+[12] @RonStoeferle (Ronnie Stoeferle)
+    UTC: 2026-10-02T10:01:37+00:00
+    北京: 2026-10-02T18:01:37+08:00
+    文本: @SecScottBessent
+ restocks his bench 
+
+ David Zervos: ex-Jefferies strategist 
+@DavidZervosDC
+ 
+ Judy Shelton: ex-Fed nominee, architect of gold-redeemable Treasuries 
+@judyshel
+ 
+
+It seems that #Gold just made the roster 
+
+Our #IGWT26 interview with Judy Shelton 
+    链接: https://x.com/RonStoeferle/status/2105961393996415417
+
+[13] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-10-02T13:28:01+00:00
+    北京: 2026-10-02T21:28:01+08:00
+    文本: We need more copper not less ..
+    链接: https://x.com/wmiddelkoop/status/2106013333794984288
+
+[14] @LawrenceLepard (Lawrence Lepard)
+    UTC: 2026-10-02T11:13:58+00:00
+    北京: 2026-10-02T19:13:58+08:00
+    文本: LL:  Yes it could Mr. President.
+Saying the quiet part out loud.  And you don't think gold and bitcoin are going to moon?
+    链接: https://x.com/LawrenceLepard/status/2105979598219460805
+
+[15] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-02T15:00:02+00:00
+    北京: 2026-10-02T23:00:02+08:00
+    文本: Meet Prospectiva Resources, a newly listed copper-gold explorer drilling its flagship São Francisco VMS Project in Brazil.
+
+Historical drilling returned 7.5m at 6.5% Cu, with a new 2,500m program now underway.
+
+CEO Dan James breaks down the opportunity 
+
+https://
+youtu.be/vZkzMfR_52s
+    链接: https://x.com/soarfinancial/status/2106036490761564367
+
+[16] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-01T17:13:11+00:00
+    北京: 2026-10-02T01:13:11+08:00
+    文本: Storm Exploration has confirmed a new VMS system at Gold Standard.
+
+8 holes. 1,500+ metres drilled. Sulfides encountered in every hole across 1.9km of strike.
+
+CEO Bruce Counts explains what they've found and why the assays will determine what comes next.
+
+Watch 
+    链接: https://x.com/soarfinancial/status/2105707611530363306
+
+[17] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-01T16:03:38+00:00
+    北京: 2026-10-02T00:03:38+08:00
+    文本: Visible gold in the historical Con Mine tailings 
+
+Gold Terra CEO Gerald Panneton joins us to discuss the early sonic drilling results, what they could mean for the upcoming PEA and the company's broader 20,000m drill program in Yellowknife.
+
+Watch 
+
+https://
+youtu.be/Ee5lI3ZGUFA
+    链接: https://x.com/soarfinancial/status/2105690108833972442
+

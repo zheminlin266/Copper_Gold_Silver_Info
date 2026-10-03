@@ -47,7 +47,7 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeli
 
 定时主流程必须等待所有采集命令和委派任务结束、读取其最终结果后再汇总、生成日报及发布；不能以“仍在等待采集”的进度汇报结束主流程。定时任务的关键路径委派使用前台执行，不启动无人收尾的后台研究。恢复时先确认旧采集进程已退出，复用已有候选、sidecar 和已生成日报，不重复 X 采集，不覆盖原始材料或日报。
 
-AI 只接收代码产出的规范化候选，返回严格的分析决策和证据字段（事实提取、供需判断、去重、中文摘要等）。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`；在本次已授权的定时任务范围内，AI 可在全部研究和校验通过后运行精确路径的 Git add/commit/push。只可提交本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料及明确纠错，不得提交其他文件，也不得把采集器失败静默当成零结果；Part 1/Part 3 失败阻止发布，X partial/failed 按第 5.2 节保留审计并降级。普通公开网页优先使用搜索和网页读取工具。Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；不要为了普通静态网页启动浏览器自动化。网站本身不调用模型，也不保存模型密钥。
+AI 只接收代码产出的规范化候选，返回严格的分析决策和证据字段（事实提取、供需判断、去重、中文摘要等）。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`；在本次已授权的定时任务范围内，AI 可在全部研究和校验通过后运行精确路径的 Git add/commit/push。只可提交本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料及明确纠错，不得提交其他文件，也不得把采集器失败静默当成零结果；Part 1/Part 3 失败阻止发布，X partial/failed 按第 5.2 节保留审计并降级。普通公开网页优先使用搜索和网页读取工具。Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；困难原文核验可按第 7.1 节使用已授权的 PiChrome 现有会话，不扩大为所有页面抓取。网站本身不调用模型，也不保存模型密钥。
 
 ## 5. 收集流程
 
@@ -87,7 +87,7 @@ X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须�
 
 mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端、`site:mining.com` Google 搜索和 WebFetch 均无法可靠获取 `/commodity/copper/` 页面的实际文章列表——Google 搜索返回的是首页/SEO 内容而非铜分类页文章。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
 
-1. **Playwright 直接抓取铜分类页**（日报固定 Python 3.12.x + Chromium headless + 反检测）。这是唯一可靠的 mining.com 信息采集路径。每次 Part 3 检索必须执行：
+1. **Playwright 直接抓取铜分类页**（日报固定 Python 3.12.x + Chromium headless + 反检测）。这是铜分类页完整发现的强制主路径，不排除第 7.1 节的已验证文章核验回退。每次 Part 3 检索必须完成该分类发现；恢复时可按第 12 节复用同日、同注册表且分类完整的已保存结果及 provenance，无需重新采集：
    ```
    C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe
    ```
@@ -101,8 +101,8 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 2. **逐篇核验**。Playwright 提取的候选列表每条都要：
    - 优先尝试 WebFetch 抓取文章 URL 完整正文（部分 `/web/` URL 对 WebFetch 较友好）
-   - 若文章 URL 返回 403 或超时，用 Playwright 同一会话打开该文章 URL 提取正文
-   - 若仍受限，寻找中文转载源（SMM、新浪财经、东方财富网等）交叉核验
+   - 若文章 URL 返回 403 或超时，可用 Playwright 同一会话或按第 7.1 节使用已授权 PiChrome 现有 profile 核验可见正文；遇到登录墙、challenge 或安全停止不得继续提取或重试
+   - 若仍不可读，寻找中文转载源（SMM、新浪财经、东方财富网等）交叉核验
    - 在 `mining_com_source_note` 字段明确记录核验路径
 
 3. **辅助渠道**。除 Playwright 抓取铜分类页外，仍需执行：
@@ -111,7 +111,7 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 4. **搜索日志记录**。在 `search_log.part3_sources_checked` 中，必须单独记录：
    - mining.com `/commodity/copper/` Playwright 抓取状态和文章数
-   - 各篇文章的核验路径（WebFetch 成功 / Playwright 抓取 / 中文转载交叉核验）
+   - 各篇文章的核验路径（WebFetch 成功 / Playwright 抓取 / 已授权 PiChrome 可见原文核验 / 中文转载交叉核验）
    - site:mining.com 金/银搜索命中数（辅助参考）
 
 5. **不采用** sitemap、Wayback Machine、RSS feed 等方法。`site:mining.com` 搜索仅作为金/银分类页的辅助发现手段，不得作为铜分类页的主要信息源。
@@ -168,6 +168,17 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 在 `search_log.url_verification` 记录检查数量、通过数、失败数、失败项和简短说明。未核验来源计入 `failed`，但只要采集流程完整并按上述规则逐卡标注，不会单独阻止发布。
 
+### 7.1 困难原文的 PiChrome 核验回退
+
+普通搜索/网页读取仍优先。此前普通读取返回 403 的 Mining 文章、FCX 原文和用户已登录的 SMM 页面已通过 PiChrome 现有 profile 成功读取；当前普通 Mining 读取仍可能 403，Firecrawl 缓存可能出现 lockdown miss，不得关闭 lockdown。PiChrome 是允许的原文核验回退，不替代强制分类发现，也不证明所有页面可读。
+
+- 使用用户已授权的现有 Chrome profile；允许读取用户预先登录且实际可见的正文，不自动填写凭据、不登录、不绕过登录墙、付费墙、challenge 或安全机制。先检查访问状态并截图，再提取正文；访问门禁后的 DOM、嵌入数据或网络响应不是证据，不得宣称为公开内容。截图失败须记录，不能宣称完成视觉核验。
+- 同一时刻只由一个 actor 操作；使用少量 inactive 自有工作标签，以准确 tab ID 定位。保留且不读取无关私人标签，只清理本次自有标签。截图/证据保存在 git 忽略的本地 `.runtime/browser-verification/` 新目录；截图可能含账号名称，不提交或共享。
+- 每页保存请求/最终 URL、标题、发布日期及其精度、关键原文精确引文和定位、capture time、访问状态及证据/截图 artifact 引用；capture time 不得充当 publication time。保存已完成和 pending 页面，恢复只处理未完成项。
+- 设置有限导航次数和超时，不盲目 reload。浏览器授权失败、登录失效或 challenge 时立即停止浏览器路径，保存 pending 并请求用户处理；单条不可读来源可按第 7 节标记未核验，分类发现未完成仍阻止 Part 3 发布。
+- 不修改 VPN、DNS、SSRF/TLS，不复制 profile/cookies、不重启 Chrome、不直接调用 bridge 绕过授权。CUA 需要独立的 existing-profile grant，未授权时不能自动替换 PiChrome。
+- 用户已确认的 `/chrome authorize indefinite` 仅在当前 live Pi **进程生命周期**内有效；同进程 `/reload` 和加载扩展的新 scheduled session 可继承，实际一次性 scheduled 测试已通过。Pi 或 PC 重启后必须由用户重新授权；不得自动授予或修改权限检查。这不是重启持久授权或网站访问权益，也未证明重启后、锁屏桌面可用。
+
 ## 8. 去重
 
 - 先规范 URL：移除无意义的追踪参数和片段，再比较。
@@ -196,7 +207,7 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 
 原始材料应保留且不得覆盖：X 候选继续写入按日期命名的 `x_outputs/REPORT_DATE_x_raw_materials.txt`；其他确有复核价值的原始材料使用带日期的新文件。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
 
-## 9A. 每周六 TC 更新（无需 SMM 登录）
+## 9A. 每周六 TC 更新（公开来源或用户已授权登录会话）
 
 此任务与日报研究相互独立。TC 获取失败时不得写入猜测值或部分记录，但应继续完成日报，并在最终汇报中单独列出 TC 状态和失败证据。
 
@@ -206,9 +217,9 @@ mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端
 2. 目标文件固定为 `data/smm_copper_concentrate_index_2026.csv`。先确认表头仍为 `assessment_date,value_usd_per_dmt,change_usd_per_dmt,source_url,source_note`，并读取最后一条记录。
 3. 若 CSV 已有相同 `assessment_date` 且数值一致，视为幂等成功并跳过写入；若相同日期的数值不同，停止 TC 更新并报告冲突，不得覆盖历史数据。
 
-### 9A.2 单一公开来源数据路径
+### 9A.2 单一合格来源数据路径
 
-SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评正文可能需要登录。不得尝试代替用户登录，也不得把锁定页面中的空白字段当作零值。只要以下任一公开来源明确提供当期评估日期和 TC 值，即可进入第 9A.3 节校验，不要求完整周评正文或第二个独立来源：
+SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评正文可能需要登录。不得尝试代替用户登录，也不得把锁定页面中的空白字段当作零值。按第 7.1 节核验的用户已授权、已登录且可见的 SMM 页面也可作为单一合格来源，必须记录 authenticated-visible 访问状态，不得标为公开或使用访问门禁后隐藏的正文。只要该页面或以下任一公开来源明确提供当期评估日期和 TC 值，即可进入第 9A.3 节校验，不要求完整周评正文或第二个独立来源：
 
 - SMM 官方公开报价页、数据表、行情页或其他公开页面；
 - 任意一个可打开的第三方媒体、行业网站或公开报告，且页面明确把数值归属于 SMM 进口铜精矿指数（周）。
@@ -216,7 +227,7 @@ SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评�
 按以下路径发现来源：
 
 1. 优先打开 SMM Copper Concentrate Index 页面 `https://www.metal.com/copper/201910240001`、SMM 铜矿数据页 `https://hq.smm.cn/h5/copper-ore-data`、SMM 铜页面 `https://hq.smm.cn/copper` 或市场周评列表 `https://hq.smm.cn/copper/list/14013`。页面中的报价表、数据卡片、标题或正文均可作为取值位置；周评文章身份可作为辅助记录，但其正文登录受限不得阻止使用其他合格来源。
-2. 若官方公开页面没有暴露当期值，使用网页搜索逐条执行动态日期查询，不得只搜索固定示例：
+2. 若官方公开页面及已授权登录会话均未提供可见当期值，使用网页搜索逐条执行动态日期查询，不得只搜索固定示例：
    - `"M月D日，SMM进口铜精矿指数（周）报"`
    - `"TARGET_FRIDAY SMM 进口铜精矿指数 周"`
    - `"完整的 SMM 铜精矿现货周评标题"`
@@ -232,7 +243,7 @@ SMM 指数页 `https://www.metal.com/copper/201910240001` 和部分 SMM 周评�
 - `value_usd_per_dmt` 是来源显示的有限数字，保留两位小数，单位为美元/干吨（USD/dmt）。
 - `PRIOR` 固定取 CSV 最后一条 `value_usd_per_dmt`，`change_usd_per_dmt = round(VALUE - PRIOR, 2)`。即使来源没有公布上一期值或周变化，也必须按此公式写入。
 - 若来源公布的上一期值或周变化与 CSV 算术结果不同，将差异写入 `source_note`，但只要当期评估日期、指标身份、单位和当期值明确，就不因此阻止更新，也不得用来源中的周变化覆盖 CSV 算术结果。
-- `source_url` 指向实际显示当期日期和值的单一合格来源。使用第三方媒体时，`source_note` 写明媒体名称、其对 SMM 的归属说明、CSV 上期值和计算后的周变化；使用 SMM 官方公开页面时，记录页面类型、CSV 上期值和计算结果。登录受限的周评 URL 只能作为可选辅助身份信息。
+- `source_url` 指向实际显示当期日期和值的单一合格来源。使用第三方媒体时，`source_note` 写明媒体名称、其对 SMM 的归属说明、CSV 上期值和计算后的周变化；使用 SMM 官方页面时，记录页面类型、公开或 authenticated-visible 访问状态、CSV 上期值和计算结果。未能读取的登录受限周评 URL 只能作为可选辅助身份信息。
 
 若 `TARGET_FRIDAY` 因中国节假日没有发布，查找自 CSV 最后一条记录之后、`TARGET_FRIDAY` 当日或之前最近一次由 SMM 明确发布的周度评估；使用来源中的实际日期，并在 `source_note` 写明 holiday schedule。不得用周五日期替代周四等实际发布日期。若没有找到新的明确评估，跳过写入并报告，不得沿用旧值制造新行。
 
@@ -315,6 +326,8 @@ npm run build
 
 07:00 是任务开始时间。只有生产页可访问、日期正确且来源链接正常，才算发布完成。
 
+日常任务不得自行改写或提交工作流文档。用户明确授权的手动维护可在专用分支纳入日报及已验证的方法文档，精确暂存授权路径并完成本地校验，经 PR 的 CI/Preview 检查后合并，再核验 main 对应生产页面，最后清理本次分支并回到 main；不夹带无关文件。
+
 ## 12. 失败与恢复
 
 X 每完成或失败一个账号就保存 `.runtime/x/REPORT_DATE/checkpoint.json`。存在 checkpoint、原始 TXT 或 sidecar 时默认拒绝新增采集，即使指定 `--overwrite` 也不重采集。确认旧进程退出后，可执行 `x_search.py REPORT_DATE --recover-checkpoint` 离线导出已保存结果，再执行 `daily_pipeline.py REPORT_DATE --import-x` 校验导入；两者不增加 X 流量。未完成、在途或未访问账号一律标注未知/未完成，仅把已有持久化证据的账号计为完成，不按运行时长估算进度。离线导出的 partial/failed 仍返回非零，不能因此自动重试。
@@ -336,7 +349,7 @@ X 每完成或失败一个账号就保存 `.runtime/x/REPORT_DATE/checkpoint.jso
 
 ## 14. 完成定义
 
-独立调度入口为 `scripts/run_scheduled_daily.py`，需另行授权并配置 Windows 计划任务后才会定时执行；仓库存在入口脚本不代表系统任务已注册，不能与旧 Pi 定时入口同时启用。OpenCode 正常退出不等于日报成功：入口还检查目标 JSON、内容校验、类型检查、Python/Node 测试、构建、远程 main 报告和 TC 内容、该 SHA 的 push 校验工作流以及四个生产页面。CI 排队、暂时网络失败和页面仍旧时有期限地等待；CI 明确失败或权限错误立即失败。页面内容验证不等于 Vercel 部署 SHA 证明，也不替代涉及页面改动时的真实浏览器测试。
+当前正式入口是已有 Pi 定时任务，已启用 `extensions: true`；浏览器访问仍受第 7.1 节 live Pi 进程授权、profile 可用性及网站会话条件约束。推送后执行 `scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。独立 Windows 计划任务尚未注册；另行授权并配置后才会定时执行，不能与当前 Pi 入口同时启用。OpenCode 正常退出不等于日报成功：入口还检查目标 JSON、内容校验、类型检查、Python/Node 测试、构建、远程 main 报告和 TC 内容、该 SHA 的 push 校验工作流以及四个生产页面。CI 排队、暂时网络失败和页面仍旧时有期限地等待；CI 明确失败或权限错误立即失败。页面内容验证不等于 Vercel 部署 SHA 证明，也不替代涉及页面改动时的真实浏览器测试。
 
 入口使用全局 OS 锁，按日期原子记录 `.runtime/scheduled/YYYY-MM-DD.state.json`，命令日志保存在 `.runtime/scheduled/runs/`；Windows 原生 Job Object 会在包装进程退出或被强杀时清理其子进程树。锁文件保持原位，OS 在进程退出后自动解锁，不要通过删除锁文件解除并发保护。默认 AI 阶段预算 3 小时、单个校验命令 30 分钟、发布等待 30 分钟；这不改变 X 单次采集的 60 分钟预算。任何失败返回非零，不自动重采集或覆盖日报。
 

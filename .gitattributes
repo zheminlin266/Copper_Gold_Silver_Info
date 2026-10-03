@@ -1,0 +1,3 @@
+# Raw TXT hashes are recorded in their JSON sidecars; keep checkout bytes stable.
+x_outputs/*_x_raw_materials*.txt text eol=lf
+x_outputs/*_x_raw_materials*.json text eol=lf
