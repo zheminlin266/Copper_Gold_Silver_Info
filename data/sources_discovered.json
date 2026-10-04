@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-05",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -169,6 +169,20 @@
       "category": "矿业公司官方新闻",
       "channel": "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html",
       "notes": "原始Newswire公告和Archive公开HTTP200核验。2026-10-02 16:30 MST按UTC−7为北京10月3日07:30；第二孔完成和第三孔启动是钻探进度，不等于资源或产量。"
+    },
+    {
+      "source_id": "source-red-star-news",
+      "display_name": "红星新闻",
+      "category": "中文媒体/实物消费走访",
+      "channel": "https://i.ifeng.com/c/8wwsNQznzrf",
+      "notes": "2026-10-04成都黄金零售走访在凤凰网红星新闻署名页面公开HTTP200核验；可见时间与meta一致为15:03:57+08:00。采用记者及门店实际购买观察，排除文中网友爆料；局部样本不代表全国销量。"
+    },
+    {
+      "source_id": "source-china-securities-journal",
+      "display_name": "中国证券报",
+      "category": "中文财经媒体/黄金ETF资金统计",
+      "channel": "https://finance.sina.com.cn/stock/2026-10-04/doc-iniuanmc7018519.shtml",
+      "notes": "2026-10-04公开新浪转载HTTP200核验，明确归属CSJ/Wind，截至9月30日前三季华安与国泰黄金ETF净流入194.86及106.71亿元。未直读Wind；门户同稿非独立证据；可见21:59和metadata22:01:47不一致故仅日精度，资金不换算实物吨数。"
     }
   ]
 }
