@@ -47,6 +47,7 @@ class DailyPipelineTests(unittest.TestCase):
             self.assertEqual(len(candidates), 1)
 
     def test_x_collection_uses_current_channel_order_and_preserves_partial_sidecar(self):
+        accounts = get_x_accounts(load_registry())
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / "data").mkdir()
@@ -54,12 +55,12 @@ class DailyPipelineTests(unittest.TestCase):
             shutil.copy(Path("data/source_registry.json"), root / "data/source_registry.json")
             sidecar = {
                 "collector": "x_search", "report_date": "2024-02-29", "status": "partial",
-                "accounts_total": 53, "accounts_completed": 2, "accounts_failed": 51,
+                "accounts_total": len(accounts), "accounts_completed": 2, "accounts_failed": len(accounts) - 2,
                 "attempted_channels": ["playwright", "twscrape"], "channel_completed_accounts": {"playwright": 1, "twscrape": 1}, "selected_channel": "playwright+twscrape",
                 "metadata": {"channel_errors": []}, "unavailable_channels": [],
                 "candidates": [], "errors": [
                     {"source_id": account["source_id"], "handle": account["x_handle"], "author": account["display_name"], "error": "failed"}
-                    for account in get_x_accounts(load_registry())[:51]
+                    for account in accounts[:-2]
                 ],
             }
             captured = {}
@@ -79,13 +80,13 @@ class DailyPipelineTests(unittest.TestCase):
         accounts = get_x_accounts(load_registry())
         base = {
             "collector": "x_search", "report_date": "2024-02-29", "status": "partial",
-            "accounts_total": 53, "accounts_completed": 1, "accounts_failed": 52,
+            "accounts_total": len(accounts), "accounts_completed": 1, "accounts_failed": len(accounts) - 1,
             "attempted_channels": ["playwright", "twscrape"],
             "channel_completed_accounts": {"playwright": 1}, "selected_channel": "playwright",
             "metadata": {"channel_errors": []}, "unavailable_channels": [],
             "candidates": [], "errors": [
                 {"source_id": account["source_id"], "handle": account["x_handle"], "author": account["display_name"], "error": "failed"}
-                for account in accounts[:52]
+                for account in accounts[:-1]
             ],
         }
 
