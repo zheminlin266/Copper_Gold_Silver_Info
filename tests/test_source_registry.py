@@ -11,15 +11,24 @@ from scripts.source_registry import (
 
 
 class SourceRegistryTests(unittest.TestCase):
-    def test_authoritative_registry_keeps_legacy_x_coverage(self):
+    def test_authoritative_registry_has_valid_unique_x_sources(self):
         registry = load_registry()
         accounts = get_x_accounts(registry)
         handles = {entry["x_handle"].casefold() for entry in accounts}
         self.assertEqual(len(accounts), len(handles))
-        self.assertIn("realrickrule", handles)
-        self.assertIn("juniorminerjunky", handles)
-        self.assertIn("ivanhoemines_", handles)
+        self.assertTrue(accounts)
         self.assertTrue(all(entry["source_id"] for entry in accounts))
+
+    def test_source_without_x_handle_keeps_channel_but_is_not_collected(self):
+        registry = validate_registry({"version": 1, "sources": [
+            {"source_id": "paused", "display_name": "Paused", "category": "person",
+             "channel": "https://x.com/Paused", "x_user_id": "42"},
+            {"source_id": "active", "display_name": "Active", "category": "person",
+             "x_handle": "Active"},
+        ]})
+        self.assertEqual([entry["source_id"] for entry in get_x_accounts(registry)], ["active"])
+        self.assertEqual(registry[0]["channel"], "https://x.com/Paused")
+        self.assertEqual(registry[0]["x_user_id"], "42")
 
     def test_duplicate_handles_merge_case_insensitively(self):
         entries = validate_registry(
