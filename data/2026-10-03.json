@@ -1,0 +1,613 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-03",
+  "report_time": "2026-10-04T08:23:59+08:00",
+  "summary": "黄金：国庆首饰消费出现局部回暖，非正规开采扩张加大合规供应关注；矿山前期融资与资源核验尚未带来即期产量。白银：项目交易和资金安排改善开发可能性，付款、验证与许可仍约束兑现。铜：勘探融资缓解前期资金约束，短期供给未因融资闭合而增加。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-01T00:00:00+08:00",
+      "end": "2026-10-03T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-03T00:00:00+08:00",
+      "end": "2026-10-03T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-03T00:00:00+08:00",
+      "end": "2026-10-03T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://m.fznews.com.cn/fzyw/20261003/3407dZ7PE9.shtml",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-03T17:53:00+08:00",
+      "claims": [
+        {
+          "claim": "福州记者现场看到消费者挑选、试戴和购买黄金饰品。",
+          "evidence": "记者看到，金旭祥黄金、梦金园、君豪、福辉珠宝等黄金珠宝门店，消费者络绎不绝，不少消费者正在挑选、试戴、购买黄金饰品。",
+          "source_url": "https://m.fznews.com.cn/fzyw/20261003/3407dZ7PE9.shtml",
+          "evidence_type": "original_local_field_report; locator: public_page_0.json $.text",
+          "period": "2026年国庆假期，10月3日报道",
+          "unit": "现场消费观察",
+          "value": "挑选、试戴、购买"
+        },
+        {
+          "claim": "婚嫁金饰及轻克重吊坠、手链消费改善为当地受访者观察，无城市总量数据。",
+          "evidence": "不仅婚嫁“三金”“五金”畅销，轻克重的足金吊坠、手链等也销量上升。",
+          "source_url": "https://m.fznews.com.cn/fzyw/20261003/3407dZ7PE9.shtml",
+          "evidence_type": "original_local_field_report; locator: public_page_0.json $.text",
+          "period": "2026年国庆假期",
+          "unit": "产品销量方向，未披露克重",
+          "value": "上升"
+        }
+      ],
+      "source": "福州新闻网",
+      "title": "福州黄金零售走访：婚嫁及轻克重饰品消费回暖，未披露全市销量增幅",
+      "excerpt": "福州新闻网10月3日报道，记者近日走访特艺城及东泰禾广场，记者观察到消费者挑选、试戴及购买金饰；受访金店称婚嫁“三金”“五金”畅销，轻克重吊坠、手链销量亦上升。当地行业协会将回暖归因于金价回调和婚庆旺季刚需叠加，报道未给出全市销售克重或同比增幅。",
+      "language": "zh",
+      "interpretation": "这是不同于此前广州、北京样本的福州现场证据。金饰成交及产品偏好说明被高价格压制的部分首饰需求释放，但客流、首饰销售额及黄金净消费量是不同口径，不能据此推算全国需求或投资金条需求。",
+      "importance": "福州样本提高了国庆期间黄金首饰需求阶段性改善的可信度，轻克重产品走强也提示消费预算仍限制单笔用金量。10月3日报道中的现场成交可作为短期需求锚点；其后是否转化为净新增克重，要看假期销售量、节后回落及投资金条表现，婚庆集中采购可能包含消费时点提前。",
+      "verification_status": "verified",
+      "verification_note": "公开原文HTTP200；原始时间和正文核对，地方走访不外推全国。",
+      "companies": [],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://pinnaclesilverandgold.com/pinnacle-closes-second-and-final-tranche-of-private-placement-2/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-03T02:45:00+08:00",
+      "claims": [
+        {
+          "claim": "第二批私募募集1,000,575，发行9,096,132单位，每单位0.11；币种未明示。",
+          "evidence": "the Company issued 9,096,132 units (the “Units”) at a price of $0.11 per Unit for gross proceeds of $1,000,575.00.",
+          "source_url": "https://pinnaclesilverandgold.com/pinnacle-closes-second-and-final-tranche-of-private-placement-2/",
+          "evidence_type": "issuer_release; locator: public_page_1.json $.text",
+          "period": "2026年10月2日公告，首发北京10月3日",
+          "unit": "source $; units",
+          "value": "1,000,575.00; currency unspecified"
+        },
+        {
+          "claim": "净募集资金拟用于El Potrero金银项目推进、项目评估与营运资金。",
+          "evidence": "The net proceeds raised from the Offering will be used to advance the high-grade El Potrero gold-silver project in Durango, Mexico, for project evaluations, and for general working capital.",
+          "source_url": "https://pinnaclesilverandgold.com/pinnacle-closes-second-and-final-tranche-of-private-placement-2/",
+          "evidence_type": "issuer_release; locator: public_page_1.json $.text",
+          "period": "未来资金使用计划",
+          "unit": "funding use",
+          "value": "El Potrero advancement"
+        }
+      ],
+      "source": "Pinnacle Silver and Gold Corp.",
+      "title": "Pinnacle完成第二批融资，资金拟用于El Potrero金银项目推进",
+      "excerpt": "Pinnacle宣布完成第二批及最后一批非经纪私募，募资1,000,575；两批总额1,652,654，仍须TSX Venture Exchange批准。净募集资金拟用于墨西哥El Potrero金银项目推进、项目评估及一般营运资金；原文金额以“$”表述，未在该公告中明确币种。",
+      "language": "en",
+      "interpretation": "本次新增事实是融资闭合，既有100吨/日历史选厂及许可后生产设想只是项目背景。资金配置可支持评估与开发准备，但尚未披露其中工程投资占比、许可进度或新增金银产量，不能把历史处理能力当作已恢复产能。",
+      "importance": "El Potrero前期推进的资金可用性有所改善，1,000,575的最后一批融资把此前募集计划推进至已闭合阶段。对中期金银供给的贡献仍取决于许可、选厂修复和工程预算能否匹配，下一验证点是具体资金用途与开发里程碑；营运资金占比及交易所批准条件使其不能直接换算成产量增量。",
+      "verification_status": "verified",
+      "verification_note": "公开发行人原文HTTP200；按实际首发时间转换北京。金额原文未明确币种时不补造，计划与实产区分。 原始Newswire更早发布：2026-10-02 11:45 MST，按字面MST UTC−7为2026-10-03T02:45:00+08:00；发行人正文URL保持。https://www.thenewswire.com/press-releases/1LmPFGjK6-pinnacle-closes-second-and-final-tranche-of-private-placement.html",
+      "companies": [
+        "Pinnacle Silver and Gold"
+      ],
+      "projects": [
+        "El Potrero"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/317218/Copper-Lake-Resources-Announces-Closing-of-First-Tranche-of-NonBrokered-Private-Placement",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-03T05:10:00+08:00",
+      "claims": [
+        {
+          "claim": "第一批私募募集2,343,755，单位价格0.15，发行15,625,031单位；币种未明示。",
+          "evidence": "The Company has closed on a total of 15,625,031 Units at a price of $0.15 per Unit for gross proceeds of $2,343,755.",
+          "source_url": "https://www.newsfilecorp.com/release/317218/Copper-Lake-Resources-Announces-Closing-of-First-Tranche-of-NonBrokered-Private-Placement",
+          "evidence_type": "issuer_release; locator: public_page_2.json $.text",
+          "period": "2026年10月2日EDT公告",
+          "unit": "source $; units",
+          "value": "2,343,755; currency unspecified"
+        },
+        {
+          "claim": "净募集资金拟用于Marshall Lake勘探及一般营运资金。",
+          "evidence": "The net proceeds of the financing will be used for exploration at the Company's Marshall Lake project and for general working capital purposes.",
+          "source_url": "https://www.newsfilecorp.com/release/317218/Copper-Lake-Resources-Announces-Closing-of-First-Tranche-of-NonBrokered-Private-Placement",
+          "evidence_type": "issuer_release; locator: public_page_2.json $.text",
+          "period": "未来资金使用计划",
+          "unit": "funding use",
+          "value": "Marshall Lake exploration"
+        }
+      ],
+      "source": "Copper Lake Resources Ltd.（Newsfile）",
+      "title": "Copper Lake完成首批私募，净资金拟用于Marshall Lake勘探",
+      "excerpt": "Copper Lake宣布完成此前私募的第一批，共发行15,625,031单位，每单位0.15，募集2,343,755；原文使用“$”且未明确币种。净资金拟用于Marshall Lake项目勘探及一般营运资金，第二批预计10月14日前结束，整个私募仍须监管及交易所批准。",
+      "language": "en",
+      "interpretation": "融资闭合增强后续钻探和项目评估的执行能力，但本次未披露新化验结果、资源量或生产计划。Marshall Lake多金属地质背景不等于本次资金已创造金银或铜产量，仅将主要铜勘探资金安排计入铜板块。",
+      "importance": "Marshall Lake的勘探资金约束获得部分缓解，首批2,343,755募集额是实际融资进展，而10月14日第二批结束仍为预期节点。远期铜供给价值取决于资金转为钻探结果和可开发资源的效率，短期供应不因此增加；后续应核对最终批准、项目实际支出和新增资源证据。",
+      "verification_status": "verified",
+      "verification_note": "公开发行人原文HTTP200；按实际首发时间转换北京。金额原文未明确币种时不补造，计划与实产区分。",
+      "companies": [
+        "Copper Lake Resources"
+      ],
+      "projects": [
+        "Marshall Lake"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/317181/Advanced-Gold-Signs-MOU-to-Acquire-Corcoran-Silver-Gold-Property-with-Historical-Inferred-Silver-Resource",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-03T03:32:00+08:00",
+      "claims": [
+        {
+          "claim": "MOU不具约束力，交易仍须最终协议。",
+          "evidence": "The MOU is non-binding and the Transaction remains subject to the negotiation and execution of definitive agreements.",
+          "source_url": "https://www.newsfilecorp.com/release/317181/Advanced-Gold-Signs-MOU-to-Acquire-Corcoran-Silver-Gold-Property-with-Historical-Inferred-Silver-Resource",
+          "evidence_type": "issuer_release; locator: public_page_3.json $.text",
+          "period": "截至2026年10月2日EDT公告",
+          "unit": "transaction status",
+          "value": "non-binding"
+        },
+        {
+          "claim": "拟承接剩余付款义务约340万美元，其中120万美元10月31日前到期。",
+          "evidence": "The Company expects to assume remaining cash obligations of approximately US$3.4 million payable to the underlying vendor, subject to the terms of the applicable acquisition agreements, including approximately US$1.2 million required on or before October 31, 2026, and a further approximately US$2.2 million thereafter.",
+          "source_url": "https://www.newsfilecorp.com/release/317181/Advanced-Gold-Signs-MOU-to-Acquire-Corcoran-Silver-Gold-Property-with-Historical-Inferred-Silver-Resource",
+          "evidence_type": "issuer_release; locator: public_page_3.json $.text",
+          "period": "2026年10月31日及以后拟议付款",
+          "unit": "USD",
+          "value": "3.4m total; 1.2m by Oct31"
+        },
+        {
+          "claim": "公司不将历史估算作为当前矿产资源。",
+          "evidence": "A qualified person has not done sufficient work to classify them as current mineral resources, and the Company is not treating them as current mineral resources.",
+          "source_url": "https://www.newsfilecorp.com/release/317181/Advanced-Gold-Signs-MOU-to-Acquire-Corcoran-Silver-Gold-Property-with-Historical-Inferred-Silver-Resource",
+          "evidence_type": "issuer_release; locator: public_page_3.json $.text",
+          "period": "截至2026年10月2日EDT",
+          "unit": "resource classification",
+          "value": "historical only"
+        }
+      ],
+      "source": "Advanced Gold Exploration Inc.（Newsfile）",
+      "title": "Advanced Gold拟承接Corcoran银金项目收购权，MOU及融资仍有条件",
+      "excerpt": "Advanced Gold披露9月30日签署MOU，拟承接Ameerex对Corcoran Canyon及Belmont项目持有公司的收购权利义务。MOU不具约束力，仍待最终协议；拟承接约340万美元付款义务，其中约120万美元须10月31日前支付。与卡塔尔投资团体讨论的融资尚未完成。",
+      "language": "en",
+      "interpretation": "新增信息是拟议资产及融资路径，公告引用的约3,970万盎司银当量属于历史推断估算，公司明确不视为当前矿产资源。它既不是新探获资源，更不能作为新增银储量或产量；历史估算验证、孪生孔验证钻探及付款履约先于开发判断。",
+      "importance": "Corcoran的潜在推进路径仍受到短期付款与最终文件双重约束，10月31日约120万美元节点比历史资源宣传更能检验交易执行。若融资和尽调落地，才可能释放验证与勘探支出；在此前，MOU带来的只是远期银金开发选择权，历史估算可信度与权利延续构成主要兑现风险。",
+      "verification_status": "verified",
+      "verification_note": "公开发行人原文HTTP200；按实际首发时间转换北京。金额原文未明确币种时不补造，计划与实产区分。",
+      "companies": [
+        "Advanced Gold Exploration",
+        "Ameerex"
+      ],
+      "projects": [
+        "Corcoran Canyon",
+        "Belmont"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://mcfarlanelakemining.com/2026/10/mcfarlane-files-updated-mineral-resource-estimate-on-juby-gold-project/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-03T06:39:41+08:00",
+      "claims": [
+        {
+          "claim": "相对8月公布数据，本次推断资源增加3万盎司、指示减少7万盎司。",
+          "evidence": "Filed Technical Report reflects a minor amendment where inferred resources have increased by 30,000 ounces and indicated resources decreased by 70,000 ounces to the estimate announced August 17, 2026",
+          "source_url": "https://mcfarlanelakemining.com/2026/10/mcfarlane-files-updated-mineral-resource-estimate-on-juby-gold-project/",
+          "evidence_type": "issuer_release; locator: public_page_7.json $.text",
+          "period": "相对2026年8月17日已披露估算",
+          "unit": "oz gold",
+          "value": "+30000 inferred; -70000 indicated"
+        },
+        {
+          "claim": "Hydro Creek矿坑几何越过矿权边界，校正改变资源归属，矿权外无黄金盎司。",
+          "evidence": "Although no gold ounces were located outside the claim boundary, correcting the pit geometry changed the resource attribution.",
+          "source_url": "https://mcfarlanelakemining.com/2026/10/mcfarlane-files-updated-mineral-resource-estimate-on-juby-gold-project/",
+          "evidence_type": "issuer_release; locator: public_page_7.json $.text",
+          "period": "2026年10月技术报告校正",
+          "unit": "resource attribution",
+          "value": "pit geometry corrected"
+        },
+        {
+          "claim": "到10月底拟有三台钻机作业。",
+          "evidence": "The two drills being supplied by Bagone’an will add to the current drill on the property such that by the end of October three drills will be operating on the property.",
+          "source_url": "https://mcfarlanelakemining.com/2026/10/mcfarlane-files-updated-mineral-resource-estimate-on-juby-gold-project/",
+          "evidence_type": "issuer_release; locator: public_page_7.json $.text",
+          "period": "2026年10月底目标",
+          "unit": "drill rigs",
+          "value": 3
+        }
+      ],
+      "source": "McFarlane Lake Mining",
+      "title": "McFarlane提交Juby修订资源报告，10月底拟将钻机增至三台",
+      "excerpt": "McFarlane提交Juby修订技术报告：指示资源107万盎司、0.96克/吨，推断资源509万盎司、0.87克/吨。相对8月已公布估算，推断增加3万盎司、指示减少7万盎司，因Hydro Creek采坑几何与矿权边界校正，合计净减少约4万盎司；公司计划10月底把现有一台钻机增至三台。",
+      "language": "en",
+      "interpretation": "本次是资源归属修订及技术文件提交，不宜把相对2025年的61%增长当作10月新增发现。矿产资源不是储量，尚未证明经济可采；公告对许可到期月份及资源生效日存在内部不一致，本卡不采用这些冲突日期。",
+      "importance": "Juby修订显示工程边界会改变资源分类，即使没有矿权外金属，也不能把全部纸面资源视为开发可用量。10月底三机目标有助于扩大后续验证能力，但供应兑现仍取决于钻探、资源升级和经济研究；本次净减约4万盎司应与长期增长目标区分，近期黄金产量并未因此改变。",
+      "verification_status": "verified",
+      "verification_note": "公开发行人原文HTTP200；按实际首发时间转换北京。金额原文未明确币种时不补造，计划与实产区分。 原公告净变化百分比与分类增减数字不一致，采用分类数字算术净减4万盎司，不采用百分比。",
+      "companies": [
+        "McFarlane Lake Mining"
+      ],
+      "projects": [
+        "Juby",
+        "Hydro Creek"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-03T07:30:00+08:00",
+      "claims": [
+        {
+          "claim": "Redonda已启动第三个钻孔RED-26-03，计划孔深约470米。",
+          "evidence": "Drill hole RED-26-03 is being drilled at an inclination of -75 degrees and is planned to reach a total downhole depth of approximately 470 metres.",
+          "source_url": "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html",
+          "evidence_type": "issuer_release; locator: wire_addendum_1.json $.text",
+          "period": "2026年10月2日公告，北京首发10月3日；470米为计划",
+          "unit": "metres downhole, planned",
+          "value": "470"
+        },
+        {
+          "claim": "第二孔RED-26-02已完成至425.8米孔深；该数字为钻探进度。",
+          "evidence": "The Company also announces that drill hole RED-26-02, drilled at an inclination of -55 degrees, was completed to a total downhole depth of 425.8 metres.",
+          "source_url": "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html",
+          "evidence_type": "issuer_release; locator: wire_addendum_1.json $.text",
+          "period": "本次公告新增完成里程碑",
+          "unit": "metres downhole, completed",
+          "value": "425.8"
+        },
+        {
+          "claim": "原有视觉铜观察不能替代化验；本次没有确认铜品位。",
+          "evidence": "Visual observations should not be considered a substitute for analytical results, and the Company is not making any representation regarding copper grade based on these observations.",
+          "source_url": "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html",
+          "evidence_type": "issuer_release; locator: wire_addendum_1.json $.text",
+          "period": "本次公告风险口径",
+          "unit": "assay status",
+          "value": "unconfirmed"
+        }
+      ],
+      "source": "Copper One Resources Corp.（TheNewswire）",
+      "title": "Copper One完成Redonda第二孔并启动第三孔，化验及资源量仍待验证",
+      "excerpt": "Copper One在100%持有的加拿大Redonda铜钼项目完成RED-26-02，终孔425.8米，并启动计划约470米的RED-26-03；两项属于已获资金支持的2,400米钻探计划。本次未公布铜化验结果，视觉原生铜观察此前已于9月9日披露。",
+      "language": "en",
+      "interpretation": "新增的是钻探执行进度，有助于采样及检验斑岩体系连续性；孔深不代表矿化厚度、资源吨位或产量。9月的视觉铜观察不作为本日新发现，公司尚未用化验确认品位。",
+      "importance": "第二孔完成后，Redonda的下一验证重点从施工执行转向样品化验与矿化连续性，近期钻探进展提高了早期铜项目的数据可见性。未来数月能否将孔深转为有品位和厚度支持的矿体证据，决定后续资源圈定价值；现阶段只改善远期开发可见性，未增加可计入平衡表的铜产量。",
+      "verification_status": "verified",
+      "verification_note": "公开原始公告HTTP200；Archive为2026-10-02 16:30 MST，按字面MST UTC−7换算北京10月3日07:30。未把网站位于加拿大推定为MDT。",
+      "companies": [
+        "Copper One Resources Corp."
+      ],
+      "projects": [
+        "Redonda"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/colombia-reports-expansion-of-mostly-illegal-alluvial-gold-mining/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-03T04:16:23+08:00",
+      "claims": [
+        {
+          "claim": "2025年砂金开采面积同比增长4.5%至118,410公顷，口径为面积",
+          "evidence": "expanded 4.5% by area year-on-year in 2025 to 118,410 hectares",
+          "source_url": "https://www.mining.com/web/colombia-reports-expansion-of-mostly-illegal-alluvial-gold-mining/",
+          "evidence_type": "Reuters cited UNODC/government report; visible article opening paragraph; area, not production tonnage",
+          "period": "2025年，相对2024年",
+          "unit": "hectares; year-on-year %",
+          "value": "118,410 hectares; +4.5%"
+        },
+        {
+          "claim": "监测面积中75%非法、21%有技术或环境许可、4%正在合法化",
+          "evidence": "El 75 % es ilícita, el 21 % cuenta con permisos técnicos y/o ambientales, y el 4 % se encuentra en tránsito a la legalidad.",
+          "source_url": "https://minenergia.gov.co/es/sala-de-prensa/noticias-index/colombia-registro-118410-hectareas-con-explotacion-de-oro-de-aluvion-en-2025-segun-el-informe-anual-del-gobierno-nacional-y-unodc/",
+          "evidence_type": "government original announcement; land EVOA monitored area classification; web extracted original lines",
+          "period": "2025年陆地EVOA监测面积",
+          "unit": "% area classification",
+          "value": "75%; 21%; 4%"
+        }
+      ],
+      "source": "Reuters / Mining.com",
+      "title": "哥伦比亚2025年砂金开采面积增长4.5%，监测面积中75%被归为非法",
+      "excerpt": "Reuters引述联合国毒品和犯罪问题办公室（UNODC）与哥伦比亚政府报告：2025年陆地砂金开采监测面积同比增加4.5%至118,410公顷，比2024年多5,100公顷，为连续第三年扩大。政府原文确认，这些监测面积中75%被归类为非法或未经授权、21%具技术或环境许可、4%处于合法化过渡期；这些比例与面积数据不等于黄金产量或金属吨数。",
+      "language": "en",
+      "interpretation": "新增开采面积反映非正规供给活动继续扩展，但缺少品位、处理量与回收率，不能推算黄金增产幅度。矿业部长提出购金国应要求可追溯体系，属于政策主张，报道未提供已生效的新禁令或短期供给削减规模。",
+      "importance": "黄金供应判断需要提高对非正规来源及其流通约束的关注，不能仅依赖大型矿企产量指引。2025年连续扩张与较高非法占比说明追溯规则可能先影响采购可用性和精炼准入，再影响开采；未来几个季度应优先跟踪规则落实、出口来源结构和采购拒收情况，以判断合规供应的韧性。",
+      "verification_status": "verified",
+      "mining_com_source_note": "普通网页读取403；隔离Chromium headless会话实际显示HTTP200公开全文，保存截图及可见article文本于.runtime/research/2026-10-03/mining-article-0.json。JSON-LD datePublished=2026-10-02T20:16:23Z，换算北京时间10月3日04:16:23。另以web读取政府Minenergía原始公告确认陆地EVOA面积及分类口径；政府页仅显示波哥大10月2日，无可靠时刻，不补造北京时间。本卡按Reuters已核验精确发布时刻入窗；UNODC完整报告未单独读取，未使用门禁隐藏内容。",
+      "source_channel": "playwright"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Company Interviews / Crux Investor | https://www.iheart.com/podcast/256-company-interviews-43066696/ | read_http_200 | 原始节目页和元数据核验；Mineros/i80目标已在历史官方公告披露，Empress无具体新供需变化；旧节目与前两日报排重。",
+      "Crux Investor | https://www.cruxinvestor.com/ | read_web | 官网最新访谈与三篇原始文字总结全文；节目录制日期不替代发布时间。",
+      "The Deep Dive | https://thedeepdive.ca/ | read_web_and_http_200 | 原始会议访谈全文与UTC元数据核验；First Majestic/First Mining仅旧计划重述排除，i80同事件重复，Santacruz北京时间出窗。",
+      "Mining Stock Daily | https://clearcommodity.net/podcasts/mining-stock-daily | read_web_and_http_200 | 最新Paul Cronin全文无新增供需节点；其余新旧条目与最近两日报排重。",
+      "Korelin Economics Report | https://www.kereport.com/ | read_web_and_http_200 | 10月3日周末和10月1日Sean Brodrick原文核验，泛股票/市场观点排除。",
+      "The Morgan Report | https://www.themorganreport.com/blog/theyre-losing-control-as-interest-rates-crush-the-system/ | read_http_200 | 元数据及原始节目说明已读；没有可核验新零售数据，保守排除。",
+      "Resource Talks | https://resourcetalks.com/ | read_web | 可读列表最新日期9月28日，目标金属条目更早；轮播未具可核验发布时间，不据标题推断节目正文。",
+      "Sprott Insights | https://www.sprott.com/insights/ | web_internal_error | 官方入口读取失败，搜索交叉检查；不冒称读完所有节目。",
+      "Sprott Money | https://www.sprottmoney.com/blog/gold-silver-global-economic-shock-kai-hoffmann | read_web | Kai Hoffmann 10月2日原节目说明/转录可读，主要条件性能源冲击与宏观金价观点，无具体新供需事件。",
+      "Soar Financial | https://www.soarfinancial.com/ | web_internal_error | 官方入口失败；站点/YouTube搜索及Prospector Kai节目说明交叉检查。",
+      "Prospector Kai Hoffmann | https://theprospectornews.com/prospector-podcast-kai-hoffman-mining-finance-boom-golds-4000-future-and-the-coming-ma-wave/ | read_web | 融资和M&A泛讨论，无可核验新增供需节点，排除。",
+      "Northern Miner | https://www.northernminer.com/ | read_web | 最新Audrey Robertson节目9月30日，出窗且非金银铜具体供需。",
+      "Kitco video | https://www.kitco.com/news/video/ | read_web_dynamic_empty | 动态页No results found，仅记录访问限制，不据此判定没有节目。",
+      "Kitco Digging Deep | https://www.kitco.com/news/digging-deep/ | read_web | 可读节目列表未见窗口内符合条件新事件，David Erfle旧节目与前日报排重。",
+      "Arcadia / GoldSeek | https://goldseek.com/article/bond-crisis-explodes-bessents-face-hammers-gold-silver-lower | read_web | 10月1日原始节目说明主要债券危机与金银价格，无实体供需新事实。",
+      "Rock Stock Channel | https://podcasts.apple.com/ | read_web_discovery | 10月2日节目主要锂，铜只见章节/概括且无可核验具体新事实；未根据章节编写卡片。",
+      "YouTube / 中文目标来源 | https://www.youtube.com/ | searched | 金银铜访谈、Soar及紫金等中文关键词搜索完成，未从标题或搜索摘要扩写正文。",
+      "Rick Rule | https://www.youtube.com/ | searched | Oct3 2026定向搜索，没有读到符合窗口和供需条件的原始新节目。",
+      "会议核验：Mining Forum Americas / Denver Gold Forum | https://americas.miningforum.com/agenda/ | 会后七日窗口与本次窗口相交；官方议程与公司展示、keynote入口核验；Friedland首次公开回放10月2日09:00 MDT，原始自动转录已读。",
+      "会议核验：Precious Metals Summit Beaver Creek | https://www.precioussummit.com/events/2026-precious-metals-summit-beaver-creek/ | 会后五日止于9月30日，与窗口不相交；窗口内新发布DeepDive会议访谈仍逐篇核验。",
+      "会议核验：LME Week | https://www.lme.com/Events/LME-Week | 官方研讨会10月19日、晚宴10月20日；本次窗口未到，不把未来议程当已发生访谈。",
+      "会议核验：CHINA MINING | https://www.china-mining.org.cn/Article/Content?col=164 | 官方报到指南明确9月10–12日；种子旧官网不可读，以新官方原文日期为准，当前非大会强化窗口。",
+      "会议核验：PDAC 2026 | https://www.pdac.ca/convention | 官方当前主页已切2027；PDAC关键词、铜金访谈、演讲与webcast主动发现搜索完成，无窗口内原文可核验新增节目。",
+      "初始32次实际查询后追加17次历史原始计划核验查询（首4项site.拼写错误如实计入尝试）；原始已读公告用于排除旧事实；不以搜索摘要新增研究卡。",
+      "9月8日Ivanhoe官方公告已披露12万米钻探和2027首季启动范围研究；ASR give you不足以证明交付提前，保守排除旧计划重述。 https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-increases-the-size-of-massive-western-forelands-copper-discovery-by-30/",
+      "8月18日官方公告已披露early2027建设决策与年底许可，7月7日已有全年指引，无窗口新增执行事实。 https://www.mineros.com.co/news/mineros-advances-porvenir-project-development-detailed-engineering-underway-following-independent-engineering-review-2026-08-18",
+      "7月28日公司公告已有early Q4 2027过滤设施及年底首金，9月21日SEC公告已有Granite Creek可研与首储；October表述只是旧节点月度化，未确认实质变化。 https://www.prnewswire.com/news-releases/i-80-gold-provides-update-on-lone-tree-plant-refurbishment-project-remains-on-schedule-and-on-budget-302836341.html ; https://www.sec.gov/Archives/edgar/data/1853962/000119312526397273/d152188dex991.htm",
+      "9月末公司演示已有Q12028目标的重复线索，未取得历史官方演示原件；本期简短说明无新许可/工程完成事项，保守排除未确认新增事实。",
+      "First Majestic 2026-04-02官方PDF公开已读，H2 2027/75m旧计划排除： https://www.firstmajestic.com/_resources/news/nr-20260402v1.pdf"
+    ],
+    "part1_result": "完成初始32次查询、追加17次历史计划复核与主流程2次查询，核验种子来源和会议，入选0条；前两日报URL及已知历史计划排重，原始节目说明不冒充已收听音频。动态页与单源访问限制逐项保留。",
+    "part2_searched": false,
+    "part2_channel": "twscrape",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 53,
+      "accounts_completed": 33,
+      "accounts_failed": 20,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @RealRickRule: no explicit no-results marker; completeness unknown",
+        "playwright @ResourceMaven: no explicit no-results marker; completeness unknown",
+        "playwright @Brien_Lundin: no explicit no-results marker; completeness unknown",
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text",
+        "playwright @mercenarygeo: no explicit no-results marker; completeness unknown",
+        "playwright @JoeMazumdar: no explicit no-results marker; completeness unknown",
+        "playwright @KaiserResearch: no explicit no-results marker; completeness unknown",
+        "playwright @SteveTodoruk: no explicit no-results marker; completeness unknown",
+        "playwright @RonStoeferle: no explicit no-results marker; completeness unknown",
+        "playwright @mjgeiger: no explicit no-results marker; completeness unknown",
+        "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+        "playwright @Jamie_Keech: no explicit no-results marker; completeness unknown",
+        "playwright @JuniorMinerJunky: no explicit no-results marker; completeness unknown",
+        "playwright @JohnFeneck: no explicit no-results marker; completeness unknown",
+        "playwright @JayantBhandari5: no explicit no-results marker; completeness unknown",
+        "playwright @chenpicks: no explicit no-results marker; completeness unknown",
+        "playwright @GerardoDelReal: no explicit no-results marker; completeness unknown",
+        "playwright @TekoaDaSilva: no explicit no-results marker; completeness unknown",
+        "playwright @RobMcEwenMUX: no explicit no-results marker; completeness unknown",
+        "playwright @keith_neumeyer: no explicit no-results marker; completeness unknown",
+        "playwright @Frank_Giustra: no explicit no-results marker; completeness unknown",
+        "playwright @NolanWatson: no explicit no-results marker; completeness unknown",
+        "playwright @AmirAdnani: no explicit no-results marker; completeness unknown",
+        "playwright @MichaelKonnert: no explicit no-results marker; completeness unknown",
+        "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+        "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+        "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+        "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+        "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+        "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+        "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+        "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+        "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+        "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+        "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+        "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+        "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+        "playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+        "twscrape @WalterColesJr: No account available for queue SearchTimeline",
+        "twscrape: twscrape safety stop for @WalterColesJr: No account available for queue SearchTimeline",
+        "@WalterColesJr: No account available for queue SearchTimeline",
+        "@ivanbebek: no explicit no-results marker; completeness unknown",
+        "@IvanhoeMines_: no explicit no-results marker; completeness unknown",
+        "@FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "@NewmontCorp: no explicit no-results marker; completeness unknown",
+        "@BarrickGold: no explicit no-results marker; completeness unknown",
+        "@TeckResources: no explicit no-results marker; completeness unknown",
+        "@AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "@LundinMining: no explicit no-results marker; completeness unknown",
+        "@AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "@FirstMajestic: no explicit no-results marker; completeness unknown",
+        "@PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "@Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "@EndeavourMining: no explicit no-results marker; completeness unknown",
+        "@SSRMining: no explicit no-results marker; completeness unknown",
+        "@KinrossGold: no explicit no-results marker; completeness unknown",
+        "@SandstormGold: no explicit no-results marker; completeness unknown",
+        "@Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "@GoGoldResources: no explicit no-results marker; completeness unknown",
+        "@vizslasilver: no explicit no-results marker; completeness unknown"
+      ],
+      "notes": []
+    },
+    "part2_sources_checked": [
+      "固定scripts/x_search.py；全部53个注册账号Playwright串行首轮，安全等待25–30秒；最终原始TXT/JSON sidecar与checkpoint一致，未自动重试。",
+      "playwright @RealRickRule: no explicit no-results marker; completeness unknown",
+      "playwright @ResourceMaven: no explicit no-results marker; completeness unknown",
+      "playwright @Brien_Lundin: no explicit no-results marker; completeness unknown",
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text",
+      "playwright @mercenarygeo: no explicit no-results marker; completeness unknown",
+      "playwright @JoeMazumdar: no explicit no-results marker; completeness unknown",
+      "playwright @KaiserResearch: no explicit no-results marker; completeness unknown",
+      "playwright @SteveTodoruk: no explicit no-results marker; completeness unknown",
+      "playwright @RonStoeferle: no explicit no-results marker; completeness unknown",
+      "playwright @mjgeiger: no explicit no-results marker; completeness unknown",
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @Jamie_Keech: no explicit no-results marker; completeness unknown",
+      "playwright @JuniorMinerJunky: no explicit no-results marker; completeness unknown",
+      "playwright @JohnFeneck: no explicit no-results marker; completeness unknown",
+      "playwright @JayantBhandari5: no explicit no-results marker; completeness unknown",
+      "playwright @chenpicks: no explicit no-results marker; completeness unknown",
+      "playwright @GerardoDelReal: no explicit no-results marker; completeness unknown",
+      "playwright @TekoaDaSilva: no explicit no-results marker; completeness unknown",
+      "playwright @RobMcEwenMUX: no explicit no-results marker; completeness unknown",
+      "playwright @keith_neumeyer: no explicit no-results marker; completeness unknown",
+      "playwright @Frank_Giustra: no explicit no-results marker; completeness unknown",
+      "playwright @NolanWatson: no explicit no-results marker; completeness unknown",
+      "playwright @AmirAdnani: no explicit no-results marker; completeness unknown",
+      "playwright @MichaelKonnert: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+      "twscrape @WalterColesJr: No account available for queue SearchTimeline",
+      "twscrape: twscrape safety stop for @WalterColesJr: No account available for queue SearchTimeline",
+      "@WalterColesJr: No account available for queue SearchTimeline",
+      "@ivanbebek: no explicit no-results marker; completeness unknown",
+      "@IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "@FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "@NewmontCorp: no explicit no-results marker; completeness unknown",
+      "@BarrickGold: no explicit no-results marker; completeness unknown",
+      "@TeckResources: no explicit no-results marker; completeness unknown",
+      "@AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "@LundinMining: no explicit no-results marker; completeness unknown",
+      "@AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "@FirstMajestic: no explicit no-results marker; completeness unknown",
+      "@PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "@Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "@EndeavourMining: no explicit no-results marker; completeness unknown",
+      "@SSRMining: no explicit no-results marker; completeness unknown",
+      "@KinrossGold: no explicit no-results marker; completeness unknown",
+      "@SandstormGold: no explicit no-results marker; completeness unknown",
+      "@Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "@GoGoldResources: no explicit no-results marker; completeness unknown",
+      "@vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "part2_result": "partial；账号完成33/53，失败/未完成20；尝试playwright -> twscrape；选定playwright+twscrape。Playwright部分账号无明确零结果标记或文本提取不完整；twscrape补查遇No account available，按安全停止结束，未自动重试。保存12条规范化原作者候选，入选0条。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "42次真实搜索尝试，40个query条目及金/银计数审计各重复一次；覆盖英中官方、监管、公司、Reuters、SMM及可靠媒体。",
+      "site:mining.com gold October 3 2026：实际返回15条，日期有效命中0；silver同式返回16条，日期有效命中0；返回旧年SEO，均未当作铜分类发现。",
+      "Newsfile mining-metals公开名单及4条发行人全文；另核对Pinnacle、McFarlane、Glencore、Soma官方原文和日期。",
+      "福州新闻网：web open失败，普通HTTP200恢复，保存原始HTML与可见文本；无需浏览器。",
+      "Reuters/媒体重复：FCX、Sierra Gorda、Anglo Teck、Vedanta、Escondida、智利8月、Cobre Panamá均与前日报或原始旧事件相同，排除转载/价格复述。",
+      "CME Q3 Newsletter网页可读，但无当日首发日期、Q2回顾，排除Gate转载的700,000短吨为当前库存。",
+      "Pension funds公开原文为2020—2021持仓回顾，明确无新投资，排除。",
+      "SMM铜金属要闻/数据索引只有交易数据或目录，未见可确认当日新增实物供需；未以目录日期当统计发布日期。",
+      "Mining.com /commodity/copper/：固定Python Chromium headless完整公开HTTP200，5854字，报告日分类文章0；同日同注册表collector provenance已保存。",
+      "Mining.com /commodity/gold/：固定Python Chromium headless完整公开HTTP200，5803字，报告日分类文章0。",
+      "Mining.com /commodity/silver/：固定Python Chromium headless完整公开HTTP200，5881字，报告日分类文章0。",
+      "额外复核4篇Oct2西半球文章的JSON-LD精确时刻，全部换算北京Oct3；普通web403后同一隔离Playwright会话截图检查门禁，再提取公开可见全文，均HTTP200。",
+      "Colombia Reuters | https://www.mining.com/web/colombia-reports-expansion-of-mostly-illegal-alluvial-gold-mining/ | 2026-10-03T04:16:23+08:00；核验全文并补读Minenergía原始公告，口径为面积；入选。",
+      "Peru Bloomberg | https://www.mining.com/web/most-of-perus-gold-now-comes-from-booming-illegal-mining-sector/ | 2026-10-03T00:38:05+08:00；公开全文核验，但核心IPE数字已在9月18日媒体公开，排除旧事实。",
+      "Energy transition op-ed | https://www.mining.com/web/op-ed-the-energy-transition-is-starting-to-feed-itself/ | 2026-10-03T02:48:15+08:00；全文可见，无新增金银铜具体供需事件，排除。",
+      "Copper price | https://www.mining.com/web/copper-price-crawls-higher-on-softer-dollar-after-weak-us-jobs-data-tight-supply/ | 2026-10-03T00:55:28+08:00；全文可见，价格复述与此前事件，排除。",
+      "https://m.fznews.com.cn/fzyw/20261003/3407dZ7PE9.shtml | public | 2026-10-03T17:53:00+08:00 | 原始全文、标题、时间与逐字claims核验",
+      "https://pinnaclesilverandgold.com/pinnacle-closes-second-and-final-tranche-of-private-placement-2/ | public | 2026-10-03T03:16:55+08:00 | 原始全文、标题、时间与逐字claims核验",
+      "https://www.newsfilecorp.com/release/317218/Copper-Lake-Resources-Announces-Closing-of-First-Tranche-of-NonBrokered-Private-Placement | public | 2026-10-03T05:10:00+08:00 | 原始全文、标题、时间与逐字claims核验",
+      "https://www.newsfilecorp.com/release/317181/Advanced-Gold-Signs-MOU-to-Acquire-Corcoran-Silver-Gold-Property-with-Historical-Inferred-Silver-Resource | public | 2026-10-03T03:32:00+08:00 | 原始全文、标题、时间与逐字claims核验",
+      "https://mcfarlanelakemining.com/2026/10/mcfarlane-files-updated-mineral-resource-estimate-on-juby-gold-project/ | public | 2026-10-03T06:39:41+08:00 | 原始全文、标题、时间与逐字claims核验",
+      "https://www.thenewswire.com/press-releases | public HTTP200 | 原始Archive/发行人正文capture及SHA-256已保存，MST字面UTC−7；Copper One/Beauce/Pinnacle时间核验",
+      "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html | public HTTP200 | 原始Archive/发行人正文capture及SHA-256已保存，MST字面UTC−7；Copper One/Beauce/Pinnacle时间核验",
+      "https://www.thenewswire.com/press-releases/1AdyFYGKp-beauce-gold-fields-closing-a-non-brokered-private-placement.html | public HTTP200 | 原始Archive/发行人正文capture及SHA-256已保存，MST字面UTC−7；Copper One/Beauce/Pinnacle时间核验",
+      "https://www.thenewswire.com/press-releases/1LmPFGjK6-pinnacle-closes-second-and-final-tranche-of-private-placement.html | public HTTP200 | 原始Archive/发行人正文capture及SHA-256已保存，MST字面UTC−7；Copper One/Beauce/Pinnacle时间核验",
+      "主流程追加2次Pinnacle精确标题/原始Newswire搜索与Archive读取，随后研究分支补读3篇原稿和4份HTTP capture；Beauce泛融资排除。Copper One此前date-only排除已被原始Archive精确时刻纠正，最终入选新钻孔执行进度。"
+    ],
+    "part3_result": "研究分支完成42次普通公开搜索尝试，主流程补充时间及历史事实复核；发行人、政府/媒体原文与强制Mining分类发现完整，入选7条；资源量、面积、资金与产量分开。排除日期误命中、旧事件、重复和纯价格报道。",
+    "mining_com_source_note": "铜/金/银分类主路径均完整HTTP200，报告日分类真实零条；金/银辅助site搜索返回15/16条，日期有效命中均0。另复核4篇西半球Oct2跨北京时间文章，公开全文均经截图门禁检查和Playwright可见正文核验；只入选Colombia，政府补充证据绑定本地capture及SHA-256。未使用sitemap、Wayback或RSS。",
+    "new_sources_discovered": [
+      "福州新闻网：公开Oct3本地黄金消费走访原稿核验。",
+      "Pinnacle Silver and Gold Corp.：El Potrero融资发行人原稿核验。",
+      "Copper Lake Resources Ltd.：Marshall Lake项目融资发行人原稿核验。",
+      "Advanced Gold Exploration Inc.：Corcoran Canyon/Belmont非约束MOU发行人原稿核验。",
+      "McFarlane Lake Mining：Juby资源归属修订及三钻机目标发行人原稿核验。",
+      "Copper One Resources Corp.原始Newswire新闻：Redonda钻探进度与Archive发布时间均已公开核验。"
+    ],
+    "url_verification": {
+      "checked": 7,
+      "passed": 7,
+      "failed": 0,
+      "failures": [],
+      "notes": "统计入选卡片原始URL；全部标题、可见正文和日期已核验，claims绑定同URL保存文本或带SHA-256的补充一手capture。拒绝候选及单源读取限制另存审计。访谈如入选仅依据发布方说明/原始转录，不声称已听音频。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://americas.miningforum.com/keynote-webcast/248/",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/mineros-sa-tsxmsa-230m-treasury-funds-growth-to-300000-oz-annual-gold-production-346819264",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/i-80-gold-tsxiau-granite-creek-feasibility-done-lone-tree-refurbishment-on-track-for-2027-346819265",
+      "https://thedeepdive.ca/advancing-two-of-canadas-largest-undeveloped-gold-projects-dan-wilton-first-mining-gold/",
+      "https://www.themorganreport.com/blog/theyre-losing-control-as-interest-rates-crush-the-system/",
+      "https://thedeepdive.ca/1-billion-bet-powering-i80-golds-next-phase-ryan-snow-i-80-gold/"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/silverguru22/status/2106178726493053031"
+    ],
+    "part3_deduped_events": [
+      "融资用途只有泛称exploration/general working capital，未给出项目具体工作、产能或供需增量；按保守标准排除。",
+      "净资金用于加拿大矿产资产及营运资金，缺少本次具体项目执行里程碑；不将一般融资自动推定为供需变化。",
+      "原始官方公告日期为10月2日，无本次窗口内新的独立事件；不使用转载时间将原始事件移动入窗。",
+      "公开原文明确The examples aren’t new investments；2020—2021建立2%—5%持仓并维持，没有新增购入流量，排除旧投资回顾及宏观对冲评论。",
+      "与本次Part1原始First Mining节目及项目里程碑合并；Yahoo全文可作为独立来源证据，但不能当作已听取原节目回答，避免跨栏目重复。",
+      "原始网页读取成功，但无可靠10月3日首发日期，正文回顾Q2库存与交易；不采用第三方Oct3转载作为库存当前值。",
+      "时间已核验入窗，但168,000融资仅泛用于gold/phosphate properties勘探及一般营运资金，未给出项目新增工作范围、日期、产能或本日资源更新；既有概念Exploration Target不等于本日新增资源，按具体供需标准排除。",
+      "Bloomberg本次重述的IPE 54%、8.7吨、同比增减已在La República 2026-09-18 17:33公开；Reinfo改革讨论亦已存在，年底到期陈述无新的发言发生日期，不认作本日新增供需事实。旧原文核验URL https://larepublica.pe/economia/2026/09/17/oro-ilegal-ya-supera-al-legal-en-peru-exportaciones-alcanzarian-us16000-millones-en-2026-hnews-783411",
+      "能源转型研究评论，无可归因的新增金银铜生产或实物需求事件，涉及多种其他电池原料，不据宏观趋势推算铜增量。",
+      "价格与宏观复述为主；智利8月产量、Escondida劳资与SHFE低库存为此前事件，未确认10月3日新增供需事实，按跨日去重排除。"
+    ],
+    "notes": "已对最近三日报、跨来源及跨栏目检查；FirstMining公司presentation与访谈同项目合并处理，不以转载时间刷新旧事实。Peru旧IPE数据、铜价格及旧SHFE/智利/Escondida事件排除；原始候选保留。"
+  }
+}

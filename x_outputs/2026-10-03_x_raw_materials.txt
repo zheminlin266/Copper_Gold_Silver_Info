@@ -1,0 +1,146 @@
+X 原始候选 — 2026-10-03
+采集时间: 2026-10-04T07:44:04.109122+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 35 个人 + 18 官方
+账号审计: 33/53 完成，失败 20
+各通道完成账户数: {"playwright": 9, "twscrape": 24}
+采集状态: partial
+失败账号数: 20
+通道错误: playwright @RealRickRule: no explicit no-results marker; completeness unknown; playwright @ResourceMaven: no explicit no-results marker; completeness unknown; playwright @Brien_Lundin: no explicit no-results marker; completeness unknown; playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text; playwright @mercenarygeo: no explicit no-results marker; completeness unknown; playwright @JoeMazumdar: no explicit no-results marker; completeness unknown; playwright @KaiserResearch: no explicit no-results marker; completeness unknown; playwright @SteveTodoruk: no explicit no-results marker; completeness unknown; playwright @RonStoeferle: no explicit no-results marker; completeness unknown; playwright @mjgeiger: no explicit no-results marker; completeness unknown; playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @Jamie_Keech: no explicit no-results marker; completeness unknown; playwright @JuniorMinerJunky: no explicit no-results marker; completeness unknown; playwright @JohnFeneck: no explicit no-results marker; completeness unknown; playwright @JayantBhandari5: no explicit no-results marker; completeness unknown; playwright @chenpicks: no explicit no-results marker; completeness unknown; playwright @GerardoDelReal: no explicit no-results marker; completeness unknown; playwright @TekoaDaSilva: no explicit no-results marker; completeness unknown; playwright @RobMcEwenMUX: no explicit no-results marker; completeness unknown; playwright @keith_neumeyer: no explicit no-results marker; completeness unknown; playwright @Frank_Giustra: no explicit no-results marker; completeness unknown; playwright @NolanWatson: no explicit no-results marker; completeness unknown; playwright @AmirAdnani: no explicit no-results marker; completeness unknown; playwright @MichaelKonnert: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown; twscrape @WalterColesJr: No account available for queue SearchTimeline; twscrape: twscrape safety stop for @WalterColesJr: No account available for queue SearchTimeline; @WalterColesJr: No account available for queue SearchTimeline; @ivanbebek: no explicit no-results marker; completeness unknown; @IvanhoeMines_: no explicit no-results marker; completeness unknown; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; @NewmontCorp: no explicit no-results marker; completeness unknown; @BarrickGold: no explicit no-results marker; completeness unknown; @TeckResources: no explicit no-results marker; completeness unknown; @AntofagastaPLC: no explicit no-results marker; completeness unknown; @LundinMining: no explicit no-results marker; completeness unknown; @AgnicoEagle: no explicit no-results marker; completeness unknown; @FirstMajestic: no explicit no-results marker; completeness unknown; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; @Wheaton_PM: no explicit no-results marker; completeness unknown; @EndeavourMining: no explicit no-results marker; completeness unknown; @SSRMining: no explicit no-results marker; completeness unknown; @KinrossGold: no explicit no-results marker; completeness unknown; @SandstormGold: no explicit no-results marker; completeness unknown; @Fortuna_Silver: no explicit no-results marker; completeness unknown; @GoGoldResources: no explicit no-results marker; completeness unknown; @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号:
+  @WalterColesJr (Walter Coles Jr.): No account available for queue SearchTimeline
+  @ivanbebek (Ivan Bebek): no explicit no-results marker; completeness unknown
+  @IvanhoeMines_ (Ivanhoe Mines): no explicit no-results marker; completeness unknown
+  @FreeportMcMoRan (Freeport-McMoRan): no explicit no-results marker; completeness unknown
+  @NewmontCorp (Newmont): no explicit no-results marker; completeness unknown
+  @BarrickGold (Barrick Gold): no explicit no-results marker; completeness unknown
+  @TeckResources (Teck Resources): no explicit no-results marker; completeness unknown
+  @AntofagastaPLC (Antofagasta): no explicit no-results marker; completeness unknown
+  @LundinMining (Lundin Mining): no explicit no-results marker; completeness unknown
+  @AgnicoEagle (Agnico Eagle): no explicit no-results marker; completeness unknown
+  @FirstMajestic (First Majestic Silver): no explicit no-results marker; completeness unknown
+  @PanAmericanSlvr (Pan American Silver): no explicit no-results marker; completeness unknown
+  @Wheaton_PM (Wheaton Precious Metals): no explicit no-results marker; completeness unknown
+  @EndeavourMining (Endeavour Mining): no explicit no-results marker; completeness unknown
+  @SSRMining (SSR Mining): no explicit no-results marker; completeness unknown
+  @KinrossGold (Kinross Gold): no explicit no-results marker; completeness unknown
+  @SandstormGold (Sandstorm Gold): no explicit no-results marker; completeness unknown
+  @Fortuna_Silver (Fortuna Mining): no explicit no-results marker; completeness unknown
+  @GoGoldResources (GoGold Resources): no explicit no-results marker; completeness unknown
+  @vizslasilver (Vizsla Silver): no explicit no-results marker; completeness unknown
+============================================================
+
+总计候选: 12 条
+
+============================================================
+
+[1] @KatusaResearch (Marin Katusa)
+    UTC: 2026-10-03T15:30:00+00:00
+    北京: 2026-10-03T23:30:00+08:00
+    文本: Nvidia could be the biggest mining exploration company on earth
+    链接: https://x.com/KatusaResearch/status/2106406420929528259
+
+[2] @silverguru22 (David Morgan)
+    UTC: 2026-10-03T00:26:39+00:00
+    北京: 2026-10-03T08:26:39+08:00
+    文本: Why Silver&#8217;s Supply Crisis May Not Trigger Prices Just Yet
+    链接: https://x.com/silverguru22/status/2106179085013758128
+
+[3] @silverguru22 (David Morgan)
+    UTC: 2026-10-03T00:25:13+00:00
+    北京: 2026-10-03T08:25:13+08:00
+    文本: Gold price slide below 200-DMA brings critical support level into focus – SocGen 
+https://
+kitco.com/news/article/2
+026-09-28/gold-price-slide-below-200-dma-brings-critical-support-level-focus-socgen
+… via 
+@KitcoNewsNOW
+    链接: https://x.com/silverguru22/status/2106178726493053031
+
+[4] @silverguru22 (David Morgan)
+    UTC: 2026-10-03T00:24:38+00:00
+    北京: 2026-10-03T08:24:38+08:00
+    文本: How Much Gold Is in Your Cell Phone?
+    链接: https://x.com/silverguru22/status/2106178579155538143
+
+[5] @silverguru22 (David Morgan)
+    UTC: 2026-10-02T17:02:51+00:00
+    北京: 2026-10-03T01:02:51+08:00
+    文本: I have heard this multiple times recently. 
+Hi David,
+I saw your post about premiums at local bullion shops, and I've been thinking a lot about this lately.  My local shops are mostly seeing silver sellers, and as a result, they have a glut of silver inventory and are shipping it
+    链接: https://x.com/silverguru22/status/2106067400894636312
+
+[6] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-03T02:36:33+00:00
+    北京: 2026-10-03T10:36:33+08:00
+    文本: Two top books on investing in #Silver and #Gold Miners. Shout out to Jeff Clark 
+@TheGoldAdvisor
+ 
+Currently #2 and #3 on Amazon
+    链接: https://x.com/peter_krauth/status/2106211776282992768
+
+[7] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-02T19:04:50+00:00
+    北京: 2026-10-03T03:04:50+08:00
+    文本: Silver volatility is creating a lot of noise.
+
+I’m focused on what’s happening underneath it.
+
+Companies are expanding projects. Throughput is rising. High-grade silver is still being drilled.
+
+That’s where I’m looking for opportunity.
+
+This week we covered 
+@BRCSilver
+ ,
+    链接: https://x.com/peter_krauth/status/2106098097621516679
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-03T12:57:44+00:00
+    北京: 2026-10-03T20:57:44+08:00
+    文本: What a great thing it'd be if Bolivia could unleash its mining sector!
+
+But I'm not holding my breath...
+    链接: https://x.com/duediligenceguy/status/2106368100983582903
+
+[9] @TaviCosta (Otavio Costa)
+    UTC: 2026-10-03T15:00:55+00:00
+    北京: 2026-10-03T23:00:55+08:00
+    文本: Personal update:
+
+I am launching a mining-focused fund.
+
+Miners are likely one of the most compelling investment themes of the next decade, in my view.
+
+For more information:
+
+tavi@azuriacapital.com
+
+For accredited investors only. As always, none of this is investment advice.
+    链接: https://x.com/TaviCosta/status/2106399100069363996
+
+[10] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-10-03T08:47:30+00:00
+    北京: 2026-10-03T16:47:30+08:00
+    文本: US Copper
+    链接: https://x.com/wmiddelkoop/status/2106305129129312543
+
+[11] @wmiddelkoop (Willem Middelkoop)
+    UTC: 2026-10-03T06:39:30+00:00
+    北京: 2026-10-03T14:39:30+08:00
+    文本: The Titans of Mining 
+
+Source: Commodity Discovery Fund Research
+    链接: https://x.com/wmiddelkoop/status/2106272918120308941
+
+[12] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-03T13:07:07+00:00
+    北京: 2026-10-03T21:07:07+08:00
+    文本: https://t.co/taGytLIm2c
+    链接: https://x.com/duediligenceguy/status/2106370464373207308
+

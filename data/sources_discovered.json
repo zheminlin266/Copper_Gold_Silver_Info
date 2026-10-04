@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -127,6 +127,48 @@
       "category": "矿业公司监管公告",
       "notes": "Oct 2 Hope & Gorob RNS directly verified. Commissioning and ore-throughput targets are not full-rate metal output; first saleable concentrate expected available for offtake, not already delivered.",
       "channel": "https://www.investegate.co.uk/index.php/announcement/rns/bezant-resources--bzt/hope-gorob-commercial-production-commences/9803012"
+    },
+    {
+      "source_id": "source-fuzhou-news",
+      "display_name": "福州新闻网",
+      "category": "中文媒体/实物消费走访",
+      "channel": "https://m.fznews.com.cn/fzyw/20261003/3407dZ7PE9.shtml",
+      "notes": "Oct3 17:53原始当地黄金零售走访公开全文200核验。金饰现场交易及轻克重产品销量方向属福州样本，不外推全国或投资金条。"
+    },
+    {
+      "source_id": "source-pinnacle-silver-gold",
+      "display_name": "Pinnacle Silver and Gold Corp.",
+      "category": "矿业公司官方新闻",
+      "channel": "https://pinnaclesilverandgold.com/pinnacle-closes-second-and-final-tranche-of-private-placement-2/",
+      "notes": "原始issuer HTML metadata北京10月3日03:16:55与公开全文200核验；更早原始Newswire Archive为10月2日11:45 MST，即北京10月3日02:45。融资用途El Potrero；历史100tpd不是恢复产能，原文$未明示币种。"
+    },
+    {
+      "source_id": "source-copper-lake-newsfile",
+      "display_name": "Copper Lake Resources Ltd.",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newsfilecorp.com/release/317218/Copper-Lake-Resources-Announces-Closing-of-First-Tranche-of-NonBrokered-Private-Placement",
+      "notes": "Oct2 17:10EDT=Oct3北京05:10首批融资公告公开全文200核验；Marshall Lake勘探资金与实际产量分开。"
+    },
+    {
+      "source_id": "source-advanced-gold-newsfile",
+      "display_name": "Advanced Gold Exploration Inc.",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newsfilecorp.com/release/317181/Advanced-Gold-Signs-MOU-to-Acquire-Corcoran-Silver-Gold-Property-with-Historical-Inferred-Silver-Resource",
+      "notes": "Oct2 15:32EDT=Oct3北京03:32原始MOU公告公开全文200核验；non-binding及historical-only资源口径、付款与融资条件保留。"
+    },
+    {
+      "source_id": "source-mcfarlane-lake-mining",
+      "display_name": "McFarlane Lake Mining",
+      "category": "矿业公司官方新闻",
+      "channel": "https://mcfarlanelakemining.com/2026/10/mcfarlane-files-updated-mineral-resource-estimate-on-juby-gold-project/",
+      "notes": "Oct3北京06:39:41原始HTML metadata和资源修订全文200核验；新变化为相对8月资源归属修订及10月底三机目标，未采用内部冲突许可日期。"
+    },
+    {
+      "source_id": "source-copper-one-newswire",
+      "display_name": "Copper One Resources Corp.",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.thenewswire.com/press-releases/1BNMFgXnP-copper-one-commences-red-26-03-drill-hole-and-completes-red-26-02-at-the-100-owned-redonda-copper-molybdenum-project-british-columbia.html",
+      "notes": "原始Newswire公告和Archive公开HTTP200核验。2026-10-02 16:30 MST按UTC−7为北京10月3日07:30；第二孔完成和第三孔启动是钻探进度，不等于资源或产量。"
     }
   ]
 }

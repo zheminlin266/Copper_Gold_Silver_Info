@@ -1,0 +1,362 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-03",
+  "status": "partial",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 53,
+  "accounts_completed": 33,
+  "accounts_failed": 20,
+  "channel_completed_accounts": {
+    "playwright": 9,
+    "twscrape": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-643ddc5133a8f3d7eed5e0d6",
+      "source_id": "x-katusaresearch",
+      "author": "Marin Katusa",
+      "handle": "KatusaResearch",
+      "publish_time": "2026-10-03T15:30:00+00:00",
+      "text": "Nvidia could be the biggest mining exploration company on earth",
+      "url": "https://x.com/KatusaResearch/status/2106406420929528259",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8b3c3bdb2a1f44b755ad16ad",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-10-03T00:26:39+00:00",
+      "text": "Why Silver&#8217;s Supply Crisis May Not Trigger Prices Just Yet",
+      "url": "https://x.com/silverguru22/status/2106179085013758128",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7ebba6f77c3ad7d299204dcd",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-10-03T00:25:13+00:00",
+      "text": "Gold price slide below 200-DMA brings critical support level into focus – SocGen \nhttps://\nkitco.com/news/article/2\n026-09-28/gold-price-slide-below-200-dma-brings-critical-support-level-focus-socgen\n… via \n@KitcoNewsNOW",
+      "url": "https://x.com/silverguru22/status/2106178726493053031",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6cf832efdbe2c5d875cf8196",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-10-03T00:24:38+00:00",
+      "text": "How Much Gold Is in Your Cell Phone?",
+      "url": "https://x.com/silverguru22/status/2106178579155538143",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7e7b34948d71ec80a87a32c4",
+      "source_id": "x-silverguru22",
+      "author": "David Morgan",
+      "handle": "silverguru22",
+      "publish_time": "2026-10-02T17:02:51+00:00",
+      "text": "I have heard this multiple times recently. \nHi David,\nI saw your post about premiums at local bullion shops, and I've been thinking a lot about this lately.  My local shops are mostly seeing silver sellers, and as a result, they have a glut of silver inventory and are shipping it",
+      "url": "https://x.com/silverguru22/status/2106067400894636312",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-02ee340fce3d9b22085256c4",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-03T02:36:33+00:00",
+      "text": "Two top books on investing in #Silver and #Gold Miners. Shout out to Jeff Clark \n@TheGoldAdvisor\n \nCurrently #2 and #3 on Amazon",
+      "url": "https://x.com/peter_krauth/status/2106211776282992768",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e5d9ada9e5b0503da5da3c52",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-02T19:04:50+00:00",
+      "text": "Silver volatility is creating a lot of noise.\n\nI’m focused on what’s happening underneath it.\n\nCompanies are expanding projects. Throughput is rising. High-grade silver is still being drilled.\n\nThat’s where I’m looking for opportunity.\n\nThis week we covered \n@BRCSilver\n ,",
+      "url": "https://x.com/peter_krauth/status/2106098097621516679",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9d445e8cb90872fa379b7f28",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-03T12:57:44+00:00",
+      "text": "What a great thing it'd be if Bolivia could unleash its mining sector!\n\nBut I'm not holding my breath...",
+      "url": "https://x.com/duediligenceguy/status/2106368100983582903",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-37ae3c2c3e6a4577e98b22be",
+      "source_id": "x-tavicosta",
+      "author": "Otavio Costa",
+      "handle": "TaviCosta",
+      "publish_time": "2026-10-03T15:00:55+00:00",
+      "text": "Personal update:\n\nI am launching a mining-focused fund.\n\nMiners are likely one of the most compelling investment themes of the next decade, in my view.\n\nFor more information:\n\ntavi@azuriacapital.com\n\nFor accredited investors only. As always, none of this is investment advice.",
+      "url": "https://x.com/TaviCosta/status/2106399100069363996",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9164c6d79b6d82d311d5ee64",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-10-03T08:47:30+00:00",
+      "text": "US Copper",
+      "url": "https://x.com/wmiddelkoop/status/2106305129129312543",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c05696f635ddf4d9ee24864c",
+      "source_id": "x-wmiddelkoop",
+      "author": "Willem Middelkoop",
+      "handle": "wmiddelkoop",
+      "publish_time": "2026-10-03T06:39:30+00:00",
+      "text": "The Titans of Mining \n\nSource: Commodity Discovery Fund Research",
+      "url": "https://x.com/wmiddelkoop/status/2106272918120308941",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fe382573cc53015960198665",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-03T13:07:07+00:00",
+      "text": "https://t.co/taGytLIm2c",
+      "url": "https://x.com/duediligenceguy/status/2106370464373207308",
+      "collector": "x_search",
+      "report_date": "2026-10-03",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-waltercolesjr",
+      "handle": "WalterColesJr",
+      "author": "Walter Coles Jr.",
+      "error": "No account available for queue SearchTimeline"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "handle": "ivanbebek",
+      "author": "Ivan Bebek",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-ivanhoemines_",
+      "handle": "IvanhoeMines_",
+      "author": "Ivanhoe Mines",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "handle": "FreeportMcMoRan",
+      "author": "Freeport-McMoRan",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-newmontcorp",
+      "handle": "NewmontCorp",
+      "author": "Newmont",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "handle": "BarrickGold",
+      "author": "Barrick Gold",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-teckresources",
+      "handle": "TeckResources",
+      "author": "Teck Resources",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "handle": "AntofagastaPLC",
+      "author": "Antofagasta",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "handle": "LundinMining",
+      "author": "Lundin Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "handle": "AgnicoEagle",
+      "author": "Agnico Eagle",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "handle": "FirstMajestic",
+      "author": "First Majestic Silver",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "handle": "PanAmericanSlvr",
+      "author": "Pan American Silver",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "handle": "Wheaton_PM",
+      "author": "Wheaton Precious Metals",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "handle": "EndeavourMining",
+      "author": "Endeavour Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "handle": "SSRMining",
+      "author": "SSR Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "handle": "KinrossGold",
+      "author": "Kinross Gold",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "handle": "SandstormGold",
+      "author": "Sandstorm Gold",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "handle": "Fortuna_Silver",
+      "author": "Fortuna Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "handle": "GoGoldResources",
+      "author": "GoGold Resources",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "handle": "vizslasilver",
+      "author": "Vizsla Silver",
+      "error": "no explicit no-results marker; completeness unknown"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 9,
+      "twscrape": 24
+    },
+    "channel_errors": [
+      "playwright @RealRickRule: no explicit no-results marker; completeness unknown",
+      "playwright @ResourceMaven: no explicit no-results marker; completeness unknown",
+      "playwright @Brien_Lundin: no explicit no-results marker; completeness unknown",
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text",
+      "playwright @mercenarygeo: no explicit no-results marker; completeness unknown",
+      "playwright @JoeMazumdar: no explicit no-results marker; completeness unknown",
+      "playwright @KaiserResearch: no explicit no-results marker; completeness unknown",
+      "playwright @SteveTodoruk: no explicit no-results marker; completeness unknown",
+      "playwright @RonStoeferle: no explicit no-results marker; completeness unknown",
+      "playwright @mjgeiger: no explicit no-results marker; completeness unknown",
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @Jamie_Keech: no explicit no-results marker; completeness unknown",
+      "playwright @JuniorMinerJunky: no explicit no-results marker; completeness unknown",
+      "playwright @JohnFeneck: no explicit no-results marker; completeness unknown",
+      "playwright @JayantBhandari5: no explicit no-results marker; completeness unknown",
+      "playwright @chenpicks: no explicit no-results marker; completeness unknown",
+      "playwright @GerardoDelReal: no explicit no-results marker; completeness unknown",
+      "playwright @TekoaDaSilva: no explicit no-results marker; completeness unknown",
+      "playwright @RobMcEwenMUX: no explicit no-results marker; completeness unknown",
+      "playwright @keith_neumeyer: no explicit no-results marker; completeness unknown",
+      "playwright @Frank_Giustra: no explicit no-results marker; completeness unknown",
+      "playwright @NolanWatson: no explicit no-results marker; completeness unknown",
+      "playwright @AmirAdnani: no explicit no-results marker; completeness unknown",
+      "playwright @MichaelKonnert: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+      "twscrape @WalterColesJr: No account available for queue SearchTimeline",
+      "twscrape: twscrape safety stop for @WalterColesJr: No account available for queue SearchTimeline",
+      "@WalterColesJr: No account available for queue SearchTimeline",
+      "@ivanbebek: no explicit no-results marker; completeness unknown",
+      "@IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "@FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "@NewmontCorp: no explicit no-results marker; completeness unknown",
+      "@BarrickGold: no explicit no-results marker; completeness unknown",
+      "@TeckResources: no explicit no-results marker; completeness unknown",
+      "@AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "@LundinMining: no explicit no-results marker; completeness unknown",
+      "@AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "@FirstMajestic: no explicit no-results marker; completeness unknown",
+      "@PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "@Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "@EndeavourMining: no explicit no-results marker; completeness unknown",
+      "@SSRMining: no explicit no-results marker; completeness unknown",
+      "@KinrossGold: no explicit no-results marker; completeness unknown",
+      "@SandstormGold: no explicit no-results marker; completeness unknown",
+      "@Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "@GoGoldResources: no explicit no-results marker; completeness unknown",
+      "@vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @RealRickRule: no explicit no-results marker; completeness unknown; playwright @ResourceMaven: no explicit no-results marker; completeness unknown; playwright @Brien_Lundin: no explicit no-results marker; completeness unknown; playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 1: missing or empty tweet text; playwright @mercenarygeo: no explicit no-results marker; completeness unknown; playwright @JoeMazumdar: no explicit no-results marker; completeness unknown; playwright @KaiserResearch: no explicit no-results marker; completeness unknown; playwright @SteveTodoruk: no explicit no-results marker; completeness unknown; playwright @RonStoeferle: no explicit no-results marker; completeness unknown; playwright @mjgeiger: no explicit no-results marker; completeness unknown; playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @Jamie_Keech: no explicit no-results marker; completeness unknown; playwright @JuniorMinerJunky: no explicit no-results marker; completeness unknown; playwright @JohnFeneck: no explicit no-results marker; completeness unknown; playwright @JayantBhandari5: no explicit no-results marker; completeness unknown; playwright @chenpicks: no explicit no-results marker; completeness unknown; playwright @GerardoDelReal: no explicit no-results marker; completeness unknown; playwright @TekoaDaSilva: no explicit no-results marker; completeness unknown; playwright @RobMcEwenMUX: no explicit no-results marker; completeness unknown; playwright @keith_neumeyer: no explicit no-results marker; completeness unknown; playwright @Frank_Giustra: no explicit no-results marker; completeness unknown; playwright @NolanWatson: no explicit no-results marker; completeness unknown; playwright @AmirAdnani: no explicit no-results marker; completeness unknown; playwright @MichaelKonnert: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown; twscrape @WalterColesJr: No account available for queue SearchTimeline; twscrape: twscrape safety stop for @WalterColesJr: No account available for queue SearchTimeline; @WalterColesJr: No account available for queue SearchTimeline; @ivanbebek: no explicit no-results marker; completeness unknown; @IvanhoeMines_: no explicit no-results marker; completeness unknown; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; @NewmontCorp: no explicit no-results marker; completeness unknown; @BarrickGold: no explicit no-results marker; completeness unknown; @TeckResources: no explicit no-results marker; completeness unknown; @AntofagastaPLC: no explicit no-results marker; completeness unknown; @LundinMining: no explicit no-results marker; completeness unknown; @AgnicoEagle: no explicit no-results marker; completeness unknown; @FirstMajestic: no explicit no-results marker; completeness unknown; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; @Wheaton_PM: no explicit no-results marker; completeness unknown; @EndeavourMining: no explicit no-results marker; completeness unknown; @SSRMining: no explicit no-results marker; completeness unknown; @KinrossGold: no explicit no-results marker; completeness unknown; @SandstormGold: no explicit no-results marker; completeness unknown; @Fortuna_Silver: no explicit no-results marker; completeness unknown; @GoGoldResources: no explicit no-results marker; completeness unknown; @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "aea885437886c07d69501cded93a51d42ff67f6acee73390b50eb04033bb7755"
+  }
+}
