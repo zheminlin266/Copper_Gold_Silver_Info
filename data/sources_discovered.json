@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -183,6 +183,104 @@
       "category": "中文财经媒体/黄金ETF资金统计",
       "channel": "https://finance.sina.com.cn/stock/2026-10-04/doc-iniuanmc7018519.shtml",
       "notes": "2026-10-04公开新浪转载HTTP200核验，明确归属CSJ/Wind，截至9月30日前三季华安与国泰黄金ETF净流入194.86及106.71亿元。未直读Wind；门户同稿非独立证据；可见21:59和metadata22:01:47不一致故仅日精度，资金不换算实物吨数。"
+    },
+    {
+      "source_id": "source-securities-times",
+      "display_name": "证券时报",
+      "category": "中文媒体/实物消费走访",
+      "channel": "https://egs.stcn.com/news/detail/2347160.html",
+      "notes": "2026-10-05日报原文核验：公开记者正文已核验；北京时间可见11:01。与10/3福州、10/4成都等报道城市与采访对象不同，保留独立地方观察。原文20%比较口径含混，弃用。"
+    },
+    {
+      "source_id": "source-shangguan-news",
+      "display_name": "解放日报·上观新闻（新浪转载）",
+      "category": "中文媒体/实物消费走访",
+      "channel": "https://finance.sina.com.cn/jjxw/2026-10-05/doc-iniuerix2678017.shtml",
+      "notes": "2026-10-05日报原文核验：公开全文与记者归属已核验；可见20:35与元数据20:37:20不一致，均10/5但保守仅用日精度。原上观URL仅返回JS壳，不作为全文已核验来源。"
+    },
+    {
+      "source_id": "source-osisko-gold",
+      "display_name": "Osisko Gold Group 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.osiskogold.ca/news/osisko-gold-intersects-728-gt-au-over-1615-m-105-m-vertical-depth-including-17366-gt-au-over-060-m-and-713-gt-au-over-1160-m-61-m-vertical-depth-in-lowhee-zone-underground-infill-drilling-at-cariboo-gold-project",
+      "notes": "2026-10-05日报原文核验：发行人官网公开全文已核验；仅可见10/5日期，没有可靠时刻，保留日精度。合同公告为新增工程节点，钻探区段不可直接等同真厚度或新资源。"
+    },
+    {
+      "source_id": "source-lafleur-minerals",
+      "display_name": "LaFleur Minerals（Newsfile发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newsfilecorp.com/release/317140",
+      "notes": "2026-10-05日报原文核验：Newsfile公开原始发行人全文与7:30AM EDT已核验，换算北京19:30；Mining后发稿北京10/6不采用。无上限封顶、真宽度未知，融资未完成。"
+    },
+    {
+      "source_id": "source-onyx-gold",
+      "display_name": "Onyx Gold（Newsfile发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newsfilecorp.com/release/317333",
+      "notes": "2026-10-05日报原文核验：发行人官网返回浏览器验证页后停止，不使用其82字挑战正文；Newsfile公开发行人全文和6:30AM EDT另行核验，换算北京18:30。"
+    },
+    {
+      "source_id": "source-goldera-exploration",
+      "display_name": "Goldera Exploration（GlobeNewswire发行人稿/Yahoo）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/goldera-expands-high-grade-e1-113000563.html",
+      "notes": "2026-10-05日报原文核验：GlobeNewswire原站普通读取超时、StreetInsider403后停止；Yahoo公开全文、发行人署名及JSON-LD已核验。datePublished11:30Z换算北京19:30。"
+    },
+    {
+      "source_id": "source-zacatecas-silver",
+      "display_name": "Zacatecas Silver（GlobeNewswire发行人稿/Yahoo）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://ca.finance.yahoo.com/news/zacatecas-silver-signs-option-acquire-103000617.html",
+      "notes": "2026-10-05日报原文核验：Yahoo公开发行人分发全文及JSON-LD10:30Z已核验，换算北京18:30。仅选购协议，不写成完成收购；不复用其他项目旧资源或未核验历史高品位样品。"
+    },
+    {
+      "source_id": "source-silver-bull-resources",
+      "display_name": "Silver Bull Resources（CNW发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newswire.ca/news-releases/silver-bull-provides-update-on-sierra-mojada-899628657.html",
+      "notes": "2026-10-05日报原文核验：CNW公开完整发行人稿与8:30AM EDT已核验，换算北京20:30。接受本日新增矿权/救济状态更新，不把此前仲裁驳回再计为新事件；地方裁决日未披露。"
+    },
+    {
+      "source_id": "source-power-metallic",
+      "display_name": "Power Metallic 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.powermetallic.com/power_metallic_commences_preliminary_economic_assessment_of_the_nisk_project/",
+      "notes": "2026-10-05日报原文核验：发行人官网完整公开正文已核验，只有10/5日期，日精度。2027H1完成目标已见9/15日报（9/8亦讨论PEA），本次新增聚焦正式委任BBA、工程启动和现金资金安排，既有期限只作后续验证锚点。Part1同日访谈公开description仅泛列主题、无独立新增量或节点，Part1 agent已同意排除该泛主题候选。"
+    },
+    {
+      "source_id": "source-pan-global-resources",
+      "display_name": "Pan Global Resources 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.panglobalresources.com/news/pan-global-awarded-spanish-government-grant-to-accelerate-exploration-at-escacena-copper-project-spain",
+      "notes": "2026-10-05日报原文核验：发行人官网全文已核验，只有10/5日期，保留日精度。不得将scheduled to begin immediately推广成每个South靶位已许可或已钻探。"
+    },
+    {
+      "source_id": "source-cambria-gold-mines",
+      "display_name": "Cambria Gold Mines（GlobeNewswire发行人稿/Digital Journal）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.digitaljournal.com/pr/news/globenewswire/cambria-gold-mines-announces-development-149351123.html",
+      "notes": "2026-10-05日报原文核验：发行人官网403、GlobeNewswire超时后停止；Digital Journal公开完整GlobeNewswire分发正文及JSON-LD11:40:03Z已核验，换算北京19:40:03。这是分发页发布时刻，未移植搜索索引中的发行人7:30ET。9/21道路许可为背景旧节点。"
+    },
+    {
+      "source_id": "source-aldebaran-resources",
+      "display_name": "Aldebaran Resources（GlobeNewswire发行人稿/Yahoo）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/aldebaran-reports-1-728-9-110000174.html",
+      "notes": "2026-10-05日报原文核验：Yahoo公开发行人分发全文与JSON-LD11:00Z已核验，换算北京19:00。脚注明确Intervals represent true thickness of the deposit，不用真宽度未知模板；铜当量与实际铜区分。"
+    },
+    {
+      "source_id": "source-galway-metals",
+      "display_name": "Galway Metals（ACCESS Newswire发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/galway-metals-drilling-highlights-potential-for-deeper-resource-expansion-at-sout-1231788",
+      "notes": "2026-10-05日报原文核验：ACCESS原始发行人公开全文已核验，页面7:00AM未标时区，保守保留日精度；Yahoo同稿JSON-LD11:00Z与可见北京19:00交叉确认在窗。正文未明确区段真厚度，不作真厚度断言；5月资源是背景旧估算。全库未发现BL-332/333/334或Clarence Stream旧日报事件。"
+    },
+    {
+      "source_id": "source-lbma-lppm-conference",
+      "display_name": "LBMA/LPPM Global Precious Metals Conference",
+      "category": "贵金属会议/官方演讲",
+      "channel": "https://www.lbma.org.uk/global-precious-metals-conference/agenda",
+      "notes": "正式议程及10/5央行讲话核验，可由主流程按规则登记；本日无合格供需新增。"
     }
   ]
 }

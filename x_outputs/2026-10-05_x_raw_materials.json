@@ -1,0 +1,87 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-05",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 4,
+    "twscrape": 20
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-c84924a526476570c3da0a11",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-05T13:32:52+00:00",
+      "text": "For the most part, that's not what's at stake here.\n\nA mine deep underground doesn't develop over anyone's livelihood, and surface rights are paid for.",
+      "url": "https://x.com/duediligenceguy/status/2107101717720346858",
+      "collector": "x_search",
+      "report_date": "2026-10-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a18ffe330201e36c83d3ecb8",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-10-05T15:34:03+00:00",
+      "text": "Pan Global Resources (\n$PGZ\n) has been awarded a €250,000 non-repayable grant from the Spanish government to accelerate exploration at its flagship Escacena Copper Project.\n\nThe non-dilutive funding will support:\n Diamond drilling\n Geophysical surveys\n Soil sampling &",
+      "url": "https://x.com/soarfinancial/status/2107132214198837716",
+      "collector": "x_search",
+      "report_date": "2026-10-05",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c26bd263d5367f26fd5361bd",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-05T14:50:47+00:00",
+      "text": "“Just to maintain 3% GDP growth, absent the AI phenomenon, data centers, electric cars, we have to mine the same amount of copper in the next eighteen years as we mined in the last ten thousand years.”\n\nIvanhoe Mines Founder & Executive Co-Chairman \n@robert_ivanhoe\n on the",
+      "url": "https://x.com/IvanhoeMines_/status/2107121325253034308",
+      "collector": "x_search",
+      "report_date": "2026-10-05",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 4,
+      "twscrape": 20
+    },
+    "channel_errors": [
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "4bf6bc4ada6d9bd0ac167fa6424dfbf44956d8f00b755ec4e2c39f0b8c25298d"
+  }
+}

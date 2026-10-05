@@ -1,0 +1,51 @@
+X 原始候选 — 2026-10-05
+采集时间: 2026-10-06T07:02:26.479035+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 4, "twscrape": 20}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号: 无
+============================================================
+
+总计候选: 3 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-05T13:32:52+00:00
+    北京: 2026-10-05T21:32:52+08:00
+    文本: For the most part, that's not what's at stake here.
+
+A mine deep underground doesn't develop over anyone's livelihood, and surface rights are paid for.
+    链接: https://x.com/duediligenceguy/status/2107101717720346858
+
+[2] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-05T15:34:03+00:00
+    北京: 2026-10-05T23:34:03+08:00
+    文本: Pan Global Resources (
+$PGZ
+) has been awarded a €250,000 non-repayable grant from the Spanish government to accelerate exploration at its flagship Escacena Copper Project.
+
+The non-dilutive funding will support:
+ Diamond drilling
+ Geophysical surveys
+ Soil sampling &
+    链接: https://x.com/soarfinancial/status/2107132214198837716
+
+[3] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-05T14:50:47+00:00
+    北京: 2026-10-05T22:50:47+08:00
+    文本: “Just to maintain 3% GDP growth, absent the AI phenomenon, data centers, electric cars, we have to mine the same amount of copper in the next eighteen years as we mined in the last ten thousand years.”
+
+Ivanhoe Mines Founder & Executive Co-Chairman 
+@robert_ivanhoe
+ on the
+    链接: https://x.com/IvanhoeMines_/status/2107121325253034308
+
