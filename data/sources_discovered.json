@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-06",
+  "last_updated": "2026-10-07",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -281,6 +281,97 @@
       "category": "贵金属会议/官方演讲",
       "channel": "https://www.lbma.org.uk/global-precious-metals-conference/agenda",
       "notes": "正式议程及10/5央行讲话核验，可由主流程按规则登记；本日无合格供需新增。"
+    },
+    {
+      "source_id": "source-torex-gold",
+      "display_name": "Torex Gold",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://torexgold.com/news-and-media/news/torex-gold-reports-q3-2026-production-results-15490/",
+      "channel": "https://torexgold.com/"
+    },
+    {
+      "source_id": "source-brixton-metals",
+      "display_name": "Brixton Metals",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://brixtonmetals.com/brixton-metals-drills-4-m-of-1975-g-t-silver-within-23-50-m-of-348-g-t-silver-in-hole-449-at-its-langis-project-in-ontario/",
+      "channel": "https://brixtonmetals.com/"
+    },
+    {
+      "source_id": "source-canterra-minerals",
+      "display_name": "Canterra Minerals",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://canterraminerals.com/news-releases/lundberg-resource-update-2026",
+      "channel": "https://canterraminerals.com/"
+    },
+    {
+      "source_id": "source-adamera-minerals",
+      "display_name": "Adamera Minerals",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://adamera.com/news/2026/adamera-expands-max-ip-anomaly-to-3-km-along-strike-south-hedley-project-british-columbia/",
+      "channel": "https://adamera.com/"
+    },
+    {
+      "source_id": "source-contango-ore",
+      "display_name": "Contango ORE（Newsfile）",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.newsfilecorp.com/release/317612/Contango-Intersects-140.23-gt-Gold-over-0.63-Meters-and-18.16-gt-Gold-over-3.65-Meters-at-Lucky-Shot-and-Advances-KM-Vein-Drilling",
+      "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-silver-bullet-mines",
+      "display_name": "Silver Bullet Mines（Newsfile）",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.newsfilecorp.com/release/317637/Silver-Bullet-Mines-Corp.-Provides-Exciting-Update-on-Columbia-Gold-Queen-Complex",
+      "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-copper-intelligence",
+      "display_name": "Copper Intelligence（Newsfile）",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.newsfilecorp.com/release/317643/Copper-Intelligence-Inc.-Expands-Butembo-Copper-Project-with-Strategic-3-km-Strike-Extension-Following-Continued-Exploration-Success",
+      "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-trafigura",
+      "display_name": "Trafigura",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.trafigura.com/news-and-insights/press-releases/2026/fis-rdc-enpower-trafigura-and-gridworks-join-forces-to-deliver-landmark-power-interconnector-to-supply-the-drc-s-copperbelt/",
+      "channel": "https://www.trafigura.com/"
+    },
+    {
+      "source_id": "source-gelonghui",
+      "display_name": "格隆汇（新浪财经转载）",
+      "category": "财经快讯/官方统计转载",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://cj.sina.com.cn/articles/view/5115326071/130e5ae770200323bo",
+      "channel": "https://www.gelonghui.com/"
+    },
+    {
+      "source_id": "source-banyan-gold",
+      "display_name": "Banyan Gold（ACCESS Newswire）",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.accessnewswire.com/newsroom/en/metals-and-mining/banyan-gold-intersects-1.88-g%2ft-gold-over-17.9-metres-in-the-gap-between-airstr-1232626",
+      "channel": "https://www.accessnewswire.com/"
+    },
+    {
+      "source_id": "source-prospector-metals",
+      "display_name": "Prospector Metals（Newsfile）",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.newsfilecorp.com/release/317613",
+      "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-prince-silver",
+      "display_name": "Prince Silver（Newsfile）",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://www.newsfilecorp.com/release/317507",
+      "channel": "https://www.newsfilecorp.com/"
+    },
+    {
+      "source_id": "source-1911-gold",
+      "display_name": "1911 Gold",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-06 release publicly read and source/time verified at https://1911gold.com/news/press-releases/1911-golds-true-north-resource-expansion-drilling-intersects-up-to-7-55-gt-au-over-5-00-m-including-32-90-gt-au-over-0-50-m-at-the-710-711-zone-and-up-to-21-20-gt-au-over-0-60-m-at-the-007-zone",
+      "channel": "https://1911gold.com/"
     }
   ]
 }

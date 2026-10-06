@@ -1,0 +1,61 @@
+X 原始候选 — 2026-10-06
+采集时间: 2026-10-07T07:01:50.025673+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 6, "twscrape": 18}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号: 无
+============================================================
+
+总计候选: 4 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-05T17:37:09+00:00
+    北京: 2026-10-06T01:37:09+08:00
+    文本: Argenta 
+@argentasilverag
+  is still ~61% below its 52-week high.
+
+Yet I think the investment case is getting stronger, not weaker.
+
+High-grade silver is expanding. Gold-copper is emerging. And there’s another angle I think the market may be overlooking.
+
+
+@TedJButler
+  and I remain
+    链接: https://x.com/peter_krauth/status/2107163193957327242
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-06T15:46:24+00:00
+    北京: 2026-10-06T23:46:24+08:00
+    文本: Another day, another set of bullish headlines for uranium demand...
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2107497713613099146
+
+[3] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-05T16:14:25+00:00
+    北京: 2026-10-06T00:14:25+08:00
+    文本: In case you missed it 
+
+A closer look at 
+@ProspectivaRes
+ and its high-grade copper opportunity in Brazil, with drilling underway and first results expected soon.
+    链接: https://x.com/soarfinancial/status/2107142372534661532
+
+[4] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-05T16:00:01+00:00
+    北京: 2026-10-06T00:00:01+08:00
+    文本: 7.5m at 6.5% copper. A 3km exploration corridor. And a new drill program underway.
+
+Prospectiva Resources CEO Dan James joins us to explain why the newly listed company is targeting the São Francisco VMS Project in Brazil and what investors can watch for as the first drill
+    链接: https://x.com/soarfinancial/status/2107138748903518361
+

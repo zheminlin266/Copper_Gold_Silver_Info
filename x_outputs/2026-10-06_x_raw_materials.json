@@ -1,0 +1,97 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-06",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 6,
+    "twscrape": 18
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-7d4b24939b02e2db63dd90b9",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-05T17:37:09+00:00",
+      "text": "Argenta \n@argentasilverag\n  is still ~61% below its 52-week high.\n\nYet I think the investment case is getting stronger, not weaker.\n\nHigh-grade silver is expanding. Gold-copper is emerging. And there’s another angle I think the market may be overlooking.\n\n\n@TedJButler\n  and I remain",
+      "url": "https://x.com/peter_krauth/status/2107163193957327242",
+      "collector": "x_search",
+      "report_date": "2026-10-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a58cafa829418fc39f134622",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-06T15:46:24+00:00",
+      "text": "Another day, another set of bullish headlines for uranium demand...\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2107497713613099146",
+      "collector": "x_search",
+      "report_date": "2026-10-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-372a588868d04d97cd473f44",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-10-05T16:14:25+00:00",
+      "text": "In case you missed it \n\nA closer look at \n@ProspectivaRes\n and its high-grade copper opportunity in Brazil, with drilling underway and first results expected soon.",
+      "url": "https://x.com/soarfinancial/status/2107142372534661532",
+      "collector": "x_search",
+      "report_date": "2026-10-06",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9aa6fbd098ee32efd4a199f0",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-10-05T16:00:01+00:00",
+      "text": "7.5m at 6.5% copper. A 3km exploration corridor. And a new drill program underway.\n\nProspectiva Resources CEO Dan James joins us to explain why the newly listed company is targeting the São Francisco VMS Project in Brazil and what investors can watch for as the first drill",
+      "url": "https://x.com/soarfinancial/status/2107138748903518361",
+      "collector": "x_search",
+      "report_date": "2026-10-06",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 6,
+      "twscrape": 18
+    },
+    "channel_errors": [
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "80ef721ea2fbe195f40a4bdd6a8323491300e4dca5eb443b3a2daa6c72da1ca1"
+  }
+}
