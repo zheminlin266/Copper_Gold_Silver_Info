@@ -1,0 +1,133 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-07",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 6,
+    "twscrape": 18
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-6c134e3652266ab993b706e3",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-07T15:30:00+00:00",
+      "text": "Silver sentiment is weak.\n\nThat’s exactly when you need to be paying attention.\n\nI’m watching the forces driving silver, managing risk as this bull market matures, and positioning around the stocks where I see the opportunity developing.\n\nAnd this week, one of our",
+      "url": "https://x.com/peter_krauth/status/2107855971242647840",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0919c3fcee45f3ef4fc23ec0",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-07T14:27:09+00:00",
+      "text": "CBs buying the dip in gold...",
+      "url": "https://x.com/duediligenceguy/status/2107840157193826592",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3ae96f6e51a9800afebedebc",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-07T14:17:26+00:00",
+      "text": "Surprises in copper supply are, by definition, hard to forecast... but we do know they're almost always to the negative.",
+      "url": "https://x.com/duediligenceguy/status/2107837710723600863",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ad352a0a6a1eaf1c65a469c6",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-10-07T13:09:56+00:00",
+      "text": "We're proud to share that Agnico Eagle has been shortlisted for four \n@ResourcingTomo\n Outstanding Achievement Awards:\n\n Women in Mining – Carol Plummer, Executive Vice President, Sustainability, People & Culture\n\n Operational Transformation of the Year – The comprehensive,",
+      "url": "https://x.com/agnicoeagle/status/2107820723028832551",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-358332fe52f215a01a461265",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-10-06T17:54:30+00:00",
+      "text": "Our President and CEO, Ammar Al-Joundi, sat down with \n@KitcoMining\n's \n@PaulHarrisGold\n at the 2026 Mining Forum Americas to discuss Agnico Eagle's strategy for sustainable growth.\n\nIn the interview, Ammar shares how projects such as Detour Lake, Canadian Malartic, Hope Bay and",
+      "url": "https://x.com/agnicoeagle/status/2107529948973945087",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-fcf5d8989e03c7c5ce541ce5",
+      "source_id": "x-wheaton_pm",
+      "author": "Wheaton Precious Metals",
+      "handle": "Wheaton_PM",
+      "publish_time": "2026-10-06T22:25:05+00:00",
+      "text": "Wheaton Precious Metals will release its 2026 third quarter results on November 5, 2026, after market close, followed by a conference call on November 6 at 9:00 a.m. PT / 11:00 a.m. ET to discuss the results.\n\nInvestors and interested stakeholders can join the live webcast or",
+      "url": "https://x.com/Wheaton_PM/status/2107598043046711732",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-62475c14425ad8171a159a0a",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-06T17:41:01+00:00",
+      "text": "This week, we feature the final category of winners in our 2026 Living Our Values Awards (LOVA) program and are excited to profile our Rigorous Financial Discipline winners!\nCongratulations Cindy from Fort Knox and Maria from Round Mountain!\nGet to know more about Cindy and Maria",
+      "url": "https://x.com/kinrossgold/status/2107526554469163380",
+      "collector": "x_search",
+      "report_date": "2026-10-07",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 6,
+      "twscrape": 18
+    },
+    "channel_errors": [
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "295c172dd90424d34b0619f961eae25428609a148d727d872bfe791d5434496f"
+  }
+}

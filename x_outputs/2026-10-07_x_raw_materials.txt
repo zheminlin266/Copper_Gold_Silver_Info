@@ -1,0 +1,84 @@
+X 原始候选 — 2026-10-07
+采集时间: 2026-10-08T07:02:21.692906+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 6, "twscrape": 18}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号: 无
+============================================================
+
+总计候选: 7 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-07T15:30:00+00:00
+    北京: 2026-10-07T23:30:00+08:00
+    文本: Silver sentiment is weak.
+
+That’s exactly when you need to be paying attention.
+
+I’m watching the forces driving silver, managing risk as this bull market matures, and positioning around the stocks where I see the opportunity developing.
+
+And this week, one of our
+    链接: https://x.com/peter_krauth/status/2107855971242647840
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-07T14:27:09+00:00
+    北京: 2026-10-07T22:27:09+08:00
+    文本: CBs buying the dip in gold...
+    链接: https://x.com/duediligenceguy/status/2107840157193826592
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-07T14:17:26+00:00
+    北京: 2026-10-07T22:17:26+08:00
+    文本: Surprises in copper supply are, by definition, hard to forecast... but we do know they're almost always to the negative.
+    链接: https://x.com/duediligenceguy/status/2107837710723600863
+
+[4] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-10-07T13:09:56+00:00
+    北京: 2026-10-07T21:09:56+08:00
+    文本: We're proud to share that Agnico Eagle has been shortlisted for four 
+@ResourcingTomo
+ Outstanding Achievement Awards:
+
+ Women in Mining – Carol Plummer, Executive Vice President, Sustainability, People & Culture
+
+ Operational Transformation of the Year – The comprehensive,
+    链接: https://x.com/agnicoeagle/status/2107820723028832551
+
+[5] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-10-06T17:54:30+00:00
+    北京: 2026-10-07T01:54:30+08:00
+    文本: Our President and CEO, Ammar Al-Joundi, sat down with 
+@KitcoMining
+'s 
+@PaulHarrisGold
+ at the 2026 Mining Forum Americas to discuss Agnico Eagle's strategy for sustainable growth.
+
+In the interview, Ammar shares how projects such as Detour Lake, Canadian Malartic, Hope Bay and
+    链接: https://x.com/agnicoeagle/status/2107529948973945087
+
+[6] @Wheaton_PM (Wheaton Precious Metals)
+    UTC: 2026-10-06T22:25:05+00:00
+    北京: 2026-10-07T06:25:05+08:00
+    文本: Wheaton Precious Metals will release its 2026 third quarter results on November 5, 2026, after market close, followed by a conference call on November 6 at 9:00 a.m. PT / 11:00 a.m. ET to discuss the results.
+
+Investors and interested stakeholders can join the live webcast or
+    链接: https://x.com/Wheaton_PM/status/2107598043046711732
+
+[7] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-06T17:41:01+00:00
+    北京: 2026-10-07T01:41:01+08:00
+    文本: This week, we feature the final category of winners in our 2026 Living Our Values Awards (LOVA) program and are excited to profile our Rigorous Financial Discipline winners!
+Congratulations Cindy from Fort Knox and Maria from Round Mountain!
+Get to know more about Cindy and Maria
+    链接: https://x.com/kinrossgold/status/2107526554469163380
+

@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -372,6 +372,111 @@
       "category": "矿业公司官方新闻",
       "notes": "2026-10-06 release publicly read and source/time verified at https://1911gold.com/news/press-releases/1911-golds-true-north-resource-expansion-drilling-intersects-up-to-7-55-gt-au-over-5-00-m-including-32-90-gt-au-over-0-50-m-at-the-710-711-zone-and-up-to-21-20-gt-au-over-0-60-m-at-the-007-zone",
       "channel": "https://1911gold.com/"
+    },
+    {
+      "source_id": "source-safe",
+      "display_name": "国家外汇管理局",
+      "category": "官方统计",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.safe.gov.cn/safe/2026/0206/27116.html"
+    },
+    {
+      "source_id": "source-world-gold-council",
+      "display_name": "World Gold Council",
+      "category": "行业机构/需求统计",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows"
+    },
+    {
+      "source_id": "source-central-asia-metals",
+      "display_name": "Central Asia Metals（RNS）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.investegate.co.uk/index.php/announcement/rns/central-asia-metals--caml/q3-2026-operations-update/9809923"
+    },
+    {
+      "source_id": "source-nbd",
+      "display_name": "每日经济新闻",
+      "category": "中文财经媒体",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://m.nbd.com.cn/articles/2026-10-07/4597683.html"
+    },
+    {
+      "source_id": "source-edge-copper",
+      "display_name": "Edge Copper（CNW）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/edge-copper-reports-broad-oxide-115600505.html"
+    },
+    {
+      "source_id": "source-vizsla-copper",
+      "display_name": "Vizsla Copper（CNW）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/vizsla-copper-intersects-307-5-120000031.html"
+    },
+    {
+      "source_id": "source-goliath-resources",
+      "display_name": "Goliath Resources（GlobeNewswire）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/goliath-reports-several-holes-9-100700186.html"
+    },
+    {
+      "source_id": "source-silver47",
+      "display_name": "Silver47（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.newsfilecorp.com/release/317767"
+    },
+    {
+      "source_id": "source-ongold",
+      "display_name": "ONGold Resources（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.newsfilecorp.com/release/317799"
+    },
+    {
+      "source_id": "source-generation-mining",
+      "display_name": "Generation Mining",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://genmining.com/news/2026/generation-mining-provides-update-on-regional-expl-15491/"
+    },
+    {
+      "source_id": "source-burrell-resources",
+      "display_name": "Burrell Resources（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.newsfilecorp.com/release/317706/Burrell-Resources-Enters-into-Option-to-Acquire-the-Rainmaker-Copper-Project-in-Yerington-Copper-Porphyry-District-Lyon-County-Nevada"
+    },
+    {
+      "source_id": "source-auranova-resources",
+      "display_name": "Auranova Resources（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/auranova-kenorland-commence-phase-4-113000684.html"
+    },
+    {
+      "source_id": "source-bullion-gold",
+      "display_name": "Bullion Gold（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://hannibal.marketminute.com/article/newsfile-2026-10-7-bullion-gold-intersects-173-gt-au-over-134-metres-including-380-gt-au-over-44-metres-in-ddh-tg-04-at-terragold"
+    },
+    {
+      "source_id": "source-royal-road-minerals",
+      "display_name": "Royal Road Minerals（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/royal-road-expands-high-grade-120000191.html"
+    },
+    {
+      "source_id": "source-metalsource-mining",
+      "display_name": "Metalsource Mining",
+      "category": "矿业公司公告",
+      "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
+      "channel": "https://www.metalsourcemining.com/20261007-metalsource-mining-launches-major-step-out-program-with-1-1-km-northern-target-to-test-broader-scale-of-silver-hill"
     }
   ]
 }
