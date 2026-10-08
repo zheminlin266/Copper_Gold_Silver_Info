@@ -1,0 +1,103 @@
+X 原始候选 — 2026-10-08
+采集时间: 2026-10-09T07:02:44.371443+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 3, "twscrape": 21}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号: 无
+============================================================
+
+总计候选: 8 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-08T15:59:12+00:00
+    北京: 2026-10-08T23:59:12+08:00
+    文本: Silver's next big opportunity may already be taking shape. Are investors paying attention?
+
+On Nov. 5, I'll be hosting Avino, Kootenay Silver, Silver47 & Silver North at our Vancouver Summit.
+
+Hear directly from management. Get beyond the headlines.
+
+Free to attend. See the
+    链接: https://x.com/peter_krauth/status/2108225709386911908
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-07T17:50:57+00:00
+    北京: 2026-10-08T01:50:57+08:00
+    文本: Silver47 
+@Silver47co
+ is doing the work that matters before the drill ever turns.
+A 1.3km gold-in-soil anomaly at Kennedy now overlaps high-grade rock samples up to 39.4 g/t Au + 370 g/t Ag.
+And that’s only one target.
+
+@TedJButler
+  breaks down why this story keeps getting more
+    链接: https://x.com/peter_krauth/status/2107891443180417359
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-08T13:30:23+00:00
+    北京: 2026-10-08T21:30:23+08:00
+    文本: In case you missed my latest interview, it focuses on uranium...
+
+But it also covers a shift in my thinking about gold and silver.
+
+https://
+independentspeculator.com/sd/articles/na
+tural-resource-stocks-2026-10-07
+…
+    链接: https://x.com/duediligenceguy/status/2108188255908716698
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-08T13:29:57+00:00
+    北京: 2026-10-08T21:29:57+08:00
+    文本: In case you missed my latest interview, it focuses on uranium...
+
+But it also covers a shift in my thinking about gold and silver.
+
+(Link in reply so X won't hide this post.)
+    链接: https://x.com/duediligenceguy/status/2108188149981540784
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-08T13:22:55+00:00
+    北京: 2026-10-08T21:22:55+08:00
+    文本: PSA: At least I know my gold will be there.
+.
+    链接: https://x.com/duediligenceguy/status/2108186377951343093
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-08T13:12:04+00:00
+    北京: 2026-10-08T21:12:04+08:00
+    文本: Right, but a big part of the rally this year was in anticipation of new copper tariffs Trump is said to be considering.
+    链接: https://x.com/duediligenceguy/status/2108183647627223379
+
+[7] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-08T11:33:42+00:00
+    北京: 2026-10-08T19:33:42+08:00
+    文本: Ivanhoe Mines reports Q3 2026 production results.
+• Kamoa-Kakula produced 76,401 tonnes of copper
+• Kipushi produced a record 77,147 tonnes of zinc
+Read full news release: 
+https://
+tinyurl.com/mwxtz26u
+    链接: https://x.com/IvanhoeMines_/status/2108158893662843011
+
+[8] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-07T16:54:32+00:00
+    北京: 2026-10-08T00:54:32+08:00
+    文本: “We need six Tier One mines to come online every year till 2050.”
+
+Our Founder 
+@robert_ivanhoe
+, speaking at the Mining Forum Americas in Denver.
+$IVN
+    链接: https://x.com/IvanhoeMines_/status/2107877246249881803
+

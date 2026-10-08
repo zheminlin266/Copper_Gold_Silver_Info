@@ -1,0 +1,1558 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-08",
+  "report_time": "2026-10-09T07:33:14+08:00",
+  "summary": "黄金：矿山季度产出分化，扩建、矿权延续和融资支持中长期供给；单只黄金ETF持仓小幅增加，尚不足以判断整体投资需求趋势。白银：First Majestic季度产量回落且劳资扰动未解，短期供应承压，钻探进展仍属远期资源线索。铜：Kamoa-Kakula与Gibraltar生产改善，Florence井场扩张滞后；国内假期累库与LME去库并存，地区库存流向分化，Levack重启增量主要在2028年后。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-06T00:00:00+08:00",
+      "end": "2026-10-08T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-08T00:00:00+08:00",
+      "end": "2026-10-08T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-08T00:00:00+08:00",
+      "end": "2026-10-08T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kitco.com/news/video/2026-10-07/liberty-gold-rules-out-a-sale-strategy-as-black-pine-advances-jon-gilligan",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-08",
+      "claims": [
+        {
+          "claim": "详细工程已经启动",
+          "evidence": "Liberty has already started detailed engineering",
+          "source_url": "https://www.kitco.com/news/video/2026-10-07/liberty-gold-rules-out-a-sale-strategy-as-black-pine-advances-jon-gilligan",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "本次访谈披露的当前状态",
+          "unit": "项目阶段",
+          "value": "详细工程已启动"
+        },
+        {
+          "claim": "计划详细工程工时",
+          "evidence": "50,000 to 60,000 engineering hours",
+          "source_url": "https://www.buzzsprout.com/2326401/episodes/19927440-liberty-gold-rules-out-a-sale-strategy-as-black-pine-advances-jon-gilligan",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "建设决定前的计划工作",
+          "unit": "工程工时",
+          "value": "50,000—60,000"
+        },
+        {
+          "claim": "管理层希望融资方案更清晰的时间",
+          "evidence": "funding package by mid-2027",
+          "source_url": "https://www.buzzsprout.com/2326401/episodes/19927440-liberty-gold-rules-out-a-sale-strategy-as-black-pine-advances-jon-gilligan",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "2027年中（管理层目标）",
+          "unit": "目标时间",
+          "value": "2027年中"
+        },
+        {
+          "claim": "当前最终许可决定目标时间",
+          "evidence": "final Record of Decision in January 2028",
+          "source_url": "https://www.kitco.com/news/video/2026-10-07/liberty-gold-rules-out-a-sale-strategy-as-black-pine-advances-jon-gilligan",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "2028年1月（当前时间表）",
+          "unit": "目标时间",
+          "value": "2028-01"
+        }
+      ],
+      "title": "Liberty Gold 已启动 Black Pine 详细工程，拟于2027年中明确融资安排",
+      "source_type": "conference_interview",
+      "summary": "Liberty Gold CEO Jon Gilligan 在 Kitco Mining 访谈中表示，Black Pine 已进入详细工程阶段，计划投入约5万—6万工程工时，并推进债务、金属流协议及股权融资讨论，目标于2027年中形成更清晰的项目融资方案。当前许可时间表指向2028年1月最终决定，工程推进尚不等于已作出建设决策。",
+      "importance": "研究重点从已公布的可研参数转向建设准备是否能够按期完成：工程设计与融资并行推进，有助于在投资决定前识别设备、成本及资金缺口。2027年中是检验资金可得性的中期节点，但实际黄金供给仍取决于许可、融资落实及后续建设，不能把工程工时直接转化为投产承诺。",
+      "verification_status": "verified",
+      "verification_note": "已读取Kitco原始视频页公开说明及同一Kitco MINING节目在Buzzsprout公开的说明和逐字稿，未宣称听取音频。Kitco JSON-LD uploadDate为2026-10-07T18:30:00Z，即北京10月8日02:30；录制于9月Precious Metals Summit，以原始节目上传时间入窗。9月8日可研和9月17日柱浸试验均已刊登，本卡只收工程及融资推进。",
+      "guest": {
+        "name": "Jon Gilligan",
+        "background": "Liberty Gold 总裁兼CEO"
+      },
+      "companies": [
+        "Liberty Gold"
+      ],
+      "projects": [
+        "Black Pine"
+      ]
+    },
+    {
+      "url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/valhalla-metals-tsxvvmxx-major-backed-bid-to-double-alaska-copper-zinc-resource-347176915",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-08",
+      "claims": [
+        {
+          "claim": "Sun 2026年钻探已经完成",
+          "evidence": "2026 drill programme at Sun has finished",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/valhalla-metals-tsxvvmxx-major-backed-bid-to-double-alaska-copper-zinc-resource-347176915",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "2026年钻探季",
+          "unit": "项目状态",
+          "value": "钻探完成"
+        },
+        {
+          "claim": "Sun 化验结果预计时间",
+          "evidence": "assays are expected before year end",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/valhalla-metals-tsxvvmxx-major-backed-bid-to-double-alaska-copper-zinc-resource-347176915",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "2026年底前（预计）",
+          "unit": "预计时间",
+          "value": "2026年底前"
+        },
+        {
+          "claim": "Smucker 合规资源估算目标",
+          "evidence": "NI 43-101 resource by the end of 2027",
+          "source_url": "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/valhalla-metals-tsxvvmxx-major-backed-bid-to-double-alaska-copper-zinc-resource-347176915",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "2027年底前（目标）",
+          "unit": "目标时间",
+          "value": "2027年底前"
+        }
+      ],
+      "title": "Valhalla 已完成 Sun 年内钻探，计划2027年底前编制 Smucker 合规资源估算",
+      "source_type": "podcast",
+      "summary": "Valhalla Metals CEO Sorin Posescu 在10月6日录制、10月8日发布的 Company Interviews 节目中披露，Sun 项目2026年钻探已经完成，预计年末前取得化验结果；公司希望在2027年底前为 Smucker 编制符合 NI 43-101 的资源估算。Smucker 现有历史估算尚非现行资源量，历史岩芯仍未找到。",
+      "importance": "Sun 的近期验证关口已从能否完成现场作业转到化验是否支持矿化连续性，2026年末结果将决定资源扩张假设的可信度。Smucker 转为合规资源可改善远期铜项目规模评估，但旧资料验证及 Ambler 道路的资金、建设仍是独立约束，资源增长无法自动兑现为可交付铜。",
+      "verification_status": "verified",
+      "verification_note": "读取Company Interviews在iHeart公开完整Episode Description，并与Crux原始相关文章及其嵌入视频FL8kTdZa5fE对照；未宣称听取音频。节目明确录制日期10月6日；对应iHeart节目startDate=1791422634000，换算北京2026-10-08 09:23:54，非抓取时间。只引用当前钻探/未来资源节点，未将2021年Sun资源或1981年Smucker历史估算当作新发现。",
+      "guest": {
+        "name": "Sorin Posescu",
+        "background": "Valhalla Metals 总裁兼CEO"
+      },
+      "companies": [
+        "Valhalla Metals"
+      ],
+      "projects": [
+        "Sun",
+        "Smucker"
+      ]
+    },
+    {
+      "url": "https://clearcommodity.net/podcasts/mining-stock-daily/argenta-silver-hits-1-600-g-t-silver-as-el-quevar-continues-to-expand",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-08",
+      "claims": [
+        {
+          "claim": "节目称第三台钻机已测试新靶区",
+          "evidence": "Argenta now has a third rig testing the Manny target",
+          "source_url": "https://clearcommodity.net/podcasts/mining-stock-daily/argenta-silver-hits-1-600-g-t-silver-as-el-quevar-continues-to-expand",
+          "evidence_type": "公开节目说明/管理层访谈",
+          "period": "本次节目披露的当前状态",
+          "unit": "钻机部署",
+          "value": "第三台已测试Manny"
+        },
+        {
+          "claim": "10月5日公司公告仍描述两台钻机",
+          "evidence": "with two drill rigs",
+          "source_url": "https://theprospectornews.com/argenta-silver-intersects-0-45-g-t-au-and-0-19-cu-over-46-0m-at-gold-copper-target-1599-g-t-ag-over-4-0m-including-2780-g-t-ag-over-2-0m-atresource-expansion-drilling-area/",
+          "evidence_type": "发行人公告公开转载全文",
+          "period": "2026-10-05公告",
+          "unit": "台钻机",
+          "value": 2
+        }
+      ],
+      "title": "Argenta 新增第三台钻机测试 El Quevar 外围靶区",
+      "source_type": "podcast",
+      "summary": "Argenta Silver CEO Joaquin Marias 在 Mining Stock Daily 节目中表示，El Quevar 已有第三台钻机测试 Manny 靶区。与10月5日公司公告仍描述两台钻机作业相比，这是现场勘探部署的推进；节目未给出第三台钻机的计划米数或首批结果时间。",
+      "importance": "第三台钻机增加独立靶区的钻探能力，使既有资源扩边和外围验证更有条件并行进行，改变近期获取地质证据的节奏。判断其能否扩大远期白银资源，应观察新靶区钻孔的连续性和化验结果；台数增加本身不能证明发现规模，也不能保证赶上下次资源更新。",
+      "verification_status": "verified",
+      "verification_note": "读取MSD在Clear Commodity的公开节目说明；time datePublished=2026-10-07T12:59:00-05:00，换算北京10月8日01:59。文字明确第三台钻机正在测试Manny；按节目拼写保留，未把它与发行人Mani名称的对应关系当作已独立核实。读取10月5日发行人公告公开全文确认两台钻机基数；6月30日CNW公告仅为考虑第三台。1,599g/t化验和此前资源目标均未重收，未宣称听取音频。",
+      "guest": {
+        "name": "Joaquin Marias",
+        "background": "Argenta Silver CEO"
+      },
+      "companies": [
+        "Argenta Silver"
+      ],
+      "projects": [
+        "El Quevar"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T18:30:00+08:00",
+      "claims": [
+        {
+          "claim": "第三季度可售产品含铜产量",
+          "evidence": "76,401 tonnes in saleable products",
+          "source_url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+          "evidence_type": "公司季度生产公告",
+          "period": "2026年第三季度",
+          "unit": "吨含铜金属量（可售产品）",
+          "value": 76401
+        },
+        {
+          "claim": "被指定销售的历史铜细粉计入可售产品口径",
+          "evidence": "6,904 tonnes of copper fines",
+          "source_url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+          "evidence_type": "公司季度生产公告",
+          "period": "2026年第三季度",
+          "unit": "吨含铜金属量",
+          "value": 6904
+        },
+        {
+          "claim": "选厂精矿含铜产量，与可售产品为不同生产环节口径",
+          "evidence": "68,188",
+          "source_url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+          "evidence_type": "公司季度生产表",
+          "period": "2026年第三季度",
+          "unit": "吨精矿含铜",
+          "value": 68188
+        },
+        {
+          "claim": "全年可售铜产品含铜产量指引维持不变，公司判断靠近下限",
+          "evidence": "290,000 to 310,000 tonnes",
+          "source_url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+          "evidence_type": "公司产量指引",
+          "period": "2026全年",
+          "unit": "吨含铜金属量（可售产品）",
+          "value": "290000—310000"
+        },
+        {
+          "claim": "第三季度末铜库存约为43,000吨",
+          "evidence": "43,000 tonnes of copper in inventory",
+          "source_url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-reports-76401-tonnes-of-copper-produced-by-kamoa-kakula-for-q3-2026/",
+          "evidence_type": "公司季度生产公告",
+          "period": "2026年第三季度末",
+          "unit": "吨含铜金属量",
+          "value": 43000
+        }
+      ],
+      "source": "Ivanhoe Mines",
+      "title": "Kamoa-Kakula三季度可售产品含铜76,401吨，全年产量仍向指引下限靠拢",
+      "excerpt": "Ivanhoe Mines公布，Kamoa-Kakula第三季度可售产品含铜76,401吨，其中6,904吨来自被指定对外销售的历史堆存高品位铜细粉；同期选厂产出精矿含铜68,188吨。季末铜库存约43,000吨，高于季初约40,000吨；2026年可售铜产量指引维持290,000—310,000吨，公司预计靠近区间下限。",
+      "language": "en",
+      "importance": "复产改善了第四季度的供给基础，可售量回升能否转化为市场供应，仍取决于库存转销售的效率。约4.3万吨库存提供了近端发运弹性，但全年指引靠近下限提示矿山、选厂与冶炼仍需协同爬坡；判断短期供应时，应同时观察发运兑现与新产精矿增量，避免把历史细粉转为可售产品的口径变化视作持续的产能增长。",
+      "verification_status": "verified",
+      "companies": [
+        "Ivanhoe Mines"
+      ],
+      "projects": [
+        "Kamoa-Kakula"
+      ],
+      "mining_com_source_note": "Mining铜分类候选原文普通网页读取不可达，隔离Playwright公开正文HTTP200及截图核验成功；媒体发文换算北京时间10月9日，改用同事件Ivanhoe一手公告（普通HTTPS HTTP200）。Newsfile公司原始发行页HTTP200，明示10月8日06:30 EDT用于时间核验；正文数字逐字绑定Ivanhoe保存文本。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/10/08/3377092/0/en/magna-mining-reports-results-of-levack-mine-preliminary-economic-assessment-and-approves-restart-of-production.html",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T18:45:00+08:00",
+      "claims": [
+        {
+          "claim": "董事会批准重启Levack矿",
+          "evidence": "approved the plan to restart",
+          "source_url": "https://www.globenewswire.com/news-release/2026/10/08/3377092/0/en/magna-mining-reports-results-of-levack-mine-preliminary-economic-assessment-and-approves-restart-of-production.html",
+          "evidence_type": "公司正式公告",
+          "period": "2026年10月8日",
+          "unit": "重启决策",
+          "value": "董事会批准"
+        },
+        {
+          "claim": "计划于2028年中开始商业生产",
+          "evidence": "commercial production anticipated in mid-2028",
+          "source_url": "https://www.globenewswire.com/news-release/2026/10/08/3377092/0/en/magna-mining-reports-results-of-levack-mine-preliminary-economic-assessment-and-approves-restart-of-production.html",
+          "evidence_type": "PEA项目计划",
+          "period": "2028年中（预计）",
+          "unit": "时间",
+          "value": "mid-2028"
+        },
+        {
+          "claim": "PEA年均应付铜产量估计为1,290万磅",
+          "evidence": "Avg. annual copper production1\t12.9\tmillion payable lbs",
+          "source_url": "https://www.globenewswire.com/news-release/2026/10/08/3377092/0/en/magna-mining-reports-results-of-levack-mine-preliminary-economic-assessment-and-approves-restart-of-production.html",
+          "evidence_type": "PEA表1项目指标",
+          "period": "2028年中至2035年商业生产期平均",
+          "unit": "百万磅应付铜/年",
+          "value": 12.9
+        },
+        {
+          "claim": "商业生产前初始资本估算",
+          "evidence": "Initial capital2\t$70.1\tC$ million",
+          "source_url": "https://www.globenewswire.com/news-release/2026/10/08/3377092/0/en/magna-mining-reports-results-of-levack-mine-preliminary-economic-assessment-and-approves-restart-of-production.html",
+          "evidence_type": "PEA表1项目指标",
+          "period": "2027年1月至2028年6月，扣除经营现金流和税收抵免前",
+          "unit": "百万加元",
+          "value": 70.1
+        }
+      ],
+      "source": "Magna Mining（GlobeNewswire）",
+      "title": "Magna批准Levack重启，PEA预计2028年中商业生产",
+      "excerpt": "Magna Mining董事会已批准重启加拿大安省Levack矿。初步经济评价（PEA）预计2028年中进入商业生产，商业生产期7.3年、年均应付铜产量1,290万磅，并规划回收金、银等副产品；2027年1月至商业生产前的初始资本估算为7,010万加元，尚未扣除期间经营现金流和可退还税收抵免。",
+      "language": "en",
+      "interpretation": "公司列示的年均3,680万磅是按价格、回收率和应付比例换算的铜当量（CuEq），不能与1,290万磅铜相加。",
+      "importance": "董事会决策使Levack从评估管线进入已批准建设阶段，为2028年以后增加可交付铜量提供了更明确的执行节点。棕地基础设施和第三方选厂有助于压缩建设环节，但PEA仍含推测资源且未以证明经济可行性的矿石储量作重启依据；地下整修、运输及爬坡能否衔接，将决定这部分中期增量能否兑现。",
+      "verification_status": "verified",
+      "companies": [
+        "Magna Mining"
+      ],
+      "projects": [
+        "Levack"
+      ],
+      "mining_com_source_note": "Mining铜分类候选原文经隔离Playwright公开正文及截图核验，媒体发布时间北京时间10月9日越窗；优先采用Magna公司GlobeNewswire公告。Globe普通web不可达、HTTP连接被关闭后，一次隔离Playwright回退HTTP200公开可见，time datetime=2026-10-08T10:45:00Z；公司自有网站全文亦HTTP200，但其正文日期写10月7日，最终采用带可靠发行时刻的公司原始分发版本。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.info.gov.hk/gia/general/202610/08/P2026100600396.htm",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T11:30:00+08:00",
+      "claims": [
+        {
+          "claim": "Valcambi与绍荣钢铁商讨在香港建设黄金精炼和仓储设施",
+          "evidence": "商討合作在香港建設黃金精煉和倉儲設施",
+          "source_url": "https://www.info.gov.hk/gia/general/202610/08/P2026100600396.htm",
+          "evidence_type": "香港特区政府一手公报",
+          "period": "2026年10月8日披露，仍处商讨阶段",
+          "unit": "项目进展",
+          "value": "精炼及仓储合作商讨"
+        }
+      ],
+      "source": "香港特区政府新闻公报",
+      "title": "Valcambi与绍荣钢铁商讨在香港建设黄金精炼和仓储设施",
+      "excerpt": "香港特区政府10月8日公报披露，Valcambi SA正与绍荣钢铁商讨合作，在香港建设黄金精炼和仓储设施。该信息来自财经事务及库务局局长许正宇10月7日瑞士考察期间与Valcambi管理层的会面；本公报未披露项目产能、建设投资或投产时间。",
+      "language": "zh",
+      "importance": "这条信息把此前黄金枢纽政策推进到具名合作方与设施类型，新增的是区域加工及交割基础设施选项。若后续协议、许可与建设落地，本地精炼和保管联动有望减少亚太实物流转环节；但10月8日披露仍处商讨阶段，无法据此计入新增精炼产能，也不代表香港已经增加黄金净购买。",
+      "verification_status": "verified",
+      "companies": [
+        "Valcambi SA",
+        "绍荣钢铁（Shiu Wing Steel）"
+      ],
+      "projects": [
+        "香港黄金精炼和仓储设施合作商讨"
+      ],
+      "mining_com_source_note": "Mining金银分类发现同一Reuters候选，普通web不可达后隔离Playwright公开正文HTTP200及截图核验。最终采用窗口内香港政府一手公报（普通HTTPS HTTP200、明确香港时间11:30），保留商讨阶段口径；不把Valcambi集团既有2,000吨精炼能力或香港整体仓储目标当作该新项目能力。Valcambi自有首页发生TLS证书校验失败，未降低TLS安全设置。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T05:00:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年三季度产金6.93万盎司。",
+          "evidence": "Q3 2026 production of 69.3 koz",
+          "source_url": "https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production",
+          "evidence_type": "issuer_release",
+          "period": "2026Q3",
+          "unit": "koz gold",
+          "value": 69.3
+        },
+        {
+          "claim": "公司预计全年产量处于30万—35万盎司指引下端。",
+          "evidence": "lower end of 2026 production guidance of 300,000 to 350,000 ounces",
+          "source_url": "https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production",
+          "evidence_type": "issuer_guidance",
+          "period": "2026",
+          "unit": "oz gold",
+          "value": "300000–350000; lower end"
+        },
+        {
+          "claim": "Marmato新CIP厂首次产金仍计划在四季度。",
+          "evidence": "first gold in Q4 2026",
+          "source_url": "https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production",
+          "evidence_type": "issuer_guidance",
+          "period": "2026Q4",
+          "unit": "project milestone",
+          "value": "first gold target"
+        }
+      ],
+      "source": "Aris Mining",
+      "title": "Aris三季度产金6.93万盎司，全年预计落在指引下端",
+      "excerpt": "Aris公布三季度产金6.93万盎司，低于二季度7.37万盎司；前九个月累计21.73万盎司，全年预计位于30万—35万盎司指引的下端。Marmato尾矿设施切换导致浮选厂约四周停机，新建每日5000吨CIP厂仍计划四季度首次产金。",
+      "language": "en",
+      "importance": "扩产计划兑现速度与现有设施切换损失需要同时观察。新CIP厂若按期出金，可缓解Marmato短期减产压力；但全年预期已收敛至原区间下端，说明新产能的当年贡献仍受投运时间约束，不能将设计处理量直接折算为新增金量。",
+      "verification_status": "verified",
+      "verification_note": "已读取发行人全文；Business Wire公开转载确认10月7日17:00 EDT，换算北京10月8日05:00。生产数据为公司初步披露，CIP投产为前瞻计划。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08",
+      "claims": [
+        {
+          "claim": "两项目三季度合计产铜4100万磅。",
+          "evidence": "41 million pounds",
+          "source_url": "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/",
+          "evidence_type": "issuer_release",
+          "period": "2026Q3",
+          "unit": "lb copper",
+          "value": 41000000
+        },
+        {
+          "claim": "Florence全年预期2500万—2800万磅。",
+          "evidence": "25 to 28 million pounds",
+          "source_url": "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/",
+          "evidence_type": "issuer_guidance",
+          "period": "2026",
+          "unit": "lb copper",
+          "value": "25000000–28000000"
+        },
+        {
+          "claim": "Florence满产目标延至2027年初。",
+          "evidence": "early 2027",
+          "source_url": "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/",
+          "evidence_type": "issuer_guidance",
+          "period": "2027 early",
+          "unit": "ramp-up timing",
+          "value": "early 2027"
+        },
+        {
+          "claim": "Gibraltar全年指引上调至1.15亿—1.20亿磅。",
+          "evidence": "115 to 120 million pounds",
+          "source_url": "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/",
+          "evidence_type": "issuer_guidance",
+          "period": "2026",
+          "unit": "lb copper",
+          "value": "115000000–120000000"
+        }
+      ],
+      "source": "Trekor Metals",
+      "title": "Trekor三季度产铜4100万磅，Florence爬坡延至2027年初",
+      "excerpt": "Trekor三季度合计产铜4100万磅：Gibraltar为3400万磅，Florence阴极铜为700万磅、环比增长36%。公司称Florence井场扩建较原计划落后约三个月，全年产量现预计2500万—2800万磅，满产目标为2027年初；Gibraltar全年指引则由1.10亿—1.15亿磅上调至1.15亿—1.20亿磅。",
+      "language": "en",
+      "importance": "成熟矿山上调产量预期，可部分抵消Florence增量延后，但无法消除新项目在2026年的供应兑现约束。Florence本季产量增长仍受井场施工进度限制，满产目标移至2027年初后，应以新井上线与实际阴极铜产出来检验爬坡进展。",
+      "verification_status": "verified",
+      "verification_note": "已读取发行人完整公告并核对GlobeNewswire公开转载。原站仅确认10月8日，保留日期精度，不虚构具体时分；爬坡和全年产量为管理层预期。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08",
+      "claims": [
+        {
+          "claim": "三季度权益银产量3440447盎司。",
+          "evidence": "3,440,447",
+          "source_url": "https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program",
+          "evidence_type": "issuer_production_table",
+          "period": "2026Q3",
+          "unit": "oz silver attributable",
+          "value": 3440447
+        },
+        {
+          "claim": "三季度金产量29552盎司。",
+          "evidence": "29,552",
+          "source_url": "https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program",
+          "evidence_type": "issuer_production_table",
+          "period": "2026Q3",
+          "unit": "oz gold",
+          "value": 29552
+        },
+        {
+          "claim": "San Dimas劳资纠纷影响三季度12天运营。",
+          "evidence": "impacted the operations by 12 days in Q3 2026",
+          "source_url": "https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program",
+          "evidence_type": "issuer_release",
+          "period": "2026Q3",
+          "unit": "days",
+          "value": 12
+        }
+      ],
+      "source": "First Majestic Silver",
+      "title": "First Majestic三季度银金产量下降，San Dimas劳资纠纷影响12天",
+      "excerpt": "First Majestic三季度权益银产量344.04万盎司、金产量29552盎司，分别较上季下降9%和15%；Los Gatos按70%权益计入。San Dimas劳资纠纷影响当季12天运营，公司仍在推动恢复正常运营；前九个月白银产量达到修订后全年指引中点的72%，黄金为75%。",
+      "language": "en",
+      "importance": "San Dimas的劳资约束已经体现为当季金银实物减产，而公告尚未确认纠纷结束。其他矿山扩建虽提供后续增量路径，短期仍需先观察该矿恢复正常入选矿石和产量的速度，才能判断全年银产目标的兑现压力是否缓解。",
+      "verification_status": "verified",
+      "verification_note": "发行人公告正文和产量表已读取，FinanceWire转载交叉核对运营说明；仅可靠确认10月8日，保留日期精度。未将管理层努力解决纠纷误写为已经复产。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T18:30:00+08:00",
+      "claims": [
+        {
+          "claim": "Tocantinzinho三季度产金44960盎司。",
+          "evidence": "44,960",
+          "source_url": "https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN",
+          "evidence_type": "issuer_release_reprint",
+          "period": "2026Q3",
+          "unit": "oz gold",
+          "value": 44960
+        },
+        {
+          "claim": "三季度产金环比增加22%。",
+          "evidence": "22%",
+          "source_url": "https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN",
+          "evidence_type": "issuer_release_reprint",
+          "period": "2026Q3 vs Q2",
+          "unit": "percent",
+          "value": 22
+        },
+        {
+          "claim": "前九个月累计产金113651盎司。",
+          "evidence": "113,651",
+          "source_url": "https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN",
+          "evidence_type": "issuer_release_reprint",
+          "period": "2026 first nine months",
+          "unit": "oz gold",
+          "value": 113651
+        }
+      ],
+      "source": "G Mining Ventures / GlobeNewswire（Stockwatch转载）",
+      "title": "G Mining三季度产金44960盎司、环比增22%，维持全年指引",
+      "excerpt": "G Mining公布巴西Tocantinzinho三季度初步产金44960盎司，环比增长22%，但低于上年同期46360盎司；前九个月累计113651盎司。公司维持全年16万—19万盎司指引，三季度处理量为每日12372吨、入选品位1.33克/吨、回收率92%，并预期四季度受益于更高品位矿石。",
+      "language": "en",
+      "importance": "本季回升表明矿石品位与处理能力改善开始转化为黄金产出，但单季仍未超过去年同期。全年区间维持不变意味着四季度还需进一步提升产出；后续应同时核对高品位矿石的实际入选进度和回收率，避免只用环比增长推断全年达标。",
+      "verification_status": "verified",
+      "verification_note": "GlobeNewswire原链接读取失败后，读取Stockwatch公开分发全文；正文标明10月8日06:30 ET，换算北京18:30。公司数据为初步生产结果。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T02:33:00+08:00",
+      "claims": [
+        {
+          "claim": "现有尾矿设施剩余容量约三个月。",
+          "evidence": "about three months of remaining deposition capacity",
+          "source_url": "https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources",
+          "evidence_type": "named_manager_interview",
+          "period": "reported 2026-10-07 GMT",
+          "unit": "months capacity",
+          "value": 3
+        },
+        {
+          "claim": "TSF2工程约完成80%。",
+          "evidence": "about 80 percent complete",
+          "source_url": "https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources",
+          "evidence_type": "named_manager_interview",
+          "period": "reported 2026-10-07 GMT",
+          "unit": "percent complete",
+          "value": 80
+        },
+        {
+          "claim": "新尾矿库计划12月投用。",
+          "evidence": "commissioning targeted for December",
+          "source_url": "https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources",
+          "evidence_type": "named_manager_guidance",
+          "period": "2026-12 target",
+          "unit": "commissioning timing",
+          "value": "December 2026"
+        }
+      ],
+      "source": "3News",
+      "title": "Sankofa金矿尾矿库仅余约三个月容量，新设施目标12月投用",
+      "excerpt": "3News引述Sankofa矿方负责人称，现有尾矿设施剩余排放容量约三个月；由公司内部资金建设的TSF2已完成约80%，土建计划10月底完成，12月投用。报道同时称矿山曾停产九个月后恢复运营，若新尾矿库不能及时完成，持续生产可能再次受限。",
+      "language": "en",
+      "importance": "尾矿处置能力构成该矿维持产出的关键时间约束。新设施计划投用时间与现有容量耗尽时点相近，留给施工和调试偏差的缓冲有限；应关注实际投用里程碑，而不能把工程完成比例当作已经解除停产风险。",
+      "verification_status": "verified",
+      "verification_note": "已读取3News现场报道全文和署名负责人陈述，发布为10月7日18:33 GMT、北京10月8日02:33；未获得独立工程验收文件，工程比例与排期按矿方陈述呈现。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T03:03:00+08:00",
+      "claims": [
+        {
+          "claim": "完成约4710万加元战略融资。",
+          "evidence": "proceeds of approximately C$47.1 million",
+          "source_url": "https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana",
+          "evidence_type": "issuer_release",
+          "period": "2026-10-07 EDT",
+          "unit": "CAD million",
+          "value": 47.1
+        },
+        {
+          "claim": "融资后现金约9200万加元。",
+          "evidence": "approximately C$92 million in cash",
+          "source_url": "https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana",
+          "evidence_type": "issuer_release",
+          "period": "post financing",
+          "unit": "CAD million cash",
+          "value": 92
+        },
+        {
+          "claim": "拟重点扩大钻探活动和进尺。",
+          "evidence": "expanding drilling activities and increasing metres drilled",
+          "source_url": "https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana",
+          "evidence_type": "issuer_use_of_proceeds",
+          "period": "planned exploration",
+          "unit": "funding purpose",
+          "value": "drilling expansion"
+        }
+      ],
+      "source": "Aquitaine Metals / Newsfile",
+      "title": "Aquitaine完成4710万加元战略融资，拟扩大法国Limousin钻探",
+      "excerpt": "Aquitaine完成Kinross和Alpayana参与的约4710万加元非经纪私募，融资后现金约9200万加元。公司拟将主要资金用于加快法国Limousin金及关键金属项目勘探，重点扩大钻探活动和进尺，并支持技术、环境及社区工作。",
+      "language": "en",
+      "importance": "融资完成提高了Limousin勘探计划的资金可执行性，增量影响首先体现在钻探覆盖和技术验证速度。资金到位并不等同于新增可采储量或矿山产能，后续供给判断仍取决于钻探结果、资源模型和法国许可进展。",
+      "verification_status": "verified",
+      "verification_note": "已读取Newsfile完整发行人公告；10月7日15:03 EDT换算为北京10月8日03:03。与9月融资是不同交易，本次事实为已完成融资，资金用途为计划。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T19:17:07+08:00",
+      "claims": [
+        {
+          "claim": "预可研目标于2026年11月底前发布。",
+          "evidence": "PFS publication before the end of November 2026",
+          "source_url": "https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/",
+          "evidence_type": "issuer_study_guidance",
+          "period": "2026-11 target",
+          "unit": "study milestone",
+          "value": "PFS publication"
+        },
+        {
+          "claim": "预可研基准破碎处理量为每年4800万吨。",
+          "evidence": "crushing throughput to 48 Mtpa",
+          "source_url": "https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/",
+          "evidence_type": "issuer_study_update",
+          "period": "PFS base case",
+          "unit": "Mtpa ore",
+          "value": 48
+        },
+        {
+          "claim": "主浮选处理量为每年3600万吨矿石。",
+          "evidence": "36 Mtpa of main flotation circuit throughput",
+          "source_url": "https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/",
+          "evidence_type": "issuer_study_update",
+          "period": "PFS base case",
+          "unit": "Mtpa ore",
+          "value": 36
+        }
+      ],
+      "source": "Koryx Copper",
+      "title": "Koryx调整Haib铜项目流程，预可研目标11月底前发布",
+      "excerpt": "Koryx称Haib预可研各工作线按计划推进，目标2026年11月底前发布。基准方案拟采用每年4800万吨破碎量，经粗粒浮选剔除约1200万吨低品位脉石后，主浮选处理量为3600万吨；约5000万吨氧化矿堆浸不再纳入本次基准方案。上述均为矿石处理量，并非铜金属产量。",
+      "language": "en",
+      "importance": "流程收敛改变了项目未来铜产出的实现路径和需要验证的技术环节。粗粒预先抛废能否稳定提升入选品位、以及排除氧化矿后项目经济性如何变化，需要等待预可研披露；工程进度本身尚不足以确认最终铜产量、资本开支和投产日期。",
+      "verification_status": "verified",
+      "verification_note": "发行人完整公告与带时区发布时间元数据已读取；10月8日13:17:07+02:00对应北京19:17:07。流程参数为预可研基准设想，不是已建产能。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://xaligold.com/news-releases/xali-gold-completes-public-workshop-advancing-exploration-permitting-at-pico-machay-in-peru/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08",
+      "claims": [
+        {
+          "claim": "FTA申请计划下一周递交。",
+          "evidence": "submission targeted for next week",
+          "source_url": "https://xaligold.com/news-releases/xali-gold-completes-public-workshop-advancing-exploration-permitting-at-pico-machay-in-peru/",
+          "evidence_type": "issuer_permitting_update",
+          "period": "week after 2026-10-08",
+          "unit": "permitting milestone",
+          "value": "FTA submission target"
+        },
+        {
+          "claim": "计划钻探3000米，其中约2000米验证历史钻孔。",
+          "evidence": "planned 3,000-metre diamond drill program includes approximately 2,000 metres",
+          "source_url": "https://xaligold.com/news-releases/xali-gold-completes-public-workshop-advancing-exploration-permitting-at-pico-machay-in-peru/",
+          "evidence_type": "issuer_exploration_plan",
+          "period": "planned program",
+          "unit": "metres drilling",
+          "value": "3000 total; approximately 2000 twins"
+        }
+      ],
+      "source": "Xali Gold",
+      "title": "Xali完成Pico Machay公众说明会，推进3000米钻探许可申请",
+      "excerpt": "Xali披露10月7日已完成秘鲁Pico Machay公众说明会，计划下一周递交FTA勘探环境许可申请。拟开展的3000米金刚石钻探中，约2000米用于对历史反循环钻孔进行孪生验证，为后续资源更新和初步经济评估提供依据；公告尚未宣布取得FTA批准。",
+      "language": "en",
+      "importance": "公众程序完成使项目向获得钻探许可更进一步，潜在价值在于推动历史数据转化为可用于新资源模型的验证资料。钻探仍取决于申请获批和现场执行，短期不产生黄金供应，后续应分别跟踪许可决定与孪生孔验证结果。",
+      "verification_status": "verified",
+      "verification_note": "已读取发行人10月8日完整正文；原站无可靠具体时分，保留日期精度。说明会完成、待递交申请和计划钻探三个状态分别表述。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T19:30:00+08:00",
+      "claims": [
+        {
+          "claim": "完成17孔共5719米验证钻探。",
+          "evidence": "Seventeen drill holes totaling 5,719 metres",
+          "source_url": "https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC",
+          "evidence_type": "issuer_drill_results",
+          "period": "2026 validation program",
+          "unit": "holes and metres",
+          "value": "17 holes; 5719m"
+        },
+        {
+          "claim": "新钻探最多8孔共2500米。",
+          "evidence": "up to 8 holes totaling 2,500m",
+          "source_url": "https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC",
+          "evidence_type": "issuer_exploration_plan",
+          "period": "2026Q4",
+          "unit": "holes and metres",
+          "value": "up to 8; 2500m"
+        },
+        {
+          "claim": "已取得Earl平硐部分修复许可。",
+          "evidence": "permit for rehabilitation of part of the Earl Adit",
+          "source_url": "https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC",
+          "evidence_type": "issuer_permit_update",
+          "period": "2026-10-08 disclosure",
+          "unit": "permit",
+          "value": "received"
+        }
+      ],
+      "source": "Equity Metals / Newsfile",
+      "title": "Equity披露Silver Queen验证钻探并取得Earl平硐修复许可",
+      "excerpt": "Equity完成No.3矿脉17孔、5719米验证钻探，称与历史数据未见系统性品位偏差；SQ26-173孔6.1米估算真厚度含银166克/吨、金1.9克/吨。公司计划下一周启动最多8孔、2500米钻探，并已获Earl平硐部分修复许可，为测绘和后续工程工作准备条件。",
+      "language": "en",
+      "importance": "本次增量主要提高历史资源数据的可信度，并推进地下工程验证条件。验证孔结果和新许可有助于缩小开发判断的不确定性，但尚未构成新增储量或投产决定；后续应观察新钻探能否界定采矿稀释范围，以及平硐测绘如何影响工程方案。",
+      "verification_status": "verified",
+      "verification_note": "已读取Newsfile完整发行人公告；10月8日07:30 EDT对应北京19:30。钻孔长度按原文明示估算真厚度；与同日Equity访谈合并去重，以本公告为主记录。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek",
+      "metal_tags": [
+        "silver",
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T19:00:00+08:00",
+      "claims": [
+        {
+          "claim": "本季钻探总进尺约9496米。",
+          "evidence": "A total of 9,496 metres",
+          "source_url": "https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek",
+          "evidence_type": "issuer_exploration_update",
+          "period": "2026 drill season",
+          "unit": "metres drilling",
+          "value": 9496
+        },
+        {
+          "claim": "钻探化验结果尚待公布。",
+          "evidence": "Assay results from the 2026 drill program are pending",
+          "source_url": "https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek",
+          "evidence_type": "issuer_result_status",
+          "period": "2026-10-08 disclosure",
+          "unit": "assay status",
+          "value": "pending"
+        },
+        {
+          "claim": "冶金试验目标包括铜回收并优化银金回收。",
+          "evidence": "recovers copper while maximizing silver and gold recoveries",
+          "source_url": "https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek",
+          "evidence_type": "issuer_metallurgy_plan",
+          "period": "planned testwork",
+          "unit": "target metals",
+          "value": "copper, silver, gold"
+        }
+      ],
+      "source": "Alaska Silver / Newsfile",
+      "title": "Alaska Silver完成9496米钻探，Illinois Creek冶金试验待检验",
+      "excerpt": "Alaska Silver称Illinois Creek本季以两台钻机完成9496米钻探，超过扩至9000米的目标；Silver Sage和Waterpump Creek合计39孔，化验结果仍待公布。公司还从旧采坑约200米范围采集约一吨大样送作冶金研究，拟测试银、金、铜的回收方式及回收率，为可能的初步经济评估提供输入。",
+      "language": "en",
+      "importance": "钻探完成扩大了后续资源评价的数据基础，冶金大样则直接检验多金属能否经济回收。新增进尺和取样工作都属于开发前验证，尚不能据此增加资源或产量预期；其供给意义要等化验、回收率及加工方案结果共同明确。",
+      "verification_status": "verified",
+      "verification_note": "发行人官网响应为挑战页，改读Newsfile完整公开正文；10月8日07:00 EDT对应北京19:00。所有未出化验和冶金结果均明确标注待定。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.thenewswire.com/press-releases/1kogFZ8Qx-red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target.html",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08",
+      "claims": [
+        {
+          "claim": "Nautilus已启动首次金刚石钻探。",
+          "evidence": "has initiated a first-pass diamond drill program",
+          "source_url": "https://www.thenewswire.com/press-releases/1kogFZ8Qx-red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target.html",
+          "evidence_type": "issuer_exploration_update",
+          "period": "2026-10-08 disclosure",
+          "unit": "drill milestone",
+          "value": "initiated"
+        },
+        {
+          "claim": "首轮优先测试Prime和North两个靶区。",
+          "evidence": "two priority target areas: Nautilus Prime and Nautilus North",
+          "source_url": "https://www.thenewswire.com/press-releases/1kogFZ8Qx-red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target.html",
+          "evidence_type": "issuer_exploration_plan",
+          "period": "first-pass program",
+          "unit": "targets",
+          "value": 2
+        }
+      ],
+      "source": "Red Canyon Resources / TheNewswire",
+      "title": "Red Canyon启动Nautilus铜金靶区首次金刚石钻探",
+      "excerpt": "Red Canyon已在加拿大Osiris项目的Nautilus靶区启动首次金刚石钻探，优先测试Nautilus Prime和Nautilus North。靶区依据约3.5×3.5公里磁异常、激电、土壤铜异常及螺旋钻地质信息圈定；目前披露的是新钻探启动和靶区模型，尚无本轮金刚石钻孔化验结果。",
+      "language": "en",
+      "importance": "项目由地表与物探筛选进入首次岩芯验证，能够检验多个异常是否对应同一铜金成矿系统。异常范围代表找矿线索的空间尺度，不能视为矿体尺寸；长期供给潜力需由钻孔品位、连续性及后续资源估算建立。",
+      "verification_status": "verified",
+      "verification_note": "已读取TheNewswire发行人全文；Stockwatch链接无法读取新闻内容，未用其作事实依据。公开正文仅确认10月8日，保留日期精度。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T18:30:00+08:00",
+      "claims": [
+        {
+          "claim": "一个漂砾样品含金100.5克/吨。",
+          "evidence": "100.5 g/t gold sample (float)",
+          "source_url": "https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html",
+          "evidence_type": "issuer_surface_sampling",
+          "period": "2026 exploration disclosure",
+          "unit": "g/t gold in float sample",
+          "value": 100.5
+        },
+        {
+          "claim": "勘查共采集56件抓样。",
+          "evidence": "A total of 56 grab samples",
+          "source_url": "https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html",
+          "evidence_type": "issuer_surface_sampling",
+          "period": "2026 program",
+          "unit": "grab samples",
+          "value": 56
+        },
+        {
+          "claim": "多数本轮样品化验结果尚待公布。",
+          "evidence": "Assays are pending for the majority of the program samples collected",
+          "source_url": "https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html",
+          "evidence_type": "issuer_result_status",
+          "period": "2026-10-08 disclosure",
+          "unit": "assay status",
+          "value": "majority pending"
+        }
+      ],
+      "source": "AuMEGA Metals / Newsfile（Yahoo Finance转载）",
+      "title": "AuMEGA在Intersection获100.5克/吨金漂砾样，推进靶区筛选",
+      "excerpt": "AuMEGA披露Intersection地表勘查取得100.5、23.8及23.1克/吨金的漂砾样品，本轮共采集56件抓样，多数化验仍待公布。公司拟将其与冰碛物地球化学、构造和地质资料整合后设计下一阶段工作；这些为选择性地表样品，并非钻孔、连续矿体或资源品位。",
+      "language": "en",
+      "importance": "高品位漂砾将该区从区域地球化学异常推进到具体金矿化线索，但母岩位置和矿化规模仍未确定。后续找矿应验证漂砾来源及其与构造靶区的联系，只有连续钻探证据才能把这一早期发现转换为可评价的远期供给潜力。",
+      "verification_status": "verified",
+      "verification_note": "已读取Yahoo Finance分发的完整Newsfile公告及UTC发布时间，换算北京10月8日18:30。保留float/grab的样品性质，不把高值样品推广为平均品位。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://ca.finance.yahoo.com/news/galiano-gold-secures-long-term-113000741.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T19:30:00+08:00",
+      "claims": [
+        {
+          "claim": "Abirem租约延长15年至2041年。",
+          "evidence": "extended for 15 years through 2041",
+          "source_url": "https://ca.finance.yahoo.com/news/galiano-gold-secures-long-term-113000741.html",
+          "evidence_type": "issuer_permit_update",
+          "period": "through 2041",
+          "unit": "years extension",
+          "value": 15
+        },
+        {
+          "claim": "Miradani租约延长17年至2043年。",
+          "evidence": "extended for 17 years through 2043",
+          "source_url": "https://ca.finance.yahoo.com/news/galiano-gold-secures-long-term-113000741.html",
+          "evidence_type": "issuer_permit_update",
+          "period": "through 2043",
+          "unit": "years extension",
+          "value": 17
+        }
+      ],
+      "source": "Galiano Gold / Newsfile（Yahoo Finance转载）",
+      "title": "Galiano获Asanko核心采矿租约延期至2041年和2043年",
+      "excerpt": "Galiano宣布加纳Asanko的Abirem采矿租约延长15年至2041年，Miradani延长17年至2043年。两项租约覆盖Nkran、Adubiaso、Miradani North矿床，以及年处理580万吨的选厂和Nkran Cut 3等长期采矿计划核心设施。",
+      "language": "en",
+      "importance": "长期矿权期限明确降低了现有矿山持续投资和执行采矿计划的许可不确定性，对维持未来黄金供应具有基础作用。租约延期并不自动延长经济矿山寿命或增加产量，后续仍需资源储量转换、矿坑工程及运营表现支持。",
+      "verification_status": "verified",
+      "verification_note": "已读取Yahoo Finance的完整Newsfile原稿转载及UTC发布时间，换算北京10月8日19:30；Newsfile短链空响应已记录，事实来自已读转载全文。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08",
+      "claims": [
+        {
+          "claim": "Quinlan刻槽6米含金6.59克/吨。",
+          "evidence": "6.59 g/t Au over 6.0 m",
+          "source_url": "https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project",
+          "evidence_type": "issuer_channel_sampling",
+          "period": "2026-10-08 new results",
+          "unit": "g/t gold over metres channel",
+          "value": "6.59 over 6.0m"
+        },
+        {
+          "claim": "另条刻槽5米含金3.84克/吨。",
+          "evidence": "3.84 g/t Au over 5.0 m",
+          "source_url": "https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project",
+          "evidence_type": "issuer_channel_sampling",
+          "period": "2026-10-08 new results",
+          "unit": "g/t gold over metres channel",
+          "value": "3.84 over 5.0m"
+        },
+        {
+          "claim": "还有159件刻槽样品结果未公布。",
+          "evidence": "159 channel sample results still outstanding",
+          "source_url": "https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project",
+          "evidence_type": "issuer_result_status",
+          "period": "2026-10-08 disclosure",
+          "unit": "channel samples pending",
+          "value": 159
+        }
+      ],
+      "source": "Benton Resources",
+      "title": "Benton在Quinlan取得6米含金6.59克/吨的新刻槽结果",
+      "excerpt": "Benton首次披露Dominion项目Quinlan探槽结果：Line 2连续刻槽6米含金6.59克/吨，其中1米为37.87克/吨；Line 1为5米含金3.84克/吨。Rickirb另有选择性抓样达79.1克/吨，159件刻槽样品结果待出；本次均属地表取样，不能当作钻孔真厚度或资源量。",
+      "language": "en",
+      "importance": "多条刻槽的连续样品比单个高值抓样更有助于确定后续钻探位置，本次结果扩大了Dominion可测试的金靶区。地表矿化能否延伸至深部、保持足够连续性仍未知，近期增量主要是提高钻探设计依据，而非形成可立即开发的黄金供应。",
+      "verification_status": "verified",
+      "verification_note": "已读取发行人完整10月8日公告，保留日期精度；只提取本次Quinlan和新增Rickirb样品，不重复9月10日历史结果或7月拆分融资计划。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T18:00:00+08:00",
+      "claims": [
+        {
+          "claim": "EL26042孔574米铜当量0.40%。",
+          "evidence": "574m grading 0.40% CuEq",
+          "source_url": "https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html",
+          "evidence_type": "issuer_drill_results",
+          "period": "2026 Elemes drilling",
+          "unit": "percent CuEq over metres core",
+          "value": "0.40 over 574m"
+        },
+        {
+          "claim": "EL26039孔22.8米含金5.37克/吨。",
+          "evidence": "22.8m grading 5.37 g/t Au",
+          "source_url": "https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html",
+          "evidence_type": "issuer_drill_results",
+          "period": "2026 Elemes drilling",
+          "unit": "g/t gold over metres core",
+          "value": "5.37 over 22.8m"
+        },
+        {
+          "claim": "报告区间真厚度未知。",
+          "evidence": "true thicknesses of mineralization are currently unknown",
+          "source_url": "https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html",
+          "evidence_type": "issuer_geological_caveat",
+          "period": "2026-10-08 disclosure",
+          "unit": "width qualification",
+          "value": "true thickness unknown"
+        }
+      ],
+      "source": "Arras Minerals / Cision",
+      "title": "Arras在Elemes披露574米铜金矿化及22.8米高品位金段",
+      "excerpt": "Arras公布Elemes新钻孔结果：Berezski Central的EL26042孔574米区间铜当量0.40%，其中实际铜0.11%、金0.23克/吨；K-Ozek的EL26039孔22.8米含金5.37克/吨。公司据此提出斑岩与浅成低温热液系统的空间模型；全部区间为岩芯长度，真厚度未知，深部潜在斑岩仍待钻探检验。",
+      "language": "en",
+      "importance": "新结果把宽厚低品位铜金矿化与较高品位金靶区联系起来，为后续钻探分配提供更具体依据。多类型矿化可能增加远期开发选择，但铜当量依赖价格和回收率假设，尚不能替代实际金属资源、冶金结果或经济可采性判断。",
+      "verification_status": "verified",
+      "verification_note": "已读取Cision发行人完整正文及10月8日06:00 ET元数据，换算北京18:00。聚合站出现旧年份描述，未采用；本次主稿钻孔编号EL26042/EL26039明确为新结果。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T16:00:00+08:00",
+      "claims": [
+        {
+          "claim": "岩芯编录已完成。",
+          "evidence": "Core logging is complete",
+          "source_url": "https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update",
+          "evidence_type": "issuer_exploration_update",
+          "period": "2026-10-08 update",
+          "unit": "logging status",
+          "value": "complete"
+        },
+        {
+          "claim": "十个钻孔化验结果均待公布。",
+          "evidence": "Assay results are pending for all ten holes",
+          "source_url": "https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update",
+          "evidence_type": "issuer_result_status",
+          "period": "2026-10-08 update",
+          "unit": "holes pending assays",
+          "value": 10
+        },
+        {
+          "claim": "所述矿化迹象是定性岩芯观察而非化验。",
+          "evidence": "qualitative core observations, not assay results",
+          "source_url": "https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update",
+          "evidence_type": "issuer_geological_caveat",
+          "period": "2026-10-08 update",
+          "unit": "evidence qualification",
+          "value": "qualitative observations"
+        }
+      ],
+      "source": "Silver Pony Resources / Newsfile",
+      "title": "Silver Pony完成岩芯编录送检，Revelstoke六孔见层叠矿化迹象",
+      "excerpt": "Silver Pony本次更新确认全部岩芯编录完成、十孔样品已送检，Revelstoke Trend六孔均见多层定性矿化迹象，其中五孔观察到方铅矿和黄铁矿，另一孔仅见黄铁矿。Black Warrior与Old Gold四孔未见显著硫化物矿化；所有化验仍待公布，10月1日已披露的钻探完成与总进尺不作本次新增发现。",
+      "language": "en",
+      "importance": "Revelstoke六孔与另外四孔的编录差异，为后续钻探优先测试哪些靶区提供了新依据。可见硫化物不能确认银含量或经济价值，项目对远期银供给的意义仍取决于实验室品位和连续性验证，现阶段只构成勘探方向更新。",
+      "verification_status": "verified",
+      "verification_note": "已读取Newsfile完整公告，10月8日04:00 EDT换算北京16:00；原文明确这些是定性岩芯观察、并非化验。仅保留本次编录、送检与靶区差异的增量。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://goodsfu.10jqka.com.cn/20261008/c680470341.shtml",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-08T14:13:55+08:00",
+      "claims": [
+        {
+          "claim": "10月8日电解铜现货库存10.91万吨。",
+          "evidence": "10月8日国内市场电解铜现货库存10.91万吨",
+          "source_url": "https://goodsfu.10jqka.com.cn/20261008/c680470341.shtml",
+          "evidence_type": "industry_inventory_reprint",
+          "period": "2026-10-08",
+          "unit": "万吨铜",
+          "value": 10.91
+        },
+        {
+          "claim": "较9月30日增加3.35万吨。",
+          "evidence": "较30日增3.35万吨",
+          "source_url": "https://goodsfu.10jqka.com.cn/20261008/c680470341.shtml",
+          "evidence_type": "industry_inventory_reprint",
+          "period": "2026-09-30 to 2026-10-08",
+          "unit": "万吨铜增加",
+          "value": 3.35
+        },
+        {
+          "claim": "Mysteel声明该样本总覆盖率79%；九地样本数量相加为27家。",
+          "evidence": "总样本覆盖79%",
+          "source_url": "https://youse.mysteel.com/a/26100814/B6ACA3DF8209EB7A.html",
+          "evidence_type": "visible_original_inventory_scope",
+          "period": "2026-10-08",
+          "unit": "percent sample coverage",
+          "value": 79
+        }
+      ],
+      "source": "同花顺7×24快讯（引我的钢铁网）",
+      "title": "国庆后国内电解铜社库升至10.91万吨，较节前增3.35万吨",
+      "excerpt": "同花顺引Mysteel数据称，10月8日电解铜现货库存10.91万吨，较9月30日增加3.35万吨；上海、广东、江苏分别为6.50、1.91和2.08万吨。Mysteel原文统计沪粤苏浙赣渝津川豫九地27家库存样本，称总样本覆盖79%，并非SMM库存系列；其将累库归因于假期到货增加、消费及出库较少。",
+      "language": "zh",
+      "importance": "按同一口径计算，节前库存为7.56万吨，本次增量相当于约44%，明显扩大了国内现货缓冲。累库包含假期下游消费和出库减少的季节性影响，尚不能直接判定终端需求趋势转弱；节后出库恢复速度才是检验库存能否重新消化的重要观察点。",
+      "verification_status": "verified",
+      "verification_note": "同花顺公开快讯全文及14:13:55时间已读取；Mysteel原文可见正文另列九地27家样本和79%覆盖率，并确认10.91万吨及较30日增3.35万吨，已保存为补充证据。未用AI摘要作证，也未将SMM系列混入。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.10jqka.com.cn/20261008/c680476577.shtml",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-08T16:12:05+08:00",
+      "claims": [
+        {
+          "claim": "10月8日LME铜库存235225吨、日减4650吨。",
+          "evidence": "10月8日 235225 -4650 -1.94%",
+          "source_url": "https://news.10jqka.com.cn/20261008/c680476577.shtml",
+          "evidence_type": "inventory_data_table_reprint",
+          "period": "2026-10-08",
+          "unit": "tonnes copper inventory",
+          "value": 235225
+        },
+        {
+          "claim": "前一交易日库存为239875吨。",
+          "evidence": "10月7日 239875 -3100 -1.28%",
+          "source_url": "https://news.10jqka.com.cn/20261008/c680476577.shtml",
+          "evidence_type": "inventory_data_table_reprint",
+          "period": "2026-10-07 comparator",
+          "unit": "tonnes copper inventory",
+          "value": 239875
+        }
+      ],
+      "source": "同花顺iNews / iFinD",
+      "title": "LME铜库存日减4650吨至235225吨，交易所库存继续下降",
+      "excerpt": "同花顺iFinD数据表显示，10月8日LME铜库存为235225吨，较前一交易日减少4650吨、降幅1.94%；10月7日为239875吨。本条记录为10月8日新增库存变化，与此前日度去库数据分开统计，所引来源为同花顺数据报道，未独立读取LME仓库原表。",
+      "language": "zh",
+      "importance": "4650吨日度去库使LME可见库存缓冲进一步减少，但库存转移不等于终端消费已经增长。与国内国庆后累库并置，两类库存呈现地区和仓库层面的不同流向；判断即期供给是否收紧，还需仓单结构、升贴水及后续出入库数据配合。",
+      "verification_status": "verified",
+      "verification_note": "已读取同花顺公开正文、日期表和16:12:05发布时间；生意社页面反爬未用于证据。只核验该报道的数据披露，不宣称独立审计LME原始数据。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.ebc.com/zh-cn/jinrong/314348.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-08",
+      "claims": [
+        {
+          "claim": "EBC报道截至10月7日SPDR持仓1061.113吨。",
+          "evidence": "1061.113吨",
+          "source_url": "https://www.ebc.com/zh-cn/jinrong/314348.html",
+          "evidence_type": "secondary_etf_holdings_report",
+          "period": "2026-10-07 holdings; published 2026-10-08",
+          "unit": "tonnes gold",
+          "value": 1061.113
+        },
+        {
+          "claim": "EBC报道持仓较上一交易日增加1.14吨。",
+          "evidence": "较前一个交易日增加1.14吨",
+          "source_url": "https://www.ebc.com/zh-cn/jinrong/314348.html",
+          "evidence_type": "secondary_etf_holdings_report",
+          "period": "2026-10-07 daily change",
+          "unit": "tonnes gold increase",
+          "value": 1.14
+        }
+      ],
+      "source": "EBC金融",
+      "title": "EBC披露SPDR黄金持仓日增1.14吨至1061.113吨",
+      "excerpt": "EBC于10月8日发布的黄金ETF持仓报道显示，截至10月7日，SPDR Gold Trust黄金持仓为1061.113吨，较上一交易日增加1.14吨。本条仅采用其持仓数量和变化，不采用报道中的金价预测或宏观归因；未独立取得基金官方同期持仓明细。",
+      "language": "zh",
+      "importance": "按报道数量计算，1.14吨仅相当于该基金当日持仓的约0.11%，属于幅度较小的单日变化。它显示该产品对应实物黄金占用略有上升，但不能代表全球ETF净流入或持续买盘，仍需后续持仓和其他基金数据确认趋势。",
+      "verification_status": "verified",
+      "verification_note": "已读取EBC完整中文公开正文，页面标注10月8日，保留日期精度；SPDR历史网页和下载地址已尝试但未取得可用同期表格，按二手来源注明，不将数量视作官方独立复核。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://webdisclosure.com/press-release/silver-range-resources-ltd-cve-sng-silver-range-resources-ltd-options-alamo-and-sand-springs-to-resilience-minerals-limited-VgTIAApdtkQ",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-08T19:00:00+08:00",
+      "claims": [
+        {
+          "claim": "Alamo授出可取得80%权益的选择权。",
+          "evidence": "an option to acquire an 80% interest in the Alamo",
+          "source_url": "https://webdisclosure.com/press-release/silver-range-resources-ltd-cve-sng-silver-range-resources-ltd-options-alamo-and-sand-springs-to-resilience-minerals-limited-VgTIAApdtkQ",
+          "evidence_type": "issuer_option_agreement",
+          "period": "2026-10-08 disclosure",
+          "unit": "percent interest",
+          "value": 80
+        },
+        {
+          "claim": "Sand Springs同样授出80%权益选择权。",
+          "evidence": "an option to acquire an 80% interest in the Sand Springs",
+          "source_url": "https://webdisclosure.com/press-release/silver-range-resources-ltd-cve-sng-silver-range-resources-ltd-options-alamo-and-sand-springs-to-resilience-minerals-limited-VgTIAApdtkQ",
+          "evidence_type": "issuer_option_agreement",
+          "period": "2026-10-08 disclosure",
+          "unit": "percent interest",
+          "value": 80
+        }
+      ],
+      "source": "Silver Range Resources / ACCESS Newswire（Webdisclosure转载）",
+      "title": "Silver Range向Resilience授出两项美国金铜项目80%权益选择权",
+      "excerpt": "Silver Range向Resilience授出Alamo及Sand Springs各80%权益的选择权。Alamo行权需支付30万美元现金和等值股票，Sand Springs需25万美元现金和等值股票，均与Resilience计划的澳洲上市衔接，Alamo期限为2026年12月31日前；行权后拟组建勘探开发合营，交易仍待交易所接受。",
+      "language": "en",
+      "importance": "新合作为两个早期金铜项目引入潜在技术执行方，但Alamo行权与2026年底前上市安排绑定，近期开发约束仍是交易兑现。付款和合营尚有前提，不能视为已到账勘探预算，也不能把公告重述的历史品位当作新增资源。",
+      "verification_status": "verified",
+      "verification_note": "已读取Webdisclosure分发的ACCESS Newswire发行人全文，发布时间元数据10月8日11:00 UTC对应北京19:00。不依据公司名称添加白银标签，标注实际项目金铜属性；历史采样未作为新结果。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily / Clear Commodity：公开节目索引及Cupani、Argenta全文和精确datePublished；Argenta第三台钻机与10月5日公司全文、6月30日CNW计划对照，剥离旧化验。",
+      "KEReport：原站索引及Magna、StrikePoint、Kingsmen、Prince正文；前三者再核对Clear同节目精确时戳，均已属北京10月9日。Prince与10月6日报同一钻孔事件。",
+      "Company Interviews / Crux Investor：官网、iHeart节目索引与Valhalla、Au Gold完整Episode Description；Valhalla相关文章及嵌入视频相互核对，Au Gold同URL严格去重。",
+      "Kitco Mining：视频索引、Liberty Gold与Gerald Celente原始节目；Liberty官方Buzzsprout公开说明与逐字稿核对工程/融资事实，读取JSON-LD上传时间。",
+      "Natural Resource Stocks：公开索引、NorthMin与Liberty全文；NorthMin公司Newsfile317508核对许可为provisional offer，Liberty转载并回原节目。",
+      "Prospector News：索引及Equity Metals、Power Metallic、Jeff Christian、Peter Krauth、Blue Lagoon节目说明；按实体增量、跨部分重复和数字期间筛选。",
+      "Resource Talks：官网与Clear索引，Resolution、Miata、TRX、Bravada、Bullion文章和对应视频ID/原节目日期；Fredonia精确时刻已超窗，章节名不替代逐字稿。",
+      "The Northern Miner：主页及10月7日稀土历史播客全文，不属于金银铜供需；Sprott Radio本地403及Rick Rule、Soar Financial补充日期搜索均未得到可核验新节目。",
+      "会议：LBMA Sorrento10月4—6日官方议程/会议页通过web公开读取（本地80字节挑战）；已刊香港/新加坡基础设施不重复。LME Week官方索引为10月19—23日，尚未举行。",
+      "会议回放：Mining Forum Americas官网议程9月27—30日，回放10月2日起已可用；Mining Americas官方活动列表含Precious Metals Summit9月22—25日及Renmark10月6日，未找到后者可核验新供需回放。Liberty采用节目原始上传日期。",
+      "中文：日期限定的黄金、白银、铜访谈/业绩说明会/产量搜索；中国国际矿业大会现行官网明确2026年9月10—12日，非日历泛称10月；有色视频站仅8字符空壳。检索结果以旧文件、价格评论或无法确认原访谈为主，无合格中文节目。",
+      "补充发现：Oregon Group/Milewski公开转载超北京时间窗口且无具体供需事实；Royal Gold和Kodiak10月7日第三方演示逐字稿仅作线索，未确认原始节目全文，未使用其数字。",
+      "去重：读取10月5、6、7日报，关键词扩查历史JSON；Liberty旧可研/冶金、Argenta旧资源目标已剥离，Valhalla两项目无已刊同事件。完整访问和逐条拒绝记录保存在本次忽略目录。",
+      "访问限制：https://www.chinaminingtj.org/ — TLS certificate failure on legacy conference site; current official site succeeded.",
+      "访问限制：https://cpmgroup.com/is-now-the-time-to-invest-market-signals-opportunities/ — HTTP403; no gate bypass. Public search description only, no accepted card.",
+      "访问限制：https://clearcommodity.net/podcasts/kereport/kingsmen-resources---new-structure-encountered-which-intersected-218g-t-ageq-over-6-5-meters-located-150-meters-west-of-high-grade-hole-lc-25-010 — Incorrect alias from search returned404; correct same-episode URL subsequently verified.",
+      "访问限制：https://www.lbma.org.uk/global-precious-metals-conference/agenda — Local HTTP200 challenge shell80chars; agenda read through public web tool instead.",
+      "访问限制：https://www.lbma.org.uk/global-precious-metals-conference/ — Local HTTP200 challenge shell80chars; conference dates confirmed via public web tool.",
+      "访问限制：https://www.lme.com/Events/LME-Week — HTTP403 local; official indexed result confirms19–23October, outside window.",
+      "访问限制：https://sprott.com/podcast/ — HTTP403; targeted public search found no qualifying new programme.",
+      "访问限制：https://www.podscan.fm/podcasts/company-interviews — HTTP403 index; iHeart official episode and Crux article successfully read.",
+      "访问限制：https://trxgold.com/investors/presentations-videos/ — HTTP200 challenge shell80chars, not substantive evidence.",
+      "访问限制：https://tv.cnmn.com.cn/ — HTTP200 body8chars only; Chinese video catalogue could not be substantively read.",
+      "访问限制：https://royalgold.com/investors/events-and-presentations/default.aspx — Public navigation1702chars but event list is empty without site rendering; originalOct7 event/transcript not independently confirmed."
+    ],
+    "part1_result": "已完成北京10月6—8日公开节目、采访、演示及中文/会议检索，30条规范化候选逐条决策，入选3条：Black Pine工程/融资、Valhalla现场完成与资源节点、Argenta第三台钻机部署。均基于核验过的公开节目文字，未宣称听取音频。旧事件、窗口外时戳及内容不足项严格排除；局部访问失败已记录并以可用公开页面核验入选事实。",
+    "new_sources_discovered": [
+      "Kitco MINING / Buzzsprout：https://www.buzzsprout.com/2326401（已核验并追加来源登记）",
+      "中国国际矿业大会现行官网：https://china-mining.org.cn/（已核验并追加来源登记）",
+      "Aris Mining：https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production（已核验并追加来源登记）",
+      "Trekor Metals：https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/（已核验并追加来源登记）",
+      "First Majestic Silver：https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program（已核验并追加来源登记）",
+      "G Mining Ventures / GlobeNewswire（Stockwatch转载）：https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN（已核验并追加来源登记）",
+      "3News：https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources（已核验并追加来源登记）",
+      "Aquitaine Metals / Newsfile：https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana（已核验并追加来源登记）",
+      "Koryx Copper：https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/（已核验并追加来源登记）",
+      "Xali Gold：https://xaligold.com/news-releases/xali-gold-completes-public-workshop-advancing-exploration-permitting-at-pico-machay-in-peru/（已核验并追加来源登记）",
+      "Equity Metals / Newsfile：https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC（已核验并追加来源登记）",
+      "Alaska Silver / Newsfile：https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek（已核验并追加来源登记）",
+      "Red Canyon Resources / TheNewswire：https://www.thenewswire.com/press-releases/1kogFZ8Qx-red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target.html（已核验并追加来源登记）",
+      "AuMEGA Metals / Newsfile（Yahoo Finance转载）：https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html（已核验并追加来源登记）",
+      "Galiano Gold / Newsfile（Yahoo Finance转载）：https://ca.finance.yahoo.com/news/galiano-gold-secures-long-term-113000741.html（已核验并追加来源登记）",
+      "Benton Resources：https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project（已核验并追加来源登记）",
+      "Arras Minerals / Cision：https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html（已核验并追加来源登记）",
+      "Silver Pony Resources / Newsfile：https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update（已核验并追加来源登记）",
+      "Silver Range Resources / ACCESS Newswire（Webdisclosure转载）：https://webdisclosure.com/press-release/silver-range-resources-ltd-cve-sng-silver-range-resources-ltd-options-alamo-and-sand-springs-to-resilience-minerals-limited-VgTIAApdtkQ（已核验并追加来源登记）",
+      "Ivanhoe Mines：https://www.ivanhoemines.com/（已核验并追加来源登记）",
+      "Magna Mining：https://magnamining.com/（已核验并追加来源登记）",
+      "香港特区政府新闻公报：https://www.info.gov.hk/gia/general/（已核验并追加来源登记）"
+    ],
+    "url_verification": {
+      "checked": 26,
+      "passed": 26,
+      "failed": 0,
+      "failures": [],
+      "notes": [
+        "计数范围仅为最终入选的26条卡片主URL：访谈3、新闻23，均已读取并核对标题、日期与关键事实；未核验卡0。补充证据另有保存文本和SHA-256绑定。",
+        "此数不代表全部访问尝试均成功。访谈研究保存64次HTTP检查（53成功、11受限/失败），非Mining新闻38个URL检查（29成功、9受限/失败）；Mining原始文章普通web受限后公开浏览器读取成功。访问失败和替代路径逐项列入sources_checked，不以搜索摘要填补正文。",
+        "库存快讯、EBC基金持仓及部分发行稿转载按页面事实核验，明确二手来源范围；未独立取得SPDR同期官方持仓表或LME仓库原表。"
+      ]
+    },
+    "part2_searched": true,
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 24,
+      "accounts_completed": 24,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+        "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+        "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+        "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+        "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+        "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+        "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+        "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+        "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+        "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+        "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+        "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+        "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+        "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+        "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+      ],
+      "notes": [
+        "Playwright完成3个账号，其余21个账号因缺少明确无结果标志交给twscrape，并全部完成；中间错误保留，最终无失败账号。",
+        "采用授权本地采集器，Playwright→twscrape；外层预算3600秒，退出码0，无自动重跑。",
+        "原始材料：x_outputs/2026-10-08_x_raw_materials.txt；sidecar：x_outputs/2026-10-08_x_raw_materials.json；TXT SHA-256=63f8520930948c39a202822401000cc6a530b011254a89fb323538cc1362f69c。"
+      ]
+    },
+    "part2_sources_checked": [
+      "x-realrickrule",
+      "source-eric-sprott",
+      "x-katusaresearch",
+      "x-resourcemaven",
+      "x-thedailygold",
+      "x-brien_lundin",
+      "x-silverguru22",
+      "x-peter_krauth",
+      "x-arcadiaeconomic",
+      "x-duediligenceguy",
+      "x-mercenarygeo",
+      "source-brent-cook",
+      "x-joemazumdar",
+      "x-kaiserresearch",
+      "source-quinton-hennigh",
+      "x-stevetodoruk",
+      "source-justin-tolman",
+      "source-john-hathaway",
+      "source-john-ciampaglia",
+      "source-maria-smirnova",
+      "source-paul-wong",
+      "source-jacob-white",
+      "x-tavicosta",
+      "x-ronstoeferle",
+      "x-wmiddelkoop",
+      "x-lawrencelepard",
+      "x-mjgeiger",
+      "x-junior_stock",
+      "x-jamie_keech",
+      "x-juniorminerjunky",
+      "x-johnfeneck",
+      "x-jayantbhandari5",
+      "x-chenpicks",
+      "x-gerardodelreal",
+      "x-tekoadasilva",
+      "source-trevor-hall",
+      "x-soarfinancial",
+      "source-robert-friedland",
+      "x-robmcewenmux",
+      "x-keith_neumeyer",
+      "x-frank_giustra",
+      "source-ross-beaty",
+      "x-nolanwatson",
+      "source-randy-smallwood",
+      "x-amiradnani",
+      "x-michaelkonnert",
+      "source-shawn-khunkhun",
+      "x-waltercolesjr",
+      "source-john-black",
+      "x-ivanbebek",
+      "source-mark-bristow",
+      "source-sean-boyd",
+      "source-ammar-al-joundi",
+      "source-jack-lundin",
+      "source-richard-adkerson",
+      "source-kathleen-quirk",
+      "source-mark-hill",
+      "source-natascha-viljoen",
+      "source-tom-palmer",
+      "source-5d41708d96e6",
+      "source-ef12e6a8c698",
+      "source-51159e9b601e",
+      "source-53d4eb66e9bd",
+      "source-9351ba2fa456",
+      "source-6b345c9dc6b9",
+      "source-196d53d8107e",
+      "source-e936b7cc3e76",
+      "source-745f23c49784",
+      "source-54de4dbd826c",
+      "source-4ef44c06f0b3",
+      "source-40244d66353e",
+      "source-simon-trott",
+      "source-gary-nagle",
+      "source-m-ximo-pacheco",
+      "source-rub-n-alvarado",
+      "source-iv-n-arriagada",
+      "source-jonathan-price",
+      "source-pdac-convention",
+      "source-denver-gold-forum-gold-forum-americas",
+      "source-precious-metals-summit",
+      "source-mines-and-money",
+      "source-investing-in-african-mining-indaba",
+      "source-future-minerals-forum",
+      "source-diggers-dealers-mining-forum",
+      "source-bmo-global-metals-mining-critical-minerals-conference",
+      "source-cru-world-copper-conference-cesco-week",
+      "source-lme-week",
+      "source-china-mining-conference-and-exhibition",
+      "source-china-gold-congress-and-expo",
+      "source-smm",
+      "source-deutsche-goldmesse",
+      "source-new-orleans-investment-conference",
+      "source-rule-symposium-on-natural-resource-investing",
+      "source-ame-roundup",
+      "source-the-northern-miner-canadian-mining-symposium-global-mining-symposium",
+      "x-ivanhoemines_",
+      "x-freeportmcmoran",
+      "x-newmontcorp",
+      "x-barrickgold",
+      "x-teckresources",
+      "x-antofagastaplc",
+      "x-lundinmining",
+      "x-agnicoeagle",
+      "x-firstmajestic",
+      "x-panamericanslvr",
+      "x-wheaton_pm",
+      "x-endeavourmining",
+      "x-ssrmining",
+      "x-kinrossgold",
+      "x-sandstormgold",
+      "x-fortuna_silver",
+      "x-gogoldresources",
+      "x-vizslasilver"
+    ],
+    "part2_result": "完整覆盖24/24个账号，失败0；Playwright完成3个、twscrape完成21个，保留8条窗口内原始候选。逐条筛选后入选0条：Silver47与Ivanhoe重复事件归并，其他为活动/访谈推广、口号、未证实关税评论或缺少依据的长期预测。完整零入选不等于零候选。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "实际web__run检索；固定北京2026-10-08窗口，英文与中文均执行，52条实际查询保存在ignored research审计。",
+      "web查询 s1：gold mining production \"October 8, 2026\"；silver mining \"October 8, 2026\"；copper mine production \"October 8, 2026\"；\"2026年10月8日\" 铜 黄金 白银 产量 需求",
+      "web查询 s2：Aris Mining \"October 7, 2026\" production；Aquitaine \"October 7, 2026\" gold；Sankofa \"October 7, 2026\" gold；\"October 8, 2026\" \"gold\" \"production\" \"G Mining\"",
+      "web查询 s3：\"Aquitaine\" \"Oct\" \"2026\" \"gold\" news；\"G Mining\" \"October 8, 2026\" production 44960；\"2026年10月8日\" 黄金 消费 ETF 持仓；\"2026年10月8日\" 白银 产量 库存 光伏",
+      "web查询 o2：\"G Mining Ventures\" \"Q3 2026\" \"44,960\"；\"Aquitaine Metals\" \"47.1\" \"2026\"",
+      "web查询 s4：\"2026年10月8日\" 铜 产量 冶炼 库存；\"2026年10月8日\" 黄金 消费 国庆 销量；\"2026年10月8日\" 白银 工业 光伏 银浆；\"October 8, 2026\" gold silver copper drilling news release -site:reddit.com",
+      "web查询 s5：\"Trekor Announces 41 Million\" \"2026\" ET；\"Aris Mining Reports Q3 2026 Production\" \"17:00\"；\"节后铜社会库存垒库\" \"2026\"；\"First Majestic Reports Q3 2026\"",
+      "web查询 s6：\"October 8, 2026\" \"BHP\" mediation Escondida；\"Red Canyon\" \"Nautilus\" \"October 8, 2026\"；\"2026年10月8日\" \"铜\" \"库存增加\" SMM；\"2026年10月8日\" \"铜\" \"库存\" 万吨 社会",
+      "web查询 s7：\"StrikePoint\" \"Northumberland\" \"October 8, 2026\"；\"2026-10-08\" \"10.91\" \"铜\"；\"2026年10月8日\" \"LME\" \"4650\"；\"AuMEGA\" \"100.5\" \"October 8, 2026\"",
+      "web查询 s8：\"StrikePoint\" \"Northumberland\" \"2026\" \"completed\"；\"First Majestic\" \"Q3 2026\" \"October 8\" \"07\"；\"10月8日\" \"2026\" \"电解铜现货库存10.91\"",
+      "web查询 s9：\"SPDR\" \"October 7, 2026\" \"1061\"；\"goldshares\" \"historical data\" csv；\"StrikePoint\" \"Northumberland\" \"October 6, 2026\"；\"2026年10月8日\" 黄金 产量 矿山 投产",
+      "web查询 s10：SPDR Gold Shares historical data csv GLD archive；\"Regis Resources\" \"October 8, 2026\" production；\"2026年10月8日\" \"黄金\" \"消费\" \"数据\" -site:reddit.com；\"October 8, 2026\" \"Arras\" \"Silver Range\"",
+      "web查询 s11：\"Alaska Silver Completes Record-Breaking 2026\" newsfile；\"Red Canyon Initiates First Diamond Drill Program\" redcanyonresources；\"Arras Minerals\" \"October 8, 2026\" \"574\"；\"Silver Range\" \"October 8, 2026\"",
+      "web查询 s12：\"Galiano Gold Secures Long-Term Extension\" 2026；\"Arras Minerals Drills 574\" 2026；\"Benton Makes Second High-Grade Gold Discovery\" \"2026\"；\"Silver Pony Provides Corporate Update\" \"October 8\"",
+      "web查询 s13：\"Arras Minerals Drills 574\" \"2026\"；\"AuMEGA\" \"October 8, 2026\" \"100.5\"；\"Galiano Gold\" \"October 8, 2026\" lease",
+      "https://alaskasilver.com/alaska-silver-completes-record-breaking-2026-drill-program-at-illinois-creek/：HTTP200 returned short browser-challenge text; official body not accessed; Newsfile used.",
+      "https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek：Full public text reviewed.",
+      "https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana：Full public text reviewed.",
+      "https://www.tmxnewsfile.com/company/11279/Aquitaine-Metals-Corp.：Public release listing used to discover correct317905release and publication time.",
+      "https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production：Full public text reviewed.",
+      "https://markets.financialcontent.com/stocks/article/bizwire-2026-10-7-aris-mining-reports-q3-2026-production：Full BusinessWire distribution confirms17:00EDT source timezone.",
+      "https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html：Full public text reviewed.",
+      "https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html：Full public text reviewed.",
+      "https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project：Full public text reviewed.",
+      "https://youse.mysteel.com/a/26100814/B6ACA3DF8209EB7A.html：Public original body is truncated, but nine-region sample scope and10.91/+3.35paragraph visible; AI abstract not used.",
+      "https://goodsfu.10jqka.com.cn/20261008/c680470341.shtml：Full public text reviewed.",
+      "https://www.ebc.com/zh-cn/jinrong/314348.html：Full public text reviewed.",
+      "https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC：Full public text reviewed.",
+      "https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program：Full public text reviewed.",
+      "https://firstmajestic.com/：Public company news listing used to find exact Q3 release.",
+      "https://www.investegate.co.uk/announcement/fnw/financewire-news--fnews/first-majestic-reports-q3-2026-production-res-/9814326：Full FinanceWire distribution cross-check; no reliable clock inferred from missing visible time.",
+      "https://ca.finance.yahoo.com/news/galiano-gold-secures-long-term-113000741.html：Full public text reviewed.",
+      "https://www.newsfilecorp.com/release/317964：HTTP200 empty response; complete issuer release read on Yahoo Finance instead.",
+      "https://www.globenewswire.com/news-release/2026/10/08/3377071/0/en/g-mining-ventures-reports-q3-2026-preliminary-production-results.html：GlobeNewswire body request timed out; complete distribution read on Stockwatch instead.",
+      "https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN：Full public text reviewed.",
+      "https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/：Full public text reviewed.",
+      "https://www.100ppi.com/news/detail-20261008-6313719.html：Anti-bot/invalid-request response; public iFinD table used instead.",
+      "https://news.10jqka.com.cn/20261008/c680476577.shtml：Full public text reviewed.",
+      "https://www.newswire.ca/news-releases/lundin-gold-reports-q3-2026-production-of-153-736-ounces-of-gold-851277296.html：Full issuer Cision release read but timestampOct8 17:00EDT is BeijingOct9 and outside window.",
+      "https://www.cantechletter.com/newswires/maverick-gold-and-silver-completes-drill-program-at-silver-vista-property-british-columbia/：HTTP403; out-of-window screening based on discovered publisher timestamp only.",
+      "https://youse.mysteel.com/a/26100809/E47F0EC3FE23AF15.html：Public morning page has AI summary and truncated body repeatingSept30activity; rejected as no reliable new fact.",
+      "https://www.thenewswire.com/press-releases/1kogFZ8Qx-red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target.html：Full public text reviewed.",
+      "https://www.stockwatch.com/News/Item/Z-C%21REDC-3870468/C/REDC：Stockwatch returned Cannot read news item; not used.",
+      "https://thedrillwire.com/red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target/：Short browser-challenge response; TheNewswire original distribution used instead.",
+      "https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources：Full public text reviewed.",
+      "https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update：Full public text reviewed.",
+      "https://webdisclosure.com/press-release/silver-range-resources-ltd-cve-sng-silver-range-resources-ltd-options-alamo-and-sand-springs-to-resilience-minerals-limited-VgTIAApdtkQ：Full public text reviewed.",
+      "https://hq.smm.cn/wirecable/content/104144893：Title/time only, login required for body; no numerical claims used.",
+      "https://www.spdrgoldshares.com/assets/dynamic/GLD/GLD_US_archive_EN.csv：Expected CSV endpoint returned PDF bytes; no holdings data parsed or inferred.",
+      "https://www.spdrgoldshares.com/hong-kong/9840/english/historical-data/：Public historical landing/disclaimer page read; no usable daily holding rows retrieved.",
+      "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/：Full public text reviewed.",
+      "https://www.investegate.co.uk/announcement/gnw/trekor-metals-limited--tko/trekor-announces-41-million-pounds-of-copper-/9813902：Full GlobeNewswire distribution read; AI summary excluded, original issuer body cross-checked.",
+      "https://xaligold.com/news-releases/xali-gold-completes-public-workshop-advancing-exploration-permitting-at-pico-machay-in-peru/：Full public text reviewed.",
+      "Mining铜分类：固定Python+Playwright直接抓取成功，HTTP200，5篇候选；金分类成功1篇、银分类成功1篇，跨分类去重共6篇。",
+      "Mining金/银分类普通web读取均403，按规则使用已完成的Playwright分类结果；辅助site:mining.com gold/silver October 8 2026精确日期搜索分别0命中，宽查询旧年份SEO结果不作正文证据。",
+      "Mining六篇候选普通web打开均不可达（主流程先行尝试）；随后一次隔离Playwright浏览器会话、每篇一次导航，均HTTP200、公开可见正文、完整截图及原始文本保存。无登录、challenge或私人profile；浏览器会话已关闭。",
+      "Valcambi/Shiu Wing：Mining原文公开读取；香港特区政府https://www.info.gov.hk/gia/general/202610/08/P2026100600396.htm普通HTTPS HTTP200、完整公报及香港时间2026-10-08 11:30核验，采用一手商讨口径。Valcambi首页TLS证书校验失败，不降低TLS设置。",
+      "Levack：Mining published_time=2026-10-08T19:05:57Z，换算北京10月9日03:05:57越窗。Magna公司自有公告HTTP200但正文写10月7日；GlobeNewswire原始发行稿web不可达、普通HTTP远端断开，随后一次隔离Playwright HTTP200，公开可见时间October08 06:45 ET、time datetime=2026-10-08T10:45:00Z，采用北京时间10月8日18:45。MarketScreener镜像HTTP403，未反复重试。",
+      "MMG欧盟争议：Mining公开原文核验，主题为巴西镍业务、镍铁及不锈钢；虽列在铜分类，但没有金银铜实物供需新事件，排除。",
+      "Ivanhoe：Mining published_time=2026-10-08T17:10:22Z，换算北京10月9日01:10:22越窗；公司官网完整正文普通HTTPS HTTP200，Newsfile原始发行页HTTP200明确October08 6:30 AM EDT，即北京10月8日18:30。采用公司官网，纠正媒体对可售铜、精矿含铜及历史细粉口径的混写。",
+      "BMO钼：Mining published_time=2026-10-08T14:57:59Z，北京10月8日22:57:59在窗；完整正文核验后按非目标金属排除，铜矿伴生背景未构成本期铜供应增量。",
+      "智利5.2%研究：Mining published_time=2026-10-08T10:56:00Z，北京10月8日18:56在窗；链接GEM原始PDF普通HTTPS HTTP200，6页全文提取及封面渲染视觉核验。封面明示SEPTEMBER2026、元数据生成日期October6，不属于10月8日新研究；5.2%为风险暴露模型值，背景罢工已在旧日报出现，排除。",
+      "访问限制：https://valcambi.com/ — TLS certificate verify failed，未降低证书校验；使用香港政府已核验一手公报",
+      "访问限制：https://www.marketscreener.com/news/magna-mining-reports-results-of-levack-mine-preliminary-economic-assessment-and-approves-restart-of-ce785dded08efe27 — HTTP403；无需镜像，使用已公开核验的公司GlobeNewswire原始公告"
+    ],
+    "part3_result": "新闻检索已完成：非Mining执行52条中英文查询、38个URL检查，接受20条；Mining金银铜三个分类完成发现，6条原文逐篇核验后采用3条窗口内一手公告。合计23条新闻。媒体晚于北京窗口、旧研究、非目标金属、重复或无可核验增量项均排除。",
+    "mining_com_source_note": "铜分类Playwright完成5篇，金/银分类各1篇，合并6条独立原文。普通web读取失败后有限隔离Playwright逐篇读取公开正文，均HTTP200；未使用PiChrome授权或私人profile。最终采用Ivanhoe、Magna发行稿及香港政府三份一手来源，跨时区按北京窗口判断；其余为非目标金属或旧研究。详细核验路径见part3_sources_checked。"
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://theprospectornews.com/prospector-podcast-rob-mcdonald-equity-metals-silver-queen-resource-growth-drilling-and-the-road-to-a-pea/",
+      "https://theprospectornews.com/ellis-martin-report-power-metallic-ceo-terry-lynch-a-bigger-story-ahead-at-nisk-lion/",
+      "https://www.kereport.com/2026/10/08/prince-silver-exploration-update-at-prince-silver-project-nevada-two-of-the-widest-silver-intersections-to-date-over-11000-meters-drilled/",
+      "https://naturalresourcestocks.net/liberty-gold-rules-out-a-sale-strategy-as-black-pine-advances-jon-gilligan/",
+      "https://www.cruxinvestor.com/posts/valhalla-metals-doubling-sun-vms-project-modernising-smucker-in-alaskas-ambler-district",
+      "https://www.iheart.com/podcast/256-company-interviews-43066696/episode/au-gold-tsxvaugc-maiden-victorian-gold-antimony-drilling-set-for-late-2026-347111718",
+      "https://www.kereport.com/2026/10/08/magna-mining-key-takeaways-from-the-levack-mine-pea-and-board-approval-to-restart-production/"
+    ],
+    "notes": "核对最近10月5、6、7日报及历史关键词。与Part3协调：Equity取10月8日公司具体钻探/许可公告，Magna取公司发行Globe的Levack PEA/复产。Argenta仅收第三台钻机部署，旧1599g/t化验和70–75Moz管理层目标不重收；Liberty旧可研/柱浸不重收。日期以北京时间冻结，KER和RT多个10月8日文章实为10月9日。 X的8条候选全部保留原始材料并逐条决策，拒绝原因见part2_result及本地x_decisions.json。",
+    "part3_deduped_events": [
+      "Equity Metals Silver Queen同日访谈与发行人新验证钻探/许可合并，以p3-equity为主记录，part1代理已确认。",
+      "Aris、Aquitaine、Sankofa为前日报发现但北京日期在10月8日的线索，本次已逐一取得完整正文核验后纳入。",
+      "GMIN、Alaska、Galiano、Red Canyon多个转载仅保留一条完整正文记录；不能读取的官网/短链不充当证据。",
+      "Mysteel与SMM同类社库线索合并至p3-cu-inventory-wire；SMM正文登录不可见，Mysteel AI摘要未用于事实背书。",
+      "Silver Pony仅保留本次详细岩芯编录/送检和靶区差异，不重复10月1日钻探完成；Benton排除9月10日旧取样。",
+      "Lundin和Maverick因时区换算到北京10月9日排除；StrikePoint交易完成发生北京10月7日排除。",
+      "Ivanhoe Q3 Kamoa-Kakula产量：公司原始公告优先，次日Mining报道归并。",
+      "Magna Levack PEA及董事会重启：公司GlobeNewswire公告优先，Mining报道及Part1 Korelin访谈归并；已通知Part1研究agent。",
+      "Valcambi与绍荣钢铁：香港政府一手公报优先，Mining金银两个分类同事件归并；10月6日报的香港整体黄金清算和2,000吨仓储目标不重复写入。",
+      "GEM旧研究与Centinela罢工背景不重复收录；10月7日日报已收录Centinela实际罢工。"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/peter_krauth/status/2107891443180417359",
+      "https://x.com/duediligenceguy/status/2108188149981540784",
+      "https://x.com/IvanhoeMines_/status/2108158893662843011"
+    ]
+  }
+}

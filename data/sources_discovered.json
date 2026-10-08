@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -477,6 +477,160 @@
       "category": "矿业公司公告",
       "notes": "2026-10-08研究2026-10-07日报时已核验此公开正文；仅登记实际可读的官方或分发页面。",
       "channel": "https://www.metalsourcemining.com/20261007-metalsource-mining-launches-major-step-out-program-with-1-1-km-northern-target-to-test-broader-scale-of-silver-hill"
+    },
+    {
+      "source_id": "source-kitco-mining-buzzsprout",
+      "display_name": "Kitco MINING / Buzzsprout",
+      "category": "矿业访谈公开逐字稿",
+      "channel": "https://www.buzzsprout.com/2326401",
+      "notes": "2026-10-09核验Liberty Gold同一Kitco节目公开说明和逐字稿，可补充Kitco视频页事实。属于已有Kitco来源的官方公开补充渠道，建议按渠道合并而非重复人员。"
+    },
+    {
+      "source_id": "source-china-mining-current",
+      "display_name": "中国国际矿业大会现行官网",
+      "category": "矿业会议官方信息",
+      "channel": "https://china-mining.org.cn/",
+      "notes": "2026-10-09核验现行官网公开通知，2026年大会为9月10—12日，旧域名本次TLS失败；本次仅追加已核验入口，不修改会议日历。"
+    },
+    {
+      "source_id": "source-aris",
+      "display_name": "Aris Mining",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.aris-mining.com/news/detail/183/aris-mining-reports-q3-2026-production",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取发行人全文；Business Wire公开转载确认10月7日17:00 EDT，换算北京10月8日05:00。生产数据为公司初步披露，CIP投产为前瞻计划。"
+    },
+    {
+      "source_id": "source-trekor",
+      "display_name": "Trekor Metals",
+      "category": "矿业公司官方新闻",
+      "channel": "https://trekormetals.com/investors/news/trekor-announces-41-million-pounds-of-copper-production-from-gibraltar-and-florence-copper-in-the-third-quarter/",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取发行人完整公告并核对GlobeNewswire公开转载。原站仅确认10月8日，保留日期精度，不虚构具体时分；爬坡和全年产量为管理层预期。"
+    },
+    {
+      "source_id": "source-first",
+      "display_name": "First Majestic Silver",
+      "category": "矿业公司官方新闻",
+      "channel": "https://firstmajestic.com/investors/news-releases/first-majestic-reports-q3-2026-production-results-announces-q3-conference-call-details-and-renewal-of-share-repurchase-program",
+      "notes": "2026-10-08日报已读取完整公开原文。发行人公告正文和产量表已读取，FinanceWire转载交叉核对运营说明；仅可靠确认10月8日，保留日期精度。未将管理层努力解决纠纷误写为已经复产。"
+    },
+    {
+      "source_id": "source-gmin-stockwatch",
+      "display_name": "G Mining Ventures / GlobeNewswire（Stockwatch转载）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.stockwatch.com/News/Item/Z-C%21GMIN-3870471/C/GMIN",
+      "notes": "2026-10-08日报已读取完整公开原文。GlobeNewswire原链接读取失败后，读取Stockwatch公开分发全文；正文标明10月8日06:30 ET，换算北京18:30。公司数据为初步生产结果。"
+    },
+    {
+      "source_id": "source-sankofa",
+      "display_name": "3News",
+      "category": "矿业媒体",
+      "channel": "https://www.3news.com/news/western-regional-minister-urges-sankofa-gold-mine-to-sustain-production-maximise-ghanas-gold-resources",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取3News现场报道全文和署名负责人陈述，发布为10月7日18:33 GMT、北京10月8日02:33；未获得独立工程验收文件，工程比例与排期按矿方陈述呈现。"
+    },
+    {
+      "source_id": "source-aquitaine",
+      "display_name": "Aquitaine Metals / Newsfile",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.tmxnewsfile.com/release/317905/Aquitaine-Metals-Closes-C47-Million-Strategic-Financing-with-Kinross-Gold-and-Alpayana",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Newsfile完整发行人公告；10月7日15:03 EDT换算为北京10月8日03:03。与9月融资是不同交易，本次事实为已完成融资，资金用途为计划。"
+    },
+    {
+      "source_id": "source-koryx",
+      "display_name": "Koryx Copper",
+      "category": "矿业公司官方新闻",
+      "channel": "https://koryxcopper.com/koryx-copper-provides-interim-update-on-pre-feasibility-study-progress-for-the-haib-copper-project-in-southern-namibia/",
+      "notes": "2026-10-08日报已读取完整公开原文。发行人完整公告与带时区发布时间元数据已读取；10月8日13:17:07+02:00对应北京19:17:07。流程参数为预可研基准设想，不是已建产能。"
+    },
+    {
+      "source_id": "source-xali",
+      "display_name": "Xali Gold",
+      "category": "矿业公司官方新闻",
+      "channel": "https://xaligold.com/news-releases/xali-gold-completes-public-workshop-advancing-exploration-permitting-at-pico-machay-in-peru/",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取发行人10月8日完整正文；原站无可靠具体时分，保留日期精度。说明会完成、待递交申请和计划钻探三个状态分别表述。"
+    },
+    {
+      "source_id": "source-equity",
+      "display_name": "Equity Metals / Newsfile",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newsfile-prod.tmx.cloud/release/318043/Equity-Metals-Reports-Assays-from-2026-Validation-Drilling-on-the-No.-3-Vein-and-Active-Q4-Exploration-Initiatives-Silver-Queen-Project-BC",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Newsfile完整发行人公告；10月8日07:30 EDT对应北京19:30。钻孔长度按原文明示估算真厚度；与同日Equity访谈合并去重，以本公告为主记录。"
+    },
+    {
+      "source_id": "source-alaska-wire",
+      "display_name": "Alaska Silver / Newsfile",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www2.newsfilecorp.com/release/318056/Alaska-Silver-Completes-RecordBreaking-2026-Drill-Program-at-Illinois-Creek",
+      "notes": "2026-10-08日报已读取完整公开原文。发行人官网响应为挑战页，改读Newsfile完整公开正文；10月8日07:00 EDT对应北京19:00。所有未出化验和冶金结果均明确标注待定。"
+    },
+    {
+      "source_id": "source-red-newswire",
+      "display_name": "Red Canyon Resources / TheNewswire",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.thenewswire.com/press-releases/1kogFZ8Qx-red-canyon-initiates-first-diamond-drill-program-on-its-nautilus-copper-gold-target.html",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取TheNewswire发行人全文；Stockwatch链接无法读取新闻内容，未用其作事实依据。公开正文仅确认10月8日，保留日期精度。"
+    },
+    {
+      "source_id": "source-aumega",
+      "display_name": "AuMEGA Metals / Newsfile（Yahoo Finance转载）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://ca.finance.yahoo.com/news/aumega-metals-discovers-100-5-103000326.html",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Yahoo Finance分发的完整Newsfile公告及UTC发布时间，换算北京10月8日18:30。保留float/grab的样品性质，不把高值样品推广为平均品位。"
+    },
+    {
+      "source_id": "source-galiano",
+      "display_name": "Galiano Gold / Newsfile（Yahoo Finance转载）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://ca.finance.yahoo.com/news/galiano-gold-secures-long-term-113000741.html",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Yahoo Finance的完整Newsfile原稿转载及UTC发布时间，换算北京10月8日19:30；Newsfile短链空响应已记录，事实来自已读转载全文。"
+    },
+    {
+      "source_id": "source-benton",
+      "display_name": "Benton Resources",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.bentonresources.ca/news/benton-makes-second-high-grade-gold-discovery-of-37-87-g-t-au-at-the-quinlan-zone-and-discovers-visible-gold-assaying-79-1-g-t-au-at-the-rickirb-zone-dominion-project",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取发行人完整10月8日公告，保留日期精度；只提取本次Quinlan和新增Rickirb样品，不重复9月10日历史结果或7月拆分融资计划。"
+    },
+    {
+      "source_id": "source-arras",
+      "display_name": "Arras Minerals / Cision",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newswire.ca/news-releases/arras-minerals-drills-574-metres-0-40-cueq-0-23-g-t-au-0-11-cu-0-76-g-t-ag-38-84-ppm-mo-at-berezski-central-and-intersects-22-8-metres-5-37-g-t-au-on-the-newly-defined-epithermal-target-at-k-ozek-in-kazakhstan-895045946.html",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Cision发行人完整正文及10月8日06:00 ET元数据，换算北京18:00。聚合站出现旧年份描述，未采用；本次主稿钻孔编号EL26042/EL26039明确为新结果。"
+    },
+    {
+      "source_id": "source-silverpony",
+      "display_name": "Silver Pony Resources / Newsfile",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.tmxnewsfile.com/release/318028/Silver-Pony-Provides-Corporate-Update",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Newsfile完整公告，10月8日04:00 EDT换算北京16:00；原文明确这些是定性岩芯观察、并非化验。仅保留本次编录、送检与靶区差异的增量。"
+    },
+    {
+      "source_id": "source-silverrange",
+      "display_name": "Silver Range Resources / ACCESS Newswire（Webdisclosure转载）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://webdisclosure.com/press-release/silver-range-resources-ltd-cve-sng-silver-range-resources-ltd-options-alamo-and-sand-springs-to-resilience-minerals-limited-VgTIAApdtkQ",
+      "notes": "2026-10-08日报已读取完整公开原文。已读取Webdisclosure分发的ACCESS Newswire发行人全文，发布时间元数据10月8日11:00 UTC对应北京19:00。不依据公司名称添加白银标签，标注实际项目金铜属性；历史采样未作为新结果。"
+    },
+    {
+      "display_name": "Ivanhoe Mines",
+      "category": "铜矿公司官方公告",
+      "channel": "https://www.ivanhoemines.com/",
+      "notes": "2026-10-08季度生产公告公开HTTPS200核验，并以Newsfile原始发行页核对时刻。",
+      "source_id": "source-ivanhoe-mines-news"
+    },
+    {
+      "display_name": "Magna Mining",
+      "category": "铜及贵金属矿业公司官方公告",
+      "channel": "https://magnamining.com/",
+      "notes": "2026-10-08 Levack公司公告及GlobeNewswire原始发行稿全文核验，采用明确发行时刻版本。",
+      "source_id": "source-magna-mining"
+    },
+    {
+      "display_name": "香港特区政府新闻公报",
+      "category": "政府贵金属政策与产业公告",
+      "channel": "https://www.info.gov.hk/gia/general/",
+      "notes": "2026-10-08 11:30政府黄金精炼及仓储合作公报公开HTTPS200核验。",
+      "source_id": "source-hong-kong-government"
     }
   ]
 }

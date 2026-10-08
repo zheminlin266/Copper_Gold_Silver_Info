@@ -1,0 +1,148 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-08",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 3,
+    "twscrape": 21
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-3beb8b003d8dfe83c3316fa8",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-08T15:59:12+00:00",
+      "text": "Silver's next big opportunity may already be taking shape. Are investors paying attention?\n\nOn Nov. 5, I'll be hosting Avino, Kootenay Silver, Silver47 & Silver North at our Vancouver Summit.\n\nHear directly from management. Get beyond the headlines.\n\nFree to attend. See the",
+      "url": "https://x.com/peter_krauth/status/2108225709386911908",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7178e79a1f4baa70563caff2",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-07T17:50:57+00:00",
+      "text": "Silver47 \n@Silver47co\n is doing the work that matters before the drill ever turns.\nA 1.3km gold-in-soil anomaly at Kennedy now overlaps high-grade rock samples up to 39.4 g/t Au + 370 g/t Ag.\nAnd that’s only one target.\n\n@TedJButler\n  breaks down why this story keeps getting more",
+      "url": "https://x.com/peter_krauth/status/2107891443180417359",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-889ebc8702297d50139741db",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-08T13:30:23+00:00",
+      "text": "In case you missed my latest interview, it focuses on uranium...\n\nBut it also covers a shift in my thinking about gold and silver.\n\nhttps://\nindependentspeculator.com/sd/articles/na\ntural-resource-stocks-2026-10-07\n…",
+      "url": "https://x.com/duediligenceguy/status/2108188255908716698",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-54bc2d8f550e8e540b28356a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-08T13:29:57+00:00",
+      "text": "In case you missed my latest interview, it focuses on uranium...\n\nBut it also covers a shift in my thinking about gold and silver.\n\n(Link in reply so X won't hide this post.)",
+      "url": "https://x.com/duediligenceguy/status/2108188149981540784",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d39c570eda3ddcf3cc801512",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-08T13:22:55+00:00",
+      "text": "PSA: At least I know my gold will be there.\n.",
+      "url": "https://x.com/duediligenceguy/status/2108186377951343093",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0e90b312f23c1b8bcc215d59",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-08T13:12:04+00:00",
+      "text": "Right, but a big part of the rally this year was in anticipation of new copper tariffs Trump is said to be considering.",
+      "url": "https://x.com/duediligenceguy/status/2108183647627223379",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-dfa013029c47acbb4fbf110c",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-08T11:33:42+00:00",
+      "text": "Ivanhoe Mines reports Q3 2026 production results.\n• Kamoa-Kakula produced 76,401 tonnes of copper\n• Kipushi produced a record 77,147 tonnes of zinc\nRead full news release: \nhttps://\ntinyurl.com/mwxtz26u",
+      "url": "https://x.com/IvanhoeMines_/status/2108158893662843011",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a1f41469e19f632916b9737b",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-07T16:54:32+00:00",
+      "text": "“We need six Tier One mines to come online every year till 2050.”\n\nOur Founder \n@robert_ivanhoe\n, speaking at the Mining Forum Americas in Denver.\n$IVN",
+      "url": "https://x.com/IvanhoeMines_/status/2107877246249881803",
+      "collector": "x_search",
+      "report_date": "2026-10-08",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 3,
+      "twscrape": 21
+    },
+    "channel_errors": [
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "63f8520930948c39a202822401000cc6a530b011254a89fb323538cc1362f69c"
+  }
+}
