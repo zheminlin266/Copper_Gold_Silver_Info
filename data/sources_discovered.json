@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-09",
+  "last_updated": "2026-10-10",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -631,6 +631,90 @@
       "channel": "https://www.info.gov.hk/gia/general/",
       "notes": "2026-10-08 11:30政府黄金精炼及仓储合作公报公开HTTPS200核验。",
       "source_id": "source-hong-kong-government"
+    },
+    {
+      "source_id": "source-european-commission",
+      "display_name": "欧盟委员会",
+      "category": "政府关键原材料供应政策",
+      "channel": "https://luxembourg.representation.ec.europa.eu/actualites-et-evenements/actualites/commission-selects-46-new-strategic-projects-bolster-eus-supply-critical-raw-materials-2026-10-09_en",
+      "notes": "2026-10-09官方46项目战略认定公告公开原文核验；许可和融资机会不当作已投产。"
+    },
+    {
+      "source_id": "source-mcewen-mining-news",
+      "display_name": "McEwen Inc.",
+      "category": "矿业公司官方公告",
+      "channel": "https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2026/McEwen-Signs-US55-Million-Agreement-to-Sell-Fuller-and-Paymaster/default.aspx",
+      "notes": "2026-10-09资产出售及应收款收现发行人完整公开原文核验；现金、股份及待交割状态分开。"
+    },
+    {
+      "source_id": "source-strikepoint-gold",
+      "display_name": "StrikePoint Gold官方公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://strikepointgold.com/strikepoint-completes-acquisition-of-the-northumberland-gold-project-from-newmont-corporation-escrow-release-conditions-satisfied-for-c190-million-bought-deal-financing-led-by-canaccord-genuity/",
+      "notes": "2026-10-09日报研究已核验完整公开公司公告；事实与节目说明分源绑定，计划和许可条件分开。"
+    },
+    {
+      "source_id": "source-starcore",
+      "display_name": "Starcore International Mines官方公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://starcore.com/starcore-identifies-four-priority-geophysical-exploration-targets-at-san-martin-and-makes-progress-on-the-structural-model-to-define-drilling-targets/",
+      "notes": "2026-10-09日报研究已核验完整公开公司公告；事实与节目说明分源绑定，计划和许可条件分开。"
+    },
+    {
+      "source_id": "source-lundin-gold",
+      "display_name": "Lundin Gold（Cision）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://www.newswire.ca/news-releases/lundin-gold-reports-q3-2026-production-of-153-736-ounces-of-gold-851277296.html"
+    },
+    {
+      "source_id": "source-namib-minerals",
+      "display_name": "Namib Minerals",
+      "category": "矿业公司公告",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://www.namibminerals.com/investors/news-events/press-releases/detail/107/namib-minerals-completes-commissioning-of-expanded-milling-plant-at-how-mine"
+    },
+    {
+      "source_id": "source-aura-minerals",
+      "display_name": "Aura Minerals（GlobeNewswire公开分发）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/aura-announces-preliminary-record-high-113000877.html"
+    },
+    {
+      "source_id": "source-maverick-gold-silver",
+      "display_name": "Maverick Gold and Silver（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://www.tmxnewsfile.com/release/318111/Maverick-Gold-and-Silver-Completes-Drill-Program-at-Silver-Vista-Property-British-Columbia"
+    },
+    {
+      "source_id": "source-neoterrex",
+      "display_name": "NeoTerrex（Newsfile）",
+      "category": "矿业公司公告",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://www.tmxnewsfile.com/release/318159/NeoTerrex-Executes-Definitive-Agreement-to-Acquire-100-of-Reservoir-CopperGoldSilverTungsten-Project-in-Qubec"
+    },
+    {
+      "source_id": "source-ebc-financial",
+      "display_name": "EBC金融集团",
+      "category": "中文财经/ETF持仓",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://www.ebc.com/zh-cn/jinrong/314521.html"
+    },
+    {
+      "source_id": "source-shfe",
+      "display_name": "上海期货交易所",
+      "category": "交易所官方库存",
+      "notes": "2026-10-10研究2026-10-09日报时已核验完整公开正文、日期与供需口径；详见news-research独立全文及SHA。",
+      "channel": "https://www.shfe.com.cn/data/tradedata/future/stockdata/weeklystock_20261009/ZH/all.html"
+    },
+    {
+      "source_id": "source-guandian-sina",
+      "display_name": "观点网（新浪财经公开转载）",
+      "category": "中文交易所库存报道",
+      "channel": "https://finance.sina.com.cn/stock/estate/integration/2026-10-09/doc-iniurrui7840630.shtml",
+      "notes": "2026-10-09公开完整LME铜库存短讯及转载署名核验；仅使用报道披露的当日净变化。"
     }
   ]
 }

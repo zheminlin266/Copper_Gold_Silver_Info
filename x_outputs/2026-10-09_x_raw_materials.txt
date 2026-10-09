@@ -1,0 +1,42 @@
+X 原始候选 — 2026-10-09
+采集时间: 2026-10-10T07:02:21.165938+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 3, "twscrape": 21}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号: 无
+============================================================
+
+总计候选: 3 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-09T14:38:26+00:00
+    北京: 2026-10-09T22:38:26+08:00
+    文本: "Republicans, rejected President Donald Trump’s 2019 nomination of Shelton as a Fed governor over her views on Fed independence, her support for the gold standard and her questioning whether the U.S. needed a central bank."
+
+Hm...
+    链接: https://x.com/duediligenceguy/status/2108567771218850147
+
+[2] @GoGoldResources (GoGold Resources)
+    UTC: 2026-10-09T14:44:51+00:00
+    北京: 2026-10-09T22:44:51+08:00
+    文本: $GGD $GLGDF
+
+Gold’s 30-Year Perfect Storm: How Does It End?
+    链接: https://x.com/GoGoldResources/status/2108569385044430975
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-08T19:18:17+00:00
+    北京: 2026-10-09T03:18:17+08:00
+    文本: @a_brouwerac https://t.co/E9D0iTLknI
+    链接: https://x.com/duediligenceguy/status/2108275809869807741
+
