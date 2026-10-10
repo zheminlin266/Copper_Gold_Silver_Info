@@ -1,0 +1,58 @@
+X 原始候选 — 2026-10-10
+采集时间: 2026-10-11T07:02:03.248824+08:00
+选定通道: playwright+twscrape
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 3, "twscrape": 21}
+采集状态: complete
+失败账号数: 0
+通道错误: playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号: 无
+============================================================
+
+总计候选: 4 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-09T17:26:22+00:00
+    北京: 2026-10-10T01:26:22+08:00
+    文本: Silver's stuck around $60. But I wouldn't mistake consolidation for weakness.
+
+Oil prices, Treasury yields, and China's accelerating gold purchases are telling a much bigger story.
+
+Our latest Silver Scoop features 4 revealing charts that help explain what's holding silver back —
+    链接: https://x.com/peter_krauth/status/2108610030673269035
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-09T16:30:14+00:00
+    北京: 2026-10-10T00:30:14+08:00
+    文本: Silver producers generating real cash flow have my attention.
+
+I sat down with 
+@SantacruzSilver
+'s CEO and CFO to discuss their growth strategy, a key acquisition in Bolivia, and what could come next.
+
+There's more to this story than meets the eye.
+
+Watch the interview 
+    链接: https://x.com/peter_krauth/status/2108595907805794801
+
+[3] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-09T18:42:56+00:00
+    北京: 2026-10-10T02:42:56+08:00
+    文本: Kamoa-Kakula’s hybrid solar facility with battery storage is now fully operational, delivering 60 MW of continuous baseload power.
+
+Plans are in place to double capacity to 120 MW within 18 months, further strengthening the operation’s power supply with renewable energy.
+    链接: https://x.com/IvanhoeMines_/status/2108629301813977165
+
+[4] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-09T16:33:37+00:00
+    北京: 2026-10-10T00:33:37+08:00
+    文本: Ivanhoe copper output jumps 19% as Kamoa-Kakula rebounds
+    链接: https://x.com/IvanhoeMines_/status/2108596758108655905
+

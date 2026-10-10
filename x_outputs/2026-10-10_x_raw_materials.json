@@ -1,0 +1,100 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-10",
+  "status": "complete",
+  "selected_channel": "playwright+twscrape",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 3,
+    "twscrape": 21
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-872d0b6e632956b4e65aefb6",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-09T17:26:22+00:00",
+      "text": "Silver's stuck around $60. But I wouldn't mistake consolidation for weakness.\n\nOil prices, Treasury yields, and China's accelerating gold purchases are telling a much bigger story.\n\nOur latest Silver Scoop features 4 revealing charts that help explain what's holding silver back —",
+      "url": "https://x.com/peter_krauth/status/2108610030673269035",
+      "collector": "x_search",
+      "report_date": "2026-10-10",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9933f9b429136af7fff1836f",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-09T16:30:14+00:00",
+      "text": "Silver producers generating real cash flow have my attention.\n\nI sat down with \n@SantacruzSilver\n's CEO and CFO to discuss their growth strategy, a key acquisition in Bolivia, and what could come next.\n\nThere's more to this story than meets the eye.\n\nWatch the interview ",
+      "url": "https://x.com/peter_krauth/status/2108595907805794801",
+      "collector": "x_search",
+      "report_date": "2026-10-10",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-86270448fd573e9a3e493621",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-09T18:42:56+00:00",
+      "text": "Kamoa-Kakula’s hybrid solar facility with battery storage is now fully operational, delivering 60 MW of continuous baseload power.\n\nPlans are in place to double capacity to 120 MW within 18 months, further strengthening the operation’s power supply with renewable energy.",
+      "url": "https://x.com/IvanhoeMines_/status/2108629301813977165",
+      "collector": "x_search",
+      "report_date": "2026-10-10",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1d129bd7725553583a7aa39f",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-09T16:33:37+00:00",
+      "text": "Ivanhoe copper output jumps 19% as Kamoa-Kakula rebounds",
+      "url": "https://x.com/IvanhoeMines_/status/2108596758108655905",
+      "collector": "x_search",
+      "report_date": "2026-10-10",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 3,
+      "twscrape": 21
+    },
+    "channel_errors": [
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "80f662a8a647868189a1118ef93966fac9e60f35b153c5e52c47ca78461b846a"
+  }
+}

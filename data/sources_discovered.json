@@ -715,6 +715,34 @@
       "category": "中文交易所库存报道",
       "channel": "https://finance.sina.com.cn/stock/estate/integration/2026-10-09/doc-iniurrui7840630.shtml",
       "notes": "2026-10-09公开完整LME铜库存短讯及转载署名核验；仅使用报道披露的当日净变化。"
+    },
+    {
+      "source_id": "source-steelhome",
+      "display_name": "钢之家",
+      "category": "中文行业媒体/冶炼项目",
+      "channel": "https://www.steelhome.com/detailspage.php?nid=4774193&ntype=n",
+      "notes": "2026-10-11研究10月10日日报时核验公开全文、署名及发布日期；二期设计能力与实际产量分开，不将媒体同稿当独立产量证明。"
+    },
+    {
+      "source_id": "source-fx678",
+      "display_name": "汇通财经",
+      "category": "中文财经快讯/ETF持仓",
+      "channel": "https://news.fx678.com/202610100751592069.shtml",
+      "notes": "2026-10-10 SPDR持仓快讯公开正文与吨数已核验。单基金第三方数据，官方历史表当时仅更新至10月8日，保留当日未独立确认限制。"
+    },
+    {
+      "source_id": "source-chuanguan-news",
+      "display_name": "川观新闻（新浪财经转载）",
+      "category": "中文记者调查/实物黄金消费",
+      "channel": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7403939.shtml",
+      "notes": "2026-10-10完整公开转载保留记者署名及成都10月9日走访信息；仅作局部消费结构证据，不外推全国。可见时间与元数据稍异，使用日精度。"
+    },
+    {
+      "source_id": "source-edge-malaysia-bloomberg",
+      "display_name": "The Edge Malaysia（Bloomberg转载）",
+      "category": "英文财经媒体/公开通讯社转载",
+      "channel": "https://theedgemalaysia.com/node/821350",
+      "notes": "2026-10-10公开英文完整报道及彭博记者归属已核验，报道Cobre Panama震后基础设施稳定；保留部分停用范围，不把设施状态当复产或年产量。"
     }
   ]
 }

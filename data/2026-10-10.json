@@ -1,0 +1,402 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-10",
+  "report_time": "2026-10-11T07:26:13+08:00",
+  "summary": "铜：冶炼端潜在供给扩张，但中间原料库存缓冲偏薄；节后加工需求回补仍待实际开工验证，勘探和设施状态更新不代表即期增产。金：单只实物ETF持仓减少，零售端预算约束与换购使客流难以等同新增金属需求。银：尚无足够新增证据支持调整供需方向判断。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-08T00:00:00+08:00",
+      "end": "2026-10-10T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-10T00:00:00+08:00",
+      "end": "2026-10-10T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-10T00:00:00+08:00",
+      "end": "2026-10-10T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-10",
+      "claims": [
+        {
+          "claim": "本轮已完成23孔约2000米，最多计划58孔。",
+          "evidence": "23 holes for around 2,000m. Up to 58 holes",
+          "source_url": "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge",
+          "evidence_type": "主办方公开访谈配套全文",
+          "period": "2026年10月本轮钻探",
+          "unit": "孔/米",
+          "value": "23/约2000；计划最多58孔"
+        },
+        {
+          "claim": "Blue Rose铜异常走廊超过2.2公里。",
+          "evidence": "beyond 2.2km of strike",
+          "source_url": "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge",
+          "evidence_type": "主办方公开访谈配套全文",
+          "period": "2026-10-08更新",
+          "unit": "公里",
+          "value": ">2.2"
+        },
+        {
+          "claim": "当前结果基于目视与pXRF，首批化验预计四至六周后。",
+          "evidence": "four to six weeks",
+          "source_url": "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge",
+          "evidence_type": "管理层预期，非化验结果",
+          "period": "访谈后的预期等待期",
+          "unit": "周",
+          "value": "4–6"
+        },
+        {
+          "claim": "地质异常并非本轮实验室品位。",
+          "evidence": "visual and pXRF observations",
+          "source_url": "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge",
+          "evidence_type": "公开原文的证据限制",
+          "period": "本轮钻探",
+          "unit": "定性观察",
+          "value": null
+        }
+      ],
+      "title": "Cobra访谈：Manna Hill铜异常走廊扩展，化验结果仍待确认",
+      "source_type": "youtube",
+      "summary": "Crux Investor的访谈配套原文介绍，Manna Hill本轮已完成23孔、约2,000米钻探，计划最多58孔；Blue Rose铜异常走廊扩展至超过2.2公里，并发现Shadow Rose和Neptune Rose两处矽卡岩铜异常。上述判断来自目视编录和便携式X射线荧光检测，首批实验室化验预计四至六周后返回。",
+      "importance": "新增靶区改善的是远期铜资源发现的可能性，目前还不能增加可采储量或近期矿山供应。四至六周后的化验是首个关键验证点：只有品位、真厚度和后续冶金结果支持经济开采，浅部勘探才可能成为开发项目；因此暂不把管理层的规模愿景计入供给预测。",
+      "verification_status": "verified",
+      "verification_note": "核验的是10月10日主办方公开访谈配套全文、标题和日期，未收听完整音视频；文中讨论10月8日新钻探更新。YouTube要求登录，未使用其门禁后的数据；公司公告页返回429，未重试。",
+      "guest": {
+        "name": "Rupert Verco",
+        "background": "Cobra Resources首席执行官兼董事总经理"
+      },
+      "companies": [
+        "Cobra Resources"
+      ],
+      "projects": [
+        "Manna Hill",
+        "Blue Rose"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.steelhome.com/detailspage.php?nid=4774193&ntype=n",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-10T11:22:22+08:00",
+      "claims": [
+        {
+          "claim": "二期项目被报道已投产。",
+          "evidence": "金通铜业二期项目顺利投产",
+          "source_url": "https://www.steelhome.com/detailspage.php?nid=4774193&ntype=n",
+          "evidence_type": "行业媒体公开全文",
+          "period": "2026-10-10报道",
+          "unit": "项目节点",
+          "value": "投产"
+        },
+        {
+          "claim": "二期设计能力30万吨/年，全面达产总能力55万吨/年。",
+          "evidence": "二期项目设计产能30万吨/年",
+          "source_url": "https://www.steelhome.com/detailspage.php?nid=4774193&ntype=n",
+          "evidence_type": "行业媒体公开全文，设计口径",
+          "period": "设计及全面达产情景",
+          "unit": "万吨/年",
+          "value": "新增30；总55"
+        }
+      ],
+      "source": "钢之家",
+      "title": "金通铜业二期投产报道：新增设计能力30万吨/年，仍需观察爬坡",
+      "excerpt": "钢之家10月10日报道金通铜业二期项目投产，二期设计产能为30万吨/年，叠加既有装置后，企业全面达产的总产能将达到55万吨/年。报道尚未给出当期实际产量、装置利用率或达到满产的时间。",
+      "language": "zh",
+      "importance": "这项投产信息扩大了国内铜冶炼端的潜在供给能力，同时增加了对精矿及中间原料的需求，不能与矿山增产等量看待。30万吨设计能力能否转化为近期金属供应，取决于原料到厂和爬坡进度；后续应以月度实际产量确认增量，避免一次性把全年能力计入当期供给。",
+      "verification_status": "verified",
+      "verification_note": "公开钢之家全文、署名和时间已核验，Mysteel当日公开日报亦有同一事件；两篇媒体报道不视为独立公司产量证明。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://sem.smm.cn/copper",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-10T06:58:00+08:00",
+      "claims": [
+        {
+          "claim": "9月冶炼厂阳极铜库存5.95天，环比下降0.18天。",
+          "evidence": "5.95天环比下降0.18天",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "SMM公开原始调研快讯",
+          "period": "2026年9月",
+          "unit": "天",
+          "value": "5.95；环比-0.18"
+        },
+        {
+          "claim": "10月非自用阳极铜开工率预计43.80%。",
+          "evidence": "43.80%",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "SMM预测，非实绩",
+          "period": "2026年10月",
+          "unit": "%",
+          "value": 43.8
+        },
+        {
+          "claim": "下周精铜杆开工率预计提高27.11个百分点，包含节后恢复与补库存因素。",
+          "evidence": "27.11个百分点",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "SMM预测，非实绩",
+          "period": "2026-10-10快讯所指下周",
+          "unit": "百分点",
+          "value": 27.11
+        }
+      ],
+      "source": "上海有色网 SMM",
+      "title": "SMM：阳极铜库存缓冲下降，节后精铜杆复产带动采购预期",
+      "excerpt": "SMM于10月10日披露，9月冶炼厂阳极铜库存为5.95天，环比减少0.18天，已连续九个月下降。9月非自用阳极铜企业开工率为47.14%，10月预计降至43.80%，其中废产企业受假期影响更明显。同日快讯预计下周精铜杆开工率环比提高27.11个百分点，原因包括假期结束、补做节前订单及回补偏低的成品库存。",
+      "language": "zh",
+      "importance": "较薄的中间原料库存与节后加工恢复叠加，可能放大短期原料调配压力，但两类开工率反映不同环节，不能相减得到供需缺口。27.11个百分点的预期反弹含假期低基数和库存回补，尚不足以证明终端需求持续加速；应等待复产后的实际开工率和订单延续性验证。",
+      "verification_status": "verified",
+      "verification_note": "核验SMM铜行业页公开快讯06:16、06:23及06:58正文。阳极铜开工率仅含非自用部分；库存是9月实绩，10月和下周开工率均为预测。页面其他登录报价不作为证据。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/821350",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-10T16:05:51+08:00",
+      "claims": [
+        {
+          "claim": "公司表态称矿区基础设施震后稳定安全。",
+          "evidence": "remained stable and safe following earthquake",
+          "source_url": "https://theedgemalaysia.com/node/821350",
+          "evidence_type": "Bloomberg记者报道转述公司表态",
+          "period": "巴拿马当地2026-10-09震后",
+          "unit": "设施状态",
+          "value": "稳定、安全"
+        },
+        {
+          "claim": "报道描述矿山部分停用，不能理解为全面生产。",
+          "evidence": "partially idled copper mine",
+          "source_url": "https://theedgemalaysia.com/node/821350",
+          "evidence_type": "公开报道的范围限定",
+          "period": "报道时点",
+          "unit": "运行状态",
+          "value": "部分停用"
+        }
+      ],
+      "source": "Bloomberg（The Edge Malaysia转载）",
+      "title": "巴拿马强震后，First Quantum称Cobre Panamá基础设施稳定",
+      "excerpt": "彭博援引First Quantum的公开表态称，巴拿马当地10月9日强震后，Cobre Panamá的基础设施保持稳定、安全。报道明确将该矿描述为部分处于停用状态，因此这项更新确认的是震后设施状况，并未公布新增产量或复产时间。",
+      "language": "en",
+      "importance": "震后设施稳定降低了这一大型铜资产面临的新增损毁风险，有助于保留其未来供给选择，但不能据此上调当前矿产铜供应。10月9日地震后的后续检查、供电及现场维护状态仍需跟踪，实际复产条件和时间表才决定该资产何时能影响市场平衡。",
+      "verification_status": "verified",
+      "verification_note": "已读取The Edge Malaysia的完整公开英文转载，发布日期和彭博归属已核验；Bloomberg Línea同一报道北京时间09:25发布，均落在报告日。两篇转载不视为独立证据，公司社交帖未另行获取。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.fx678.com/202610100751592069.shtml",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-10T07:51:59+08:00",
+      "claims": [
+        {
+          "claim": "美国10月9日SPDR持仓为1053.13吨，前值1055.41吨。",
+          "evidence": "SPDR黄金持仓-每日更新 1053.13, 预期值-吨, 前值1055.41吨",
+          "source_url": "https://news.fx678.com/202610100751592069.shtml",
+          "evidence_type": "公开数据快讯，第三方报道",
+          "period": "美国2026-10-09；北京2026-10-10发布",
+          "unit": "吨",
+          "value": "1053.13；前值1055.41"
+        }
+      ],
+      "source": "汇通财经",
+      "title": "SPDR黄金持仓降至1,053.13吨，较前值减少约2.28吨",
+      "excerpt": "汇通财经10月10日公布的美国10月9日SPDR黄金持仓为1,053.13吨，前值为1,055.41吨；按页面保留两位小数的数据计算，减少约2.28吨。该变化反映单只实物黄金ETF持仓收缩。",
+      "language": "zh",
+      "interpretation": "同日金投网经同花顺转载给出一致方向和近似数值，但来源可能同源；本次下载的SPDR官方历史表仅更新至10月8日，尚不能用官方表独立确认10月9日值。",
+      "importance": "这次减仓约占前值的0.22%，显示该基金短期实物配置需求边际转弱，幅度尚不足以判断全球黄金投资需求反转。后续需要核对官方当日数据，并观察连续申赎及其他基金持仓；单日持仓下降也不能等同于首饰消费或央行购金减少。",
+      "verification_status": "verified",
+      "verification_note": "公开快讯正文、发布时间和吨数已核验；约2.28吨及0.22%为按其两位小数前后值计算，未冒称官方10月9日下载数据已更新。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7403939.shtml",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-10",
+      "claims": [
+        {
+          "claim": "受访企业称手镯主流克重降至十多克。",
+          "evidence": "如今十多克的手镯成为主流",
+          "source_url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7403939.shtml",
+          "evidence_type": "记者走访引用单家企业",
+          "period": "2026-10-09走访",
+          "unit": "克/件",
+          "value": "十多克"
+        },
+        {
+          "claim": "该企业接待顾客中以旧换新占比超过一半。",
+          "evidence": "以旧金换购的占比超过一半",
+          "source_url": "https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7403939.shtml",
+          "evidence_type": "受访经营者描述，非全国样本",
+          "period": "本次走访描述",
+          "unit": "顾客比例",
+          "value": ">50%"
+        }
+      ],
+      "source": "川观新闻（新浪财经完整转载）",
+      "title": "成都金饰走访：固定预算压低单件克重，以旧换新占比较高",
+      "excerpt": "川观新闻10月10日刊出的成都走访显示，10月9日梨花街既有实际购买者，也有询价后暂不购买者。一家黄金经营企业销售经理称，客户手镯预算仍多为两万元左右，热销克重已从过去二三十克或三四十克转向十多克；该企业接待顾客中，以旧金换购者占比超过一半。",
+      "language": "zh",
+      "importance": "局部零售活跃与新增黄金需求强弱可能分离：固定2万元预算会限制购买克重，旧金回流也可能抵消部分新增金属需求。该走访更适合提示消费结构变化，不能外推全国消费增减；节后应比较常态成交克重和新增现金购金比例，避免用旺季销售额误判实物需求。",
+      "verification_status": "verified",
+      "verification_note": "公开完整转载保留川观新闻记者署名及10月9日走访日期；页面可见20:04与元数据时间略异，均属10月10日，保守使用日精度。仅引用现场及单家企业描述，不将其样本比例外推全国。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "已读取种子CSV、已发现来源登记、18项会议日历及最近三日日报，并补充检查近期历史同事件。",
+      "Crux Investor最新文章、Cobra访谈全文及Selkirk材料；Cobra公司公告429停止，YouTube登录要求停止；使用主办方公开文字，不宣称听过视频。",
+      "Korelin Economics Report公开节目列表、Luca Mining与Newcore节目全文；排除旧收购/重复钻探。",
+      "Mining Stock Daily / Clear Commodity公开列表及Will Thompson说明，未见可独立收录的实体供需新增事实。",
+      "Resource Talks公开最新列表及Desert Gold、Resolution、Miata配套文章，按旧节目和历史事件排除后发重印。",
+      "Natural Resource Stocks公开列表及Quimbaya节目正文；The Deep Dive Mithril会议访谈配套页；旧里程碑或未确认节目原始窗口者排除。",
+      "Sprott Money公开节目列表、Kitco视频列表、Rule Investment Media及LME会议日期补充检索；无合格新增信号。LME官方页面HTTP403另记，未绕过。",
+      "Company Interviews的Apple/Amazon分发检索用于发现；Apple正文读取不完整、Amazon为JS壳，均不作为已核验正文或日期证据。"
+    ],
+    "part1_result": "Part1三日窗口研究完成，10个访谈/配套材料候选保留1条Cobra主办方公开访谈文字，其余因旧节目、重复事件、无实体增量或日期证据不足拒收；未以文章重发刷新原节目日期。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 24,
+      "accounts_completed": 24,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+        "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+        "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+        "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+        "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+        "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+        "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+        "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+        "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+        "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+        "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+        "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+        "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+        "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+        "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+      ],
+      "notes": []
+    },
+    "part2_sources_checked": [
+      "@peter_krauth（Peter Krauth）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@duediligenceguy（Lobo Tiggre）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@Junior_Stock（Brian Leni）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@soarfinancial（Kai Hoffmann）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@WalterColesJr（Walter Coles Jr.）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@ivanbebek（Ivan Bebek）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@IvanhoeMines_（Ivanhoe Mines）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@FreeportMcMoRan（Freeport-McMoRan）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@NewmontCorp（Newmont）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@BarrickGold（Barrick Gold）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@TeckResources（Teck Resources）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@AntofagastaPLC（Antofagasta）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@LundinMining（Lundin Mining）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@AgnicoEagle（Agnico Eagle）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@FirstMajestic（First Majestic Silver）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@PanAmericanSlvr（Pan American Silver）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@Wheaton_PM（Wheaton Precious Metals）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@EndeavourMining（Endeavour Mining）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@SSRMining（SSR Mining）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@KinrossGold（Kinross Gold）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@SandstormGold（Sandstorm Gold）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@Fortuna_Silver（Fortuna Mining）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@GoGoldResources（GoGold Resources）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。",
+      "@vizslasilver（Vizsla Silver）：按注册表及北京单日窗口检索；最终通道和完成状态见coverage、TXT与sidecar。"
+    ],
+    "part2_result": "覆盖24/24账户，状态complete，路径Playwright→twscrape；候选4条，逐条筛选后收录0条。所有账户最终完成；保留Playwright未完整结果的原因和twscrape补查审计，不把无明确零结果页面当完成。4条候选分别为Peter Krauth价格/宏观评论、访谈宣传、Ivanhoe旧公告太阳能摘编及季度产量标题，均拒收。太阳能60MW和18个月120MW已经逐字见10月8日公司原始公告，不因10月10日社交发帖重收。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com铜、金、银分类由固定Python与授权本地Playwright完成，全部HTTP200、success_empty，三个分类当日报告日候选均为0。",
+      "Mining.com金/银额外站点搜索及WebFetch已完成；搜索未发现当日新稿，普通WebFetch403保留审计，由成功的真实分类发现完成覆盖。未用RSS、sitemap或Wayback。",
+      "SMM公开铜行业快讯：9月阳极铜库存及开工实绩、10月及下周开工预期；只用公开快讯，不读取登录报价。",
+      "钢之家金通、锋芒项目全文，Mysteel原始日报与新浪转载，按原始日期/同事件去重；锋芒原稿为10月9日。",
+      "汇通财经SPDR快讯、金投网经同花顺转载的金/银持仓页；SPDR官方历史下载解析，最后行为10月8日；不推断图片中的白银吨数。",
+      "川观新闻成都黄金实物消费走访之新浪完整转载，核对署名、调查日、预算/克重/换购样本口径。",
+      "Bloomberg Línea及The Edge Malaysia公开彭博地震报道，Cobre Panama部分停用与设施安全范围分开；选英文转载，原始报道也落北京10月10日。",
+      "哥伦比亚ANM原始全文仅有当地10月9日、缺跨北京时间边界所需时刻，拒收；Yanacocha报道存在阅读限制及旧日期线索，拒收。"
+    ],
+    "part3_result": "Part3单日研究与强制分类发现完成，12个规范化新闻候选保留5条：金通设计冶炼能力、SMM中间原料与加工开工、巴拿马矿区设施状态、SPDR持仓及成都实物消费。其余因重复、越窗、时间证据不足或正文数据缺失排除。来源可读不等于事件已获独立公司确认，媒体归属和预测口径均保留。",
+    "mining_com_source_note": "三个分类Playwright均成功读取真实分类页，铜5793、金5675、银5042正文字符，报告日候选0；金银辅助站点搜索无当日结果。普通WebFetch403未隐瞒，也未据此判定分类发现失败；保留各分类stdout及manifest/provenance，未使用PiChrome或绕过反爬。",
+    "new_sources_discovered": [
+      "钢之家：https://www.steelhome.com/detailspage.php?nid=4774193&ntype=n（公开完整来源核验后追加登记）",
+      "汇通财经：https://news.fx678.com/202610100751592069.shtml（公开完整来源核验后追加登记）",
+      "川观新闻（新浪财经转载）：https://finance.sina.com.cn/jjxw/2026-10-10/doc-iniutyzf7403939.shtml（公开完整来源核验后追加登记）",
+      "The Edge Malaysia（Bloomberg转载）：https://theedgemalaysia.com/node/821350（公开完整来源核验后追加登记）"
+    ],
+    "url_verification": {
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
+      "notes": "仅统计最终卡片的公开正文URL；发现阶段403、429、YouTube登录、Apple不完整、Amazon壳及阅读限制分别保留访问审计，未宣称这些来源通过。所有接受卡精确证据与同URL完整捕获文本匹配。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/10/09/newcore-gold-80000m-drill-program-update-high-grade-oxide-hits-at-boin-mine-plan-optimization-98-drill-hit-rates/",
+      "https://resourcetalks.com/gold-stocks/gold-developer-plans-q4-production-in-mali-but-will-there-be-delays/",
+      "https://naturalresourcestocks.net/two-drill-targets-one-tahami-project-quimbaya-gold-inc-ceo-alexandre-boivin/",
+      "https://resourcetalks.com/gold-stocks/gold-antimony-tungsten-in-idaho-but-can-they-really-mine-it/",
+      "https://resourcetalks.com/gold-stocks/new-gold-discovery-in-suriname-but-will-the-system-hold-together/",
+      "https://www.cruxinvestor.com/posts/selkirk-copper-targets-up-to-20-more-minto-output-6-feasibility-points"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/IvanhoeMines_/status/2108629301813977165",
+      "https://x.com/IvanhoeMines_/status/2108596758108655905"
+    ],
+    "part3_deduped_events": [
+      "SPDR10月9日持仓：同花顺金投网稿与汇通快讯合并一条。",
+      "金通二期投产：Mysteel与钢之家保留完整专稿一条。",
+      "巴拿马矿区设施：同一彭博西班牙语/英文版本仅保留英文一条。",
+      "Centinela、Magna Levack、Florence与Sierra Gorda等日报回顾不重收。",
+      "锋芒项目10月9日原稿不以10月10日转载进入单日窗口。"
+    ],
+    "notes": "冻结RUN_DATE=2026-10-11、REPORT_DATE=2026-10-10、Asia/Shanghai；与最近三日报URL和实质事件对照，并检查近期旧节目。周日不更新TC；不改旧日报、调度入口或工作区其他维护文件。"
+  }
+}
