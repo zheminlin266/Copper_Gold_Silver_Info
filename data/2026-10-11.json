@@ -1,0 +1,148 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-11",
+  "report_time": "2026-10-12T07:27:00+08:00",
+  "summary": "黄金：暂无足够新增证据调整供给或实物需求判断。白银：暂无足够新增证据调整矿端供给、工业或投资需求判断。铜：已有矿端扰动与节后需求变化仍待后续数据确认，暂不调整供需方向判断。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-09T00:00:00+08:00",
+      "end": "2026-10-11T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-11T00:00:00+08:00",
+      "end": "2026-10-11T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-11T00:00:00+08:00",
+      "end": "2026-10-11T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "按冻结的2026-10-09至2026-10-11北京时间窗口检索；已读取种子CSV、sources_discovered、18项会议日历和最近三份日报，并全文检索9月至今同事件。",
+      "Crux Investor公开文章/视频目录及GR Silver、Mineros配套全文：GR Silver原节目为9月25日；Mineros以既有指数纳入与估值、目标为主，不以后发文章刷新原节目时间。",
+      "Mining Stock Daily / Clear Commodity公开目录及Will Thompson节目完整说明：仅泛谈资本周期和铜供应约束，无可确认实体增量；Miata、Kingsmen、StrikePoint等已在前两日报收录。",
+      "Korelin公开目录、Luca Mining与10月10日Weekend Show完整说明：Luca重述9月21日协议；Weekend为宏观、配置与价格目标。Newcore等旧钻探主题不重复。",
+      "Resource Talks公开目录：10月10日Desert Gold配套文章是旧节目/旧建设目标，与前日报去重日志一致；未按文章日期刷新节目日期。",
+      "Natural Resource Stocks公开目录及Great Plains正文、Axo链接发现：前者正文仅泛述，后者网页工具未取得正文，不按标题补事实；Viva、Starcore与Metalsource旧节点去重。",
+      "The Deep Dive公开Anthony Milewski、Cambria、Montage节目说明及Japan Gold/Liberty视频解读：没有相对于已有公司披露的可确认新增实体节点；记录赞助/持股披露，未听音频。",
+      "Share Talk / StockBox公开Paul Johnson与Fulcrum说明：Paul为投资经历。Fulcrum说明10月11日发布，原公司场地公告10月5日；原视频机器人登录验证停止，无法确认原节目日期，未用门禁后数据。",
+      "Sprott Money与Rule Investment Media时间约束查询、Kitco视频目录及Liberty节目页、会议主办方日期查询：无本窗口合格新增。LME官方日程显示10月19日起，未把典型月份当作正在开会；中国国际矿业大会官网读取不可用，保留该访问限制。"
+    ],
+    "part1_result": "三日访谈检索结束。14个规范化节目/配套材料候选逐条审查后收录0条；排除旧节目、重复工程/钻探事实、纯宏观估值、无正文新增事实及原节目日期不能确认者。前两日报在窗节目单独按URL和实质内容去重。未听取音视频，不以标题或主题扩写。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：固定Python 3.12与隔离headless Chrome的Playwright强制分类发现完成，HTTP200，5835正文字符，提取6个候选；保留同日manifest、分类stdout、process与候选。",
+      "Mining.com /commodity/gold/：普通Web读取失败后，Playwright分类HTTP200，6004正文字符，提取6个候选。",
+      "Mining.com /commodity/silver/：普通Web读取失败后，Playwright分类HTTP200，6074正文字符，提取5个候选；三分类合并7个独立URL，包含分类邻接日期导致的发现候选，逐篇按原文重新核对日期。",
+      "辅助 site:mining.com gold October 11 2026 / silver October 11 2026 已实际检索，有效北京10月11日文章命中0；仅作辅助，不替代铜分类发现。未用RSS、sitemap或Wayback。",
+      "中英文时间约束检索覆盖Reuters、公司公告/Newsfile/GlobeNewswire、紫金/CMOC/Antofagasta/Ivanhoe官方站点；没有取得本日新增合格原始公告。索引摘要仅用于发现，不作为卡片事实。",
+      "SMM铜行业公开快讯页读取；正文未见10月11日新快讯，不使用登录报价、空字段或后台数据。",
+      "中财、国金/华福研报公开转载、威尔鑫周报完整正文：属于原有生产、库存、央行/ETF数据回顾、宏观与证券观点，未把周报日刷新为原事件日期，也未将不同TC指标混用。",
+      "Endeavour Silver公开转载正文明确季度生产于10月8日披露；Jubilee截至3月31日数据缺当期原公告证明且普通读取406；Ivanhoe季度产量10月11日转载与10月8日发行人事件重复、页面403。均不写未经确认正文。",
+      "Business Recorder的10月11日Reuters周度稿来自10月9日原报道；Mining原文北京10月10日，按旧事件/越窗排除。原Business Recorder普通读取403，未宣称该URL通过。",
+      "Centinela恢复谈判同稿补搜：Mining.com.au为10月12日，未找到可靠、更早且在窗的原始来源；不将聚合标题或公司表态的未确认发布时间写作10月11日新闻。"
+    ],
+    "part3_result": "单日新闻研究和Mining强制分类发现结束。15个规范化新闻候选（其中Mining合并7条）逐条排除，收录0条。Mining原文全部可见核验，但日期实际落在北京10月9日、10日或12日，部分还属于非目标金属；其余为旧原始事件、重复转载、周报复述或事实/日期证据不足。无新增明确供需方向，不把采集失败伪装零结果。",
+    "mining_com_source_note": "铜/金/银分类完整，原始发现计数6/6/5，去重7个独立链接。普通网页读取不可用后，一次隔离Playwright逐页截图并读取公开可见全文及JSON-LD，7条均HTTP200；按UTC换算北京时间后全部排除。分类日期只是发现线索，未直接当作正文发布时间；未调用PiChrome，不继承其他进程授权。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "failures": [],
+      "notes": "最终入选卡片0条，故本统计为0；发现阶段7篇Mining已完整打开核对标题和原始日期，另有403/406、YouTube机器人登录及不完整网页，均在来源日志与ignored本地capture中保留，不宣称这些限制通过。"
+    },
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 24,
+      "accounts_completed": 24,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright+twscrape",
+      "channel_errors": [
+        "playwright @peter_krauth: no explicit no-results marker; completeness unknown",
+        "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+        "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+        "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+        "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+        "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+        "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "playwright @NewmontCorp: no explicit no-results marker; completeness unknown",
+        "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+        "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+        "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+        "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+        "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+        "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+        "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+        "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+        "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+        "playwright @vizslasilver: no explicit no-results marker; completeness unknown"
+      ],
+      "notes": [
+        "保留TXT、sidecar与checkpoint；Playwright完成1个账户，twscrape补查完成23个账户。未完成账户不按运行时长估算；保留普通通道不完整原因。"
+      ]
+    },
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "@peter_krauth（Peter Krauth）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@duediligenceguy（Lobo Tiggre）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@Junior_Stock（Brian Leni）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@soarfinancial（Kai Hoffmann）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@WalterColesJr（Walter Coles Jr.）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@ivanbebek（Ivan Bebek）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@IvanhoeMines_（Ivanhoe Mines）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@FreeportMcMoRan（Freeport-McMoRan）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@NewmontCorp（Newmont）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@BarrickGold（Barrick Gold）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@TeckResources（Teck Resources）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@AntofagastaPLC（Antofagasta）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@LundinMining（Lundin Mining）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@AgnicoEagle（Agnico Eagle）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@FirstMajestic（First Majestic Silver）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@PanAmericanSlvr（Pan American Silver）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@Wheaton_PM（Wheaton Precious Metals）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@EndeavourMining（Endeavour Mining）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@SSRMining（SSR Mining）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@KinrossGold（Kinross Gold）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@SandstormGold（Sandstorm Gold）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@Fortuna_Silver（Fortuna Mining）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@GoGoldResources（GoGold Resources）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。",
+      "@vizslasilver（Vizsla Silver）：按注册表和北京单日窗口检索；账户完成状态、通道及证据见coverage、TXT、sidecar和checkpoint。"
+    ],
+    "part2_result": "覆盖24/24账户，状态complete，路径playwright → twscrape；规范化候选1条，逐条筛选后收录0条。保留所有通道的失败/未完成原因及最终审计，不把无明确零结果提示算作完成。唯一候选为Lobo Tiggre的矿股观点回复和Digest引流，无生产、项目、许可、库存或实物需求新增事实；未根据被回复内容或链接补写观点。未自动重采集。"
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/why-miata-metals-thinks-jons-trend-and-big-berg-are-one-system",
+      "https://clearcommodity.net/podcasts/kereport/kingsmen-resources-new-structure-encountered-which-intersected-218g-t-ageq-over-6-5-meters-located-150-meters-west-of-high-grade-hole-lc-25-010",
+      "https://clearcommodity.net/podcasts/kereport/strikepoint-gold-transformational-acquisition-of-the-multi-million-ounce-northumberland-project-in-nevada",
+      "https://www.youtube.com/watch?v=yRv7ykUwha8",
+      "https://www.youtube.com/watch?v=eRZTVWa3NXk",
+      "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "SPDR10月9日持仓、9月央行购金、全球ETF月度数据与既有日报去重；周报日期不刷新原始事实。",
+      "Endeavour与Ivanhoe季度生产转载按原公告日期/同事件排除；旧季度结果不以10月11日媒体重印重收。",
+      "Mining铜周度稿与Business Recorder转载属于同一10月9日原报道，按北京10月10日越窗排除。",
+      "Cambria、Montage、Liberty、Japan Gold、GR Silver等视频/文章只回顾已披露工程、资源、可研或交易事实，未按标题或未听音频补写新增。",
+      "分类旁列日期只是发现入口；7篇Mining逐篇按JSON-LD原发布时间换算北京后排除，恢复谈判为10月12日03:02:39。"
+    ],
+    "notes": "RUN_DATE=2026-10-12、REPORT_DATE=2026-10-11固定，Asia/Shanghai；星期一不更新TC。最近三日日报及9月至今相关公司事件对照；14个访谈/配套候选和15个新闻候选均留逐条拒收理由。采集完整后合格信号为空，不等于证明市场没有变化。未编辑调度脚本、旧日报或无关工作区文件；生产最终验收由父包装进程执行。"
+  }
+}
