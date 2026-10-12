@@ -1,0 +1,242 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-12",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 1,
+  "accounts_failed": 23,
+  "channel_completed_accounts": {
+    "playwright": 1,
+    "twscrape": 0
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-e14f9232f00333c65b1e0119",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-12T14:01:55+00:00",
+      "text": "Heh: \"Security of energy supply has in fact become so important that even the Asia Zero Emission Community, headed by Japan, has redirected its focus from emissions to oil supply.\"\n\nThis won't help oil plunge to pre-war levels if/when peace breaks out... and they're not alone.",
+      "url": "https://x.com/duediligenceguy/status/2109645745485684881",
+      "collector": "x_search",
+      "report_date": "2026-10-12",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-96d6414d3baead8bc032f704",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-12T13:45:47+00:00",
+      "text": "DOE: 70 million barrels to keep oil in the pipes, pumps, valves, etc.\n\nMost experts: 100-150 million for system integrity. (Second guess: up to 300 million.)\n\nWhatever the minimum is, that floor shouldn't be seen as part of the reserve, but as part of the infrastructure.",
+      "url": "https://x.com/duediligenceguy/status/2109641685034521074",
+      "collector": "x_search",
+      "report_date": "2026-10-12",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-peter_krauth",
+      "handle": "peter_krauth",
+      "author": "Peter Krauth",
+      "error": "No account available for queue SearchTimeline"
+    },
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text"
+    },
+    {
+      "source_id": "x-junior_stock",
+      "handle": "Junior_Stock",
+      "author": "Brian Leni",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-soarfinancial",
+      "handle": "soarfinancial",
+      "author": "Kai Hoffmann",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-waltercolesjr",
+      "handle": "WalterColesJr",
+      "author": "Walter Coles Jr.",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "handle": "ivanbebek",
+      "author": "Ivan Bebek",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-ivanhoemines_",
+      "handle": "IvanhoeMines_",
+      "author": "Ivanhoe Mines",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "handle": "FreeportMcMoRan",
+      "author": "Freeport-McMoRan",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "handle": "BarrickGold",
+      "author": "Barrick Gold",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-teckresources",
+      "handle": "TeckResources",
+      "author": "Teck Resources",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "handle": "AntofagastaPLC",
+      "author": "Antofagasta",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "handle": "LundinMining",
+      "author": "Lundin Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "handle": "AgnicoEagle",
+      "author": "Agnico Eagle",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "handle": "FirstMajestic",
+      "author": "First Majestic Silver",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "handle": "PanAmericanSlvr",
+      "author": "Pan American Silver",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "handle": "Wheaton_PM",
+      "author": "Wheaton Precious Metals",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "handle": "EndeavourMining",
+      "author": "Endeavour Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "handle": "SSRMining",
+      "author": "SSR Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "handle": "KinrossGold",
+      "author": "Kinross Gold",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "handle": "SandstormGold",
+      "author": "Sandstorm Gold",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "handle": "Fortuna_Silver",
+      "author": "Fortuna Mining",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "handle": "GoGoldResources",
+      "author": "GoGold Resources",
+      "error": "no explicit no-results marker; completeness unknown"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "handle": "vizslasilver",
+      "author": "Vizsla Silver",
+      "error": "no explicit no-results marker; completeness unknown"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 1,
+      "twscrape": 0
+    },
+    "channel_errors": [
+      "playwright @peter_krauth: no explicit no-results marker; completeness unknown",
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text",
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+      "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+      "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+      "twscrape @peter_krauth: No account available for queue SearchTimeline",
+      "twscrape: twscrape safety stop for @peter_krauth: No account available for queue SearchTimeline",
+      "@peter_krauth: No account available for queue SearchTimeline",
+      "@duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text",
+      "@Junior_Stock: no explicit no-results marker; completeness unknown",
+      "@soarfinancial: no explicit no-results marker; completeness unknown",
+      "@WalterColesJr: no explicit no-results marker; completeness unknown",
+      "@ivanbebek: no explicit no-results marker; completeness unknown",
+      "@IvanhoeMines_: no explicit no-results marker; completeness unknown",
+      "@FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+      "@BarrickGold: no explicit no-results marker; completeness unknown",
+      "@TeckResources: no explicit no-results marker; completeness unknown",
+      "@AntofagastaPLC: no explicit no-results marker; completeness unknown",
+      "@LundinMining: no explicit no-results marker; completeness unknown",
+      "@AgnicoEagle: no explicit no-results marker; completeness unknown",
+      "@FirstMajestic: no explicit no-results marker; completeness unknown",
+      "@PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+      "@Wheaton_PM: no explicit no-results marker; completeness unknown",
+      "@EndeavourMining: no explicit no-results marker; completeness unknown",
+      "@SSRMining: no explicit no-results marker; completeness unknown",
+      "@KinrossGold: no explicit no-results marker; completeness unknown",
+      "@SandstormGold: no explicit no-results marker; completeness unknown",
+      "@Fortuna_Silver: no explicit no-results marker; completeness unknown",
+      "@GoGoldResources: no explicit no-results marker; completeness unknown",
+      "@vizslasilver: no explicit no-results marker; completeness unknown"
+    ],
+    "channel_error": "playwright @peter_krauth: no explicit no-results marker; completeness unknown; playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown; twscrape @peter_krauth: No account available for queue SearchTimeline; twscrape: twscrape safety stop for @peter_krauth: No account available for queue SearchTimeline; @peter_krauth: No account available for queue SearchTimeline; @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; @Junior_Stock: no explicit no-results marker; completeness unknown; @soarfinancial: no explicit no-results marker; completeness unknown; @WalterColesJr: no explicit no-results marker; completeness unknown; @ivanbebek: no explicit no-results marker; completeness unknown; @IvanhoeMines_: no explicit no-results marker; completeness unknown; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; @BarrickGold: no explicit no-results marker; completeness unknown; @TeckResources: no explicit no-results marker; completeness unknown; @AntofagastaPLC: no explicit no-results marker; completeness unknown; @LundinMining: no explicit no-results marker; completeness unknown; @AgnicoEagle: no explicit no-results marker; completeness unknown; @FirstMajestic: no explicit no-results marker; completeness unknown; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; @Wheaton_PM: no explicit no-results marker; completeness unknown; @EndeavourMining: no explicit no-results marker; completeness unknown; @SSRMining: no explicit no-results marker; completeness unknown; @KinrossGold: no explicit no-results marker; completeness unknown; @SandstormGold: no explicit no-results marker; completeness unknown; @Fortuna_Silver: no explicit no-results marker; completeness unknown; @GoGoldResources: no explicit no-results marker; completeness unknown; @vizslasilver: no explicit no-results marker; completeness unknown",
+    "raw_sha256": "3cb2fe85a8af313d4d195f378b4003625683daebc8b3753086b8e69a3198961e"
+  }
+}

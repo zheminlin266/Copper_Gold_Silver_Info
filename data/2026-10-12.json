@@ -1,0 +1,701 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-12",
+  "report_time": "2026-10-13T07:25:16+08:00",
+  "summary": "黄金：Tulu Kapi复建和勘探执行推进改善中长期供给可见度，Aprelevka季度增产；印度ETF净流入增强，但美银反馈实物买盘偏软。白银：印度ETF资金需求增加，Aprelevka季度产量下降，铜银勘探进展尚未转为供应。铜：El Teniente露天区继续停产，主要地下系统正常；上海到货累库、江苏与铜杆样本去库并存，短期供需呈地区和产业链分化。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-10T00:00:00+08:00",
+      "end": "2026-10-12T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-12T00:00:00+08:00",
+      "end": "2026-10-12T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-12T00:00:00+08:00",
+      "end": "2026-10-12T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-10",
+      "claims": [
+        {
+          "claim": "Bullfrog管理层在访谈中称，已支付Major Drilling的钻探订金。",
+          "evidence": "paid Major Drilling’s deposit",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+          "evidence_type": "publisher_interview_summary",
+          "period": "本次访谈时点；节目于北京时间2026-10-10发布",
+          "unit": "执行状态",
+          "value": "订金已支付"
+        },
+        {
+          "claim": "管理层预期在2026年11月启动Longtail和Shingleback靶区钻探，属于计划而非已经开钻。",
+          "evidence": "Drilling starts in November",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+          "evidence_type": "management_plan",
+          "period": "2026年11月计划",
+          "unit": "计划月份",
+          "value": "2026-11"
+        },
+        {
+          "claim": "本轮计划钻探总进尺约3,000米。",
+          "evidence": "roughly 3,000 metres",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+          "evidence_type": "management_plan",
+          "period": "2026年首轮计划",
+          "unit": "米",
+          "value": 3000
+        },
+        {
+          "claim": "节目配套原文称，首轮计划单孔深度约300米。",
+          "evidence": "300-metre holes",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+          "evidence_type": "management_plan",
+          "period": "2026年首轮计划",
+          "unit": "米/孔",
+          "value": 300
+        },
+        {
+          "claim": "管理层预期钻探化验结果在2027年第一季度初返回。",
+          "evidence": "assays in early Q1 2027",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+          "evidence_type": "management_expectation",
+          "period": "2027年第一季度初预期",
+          "unit": "预计时间",
+          "value": "2027-Q1初"
+        },
+        {
+          "claim": "南部三个靶区仍需取得许可；配套原文称预计数月内取得，不能视为已经获批。",
+          "evidence": "permits for the three southern targets",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/",
+          "evidence_type": "management_expectation",
+          "period": "访谈时点后数月预期",
+          "unit": "个靶区",
+          "value": 3
+        }
+      ],
+      "title": "Bullfrog访谈：已付钻探订金，South Bullfrog拟11月开钻",
+      "source_type": "youtube",
+      "summary": "Resource Talks访谈配套原文称，Bullfrog Gold已支付Major Drilling订金，拟于2026年11月在South Bullfrog的Longtail与Shingleback靶区启动约3,000米首轮钻探，计划单孔约300米。管理层预期化验结果于2027年第一季度初返回；南部三个靶区的许可仍在等待中。",
+      "importance": "订金付款降低了融资后仍无法动员的执行风险，实际开钻将检验这一执行节点能否兑现。首轮孔深是否足以有效测试靶区，决定初次钻探能否给出足够的地质约束；项目尚无钻探发现，邻近矿床的规模无法直接外推。2027年初化验与南部靶区许可将分别约束追加验证和转移靶区的选择，因此当前增量主要改变勘查节奏，尚不能量化未来金矿供给。",
+      "verification_status": "verified",
+      "verification_note": "已核对Resource Talks原始节目配套全文、标题与嵌入视频ID。Clear Commodity节目分发页记录2026-10-09T15:00:02-05:00，换算北京时间为10月10日04:00:02；配套文章发表于北京时间10月12日23:22:23。事实来自发布方公开配套文字，未听取音视频；开钻、化验及许可时间均为管理层计划或预期。",
+      "guest": {
+        "name": "Ian Slater",
+        "background": "Bullfrog Gold CEO"
+      },
+      "companies": [
+        "Bullfrog Gold"
+      ],
+      "projects": [
+        "South Bullfrog",
+        "Longtail",
+        "Shingleback"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/bank-of-america-sees-gold-averaging-4000-oz-in-fourth-quarter/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-12T23:38:58+08:00",
+      "claims": [
+        {
+          "claim": "近期黄金ETF持仓增加。",
+          "evidence": "increased holdings in exchange-traded funds",
+          "source_url": "https://www.mining.com/web/bank-of-america-sees-gold-averaging-4000-oz-in-fourth-quarter/",
+          "evidence_type": "media_report",
+          "period": "报道所述近期，未披露精确期间",
+          "unit": "方向",
+          "value": "增加"
+        },
+        {
+          "claim": "美银跟踪的央行、中国、印度合计黄金购买同比减少。",
+          "evidence": "aggregate gold purchases by central banks, China, and India were lower year-on-year",
+          "source_url": "https://www.mining.com/web/bank-of-america-sees-gold-averaging-4000-oz-in-fourth-quarter/",
+          "evidence_type": "media_report",
+          "period": "10月12日报道的同比口径，未给明细期间",
+          "unit": "同比方向",
+          "value": "减少"
+        },
+        {
+          "claim": "银行根据LBMA会议反馈判断黄金实物市场偏软。",
+          "evidence": "physical gold markets remain soft",
+          "source_url": "https://www.mining.com/web/bank-of-america-sees-gold-averaging-4000-oz-in-fourth-quarter/",
+          "evidence_type": "media_report",
+          "period": "10月12日报道引用前一周会议反馈",
+          "unit": "定性判断",
+          "value": "偏软"
+        }
+      ],
+      "source": "Reuters（Mining.com公开转载）",
+      "title": "美银：黄金实物需求偏软，ETF持仓与央行、中印购买信号分化",
+      "excerpt": "Reuters于10月12日报道，美国银行的跟踪指标显示，央行、中国和印度的黄金合计购买量同比下降；银行援引上周LBMA会议反馈称，黄金实物市场仍偏软。报道同时指出，近期黄金ETF持仓增加，但没有披露上述各项的具体吨数、覆盖期间或完整计算方法。",
+      "language": "en",
+      "importance": "黄金需求判断需要拆分买方：ETF增持并不能直接证明实体买盘同步转强，央行与亚洲购买的同比信号更弱。10月12日的这份反馈提示短期需求支撑并不均衡；在具体吨数和样本口径公开前，它适合作为方向线索，尚不足以推算全球需求缺口。",
+      "verification_status": "verified",
+      "verification_note": "普通HTTP200读取完整Reuters转载稿；JSON-LD原发布时间15:38:58Z对应北京时间23:38:58。未取得美国银行原始研究全文，保持二手归因并省略价格目标。",
+      "mining_com_source_note": "Playwright分类发现；普通HTTP200全文核验，无浏览器原文回退。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/codelco-suffers-new-fatalities-as-avalanche-hits-copper-mine/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-12T22:58:49+08:00",
+      "claims": [
+        {
+          "claim": "雪崩造成两名员工死亡。",
+          "evidence": "Two workers died",
+          "source_url": "https://www.mining.com/web/codelco-suffers-new-fatalities-as-avalanche-hits-copper-mine/",
+          "evidence_type": "media_report",
+          "period": "当地10月11日事故、10月12日报道",
+          "unit": "人",
+          "value": 2
+        },
+        {
+          "claim": "露天区域周一仍停产。",
+          "evidence": "The open pit remained halted Monday",
+          "source_url": "https://www.mining.com/web/codelco-suffers-new-fatalities-as-avalanche-hits-copper-mine/",
+          "evidence_type": "media_report",
+          "period": "2026-10-12",
+          "unit": "运营状态",
+          "value": "停产"
+        },
+        {
+          "claim": "报道援引工会负责人称地下矿和选厂正常运行。",
+          "evidence": "were running normally",
+          "source_url": "https://www.mining.com/web/codelco-suffers-new-fatalities-as-avalanche-hits-copper-mine/",
+          "evidence_type": "media_report",
+          "period": "2026-10-12",
+          "unit": "运营状态",
+          "value": "正常"
+        },
+        {
+          "claim": "露天部分占全矿产量不足10%。",
+          "evidence": "less than 10%",
+          "source_url": "https://www.mining.com/web/codelco-suffers-new-fatalities-as-avalanche-hits-copper-mine/",
+          "evidence_type": "media_report",
+          "period": "报道所述矿山产量构成，未给年度",
+          "unit": "%",
+          "value": "<10"
+        }
+      ],
+      "source": "Bloomberg（Mining.com公开转载）",
+      "title": "El Teniente雪崩致两名承包商员工遇难，露天区继续停产",
+      "excerpt": "Bloomberg报道，Codelco旗下El Teniente露天矿区域发生雪崩，两名承包商员工遇难；该区域在事故前已因恶劣天气停产。工会负责人Amador Pantoja称，露天区周一仍停产，但地下矿及选厂正常运行；露天部分占全矿产量不足10%。公司官方公告另证实了死亡人数及事故前停产状态，报道未披露实际减产吨数或复工日期。",
+      "language": "en",
+      "importance": "此次扰动延长了天气导致的局部停产，短期供给风险取决于露天区恢复时间及影响是否向其他系统扩散。产量占比不足10%限制了直接受影响范围，不能据此把全矿产量计入损失；下一步应核对复工、调查要求和公司产量更新，判断停产是否影响全年交付。",
+      "verification_status": "verified",
+      "verification_note": "普通HTTP200完整Bloomberg转载稿；14:58:49Z换算北京时间22:58:49。Codelco英文官方公告公开全文另已核验，只有当地10月11日日期，不补造具体时刻；本卡时刻取含周一运营状态更新的媒体稿。",
+      "mining_com_source_note": "Playwright分类发现；普通HTTP200全文，另以Codelco官方公告交叉核对。媒体提供周一运营分区及露天占比，因此保留其完整归因。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.kefi-goldandcopper.com/files/announcements/kefi_rns_tulu_kapi_12_oct_26_final.pdf",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-12",
+      "claims": [
+        {
+          "claim": "公司已开始分阶段恢复Tulu Kapi开发。",
+          "evidence": "the Company is now recommencing the development programme",
+          "source_url": "https://www.kefi-goldandcopper.com/files/announcements/kefi_rns_tulu_kapi_12_oct_26_final.pdf",
+          "evidence_type": "company_announcement",
+          "period": "2026-10-12",
+          "unit": "项目状态",
+          "value": "恢复开发"
+        },
+        {
+          "claim": "道路工程重新动员。",
+          "evidence": "re-mobilising for new access roads.",
+          "source_url": "https://www.kefi-goldandcopper.com/files/announcements/kefi_rns_tulu_kapi_12_oct_26_final.pdf",
+          "evidence_type": "company_announcement",
+          "period": "2026-10-12",
+          "unit": "建设阶段",
+          "value": "道路动员"
+        },
+        {
+          "claim": "开发顺序及提款安排仍在协商。",
+          "evidence": "updating the development sequencing and associated drawdown of funds",
+          "source_url": "https://www.kefi-goldandcopper.com/files/announcements/kefi_rns_tulu_kapi_12_oct_26_final.pdf",
+          "evidence_type": "company_announcement",
+          "period": "2026-10-12",
+          "unit": "融资执行状态",
+          "value": "协商中"
+        }
+      ],
+      "source": "KEFI Gold and Copper",
+      "title": "KEFI恢复Tulu Kapi金矿建设，分阶段推进基础设施与社区安置",
+      "excerpt": "KEFI宣布解除9月7日开始的停工，分阶段重启埃塞俄比亚Tulu Kapi金矿开发。电力接入设施恢复施工、道路工程重新动员；随后安排社区住房与土地置换，再推进矿区安保、选厂及配套设施土方和员工永久营地。公司仍在与贷款方协商开发顺序和相应提款安排。",
+      "language": "en",
+      "importance": "复工使Tulu Kapi重新进入建设执行阶段，改善中期黄金供给兑现的可见度。接下来能否完成社区置换并进入矿区主体施工，比单纯宣布重启更能检验进度；安全安排和资金提款仍是约束，当前尚不能据此上调近期黄金产量预期。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.ticker.app/lse/FDR/rns/2026-10-12/Stage-II-Drilling-Set-to-Commence-at-Lander-West/4489Y",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-12",
+      "claims": [
+        {
+          "claim": "Stage II计划约12孔、总进尺1920米，由现有现金支付。",
+          "evidence": "approximately 12 holes for 1,920 metres are planned for Stage II, funded from existing cash resources",
+          "source_url": "https://www.ticker.app/lse/FDR/rns/2026-10-12/Stage-II-Drilling-Set-to-Commence-at-Lander-West/4489Y",
+          "evidence_type": "company_rns",
+          "period": "2026-10-12宣布的Stage II计划",
+          "unit": "孔/米",
+          "value": "约12孔/1920米"
+        },
+        {
+          "claim": "两个已有见矿目标之间尚未建立连续性。",
+          "evidence": "continuity between them has not been established",
+          "source_url": "https://www.ticker.app/lse/FDR/rns/2026-10-12/Stage-II-Drilling-Set-to-Commence-at-Lander-West/4489Y",
+          "evidence_type": "company_rns",
+          "period": "截至2026-10-12",
+          "unit": "矿体连续性",
+          "value": "尚未建立"
+        }
+      ],
+      "source": "First Development Resources（RNS）",
+      "title": "FDR将启动Lander West第二阶段钻探，计划12孔、1,920米",
+      "excerpt": "FDR宣布澳大利亚北领地Lander West金矿项目第二阶段RC钻探即将启动：Bullion Drilling正在进场，道路和钻机平台已就绪，计划约12孔、总进尺1,920米，由现有现金支付。该轮钻探重点追索Red Handed首阶段见矿的品位、厚度及走向和倾向连续性；优先土壤采样已完成，样品待送检。",
+      "language": "en",
+      "importance": "已有资金和场地准备降低了本轮勘探启动的不确定性，近期催化剂转为新孔结果能否支持连续矿化。现阶段两个见矿目标相距约834米且尚未证实连通，第二阶段结果将决定资源定义工作的依据是否变强；即使钻探成功，对黄金供给的影响也仍属长期项目储备。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.investegate.co.uk/announcement/rns/vast-resources--vast/q3-2026-aprelevka-production-report-/9816783",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-12",
+      "claims": [
+        {
+          "claim": "Q3黄金产量2701金衡盎司，环比增加5%。",
+          "evidence": "Gold production increased 5% to 2,701 oz",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/vast-resources--vast/q3-2026-aprelevka-production-report-/9816783",
+          "evidence_type": "company_rns",
+          "period": "2026Q3；对比2026Q2；100%项目口径",
+          "unit": "金衡盎司",
+          "value": 2701
+        },
+        {
+          "claim": "Q3白银产量23603金衡盎司，环比减少3%。",
+          "evidence": "Silver production decreased 3% to 23,603 oz",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/vast-resources--vast/q3-2026-aprelevka-production-report-/9816783",
+          "evidence_type": "company_rns",
+          "period": "2026Q3；对比2026Q2；100%项目口径",
+          "unit": "金衡盎司",
+          "value": 23603
+        },
+        {
+          "claim": "Q3处理矿料207789吨，环比增加21%。",
+          "evidence": "Throughput increased 21% to 207,789 tonnes milled",
+          "source_url": "https://www.investegate.co.uk/announcement/rns/vast-resources--vast/q3-2026-aprelevka-production-report-/9816783",
+          "evidence_type": "company_rns",
+          "period": "2026Q3；对比2026Q2；100%项目口径",
+          "unit": "吨",
+          "value": 207789
+        }
+      ],
+      "source": "Vast Resources（RNS）",
+      "title": "Aprelevka第三季度黄金产量增加，白银产量下降",
+      "excerpt": "Vast披露Aprelevka合资项目第三季度处理矿料207,789吨，环比增加21%；黄金产量2,701金衡盎司、增加5%，白银23,603金衡盎司、减少3%。这些均为项目100%口径，Vast拥有49%权益。公司称增加处理量与较高矿石品位部分抵消了低品位尾矿的影响；Soviet Tailings试验浮选装置仍以2026年四季度投运为目标。",
+      "language": "en",
+      "importance": "处理量增幅明显高于黄金产量，说明低品位尾矿掺入削弱了增产效率，处理能力改善尚未转化为金银同步放量。四季度的关键转折在于旧尾矿清空、试验装置投运及入料品位变化，须用后续实际金属产量检验增量，不能将尾矿金属估算量直接计入可供应金属。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://sem.smm.cn/copper",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-12",
+      "claims": [
+        {
+          "claim": "10月12日上海电解铜社会库存6.65万吨，较10月8日增加1.18万吨。",
+          "evidence": "社会库存6.65万吨",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "industry_inventory_survey",
+          "period": "2026-10-12；对比2026-10-08",
+          "unit": "万吨",
+          "value": 6.65
+        },
+        {
+          "claim": "同期江苏社会库存1.98万吨，较10月8日减少0.26万吨。",
+          "evidence": "减少0.26万吨",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "industry_inventory_survey",
+          "period": "2026-10-12；对比2026-10-08",
+          "unit": "万吨",
+          "value": 1.98
+        },
+        {
+          "claim": "下游加工企业以刚需采购为主。",
+          "evidence": "以刚需采购为主",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "industry_market_observation",
+          "period": "2026-10-12",
+          "unit": "采购状态",
+          "value": "刚需采购"
+        }
+      ],
+      "source": "SMM 上海有色网",
+      "title": "SMM：上海铜社会库存增加，江苏去库与下游刚需采购并存",
+      "excerpt": "SMM统计，10月12日上海电解铜社会库存6.65万吨，较上周四10月8日增加1.18万吨，主要因进口铜集中到货；江苏库存1.98万吨，减少0.26万吨，主要因国产货源到货偏少及下游正常提货。上海流通货源紧张程度缓解，加工企业仍以刚需采购为主。上述为分地区社会库存，与交易所仓单口径不同。",
+      "language": "zh",
+      "importance": "10月12日的区域分化显示，进口补充尚未均匀传导至各地现货市场，不能据两地变化推断全国同步累库。未来数日应观察新增货源后的提货强度：若到货持续增加而采购维持刚需，现货紧张程度可能继续下降；单日库存尚不足以证明终端需求转弱。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://youse.mysteel.com/a/26101210/66E06A65CC8FD859.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-12T10:51:00+08:00",
+      "claims": [
+        {
+          "claim": "六省市14仓样本10月12日铜杆库存0.38万吨，较10月8日减少0.13万吨。",
+          "evidence": "10月12日国内铜杆库存合计0.38万吨，较10月08日减少0.13万吨",
+          "source_url": "https://youse.mysteel.com/a/26101210/66E06A65CC8FD859.html",
+          "evidence_type": "industry_inventory_survey",
+          "period": "2026-10-12；对比2026-10-08；6省市14仓样本",
+          "unit": "万吨",
+          "value": 0.38
+        }
+      ],
+      "source": "Mysteel 我的钢铁网",
+      "title": "Mysteel：铜杆样本社会库存降至0.38万吨",
+      "excerpt": "Mysteel对国内6省市、14个仓库的调查显示，10月12日铜杆社会库存合计0.38万吨，较10月8日减少0.13万吨。这是样本仓库的铜杆成品库存，不能与电解铜社会库存或交易所仓单合并，也不能直接换算为当期终端耗铜量。",
+      "language": "zh",
+      "importance": "铜杆库存缩减意味着这一加工环节的短期缓冲变薄；若出库保持稳定，后续补库可能传导为精铜采购。0.38万吨仅代表固定仓库样本，库存下降也可能来自生产或到货减少，须结合铜杆订单、产量与出库变化，判断是否形成持续的需求拉动。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.fortuneindia.com/personal-finance/gold-prices-fall-22-from-record-high-but-etfs-attract-45925-crore-in-9m-cy26-surpass-2025-collections/164123",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-12T17:43:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年9月黄金ETF净流入4450.61 crore印度卢比。",
+          "evidence": "5,310.65 860.04 4,450.61",
+          "source_url": "https://portal.amfiindia.com/spages/amsep2026repo.pdf",
+          "evidence_type": "official_monthly_table",
+          "period": "2026-09",
+          "unit": "crore印度卢比",
+          "value": 4450.61
+        },
+        {
+          "claim": "2026年9月白银ETF净流入1974.32 crore印度卢比。",
+          "evidence": "7,308.79 5,334.48 1,974.32",
+          "source_url": "https://portal.amfiindia.com/spages/amsep2026repo.pdf",
+          "evidence_type": "official_monthly_table",
+          "period": "2026-09",
+          "unit": "crore印度卢比",
+          "value": 1974.32
+        },
+        {
+          "claim": "2026年8月黄金ETF净流入2596.70 crore印度卢比。",
+          "evidence": "3,791.32 1,194.62 2,596.70",
+          "source_url": "https://portal.amfiindia.com/spages/amaug2026repo.pdf",
+          "evidence_type": "official_monthly_table",
+          "period": "2026-08",
+          "unit": "crore印度卢比",
+          "value": 2596.7
+        },
+        {
+          "claim": "2026年8月白银ETF净流入1270.63 crore印度卢比。",
+          "evidence": "4,029.10 2,758.47 1,270.63",
+          "source_url": "https://portal.amfiindia.com/spages/amaug2026repo.pdf",
+          "evidence_type": "official_monthly_table",
+          "period": "2026-08",
+          "unit": "crore印度卢比",
+          "value": 1270.63
+        }
+      ],
+      "source": "Fortune India / AMFI",
+      "title": "印度9月黄金与白银ETF净流入环比分别增加约71%和55%",
+      "excerpt": "AMFI月报显示，9月印度黄金ETF净流入4,450.61 crore卢比、白银ETF净流入1,974.32 crore卢比（1 crore＝1,000万卢比），分别较8月增加约71.4%和55.4%。统计口径为基金申购减赎回的净资金流，不是基金资产规模或金银持仓吨数。",
+      "language": "en",
+      "importance": "两类产品净申购同时扩大，表明印度贵金属投资资金需求在9月增强；若基金将新增资金转为实物配置，将进一步支持金银吸纳。与资产规模相比，申赎净额更能区分新增资金与估值变动，但衡量实际金属需求仍需持仓吨数和配置数据，后续重点是资金流能否延续。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://wcsecure.weblink.com.au/clients/midasminerals/v2/headline.aspx?headlineid=61348653",
+      "metal_tags": [
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-12",
+      "claims": [
+        {
+          "claim": "SPRC101自孔深80米见矿51米，铜0.82%、银19.5克/吨，长度为钻孔段。",
+          "evidence": "51m at 0.82% Cu, 19.5g/t Ag from 80m (SPRC101)",
+          "source_url": "https://wcsecure.weblink.com.au/clients/midasminerals/v2/headline.aspx?headlineid=61348653",
+          "evidence_type": "company_asx_drilling",
+          "period": "2026-10-12披露",
+          "unit": "米/%Cu/克每吨Ag",
+          "value": "51m;0.82%Cu;19.5g/tAg"
+        },
+        {
+          "claim": "已确认矿化走向至少1500米。",
+          "evidence": "at least 1,500m of strike",
+          "source_url": "https://wcsecure.weblink.com.au/clients/midasminerals/v2/headline.aspx?headlineid=61348653",
+          "evidence_type": "company_asx_drilling",
+          "period": "截至2026-10-12",
+          "unit": "米",
+          "value": 1500
+        },
+        {
+          "claim": "19孔化验待返回。",
+          "evidence": "assays pending for 19 holes",
+          "source_url": "https://wcsecure.weblink.com.au/clients/midasminerals/v2/headline.aspx?headlineid=61348653",
+          "evidence_type": "company_asx_drilling",
+          "period": "截至2026-10-12",
+          "unit": "孔",
+          "value": 19
+        },
+        {
+          "claim": "公司预计初始资源估算在2027年一季度完成。",
+          "evidence": "expected in Q1 CY2027",
+          "source_url": "https://wcsecure.weblink.com.au/clients/midasminerals/v2/headline.aspx?headlineid=61348653",
+          "evidence_type": "company_guidance",
+          "period": "2027Q1",
+          "unit": "预计时间",
+          "value": "2027Q1"
+        }
+      ],
+      "source": "Midas Minerals（ASX公告）",
+      "title": "Midas将Spaatzu铜银矿化走向延至1.5公里，初始资源估算仍定于2027年一季度",
+      "excerpt": "Midas公布纳米比亚Otavi项目Spaatzu新钻探结果，确认矿化走向至少1.5公里。SPRC101自孔深80米见矿51米，铜品位0.82%、银19.5克/吨；该51米为钻孔见矿长度，公司估计相关钻孔真厚度约为见矿长度的70%—80%。另有19孔待化验，Spaatzu初始资源估算目标仍为2027年一季度，初步选冶试验已启动。",
+      "language": "en",
+      "importance": "扩展见矿范围为Otavi未来铜银资源定义提供了新增依据，下一实质节点是2027年一季度能否将钻探信息转化为可分类的资源吨位与品位。待返回化验和选冶回收数据会影响潜在规模与经济性，因此此次进展提高了长期供给选项的可见度，尚不足以调整近期产量判断。",
+      "verification_status": "verified",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "冻结北京时间2026-10-10至10月12日窗口；已读种子CSV、sources_discovered、会议日历、10月9/10/11日报，并检索相关历史公司事件。13条节目/配套材料经现有Candidate契约规范化后逐条决策。",
+      "Resource Talks目录、Bullfrog和Fredonia配套全文及Clear Commodity原节目分发页：Bullfrog原始时刻换算为北京10月10日；Fredonia为10月9日，不以10月12日文章刷新原节目日期。Storm分发说明可读，配套全文429，仅章节不足以确认新事实。",
+      "Crux Investor文章和视频目录及Cobra全文：Manna Hill同URL已在10月10日报收录；其他最新节目未提供本窗口合格金银铜新增。Mining Stock Daily/Clear Commodity目录最新Will Thompson为一般铜周期观点，未据标题增补实体事实。",
+      "Korelin公开目录及10月11日12场公司访谈周汇总全文：周汇总指向更早节目，不刷新原始时间；Kingsmen、StrikePoint等与近期材料核对，未发现汇总自身新增事实。",
+      "Natural Resource Stocks公开目录和ESGold、Valhalla、Ecora配套全文/嵌入视频元数据：前两者原始上传已是北京10月13日，Ecora为10月9日；录制时间不作发布时间。YouTube请求返回429后停止该路径。",
+      "The Deep Dive公开目录及Arizona Eagle、Brixton、Seabridge、First Quantum配套全文：Arizona与旧复开计划对照后无明确新节点；Brixton缺可匹配的新化验时点；Seabridge宿主北京时间13日；First Quantum为新闻视频解读，线索交Part3核对。",
+      "Prospector News的David Morgan配套全文未给出可确认新增实体供需量，宿主已为北京13日。Sprott Money公开博客及Rule/Soar、Kitco、Proactive、中文行业访谈的时间约束检索未取得其他合格新增；Kitco视频索引动态列表为空、Proactive站点重定向分别保留访问局限。",
+      "主办方日程核对：LME Week活动在10月19日后，New Orleans Investment Conference在10月28日至31日；LBMA/LPPM活动为10月4日至6日，未找到本窗口可公开核验的新增回放。中国国际矿业大会官网读取失败，未据典型月份假定存在会议访谈。",
+      "Bullfrog单独与发行人9月1日及10月6日披露比较：承包商、约3,000米/Q4计划及融资属既有背景，卡片只把订金已付、11月开钻预期及2027年初化验安排作为本次增量。Resource Talks已在来源库内，无新来源条目。"
+    ],
+    "part1_result": "研究完成，13个规范化候选收录1条、排除12条。收录Bullfrog早期勘查执行更新；开钻、化验和许可均保留为管理层计划或预期。排除原节目越窗、旧事实、周汇总、无可核实新增内容及新闻视频重述。未听音视频，正文只采用实际读到的发布方配套文字；个别读取失败另有审计，不冒充通过。",
+    "part2_searched": false,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "@NewmontCorp（Newmont）：Playwright完成，明确零结果。",
+      "@peter_krauth（Peter Krauth）：已尝试，账号未完成；No account available for queue SearchTimeline。",
+      "@duediligenceguy（Lobo Tiggre）：已尝试，账号未完成；tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text。",
+      "@Junior_Stock（Brian Leni）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@soarfinancial（Kai Hoffmann）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@WalterColesJr（Walter Coles Jr.）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@ivanbebek（Ivan Bebek）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@IvanhoeMines_（Ivanhoe Mines）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@FreeportMcMoRan（Freeport-McMoRan）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@BarrickGold（Barrick Gold）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@TeckResources（Teck Resources）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@AntofagastaPLC（Antofagasta）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@LundinMining（Lundin Mining）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@AgnicoEagle（Agnico Eagle）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@FirstMajestic（First Majestic Silver）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@PanAmericanSlvr（Pan American Silver）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@Wheaton_PM（Wheaton Precious Metals）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@EndeavourMining（Endeavour Mining）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@SSRMining（SSR Mining）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@KinrossGold（Kinross Gold）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@SandstormGold（Sandstorm Gold）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@Fortuna_Silver（Fortuna Mining）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@GoGoldResources（GoGold Resources）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。",
+      "@vizslasilver（Vizsla Silver）：已尝试，账号未完成；no explicit no-results marker; completeness unknown。"
+    ],
+    "part2_result": "X采集未完成，覆盖1/24账号，状态partial，23个账号未完成。路径playwright → twscrape，选定playwright；twscrape因账号队列不可用安全停止，未自动重试。已保存2个规范化候选，均为石油议题，收录0条；不能据此认定全部目标账号没有金银铜信息。保留TXT、sidecar、checkpoint和通道错误，按工作流允许的降级方式随完整Part1/Part3发布。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 24,
+      "accounts_completed": 1,
+      "accounts_failed": 23,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "playwright @peter_krauth: no explicit no-results marker; completeness unknown",
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text",
+        "playwright @Junior_Stock: no explicit no-results marker; completeness unknown",
+        "playwright @soarfinancial: no explicit no-results marker; completeness unknown",
+        "playwright @WalterColesJr: no explicit no-results marker; completeness unknown",
+        "playwright @ivanbebek: no explicit no-results marker; completeness unknown",
+        "playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown",
+        "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "playwright @BarrickGold: no explicit no-results marker; completeness unknown",
+        "playwright @TeckResources: no explicit no-results marker; completeness unknown",
+        "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "playwright @LundinMining: no explicit no-results marker; completeness unknown",
+        "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "playwright @FirstMajestic: no explicit no-results marker; completeness unknown",
+        "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "playwright @EndeavourMining: no explicit no-results marker; completeness unknown",
+        "playwright @SSRMining: no explicit no-results marker; completeness unknown",
+        "playwright @KinrossGold: no explicit no-results marker; completeness unknown",
+        "playwright @SandstormGold: no explicit no-results marker; completeness unknown",
+        "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "playwright @GoGoldResources: no explicit no-results marker; completeness unknown",
+        "playwright @vizslasilver: no explicit no-results marker; completeness unknown",
+        "twscrape @peter_krauth: No account available for queue SearchTimeline",
+        "twscrape: twscrape safety stop for @peter_krauth: No account available for queue SearchTimeline",
+        "@peter_krauth: No account available for queue SearchTimeline",
+        "@duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text",
+        "@Junior_Stock: no explicit no-results marker; completeness unknown",
+        "@soarfinancial: no explicit no-results marker; completeness unknown",
+        "@WalterColesJr: no explicit no-results marker; completeness unknown",
+        "@ivanbebek: no explicit no-results marker; completeness unknown",
+        "@IvanhoeMines_: no explicit no-results marker; completeness unknown",
+        "@FreeportMcMoRan: no explicit no-results marker; completeness unknown",
+        "@BarrickGold: no explicit no-results marker; completeness unknown",
+        "@TeckResources: no explicit no-results marker; completeness unknown",
+        "@AntofagastaPLC: no explicit no-results marker; completeness unknown",
+        "@LundinMining: no explicit no-results marker; completeness unknown",
+        "@AgnicoEagle: no explicit no-results marker; completeness unknown",
+        "@FirstMajestic: no explicit no-results marker; completeness unknown",
+        "@PanAmericanSlvr: no explicit no-results marker; completeness unknown",
+        "@Wheaton_PM: no explicit no-results marker; completeness unknown",
+        "@EndeavourMining: no explicit no-results marker; completeness unknown",
+        "@SSRMining: no explicit no-results marker; completeness unknown",
+        "@KinrossGold: no explicit no-results marker; completeness unknown",
+        "@SandstormGold: no explicit no-results marker; completeness unknown",
+        "@Fortuna_Silver: no explicit no-results marker; completeness unknown",
+        "@GoGoldResources: no explicit no-results marker; completeness unknown",
+        "@vizslasilver: no explicit no-results marker; completeness unknown"
+      ],
+      "notes": [
+        "Playwright串行检查全部24账号，仅NewmontCorp取得可确认的完整零结果。Lobo Tiggre保存2条帖文，但另1条正文提取失败，因此该账号仍未完成。",
+        "未完成账号按序交给twscrape；首账号出现No account available for queue SearchTimeline后立即安全停止。未重试、未延后再采集、未调用PiChrome或继承其他进程授权。",
+        "外层及采集链超时预算均显式设为3600秒，采集进程约751秒退出，returncode=4；partial不等于完整零结果。尝试通道playwright→twscrape，选定playwright，不可用通道列表为空。",
+        "原始材料与审计：x_outputs/2026-10-12_x_raw_materials.txt、同名JSON sidecar及本地checkpoint；TXT SHA256=3cb2fe85a8af313d4d195f378b4003625683daebc8b3753086b8e69a3198961e。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：固定Python与隔离headless Chrome的Playwright强制发现完成，HTTP200，提取9个候选；同日manifest、分类候选和process已保存。",
+      "Mining.com /commodity/gold/：普通Web读取失败后Playwright分类HTTP200，提取12个候选。",
+      "Mining.com /commodity/silver/：普通Web读取失败后Playwright分类HTTP200，提取8个候选。三分类合并13个独立URL，逐篇核对正文日期，不把侧栏日期当成发布时间。",
+      "辅助site:mining.com gold October 12 2026与silver October 12 2026已实际检索，两项有效当期命中均为0（合计17条旧文/SEO发现结果）；仅作辅助，未替代铜分类发现，未用RSS、sitemap或Wayback。",
+      "https://www.mining.com/web/kazakhstan-starts-gold-sales-as-treasuries-burnish-dollar-appeal/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；原文发布时间2026-10-12T21:44:04Z，换算北京10月13日05:44:04，晚于冻结新闻窗口。",
+      "https://www.mining.com/web/ethiopia-launches-its-first-gold-refinery-prime-minister-says/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；Reuters本日转载但EBC与ENA公开原始报道已于10月10日确认同一炼厂开幕；不将旧事件转载刷新为本日新增供给。",
+      "https://www.mining.com/women-hold-just-12-of-top-mining-jobs-in-australia-report/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；矿业女性高管占比报告，没有可量化或可归因的本日金银铜供需变化。",
+      "https://www.mining.com/sponsored-content/wet-drum-separators/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；原文10月1日设备广告；分类侧栏误带当期日期，不是本日新闻。",
+      "https://www.mining.com/sponsored-content/hayasa-metals-signs-term-sheet-with-a-major-mining-company-to-enter-a-strategic-exploration-alliance/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；原文9月21日战略勘探联盟广告；分类侧栏误带当期日期，已越窗。",
+      "https://www.mining.com/sponsored-content/elton-resources-announces-commencement-of-trading-on-the-tsxv/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；原文10月6日交易挂牌公告；日期越窗且无新增实物供需事实。",
+      "https://www.mining.com/energyx-inks-10-year-2b-lithium-offtake-deal-with-trafigura/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；锂包销事件，没有金银铜实质供需关联；北京时间亦为10月13日。",
+      "https://www.mining.com/governments-turn-mining-data-into-billions-in-revenue/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；EITI透明度综述复述2020至2025年协议和既往财政研究，未确认本日金银铜产能或产量变化。",
+      "https://www.mining.com/web/coals-revival-is-creating-divisions-in-canadas-energy-heartland/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；煤炭项目与能源政策，没有金银铜实质供需关联。",
+      "https://www.mining.com/lynas-plans-brazil-rare-earths-plant-with-state-support/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；稀土分离厂事件，没有金银铜实质供需关联。",
+      "https://www.mining.com/sponsored-content/me-elecmetal-advances-its-decarbonization-commitment-with-2030-environmental-goals/ — 普通HTTP200完整原文、标题与JSON-LD日期核验；设备企业减排广告原文北京时间10月10日；非本日供需事实。",
+      "https://www.mining.com/web/bank-of-america-sees-gold-averaging-4000-oz-in-fourth-quarter/ — 普通HTTP200公开全文核验；北京时间2026-10-12T23:38:58+08:00。保留银行归因的需求方向，未将价格目标或未披露吨数写为事实。",
+      "https://www.mining.com/web/codelco-suffers-new-fatalities-as-avalanche-hits-copper-mine/ — 普通HTTP200公开全文核验；北京时间2026-10-12T22:58:49+08:00。官方公告补核对，露天停产不等于全矿停产。",
+      "https://www.mining.com/geopolitical-risk-drives-capital-to-private-sector-analyst/ — 原文北京时间10月12日01:44:57；完整文本为宏观资本流向和金价判断，无可归因新增实物需求。",
+      "https://www.mining.com/web/centinela-copper-mine-unions-to-resume-talks-tuesday-amid-strike/ — Mining转载原发布时间换算北京10月12日03:02:39；原文明确公司周六声明，后追溯到Timeline10月10日原始报道，同一恢复谈判旧事件，不按转载刷新。当前HTTP403如实保留，内容核对复用既有公开capture。",
+      "英文公司公告：KEFI官方Tulu Kapi 10月12日PDF（HTTP200，3页及首页视觉核验）；First Development Resources RNS4489Y（Ticker公开完整原文，官网403留痕）；Vast Q3 Aprelevka RNS（Investegate公开原文，跳过AI摘要）。",
+      "Midas官方公告发现：公司ASX公告页→公开weblink iframe→公开JS公告索引→10月12日13页PDF（HTTP200）；核验首页、关键钻孔及JORC真厚度说明，未启动浏览器。",
+      "中文实物供需：SMM铜公开行业快讯10月12日上海/江苏社会库存、到货与刚需采购（HTTP200，gzip离线解压）；Mysteel10月12日铜杆库存公开预览（HTTP200，6省市14仓）；东方财富转载Mysteel电解铜库存用于口径对照。",
+      "金银投资需求：AMFI官方9月与8月表（公开PDF HTTP200及表格视觉核验）；Fortune India10月12日15:13 IST公开全文为卡片发布日期；FinTech BizNews明确AMFI当天发布9月数据；Capital Market同日公开报道交叉核对。",
+      "补充中英文日期检索覆盖黄金/白银产量、实物消费、ETF及库存、铜生产/需求；具体11轮搜索和6组网页打开保存在search_audit.json与web-search/web-open原始结果。",
+      "The Deep Dive Friedland/2027 TC文章公开全文HTTP200、元数据10月12日05:30 UTC；追溯为X和旧TC材料的转述，未新增X访问，排除新闻卡。",
+      "First Majestic Q3与Eldorado Skouries日期追溯、SPDR旧持仓跨日去重；纯价格、宏观情绪和无新增事实的转载排除。",
+      "访问限制留痕：FDR官网与Moneycontrol候选403；AMFI一般研究页和月度说明PDF发生SSL读取失败；已使用公开原始RNS/AMFI门户表格及可读新闻来源完成入选核验，未重试门禁或改变TLS。"
+    ],
+    "part3_result": "中英文新闻研究及Mining强制分类发现完成，共22个规范化候选进入逐条分析，收录9条、拒收13条。Mining分类13个独立URL另补2个既有完整原文线索，其中2条入选；其他来源7条入选。发现阶段另排除旧公告、宏观价格观点与重复转载，未将后发转载日期刷新为原始事件日期。全部入选均有可核验公开原文。",
+    "mining_com_source_note": "铜/金/银Playwright分类完整，发现数9/12/8、合并13个独立URL。13篇普通HTTP200取得完整公开正文和JSON-LD日期；另补2篇此前完整capture，Centinela当前HTTP403如实记录，追溯Timeline10月10日原报后按旧事件排除。最终2篇Mining卡片均普通HTTP200核验，其中Codelco事故另以官方公告交叉确认。未调用PiChrome；分类采集与原文核验路径分开记录。",
+    "new_sources_discovered": [
+      "KEFI Gold and Copper",
+      "First Development Resources（RNS）",
+      "Vast Resources（RNS）",
+      "AMFI 印度共同基金协会",
+      "Midas Minerals",
+      "Fortune India",
+      "Mysteel 我的钢铁网有色金属"
+    ],
+    "url_verification": {
+      "checked": 10,
+      "passed": 10,
+      "failed": 0,
+      "failures": [],
+      "notes": "统计仅覆盖最终入选的1条访谈和9条新闻：均公开打开并核对标题、日期、主体和核心数字。AMFI另绑定8/9月官方PDF，Bullfrog节目时间另核分发元数据，Codelco另核官方公告。发现阶段429/403、动态空列表和X安全停止见各栏目日志及本地审计，不计为通过。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.cruxinvestor.com/posts/cobras-manna-hill-footprint-grows-as-two-new-copper-skarns-emerge"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "First Majestic Q3金银产量：10月12日转载线索追到10月8日原始公告，未发现窗口内新增事实，排除旧闻。",
+      "Eldorado Skouries战略项目资格：10月12日综述重述10月9日原始消息，排除；发现及日期线索保存在web-search-07与eldorado-secondary.capture.json。",
+      "SPDR黄金持仓1053.13吨：10月12日快讯沿用截至10月9日数据，已出现在10月10日日报，排除跨日重复。",
+      "Midas Spaatzu：The Extractor与The Stock Connect报道合并至公司10月12日ASX原始公告；不另列媒体卡。",
+      "印度9月ETF：Fortune India作为明确当日发布时间的卡片URL，金银净额合并使用AMFI官方9月和8月PDF；Capital Market及其他同日媒体不另列卡。",
+      "东方财富转载Mysteel电解铜库存：保留交叉对照记录，避免与SMM分地区到货/库存信号重复铺陈；两机构不同样本不求和或拼接。",
+      "The Deep Dive 10月12日13:30北京时间Friedland/2027 TC基准文章：正文主要转述10月11日X及10月9日TC周报、7月合同旧事；无已核验的新原始供需事件，不另列新闻卡，也未新增X访问。",
+      "Mysteel铜杆库存与SMM电解铜库存保留为两个不同产业链产品；明确样本、比较日期及库存口径，不将下游去库直接等同耗铜增加。",
+      "SMM铜动态页10月10日已出现的阳极库存消息与本次10月12日电解铜地区库存不同；按事件而非首页URL机械去重。",
+      "埃塞俄比亚炼厂开幕：10月12日Reuters转载对应EBC/ENA10月10日原始事件，按旧事件排除。",
+      "Centinela恢复谈判：Mining换算为北京10月12日，但Timeline已于10月10日报道同一公司声明，不按转载刷新。",
+      "Mining分类相邻/侧栏引入的旧广告和越窗文章按逐篇JSON-LD原日期排除；13个分类独立URL没有重复收录。",
+      "同一AMFI月度金银ETF资金流合并一张卡；SMM电解铜地区库存与Mysteel铜杆成品库存口径不同，分别保留。"
+    ],
+    "notes": "RUN_DATE=2026-10-13、REPORT_DATE=2026-10-12冻结，Asia/Shanghai。Part1为10月10日至12日，Part2/3仅10月12日；跨午夜不变。已读最近三份日报并按URL、原始事件及实质内容去重。星期二不改TC。只使用本次已完成采集和可核验材料，X部分失败公开保留；未改调度入口、旧日报及无关工作树文件，父包装进程负责最终发布状态核验。Part1按前两日报2026-10-10/11的URL及实质事件去重；10月9日报用于更广背景复核。Bullfrog与同期新闻选材无同事件，旧3,000米/Q4计划和10月6日融资不算本次增量。Fredonia/Ecora依原始节目日期排除；周汇总不刷新已发布节目时间。"
+  }
+}

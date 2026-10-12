@@ -1,0 +1,61 @@
+X 原始候选 — 2026-10-12
+采集时间: 2026-10-13T07:02:41.337687+08:00
+选定通道: playwright
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 1/24 完成，失败 23
+各通道完成账户数: {"playwright": 1, "twscrape": 0}
+采集状态: partial
+失败账号数: 23
+通道错误: playwright @peter_krauth: no explicit no-results marker; completeness unknown; playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; playwright @Junior_Stock: no explicit no-results marker; completeness unknown; playwright @soarfinancial: no explicit no-results marker; completeness unknown; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @KinrossGold: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown; twscrape @peter_krauth: No account available for queue SearchTimeline; twscrape: twscrape safety stop for @peter_krauth: No account available for queue SearchTimeline; @peter_krauth: No account available for queue SearchTimeline; @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; @Junior_Stock: no explicit no-results marker; completeness unknown; @soarfinancial: no explicit no-results marker; completeness unknown; @WalterColesJr: no explicit no-results marker; completeness unknown; @ivanbebek: no explicit no-results marker; completeness unknown; @IvanhoeMines_: no explicit no-results marker; completeness unknown; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; @BarrickGold: no explicit no-results marker; completeness unknown; @TeckResources: no explicit no-results marker; completeness unknown; @AntofagastaPLC: no explicit no-results marker; completeness unknown; @LundinMining: no explicit no-results marker; completeness unknown; @AgnicoEagle: no explicit no-results marker; completeness unknown; @FirstMajestic: no explicit no-results marker; completeness unknown; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; @Wheaton_PM: no explicit no-results marker; completeness unknown; @EndeavourMining: no explicit no-results marker; completeness unknown; @SSRMining: no explicit no-results marker; completeness unknown; @KinrossGold: no explicit no-results marker; completeness unknown; @SandstormGold: no explicit no-results marker; completeness unknown; @Fortuna_Silver: no explicit no-results marker; completeness unknown; @GoGoldResources: no explicit no-results marker; completeness unknown; @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号:
+  @peter_krauth (Peter Krauth): No account available for queue SearchTimeline
+  @duediligenceguy (Lobo Tiggre): tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text
+  @Junior_Stock (Brian Leni): no explicit no-results marker; completeness unknown
+  @soarfinancial (Kai Hoffmann): no explicit no-results marker; completeness unknown
+  @WalterColesJr (Walter Coles Jr.): no explicit no-results marker; completeness unknown
+  @ivanbebek (Ivan Bebek): no explicit no-results marker; completeness unknown
+  @IvanhoeMines_ (Ivanhoe Mines): no explicit no-results marker; completeness unknown
+  @FreeportMcMoRan (Freeport-McMoRan): no explicit no-results marker; completeness unknown
+  @BarrickGold (Barrick Gold): no explicit no-results marker; completeness unknown
+  @TeckResources (Teck Resources): no explicit no-results marker; completeness unknown
+  @AntofagastaPLC (Antofagasta): no explicit no-results marker; completeness unknown
+  @LundinMining (Lundin Mining): no explicit no-results marker; completeness unknown
+  @AgnicoEagle (Agnico Eagle): no explicit no-results marker; completeness unknown
+  @FirstMajestic (First Majestic Silver): no explicit no-results marker; completeness unknown
+  @PanAmericanSlvr (Pan American Silver): no explicit no-results marker; completeness unknown
+  @Wheaton_PM (Wheaton Precious Metals): no explicit no-results marker; completeness unknown
+  @EndeavourMining (Endeavour Mining): no explicit no-results marker; completeness unknown
+  @SSRMining (SSR Mining): no explicit no-results marker; completeness unknown
+  @KinrossGold (Kinross Gold): no explicit no-results marker; completeness unknown
+  @SandstormGold (Sandstorm Gold): no explicit no-results marker; completeness unknown
+  @Fortuna_Silver (Fortuna Mining): no explicit no-results marker; completeness unknown
+  @GoGoldResources (GoGold Resources): no explicit no-results marker; completeness unknown
+  @vizslasilver (Vizsla Silver): no explicit no-results marker; completeness unknown
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-12T14:01:55+00:00
+    北京: 2026-10-12T22:01:55+08:00
+    文本: Heh: "Security of energy supply has in fact become so important that even the Asia Zero Emission Community, headed by Japan, has redirected its focus from emissions to oil supply."
+
+This won't help oil plunge to pre-war levels if/when peace breaks out... and they're not alone.
+    链接: https://x.com/duediligenceguy/status/2109645745485684881
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-12T13:45:47+00:00
+    北京: 2026-10-12T21:45:47+08:00
+    文本: DOE: 70 million barrels to keep oil in the pipes, pumps, valves, etc.
+
+Most experts: 100-150 million for system integrity. (Second guess: up to 300 million.)
+
+Whatever the minimum is, that floor shouldn't be seen as part of the reserve, but as part of the infrastructure.
+    链接: https://x.com/duediligenceguy/status/2109641685034521074
+

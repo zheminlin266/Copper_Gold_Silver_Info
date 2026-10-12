@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-10",
+  "last_updated": "2026-10-12",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -743,6 +743,55 @@
       "category": "英文财经媒体/公开通讯社转载",
       "channel": "https://theedgemalaysia.com/node/821350",
       "notes": "2026-10-10公开英文完整报道及彭博记者归属已核验，报道Cobre Panama震后基础设施稳定；保留部分停用范围，不把设施状态当复产或年产量。"
+    },
+    {
+      "source_id": "source-kefi-gold-and-copper",
+      "display_name": "KEFI Gold and Copper",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-13核验10月12日Tulu Kapi复建官方PDF及可见发布日期；建设阶段与投产量分开，原文缺乏修订投产时间，不推定。",
+      "channel": "https://www.kefi-goldandcopper.com/files/announcements/kefi_rns_tulu_kapi_12_oct_26_final.pdf"
+    },
+    {
+      "source_id": "source-first-development-resources",
+      "display_name": "First Development Resources（RNS）",
+      "category": "矿业公司监管公告",
+      "notes": "2026-10-13核验10月12日RNS 4489Y公开原文；官网当时403，使用RNS分发页，未绕过访问限制。钻孔见矿和计划工作量不当作资源或产量。",
+      "channel": "https://www.ticker.app/lse/FDR/rns/2026-10-12/Stage-II-Drilling-Set-to-Commence-at-Lander-West/4489Y"
+    },
+    {
+      "source_id": "source-vast-resources",
+      "display_name": "Vast Resources（RNS）",
+      "category": "矿业公司监管公告",
+      "notes": "2026-10-13核验10月12日Aprelevka第三季度原始RNS；忽略分发网站AI摘要，核对原文100%项目口径与49%公司权益。",
+      "channel": "https://www.investegate.co.uk/announcement/rns/vast-resources--vast/q3-2026-aprelevka-production-report-/9816783"
+    },
+    {
+      "source_id": "source-amfi",
+      "display_name": "AMFI 印度共同基金协会",
+      "category": "行业协会官方基金统计",
+      "notes": "2026-10-13核验官方2026年9月和8月月报PDF及表格；净流入单位crore印度卢比，与基金资产和实物金属吨数区分。PDF无明确发布日期，日期由已核验媒体卡承载。",
+      "channel": "https://portal.amfiindia.com/spages/amsep2026repo.pdf"
+    },
+    {
+      "source_id": "source-midas-minerals",
+      "display_name": "Midas Minerals",
+      "category": "矿业公司ASX公告",
+      "notes": "2026-10-13由公司公告页公开嵌入链接核验10月12日Spaatzu铜银钻探13页原始公告及JORC附录；确认孔内见矿长度与估计真厚度不同，资源估算尚待完成。",
+      "channel": "https://www.midasminerals.com/asx-announcement/"
+    },
+    {
+      "source_id": "source-fortune-india",
+      "display_name": "Fortune India",
+      "category": "英文财经媒体/印度投资需求",
+      "channel": "https://www.fortuneindia.com/personal-finance/gold-prices-fall-22-from-record-high-but-etfs-attract-45925-crore-in-9m-cy26-surpass-2025-collections/164123",
+      "notes": "2026-10-13核验10月12日15:13 IST公开原文及AMFI归因；月度资金流精确数值另核对AMFI官方PDF，不把净资金流直接等同实物吨数。"
+    },
+    {
+      "source_id": "source-mysteel-nonferrous",
+      "display_name": "Mysteel 我的钢铁网有色金属",
+      "category": "中文行业库存与加工需求",
+      "channel": "https://youse.mysteel.com/a/26101210/66E06A65CC8FD859.html",
+      "notes": "2026-10-13核验10月12日铜杆库存公开预览的日期、6省市14仓样本和总量；只采用无需付费即可见的段落，铜杆成品与电解铜库存分开。"
     }
   ]
 }
