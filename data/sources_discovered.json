@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -792,6 +792,41 @@
       "category": "中文行业库存与加工需求",
       "channel": "https://youse.mysteel.com/a/26101210/66E06A65CC8FD859.html",
       "notes": "2026-10-13核验10月12日铜杆库存公开预览的日期、6省市14仓样本和总量；只采用无需付费即可见的段落，铜杆成品与电解铜库存分开。"
+    },
+    {
+      "source_id": "source-ssr-mining-issuer",
+      "display_name": "SSR Mining官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-THE-ACQUISITION-OF-ROXMORE-RESOURCES.pdf",
+      "notes": "2026-10-14研究10月13日报时核验官网链接的收购及Marigold两份原始PDF，公开HTTP200。远期年产目标、储量、当期产量与待交割状态分别保留。"
+    },
+    {
+      "source_id": "source-luca-mining-issuer",
+      "display_name": "Luca Mining（PRNewswire发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.prnewswire.com/news-releases/luca-reports-q3-2026-production-results-302906435.html",
+      "notes": "2026-10-13季度生产公告完整公开核验。Produced与Payable、金衡盎司与千磅分开；以公告合并数保留四舍五入口径。"
+    },
+    {
+      "source_id": "source-integra-resources-issuer",
+      "display_name": "Integra Resources官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://integraresources.com/news/integra-provides-delamar-project-update-detailed-engineering-permitting-procurement-and-state-of-good-repairs-work-advancing-in-line-with-plan-appoints-gencap-as-project-financing-advisor/",
+      "notes": "2026-10-13 DeLamar工程及GenCap委任原始全文、UTC时间公开核验。39,000 tons保留原单位，不改称公吨；许可、FID与投产阶段分开。"
+    },
+    {
+      "source_id": "source-mineros-issuer",
+      "display_name": "Mineros（GlobeNewswire发行人分发）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/mineros-reports-strong-q3-2026-123000631.html",
+      "notes": "2026-10-13初步Q3生产与指引完整公开稿及官方披露交叉核验，08:30EDT对应北京20:30。产量、销量与金当量分开。"
+    },
+    {
+      "source_id": "source-fortuna-issuer-ritzau",
+      "display_name": "Fortuna Mining（GlobeNewswire经Ritzau分发）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446",
+      "notes": "2026-10-13完整原始发行人稿及QA/QC、QP、11:00CEST公开HTTP200核验。原站及部分分发403不绕过；估计真厚度与资源、储量和实际产量分开。"
     }
   ]
 }

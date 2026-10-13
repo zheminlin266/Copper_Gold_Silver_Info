@@ -1,0 +1,672 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-13",
+  "report_time": "2026-10-14T07:31:48+08:00",
+  "summary": "黄金：Mineros增产及指引上调支撑当年供给，矿山计划、工程与钻探推进远期供应；央行售金意向与SPDR增持形成需求分化。白银：Luca矿区运营方向分化，副产银供给受品位与回收率约束，ESGold尾矿供应仍待调试。铜：Centinela实际恢复谈判，但减产情景尚未独立验证；智利出口数据补充货源流向，矿石精矿货重不能当作含铜量。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-11T00:00:00+08:00",
+      "end": "2026-10-13T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-13T00:00:00+08:00",
+      "end": "2026-10-13T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-13T00:00:00+08:00",
+      "end": "2026-10-13T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://naturalresourcestocks.net/esgold-corp-ceo-gordon-robb-mill-commissioning-and-new-drill-results-ahead/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-13",
+      "claims": [
+        {
+          "claim": "计划5,000米的首轮钻探已完成约4,000米。",
+          "evidence": "approximately 4,000 metres completed",
+          "source_url": "https://naturalresourcestocks.net/esgold-corp-ceo-gordon-robb-mill-commissioning-and-new-drill-results-ahead/",
+          "evidence_type": "publisher_interview_summary",
+          "period": "本次访谈更新，节目北京2026-10-13发布",
+          "unit": "米",
+          "value": 4000
+        },
+        {
+          "claim": "约400件样品送实验室，结果待返回。",
+          "evidence": "roughly 400 samples",
+          "source_url": "https://naturalresourcestocks.net/esgold-corp-ceo-gordon-robb-mill-commissioning-and-new-drill-results-ahead/",
+          "evidence_type": "publisher_interview_summary",
+          "period": "本次访谈时点",
+          "unit": "件样品",
+          "value": 400
+        },
+        {
+          "claim": "处理厂许可规模为1,000吨/日。",
+          "evidence": "permitted for 1,000 tonnes per day",
+          "source_url": "https://naturalresourcestocks.net/esgold-corp-ceo-gordon-robb-mill-commissioning-and-new-drill-results-ahead/",
+          "evidence_type": "publisher_interview_summary",
+          "period": "现有处理许可，非实际产量",
+          "unit": "吨/日",
+          "value": 1000
+        }
+      ],
+      "title": "ESGold访谈：Montauban已钻约4,000米，尾矿处理与调试仍待兑现",
+      "source_type": "youtube",
+      "summary": "Gordon Robb在Natural Resource Stocks访谈的公开配套文字中称，Montauban计划5,000米的首轮钻探已完成约4,000米，约400件样品已送实验室。金银尾矿处理厂获准规模为1,000吨/日、最多30万吨/年；设备安装和调试仍在推进，尾矿处理现金流尚属目标，未来转向硬岩矿石需修改许可。",
+      "importance": "钻探执行量推进使项目近期催化剂转向化验及调试结果，不能因处理厂已有许可就提前计入金银供应。约400件待化验样品将检验深部靶区的品位与连续性，实际产出则取决于设备投运、尾矿品位和回收率；至2027年一季度的更新应分别核对勘探结果与生产节点。",
+      "verification_status": "verified",
+      "verification_note": "已核验发布方完整公开配套文字、嘉宾及嵌入视频uploadDate=2026-10-12T18:53:00Z（北京10月13日02:53）；文章发布时间为北京10月13日04:41:07，录制于10月9日不作为发布日期。只使用已读文字，未收听音视频。节目包含赞助披露，计划与实际进度分开。",
+      "guest": {
+        "name": "Gordon Robb",
+        "background": "ESGold CEO及董事"
+      },
+      "companies": [
+        "ESGold"
+      ],
+      "projects": [
+        "Montauban"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-THE-ACQUISITION-OF-ROXMORE-RESOURCES.pdf",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13",
+      "claims": [
+        {
+          "claim": "收购股权对价约4.64亿美元，不含SpinCo。",
+          "evidence": "$464 million",
+          "source_url": "https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-THE-ACQUISITION-OF-ROXMORE-RESOURCES.pdf",
+          "evidence_type": "company_announcement",
+          "period": "2026-10-13最终协议",
+          "unit": "美元",
+          "value": 464000000
+        },
+        {
+          "claim": "Converse潜在年增产15万—17万盎司，持续十年以上。",
+          "evidence": "150,000 TO 170,000 OUNCES OF ANNUAL GOLD PRODUCTION OVER 10+ YEARS",
+          "source_url": "https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-THE-ACQUISITION-OF-ROXMORE-RESOURCES.pdf",
+          "evidence_type": "company_announcement",
+          "period": "公司远期开发情景",
+          "unit": "金衡盎司/年",
+          "value": "150000—170000"
+        },
+        {
+          "claim": "Marigold黄金储量为460万盎司。",
+          "evidence": "Gold Mineral Reserves at Marigold total 4.6 million ounces",
+          "source_url": "https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-20-YEAR-LIFE-OF-MINE-PLAN-FOR-MARIGOLD-BASED-ON-EXPANDED-4-6-MILLION-OUNCE-MINERAL-RESERVE.pdf",
+          "evidence_type": "company_announcement",
+          "period": "2026 Marigold TRS",
+          "unit": "金衡盎司储量",
+          "value": 4600000
+        },
+        {
+          "claim": "2027—2031年计划年均产金23.1万盎司。",
+          "evidence": "Average annual gold production of 231,000 ounces",
+          "source_url": "https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-20-YEAR-LIFE-OF-MINE-PLAN-FOR-MARIGOLD-BASED-ON-EXPANDED-4-6-MILLION-OUNCE-MINERAL-RESERVE.pdf",
+          "evidence_type": "company_announcement",
+          "period": "2027—2031计划",
+          "unit": "金衡盎司/年",
+          "value": 231000
+        }
+      ],
+      "source": "SSR Mining",
+      "title": "SSR拟收购Roxmore，并发布Marigold二十年矿山计划",
+      "excerpt": "SSR签订全现金收购Roxmore的最终协议，股权对价约4.64亿美元，不含SpinCo，预计2026年四季度交割，仍需股东、法院等批准。公司同日公布Marigold二十年计划：黄金储量460万盎司，较2025年底320万盎司增加43%，2027—2031年计划年均产金23.1万盎司。Converse拟在Buffalo Valley建设后作为相邻资产开发，潜在年增产15万—17万盎司、持续十年以上，重大资本开支预计从2030年代初开始。",
+      "language": "en",
+      "importance": "这组更新同时延长既有矿山供给基础并增加相邻开发选项，但新增资源、交易交割和实际增产属于不同阶段。Converse的主要兑现期在2030年代，共用Marigold基础设施可能降低独立开发成本；近期应先验证收购完成和工程排序，避免把远期目标叠加进当前年度产量。",
+      "verification_status": "verified",
+      "verification_note": "SSR官网首页链接的两份10月13日原始PDF均公开HTTP200，完整提取8页和14页。矿山计划、储量与潜在增产均保留公司披露口径；PDF只有日期，未移植媒体发布时刻。",
+      "companies": [
+        "SSR Mining",
+        "Roxmore Resources"
+      ],
+      "projects": [
+        "Marigold",
+        "Converse",
+        "Buffalo Valley"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://integraresources.com/news/integra-provides-delamar-project-update-detailed-engineering-permitting-procurement-and-state-of-good-repairs-work-advancing-in-line-with-plan-appoints-gencap-as-project-financing-advisor/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13T18:45:55+08:00",
+      "claims": [
+        {
+          "claim": "公司委任GenCap作为融资顾问。",
+          "evidence": "GenCap Mining Advisory",
+          "source_url": "https://integraresources.com/news/integra-provides-delamar-project-update-detailed-engineering-permitting-procurement-and-state-of-good-repairs-work-advancing-in-line-with-plan-appoints-gencap-as-project-financing-advisor/",
+          "evidence_type": "company_announcement",
+          "period": "2026-10-13公告",
+          "unit": "项目融资节点",
+          "value": "顾问委任"
+        },
+        {
+          "claim": "破碎试验已处理约39,000 tons历史回填料。",
+          "evidence": "approximately 39,000 tons of historical backfill material",
+          "source_url": "https://integraresources.com/news/integra-provides-delamar-project-update-detailed-engineering-permitting-procurement-and-state-of-good-repairs-work-advancing-in-line-with-plan-appoints-gencap-as-project-financing-advisor/",
+          "evidence_type": "company_announcement",
+          "period": "截至2026-10-13",
+          "unit": "tons，原文口径",
+          "value": 39000
+        },
+        {
+          "claim": "EIS与RoD预计2027年下半年。",
+          "evidence": "anticipated in the second half of 2027",
+          "source_url": "https://integraresources.com/news/integra-provides-delamar-project-update-detailed-engineering-permitting-procurement-and-state-of-good-repairs-work-advancing-in-line-with-plan-appoints-gencap-as-project-financing-advisor/",
+          "evidence_type": "company_announcement",
+          "period": "公司许可进度预期",
+          "unit": "预计期间",
+          "value": "2027H2"
+        }
+      ],
+      "source": "Integra Resources",
+      "title": "Integra委任DeLamar融资顾问，推进设备采购与工程准备",
+      "excerpt": "Integra宣布委任GenCap Mining Advisory，评估和设计DeLamar金银项目的潜在融资安排。公司拟在2026年底前落实Merrill-Crowe装置、破碎及电气设备等主要长交期采购；破碎试验厂已处理约39,000 tons历史回填料，用于验证可研的破碎假设。EIS与Record of Decision仍预计2027年下半年发布，最终投资决策需在其后作出。",
+      "language": "en",
+      "importance": "融资顾问进场和提前采购准备降低的是建设决策后的执行风险，尚未解除许可与资金落实两项约束。2027年下半年的审批节点决定工程准备能否转为主体建设；应区分设备下单、融资承诺与资金实际可提款，后续才有依据提高金银供给兑现的概率。",
+      "verification_status": "verified",
+      "verification_note": "已核验公司10月13日公开完整公告，article:published_time=10:45:55Z换算北京18:45:55。39,000的原文单位为tons，未擅自改为公吨；采购、审批和FID均为计划或条件。",
+      "companies": [
+        "Integra Resources"
+      ],
+      "projects": [
+        "DeLamar",
+        "Florida Mountain"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://finance.yahoo.com/markets/commodities/articles/mineros-reports-strong-q3-2026-123000631.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13T20:30:00+08:00",
+      "claims": [
+        {
+          "claim": "Q3黄金产量62,565盎司，同比增14.0%。",
+          "evidence": "gold production of 62,565 ounces in Q3 2026, up 14.0%",
+          "source_url": "https://finance.yahoo.com/markets/commodities/articles/mineros-reports-strong-q3-2026-123000631.html",
+          "evidence_type": "company_announcement",
+          "period": "2026Q3，比较2025Q3",
+          "unit": "金衡盎司",
+          "value": 62565
+        },
+        {
+          "claim": "全年产金指引提高至23.5万—24.5万盎司。",
+          "evidence": "235,000–245,000 ounces (from 220,000–240,000 ounces)",
+          "source_url": "https://finance.yahoo.com/markets/commodities/articles/mineros-reports-strong-q3-2026-123000631.html",
+          "evidence_type": "company_announcement",
+          "period": "2026年公司指引",
+          "unit": "金衡盎司",
+          "value": "235000—245000"
+        }
+      ],
+      "source": "Mineros（GlobeNewswire发行人稿，经Yahoo Finance分发）",
+      "title": "Mineros第三季度产金同比增14%，再次上调全年产量指引",
+      "excerpt": "Mineros披露第三季度黄金产量62,565金衡盎司，同比增加14.0%；前九个月产量181,466盎司、增加11.3%。Hemco高品位入料、选厂优化与扩建支持产量增长，Nechí回收率改善亦带来增产。全年黄金指引由22万—24万盎司上调至23.5万—24.5万盎司，为年内第二次上调；季度金销量61,281盎司，与产量分列，完整财务数据拟于11月11日发布。",
+      "language": "en",
+      "importance": "这次指引上调有季度实绩支持，显示矿山运营改善已传导至当年供给，而非仅延后兑现的项目目标。新旧区间中点差额为1万盎司、约4.3%，为按公司区间计算的增量；四季度仍应核对入料品位、回收率和在途金属销售，确认全年目标及现金流兑现。",
+      "verification_status": "verified",
+      "verification_note": "已读完整GlobeNewswire发行人分发稿，并交叉读取公司官方披露页。Yahoo可见8:30AM EDT与原发行平台08:30ET一致，对应北京20:30。数据为初步生产/销售披露，未当作完整季度财报；白银销量增加未等同白银产量。",
+      "companies": [
+        "Mineros"
+      ],
+      "projects": [
+        "Hemco",
+        "Nechí"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/luca-reports-q3-2026-production-results-302906435.html",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13T19:00:00+08:00",
+      "claims": [
+        {
+          "claim": "合并Produced Metal白银334,043盎司。",
+          "evidence": "Silver (oz) 334,043",
+          "source_url": "https://www.prnewswire.com/news-releases/luca-reports-q3-2026-production-results-302906435.html",
+          "evidence_type": "company_announcement",
+          "period": "2026Q3合并Produced Metal",
+          "unit": "金衡盎司",
+          "value": 334043
+        },
+        {
+          "claim": "合并Produced Metal黄金5,351盎司。",
+          "evidence": "Gold (oz) 5,351",
+          "source_url": "https://www.prnewswire.com/news-releases/luca-reports-q3-2026-production-results-302906435.html",
+          "evidence_type": "company_announcement",
+          "period": "2026Q3合并Produced Metal",
+          "unit": "金衡盎司",
+          "value": 5351
+        },
+        {
+          "claim": "合并Produced Metal铜2,332千磅。",
+          "evidence": "Copper (k lbs) 2,332",
+          "source_url": "https://www.prnewswire.com/news-releases/luca-reports-q3-2026-production-results-302906435.html",
+          "evidence_type": "company_announcement",
+          "period": "2026Q3合并Produced Metal",
+          "unit": "千磅",
+          "value": 2332
+        }
+      ],
+      "source": "Luca Mining（PRNewswire发行人公告）",
+      "title": "Luca第三季度产银33.40万盎司，两个矿区运营方向分化",
+      "excerpt": "Luca第三季度合并Produced Metal口径为黄金5,351金衡盎司、白银334,043金衡盎司、铜2,332千磅；相应Payable Metal为黄金4,304盎司、白银248,365盎司、铜1,648千磅。Campo Morado因较高品位采场及混矿、药剂和回收率改善，金银锌产量环比增加，铜因入料品位降低而减少；Tahuehueto高品位采区暂时受限，回收率小幅提高不足以抵消品位下降，各金属产量与销量均环比降低。",
+      "language": "en",
+      "importance": "共伴生银供给受矿石组合与回收效率约束，不能将一个矿区的改善外推为两矿同步增产。33.4万盎司是产出金属口径，计价金属较低也不能直接当作库存积压；四季度的关键验证是高品位采区接续与混矿策略能否持续改善实际金银产出，收购资产的旧计划不计入本期供应。",
+      "verification_status": "verified",
+      "verification_note": "PRNewswire原始发行人全文、两张Produced/Payable表及2026-10-13T07:00:00-04:00元数据已核验。千磅未误写为磅；分矿四舍五入可能造成合计一盎司差异，保留公告合并数。",
+      "companies": [
+        "Luca Mining"
+      ],
+      "projects": [
+        "Campo Morado",
+        "Tahuehueto"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13T17:00:00+08:00",
+      "claims": [
+        {
+          "claim": "DSR1149相关区间的估计真厚度40.8米。",
+          "evidence": "estimated true width of 40.8 meters",
+          "source_url": "https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446",
+          "evidence_type": "company_announcement",
+          "period": "本次DSR1149钻探结果",
+          "unit": "米，估计真厚度",
+          "value": 40.8
+        },
+        {
+          "claim": "Southern Arc新增钻探36,592米。",
+          "evidence": "totalling 36,592 meters",
+          "source_url": "https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446",
+          "evidence_type": "company_announcement",
+          "period": "2026年2月上次更新后至本公告",
+          "unit": "米",
+          "value": 36592
+        },
+        {
+          "claim": "Kabewest六台钻机作业。",
+          "evidence": "six drill rigs operating",
+          "source_url": "https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446",
+          "evidence_type": "company_announcement",
+          "period": "截至2026-10-13公告",
+          "unit": "台",
+          "value": 6
+        }
+      ],
+      "source": "Fortuna Mining（GlobeNewswire发行人稿，经Ritzau分发）",
+      "title": "Fortuna扩展Diamba Sud矿化，并启动Bambadji新靶区钻探",
+      "excerpt": "Fortuna披露Southern Arc自2月上次更新后新增196孔、36,592米钻探，识别出深部与走向扩展。DSR1149自孔深228米起见矿，黄金品位3.9克/吨，公司估计真厚度40.8米；这一区间尚不等于新增储量。公司拟在年末资源与储量报告纳入新结果，并于2027年继续外扩钻探；Bambadji的Kabewest已开钻，六台钻机作业，化验结果待返回。",
+      "language": "en",
+      "importance": "新增钻孔和邻近靶区开钻提高了既有拟建选厂周边可补充矿源的可见度，对未来矿山寿命的影响比孤立高品位孔更值得关注。年末资源储量更新是能否将矿化扩展转为工程依据的首个验证点；2027年追加钻探和冶金结果仍会约束可采规模，当前不据此上调近期产量。",
+      "verification_status": "verified",
+      "verification_note": "Mining普通HTTP全文发现后追到一手发行人稿；官网、MarketScreener及GlobeNewswire普通读取403/不可读均保留，不绕过。Ritzau公开完整分发稿HTTP200，日期13.10.2026 11:00:00 CEST对应北京17:00，包含原始表格、QA/QC和QP说明。真厚度为公司估算，未使用媒体的简写替代。",
+      "companies": [
+        "Fortuna Mining"
+      ],
+      "projects": [
+        "Diamba Sud",
+        "Southern Arc",
+        "Bambadji",
+        "Kabewest"
+      ],
+      "mining_com_source_note": "Mining金分类Playwright发现；Mining文章普通HTTP200。最终采用Ritzau分发的完整GlobeNewswire发行人原稿，普通HTTP200核验，未使用PiChrome或浏览器原文回退。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/kazakhstan-starts-gold-sales-as-treasuries-burnish-dollar-appeal/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "both",
+      "publish_time": "2026-10-13T05:44:04+08:00",
+      "claims": [
+        {
+          "claim": "央行黄金储备386吨。",
+          "evidence": "386 tons",
+          "source_url": "https://www.mining.com/web/kazakhstan-starts-gold-sales-as-treasuries-burnish-dollar-appeal/",
+          "evidence_type": "reported_fact",
+          "period": "报道中副行长给出的采访时点",
+          "unit": "吨",
+          "value": 386
+        },
+        {
+          "claim": "黄金占比目标约75%。",
+          "evidence": "75% share for gold by the end of this year",
+          "source_url": "https://www.mining.com/web/kazakhstan-starts-gold-sales-as-treasuries-burnish-dollar-appeal/",
+          "evidence_type": "reported_fact",
+          "period": "2026年末目标",
+          "unit": "储备价值占比%",
+          "value": 75
+        },
+        {
+          "claim": "拟调整部分一半经期权，一半经实物出售。",
+          "evidence": "Half of the downsizing will come from selling options",
+          "source_url": "https://www.mining.com/web/kazakhstan-starts-gold-sales-as-treasuries-burnish-dollar-appeal/",
+          "evidence_type": "reported_fact",
+          "period": "拟议储备调整",
+          "unit": "调整方式",
+          "value": "一半期权，一半实物"
+        }
+      ],
+      "source": "Bloomberg（Mining.com公开转载）",
+      "title": "哈萨克斯坦央行拟降低黄金储备占比，调整包括实物出售",
+      "excerpt": "Bloomberg采访哈萨克斯坦央行副行长Aliya Moldabekova称，央行黄金储备已达386吨、约占总储备78%，计划年底前降至约75%。拟调整部分一半通过出售期权、一半通过出售实物黄金实现；如果金价下跌，占比也可能自动接近目标。报道没有给出已售实物吨数或确定的逐月出售计划。",
+      "language": "en",
+      "importance": "这项再平衡意向削弱了把央行购金视作持续单向需求的假设，并可能在年内增加可交易实物供应。约3个百分点是资产价值权重调整，包含期权和估值变化，不能按现有吨数机械换算售金量；后续应核对实际储备吨数与执行方式，判断需求转弱是否已落到实物市场。",
+      "verification_status": "verified",
+      "verification_note": "公开完整Bloomberg转载正文与JSON-LD datePublished=2026-10-12T21:44:04Z已核验。访谈归因保留，未取得央行独立原稿；目标、期权安排与已执行实物量区分，未编造售金吨数。",
+      "mining_com_source_note": "分类Playwright发现；普通HTTP200完整转载核验。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.mining.com/web/striking-unions-and-centinela-copper-mine-restart-negotiations/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13T23:59:32+08:00",
+      "claims": [
+        {
+          "claim": "周二实际返回谈判桌。",
+          "evidence": "returned to the negotiating table on Tuesday",
+          "source_url": "https://www.mining.com/web/striking-unions-and-centinela-copper-mine-restart-negotiations/",
+          "evidence_type": "reported_fact",
+          "period": "智利2026-10-13",
+          "unit": "谈判节点",
+          "value": "实际恢复"
+        },
+        {
+          "claim": "工会称运矿车数量减半。",
+          "evidence": "had been cut in half",
+          "source_url": "https://www.mining.com/web/striking-unions-and-centinela-copper-mine-restart-negotiations/",
+          "evidence_type": "reported_fact",
+          "period": "工会本次声明，非独立产量验证",
+          "unit": "运矿车数量方向",
+          "value": "工会称减半"
+        },
+        {
+          "claim": "公司此前预期产量不变。",
+          "evidence": "production would remain unchanged",
+          "source_url": "https://www.mining.com/web/striking-unions-and-centinela-copper-mine-restart-negotiations/",
+          "evidence_type": "reported_fact",
+          "period": "罢工开始时公司预期，背景",
+          "unit": "产量预期方向",
+          "value": "不变"
+        }
+      ],
+      "source": "Reuters（Mining.com公开转载）",
+      "title": "Centinela与罢工工会实际恢复谈判，运营影响口径仍有分歧",
+      "excerpt": "Reuters报道，Centinela与两家罢工工会周二实际重返谈判桌，进入自愿调解。工会称运矿车数量已减半，其成员在关键操作岗位中占比较高，并警告持续罢工可能使11月产量减半；公司在罢工开始时称参与者占总员工22%，预计产量不变。报道未提供独立核验的实际减产吨数或达成协议消息。",
+      "language": "en",
+      "importance": "谈判实际恢复使后续风险从能否启动沟通转向何时达成协议，为缩短供给扰动持续期提供了路径。11月减半仍属工会情景，运矿车数量也不能线性换算为金属损失；应以协议进展与公司实际产量验证，当前暂不把该情景全部计入全球供给缺口。",
+      "verification_status": "verified",
+      "verification_note": "普通HTTP200完整Reuters转载、署名及JSON-LD datePublished=15:59:32Z已核验，换算北京23:59:32仍在10月13日窗口。与此前宣布未来恢复谈判的稿件相比，新事实是周二实际恢复；工会与公司说法分别归因，旧减产警告仅作背景。",
+      "companies": [
+        "Antofagasta Minerals"
+      ],
+      "projects": [
+        "Centinela"
+      ],
+      "mining_com_source_note": "铜分类Playwright发现；普通HTTP200全文及精确UTC日期核验。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://sem.smm.cn/copper",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-13",
+      "claims": [
+        {
+          "claim": "9月铜出口144,147吨。",
+          "evidence": "铜出口量为144,147吨",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "reported_fact",
+          "period": "2026年9月，SMM10月13日转述",
+          "unit": "吨，铜出口货物分类",
+          "value": 144147
+        },
+        {
+          "claim": "9月铜矿石和精矿出口925,599吨。",
+          "evidence": "铜矿石和精矿出口量为925,599吨",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "reported_fact",
+          "period": "2026年9月",
+          "unit": "吨，矿石与精矿货重",
+          "value": 925599
+        },
+        {
+          "claim": "其中对中国出口矿石精矿580,781吨。",
+          "evidence": "580,781吨",
+          "source_url": "https://sem.smm.cn/copper",
+          "evidence_type": "reported_fact",
+          "period": "2026年9月",
+          "unit": "吨，矿石与精矿货重",
+          "value": 580781
+        }
+      ],
+      "source": "上海有色网 SMM",
+      "title": "SMM转述智利9月铜与矿石精矿出口，强调不同实物口径",
+      "excerpt": "SMM在10月13日公开快讯中转述智利海关数据：9月铜出口144,147吨，其中对中国14,405吨；铜矿石和精矿出口925,599吨，其中对中国580,781吨。这两组货物分类的吨数口径不同，矿石与精矿吨数不能当作含铜金属量；快讯没有提供同比、环比或具体平均品位。",
+      "language": "zh",
+      "importance": "这组新公布的贸易数据补充了智利货源流向中国的可见度，但只能约束出口交付流量，尚不足以判断矿山或中国需求在9月同步增长。58.08万吨是矿石精矿货重，需结合品位、进口抵达时间与后续库存判断含铜供给；不能与铜出口直接相加或据此推算精矿缺口。",
+      "verification_status": "verified",
+      "verification_note": "公开铜行业快讯全文、10-13日期、智利海关归属及四个吨数已核验；仅日精度，未将网站未明确时区的07:09补成北京时间。未取得智利海关原始月表，保留SMM转述属性；不使用登录报价或受限正文。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.ebc.com/zh-cn/jinrong/314822.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-13",
+      "claims": [
+        {
+          "claim": "10月12日官方持仓按两位小数为1055.41吨。",
+          "evidence": "1055.41000000000008",
+          "source_url": "https://api.spdrgoldshares.com/api/v1/historical-archive?product=gld&exchange=NYSE&lang=en",
+          "evidence_type": "reported_fact",
+          "period": "美国2026-10-12持仓；10月13日报道",
+          "unit": "吨，官方两位小数披露",
+          "value": 1055.41
+        },
+        {
+          "claim": "10月9日前值按两位小数为1053.13吨。",
+          "evidence": "1053.13000000000011",
+          "source_url": "https://api.spdrgoldshares.com/api/v1/historical-archive?product=gld&exchange=NYSE&lang=en",
+          "evidence_type": "reported_fact",
+          "period": "美国2026-10-09持仓",
+          "unit": "吨，官方两位小数披露",
+          "value": 1053.13
+        }
+      ],
+      "source": "SPDR Gold Shares官方数据；EBC金融集团当日报道",
+      "title": "SPDR黄金持仓回升至1,055.41吨，较前值增加约2.28吨",
+      "excerpt": "10月13日EBC发布SPDR持仓更新；本次下载的SPDR官方历史表显示，10月12日持仓为1,055.41吨，前一交易日10月9日为1,053.13吨，按官方两位小数值计算增加约2.28吨。该变化反映单只实物黄金ETF的金属持仓回补。",
+      "language": "zh",
+      "interpretation": "官方表仅列两位小数；EBC正文以更高精度列1,055.411吨及增加2.281吨。本卡采用官方表口径，两种披露精度不能直接作为实物持仓冲突。",
+      "importance": "这次回补大致抵消此前一天的同量减仓，显示单只基金的短期申赎方向出现反复。资金回补可通过基金实物配置支撑黄金投资需求，但约0.22%的增幅尚不足以确认持续增长；应观察后续交易日与其他基金持仓，央行售金意向及零售需求仍需分别判断。",
+      "verification_status": "verified",
+      "verification_note": "EBC公开全文及10月13日日期已核验。由SPDR官网Historical Data页面发现并下载官方API的XLSX，标准库只读解析sheet2，核对10月9日及12日原始单元格；保留字节SHA及同API URL的结构化capture。2.28吨、约0.22%为按官方两位小数值计算。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "读取种子CSV、已发现来源、18项会议日历及最近三日报；历史关键词扩查用于实质去重。",
+      "Mining Stock Daily / Clear Commodity公开目录与四个新节目全文；按UTC创建时间及原节目证据筛除越窗，NAK既有计划按历史内容去重。",
+      "Natural Resource Stocks公开目录与Nicola、Sonoro、ESGold、Valhalla完整配套文字及节目元数据；只总结实际已读文字，未听音视频。",
+      "Resource Talks公开目录、Storm全文；Bullfrog原节目与前日报严格去重，不因配套文章重发刷新节目日期。",
+      "Crux Investor完整目录及当日Integra、Mineros、白银综述：Company News转入新闻研究并追溯发行人，未冒充访谈。",
+      "Korelin、Sprott Money公开节目列表；Kitco/Rule及种子专家动态日期补充搜索，排除纯估值、宏观观点与旧节目。",
+      "LME官方确认主活动10月19日及20日，NOIC官方10月28—31日均非本窗；CHINA MINING官网不可读、未发现窗内回放，保留访问限制而不宣称官方日期核验。"
+    ],
+    "part1_result": "三日访谈研究完成，9个规范化节目/配套候选收录1条ESGold，其他因原节目越窗、实质重复或新增节点证据不足拒收。ESGold节目在北京时间10月13日发布，保留赞助和管理层预期属性；未收听音视频或根据标题补写。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: X session is missing or expired; run scripts/setup_x_login.py",
+        "@peter_krauth: X session is missing or expired; run scripts/setup_x_login.py",
+        "@duediligenceguy: X session is missing or expired; run scripts/setup_x_login.py",
+        "@Junior_Stock: X session is missing or expired; run scripts/setup_x_login.py",
+        "@soarfinancial: X session is missing or expired; run scripts/setup_x_login.py",
+        "@WalterColesJr: X session is missing or expired; run scripts/setup_x_login.py",
+        "@ivanbebek: X session is missing or expired; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: X session is missing or expired; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: X session is missing or expired; run scripts/setup_x_login.py",
+        "@NewmontCorp: X session is missing or expired; run scripts/setup_x_login.py",
+        "@BarrickGold: X session is missing or expired; run scripts/setup_x_login.py",
+        "@TeckResources: X session is missing or expired; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: X session is missing or expired; run scripts/setup_x_login.py",
+        "@LundinMining: X session is missing or expired; run scripts/setup_x_login.py",
+        "@AgnicoEagle: X session is missing or expired; run scripts/setup_x_login.py",
+        "@FirstMajestic: X session is missing or expired; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: X session is missing or expired; run scripts/setup_x_login.py",
+        "@Wheaton_PM: X session is missing or expired; run scripts/setup_x_login.py",
+        "@EndeavourMining: X session is missing or expired; run scripts/setup_x_login.py",
+        "@SSRMining: X session is missing or expired; run scripts/setup_x_login.py",
+        "@KinrossGold: X session is missing or expired; run scripts/setup_x_login.py",
+        "@SandstormGold: X session is missing or expired; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: X session is missing or expired; run scripts/setup_x_login.py",
+        "@GoGoldResources: X session is missing or expired; run scripts/setup_x_login.py",
+        "@vizslasilver: X session is missing or expired; run scripts/setup_x_login.py"
+      ],
+      "notes": [
+        "X Playwright会话缺失或过期，登录检查即安全停止；未检索24个目标账户，不把未访问账户当完整零结果。",
+        "尝试通道仅playwright，选定通道null；不可用通道列表为空；未启动twscrape、未重试X、未使用PiChrome跨进程授权。",
+        "外层run_logged_process与采集链预算均明确3600秒；进程非超时退出（x_search returncode=2），完整保留失败审计。",
+        "原始TXT与JSON sidecar保存在x_outputs/2026-10-13_x_raw_materials.*；本地checkpoint和运行清单已保留。"
+      ]
+    },
+    "part2_sources_checked": [
+      "@peter_krauth（Peter Krauth）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@duediligenceguy（Lobo Tiggre）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@Junior_Stock（Brian Leni）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@soarfinancial（Kai Hoffmann）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@WalterColesJr（Walter Coles Jr.）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@ivanbebek（Ivan Bebek）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@IvanhoeMines_（Ivanhoe Mines）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@FreeportMcMoRan（Freeport-McMoRan）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@NewmontCorp（Newmont）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@BarrickGold（Barrick Gold）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@TeckResources（Teck Resources）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@AntofagastaPLC（Antofagasta）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@LundinMining（Lundin Mining）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@AgnicoEagle（Agnico Eagle）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@FirstMajestic（First Majestic Silver）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@PanAmericanSlvr（Pan American Silver）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@Wheaton_PM（Wheaton Precious Metals）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@EndeavourMining（Endeavour Mining）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@SSRMining（SSR Mining）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@KinrossGold（Kinross Gold）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@SandstormGold（Sandstorm Gold）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@Fortuna_Silver（Fortuna Mining）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@GoGoldResources（GoGold Resources）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。",
+      "@vizslasilver（Vizsla Silver）：会话登录检查失败，账号未完成；X session is missing or expired; run scripts/setup_x_login.py。"
+    ],
+    "part2_result": "X采集失败，覆盖0/24账户，24个账户未完成，路径playwright，选定通道null。Playwright持久会话缺失或已过期，登录检查后安全停止；未启动twscrape、未重试或绕过权限。候选0条、收录0条属于覆盖缺失，不能视为全账号零结果。原始TXT、sidecar、checkpoint与失败原因已保留，按工作流允许的降级方式随完整Part1/Part3发布。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：固定Python与本地隔离headless Playwright强制发现成功，HTTP200，14个分类候选。",
+      "Mining.com /commodity/gold/：固定Python与本地隔离headless Playwright强制发现成功，HTTP200，12个分类候选。",
+      "Mining.com /commodity/silver/：固定Python与本地隔离headless Playwright强制发现成功，HTTP200，9个分类候选。",
+      "金/银site:mining.com October 13 2026辅助搜索均已执行，各自直接当期有效命中0；普通Web读取分类不可用已记录，由已完成Playwright分类补全。三分类合并16个独立URL。",
+      "16篇Mining候选均普通HTTP200读取全文和JSON-LD，逐篇换算北京窗口；侧栏旧广告与10月14日英文稿不按分类日期收录。未使用RSS、sitemap、Wayback或PiChrome。",
+      "SSR官网两份原始PDF8/14页公开200核验；Roxmore收购与Marigold计划合并，Mining更晚转载拒收。",
+      "Integra原始公司公告全文及10:45:55Z核验；Mineros原始披露与GlobeNewswire英文分发全文；Luca PRNewswire两套产量表及07:00EDT核验。",
+      "Fortuna原站、MarketScreener及GlobeNewswire普通读取失败保留；Ritzau完整GlobeNewswire发行人分发稿HTTP200，核验11:00CEST、真厚度、钻孔表、QA/QC及QP。Mining同事件合并至一手稿。",
+      "Bloomberg哈萨克斯坦采访与Reuters Centinela全文普通HTTP200核验；央行独立原稿、公司实际减产吨数未取得，归因和情景限制保留。",
+      "SMM公开铜行业快讯实际读取并核对10月13日智利海关转述；首次压缩响应解析失误的材料拒用，正确解码另存。TreKor季度消息追到10月8日原公告，按旧闻排除。",
+      "EBC10月13日公开SPDR持仓报道核验；经SPDR官网发现官方历史API，下载XLSX并标准库只读解析原始sheet2，确认10月9日1053.13与12日1055.41吨，保留来源URL与文件哈希。",
+      "Crux当日白银综述及金铜公司线索补充检查；旧年度报告、七月统计首次日期未确认者与纯价格评论不纳入。"
+    ],
+    "part3_result": "单日中英文新闻研究及Mining强制分类发现完成，33个规范化新闻候选收录9条。公司实绩、指引和建设节点优先一手；央行及罢工报道保留二手归因与冲突，矿石货重和含铜量分开。更晚英文稿、旧原始事件、重复分发、泛融资和价格评论拒收。",
+    "mining_com_source_note": "铜、金、银分类发现均完整；16篇原文均普通HTTP200并核对JSON-LD原日期。最终保留Kazakhstan和Centinela的完整通讯社转载，Fortuna追到完整一手分发稿；两份SSR原始PDF替代越窗Mining稿。金银site辅助有效当期命中0，不替代铜分类发现；未使用PiChrome或门禁后隐藏数据。",
+    "new_sources_discovered": [
+      "SSR Mining官方公告：https://ir.ssrmining.com/files/doc_news/2026/Oct/13/SSR-MINING-ANNOUNCES-THE-ACQUISITION-OF-ROXMORE-RESOURCES.pdf（公开完整原文核验后登记）",
+      "Luca Mining（PRNewswire发行人公告）：https://www.prnewswire.com/news-releases/luca-reports-q3-2026-production-results-302906435.html（公开完整原文核验后登记）",
+      "Integra Resources官方公告：https://integraresources.com/news/integra-provides-delamar-project-update-detailed-engineering-permitting-procurement-and-state-of-good-repairs-work-advancing-in-line-with-plan-appoints-gencap-as-project-financing-advisor/（公开完整原文核验后登记）",
+      "Mineros（GlobeNewswire发行人分发）：https://finance.yahoo.com/markets/commodities/articles/mineros-reports-strong-q3-2026-123000631.html（公开完整原文核验后登记）",
+      "Fortuna Mining（GlobeNewswire经Ritzau分发）：https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446（公开完整原文核验后登记）"
+    ],
+    "url_verification": {
+      "checked": 10,
+      "passed": 10,
+      "failed": 0,
+      "failures": [],
+      "notes": "仅统计最终1条访谈和9条新闻卡URL，均已实际读取标题、日期和全文。关联SSR第二份PDF及SPDR官方XLSX另有同URL结构化capture与SHA。发现阶段403、网页读取不可用及X登录失败单独保留，不伪称访问通过；源核验通过不代表二手说法获独立确认。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://naturalresourcestocks.net/valhalla-metals-inc-suns-4-2-cueq-resource-and-upcoming-drill-assays/",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/american-eagle-gold-targets-scale-and-grade-at-the-copper-gold-porphyry-nak",
+      "https://resourcetalks.com/gold-stocks/gold-project-next-to-anglogold-in-nevada-but-is-there-a-real-system/"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "SSR两份同日公告合并供给平台卡；Yahoo和Mining不另列。",
+      "Fortuna媒体稿及不可读原站候选合并至可核验GlobeNewswire完整分发稿。",
+      "Integra与Mineros的Crux文章替代为原始公司或发行人稿；白银销量不当作产量增加。",
+      "Skouries战略资格为10月9日原事件，后发稿不刷新日期。",
+      "TreKor41百万磅Q3产量、Florence爬坡为10月8日原公告，不因SMM10月13日转述重收。",
+      "Centinela旧计划恢复谈判及11月警告只作背景，新卡聚焦10月13日实际恢复谈判；不重收Codelco持续局部停产与旧风险指数。",
+      "SPDR旧财经日历与前日报10月9日值不重收，本日以新10月12日值及官方表核验。",
+      "Mining侧栏旧广告与英文本地10月13日、北京已10月14日文章依原始时刻排除。"
+    ],
+    "notes": "冻结RUN_DATE=2026-10-14、REPORT_DATE=2026-10-13、Asia/Shanghai；Part1为10月11日至13日，Part2/3仅10月13日。周三不更新TC，旧材料字节保持不变；未改调度入口、工作流、网站代码或用户无关工作树。父包装进程持有锁并完成最终发布验收，不递归调用run_scheduled_daily.py。"
+  }
+}
