@@ -1,0 +1,226 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-13",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 3,
+  "accounts_failed": 21,
+  "channel_completed_accounts": {
+    "playwright": 3,
+    "twscrape": 0
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-8bf46f1e5f12962d1dfa55c6",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-13T14:42:42+00:00",
+      "text": "Leave it to a central banker to fall for the \"gold doesn't pay interest\" error.\n\nThis shows why the mainstream sees higher rates as bad for gold (while the fallacy persists).\n\nFortunately, other central banks are still buying, not for yield, but for diversification.",
+      "url": "https://x.com/duediligenceguy/status/2110018395026706436",
+      "collector": "x_search",
+      "report_date": "2026-10-13",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a43564ff612e588b12744e4a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-13T14:16:31+00:00",
+      "text": "FWIW, demand destruction isn't worrying OPEC...",
+      "url": "https://x.com/duediligenceguy/status/2110011807498727932",
+      "collector": "x_search",
+      "report_date": "2026-10-13",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-junior_stock",
+      "handle": "Junior_Stock",
+      "author": "Brian Leni",
+      "error": "No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown"
+    },
+    {
+      "source_id": "x-soarfinancial",
+      "handle": "soarfinancial",
+      "author": "Kai Hoffmann",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055120668960Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-waltercolesjr",
+      "handle": "WalterColesJr",
+      "author": "Walter Coles Jr.",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055216953810Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-ivanbebek",
+      "handle": "ivanbebek",
+      "author": "Ivan Bebek",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055314129329Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-freeportmcmoran",
+      "handle": "FreeportMcMoRan",
+      "author": "Freeport-McMoRan",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055443917803Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-newmontcorp",
+      "handle": "NewmontCorp",
+      "author": "Newmont",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055541646570Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-barrickgold",
+      "handle": "BarrickGold",
+      "author": "Barrick Gold",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055637847556Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-teckresources",
+      "handle": "TeckResources",
+      "author": "Teck Resources",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055734470962Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-antofagastaplc",
+      "handle": "AntofagastaPLC",
+      "author": "Antofagasta",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055831343639Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-lundinmining",
+      "handle": "LundinMining",
+      "author": "Lundin Mining",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055926862220Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-agnicoeagle",
+      "handle": "AgnicoEagle",
+      "author": "Agnico Eagle",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060024809416Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-firstmajestic",
+      "handle": "FirstMajestic",
+      "author": "First Majestic Silver",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060120099560Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-panamericanslvr",
+      "handle": "PanAmericanSlvr",
+      "author": "Pan American Silver",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060220363553Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-wheaton_pm",
+      "handle": "Wheaton_PM",
+      "author": "Wheaton Precious Metals",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060317855592Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-endeavourmining",
+      "handle": "EndeavourMining",
+      "author": "Endeavour Mining",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060417605752Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-ssrmining",
+      "handle": "SSRMining",
+      "author": "SSR Mining",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060514670461Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-kinrossgold",
+      "handle": "KinrossGold",
+      "author": "Kinross Gold",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060613610136Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-sandstormgold",
+      "handle": "SandstormGold",
+      "author": "Sandstorm Gold",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060710179090Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-fortuna_silver",
+      "handle": "Fortuna_Silver",
+      "author": "Fortuna Mining",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060805828564Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-gogoldresources",
+      "handle": "GoGoldResources",
+      "author": "GoGold Resources",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060903683016Z-26936/failure.json"
+    },
+    {
+      "source_id": "x-vizslasilver",
+      "handle": "vizslasilver",
+      "author": "Vizsla Silver",
+      "error": "no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T061001773907Z-26936/failure.json"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 3,
+      "twscrape": 0
+    },
+    "channel_errors": [
+      "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055022584699Z-26936/failure.json",
+      "playwright @soarfinancial: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055120668960Z-26936/failure.json",
+      "playwright @WalterColesJr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055216953810Z-26936/failure.json",
+      "playwright @ivanbebek: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055314129329Z-26936/failure.json",
+      "playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055443917803Z-26936/failure.json",
+      "playwright @NewmontCorp: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055541646570Z-26936/failure.json",
+      "playwright @BarrickGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055637847556Z-26936/failure.json",
+      "playwright @TeckResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055734470962Z-26936/failure.json",
+      "playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055831343639Z-26936/failure.json",
+      "playwright @LundinMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055926862220Z-26936/failure.json",
+      "playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060024809416Z-26936/failure.json",
+      "playwright @FirstMajestic: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060120099560Z-26936/failure.json",
+      "playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060220363553Z-26936/failure.json",
+      "playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060317855592Z-26936/failure.json",
+      "playwright @EndeavourMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060417605752Z-26936/failure.json",
+      "playwright @SSRMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060514670461Z-26936/failure.json",
+      "playwright @KinrossGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060613610136Z-26936/failure.json",
+      "playwright @SandstormGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060710179090Z-26936/failure.json",
+      "playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060805828564Z-26936/failure.json",
+      "playwright @GoGoldResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060903683016Z-26936/failure.json",
+      "playwright @vizslasilver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T061001773907Z-26936/failure.json",
+      "twscrape @Junior_Stock: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+      "twscrape: twscrape safety stop for @Junior_Stock: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+      "@Junior_Stock: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+      "@soarfinancial: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055120668960Z-26936/failure.json",
+      "@WalterColesJr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055216953810Z-26936/failure.json",
+      "@ivanbebek: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055314129329Z-26936/failure.json",
+      "@FreeportMcMoRan: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055443917803Z-26936/failure.json",
+      "@NewmontCorp: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055541646570Z-26936/failure.json",
+      "@BarrickGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055637847556Z-26936/failure.json",
+      "@TeckResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055734470962Z-26936/failure.json",
+      "@AntofagastaPLC: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055831343639Z-26936/failure.json",
+      "@LundinMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055926862220Z-26936/failure.json",
+      "@AgnicoEagle: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060024809416Z-26936/failure.json",
+      "@FirstMajestic: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060120099560Z-26936/failure.json",
+      "@PanAmericanSlvr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060220363553Z-26936/failure.json",
+      "@Wheaton_PM: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060317855592Z-26936/failure.json",
+      "@EndeavourMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060417605752Z-26936/failure.json",
+      "@SSRMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060514670461Z-26936/failure.json",
+      "@KinrossGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060613610136Z-26936/failure.json",
+      "@SandstormGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060710179090Z-26936/failure.json",
+      "@Fortuna_Silver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060805828564Z-26936/failure.json",
+      "@GoGoldResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060903683016Z-26936/failure.json",
+      "@vizslasilver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T061001773907Z-26936/failure.json"
+    ],
+    "channel_error": "playwright @Junior_Stock: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055022584699Z-26936/failure.json; playwright @soarfinancial: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055120668960Z-26936/failure.json; playwright @WalterColesJr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055216953810Z-26936/failure.json; playwright @ivanbebek: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055314129329Z-26936/failure.json; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055443917803Z-26936/failure.json; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055541646570Z-26936/failure.json; playwright @BarrickGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055637847556Z-26936/failure.json; playwright @TeckResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055734470962Z-26936/failure.json; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055831343639Z-26936/failure.json; playwright @LundinMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055926862220Z-26936/failure.json; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060024809416Z-26936/failure.json; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060120099560Z-26936/failure.json; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060220363553Z-26936/failure.json; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060317855592Z-26936/failure.json; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060417605752Z-26936/failure.json; playwright @SSRMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060514670461Z-26936/failure.json; playwright @KinrossGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060613610136Z-26936/failure.json; playwright @SandstormGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060710179090Z-26936/failure.json; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060805828564Z-26936/failure.json; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060903683016Z-26936/failure.json; playwright @vizslasilver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T061001773907Z-26936/failure.json; twscrape @Junior_Stock: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; twscrape: twscrape safety stop for @Junior_Stock: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; @Junior_Stock: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; @soarfinancial: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055120668960Z-26936/failure.json; @WalterColesJr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055216953810Z-26936/failure.json; @ivanbebek: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055314129329Z-26936/failure.json; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055443917803Z-26936/failure.json; @NewmontCorp: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055541646570Z-26936/failure.json; @BarrickGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055637847556Z-26936/failure.json; @TeckResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055734470962Z-26936/failure.json; @AntofagastaPLC: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055831343639Z-26936/failure.json; @LundinMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T055926862220Z-26936/failure.json; @AgnicoEagle: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060024809416Z-26936/failure.json; @FirstMajestic: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060120099560Z-26936/failure.json; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060220363553Z-26936/failure.json; @Wheaton_PM: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060317855592Z-26936/failure.json; @EndeavourMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060417605752Z-26936/failure.json; @SSRMining: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060514670461Z-26936/failure.json; @KinrossGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060613610136Z-26936/failure.json; @SandstormGold: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060710179090Z-26936/failure.json; @Fortuna_Silver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060805828564Z-26936/failure.json; @GoGoldResources: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T060903683016Z-26936/failure.json; @vizslasilver: no explicit no-results marker; completeness unknown; diagnostics=.runtime/x-diagnostics/20261014T061001773907Z-26936/failure.json",
+    "raw_sha256": "96050ad72c80e069962119e76867c3f2d1a2e8cee47186a8fdc01a2ffc1b6bdb"
+  }
+}
