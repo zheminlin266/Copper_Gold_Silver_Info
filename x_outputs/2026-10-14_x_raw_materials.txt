@@ -1,0 +1,56 @@
+X 原始候选 — 2026-10-14
+采集时间: 2026-10-15T07:03:06.524121+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 3 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-14T14:46:18+00:00
+    北京: 2026-10-14T22:46:18+08:00
+    文本: Silver is hovering near $60. I’m watching the stocks.
+
+SIL vs. silver is showing encouraging signs. My 8 company updates tell a similar story: solid operations despite share-price headwinds.
+
+That’s where I look for opportunity.
+
+Subscribe to Silver Stock Investor:
+    链接: https://x.com/peter_krauth/status/2110381690875220317
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-14T15:41:26+00:00
+    北京: 2026-10-14T23:41:26+08:00
+    文本: “...'massive' oil, gas and mineral exploration is set to begin in 'our new and beautiful Greenland.'"
+
+Anyone with experience in the resource sector knows this is BS.
+
+If anything, pissing off the locals by calling it "our Greenland" will make permitting even harder.
+    链接: https://x.com/duediligenceguy/status/2110395563430797646
+
+[3] @GoGoldResources (GoGold Resources)
+    UTC: 2026-10-14T11:52:35+00:00
+    北京: 2026-10-14T19:52:35+08:00
+    文本: $GGD.TO
+ $GLGDF
+
+GoGold Announces 2026 Annual Production 
+
+
+https://
+mailchi.mp/gogoldresource
+s/20261014
+…
+    链接: https://x.com/GoGoldResources/status/2110337973052919984
+

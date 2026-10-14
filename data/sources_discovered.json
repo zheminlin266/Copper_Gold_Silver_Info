@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-13",
+  "last_updated": "2026-10-14",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -827,6 +827,153 @@
       "category": "矿业公司官方新闻",
       "channel": "https://via.ritzau.dk/pressemeddelelse/15223234/fortuna-mining-corp?publisherId=90446",
       "notes": "2026-10-13完整原始发行人稿及QA/QC、QP、11:00CEST公开HTTP200核验。原站及部分分发403不绕过；估计真厚度与资源、储量和实际产量分开。"
+    },
+    {
+      "source_id": "source-aya-issuer",
+      "display_name": "Aya Gold & Silver",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.ayagoldsilver.com/news/news-releases/aya-gold--silver-reports-record-q3-2026-production-of-203-million-ageq-ounces",
+      "notes": "2026-10-15研究10月14日日报时：官网10月14日季度全文和两组表200核验；银当量与实物金银、黄铁矿存料回收和主体项目分开。"
+    },
+    {
+      "source_id": "source-thor-issuer",
+      "display_name": "Thor Explorations（Newsfile发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.tmxnewsfile.com/release/318859/",
+      "notes": "2026-10-15研究10月14日日报时：Newsfile10月14日02:00EDT季度稿200；浇注、回收、销量和指引修订分别保留。"
+    },
+    {
+      "source_id": "source-i80-issuer",
+      "display_name": "i-80 Gold（CNW发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newswire.ca/news-releases/i-80-gold-provides-a-development-update-archimedes-underground-and-lone-tree-plant-refurbishment-remain-on-track-and-mineral-point-open-pit-prioritized-in-updated-development-plan-819201421.html",
+      "notes": "2026-10-15研究10月14日日报时：CNW10月14日06:00EDT工程公告200；采购按金额比例、未来开发目标非指引和资源条件分开。"
+    },
+    {
+      "source_id": "source-idaho-issuer",
+      "display_name": "Idaho Copper（GlobeNewswire发行人稿，经Yahoo Finance分发）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/idaho-copper-announces-results-updated-123100082.html",
+      "notes": "2026-10-15研究10月14日日报时：原始Globe稿普通HTTP403，Yahoo完整发行人分发200及UTC时刻核验；PEA情景、待提交报告和实际投产分开。"
+    },
+    {
+      "source_id": "source-rio-issuer",
+      "display_name": "Rio Tinto",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-releases-third-quarter-2026-production-results",
+      "notes": "2026-10-15研究10月14日日报时：官网季度公告及官方CDN33页QOR200核验；合并铜包含OT/Kennecott100%及Escondida权益口径。"
+    },
+    {
+      "source_id": "source-galantas-issuer",
+      "display_name": "Galantas Gold（RNS原始公告）",
+      "category": "矿业公司监管公告",
+      "channel": "https://www.investegate.co.uk/announcement/rns/galantas-gold-corp---gal/indiana-project-exploration-update-/9821328",
+      "notes": "2026-10-15研究10月14日日报时：RNS完整原稿200，跳过AI摘要；PEA与生产决策延后属于新开发排序，钻孔长度不作真厚度。"
+    },
+    {
+      "source_id": "source-silverco-issuer",
+      "display_name": "Silverco Mining（Newsfile发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newsfile-prod.tmx.cloud/release/318877/Silverco-Mining-Intercepts-1280-gt-Silver-over-3.35-Metres-True-Width-at-Its-100Owned-Cusi-Mine-in-Chihuahua-Mexico?lang=fr",
+      "notes": "2026-10-15研究10月14日日报时：Newsfile318877公开完整原稿及真厚度表200；只用实物银品位，不混用部分不一致AgEq数据。"
+    },
+    {
+      "source_id": "source-redmetal-issuer",
+      "display_name": "Red Metal Resources",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.redmetalresources.com/news/red-metal-provides-farellon-mining-update",
+      "notes": "2026-10-15研究10月14日日报时：公司完整ENAMI结算表200；干湿吨、酸不溶铜、矿石含量与冶金回收后产量分开。"
+    },
+    {
+      "source_id": "source-kuya-issuer",
+      "display_name": "Kuya Silver",
+      "category": "矿业公司官方新闻",
+      "channel": "https://kuyasilver.com/news/news/2026-news/kuya-silver-secures-processing-capacity-through-strategic-al2026-10-14-043502",
+      "notes": "2026-10-15研究10月14日日报时：官网10月14日Camila已完成协议200核验；预留加工量、担保贷款及自有选厂建设计划分开。"
+    },
+    {
+      "source_id": "source-evolution-issuer",
+      "display_name": "Evolution Mining（ASX原始季度报告）",
+      "category": "矿业公司监管公告",
+      "channel": "https://yourir.info/resources/851ef7ffa345f09f/announcements/evn.asx/2A1703849/September_2026_Quarterly_Report.pdf",
+      "notes": "2026-10-15研究10月14日日报时：官网原链接14页ASX季度PDF200及生产表视觉核验；金额默认澳元，Northparkes80%权益与100%项目资本分开。"
+    },
+    {
+      "source_id": "source-orezone-issuer",
+      "display_name": "Orezone Gold",
+      "category": "矿业公司官方新闻",
+      "channel": "https://wp-orezone-2025.s3.ca-central-1.amazonaws.com/media/2026/10/Q3-2026-Production-Results-vFinal.pdf",
+      "notes": "2026-10-15研究10月14日日报时：官网链接4页原始季度PDF200和表格视觉核验；产量、销量与收购日合并口径分开，旧LoM不重复。"
+    },
+    {
+      "source_id": "source-artemis-issuer",
+      "display_name": "Artemis Gold（CNW发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newswire.ca/news-releases/artemis-gold-reports-q3-2026-production-results-in-line-with-guidance-806695810.html",
+      "notes": "2026-10-15研究10月14日日报时：CNW10月13日17:00EDT原稿200，对应北京14日05:00；实际产量、施工完成和设计处理量分开。"
+    },
+    {
+      "source_id": "source-mercuria-issuer",
+      "display_name": "Mercuria",
+      "category": "商品贸易商官方公告",
+      "channel": "https://mercuria.com/mercuria-signs-gold-offtake-agreement-with-heritage-minerals/",
+      "notes": "2026-10-15研究10月14日日报时：官网默认Windows证书校验200，15:24:59Z在北京14日窗口；协议预付款不等于已到账，包销量不作年产能。"
+    },
+    {
+      "source_id": "source-valiant-issuer",
+      "display_name": "Valiant Gold（ASX原始公告，由Mining Employment Services提供公开附件）",
+      "category": "矿业公司监管公告",
+      "channel": "https://miningemployment.com.au/system/files/company-announcements/mes-news/91e541f07e604cf550f14a44600d74bd56256b55d6801117c7766e1d5a7097b3.pdf",
+      "notes": "2026-10-15研究10月14日日报时：11页ASX原公告由媒体公开附件托管，200及首页视觉核验；现场排水进度与重启目标分开。"
+    },
+    {
+      "source_id": "source-gogold-issuer",
+      "display_name": "GoGold Resources（Newsfile发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.tmxnewsfile.com/release/318870/GoGold-Announces-2026-Annual-Production",
+      "notes": "2026-10-15研究10月14日日报时：原始Newsfile318870全文和两表200；07:45EDT在北京14日，SEO正文/表合计差异留痕而采用一致实物数。"
+    },
+    {
+      "source_id": "source-hycroft-issuer",
+      "display_name": "Hycroft Mining（PRNewswire公司原稿）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.prnewswire.com/news-releases/hycroft-drills-new-best-hole-ever-302907556.html",
+      "notes": "2026-10-15研究10月14日报时以公开HTTP200核验原文及16:30EDT发布时间；孔内区间、真厚度和储量分开，不采用翌日媒体券商复产模型。"
+    },
+    {
+      "source_id": "source-icsg-official",
+      "display_name": "ICSG 国际铜业研究组织",
+      "category": "官方铜供需统计与预测",
+      "channel": "https://icsg.org/download/2026-10-14-press-release-icsg-copper-market-forecast-2026-2027/?wpdmdl=9365",
+      "notes": "2026-10-14官方预测两页PDF公开HTTP200全文核验，保留日精度、千公吨表单位、预测和中国未报告库存口径。"
+    },
+    {
+      "source_id": "source-fastmarkets-copper-news",
+      "display_name": "Fastmarkets铜市场新闻",
+      "category": "行业媒体／实物铜升水",
+      "channel": "https://www.fastmarkets.com/insights/aurubis-raises-copper-premium-for-european-clients-up-to-347-t-for-2027-supplies-sources/",
+      "notes": "2026-10-14 Aurubis欧洲年度报价公开全文独立核验；含客户反方反馈与德国现货评估，不绕过付费墙，不把报价当成交。"
+    },
+    {
+      "source_id": "source-latercera-mining",
+      "display_name": "La Tercera Pulso矿业",
+      "category": "智利矿业媒体／公司工会声明公开转引",
+      "channel": "https://www.latercera.com/pulso/noticia/escondida-y-sindicato-de-supervisores-alcanzan-preacuerdo-y-postergan-la-huelga-a-la-espera-de-una-votacion/",
+      "notes": "2026-10-14 Escondida初步协议全文公开HTTP200核验，JSON-LD11:02:28Z；仅作Mining英语卡的声明交叉证据，未将西语页面错误标为英语主来源。"
+    },
+    {
+      "source_id": "source-maike-futures",
+      "display_name": "迈科期货",
+      "category": "期货公司公开资讯",
+      "channel": "https://www.mkqh.com/",
+      "notes": "2026-10-14 SPDR公开持仓短讯核验，官方SPDR XLSX另核两位小数。"
+    },
+    {
+      "source_id": "source-b2i-digital-vic",
+      "display_name": "B2i Digital（Virtual Investor Conferences官方营销伙伴）",
+      "category": "会议议程与回放发现",
+      "channel": "https://b2idigital.com/oct-13th-15th-precious-metals-and-critical-minerals-virtual-investor-conference",
+      "notes": "2026-10-15研究10月14日日报时公开活动及发行方议程核验；会议计划时间不作为节目首次发布时间，Royal Road/Japan Gold标题页不作为演讲正文。"
     }
   ]
 }

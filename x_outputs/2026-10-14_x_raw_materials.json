@@ -1,0 +1,62 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-14",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-41612f6be817d51e1845a4b4",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-14T14:46:18+00:00",
+      "text": "Silver is hovering near $60. I’m watching the stocks.\n\nSIL vs. silver is showing encouraging signs. My 8 company updates tell a similar story: solid operations despite share-price headwinds.\n\nThat’s where I look for opportunity.\n\nSubscribe to Silver Stock Investor:",
+      "url": "https://x.com/peter_krauth/status/2110381690875220317",
+      "collector": "x_search",
+      "report_date": "2026-10-14",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-53a0e30259e86fefdb2636c7",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-14T15:41:26+00:00",
+      "text": "“...'massive' oil, gas and mineral exploration is set to begin in 'our new and beautiful Greenland.'\"\n\nAnyone with experience in the resource sector knows this is BS.\n\nIf anything, pissing off the locals by calling it \"our Greenland\" will make permitting even harder.",
+      "url": "https://x.com/duediligenceguy/status/2110395563430797646",
+      "collector": "x_search",
+      "report_date": "2026-10-14",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-bfdaf57cca4226f12005cc07",
+      "source_id": "x-gogoldresources",
+      "author": "GoGold Resources",
+      "handle": "GoGoldResources",
+      "publish_time": "2026-10-14T11:52:35+00:00",
+      "text": "$GGD.TO\n $GLGDF\n\nGoGold Announces 2026 Annual Production \n\n\nhttps://\nmailchi.mp/gogoldresource\ns/20261014\n…",
+      "url": "https://x.com/GoGoldResources/status/2110337973052919984",
+      "collector": "x_search",
+      "report_date": "2026-10-14",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "f1825a52c2cf54090642a2d9091af560c907d30accd8905cbe2c82dec054e38f"
+  }
+}
