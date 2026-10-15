@@ -1,0 +1,45 @@
+X 原始候选 — 2026-10-15
+采集时间: 2026-10-16T07:01:53.524046+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-15T15:15:53+00:00
+    北京: 2026-10-15T23:15:53+08:00
+    文本: Great discussions here in Stockholm at 
+@nordicfunds_
+  2026!
+
+Enjoyed sharing the stage with Eric Strand of 
+@AuAgEric
+  Funds and 
+@keith_neumeyer
+ , CEO of 
+@FMSilverCorp
+  Silver, to discuss the future of the silver market.
+
+My conviction hasn't changed. Silver's long-term
+    链接: https://x.com/peter_krauth/status/2110751521092636923
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-15T15:04:19+00:00
+    北京: 2026-10-15T23:04:19+08:00
+    文本: I don't wish anyone ill, but as a speculator wanting to go long, I rather hope we will get a short-lived "tariff collapse."
+
+I've got cash ready to deploy, should I be so lucky.
+    链接: https://x.com/duediligenceguy/status/2110748611747385406
+

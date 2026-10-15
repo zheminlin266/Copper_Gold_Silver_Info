@@ -1,0 +1,50 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-15",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-f0b4beee13721777de30f591",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-15T15:15:53+00:00",
+      "text": "Great discussions here in Stockholm at \n@nordicfunds_\n  2026!\n\nEnjoyed sharing the stage with Eric Strand of \n@AuAgEric\n  Funds and \n@keith_neumeyer\n , CEO of \n@FMSilverCorp\n  Silver, to discuss the future of the silver market.\n\nMy conviction hasn't changed. Silver's long-term",
+      "url": "https://x.com/peter_krauth/status/2110751521092636923",
+      "collector": "x_search",
+      "report_date": "2026-10-15",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ad164b7e48c9ad97caf3c303",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-15T15:04:19+00:00",
+      "text": "I don't wish anyone ill, but as a speculator wanting to go long, I rather hope we will get a short-lived \"tariff collapse.\"\n\nI've got cash ready to deploy, should I be so lucky.",
+      "url": "https://x.com/duediligenceguy/status/2110748611747385406",
+      "collector": "x_search",
+      "report_date": "2026-10-15",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "5441233deedc7392bad0d720345a6a8424d9211975a9b3a02e53824ff53c01cd"
+  }
+}

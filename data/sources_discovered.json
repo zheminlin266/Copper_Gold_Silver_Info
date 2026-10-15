@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -974,6 +974,34 @@
       "category": "会议议程与回放发现",
       "channel": "https://b2idigital.com/oct-13th-15th-precious-metals-and-critical-minerals-virtual-investor-conference",
       "notes": "2026-10-15研究10月14日日报时公开活动及发行方议程核验；会议计划时间不作为节目首次发布时间，Royal Road/Japan Gold标题页不作为演讲正文。"
+    },
+    {
+      "source_id": "source-new-found-gold-issuer",
+      "display_name": "New Found Gold",
+      "category": "矿业公司官方新闻",
+      "channel": "https://newfoundgold.ca/new-found-gold-reports-q3-2026-preliminary-production-resultsbecoming-canadas-newest-gold-producer/",
+      "notes": "2026-10-16研究10月15日日报时：官网初步季度报告与生产表公开HTTP200，UTC日期核验；Hammerdown产量、销量、商业生产日及破碎分选调试目标分开。"
+    },
+    {
+      "source_id": "source-jaguar-mining-issuer",
+      "display_name": "Jaguar Mining（Newswire发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.newswire.com/news/jaguar-mining-inc-reports-30-year-over-year-gold-production-growth-in-q3-2026",
+      "notes": "2026-10-16研究10月15日日报时：完整原始发行人稿及季度表公开HTTP200，保留日精度；Pilar与Turmalina产量、品位、Faina比例和回收率分列。"
+    },
+    {
+      "source_id": "source-blue-lagoon-issuer",
+      "display_name": "Blue Lagoon Resources（ACCESS Newswire发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/blue-lagoon-records-its-first-finalized-gold-and-silver-production-from-dome-moun-1237108",
+      "notes": "2026-10-16研究10月15日日报时：原始发行人全文及结算表公开HTTP200；首三批最终金属量与后续874.950干吨待结算精矿分开，正文992与表格992.4为取整口径。"
+    },
+    {
+      "source_id": "source-avino-issuer",
+      "display_name": "Avino Silver & Gold Mines",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.avino.com/news/avino-announces-q3-2026-production-results",
+      "notes": "2026-10-16研究10月15日日报时：官网完整公告和两组生产表公开HTTP200；只用一致合并实物数字，保留正文/表格La Preciosa银量及铜导语近似数的差异。"
     }
   ]
 }
