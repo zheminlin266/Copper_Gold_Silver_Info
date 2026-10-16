@@ -1,0 +1,62 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-16",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-529dbddc87086d21992a02e6",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-16T14:15:01+00:00",
+      "text": "What a set of headlines.\n\nI haven't got nearly enough copper in my portfolio...\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2111098592458912080",
+      "collector": "x_search",
+      "report_date": "2026-10-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-769fc9ff54053a35861b41bb",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-16T14:03:06+00:00",
+      "text": "Visual representation of owning gold during the next financial collapse…\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2111095593019867311",
+      "collector": "x_search",
+      "report_date": "2026-10-16",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-97ab768b64261114fbf4ed45",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-16T07:24:47+00:00",
+      "text": "The world is facing an unprecedented copper challenge. At Mining Forum Americas, Ivanhoe Mines Founder & Executive Co-Chairman Robert Friedland puts the scale of the challenge into perspective.",
+      "url": "https://x.com/IvanhoeMines_/status/2110995355123028098",
+      "collector": "x_search",
+      "report_date": "2026-10-16",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "80cf09198db65dbd2aa399c8d3febc75efbe2f853349a2978dc3c90e4b3293fa"
+  }
+}

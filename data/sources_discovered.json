@@ -1002,6 +1002,27 @@
       "category": "矿业公司官方新闻",
       "channel": "https://www.avino.com/news/avino-announces-q3-2026-production-results",
       "notes": "2026-10-16研究10月15日日报时：官网完整公告和两组生产表公开HTTP200；只用一致合并实物数字，保留正文/表格La Preciosa银量及铜导语近似数的差异。"
+    },
+    {
+      "source_id": "source-guanajuato-silver-issuer",
+      "display_name": "Guanajuato Silver（ACCESS Newswire发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/guanajuato-silver-provides-q3-2026-production-results-1237529",
+      "notes": "2026-10-17研究10月16日日报时：原始季度公开全文200；实物金银、银当量与换算比、掘进和回收率分开。"
+    },
+    {
+      "source_id": "source-halo-minerals-issuer",
+      "display_name": "Halo Minerals（RNS原始公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.investegate.co.uk/index.php/announcement/rns/halo-minerals-plc--halo/increased-ore-reserve-and-improved-economics/9825981",
+      "notes": "2026-10-17研究10月16日日报时：完整RNS原稿公开200，跳过AI摘要；JORC资源含储量、工程回收模型与实际产量分开。"
+    },
+    {
+      "source_id": "source-dryden-gold-issuer",
+      "display_name": "Dryden Gold",
+      "category": "矿业公司官方新闻",
+      "channel": "https://drydengold.com/dryden-gold-and-eagle-lake-first-nation-sign-early-exploration-agreement/",
+      "notes": "2026-10-17研究10月16日日报时：官网原始公告公开200；10月16日披露与8月18日实际签署日分别保留，社区协作协议不等于采矿许可。"
     }
   ]
 }
