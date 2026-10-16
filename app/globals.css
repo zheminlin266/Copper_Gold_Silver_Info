@@ -700,7 +700,13 @@ select {
   margin-inline: auto;
   padding: 0 22px 48px;
   display: flex;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  color: var(--text-muted);
+  font-size: 14px;
+  line-height: 22px;
 }
 
 .back-to-top {
