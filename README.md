@@ -4,6 +4,8 @@
 
 生产站点：https://metals.zhemin.ltd
 
+维护：[Zhemin Lin（Zhemin）](https://www.zhemin.ltd/)。个人网站收录基本面研究、文章与其他项目。
+
 ## 功能
 
 - 首页与 `/daily/YYYY-MM-DD` 展示日报；`/archive` 支持日期、关键词和金属检索。

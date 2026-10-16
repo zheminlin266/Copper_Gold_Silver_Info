@@ -32,6 +32,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteHeader />
         {children}
         <footer className="site-footer">
+          <a href="https://www.zhemin.ltd/">维护：Zhemin Lin</a>
           <a className="back-to-top" href="#top">
             返回顶部 <span aria-hidden="true">↑</span>
           </a>
