@@ -1,0 +1,302 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-18",
+  "report_time": "2026-10-19T07:13:41+08:00",
+  "summary": "黄金：钻探与基础设施计划改善中长期资源验证路径，新增供应仍取决于资金、道路和钻探结果。白银：金银伴生项目继续验证矿化，尚无可确认的近期供需方向变化。铜：Centinela劳资协议正式落地，短期供应中断风险缓和，不能据此上调实际产量。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-16T00:00:00+08:00",
+      "end": "2026-10-18T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-18T00:00:00+08:00",
+      "end": "2026-10-18T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-18T00:00:00+08:00",
+      "end": "2026-10-18T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.cruxinvestor.com/posts/golden-pursuit-eyes-access-and-partner-for-staged-200-000-m-gold-drill-programme-at-gordon-lake-gold-district",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-18",
+      "claims": [
+        {
+          "claim": "管理层设想分期约20万米钻探",
+          "evidence": "staged programme of around 200,000 m of drilling.",
+          "source_url": "https://www.cruxinvestor.com/posts/golden-pursuit-eyes-access-and-partner-for-staged-200-000-m-gold-drill-programme-at-gordon-lake-gold-district",
+          "evidence_type": "management_interview_companion_text",
+          "period": "2026年10月访谈中的远期分阶段设想",
+          "unit": "metres",
+          "value": 200000
+        },
+        {
+          "claim": "道路尚未开工且没有确认开工日期",
+          "evidence": "Construction has not yet begun, and no start date has been confirmed.",
+          "source_url": "https://www.cruxinvestor.com/posts/golden-pursuit-eyes-access-and-partner-for-staged-200-000-m-gold-drill-programme-at-gordon-lake-gold-district",
+          "evidence_type": "publisher_interview_companion_text",
+          "period": "2026年10月18日配套文章时点",
+          "unit": "project_status",
+          "value": "construction not started; no confirmed start date"
+        }
+      ],
+      "title": "Golden Pursuit访谈：Gordon Lake设想分阶段20万米钻探，道路与合作融资仍待落实",
+      "source_type": "youtube",
+      "summary": "Golden Pursuit总裁兼CEO Brian McClay在Crux Investor访谈配套文章中表示，公司正为加拿大西北地区Gordon Lake矿区寻找合作方，设想分阶段开展约20万米钻探。目前工作集中于地球物理、取样和历史资料整理；拟建全天候道路尚未开工，也没有确定开工日。文中历史钻孔和矿山资料尚不符合NI 43-101，不能当作已声明资源或经济性结论。",
+      "importance": "基础设施和资金能否衔接，比历史高品位本身更能决定该矿区进入现代资源验证的速度。20万米仍是分期设想，首先应核对正式道路建设安排及有约束力的合作协议，再看现代钻探能否支持合规资源；道路未定期开工，使这条黄金供给路径仍属长期且难以量化的潜力。",
+      "verification_status": "verified",
+      "verification_note": "Crux原始公开全文HTTP200，18日可见日期及Brian McClay身份核验；仅日精度。采用访谈配套正文，不采用AI FAQ、历史孔的经济性宣传或币种不明的成本数字，未声称观看视频。",
+      "guest": {
+        "name": "Brian McClay",
+        "background": "Golden Pursuit Resources总裁兼CEO"
+      },
+      "companies": [
+        "Golden Pursuit Resources"
+      ],
+      "projects": [
+        "Gordon Lake"
+      ]
+    },
+    {
+      "url": "https://www.thestocknetwork.com/videos/49-metals-asx49m-gold-mountain-drilling-fast-tracked-as-adit-zone-set-for-october-expansion/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-16",
+      "claims": [
+        {
+          "claim": "下一轮钻探约3500米",
+          "evidence": "three and a half thousand meters or so.",
+          "source_url": "https://www.thestocknetwork.com/videos/49-metals-asx49m-gold-mountain-drilling-fast-tracked-as-adit-zone-set-for-october-expansion/",
+          "evidence_type": "management_interview_transcript",
+          "period": "2026年10月拟开展程序",
+          "unit": "metres",
+          "value": 3500
+        },
+        {
+          "claim": "化验结果目标为下一年1月",
+          "evidence": "January next year.",
+          "source_url": "https://www.thestocknetwork.com/videos/49-metals-asx49m-gold-mountain-drilling-fast-tracked-as-adit-zone-set-for-october-expansion/",
+          "evidence_type": "management_target",
+          "period": "2027年1月目标",
+          "unit": "timeline",
+          "value": "2027-01"
+        }
+      ],
+      "title": "49 Metals访谈：Gold Mountain拟钻约3,500米，化验以2027年1月为目标",
+      "source_type": "youtube",
+      "summary": "49 Metals董事总经理Phil Carter在The Stock Network访谈中表示，Gold Mountain项目Adit Zone下一轮约3,500米钻探拟于10月推进，沿走向及下倾外扩并加密，重点检验金银矿化系统和高品位构造的连续性。公司预计2027年1月取得化验，再据此安排后续钻探；资源定义仍在评估，访谈未给出确定的资源发布时间或新增资源量。",
+      "importance": "本轮工作的新增价值在于把首轮发现转成可检验的连续性模型，资源定义的基础若改善，才可能扩大远期金银开发规模。2027年1月化验是首先应核对的节点，仍须看真厚度、品位分布及孔间连接能否共同支撑资源估算；约3,500米为计划进尺，不能提前计入可采矿量或年度供给。",
+      "verification_status": "verified",
+      "verification_note": "TSN原始公开完整逐字稿HTTP200，可见16日日期与UTC首发元数据一致，嘉宾Phil Carter核验；Adit区名采用原标题，逐字稿写作added。只用已读文字，不将旧孔见矿区间当真厚度、资源或当日新增产量。",
+      "guest": {
+        "name": "Phil Carter",
+        "background": "49 Metals董事总经理"
+      },
+      "companies": [
+        "49 Metals"
+      ],
+      "projects": [
+        "Gold Mountain",
+        "Adit Zone"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.aol.com/articles/antofagastas-centinela-strike-ends-deal-043748000.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-18T12:37:48+08:00",
+      "claims": [
+        {
+          "claim": "罢工正式结束",
+          "evidence": "ending a strike of more than a week",
+          "source_url": "https://www.aol.com/articles/antofagastas-centinela-strike-ends-deal-043748000.html",
+          "evidence_type": "Reuters_quoting_union_and_company_statements",
+          "period": "2026-10-18",
+          "unit": "agreement_status",
+          "value": "strike ended"
+        },
+        {
+          "claim": "表决支持比例",
+          "evidence": "94.49% of participating workers voted to approve",
+          "source_url": "https://www.aol.com/articles/antofagastas-centinela-strike-ends-deal-043748000.html",
+          "evidence_type": "Reuters_quoting_union_statement",
+          "period": "本次集体合同表决",
+          "unit": "percent",
+          "value": 94.49
+        },
+        {
+          "claim": "公司此前表示维持正常生产",
+          "evidence": "maintain production at normal levels",
+          "source_url": "https://www.aol.com/articles/antofagastas-centinela-strike-ends-deal-043748000.html",
+          "evidence_type": "Reuters_quoting_company_statement",
+          "period": "截至周三公司表态",
+          "unit": "operating_status",
+          "value": "normal production claimed"
+        },
+        {
+          "claim": "公司确认两家工会覆盖709名员工",
+          "evidence": "Ambas organizaciones reúnen a 709 trabajadores",
+          "source_url": "https://www.aminerals.cl/noticias-detalle/2026/10/18/minera-centinela-y-sindicatos-esperanza-y-distrito-centinela-alcanzan-acuerdo-que-pone-fin-a-la-huelga",
+          "evidence_type": "company_announcement",
+          "period": "2026-10-18公告",
+          "unit": "workers",
+          "value": 709
+        },
+        {
+          "claim": "集体协议有效期36个月",
+          "evidence": "con vigencia de 36 meses",
+          "source_url": "https://www.aminerals.cl/noticias-detalle/2026/10/18/minera-centinela-y-sindicatos-esperanza-y-distrito-centinela-alcanzan-acuerdo-que-pone-fin-a-la-huelga",
+          "evidence_type": "company_announcement",
+          "period": "新集体协议",
+          "unit": "months",
+          "value": 36
+        }
+      ],
+      "source": "Reuters（AOL）；Antofagasta Minerals公司公告补充",
+      "title": "Centinela正式结束罢工，709名员工纳入36个月集体协议",
+      "excerpt": "Reuters于北京时间10月18日12:37报道，Centinela两家工会与公司达成集体合同，罢工结束，94.49%的参投员工赞成方案。公司当日原始公告进一步明确，协议覆盖709名员工、占自有员工22%，有效期36个月，并称十天罢工期间维持了连续运营。上述是协议落实与运营表态，报道未给出经独立确认的减产或恢复产量。",
+      "language": "en",
+      "importance": "从前一日报仍待签署推进到公司确认谈判终结，短期铜供应中断风险已有明确缓解。36个月协议改善的是指定员工群体的运行确定性，公司此前称生产正常，因此不应把罢工结束折算为新增铜吨数；后续应以四季度实际产出与装运验证精矿交付的稳定性。",
+      "verification_status": "verified",
+      "verification_note": "AOL公开完整Reuters稿HTTP200，首发04:37:48UTC换算北京时间12:37:48；公司10月18日西语原始公告HTTP200，709人、22%及36个月逐项核对并以SHA256绑定补充引句。Mining同稿在北京19日转载，不以其时间作为本卡首发。",
+      "companies": [
+        "Antofagasta"
+      ],
+      "projects": [
+        "Centinela"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Mining Stock Daily/Clear Commodity、Korelin、Natural Resource Stocks、Resource Talks、Sprott Money、Crux与TSN原始公开目录均HTTP200；按原始时间与前两日报URL去重。",
+      "Crux：Golden Pursuit完整访谈配套正文及18日可见日期核验，只采用正文，不取AI FAQ、历史资源经济性宣传或币种不明的成本。",
+      "TSN：16日newsletter发现49 Metals，进一步核验具体节目完整逐字稿、Phil Carter、3,500米计划与下一年1月化验目标；不是根据newsletter标题补写。",
+      "Resource Talks新Andy Schectman节目虽显示18日，可靠time换算北京19日02:04，超窗；Compass与Maronan、Vantage、East Star、Oreterra等窗口内旧节目去重。",
+      "Crux Compass 17日SSR/Roxmore讨论主要为旧交易估值及潜在并购，不把2033目标或旧公告重复作新供给；Korelin17日周末节目为技术价格和组合讨论。",
+      "种子人物动态日期辅助查询覆盖Rick Rule、David Morgan、Peter Krauth及Sprott节目；AI二手摘要、纯价格目标与无法确认的新观点不收录。",
+      "会议加搜：NEWS.am原始Mining Armenia Forum 17日ZCMC、Hayasa及CRIRSCO发言均公开全文200；行业GDP、改革建议与未指明期间的旧许可案例没有可归因项目新增，保留排除理由。",
+      "已读中国黄金协会现行首页，最新大会信息仍为15日17—19日科技大会预告，没有可核验新回放；LME官网公开日程为19日开始，不把预告当已发生演讲。",
+      "全部事实来自实际可读文字或可靠逐字稿，未声称收听未听音视频；schema、种子CSV、发现来源与会议日历已读取。"
+    ],
+    "part1_result": "三日窗口主要发行方、种子人物及会议检索完整，新增收录2条黄金项目访谈；前两日报窗口内7条旧节目去重。历史资料、管理层目标与已实现供给分开，未从未听视频补写观点。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 24,
+      "accounts_completed": 24,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "固定Python 3.12与项目持久化Playwright会话；账号串行、间隔25—30秒；外层监督明确timeout=3600秒。",
+        "仅一次采集；读取采集器最终结果、sidecar与checkpoint，核对原始TXT SHA256；不使用其他进程的PiChrome授权。",
+        "单页搜索未触顶且非空时仍有既有分页覆盖局限；账号完成不等于存在可收录的供需事实。"
+      ]
+    },
+    "part2_sources_checked": [
+      "@peter_krauth（Peter Krauth）：完成，状态以checkpoint与sidecar为准。",
+      "@duediligenceguy（Lobo Tiggre）：完成，状态以checkpoint与sidecar为准。",
+      "@Junior_Stock（Brian Leni）：完成，状态以checkpoint与sidecar为准。",
+      "@soarfinancial（Kai Hoffmann）：完成，状态以checkpoint与sidecar为准。",
+      "@WalterColesJr（Walter Coles Jr.）：完成，状态以checkpoint与sidecar为准。",
+      "@ivanbebek（Ivan Bebek）：完成，状态以checkpoint与sidecar为准。",
+      "@IvanhoeMines_（Ivanhoe Mines）：完成，状态以checkpoint与sidecar为准。",
+      "@FreeportMcMoRan（Freeport-McMoRan）：完成，状态以checkpoint与sidecar为准。",
+      "@NewmontCorp（Newmont）：完成，状态以checkpoint与sidecar为准。",
+      "@BarrickGold（Barrick Gold）：完成，状态以checkpoint与sidecar为准。",
+      "@TeckResources（Teck Resources）：完成，状态以checkpoint与sidecar为准。",
+      "@AntofagastaPLC（Antofagasta）：完成，状态以checkpoint与sidecar为准。",
+      "@LundinMining（Lundin Mining）：完成，状态以checkpoint与sidecar为准。",
+      "@AgnicoEagle（Agnico Eagle）：完成，状态以checkpoint与sidecar为准。",
+      "@FirstMajestic（First Majestic Silver）：完成，状态以checkpoint与sidecar为准。",
+      "@PanAmericanSlvr（Pan American Silver）：完成，状态以checkpoint与sidecar为准。",
+      "@Wheaton_PM（Wheaton Precious Metals）：完成，状态以checkpoint与sidecar为准。",
+      "@EndeavourMining（Endeavour Mining）：完成，状态以checkpoint与sidecar为准。",
+      "@SSRMining（SSR Mining）：完成，状态以checkpoint与sidecar为准。",
+      "@KinrossGold（Kinross Gold）：完成，状态以checkpoint与sidecar为准。",
+      "@SandstormGold（Sandstorm Gold）：完成，状态以checkpoint与sidecar为准。",
+      "@Fortuna_Silver（Fortuna Mining）：完成，状态以checkpoint与sidecar为准。",
+      "@GoGoldResources（GoGold Resources）：完成，状态以checkpoint与sidecar为准。",
+      "@vizslasilver（Vizsla Silver）：完成，状态以checkpoint与sidecar为准。"
+    ],
+    "part2_result": "X complete：24/24账号完成、失败0，路径playwright。保存0条原作者候选，逐条分析后入选0条；覆盖与内容合格性分别审计。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：固定Python、Playwright隔离headless Chrome分类发现完整，HTTP200，DOM候选7条；候选数包含侧栏旧链接，原始文章日期逐篇另核，不把发现日当首发日。",
+      "Mining.com /commodity/gold/：固定Python、Playwright隔离headless Chrome分类发现完整，HTTP200，DOM候选5条；候选数包含侧栏旧链接，原始文章日期逐篇另核，不把发现日当首发日。",
+      "Mining.com /commodity/silver/：固定Python、Playwright隔离headless Chrome分类发现完整，HTTP200，DOM候选5条；候选数包含侧栏旧链接，原始文章日期逐篇另核，不把发现日当首发日。",
+      "Mining逐篇 https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/：普通HTTP200完整原文及UTC时刻核验；原始发布时间在北京17日，前日报已核验；未明确对应本日金银铜项目增量，不能用侧栏18日刷新旧文。",
+      "Mining逐篇 https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/：普通HTTP200完整原文及UTC时刻核验；北京16日铁矿石成本旧报道，日期和金属均不符合；分类发现文本不是文章首发日期。",
+      "Mining逐篇 https://www.mining.com/web/antofagastas-centinela-strike-ends-after-deal-with-unions/：普通HTTP200完整原文及UTC时刻核验；Mining同稿首发18日18:10UTC，为北京19日；同一当日原始事件采用更早Reuters英文分发及公司公告，去重。",
+      "Mining逐篇 https://www.mining.com/us-project-vault-readies-1b-loan-blitz-for-industry/：普通HTTP200完整原文及UTC时刻核验；北京16日通用融资计划，前日报已处理；没有本日金银铜项目分配或新增交付量。",
+      "Mining逐篇 https://www.mining.com/the-ore-wars-an-interactive-history-2002-2026/：普通HTTP200完整原文及UTC时刻核验；13日铁矿历史专题，日期及金属不符。",
+      "Mining逐篇 https://www.mining.com/canadas-new-foreign-investment-rules-what-critical-minerals-miners-need-to-know/：普通HTTP200完整原文及UTC时刻核验；北京17日法规解读，前日报已核验，含未来预期规则；没有18日具体金银铜项目的新执行变化。",
+      "Mining逐篇 https://www.mining.com/web/major-development-banks-step-up-support-for-critical-minerals-value-chains/：普通HTTP200完整原文及UTC时刻核验；Mining首发18日18:19UTC，为北京19日；内容为跨矿种合作框架，没有明确本日金银铜项目数量或投产节点。",
+      "Mining逐篇 https://www.mining.com/minings-future-hinges-on-global-cooperation-report/：普通HTTP200完整原文及UTC时刻核验；原始首发18日17:31UTC，为北京19日；2050情景不是本日已实现供需增量，不提前收录。",
+      "普通Web工具读取Mining金/银分类均403后，Playwright完整完成；site:mining.com gold/silver October 18 2026辅助查询有效当期文章命中各0（仅旧分类结果），未代替铜分类，未使用RSS、sitemap或Wayback。",
+      "三分类5/5/7个候选链接合并8个独立URL，全部普通HTTP200逐篇核验；侧栏旧文和北京19日文章均据实际首发排除。",
+      "Centinela：AOL完整Reuters英文分发HTTP200，18日04:37:48UTC入北京18日；公司具体18日西语原始公告HTTP200，709人/22%/36个月及连续运营核对，以本地SHA256捕获绑定，较17日报待签署状态有新增落实。",
+      "StreetInsider普通读取403，停止该路径，改用公开AOL全文与公司原始公告；不把搜索摘要当核验正文，不复用其他进程的PiChrome权限。",
+      "中英文金银铜供需、矿山执行、实物需求及库存检索完整。SMM贵金属公开页面的IGST与硝酸银线索实际为10日和9月旧信息，不能用页面抓取日刷新。",
+      "SMM哈萨克斯坦产量18日转载明确指向周五公布统计；Mysteel铜箔线索实际12日，印度实物金升水Reuters原文16日已入日报，均不因新转载或索引日重收。",
+      "中财18日研报汇总、每日经济新闻18日期货周评均已读全文，核心为价格、宏观和旧周度信息，无独立新增实物供需事实；不采用无来源归属的数字。",
+      "MiningIR与Extractor当前公开目录无18日合格新增金银铜具体新闻；Mexico周报18日16:20UTC为北京19日，且底层旧公告不刷新日期。",
+      "未访问MacroMicro外站、未修改网络/TLS、未使用隐藏门禁正文；所有Web搜索与公开全文保存于ignored .runtime/research/2026-10-18。"
+    ],
+    "part3_result": "中英文检索及Mining铜/金/银强制分类发现完整结束。8个Mining独立URL逐篇核验，按原始时刻排除旧文和跨日转载；收录Centinela正式结束罢工1条，以更早Reuters稿与公司原始公告合并呈现。",
+    "mining_com_source_note": "Playwright分类HTTP200，铜7/金5/银5条DOM候选、8个独立URL，全部普通HTTP200阅读全文。原始UTC时刻优先；同日Centinela事实采用更早AOL Reuters与官方公告，Mining在北京19日转载不重计。",
+    "new_sources_discovered": [
+      "Brian McClay（Golden Pursuit Resources）",
+      "Phil Carter（49 Metals）"
+    ],
+    "url_verification": {
+      "checked": 4,
+      "passed": 4,
+      "failed": 0,
+      "failures": [],
+      "notes": "最终2条访谈、1条新闻及1个独立官方补充证据URL，均公开全文HTTP200。逐字引句与同URL捕获绑定；Golden Pursuit只用日精度，49 Metals按16日原日期，Centinela按更早英文首发及西语公司原文核验。不把发现阶段403、旧链接或未听节目算作入选核验通过。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/six-projects-one-country-eastport-critical-metals-botswana-strategy",
+      "https://www.kereport.com/2026/10/16/firefox-gold-expanding-the-high-grade-footprint-at-the-newly-discovered-lammas-zone/",
+      "https://www.thestocknetwork.com/videos/maronan-metals-asxmma-shaping-queenslands-next-major-underground-mine/",
+      "https://www.thestocknetwork.com/videos/vantage-metals-asxvan-drilling-underway-as-copper-exploration-accelerates/",
+      "https://www.cruxinvestor.com/posts/east-star-resources-partner-funded-copper-and-gold-path-in-kazakhstan",
+      "https://clearcommodity.net/playlists/resource-talks/targeting-first-gold-in-mali-soon-but-will-permitting-cooperate-compass-gold-ceo-interview",
+      "https://naturalresourcestocks.net/oreterra-metals-corp-visible-copper-at-trek-south-what-will-the-assays-show/"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Centinela18日正式终结与17日待签署进展区分；公司原始公告、Reuters分发和Mining后发稿合并一事件，不将表决与合同再重复计数。",
+      "印度实物金升水16日Reuters已入日报，18日Business Recorder再发不重收；哈萨克斯坦周五统计、12日铜箔信息不刷新。",
+      "Project Vault、加拿大外资制度、格陵兰海底采矿等侧栏旧文章按原始日期排除；铁矿专题及成本与三金属无关。",
+      "SSR/Roxmore旧交易及资源/2033目标不因17日估值访谈再生成供给信号；Mexico周报原有生产、复产和融资不重收。"
+    ],
+    "notes": "冻结RUN_DATE=2026-10-19、REPORT_DATE=2026-10-18，Asia/Shanghai；访谈16—18日，X/新闻仅18日，跨午夜不重算。周一不更新TC。用户调度脚本、工作流和历史X材料均按字节保留并排除；本次只经report_builder写入成品。父包装持锁并负责最终发布验收，不递归调用wrapper或另启AI runner。"
+  }
+}

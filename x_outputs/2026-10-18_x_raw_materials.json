@@ -1,0 +1,25 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-18",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "8edb0c7d17bac80789db96fd9670de28ab865b5a361e8395b4742c6ea1af92ae"
+  }
+}

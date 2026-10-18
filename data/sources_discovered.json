@@ -1065,6 +1065,20 @@
       "category": "中文行业媒体/现场采访",
       "channel": "https://finance.sina.com.cn/money/nmetal/2026-10-17/doc-inivpwvz7100689.shtml",
       "notes": "2026-10-18补跑10月17日日报时核验：新浪明确署名的公开转载；矿山技术案例、历史资源和全年产量预计分开，不用预计替代实产。"
+    },
+    {
+      "source_id": "source-brian-mcclay-golden-pursuit",
+      "display_name": "Brian McClay（Golden Pursuit Resources）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/golden-pursuit-eyes-access-and-partner-for-staged-200-000-m-gold-drill-programme-at-gordon-lake-gold-district",
+      "notes": "2026-10-19研究10月18日日报时核验：Crux原始公开正文200与18日日精度核验；分期20万米设想、道路尚未开工与历史资料不合规分别保留，排除AI FAQ及经济性宣传。"
+    },
+    {
+      "source_id": "source-phil-carter-49-metals",
+      "display_name": "Phil Carter（49 Metals）",
+      "category": "矿业管理层/原始逐字稿",
+      "channel": "https://www.thestocknetwork.com/videos/49-metals-asx49m-gold-mountain-drilling-fast-tracked-as-adit-zone-set-for-october-expansion/",
+      "notes": "2026-10-19研究10月18日日报时核验：TSN原始公开完整逐字稿200及16日首发核验；3500米计划、2027年1月化验目标和待评估资源时间分开，不把旧孔当新资源。"
     }
   ]
 }
