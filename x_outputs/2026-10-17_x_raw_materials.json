@@ -1,0 +1,50 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-17",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-fe9cda4a93860599fee216a9",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-16T17:11:02+00:00",
+      "text": "Three years ago, silver CEOs told me they just needed $30 silver.\n\nToday, silver is around $60, while the top 10 primary producers averaged just $12.21 in all-in sustaining costs in 2025.\n\nThe margins are tremendous.\n\nI break down why on \n@InvestorTV\n. Watch the full panel:",
+      "url": "https://x.com/peter_krauth/status/2111142888272965950",
+      "collector": "x_search",
+      "report_date": "2026-10-17",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-164b97c2ec75c17281cc89b3",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-16T16:55:30+00:00",
+      "text": "Silver’s volatility hasn’t shaken my conviction in the miners.\n\nThis week’s Silver Scoop has compelling charts on positioning and silver stocks versus the metal—plus five company updates.\n\nSubscribe free:\n\nhttps://\nthegoldadvisor.com/subscribe/\n\n@TedJButler\n's write up here:",
+      "url": "https://x.com/peter_krauth/status/2111138981668860367",
+      "collector": "x_search",
+      "report_date": "2026-10-17",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "56d2e026e8f2a687b2f318e772eeb2a3c9a15c390c7e01e9920a5c4ae6d5bbe5"
+  }
+}

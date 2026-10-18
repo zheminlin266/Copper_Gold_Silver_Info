@@ -1023,6 +1023,48 @@
       "category": "矿业公司官方新闻",
       "channel": "https://drydengold.com/dryden-gold-and-eagle-lake-first-nation-sign-early-exploration-agreement/",
       "notes": "2026-10-17研究10月16日日报时：官网原始公告公开200；10月16日披露与8月18日实际签署日分别保留，社区协作协议不等于采矿许可。"
+    },
+    {
+      "source_id": "source-dean-fredericksen-maronan",
+      "display_name": "Dean Fredericksen（Maronan Metals）",
+      "category": "矿业管理层/原始访谈",
+      "channel": "https://www.thestocknetwork.com/videos/maronan-metals-asxmma-shaping-queenslands-next-major-underground-mine/",
+      "notes": "2026-10-18补跑10月17日日报时核验：完整公开逐字稿，4万米钻探及FY27下半年资源/PFS目标；保留主持人与管理层数字差异，不把概略研究当投产。"
+    },
+    {
+      "source_id": "source-will-dix-vantage",
+      "display_name": "Will Dix（Vantage Metals）",
+      "category": "矿业管理层/原始访谈",
+      "channel": "https://www.thestocknetwork.com/videos/vantage-metals-asxvan-drilling-underway-as-copper-exploration-accelerates/",
+      "notes": "2026-10-18补跑10月17日日报时核验：完整公开逐字稿，Kalahari地层定位与TMT天气约束；邻矿产量不归为本公司产量。"
+    },
+    {
+      "source_id": "source-alex-walker-east-star",
+      "display_name": "Alex Walker（East Star Resources）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/east-star-resources-partner-funded-copper-and-gold-path-in-kazakhstan",
+      "notes": "2026-10-18补跑10月17日日报时核验：公开访谈配套正文，Verkhuba资源升级/许可和Rulikha历史数据验证；排除估值宣传与AI FAQ。"
+    },
+    {
+      "source_id": "source-kevin-keough-oreterra",
+      "display_name": "Kevin M. Keough（Oreterra Metals）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://naturalresourcestocks.net/oreterra-metals-corp-visible-copper-at-trek-south-what-will-the-assays-show/",
+      "notes": "2026-10-18补跑10月17日日报时核验：公开发行方配套文字，Trek South首轮13孔约4500米；明确待化验，未把可见矿化等同经济发现。"
+    },
+    {
+      "source_id": "source-bloomberg-linea",
+      "display_name": "Bloomberg Línea",
+      "category": "国际财经媒体/西语原文",
+      "channel": "https://www.bloomberglinea.com/latinoamerica/chile/los-trabajadores-de-antofagasta-pondran-fin-a-la-huelga-lo-que-aliviara-las-tensiones-en-torno-al-cobre-en-chile/",
+      "notes": "2026-10-18补跑10月17日日报时核验：公开记者原文与UTC首发时间核验；Centinela成员批准与协议待签署条件分别保留，补充Reuters同日初步协议。"
+    },
+    {
+      "source_id": "source-china-nonferrous-metals-news",
+      "display_name": "中国有色金属报",
+      "category": "中文行业媒体/现场采访",
+      "channel": "https://finance.sina.com.cn/money/nmetal/2026-10-17/doc-inivpwvz7100689.shtml",
+      "notes": "2026-10-18补跑10月17日日报时核验：新浪明确署名的公开转载；矿山技术案例、历史资源和全年产量预计分开，不用预计替代实产。"
     }
   ]
 }

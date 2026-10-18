@@ -1,0 +1,49 @@
+X 原始候选 — 2026-10-17
+采集时间: 2026-10-18T08:55:16.390402+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-16T17:11:02+00:00
+    北京: 2026-10-17T01:11:02+08:00
+    文本: Three years ago, silver CEOs told me they just needed $30 silver.
+
+Today, silver is around $60, while the top 10 primary producers averaged just $12.21 in all-in sustaining costs in 2025.
+
+The margins are tremendous.
+
+I break down why on 
+@InvestorTV
+. Watch the full panel:
+    链接: https://x.com/peter_krauth/status/2111142888272965950
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-16T16:55:30+00:00
+    北京: 2026-10-17T00:55:30+08:00
+    文本: Silver’s volatility hasn’t shaken my conviction in the miners.
+
+This week’s Silver Scoop has compelling charts on positioning and silver stocks versus the metal—plus five company updates.
+
+Subscribe free:
+
+https://
+thegoldadvisor.com/subscribe/
+
+@TedJButler
+'s write up here:
+    链接: https://x.com/peter_krauth/status/2111138981668860367
+

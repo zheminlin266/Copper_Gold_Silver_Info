@@ -1,0 +1,438 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-17",
+  "report_time": "2026-10-18T09:07:56+08:00",
+  "summary": "黄金：金铜勘探与合作方出资为远期资源开发创造条件，实际增量仍待化验、冶金及许可。白银：Maronan加密钻探推动资源可信度提升，早期项目尚未形成可确认新增产量。铜：Centinela工会批准新方案缓和短期停工风险；巨龙选冶技术与二期爬坡支持供给潜力，钻探靶区、全年预计和实际产出仍须区分。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-15T00:00:00+08:00",
+      "end": "2026-10-17T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-17T00:00:00+08:00",
+      "end": "2026-10-17T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-17T00:00:00+08:00",
+      "end": "2026-10-17T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.thestocknetwork.com/videos/maronan-metals-asxmma-shaping-queenslands-next-major-underground-mine/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-16",
+      "claims": [
+        {
+          "claim": "管理层明确钻探计划为4万米",
+          "evidence": "This drill program, 40,000 metres",
+          "source_url": "https://www.thestocknetwork.com/videos/maronan-metals-asxmma-shaping-queenslands-next-major-underground-mine/",
+          "evidence_type": "management_interview_transcript",
+          "period": "当前钻探计划",
+          "unit": "metres",
+          "value": 40000
+        },
+        {
+          "claim": "资源更新与预可研目标为FY27下半年",
+          "evidence": "our key milestones will be an updated mineral resource and pre-feasibility study in H2 FY27.",
+          "source_url": "https://www.thestocknetwork.com/videos/maronan-metals-asxmma-shaping-queenslands-next-major-underground-mine/",
+          "evidence_type": "management_target",
+          "period": "H2 FY27",
+          "unit": "milestone",
+          "value": "updated mineral resource and PFS"
+        }
+      ],
+      "title": "Maronan访谈：4万米加密钻探推动资源升级，预可研以FY27下半年为目标",
+      "source_type": "youtube",
+      "summary": "Maronan项目主管Dean Fredericksen在The Stock Network访谈中表示，4万米钻探计划用于填补原概略研究未覆盖区域，将推断资源升级为指示资源，并扩大下一阶段研究基础。管理层把更新矿产资源与预可行性研究（PFS）列为FY27下半年里程碑，同时正与昆士兰州政府接洽采矿许可程序；州级重要项目认定仍是公司期望。",
+      "importance": "加密钻探把项目推进重点落在资源可信度和矿山方案，改善的是中长期白银开发的可评估性。FY27下半年的资源与PFS节点若兑现，才能进一步判断可采规模、建设成本和许可路径；现阶段不宜把勘探米数或概略研究外延直接折算为新增年产银量。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Dean Fredericksen",
+        "background": "Maronan Metals项目主管"
+      },
+      "companies": [
+        "Maronan Metals"
+      ],
+      "projects": [
+        "Maronan"
+      ]
+    },
+    {
+      "url": "https://www.thestocknetwork.com/videos/vantage-metals-asxvan-drilling-underway-as-copper-exploration-accelerates/",
+      "metal_tags": [
+        "copper",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-16",
+      "claims": [
+        {
+          "claim": "计划持续钻探至圣诞节",
+          "evidence": "We’re going to be drilling there up till Christmas.",
+          "source_url": "https://www.thestocknetwork.com/videos/vantage-metals-asxvan-drilling-underway-as-copper-exploration-accelerates/",
+          "evidence_type": "management_interview_transcript",
+          "period": "2026年圣诞节前",
+          "unit": "timeline",
+          "value": "Christmas"
+        },
+        {
+          "claim": "初步地质剖面范围约5公里",
+          "evidence": "a cross-sectional area of about five kilometres",
+          "source_url": "https://www.thestocknetwork.com/videos/vantage-metals-asxvan-drilling-underway-as-copper-exploration-accelerates/",
+          "evidence_type": "management_interview_transcript",
+          "period": "当前首轮钻探",
+          "unit": "kilometres",
+          "value": 5
+        }
+      ],
+      "title": "Vantage访谈：Kalahari钻探拟持续至圣诞节，先定位含铜地层接触带",
+      "source_type": "youtube",
+      "summary": "Vantage Metals CEO Will Dix称，公司在博茨瓦纳Kalahari项目已钻探约三至四周，首轮钻孔以约5公里剖面定位可能赋存铜矿化的地层接触带，再沿走向追索，计划持续钻探至圣诞节。阿根廷TMT项目则在整理既有银、铜、锌矿化钻孔的复杂构造，严重冬季天气可能延迟重新进场；访谈未给出新的合规资源量。",
+      "importance": "先找到正确赋矿层位，才有条件把地球物理异常转化为后续铜资源钻探目标，约5公里的剖面范围并不等于矿体规模。圣诞节前的连续钻探可检验靶区延伸，但仍需化验和空间连续性证据；TMT的复工时间还受到天气与构造解释约束，短期供应增量尚不可量化。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Will Dix",
+        "background": "Vantage Metals CEO"
+      },
+      "companies": [
+        "Vantage Metals"
+      ],
+      "projects": [
+        "Kalahari Copper",
+        "TMT"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/east-star-resources-partner-funded-copper-and-gold-path-in-kazakhstan",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-16",
+      "claims": [
+        {
+          "claim": "Verkhuba资源钻探接近5,000米",
+          "evidence": "resource drilling at the Verkhuba deposit is approaching 5,000 metres.",
+          "source_url": "https://www.cruxinvestor.com/posts/east-star-resources-partner-funded-copper-and-gold-path-in-kazakhstan",
+          "evidence_type": "management_interview_companion_text",
+          "period": "2026年10月访谈",
+          "unit": "metres",
+          "value": 5000
+        },
+        {
+          "claim": "Rulikha于2026年10月5日开始钻探",
+          "evidence": "Drilling began at the Rulikha copper project on 5 October 2026",
+          "source_url": "https://www.cruxinvestor.com/posts/east-star-resources-partner-funded-copper-and-gold-path-in-kazakhstan",
+          "evidence_type": "management_interview_companion_text",
+          "period": "2026-10-05",
+          "unit": "date",
+          "value": "2026-10-05"
+        }
+      ],
+      "title": "East Star访谈：Verkhuba钻探接近5,000米，Rulikha先验证历史铜矿资料",
+      "source_type": "youtube",
+      "summary": "East Star CEO Alex Walker在Crux Investor访谈配套文字中介绍，哈萨克斯坦Verkhuba资源钻探接近5,000米，将支持资源模型、矿山方案和采矿许可申请，2027年取得许可仍是管理层目标。Rulikha于10月5日启动验证历史资料的钻探，正式合资协议尚未敲定；与Endeavour的黄金合资项目仍需先获勘探牌照，计划2027年开展钻探。",
+      "importance": "由合作方出资推进，能缓解早期项目从勘探走向开发的资金约束，但供给兑现仍由技术验证、许可及合作方建矿决定共同控制。2027年能否进入建设，应先看Verkhuba的新冶金结果与申请进度，不能沿用约1990年的回收数据直接预测现代选厂产量；Rulikha尚处历史数据复核阶段。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Alex Walker",
+        "background": "East Star Resources CEO"
+      },
+      "companies": [
+        "East Star Resources"
+      ],
+      "projects": [
+        "Verkhuba",
+        "Rulikha",
+        "Endeavour Kazakhstan gold JV"
+      ]
+    },
+    {
+      "url": "https://clearcommodity.net/playlists/resource-talks/targeting-first-gold-in-mali-soon-but-will-permitting-cooperate-compass-gold-ceo-interview",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-16",
+      "title": "Compass Gold访谈：马里黄金项目首产目标与许可进度",
+      "source_type": "youtube",
+      "summary": "Compass Gold访谈：马里黄金项目首产目标与许可进度",
+      "verification_status": "unverified",
+      "verification_note": "已打开Resource Talks发行页并核对10月16日日期、标题及CEO Larry Phillips身份；可读内容只有章节目录和赞助披露，未听取音频或取得可靠文字稿，因此不提供首产、许可或产能事实及研究判断。",
+      "guest": {
+        "name": "Larry Phillips",
+        "background": "Compass Gold CEO"
+      },
+      "companies": [
+        "Compass Gold"
+      ]
+    },
+    {
+      "url": "https://naturalresourcestocks.net/oreterra-metals-corp-visible-copper-at-trek-south-what-will-the-assays-show/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-17",
+      "claims": [
+        {
+          "claim": "首轮完成13孔、约4,500米",
+          "evidence": "Phase 1 drilling comprised 13 holes totaling about 4,500 metres.",
+          "source_url": "https://naturalresourcestocks.net/oreterra-metals-corp-visible-copper-at-trek-south-what-will-the-assays-show/",
+          "evidence_type": "publisher_interview_companion_text",
+          "period": "Trek South Phase 1",
+          "unit": "holes / metres",
+          "value": "13 / approximately 4500"
+        },
+        {
+          "claim": "化验待返回且尚无经济发现",
+          "evidence": "assays were pending and no economic discovery had been established.",
+          "source_url": "https://naturalresourcestocks.net/oreterra-metals-corp-visible-copper-at-trek-south-what-will-the-assays-show/",
+          "evidence_type": "publisher_interview_companion_text",
+          "period": "2026年10月访谈发布时",
+          "unit": "project_status",
+          "value": "assays pending"
+        }
+      ],
+      "title": "Oreterra访谈：Trek South首轮13孔约4,500米，仍待化验检验铜金靶区",
+      "source_type": "youtube",
+      "summary": "Natural Resource Stocks的Oreterra访谈配套文字称，Trek South首轮钻探完成13孔、合计约4,500米，观察到广泛斑岩蚀变和可见铜矿物。CEO Kevin M. Keough强调化验仍待返回，尚未建立经济发现；公司策略是寻找、界定并可能出售矿产资产，而非自行运营矿山。",
+      "importance": "首轮钻孔将冰川退缩暴露的铜金靶区推进到可由化验检验的阶段，新增价值在于验证矿化品位和连续性的机会。约4,500米进尺与肉眼矿化尚不能支撑资源或投产预测，后续应以完整化验、孔位关系及冶金资料判断能否进入资源定义，邻近大型矿床也不能替代本项目证据。",
+      "verification_status": "verified",
+      "guest": {
+        "name": "Kevin M. Keough",
+        "background": "Oreterra Metals CEO兼董事"
+      },
+      "companies": [
+        "Oreterra Metals"
+      ],
+      "projects": [
+        "Trek South"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.aol.com/articles/striking-unions-antofagastas-centinela-copper-024237000.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-17T10:42:37+08:00",
+      "claims": [
+        {
+          "claim": "初步协议在17日上午公开，等待工会表决",
+          "evidence": "reached a preliminary agreement on a new collective contract",
+          "source_url": "https://www.aol.com/articles/striking-unions-antofagastas-centinela-copper-024237000.html",
+          "evidence_type": "Reuters_quoting_union_statement",
+          "period": "2026-10-17上午（北京时间）",
+          "unit": "agreement_status",
+          "value": "preliminary agreement"
+        },
+        {
+          "claim": "两工会成员批准最新方案",
+          "evidence": "aprobaron la última propuesta de Antofagasta",
+          "source_url": "https://www.bloomberglinea.com/latinoamerica/chile/los-trabajadores-de-antofagasta-pondran-fin-a-la-huelga-lo-que-aliviara-las-tensiones-en-torno-al-cobre-en-chile/",
+          "evidence_type": "secondary_media_quoting_union_official",
+          "period": "2026-10-17",
+          "unit": "agreement_status",
+          "value": "approved"
+        },
+        {
+          "claim": "协议签署后罢工结束",
+          "evidence": "Una vez firmados los convenios, la huelga daría por concluida.",
+          "source_url": "https://www.bloomberglinea.com/latinoamerica/chile/los-trabajadores-de-antofagasta-pondran-fin-a-la-huelga-lo-que-aliviara-las-tensiones-en-torno-al-cobre-en-chile/",
+          "evidence_type": "secondary_media_quoting_union_official",
+          "period": "2026-10-17",
+          "unit": "condition",
+          "value": "agreements must be signed"
+        },
+        {
+          "claim": "两工会约700名工人",
+          "evidence": "representan a unos 700 trabajadores",
+          "source_url": "https://www.bloomberglinea.com/latinoamerica/chile/los-trabajadores-de-antofagasta-pondran-fin-a-la-huelga-lo-que-aliviara-las-tensiones-en-torno-al-cobre-en-chile/",
+          "evidence_type": "secondary_media_reporting",
+          "period": "本次Centinela罢工",
+          "unit": "workers",
+          "value": 700
+        }
+      ],
+      "source": "Reuters（AOL）；Bloomberg Línea补充",
+      "title": "Centinela两工会通过薪资方案，合同签署后结束罢工",
+      "excerpt": "Reuters于北京时间10月17日10:42报道，Centinela两家罢工工会达成初步集体合同协议，等待成员表决。同日晚23:55发布的Bloomberg Línea后续报道引述工会负责人称，成员已批准最新方案，协议签署后罢工才告结束；两工会合计约700名工人，自10月7日起罢工。",
+      "language": "en",
+      "importance": "从此前调解未有突破推进到成员批准，明显缓和这座铜矿近期劳资中断风险，约700人的协议范围也比泛称全矿复工更明确。公司此前称维持正常生产，因此主要变化是降低后续供应受损概率，不能直接折算新增铜吨数；仍应核对合同签署和后续运营，其他智利矿山的安全与产能约束并未同时解除。",
+      "verification_status": "verified",
+      "verification_note": "Reuters英文公开原稿与Bloomberg Línea西语公开后续报道交叉核对；同一事件合并，分别保留首发时间、当晚表决进展和合同待签署条件，未把批准方案写成已经全面复工。"
+    },
+    {
+      "url": "https://finance.sina.com.cn/money/nmetal/2026-10-17/doc-inivpwvz7100689.shtml",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-17T20:56:24+08:00",
+      "claims": [
+        {
+          "claim": "报道的铜回收率为85%",
+          "evidence": "铜、钼回收率分别达85%、74%",
+          "source_url": "https://finance.sina.com.cn/money/nmetal/2026-10-17/doc-inivpwvz7100689.shtml",
+          "evidence_type": "industry_media_site_reporting",
+          "period": "报道中的巨龙铜矿技术应用案例",
+          "unit": "percent",
+          "value": 85
+        },
+        {
+          "claim": "报道的2026年矿产铜预计为30万至35万吨",
+          "evidence": "2026年矿产铜产量将达30 万吨 ~35万吨",
+          "source_url": "https://finance.sina.com.cn/money/nmetal/2026-10-17/doc-inivpwvz7100689.shtml",
+          "evidence_type": "industry_media_forecast",
+          "period": "2026年全年",
+          "unit": "tonnes",
+          "value": "300000–350000"
+        }
+      ],
+      "source": "中国有色金属报（新浪财经转载）",
+      "title": "紫金科技大会报道披露巨龙选冶应用，全年铜产量预计30万—35万吨",
+      "excerpt": "中国有色金属报10月17日围绕紫金科技大会及矿区采访报道，巨龙铜矿铜回收率约85%，入选矿石铜品位由0.4%拓展至0.17%；报道预计二期建成投产后2026年矿产铜产量为30万—35万吨。上述为技术应用案例与全年预计，文中没有给出截至目前实际产量或该目标较前期的上调幅度，历史新增资源量亦不当作本日新增产量。",
+      "language": "zh",
+      "importance": "低品位矿的有效回收可扩大既有资源的可利用范围，是供给增长区别于单纯增添资源吨数的执行环节。30万—35万吨仍需处理量、入选品位与稳态回收共同兑现，不能由单一85%回收率直接推导；后续应对照季度实产与二期爬坡，判断技术边界拓展能否转化为持续铜金属产出。",
+      "verification_status": "verified",
+      "verification_note": "已读行业报记者公开报道，属于二手现场采访证据；未将历史资源总量、2024年勘查增量或2026全年预计改写为10月17日新确认产量。"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The Stock Network：两篇10月16日原始完整逐字稿公开HTTP200，分别核对Maronan项目主管Dean Fredericksen与Vantage CEO Will Dix；日期使用原文，不采用主持人口误或邻矿产量替代本公司数据。",
+      "Crux Investor：East Star完整访谈配套文章HTTP200，核对Alex Walker、Verkhuba钻探及许可、Rulikha历史数据验证与未完成JV；不使用页面AI FAQ、估值宣传或推荐文章作为原始事实。",
+      "Natural Resource Stocks：当前Company Videos目录HTTP200，复用已保存Oreterra原始公开配套文字；文章2026-10-16T20:12:44Z换算北京17日04:12，13孔4500米与待化验均来自已读文字，未听视频不补写。",
+      "Resource Talks：当前目录及Compass CEO Larry Phillips具体节目页HTTP200，日期16日；页内只有章节和赞助披露，没有可靠文字稿，仅保留未核验标题来源卡，不从章节问题推断许可或投产事实。",
+      "Mining Stock Daily/Clear Commodity、Korelin、Sprott Money原始目录均HTTP200；Eastport、Firefox、Sonoro等已在前两日报收录，Major Drilling缺金属分项，Korelin17日节目为技术价格与组合评论，未重复入选。",
+      "种子人物动态日期辅助搜索覆盖Rick Rule、David Morgan、Peter Krauth、Eric Sprott；Morgan17日说明以价格、利率与AI债务为主，Rule二手AI总结不作证据，未取得正文的观点未改写为供需事实。",
+      "会议窗口补查：中国黄金协会原始10月17—19日科技大会安排及17日行业报现场稿，技术案例归入新闻；LME Week在19日开始，未把会议预告当已发生发言或回放。",
+      "已加载schema、种子CSV、发现来源和会议日历，按2026-10-15及16日URL与实质内容去重；旧资料只用于去重或复用已核验capture。"
+    ],
+    "part1_result": "三日窗口发行方、种子人物与会议检索完成，收录5条访谈，其中Compass仅标题来源、未核验正文；已收录访谈、旧节目和纯价格观点排除，未根据未听视频补写事实。",
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "@peter_krauth（Peter Krauth）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@duediligenceguy（Lobo Tiggre）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@Junior_Stock（Brian Leni）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@soarfinancial（Kai Hoffmann）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@WalterColesJr（Walter Coles Jr.）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@ivanbebek（Ivan Bebek）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@IvanhoeMines_（Ivanhoe Mines）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@FreeportMcMoRan（Freeport-McMoRan）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@NewmontCorp（Newmont）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@BarrickGold（Barrick Gold）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@TeckResources（Teck Resources）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@AntofagastaPLC（Antofagasta）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@LundinMining（Lundin Mining）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@AgnicoEagle（Agnico Eagle）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@FirstMajestic（First Majestic Silver）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@PanAmericanSlvr（Pan American Silver）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@Wheaton_PM（Wheaton Precious Metals）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@EndeavourMining（Endeavour Mining）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@SSRMining（SSR Mining）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@KinrossGold（Kinross Gold）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@SandstormGold（Sandstorm Gold）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@Fortuna_Silver（Fortuna Mining）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@GoGoldResources（GoGold Resources）：以checkpoint的完成/失败状态及原始材料记录为准。",
+      "@vizslasilver（Vizsla Silver）：以checkpoint的完成/失败状态及原始材料记录为准。"
+    ],
+    "part2_result": "X complete：24/24账号完成，失败0；保存2条原作者候选，入选0条；所有候选逐条核对新增供需事实，不从未听视频或图表标题推造数字。",
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 24,
+      "accounts_completed": 24,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": [
+        "当前仓库固定Python与Playwright持久化会话，串行账号间保留25—30秒间隔；完整采集链硬期限3600秒。",
+        "仅执行这一次X采集，原始TXT/sidecar/checkpoint与最终进程状态核对，未删除旧材料或重试安全停止。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/：固定Python与Playwright分类发现完整，HTTP200；原站17日日期条目0条，成功空结果，三分类清单/result/进程终态已保存。",
+      "Mining.com /commodity/gold/：固定Python与Playwright分类发现完整，HTTP200；原站17日日期条目0条，成功空结果，三分类清单/result/进程终态已保存。",
+      "Mining.com /commodity/silver/：固定Python与Playwright分类发现完整，HTTP200；原站17日日期条目0条，成功空结果，三分类清单/result/进程终态已保存。",
+      "另以普通Web工具尝试gold/silver分类页，并执行site:mining.com gold/silver October 17 2026辅助查询，当期具体文章有效命中0；铜分类仍以Playwright完整结果为准，未用RSS、sitemap或Wayback。",
+      "为避免只看原站日期漏掉北京时间跨日内容，复核前次保留的六篇Mining公开原文capture及原始发布时间，逐条记录如下。",
+      "Reuters原站401、StreetInsider403后，采用AOL公开完整英文分发稿与JSON-LD首发时间：17日02:42:37UTC；Bloomberg Línea公开西语后续全文200、datePublished为17日15:55:14Z，均换算落在北京17日。",
+      "Centinela同日初步协议与成员批准合并为一条；保留约700人范围和合同待签署条件，不把表决通过推断为全矿新增产量或已恢复全部生产。西语后续capture单独SHA256绑定来源URL和引句。",
+      "中国有色金属报经新浪公开转载全文HTTP200，页面显示17日20:56，bytedance首发元数据20:56:24；只采用巨龙技术应用与明确2026预计，未以历史资源总量或2024勘查增量制造本日新产量。",
+      "中英文金银铜矿山、实物需求、库存及晚间发行人公告检索已完成；Sierra Madre17日价格文章实为旧复产/财务/扩建回顾，白银光伏与库存论坛转述没有可追溯当日原始新增，均未收录。",
+      "黄金ETF线索只有第三方日历结果，未能与同期可读原始ETF文件绑定，本次不以搜索摘要写入持仓数字。",
+      "按用户要求跳过MacroMicro外站验证；未改网络、TLS、Chrome profile或网站访问限制；未将登录墙后的隐藏数据、AI摘要或capture time当发布日期和证据。",
+      "Mining逐篇 https://www.mining.com/canadas-new-foreign-investment-rules-what-critical-minerals-miners-need-to-know/：复用原有公开HTTP200全文capture；新外资制度解读回溯2024年法律并讨论2027年预期规则，未核对到本日具体金银铜项目执行变化；不把预期规章当已生效减产。",
+      "Mining逐篇 https://www.mining.com/web/peru-indigenous-group-bids-for-part-of-china-owned-copper-mine/：复用原有公开HTTP200全文capture；公开更早的Bloomberg链接页证实北京16日已经传播，同一社区提案未有本日落实进展；Mining后发日不替代原始事件日。",
+      "Mining逐篇 https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/：复用原有公开HTTP200全文capture；海底采矿禁令报道未指明当日受影响的金银铜项目、产量或已批准开发计划，无法量化或归因本日三金属供给变化。",
+      "Mining逐篇 https://www.mining.com/web/metals-rebound-as-sentiment-improves-after-volatile-week/：复用原有公开HTTP200全文capture；核心为价格与市场情绪，未提供窗口内独立新增金银铜实物供需事实。",
+      "Mining逐篇 https://www.mining.com/web/congo-arrests-hundreds-of-chinese-miners-in-copper-heartland/：复用原有公开HTTP200全文capture；报道匿名指控及此前拘留，未确认矿山停产或可归因铜金属损失，不以执法人数推造减产。",
+      "Mining逐篇 https://www.mining.com/web/antofagasta-nets-its-highest-ever-copper-treatment-charges-in-auction-sources-say/：复用原有公开HTTP200全文capture；已发现16日更早Reuters分发与同期评述；无法确认该拍卖事实首次在北京17日公开，保守排除，不用Mining17日转载时间刷新旧事件。"
+    ],
+    "part3_result": "中英文与Mining强制分类发现完整完成；原站17日条目为0，已补查跨时区原文并排除更早传播事件、旧计划和价格复述。合并Centinela当日两次进展，新闻入选2条；采访案例、预测与已实现产量分别呈现。",
+    "mining_com_source_note": "铜/金/银三个Playwright分类均HTTP200且成功空结果；另复核六篇前日跨时区全文capture并追溯更早原始分发，未把转载时间当事件首次公开时间。新闻正文使用实际可读原文，不用搜索摘要或隐藏正文。",
+    "new_sources_discovered": [
+      "Dean Fredericksen（Maronan Metals）",
+      "Will Dix（Vantage Metals）",
+      "Alex Walker（East Star Resources）",
+      "Kevin M. Keough（Oreterra Metals）",
+      "Bloomberg Línea",
+      "中国有色金属报"
+    ],
+    "url_verification": {
+      "checked": 8,
+      "passed": 7,
+      "failed": 1,
+      "failures": [
+        {
+          "url": "https://clearcommodity.net/playlists/resource-talks/targeting-first-gold-in-mali-soon-but-will-permitting-cooperate-compass-gold-ceo-interview",
+          "reason": "已打开Resource Talks发行页并核对10月16日日期、标题及CEO Larry Phillips身份；可读内容只有章节目录和赞助披露，未听取音频或取得可靠文字稿，因此不提供首产、许可或产能事实及研究判断。"
+        }
+      ],
+      "notes": "按最终卡片及Centinela补充证据URL统计；已核验来源均实际读取公开正文，精确引句逐字绑定同URL保存文本。Compass页虽可打开，仅目录不能核验具体供需观点，明确标记未核验，无正文、importance或claims。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/idaho-strategic-resources-ceo-john-swallow-on-funding-growth-without-dilution",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/evergold-ceo-says-golden-lion-holes-did-exactly-what-we-thought",
+      "https://naturalresourcestocks.net/algo-grande-copper-corp-three-new-skarn-horizons-at-adelita/",
+      "https://www.kereport.com/2026/10/15/great-pacific-gold-wild-dog-exploration-progress-13000-meter-multi-target-drill-campaign/",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/six-projects-one-country-eastport-critical-metals-botswana-strategy",
+      "https://www.kereport.com/2026/10/16/firefox-gold-expanding-the-high-grade-footprint-at-the-newly-discovered-lammas-zone/",
+      "https://www.kereport.com/2026/10/15/sonoro-gold-the-cerro-caliche-gold-project-has-a-vastly-expanded-land-concession-after-2-acquisitions-with-an-ongoing-50000m-drill-program/",
+      "https://www.cruxinvestor.com/posts/prospectiva-resources-drilling-towards-brazils-sao-francisco-maiden-copper-gold-resource-by-mid-2027"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Centinela上午Reuters初步协议与23:55Bloomberg成员批准合并，后者保留待签署条件，不重复增加信号数。",
+      "Las Bambas社区提案已有北京16日23:45的更早公开链接页，不按Mining17日转载重收；TC拍卖亦存在16日更早传播，保守排除。",
+      "Sierra Madre此前复产、季度财务与扩建计划不因17日价格回顾而更新事件日；前两日报访谈及旧生产/库存事实不重收。",
+      "紫金历史资源总量与2024年资源发现只作原文背景，不写成当天新增供给；2026全年预计与二期实际爬坡分开。"
+    ],
+    "notes": "用户明确要求补跑2026-10-17日报，冻结RUN_DATE=2026-10-18及三个窗口；实际完成时间由report_builder记录。周日不更新TC。保留早晨失败日志与ai_started标记，人工恢复直接完成采集和analysis，不删除状态绕过保护或另起AI runner；既有用户代码、工作流与历史材料排除。"
+  }
+}
