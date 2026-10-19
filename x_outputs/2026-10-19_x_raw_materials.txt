@@ -1,0 +1,39 @@
+X 原始候选 — 2026-10-19
+采集时间: 2026-10-20T07:02:32.841850+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-19T14:44:37+00:00
+    北京: 2026-10-19T22:44:37+08:00
+    文本: Except in rare cases, miners don't control metals prices. They take what they can get and shut down when it's not enough. Then lack of supply forces prices higher...
+    链接: https://x.com/duediligenceguy/status/2112193205446029333
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-18T16:59:06+00:00
+    北京: 2026-10-19T00:59:06+08:00
+    文本: I never exited gold, just sold my gold stocks. (The answer to that is no, not yet.)
+
+My latest take is available for free:
+
+
+https://
+independentspeculator.com/sd/the-digest/
+mr.-market-is-reading-this-wrong
+…
+    链接: https://x.com/duediligenceguy/status/2111864661088010434
+

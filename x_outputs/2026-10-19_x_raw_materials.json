@@ -1,0 +1,50 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-19",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-9c8cc145985d0e0de88d5cfb",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-19T14:44:37+00:00",
+      "text": "Except in rare cases, miners don't control metals prices. They take what they can get and shut down when it's not enough. Then lack of supply forces prices higher...",
+      "url": "https://x.com/duediligenceguy/status/2112193205446029333",
+      "collector": "x_search",
+      "report_date": "2026-10-19",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8f6fba1630958026e298ee4e",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-18T16:59:06+00:00",
+      "text": "I never exited gold, just sold my gold stocks. (The answer to that is no, not yet.)\n\nMy latest take is available for free:\n\n\nhttps://\nindependentspeculator.com/sd/the-digest/\nmr.-market-is-reading-this-wrong\n…",
+      "url": "https://x.com/duediligenceguy/status/2111864661088010434",
+      "collector": "x_search",
+      "report_date": "2026-10-19",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "4d235d5d29990e4e1e5731cc72e747ebed305f7a957bd4892d45f0bc11c80503"
+  }
+}

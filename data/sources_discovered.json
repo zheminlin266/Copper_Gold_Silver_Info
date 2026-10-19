@@ -1079,6 +1079,90 @@
       "category": "矿业管理层/原始逐字稿",
       "channel": "https://www.thestocknetwork.com/videos/49-metals-asx49m-gold-mountain-drilling-fast-tracked-as-adit-zone-set-for-october-expansion/",
       "notes": "2026-10-19研究10月18日日报时核验：TSN原始公开完整逐字稿200及16日首发核验；3500米计划、2027年1月化验目标和待评估资源时间分开，不把旧孔当新资源。"
+    },
+    {
+      "source_id": "source-mike-burke-sitka",
+      "display_name": "Mike Burke（Sitka Gold）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.kereport.com/2026/10/19/sitka-gold-drill-results-high-grade-at-the-saddle-zone-expanding-gold-mineralization-at-the-blackjack-saddle-eiger-area/",
+      "notes": "2026-10-20研究10月19日日报时：原始节目公开完整配套文字HTTP200、19日日精度与嘉宾身份核验；6万米程序接近结束及化验待回，已报孔只作背景，不把读者评论目标当管理层指引。"
+    },
+    {
+      "source_id": "source-the-korea-times",
+      "display_name": "The Korea Times",
+      "category": "韩国企业与金属产业报道",
+      "channel": "https://www.koreatimes.co.kr/business/companies/20261019/ls-mnm-weighs-output-adjustments-as-copper-concentrate-shortage-squeezes-smelters",
+      "notes": "2026-10-20研究19日日报时核验：LS MnM采访原稿普通HTTP200，人工正文及公司引语可读，发布时间12:14:03Z与可见KST一致；不采用自动Summary/Key Facts，不把考虑调整认定为已执行减产。"
+    },
+    {
+      "source_id": "source-military-metals",
+      "display_name": "Military Metals（Newsfile发行人公告）",
+      "category": "矿业公司许可公告",
+      "channel": "https://www.newsfilecorp.com/release/319694",
+      "notes": "2026-10-20研究19日日报时核验：Newsfile发行人许可公告普通HTTP200，09:25 EDT归北京19日，官网同文交叉核对；Trojárová勘探许可延期与采矿生产授权分开，22.2万盎司为既有推断金资源。"
+    },
+    {
+      "source_id": "source-americas-gold-silver",
+      "display_name": "Americas Gold and Silver Corporation",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：经Newsfile发行人原稿核验三季度银铜生产及销售；保存公开正文与美东发布时间。",
+      "channel": "https://www.newsfilecorp.com/release/319660/Americas-Gold-and-Silver-Corporation-Announces-Record-Quarterly-Silver-Production-and-Sales-of-800458-Ounces-Produced-and-860850-Ounces-Sold"
+    },
+    {
+      "source_id": "source-mako-mining",
+      "display_name": "Mako Mining",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：官网三季度产量与Moss处理能力公告公开正文核验；短吨、黄金回收与未来目标口径分别记录。",
+      "channel": "https://makominingcorp.com/news-media/press-releases/index.php?content_id=1157"
+    },
+    {
+      "source_id": "source-south32-rns",
+      "display_name": "South32（RNS监管公告）",
+      "category": "矿业公司监管公告",
+      "notes": "2026-10-20研究19日日报时核验：通过Investegate转载原始RNS季度报告核验；读取原报告表格并剔除平台AI摘要，官方报告页403另存审计。",
+      "channel": "https://www.investegate.co.uk/announcement/rns/south32-limited-di---s32/quarterly-report-september-2026-/9828255"
+    },
+    {
+      "source_id": "source-big-ridge-gold",
+      "display_name": "Big Ridge Gold",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：Newsfile发行人公告核验Hope Brook实验室冶金测试结果；区分最终铜回收与粗选回收，未当商业产量。",
+      "channel": "https://www.newsfilecorp.com/release/319609"
+    },
+    {
+      "source_id": "source-copper-fox-metals",
+      "display_name": "Copper Fox Metals",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：Newsfile发行人正文核验Schaft Creek技术研究、道路方案和营地升级，明确处于预可研前研究阶段。",
+      "channel": "https://www.newsfilecorp.com/release/319554/Copper-Fox-Provides-Update-on-2026-Activities-at-Schaft-Creek-Project"
+    },
+    {
+      "source_id": "source-capitan-silver",
+      "display_name": "Capitan Silver",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：Newsfile发行人全文核验Cruz de Plata钻探；保留实际银铜品位和新靶区真厚度未知的技术限制。",
+      "channel": "https://www.newsfilecorp.com/release/319669"
+    },
+    {
+      "source_id": "source-heliostar-metals",
+      "display_name": "Heliostar Metals",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：官网公开原稿核验Ana Paula新孔化验和加密钻探完成情况，未将推断资源视为储量。",
+      "channel": "https://www.heliostarmetals.com/news-media/news-releases/heliostar-reports-524m-grading-584-gt-gold-from-the-high-grade-panel-and-continues-to-build-out-the-expansion-zone-at-ana-paula"
+    },
+    {
+      "source_id": "source-galleon-gold",
+      "display_name": "Galleon Gold",
+      "category": "矿业公司官方新闻",
+      "notes": "2026-10-20研究19日日报时核验：官网融资公告核验，金额均为加元；随后2700万加元加码稿时间为北京20日04:30，另存证据并排除19日报。",
+      "channel": "https://galleongold.com/news/galleon-gold-announces-20m-bought-deal-private-placement-of-flow-through-and-hard-dollar-shares-and-4.75m-concurrent-non/"
+    },
+    {
+      "source_id": "source-nbs-industrial-output",
+      "display_name": "国家统计局工业产品产量",
+      "category": "官方统计/工业需求",
+      "notes": "2026-10-20研究19日日报时核验：国家统计局原始产品产量表核验光伏电池月度及累计产量，明确规模以上工业统计口径。",
+      "channel": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261019_1965617.html"
     }
   ]
 }
