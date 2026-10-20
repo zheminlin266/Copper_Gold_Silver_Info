@@ -1,0 +1,50 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-20",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-f4a944c6293f794e9efdbf0b",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-19T16:24:43+00:00",
+      "text": "1,639 g/t AgEq. 600 metres down-dip. And now a NEW discovery at depth.\n\n\n@CapitanSilverC\n continues to show us there's more to Cruz de Plata than meets the eye.\n\nHigh-grade silver is extending deeper, and evidence of a THIRD mineralizing event could change how we look at the",
+      "url": "https://x.com/peter_krauth/status/2112218396368703493",
+      "collector": "x_search",
+      "report_date": "2026-10-20",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6743a3f53fcc0af6f5353dfc",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-20T13:12:27+00:00",
+      "text": "Failure to capitalize on high prices is not a recession...\n\n...but it is bullish for prices remaining higher for longer.",
+      "url": "https://x.com/duediligenceguy/status/2112532397195415587",
+      "collector": "x_search",
+      "report_date": "2026-10-20",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "82f9de5d1003459f47d4ff02f60ab9f18a3eebb3c251d2152ae65b10d3a283b5"
+  }
+}

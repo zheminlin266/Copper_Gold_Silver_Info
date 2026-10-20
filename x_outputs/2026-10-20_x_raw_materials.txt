@@ -1,0 +1,39 @@
+X 原始候选 — 2026-10-20
+采集时间: 2026-10-21T07:02:10.783924+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 2 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-19T16:24:43+00:00
+    北京: 2026-10-20T00:24:43+08:00
+    文本: 1,639 g/t AgEq. 600 metres down-dip. And now a NEW discovery at depth.
+
+
+@CapitanSilverC
+ continues to show us there's more to Cruz de Plata than meets the eye.
+
+High-grade silver is extending deeper, and evidence of a THIRD mineralizing event could change how we look at the
+    链接: https://x.com/peter_krauth/status/2112218396368703493
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-20T13:12:27+00:00
+    北京: 2026-10-20T21:12:27+08:00
+    文本: Failure to capitalize on high prices is not a recession...
+
+...but it is bullish for prices remaining higher for longer.
+    链接: https://x.com/duediligenceguy/status/2112532397195415587
+

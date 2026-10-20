@@ -1163,6 +1163,83 @@
       "category": "官方统计/工业需求",
       "notes": "2026-10-20研究19日日报时核验：国家统计局原始产品产量表核验光伏电池月度及累计产量，明确规模以上工业统计口径。",
       "channel": "https://www.stats.gov.cn/zwfwck/sjfb/202610/t20261019_1965617.html"
+    },
+    {
+      "source_id": "source-bhp-operational-review",
+      "display_name": "BHP 官方运营报告",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-21研究20日日报时核验：20日官方PDF表格及正文核验；季度实绩、全年指引与前期资金分别呈现，不将长远扩建目标当产量。",
+      "channel": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2026/261020_bhpoperationalreviewforthequarterended30september2026-pdf.pdf"
+    },
+    {
+      "source_id": "source-anglo-american-production",
+      "display_name": "Anglo American 官方生产报告",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-21研究20日日报时核验：Mining报道已读并追到公司原始季度公告；全部产量为公告口径，不拼接其他来源。",
+      "channel": "https://www.angloamerican.com/media/press-releases/2026/20-10-2026"
+    },
+    {
+      "source_id": "source-silvercorp-operational",
+      "display_name": "Silvercorp Metals / CNW",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-21研究20日日报时核验：公告19日18:01ET折算20日06:01BJT；按运行/产量/有条件复产三种口径呈现。",
+      "channel": "https://www.newswire.ca/news-releases/silvercorp-reports-operational-results-and-financial-results-release-date-for-the-second-quarter-fiscal-2027-887548279.html"
+    },
+    {
+      "source_id": "source-bnef-transition-metals",
+      "display_name": "BloombergNEF 转型金属研究",
+      "category": "研究机构官方发布",
+      "notes": "2026-10-21研究20日日报时核验：Mining同主题合并官方BNEF发布；保留情景属性和时间跨度。",
+      "channel": "https://about.bnef.com/insights/commodities/bloombergnefs-transition-metals-outlook-2026-global-metal-supply-shortages-set-to-ease-but-copper-faces-a-332-billion-investment-gap/"
+    },
+    {
+      "source_id": "source-goldbod-official",
+      "display_name": "Ghana Gold Board（GoldBod）",
+      "category": "政府黄金监管机构",
+      "notes": "2026-10-21研究20日日报时核验：官方正文及可见日期20日，替代GBC转述；避免18.7/25与76%原文比例冲突，保留未完月口径。",
+      "channel": "https://goldbod.gov.gh/news/goldbod-refinery-partnerships-push-local-gold-processing-to-946-in-october"
+    },
+    {
+      "source_id": "source-k2-gold",
+      "display_name": "K2 Gold",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-21研究20日日报时核验：Mining稿北京21日超窗，但官方20日11:05Z在窗内；优先原稿。避开7.51/7.58子段冲突并明确真厚度未知。",
+      "channel": "https://k2gold.com/k2-drills-83-82m-of-3-40-g-t-au-including-19-81m-of-7-51-g-t-au-at-dragonfly/"
+    },
+    {
+      "source_id": "source-fortune-bay",
+      "display_name": "Fortune Bay / CNW",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-21研究20日日报时核验：公开CNW原始公告北京时间20日18:30；MSD后发访谈在21日且未听音，不重复。",
+      "channel": "https://www.newswire.ca/news-releases/fortune-bay-completes-goldfields-processing-trade-off-study-and-advances-development-planning-848715811.html"
+    },
+    {
+      "source_id": "source-collective-mining-cnw",
+      "display_name": "Collective Mining / CNW",
+      "category": "矿业公司官方公告",
+      "notes": "2026-10-21研究20日日报时核验：公开发行人稿20日06:30ET，SEC普通读取403另记；剔除AuEq当作纯金的误读及可见金等于化验的推断。",
+      "channel": "https://www.newswire.ca/en/releases/archive/October2026/20/c0622.html"
+    },
+    {
+      "source_id": "source-altamira-michael-bennett",
+      "display_name": "Michael Bennett（Altamira Gold）",
+      "category": "矿业公司管理层访谈",
+      "notes": "2026-10-21研究20日日报时核验：新访谈的后续钻探安排与管理层目标可归因，区分既有资源和目标；近两日报未收录同节目。",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/how-big-does-altamira-golds-maria-bonita-need-to-be-ceo-michael-bennett-has-a-number-in-mind"
+    },
+    {
+      "source_id": "source-alaska-aaron-schutt",
+      "display_name": "Aaron Schutt（Alaska Silver）",
+      "category": "矿业公司管理层访谈",
+      "notes": "2026-10-21研究20日日报时核验：20日北京时间入窗的新管理层访谈；9496米旧钻探总量仅作背景，新增关注冶金大样、结果时间与PEA准备。仅基于实际可读节目文字，未声称收听音频。",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/alaska-silver-ceo-aaron-schutt-on-a-record-9-496-metres-at-illinois-creek"
+    },
+    {
+      "source_id": "source-miit-jwview",
+      "display_name": "工信部发布会 / 中新经纬",
+      "category": "政策发布会原始媒体报道",
+      "notes": "2026-10-21研究20日日报时核验：政府原始发布会检索无可读直达全文；采用具名记者原始通讯社公开转载，People替代TLS错误停止，不降低验证。",
+      "channel": "https://cj.sina.com.cn/articles/view/5993531560/1653e08a802001pv02"
     }
   ]
 }
