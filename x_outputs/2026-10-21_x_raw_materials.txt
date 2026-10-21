@@ -1,0 +1,56 @@
+X 原始候选 — 2026-10-21
+采集时间: 2026-10-22T07:02:08.353124+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 3 条
+
+============================================================
+
+[1] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-21T15:23:19+00:00
+    北京: 2026-10-21T23:23:19+08:00
+    文本: Tribeca Resources reports 68m at 0.52% Cu and 0.16 g/t Au at its Chirsposo Sur target in Chile.
+
+President Thomas Schmidt joins us to discuss the discovery, multiple copper systems at La Higuera and a large porphyry target.
+
+Watch 
+
+https://
+youtu.be/Poj9ZLPrjEg
+
+
+@Tribeca_Copper
+ |
+    链接: https://x.com/soarfinancial/status/2112927719541657890
+
+[2] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-20T20:21:51+00:00
+    北京: 2026-10-21T04:21:51+08:00
+    文本: As demand for copper and other critical minerals accelerates, turning resources into producing mines is one of the mining industry’s defining challenges.
+
+Ivanhoe Mines’ EVP, Technical Services, Simon Bottoms, joined industry leaders at the 
+@ftlive
+ Accelerating Resource
+    链接: https://x.com/IvanhoeMines_/status/2112640462465245593
+
+[3] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-20T19:44:13+00:00
+    北京: 2026-10-21T03:44:13+08:00
+    文本: From ramping up production to advancing major expansions, Ivanhoe Mines is entering an exciting period across its operations.
+
+President and CEO Marna Cloete joined James McGeoch for a fireside chat at the 
+@GoldmanSachs
+  Global Metals & Mining Conference, discussing recent
+    链接: https://x.com/IvanhoeMines_/status/2112630990518751388
+

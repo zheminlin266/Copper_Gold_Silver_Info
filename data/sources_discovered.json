@@ -1240,6 +1240,125 @@
       "category": "政策发布会原始媒体报道",
       "notes": "2026-10-21研究20日日报时核验：政府原始发布会检索无可读直达全文；采用具名记者原始通讯社公开转载，People替代TLS错误停止，不降低验证。",
       "channel": "https://cj.sina.com.cn/articles/view/5993531560/1653e08a802001pv02"
+    },
+    {
+      "source_id": "source-bp-silver-tim-shearcroft",
+      "display_name": "Tim Shearcroft（BP Silver）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.kereport.com/2026/10/21/bp-silver-assays-returned-from-first-drilling-at-jalsuri-north-target-show-broad-intersections-of-zinc-and-silver-mineralization/",
+      "notes": "2026-10-22研究21日日报时：公开Korelin节目正文、嘉宾与21日日精度核验；钻孔区间与资源分开。"
+    },
+    {
+      "source_id": "source-group-eleven-bart-jaworski",
+      "display_name": "Bart Jaworski（Group Eleven）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/group-eleven-puts-copper-first-at-irelands-ballywire-discovery",
+      "notes": "2026-10-22研究21日日报时：公开Crux正文与原视频21日元数据核验；约7万米目标和6.7万米已获资金口径分开。"
+    },
+    {
+      "source_id": "source-astra-brian-miller",
+      "display_name": "Brian Miller（Astra Exploration）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/astra-exploration-sets-million-ounce-resource-target-as-20-000-meter-drilling-at-la-manchuria-launches",
+      "notes": "2026-10-22研究21日日报时：公开Crux正文与原视频21日元数据核验；11月拟启动、2027年结果与资源目标分别呈现。"
+    },
+    {
+      "source_id": "source-galway-robert-hinchcliffe",
+      "display_name": "Robert Hinchcliffe（Galway Metals）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/galway-metals-lands-funding-and-cornerstone-investor-as-clarence-stream-nears-pea",
+      "notes": "2026-10-22研究21日日报时：公开Crux及原视频日期核验；旧融资/钻孔作背景，新关注2027评价和工程安排。"
+    },
+    {
+      "source_id": "source-mcfarlane-mark-trevisiol",
+      "display_name": "Mark Trevisiol（McFarlane Lake Mining）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/mcfarlane-lake-drilling-program-to-chase-10-moz-gold-resource-scoping-study-by-2027",
+      "notes": "2026-10-22研究21日日报时：公开Crux及原视频日期核验；范围研究、许可申请和未签代加工条件分开。"
+    },
+    {
+      "source_id": "source-hudbay-issuer",
+      "display_name": "Hudbay Minerals 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-and-Mitsubishi-Approve-Copper-World-Project-Construction-Advancing-Next-Major-U-S--Copper-Mine-Towards-First-Production-in-2029/default.aspx",
+      "notes": "2026-10-22研究21日日报时：Copper World正式投资决策和DFS公开全文200；矿石短吨与铜公吨、模型与实绩分开。"
+    },
+    {
+      "source_id": "source-first-quantum-reuters",
+      "display_name": "First Quantum公司声明 / Reuters",
+      "category": "矿业公司声明的媒体报道",
+      "channel": "https://www.miningweekly.com/article/first-quantums-expanded-zambia-copper-mine-on-track-to-exceed-processing-target-2026-10-21",
+      "notes": "2026-10-22研究21日日报时：Reuters在Mining Weekly公开完整分发核验；公司独立21日声明未取得，只采用一致处理量与设计比较。"
+    },
+    {
+      "source_id": "source-endolith-carlota",
+      "display_name": "Endolith / Carlota现场示范报道",
+      "category": "铜回收技术/具名媒体采访",
+      "channel": "https://www.mining.com/web/startups-are-extracting-more-copper-using-microbes/",
+      "notes": "2026-10-22研究21日日报时：Bloomberg在Mining公开分发核验，首发20日22:45Z归北京21日；未披露实际新增铜吨数。"
+    },
+    {
+      "source_id": "source-fresnillo-rns",
+      "display_name": "Fresnillo（RNS生产报告）",
+      "category": "矿业公司监管公告",
+      "channel": "https://www.investegate.co.uk/index.php/announcement/rns/fresnillo--fres/3q26-production-report/9832843",
+      "notes": "2026-10-22研究21日日报时：21日完整RNS正文表格公开200，剔除平台AI摘要；Silverstream同比基期与矿山银产量分开。"
+    },
+    {
+      "source_id": "source-hochschild-rns",
+      "display_name": "Hochschild Mining（RNS生产报告）",
+      "category": "矿业公司监管公告",
+      "channel": "https://www.investegate.co.uk/announcement/rns/hochschild-mining--hoc/q3-and-9-month-production-report/9832838",
+      "notes": "2026-10-22研究21日日报时：21日完整RNS正文及权益产量表公开200；San José 51%权益，不采用Mara Rosa正文/表格冲突金当量数。"
+    },
+    {
+      "source_id": "source-serabi-gnw",
+      "display_name": "Serabi Gold（GNW发行人公告）",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.investegate.co.uk/announcement/gnw/serabi-gold--srb/reports-q3-2026-production-operational-high-/9832718",
+      "notes": "2026-10-22研究21日日报时：21日公开原始生产及许可公告核验；处理能力、矿石外运额度与黄金产量分别保留。"
+    },
+    {
+      "source_id": "source-endurance-gold-issuer",
+      "display_name": "Endurance Gold 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://endurancegold.com/news-releases/endurance-expands-imperial-and-lower-imperial-zones-with-50-m-step-outs-5.89-gpt-gold-and-0.19-sb-over-5.2-metres-multiple-high/",
+      "notes": "2026-10-22研究21日日报时：21日具体官网钻探公告200；真复合宽度估80%—100%，未套用未知真宽度模板。"
+    },
+    {
+      "source_id": "source-jiemian-etf",
+      "display_name": "界面新闻黄金ETF资金统计",
+      "category": "中文财经媒体/投资需求统计",
+      "channel": "https://finance.eastmoney.com/a/202610213902549293.html",
+      "notes": "2026-10-22研究21日日报时：东方财富署名公开全文核验21日14:06；单只基金8天人民币流入，不换算实物吨数。"
+    },
+    {
+      "source_id": "source-cnal-lme-inventory",
+      "display_name": "有色宝 / 世铝网库存表",
+      "category": "公开交易所数据转引",
+      "channel": "https://market.cnal.com/lme/2026/10-21/1792570483671027.shtml",
+      "notes": "2026-10-22研究21日日报时：21日表格铜行及吨单位公开核验；官方库存目录403，保留转引层级。"
+    },
+    {
+      "source_id": "source-abrasilver-issuer",
+      "display_name": "AbraSilver Resource 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://abrasilver.com/news-releases/abrasilver-drills-best-gold-intercept-to-date-at-oculto-228-metres-grading-179-gt-gold-in-oxides-including-66-metres-at-404-gt-gold",
+      "notes": "2026-10-22研究21日日报时：21日官网公开全文及钻孔表核验，真厚度未知、银导语与表格取整差异留痕。"
+    },
+    {
+      "source_id": "source-hemlo-mining-issuer",
+      "display_name": "Hemlo Mining 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://www.hemlomining.com/news/hemlo-mining-corp-reports-third-quarter-2026-operating-results",
+      "notes": "2026-10-22研究21日日报时：21日官网和CNW原稿全文核验；全矿实物与包含Interlake 50%NPI的权益口径分开。"
+    },
+    {
+      "source_id": "source-kingfisher-metals-issuer",
+      "display_name": "Kingfisher Metals 官方公告",
+      "category": "矿业公司官方新闻",
+      "channel": "https://kingfishermetals.com/kingfisher-completes-2026-drill-program-at-hwy-37-project-with-13551-m-drilled-golden-triangle/",
+      "notes": "2026-10-22研究21日日报时：21日具体官网公告200；15日实际完工、待化验与目测矿化分别表述，Newsfile202空白未当全文。"
     }
   ]
 }

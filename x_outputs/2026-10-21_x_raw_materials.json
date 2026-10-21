@@ -1,0 +1,62 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-21",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-b2c900bab8774183e6a38543",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-10-21T15:23:19+00:00",
+      "text": "Tribeca Resources reports 68m at 0.52% Cu and 0.16 g/t Au at its Chirsposo Sur target in Chile.\n\nPresident Thomas Schmidt joins us to discuss the discovery, multiple copper systems at La Higuera and a large porphyry target.\n\nWatch \n\nhttps://\nyoutu.be/Poj9ZLPrjEg\n\n\n@Tribeca_Copper\n |",
+      "url": "https://x.com/soarfinancial/status/2112927719541657890",
+      "collector": "x_search",
+      "report_date": "2026-10-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3c2fdc5ff675ff1e9013935e",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-20T20:21:51+00:00",
+      "text": "As demand for copper and other critical minerals accelerates, turning resources into producing mines is one of the mining industry’s defining challenges.\n\nIvanhoe Mines’ EVP, Technical Services, Simon Bottoms, joined industry leaders at the \n@ftlive\n Accelerating Resource",
+      "url": "https://x.com/IvanhoeMines_/status/2112640462465245593",
+      "collector": "x_search",
+      "report_date": "2026-10-21",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-654d57366847c567e5b5002d",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-20T19:44:13+00:00",
+      "text": "From ramping up production to advancing major expansions, Ivanhoe Mines is entering an exciting period across its operations.\n\nPresident and CEO Marna Cloete joined James McGeoch for a fireside chat at the \n@GoldmanSachs\n  Global Metals & Mining Conference, discussing recent",
+      "url": "https://x.com/IvanhoeMines_/status/2112630990518751388",
+      "collector": "x_search",
+      "report_date": "2026-10-21",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "9b98310f5388c144ea31cde47b443610c255e4afff30d94a2ffaf291ea6a5d70"
+  }
+}
