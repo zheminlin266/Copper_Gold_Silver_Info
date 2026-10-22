@@ -1359,6 +1359,76 @@
       "category": "矿业公司官方新闻",
       "channel": "https://kingfishermetals.com/kingfisher-completes-2026-drill-program-at-hwy-37-project-with-13551-m-drilled-golden-triangle/",
       "notes": "2026-10-22研究21日日报时：21日具体官网公告200；15日实际完工、待化验与目测矿化分别表述，Newsfile202空白未当全文。"
+    },
+    {
+      "source_id": "source-alex-metals-gwen-preston",
+      "display_name": "Gwen Preston（Alex Metals）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.kereport.com/2026/10/21/alex-metals-new-listing-3-projects-in-alaska-fully-funded-discovery-drilling-and-upcoming-assay-catalysts/",
+      "notes": "2026-10-23研究22日日报时核验：核验公开节目正文、嘉宾和10月21日日期；只采用发行方配套文字，未声称收听音频。"
+    },
+    {
+      "source_id": "source-scorpio-gold-zayn-kalyan",
+      "display_name": "Zayn Kalyan（Scorpio Gold）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/scorpio-weighs-gold-wedge-underground-restart-after-higher-grade-drilling",
+      "notes": "2026-10-23研究22日日报时核验：节目time元数据为10月21日11:00 UTC−05:00，换算北京22日00:00；只采用已读配套文字，未听取音频。"
+    },
+    {
+      "source_id": "source-yukon-metals-jim-coates",
+      "display_name": "Jim Coates（Yukon Metals）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/yukon-metals-targets-porphyry-core-after-viper-drill-results-at-az",
+      "notes": "2026-10-23研究22日日报时核验：节目time元数据21日12:45 UTC−05:00，换算北京22日01:45；仅依据公开配套文字。"
+    },
+    {
+      "source_id": "source-teck-globenewswire",
+      "display_name": "Teck Resources / GlobeNewswire发行人公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://www.globenewswire.com/news-release/2026/10/21/3385806/0/en/teck-receives-highland-valley-copper-operations-strike-notice.html",
+      "notes": "2026-10-23研究22日日报时核验：普通HTTP403后，web.run成功打开GlobeNewswire原始发行人全文及13:30 ET时间；未使用其他进程的PiChrome授权。"
+    },
+    {
+      "source_id": "source-woodmac-metals-release",
+      "display_name": "Wood Mackenzie金属研究官方发布",
+      "category": "研究机构官方发布",
+      "channel": "https://smb.panews.com/article/Wood-Mackenzie-Geopolitical-supply-shocks-and-AI-power-crunch-collide-across-global-base-metals/6ad9e1d1dba4ed9cc76d8bf4",
+      "notes": "2026-10-23研究22日日报时核验：原始Wood Mackenzie/GlobeNewswire公开分发稿HTTP200、可见10:10 UTC核验；原稿前部称非美铜缺口460 kt、后文450 kt，未采用冲突值。"
+    },
+    {
+      "source_id": "source-liberty-gold-globenewswire",
+      "display_name": "Liberty Gold / GlobeNewswire发行人公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://smb.panews.com/article/Liberty-Gold-Reports-Initial-Drill-Results-from-its-2026-Drill-Program-at-Black-Pine-Idaho-USA/6ad9df7fdba4ed9cc76d8be8",
+      "notes": "2026-10-23研究22日日报时核验：Mining报道追到发行人官网，官网403后改读GlobeNewswire公开完整分发稿HTTP200及可见10:00 UTC；表注估计真厚度与钻孔长度有别，未套用真厚度未知模板。"
+    },
+    {
+      "source_id": "source-canagold-newsfile",
+      "display_name": "Canagold / TMX Newsfile发行人公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://finance.yahoo.com/markets/commodities/articles/canagold-drills-69-8-g-110000136.html",
+      "notes": "2026-10-23研究22日日报时核验：Yahoo公开完整TMX Newsfile发行人稿及11:00 UTC、岩芯长度说明核验；未采用页外价格、AI摘要或资源量推算。"
+    },
+    {
+      "source_id": "source-minaurum-silver-issuer",
+      "display_name": "Minaurum Silver 官方公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://minaurum.com/news/2026/minaurum-discovers-blind-silver-vein-grading-669-g-t-ageq-over-2.05-metres-highlighting-potential-for-additional-blind-veins-of/",
+      "notes": "2026-10-23研究22日日报时核验：22日官网公开全文HTTP200核验；表格真宽度基于构造解释，区间与银当量没有替代实物银品位。仅可靠确认日期，保留日精度。"
+    },
+    {
+      "source_id": "source-santacruz-newsfile",
+      "display_name": "Santacruz Silver / TMX Newsfile发行人公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://6ix.com/news/santacruz-silver-reports-q3-2026-production-results-producing-1500958-ounces-of-silver-and-22080-tonnes-of-zinc",
+      "notes": "2026-10-23研究22日日报时核验：官网挑战页后停止该路径，6ix公开Newsfile完整分发原文及生产表HTTP200核验，剔除页面顶部6ix AI摘要；首发21日17:00 EDT=北京22日05:00。"
+    },
+    {
+      "source_id": "source-youlianyun-fx168",
+      "display_name": "有连云 / FX168黄金ETF推广统计",
+      "category": "中文推广材料/二手资金统计",
+      "channel": "https://www.fx168news.com/article/1106139",
+      "notes": "2026-10-23研究22日日报时核验：FX168公开分发全文HTTP200，署名有连云、可见时间及JSON-LD10:14:15+08:00核验；仅有二手推广材料统计，未宣称直接核验基金底层持仓。"
     }
   ]
 }

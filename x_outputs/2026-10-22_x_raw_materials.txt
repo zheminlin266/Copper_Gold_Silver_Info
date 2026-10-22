@@ -1,0 +1,130 @@
+X 原始候选 — 2026-10-22
+采集时间: 2026-10-23T07:02:19.730932+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 11 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-21T18:12:43+00:00
+    北京: 2026-10-22T02:12:43+08:00
+    文本: Another important milestone for 
+@CerroInc
+ 
+With 100% of the Quiulacocha tailings now consolidated and long-term surface rights secured, a major piece of the puzzle is in place.
+
+Less uncertainty, more focus on unlocking the value of this massive asset. That's what I like to see.
+    链接: https://x.com/peter_krauth/status/2112970351194128716
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-21T18:02:53+00:00
+    北京: 2026-10-22T02:02:53+08:00
+    文本: Outcrop Silver 
+@OCG_Silver
+ keeps delivering at Santa Ana.
+
+Nearly 3 kilometres of mineralized strike, another high-grade vein discovered, and importantly, more silver being found outside the current resource.
+
+That's exactly what I want to see from a growing silver deposit.
+    链接: https://x.com/peter_krauth/status/2112967878282752250
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-21T17:58:57+00:00
+    北京: 2026-10-22T01:58:57+08:00
+    文本: Now THIS is the kind of result that gets my attention.
+
+
+@AbraSilver
+  just delivered its best gold intercept ever at Oculto. And importantly, the higher-grade core sits outside the current resource.
+
+This is more than just a great drill hole. It's potential for more ounces.
+    链接: https://x.com/peter_krauth/status/2112966888334786898
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-22T14:18:12+00:00
+    北京: 2026-10-22T22:18:12+08:00
+    文本: Stanchart's copper take is nothing new, but the views on other base metals have interesting twists...
+    链接: https://x.com/duediligenceguy/status/2113273719661404171
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-22T14:09:39+00:00
+    北京: 2026-10-22T22:09:39+08:00
+    文本: "Stanchart expect prices to remain at elevated levels for the rest of 2026, buoyed by supply stresses and US copper tariff uncertainty which remains the key event risk."
+
+Yep.
+    链接: https://x.com/duediligenceguy/status/2113271567438229928
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-22T13:37:00+00:00
+    北京: 2026-10-22T21:37:00+08:00
+    文本: There's gold in seawater as well...
+    链接: https://x.com/duediligenceguy/status/2113263353753694654
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-22T13:24:55+00:00
+    北京: 2026-10-22T21:24:55+08:00
+    文本: The End of Gold?
+
+I'm deeply skeptical that fusion creating rare isotopes with gold as a byproduct will work at a scale big enough to matter.
+
+Theory is one thing. Real-world costs are another.
+
+But if they do succeed, we'll see it coming as they pass milestones over the years...
+    链接: https://x.com/duediligenceguy/status/2113260311017099288
+
+[8] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-22T12:56:20+00:00
+    北京: 2026-10-22T20:56:20+08:00
+    文本: Another threat to copper supply...
+    链接: https://x.com/duediligenceguy/status/2113253119165423675
+
+[9] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-10-22T15:00:00+00:00
+    北京: 2026-10-22T23:00:00+08:00
+    文本: Major catalysts ahead for First Majestic Silver.
+
+Mani Alkhafaji joins us to discuss progress toward the planned Jerritt Canyon restart, operational updates and what's next for silver.
+
+Watch 
+
+https://
+youtu.be/fOH-5BBdqEY
+
+
+@FMSilverCorp
+ | 
+$AG.TO
+ | #coi
+    链接: https://x.com/soarfinancial/status/2113284239936626989
+
+[10] @IvanhoeMines_ (Ivanhoe Mines)
+    UTC: 2026-10-21T19:56:22+00:00
+    北京: 2026-10-22T03:56:22+08:00
+    文本: Congratulations to Ivanhoe Mines President & CEO Marna Cloete on her election as Chair of the Board of the International Copper Association. 
+
+
+@CloeteMarna
+'s appointment reflects her leadership and commitment to advancing the global copper industry. As Africa’s role in meeting
+    链接: https://x.com/IvanhoeMines_/status/2112996437533569159
+
+[11] @TeckResources (Teck Resources)
+    UTC: 2026-10-21T17:34:07+00:00
+    北京: 2026-10-22T01:34:07+08:00
+    文本: Teck Receives Highland Valley Copper Operations Strike Notice 
+https://
+ow.ly/cnP150ZZPf1 
+$TECK
+    链接: https://x.com/TeckResources/status/2112960639127760970
+

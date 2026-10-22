@@ -1,0 +1,158 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-22",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-56e010109ec7990196cbbffd",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-21T18:12:43+00:00",
+      "text": "Another important milestone for \n@CerroInc\n \nWith 100% of the Quiulacocha tailings now consolidated and long-term surface rights secured, a major piece of the puzzle is in place.\n\nLess uncertainty, more focus on unlocking the value of this massive asset. That's what I like to see.",
+      "url": "https://x.com/peter_krauth/status/2112970351194128716",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9acb1c9b8eed844a645835e6",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-21T18:02:53+00:00",
+      "text": "Outcrop Silver \n@OCG_Silver\n keeps delivering at Santa Ana.\n\nNearly 3 kilometres of mineralized strike, another high-grade vein discovered, and importantly, more silver being found outside the current resource.\n\nThat's exactly what I want to see from a growing silver deposit.",
+      "url": "https://x.com/peter_krauth/status/2112967878282752250",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-538426b11afdc5e99c7159eb",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-21T17:58:57+00:00",
+      "text": "Now THIS is the kind of result that gets my attention.\n\n\n@AbraSilver\n  just delivered its best gold intercept ever at Oculto. And importantly, the higher-grade core sits outside the current resource.\n\nThis is more than just a great drill hole. It's potential for more ounces.",
+      "url": "https://x.com/peter_krauth/status/2112966888334786898",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a551e2c868f2b607f1049c3a",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-22T14:18:12+00:00",
+      "text": "Stanchart's copper take is nothing new, but the views on other base metals have interesting twists...",
+      "url": "https://x.com/duediligenceguy/status/2113273719661404171",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-c766121d147be9123ec6e908",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-22T14:09:39+00:00",
+      "text": "\"Stanchart expect prices to remain at elevated levels for the rest of 2026, buoyed by supply stresses and US copper tariff uncertainty which remains the key event risk.\"\n\nYep.",
+      "url": "https://x.com/duediligenceguy/status/2113271567438229928",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2cd6d60d3570cec7766100ba",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-22T13:37:00+00:00",
+      "text": "There's gold in seawater as well...",
+      "url": "https://x.com/duediligenceguy/status/2113263353753694654",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-0d0064b6b9214612e6cce99f",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-22T13:24:55+00:00",
+      "text": "The End of Gold?\n\nI'm deeply skeptical that fusion creating rare isotopes with gold as a byproduct will work at a scale big enough to matter.\n\nTheory is one thing. Real-world costs are another.\n\nBut if they do succeed, we'll see it coming as they pass milestones over the years...",
+      "url": "https://x.com/duediligenceguy/status/2113260311017099288",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-587a432f72dfadfb5acb642f",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-22T12:56:20+00:00",
+      "text": "Another threat to copper supply...",
+      "url": "https://x.com/duediligenceguy/status/2113253119165423675",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7c5db547728e52d63a975154",
+      "source_id": "x-soarfinancial",
+      "author": "Kai Hoffmann",
+      "handle": "soarfinancial",
+      "publish_time": "2026-10-22T15:00:00+00:00",
+      "text": "Major catalysts ahead for First Majestic Silver.\n\nMani Alkhafaji joins us to discuss progress toward the planned Jerritt Canyon restart, operational updates and what's next for silver.\n\nWatch \n\nhttps://\nyoutu.be/fOH-5BBdqEY\n\n\n@FMSilverCorp\n | \n$AG.TO\n | #coi",
+      "url": "https://x.com/soarfinancial/status/2113284239936626989",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-7973184fdf886c3f2c95fa34",
+      "source_id": "x-ivanhoemines_",
+      "author": "Ivanhoe Mines",
+      "handle": "IvanhoeMines_",
+      "publish_time": "2026-10-21T19:56:22+00:00",
+      "text": "Congratulations to Ivanhoe Mines President & CEO Marna Cloete on her election as Chair of the Board of the International Copper Association. \n\n\n@CloeteMarna\n's appointment reflects her leadership and commitment to advancing the global copper industry. As Africa’s role in meeting",
+      "url": "https://x.com/IvanhoeMines_/status/2112996437533569159",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5ced32fe81ab58029bf91e7d",
+      "source_id": "x-teckresources",
+      "author": "Teck Resources",
+      "handle": "TeckResources",
+      "publish_time": "2026-10-21T17:34:07+00:00",
+      "text": "Teck Receives Highland Valley Copper Operations Strike Notice \nhttps://\now.ly/cnP150ZZPf1 \n$TECK",
+      "url": "https://x.com/TeckResources/status/2112960639127760970",
+      "collector": "x_search",
+      "report_date": "2026-10-22",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "82ee1962e78cedf7b1e572525eb9305177e94a1389bff5a9b3b1159294d59b2f"
+  }
+}
