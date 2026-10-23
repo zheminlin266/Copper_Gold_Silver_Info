@@ -861,7 +861,7 @@ select {
   border-top: 1px solid var(--line-strong);
 }
 
-.archive-pagination button {
+.archive-pagination :is(a, button) {
   display: grid;
   justify-items: start;
   min-height: 54px;
@@ -874,16 +874,17 @@ select {
   font-size: 14px;
   font-weight: 600;
   line-height: 20px;
+  text-decoration: none;
   transition: border-color 150ms ease, transform 150ms ease;
 }
 
-.archive-pagination button:last-child {
+.archive-pagination :is(a, button):last-child {
   justify-items: end;
   text-align: right;
 }
 
-.archive-pagination button:hover:not(:disabled),
-.archive-pagination button:focus-visible:not(:disabled) {
+.archive-pagination :is(a, button):hover:not(:disabled),
+.archive-pagination :is(a, button):focus-visible:not(:disabled) {
   border-color: var(--text-muted);
   transform: translateY(-2px);
 }
@@ -895,7 +896,7 @@ select {
   opacity: 0.5;
 }
 
-.archive-pagination button span,
+.archive-pagination :is(a, button) span,
 .archive-pagination p {
   color: var(--text-muted);
   font-size: 12px;

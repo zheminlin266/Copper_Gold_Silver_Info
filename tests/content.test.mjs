@@ -5,7 +5,7 @@ import { spawnSync } from "node:child_process";
 import path from "node:path";
 import test from "node:test";
 
-import { getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
+import { archivePagePath, getArchivePage, REPORTS_PER_PAGE } from "../lib/archive-pagination.ts";
 import { compareReportTimesDesc } from "../lib/report-time.ts";
 import { getSignalParagraphs } from "../lib/signal-paragraphs.ts";
 import { parseTcCsv } from "../lib/tc-data.ts";
@@ -158,6 +158,9 @@ test("archive pagination shows 20 newest items before older pages", () => {
   assert.deepEqual(second.items, reports.slice(20, 40));
   assert.deepEqual(last.items, reports.slice(40, 45));
   assert.equal(last.pageCount, 3);
+  assert.deepEqual([first, second, last].map(({ page }) => archivePagePath(page)), [
+    "/archive", "/archive/2", "/archive/3",
+  ]);
 });
 
 test("report time sorting uses timezone instants and Beijing midnight for date-only values", () => {
@@ -669,7 +672,7 @@ test("SEO metadata declares crawl routes, self canonicals, and daily Article fie
   const robots = fs.readFileSync(path.join(process.cwd(), "app/robots.ts"), "utf8");
   const sitemap = fs.readFileSync(path.join(process.cwd(), "app/sitemap.ts"), "utf8");
   const layout = fs.readFileSync(path.join(process.cwd(), "app/layout.tsx"), "utf8");
-  const archive = fs.readFileSync(path.join(process.cwd(), "app/archive/page.tsx"), "utf8");
+  const archive = fs.readFileSync(path.join(process.cwd(), "app/archive/[[...page]]/page.tsx"), "utf8");
   const daily = fs.readFileSync(path.join(process.cwd(), "app/daily/[date]/page.tsx"), "utf8");
   const historicalTc = fs.readFileSync(path.join(process.cwd(), "app/historical-tc/page.tsx"), "utf8");
 
@@ -678,7 +681,7 @@ test("SEO metadata declares crawl routes, self canonicals, and daily Article fie
   assert.match(sitemap, /getReports\(\)/);
   assert.match(sitemap, /\/daily\/\$\{report\.date\}/);
   assert.match(layout, /canonical:\s*"\/"/);
-  assert.match(archive, /canonical:\s*"\/archive"/);
+  assert.match(archive, /canonical:\s*archivePagePath\(page\)/);
   assert.match(daily, /canonical:\s*`\/daily\/\$\{report\.date\}`/);
   assert.match(daily, /"@type": "Article"/);
   assert.match(daily, /headline:\s*articleTitle/);
