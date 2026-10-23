@@ -1,0 +1,86 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-23",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-9e44e2437410321351996c08",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-23T15:32:08+00:00",
+      "text": "My conviction in silver stocks remains strong. The companies keep giving us reasons to pay attention.\n\nEight updates and the bigger silver picture in this week’s Silver Scoop. Plenty for \n@TedJButler\n to unpack:\n\nSubscribe free:\n\nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/the-silver-scoop-15/\n…",
+      "url": "https://x.com/peter_krauth/status/2113654716832084109",
+      "collector": "x_search",
+      "report_date": "2026-10-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-27a694cdeaf65da93d62903f",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-23T14:49:47+00:00",
+      "text": "Near-record cash flows. Silver miners trading below stated net asset value.\n\nWhat’s the market missing?\n\nMacro volatility is getting the attention. I’m watching the fundamentals.\n\n\n@TedJButler\n digs into that disconnect. Worth a read.\n\n\nhttps://\nthegoldadvisor.com/silver-advisor\n/newsletters/the-silver-scoop-15/\n…",
+      "url": "https://x.com/peter_krauth/status/2113644056882577712",
+      "collector": "x_search",
+      "report_date": "2026-10-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-90fc487bfc9e0ab15d1d2610",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-22T17:07:21+00:00",
+      "text": "As Rocky Balboa said, “It ain’t about how hard you hit. It’s about how hard you can get hit and keep moving forward.”\n\n\n@SantacruzSilver\n is doing just that.\n\nBolívar silver output surged 209% YoY. And there's more to like beneath the Q3 headline numbers.\n\n\n@TedJButler\n  breaks it",
+      "url": "https://x.com/peter_krauth/status/2113316289532092873",
+      "collector": "x_search",
+      "report_date": "2026-10-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d233115d7a36c2e65d828717",
+      "source_id": "x-newmontcorp",
+      "author": "Newmont",
+      "handle": "NewmontCorp",
+      "publish_time": "2026-10-23T14:01:00+00:00",
+      "text": "Yesterday, we announced our Q3 2026 results, reflecting stable production, cost performance, and disciplined execution.\n\nWe produced 1.3M attributable gold ounces, generated $1.9B in free cash flow and returned $1.9B to shareholders.\n\n#Newmont #FinancialResults",
+      "url": "https://x.com/NewmontCorp/status/2113631782473982161",
+      "collector": "x_search",
+      "report_date": "2026-10-23",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-e7047ce9b158f35d09975498",
+      "source_id": "x-newmontcorp",
+      "author": "Newmont",
+      "handle": "NewmontCorp",
+      "publish_time": "2026-10-22T23:03:23+00:00",
+      "text": "Earlier today, we announced our Q3 2026 #FinancialResults. \n\nHighlights include: \n 1.3 million attributable gold ounces produced \n $1.9 billion in free cash flow \n $1.9 billion returned to shareholders \n $2.20 adjusted net income\n\nRead our full results release here:",
+      "url": "https://x.com/NewmontCorp/status/2113405887947604103",
+      "collector": "x_search",
+      "report_date": "2026-10-23",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "eba911c1f0cd4e35b0f3fb17057b2334589fb92510a3c820b21ee348c85fa4d0"
+  }
+}

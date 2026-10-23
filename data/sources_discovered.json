@@ -1429,6 +1429,97 @@
       "category": "中文推广材料/二手资金统计",
       "channel": "https://www.fx168news.com/article/1106139",
       "notes": "2026-10-23研究22日日报时核验：FX168公开分发全文HTTP200，署名有连云、可见时间及JSON-LD10:14:15+08:00核验；仅有二手推广材料统计，未宣称直接核验基金底层持仓。"
+    },
+    {
+      "source_id": "source-meridian-gilbert-clark",
+      "display_name": "Meridian Mining / Gilbert Clark",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/meridian-minings-next-big-catalyst-financing-cabacal"
+    },
+    {
+      "source_id": "source-valhalla-sorin-posescu",
+      "display_name": "Valhalla Metals / Sorin Posescu",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/two-vms-projects-one-big-alaska-opportunity-valhalla-metals-in-the-ambler-district"
+    },
+    {
+      "source_id": "source-tudor-management",
+      "display_name": "Tudor Gold管理层",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/tudor-gold-expands-perfectstorm-drilling-as-goldstorm-pea-nears"
+    },
+    {
+      "source_id": "source-aztec-simon-dyakowski",
+      "display_name": "Aztec Minerals / Simon Dyakowski",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://www.kereport.com/2026/10/23/aztec-minerals-drilling-extends-north-extension-by-190-meters-ahead-of-maiden-resource-estimate/"
+    },
+    {
+      "source_id": "source-metallic-greg-johnson",
+      "display_name": "Metallic Minerals / Greg Johnson",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://www.kereport.com/2026/10/22/metallic-minerals-initiatives-at-la-plata-copper-silver-pgm-keno-silver-and-klondike-alluvial-gold-projects/"
+    },
+    {
+      "source_id": "source-cobra-rupert-verco",
+      "display_name": "Cobra Resources / Rupert Verco",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://www.cruxinvestor.com/posts/cobra-confirms-shallow-copper-at-manna-hill-as-porphyry-case-strengthens"
+    },
+    {
+      "source_id": "source-granada-jw-dumont",
+      "display_name": "Granada Gold Mine / J.W. Dumont",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://www.cruxinvestor.com/posts/granada-golds-2026-reset-new-leadership-a-planned-drilling-return-and-capital-discipline"
+    },
+    {
+      "source_id": "source-dreadnought-interview",
+      "display_name": "Dreadnought Resources管理层访谈",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://resourcetalks.com/gold-stocks/visible-gold-in-new-holes-but-can-the-assays-confirm-scale/"
+    },
+    {
+      "source_id": "source-sunshine-agc-interview",
+      "display_name": "Sunshine Metals / Damien Keys（AGC现场访谈）",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://smallcaps.com.au/article/agc26-gold-takes-a-breather-the-directors-dont"
+    },
+    {
+      "source_id": "source-grupo-mexico-earnings",
+      "display_name": "Grupo México业绩电话会逐字稿（Stock Analysis）",
+      "category": "矿业管理层访谈/业绩电话会",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://stockanalysis.com/quote/bmv/GMEXICO.B/transcripts/713387-q3-2026/"
+    },
+    {
+      "source_id": "source-newmont-issuer",
+      "display_name": "Newmont官方季度公告",
+      "category": "公司公告/发行人材料",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://www.newmont.com/investors/news-release/news-details/2026/Newmont-Reports-Third-Quarter-2026-Results-with-Record-Third-Quarter-Adjusted-Net-Income-Positioned-to-Achieve-Full-Year-Guidance-Provides-Update-on-Red-Chris-Block-Cave-Project/default.aspx"
+    },
+    {
+      "source_id": "source-cmoc-issuer",
+      "display_name": "洛阳钼业官方新闻",
+      "category": "公司公告/发行人材料",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://www.cmoc.com/html/2026/News_1023/421.html"
+    },
+    {
+      "source_id": "source-cfi-issuer-filings",
+      "display_name": "中财网上市公司公告全文",
+      "category": "公司公告/发行人材料",
+      "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
+      "channel": "https://cfi.net.cn/p20261023002322.html"
     }
   ]
 }

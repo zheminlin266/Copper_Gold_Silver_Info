@@ -1,0 +1,96 @@
+X 原始候选 — 2026-10-23
+采集时间: 2026-10-24T07:01:30.001298+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 5 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-23T15:32:08+00:00
+    北京: 2026-10-23T23:32:08+08:00
+    文本: My conviction in silver stocks remains strong. The companies keep giving us reasons to pay attention.
+
+Eight updates and the bigger silver picture in this week’s Silver Scoop. Plenty for 
+@TedJButler
+ to unpack:
+
+Subscribe free:
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-15/
+…
+    链接: https://x.com/peter_krauth/status/2113654716832084109
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-23T14:49:47+00:00
+    北京: 2026-10-23T22:49:47+08:00
+    文本: Near-record cash flows. Silver miners trading below stated net asset value.
+
+What’s the market missing?
+
+Macro volatility is getting the attention. I’m watching the fundamentals.
+
+
+@TedJButler
+ digs into that disconnect. Worth a read.
+
+
+https://
+thegoldadvisor.com/silver-advisor
+/newsletters/the-silver-scoop-15/
+…
+    链接: https://x.com/peter_krauth/status/2113644056882577712
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-22T17:07:21+00:00
+    北京: 2026-10-23T01:07:21+08:00
+    文本: As Rocky Balboa said, “It ain’t about how hard you hit. It’s about how hard you can get hit and keep moving forward.”
+
+
+@SantacruzSilver
+ is doing just that.
+
+Bolívar silver output surged 209% YoY. And there's more to like beneath the Q3 headline numbers.
+
+
+@TedJButler
+  breaks it
+    链接: https://x.com/peter_krauth/status/2113316289532092873
+
+[4] @NewmontCorp (Newmont)
+    UTC: 2026-10-23T14:01:00+00:00
+    北京: 2026-10-23T22:01:00+08:00
+    文本: Yesterday, we announced our Q3 2026 results, reflecting stable production, cost performance, and disciplined execution.
+
+We produced 1.3M attributable gold ounces, generated $1.9B in free cash flow and returned $1.9B to shareholders.
+
+#Newmont #FinancialResults
+    链接: https://x.com/NewmontCorp/status/2113631782473982161
+
+[5] @NewmontCorp (Newmont)
+    UTC: 2026-10-22T23:03:23+00:00
+    北京: 2026-10-23T07:03:23+08:00
+    文本: Earlier today, we announced our Q3 2026 #FinancialResults. 
+
+Highlights include: 
+ 1.3 million attributable gold ounces produced 
+ $1.9 billion in free cash flow 
+ $1.9 billion returned to shareholders 
+ $2.20 adjusted net income
+
+Read our full results release here:
+    链接: https://x.com/NewmontCorp/status/2113405887947604103
+
