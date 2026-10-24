@@ -120,10 +120,7 @@ export function SiteHeader() {
                 closeMenu();
               }
             }}
-            onFocus={() => {
-              cancelMenuClose();
-              setOpenMenu("inventory");
-            }}
+            onFocus={cancelMenuClose}
             onPointerEnter={(event) => {
               if (event.pointerType === "mouse") {
                 cancelMenuClose();
@@ -163,10 +160,7 @@ export function SiteHeader() {
                 closeMenu();
               }
             }}
-            onFocus={() => {
-              cancelMenuClose();
-              setOpenMenu("tc");
-            }}
+            onFocus={cancelMenuClose}
             onPointerEnter={(event) => {
               if (event.pointerType === "mouse") {
                 cancelMenuClose();
