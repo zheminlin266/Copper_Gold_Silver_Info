@@ -1520,6 +1520,20 @@
       "category": "公司公告/发行人材料",
       "notes": "2026-10-24核验2026-10-23日报来源；公开HTTP200正文、主体、日期及核心事实已保存。访谈仅声明读取配套文字，转载公告保留来源限制。",
       "channel": "https://cfi.net.cn/p20261023002322.html"
+    },
+    {
+      "source_id": "source-west-wits-rudi-deysel",
+      "display_name": "Rudi Deysel（West Wits Mining）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+      "notes": "2026-10-25研究24日日报时核验：Crux公开配套文章HTTP200，24日日期，Qala Shallows融资包、提款及采矿爬坡计划可读；仅采用已读文字，不声称观看视频。"
+    },
+    {
+      "source_id": "source-olive-compass-site-visits",
+      "display_name": "Derek Macpherson、Samuel Pelaez（Olive Resource Capital Compass）",
+      "category": "矿业董事/实地访问访谈配套文字",
+      "channel": "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
+      "notes": "2026-10-25研究24日日报时核验：Crux公开配套文章HTTP200，24日日期；Omai六台钻机、Sun Valley样品处理及上市预期可读，嘉宾兼具董事及持仓身份；未声称观看节目。"
     }
   ]
 }

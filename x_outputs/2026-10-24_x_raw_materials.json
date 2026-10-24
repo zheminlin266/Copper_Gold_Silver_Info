@@ -1,0 +1,38 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-24",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-2545c4678fd1541e1a0d1847",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-23T20:39:05+00:00",
+      "text": "Kinross Tasiast recently kicked off their 2026 Apprenticeship Program, welcoming 60 apprentices to the operation to begin a 12-month program focused on practical instruction and hands-on training in the field.\nThe Tasiast Apprenticeship Program is highly competitive, and focuses",
+      "url": "https://x.com/kinrossgold/status/2113731959449120924",
+      "collector": "x_search",
+      "report_date": "2026-10-24",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "7d6bd4a81ddfa1ddfa75e0c2718f85f77fc4f99ac6d3217f4b01d7d73fbc1e9a"
+  }
+}

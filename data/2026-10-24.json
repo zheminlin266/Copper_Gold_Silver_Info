@@ -1,0 +1,378 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-24",
+  "report_time": "2026-10-25T07:13:47+08:00",
+  "summary": "黄金：Qala Shallows融资提款与采场建设推进中期增量，其他项目仍处勘探验证阶段，近期供给不会因远期目标立即增加。白银：缺少足以改变供需方向的新增实物证据。铜：Levack等项目改善未来矿源路径，但近端精炼铜出现月度盈余，LME累库与中国去库并存，区域货源错配仍突出。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-22T00:00:00+08:00",
+      "end": "2026-10-24T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-24T00:00:00+08:00",
+      "end": "2026-10-24T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-24T00:00:00+08:00",
+      "end": "2026-10-24T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/10/23/magna-mining-key-takeaways-from-the-crean-hill-project-pfs-and-the-company-growth-plans-over-the-next-few-years/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-23",
+      "claims": [
+        {
+          "claim": "Levack开发矿石进入生产流程的公司计划。",
+          "evidence": "from Levack will start feeding into the production profile in 2027",
+          "source_url": "https://www.kereport.com/2026/10/23/magna-mining-key-takeaways-from-the-crean-hill-project-pfs-and-the-company-growth-plans-over-the-next-few-years/",
+          "evidence_type": "public_source_text",
+          "period": "公司开发时间表",
+          "unit": "年份",
+          "value": "2027"
+        },
+        {
+          "claim": "Levack商业生产预期。",
+          "evidence": "commercial production anticipated for 2028",
+          "source_url": "https://www.kereport.com/2026/10/23/magna-mining-key-takeaways-from-the-crean-hill-project-pfs-and-the-company-growth-plans-over-the-next-few-years/",
+          "evidence_type": "public_source_text",
+          "period": "公司商业生产目标",
+          "unit": "年份",
+          "value": "2028"
+        },
+        {
+          "claim": "Crean Hill新靶区已开始钻探。",
+          "evidence": "started drill testing new targets",
+          "source_url": "https://www.kereport.com/2026/10/23/magna-mining-key-takeaways-from-the-crean-hill-project-pfs-and-the-company-growth-plans-over-the-next-few-years/",
+          "evidence_type": "public_source_text",
+          "period": "本次访谈披露进展",
+          "unit": "工作阶段",
+          "value": "钻探已开始"
+        }
+      ],
+      "title": "Magna访谈：Levack开发矿石拟于2027年进入生产流程，商业化目标为2028年",
+      "source_type": "podcast",
+      "summary": "Jason Jessup在访谈配套文字中表示，Crean Hill与Levack将双线推进；Levack开发矿石拟于2027年进入生产流程、商业生产预期为2028年。Crean Hill已调入钻机测试新的足墙铜及贵金属富集靶区，其2027年开工、2027年末首次售矿及2030年初商业生产安排仍属公司计划。",
+      "importance": "此次新增的是两座既有项目的交付衔接，短期供给增量更取决于Levack开发矿石，而非Crean Hill远期稳态产能。2028年的商业化节点需要采矿工程、处理安排和资本投放共同兑现，开发期售矿不能直接外推成稳定年产量。足墙钻探则只增加资源验证机会，尚未构成新增储量。",
+      "verification_status": "verified",
+      "verification_note": "Korelin公开节目页HTTP200，已核对23日日期、Jason Jessup身份和完整配套文字；仅依据已读文字，未声称收听音频。Crean Hill既有PFS数字不重复作为新增事件，保留本次双项目衔接与钻探进展。",
+      "guest": {
+        "name": "Jason Jessup",
+        "background": "Magna Mining首席执行官兼董事"
+      },
+      "companies": [
+        "Magna Mining"
+      ],
+      "projects": [
+        "Levack",
+        "Crean Hill"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-24",
+      "claims": [
+        {
+          "claim": "主采场回采计划时间。",
+          "evidence": "Primary stoping is scheduled to begin in February 2027",
+          "source_url": "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+          "evidence_type": "public_source_text",
+          "period": "公司采矿计划",
+          "unit": "时间",
+          "value": "2027-02"
+        },
+        {
+          "claim": "项目稳态年产金目标。",
+          "evidence": "70,000 ounces per annum",
+          "source_url": "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+          "evidence_type": "public_source_text",
+          "period": "管理层稳态目标",
+          "unit": "oz gold/year",
+          "value": 70000
+        },
+        {
+          "claim": "稳态目标时间。",
+          "evidence": "first quarter of 2029",
+          "source_url": "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+          "evidence_type": "public_source_text",
+          "period": "管理层稳态目标",
+          "unit": "时间",
+          "value": "2029Q1"
+        },
+        {
+          "claim": "融资包规模。",
+          "evidence": "about A$97 million",
+          "source_url": "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+          "evidence_type": "public_source_text",
+          "period": "建设及爬坡融资包",
+          "unit": "AUD million",
+          "value": 97
+        }
+      ],
+      "title": "West Wits访谈：Qala Shallows瞄准2027年商业化、2029年初年产金7万盎司",
+      "source_type": "youtube",
+      "summary": "Rudi Deysel在Crux访谈配套文章中给出Qala Shallows爬坡安排：2027年2月拟开始主采场回采、同年四季度实现商业生产，2029年一季度达到年产金7万盎司稳态。Absa与Nedbank合计约9700万澳元融资包覆盖建设和爬坡，公司已分两次提取约5000万澳元；矿石委托Sibanye-Stillwater的Ezulwini选厂处理。上述时间和产能均为管理层目标。",
+      "importance": "融资提款把爬坡从筹资设想推进到执行阶段，但首金并不代表稳定黄金供应已经形成。首个商业采场是2027年的关键验证点：只有矿石量、品位与代加工回收持续达到计划，后续稳态目标才具备依据。代加工省去新选厂建设，同时使供应兑现依赖外部处理能力和合同履约。",
+      "verification_status": "verified",
+      "verification_note": "Crux公开完整访谈配套文章HTTP200，显示24日但无可靠时刻；已读建设、融资及爬坡段，未声称观看视频。9700万澳元为含营运资金和超支额度的融资包，7万盎司为项目稳态目标，不是当前产量或公司权益产量。",
+      "guest": {
+        "name": "Rudi Deysel",
+        "background": "West Wits Mining首席执行官兼董事总经理"
+      },
+      "companies": [
+        "West Wits Mining",
+        "Sibanye-Stillwater"
+      ],
+      "projects": [
+        "Qala Shallows"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-24",
+      "claims": [
+        {
+          "claim": "Omai现场钻机数量。",
+          "evidence": "six drill rigs",
+          "source_url": "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
+          "evidence_type": "public_source_text",
+          "period": "访谈所述现场状态",
+          "unit": "台钻机",
+          "value": 6
+        },
+        {
+          "claim": "Sun Valley样品处理流程规模。",
+          "evidence": "3,000 soil samples a month",
+          "source_url": "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
+          "evidence_type": "public_source_text",
+          "period": "访谈所述取样流程",
+          "unit": "soil samples/month",
+          "value": 3000
+        },
+        {
+          "claim": "Sun Valley预期上市窗口。",
+          "evidence": "last week of October",
+          "source_url": "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
+          "evidence_type": "public_source_text",
+          "period": "嘉宾上市预期",
+          "unit": "时间",
+          "value": "2026年10月最后一周"
+        }
+      ],
+      "title": "Compass访谈：Omai六台钻机运行，Sun Valley拟于10月底上市并推进钻探验证",
+      "source_type": "youtube",
+      "summary": "Olive Resource Capital的Derek Macpherson与Samuel Pelaez在Compass访谈配套文章中介绍，Omai现场有六台钻机运转；Sun Valley已提交最终招股书及更新技术报告，拟以SUNV代码在10月最后一周上市并推进钻探验证。Pelaez称Sun Valley已建立每月3000件土样的处理流程与内部实验室，同时向独立实验室送样。两位嘉宾及基金均持有相关公司权益。",
+      "importance": "两地项目的新增信号是勘探执行能力与融资入口改善，不能把现场工作量换算成新增黄金供给。六台钻机扩大Omai的验证速度，Sun Valley的上市和样品处理体系则有助于衔接后续钻探；但资源增量仍须由独立化验、连续性和合规资源估算确认。嘉宾兼具董事及持仓身份，判断应与发行人后续披露交叉核对。",
+      "verification_status": "verified",
+      "verification_note": "Crux公开配套文章HTTP200，显示24日，已核对嘉宾、实地访问说明及利益披露；节目记录于21日，采用24日公开文章的发布日期。仅使用可读配套文字，不声称观看视频；上市为计划，未宣称已开始交易。",
+      "guest": {
+        "name": "Derek Macpherson、Samuel Pelaez",
+        "background": "Olive Resource Capital管理层，分别兼任Omai及Sun Valley董事并持有相关权益"
+      },
+      "companies": [
+        "Olive Resource Capital",
+        "Omai Gold Mines",
+        "Sun Valley Minerals"
+      ],
+      "projects": [
+        "Omai",
+        "Sun Valley"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://mining.com.au/copper-price-rebounds-as-inventories-stock-markets-stabilise/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-23T18:17:01+00:00",
+      "claims": [
+        {
+          "claim": "LME铜日度库存增加。",
+          "evidence": "rose by 800 tonnes",
+          "source_url": "https://mining.com.au/copper-price-rebounds-as-inventories-stock-markets-stabilise/",
+          "evidence_type": "public_source_text",
+          "period": "2026-10-23日变动",
+          "unit": "tonnes copper",
+          "value": 800
+        },
+        {
+          "claim": "LME铜总库存。",
+          "evidence": "273,750 tonnes",
+          "source_url": "https://mining.com.au/copper-price-rebounds-as-inventories-stock-markets-stabilise/",
+          "evidence_type": "public_source_text",
+          "period": "2026-10-23总库存",
+          "unit": "tonnes copper",
+          "value": 273750
+        },
+        {
+          "claim": "上期所注册仓库铜库存周度降幅。",
+          "evidence": "tumbled by 26.5%",
+          "source_url": "https://mining.com.au/copper-price-rebounds-as-inventories-stock-markets-stabilise/",
+          "evidence_type": "public_source_text",
+          "period": "截至2026-10-23一周",
+          "unit": "% week-on-week",
+          "value": -26.5
+        }
+      ],
+      "source": "Reuters（Mining.com.au公开转载）",
+      "title": "Reuters：LME铜库存增800吨至27.375万吨，沪铜周库存下降26.5%",
+      "excerpt": "Reuters报道，周五LME铜总库存增加800公吨至273750公吨，较此前一周约两成的累库速度放缓；上海期货交易所注册仓库铜库存同期周降26.5%。报道将美国囤铜与潜在关税预期联系起来，并提示未来重新出口可能改变其他地区货源；该判断不等于已经发生再出口。这里的沪铜数据为仓库库存，不能与每日仓单余额混用。",
+      "language": "en",
+      "importance": "海外累库放缓与中国去库并存，说明全球库存总量和地区可获得性仍需分开判断。800公吨的单日增加不足以确认此前库存流入已经逆转，国内周度下降也不能直接归因为终端消费增长。后续需同时观察美国货源是否外流、进口清关及连续数周库存变化，才能判断区域紧张是否缓解。",
+      "verification_status": "verified",
+      "verification_note": "Mining.com.au公开完整Reuters稿HTTP200，核对作者、LME总量及日变动、SHFE周降幅。页面可见日期24日，article:published_time及JSON-LD为23日18:17:01Z，折算北京24日02:17:01入窗；不以价格反弹作为入选理由。",
+      "mining_com_source_note": "Mining.com金/银/铜分类页24日均为完整零结果；另行核对欧美23日晚跨时区新闻。采用Mining.com.au可读Reuters全文及明确时间元数据，不把Mining.com首页403或搜索摘要当正文。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.gelonghui.com/live/2727149",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-10-24",
+      "claims": [
+        {
+          "claim": "ICSG所述8月全球精炼铜平衡。",
+          "evidence": "2026年8月全球精炼铜市场供应过剩13.2万吨。",
+          "source_url": "https://www.gelonghui.com/live/2727149",
+          "evidence_type": "public_source_text",
+          "period": "2026-08",
+          "unit": "万吨精炼铜",
+          "value": 13.2
+        }
+      ],
+      "source": "格隆汇（转引ICSG）",
+      "title": "格隆汇转引ICSG：8月全球精炼铜市场供应过剩13.2万吨",
+      "excerpt": "格隆汇24日公开快讯转引国际铜研究组织（ICSG）称，2026年8月全球精炼铜市场供应过剩13.2万吨。该快讯没有提供产量、消费量及调整口径明细，不据此补写其他月份或累计数据。",
+      "language": "zh",
+      "importance": "这一月度盈余削弱了将精矿偏紧直接外推为近端精炼铜短缺的依据，两段市场的供给约束并不等同。8月统计与10月现货市场存在时滞，全球汇总也无法解释地区间可交付货源差异；应以原始月报口径及后续连续库存变化验证盈余是否持续，而非仅凭单月数字判断矿端压力已经消失。",
+      "verification_status": "verified",
+      "verification_note": "格隆汇具体快讯公开HTTP200，已核对可见24日日期、ICSG归属、2026年8月及13.2万吨；仅日期精度。ICSG官网返回访问检查页，未继续浏览器挑战；SMM原URL普通读取空白，均未声称读取到原始月报，采用可见第三方归属。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Korelin节目首页与22—24日公司访谈：核验23日Magna、24日Weekend Show配套文字；Aztec与Metallic Minerals与前两日报去重。",
+      "Crux首页最新文章及视频：核验24日West Wits与Compass配套长文；Cobra、Granada及Koryx已在23日日报收录，不重复。",
+      "Mining Stock Daily / Clear Commodity节目目录：核验23日Michael Howell文字；以流动性和价格观点为主，缺乏新增可量化实物供需事实，排除。22日Meridian、Valhalla、Tudor与前两日报去重。",
+      "Resource Talks / Clear Commodity 23日Atico节目页：页面有嘉宾身份、章节时间戳和利益披露，缺少实际观点文字；未听取音视频，不根据标题或问题推测供需事实。",
+      "检索Sprott Insights、Kitco Mining、Soar Financial与Rick Rule在22—24日发布的金银铜访谈；Sprott目录可见最新银访谈为20日，不因检索命中而刷新日期。未找到额外可核验合格信号。",
+      "会议补查LME Week 19—23日相关访谈、Triland Global Metals Outlook报道与主办方/参会方检索；S&P Global原文403且无可读全文，不将摘要写成事实。",
+      "New Orleans主办方官网及24日Korelin节目确认大会在28—31日，尚未进入会前1日窗口；中国国际矿业大会现行官网china-mining.org.cn确认本年9月10—12日，旧CSV的10月近似月份不作实际会期。"
+    ],
+    "part1_result": "三日访谈检索完整结束，纳入3条有公开配套文字的访谈。只使用已读文字，不宣称收听或观看；已与22日、23日成品按URL、项目与事实去重。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "mining.com /commodity/copper/：固定Python、Chromium headless Playwright强制分类发现HTTP200，Copper Archives，body_chars=6876，24日文章0条，extraction_status=success_empty。",
+      "mining.com /commodity/gold/、/commodity/silver/：普通网页读取均403，流水线Playwright分别HTTP200，正文6721/6805字符，24日各0条，完整成功。",
+      "Google辅助site:mining.com gold \"October 24, 2026\"：原始命中1条，为6月25日Seahawk融资稿、24日只是限售到期日，目标日期文章0条。",
+      "Google辅助site:mining.com silver \"October 24, 2026\"：原始命中1条，同为6月25日Seahawk旧稿，目标日期文章0条；不替代铜分类发现。",
+      "欧美23日晚跨时区补查Reuters、Mining.com及Mining.com.au：Reuters库存稿在Mining.com.au公开HTTP200，18:17:01Z折算24日02:17:01，核对LME总量、日变动和SHFE周降幅。",
+      "ICSG官网普通读取为One moment访问检查页，停止该路径；SMM 104176869普通读取空白，不作已核验正文。格隆汇2727149公开HTTP200，24日、ICSG归属、8月13.2万吨完整可见，采用该具体快讯，不补写原始月报细项。",
+      "中文关键词检索铜、黄金、白银、产量、供需与24日日期；核验东方财富24日转载金饰消费报道，再追21世纪经济报道原文，首发22日23:07，排除旧闻。",
+      "紫金三季报24日公告版本与23日日报同一披露去重；Newmont季度和Red Chris扩建也已在23日日报收录，不因海外转载再次计数。",
+      "Chile铜产量8%—9%降幅24日媒体稿追到Bloomberg Línea22日首发，排除旧事件；Mogotes La Perla及Fitzroy靶区文章分别基于21日、22日披露，不因Crux24日/23日文章日期刷新。",
+      "Highland Valley罢工追踪：Teck更新24日15:18ET折算25日03:18，超出24日窗口；此前罢工通知已见22日日报，不将预告当作窗口内已发生停产。"
+    ],
+    "part3_result": "中英文新闻检索及Mining三分类强制发现完整结束，纳入2条：跨时区Reuters库存更新与24日ICSG平衡快讯。价格复述、旧数据转载、未读原文及25日发布的Teck更新均排除。",
+    "mining_com_source_note": "三分类结果及provenance保存在.runtime/pipeline/2026-10-24/2026-10-24-20261024T230131338465Z-44636/；铜主路径成功且24日真实零结果。Reuters采用Mining.com.au可读全文核验；未把Mining.com首页403、Google辅助旧稿或摘要作为正文证据，未使用RSS、sitemap或Wayback。",
+    "new_sources_discovered": [
+      "Rudi Deysel / West Wits Mining：Crux公开访谈配套文章，24日日期与建设融资段已核验。",
+      "Derek Macpherson、Samuel Pelaez / Olive Resource Capital Compass：Crux公开配套文章，24日日期、Omai及Sun Valley现场信息与利益披露已核验。"
+    ],
+    "url_verification": {
+      "checked": 5,
+      "passed": 5,
+      "failed": 0,
+      "failures": [],
+      "notes": "5张入选卡均为实际打开的具体公开页面HTTP200，标题、主体、日期和采用事实已核对；claims引句由builder逐字绑定同URL本地保存文本。被排除或只作发现的不可读页面不计为入选来源通过。访谈未声称收听音视频，第三方转引保留原始资料不可读限制。"
+    },
+    "part2_coverage": {
+      "status": "complete",
+      "accounts_total": 24,
+      "accounts_completed": 24,
+      "accounts_failed": 0,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [],
+      "notes": []
+    },
+    "part2_searched": true,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "Peter Krauth (@peter_krauth)",
+      "Lobo Tiggre (@duediligenceguy)",
+      "Brian Leni (@Junior_Stock)",
+      "Kai Hoffmann (@soarfinancial)",
+      "Walter Coles Jr. (@WalterColesJr)",
+      "Ivan Bebek (@ivanbebek)",
+      "Ivanhoe Mines (@IvanhoeMines_)",
+      "Freeport-McMoRan (@FreeportMcMoRan)",
+      "Newmont (@NewmontCorp)",
+      "Barrick Gold (@BarrickGold)",
+      "Teck Resources (@TeckResources)",
+      "Antofagasta (@AntofagastaPLC)",
+      "Lundin Mining (@LundinMining)",
+      "Agnico Eagle (@AgnicoEagle)",
+      "First Majestic Silver (@FirstMajestic)",
+      "Pan American Silver (@PanAmericanSlvr)",
+      "Wheaton Precious Metals (@Wheaton_PM)",
+      "Endeavour Mining (@EndeavourMining)",
+      "SSR Mining (@SSRMining)",
+      "Kinross Gold (@KinrossGold)",
+      "Sandstorm Gold (@SandstormGold)",
+      "Fortuna Mining (@Fortuna_Silver)",
+      "GoGold Resources (@GoGoldResources)",
+      "Vizsla Silver (@vizslasilver)"
+    ],
+    "part2_result": "固定Python、项目持久化会话，Playwright按注册表顺序串行采集完成24/24账号；status=complete，attempted_channels=['playwright']，selected_channel=playwright，accounts_failed=0。全部账号有真实完成证据，窗口内原帖候选1条、入选0条；Kinross Tasiast学徒培训候选不提供新增实物供需事实，已排除。未启动twscrape，因为Playwright已完整成功。保留TXT、sidecar、SHA-256及checkpoint。"
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/meridian-minings-next-big-catalyst-financing-cabacal",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/two-vms-projects-one-big-alaska-opportunity-valhalla-metals-in-the-ambler-district",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/tudor-gold-expands-perfectstorm-drilling-as-goldstorm-pea-nears",
+      "https://www.kereport.com/2026/10/23/aztec-minerals-drilling-extends-north-extension-by-190-meters-ahead-of-maiden-resource-estimate/",
+      "https://www.kereport.com/2026/10/22/metallic-minerals-initiatives-at-la-plata-copper-silver-pgm-keno-silver-and-klondike-alluvial-gold-projects/",
+      "https://www.cruxinvestor.com/posts/cobra-confirms-shallow-copper-at-manna-hill-as-porphyry-case-strengthens",
+      "https://www.cruxinvestor.com/posts/granada-golds-2026-reset-new-leadership-a-planned-drilling-return-and-capital-discipline",
+      "https://www.cruxinvestor.com/posts/koryx-copper-seeks-re-rating-as-upsized-haib-pfs-nears-completion"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/kinrossgold/status/2113731959449120924"
+    ],
+    "part3_deduped_events": [
+      "紫金三季报与Newmont季度/Red Chris工程沿用23日日报已收录事实，排除重复转载。",
+      "Magna Crean Hill既有PFS模型不重复作新闻；本期访谈仅突出Levack衔接、双线开发和新靶区工作。",
+      "21世纪经济报道金饰消费原文22日、Chile产量预估原文22日、Mogotes La Perla披露21日、Fitzroy靶区披露22日，均不因较晚转载刷新日期。",
+      "HVC通知为旧闻，Teck已启动罢工更新的发布时间属于北京时间25日；预告和实际进展不混写。"
+    ],
+    "notes": "冻结RUN_DATE=2026-10-25、REPORT_DATE=2026-10-24、Asia/Shanghai；Part1为22—24日，Part2/3仅24日，跨午夜不重算。周日不更新TC。19项用户既有改动按字节保留并排除；父包装持锁并负责最终验收，不递归调用run_scheduled_daily.py、不另启AI runner、不继承PiChrome跨进程授权。"
+  }
+}
