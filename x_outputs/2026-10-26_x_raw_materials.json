@@ -1,0 +1,86 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-26",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-476eb8615fde5e166a845a88",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-26T14:46:45+00:00",
+      "text": "This explainer needs updating for all the new features we keep adding, but it still shows how My Take is not just a newsletter...\n\nhttps://\nindependentspeculator.com/reports/the-mu\nst-have-tool-for-resource-investors\n…",
+      "url": "https://x.com/duediligenceguy/status/2114730457505968171",
+      "collector": "x_search",
+      "report_date": "2026-10-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1d4e9ca37232a0a9d866cbf5",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-26T14:24:15+00:00",
+      "text": "https://\nindependentspeculator.com/sd/the-digest/\ngold-below-dollar4000...-am-i-buying-yet\n…",
+      "url": "https://x.com/duediligenceguy/status/2114724793199022204",
+      "collector": "x_search",
+      "report_date": "2026-10-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9415b86ad4b4f29810204ce9",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-26T14:13:13+00:00",
+      "text": "I agree on the supply side.\n\nMassive demand destruction would do the trick...\n\nBut who wants to pay that price?",
+      "url": "https://x.com/duediligenceguy/status/2114722018612687186",
+      "collector": "x_search",
+      "report_date": "2026-10-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-11e134b197d4dcc1ccbf1bd0",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-26T13:30:13+00:00",
+      "text": "Not the best outcome for mining in Brazil...",
+      "url": "https://x.com/duediligenceguy/status/2114711195622240659",
+      "collector": "x_search",
+      "report_date": "2026-10-26",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-6432ac0448aa0ec4eea9d03d",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-25T16:34:18+00:00",
+      "text": "https://\nindependentspeculator.com/sd/the-digest/\ngold-below-dollar4000...-am-i-buying-yet\n…",
+      "url": "https://x.com/duediligenceguy/status/2114395136205676851",
+      "collector": "x_search",
+      "report_date": "2026-10-26",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "bb3edc5aca7498dda8af09143ccdd207ab93a9a7d0e34e069543ee092a95e3b2"
+  }
+}

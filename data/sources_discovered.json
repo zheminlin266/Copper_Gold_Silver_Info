@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-15",
+  "last_updated": "2026-10-27",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -1534,6 +1534,27 @@
       "category": "矿业董事/实地访问访谈配套文字",
       "channel": "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
       "notes": "2026-10-25研究24日日报时核验：Crux公开配套文章HTTP200，24日日期；Omai六台钻机、Sun Valley样品处理及上市预期可读，嘉宾兼具董事及持仓身份；未声称观看节目。"
+    },
+    {
+      "source_id": "source-denarius-issuer",
+      "display_name": "Denarius Metals（PRNewswire发行人公告）",
+      "category": "矿业公司官方公告",
+      "channel": "https://www.prnewswire.com/news-releases/denarius-metals-announces-further-ramp-up-in-its-third-quarter-and-first-nine-months-2026-production-results-from-its-zancudo-project-in-colombia-302918865.html",
+      "notes": "2026-10-27研究26日日报时核验公开HTTP200原稿及07:00ET；矿料、含金属与应付金银分开，Monserrat 2027Q1为公司目标。"
+    },
+    {
+      "source_id": "source-getty-copper-issuer",
+      "display_name": "Getty Copper官方公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://gettycopper.com/getty-hits-new-copper-zone-at-getty-south-drilling-160-metres-grading-0-32-copper/",
+      "notes": "2026-10-27研究26日日报时核验公开HTTP200原文、16:35北京时间元数据；钻孔长度与真实厚度未知分开，未把伴生银提及自动标为实质标签。"
+    },
+    {
+      "source_id": "source-sean-whiteford-nexmetals",
+      "display_name": "Sean Whiteford（NexMetals Mining CEO）",
+      "category": "矿业公司管理层/铜镍项目访谈",
+      "channel": "https://nexmetalsmining.com/",
+      "notes": "2026-10-26新Crux访谈及官方20日公告直接读取核验；视频D9CGKftqyuw原始HTML发布时间为2026-10-26T06:53:16-07:00。人物及公司均未出现在已有sources_discovered.entries；Crux渠道本身不重复登记。"
     }
   ]
 }
