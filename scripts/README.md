@@ -11,6 +11,24 @@
 - `run_scheduled_daily.py`：独立调度入口，记录阶段/心跳并验证发布；脚本存在不代表 Windows 计划任务已注册。
 - `check_daily_health.py`：只读检查最近应有日报及本地保存的业务验证证据，JSON 告警和非零退出不触发补跑、网络请求或任何外部通知。
 
+## 云端 / Linux 运行
+
+使用实际云端执行器中已确认的 Node.js 24 和 Python 3.12 虚拟环境。下文 Windows 路径是既有环境示例，不能原样用于 Linux；在已激活的 Python 3.12 环境中使用 `python -B`。包装入口按操作系统选择 Windows 的 `npm.cmd` 或 Linux/macOS 的 `npm`，保留当前解释器和 PATH；`--verify-only` 不启动 AI、采集或 Git 写入。
+
+目标日报已经存在时，使用实际日期验证已有发布：
+
+```bash
+python -B scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD
+```
+
+`daily_pipeline.py` 和 report builder 仍拒绝覆盖已有日报。重复执行不授予重采集、替换或推送权限；不要移走成品绕过保护。用户明确要求重新研究或纠错时，保留原报告与原始材料，在独立运行目录保存新证据，再按工作流的内容纠错 / PR 流程处理。`--verify-only` 成功只验证现有成品，不能当作新采集成功或新发布。
+
+Mining 的隔离 Chromium 自动使用当前配置的 `HTTPS_PROXY` / `HTTP_PROXY`（兼容小写变量）和 `NO_PROXY`，不再需要临时 Chrome shell 包装器；代理认证与服务地址分开传递，不输出凭据，不关闭 TLS 校验。POSIX 下过深的临时目录只会在浏览器子进程中改用短 socket 目录，主进程和证据目录保持原配置。`CHROME_EXECUTABLE` 和 `PLAYWRIGHT_BROWSERS_PATH` 继续支持已安装浏览器；脚本不会自动下载浏览器或修改网络权限。
+
+分类采集默认将截图、可见正文（仅可读时）、采集时刻、HTTP 状态和文件 SHA-256 保存到新的 `.runtime/mining/YYYY-MM-DD/` 目录。流水线通过 `--output-dir` 将这些证据保存在各自运行目录，并把证据路径及真实错误写入 collector result。403、429、HTTP 200 的访问 challenge、浏览器启动失败和不完整页面都返回失败，不自动重试，也不能记为完整零结果。截图失败会单独记录。
+
+访问限制需要可用的官方云端访问能力或已有合格证据，不能靠切换代理、复制本机 profile/cookies、关闭 TLS 或改写成功状态解决。仅在同日、同注册表的完整 Mining 产物确实存在于执行器时，才使用下文 `--reuse-mining` 离线恢复；历史日报中的文字说明不等于已交接的原始证据。云端 `--verify-only` 可用也不代表完整日报调度、X 登录或发布链路已验收。
+
 ## 确定性流水线
 
 ```bash

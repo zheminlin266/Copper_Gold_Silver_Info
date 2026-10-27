@@ -9,6 +9,7 @@ import tempfile
 from datetime import date
 from pathlib import Path
 from typing import Any, Callable, TextIO
+from urllib.parse import unquote, urlsplit
 
 _REPORT_DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}")
 _DEFAULT_CHROME_EXECUTABLE = Path("C:/Program Files/Google/Chrome/Application/chrome.exe")
@@ -49,6 +50,41 @@ def resolve_chrome_executable() -> str | None:
     if _DEFAULT_CHROME_EXECUTABLE.is_file():
         return str(_DEFAULT_CHROME_EXECUTABLE)
     return None
+
+
+def chromium_launch_options(*, headless: bool = True, args: tuple[str, ...] = ()) -> dict[str, Any]:
+    """Use the configured browser and proxy without changing process-wide settings."""
+    options: dict[str, Any] = {"headless": headless, "args": list(args)}
+    executable = resolve_chrome_executable()
+    if executable:
+        options["executable_path"] = executable
+    proxy_url = next((os.environ[name] for name in
+                      ("https_proxy", "HTTPS_PROXY", "http_proxy", "HTTP_PROXY")
+                      if os.environ.get(name)), None)
+    if proxy_url:
+        try:
+            proxy = urlsplit(proxy_url if "://" in proxy_url else "http://" + proxy_url)
+            if (proxy.scheme not in {"http", "https", "socks5"} or not proxy.hostname
+                    or proxy.path not in {"", "/"} or proxy.query or proxy.fragment):
+                raise ValueError
+            host = f"[{proxy.hostname}]" if ":" in proxy.hostname else proxy.hostname
+            server = f"{proxy.scheme}://{host}" + (f":{proxy.port}" if proxy.port else "")
+        except ValueError:
+            raise ValueError("Invalid HTTP(S) proxy configuration for Chromium") from None
+        settings = {"server": server}
+        if proxy.username is not None:
+            settings["username"] = unquote(proxy.username)
+        if proxy.password is not None:
+            settings["password"] = unquote(proxy.password)
+        bypass = os.environ.get("no_proxy") or os.environ.get("NO_PROXY")
+        if bypass:
+            settings["bypass"] = bypass
+        options["proxy"] = settings
+    # Chrome creates SingletonSocket below TMPDIR. Deep workspace paths can
+    # exceed the Unix socket limit; only its child process needs a short root.
+    if os.name == "posix" and len(os.fsencode(tempfile.gettempdir())) > 48 and Path("/tmp").is_dir():
+        options["env"] = dict(os.environ, TMPDIR="/tmp")
+    return options
 
 
 async def is_x_authenticated(page: Any) -> bool:
