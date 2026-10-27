@@ -1,0 +1,102 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-25",
+  "status": "partial",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright",
+    "twscrape"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 23,
+  "accounts_failed": 1,
+  "channel_completed_accounts": {
+    "playwright": 23,
+    "twscrape": 0
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-d30a0db16b650126545404f4",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-25T13:13:47+00:00",
+      "text": "Mining costs have very little correlation with metals prices and hence share prices.\n\nNot until years down the road, when low prices (relative to those higher costs) eventually cure low prices.\n\nIMO, if this hurts higher-cost producers now, that's a good reason to avoid them.",
+      "url": "https://x.com/duediligenceguy/status/2114344673556713840",
+      "collector": "x_search",
+      "report_date": "2026-10-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-a2810d5961bf2c7de86a1fc5",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-25T02:20:50+00:00",
+      "text": "But the Fed might hike another 25bp!!\n\nGold doesn't pay interest!!!\n\n;-{)}",
+      "url": "https://x.com/duediligenceguy/status/2114180354470973718",
+      "collector": "x_search",
+      "report_date": "2026-10-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-74750f63611f95ac3fe91307",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-24T22:22:32+00:00",
+      "text": "https://\nindependentspeculator.com/sd/the-digest/\ngold-below-dollar4000...-am-i-buying-yet\n…",
+      "url": "https://x.com/duediligenceguy/status/2114120383825912117",
+      "collector": "x_search",
+      "report_date": "2026-10-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5b8f36bb0e00edc4642628c5",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-24T17:28:01+00:00",
+      "text": "I'm already buying uranium stocks again.\n\nIf you mean gold and silver, that's the main subject of today's forthcoming free edition...\n:-{)}",
+      "url": "https://x.com/duediligenceguy/status/2114046266128916763",
+      "collector": "x_search",
+      "report_date": "2026-10-25",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ca4276840ad5df99418ef448",
+      "source_id": "x-teckresources",
+      "author": "Teck Resources",
+      "handle": "TeckResources",
+      "publish_time": "2026-10-24T19:23:27+00:00",
+      "text": "Teck Provides Update on Highland Valley Copper Operations \nhttps://\now.ly/iS6s5100LTq \n$TECK",
+      "url": "https://x.com/TeckResources/status/2114075315551035618",
+      "collector": "x_search",
+      "report_date": "2026-10-25",
+      "status": "ok"
+    }
+  ],
+  "errors": [
+    {
+      "source_id": "x-duediligenceguy",
+      "handle": "duediligenceguy",
+      "author": "Lobo Tiggre",
+      "error": "No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown"
+    }
+  ],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 23,
+      "twscrape": 0
+    },
+    "channel_errors": [
+      "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; diagnostics=.runtime/x-diagnostics/20261025T230227291536Z-29540/failure.json",
+      "twscrape @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+      "twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+      "@duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown"
+    ],
+    "channel_error": "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; diagnostics=.runtime/x-diagnostics/20261025T230227291536Z-29540/failure.json; twscrape @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+    "raw_sha256": "db6bb1d50c2fe42bca0292fe12acc73130e994b5ae9a064e654e4464fbe216a1"
+  }
+}

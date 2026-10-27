@@ -1,0 +1,68 @@
+X 原始候选 — 2026-10-25
+采集时间: 2026-10-26T07:01:25.481910+08:00
+选定通道: playwright
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 23/24 完成，失败 1
+各通道完成账户数: {"playwright": 23, "twscrape": 0}
+采集状态: partial
+失败账号数: 1
+通道错误: playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; diagnostics=.runtime/x-diagnostics/20261025T230227291536Z-29540/failure.json; twscrape @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown
+失败账号:
+  @duediligenceguy (Lobo Tiggre): No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown
+============================================================
+
+总计候选: 5 条
+
+============================================================
+
+[1] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-25T13:13:47+00:00
+    北京: 2026-10-25T21:13:47+08:00
+    文本: Mining costs have very little correlation with metals prices and hence share prices.
+
+Not until years down the road, when low prices (relative to those higher costs) eventually cure low prices.
+
+IMO, if this hurts higher-cost producers now, that's a good reason to avoid them.
+    链接: https://x.com/duediligenceguy/status/2114344673556713840
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-25T02:20:50+00:00
+    北京: 2026-10-25T10:20:50+08:00
+    文本: But the Fed might hike another 25bp!!
+
+Gold doesn't pay interest!!!
+
+;-{)}
+    链接: https://x.com/duediligenceguy/status/2114180354470973718
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-24T22:22:32+00:00
+    北京: 2026-10-25T06:22:32+08:00
+    文本: https://
+independentspeculator.com/sd/the-digest/
+gold-below-dollar4000...-am-i-buying-yet
+…
+    链接: https://x.com/duediligenceguy/status/2114120383825912117
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-24T17:28:01+00:00
+    北京: 2026-10-25T01:28:01+08:00
+    文本: I'm already buying uranium stocks again.
+
+If you mean gold and silver, that's the main subject of today's forthcoming free edition...
+:-{)}
+    链接: https://x.com/duediligenceguy/status/2114046266128916763
+
+[5] @TeckResources (Teck Resources)
+    UTC: 2026-10-24T19:23:27+00:00
+    北京: 2026-10-25T03:23:27+08:00
+    文本: Teck Provides Update on Highland Valley Copper Operations 
+https://
+ow.ly/iS6s5100LTq 
+$TECK
+    链接: https://x.com/TeckResources/status/2114075315551035618
+
