@@ -32,7 +32,7 @@ except ModuleNotFoundError:
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 RUNTIME_ROOT = PROJECT_ROOT / ".runtime" / "pipeline"
 TZ_BEIJING = timezone(timedelta(hours=8))
-METALS = ("gold", "silver", "copper")
+METALS = ("copper", "gold", "silver")
 X_TIMEOUT_SECONDS = 3600
 MINING_TIMEOUT_SECONDS = 300
 
@@ -167,22 +167,28 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
     exit_codes: list[int] = []
     for metal in METALS:
         stem = f"mining_{metal}"
-        command = [sys.executable, str(project_root / "scripts" / "mining_com_search.py"), report_date, "--metal", metal]
+        evidence_dir = run_dir / f"{stem}.evidence"
+        command = [sys.executable, str(project_root / "scripts" / "mining_com_search.py"), report_date,
+                   "--metal", metal, "--output-dir", str(evidence_dir)]
         returncode, stdout, stderr, process_error = _run_process(
             command, cwd=project_root, run_dir=run_dir, stem=stem, timeout=MINING_TIMEOUT_SECONDS,
         )
         stdout_artifact, stderr_artifact = _write_process_artifacts(run_dir, stem, stdout, stderr)
         artifacts.extend((stdout_artifact, stderr_artifact))
+        if evidence_dir.is_dir():
+            artifacts.extend(str(path.relative_to(run_dir)) for path in sorted(evidence_dir.iterdir())
+                             if path.is_file() and not path.is_symlink())
         stdout_parts.append(f"[{metal}]\\n{stdout}")
         stderr_parts.append(f"[{metal}]\\n{stderr}")
         exit_codes.append(returncode)
-        if process_error or returncode != 0:
-            errors.append(f"{metal}: {process_error or f'collector exited with status {returncode}'}")
-            continue
         try:
             result = json.loads(stdout)
             if not isinstance(result, Mapping):
                 raise ValueError("collector output is not an object")
+            if process_error or returncode != 0:
+                detail = process_error or result.get("error") or f"collector exited with status {returncode}"
+                errors.append(f"{metal}: {detail}")
+                continue
             if result.get("status") != "ok" or result.get("extraction_status") not in {"success", "success_empty"}:
                 raise ValueError(str(result.get("error") or "collector did not report a complete success"))
             articles = result.get("articles")
@@ -197,7 +203,7 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
                 seen_source_urls.add(source_key)
                 all_candidates.append(candidate)
         except (json.JSONDecodeError, ValueError, TypeError, ContractError) as error:
-            errors.append(f"{metal}: invalid or failed collector result: {error}")
+            errors.append(f"{metal}: {process_error or f'invalid or failed collector result: {error}'}")
     status = "complete" if not errors and all(code == 0 for code in exit_codes) else "failed"
     return CollectorResult(
         collector="mining_com_search",
@@ -454,7 +460,11 @@ def run_pipeline(
                 locks.enter_context(exclusive_lock(root / ".runtime" / "locks" / f"pipeline-{parsed_date}-{name}.lock"))
         final_path = root / "data" / f"{parsed_date}.json"
         if final_path.exists():
-            raise PipelineError(f"Refusing to run because final report already exists: {final_path}")
+            raise PipelineError(
+                f"Refusing to collect or overwrite because final report already exists: {final_path}. "
+                f"Verify the existing publication with scripts/run_scheduled_daily.py "
+                f"--verify-only --report-date {parsed_date}; a rerun does not authorize replacement."
+            )
         try:
             registry = load_registry(root / "data" / "source_registry.json")
         except Exception as error:

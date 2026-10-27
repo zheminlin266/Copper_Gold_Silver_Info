@@ -32,7 +32,7 @@ TC_PATH = "data/smm_copper_concentrate_index_2026.csv"
 # Socket timeouts alone do not stop a slow-drip body. Run the whole request in
 # the existing supervised process tree, with an absolute remaining-time budget.
 FETCH_PAGE_CODE = """
-import json, sys
+import gzip, io, json, sys
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 request = Request(sys.argv[1], headers={
@@ -40,6 +40,9 @@ request = Request(sys.argv[1], headers={
 try:
     with urlopen(request, timeout=float(sys.argv[2])) as response:
         body = response.read(8 * 1024 * 1024 + 1)
+        if len(body) <= 8 * 1024 * 1024 and (response.headers.get("Content-Encoding", "").lower() == "gzip" or body.startswith(b"\\x1f\\x8b")):
+            with gzip.GzipFile(fileobj=io.BytesIO(body)) as compressed:
+                body = compressed.read(8 * 1024 * 1024 + 1)
         result = ({"oversized": True} if len(body) > 8 * 1024 * 1024
                   else {"status": response.status, "text": body.decode("utf-8")})
 except HTTPError as error:
@@ -355,9 +358,11 @@ def main(argv: list[str] | None = None) -> int:
             env = os.environ.copy()
             env.pop("NODE_OPTIONS", None)
             env["PYTHONIOENCODING"] = "utf-8"
-            env["PATH"] = os.pathsep.join([
-                str(Path.home() / "AppData/Roaming/npm"), r"C:\Program Files\nodejs",
-                r"C:\Program Files\Git\cmd", r"C:\Program Files\GitHub CLI", env.get("PATH", "")])
+            if os.name == "nt":
+                env["PATH"] = os.pathsep.join([
+                    str(Path.home() / "AppData/Roaming/npm"), r"C:\Program Files\nodejs",
+                    r"C:\Program Files\Git\cmd", r"C:\Program Files\GitHub CLI", env.get("PATH", "")])
+            npm = "npm.cmd" if os.name == "nt" else "npm"
             persist()
             with (run_dir / "wrapper.log").open("a", encoding="utf-8") as log:
                 def stage(label, action):
@@ -407,11 +412,11 @@ def main(argv: list[str] | None = None) -> int:
                         "verified_tc_sha256": hashlib.sha256((ROOT / TC_PATH).read_bytes()).hexdigest(),
                     }
                     checks = [
-                        ("validate:content", ["npm.cmd", "run", "validate:content"]),
-                        ("typecheck", ["npm.cmd", "run", "typecheck"]),
+                        ("validate:content", [npm, "run", "validate:content"]),
+                        ("typecheck", [npm, "run", "typecheck"]),
                         ("python-tests", [sys.executable, "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"]),
-                        ("npm-test", ["npm.cmd", "test"]),
-                        ("build", ["npm.cmd", "run", "build"]),
+                        ("npm-test", [npm, "test"]),
+                        ("build", [npm, "run", "build"]),
                     ]
                     for label, command in checks:
                         stage(label, lambda command=command: execute(command, log, timeout=args.command_timeout, heartbeat=heartbeat, env=env))

@@ -1,5 +1,6 @@
 """Wrapper checks: no AI, X or external network; HTTP regressions use localhost."""
 import base64
+import gzip
 import hashlib
 from contextlib import contextmanager
 from datetime import datetime, timezone
@@ -97,6 +98,11 @@ class ScheduledDailyTests(unittest.TestCase):
         commands = [call.args[0] for call in execute.call_args_list]
         self.assertFalse(any("opencode" in command[0] for command in commands))
         self.assertEqual(len(commands), 10)
+        npm = "npm.cmd" if daily.os.name == "nt" else "npm"
+        self.assertIn([npm, "run", "validate:content"], commands)
+        self.assertIn([npm, "run", "build"], commands)
+        if daily.os.name != "nt":
+            self.assertNotIn("C:\\Program Files\\nodejs", execute.call_args.kwargs["env"]["PATH"])
         with patch.object(daily, "datetime") as clock:
             clock.now.return_value = datetime(2026, 9, 30, tzinfo=daily.BEIJING)
             self.assertEqual(daily.main([]), 0)
@@ -371,6 +377,35 @@ class ScheduledDailyTests(unittest.TestCase):
                     self.assertTrue(requested.is_set(), "Test must reach the slow-drip body")
         finally:
             stop.set()
+            server.shutdown()
+            thread.join(2)
+            server.server_close()
+
+    def test_real_http_gzip_is_decoded_and_expansion_is_bounded(self):
+        small = pages("/")
+        compressed = gzip.compress(small.encode())
+        oversized = gzip.compress(b"a" * (8 * 1024 * 1024 + 1))
+        class Handler(BaseHTTPRequestHandler):
+            def log_message(self, *args):
+                pass
+
+            def do_GET(self):
+                body = oversized if self.path == "/large" else compressed
+                self.send_response(200)
+                self.send_header("Content-Encoding", "gzip")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+        server = ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+        thread = Thread(target=lambda: server.serve_forever(poll_interval=.01), daemon=True)
+        thread.start()
+        site = f"http://127.0.0.1:{server.server_port}"
+        try:
+            with (self.root / "gzip.log").open("w", encoding="utf-8") as log:
+                self.assertEqual(daily.fetch_page(site + "/ok", log, timeout=5), small)
+                with self.assertRaisesRegex(daily.TerminalPublicationError, "8 MiB"):
+                    daily.fetch_page(site + "/large", log, timeout=5)
+        finally:
             server.shutdown()
             thread.join(2)
             server.server_close()

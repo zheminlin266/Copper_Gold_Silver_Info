@@ -122,6 +122,26 @@ class DailyPipelineTests(unittest.TestCase):
                 self.assertTrue(manifest["collectors"][0]["errors"])
                 self.assertTrue((Path(manifest["run_dir"]) / "mining_com_search.result.json").exists())
 
+    def test_mining_failure_retains_reason_and_capture_references(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = self.prepare_root(directory)
+            def blocked(command, **kwargs):
+                output = Path(command[command.index("--output-dir") + 1])
+                output.mkdir()
+                payload = {"status": "failed", "error": "HTTP 403; no automatic retry"}
+                (output / "result.json").write_text(json.dumps(payload))
+                (output / "page.png").write_bytes(b"blocked screenshot")
+                return 1, json.dumps(payload), "", None
+            with mock.patch("scripts.daily_pipeline._run_process", side_effect=blocked) as process:
+                manifest = run_pipeline("2024-02-29", collect_mining=True, project_root=root)
+            self.assertEqual(process.call_count, 3)
+            self.assertEqual(process.call_args_list[0].args[0][-3], "copper")
+            collector = manifest["collectors"][0]
+            self.assertEqual(manifest["status"], "failed")
+            self.assertTrue(all("HTTP 403" in error for error in collector["errors"]))
+            self.assertIn("mining_copper.evidence/result.json", collector["artifacts"])
+            self.assertIn("mining_copper.evidence/page.png", collector["artifacts"])
+
     @staticmethod
     def prepare_root(directory):
         root = Path(directory)
@@ -237,7 +257,7 @@ class DailyPipelineTests(unittest.TestCase):
             self.assertTrue((run_dirs[0] / "manifest.json").exists())
             self.assertTrue((run_dirs[0] / "candidates.json").exists())
             (root / "data" / "2024-02-29.json").write_text("{}", encoding="utf-8")
-            with self.assertRaises(PipelineError):
+            with self.assertRaisesRegex(PipelineError, "--verify-only --report-date 2024-02-29"):
                 run_pipeline("2024-02-29", dry_run=True, project_root=root)
 
 

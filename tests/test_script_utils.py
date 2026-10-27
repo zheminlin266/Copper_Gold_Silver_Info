@@ -1,6 +1,7 @@
 import os
 import tempfile
 import unittest
+from types import SimpleNamespace
 from datetime import date
 from pathlib import Path
 from unittest import mock
@@ -8,9 +9,11 @@ from unittest import mock
 from scripts.script_utils import (
     atomic_write_text,
     bounded_int,
+    chromium_launch_options,
     parse_report_date,
     resolve_chrome_executable,
 )
+from scripts import script_utils
 
 
 class ScriptUtilsTests(unittest.TestCase):
@@ -50,6 +53,42 @@ class ScriptUtilsTests(unittest.TestCase):
             atomic_write_text(target, "second", overwrite=True)
             self.assertEqual(target.read_text(encoding="utf-8"), "second")
             self.assertEqual(list(Path(directory).glob(".*.tmp")), [])
+
+    def test_browser_proxy_keeps_credentials_out_of_the_server_url(self):
+        with mock.patch.dict(os.environ, {
+            "HTTPS_PROXY": "http://user:p%40ss@proxy.example:8080",
+            "HTTP_PROXY": "http://wrong.example:8080", "NO_PROXY": "localhost,127.0.0.1",
+        }, clear=True), mock.patch.object(script_utils, "resolve_chrome_executable", return_value=None):
+            options = chromium_launch_options()
+        self.assertEqual(options["proxy"], {
+            "server": "http://proxy.example:8080", "username": "user", "password": "p@ss",
+            "bypass": "localhost,127.0.0.1",
+        })
+        self.assertNotIn("ignore_https_errors", options)
+
+    def test_invalid_proxy_error_does_not_disclose_credentials(self):
+        with mock.patch.dict(os.environ, {"HTTPS_PROXY": "invalid://private:secret@proxy"}, clear=True), \
+                mock.patch.object(script_utils, "resolve_chrome_executable", return_value=None):
+            with self.assertRaises(ValueError) as error:
+                chromium_launch_options()
+        self.assertNotIn("private", str(error.exception))
+        self.assertNotIn("secret", str(error.exception))
+
+    def test_long_posix_socket_root_changes_only_the_child_environment(self):
+        env = {"TMPDIR": "/workspace/" + "deep/" * 25, "OTHER": "preserved"}
+        for platform in ("posix", "nt"):
+            with self.subTest(platform=platform), \
+                    mock.patch.object(script_utils, "os", SimpleNamespace(
+                        environ=env, name=platform, fsencode=os.fsencode)), \
+                    mock.patch.object(script_utils.tempfile, "gettempdir", return_value=env["TMPDIR"]), \
+                    mock.patch.object(Path, "is_dir", return_value=True), \
+                    mock.patch.object(script_utils, "resolve_chrome_executable", return_value=None):
+                options = chromium_launch_options()
+                if platform == "posix":
+                    self.assertEqual(options["env"], dict(env, TMPDIR="/tmp"))
+                else:
+                    self.assertNotIn("env", options)
+        self.assertTrue(env["TMPDIR"].startswith("/workspace/"))
 
 
 if __name__ == "__main__":
