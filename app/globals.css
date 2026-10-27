@@ -629,6 +629,7 @@ select {
 .audit-panel__body p,
 .audit-panel__body li {
   color: #3f4641;
+  overflow-wrap: anywhere;
 }
 
 .empty-copy {

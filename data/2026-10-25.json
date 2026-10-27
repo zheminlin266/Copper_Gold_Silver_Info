@@ -1,0 +1,305 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-25",
+  "report_time": "2026-10-26T07:15:03+08:00",
+  "summary": "黄金：水贝受访消费者出现实际加购，管理层拟以在产矿现金流支持后续开发，但局部零售观察与资金预期尚不足以确认全国需求或新增产量。白银：暂无足以改变供需方向的新增实物证据。铜：Highland Valley罢工已转化为减产运营，近端矿端供应承压；下游订单与资金周转压力提示需求弹性，供给紧张不能直接外推为消费增长。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-23T00:00:00+08:00",
+      "end": "2026-10-25T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-25T00:00:00+08:00",
+      "end": "2026-10-25T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-25T00:00:00+08:00",
+      "end": "2026-10-25T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://naturalresourcestocks.net/contango-silver-gold-inc-how-cash-flow-funds-growth-without-new-equity/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-24",
+      "claims": [
+        {
+          "claim": "发布方说明中的年度自由现金流预期，依赖访谈所引用金价。",
+          "evidence": "expected US$100 million annual free cash flow at the prices cited.",
+          "source_url": "https://naturalresourcestocks.net/contango-silver-gold-inc-how-cash-flow-funds-growth-without-new-equity/",
+          "evidence_type": "publisher_interview_description",
+          "period": "管理层年度预期，未明确具体财年",
+          "unit": "USD million/year",
+          "value": 100
+        },
+        {
+          "claim": "公司计划以现金流支持三个后续项目。",
+          "evidence": "funding Lucky Shot, Johnson Tract and Kitsault Valley with cash flow",
+          "source_url": "https://naturalresourcestocks.net/contango-silver-gold-inc-how-cash-flow-funds-growth-without-new-equity/",
+          "evidence_type": "publisher_interview_description",
+          "period": "访谈所述开发融资计划",
+          "unit": "融资路径",
+          "value": "经营现金流支持开发"
+        }
+      ],
+      "title": "Contango访谈：拟以Manh Choh现金流支持后续项目，年度自由现金流目标为1亿美元",
+      "source_type": "youtube",
+      "summary": "NRS发布的访谈配套说明称，Contango首席执行官Rick Van Nieuwenhuyse在讨论Manh Choh与Kinross合作运营及Fort Knox处理安排时，提出按访谈所引用金价每年约1亿美元自由现金流的预期。公司拟以现金流支持Lucky Shot、Johnson Tract和Kitsault Valley，尽量限制股权稀释；说明未细分该目标的权益与全矿口径，不据此推算金属产量，亦未披露已实现回款。",
+      "importance": "这条融资路径的意义在于以在产项目回款支撑后续开发，降低对外部融资窗口的依赖。能否在2027年推进项目，仍取决于经营现金流兑现、债务与套保现金占用，以及各项目许可和处理安排；节目未披露新的融资合同或明确投产承诺，不能把自由现金流目标换算成新增黄金产量。",
+      "verification_status": "verified",
+      "verification_note": "NRS原始节目页公开HTTP200，已读配套说明、嘉宾身份、章节和利益披露，未声称观看视频。页面当地日期为23日，article:published_time为2026-10-23T23:31:22Z，换算北京24日07:31:22；录制日期19日不充当发布日期。Contango为节目赞助方，主持人持股；仅采用已读文字中的现金流预期与开发融资路径。",
+      "guest": {
+        "name": "Rick Van Nieuwenhuyse",
+        "background": "Contango Silver & Gold首席执行官"
+      },
+      "companies": [
+        "Contango Silver & Gold",
+        "Kinross Gold"
+      ],
+      "projects": [
+        "Manh Choh",
+        "Lucky Shot",
+        "Johnson Tract",
+        "Kitsault Valley"
+      ]
+    },
+    {
+      "url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/102326-lme-week-overhyped-ai-economic-pressures-could-chill-copper-demand-growth",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "demand",
+      "publish_date": "2026-10-23",
+      "claims": [
+        {
+          "claim": "Alway对临近2030年中国铜消费增长的预测。",
+          "evidence": "China's yearly copper consumption growth is projected to drop to 1%-1.5% toward 2030.",
+          "source_url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/102326-lme-week-overhyped-ai-economic-pressures-could-chill-copper-demand-growth",
+          "evidence_type": "conference_panel_original_reporting",
+          "period": "临近2030年预测",
+          "unit": "%/year",
+          "value": "1—1.5"
+        },
+        {
+          "claim": "Winter所述高价环境下客户的订单反应。",
+          "evidence": "Customers stopped fulfilling their orders",
+          "source_url": "https://www.spglobal.com/energy/en/news-research/latest-news/metals/102326-lme-week-overhyped-ai-economic-pressures-could-chill-copper-demand-growth",
+          "evidence_type": "conference_panel_original_reporting",
+          "period": "Panel嘉宾所述客户观察",
+          "unit": "订单履约状态",
+          "value": "部分客户停止履约"
+        }
+      ],
+      "title": "LME周Panel文字报道：铜需求增速预期放缓，下游订单履约与现金周转承压",
+      "source_type": "panel",
+      "summary": "S&P Global于23日发布Triland Global Metals Outlook的Panel文字报道：LSEG金属研究主管Bruce Alway预计，临近2030年中国铜消费年增速将降至1%—1.5%；Aurubis的Tanja Winter称，铜价突破每公吨1.4万美元时，部分客户停止履行订单，并面临60、80或120天回款账期。前者是研究预测，后者是企业客户观察，均不能视为已确认的全国消费统计。",
+      "importance": "铜需求风险开始体现为订单推迟和现金周转约束，长期电网与AI叙事不能保证短期采购同步增加。面向2030年的低增速情景意味着新增矿山需要与需求弹性一起评估，但它是单一研究者的预测；后续应以电网实物开工、下游订单恢复和材料替代进度检验，不能将报价高位直接当作消费旺盛。",
+      "verification_status": "verified",
+      "verification_note": "S&P Global原始文字报道可通过普通网页读取工具完整读取，日期为23日；本地普通HTTP403与网页工具成功分别记录，不伪称本地HTTP成功。LME官方活动页https://www.lme.com/events/lme-week/what-s-on/5确认Triland主办、21日铜Panel议程及Aurubis/LSEG参会。采用23日文字公开日而非21日会议发生日；无可靠时刻，仅日精度；未宣称听取录音。",
+      "guest": {
+        "name": "Bruce Alway、Tanja Winter",
+        "background": "分别为LSEG金属研究主管、Aurubis执行董事"
+      },
+      "companies": [
+        "LSEG",
+        "Aurubis",
+        "Triland Metals"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.teck.com/news/news-releases/2026/teck-provides-update-on-highland-valley-copper-operations",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-24T15:18:00-04:00",
+      "claims": [
+        {
+          "claim": "矿山已经以较低产能继续运营。",
+          "evidence": "Operations are currently continuing at a reduced capacity.",
+          "source_url": "https://www.teck.com/news/news-releases/2026/teck-provides-update-on-highland-valley-copper-operations",
+          "evidence_type": "issuer_original_release",
+          "period": "2026年10月24日公告状态",
+          "unit": "运营状态",
+          "value": "reduced capacity"
+        }
+      ],
+      "source": "Teck Resources",
+      "title": "Teck确认Highland Valley Copper罢工已开始，矿山以较低产能运行",
+      "excerpt": "Teck确认，USW Local 7619已在加拿大不列颠哥伦比亚省Highland Valley Copper启动罢工，矿山目前以较低产能继续运营。公司称总产量影响取决于劳资行动持续时间，并已实施安全与环境管理预案；该公告未给出减产吨数。原始公告分发于美东24日15:18，对应北京25日03:18。",
+      "language": "en",
+      "importance": "风险已从潜在劳资冲突转为正在发生的供给约束，对近期精矿可售量的影响比此前72小时通知更直接。10月24日公告对应北京时间25日，后续关键是谈判恢复速度、减产持续时间及发运履约情况；矿山继续部分运营，不能按全矿停产或既有年产量比例机械估算损失。",
+      "verification_status": "verified",
+      "verification_note": "Teck发行人原文公开HTTP200，逐字核对罢工已开始、减产运营及影响未量化；GlobeNewswire发行人分发页通过网页工具读取到24日15:18 ET，按EDT(UTC−4)换算入窗，本地直接读取403不冒充成功。与22日报罢工通知区分，本次为实际运营状态更新。",
+      "companies": [
+        "Teck Resources"
+      ],
+      "projects": [
+        "Highland Valley Copper"
+      ],
+      "mining_com_source_note": "铜分类Playwright发现Reuters同事件稿，普通读取403后隔离Playwright可见全文和截图成功；合并至已核验Teck一手公告。Mining转载显示25日11:24，未用该后发时间刷新事件；采用发行人原始24日15:18 ET。",
+      "source_channel": "web"
+    },
+    {
+      "url": "https://emwap.eastmoney.com/a/202610253907248337.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-10-25T17:19:00+08:00",
+      "claims": [
+        {
+          "claim": "记者采访的消费者描述了计划以外的实物加购。",
+          "evidence": "又多购入了黄金素圈手镯。",
+          "source_url": "https://emwap.eastmoney.com/a/202610253907248337.html",
+          "evidence_type": "attributed_reporter_consumer_interview",
+          "period": "2026年10月25日报道，消费者24日到店",
+          "unit": "局部消费行为",
+          "value": "计划外加购金饰"
+        }
+      ],
+      "source": "红星资本局（东方财富公开转载）",
+      "title": "红星资本局走访水贝：受访消费者加购金饰，门店客流回升仍属局部样本",
+      "excerpt": "红星资本局25日采访深圳水贝商家与消费者：商家徐峰称，该周末客流增加，购买以情侣和家庭的自戴金饰为主；消费者周敏称，24日到店时，在原计划金锁、金葫芦外加购了素圈手镯。报道没有披露成交克重或销量同比，只能反映当地受访样本，不能据多地网友帖子推算销量。",
+      "language": "zh",
+      "importance": "此次信号比单纯客流回升更接近真实需求，因为受访者描述了额外购买，但证据仍停留在零售端的小样本。10月25日走访可用于观察婚嫁与自戴刚需是否释放，尚不能证明全国金饰销量转正或投资金条需求同步增强；后续需用门店成交克重、补货与行业销量验证热度能否持续。",
+      "verification_status": "verified",
+      "verification_note": "东方财富具体公开转载全文HTTP200，记者俞瑶、李海颜和红星资本局归属可见；已检索原始发布入口，采用可读且归属完整的具体转载页。网页读取工具显示25日17:19，本地页面显示昨天17:19，与北京26日捕获时间一致；不借价格标题推断需求，不采用西安/南京网友发帖作为独立证据。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "Korelin原始节目首页及23—24日访谈/Weekend Show：Magna、Aztec与前两日报URL和事件去重，Weekend Show配套文字为宏观与油气观点，无新增金银铜实物供需事实。",
+      "Mining Stock Daily / Clear Commodity原始目录：最新23日Michael Howell节目以流动性与金价判断为主，22日各节目已经收录；未用标题或未听音频补写。",
+      "Crux原始首页、视频/文章目录与25日TRX、GR Silver、New Found Gold全文：TRX引回9月22日节目，GR Silver引回9月25日节目，不因25日分析文章重发刷新节目日期；Queensway与23日日报同一PEA/MRE事件去重。24日West Wits与Compass、23日Cobra/Granada/Koryx等与前两日报去重。",
+      "Natural Resource Stocks原始Contango节目页公开HTTP200：配套说明、管理层身份、金价条件及赞助/主持人持股披露均可读；23日23:31:22Z折算北京24日，19日录制日期另列。仅使用实际读取的发布方说明。",
+      "Kitco Mining / Digging Deep原始23日节目页与可靠文字稿公开可读：Ecclestone引用Mercuria交付1.2万吨、美国库存吸走铜源；交付事件已见15日日报，地区库存重分布已见22/24日日报，不重复。Copper World既有开发事件亦不重计。",
+      "LME官方活动页https://www.lme.com/events/lme-week/what-s-on/5核对Triland主办、21日09:30—12:30议程及铜Panel；S&P Global23日原始文字报道通过网页读取工具完整可见，保留嘉宾预测与客户观察的归属，未宣称听取音视频。",
+      "Resource Talks原始首页：23日新增为铀项目，金银铜既有Dreadnought等节目已收录；Mining Stock Education原始访谈目录显示Contango访谈为9月14日，不能采用搜索列表旁的23日日期。Sprott Insights当前可见最新银视频为20日，超出本次访谈窗口。",
+      "会议补查LME Week及Triland主办/参会机构、New Orleans主办方与参会方。New Orleans大会为28—31日，未进入会前1日窗口；中国地质调查局与大会正式官网确认中国国际矿业大会实际为9月10—12日，种子日历的10月近似月份不作真实会期。"
+    ],
+    "part1_result": "23—25日三日访谈检索已完整结束，纳入2条有可读文字证据的节目/Panel报道。Panel以23日首次文字公开日入窗，会议21日另列；未声称收听或观看。原节目过期、旧事件、价格与宏观评论均排除。",
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "mining.com /commodity/copper/强制主路径：固定Python与隔离Chromium headless Playwright，HTTP200，Copper Archives，正文5994字符，extraction_status=success，提取10个日期上下文候选；父容器会夹带侧栏旧稿，逐篇按文章实际发布日期重审，候选数不等于当日合格文章数。",
+      "mining.com /commodity/gold/、/commodity/silver/普通读取不可用后，流水线Playwright均HTTP200，正文6705/6556字符，候选9/8条；三分类合并11个唯一URL，均完成普通读取及隔离Playwright可见原文核验，未使用PiChrome或跨进程授权。",
+      "Google辅助site:mining.com gold \"October 25, 2026\"：0命中；Google辅助site:mining.com silver \"October 25, 2026\"：0命中；只作辅助，未替代铜分类发现。",
+      "Teck原始公告HTTP200，GlobeNewswire同一发行人分发页网页工具完整读取到24日15:18 ET，折算北京25日03:18；Mining Reuters转载合并至该一手原文。此前通知不等于本次已经罢工并减产的新增状态。",
+      "红星资本局25日记者走访：检索原始发布入口后采用东方财富具体公开转载HTTP200，标题、记者归属、日期和实际加购描述可核对；只采用受访商家/消费者事实，不用社交帖推算多地销量。",
+      "中英文补查Reuters、公司公告、中文铜/金/银产量与需求：Business Recorder25日Reuters稿为23日库存更新，已见24日报，不按后发转载计数。南方铜业25日研报线索转述季度数据；高争民爆矿业股权注入线索没有取得可入选的一手新增产能证据，均未采用搜索摘要写事实。",
+      "Mining交易商盈利稿：隔离Playwright公开全文可读，Bloomberg原始Yahoo分发为24日10:45 EDT；不因Mining后发日期刷新，也不把匿名利润数字、既有铜精矿紧张泛述当作本日新增实物供需。阿根廷股权比例分析侧重锂及投资归属口径，未披露本日金铜新增投产或产量变化，排除。",
+      "白银补查中英文供需、生产与进口信息：25日UBS文章为价格目标和既有需求叙事，原文日期表述亦有混乱，未据此补写供需数字；周报、旧库存/旧季度数据、纯价格复述和无法追溯的转述均排除。",
+      "https://www.mining.com/web/metals-traders-reap-bonanza-with-another-year-of-record-profits/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-25；交易利润为匿名预估；既有精矿紧张泛述不构成本日新增实物供需，原始Bloomberg分发24日在新闻窗口前。",
+      "https://www.mining.com/sponsored-content/advancing-critical-mineral-market-transparency/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-19；19日旧推广稿，分类侧栏上下文误匹配25日；不属本日新增信号。",
+      "https://www.mining.com/sponsored-content/k2-drills-83-82m-of-3-40-g-t-au-including-19-81m-of-7-51-g-t-au-at-dragonfly/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-20；20日K2原始钻探事件，已见旧日报；侧栏日期不刷新。",
+      "https://www.mining.com/sponsored-content/me-elecmetal-advances-its-decarbonization-commitment-with-2030-environmental-goals/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-09；9日旧环境目标推广稿，无本日新增金银铜实物供需事件。",
+      "https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-25T12:00:00+00:00；主要为锂项目投资归属及股权统计方法，没有本日新增金铜产量、产能或需求决定。",
+      "https://www.mining.com/diesel-price-surge-putting-mining-profits-to-test/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-23T14:24:08+00:00；实际发表23日，超出Part3窗口。",
+      "https://www.mining.com/lithiums-100b-question-who-will-build-134-new-mines/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-22T09:01:00+00:00；22日旧稿且以锂为主，无本日三金属新增实物供需。",
+      "https://www.mining.com/halo-minerals-clears-key-hurdle-at-chile-copper-project/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-23T11:53:00+00:00；23日Playa Verde许可事件已见23日报，侧栏日期不刷新。",
+      "https://www.mining.com/web/teck-says-strike-begins-at-highland-valley-copper-mine-in-british-columbia/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-25；Teck同一罢工状态采用已核验发行人原文，Reuters后发转载不另计。",
+      "https://www.mining.com/sponsored-content/nv-gold-confirms-and-expands-the-awakening-and-eastern-delong-zones-at-slumber-project/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-20；实际发表20日，超出本日新闻窗口。",
+      "https://www.mining.com/us-permitting-environmental-review-overhaul-could-speed-mine-approvals-but-hurdles-remain/：普通HTTP403后隔离Playwright HTTP200，可见原文/截图；文章日期2026-10-22T17:24:54+00:00；实际发表22日，超出本日新闻窗口。"
+    ],
+    "part3_result": "25日新闻中英文检索及Mining三分类完整发现、11个唯一候选逐篇核验均结束，纳入2条：Teck实际罢工减产与红星资本局实物购买走访。候选中的侧栏旧稿、推广、重复转载与无新增供需事实内容已排除。",
+    "mining_com_source_note": "分类provenance与候选保存在.runtime/pipeline/2026-10-25/2026-10-25-20261025T230109412189Z-28648/；各文章普通HTTP403后，隔离Playwright可见正文及截图均成功，证据在同日research目录。铜10、金9、银8为日期上下文候选，合并11条并重核实际日期；未用搜索摘要、RSS、sitemap或Wayback替代。入选Teck最终采用发行人原文，不宣称继承PiChrome授权。",
+    "new_sources_discovered": [
+      "Rick Van Nieuwenhuyse / Contango Silver & Gold：NRS新节目配套文字公开核验，记录管理层预期与赞助/主持人持股披露。",
+      "Triland Global Metals Outlook / S&P Global原始Panel报道：LME官方议程与23日文字报道相互核对，Bruce Alway和Tanja Winter观点归属明确。"
+    ],
+    "url_verification": {
+      "checked": 4,
+      "passed": 4,
+      "failed": 0,
+      "failures": [],
+      "notes": "4张入选卡的具体正文、标题、日期与采用事实均实际读取；claims由builder逐字绑定同URL保存文本。S&P和GlobeNewswire网页工具成功与本地普通HTTP403分开记录；NRS声明只读发布方配套说明，Panel为原始文字报道，未声称收听音视频。其他候选发现或被排除URL不计为入选通过。"
+    },
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 24,
+      "accounts_completed": 23,
+      "accounts_failed": 1,
+      "attempted_channels": [
+        "playwright",
+        "twscrape"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; diagnostics=.runtime/x-diagnostics/20261025T230227291536Z-29540/failure.json",
+        "twscrape @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+        "twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown",
+        "@duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown"
+      ],
+      "notes": []
+    },
+    "part2_searched": false,
+    "part2_channel": "playwright",
+    "part2_sources_checked": [
+      "Peter Krauth (@peter_krauth)",
+      "Lobo Tiggre (@duediligenceguy)",
+      "Brian Leni (@Junior_Stock)",
+      "Kai Hoffmann (@soarfinancial)",
+      "Walter Coles Jr. (@WalterColesJr)",
+      "Ivan Bebek (@ivanbebek)",
+      "Ivanhoe Mines (@IvanhoeMines_)",
+      "Freeport-McMoRan (@FreeportMcMoRan)",
+      "Newmont (@NewmontCorp)",
+      "Barrick Gold (@BarrickGold)",
+      "Teck Resources (@TeckResources)",
+      "Antofagasta (@AntofagastaPLC)",
+      "Lundin Mining (@LundinMining)",
+      "Agnico Eagle (@AgnicoEagle)",
+      "First Majestic Silver (@FirstMajestic)",
+      "Pan American Silver (@PanAmericanSlvr)",
+      "Wheaton Precious Metals (@Wheaton_PM)",
+      "Endeavour Mining (@EndeavourMining)",
+      "SSR Mining (@SSRMining)",
+      "Kinross Gold (@KinrossGold)",
+      "Sandstorm Gold (@SandstormGold)",
+      "Fortuna Mining (@Fortuna_Silver)",
+      "GoGold Resources (@GoGoldResources)",
+      "Vizsla Silver (@vizslasilver)"
+    ],
+    "part2_result": "固定Python与项目持久化会话，Playwright按注册表顺序串行访问；完成23/24账号，status=partial，accounts_failed=1，attempted_channels=['playwright', 'twscrape']，selected_channel=playwright。保留5条原帖候选，入选0条；Lobo成本/利率/交易评论缺少新增实物事实，Teck外链与新闻原始公告去重。Playwright账号缺正文后仅将未完成账号交给twscrape；回退网络错误、账号冷却/No account available触发安全停止，未重试或增加X流量。错误：playwright @duediligenceguy: tweet extraction failed for 1 item(s): tweet 2: missing or empty tweet text; diagnostics=.runtime/x-diagnostics/20261025T230227291536Z-29540/failure.json; twscrape @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; twscrape: twscrape safety stop for @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown; @duediligenceguy: No account available for queue SearchTimeline; network_error: twscrape transport failed; account entered cooldown。TXT、sidecar SHA-256及checkpoint均保留；不把23/24写成完整零结果。"
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/10/23/magna-mining-key-takeaways-from-the-crean-hill-project-pfs-and-the-company-growth-plans-over-the-next-few-years/",
+      "https://www.kereport.com/2026/10/23/aztec-minerals-drilling-extends-north-extension-by-190-meters-ahead-of-maiden-resource-estimate/",
+      "https://www.cruxinvestor.com/posts/undervalued-west-wits-mining-bank-backed-pouring-gold-priced-below-peers",
+      "https://www.cruxinvestor.com/posts/listing-and-active-drilling-in-guyana-and-uruguay-emerging-as-new-gold-frontiers",
+      "https://www.cruxinvestor.com/posts/cobra-confirms-shallow-copper-at-manna-hill-as-porphyry-case-strengthens",
+      "https://www.cruxinvestor.com/posts/granada-golds-2026-reset-new-leadership-a-planned-drilling-return-and-capital-discipline",
+      "https://www.cruxinvestor.com/posts/koryx-copper-seeks-re-rating-as-upsized-haib-pfs-nears-completion",
+      "https://www.cruxinvestor.com/posts/new-found-golds-queensway-pea-doubles-npv",
+      "https://diggingdeep.buzzsprout.com/2326395/episodes/20009830-u-s-copper-stockpiling-is-squeezing-china-christopher-ecclestone"
+    ],
+    "part2_deduped_urls": [
+      "https://x.com/duediligenceguy/status/2114344673556713840",
+      "https://x.com/duediligenceguy/status/2114180354470973718",
+      "https://x.com/duediligenceguy/status/2114120383825912117",
+      "https://x.com/duediligenceguy/status/2114046266128916763",
+      "https://x.com/TeckResources/status/2114075315551035618"
+    ],
+    "part3_deduped_events": [
+      "Teck Mining/Reuters与GlobeNewswire分发合并到Teck原文；22日预告和本次实际罢工状态分开，后发转载不再计数。",
+      "23日Reuters的LME增800吨、SHFE周降26.5%已经见24日报，Business Recorder25日转载不刷新。",
+      "Queensway修订PEA/MRE、Playa Verde许可、Newmont季度及Red Chris工程沿用23日报事件，不重复。",
+      "Mercuria向Project Vault交付1.2万吨见15日报，美国库存重分布见22/24日报；Kitco新节目复述不重复。",
+      "TRX和GR Silver的25日分析文章回引9月22/25日原节目，K2与NV Gold赞助稿为20日，ME Elecmetal为9日、透明度稿为19日，均不因侧栏25日日期入选。"
+    ],
+    "notes": "冻结RUN_DATE=2026-10-26、REPORT_DATE=2026-10-25、Asia/Shanghai；Part1为23—25日，Part2/3仅25日，跨午夜不重算。周一不更新TC。保留并排除19项用户既有改动；父包装持有scheduled-daily锁并负责最终发布验收，不递归调用run_scheduled_daily.py、不另启AI runner、不编辑调度入口。"
+  }
+}
