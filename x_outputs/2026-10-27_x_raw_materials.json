@@ -1,0 +1,122 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-27",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-948ee805278bc77052359906",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-27T14:27:34+00:00",
+      "text": "6,000 metres drilled. Results pending. And historical hits exceeding 400 g/t silver.\n\nI've just added a newly listed Alaskan silver explorer to Silver Stock Investor.\n\nThree prospective projects. An experienced team. And a potential discovery catalyst ahead.\n\nMy latest pick is",
+      "url": "https://x.com/peter_krauth/status/2115088018377941033",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d940b694b4126e977199cb0e",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-26T18:06:26+00:00",
+      "text": "Drill results grab headlines. But building a silver mine takes more.\n\n\n@BRCSilver\n  (TSX: BRC) is advancing Tonopah West toward underground development, with permit submissions targeted for January 2027.\n\nAnother important step toward unlocking Nevada's silver potential.",
+      "url": "https://x.com/peter_krauth/status/2114780709529530874",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-d5fd5539178f5aefbbb4cd3b",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-26T17:49:46+00:00",
+      "text": "The next leg of \n@Avino_ASM\n's  silver growth story is taking shape.\n\n616 g/t silver over 4.86m at La Preciosa. But it's the wider mineralized zones that really have my attention.\n\nMore width. More potential scale. And a path toward 75% silver production.\n\n\n@TedJButler\n digs into why",
+      "url": "https://x.com/peter_krauth/status/2114776513287704975",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f4a8cd08edfe39f536f3789f",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-26T17:39:11+00:00",
+      "text": "Their new interactive 3D viewer brings El Quevar to life. Explore the drill holes, high-grade intercepts, and existing silver resource.\n\nWith a potential SECOND silver system emerging, the bigger picture matters.\n\nSee for yourself \n\nhttps://\nargentasilver.com/el-quevar-proj\nect/\n…",
+      "url": "https://x.com/peter_krauth/status/2114773850303123748",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-aa9c624a417d925ad366cfb9",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-27T15:30:25+00:00",
+      "text": "@MichelleMakori\n did her homework for this interview.\n\nNote: We also look at actual trends in gold—and what would make me start buying again.\n\n\nhttps://\nindependentspeculator.com/sd/articles/fr\nanklinmedia-2026-10-27\n…",
+      "url": "https://x.com/duediligenceguy/status/2115103835253350560",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9f1f0e078aa81743d6bbfbcf",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-27T14:02:42+00:00",
+      "text": "Good news for commodities demand.\n\n(But somehow, this doesn't look like losing a trade war to me.  ; - )",
+      "url": "https://x.com/duediligenceguy/status/2115081757963804686",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-beb1f66a86a89aa37f060511",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-27T13:26:14+00:00",
+      "text": "There are several projects.\n\nNone at commercial production come January that I know of.\n\nThis one was at the bulk sample stage before the acquisition...",
+      "url": "https://x.com/duediligenceguy/status/2115072581287989719",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-9fd2259d29a7796929a6551c",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-26T17:27:33+00:00",
+      "text": "Watch this video to meet our eight 2026 Living Our Values Awards (LOVA) winners to learn more about their exciting accomplishments, inspiring stories and how they are making a difference both at work and in their communities!",
+      "url": "https://x.com/kinrossgold/status/2114770925782774232",
+      "collector": "x_search",
+      "report_date": "2026-10-27",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "97f4589e7d670c9bcc0505e8adb08432f00dc386158c4307124c7bbfbbd781b5"
+  }
+}

@@ -1,0 +1,113 @@
+X 原始候选 — 2026-10-27
+采集时间: 2026-10-28T07:02:12.153975+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 8 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-27T14:27:34+00:00
+    北京: 2026-10-27T22:27:34+08:00
+    文本: 6,000 metres drilled. Results pending. And historical hits exceeding 400 g/t silver.
+
+I've just added a newly listed Alaskan silver explorer to Silver Stock Investor.
+
+Three prospective projects. An experienced team. And a potential discovery catalyst ahead.
+
+My latest pick is
+    链接: https://x.com/peter_krauth/status/2115088018377941033
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-26T18:06:26+00:00
+    北京: 2026-10-27T02:06:26+08:00
+    文本: Drill results grab headlines. But building a silver mine takes more.
+
+
+@BRCSilver
+  (TSX: BRC) is advancing Tonopah West toward underground development, with permit submissions targeted for January 2027.
+
+Another important step toward unlocking Nevada's silver potential.
+    链接: https://x.com/peter_krauth/status/2114780709529530874
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-26T17:49:46+00:00
+    北京: 2026-10-27T01:49:46+08:00
+    文本: The next leg of 
+@Avino_ASM
+'s  silver growth story is taking shape.
+
+616 g/t silver over 4.86m at La Preciosa. But it's the wider mineralized zones that really have my attention.
+
+More width. More potential scale. And a path toward 75% silver production.
+
+
+@TedJButler
+ digs into why
+    链接: https://x.com/peter_krauth/status/2114776513287704975
+
+[4] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-26T17:39:11+00:00
+    北京: 2026-10-27T01:39:11+08:00
+    文本: Their new interactive 3D viewer brings El Quevar to life. Explore the drill holes, high-grade intercepts, and existing silver resource.
+
+With a potential SECOND silver system emerging, the bigger picture matters.
+
+See for yourself 
+
+https://
+argentasilver.com/el-quevar-proj
+ect/
+…
+    链接: https://x.com/peter_krauth/status/2114773850303123748
+
+[5] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-27T15:30:25+00:00
+    北京: 2026-10-27T23:30:25+08:00
+    文本: @MichelleMakori
+ did her homework for this interview.
+
+Note: We also look at actual trends in gold—and what would make me start buying again.
+
+
+https://
+independentspeculator.com/sd/articles/fr
+anklinmedia-2026-10-27
+…
+    链接: https://x.com/duediligenceguy/status/2115103835253350560
+
+[6] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-27T14:02:42+00:00
+    北京: 2026-10-27T22:02:42+08:00
+    文本: Good news for commodities demand.
+
+(But somehow, this doesn't look like losing a trade war to me.  ; - )
+    链接: https://x.com/duediligenceguy/status/2115081757963804686
+
+[7] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-27T13:26:14+00:00
+    北京: 2026-10-27T21:26:14+08:00
+    文本: There are several projects.
+
+None at commercial production come January that I know of.
+
+This one was at the bulk sample stage before the acquisition...
+    链接: https://x.com/duediligenceguy/status/2115072581287989719
+
+[8] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-26T17:27:33+00:00
+    北京: 2026-10-27T01:27:33+08:00
+    文本: Watch this video to meet our eight 2026 Living Our Values Awards (LOVA) winners to learn more about their exciting accomplishments, inspiring stories and how they are making a difference both at work and in their communities!
+    链接: https://x.com/kinrossgold/status/2114770925782774232
+
