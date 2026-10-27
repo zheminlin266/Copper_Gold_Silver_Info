@@ -176,7 +176,7 @@ def _collect_mining(report_date: str, run_dir: Path, project_root: Path) -> Coll
         stdout_artifact, stderr_artifact = _write_process_artifacts(run_dir, stem, stdout, stderr)
         artifacts.extend((stdout_artifact, stderr_artifact))
         if evidence_dir.is_dir():
-            artifacts.extend(str(path.relative_to(run_dir)) for path in sorted(evidence_dir.iterdir())
+            artifacts.extend(path.relative_to(run_dir).as_posix() for path in sorted(evidence_dir.iterdir())
                              if path.is_file() and not path.is_symlink())
         stdout_parts.append(f"[{metal}]\\n{stdout}")
         stderr_parts.append(f"[{metal}]\\n{stderr}")
