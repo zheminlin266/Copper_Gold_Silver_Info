@@ -1,0 +1,74 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-28",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-c204ac1eafaff1586ea589c4",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-28T14:52:07+00:00",
+      "text": "Silver and silver stocks are struggling.\nThat’s exactly why I’m buying.\nThe setup is getting more compelling by the day.\n\nMy latest Silver Stock Investor issue breaks down why.\nSubscribers only.\n\nhttps://\nthegoldadvisor.com/silver-stock-i\nnvestor/newsletters/silver-struggles-and-im-buying-my-bullish-outlook-new-pick-hits-discovery-and-6-positive-updates/\n…",
+      "url": "https://x.com/peter_krauth/status/2115456582263955765",
+      "collector": "x_search",
+      "report_date": "2026-10-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-5ece0c3faabb12ac63975ab9",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-28T12:45:39+00:00",
+      "text": "The World's 20 Largest Primary #Silver Mines by 2025 Output",
+      "url": "https://x.com/peter_krauth/status/2115424755419664441",
+      "collector": "x_search",
+      "report_date": "2026-10-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ab3ab1ca6213f2843e289307",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-27T17:01:19+00:00",
+      "text": "566 g/t silver-equivalent. A new high-grade discovery. And plenty of ground left to explore.\n\n@KingsmenResources is delivering at Las Coloradas, Mexico.\n\nWith less than 7% of the 1.6 km Soledad II structure tested, the upside potential is worth watching.\n\n\n@TedJButler\n  breaks down",
+      "url": "https://x.com/peter_krauth/status/2115126709741863062",
+      "collector": "x_search",
+      "report_date": "2026-10-28",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-3997610629c5300f30a765a8",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-28T15:50:10+00:00",
+      "text": "Usually, it's a Cessna to a mine site...",
+      "url": "https://x.com/duediligenceguy/status/2115471191787884762",
+      "collector": "x_search",
+      "report_date": "2026-10-28",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "9a0087e7934a3ddbe896ab4fde5dc2e0608093c745982576d035e9542ae0611e"
+  }
+}

@@ -1,0 +1,61 @@
+X 原始候选 — 2026-10-28
+采集时间: 2026-10-29T07:03:47.258007+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 4 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-28T14:52:07+00:00
+    北京: 2026-10-28T22:52:07+08:00
+    文本: Silver and silver stocks are struggling.
+That’s exactly why I’m buying.
+The setup is getting more compelling by the day.
+
+My latest Silver Stock Investor issue breaks down why.
+Subscribers only.
+
+https://
+thegoldadvisor.com/silver-stock-i
+nvestor/newsletters/silver-struggles-and-im-buying-my-bullish-outlook-new-pick-hits-discovery-and-6-positive-updates/
+…
+    链接: https://x.com/peter_krauth/status/2115456582263955765
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-28T12:45:39+00:00
+    北京: 2026-10-28T20:45:39+08:00
+    文本: The World's 20 Largest Primary #Silver Mines by 2025 Output
+    链接: https://x.com/peter_krauth/status/2115424755419664441
+
+[3] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-27T17:01:19+00:00
+    北京: 2026-10-28T01:01:19+08:00
+    文本: 566 g/t silver-equivalent. A new high-grade discovery. And plenty of ground left to explore.
+
+@KingsmenResources is delivering at Las Coloradas, Mexico.
+
+With less than 7% of the 1.6 km Soledad II structure tested, the upside potential is worth watching.
+
+
+@TedJButler
+  breaks down
+    链接: https://x.com/peter_krauth/status/2115126709741863062
+
+[4] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-28T15:50:10+00:00
+    北京: 2026-10-28T23:50:10+08:00
+    文本: Usually, it's a Cessna to a mine site...
+    链接: https://x.com/duediligenceguy/status/2115471191787884762
+

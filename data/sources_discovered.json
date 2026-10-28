@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-27",
+  "last_updated": "2026-10-28",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -1555,6 +1555,62 @@
       "category": "矿业公司管理层/铜镍项目访谈",
       "channel": "https://nexmetalsmining.com/",
       "notes": "2026-10-26新Crux访谈及官方20日公告直接读取核验；视频D9CGKftqyuw原始HTML发布时间为2026-10-26T06:53:16-07:00。人物及公司均未出现在已有sources_discovered.entries；Crux渠道本身不重复登记。"
+    },
+    {
+      "source_id": "source-mike-spreadborough-novo",
+      "display_name": "Mike Spreadborough（Novo Resources）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.kereport.com/2026/10/28/novo-resources-tibooburra-exploration-update-drilling-the-clone-prospect/",
+      "notes": "2026-10-29 研究 2026-10-28 日报时，公开原始材料已实际读取；日期按 Asia/Shanghai 窗口核验；仅使用配套文字或书面演示，未声称收听音频。 Novo 执行联席董事长身份在原始节目页核验，关注 Tibooburra 权益及钻探执行。"
+    },
+    {
+      "source_id": "source-rohan-williams-novo",
+      "display_name": "Rohan Williams（Novo Resources）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://www.kereport.com/2026/10/28/novo-resources-tibooburra-exploration-update-drilling-the-clone-prospect/",
+      "notes": "2026-10-29 研究 2026-10-28 日报时，公开原始材料已实际读取；日期按 Asia/Shanghai 窗口核验；仅使用配套文字或书面演示，未声称收听音频。 Novo 勘探总经理身份在原始节目页核验。"
+    },
+    {
+      "source_id": "source-paul-west-sells-bravada",
+      "display_name": "Paul West-Sells（Bravada Gold）",
+      "category": "矿业管理层/访谈配套文字",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/metal-prices-helped-but-a-bigger-leach-pad-transformed-bravada-golds-wind-mountain-pea",
+      "notes": "2026-10-29 研究 2026-10-28 日报时，公开原始材料已实际读取；日期按 Asia/Shanghai 窗口核验；仅使用配套文字或书面演示，未声称收听音频。 CEO 身份及 Wind Mountain 冶金试验执行状态从原始节目说明核验。"
+    },
+    {
+      "source_id": "source-bob-fulker-kantra",
+      "display_name": "Bob Fulker（Kantra Copper）",
+      "category": "矿业管理层/公司会议演示",
+      "channel": "https://investors.kantra.com/announcements/a32xv1-presentation-international-mining-and-resources-conference",
+      "notes": "2026-10-29 研究 2026-10-28 日报时，公开原始材料已实际读取；日期按 Asia/Shanghai 窗口核验；仅使用配套文字或书面演示，未声称收听音频。 CEO 兼董事总经理身份、27 日 IMARC 演示用途及附录储量表已从官方公告核验。"
+    },
+    {
+      "source_id": "source-chris-gordon-tocvan",
+      "display_name": "Chris Gordon（Tocvan Ventures）",
+      "category": "矿业管理层/书面问答",
+      "channel": "https://www.caesarsreport.com/reports/report-tocvan-ventures-interview-with-ceo-chris-gordon-a-1000-ounce-pilot-campaign-to-help-fund-district-scale-exploration/",
+      "notes": "2026-10-29 研究 2026-10-28 日报时，公开原始材料已实际读取；日期按 Asia/Shanghai 窗口核验；仅使用配套文字或书面演示，未声称收听音频。 原文核验 CEO 身份，内容为管理层目标；网站获 Tocvan 赞助且作者持有少量多头仓位。"
+    },
+    {
+      "source_id": "source-caesars-report",
+      "display_name": "Caesars Report",
+      "category": "矿业研究/管理层书面问答",
+      "channel": "https://www.caesarsreport.com/",
+      "notes": "2026-10-29 研究 2026-10-28 日报时，公开原始材料已实际读取；日期按 Asia/Shanghai 窗口核验；仅使用配套文字或书面演示，未声称收听音频。 通过 Tocvan 原始书面问答核验发布方和完整利益披露；赞助与作者持股限制须随采用内容保留。"
+    },
+    {
+      "source_id": "source-algo-grande-copper",
+      "display_name": "Algo Grande Copper",
+      "category": "矿业公司官方新闻",
+      "channel": "https://algo-grande.com/",
+      "notes": "2026-10-28 Adelita/Margarita原始公告公开全文与UTC时间标签已核验。严格区分分离孔段合计、孔内长度、真实厚度及假设回收率的铜当量。"
+    },
+    {
+      "source_id": "source-people-finance",
+      "display_name": "人民网财经",
+      "category": "中文财经媒体/实体消费走访",
+      "channel": "http://finance.people.com.cn/",
+      "notes": "2026-10-28北京金店轻量金饰消费报道公开原文及分钟级日期已核验。仅为门店和消费者样本，不外推全国黄金销量；HTTP原站可读，HTTPS域名证书校验失败。"
     }
   ]
 }
