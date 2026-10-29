@@ -1,0 +1,140 @@
+X 原始候选 — 2026-10-29
+采集时间: 2026-10-30T07:01:48.071194+08:00
+选定通道: playwright
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 24/24 完成，失败 0
+各通道完成账户数: {"playwright": 24}
+采集状态: complete
+失败账号数: 0
+失败账号: 无
+============================================================
+
+总计候选: 9 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-28T17:47:18+00:00
+    北京: 2026-10-29T01:47:18+08:00
+    文本: 68% BELOW its 52-week high. And the discoveries keep coming.
+
+
+@Pacifica_Silver
+  just delivered its highest-grade gold intercept over 1m yet at Claudia.
+
+More than 3.9km of mineralized strike now outlined. Four rigs drilling. A maiden resource targeted for 2027.
+
+The market may be
+    链接: https://x.com/peter_krauth/status/2115500668689781107
+
+[2] @peter_krauth (Peter Krauth)
+    UTC: 2026-10-28T17:38:11+00:00
+    北京: 2026-10-29T01:38:11+08:00
+    文本: High-grade silver near surface. Significant zinc at depth. And a stock still ~45% below its 52-week high.
+
+
+@BPSilverCorp
+ is giving investors plenty to think about.
+
+The latest results strengthen our conviction that Cosuño could host a much larger silver-zinc system.
+
+With another
+    链接: https://x.com/peter_krauth/status/2115498377412833785
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-10-29T00:58:52+00:00
+    北京: 2026-10-29T08:58:52+08:00
+    文本: Short sighted, then. Even Biden implemented Trump's national uranium reserve idea.
+    链接: https://x.com/duediligenceguy/status/2115609276806807623
+
+[4] @AgnicoEagle (Agnico Eagle)
+    UTC: 2026-10-28T21:13:55+00:00
+    北京: 2026-10-29T05:13:55+08:00
+    文本:  News Release: #AgnicoEagle Reports Third Quarter 2026 Results - Strong Free Cash Flow Generation Driven by Solid Operational Performance; On Track to Achieve 2026 Production and Cost Guidance 
+
+
+https://
+aem.link/Q32026 
+
+Agnico Eagle President & CEO Ammar Al‑Joundi, along with
+    链接: https://x.com/agnicoeagle/status/2115552665140912480
+
+[5] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-28T21:02:36+00:00
+    北京: 2026-10-29T05:02:36+08:00
+    文本: Kinross Gold 2026 Q3 Results: Return of capital increased to 50%, repurchased 5% of shares since April 2025
+
+https://
+kinross.com/English/news-a
+nd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx
+…
+
+
+$KGC
+ $K
+    链接: https://x.com/kinrossgold/status/2115549820727578746
+
+[6] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-28T21:02:15+00:00
+    北京: 2026-10-29T05:02:15+08:00
+    文本: Kinross Gold 2026 Q3 Results: Grade enhancement projects advancing well, first gold poured at Redbird
+
+https://
+kinross.com/English/news-a
+nd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx
+…
+
+
+$KGC
+ $K
+    链接: https://x.com/kinrossgold/status/2115549732768567383
+
+[7] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-28T21:01:58+00:00
+    北京: 2026-10-29T05:01:58+08:00
+    文本: Kinross Gold 2026 Q3 Results: On track for updated guidance
+
+https://
+kinross.com/English/news-a
+nd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx
+…
+
+
+$KGC
+ $K
+    链接: https://x.com/kinrossgold/status/2115549659540209983
+
+[8] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-28T21:01:40+00:00
+    北京: 2026-10-29T05:01:40+08:00
+    文本: Kinross declares quarterly dividend
+
+https://
+kinross.com/English/news-a
+nd-investors/news-releases/press-release-details/2026/Kinross-declares-quarterly-dividend-fc4afc5c5/default.aspx
+…
+
+
+$KGC
+ $K
+    链接: https://x.com/kinrossgold/status/2115549585699463542
+
+[9] @KinrossGold (Kinross Gold)
+    UTC: 2026-10-28T21:01:23+00:00
+    北京: 2026-10-29T05:01:23+08:00
+    文本: Kinross reports 2026 third-quarter results
+
+https://
+kinross.com/English/news-a
+nd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx
+…
+
+
+$KGC
+ $K
+    链接: https://x.com/kinrossgold/status/2115549514589241476
+

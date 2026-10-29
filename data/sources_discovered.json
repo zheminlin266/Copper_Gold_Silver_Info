@@ -1611,6 +1611,55 @@
       "category": "中文财经媒体/实体消费走访",
       "channel": "http://finance.people.com.cn/",
       "notes": "2026-10-28北京金店轻量金饰消费报道公开原文及分钟级日期已核验。仅为门店和消费者样本，不外推全国黄金销量；HTTP原站可读，HTTPS域名证书校验失败。"
+    },
+    {
+      "source_id": "source-newcore-luke-alexander",
+      "display_name": "Luke Alexander（Newcore Gold）",
+      "category": "矿业管理层访谈",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/newcore-gold-drills-37-meters-of-2-16-g-t-gold-at-nyam",
+      "notes": "2026-10-30研究29日日报时核验原始节目配套文字，Nyam钻段及CIL路线；未声称收听音频。"
+    },
+    {
+      "source_id": "source-founders-colin-padget-ker",
+      "display_name": "Colin Padget（Founders Metals / KE Report）",
+      "category": "矿业管理层访谈",
+      "channel": "https://www.kereport.com/2026/10/27/founders-metals-exploration-updateexpanding-high-grade-froyowest-zone70k-meter-drilling-ongoinggold-fields-19-9investor/",
+      "notes": "2026-10-30核验27日新访谈配套文字，Froyo—Donut连接测试及首次MRE前工作顺序；不重报旧持股及钻孔。"
+    },
+    {
+      "source_id": "source-storm-bruce-counts",
+      "display_name": "Bruce Counts（Storm Exploration）",
+      "category": "矿业管理层访谈",
+      "channel": "https://www.kereport.com/2026/10/29/storm-exploration-exploring-district-scale-vms-across-ontario-gold-standard-project/",
+      "notes": "2026-10-30核验29日原始访谈配套文字，8孔1500米首轮计划与待化验限制。"
+    },
+    {
+      "source_id": "source-gunnison-craig-hallworth",
+      "display_name": "Craig Hallworth（Gunnison Copper）",
+      "category": "矿业管理层访谈",
+      "channel": "https://www.cruxinvestor.com/posts/gunnison-copper-lists-on-nyse-american-nears-full-production-and-readies-partner-search",
+      "notes": "2026-10-30核验29日Crux公开采访配套文章，Johnson Camp满产目标及Nuton回路；未观看视频，不把目标当实际产量。"
+    },
+    {
+      "source_id": "source-hot-chili-resource-talks",
+      "display_name": "Hot Chili CEO（Resource Talks）",
+      "category": "矿业管理层访谈",
+      "channel": "https://resourcetalks.com/copper-stocks/big-copper-project-in-chile-but-can-a-junior-actually-build-it/",
+      "notes": "2026-10-30核验28日原始采访配套问答，La Verde化验待回、资源和PFS可能延期及融资风险；管理层目标与已发表研究分开。"
+    },
+    {
+      "source_id": "source-apollo-silver-issuer",
+      "display_name": "Apollo Silver 官方公告",
+      "category": "矿业公司官方公告",
+      "channel": "https://apollosilver.com/apollo-silver-delivers-positive-pea-for-calico/",
+      "notes": "2026-10-30核验29日Calico首次PEA官网全文及Nasdaq发行人原稿；19:00北京时间，白银模型产量与实际产量分开。"
+    },
+    {
+      "source_id": "source-boliden-issuer",
+      "display_name": "Boliden 官方季度通告",
+      "category": "矿业公司官方公告",
+      "channel": "https://investors.boliden.com/sv/node/6068",
+      "notes": "2026-10-30核验29日13:00 CET原稿，Aitik品位及处理量方向、Rönnskär车间状态；未用30日媒体稿数字补齐。"
     }
   ]
 }

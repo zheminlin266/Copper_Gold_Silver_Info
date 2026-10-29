@@ -1,0 +1,134 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-10-29",
+  "status": "complete",
+  "selected_channel": "playwright",
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 24,
+  "accounts_failed": 0,
+  "channel_completed_accounts": {
+    "playwright": 24
+  },
+  "candidates": [
+    {
+      "candidate_id": "x-ad08d65c009842692ca2713e",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-28T17:47:18+00:00",
+      "text": "68% BELOW its 52-week high. And the discoveries keep coming.\n\n\n@Pacifica_Silver\n  just delivered its highest-grade gold intercept over 1m yet at Claudia.\n\nMore than 3.9km of mineralized strike now outlined. Four rigs drilling. A maiden resource targeted for 2027.\n\nThe market may be",
+      "url": "https://x.com/peter_krauth/status/2115500668689781107",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-f6230a194fb94edc4269c655",
+      "source_id": "x-peter_krauth",
+      "author": "Peter Krauth",
+      "handle": "peter_krauth",
+      "publish_time": "2026-10-28T17:38:11+00:00",
+      "text": "High-grade silver near surface. Significant zinc at depth. And a stock still ~45% below its 52-week high.\n\n\n@BPSilverCorp\n is giving investors plenty to think about.\n\nThe latest results strengthen our conviction that Cosuño could host a much larger silver-zinc system.\n\nWith another",
+      "url": "https://x.com/peter_krauth/status/2115498377412833785",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-4de912d19c45dd72dfc37b07",
+      "source_id": "x-duediligenceguy",
+      "author": "Lobo Tiggre",
+      "handle": "duediligenceguy",
+      "publish_time": "2026-10-29T00:58:52+00:00",
+      "text": "Short sighted, then. Even Biden implemented Trump's national uranium reserve idea.",
+      "url": "https://x.com/duediligenceguy/status/2115609276806807623",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-2e4bf186a215612352b49f98",
+      "source_id": "x-agnicoeagle",
+      "author": "Agnico Eagle",
+      "handle": "AgnicoEagle",
+      "publish_time": "2026-10-28T21:13:55+00:00",
+      "text": " News Release: #AgnicoEagle Reports Third Quarter 2026 Results - Strong Free Cash Flow Generation Driven by Solid Operational Performance; On Track to Achieve 2026 Production and Cost Guidance \n\n\nhttps://\naem.link/Q32026 \n\nAgnico Eagle President & CEO Ammar Al‑Joundi, along with",
+      "url": "https://x.com/agnicoeagle/status/2115552665140912480",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-cdd3324b88a842edf688124f",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-28T21:02:36+00:00",
+      "text": "Kinross Gold 2026 Q3 Results: Return of capital increased to 50%, repurchased 5% of shares since April 2025\n\nhttps://\nkinross.com/English/news-a\nnd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx\n…\n\n\n$KGC\n $K",
+      "url": "https://x.com/kinrossgold/status/2115549820727578746",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-1fd989b13484434a5d338b71",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-28T21:02:15+00:00",
+      "text": "Kinross Gold 2026 Q3 Results: Grade enhancement projects advancing well, first gold poured at Redbird\n\nhttps://\nkinross.com/English/news-a\nnd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx\n…\n\n\n$KGC\n $K",
+      "url": "https://x.com/kinrossgold/status/2115549732768567383",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-8c6d1abaea4aebde1bc11e54",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-28T21:01:58+00:00",
+      "text": "Kinross Gold 2026 Q3 Results: On track for updated guidance\n\nhttps://\nkinross.com/English/news-a\nnd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx\n…\n\n\n$KGC\n $K",
+      "url": "https://x.com/kinrossgold/status/2115549659540209983",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-b865dbfdbba97c5e3a2332dd",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-28T21:01:40+00:00",
+      "text": "Kinross declares quarterly dividend\n\nhttps://\nkinross.com/English/news-a\nnd-investors/news-releases/press-release-details/2026/Kinross-declares-quarterly-dividend-fc4afc5c5/default.aspx\n…\n\n\n$KGC\n $K",
+      "url": "https://x.com/kinrossgold/status/2115549585699463542",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    },
+    {
+      "candidate_id": "x-ac01ee44628a97f246dfbbdd",
+      "source_id": "x-kinrossgold",
+      "author": "Kinross Gold",
+      "handle": "KinrossGold",
+      "publish_time": "2026-10-28T21:01:23+00:00",
+      "text": "Kinross reports 2026 third-quarter results\n\nhttps://\nkinross.com/English/news-a\nnd-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx\n…\n\n\n$KGC\n $K",
+      "url": "https://x.com/kinrossgold/status/2115549514589241476",
+      "collector": "x_search",
+      "report_date": "2026-10-29",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "metadata": {
+    "channel_completed_accounts": {
+      "playwright": 24
+    },
+    "channel_errors": [],
+    "raw_sha256": "79c76061922e1770e73d79a2de158f147d28d3d70a5a40c7be537b55768f4c38"
+  }
+}
