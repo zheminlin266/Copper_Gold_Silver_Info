@@ -29,6 +29,9 @@ export default function HomePage() {
           <h1>{formatDate(latest.date)} 矿业供需信号</h1>
           <p className="meta-copy">更新于 {formatDateTime(latest.report_time)} · 北京时间</p>
           <p className="lead-copy">{getReportSummary(latest)}</p>
+          {latest.search_log.part3_searched === false && latest.report_note && (
+            <p className="signal-card__verification" role="note">{latest.report_note}</p>
+          )}
         </header>
 
         <MetricStrip report={latest} />

@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-11-02",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -1660,6 +1660,27 @@
       "category": "矿业公司官方公告",
       "channel": "https://investors.boliden.com/sv/node/6068",
       "notes": "2026-10-30核验29日13:00 CET原稿，Aitik品位及处理量方向、Rönnskär车间状态；未用30日媒体稿数字补齐。"
+    },
+    {
+      "source_id": "source-centerra-issuer",
+      "display_name": "Centerra Gold 官方季度通告",
+      "category": "矿业公司官方公告",
+      "channel": "https://www.globenewswire.com/news-release/2026/10/29/3391909/0/en/centerra-gold-reports-third-quarter-2026-results-full-year-aisc-guidance-on-a-by-product-basis-lowered-at-mount-milligan-following-continued-operational-execution-record-quarterly-.html",
+      "notes": "已核验公司经GlobeNewswire发布的2026年第三季度原始业绩通告；黄金与铜产量、期间及发布时间均可见。"
+    },
+    {
+      "source_id": "person-philippe-cloutier",
+      "display_name": "Philippe Cloutier",
+      "category": "矿业公司管理层",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/cartier-resources-a-1-billion-gold-project-ready-for-its-next-chapter",
+      "notes": "Cartier Resources CEO；Mining Stock Daily原始节目说明核验Cadillac开发路径，来源时间换算北京时间2026-10-31。"
+    },
+    {
+      "source_id": "person-caleb-stroup",
+      "display_name": "Caleb Stroup",
+      "category": "矿业公司管理层",
+      "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/headwater-gold-delivers-major-gold-hit-at-jake-creek",
+      "notes": "Headwater Gold CEO；Mining Stock Daily原始节目说明核验Jake Creek钻探结果，来源时间换算北京时间2026-10-31。"
     }
   ]
 }

@@ -1,0 +1,235 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-30",
+  "report_time": "2026-11-02T00:46:06+08:00",
+  "summary": "Oyu Tolgoi 地下作业逐步重启，铜矿短期中断风险缓解，但全面恢复节奏尚未明确；上期所铜仓单减少348吨。Centerra 三季度黄金与铜产量提供已实现供应基数，全年产量指引维持。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-28T00:00:00+08:00",
+      "end": "2026-10-30T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-30T00:00:00+08:00",
+      "end": "2026-10-30T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-30T00:00:00+08:00",
+      "end": "2026-10-30T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.riotinto.com/en/news/releases/2026/update-on-oyu-tolgoi-seismic-event",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-30T19:00:00+08:00",
+      "claims": [
+        {
+          "claim": "地下作业在安全审查完成后逐步恢复。",
+          "evidence": "are being progressively restarted following completion of safety reviews.",
+          "source_url": "https://www.riotinto.com/en/news/releases/2026/update-on-oyu-tolgoi-seismic-event",
+          "evidence_type": "public original page",
+          "period": "2026-10-30",
+          "unit": "operation status",
+          "value": "progressive restart"
+        },
+        {
+          "claim": "公司称崩落矿体及运营基础设施未受结构性影响。",
+          "evidence": "no structural impact to the cave or its operating infrastructure.",
+          "source_url": "https://www.riotinto.com/en/news/releases/2026/update-on-oyu-tolgoi-seismic-event",
+          "evidence_type": "public original page",
+          "period": "2026-10-30",
+          "unit": "structural impact",
+          "value": "none reported"
+        }
+      ],
+      "source": "Rio Tinto",
+      "title": "Oyu Tolgoi 完成安全审查，地下作业逐步恢复",
+      "excerpt": "力拓10月30日公告，蒙古 Oyu Tolgoi 铜矿完成安全审查后，地下作业正逐步重启。公司称，29日地震引起的局部落石局限于生产区附近的临时储存区域，未对崩落矿体或运营基础设施造成结构性影响。",
+      "language": "en",
+      "importance": "相较29日事故后的停工状态，逐步恢复作业意味着短期铜矿供应中断的风险开始缓解，但分阶段重启不能直接等同于产量恢复到事故前水平。公告没有给出损失吨数或全面复产时间，后续供应影响仍取决于恢复速度和实际出矿量，不能据此推算全年产量变化。",
+      "verification_status": "verified",
+      "verification_note": "力拓公开原文；LONDON 1100 GMT 换算为北京时间10月30日19:00。仅归因公司公告，不推算停产损失。",
+      "companies": [
+        "Rio Tinto"
+      ],
+      "projects": [
+        "Oyu Tolgoi"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/10/29/3391909/0/en/centerra-gold-reports-third-quarter-2026-results-full-year-aisc-guidance-on-a-by-product-basis-lowered-at-mount-milligan-following-continued-operational-execution-record-quarterly-.html",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-30T05:00:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年第三季度合并黄金产量75,429盎司。",
+          "evidence": "consolidated gold production was 75,429 ounces",
+          "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391909/0/en/centerra-gold-reports-third-quarter-2026-results-full-year-aisc-guidance-on-a-by-product-basis-lowered-at-mount-milligan-following-continued-operational-execution-record-quarterly-.html",
+          "evidence_type": "public original page",
+          "period": "2026 Q3",
+          "unit": "oz gold",
+          "value": 75429
+        },
+        {
+          "claim": "Mount Milligan 第三季度铜产量1,280万磅。",
+          "evidence": "Copper production in the quarter was 12.8 million pounds at Mount Milligan.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/10/29/3391909/0/en/centerra-gold-reports-third-quarter-2026-results-full-year-aisc-guidance-on-a-by-product-basis-lowered-at-mount-milligan-following-continued-operational-execution-record-quarterly-.html",
+          "evidence_type": "public original page",
+          "period": "2026 Q3",
+          "unit": "lb copper",
+          "value": 12800000
+        }
+      ],
+      "source": "Centerra Gold / GlobeNewswire",
+      "title": "Centerra 三季度产金75,429盎司、产铜1,280万磅",
+      "excerpt": "Centerra 公布2026年第三季度黄金产量75,429盎司，其中 Mount Milligan 为44,070盎司、Öksüt 为31,359盎司；Mount Milligan 同期产铜1,280万磅。公司表示两座矿山仍按各自2026年产量指引推进，未在本次更新中上调产量目标。",
+      "language": "en",
+      "importance": "75,429盎司黄金和1,280万磅铜提供了三季度已经实现的矿山供应基数，较单纯利润或售价变化更直接反映实物产出。两座矿山维持全年产量指引，意味着本次公告主要验证既有生产计划，不能把成本改善当成新增吨位；四季度能否兑现仍取决于矿山运行和处理量。",
+      "verification_status": "verified",
+      "verification_note": "公司经 GlobeNewswire 发布的完整原稿；时间元数据2026-10-29T21:00:00Z，对应北京时间10月30日05:00。",
+      "companies": [
+        "Centerra Gold"
+      ],
+      "projects": [
+        "Mount Milligan",
+        "Öksüt"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://news.smm.cn/live/detail/104189093",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-10-30T15:57:19+08:00",
+      "claims": [
+        {
+          "claim": "10月30日铜仓单减少348吨至10,999吨。",
+          "evidence": "10月30日上期所铜减少348吨至10999吨",
+          "source_url": "https://news.smm.cn/live/detail/104189093",
+          "evidence_type": "public original page",
+          "period": "2026-10-30",
+          "unit": "tonnes registered copper warrants",
+          "value": 10999
+        }
+      ],
+      "source": "上海有色网 SMM",
+      "title": "上期所铜注册仓单减少348吨至10,999吨",
+      "excerpt": "上海有色网10月30日15:57发布的仓单日报显示，上期所铜注册仓单当日减少348吨，余额为10,999吨。该数字对应注册仓单口径，不是上期所全部库存，也不是全国社会库存。",
+      "language": "zh",
+      "importance": "348吨的单日减少使注册仓单余额降至10,999吨，反映可交割凭证对应库存的边际收缩，可能影响短期交割可用量。仓单减少也可能来自注销或库存状态转换，不能直接认定终端消费增加；判断持续性仍需后续仓单、总库存和现货成交共同验证。",
+      "verification_status": "verified",
+      "verification_note": "SMM 公开快讯正文与发布时间均可见；HTTP响应的gzip内容在本地解码，未读取登录后内容。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "https://www.kereport.com/ ：检索10月28日至31日节目，打开日期入口及Aaron Banks、周末节目页；价格技术分析不纳入。",
+      "https://clearcommodity.net/podcasts/mining-stock-daily ：逐项核对节目页、可见说明与datetime；与前两份日报按URL和实质内容去重。",
+      "https://www.cruxinvestor.com/ ：检查同期金银铜文章并追溯原始采访，排除9月旧访谈整理及已于29日纳入的Gunnison内容。",
+      "新奥尔良投资会议窗口：检索主办方会议名称与Mining Stock Daily、Kitco及受访者页面；Cartier、Headwater两项节目按来源时区换算后属于北京时间31日。",
+      "https://www.buzzsprout.com/1979283/episodes/20040093-the-signal-telling-us-gold-could-keep-falling-and-why-25k-is-still-in-play-leigh-goehring ：公开节目说明未给出供需事实，排除。",
+      "https://independentspeculator.com/sd/articles/kitco-2026-10-30 ：仅时间戳与投资观点，不从章节名推导供需事实。",
+      "补充日期检索Kitco、Rule Investment与Commodity Culture；价格目标、股价及一般市场策略结果不纳入。"
+    ],
+    "part1_result": "完成10月28日至30日北京自然日访谈检索与前两期去重；未发现新增合格访谈。Cartier、Headwater页面当地日期为30日，但datetime换算北京均为31日，排除出本期。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "x_outputs/2026-10-30_x_raw_materials.json：24个注册账号均未完成访问，已保存真实失败原因。"
+    ],
+    "part2_result": "X采集失败，覆盖0/24。云端缺少浏览器profile或x_auth.json，在Playwright初始化阶段停止；没有可核验原帖，不表示这些账号当天没有供需信息。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+      ],
+      "notes": [
+        "真实运行daily_pipeline.py 2026-10-30 --collect-x，外层timeout为3600秒；返回failed，账号完成0/24。",
+        "云端缺少X浏览器profile与x_auth.json，Playwright初始化失败并安全停止；未访问账号帖子，未启动twscrape，没有重试或替代登录。",
+        "原始材料：x_outputs/2026-10-30_x_raw_materials.txt；sidecar：x_outputs/2026-10-30_x_raw_materials.json。未访问账号一律为未知，不计为无信号。"
+      ]
+    },
+    "part3_searched": false,
+    "part3_sources_checked": [
+      "Mining.com copper/gold/silver 分类页：10月30日目标采集运行中均返回 CloudFront HTTP 403，分类发现未完成；保留原始日志与截图，不重试挑战。",
+      "https://www.riotinto.com/en/news/releases/2026/update-on-oyu-tolgoi-seismic-event：公开正文与发布时间核验；纳入本期。",
+      "https://www.globenewswire.com/news-release/2026/10/29/3391909/0/en/centerra-gold-reports-third-quarter-2026-results-full-year-aisc-guidance-on-a-by-product-basis-lowered-at-mount-milligan-following-continued-operational-execution-record-quarterly-.html：公开正文与发布时间核验；纳入本期。",
+      "https://news.smm.cn/live/detail/104189093：公开正文与发布时间核验；纳入本期。",
+      "https://hq.smm.cn/copper/content/104189114 ：上期所周库存页要求登录，未读取隐藏数字；仅采用公开仓单快讯，二者口径不同。",
+      "Rio Tinto 地震复工报道多家转载合并为公司原始公告；Centerra 使用公司经GlobeNewswire发布的原稿。",
+      "https://www.cruxinvestor.com/posts/marimacas-2027-copper-build-hinges-on-lender-selection-as-pampa-medina-nears-a-resource：30日分析文引用的原始访谈发布于9月8日；未确认文中融资与工程节点为30日首次披露，排除重新包装的旧计划。",
+      "https://www.cruxinvestor.com/posts/americas-gold-silver-puts-90-recovery-ahead-of-speed-at-cosala：31日分析文引用的原始管理层访谈发布于9月24日；未确认新增原始披露，不将旧回收率计划当作31日新信号。"
+    ],
+    "part3_result": "按用户本次授权降级补发；新闻覆盖不完整，Mining.com分类发现未完成。已核验其他来源并纳入3条新闻；未知或未收录不代表没有事件。例外仅限2026-10-30、2026-10-31，11月1日不在本次范围。",
+    "mining_com_source_note": "Mining.com copper/gold/silver 分类页：10月30日目标采集运行中均返回 CloudFront HTTP 403，分类发现未完成；保留原始日志与截图，不重试挑战。",
+    "new_sources_discovered": [
+      "Centerra Gold 官方季度原稿（经GlobeNewswire发布）"
+    ],
+    "url_verification": {
+      "checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "failures": [],
+      "notes": "计数仅对应本期纳入卡片；均已打开公开原始页面、核对可见正文与日期。候选拒绝原因另见来源检索和去重日志。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/red-metal-resources-royalty-revenue-and-a-q1-drill-program-at-carrizal"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Oyu Tolgoi复工的媒体转载统一保留力拓公告；不重复29日停工事件。"
+    ],
+    "notes": "逐项对照前两份已发布日报；10月31日另与本次30日分析束比较。；30日分析文引用的原始访谈发布于9月8日；未确认文中融资与工程节点为30日首次披露，排除重新包装的旧计划。；31日分析文引用的原始管理层访谈发布于9月24日；未确认新增原始披露，不将旧回收率计划当作31日新信号。；保留已核验事实，未以跨日期旧稿补足数量；本次未更新TC CSV。"
+  },
+  "report_note": "降级补发：本期新闻覆盖不完整。Mining.com 分类采集受限，X 账户检索完成 0/24；仅收录已核验的其他来源。未收录不代表当日无事件，本期不用于判断信息全貌。本次例外仅适用于 2026-10-30、2026-10-31 两期。"
+}

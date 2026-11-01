@@ -57,6 +57,8 @@ const IMPORTANCE_ANALYSIS_MARKER = /(?:意味着|由于|因此|导致|通过|取
 const GENERIC_IMPORTANCE_ONLY = /^(?:这是|属于|可作为|补充了|反映了|提示|显示).{0,60}(?:信号|线索|风险|变化|判断)[。！？!?]$/u;
 
 const SCHEMA_PATH = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "daily_report_schema.json");
+// User-authorized exceptions apply only to these dated reports, with a visible notice.
+const COLLECTION_EXCEPTIONS = JSON.parse(fs.readFileSync(path.join(path.dirname(SCHEMA_PATH), "collection_exceptions.json"), "utf8"));
 const schema = JSON.parse(fs.readFileSync(SCHEMA_PATH, "utf8"));
 const ajv = new Ajv2020({ allErrors: true, strict: false });
 addFormats(ajv);
@@ -310,7 +312,10 @@ function validateCollectionCompleteness(report, filename) {
   if (report.date < COLLECTION_COMPLETENESS_REQUIRED_FROM) return;
   for (const part of ["part1", "part3"]) {
     const searchedField = `${part}_searched`;
-    if (report.search_log[searchedField] !== true) {
+    const notice = part === "part3" ? COLLECTION_EXCEPTIONS[report.date] : undefined;
+    const exception = report.search_log[searchedField] === false
+      && typeof notice === "string" && notice.trim() && report.report_note === notice;
+    if (report.search_log[searchedField] !== true && !exception) {
       throw new Error(
         `${filename}: search_log.${searchedField} must be true; failed collection cannot be published as zero results`,
       );

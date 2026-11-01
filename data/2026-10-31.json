@@ -1,0 +1,247 @@
+{
+  "schema_version": 3,
+  "date": "2026-10-31",
+  "report_time": "2026-11-02T00:46:06+08:00",
+  "summary": "Cadillac 讨论代加工与可研路径，Jake Creek 披露钻探截段，均属于未来黄金供应的早期线索。水贝走访见客流增加及金银报价分化，但缺少成交量，尚不足以判断全国实物需求转向。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-29T00:00:00+08:00",
+      "end": "2026-10-31T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-10-31T00:00:00+08:00",
+      "end": "2026-10-31T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-10-31T00:00:00+08:00",
+      "end": "2026-10-31T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://clearcommodity.net/podcasts/mining-stock-daily/cartier-resources-a-1-billion-gold-project-ready-for-its-next-chapter",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-31",
+      "claims": [
+        {
+          "claim": "管理层讨论附近生产商代加工和直接进入可研的可能性。",
+          "evidence": "potential advantages of toll milling with nearby producers, the possibility of advancing directly to a feasibility study",
+          "source_url": "https://clearcommodity.net/podcasts/mining-stock-daily/cartier-resources-a-1-billion-gold-project-ready-for-its-next-chapter",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 interview publication",
+          "unit": "development options",
+          "value": "toll milling; feasibility study"
+        }
+      ],
+      "title": "Cartier 讨论 Cadillac 代加工及直接推进可研的开发路径",
+      "source_type": "podcast",
+      "summary": "Cartier 首席执行官 Philippe Cloutier 在新奥尔良投资会议访谈中介绍，管理层正评估 Cadillac 金矿从勘探转向开发的路径，包括与附近生产商合作代加工、直接推进可行性研究，以及是否把资源优先用于走向生产。节目说明称，相关战略决定可能影响2027年及之后的推进方向。",
+      "importance": "利用周边加工能力可能减少新建选厂的资本和时间需求，因此 Cadillac 的供给兑现路径取决于代加工安排与可研结论，而非仅取决于资源规模。管理层讨论的是面向2027年及以后的选择，尚非建设或投产承诺；融资、许可及最终工程方案仍是新增黄金产出的约束。",
+      "verification_status": "verified",
+      "verification_note": "核对原始节目页的可见节目说明，未声称听取完整音频。datetime为2026-10-30T11:30:00-05:00，换算北京时间10月31日00:30；旧PEA数字未作为本日新增产能。",
+      "guest": {
+        "name": "Philippe Cloutier",
+        "background": "Cartier Resources CEO"
+      },
+      "companies": [
+        "Cartier Resources"
+      ],
+      "projects": [
+        "Cadillac Gold Project"
+      ]
+    },
+    {
+      "url": "https://clearcommodity.net/podcasts/mining-stock-daily/headwater-gold-delivers-major-gold-hit-at-jake-creek",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-31",
+      "claims": [
+        {
+          "claim": "Jake Creek 首轮岩芯钻探返回46.3米、1.34克/吨金截段。",
+          "evidence": "first core drilling program returned 46.3 meters grading 1.34 g/t gold",
+          "source_url": "https://clearcommodity.net/podcasts/mining-stock-daily/headwater-gold-delivers-major-gold-hit-at-jake-creek",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 interview publication",
+          "unit": "drill intercept",
+          "value": "46.3 m at 1.34 g/t Au"
+        },
+        {
+          "claim": "公司正准备重启 Spring Peak 钻探。",
+          "evidence": "preparations for renewed drilling at Spring Peak",
+          "source_url": "https://clearcommodity.net/podcasts/mining-stock-daily/headwater-gold-delivers-major-gold-hit-at-jake-creek",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 interview publication",
+          "unit": "exploration status",
+          "value": "preparations"
+        }
+      ],
+      "title": "Headwater 介绍 Jake Creek 首轮岩芯钻探结果及后续工作",
+      "source_type": "podcast",
+      "summary": "Headwater 首席执行官 Caleb Stroup 在 Mining Stock Daily 访谈中介绍，内华达州 Jake Creek 项目首轮岩芯钻探录得46.3米、金品位1.34克/吨的矿化截段。节目说明同时提到，公司正为 Spring Peak 再次钻探作准备；Jake Creek 为与 OceanaGold 合作推进的项目。",
+      "importance": "46.3米、1.34克/吨的钻探截段有助于检验 Jake Creek 的地质模型，并为后续钻探布置提供依据，但截段长度不等于已确认的真厚度或可采储量。该项目仍处勘探阶段，转化为黄金供应取决于连续性验证、资源估算及后续开发条件，短期不能计入新增矿山产量。",
+      "verification_status": "verified",
+      "verification_note": "核对原始节目页的可见节目说明，未声称听取完整音频。datetime为2026-10-30T12:48:00-05:00，换算北京时间10月31日01:48。",
+      "guest": {
+        "name": "Caleb Stroup",
+        "background": "Headwater Gold CEO"
+      },
+      "companies": [
+        "Headwater Gold",
+        "OceanaGold"
+      ],
+      "projects": [
+        "Jake Creek",
+        "Spring Peak"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.nbd.com.cn/articles/2026-10-31/4633273.html",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "both",
+      "publish_time": "2026-10-31T23:41:37+08:00",
+      "claims": [
+        {
+          "claim": "记者观察到水贝消费者较平时增多。",
+          "evidence": "消费者相比平时要多",
+          "source_url": "https://www.nbd.com.cn/articles/2026-10-31/4633273.html",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 afternoon",
+          "unit": "local qualitative observation",
+          "value": "more visitors"
+        },
+        {
+          "claim": "单次金条询价最终报价869元/克。",
+          "evidence": "折让到了869元",
+          "source_url": "https://www.nbd.com.cn/articles/2026-10-31/4633273.html",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 afternoon",
+          "unit": "CNY/g quoted gold price",
+          "value": 869
+        },
+        {
+          "claim": "报道中的白银回收报价存在较大差异。",
+          "evidence": "报价6元",
+          "source_url": "https://www.nbd.com.cn/articles/2026-10-31/4633273.html",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 afternoon",
+          "unit": "CNY/g quoted silver buyback price",
+          "value": 6
+        }
+      ],
+      "source": "每日经济新闻",
+      "title": "水贝实地走访：客流增多，金银买卖报价分化",
+      "excerpt": "《每日经济新闻》记者10月31日下午走访深圳水贝，观察到消费者较平时增多。一次200克金条询价中，商家报价从875元/克降至869元/克；不同商铺的白银回收报价分别出现10.5元/克和6元/克，显示本地报价分化。",
+      "language": "zh",
+      "importance": "10月31日的现场客流与议价观察提示，价格回落可能刺激部分实物购买意愿，并改变金银回收环节的报价。200克金条只是一次询价，银回收价差也不代表实际成交量；这些局部观察不足以证明全国需求反转或白银供应短缺，后续仍需成交和回收量验证。",
+      "verification_status": "verified",
+      "verification_note": "原始实地报道公开全文，页面显示北京时间2026-10-31 23:41:37。保留记者观察与店家报价口径，不作为成交统计。",
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "https://www.kereport.com/ ：检索10月28日至31日节目，打开日期入口及Aaron Banks、周末节目页；价格技术分析不纳入。",
+      "https://clearcommodity.net/podcasts/mining-stock-daily ：逐项核对节目页、可见说明与datetime；与前两份日报按URL和实质内容去重。",
+      "https://www.cruxinvestor.com/ ：检查同期金银铜文章并追溯原始采访，排除9月旧访谈整理及已于29日纳入的Gunnison内容。",
+      "新奥尔良投资会议窗口：检索主办方会议名称与Mining Stock Daily、Kitco及受访者页面；Cartier、Headwater两项节目按来源时区换算后属于北京时间31日。",
+      "https://www.buzzsprout.com/1979283/episodes/20040093-the-signal-telling-us-gold-could-keep-falling-and-why-25k-is-still-in-play-leigh-goehring ：公开节目说明未给出供需事实，排除。",
+      "https://independentspeculator.com/sd/articles/kitco-2026-10-30 ：仅时间戳与投资观点，不从章节名推导供需事实。",
+      "补充日期检索Kitco、Rule Investment与Commodity Culture；价格目标、股价及一般市场策略结果不纳入。"
+    ],
+    "part1_result": "完成10月29日至31日北京自然日访谈检索与前两期去重；纳入Cartier、Headwater两期可见节目说明，发布时间换算北京均为31日。旧访谈整理、价格目标及缺少正文的节目排除。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "x_outputs/2026-10-31_x_raw_materials.json：24个注册账号均未完成访问，已保存真实失败原因。"
+    ],
+    "part2_result": "X采集失败，覆盖0/24。云端缺少浏览器profile或x_auth.json，在Playwright初始化阶段停止；没有可核验原帖，不表示这些账号当天没有供需信息。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+      ],
+      "notes": [
+        "真实运行daily_pipeline.py 2026-10-31 --collect-x，外层timeout为3600秒；返回failed，账号完成0/24。",
+        "云端缺少X浏览器profile与x_auth.json，Playwright初始化失败并安全停止；未访问账号帖子，未启动twscrape，没有重试或替代登录。",
+        "原始材料：x_outputs/2026-10-31_x_raw_materials.txt；sidecar：x_outputs/2026-10-31_x_raw_materials.json。未访问账号一律为未知，不计为无信号。"
+      ]
+    },
+    "part3_searched": false,
+    "part3_sources_checked": [
+      "Mining.com copper/gold/silver 分类页：10月30日目标采集运行中均返回 CloudFront HTTP 403，分类发现未完成；保留原始日志与截图，不重试挑战。",
+      "31日沿用本次已确认的分类入口访问限制，未重复请求同一受限分类页；本日Mining.com发现未完成，不宣称31日另有一次成功或403采集。",
+      "https://www.nbd.com.cn/articles/2026-10-31/4633273.html：公开正文与发布时间核验；纳入本期。",
+      "https://hq.smm.cn/copper/content/104189786 ：智利产量只有公开导语、全文要求登录，未取得原始统计说明，不纳入。",
+      "SMM四季度铜产量分析：登录墙，仅有导语，未使用隐藏内容或据标题推断数字。",
+      "https://www.cruxinvestor.com/posts/marimacas-2027-copper-build-hinges-on-lender-selection-as-pampa-medina-nears-a-resource：30日分析文引用的原始访谈发布于9月8日；未确认文中融资与工程节点为30日首次披露，排除重新包装的旧计划。",
+      "https://www.cruxinvestor.com/posts/americas-gold-silver-puts-90-recovery-ahead-of-speed-at-cosala：31日分析文引用的原始管理层访谈发布于9月24日；未确认新增原始披露，不将旧回收率计划当作31日新信号。"
+    ],
+    "part3_result": "按用户本次授权降级补发；新闻覆盖不完整，Mining.com分类发现未完成。已核验其他来源并纳入1条新闻；未知或未收录不代表没有事件。例外仅限2026-10-30、2026-10-31，11月1日不在本次范围。",
+    "mining_com_source_note": "Mining.com copper/gold/silver 分类页：10月30日目标采集运行中均返回 CloudFront HTTP 403，分类发现未完成；保留原始日志与截图，不重试挑战。",
+    "new_sources_discovered": [
+      "Mining Stock Daily 受访者 Philippe Cloutier、Caleb Stroup，原节目说明已核验"
+    ],
+    "url_verification": {
+      "checked": 3,
+      "passed": 3,
+      "failed": 0,
+      "failures": [],
+      "notes": "计数仅对应本期纳入卡片；均已打开公开原始页面、核对可见正文与日期。候选拒绝原因另见来源检索和去重日志。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/red-metal-resources-royalty-revenue-and-a-q1-drill-program-at-carrizal"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [],
+    "notes": "逐项对照前两份已发布日报；10月31日另与本次30日分析束比较。；30日分析文引用的原始访谈发布于9月8日；未确认文中融资与工程节点为30日首次披露，排除重新包装的旧计划。；31日分析文引用的原始管理层访谈发布于9月24日；未确认新增原始披露，不将旧回收率计划当作31日新信号。；保留已核验事实，未以跨日期旧稿补足数量；本次未更新TC CSV。"
+  },
+  "report_note": "降级补发：本期新闻覆盖不完整。Mining.com 分类采集受限，X 账户检索完成 0/24；仅收录已核验的其他来源。未收录不代表当日无事件，本期不用于判断信息全貌。本次例外仅适用于 2026-10-30、2026-10-31 两期。"
+}

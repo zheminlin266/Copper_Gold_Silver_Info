@@ -22,6 +22,7 @@ if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.script_utils import atomic_write_json
 from scripts.runtime_support import AlreadyRunning, exclusive_lock, run_logged_process
+from scripts.report_builder import collection_exception_note
 
 ROOT = Path(__file__).resolve().parents[1]
 BEIJING = timezone(timedelta(hours=8))
@@ -66,8 +67,11 @@ def require_report(path: Path, report_date: str) -> dict:
     if report.get("date") != report_date:
         raise ValueError("Target report date does not match filename")
     audit = report.get("search_log", {})
-    if audit.get("part1_searched") is not True or audit.get("part3_searched") is not True:
-        raise ValueError("Part 1/3 collection is incomplete")
+    for part in ("part1", "part3"):
+        note = collection_exception_note(report_date, part)
+        exception = audit.get(f"{part}_searched") is False and note and report.get("report_note") == note
+        if audit.get(f"{part}_searched") is not True and not exception:
+            raise ValueError("Part 1/3 collection is incomplete")
     if audit.get("part2_coverage", {}).get("status") not in {"complete", "partial", "failed"}:
         raise ValueError("Missing Part 2 coverage audit")
     return report
@@ -154,6 +158,8 @@ def verify_pages(report: dict, csv_text: str, fetch) -> None:
         if missing:
             raise Pending(f"Production {route} missing links: {sorted(missing)}")
         try:
+            if route == daily and report.get("search_log", {}).get("part3_searched") is False:
+                require_page(text, [report["report_note"]], route)
             if route in {"/", daily, "/archive"}:
                 require_page(text, [report_date], route)
             if route == "/":
