@@ -100,6 +100,33 @@ class ReportBuilderTests(unittest.TestCase):
         report = project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
         self.assertEqual(report["search_log"]["part2_channel"], "twscrape")
 
+    def test_partial_news_exception_keeps_false_audit_and_cannot_extend_to_next_day(self):
+        for day in ("2026-10-30", "2026-10-31", "2026-11-01"):
+            bundle = self.bundle()
+            bundle.update(report_date=day, candidates=[], decisions=[])
+            bundle["search_log"].update(
+                part3_searched=False, part3_result="Mining category access blocked; partial research only",
+                part2_searched=False, part2_channel="failed", part2_result="X 0/2; login unavailable",
+                part2_coverage={"status": "failed", "accounts_total": 2, "accounts_completed": 0,
+                                "accounts_failed": 2, "attempted_channels": ["playwright"],
+                                "selected_channel": None, "channel_errors": ["login unavailable"], "notes": []},
+                url_verification={"checked": 0, "passed": 0, "failed": 0, "failures": []},
+            )
+            with self.subTest(day=day):
+                if day == "2026-11-01":
+                    with self.assertRaisesRegex(ReportBuilderError, "Part 3 failed collection"):
+                        build_report(bundle)
+                    continue
+                report = build_report(bundle)
+                self.assertIs(report["search_log"]["part3_searched"], False)
+                self.assertIn("降级补发", report["report_note"])
+                del report["report_note"]
+                with self.assertRaisesRegex(ReportBuilderError, "failed collection"):
+                    validate_report(report)
+                bundle["search_log"]["part1_searched"] = False
+                with self.assertRaisesRegex(ReportBuilderError, "Part 1 failed collection"):
+                    build_report(bundle)
+
     def test_partial_and_failed_x_coverage_are_publishable_with_audit(self):
         for status, completed, failed in (("partial", 1, 1), ("failed", 0, 2)):
             with self.subTest(status=status):

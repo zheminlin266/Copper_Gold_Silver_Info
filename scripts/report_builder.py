@@ -51,6 +51,8 @@ except ModuleNotFoundError:
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DATA_DIR = PROJECT_ROOT / "data"
+# Explicit user-authorized historical exceptions; never inferred from a CLI flag.
+COLLECTION_EXCEPTIONS = json.loads((DEFAULT_DATA_DIR / "collection_exceptions.json").read_text(encoding="utf-8"))
 TZ_BEIJING = timezone(timedelta(hours=8))
 SOURCE_TYPES = frozenset({
     "podcast", "webcast", "youtube", "conference_interview", "panel", "keynote",
@@ -305,6 +307,12 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
     return coverage
 
 
+def collection_exception_note(report_date: str | None, part: str) -> str | None:
+    """Only the listed dates may publish incomplete Part 3 with this exact notice."""
+    note = COLLECTION_EXCEPTIONS.get(report_date) if part == "part3" else None
+    return note if isinstance(note, str) and note.strip() else None
+
+
 def _validate_search_log(value: Any, report_date: str | None = None) -> dict[str, Any]:
     """Validate the publish-time audit contract, not just its JSON shape."""
     data = dict(_is_mapping(value, "search_log"))
@@ -313,7 +321,8 @@ def _validate_search_log(value: Any, report_date: str | None = None) -> dict[str
         searched = f"{part}_searched"
         sources = f"{part}_sources_checked"
         result = f"{part}_result"
-        if data.get(searched) is not True:
+        exception = data.get(searched) is False and collection_exception_note(report_date, part)
+        if data.get(searched) is not True and not exception:
             raise ReportBuilderError(f"search_log.{searched} must be true; Part {part[-1]} failed collection cannot be published")
         checked_sources = data.get(sources)
         if not isinstance(checked_sources, list) or any(not isinstance(item, str) or not item.strip() for item in checked_sources):
@@ -633,6 +642,8 @@ def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None)
         "search_log": search_log,
         "dedup_log": _validate_dedup_log(data.get("dedup_log")),
     }
+    if search_log["part3_searched"] is False:
+        output["report_note"] = collection_exception_note(report_date, "part3")
     return output
 
 

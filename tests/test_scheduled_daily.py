@@ -84,6 +84,25 @@ class ScheduledDailyTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 daily.require_workflow(runs)
 
+    def test_partial_news_verification_requires_authorized_date_and_exact_notice(self):
+        for day in ("2026-10-30", "2026-10-31"):
+            report = json.loads(json.dumps(REPORT))
+            report["date"] = day
+            report["search_log"]["part3_searched"] = False
+            report["report_note"] = daily.collection_exception_note(day, "part3")
+            path = self.root / f"data/{day}.json"
+            path.write_text(json.dumps(report), encoding="utf-8")
+            self.assertEqual(daily.require_report(path, day), report)
+            report["report_note"] = "incomplete"
+            path.write_text(json.dumps(report), encoding="utf-8")
+            with self.assertRaises(ValueError):
+                daily.require_report(path, day)
+        report["date"] = "2026-11-01"
+        report["report_note"] = daily.collection_exception_note("2026-10-31", "part3")
+        path.write_text(json.dumps(report), encoding="utf-8")
+        with self.assertRaises(ValueError):
+            daily.require_report(path, "2026-11-01")
+
     def test_http_success_with_stale_page_is_not_success(self):
         daily.require_page('href="https://example.com/?a=1&amp;b=2"',
                            ["https://example.com/?a=1&b=2"], "/daily")

@@ -26,6 +26,35 @@ function makeFutureReport() {
   return report;
 }
 
+test("partial news exception requires the exact dated notice and preserves other gates", () => {
+  const exceptions = JSON.parse(fs.readFileSync("data/collection_exceptions.json", "utf8"));
+  for (const date of ["2026-10-30", "2026-10-31", "2026-11-01"]) {
+    const report = JSON.parse(fs.readFileSync("data/2026-10-29.json", "utf8"));
+    report.date = date;
+    report.report_time = "2026-11-02T01:00:00+08:00";
+    const start = new Date(`${date}T00:00:00Z`);
+    start.setUTCDate(start.getUTCDate() - 2);
+    report.windows = {
+      part1: { start: `${start.toISOString().slice(0, 10)}T00:00:00+08:00`, end: `${date}T23:59:59+08:00` },
+      part2: { start: `${date}T00:00:00+08:00`, end: `${date}T23:59:59+08:00` },
+      part3: { start: `${date}T00:00:00+08:00`, end: `${date}T23:59:59+08:00` },
+    };
+    report.part1_broadcasts = []; report.part2_x_posts = []; report.part3_news = [];
+    report.search_log.part3_searched = false;
+    report.report_note = exceptions[date] ?? exceptions["2026-10-31"];
+    if (date === "2026-11-01") {
+      assert.throws(() => validateReport(report, `${date}.json`), /failed collection/);
+      continue;
+    }
+    assert.doesNotThrow(() => validateReport(report, `${date}.json`));
+    report.search_log.part1_searched = false;
+    assert.throws(() => validateReport(report, `${date}.json`), /part1_searched/);
+    report.search_log.part1_searched = true;
+    delete report.report_note;
+    assert.throws(() => validateReport(report, `${date}.json`), /failed collection/);
+  }
+});
+
 test("new X coverage audit accepts partial reports and rejects count conflicts", () => {
   const report = JSON.parse(fs.readFileSync(path.join(process.cwd(), "data", "2026-08-08.json"), "utf8"));
   report.date = "2026-08-19";
