@@ -1,0 +1,301 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-01",
+  "report_time": "2026-11-02T07:06:03+08:00",
+  "summary": "黄金：Mining Americas 提出2029年18万盎司产量目标，属中期供给增量线索。白银：Northmin 试图从老矿堆存物回收白银，规模未明。铜：深度负加工费下冶炼厂转向提高渣中铜金银回收；Cutifani 指出矿山加深与许可周期拉长，长期供给弹性受限。",
+  "windows": {
+    "part1": {
+      "start": "2026-10-30T00:00:00+08:00",
+      "end": "2026-11-01T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-11-01T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-11-01T00:00:00+08:00",
+      "end": "2026-11-01T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://natural-resource-stocks.castos.com/episodes/mining-americas-inc-ceo-darren-blasutti-targets-180000-gold-ounces-by-2029",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-01",
+      "claims": [
+        {
+          "claim": "节目标题称 Mining Americas 目标2029年产金18万盎司。",
+          "evidence": "Darren Blasutti Targets 180,000 Gold Ounces by 2029",
+          "source_url": "https://natural-resource-stocks.castos.com/episodes/mining-americas-inc-ceo-darren-blasutti-targets-180000-gold-ounces-by-2029",
+          "evidence_type": "public original page",
+          "period": "2029 target",
+          "unit": "oz gold",
+          "value": 180000
+        },
+        {
+          "claim": "访谈讨论以在产 Pan 金矿为基础筹资扩大为北美黄金生产商。",
+          "evidence": "funding a larger North American gold producer from the operating Pan gold mine in Nevada",
+          "source_url": "https://natural-resource-stocks.castos.com/episodes/mining-americas-inc-ceo-darren-blasutti-targets-180000-gold-ounces-by-2029",
+          "evidence_type": "public original page",
+          "period": "2026-10-29 recording",
+          "unit": "strategy",
+          "value": null
+        }
+      ],
+      "title": "Mining Americas 以 Pan 金矿现金流推进多项目，目标2029年产金18万盎司",
+      "source_type": "podcast",
+      "summary": "Natural Resource Stocks 于11月1日发布对 Mining Americas 首席执行官 Darren Blasutti 的访谈（10月29日录制）。节目标题称公司目标在2029年达到18万盎司黄金产量；节目说明显示，讨论重点是以内华达州在产的 Pan 金矿为基础，筹资打造更大的北美黄金生产商，并涉及内华达 Gold Rock、亚利桑那 Copperstone 和 Cerro de Oro 项目。",
+      "importance": "18万盎司是管理层面向2029年的增长目标，而非已批准的产量指引，其兑现取决于 Pan 现金流能否支撑 Gold Rock、Copperstone 等项目的融资、许可和建设。若按时间表推进，增量主要在中期释放；当前只核对了节目标题和说明，未听取完整音频，后续需以公司技术报告和资本开支计划验证。",
+      "verification_status": "verified",
+      "verification_note": "打开 Castos 原始节目页，核对标题、发布日期 November 01, 2026 及节目说明；页面未标注时区，按页面日期记录。未声称听取完整音频，18万盎司仅来自节目标题。",
+      "guest": {
+        "name": "Darren Blasutti",
+        "background": "Mining Americas Inc. CEO"
+      },
+      "companies": [
+        "Mining Americas Inc."
+      ],
+      "projects": [
+        "Pan Gold Mine",
+        "Gold Rock",
+        "Copperstone",
+        "Cerro de Oro"
+      ]
+    },
+    {
+      "url": "https://thedeepdive.ca/can-an-old-irish-mine-recover-the-silver-it-left-behind-julian-vickers-northmin-corporation/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-10-31",
+      "claims": [
+        {
+          "claim": "Northmin 初步试验白银回收率为93%。",
+          "evidence": "preliminary testwork achieving 93% silver recovery",
+          "source_url": "https://thedeepdive.ca/can-an-old-irish-mine-recover-the-silver-it-left-behind-julian-vickers-northmin-corporation/",
+          "evidence_type": "public original page",
+          "period": "preliminary testwork",
+          "unit": "% silver recovery",
+          "value": 93
+        },
+        {
+          "claim": "公司计划优先开发地表物料。",
+          "evidence": "why developing the surface material comes first in the company",
+          "source_url": "https://thedeepdive.ca/can-an-old-irish-mine-recover-the-silver-it-left-behind-julian-vickers-northmin-corporation/",
+          "evidence_type": "public original page",
+          "period": "2026-10-31 interview",
+          "unit": "development sequence",
+          "value": null
+        }
+      ],
+      "title": "Northmin 计划回收爱尔兰 Tynagh 老矿堆存物中的白银，初步试验回收率93%",
+      "source_type": "podcast",
+      "summary": "the deep dive 发布对 Northmin 首席执行官 Julian Vickers 的访谈。节目说明称，爱尔兰 Tynagh 老矿过去因加工困难，在废石和堆存物中留下大量金属；公司正推进地表白银项目，初步试验白银回收率达93%，并计划优先开发地表物料，再结合新取得的 Keel 许可证及周边矿床共用 Tynagh 加工。",
+      "importance": "该项目利用已开采的地表物料，可能缩短采矿环节并降低剥采需求，因此是二次资源型白银供给增量。93%只是初步试验回收率，节目说明未给出物料吨位、品位或产量规模；建设前工作、许可及融资仍是兑现条件，短期内不影响全球白银供给。",
+      "verification_status": "verified",
+      "verification_note": "打开 the deep dive 原始节目页核对标题、日期 Saturday, October 31, 2026, 11:27:00 AM 与节目说明；页面未标注时区，日期落在 Part 1 窗口内。未声称听取完整音频。",
+      "guest": {
+        "name": "Julian Vickers",
+        "background": "Northmin Corporation CEO"
+      },
+      "companies": [
+        "Northmin Corporation"
+      ],
+      "projects": [
+        "Tynagh",
+        "Keel"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-01T20:00:00+08:00",
+      "claims": [
+        {
+          "claim": "Cutifani 称矿山平均每年加深约40米、新项目许可最长约20年。",
+          "evidence": "mines are getting an average of 40 metres deeper each year, while permitting new projects can take up to 20 years",
+          "source_url": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
+          "evidence_type": "public original page",
+          "period": "speech reported 2026-11-01",
+          "unit": "metres per year; years",
+          "value": "40; 20"
+        },
+        {
+          "claim": "Cutifani 估计10年后开采深度将再增加400–500米。",
+          "evidence": "in 10 years, you’re going to be 400-500 metres deeper",
+          "source_url": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
+          "evidence_type": "public original page",
+          "period": "next 10 years",
+          "unit": "metres",
+          "value": "400-500"
+        }
+      ],
+      "source": "Mining.com",
+      "title": "Cutifani：矿山每年加深约40米、许可最长20年，资源替代不足",
+      "excerpt": "Mining.com 报道，前 Anglo American 首席执行官 Mark Cutifani 在悉尼 International Mining and Resources Conference 上表示，矿山平均每年加深约40米，新项目许可最长可能需要20年；他认为行业创新不足，正在开采的资源未能得到替代，并估计10年后开采深度将再增加400–500米。",
+      "language": "en",
+      "interpretation": "这是行业资深人士的判断，不是统计数据或公司指引；文中的加深速度与许可时长为其演讲中的平均或上限说法，未给出统计口径。对铜等需要大型新矿的金属而言，它指向的是长期供给弹性问题，而非某座矿山的即时减产。",
+      "importance": "若深部开采与20年级许可周期同时存在，新增铜、金供应对价格上涨的响应会更慢，长期成本曲线可能上移，因此高价未必迅速转化为新增产能。该判断缺少统计口径，需与 ICSG、各国许可时长数据及大型项目开发进度交叉验证，不能直接折算为产量缺口。",
+      "verification_status": "verified",
+      "verification_note": "Mining.com 铜分类页 Playwright 发现后，以同一 Playwright 隔离会话读取原文（HTTP 200）；article:published_time 为 2026-11-01T12:00:00+00:00，即北京时间20:00。",
+      "companies": [
+        "Anglo American",
+        "Northern Star Resources"
+      ],
+      "mining_com_source_note": "铜分类页 Playwright 发现（HTTP 200），文章正文经 Playwright 同会话读取核验。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://stock.10jqka.com.cn/20261101/c681326102.shtml",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-01T11:01:52+08:00",
+      "claims": [
+        {
+          "claim": "恒邦股份目标尾矿含铜指标较现有水平下降0.1个百分点。",
+          "evidence": "力争实现尾矿含铜指标较现有水平下降0.1个百分点",
+          "source_url": "https://stock.10jqka.com.cn/20261101/c681326102.shtml",
+          "evidence_type": "public reprint with attribution",
+          "period": "technical program launched 2026",
+          "unit": "percentage point copper in tailings",
+          "value": 0.1
+        },
+        {
+          "claim": "公司称国内铜冶炼加工费持续下行。",
+          "evidence": "面对国内铜冶炼加工费持续下行",
+          "source_url": "https://stock.10jqka.com.cn/20261101/c681326102.shtml",
+          "evidence_type": "public reprint with attribution",
+          "period": "2026",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "同花顺财经（转载恒邦股份官微）",
+      "title": "恒邦股份启动渣选尾矿降铜攻关，目标尾矿含铜下降0.1个百分点",
+      "excerpt": "恒邦股份（002237）官微发布、同花顺财经11月1日转载称，面对国内铜冶炼加工费持续下行及复杂难处理原料占比提升导致冶炼渣性变差，公司启动渣选尾矿含铜指标技术攻关，以富氧底吹熔炼炉渣为对象开展工业化选矿试验并优化缓冷与浮选制度，力争尾矿含铜指标较现有水平下降0.1个百分点，回收铜、金、银有价组分。",
+      "language": "zh",
+      "interpretation": "公司把低加工费与复杂原料带来的渣性变差并列为背景，说明冶炼厂正通过提高副产与回收率来对冲加工费收入下降。0.1个百分点是尾矿品位目标而非产量数字，来源未披露渣量，因此无法换算为铜金银增量。",
+      "importance": "该措施反映深度负TC背景下冶炼厂的应对方向：在加工费难以覆盖成本时，提高渣中铜、金、银回收成为维持利润的手段，可能小幅增加单厂精炼金属产出。0.1个百分点的目标仍处于试验阶段，增量取决于渣处理量和工业化效果，需跟踪公司后续披露的回收率及产量。",
+      "verification_status": "verified",
+      "verification_note": "打开同花顺财经公开转载页核对标题、时间 2026-11-01 11:01:52 及来源“恒邦股份官微”；官微原文未单独打开，以注明出处的转载页为来源。",
+      "companies": [
+        "恒邦股份"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily ：列表最新为10月30日，Cartier、Headwater已于10月31日日报纳入；North Arrow为钻石公司介绍，AI泡沫/中期选举节目为市场评论，均不纳入。",
+      "https://www.kereport.com/ ：10月30日 Christopher Aaron（技术分析）与10月31日 Weekend Show（市场轮动与选股）无可归因供需事实，不纳入。",
+      "https://www.cruxinvestor.com/ ：首页未列出窗口内可核对的新访谈。",
+      "https://natural-resource-stocks.castos.com/ ：Mining Americas（11月1日发布）纳入。",
+      "https://thedeepdive.ca/ ：Northmin（10月31日发布）纳入。",
+      "网页检索10月30日至11月1日矿业CEO访谈/播客；Gunnison、Agnico Eagle 等结果为窗口外旧节目或已在前期日报覆盖，不纳入。"
+    ],
+    "part1_result": "完成10月30日至11月1日北京自然日访谈检索并与10月30日、31日日报去重；纳入 Mining Americas、Northmin 两期，均仅依据公开节目说明，未声称听取完整音频。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "x_outputs/2026-11-01_x_raw_materials.json：流水线 x_search 24个注册账号均未完成，保留真实失败原因。",
+      "Grok Bot 公共 X 读取（按Zhemin授权的无登录补充路径）：对同24个账号执行 from: 组合检索（排除转发与回复），窗口2026-10-31T16:00Z至2026-11-01T15:59:59Z，返回7条原帖，全部来自 @duediligenceguy，内容为政治/社会评论配链接，无可核验供需事实，不纳入。"
+    ],
+    "part2_result": "X采集器失败，覆盖0/24（云端缺少X浏览器profile或x_auth.json，Playwright初始化即停止）。另以Grok Bot公共X读取对同24个账号做补充检索，仅见7条无供需事实的原帖；该补充检索不计入采集器覆盖，未收录不代表这些账号当天没有供需信息。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+      ],
+      "notes": [
+        "真实运行 daily_pipeline.py 2026-11-01 --collect-x，外层timeout为3600秒；返回failed，账号完成0/24，未启动twscrape，未重试或替代登录。",
+        "原始材料：x_outputs/2026-11-01_x_raw_materials.txt；sidecar：x_outputs/2026-11-01_x_raw_materials.json。",
+        "补充：Grok Bot 公共X读取检索同24个账号窗口内原帖，返回7条（均为@duediligenceguy，非供需内容），无纳入；该路径非注册采集通道，不改变0/24覆盖统计。"
+      ]
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/ Playwright 抓取：HTTP 200，日期匹配 November 1, 2026 文章2篇（Global resource squeeze、Cutifani）。",
+      "Mining.com /commodity/gold/ Playwright 抓取：HTTP 200，匹配5篇（含上述2篇及 Tether、LBMA、中国储量）；/commodity/silver/：HTTP 200，0篇。",
+      "逐篇核验路径：5篇均以 Playwright 同会话读取正文（HTTP 200）；按 article:published_time 与页面时刻（UTC-7）换算北京时间，仅 Cutifani（北京时间11月1日20:00）在窗口内。",
+      "site:mining.com 金/银辅助检索：未作为铜分类页替代；网页检索未发现窗口内其他 Mining.com 金银文章。",
+      "https://stock.10jqka.com.cn/20261101/c681326102.shtml ：恒邦股份官微转载，公开正文与时间核验，纳入。",
+      "SMM、Codelco、Escondida、Highland Valley、Centinela、Oyu Tolgoi 相关检索：最新进展均为10月30日或更早，Oyu Tolgoi 复产已于10月30日日报收录，不重复。",
+      "金谷讯、同花顺等11月1日发布的有色周报：为周度数据复述，按规则不作为新事件。"
+    ],
+    "part3_result": "完成11月1日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整；纳入 Mining.com（Cutifani）与恒邦股份两条，其余候选因超出窗口、重复或无供需增量排除。",
+    "mining_com_source_note": "铜分类页 Playwright 抓取 HTTP 200（2篇当日文章）；金分类5篇、银分类0篇；文章正文以 Playwright 同会话读取，按页面元数据换算北京时间后仅1篇在窗口内。",
+    "new_sources_discovered": [
+      "Natural Resource Stocks（Castos 节目页，Mining Americas 访谈）",
+      "the deep dive（Northmin 访谈）"
+    ],
+    "url_verification": {
+      "checked": 4,
+      "passed": 4,
+      "failed": 0,
+      "failures": [],
+      "notes": "计数仅对应本期纳入卡片；均已打开公开页面核对标题、日期与引文。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://clearcommodity.net/podcasts/mining-stock-daily/cartier-resources-a-1-billion-gold-project-ready-for-its-next-chapter",
+      "https://clearcommodity.net/podcasts/mining-stock-daily/headwater-gold-delivers-major-gold-hit-at-jake-creek"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Rio Tinto Oyu Tolgoi 地下作业分阶段复产：已于2026-10-30日报收录（riotinto.com 原始公告），11月1日转述不重复。"
+    ],
+    "notes": "Part 1 与10月30日、31日已发布日报按URL与实质内容对照；Part 3 与前两期事件对照。"
+  }
+}

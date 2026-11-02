@@ -1681,6 +1681,13 @@
       "category": "矿业公司管理层",
       "channel": "https://clearcommodity.net/podcasts/mining-stock-daily/headwater-gold-delivers-major-gold-hit-at-jake-creek",
       "notes": "Headwater Gold CEO；Mining Stock Daily原始节目说明核验Jake Creek钻探结果，来源时间换算北京时间2026-10-31。"
+    },
+    {
+      "source_id": "source-the-deep-dive",
+      "display_name": "the deep dive",
+      "category": "矿业公司访谈",
+      "channel": "https://thedeepdive.ca/",
+      "notes": "2026-10-31 原始节目页核验 Northmin CEO 访谈日期与节目说明（初步试验白银回收率93%）。"
     }
   ]
 }
