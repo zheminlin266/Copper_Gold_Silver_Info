@@ -1,0 +1,18 @@
+X 原始候选 — 2026-11-04
+采集时间: 2026-11-06T08:16:55.032927+08:00
+选定通道: none (playwright unavailable; Grok Bot X tools alternate path completed)
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape (Playwright failed); Grok Bot public X tools (authorized alternate)
+账号批次: 6 个人 + 18 官方
+账号审计: 0/24 完成（Playwright），失败 24；Grok Bot 公共读取 24/24 完成
+采集状态: failed (playwright); alternate grok_bot_x_tools complete with 0 qualifying candidates
+失败账号数: 24
+通道错误: playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py; @peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py; @duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py...
+============================================================
+
+Grok Bot 公共 X 读取结果（授权路径）：窗口 2026-11-03T16:00Z—2026-11-04T16:00Z，返回原帖含 @NewmontCorp Ahafo North 投产一周年运营更新、@peter_krauth 市场评论/付费通讯、@duediligenceguy 选举评论、@IvanhoeMines_ / @kinrossgold 财报链等，均无可核验供需事实入选。
+
+总计候选: 0 条
+
+============================================================
