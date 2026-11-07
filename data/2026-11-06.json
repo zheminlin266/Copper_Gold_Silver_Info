@@ -1,0 +1,326 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-06",
+  "report_time": "2026-11-07T08:14:19+08:00",
+  "summary": "铜：沪铜现货升水均价创纪录2615元/吨、社库约6.26万吨；上期所库存降至33848吨近三年低位，洋山升水至约217.5美元/吨；11港铜精矿库存降至64.27万吨。黄金：Pan American 下调2026年产量指引至66–68万盎司；印度排灯节前零售购金回暖。白银：无独立合格供需增量（随 Pan American 白银指引偏线下修一并披露）。",
+  "windows": {
+    "part1": {
+      "start": "2026-11-04T00:00:00+08:00",
+      "end": "2026-11-06T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-11-06T00:00:00+08:00",
+      "end": "2026-11-06T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-11-06T00:00:00+08:00",
+      "end": "2026-11-06T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-04",
+      "claims": [
+        {
+          "claim": "2026年黄金产量指引下调至66万–68万盎司。",
+          "evidence": "660 to 680 thousand ounces",
+          "source_url": "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "koz Au",
+          "value": "660-680"
+        },
+        {
+          "claim": "原黄金指引区间为70万–75万盎司。",
+          "evidence": "700 to 750 thousand ounces",
+          "source_url": "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/",
+          "evidence_type": "public original page",
+          "period": "FY2026 prior guidance",
+          "unit": "koz Au",
+          "value": "700-750"
+        },
+        {
+          "claim": "白银全年指引仍为2500万–2700万盎司，预期落在低端。",
+          "evidence": "25 to 27 million ounces",
+          "source_url": "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "Moz Ag",
+          "value": "25-27"
+        }
+      ],
+      "title": "Pan American 下调2026年黄金产量指引至66–68万盎司，白银指引维持但料落在低端",
+      "source_type": "webcast",
+      "summary": "Pan American Silver 于11月4日发布三季报，并安排11月5日业绩电话会。公司将2026年归属黄金产量指引下调至66万–68万盎司（原700–750千盎司低端），主因 Jacobina 按巴西国家矿业局检查要求整改通风与第二逃生通道并调整采矿顺序，叠加 El Peñón、Shahuindo、Timmins 产量不及预期；白银全年指引仍为2500万–2700万盎司，但因 Huaron 磨机基础维修导致约40天停机及 Cerro Moro 金银比变化，预期落在区间低端。",
+      "importance": "黄金指引中值较原区间中值下调约5.5万盎司，属于2026年内可观测的矿山端供给下修，规模对全球金矿年产量比重有限，但集中暴露 Jacobina 监管整改与地震风险对高品位采场的约束。白银仍在原指引内，短期减量主要来自 Huaron 临时维修，公司称矿石在堆、修复后可追赶。需跟踪 Jacobina 整改是否拖入2027年、Huaron 11月中旬复产进度，以及 El Niño 对 Shahuindo 堆浸的实际影响。",
+      "verification_status": "verified",
+      "verification_note": "WebFetch 打开公司新闻稿（HTTP 200），核对标题、发布日 November 4, 2026 及产量指引原文；Motley Fool 电话会逐字稿交叉核对管理层表述。公司新闻稿落在 Part 1 窗口（11月4–6日）。",
+      "guest": {
+        "name": "Michael Steinmann",
+        "background": "Pan American Silver President and CEO"
+      },
+      "companies": [
+        "Pan American Silver"
+      ],
+      "projects": [
+        "Jacobina",
+        "Huaron",
+        "El Peñón",
+        "Shahuindo",
+        "Timmins",
+        "Cerro Moro",
+        "Juanicipio"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.mining.com/web/price-dip-lights-up-gold-buying-in-india-ahead-of-diwali/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "demand",
+      "publish_time": "2026-11-06",
+      "claims": [
+        {
+          "claim": "印度本周零售购金显著改善，珠宝店客流增加。",
+          "evidence": "Jewellery stores are witnessing increased footfall. Retail buying has improved significantly this week as consumers have begun making purchases ahead of the Diwali festival",
+          "source_url": "https://www.mining.com/web/price-dip-lights-up-gold-buying-in-india-ahead-of-diwali/",
+          "evidence_type": "public original page",
+          "period": "week of 2026-11-06",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "印度国内金价周五约141,600卢比/10克。",
+          "evidence": "141,600 rupees",
+          "source_url": "https://www.mining.com/web/price-dip-lights-up-gold-buying-in-india-ahead-of-diwali/",
+          "evidence_type": "public original page",
+          "period": "2026-11-06",
+          "unit": "INR/10g",
+          "value": 141600
+        }
+      ],
+      "source": "Mining.com / Reuters",
+      "title": "印度排灯节前金价回落带动零售购金升温，孟买经销商称客流明显回升",
+      "excerpt": "Mining.com 转载 Reuters 报道，11月6日称亚洲实物金需求回暖：印度国内金价周五约141,600卢比/10克，前一周曾跌至137,863卢比（3月24日以来低位）；孟买私人银行金条经销商称珠宝店客流增加，本周零售购买显著改善；经销商报价国内官方价之上最高约4美元/盎司升水（含15%进口税与3%销售税），低于上周最高约7美元。Chennai 批发商称价格波动仍限制需求更大幅度回升，但预计 Dhanteras 当日购买将加强。",
+      "language": "en",
+      "interpretation": "印度是全球第二大黄金消费国，排灯节/Dhanteras 是年内最重要的实物购买窗口之一。本条反映的是价格回落后的节日性零售回补，升水从约7美元收窄至约4美元，说明需求回升但仍偏谨慎。对中国珠宝需求，StoneX 称在金价跌破4000美元后出现从极低基数的兴趣回升，强度弱于印度节日脉冲。",
+      "importance": "印度节日购金属于短期需求脉冲，可部分对冲此前世界黄金协会对印度2026年需求降至约650吨的偏弱预期，但报道未给出吨级成交量，规模难以量化。若 Dhanteras 当日客流兑现，对近月实物升水与进口节奏有边际支撑；若价格再度剧烈波动，经销商已提示需求弹性会迅速回落。需跟踪节后一周印度进口与国内升水是否持续，而非仅看节前口头描述。",
+      "verification_status": "verified",
+      "verification_note": "Mining.com 金分类页 Playwright 发现后，以 Playwright 隔离会话读取原文（HTTP 200）；页面标注 Reuters | November 6, 2026 | 7:59 am，在 Part 3 窗口内。",
+      "companies": [],
+      "projects": [],
+      "mining_com_source_note": "金分类页 Playwright 发现（HTTP 200），文章正文经 Playwright 隔离会话读取核验。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://news.metal.com/newscontent/104210136-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-premiums-in-history-how-tight-is-supply-before-delivery-smm-analysis",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-11-06",
+      "claims": [
+        {
+          "claim": "沪铜现货对2611升水均价2615元/吨，创纪录。",
+          "evidence": "2,615 yuan/mt",
+          "source_url": "https://news.metal.com/newscontent/104210136-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-premiums-in-history-how-tight-is-supply-before-delivery-smm-analysis",
+          "evidence_type": "public original page",
+          "period": "2026-11-06",
+          "unit": "CNY/mt",
+          "value": 2615
+        },
+        {
+          "claim": "截至11月5日中国主要地区电解铜社会库存约6.26万吨。",
+          "evidence": "62,600 mt",
+          "source_url": "https://news.metal.com/newscontent/104210136-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-premiums-in-history-how-tight-is-supply-before-delivery-smm-analysis",
+          "evidence_type": "public original page",
+          "period": "as of 2026-11-05",
+          "unit": "mt",
+          "value": 62600
+        },
+        {
+          "claim": "洋山铜溢价均价升至217.5美元/吨。",
+          "evidence": "$217.5/mt",
+          "source_url": "https://news.metal.com/newscontent/104210136-shanghai-spot-copper-premiums-surge-to-2615-yuanmt-the-highest-premiums-in-history-how-tight-is-supply-before-delivery-smm-analysis",
+          "evidence_type": "public original page",
+          "period": "2026-11-06",
+          "unit": "USD/mt",
+          "value": 217.5
+        }
+      ],
+      "source": "SMM",
+      "title": "SMM：沪铜现货对2611合约升水均价达2615元/吨创纪录，社会库存约6.26万吨",
+      "excerpt": "SMM 11月6日分析称，1#电解铜对上期所铜2611合约升水报价2480–2750元/吨，均价2615元/吨，较前一交易日升515元/吨并创历史新高。截至11月5日，SMM中国主要地区电解铜社会库存约6.26万吨，同比下降逾7万吨；11月6日上期所铜仓单再降2247吨至4327吨。同日 SMM 洋山铜溢价均价升至217.5美元/吨，提单溢价210美元/吨再创新高。SMM 称10月国内电解铜产量108.67万吨、环比降3.03%，11月预期108.21万吨。",
+      "language": "en",
+      "interpretation": "创纪录的现货升水与极低社会库存、仓单同步出现，说明交割前近月货源紧张强于远月需求预期降温。海外精铜此前因美国关税预期分流至 COMEX，LME 库存逾七成集中在美国仓库，短期回流仍需时间；国内冶炼原料短缺与10月集中检修限制产量回补。升水抬升会抑制部分加工企业补库，报道已提及部分企业停炉或减线。",
+      "importance": "6.26万吨社库与4327吨仓单处于极低水平，2615元/吨升水直接反映交割前现货稀缺溢价，对近月精炼铜平衡的信号强于价格涨跌本身。与前一日保税库存/洋山约204美元相比，洋山升至217.5美元显示进口近港货同样偏紧。不确定性在于11月10日前进博会相关水路管制解除后到货清关节奏，以及高升水是否促使下游进一步减产从而削弱升水。",
+      "verification_status": "verified",
+      "verification_note": "WebFetch/HTTP 打开 SMM 英文分析页（HTTP 200），页面 Published: Nov 06, 2026 17:33 (GMT+8)，在 Part 3 窗口内；核对升水、社库、仓单与洋山溢价数字。",
+      "companies": [],
+      "projects": []
+    },
+    {
+      "url": "https://www.mining.com/web/copper-price-falls-heads-for-worst-week-since-march-on-ai-rout/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-06",
+      "claims": [
+        {
+          "claim": "上期所铜库存本周降至33848吨，近三年最低。",
+          "evidence": "33,848 tons",
+          "source_url": "https://www.mining.com/web/copper-price-falls-heads-for-worst-week-since-march-on-ai-rout/",
+          "evidence_type": "public original page",
+          "period": "week ended 2026-11-06",
+          "unit": "t",
+          "value": 33848
+        },
+        {
+          "claim": "洋山铜溢价升至纪录217.50美元/吨。",
+          "evidence": "record $217.50 a ton",
+          "source_url": "https://www.mining.com/web/copper-price-falls-heads-for-worst-week-since-march-on-ai-rout/",
+          "evidence_type": "public original page",
+          "period": "2026-11-06",
+          "unit": "USD/t",
+          "value": 217.5
+        }
+      ],
+      "source": "Mining.com / Reuters",
+      "title": "上期所铜库存本周降逾24%至33848吨，约三年最低；洋山升水创纪录217.5美元/吨",
+      "excerpt": "Mining.com 转载 Reuters 11月6日报道称，尽管铜价受科技股拖累连续第四个交易日下跌，但供应担忧限制跌幅。上海期货交易所仓库铜库存本周下降逾24%至33848吨，为近三年最低，不足中国一日消费量；洋山铜溢价升至纪录217.50美元/吨。LME 现金对三月升水约181美元/吨，显示美国以外近月货源偏紧。",
+      "language": "en",
+      "interpretation": "交易所库存降至近三年低位，与国内现货升水、洋山溢价同步指向精炼铜近月实物紧张，价格下跌主要来自金融/宏观情绪而非库存过剩。报道引用 CRU 称矿山供应挑战与美国以外金属可得性极紧仍在，不宜把本轮下跌简单定性为持续基本面修正。",
+      "importance": "33848吨上期所库存相当于中国一日消费量量级，库存下降对短期平衡的指示强于当日价格跌幅，反映交割前精炼铜可得性偏紧。与 SMM 社库6.26万吨、仓单4327吨相互印证紧张，但两者口径不同（交易所仓与社会库存）不可直接相加。需观察周末到货与交割备货结束后库存是否回升，以验证紧张是交割脉冲还是持续短缺。",
+      "verification_status": "verified",
+      "verification_note": "Mining.com 铜分类页 Playwright 发现后，以 Playwright 隔离会话读取原文（HTTP 200）；页面标注 Reuters | November 6, 2026 | 10:27 am，在窗口内。Business Recorder 同稿交叉核对 SHFE 库存数字。",
+      "companies": [],
+      "projects": [],
+      "mining_com_source_note": "铜分类页 Playwright 发现（HTTP 200），文章正文经 Playwright 隔离会话读取核验。",
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://news.metal.com/newscontent/104210124-market-transactions-warmed-up-significantly-wow-and-the-smm-imported-copper-concentrate-index-weekly-stabilized-at-a-low-level-smm-copper-concentrate-spot-weekly-review",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-06",
+      "claims": [
+        {
+          "claim": "11港铜精矿库存64.27万吨，较上期降4.64万吨。",
+          "evidence": "642,700 mt",
+          "source_url": "https://news.metal.com/newscontent/104210124-market-transactions-warmed-up-significantly-wow-and-the-smm-imported-copper-concentrate-index-weekly-stabilized-at-a-low-level-smm-copper-concentrate-spot-weekly-review",
+          "evidence_type": "public original page",
+          "period": "2026-11-06",
+          "unit": "mt physical",
+          "value": 642700
+        }
+      ],
+      "source": "SMM",
+      "title": "SMM：11月6日中国11港铜精矿库存64.27万吨，较上期降4.64万吨",
+      "excerpt": "SMM 铜精矿现货周评（发布于北京时间11月6日）称，11月6日统计中国11个港口铜精矿库存实物量64.27万吨，较上期下降4.64万吨。烟台、连云港、营口分别增加2.12万、2.0万、1.0万吨；青岛、南京、钦州各减少3.0万吨。同日 SMM 进口铜精矿指数（周）报-247.35美元/干吨，较上期-247.68上升0.33美元/干吨。",
+      "language": "en",
+      "interpretation": "港口铜精矿库存连续回落，指向冶炼厂刚性补库与到港结构变化并存：部分北方港口累库，青岛等传统集散港去库。TC 仅小幅回升0.33美元仍深陷负值区，说明精矿紧张格局未改，库存下降更多反映冶炼刚性拿货而非供应过剩。",
+      "importance": "4.64万吨的港口去库对精矿端是可观察的周度收紧信号，配合负TC说明冶炼厂仍在为原料支付代价。单周港口库存波动可能受船期与港口间调拨影响，需连续观察是否形成趋势，以及现货成交回暖后冶炼厂是否放缓采购。",
+      "verification_status": "verified",
+      "verification_note": "WebFetch/HTTP 打开 SMM 英文周评（HTTP 200），Published: Nov 06, 2026 15:32 (GMT+8)；核对港口库存与周度指数。同一 API 来源已写入周六 TC CSV。",
+      "companies": [],
+      "projects": []
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/ ：公司三季报+11月5日电话会预告；WebFetch 核验，纳入黄金/白银产量指引。",
+      "https://www.fool.com/earnings/call-transcripts/2026/11/05/pan-american-silver-paas-q3-2026-earnings-call-transcript/ ：电话会逐字稿交叉核对。",
+      "KE Report / Money Metals / Mining Stock Daily / Clear Commodity 等播客检索 11月4–6日；SoarFinancial NOIC 推广访谈多为勘探钻探推广，未形成可核验产量/库存增量，不纳入。",
+      "Ivanhoe Mines 投资者电话会为11月4日，但公司新闻稿发布日为11月3日（窗外）；未找到窗口内可独立核验的通话逐字稿，不纳入。"
+    ],
+    "part1_result": "完成11月4日至11月6日北京自然日访谈/业绩会检索，并与11月5日、11月4日日报去重；纳入 Pan American 三季报/电话会产量指引1条。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "Grok Bot 公共 X 工具 search_posts_all：24个注册账号，窗口 2026-11-05T16:00:00Z–2026-11-06T15:59:59Z，排除转推/回复；返回约24条原帖（多为 @duediligenceguy 宏观评论、@soarfinancial NOIC 推广、@Wheaton_PM 分红/财报），无合格供需事实入选。",
+      "注册表 Playwright 采集器：缺少 x_auth，0/24 失败（预期）。"
+    ],
+    "part2_result": "按 Zhemin 授权以 Grok Bot 公共 X 工具完成24个注册账号窗口内原帖检索，采集成功，无合格供需内容入选。注册采集器（Playwright）因缺少 x_auth 未能读取账号，覆盖审计按 schema 记为0/24；公共读取结果不计入该采集器覆盖。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+      ],
+      "notes": "Grok Bot alternate path read all 24 seed accounts successfully for the Beijing day window; no qualifying supply/demand posts. Playwright registry collector failed without x_auth (expected)."
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Mining.com /commodity/copper/ Playwright 抓取：HTTP 200，日期匹配 November 6, 2026 文章5篇（TD关税、AI跌价/库存、加拿大预算、刚果矿产协议、Hindalco）。",
+      "Mining.com /commodity/gold/ Playwright 抓取：HTTP 200，匹配含印度排灯节购金、黄金顾问观点、加拿大预算、巴拉圭铀等；/commodity/silver/：HTTP 200，当日无独立银文（加拿大预算交叉）。",
+      "逐篇核验：印度购金、铜价/SHFE库存文经 Playwright 隔离会话 HTTP 200 读取；SMM 升水分析与铜精矿周评经公开 HTTP 读取。",
+      "SMM/metal.com、Reuters 转载（Business Recorder）、Mining Weekly 硫酸文（与11月5日去重）、公司新闻稿检索。"
+    ],
+    "part3_result": "完成11月6日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整；纳入 SMM 现货升水/社库、上期所库存与洋山升水、港口铜精矿库存、印度排灯节购金共4条新闻，另 Part 1 纳入 Pan American 指引；其余因价格复述、政策空泛、非金银铜或与前日重复排除。",
+    "mining_com_source_note": "铜/金/银分类页均经 Playwright Chromium headless 抓取（HTTP 200）；入选 mining.com 文章正文经同一 Playwright 路径核验。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 5,
+      "passed": 5,
+      "failed": 0,
+      "failures": [],
+      "notes": "计数仅对应本期纳入卡片；均已打开公开页面核对标题、日期与引文。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "中国铜冶炼硫酸回落/延长检修（Mining Weekly 11月6日稿）与 2026-11-05 日报已收录事件重复"
+    ],
+    "notes": "与 2026-11-05、2026-11-04 日报 URL/事件比对；Ivanhoe 2027指引因公司稿11月3日窗外未纳入；Freeport Bagdad 扩建宣布日11月4日不在 Part 3 单日窗口。"
+  }
+}

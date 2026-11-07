@@ -1,0 +1,61 @@
+X 原始候选 — 2026-11-06
+采集时间: 2026-11-07T08:13:45.078524+08:00
+选定通道: none (playwright unavailable; Grok Bot X tools alternate path completed)
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape (Playwright failed); Grok Bot public X tools (authorized alternate)
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 0/24 完成（Playwright），失败 24；Grok Bot 公共读取 24/24 完成
+各通道完成账户数: {}
+采集状态: failed (playwright); alternate grok_bot_x_tools complete with 0 qualifying candidates
+失败账号数: 24
+通道错误: playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py; @peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py; @duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py; ...
+失败账号:
+  @peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py
+============================================================
+
+Grok Bot 公共 X 读取结果（授权路径，不计入 Playwright 覆盖统计）:
+窗口: 2026-11-05T16:00:00Z — 2026-11-06T15:59:59Z（对应北京时间 2026-11-06）
+返回原帖约 24 条（含 @duediligenceguy 宏观/地缘评论多条、@soarfinancial NOIC 推广访谈、@Wheaton_PM 股息与季报等），无合格供需事实入选。
+
+样例原帖（未入选）:
+- @Wheaton_PM 2026-11-05T22:35:13.000Z: We are pleased to announce an 18% year-over-year increase in @Wheaton_PM’s fourth quarterly dividend, to US$0.195 per common share.
+  https://x.com/Wheaton_PM/status/2118472230669783230
+- @soarfinancial 2026-11-06T15:32:19.000Z: Gold Terra reports 6.6 g/t gold over 7.3m at the Campbell Shear extension near Yellowknife...
+  https://x.com/soarfinancial/status/2118728190797787451
+- @duediligenceguy 2026-11-06T14:33:37.000Z: Waddayaknow, another "blowout" jobs report beats forecasts...
+  https://x.com/duediligenceguy/status/2118713419931009252
+- @soarfinancial 2026-11-05T20:30:00.000Z: Lahontan Gold is targeting first gold production at Santa Fe in Nevada in 2027...
+  https://x.com/soarfinancial/status/2118440718456787368
+- @Wheaton_PM 2026-11-05T22:33:06.000Z: We are pleased to announce @Wheaton_PM delivered another strong quarter... revenue reaching $2.6 billion...
+  https://x.com/Wheaton_PM/status/2118471698475589720
+
+============================================================
+
+总计候选: 0 条
+
+================================================================

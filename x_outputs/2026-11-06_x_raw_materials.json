@@ -1,0 +1,50 @@
+{
+  "collector": "x_search",
+  "report_date": "2026-11-06",
+  "status": "failed",
+  "selected_channel": null,
+  "attempted_channels": [
+    "playwright"
+  ],
+  "unavailable_channels": [],
+  "accounts_total": 24,
+  "accounts_completed": 0,
+  "accounts_failed": 24,
+  "channel_completed_accounts": {},
+  "candidates": [],
+  "errors": [
+    "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+    "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+  ],
+  "metadata": {
+    "alternate_path": "grok_bot_x_tools",
+    "alternate_status": "complete",
+    "alternate_accounts_read": 24,
+    "alternate_qualifying_candidates": 0,
+    "window_utc": "2026-11-05T16:00:00Z/2026-11-06T15:59:59Z",
+    "notes": "Grok Bot public X tools read seed-list accounts successfully; no qualifying supply/demand posts entered the report. Playwright coverage failure is separate."
+  }
+}
