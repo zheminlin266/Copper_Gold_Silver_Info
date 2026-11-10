@@ -1,6 +1,6 @@
 {
   "description": "Auto-discovered sources during daily report generation. Entries are verified before merging back into mining_people_broadcast_x_articles.csv.",
-  "last_updated": "2026-11-02",
+  "last_updated": "2026-11-10",
   "entries": [
     {
       "source_id": "source-resource-talks",
@@ -1688,6 +1688,20 @@
       "category": "矿业公司访谈",
       "channel": "https://thedeepdive.ca/",
       "notes": "2026-10-31 原始节目页核验 Northmin CEO 访谈日期与节目说明（初步试验白银回收率93%）。"
+    },
+    {
+      "source_id": "source-metso",
+      "display_name": "Metso官方新闻",
+      "category": "矿业设备供应商官方公告",
+      "channel": "https://www.metso.com/corporate/media/news/",
+      "notes": "2026-11-10核验11月9日Jerritt Canyon复产磨矿设备订单原文；设备订单与实际矿山复产、产量区分。"
+    },
+    {
+      "source_id": "source-sec-edgar",
+      "display_name": "SEC EDGAR",
+      "category": "监管披露",
+      "channel": "https://www.sec.gov/edgar/",
+      "notes": "2026-11-10通过公开网页读取核验Harmony FY2027第一财季6-K原稿；最迟可用时间由EDGAR索引辅助核对，未当作全球首次发布时间。"
     }
   ]
 }
