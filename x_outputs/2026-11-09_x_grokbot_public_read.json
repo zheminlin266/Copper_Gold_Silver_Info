@@ -1,0 +1,30 @@
+{
+  "report_date": "2026-11-09",
+  "collector": "grok_bot_x_tools",
+  "authorization": "Zhemin authorized reading seed-list accounts via Grok Bot X tools (Playwright/twscrape login not required).",
+  "captured_at": "2026-11-10T08:12:00+08:00",
+  "window_beijing": "2026-11-09T00:00:00+08:00/2026-11-09T23:59:59+08:00",
+  "window_utc": "2026-11-08T16:00:00Z/2026-11-09T15:59:59Z",
+  "tool": "search_posts_all (namespace x), sort_order=recency, max_results=25, paged until next page returned 0",
+  "queries": [
+    {"query": "(from:peter_krauth OR from:duediligenceguy OR from:Junior_Stock OR from:soarfinancial OR from:WalterColesJr OR from:ivanbebek OR from:IvanhoeMines_ OR from:FreeportMcMoRan OR from:NewmontCorp OR from:BarrickGold OR from:TeckResources OR from:AntofagastaPLC) -is:retweet -is:reply", "result_count_page1": 10, "result_count_page2": 0},
+    {"query": "(from:LundinMining OR from:AgnicoEagle OR from:FirstMajestic OR from:PanAmericanSlvr OR from:Wheaton_PM OR from:EndeavourMining OR from:SSRMining OR from:KinrossGold OR from:SandstormGold OR from:Fortuna_Silver OR from:GoGoldResources OR from:vizslasilver) -is:retweet -is:reply", "result_count_page1": 0}
+  ],
+  "accounts_total": 24,
+  "accounts_read": 24,
+  "status": "complete",
+  "original_posts_in_window": [
+    {"handle": "soarfinancial", "author": "Soar Financial", "id": "2119807233533878278", "url": "https://x.com/soarfinancial/status/2119807233533878278", "created_at": "2026-11-09T15:00:03.000Z", "text": "Contango Silver & Gold reports a 93% increase in its silver-equivalent resource to 156M oz.\n\nCEO Rick Van Nieuwenhuyse joins us at #NOIC2026 to discuss Manh Choh production, the updated silver resource and upcoming milestones at Lucky Shot and Johnson Tract.\n\nWatch 👇 https://t.co/W1pkCe7Qfl", "decision": "reject", "reason": "访谈推广帖；资源量（非产量/储量）更新属勘探口径，无近期供给变化，帖内无一手出处"},
+    {"handle": "soarfinancial", "author": "Soar Financial", "id": "2119792125143339130", "url": "https://x.com/soarfinancial/status/2119792125143339130", "created_at": "2026-11-09T14:00:01.000Z", "text": "Pacifica Silver is advancing an aggressive exploration program in Durango, Mexico. ... plans for up to 70,000m of drilling in 2027.", "decision": "reject", "reason": "勘探钻探计划推广帖，无供需事实"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119803125917962531", "url": "https://x.com/duediligenceguy/status/2119803125917962531", "created_at": "2026-11-09T14:43:43.000Z", "text": "My kind of Über…\n;-{)}", "decision": "reject", "reason": "社交帖，无内容"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119802298490597511", "url": "https://x.com/duediligenceguy/status/2119802298490597511", "created_at": "2026-11-09T14:40:26.000Z", "text": "Caramba!", "decision": "reject", "reason": "无内容"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119801535970361458", "url": "https://x.com/duediligenceguy/status/2119801535970361458", "created_at": "2026-11-09T14:37:24.000Z", "text": "Hm...", "decision": "reject", "reason": "无内容"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119800765573173267", "url": "https://x.com/duediligenceguy/status/2119800765573173267", "created_at": "2026-11-09T14:34:21.000Z", "text": "No escalation (yet)—but no deal either.\n\nTraders seem terribly optimistic to me...", "decision": "reject", "reason": "地缘/交易评论"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119797941485355389", "url": "https://x.com/duediligenceguy/status/2119797941485355389", "created_at": "2026-11-09T14:23:07.000Z", "text": "Of course China denies it...\n\nBut is anyone surprised?", "decision": "reject", "reason": "引用评论，无可核验金属供需事实"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119796069957521668", "url": "https://x.com/duediligenceguy/status/2119796069957521668", "created_at": "2026-11-09T14:15:41.000Z", "text": "I've never understood people who chase tulip bulbs...", "decision": "reject", "reason": "市场观点"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119795652750180515", "url": "https://x.com/duediligenceguy/status/2119795652750180515", "created_at": "2026-11-09T14:14:02.000Z", "text": "High-profile inflation...", "decision": "reject", "reason": "宏观评论"},
+    {"handle": "duediligenceguy", "author": "Lobo Tiggre", "id": "2119795380644667505", "url": "https://x.com/duediligenceguy/status/2119795380644667505", "created_at": "2026-11-09T14:12:57.000Z", "text": "Mr. Futures seems happy Iran wasn't bombed over the weekend.\n\nWe'll see what Mr. Market thinks soon enough...", "decision": "reject", "reason": "地缘/交易评论"}
+  ],
+  "qualifying_candidates": 0,
+  "notes": "X collected successfully via Grok Bot public X tools: 24/24 seed accounts read for the Beijing-day window; 10 original posts (@soarfinancial 2, @duediligenceguy 8), none with verifiable gold/silver/copper supply-demand facts; no candidates entered the report. The registry Playwright collector separately failed without x_auth (see 2026-11-09_x_raw_materials.txt/json)."
+}
