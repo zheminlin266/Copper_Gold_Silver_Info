@@ -10,8 +10,9 @@ import argparse
 import asyncio
 import hashlib
 import json
+import re
 import sys
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from uuid import uuid4
 from urllib.parse import urljoin, urlsplit, urlunsplit
@@ -47,17 +48,50 @@ def category_url(metal: str) -> str:
     return f"https://www.mining.com/commodity/{normalized}/"
 
 
+# English month names are hard-coded so matching does not depend on locale.
+_MONTHS = ("january", "february", "march", "april", "may", "june", "july",
+           "august", "september", "october", "november", "december")
+_MONTH_NUMBERS = {name: index for index, name in enumerate(_MONTHS, 1)}
+_MONTH_NUMBERS.update({name[:3]: index for index, name in enumerate(_MONTHS, 1)})
+_MONTH_NUMBERS["sept"] = 9
+# Mining.com uses "November 5, 2026" in the main list and "November 05, 2026"
+# in sidebar and "more news" blocks; abbreviated months are accepted as well.
+_HUMAN_DATE = re.compile(r"\b([A-Za-z]{3,9})\.? (\d{1,2}), (\d{4})\b")
+
+
+def human_dates(text: str) -> list[date]:
+    """Return every English "Month D, YYYY" date in text, padded or not."""
+    found = []
+    for month, day, year in _HUMAN_DATE.findall(text):
+        number = _MONTH_NUMBERS.get(month.casefold())
+        if number is None:
+            continue
+        try:
+            found.append(date(int(year), number, int(day)))
+        except ValueError:
+            continue
+    return found
+
+
 def matches_report_date(text: str, date_str: str) -> bool:
     normalized = " ".join(text.split())
     if date_str in normalized:
         return True
-    # Windows Python's strftime does not support %-d; compare a portable form.
-    date = datetime.strptime(date_str, "%Y-%m-%d")
-    for marker in (f"{date.strftime('%B')} {date.day}, {date.year}",
-                   f"{date.strftime('%b')} {date.day}, {date.year}"):
-        if marker in normalized:
-            return True
-    return False
+    return date.fromisoformat(date_str) in human_dates(normalized)
+
+
+def needs_next_page(body_text: str, metal: str, date_str: str) -> bool:
+    """True when the main category list ends without reaching an older date.
+
+    The main list is the text before the "Load more <Metal> news" link; if its
+    oldest date is still on or after the report date, report-date articles may
+    continue on page 2.
+    """
+    marker = body_text.casefold().find(f"load more {metal} news")
+    if marker < 0:
+        return False
+    dates = human_dates(" ".join(body_text[:marker].split()))
+    return bool(dates) and min(dates) >= date.fromisoformat(date_str)
 
 
 async def collect(date_str: str, metal: str = "copper", *, output_dir: Path | None = None) -> dict:
@@ -178,7 +212,58 @@ async def _read_category(page, result: dict, date_str: str, metal: str, output_d
         result["failure_stage"] = "authenticity"
         return
 
-    candidates = await page.locator("a[href]").evaluate_all(
+    seen: set[str] = set()
+    articles = _extract_articles(await _link_candidates(page), url, date_str, seen)
+    result["pages_read"] = 1
+    if needs_next_page(body_text, metal, date_str):
+        page2_url = url + "page/2/"
+        result["pagination_complete"] = False
+        try:
+            error = await _read_next_page(page, page2_url, metal, output_dir)
+            if error:
+                result["pagination_error"] = error
+            else:
+                articles += _extract_articles(await _link_candidates(page), url, date_str, seen)
+                result["pages_read"] = 2
+                result["pagination_complete"] = True
+        except Exception as error:
+            result["pagination_error"] = f"{type(error).__name__}: {error}"
+
+    result["articles"] = articles
+    result["article_count"] = len(articles)
+    result["status"] = "ok"
+    result["access_status"] = "public"
+    result["extraction_status"] = (
+        "success_empty" if not articles else "success"
+    )
+
+
+async def _read_next_page(page, url: str, metal: str, output_dir: Path | None) -> str | None:
+    """Open a category page 2 with the same gates; return an error or None."""
+    response = await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+    final = urlsplit(page.url)
+    if response is None or response.status >= 400:
+        return f"page 2 returned HTTP {getattr(response, 'status', None)}"
+    if (final.scheme != "https" or final.hostname != "www.mining.com"
+            or final.path.rstrip("/") != urlsplit(url).path.rstrip("/")):
+        return "page 2 redirected away from the requested category page"
+    title = (await page.title()).casefold()
+    if metal not in title or any(marker in title for marker in
+                                 ("just a moment", "access denied", "verify you are human")):
+        return "page 2 title failed the authenticity check"
+    await page.wait_for_timeout(3000)
+    body_text = await page.locator("body").inner_text()
+    if output_dir is not None:
+        (output_dir / "page-2.txt").write_text(body_text, encoding="utf-8")
+    if len(body_text) < 500 or any(marker in body_text[:1000].casefold() for marker in (
+        "checking your browser", "verify you are human", "you have been blocked",
+    )):
+        return "page 2 shows an access gate or is too short"
+    return None
+
+
+async def _link_candidates(page) -> list[dict]:
+    return await page.locator("a[href]").evaluate_all(
         """links => links.map(link => ({
             href: link.href,
             text: (link.innerText || link.textContent || '').trim(),
@@ -190,7 +275,9 @@ async def _read_category(page, result: dict, date_str: str, metal: str, output_d
             ].filter(Boolean).map(node => node.innerText || node.textContent || '')
         }))"""
     )
-    seen: set[str] = set()
+
+
+def _extract_articles(candidates: list[dict], url: str, date_str: str, seen: set[str]) -> list[dict]:
     articles: list[dict] = []
     for candidate in candidates:
         href = urljoin(url, candidate.get("href", ""))
@@ -214,14 +301,7 @@ async def _read_category(page, result: dict, date_str: str, metal: str, output_d
             "url": href,
             "date_match_text": context_text[:500],
         })
-
-    result["articles"] = articles
-    result["article_count"] = len(articles)
-    result["status"] = "ok"
-    result["access_status"] = "public"
-    result["extraction_status"] = (
-        "success_empty" if not articles else "success"
-    )
+    return articles
 
 
 def main() -> int:

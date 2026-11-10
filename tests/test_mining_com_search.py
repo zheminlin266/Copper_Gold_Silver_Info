@@ -6,7 +6,7 @@ from types import SimpleNamespace
 import unittest
 from unittest.mock import AsyncMock, MagicMock, Mock, patch
 
-from scripts.mining_com_search import category_url, collect, matches_report_date
+from scripts.mining_com_search import category_url, collect, matches_report_date, needs_next_page
 
 
 class MiningComSearchTests(unittest.TestCase):
@@ -21,6 +21,24 @@ class MiningComSearchTests(unittest.TestCase):
         self.assertTrue(matches_report_date("July 14, 2026", "2026-07-14"))
         self.assertTrue(matches_report_date("Jul 14, 2026", "2026-07-14"))
         self.assertFalse(matches_report_date("July 13, 2026", "2026-07-14"))
+
+    def test_date_matching_handles_zero_padded_days(self):
+        self.assertTrue(matches_report_date("November 04, 2026 | 09:24 am", "2026-11-04"))
+        self.assertTrue(matches_report_date("November 4, 2026", "2026-11-04"))
+        self.assertTrue(matches_report_date("Nov 04, 2026", "2026-11-04"))
+        self.assertTrue(matches_report_date("Sept. 4, 2026", "2026-09-04"))
+        self.assertFalse(matches_report_date("November 14, 2026", "2026-11-04"))
+        self.assertFalse(matches_report_date("November 1, 2026", "2026-11-11"))
+        self.assertFalse(matches_report_date("November 04, 2025", "2026-11-04"))
+
+    def test_next_page_is_needed_only_when_main_list_has_not_reached_older_dates(self):
+        body = "November 5, 2026 A\nNovember 5, 2026 B\nLoad more Copper news >\nNovember 03, 2026 sidebar"
+        self.assertTrue(needs_next_page(body, "copper", "2026-11-04"))
+        self.assertTrue(needs_next_page(body, "copper", "2026-11-05"))
+        self.assertFalse(needs_next_page(body, "copper", "2026-11-06"))
+        self.assertFalse(needs_next_page(body.replace("November 5, 2026 B", "November 3, 2026 B"),
+                                         "copper", "2026-11-04"))
+        self.assertFalse(needs_next_page("November 5, 2026 only", "copper", "2026-11-04"))
 
 
 class MiningCaptureTests(unittest.IsolatedAsyncioTestCase):
@@ -104,6 +122,38 @@ class MiningCaptureTests(unittest.IsolatedAsyncioTestCase):
                 result = await collect("2026-10-26")
                 self.assertEqual(result["status"], status)
                 self.assertEqual(result["article_count"], 0)
+
+    async def test_page_two_is_read_when_first_page_is_all_newer(self):
+        body = "November 5, 2026 newer\n" + "Copper news " * 70 + "\nLoad more Copper news >"
+        manager, page, _, _ = self.browser(body=body)
+        page1 = [{"href": "https://www.mining.com/newer-story/", "text": "Newer", "context": ["November 5, 2026"]}]
+        page2 = [{"href": "https://www.mining.com/target-story/", "text": "Target", "context": ["November 4, 2026"]},
+                 {"href": "https://www.mining.com/padded-story/", "text": "Padded", "context": ["November 04, 2026"]}]
+        page.locator("a[href]").evaluate_all.side_effect = [page1, page2]
+        async def goto(url, **kwargs):
+            page.url = url
+            return SimpleNamespace(status=200)
+        page.goto.side_effect = goto
+        with tempfile.TemporaryDirectory() as directory, \
+                patch("playwright.async_api.async_playwright", return_value=manager):
+            output = Path(directory) / "capture"
+            result = await collect("2026-11-04", output_dir=output)
+            self.assertTrue((output / "page-2.txt").exists())
+        self.assertEqual(page.goto.await_args_list[1].args[0], "https://www.mining.com/commodity/copper/page/2/")
+        self.assertEqual(result["pages_read"], 2)
+        self.assertTrue(result["pagination_complete"])
+        self.assertEqual([a["title"] for a in result["articles"]], ["Target", "Padded"])
+
+    async def test_page_two_failure_keeps_first_page_results(self):
+        body = "November 5, 2026 newer\n" + "Copper news " * 70 + "\nLoad more Copper news >"
+        manager, page, _, _ = self.browser(body=body)
+        page.goto.side_effect = [SimpleNamespace(status=200), SimpleNamespace(status=403)]
+        with patch("playwright.async_api.async_playwright", return_value=manager):
+            result = await collect("2026-11-04")
+        self.assertEqual(result["status"], "ok")
+        self.assertEqual(result["pages_read"], 1)
+        self.assertFalse(result["pagination_complete"])
+        self.assertIn("HTTP 403", result["pagination_error"])
 
     async def test_existing_capture_is_never_overwritten(self):
         with tempfile.TemporaryDirectory() as directory:
