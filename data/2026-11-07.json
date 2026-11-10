@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-07",
   "report_time": "2026-11-08T08:12:33+08:00",
-  "summary": "铜：亚洲近月精铜遭贸易商加价采购，Fastmarkets进口升水升至195–210美元/吨，沪铜近月价差超过1200元/吨；现货升水与上期所低库存已在前一日披露。黄金与白银：First Majestic因San Dimas罢工撤回该矿年度产量和成本指引。",
+  "summary": "铜：亚洲近月精铜遭贸易商加价采购，Fastmarkets 进口升水升至195–210美元/吨，沪铜近月价差超过1200元/吨。黄金与白银：First Majestic 因 San Dimas 罢工撤回该矿年度指引；Excellon Mallay 重启后回收银52,860盎司，目标2027年年中达600吨/日；Sitka RC Gold 见53.1克/吨金窄段，约2.7万米待化验。",
   "windows": {
     "part1": {
       "start": "2026-11-05T00:00:00+08:00",
@@ -84,6 +84,114 @@
         "Santa Elena",
         "La Encantada"
       ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-07",
+      "claims": [
+        {
+          "claim": "已收款440万美元。",
+          "evidence": "US$4.4 million has been collected to date",
+          "source_url": "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/",
+          "evidence_type": "public original programme description",
+          "period": "to date",
+          "unit": "USD",
+          "value": 4400000
+        },
+        {
+          "claim": "已处理19,884吨矿石，回收银52,860盎司。",
+          "evidence": "19,884 tonnes processed and 52,860 ounces of silver recovered in concentrate",
+          "source_url": "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/",
+          "evidence_type": "public original programme description",
+          "period": "since mill restart",
+          "unit": "oz Ag",
+          "value": 52860
+        },
+        {
+          "claim": "银、铅、锌回收率分别为84%、84%、81%。",
+          "evidence": "84% for silver, 84% for lead and 81% for zinc",
+          "source_url": "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/",
+          "evidence_type": "public original programme description",
+          "period": "to date",
+          "unit": "%",
+          "value": 84
+        },
+        {
+          "claim": "目标2027年年中达到600吨/日额定能力。",
+          "evidence": "600 tonne-per-day rated capacity of the mill by mid-2027",
+          "source_url": "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/",
+          "evidence_type": "public original programme description",
+          "period": "mid-2027",
+          "unit": "t/day",
+          "value": 600
+        }
+      ],
+      "title": "Excellon：Mallay 银矿重启后回收银52,860盎司、首批精矿收款440万美元",
+      "source_type": "podcast",
+      "summary": "The KE Report 于北美时间11月6日发布 Excellon Resources 总裁兼首席执行官 Shawn Howarth 的访谈。节目配套文字称，秘鲁 Mallay 银矿选厂重启以来已处理19,884吨矿石，精矿中回收银52,860盎司；首批精矿已收款440万美元；银、铅、锌回收率分别达84%、84%和81%。公司目标在2027年年中达到选厂600吨/日的额定处理能力。",
+      "importance": "Mallay 已从停产转入试生产，带来小规模但真实的新增银供给。按目前每吨约2.7盎司的回收银量估算，达到600吨/日后年产银量级约为数十万盎司，实际取决于品位。2027年年中能否如期达产，取决于井下开拓进度。",
+      "verification_status": "verified",
+      "verification_note": "已读取并核对 The KE Report 节目页配套文字；未听取音视频。页面日期11月6日（北美时间），RSS 发布时间换算为北京11月7日，publish_date 按北京日期填写，落入11月5–7日窗口。11月8日日报检索记录曾以“无可量化产量指引”排除，此次补入11月7日。",
+      "guest": {
+        "name": "Shawn Howarth",
+        "background": "Excellon Resources总裁兼首席执行官"
+      },
+      "companies": [
+        "Excellon Resources"
+      ],
+      "projects": [
+        "Mallay"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/11/06/sitka-gold-high-grade-mineralization-at-the-contact-zone-bear-paw-zone-27000-meters-pending/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-07",
+      "claims": [
+        {
+          "claim": "Contact Zone 见1.2米@53.1克/吨金。",
+          "evidence": "53.1 g/t Au over 1.2 metres within the Contact Zone",
+          "source_url": "https://www.kereport.com/2026/11/06/sitka-gold-high-grade-mineralization-at-the-contact-zone-bear-paw-zone-27000-meters-pending/",
+          "evidence_type": "public original programme description",
+          "period": "drill result",
+          "unit": "g/t Au",
+          "value": 53.1
+        },
+        {
+          "claim": "约27,000米、82个钻孔待化验。",
+          "evidence": "approximately 27,000 metres across 82 holes still awaiting assay results",
+          "source_url": "https://www.kereport.com/2026/11/06/sitka-gold-high-grade-mineralization-at-the-contact-zone-bear-paw-zone-27000-meters-pending/",
+          "evidence_type": "public original programme description",
+          "period": "2026 program",
+          "unit": "m",
+          "value": 27000
+        }
+      ],
+      "title": "Sitka Gold：RC Gold 项目 Contact Zone 见53.1克/吨金×1.2米，约2.7万米待化验",
+      "source_type": "podcast",
+      "summary": "The KE Report 于北美时间11月6日发布 Sitka Gold 董事兼企业发展副总裁 Mike Burke 的访谈。节目配套文字称，育空 RC Gold 项目新靶区见矿，其中 Contact Zone 见1.2米品位53.1克/吨金；全年钻探中仍有约27,000米、82个钻孔等待化验结果。",
+      "importance": "新靶区见矿说明 RC Gold 的矿化范围可能继续扩大，但53.1克/吨仅为1.2米窄段，规模仍待验证。约2.7万米待化验结果将陆续公布，决定下一次资源量更新能否明显扩容。项目仍处勘探阶段，对金供给属远期增量。",
+      "verification_status": "verified",
+      "verification_note": "已读取并核对 The KE Report 节目页配套文字；未听取音视频。页面日期11月6日（北美时间），RSS 发布时间换算为北京11月7日，publish_date 按北京日期填写，落入11月5–7日窗口。",
+      "guest": {
+        "name": "Mike Burke",
+        "background": "Sitka Gold董事兼企业发展副总裁"
+      },
+      "companies": [
+        "Sitka Gold"
+      ],
+      "projects": [
+        "RC Gold"
+      ]
     }
   ],
   "part2_x_posts": [],
@@ -147,9 +255,10 @@
       "https://www.coeur.com/investors/news/news-details/2026/Coeur-Reports-Third-Quarter-2026-Results/default.aspx ：11月4日稿，全年产量瞄向指引低端但未改区间，不纳入。",
       "https://www.wheatonpm.com/news/news-details/2026/Wheaton-Precious-Metals-Announces-Third-Quarter-2026-Results-and-Record-Year-to-Date-Production-Sales-Volume-Revenue-Earnings-and-Cash-Flow/default.aspx ：11月5日稿，指引不变；San Dimas 影响与 First Majestic 重复。",
       "https://www.fool.com/earnings/call-transcripts/2026/11/05/pan-american-silver-paas-q3-2026-earnings-call-transcript/ 及 MarketBeat 11月7日电话会摘要：与11月6日日报已收录的 Pan American 指引重复。",
-      "检索窗口内业绩会/访谈：Fortuna、First Majestic、Coeur、Wheaton、Taseko/Trekor 等；未发现可独立核验且未重复的其他产量指引变动。"
+      "检索窗口内业绩会/访谈：Fortuna、First Majestic、Coeur、Wheaton、Taseko/Trekor 等；未发现可独立核验且未重复的其他产量指引变动。",
+      "11月10日补充复核更正：第3条 Coeur 与第2条 Fortuna 已按新闻稿发布时间补入11月5日日报 Part 3。另复核 The KE Report 11月6日（北京11月7日）Excellon Mallay 与 Sitka Gold 节目，补入。"
     ],
-    "part1_result": "完成11月5日至11月7日北京自然日访谈/业绩会检索，并与11月6日、11月5日日报去重；纳入 First Majestic 三季报/电话会中 San Dimas 撤指引1条。",
+    "part1_result": "完成11月5日至11月7日北京自然日访谈/业绩会检索，并与11月6日、11月5日日报去重；纳入 First Majestic 三季报/电话会中 San Dimas 撤指引1条。 11月10日补充复核更正：补入 Excellon、Sitka Gold 访谈2条，合计3条。",
     "part2_searched": false,
     "part2_channel": "failed",
     "part2_sources_checked": [
@@ -206,16 +315,17 @@
     "mining_com_source_note": "铜/金/银分类页均经 Playwright + 系统 Chrome（CHROME_EXECUTABLE=/usr/bin/google-chrome）headless 抓取（HTTP 200）；报告日 November 7, 2026 无匹配文章，属于分类发现完整后的真实零结果。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 2,
-      "passed": 2,
+      "checked": 4,
+      "passed": 4,
       "failed": 0,
       "failures": [],
-      "notes": "计数仅对应本期纳入卡片；First Majestic 公司稿与 LiveMint/Bloomberg 转载页均已打开核对标题、日期与引文。"
+      "notes": "计数仅对应本期纳入卡片；First Majestic 公司稿与 LiveMint/Bloomberg 转载页均已打开核对标题、日期与引文。 11月10日补充复核更正：新增2张补充卡均已打开公开原文核对标题、日期与引文并绑定保存文本，计入 checked/passed。"
     }
   },
   "dedup_log": {
     "part1_deduped_urls": [
-      "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/ （已在 2026-11-06 日报 Part 1 收录）"
+      "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/ （已在 2026-11-06 日报 Part 1 收录）",
+      "https://www.kereport.com/2026/11/05/mercado-minerals-expanding-silver-discoveries-at-copalito-and-drilling-underway-at-zamora/ （已补入2026-11-06日报 Part 1）"
     ],
     "part2_deduped_urls": [],
     "part3_deduped_events": [
@@ -223,6 +333,7 @@
       "Lundin 再次下调 Caserones 2026年铜产量指引（11月5日日报已收录）",
       "中国铜冶炼硫酸回落/延长检修（11月5日日报已收录）"
     ],
-    "notes": "与 2026-11-06、2026-11-05 日报 URL/事件比对；Coeur、Fortuna 新闻稿日期为11月4日，不纳入本期 Part 3。"
-  }
+    "notes": "与 2026-11-06、2026-11-05 日报 URL/事件比对；Coeur、Fortuna 新闻稿日期为11月4日，不纳入本期 Part 3。 11月10日补充复核更正：Coeur、Fortuna 已补入11月5日日报 Part 3。"
+  },
+  "report_note": "2026年11月10日经用户明确授权补充：按新流程复核后新增Excellon、Sitka Gold 2条访谈，共2条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time与原有卡片、原始X采集审计；本次未新增X采集，未访问音视频。"
 }

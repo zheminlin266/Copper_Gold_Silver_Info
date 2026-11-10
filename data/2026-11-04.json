@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-04",
   "report_time": "2026-11-06T08:16:55+08:00",
-  "summary": "铜：Mysteel 指上海社库降至4.78万吨、冶炼月均减量近9万吨推升升水；JPMorgan 称美国远期或新增约130万吨/年铜产能（多在2030年后）。黄金：加拿大三季度产量同比增22%，全球矿山产量创三季度纪录；Tocvan 中试厂临近投料。白银：Sunshine 评估将选厂扩至约2000吨/日（2028年末重启目标）。",
+  "summary": "铜：Ivanhoe 将 Kamoa-Kakula 2027年指引下调至30–35万吨（此前38–42万吨）；Freeport 拟投45亿美元扩建 Bagdad（2030年中首产）；El Domo 投产推迟4个月至2027年11月；上海社库降至4.78万吨。黄金：加拿大三季度产量同比增22%；SSR 全年 AISC 预计超指引上限约10%；Tocvan 中试厂临近投料，Dakota 氧化矿回收率80.4%。白银：Hecla 上调指引下限至1530万盎司；Sunshine 评估扩建选厂；BP Silver 钻获高品位银。",
   "windows": {
     "part1": {
       "start": "2026-11-02T00:00:00+08:00",
@@ -63,6 +63,106 @@
       "projects": [
         "Grand Pilar",
         "El Mesquite"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/11/02/bp-silver-2-more-drill-assays-at-the-jalsuri-north-target-return-broad-intersections-of-silver-gold-and-zinc-mineralization/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-03",
+      "claims": [
+        {
+          "claim": "CO-0019 孔见10.0米@183.62克/吨银，含2.0米@506.50克/吨银。",
+          "evidence": "Drill hole CO-0019 intersected 10.0 meters (“m”) grading 183.62 g/t silver and 0.59 g/t gold (239.65 g/t silver equivalent), including 2.0 m grading 506.50 g/t silver and 1.08 g/t gold",
+          "source_url": "https://www.kereport.com/2026/11/02/bp-silver-2-more-drill-assays-at-the-jalsuri-north-target-return-broad-intersections-of-silver-gold-and-zinc-mineralization/",
+          "evidence_type": "public original programme description",
+          "period": "drill result",
+          "unit": "g/t Ag",
+          "value": 183.62
+        },
+        {
+          "claim": "深部见100.0米品位2.49%锌当量。",
+          "evidence": "2.49% zinc equivalent over 100.0 m",
+          "source_url": "https://www.kereport.com/2026/11/02/bp-silver-2-more-drill-assays-at-the-jalsuri-north-target-return-broad-intersections-of-silver-gold-and-zinc-mineralization/",
+          "evidence_type": "public original programme description",
+          "period": "drill result",
+          "unit": "% ZnEq",
+          "value": 2.49
+        }
+      ],
+      "title": "BP Silver：Cosuño 项目 CO-0019 孔见10米@183.62克/吨银，深部另见宽厚锌矿化",
+      "source_type": "podcast",
+      "summary": "The KE Report 于北美时间11月2日发布 BP Silver 管理层访谈。节目配套文字称，玻利维亚 Cosuño 银项目 CO-0019 孔见10.0米品位183.62克/吨银、0.59克/吨金（239.65克/吨银当量），其中2.0米品位506.50克/吨银、1.08克/吨金；该孔深部还见100.0米品位2.49%锌当量的宽厚矿化。",
+      "importance": "该结果仍处于钻探阶段，项目尚无资源量，对白银供给属于远期勘探线索。近地表高品位银金段与深部宽厚锌矿化并存，若后续钻孔证实连续性，项目可能走向多金属开发路径。下一步看待化验钻孔能否扩大矿化范围。",
+      "verification_status": "verified",
+      "verification_note": "已读取并核对 The KE Report 节目页配套文字；未听取音视频。页面日期11月2日（北美时间），RSS 发布时间换算为北京11月3日，publish_date 按北京日期填写，落入11月2–4日窗口。",
+      "guest": {
+        "name": "Tim Shearcroft",
+        "background": "BP Silver首席执行官兼联合创始人"
+      },
+      "companies": [
+        "BP Silver"
+      ],
+      "projects": [
+        "Cosuño"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/11/02/dakota-gold-richmond-hill-drill-assays-and-metallurgical-results-trade-off-studies-for-upcoming-2026-pfs-and-2027-fs-maitland-as-future-growth-project/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-03",
+      "claims": [
+        {
+          "claim": "氧化矿模型金回收率在0.5英寸粒度下为80.4%，1英寸为75.9%。",
+          "evidence": "modeled ultimate gold recovery for oxide material averaged 80.4% at a 0.5-inch crush size, compared with 75.9% at a 1-inch crush size",
+          "source_url": "https://www.kereport.com/2026/11/02/dakota-gold-richmond-hill-drill-assays-and-metallurgical-results-trade-off-studies-for-upcoming-2026-pfs-and-2027-fs-maitland-as-future-growth-project/",
+          "evidence_type": "public original programme description",
+          "period": "metallurgical test",
+          "unit": "% Au recovery",
+          "value": 80.4
+        },
+        {
+          "claim": "更新资源量纳入2025–2026年完成的333个钻孔。",
+          "evidence": "333 drill holes completed in 2025 and 2026",
+          "source_url": "https://www.kereport.com/2026/11/02/dakota-gold-richmond-hill-drill-assays-and-metallurgical-results-trade-off-studies-for-upcoming-2026-pfs-and-2027-fs-maitland-as-future-growth-project/",
+          "evidence_type": "public original programme description",
+          "period": "resource update",
+          "unit": "drill holes",
+          "value": 333
+        },
+        {
+          "claim": "预可研目标四季度，可研经济性定于2027年年中。",
+          "evidence": "Feasibility Study economics slated for mid-2027",
+          "source_url": "https://www.kereport.com/2026/11/02/dakota-gold-richmond-hill-drill-assays-and-metallurgical-results-trade-off-studies-for-upcoming-2026-pfs-and-2027-fs-maitland-as-future-growth-project/",
+          "evidence_type": "public original programme description",
+          "period": "study schedule",
+          "unit": "date",
+          "value": "mid-2027"
+        }
+      ],
+      "title": "Dakota Gold：Richmond Hill 选定0.5英寸破碎粒度，氧化矿模型金回收率80.4%",
+      "source_type": "podcast",
+      "summary": "The KE Report 于北美时间11月2日发布 Dakota Gold 管理层访谈。节目配套文字称，南达科他州 Richmond Hill 项目冶金试验显示，氧化矿模型最终金回收率在0.5英寸破碎粒度下平均为80.4%，1英寸粒度下为75.9%；支撑预可研的更新资源量将纳入2025年和2026年完成的333个钻孔，预可研目标为四季度，可研经济性定于2027年年中。",
+      "importance": "回收率提高4.5个百分点会直接增加堆浸项目的可回收金量，并改善预可研的经济性。最终可采金量仍取决于四季度更新资源量的结果。2027年年中可研完成前，该项目对金供给仍属远期增量。",
+      "verification_status": "verified",
+      "verification_note": "已读取并核对 The KE Report 节目页配套文字；未听取音视频。页面日期11月2日（北美时间），RSS 发布时间换算为北京11月3日，publish_date 按北京日期填写，落入11月2–4日窗口。",
+      "guest": {
+        "name": "Robert Quartermain",
+        "background": "Dakota Gold联席董事长兼董事"
+      },
+      "companies": [
+        "Dakota Gold"
+      ],
+      "projects": [
+        "Richmond Hill"
       ]
     }
   ],
@@ -252,14 +352,337 @@
       ],
       "mining_com_source_note": "铜分类页当日日期匹配为空；金/银分类页 Playwright 发现。下列铜相关文章由既有分类发现链路与公开 URL 核验，正文经 Playwright 读取；按 article:published_time 换算北京时间后落入11月4日窗口。",
       "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-04T07:25:00+08:00",
+      "claims": [
+        {
+          "claim": "Kamoa-Kakula 2026年产量预计约29万吨可售产品含铜。",
+          "evidence": "Kamoa-Kakula 2026 production is expected to be approximately 290,000 tonnes of copper in saleable products",
+          "source_url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "t Cu",
+          "value": 290000
+        },
+        {
+          "claim": "2026年原指引为29–31万吨阳极铜或粗铜。",
+          "evidence": "2026 production guidance range previously 290,000 to 310,000 tonnes of copper in anode or blister",
+          "source_url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+          "evidence_type": "public original page",
+          "period": "FY2026 prior guidance",
+          "unit": "t Cu",
+          "value": "290000-310000"
+        },
+        {
+          "claim": "2027年产量指引下调至30–35万吨，成本指引升至2.50–3.00美元/磅。",
+          "evidence": "production guidance for 2027 lowered to 300,000 to 350,000 tonnes of copper in saleable products and the cost guidance increased to $2.50 to $3.00 per payable pound of saleable copper produced",
+          "source_url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+          "evidence_type": "public original page",
+          "period": "FY2027 guidance",
+          "unit": "t Cu",
+          "value": "300000-350000"
+        },
+        {
+          "claim": "2027年原指引为38–42万吨。",
+          "evidence": "(prev. 380,000 - 420,000)",
+          "source_url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+          "evidence_type": "public original page",
+          "period": "FY2027 prior guidance",
+          "unit": "t Cu",
+          "value": "380000-420000"
+        },
+        {
+          "claim": "Kakula 东侧采场开采推迟至2028年一季度末。",
+          "evidence": "a delay in the start of stoping on the Eastern side of Kakula from Q4 2027 to late Q1 2028",
+          "source_url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+          "evidence_type": "public original page",
+          "period": "2027–2028",
+          "unit": "quarter",
+          "value": "Q4 2027 -> late Q1 2028"
+        },
+        {
+          "claim": "一至三期满负荷产量目标下调至40–45万吨。",
+          "evidence": "has been lowered to 400,000 to 450,000 tonnes of copper in saleable products",
+          "source_url": "https://www.newsfilecorp.com/release/322386/Ivanhoe-Mines-Issues-2026-ThirdQuarter-Financial-Results-Overview-of-Operations-and-Exploration-Activities",
+          "evidence_type": "public original page",
+          "period": "Phase 1-3 steady state",
+          "unit": "t Cu/yr",
+          "value": "400000-450000"
+        }
+      ],
+      "source": "Ivanhoe Mines（Newsfile 新闻稿）",
+      "title": "Ivanhoe 下调 Kamoa-Kakula 2027年铜产量指引至30–35万吨，2026年预计约29万吨",
+      "excerpt": "Ivanhoe Mines 于北美东部时间11月3日18:25发布三季报：Kamoa-Kakula 2026年铜产量（可售产品含铜）预计约29万吨，此前指引为29–31万吨（阳极铜或粗铜口径）；2027年产量指引下调至30–35万吨（此前38–42万吨），成本指引升至每磅应付铜2.50–3.00美元。公司称2027年下调主要因 Kakula 东侧采场开采由2027年四季度推迟至2028年一季度末；一至三期选厂满负荷产量目标下调至40–45万吨。",
+      "language": "en",
+      "importance": "2027年指引中值由40万吨降至32.5万吨，意味着全球最大的新建铜矿之一明年少供约7.5万吨铜。下调来自 Kakula 东侧采场推迟和采矿速率下调，属于持续到2028年一季度的中期供给缺口，并非单季扰动。下一步看公司更新的矿山计划能否确认40–45万吨的满负荷目标。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Newsfile 新闻稿原文（Playwright 打开）；页面时间为美东时间2026年11月3日6:25 PM EST，即北京11月4日07:25，落入11月4日 Part 3 窗口。11月6日日报检索记录曾误记为窗口外，此次更正。",
+      "companies": [
+        "Ivanhoe Mines"
+      ],
+      "projects": [
+        "Kamoa-Kakula"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-04",
+      "claims": [
+        {
+          "claim": "长期铜产量将升至每年4亿磅以上，新增约2.25亿磅。",
+          "evidence": "increase annual long-term copper production to over 400 million pounds of copper per annum (incremental production of approximately 225 million pounds per annum)",
+          "source_url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx",
+          "evidence_type": "public original page",
+          "period": "long-term after expansion",
+          "unit": "lb Cu/yr",
+          "value": 225000000
+        },
+        {
+          "claim": "新选厂增加约11.5万吨/日铭牌处理能力。",
+          "evidence": "approximately 115,000 tons per day of incremental nameplate processing capacity",
+          "source_url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx",
+          "evidence_type": "public original page",
+          "period": "project design",
+          "unit": "short tons/day",
+          "value": 115000
+        },
+        {
+          "claim": "建设期约3.5年，2030年年中首产。",
+          "evidence": "Construction period of approximately 3.5 years, with initial production targeted in mid-2030",
+          "source_url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx",
+          "evidence_type": "public original page",
+          "period": "construction schedule",
+          "unit": "years",
+          "value": 3.5
+        },
+        {
+          "claim": "扩建与现代化计划投资45亿美元。",
+          "evidence": "$4.5 billion expansion and modernization program",
+          "source_url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx",
+          "evidence_type": "public original page",
+          "period": "project capex",
+          "unit": "USD",
+          "value": 4500000000
+        },
+        {
+          "claim": "项目在约4.00美元/磅铜价下可实现盈亏平衡。",
+          "evidence": "break-even",
+          "source_url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx",
+          "evidence_type": "public original page",
+          "period": "project economics",
+          "unit": "USD/lb Cu",
+          "value": 4.0
+        }
+      ],
+      "source": "Freeport-McMoRan（公司新闻稿）",
+      "title": "Freeport 拟投45亿美元扩建 Bagdad，长期铜产量将升至每年4亿磅以上",
+      "excerpt": "Freeport-McMoRan 11月4日宣布推进亚利桑那 Bagdad 铜钼矿45亿美元扩建与现代化计划：新选厂预计增加约11.5万吨/日的铭牌处理能力，长期铜产量将提高到每年4亿磅以上（新增约2.25亿磅），钼产量超过每年2000万磅（新增约1200万磅）；建设期约3.5年，首产目标为2030年年中。公司称项目在约4.00美元/磅铜价下即可实现盈亏平衡。",
+      "language": "en",
+      "importance": "新增约2.25亿磅（约10万吨）铜要到2030年年中后才逐步释放，对未来三年铜供给没有直接增量，主要改变2030年代美国本土铜精矿供给。公司给出的盈亏平衡铜价约4.00美元/磅，执行风险集中在约3.5年建设期内的成本与进度控制。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Freeport 投资者关系新闻稿原文（Playwright 打开）；页面仅显示日期 November 4, 2026，按日期精度填写，北京日期落入11月4日窗口。",
+      "companies": [
+        "Freeport-McMoRan"
+      ],
+      "projects": [
+        "Bagdad"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526445747/hl-ex99_1.htm",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-04T07:25:46+08:00",
+      "claims": [
+        {
+          "claim": "2026年合并白银产量指引1530–1610万盎司，下限高于此前1510万盎司。",
+          "evidence": "Consolidated silver production is expected to be 15.3-16.1 million ounces, with low end raised compared to prior guidance of 15.1-16.1 million ounces",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526445747/hl-ex99_1.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "Moz Ag",
+          "value": "15.3-16.1"
+        },
+        {
+          "claim": "三季度持续经营业务产银420万盎司。",
+          "evidence": "Silver production from continuing operations was 4.2 million ounces",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526445747/hl-ex99_1.htm",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "Moz Ag",
+          "value": 4.2
+        },
+        {
+          "claim": "Keno Hill 季度产银增54%，创近100万盎司纪录。",
+          "evidence": "54% increase at Keno Hill",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/719413/000119312526445747/hl-ex99_1.htm",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "%",
+          "value": 54
+        }
+      ],
+      "source": "Hecla Mining（SEC 8-K 附件99.1）",
+      "title": "Hecla 上调2026年白银产量指引下限至1530万盎司，三季度产银420万盎司",
+      "excerpt": "Hecla Mining 于美东时间11月3日发布三季报：2026年合并白银产量指引为1530–1610万盎司，下限较此前的1510万盎司上调。三季度持续经营业务产银420万盎司，与上季度基本持平；其中 Keno Hill 增长54%，创近100万盎司的季度纪录。",
+      "language": "en",
+      "importance": "指引中值由1560万盎司升至1570万盎司，增量约10万盎司，幅度有限，但显示美国最大白银生产商全年供给的下行风险收窄。增量主要来自 Keno Hill 爬坡，抵消了其他矿山的季度波动。下一步看 Keno Hill 在四季度能否维持约100万盎司的季度产量。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 8-K 附件99.1 原文；发布时间取 EDGAR 受理时间2026-11-03 23:25:46Z（北京11月4日07:25），为公开可得时间上限。",
+      "companies": [
+        "Hecla Mining"
+      ],
+      "projects": [
+        "Keno Hill",
+        "Greens Creek",
+        "Lucky Friday"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/921638/000092163826000089/ssrminingreportsthirdquart.htm",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-04T05:05:35+08:00",
+      "claims": [
+        {
+          "claim": "三季度产量103,585金当量盎司。",
+          "evidence": "Third quarter 2026 production was 103,585 gold equivalent ounces",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/921638/000092163826000089/ssrminingreportsthirdquart.htm",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz AuEq",
+          "value": 103585
+        },
+        {
+          "claim": "前三季度结果与全年45–53.5万金当量盎司指引一致。",
+          "evidence": "full-year 2026 production guidance of 450,000 to 535,000 gold equivalent ounces",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/921638/000092163826000089/ssrminingreportsthirdquart.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz AuEq",
+          "value": "450000-535000"
+        },
+        {
+          "claim": "Puna 重新排产，推迟原定2026年处理的低成本堆存矿。",
+          "evidence": "resulting in resequencing that defers lower-cost production from stockpiled ore that was planned to be processed in 2026",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/921638/000092163826000089/ssrminingreportsthirdquart.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "全年 AISC 预计高出指引上限约10%。",
+          "evidence": "full-year AISC trending approximately 10% above the upper end of the Company’s 2026 guidance",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/921638/000092163826000089/ssrminingreportsthirdquart.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026",
+          "unit": "%",
+          "value": 10
+        }
+      ],
+      "source": "SSR Mining（SEC 8-K 附件）",
+      "title": "SSR Mining：2026年 AISC 预计超指引上限约10%，产量维持45–53.5万金当量盎司区间",
+      "excerpt": "SSR Mining 于美东时间11月3日发布三季报：三季度产量103,585金当量盎司，前三季度结果与全年45–53.5万金当量盎司产量指引一致。公司称 Puna 发现更多可延长矿山寿命的矿石，重新排产后推迟了原定2026年处理的低成本堆存矿；叠加更高权益金、柴油价格及人工和投入成本通胀，全年 AISC 预计高出2026年指引上限约10%。",
+      "language": "en",
+      "importance": "产量区间维持意味着 SSR 全年金当量供给不变，变化集中在成本端：AISC 超指引上限约10%，显示柴油与权益金压力正在侵蚀中型金银矿的利润率。Puna 推迟处理低成本堆存矿换取更长矿山寿命，短期成本上升、中期供给延长。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 8-K 附件原文；发布时间取 EDGAR 受理时间2026-11-03 21:05:35Z（北京11月4日05:05），为公开可得时间上限。",
+      "companies": [
+        "SSR Mining"
+      ],
+      "projects": [
+        "Puna",
+        "Çöpler",
+        "Marigold",
+        "Seabee"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001024/ex991.htm",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-04T06:25:41+08:00",
+      "claims": [
+        {
+          "claim": "建设预算更新为2.982亿美元，较2月估算增加1460万美元。",
+          "evidence": "The construction budget for the Project has been updated to $298.2 million, an increase of $14.6 million compared to the $283.6 million estimate dated February 4, 2026",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001024/ex991.htm",
+          "evidence_type": "public original page",
+          "period": "project capex",
+          "unit": "USD",
+          "value": 298200000
+        },
+        {
+          "claim": "完工日期预计推迟4个月。",
+          "evidence": "the El Domo completion date is expected to be delayed by four months",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001024/ex991.htm",
+          "evidence_type": "public original page",
+          "period": "construction schedule",
+          "unit": "months",
+          "value": 4
+        },
+        {
+          "claim": "项目预计2027年11月1日投产。",
+          "evidence": "scheduled to be in production by November 1 st , 2027",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001024/ex991.htm",
+          "evidence_type": "public original page",
+          "period": "start of production",
+          "unit": "date",
+          "value": "2027-11-01"
+        }
+      ],
+      "source": "Silvercorp Metals（SEC 6-K 附件）",
+      "title": "Silvercorp El Domo 铜金项目预算增至2.982亿美元，投产推迟4个月至2027年11月",
+      "excerpt": "Silvercorp 于北美时间11月3日更新厄瓜多尔 El Domo 铜金项目：建设预算上调至2.982亿美元，较2026年2月4日估算的2.836亿美元增加1460万美元；受持续强降雨影响，完工日期预计推迟4个月，公司预计项目于2027年11月1日投产。",
+      "language": "en",
+      "importance": "推迟4个月使这座铜金矿的首批精矿由约2027年7月后移至11月，2027年的铜、金增量相应减少。预算增幅约5%，显示拉美在建项目正面临能源成本与极端天气的双重压力。下一步看主要土建和设备安装能否守住新的投产时间表。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件99.1 原文；发布时间取 EDGAR 受理时间2026-11-03 22:25:41Z（北京11月4日06:25），为公开可得时间上限。",
+      "companies": [
+        "Silvercorp Metals"
+      ],
+      "projects": [
+        "El Domo"
+      ],
+      "source_channel": "web"
     }
   ],
   "search_log": {
     "part1_searched": true,
     "part1_sources_checked": [
-      "https://clearcommodity.net/podcasts/mining-stock-daily/ ：纳入 Tocvan（北京时间11月4日01:01）；C3 Metals（北京时间11月5日01:22）超出本窗；Democratic Sweep 早间简报与钻探/股价评论节目不纳入；与11月3日、11月2日日报去重后无其他合格访谈。"
+      "https://clearcommodity.net/podcasts/mining-stock-daily/ ：纳入 Tocvan（北京时间11月4日01:01）；C3 Metals（北京时间11月5日01:22）超出本窗；Democratic Sweep 早间简报与钻探/股价评论节目不纳入；与11月3日、11月2日日报去重后无其他合格访谈。",
+      "11月10日补充复核更正：复核 The KE Report 11月2日（北京11月3日）节目：BP Silver Cosuño 钻探与 Dakota Gold Richmond Hill 冶金/预可研进展，均已读取节目配套文字，补入。"
     ],
-    "part1_result": "完成11月2日至11月4日北京自然日访谈检索；纳入 Tocvan 中试厂访谈1条。",
+    "part1_result": "完成11月2日至11月4日北京自然日访谈检索；纳入 Tocvan 中试厂访谈1条。 11月10日补充复核更正：补入 BP Silver、Dakota Gold 访谈2条，合计3条。",
     "part2_searched": false,
     "part2_channel": "failed",
     "part2_sources_checked": [
@@ -313,17 +736,18 @@
       "Mining.com /commodity/copper/ Playwright：HTTP 200，当日日期匹配文章0篇（success_empty）；金分类发现价格文1篇；银分类同文。",
       "按既有发现链路核验并 Playwright 读取落入北京时间11月4日的文章：JPMorgan US copper、Canada gold output、Sunshine Silver、I-80 Gold、Democrats win。",
       "https://youse.m.mysteel.com/a/26110416/37A4CF4D6CE8CDAA_abc.html ：Mysteel 升水与社库分析，纳入。",
-      "金价大涨、民主党政策评论、I-80 小型运营扰动分别排除。"
+      "金价大涨、民主党政策评论、I-80 小型运营扰动分别排除。",
+      "11月10日补充复核更正：复核公司一手稿与 SEC EDGAR：Ivanhoe 三季报（Newsfile 美东11月3日18:25，即北京11月4日07:25）、Freeport Bagdad 扩建（页面日期11月4日）、Hecla（EDGAR 北京07:25）、SSR Mining（北京05:05）、Silvercorp El Domo 更新（北京06:25）均落入11月4日窗口，补入。"
     ],
-    "part3_result": "完成11月4日北京自然日新闻检索；铜分类页当日匹配为空但已用 Playwright 核验窗口内公开文章；纳入 Mysteel 社库/冶炼、Canada 金产量、JPMorgan 美国铜远期情景、Sunshine 选厂扩容共4条。",
+    "part3_result": "完成11月4日北京自然日新闻检索；铜分类页当日匹配为空但已用 Playwright 核验窗口内公开文章；纳入 Mysteel 社库/冶炼、Canada 金产量、JPMorgan 美国铜远期情景、Sunshine 选厂扩容共4条。 11月10日补充复核更正：补入 Ivanhoe、Freeport、Hecla、SSR、El Domo 5条，合计9条。",
     "mining_com_source_note": "铜分类页 Playwright HTTP 200、当日日期匹配0篇；金/银分类有发现。窗口内铜金文章经公开 URL + Playwright 正文核验纳入。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 5,
-      "passed": 5,
+      "checked": 12,
+      "passed": 12,
       "failed": 0,
       "failures": [],
-      "notes": "计数对应本期纳入卡片。"
+      "notes": "计数对应本期纳入卡片。 11月10日补充复核更正：新增7张补充卡均已打开公开原文核对标题、日期与引文并绑定保存文本，计入 checked/passed。"
     }
   },
   "dedup_log": {
@@ -332,6 +756,7 @@
     "part3_deduped_events": [
       "WGC 印度需求、刚果非法采矿、ACG Nussir、St Barbara Touquoy、SMM 10月银锭：已于11月3日日报收录。"
     ],
-    "notes": "Part 1/3 与11月3日、11月2日日报对照。"
-  }
+    "notes": "Part 1/3 与11月3日、11月2日日报对照。 11月10日补充复核更正：补入各条与11月2–3日日报及11月5–9日日报逐一比对，无重复；Ivanhoe、Freeport 原在11月6日检索记录中被判窗口外，现归入本期。"
+  },
+  "report_note": "2026年11月10日经用户明确授权补充：按新流程复核后新增Ivanhoe、Freeport、Hecla、SSR、El Domo 5条新闻及BP Silver、Dakota Gold 2条访谈，共7条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time与原有卡片、原始X采集审计；本次未新增X采集，未访问音视频。"
 }

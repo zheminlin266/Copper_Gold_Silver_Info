@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-06",
   "report_time": "2026-11-07T08:14:19+08:00",
-  "summary": "铜：沪铜现货升水均价创纪录2615元/吨、社库约6.26万吨；上期所库存降至33848吨近三年低位，洋山升水至约217.5美元/吨；11港铜精矿库存降至64.27万吨。黄金：Pan American 下调2026年产量指引至66–68万盎司；印度排灯节前零售购金回暖。白银：无独立合格供需增量（随 Pan American 白银指引偏线下修一并披露）。",
+  "summary": "铜：Codelco Andina 因尾矿外泄暂停选矿，复产时间未定；沪铜现货升水均价创纪录2615元/吨、社库约6.26万吨；上期所库存降至33848吨，11港铜精矿库存降至64.27万吨。黄金：Pan American 下调2026年产量指引至66–68万盎司；印度排灯节前零售购金回暖。白银：Silvercorp 安全改造致财季产银同比降41%，已获批复产；Mercado Copalito 矿脉走向扩至11公里。",
   "windows": {
     "part1": {
       "start": "2026-11-04T00:00:00+08:00",
@@ -77,6 +77,53 @@
         "Timmins",
         "Cerro Moro",
         "Juanicipio"
+      ]
+    },
+    {
+      "url": "https://www.kereport.com/2026/11/05/mercado-minerals-expanding-silver-discoveries-at-copalito-and-drilling-underway-at-zamora/",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-06",
+      "claims": [
+        {
+          "claim": "首期3000米钻探将累计矿脉走向由8公里扩至11公里。",
+          "evidence": "the 3,000-meter inaugural program expanded cumulative vein strike from 8 km to 11 km",
+          "source_url": "https://www.kereport.com/2026/11/05/mercado-minerals-expanding-silver-discoveries-at-copalito-and-drilling-underway-at-zamora/",
+          "evidence_type": "public original programme description",
+          "period": "inaugural drill program",
+          "unit": "km",
+          "value": 11
+        },
+        {
+          "claim": "Zamora 开展1500米钻探。",
+          "evidence": "1,500-meter campaign",
+          "source_url": "https://www.kereport.com/2026/11/05/mercado-minerals-expanding-silver-discoveries-at-copalito-and-drilling-underway-at-zamora/",
+          "evidence_type": "public original programme description",
+          "period": "drill program",
+          "unit": "m",
+          "value": 1500
+        }
+      ],
+      "title": "Mercado Minerals：Copalito 首期3000米钻探将累计矿脉走向由8公里扩至11公里",
+      "source_type": "podcast",
+      "summary": "The KE Report 于北美时间11月5日发布 Mercado Minerals 联合创始人兼首席执行官 Dan Rodriguez 的访谈。节目配套文字称，墨西哥 Copalito 银金项目首期3000米钻探将累计矿脉走向长度由8公里扩至11公里，并见多段高品位截距；Zamora 项目已开始1500米钻探，目标为浅部高品位银金脉。",
+      "importance": "走向长度扩大约38%，扩大了 Copalito 的找矿空间，但项目尚无资源量，未来白银增量取决于资源量界定。节目配套文字未披露具体品位，高品位截距需以公司化验公告核对。下一步看二期钻探和 Zamora 首轮化验结果。",
+      "verification_status": "verified",
+      "verification_note": "已读取并核对 The KE Report 节目页配套文字；未听取音视频。页面日期11月5日（北美时间），RSS 发布时间换算为北京11月6日，publish_date 按北京日期填写，落入11月4–6日窗口。",
+      "guest": {
+        "name": "Dan Rodriguez",
+        "background": "Mercado Minerals联合创始人兼首席执行官"
+      },
+      "companies": [
+        "Mercado Minerals"
+      ],
+      "projects": [
+        "Copalito",
+        "Zamora"
       ]
     }
   ],
@@ -241,6 +288,120 @@
       "verification_note": "WebFetch/HTTP 打开 SMM 英文周评（HTTP 200），Published: Nov 06, 2026 15:32 (GMT+8)；核对港口库存与周度指数。同一 API 来源已写入周六 TC CSV。",
       "companies": [],
       "projects": []
+    },
+    {
+      "url": "https://www.mining.com/codelco-halts-andina-mine-as-tailings-spill-threatens-river/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-06T00:09:00+08:00",
+      "claims": [
+        {
+          "claim": "Codelco 因尾矿外泄可能入河暂停 Andina 加工作业。",
+          "evidence": "has suspended processing operations at its Andina division following a tailings spill that may have reached the Blanco River",
+          "source_url": "https://www.mining.com/codelco-halts-andina-mine-as-tailings-spill-threatens-river/",
+          "evidence_type": "public original page",
+          "period": "2026-11-05",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "关停选矿厂、暂停尾矿输送。",
+          "evidence": "shutting down the concentrator plant, suspending tailings transport",
+          "source_url": "https://www.mining.com/codelco-halts-andina-mine-as-tailings-spill-threatens-river/",
+          "evidence_type": "public original page",
+          "period": "2026-11-05",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "公司未说明加工作业何时恢复。",
+          "evidence": "The company has not indicated when processing operations might resume.",
+          "source_url": "https://www.mining.com/codelco-halts-andina-mine-as-tailings-spill-threatens-river/",
+          "evidence_type": "public original page",
+          "period": "2026-11",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "Esval 关闭 Aconcagua 河地表取水口。",
+          "evidence": "Esval closed its surface water intake from the Aconcagua River",
+          "source_url": "https://www.mining.com/codelco-halts-andina-mine-as-tailings-spill-threatens-river/",
+          "evidence_type": "public original page",
+          "period": "2026-11-05",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Mining.com",
+      "title": "Codelco Andina 尾矿外泄或入 Blanco 河，选矿作业暂停、复产时间未定",
+      "excerpt": "Mining.com 报道，Codelco 因尾矿外泄可能进入 Blanco 河，暂停 Andina 分部的加工作业。公司采取的措施包括关停选矿厂、暂停尾矿输送、将水引入 Piuquenitos 水库并持续监测河流水质；公司未说明加工作业何时恢复。当地供水公司 Esval 预防性关闭了 Aconcagua 河地表取水口。",
+      "language": "en",
+      "importance": "Andina 选矿厂停车直接减少 Codelco 的铜精矿产出，停产持续时间越长，其本已承压的全年产量缺口越大。复产需先完成泄漏处置和监管评估，公司尚未给出时间表。叠加11月5日披露的产量虚增问题，Codelco 2026年供给的下行风险进一步加大。",
+      "verification_status": "verified",
+      "verification_note": "Mining.com 铜分类页发现，Playwright 打开原文（HTTP 200）；article:published_time 为2026-11-05T16:09Z，即北京11月6日00:09，落入11月6日窗口。11月5日日报已按窗口外排除，此前未在任何一期收录，此次补入11月6日。",
+      "companies": [
+        "Codelco"
+      ],
+      "projects": [
+        "Andina"
+      ],
+      "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001051/ex991.htm",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-06T06:19:10+08:00",
+      "claims": [
+        {
+          "claim": "本季产银约90万盎司，同比降41%。",
+          "evidence": "representing production decreases of 41% (silver)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001051/ex991.htm",
+          "evidence_type": "public original page",
+          "period": "fiscal Q2 (quarter ended 2026-09-30)",
+          "unit": "% y/y",
+          "value": -41
+        },
+        {
+          "claim": "本季产银约90万盎司、金1,371盎司。",
+          "evidence": "approximately 0.9 million ounces of silver, 1,371 ounces of gold",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001051/ex991.htm",
+          "evidence_type": "public original page",
+          "period": "fiscal Q2 (quarter ended 2026-09-30)",
+          "unit": "Moz Ag",
+          "value": 0.9
+        },
+        {
+          "claim": "安全改造已基本完成，获准恢复生产。",
+          "evidence": "The major safety improvement works have been substantially completed, inspected by the government and approved to resume operations.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001051/ex991.htm",
+          "evidence_type": "public original page",
+          "period": "2026-11",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Silvercorp Metals（SEC 6-K 附件）",
+      "title": "Silvercorp：安全改造致财季产银降41%至约90万盎司，已获批复产",
+      "excerpt": "Silvercorp 于北美时间11月5日公布截至2026年9月30日的财季业绩：本季产银约90万盎司、金1,371盎司，合计约100万银当量盎司，同比分别下降41%（银）、34%（金）和42%（银当量）。公司称主要安全改造工程已基本完成，经政府检查后获准恢复生产。",
+      "language": "en",
+      "importance": "单季产银同比减少约60万盎司，属于明确的短期供给扰动，起因是安全改造停产，资源本身未变化。获批复产后，下一财季产量有望回升，但改造要求可能抬高单位成本。下一步看下一财季产量能否回到同比水平。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件99.1 原文；EDGAR 受理时间2026-11-05 22:19:10Z（北京11月6日06:19），为公开可得时间上限。",
+      "companies": [
+        "Silvercorp Metals"
+      ],
+      "projects": [
+        "Ying"
+      ],
+      "source_channel": "web"
     }
   ],
   "search_log": {
@@ -249,9 +410,10 @@
       "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/ ：公司三季报+11月5日电话会预告；WebFetch 核验，纳入黄金/白银产量指引。",
       "https://www.fool.com/earnings/call-transcripts/2026/11/05/pan-american-silver-paas-q3-2026-earnings-call-transcript/ ：电话会逐字稿交叉核对。",
       "KE Report / Money Metals / Mining Stock Daily / Clear Commodity 等播客检索 11月4–6日；SoarFinancial NOIC 推广访谈多为勘探钻探推广，未形成可核验产量/库存增量，不纳入。",
-      "Ivanhoe Mines 投资者电话会为11月4日，但公司新闻稿发布日为11月3日（窗外）；未找到窗口内可独立核验的通话逐字稿，不纳入。"
+      "Ivanhoe Mines 投资者电话会为11月4日，但公司新闻稿发布日为11月3日（窗外）；未找到窗口内可独立核验的通话逐字稿，不纳入。",
+      "11月10日补充复核更正：第4条更正：Ivanhoe 新闻稿时间为美东11月3日18:25，即北京11月4日07:25，已作为新闻补入11月4日日报 Part 3。另复核 The KE Report 11月5日（北京11月6日）Mercado Minerals 节目，补入。"
     ],
-    "part1_result": "完成11月4日至11月6日北京自然日访谈/业绩会检索，并与11月5日、11月4日日报去重；纳入 Pan American 三季报/电话会产量指引1条。",
+    "part1_result": "完成11月4日至11月6日北京自然日访谈/业绩会检索，并与11月5日、11月4日日报去重；纳入 Pan American 三季报/电话会产量指引1条。 11月10日补充复核更正：补入 Mercado Minerals 访谈1条，合计2条。",
     "part2_searched": false,
     "part2_channel": "failed",
     "part2_sources_checked": [
@@ -302,25 +464,29 @@
       "Mining.com /commodity/copper/ Playwright 抓取：HTTP 200，日期匹配 November 6, 2026 文章5篇（TD关税、AI跌价/库存、加拿大预算、刚果矿产协议、Hindalco）。",
       "Mining.com /commodity/gold/ Playwright 抓取：HTTP 200，匹配含印度排灯节购金、黄金顾问观点、加拿大预算、巴拉圭铀等；/commodity/silver/：HTTP 200，当日无独立银文（加拿大预算交叉）。",
       "逐篇核验：印度购金、铜价/SHFE库存文经 Playwright 隔离会话 HTTP 200 读取；SMM 升水分析与铜精矿周评经公开 HTTP 读取。",
-      "SMM/metal.com、Reuters 转载（Business Recorder）、Mining Weekly 硫酸文（与11月5日去重）、公司新闻稿检索。"
+      "SMM/metal.com、Reuters 转载（Business Recorder）、Mining Weekly 硫酸文（与11月5日去重）、公司新闻稿检索。",
+      "11月10日补充复核更正：补入 Mining.com Codelco Andina 尾矿外泄停产（北京11月6日00:09）与 Silvercorp 财季业绩（EDGAR 北京06:19）。"
     ],
-    "part3_result": "完成11月6日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整；纳入 SMM 现货升水/社库、上期所库存与洋山升水、港口铜精矿库存、印度排灯节购金共4条新闻，另 Part 1 纳入 Pan American 指引；其余因价格复述、政策空泛、非金银铜或与前日重复排除。",
+    "part3_result": "完成11月6日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整；纳入 SMM 现货升水/社库、上期所库存与洋山升水、港口铜精矿库存、印度排灯节购金共4条新闻，另 Part 1 纳入 Pan American 指引；其余因价格复述、政策空泛、非金银铜或与前日重复排除。 11月10日补充复核更正：补入 Codelco Andina、Silvercorp 2条，合计6条新闻。",
     "mining_com_source_note": "铜/金/银分类页均经 Playwright Chromium headless 抓取（HTTP 200）；入选 mining.com 文章正文经同一 Playwright 路径核验。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 5,
-      "passed": 5,
+      "checked": 8,
+      "passed": 8,
       "failed": 0,
       "failures": [],
-      "notes": "计数仅对应本期纳入卡片；均已打开公开页面核对标题、日期与引文。"
+      "notes": "计数仅对应本期纳入卡片；均已打开公开页面核对标题、日期与引文。 11月10日补充复核更正：新增3张补充卡均已打开公开原文核对标题、日期与引文并绑定保存文本，计入 checked/passed。"
     }
   },
   "dedup_log": {
-    "part1_deduped_urls": [],
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/11/04/amex-gold-mining-development-update-moving-towards-bulk-sample-mining-and-production-for-2027-and-phase-1-commercial-production-in-2028/ （已补入2026-11-05日报 Part 1）"
+    ],
     "part2_deduped_urls": [],
     "part3_deduped_events": [
       "中国铜冶炼硫酸回落/延长检修（Mining Weekly 11月6日稿）与 2026-11-05 日报已收录事件重复"
     ],
-    "notes": "与 2026-11-05、2026-11-04 日报 URL/事件比对；Ivanhoe 2027指引因公司稿11月3日窗外未纳入；Freeport Bagdad 扩建宣布日11月4日不在 Part 3 单日窗口。"
-  }
+    "notes": "与 2026-11-05、2026-11-04 日报 URL/事件比对；Ivanhoe 2027指引因公司稿11月3日窗外未纳入；Freeport Bagdad 扩建宣布日11月4日不在 Part 3 单日窗口。 11月10日补充复核更正：Ivanhoe、Freeport 已补入11月4日日报 Part 3。"
+  },
+  "report_note": "2026年11月10日经用户明确授权补充：按新流程复核后新增Codelco Andina、Silvercorp 2条新闻及Mercado Minerals 1条访谈，共3条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time与原有卡片、原始X采集审计；本次未新增X采集，未访问音视频。"
 }

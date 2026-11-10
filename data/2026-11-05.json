@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-05",
   "report_time": "2026-11-06T08:17:13+08:00",
-  "summary": "铜：Lundin 再下调 Caserones 与公司铜产量指引；中国冶炼硫酸回落延长检修、压制精炼供给；保税区铜库存续降、洋山升水升至约204美元/吨；Resolution 获1.44亿美元推进（远期）。黄金：波兰央行达700吨购金目标并称可继续买入；Caledonia 获桥贷推进 Bilboes（2028年投产）。白银：无合格供需增量信号。",
+  "summary": "铜：Lundin 再下调 Caserones 指引；Codelco 披露2024、2025年产量虚增2.4万吨和1.81万吨；Trekor 上调 Gibraltar 指引；社库6.74万吨创年内新低，保税库存续降。黄金：Coeur、Fortuna Séguéla 落在指引低端；B2Gold 下调 AISC 指引；Gold Fields 指向指引上端、Windfall 获建设授权；AngloGold 拟3年投7.5–9亿美元增产；Allied Kurmuk 2027年指引上调；波兰央行达700吨。白银：Avino 下调指引至220–250万银当量盎司。",
   "windows": {
     "part1": {
       "start": "2026-11-03T00:00:00+08:00",
@@ -17,7 +17,71 @@
       "end": "2026-11-05T23:59:59+08:00"
     }
   },
-  "part1_broadcasts": [],
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/11/04/amex-gold-mining-development-update-moving-towards-bulk-sample-mining-and-production-for-2027-and-phase-1-commercial-production-in-2028/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-05",
+      "claims": [
+        {
+          "claim": "Perron 进入4万吨试采批量采样。",
+          "evidence": "trial mining 40,000-tonne bulk sample program",
+          "source_url": "https://www.kereport.com/2026/11/04/amex-gold-mining-development-update-moving-towards-bulk-sample-mining-and-production-for-2027-and-phase-1-commercial-production-in-2028/",
+          "evidence_type": "public original programme description",
+          "period": "2026–2027",
+          "unit": "t",
+          "value": 40000
+        },
+        {
+          "claim": "斜坡道已超过200米。",
+          "evidence": "the decline is now over 200 meters in length",
+          "source_url": "https://www.kereport.com/2026/11/04/amex-gold-mining-development-update-moving-towards-bulk-sample-mining-and-production-for-2027-and-phase-1-commercial-production-in-2028/",
+          "evidence_type": "public original programme description",
+          "period": "2026-11",
+          "unit": "m",
+          "value": 200
+        },
+        {
+          "claim": "推进6台钻机、10万米钻探计划。",
+          "evidence": "ongoing 100,000 meter 6-drill rig program",
+          "source_url": "https://www.kereport.com/2026/11/04/amex-gold-mining-development-update-moving-towards-bulk-sample-mining-and-production-for-2027-and-phase-1-commercial-production-in-2028/",
+          "evidence_type": "public original programme description",
+          "period": "drill program",
+          "unit": "m",
+          "value": 100000
+        },
+        {
+          "claim": "目标2028年一期商业生产。",
+          "evidence": "Phase 1 Commercial Production in 2028",
+          "source_url": "https://www.kereport.com/2026/11/04/amex-gold-mining-development-update-moving-towards-bulk-sample-mining-and-production-for-2027-and-phase-1-commercial-production-in-2028/",
+          "evidence_type": "public original programme description",
+          "period": "2028",
+          "unit": "date",
+          "value": "2028"
+        }
+      ],
+      "title": "AMEX Gold：Perron 推进4万吨批量采样，斜坡道超200米，目标2028年一期商业生产",
+      "source_type": "podcast",
+      "summary": "The KE Report 于北美时间11月4日发布 AMEX Gold Mining 总裁兼首席执行官 Victor Cantore 的访谈。节目配套文字称，魁北克 Perron 金项目正进入4万吨试采批量采样，随后过渡到一期开采；Cantore 在会议上称斜坡道长度已超过200米；公司同时推进6台钻机、10万米的钻探计划。节目标题称2027年推进批量采样与生产，2028年一期商业生产。",
+      "importance": "批量采样是 Perron 从勘探转向生产的第一步，按节目给出的时间表，2028年一期商业生产将带来新增金供给，但产量规模尚未披露。兑现取决于批量采样的品位验证和后续生产许可。",
+      "verification_status": "verified",
+      "verification_note": "已读取并核对 The KE Report 节目页配套文字；未听取音视频。页面日期11月4日（北美时间），RSS 发布时间换算为北京11月5日，publish_date 按北京日期填写，落入11月3–5日窗口。",
+      "guest": {
+        "name": "Victor Cantore",
+        "background": "AMEX Gold Mining总裁兼首席执行官"
+      },
+      "companies": [
+        "AMEX Gold Mining"
+      ],
+      "projects": [
+        "Perron"
+      ]
+    }
+  ],
   "part2_x_posts": [],
   "part3_news": [
     {
@@ -322,6 +386,596 @@
       ],
       "mining_com_source_note": "铜/金分类页 Playwright 发现（HTTP 200），文章正文经 Playwright 隔离会话读取核验。",
       "source_channel": "playwright"
+    },
+    {
+      "url": "https://www.coeur.com/investors/news/news-details/2026/Coeur-Reports-Third-Quarter-2026-Results/default.aspx",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T05:35:01+08:00",
+      "claims": [
+        {
+          "claim": "全年目标约63万盎司金、1870万盎司银、4000万磅铜，为指引区间低端。",
+          "evidence": "target achieving record full-year production of approximately 630,000 ounces of gold, 18.7 million ounces of silver, and 40.0 million pounds of copper, which represent the low end of the Company’s guidance ranges",
+          "source_url": "https://www.coeur.com/investors/news/news-details/2026/Coeur-Reports-Third-Quarter-2026-Results/default.aspx",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz Au",
+          "value": 630000
+        },
+        {
+          "claim": "三季度产金161,400盎司。",
+          "evidence": "Quarterly gold production totaled 161,400 ounces",
+          "source_url": "https://www.coeur.com/investors/news/news-details/2026/Coeur-Reports-Third-Quarter-2026-Results/default.aspx",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz Au",
+          "value": 161400
+        },
+        {
+          "claim": "三季度产银420万盎司，同比降12%，主因 Palmarejo 品位下降。",
+          "evidence": "Quarterly silver production of 4.2 million ounces decreased 12% year over year, primarily driven by lower silver grades at Palmarejo",
+          "source_url": "https://www.coeur.com/investors/news/news-details/2026/Coeur-Reports-Third-Quarter-2026-Results/default.aspx",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "Moz Ag",
+          "value": 4.2
+        }
+      ],
+      "source": "Coeur Mining（公司新闻稿）",
+      "title": "Coeur 预计2026年产量落在指引低端：金约63万盎司、银1870万盎司、铜4000万磅",
+      "excerpt": "Coeur Mining 于美东时间11月4日发布三季报，称全年目标为创纪录的约63万盎司金、1870万盎司银和4000万磅铜，对应各自指引区间的低端；单位销售成本预计处于全年区间上端。三季度产金161,400盎司；产银420万盎司，同比下降12%，主要因 Palmarejo 银品位下降。",
+      "language": "en",
+      "importance": "指引区间未改，但公司明确落在低端，全年金、银、铜供给均低于区间中值，单位成本则走向上端，利润率受量价双重挤压。银产量同比降12%主要来自 Palmarejo 品位下降，四季度品位能否回升决定1870万盎司能否兑现。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Coeur 官网新闻稿原文（Playwright 打开）；发布时间取同日 8-K 的 EDGAR 受理时间2026-11-04 21:35:01Z（北京11月5日05:35）为公开可得时间上限。11月7日日报检索记录曾判为不纳入，此次按新流程补入11月5日。",
+      "companies": [
+        "Coeur Mining"
+      ],
+      "projects": [
+        "Palmarejo",
+        "Las Chispas",
+        "Rochester",
+        "Kensington",
+        "Wharf"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://fortunamining.com/news/fortuna-reports-results-for-the-third-quarter-2026/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T07:27:27+08:00",
+      "claims": [
+        {
+          "claim": "Séguéla 预计落在产量指引低端。",
+          "evidence": "Séguéla is on track to achieve the lower end of its production guidance",
+          "source_url": "https://fortunamining.com/news/fortuna-reports-results-for-the-third-quarter-2026/",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "董事会批准1.09亿美元预算扩建 Séguéla 选厂30%。",
+          "evidence": "the Board of Directors approved a $109 million budget for a 30% expansion of the Séguéla processing plant",
+          "source_url": "https://fortunamining.com/news/fortuna-reports-results-for-the-third-quarter-2026/",
+          "evidence_type": "public original page",
+          "period": "expansion capex",
+          "unit": "USD",
+          "value": 109000000
+        },
+        {
+          "claim": "扩建支撑2028年下半年起年产金超20万盎司。",
+          "evidence": "support an annual gold production target of over 200,000 ounces from the second half of 2028",
+          "source_url": "https://fortunamining.com/news/fortuna-reports-results-for-the-third-quarter-2026/",
+          "evidence_type": "public original page",
+          "period": "from H2 2028",
+          "unit": "oz Au/yr",
+          "value": 200000
+        },
+        {
+          "claim": "授权 Diamba Sud 项目期内合计2.5亿美元合同承诺。",
+          "evidence": "authorized Management to enter into contractual commitments totaling $250 million over the life of the project to maintain the timeline for the construction of Diamba Sud",
+          "source_url": "https://fortunamining.com/news/fortuna-reports-results-for-the-third-quarter-2026/",
+          "evidence_type": "public original page",
+          "period": "project commitments",
+          "unit": "USD",
+          "value": 250000000
+        }
+      ],
+      "source": "Fortuna Mining（公司新闻稿）",
+      "title": "Fortuna：Séguéla 预计落在指引低端，1.09亿美元扩建目标2028年下半年起年产金超20万盎司",
+      "excerpt": "Fortuna Mining 于北美时间11月4日发布三季报：科特迪瓦 Séguéla 金矿预计全年产量落在指引低端。董事会已批准1.09亿美元预算，将 Séguéla 选厂扩建30%，以支撑2028年下半年起年产金超过20万盎司的目标。董事会同时授权管理层为塞内加尔 Diamba Sud 项目签订项目期内合计2.5亿美元的合同承诺，以维持建设时间表。",
+      "language": "en",
+      "importance": "Séguéla 短期落在指引低端，但扩建将把这座主力矿的年产量提升到20万盎司以上，增量集中在2028年下半年之后。Diamba Sud 先行授权2.5亿美元合同承诺，显示公司优先保住建设时间表，若审批延后将推高前期资本风险。两个项目合计构成 Fortuna 中期金产量增长的主要来源。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Fortuna 官网新闻稿原文（Playwright 打开）；页面 meta 发布时间2026-11-04T23:27:27Z（北京11月5日07:27），页面时刻标注时区与 meta 不一致，以 meta 为准。11月7日日报检索记录曾判为不纳入，此次补入11月5日。",
+      "companies": [
+        "Fortuna Mining"
+      ],
+      "projects": [
+        "Séguéla",
+        "Diamba Sud"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.b2gold.com/news-media/news-releases/news-details/2026/B2Gold-Reports-Q3-2026-Results---Lowers-Annual-All-In-Sustaining-Cost-Guidance-and-Remains-On-Track-to-Achieve-Production-Guidance/default.aspx",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T06:04:28+08:00",
+      "claims": [
+        {
+          "claim": "AISC 指引下调至2230–2410美元/盎司（此前2370–2550美元）。",
+          "evidence": "Reduced AISC guidance range to between $2,230 and $2,410 per ounce sold for 2026 (previously between $2,370 and $2,550 per ounce sold)",
+          "source_url": "https://www.b2gold.com/news-media/news-releases/news-details/2026/B2Gold-Reports-Q3-2026-Results---Lowers-Annual-All-In-Sustaining-Cost-Guidance-and-Remains-On-Track-to-Achieve-Production-Guidance/default.aspx",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "USD/oz",
+          "value": "2230-2410"
+        },
+        {
+          "claim": "合并产量指引82–92万盎司。",
+          "evidence": "820 - 920",
+          "source_url": "https://www.b2gold.com/news-media/news-releases/news-details/2026/B2Gold-Reports-Q3-2026-Results---Lowers-Annual-All-In-Sustaining-Cost-Guidance-and-Remains-On-Track-to-Achieve-Production-Guidance/default.aspx",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "koz Au",
+          "value": "820-920"
+        },
+        {
+          "claim": "Goose 2026年产量指引17–20万盎司。",
+          "evidence": "2026 production guidance for Goose expected to be between 170,000 and 200,000 ounces of gold",
+          "source_url": "https://www.b2gold.com/news-media/news-releases/news-details/2026/B2Gold-Reports-Q3-2026-Results---Lowers-Annual-All-In-Sustaining-Cost-Guidance-and-Remains-On-Track-to-Achieve-Production-Guidance/default.aspx",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz Au",
+          "value": "170000-200000"
+        },
+        {
+          "claim": "Goose 破碎回路一期升级后处理能力3200吨/日。",
+          "evidence": "3,200 tpd",
+          "source_url": "https://www.b2gold.com/news-media/news-releases/news-details/2026/B2Gold-Reports-Q3-2026-Results---Lowers-Annual-All-In-Sustaining-Cost-Guidance-and-Remains-On-Track-to-Achieve-Production-Guidance/default.aspx",
+          "evidence_type": "public original page",
+          "period": "Q4 2026",
+          "unit": "t/day",
+          "value": 3200
+        }
+      ],
+      "source": "B2Gold（公司新闻稿）",
+      "title": "B2Gold 维持2026年82–92万盎司产量指引，AISC 指引下调至2230–2410美元/盎司",
+      "excerpt": "B2Gold 于北美时间11月4日发布三季报：2026年合并金产量指引维持82–92万盎司，全年 AISC 指引下调至每售出盎司2230–2410美元（此前2370–2550美元）。加拿大 Goose 金矿2026年产量指引为17–20万盎司；固定破碎回路一期升级已完成，10月中旬调试后处理能力达3200吨/日。",
+      "language": "en",
+      "importance": "产量指引不变而成本指引下移约140美元/盎司，显示主力矿前三季度表现好于预期。全年能否落在82–92万盎司区间，关键在 Goose：破碎能力提升到3200吨/日后，四季度需要明显放量。",
+      "verification_status": "verified",
+      "verification_note": "已读取 B2Gold 官网新闻稿原文（Playwright 打开）；发布时间取同日 6-K 的 EDGAR 受理时间2026-11-04 22:04:28Z（北京11月5日06:04）为公开可得时间上限。11月5日日报曾以“仅下调成本”排除，此次按新流程补入。",
+      "companies": [
+        "B2Gold"
+      ],
+      "projects": [
+        "Goose",
+        "Fekola",
+        "Masbate",
+        "Otjikoto"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.codelco.com/prensa/2026/junta-extraordinaria-de-accionistas-respalda-medidas-adoptadas",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05",
+      "claims": [
+        {
+          "claim": "2024年报告产量虚增24,000吨，2025年净影响18,100吨。",
+          "evidence": "habría sido incrementada falsamente en 24.000 toneladas de cobre, mientras que en 2025 el efecto neto alcanzó 18.100 toneladas",
+          "source_url": "https://www.codelco.com/prensa/2026/junta-extraordinaria-de-accionistas-respalda-medidas-adoptadas",
+          "evidence_type": "public original page",
+          "period": "FY2024/FY2025",
+          "unit": "t Cu",
+          "value": "24000/18100"
+        },
+        {
+          "claim": "库存虚增15,200吨精铜，初步影响1.2亿–1.4亿美元。",
+          "evidence": "habrían incrementado artificialmente los inventarios en 15.200 toneladas de cobre fino, con un impacto preliminar de entre US$ 120 y US$ 140 millones",
+          "source_url": "https://www.codelco.com/prensa/2026/junta-extraordinaria-de-accionistas-respalda-medidas-adoptadas",
+          "evidence_type": "public original page",
+          "period": "inventory",
+          "unit": "t Cu",
+          "value": 15200
+        }
+      ],
+      "source": "Codelco（公司新闻稿）",
+      "title": "Codelco：2024、2025年报告产量分别虚增2.4万吨和1.81万吨，库存虚增1.52万吨",
+      "excerpt": "Codelco 11月5日召开特别股东大会，通报产量统计违规调查的阶段结果：2024年报告总产量因各类违规被虚增24,000吨铜，2025年净影响为18,100吨；相关做法还使库存虚增15,200吨精铜，初步财务影响为1.2亿–1.4亿美元。公司强调调查和审计仍在进行，数字可能调整。",
+      "language": "en",
+      "importance": "两年合计4.21万吨虚增意味着2024–2025年智利官方口径的铜供给被高估，市场此前据以判断 Codelco 产量底部的基数需要下修。库存虚增1.52万吨使账面可售铜少于此前披露，但不改变现有矿山的实际产出能力。调查和审计仍在进行，最终修正值可能变化。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Codelco 官网西班牙语新闻稿原文（Playwright 打开，正文标注“Santiago, 5 de noviembre de 2026”，无具体时刻），按日期精度填写。库存口径以 Codelco 原文15,200吨精铜为准，未采用 Mining.com 报道的17,000吨。原文为西班牙语，schema 的 language 仅支持 en/zh，按非中文记为 en。原文未提及2026年产量目标调整，未写入；产量目标口径见11月8日 La Tercera 卡，两卡内容不重叠。",
+      "companies": [
+        "Codelco"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1973832/000197383226000171/agaq3sep2026earningsrelease.htm",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T19:02:53+08:00",
+      "claims": [
+        {
+          "claim": "三个增长项目3年资本开支7.5–9亿美元，本十年末增产30–45万盎司。",
+          "evidence": "Total forecast capital expenditure for the growth projects at Geita, Siguiri and Cuiabá is estimated at $750m to $900m over a 3 year period, which is projected to provide incremental production from a 2025 base of 300,000oz - 450,000oz by the end of the decade",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1973832/000197383226000171/agaq3sep2026earningsrelease.htm",
+          "evidence_type": "public original page",
+          "period": "by 2030",
+          "unit": "oz Au",
+          "value": "300000-450000"
+        },
+        {
+          "claim": "全年产量指引280–317万盎司重申。",
+          "evidence": "Full-year gold production guidance of 2,800,000oz to 3,170,000oz is reaffirmed",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1973832/000197383226000171/agaq3sep2026earningsrelease.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz Au",
+          "value": "2800000-3170000"
+        }
+      ],
+      "source": "AngloGold Ashanti（SEC 6-K 三季度业绩稿）",
+      "title": "AngloGold 拟3年投7.5–9亿美元扩建 Geita、Siguiri、Cuiabá，本十年末增产30–45万盎司",
+      "excerpt": "AngloGold Ashanti 11月5日发布三季度业绩：Geita、Siguiri 和 Cuiabá 三个增长项目预计3年内资本开支合计7.5亿–9亿美元，到本十年末较2025年基数增产30万–45万盎司；全年金产量指引280万–317万盎司获重申。",
+      "language": "en",
+      "importance": "30–45万盎司增量约相当于 AngloGold 2026年指引中值的10%–15%，且依托现有矿山设施，执行风险低于新建矿。增量兑现集中在本十年末，对未来一两年金供给影响有限。重申全年指引意味着短期供给预期不变。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件原文；EDGAR 受理时间2026-11-05 11:02:53Z（北京11月5日19:02），为公开可得时间上限。11月5日日报曾误将 AngloGold 判为北京11月6日00:55（Mining.com 转述时间），此次以 EDGAR 时间更正并补入。",
+      "companies": [
+        "AngloGold Ashanti"
+      ],
+      "projects": [
+        "Geita",
+        "Siguiri",
+        "Cuiabá"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/316888/000147793226006673/avino_ex991.htm",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T06:00:57+08:00",
+      "claims": [
+        {
+          "claim": "2026年产量指引下调至220–250万银当量盎司。",
+          "evidence": "Production guidance for 2026 is now revised to between 2.2 to 2.5 million silver equivalent ounces (previously 2.4 to 2.7 million silver equivalent ounces)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/316888/000147793226006673/avino_ex991.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "Moz AgEq",
+          "value": "2.2-2.5"
+        },
+        {
+          "claim": "AISC 指引升至30–32美元/盎司。",
+          "evidence": "$30 to $32 per ounce (previously $25 to $27)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/316888/000147793226006673/avino_ex991.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "USD/oz AgEq",
+          "value": "30-32"
+        },
+        {
+          "claim": "更新指引反映在 La Preciosa 处理低品位开拓矿石。",
+          "evidence": "processing lower grade development ore at La Preciosa",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/316888/000147793226006673/avino_ex991.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Avino Silver & Gold（SEC 6-K 附件）",
+      "title": "Avino 下调2026年产量指引至220–250万银当量盎司，AISC 指引升至30–32美元",
+      "excerpt": "Avino Silver & Gold 于北美时间11月4日发布三季报，将2026年产量指引下调至220万–250万银当量盎司（此前240万–270万），AISC 指引升至每盎司30–32美元（此前25–27美元）。公司称更新指引反映其在 La Preciosa 处理低品位开拓矿石的开发策略。",
+      "language": "en",
+      "importance": "指引中值由255万降至235万银当量盎司，约减少8%，对全球白银供给量级很小，但反映中小银矿在新矿开拓期普遍面临品位偏低的问题。AISC 升至30–32美元后，利润率对银价回落更敏感。下一步看 La Preciosa 何时由开拓矿转入正常采矿品位。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件99.1 原文；EDGAR 受理时间2026-11-04 22:00:57Z（北京11月5日06:00），为公开可得时间上限。11月8日日报检索记录曾判为窗口外，此次补入11月5日。",
+      "companies": [
+        "Avino Silver & Gold"
+      ],
+      "projects": [
+        "La Preciosa",
+        "Avino"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://investors.oceanagold.com/2026-11-04-OceanaGold-Reports-Third-Quarter-2026-Results",
+      "metal_tags": [
+        "gold",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T10:15:33+08:00",
+      "claims": [
+        {
+          "claim": "全年产量预计在合并指引中值附近。",
+          "evidence": "The Company remains on track to achieve around the midpoint of its consolidated 2026 production Guidance.",
+          "source_url": "https://investors.oceanagold.com/2026-11-04-OceanaGold-Reports-Third-Quarter-2026-Results",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "全年 AISC 趋向指引上端。",
+          "evidence": "Full year AISC† remains on track to be towards the upper end of guidance.",
+          "source_url": "https://investors.oceanagold.com/2026-11-04-OceanaGold-Reports-Third-Quarter-2026-Results",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "总资本投入预计比6.45亿美元指引高约4500万美元（7%）。",
+          "evidence": "Total capital investment for 2026 is expected to be approximately $45 million, or 7%, above the Company's total capital investment Guidance of $645 million",
+          "source_url": "https://investors.oceanagold.com/2026-11-04-OceanaGold-Reports-Third-Quarter-2026-Results",
+          "evidence_type": "public original page",
+          "period": "FY2026",
+          "unit": "USD",
+          "value": 45000000
+        }
+      ],
+      "source": "OceanaGold（公司新闻稿）",
+      "title": "OceanaGold：全年产量预计在指引中值附近，资本投入将超6.45亿美元指引约4500万美元",
+      "excerpt": "OceanaGold 于北美时间11月4日发布三季报：公司预计全年产量在2026年合并指引中值附近，全年 AISC 趋向指引上端；2026年总资本投入预计比6.45亿美元的指引高出约4500万美元，即约7%。",
+      "language": "en",
+      "importance": "产量维持中值意味着全年金铜供给符合预期，变化在成本和资本端：资本投入多出约4500万美元（约7%），属于中期供给的提前投入。AISC 趋向上端反映成本通胀仍在延续，四季度产量兑现是守住指引中值的关键。",
+      "verification_status": "verified",
+      "verification_note": "已读取 OceanaGold 投资者关系新闻稿原文（Playwright 打开）；发布时间取同日 6-K 的 EDGAR 受理时间（北京11月5日10:15）为公开可得时间上限。",
+      "companies": [
+        "OceanaGold"
+      ],
+      "projects": [
+        "Haile",
+        "Didipio",
+        "Macraes",
+        "Waihi"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1993344/000162828026070295/alliedgoldmda2026q3.htm",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T06:22:23+08:00",
+      "claims": [
+        {
+          "claim": "Kurmuk 预计2027年产金24–27万盎司，上限高于此前指引，2028年约30万盎司。",
+          "evidence": "The Kurmuk Mine is expected to produce between 240,000 and 270,000 gold ounces in 2027, which at the higher end, exceeds previous guidance, and approximately 300,000 gold ounces in 2028",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1993344/000162828026070295/alliedgoldmda2026q3.htm",
+          "evidence_type": "public original page",
+          "period": "FY2027/FY2028 outlook",
+          "unit": "oz Au",
+          "value": "240000-270000"
+        }
+      ],
+      "source": "Allied Gold（SEC 6-K 三季度 MD&A）",
+      "title": "Allied Gold：Kurmuk 预计2027年产金24–27万盎司，上限高于此前指引，2028年约30万盎司",
+      "excerpt": "Allied Gold 于北美时间11月4日提交三季度管理层讨论与分析：埃塞俄比亚 Kurmuk 金矿预计2027年产金24万–27万盎司，区间上限高于此前指引，2028年约30万盎司。",
+      "language": "en",
+      "importance": "Kurmuk 是2027–2028年非洲为数不多的新增金矿产能，2028年约30万盎司的规模可使 Allied 合并产量明显上台阶。2027年24–27万盎司仍处爬坡期，兑现取决于选厂达产速度和当地运营环境。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件 MD&A 原文；EDGAR 受理时间2026-11-04 22:22:23Z（北京11月5日06:22），为公开可得时间上限。",
+      "companies": [
+        "Allied Gold"
+      ],
+      "projects": [
+        "Kurmuk"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/878518/000117184326007126/exh_991.htm",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T07:28:00+08:00",
+      "claims": [
+        {
+          "claim": "全年指引上调至1.15–1.20亿磅（此前1.10–1.15亿磅）。",
+          "evidence": "guidance for the year has been increased to 115 to 120 million pounds (from 110 to 115 million pounds)",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/878518/000117184326007126/exh_991.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "Mlb Cu",
+          "value": "115-120"
+        },
+        {
+          "claim": "前三季度 Gibraltar 产铜9400万磅。",
+          "evidence": "Through three quarters, Gibraltar has produced 94 million pounds of copper",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/878518/000117184326007126/exh_991.htm",
+          "evidence_type": "public original page",
+          "period": "9M 2026",
+          "unit": "Mlb Cu",
+          "value": 94
+        }
+      ],
+      "source": "Trekor Metals（SEC 6-K 附件99.1）",
+      "title": "Trekor 上调 Gibraltar 2026年铜产量指引至1.15–1.20亿磅",
+      "excerpt": "Trekor Metals 于北美时间11月4日发布三季报：加拿大 Gibraltar 铜矿前三季度产铜9400万磅，全年铜产量指引上调至1.15亿–1.20亿磅（此前1.10亿–1.15亿磅）。",
+      "language": "en",
+      "importance": "指引中值上调500万磅（约2300吨），规模不大，但在铜矿普遍受品位与成本压力的背景下属于少数上修。前三季度已产9400万磅，四季度只需2100万–2600万磅即可达标，兑现风险较低。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件99.1 原文；EDGAR 受理时间2026-11-04 23:28Z（北京11月5日07:28），为公开可得时间上限。",
+      "companies": [
+        "Trekor Metals"
+      ],
+      "projects": [
+        "Gibraltar"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://perpetuaresources.com/perpetua-announces-new-gold-discovery-at-stibnite-gold-project-continued-high-grades-from-clark-tunnel-fault-zone/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T06:03:13+08:00",
+      "claims": [
+        {
+          "claim": "SB633 孔见109.7米@3.2克/吨金、1.1%锑。",
+          "evidence": "Initial assays from the Fiddle target returned 109.7 meters grading 3.2 g/t gold, 1.1% antimony in hole SB633",
+          "source_url": "https://perpetuaresources.com/perpetua-announces-new-gold-discovery-at-stibnite-gold-project-continued-high-grades-from-clark-tunnel-fault-zone/",
+          "evidence_type": "public original page",
+          "period": "drill result",
+          "unit": "g/t Au",
+          "value": 3.2
+        },
+        {
+          "claim": "2026年勘探钻探完成，岩芯钻探超过1.6万米。",
+          "evidence": "The 2026 Exploration Drilling Program is now complete with over 16,000 meters of core drilling",
+          "source_url": "https://perpetuaresources.com/perpetua-announces-new-gold-discovery-at-stibnite-gold-project-continued-high-grades-from-clark-tunnel-fault-zone/",
+          "evidence_type": "public original page",
+          "period": "2026 program",
+          "unit": "m",
+          "value": 16000
+        }
+      ],
+      "source": "Perpetua Resources（公司新闻稿）",
+      "title": "Perpetua Stibnite 项目 Fiddle 靶区新发现：SB633 孔见109.7米@3.2克/吨金、1.1%锑",
+      "excerpt": "Perpetua Resources 于美国时间11月4日公布爱达荷州 Stibnite 金矿项目勘探结果：Fiddle 靶区首批化验显示 SB633 孔见109.7米品位3.2克/吨金、1.1%锑；2026年勘探钻探计划已完成，岩芯钻探超过1.6万米。",
+      "language": "en",
+      "importance": "Fiddle 位于已规划开采区附近，若后续钻探证实规模，可能延长 Stibnite 的开采寿命。该结果仍属首批化验，尚未纳入资源量，对金供给属于远期增量。下一步看加密钻探能否确认矿化走向与厚度。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Perpetua 官网新闻稿原文（Playwright 打开）；页面 meta 发布时间换算为北京11月5日06:03。",
+      "companies": [
+        "Perpetua Resources"
+      ],
+      "projects": [
+        "Stibnite"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://goodsfu.10jqka.com.cn/20261105/c681499545.shtml",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T14:41:53+08:00",
+      "claims": [
+        {
+          "claim": "11月5日国内电解铜现货库存6.74万吨，较10月29日降0.53万吨，较11月2日降0.57万吨；上海4.43万吨。",
+          "evidence": "11月5日国内市场电解铜现货库存6.74万吨，较29日降0.53万吨，较2日降0.57万吨；上海库存4.43万吨，较29日降0.47万吨",
+          "source_url": "https://goodsfu.10jqka.com.cn/20261105/c681499545.shtml",
+          "evidence_type": "public original page",
+          "period": "2026-11-05",
+          "unit": "万吨",
+          "value": 6.74
+        },
+        {
+          "claim": "社库再度去库并刷新年内新低。",
+          "evidence": "国内社库再度表现去库，且同时刷新年内新低",
+          "source_url": "https://goodsfu.10jqka.com.cn/20261105/c681499545.shtml",
+          "evidence_type": "public original page",
+          "period": "2026-11-05",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "同花顺期货通（转载 Mysteel）",
+      "title": "Mysteel：11月5日国内电解铜社库6.74万吨，较10月29日降0.53万吨，刷新年内新低",
+      "excerpt": "同花顺转载的 Mysteel 数据显示，11月5日国内市场电解铜现货库存6.74万吨，较10月29日降0.53万吨，较11月2日降0.57万吨；上海库存4.43万吨，较10月29日降0.47万吨。Mysteel 称国内社库再度去库，并刷新年内新低。",
+      "language": "zh",
+      "importance": "社库一周再降0.53万吨至6.74万吨并刷新年内新低，说明国内现货可流通精铜继续偏紧。上海库存降至4.43万吨，低于11月4日日报所载的4.78万吨，现货升水有进一步走高的基础。下一步看进口铜流入能否在11月中旬缓解去库。",
+      "verification_status": "verified",
+      "verification_note": "Mysteel 原页（youse.mysteel.com）桌面端需登录、移动端正文截断，未作为证据；改读同花顺公开转载页（注明来源 Mysteel，页面时间2026-11-05 14:41:53），逐字核对库存数字。11月5日日报曾因登录墙未纳入，此次更正。",
+      "companies": [
+        "Mysteel"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1172724/000162828026070691/q32026operationalresults.htm",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-05T22:45:30+08:00",
+      "claims": [
+        {
+          "claim": "三季度归属金当量产量60.5万盎司。",
+          "evidence": "attributable gold-equivalent production of 605koz in Q3 2026",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1172724/000162828026070691/q32026operationalresults.htm",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "koz AuEq",
+          "value": 605
+        },
+        {
+          "claim": "全年产量预计落在240–260万盎司指引上端。",
+          "evidence": "deliver to the upper end of the full-year production guidance range of 2.4 to 2.6Moz",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1172724/000162828026070691/q32026operationalresults.htm",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "Moz Au",
+          "value": "2.4-2.6"
+        },
+        {
+          "claim": "Windfall 获得授权证书，可进入建设和全面开发。",
+          "evidence": "Windfall received its Certificate of Authorisation, confirming completion of the environmental and social impact assessment process and providing authorisation to proceed to construction and full project development",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1172724/000162828026070691/q32026operationalresults.htm",
+          "evidence_type": "public original page",
+          "period": "2026-11",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Gold Fields（SEC 6-K 三季度运营业绩）",
+      "title": "Gold Fields 预计2026年产量落在240–260万盎司指引上端，Windfall 获建设授权",
+      "excerpt": "Gold Fields 11月5日公布三季度运营业绩：归属金当量产量60.5万盎司；公司预计全年产量落在240万–260万盎司指引区间上端。加拿大 Windfall 项目获得授权证书，确认环境与社会影响评估程序完成，可进入建设和全面开发。",
+      "language": "en",
+      "importance": "落在指引上端意味着 Gold Fields 全年金供给比中值多约10万盎司。Windfall 获建设授权消除了该项目最主要的许可障碍，为中期提供新增产能。下一步看 Windfall 的最终投资决定和建设时间表。",
+      "verification_status": "verified",
+      "verification_note": "已读取 SEC EDGAR 6-K 附件原文；EDGAR 受理时间2026-11-05 14:45:30Z（北京11月5日22:45），为公开可得时间上限。",
+      "companies": [
+        "Gold Fields"
+      ],
+      "projects": [
+        "Windfall"
+      ],
+      "source_channel": "web"
     }
   ],
   "search_log": {
@@ -329,9 +983,10 @@
     "part1_sources_checked": [
       "https://clearcommodity.net/podcasts/mining-stock-daily/ ：核对11月3–5日节目；Tocvan（北京11月4日）已在11月4日日报纳入并去重。Vizsla Copper Alaska（北京11月6日07:12）超出窗口。Gold Miners vs Tech Stocks、Morning Briefing Madison、C3 Metals 等为股价轮动或钻探结果，不纳入。",
       "https://www.miningstockdaily.com/episodes ：交叉核对同批节目标题与日期。",
-      "https://naturalresourcestocks.net/ 、https://investingnews.com/ ：未见窗口内新增可核验供需访谈。"
+      "https://naturalresourcestocks.net/ 、https://investingnews.com/ ：未见窗口内新增可核验供需访谈。",
+      "11月10日补充复核更正：复核 The KE Report 11月4日（北京11月5日）AMEX Gold Perron 开发更新节目，已读取节目配套文字，补入。BP Silver、Dakota Gold 节目已收录于11月4日日报，去重。"
     ],
-    "part1_result": "完成11月3日至11月5日北京自然日访谈检索，并与11月4日、11月3日日报去重；无新增合格访谈入选（Tocvan 已在11月4日收录）。",
+    "part1_result": "完成11月3日至11月5日北京自然日访谈检索，并与11月4日、11月3日日报去重；无新增合格访谈入选（Tocvan 已在11月4日收录）。 11月10日补充复核更正：补入 AMEX Gold 访谈1条。",
     "part2_searched": false,
     "part2_channel": "failed",
     "part2_sources_checked": [
@@ -390,28 +1045,35 @@
       "https://news.metal.com/newscontent/104207587-... ：SMM 洋山铜周评（保税库存与升水），纳入。",
       "https://youse.mysteel.com/a/26110514/... 与移动端解读页：Mysteel 社库6.74万吨创年内新低，桌面页登录墙、移动端正文截断，未作为入选卡证据。",
       "https://news.metal.com/newscontent/104205793-... ：SMM 白银日评偏价格与升贴水，无独立可核验产量/库存事件，不纳入。",
-      "Sibanye 为美国 PGM 产量下调，非金银铜主金属，不纳入；B2Gold 维持产量指引仅下调成本，无新增供需事实，不纳入；刚果 COMMUS 诉讼、Codelco 统计虚增、Chibougamau 分析师观点分别因非实物增减、非供需事件、早期研究观点排除。"
+      "Sibanye 为美国 PGM 产量下调，非金银铜主金属，不纳入；B2Gold 维持产量指引仅下调成本，无新增供需事实，不纳入；刚果 COMMUS 诉讼、Codelco 统计虚增、Chibougamau 分析师观点分别因非实物增减、非供需事件、早期研究观点排除。",
+      "11月10日补充复核更正：第3条中 AngloGold 时间更正：SEC EDGAR 6-K 受理时间为北京11月5日19:02，早于 Mining.com 转述，现以一手稿补入本期；Andina 按 Mining.com 发布时间北京11月6日00:09，补入11月6日日报。",
+      "11月10日补充复核更正：第6条 Mysteel 社库6.74万吨：改读同花顺公开转载页（注明来源 Mysteel，14:41:53）逐字核对，补入。",
+      "11月10日补充复核更正：第8条 B2Gold 与 Codelco 虚增统计排除结论更正：按新流程，B2Gold AISC 指引下调与 Goose 指引、Codelco 产量虚增与库存虚增（以 Codelco 原文15,200吨为准）均属可量化供给口径，补入。",
+      "11月10日补充复核更正：另核对公司一手稿与 SEC EDGAR：Coeur、Fortuna、Avino、OceanaGold、Allied Gold、Trekor、Perpetua、Gold Fields 均落入北京11月5日窗口，补入。"
     ],
-    "part3_result": "完成11月5日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整；纳入 Lundin 指引下调、中国冶炼硫酸/检修、SMM 保税库存与升水、波兰购金、Caledonia Bilboes、Rio Resolution 共6条，其余因超出窗口、非金银铜、价格复述或无实物供需增量排除。",
+    "part3_result": "完成11月5日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整；纳入 Lundin 指引下调、中国冶炼硫酸/检修、SMM 保税库存与升水、波兰购金、Caledonia Bilboes、Rio Resolution 共6条，其余因超出窗口、非金银铜、价格复述或无实物供需增量排除。 11月10日补充复核更正：补入 Coeur、Fortuna、B2Gold、Codelco、AngloGold、Avino、OceanaGold、Allied、Trekor、Perpetua、Mysteel、Gold Fields 12条，合计18条。",
     "mining_com_source_note": "铜分类页 Playwright 抓取 HTTP 200（10篇11月5日文章）；金分类8篇、银分类1篇。文章正文以 Playwright 隔离会话读取；按 article:published_time 或分类页日期换算/判定北京时间后纳入。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 6,
-      "passed": 6,
+      "checked": 19,
+      "passed": 19,
       "failed": 0,
       "failures": [],
-      "notes": "计数仅对应本期纳入卡片；均已打开公开页面核对标题、日期与引文。"
+      "notes": "计数仅对应本期纳入卡片；均已打开公开页面核对标题、日期与引文。 11月10日补充复核更正：新增13张补充卡均已打开公开原文核对标题、日期与引文并绑定保存文本，计入 checked/passed。"
     }
   },
   "dedup_log": {
     "part1_deduped_urls": [
-      "https://clearcommodity.net/podcasts/mining-stock-daily/tocvans-el-mesquite-discovery-grows-as-grand-pilar-pilot-mine-nears-first-production"
+      "https://clearcommodity.net/podcasts/mining-stock-daily/tocvans-el-mesquite-discovery-grows-as-grand-pilar-pilot-mine-nears-first-production",
+      "https://www.kereport.com/2026/11/02/bp-silver-2-more-drill-assays-at-the-jalsuri-north-target-return-broad-intersections-of-silver-gold-and-zinc-mineralization/ （已补入2026-11-04日报 Part 1）",
+      "https://www.kereport.com/2026/11/02/dakota-gold-richmond-hill-drill-assays-and-metallurgical-results-trade-off-studies-for-upcoming-2026-pfs-and-2027-fs-maitland-as-future-growth-project/ （已补入2026-11-04日报 Part 1）"
     ],
     "part2_deduped_urls": [],
     "part3_deduped_events": [
       "ACG/Blue Moon Nussir：已于11月3日日报收录，当日相关转述不重复。",
       "SMM 10月银锭产量：已于11月3日日报收录。"
     ],
-    "notes": "Part 1 与11月4日、11月3日已发布日报按URL与实质内容对照；Part 3 与前两期事件对照。Andina、AngloGold 因北京时间超出窗口排除。"
-  }
+    "notes": "Part 1 与11月4日、11月3日已发布日报按URL与实质内容对照；Part 3 与前两期事件对照。Andina、AngloGold 因北京时间超出窗口排除。 11月10日补充复核更正：AngloGold 以 EDGAR 时间归入本期；Andina 归入11月6日日报。Codelco 本期只写产量与库存虚增，2026–2027年产量口径保留在11月8日 La Tercera 卡，不重复。"
+  },
+  "report_note": "2026年11月10日经用户明确授权补充：按新流程复核后新增Coeur、Fortuna、B2Gold、Codelco 虚增统计、AngloGold、Avino、OceanaGold、Allied、Trekor、Perpetua、Mysteel 社库、Gold Fields 12条新闻及AMEX Gold 1条访谈，共13条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time与原有卡片、原始X采集审计；本次未新增X采集，未访问音视频。"
 }

@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-08",
   "report_time": "2026-11-09T08:19:01+08:00",
-  "summary": "铜：Codelco 董事长称2026、2027年产量均约120万吨，较前任2027年150万吨目标明显下修，智利供给收缩延续；有色协会数据显示冶炼端利润率仅8.6%、现货TC连续21个月为负，精铜供给偏紧。黄金：IAMGOLD Côté 9月处理量超铭牌产能，四季度产量有望走高。白银：无新增供需信号。",
+  "summary": "铜：Codelco 董事长称2026、2027年产量均约120万吨，较前任2027年150万吨目标明显下修；有色协会数据显示冶炼端利润率仅8.6%、现货TC连续21个月为负。黄金：IAMGOLD Côté 9月处理量超铭牌产能，四季度产量有望走高。白银：Pacifica Silver Claudia 矿化走向增至3.9公里以上，计划6–7万米钻探支撑2027年首份资源量。",
   "windows": {
     "part1": {
       "start": "2026-11-06T00:00:00+08:00",
@@ -100,6 +100,61 @@
         "Côté Gold",
         "Westwood",
         "Essakane"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/pacifica-silver-60-000-70-000-m-drilling-targets-2027-maiden-resource-for-silver-gold-asset-in-durango",
+      "metal_tags": [
+        "silver",
+        "gold"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-06",
+      "claims": [
+        {
+          "claim": "Claudia 矿化走向提高约56%至3.9公里以上。",
+          "evidence": "raised mineralised strike at its Claudia project in Durango by about 56% to more than 3.9 km",
+          "source_url": "https://www.cruxinvestor.com/posts/pacifica-silver-60-000-70-000-m-drilling-targets-2027-maiden-resource-for-silver-gold-asset-in-durango",
+          "evidence_type": "public original interview article",
+          "period": "2026",
+          "unit": "km",
+          "value": 3.9
+        },
+        {
+          "claim": "将以6–7万米钻探支撑2027年首份资源量。",
+          "evidence": "60,000-70,000 m of drilling will feed it",
+          "source_url": "https://www.cruxinvestor.com/posts/pacifica-silver-60-000-70-000-m-drilling-targets-2027-maiden-resource-for-silver-gold-asset-in-durango",
+          "evidence_type": "public original interview article",
+          "period": "to 2027 maiden resource",
+          "unit": "m",
+          "value": "60000-70000"
+        },
+        {
+          "claim": "Central 脉新矿柱约750米走向。",
+          "evidence": "about 750 m of strike",
+          "source_url": "https://www.cruxinvestor.com/posts/pacifica-silver-60-000-70-000-m-drilling-targets-2027-maiden-resource-for-silver-gold-asset-in-durango",
+          "evidence_type": "public original interview article",
+          "period": "2026",
+          "unit": "m",
+          "value": 750
+        }
+      ],
+      "title": "Pacifica Silver：Claudia 矿化走向增至3.9公里以上，计划6–7万米钻探支撑2027年首份资源量",
+      "source_type": "webcast",
+      "summary": "Crux Investor 11月6日发布对 Pacifica Silver 首席执行官 Todd Anthony 的访谈整理。文章称，墨西哥杜兰戈州 Claudia 银金项目在 Aguilareña、Central 和 Justina 三条脉上将矿化走向长度提高约56%，达到3.9公里以上；Central 脉新圈出约750米走向的矿柱。公司目标2027年发布首份资源量，Anthony 称将以6万–7万米钻探支撑。",
+      "importance": "6–7万米钻探规模较大，说明公司计划在2027年前快速界定资源规模，但目前尚无资源量，对白银供给属早期勘探线索。走向长度提高约56%扩大了资源潜力，最终规模取决于品位连续性。下一步看首份资源量能否如期在2027年发布。",
+      "verification_status": "verified",
+      "verification_note": "已读取 Crux Investor 原文（Playwright 打开，页面日期 November 6, 2026，无具体时刻）；内容为访谈整理文章，未观看视频。日期精度仅到日，落入11月6–8日窗口。11月9日日报检索记录曾判为窗口外，此次补入11月8日。",
+      "guest": {
+        "name": "Todd Anthony",
+        "background": "Pacifica Silver董事兼首席执行官"
+      },
+      "companies": [
+        "Pacifica Silver"
+      ],
+      "projects": [
+        "Claudia"
       ]
     }
   ],
@@ -247,9 +302,10 @@
       "https://www.avino.com/news/avino-reports-q3-2026-financial-results ：Avino 下调2026年产量指引至220万–250万银当量盎司，但电话会为11月5日10:00 ET（北京时间11月5日23:00），在 Part 1 窗口外；MarketBeat 11月8日摘要为二次整理，不据此入窗。",
       "https://oceanagold.com/news/oceanagold-reports-third-quarter-2026-results ：电话会11月5日10:00 EST，窗口外；Fool 11月7日转录与 MarketBeat 11月8日摘要不改变节目日期。",
       "Wheaton（11月6日转录）、Lundin（MarketBeat 11月8日摘要）：已在11月5–7日日报处理或指引不变，去重。",
-      "The KE Report 11月7日 Excellon Mallay 访谈：小型银铅锌矿爬坡，无可量化产量指引，不纳入。"
+      "The KE Report 11月7日 Excellon Mallay 访谈：小型银铅锌矿爬坡，无可量化产量指引，不纳入。",
+      "11月10日补充复核更正：第4条 Avino 与第5条 OceanaGold 已按一手稿发布时间补入11月5日日报 Part 3；第7条 Excellon 已补入11月7日日报 Part 1。另补入 Crux Investor 11月6日 Pacifica Silver 访谈文章（日期只到日，放入本期窗口）。"
     ],
-    "part1_result": "完成11月6日至11月8日北京自然日访谈/业绩会检索，与11月6日、11月7日日报去重；纳入 IAMGOLD 三季度电话会1条。Avino、OceanaGold 电话会落在11月5日，按窗口排除。",
+    "part1_result": "完成11月6日至11月8日北京自然日访谈/业绩会检索，与11月6日、11月7日日报去重；纳入 IAMGOLD 三季度电话会1条。Avino、OceanaGold 电话会落在11月5日，按窗口排除。 11月10日补充复核更正：补入 Pacifica Silver 访谈1条，合计2条。",
     "part2_searched": false,
     "part2_channel": "failed",
     "part2_sources_checked": [
@@ -305,23 +361,27 @@
       "Tucson.com Copper World 许可法案（2026-11-08T10:00-07:00，北京11月9日01:00）、Mugglehead Regis 复产（23:44Z，北京11月9日）：窗口外。",
       "Mining.com.au Regis Duketon 停产：事件为11月6日 ASX 公告，页面日期为澳洲11月9日，无法确认落在北京时间11月8日，不纳入。",
       "FXStreet 金 ETF 10月流向（21:40Z，北京11月9日）、Business Recorder LME 周五铜价（价格复述）、青舟财经铜周报（标注 AI 生成）：排除。",
-      "Ghana 合同采矿指令（MyJoyOnline 11月8日工会警告）：指令为既有政策，新增仅为劳资表态，无产量影响事实，不纳入。"
+      "Ghana 合同采矿指令（MyJoyOnline 11月8日工会警告）：指令为既有政策，新增仅为劳资表态，无产量影响事实，不纳入。",
+      "11月10日补充复核更正：第6、7条 Regis Duketon：Mugglehead 发布于北京11月9日07:44，已补入11月9日日报 Part 3。"
     ],
     "part3_result": "完成11月8日北京自然日中英西文新闻检索，Mining.com 三个分类页 Playwright 发现完整，两篇当日标注文章按北京时间均落在11月9日；纳入 Codelco 董事长专访与有色协会利润分布报道2条，均为铜。周日黄金、白银无合格新增供需新闻。",
     "mining_com_source_note": "铜/金/银分类页均经 Playwright + 系统 Chrome（CHROME_EXECUTABLE=/usr/bin/google-chrome）headless 抓取（HTTP 200）。November 8 两篇文章以 Playwright 同会话打开原文（HTTP 200）：Brazil 文 article:published_time 18:37:01Z，Huayou 文页面时刻 11:47 am（站点 UTC-7 显示），均对应北京时间11月9日，按窗口外排除。",
     "new_sources_discovered": [],
     "url_verification": {
-      "checked": 3,
-      "passed": 3,
+      "checked": 4,
+      "passed": 4,
       "failed": 0,
       "failures": [],
-      "notes": "计数对应本期纳入卡片：Fool 转录页（curl HTTP 200）、La Tercera 与新浪财经（Playwright HTTP 200）均核对标题、日期与引文。"
+      "notes": "计数对应本期纳入卡片：Fool 转录页（curl HTTP 200）、La Tercera 与新浪财经（Playwright HTTP 200）均核对标题、日期与引文。 11月10日补充复核更正：新增1张补充卡均已打开公开原文核对标题、日期与引文并绑定保存文本，计入 checked/passed。"
     }
   },
   "dedup_log": {
     "part1_deduped_urls": [
       "https://www.fool.com/earnings/call-transcripts/2026/11/06/wheaton-precious-wpm-q3-2026-earnings-call-transcript/ （Wheaton 指引不变，11月7日日报已排除）",
-      "https://www.marketbeat.com/instant-alerts/transcript-lundin-mining-q3-earnings-call-highlights-2026-11-08/ （Caserones 指引下调已在11月5日日报收录）"
+      "https://www.marketbeat.com/instant-alerts/transcript-lundin-mining-q3-earnings-call-highlights-2026-11-08/ （Caserones 指引下调已在11月5日日报收录）",
+      "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/ （已补入2026-11-07日报 Part 1）",
+      "https://www.kereport.com/2026/11/06/sitka-gold-high-grade-mineralization-at-the-contact-zone-bear-paw-zone-27000-meters-pending/ （已补入2026-11-07日报 Part 1）",
+      "https://www.kereport.com/2026/11/05/mercado-minerals-expanding-silver-discoveries-at-copalito-and-drilling-underway-at-zamora/ （已补入2026-11-06日报 Part 1）"
     ],
     "part2_deduped_urls": [],
     "part3_deduped_events": [
@@ -330,6 +390,7 @@
       "沪铜现货升水、上海社库与 SMM 周评（11月6日日报已收录）",
       "中国央行10月增持黄金（11月7日官方发布，不在本期窗口）"
     ],
-    "notes": "与 2026-11-06、2026-11-07 日报 URL/事件比对；跨时区来源均先按来源时区换算北京时间再判断窗口。"
-  }
+    "notes": "与 2026-11-06、2026-11-07 日报 URL/事件比对；跨时区来源均先按来源时区换算北京时间再判断窗口。 11月10日补充复核更正：Codelco 产量与库存虚增已补入11月5日日报，本期 La Tercera 卡内容不变。"
+  },
+  "report_note": "2026年11月10日经用户明确授权补充：按新流程复核后新增Pacifica Silver 1条访谈，共1条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time与原有卡片、原始X采集审计；本次未新增X采集，未访问音视频。"
 }

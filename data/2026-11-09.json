@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-09",
   "report_time": "2026-11-10T08:11:23+08:00",
-  "summary": "黄金：现有矿山产量表现分化，复产设备采购和资源开发推进增加远期供给线索，部分资源确认时间后移。铜：现有矿山产量承压，上海现货库存缓冲偏薄；新项目许可与施工推进改善中长期供给条件，兑现仍受审批和建设进度约束。白银：La Parrilla精矿累计交付支持供给恢复，但公告缺少含银量，无法量化白银增量。",
+  "summary": "黄金：现有矿山产量表现分化，Regis 致死事故后 Duketon 除 Rosemont 选厂外已复产、未量化产量损失；复产设备采购和资源开发推进增加远期供给线索，部分资源确认时间后移。铜：现有矿山产量承压，上海现货库存缓冲偏薄；新项目许可与施工推进改善中长期供给条件，兑现仍受审批和建设进度约束。白银：La Parrilla精矿累计交付支持供给恢复，但公告缺少含银量，无法量化白银增量。",
   "windows": {
     "part1": {
       "start": "2026-11-07T00:00:00+08:00",
@@ -419,6 +419,59 @@
         "CSA"
       ],
       "source_channel": "web"
+    },
+    {
+      "url": "https://mugglehead.com/regis-resources-duketon-restart-rosemont-fatality/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-09T07:44:55+08:00",
+      "claims": [
+        {
+          "claim": "11月9日公告称 Duketon 除 Rosemont 选厂外已复产，事故发生于11月6日。",
+          "evidence": "said in a Nov. 9 announcement that all Duketon operations except the Rosemont process plant had resumed following a contract worker's death on Nov. 6",
+          "source_url": "https://mugglehead.com/regis-resources-duketon-restart-rosemont-fatality/",
+          "evidence_type": "public media report of company announcement",
+          "period": "2026-11-09",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "Duketon 9月季度产金56,100盎司，集团83,000盎司。",
+          "evidence": "produced 56,100 ounces out of the group's 83,000 ounces in the September quarter",
+          "source_url": "https://mugglehead.com/regis-resources-duketon-restart-rosemont-fatality/",
+          "evidence_type": "public media report of company announcement",
+          "period": "September quarter 2026",
+          "unit": "oz Au",
+          "value": 56100
+        },
+        {
+          "claim": "公告未给复产日期、未量化损失、未调整指引。",
+          "evidence": "did not provide a restart date or conditions for reopening Rosemont, quantify lost production or announce a change to production guidance",
+          "source_url": "https://mugglehead.com/regis-resources-duketon-restart-rosemont-fatality/",
+          "evidence_type": "public media report of company announcement",
+          "period": "2026-11-09",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Mugglehead（转述 Regis Resources 11月9日 ASX 公告）",
+      "title": "Regis：致死事故后 Duketon 除 Rosemont 选厂外已复产，未给复产时间和产量影响",
+      "excerpt": "Mugglehead 报道，Regis Resources 在11月9日公告中称，11月6日一名承包商员工死亡后，Duketon 除 Rosemont 选厂外的全部作业已恢复。公告未给出 Rosemont 的复产日期或条件，未量化产量损失，也未调整产量指引。Duketon 9月季度产金56,100盎司，占集团83,000盎司的大部分。",
+      "language": "en",
+      "importance": "Duketon 贡献 Regis 约三分之二的季度产量，Rosemont 选厂停产时间越长，本季度金产量缺口越大。公司尚未量化损失或调整指引，市场需等待复产条件明确。下一步看公司是否在后续公告中更新 Rosemont 复产时间和产量影响。",
+      "verification_status": "verified",
+      "verification_note": "Regis 官网 ASX 公告 PDF 多次请求均在 TLS 握手阶段断开，未能读取一手原文；改用 Mugglehead 公开报道核验（Playwright 打开，发布时间2026-11-08T23:44:55Z，即北京11月9日07:44）。事实以媒体转述为准。11月8日日报检索记录曾判为不纳入，此次补入11月9日。",
+      "companies": [
+        "Regis Resources"
+      ],
+      "projects": [
+        "Duketon",
+        "Rosemont"
+      ],
+      "source_channel": "web"
     }
   ],
   "search_log": {
@@ -429,7 +482,8 @@
       "https://www.barrick.com/English/investors/presentations/event-details/2026/q3/default.aspx ：Barrick 三季度电话会为11月9日11:00 ET，即北京时间11月10日00:00，落在本期 Part 1 窗口外，留待下一期窗口处理；三季报新闻稿作为 Part 3 新闻收录。",
       "Soar Financial 11月9日发布的 NOIC2026 Contango Silver & Gold 访谈推广（X 帖）：内容为资源量更新与项目里程碑，无产量或指引新增事实，不纳入。",
       "Resource Talks：11月8日Manhattan Gold / Bay Rezos访谈原始配套文章已核对；Jaws资源量目标后移至2027年晚些时候。三条补充均与已发布11月7、8日报比较，无URL或实质事件重复；未听取音视频。",
-      "Precious Metals Summit Zurich：复核11月9日主办方议程及38份PDF，34份技术资料可读、1份宏观讨论、3份无法解析；另3场缺少可读材料。尚未逐条确认新增事实，均不计正文或合格信号。"
+      "Precious Metals Summit Zurich：复核11月9日主办方议程及38份PDF，34份技术资料可读、1份宏观讨论、3份无法解析；另3场缺少可读材料。尚未逐条确认新增事实，均不计正文或合格信号。",
+      "11月10日补充复核更正：第2条 Pacifica Silver 已补入11月8日日报 Part 1。"
     ],
     "part1_result": "11月10日使用已完成复核的保存材料补充3条访谈：Getty Copper、Fury Gold及Manhattan Gold。按11月7日至9日三日窗口及开发前置条件筛选，并与前两份已发布日报去重；保留日期精度。峰会材料仍有新增事实核验边界，不宣称全网无其他合格信息。",
     "part2_searched": false,
@@ -493,24 +547,28 @@
       "Mysteel 11月9日铜产业早读（进口 TC -246.24美元/干吨）、正信期货与光大期货早报：周度报价与研报复述，TC 与冶炼减产已在11月6–8日日报收录，不纳入。",
       "补充Metso官网11月9日09:00 EET的Jerritt Canyon复产设备订单，SMM当日12:04:10上海电解铜库存快讯；均已读取原始正文。",
       "Harmony原先停在Moneyweb验证页、BusinessDay 404及晚发媒体；本次已读取SEC原始6-K，并用EDGAR索引确认最迟北京11月9日23:01可用，纳入同一条运营更新，不按金属拆卡。",
-      "独立复核的Mining铜分类首次导航超时，保留失败清单后单次补抓成功（铜8篇）；金4篇、银1篇，跨分类去重10篇。逐篇检查时区及原文，未复用modified_time替代发布时间。"
+      "独立复核的Mining铜分类首次导航超时，保留失败清单后单次补抓成功（铜8篇）；金4篇、银1篇，跨分类去重10篇。逐篇检查时区及原文，未复用modified_time替代发布时间。",
+      "11月10日补充复核更正：补入 Regis Duketon 复产（Mugglehead 北京07:44，转述11月9日 ASX 公告；公告 PDF 因 TLS 断开未能读取）。"
     ],
-    "part3_result": "在首发3条新闻基础上补充Metso设备订单、SMM上海区域铜库存、Harmony运营更新，合计6条新闻。旧事件转载、北京时间11月10日发布及同事件重复仍排除。未重新采集，本次仅使用11月10日已保存的复核材料。",
+    "part3_result": "在首发3条新闻基础上补充Metso设备订单、SMM上海区域铜库存、Harmony运营更新，合计6条新闻。旧事件转载、北京时间11月10日发布及同事件重复仍排除。未重新采集，本次仅使用11月10日已保存的复核材料。 11月10日补充复核更正：补入 Regis Duketon 1条，合计7条新闻。",
     "mining_com_source_note": "首发批次核验路径：铜/金/银分类页均经 Playwright + 系统 Chrome（CHROME_EXECUTABLE=/usr/bin/google-chrome）headless 抓取（HTTP 200）。November 9 文章逐篇以 Playwright 同类会话打开原文（HTTP 200），按 article:published_time 或页面站点时刻（UTC-7）换算北京时间判断窗口；Tovaku 文为本期唯一入选的 Mining.com 文章。 11月10日独立复核的分类补抓和原文核验另见part3_sources_checked；两批运行记录分别保留。",
     "new_sources_discovered": [
       "Metso供应商官方项目公告：https://www.metso.com/corporate/media/news/",
       "SEC EDGAR监管文件：https://www.sec.gov/Archives/edgar/data/1023514/000162828026071932/a6k_fy27xq1-operationalu.htm"
     ],
     "url_verification": {
-      "checked": 9,
-      "passed": 9,
+      "checked": 10,
+      "passed": 10,
       "failed": 0,
       "failures": [],
-      "notes": "计数对应正文9张来源卡：保留首发3条已核验记录，补充6条均已读取原始正文或节目配套文字并绑定保存证据。节目音视频未听取；日期和Harmony最迟可用时刻的精度限制写在逐卡核验说明。"
+      "notes": "计数对应正文9张来源卡：保留首发3条已核验记录，补充6条均已读取原始正文或节目配套文字并绑定保存证据。节目音视频未听取；日期和Harmony最迟可用时刻的精度限制写在逐卡核验说明。 11月10日补充复核更正：新增1张补充卡均已打开公开原文核对标题、日期与引文并绑定保存文本，计入 checked/passed。"
     }
   },
   "dedup_log": {
-    "part1_deduped_urls": [],
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/11/06/excellon-resources-initial-concentrate-revenues-from-mallay-silver-mine-ramp-up-process-underway-towards-commercial-production-in-h1-2027/ （已补入2026-11-07日报 Part 1）",
+      "https://www.kereport.com/2026/11/06/sitka-gold-high-grade-mineralization-at-the-contact-zone-bear-paw-zone-27000-meters-pending/ （已补入2026-11-07日报 Part 1）"
+    ],
     "part2_deduped_urls": [],
     "part3_deduped_events": [
       "Trafigura 在亚洲抢购近月精铜、Fastmarkets 进口升水195–210美元/吨（11月7日日报已收录；SMM 11月9日转述不重复纳入）",
@@ -518,7 +576,7 @@
       "Codelco 寻求私营合作开发矿权及修法（11月8日日报 La Tercera 专访已收录）",
       "国内铜精矿 TC 深度负值与冶炼减产（11月6–8日日报已收录）"
     ],
-    "notes": "与 2026-11-07、2026-11-08 日报 URL/事件比对；跨时区来源均先按来源时区换算北京时间再判断窗口。 11月10日补充复核：三条访谈未在已发布11月7、8日报出现；Jerritt Canyon与San Dimas不是同一矿山，上海区域库存与SHFE及全国社会库存口径不同；Harmony一份运营更新只计一条。"
+    "notes": "与 2026-11-07、2026-11-08 日报 URL/事件比对；跨时区来源均先按来源时区换算北京时间再判断窗口。 11月10日补充复核：三条访谈未在已发布11月7、8日报出现；Jerritt Canyon与San Dimas不是同一矿山，上海区域库存与SHFE及全国社会库存口径不同；Harmony一份运营更新只计一条。 11月10日补充复核更正：Pacifica Silver 已补入11月8日日报。"
   },
-  "report_note": "2026年11月10日经用户明确授权补充：新增Getty Copper、Fury Gold、Manhattan Gold访谈及Metso、SMM上海库存、Harmony运营更新，共6条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time、原3条新闻与原始X采集审计；本次未新增采集或访问音视频。峰会演示稿仍为研究备选，未计入正文。"
+  "report_note": "2026年11月10日经用户明确授权补充：新增Getty Copper、Fury Gold、Manhattan Gold访谈及Metso、SMM上海库存、Harmony运营更新，共6条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time、原3条新闻与原始X采集审计；本次未新增采集或访问音视频。峰会演示稿仍为研究备选，未计入正文。 2026年11月10日经用户明确授权补充：按新流程复核后新增Regis Duketon 1条新闻，共1条；更新摘要及相关检索、去重和URL核验记录。保留最初report_time与原有卡片、原始X采集审计；本次未新增X采集，未访问音视频。"
 }
