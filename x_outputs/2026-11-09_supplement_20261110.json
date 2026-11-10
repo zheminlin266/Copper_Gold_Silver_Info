@@ -1,0 +1,366 @@
+{
+  "report_date": "2026-11-09",
+  "summary": "黄金：Barrick 三季度产金81.6万盎司、环比增3%，维持全年指引，North Mara 高品位矿段预计四季度进入开采。铜：Barrick 三季度铜产量环比下降、成本上升，Lumwana 扩建按2028年出铜推进，Reko Diq 进入审查；智利 Tovaku 新铜项目获环评，属中期小幅增量。白银：墨西哥 La Parrilla 恢复精矿交付，供给小幅增加。",
+  "candidates": [
+    {
+      "id": "getty",
+      "document_id": "8945dd8d518bbcba414b00ed52770285480e8bd875ea1929082bc985983534dd",
+      "source_url": "https://www.kereport.com/2026/11/09/getty-copper-stepping-out-at-getty-south-new-copper-zones-increased-drill-program-20000-meters/",
+      "title": "Getty Copper扩大至2万米钻探，推进Getty项目资源更新",
+      "published_at": "2026-11-09",
+      "kind": "broadcast",
+      "text": "flex the program up to 20,000 meters"
+    },
+    {
+      "id": "fury",
+      "document_id": "e908ebee03ff4c29930016714080259c6d1c682ec8f60a3ada6f16634b7c71c4",
+      "source_url": "https://www.kereport.com/2026/11/09/fury-gold-mines-high-grade-drill-results-from-eau-claire-committee-bay-advancing-eau-claire-to-pfs/",
+      "title": "Fury Gold：Eau Claire钻探支持年底资源更新，目标2027年初完成PFS",
+      "published_at": "2026-11-09",
+      "kind": "broadcast",
+      "text": "Pre-Feasibility Study (PFS) in early 2027"
+    },
+    {
+      "id": "manhattan",
+      "document_id": "8b971bd8c4533956cb5ef8677733b67e88ff06d55eaee0af9482f0cea6d09c48",
+      "source_url": "https://resourcetalks.com/gold-stocks/gold-discovery-in-nunavut-but-is-there-really-enough-scale/",
+      "title": "Manhattan Gold：Jaws资源量目标延至2027年晚些时候",
+      "published_at": "2026-11-08",
+      "kind": "broadcast",
+      "text": "That resource is now expected in late 2027, not May as first hoped."
+    },
+    {
+      "id": "metso",
+      "document_id": "d379b91894fb32990a77173001575dcea92d4fdd7d462f4803d910924a503fc4",
+      "source_url": "https://www.metso.com/corporate/media/news/2026/11/metso-to-deliver-metso-loesche-vrm-dry-grinding-technology-for-first-majestics-jerritt-canyon-gold-mine-restart-project/",
+      "title": "Metso获约900万欧元订单，为Jerritt Canyon金矿复产提供磨矿设备",
+      "published_at": "2026-11-09T15:00:00+08:00",
+      "kind": "news",
+      "text": "approximately EUR 9 million"
+    },
+    {
+      "id": "smm_shanghai",
+      "document_id": "478eedbd63d2ce029e0386a6e0940fe2664754525ae281715c2812f7120e48ef",
+      "source_url": "https://news.smm.cn/live/detail/2YXF25R5K3OI6ZPXZSTUQIJEICUFFS7PP4BZG4A",
+      "title": "SMM：11月9日上海电解铜库存约3.3万吨，接近统计历史低位",
+      "published_at": "2026-11-09T12:04:10+08:00",
+      "kind": "news",
+      "text": "2026年11月9日上海地区电解铜库存录得约3.3万吨"
+    },
+    {
+      "id": "harmony",
+      "document_id": "d6704f52cdc651639f9723913897b0859aaefaba8dd823879b80206606ad3f90",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1023514/000162828026071932/a6k_fy27xq1-operationalu.htm",
+      "title": "Harmony：Eva铜项目施工完成15%，第一阶段批准允许限定区域恢复施工",
+      "published_at": "2026-11-09T23:01:00+08:00",
+      "kind": "news",
+      "text": "Stage 1 federal government approval received allowing clearing and construction to recommence in defined areas on site"
+    }
+  ],
+  "decisions": [
+    {
+      "candidate_id": "getty",
+      "accepted": true,
+      "kind": "broadcast",
+      "metal": "copper",
+      "metal_tags": [
+        "copper"
+      ],
+      "direction": "supply",
+      "confidence": 0.9,
+      "claims": [
+        {
+          "claim": "Getty铜项目钻探计划扩大至20,000米。",
+          "period": "2026年钻探计划",
+          "unit": "m",
+          "value": 20000,
+          "evidence": "flex the program up to 20,000 meters",
+          "source_url": "https://www.kereport.com/2026/11/09/getty-copper-stepping-out-at-getty-south-new-copper-zones-increased-drill-program-20000-meters/",
+          "evidence_type": "public original programme description"
+        }
+      ],
+      "verification_status": "verified",
+      "verification_note": "已读取并核对原始节目配套文字；未听取或观看音视频。页面仅有发布日期，保留日期精度。",
+      "source_type": "podcast",
+      "title": "Getty Copper扩大至2万米钻探，推进Getty项目资源更新",
+      "guest": {
+        "name": "Ryan O’Regan、Roy Greig",
+        "background": "Getty Copper首席执行官、勘探副总裁"
+      },
+      "summary": "The KE Report于11月9日发布Getty Copper管理层访谈。节目配套说明称，公司将不列颠哥伦比亚省Getty铜项目钻探计划扩大至20,000米，部署多台钻机，并推进冬季钻探、待批钻探许可及矿产资源量更新。",
+      "importance": "勘探投入加快，可能为Highland Valley地区补充未来可开发的铜资源，但兑现先取决于后续化验与资源模型。待批许可和冬季作业条件决定扩钻能否按计划执行。下一步应看新增矿化能否转为有经济意义的资源量，而不能将2万米钻探直接折算为新增铜供给。",
+      "companies": [
+        "Getty Copper"
+      ],
+      "projects": [
+        "Getty North",
+        "Getty South"
+      ]
+    },
+    {
+      "candidate_id": "fury",
+      "accepted": true,
+      "kind": "broadcast",
+      "metal": "gold",
+      "metal_tags": [
+        "gold"
+      ],
+      "direction": "supply",
+      "confidence": 0.9,
+      "claims": [
+        {
+          "claim": "Eau Claire以2027年初的预可行性研究为目标。",
+          "period": "early 2027 target",
+          "unit": "project milestone",
+          "value": null,
+          "evidence": "Pre-Feasibility Study (PFS) in early 2027",
+          "source_url": "https://www.kereport.com/2026/11/09/fury-gold-mines-high-grade-drill-results-from-eau-claire-committee-bay-advancing-eau-claire-to-pfs/",
+          "evidence_type": "public original programme description"
+        }
+      ],
+      "verification_status": "verified",
+      "verification_note": "已读取并核对原始节目配套文字；未听取或观看音视频。页面仅有发布日期，保留日期精度。",
+      "source_type": "podcast",
+      "title": "Fury Gold：Eau Claire钻探支持年底资源更新，目标2027年初完成PFS",
+      "guest": {
+        "name": "Tim Clark、Valérie Doyon",
+        "background": "Fury Gold总裁兼首席执行官、地质副总裁"
+      },
+      "summary": "The KE Report于11月9日发布Fury Gold管理层访谈。节目配套说明列出Eau Claire正在进行的25,000米金刚石钻探，目的是提高资源置信度并延伸矿化；钻探数据将支持年底资源量更新，并为2027年初的预可行性研究（PFS）提供基础。",
+      "importance": "Eau Claire的供给意义在于把勘探资源向可研究开发的矿山方案推进，资源类别升级是其中的前置环节。2027年初PFS将提供比单个高品位矿段更有用的经济性检验。能否形成未来黄金产能仍取决于连续性、采选方案及后续许可融资，本期不能据钻探规模推算产量。",
+      "companies": [
+        "Fury Gold Mines"
+      ],
+      "projects": [
+        "Eau Claire",
+        "Committee Bay"
+      ]
+    },
+    {
+      "candidate_id": "manhattan",
+      "accepted": true,
+      "kind": "broadcast",
+      "metal": "gold",
+      "metal_tags": [
+        "gold"
+      ],
+      "direction": "supply",
+      "confidence": 0.9,
+      "claims": [
+        {
+          "claim": "Jaws资源量估算目标由最初希望的5月推迟至2027年晚些时候。",
+          "period": "late 2027 target",
+          "unit": "project milestone",
+          "value": null,
+          "evidence": "That resource is now expected in late 2027, not May as first hoped.",
+          "source_url": "https://resourcetalks.com/gold-stocks/gold-discovery-in-nunavut-but-is-there-really-enough-scale/",
+          "evidence_type": "public original programme description"
+        }
+      ],
+      "verification_status": "verified",
+      "verification_note": "已读取并核对原始节目配套文字；未听取或观看音视频。页面仅有发布日期，保留日期精度。",
+      "source_type": "webcast",
+      "title": "Manhattan Gold：Jaws资源量目标延至2027年晚些时候",
+      "guest": {
+        "name": "Bay Rezos",
+        "background": "Manhattan Gold首席执行官"
+      },
+      "summary": "Resource Talks于11月8日发布Manhattan Gold首席执行官Bay Rezos访谈。原始节目配套文章指出，Nunavut的Jaws金矿项目资源量估算现预期于2027年晚些时候完成，晚于最初希望的5月。",
+      "importance": "资源量估算时间后移，使Jaws的开发规模和连续性还需更长时间验证，远期黄金供给的可见度随之延后。2027年资源模型是下一次判断项目能否进入工程研究的重要节点。资源确认前不宜把勘探潜力当成可兑现产能，后续需核对资源类别及经济性边界。",
+      "companies": [
+        "Manhattan Gold"
+      ],
+      "projects": [
+        "Jaws"
+      ]
+    },
+    {
+      "candidate_id": "metso",
+      "accepted": true,
+      "kind": "news",
+      "metal": "gold",
+      "metal_tags": [
+        "gold"
+      ],
+      "direction": "supply",
+      "confidence": 0.9,
+      "claims": [
+        {
+          "claim": "Jerritt Canyon复产项目磨矿设备订单金额约900万欧元。",
+          "period": "announced 2026-11-09; booked Q3 2026",
+          "unit": "EUR million",
+          "value": 9,
+          "evidence": "approximately EUR 9 million",
+          "source_url": "https://www.metso.com/corporate/media/news/2026/11/metso-to-deliver-metso-loesche-vrm-dry-grinding-technology-for-first-majestics-jerritt-canyon-gold-mine-restart-project/",
+          "evidence_type": "public original page"
+        }
+      ],
+      "verification_status": "verified",
+      "verification_note": "已读取并核对原始页面。官网09:00 EET换算为北京时间15:00；设备采购不代表矿山已复产。",
+      "source": "Metso公司公告",
+      "language": "en",
+      "title": "Metso获约900万欧元订单，为Jerritt Canyon金矿复产提供磨矿设备",
+      "excerpt": "Metso于11月9日宣布，为First Majestic位于美国内华达州的Jerritt Canyon金矿复产项目供应Metso Loesche VRM干式磨矿系统及配套设备，订单金额约900万欧元，已计入2026年第三季度矿业业务订单。设备将为矿区现有焙烧系统提供磨矿物料。",
+      "importance": "加工设备采购为Jerritt Canyon复产增加了一项可核验的工程进展，供给影响仍需通过安装、调试和稳定运行兑现。约900万欧元是本次设备订单金额，不能据此推算复产总投资或黄金增量。后续应核对设备交付与调试时间，以及公司给出的复产计划。",
+      "companies": [
+        "Metso",
+        "First Majestic Silver",
+        "Loesche"
+      ],
+      "projects": [
+        "Jerritt Canyon"
+      ],
+      "source_channel": "web"
+    },
+    {
+      "candidate_id": "smm_shanghai",
+      "accepted": true,
+      "kind": "news",
+      "metal": "copper",
+      "metal_tags": [
+        "copper"
+      ],
+      "direction": "supply",
+      "confidence": 0.9,
+      "claims": [
+        {
+          "claim": "2026年11月9日上海地区电解铜库存约3.3万吨。",
+          "period": "2026-11-09",
+          "unit": "t cathode copper; Shanghai regional inventory",
+          "value": 33000,
+          "evidence": "2026年11月9日上海地区电解铜库存录得约3.3万吨",
+          "source_url": "https://news.smm.cn/live/detail/2YXF25R5K3OI6ZPXZSTUQIJEICUFFS7PP4BZG4A",
+          "evidence_type": "public original page"
+        }
+      ],
+      "verification_status": "verified",
+      "verification_note": "已读取并核对原始页面。页面显示2026-11-09 12:04:10；库存为上海区域口径，不混用SHFE或全国库存。",
+      "source": "SMM上海有色网",
+      "language": "zh",
+      "title": "SMM：11月9日上海电解铜库存约3.3万吨，接近统计历史低位",
+      "excerpt": "SMM于11月9日披露，上海地区电解铜库存约3.3万吨，接近其统计历史低位；该序列最低值为2023年12月25日的约3万吨。快讯同时称上海流通货源趋紧、现货升水处于历年高位，并提示关注周内进口货源补充。",
+      "importance": "上海区域库存仅比该序列历史低值高约0.3万吨，现货的短期缓冲偏薄。周内进口到货与库存回补速度将影响区域紧张能否缓解，升水走强本身不能证明终端消费增长。这一口径既不同于SHFE周度库存，也不同于全国社会库存，后续比较应保持同一地区与统计范围。",
+      "companies": [],
+      "projects": [],
+      "source_channel": "web"
+    },
+    {
+      "candidate_id": "harmony",
+      "accepted": true,
+      "kind": "news",
+      "metal": "copper",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "direction": "supply",
+      "confidence": 0.9,
+      "claims": [
+        {
+          "claim": "Eva获得第一阶段联邦批准，允许限定区域恢复清理与建设。",
+          "period": "Q1FY27 update; available 2026-11-09",
+          "unit": "project approval milestone",
+          "value": null,
+          "evidence": "Stage 1 federal government approval received allowing clearing and construction to recommence in defined areas on site",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1023514/000162828026071932/a6k_fy27xq1-operationalu.htm",
+          "evidence_type": "public original page"
+        }
+      ],
+      "verification_status": "verified",
+      "verification_note": "已读取并核对原始页面。SEC原稿可读；EDGAR索引可用时间为11月9日10:01 EST（北京23:01，分钟精度），并非假定全球首次发布时间。索引：https://www.stocktitan.net/sec-filings/HGMCF/6-k-harmony-gold-mining-co-ltd-current-report-foreign-issuer-ce56e9e0ff1d.html",
+      "source": "Harmony Gold Mining（SEC Form 6-K）",
+      "language": "en",
+      "title": "Harmony：Eva铜项目施工完成15%，第一阶段批准允许限定区域恢复施工",
+      "excerpt": "Harmony在截至2026年9月30日的FY2027第一财季运营更新中披露，Eva铜项目施工完成约15%，第一阶段联邦批准允许限定区域恢复清理和建设，第二阶段仍待批；公司维持2028年晚些时候首次生产的目标，但取决于第二阶段审批结果。同季黄金产量342,758盎司，同比下降12%；CSA铜产量7,077吨，环比下降18%。",
+      "importance": "Eva部分施工限制解除，改善了新铜项目继续推进的条件，但第二阶段审批仍影响2028年首产目标的兑现。CSA本季产量回落说明现有铜供给与在建项目的长期增量应分开评估。下一步应看剩余审批和现场施工能否同步推进，不能把第一阶段批准理解为全部许可已经取得。",
+      "companies": [
+        "Harmony Gold Mining"
+      ],
+      "projects": [
+        "Eva Copper",
+        "CSA"
+      ],
+      "source_channel": "web"
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The KE Report：Getty Copper与Fury Gold于11月9日的节目配套文字。",
+      "Resource Talks：Manhattan Gold于11月8日的原始节目配套文章。"
+    ],
+    "part1_result": "本补充bundle仅投影新增3条访谈；与前两份成品去重，保持日期精度，不代表重新运行采集。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "Grok Bot 公共 X 工具 search_posts_all（已获 Zhemin 授权）：24个注册种子账号分两组查询，窗口 2026-11-08T16:00:00Z–2026-11-09T15:59:59Z，排除转推/回复；共返回10条原帖（@soarfinancial 2条访谈推广、@duediligenceguy 8条宏观与交易评论），无可核验的金银铜供需事实；其余22个账号窗口内无原帖。明细见 x_outputs/2026-11-09_x_grokbot_public_read.json。",
+      "注册表 Playwright 采集器：本机未配置 x_auth，0/24 未读取；该路径与 Grok Bot 读取结果分开记录。"
+    ],
+    "part2_result": "X 采集成功，无候选进入报告：经 Zhemin 授权的 Grok Bot 公共 X 工具读取了全部24个注册账号在窗口内的原帖，共10条，均无可核验的金银铜供需事实。schema 的 coverage 字段只记录注册表 Playwright 采集器，本机未配置 x_auth，该采集器计为 0/24；这一计数不代表 X 读取失败。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+      ],
+      "notes": "Registry Playwright collector failed without x_auth (expected on this box). Separately, the authorized Grok Bot public X tools read all 24 seed accounts for the Beijing-day window: X collected successfully, no candidates entered the report (see x_outputs/2026-11-09_x_grokbot_public_read.json)."
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Metso的Jerritt Canyon复产设备订单原稿。",
+      "SMM上海区域电解铜库存原始快讯。",
+      "Harmony SEC 6-K原稿及EDGAR可用时间索引。"
+    ],
+    "part3_result": "本补充bundle仅投影新增3条新闻；原有3条新闻由历史补充写入程序原样保留。",
+    "mining_com_source_note": "完整分类采集与逐篇核验记录保存在已发布报告及独立复核证据中，本补充bundle未重采集Mining。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 6,
+      "passed": 6,
+      "failed": 0,
+      "failures": [],
+      "notes": "六条补充来源均使用本次复核已保存的原始页面证据。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Trafigura 在亚洲抢购近月精铜、Fastmarkets 进口升水195–210美元/吨（11月7日日报已收录；SMM 11月9日转述不重复纳入）",
+      "上海现货升水2615元/吨、上期所库存33848吨（11月6日日报已收录）",
+      "Codelco 寻求私营合作开发矿权及修法（11月8日日报 La Tercera 专访已收录）",
+      "国内铜精矿 TC 深度负值与冶炼减产（11月6–8日日报已收录）"
+    ],
+    "notes": "与 2026-11-07、2026-11-08 日报 URL/事件比对；跨时区来源均先按来源时区换算北京时间再判断窗口。"
+  }
+}
