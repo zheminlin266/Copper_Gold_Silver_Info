@@ -1,0 +1,250 @@
+{
+ "report_date": "2026-11-10",
+ "collector": "grok_bot_x_tools",
+ "authorization": "Zhemin authorized reading seed-list accounts via Grok Bot X tools (Playwright/twscrape login not required).",
+ "captured_at": "2026-11-11T08:20:00+08:00",
+ "window_beijing": "2026-11-10T00:00:00+08:00/2026-11-10T23:59:59+08:00",
+ "window_utc": "2026-11-09T16:00:00Z/2026-11-10T15:59:59Z",
+ "tool": "search_posts_all (namespace x), sort_order=recency, max_results=25, paged until a page returned fewer than 25",
+ "queries": [
+  {
+   "query": "(from:peter_krauth OR from:duediligenceguy OR from:Junior_Stock OR from:soarfinancial OR from:WalterColesJr OR from:ivanbebek OR from:IvanhoeMines_ OR from:FreeportMcMoRan OR from:NewmontCorp OR from:BarrickGold OR from:TeckResources OR from:AntofagastaPLC) -is:retweet -is:reply",
+   "result_count_page1": 25,
+   "result_count_page2": 2
+  },
+  {
+   "query": "(from:LundinMining OR from:AgnicoEagle OR from:FirstMajestic OR from:PanAmericanSlvr OR from:Wheaton_PM OR from:EndeavourMining OR from:SSRMining OR from:KinrossGold OR from:SandstormGold OR from:Fortuna_Silver OR from:GoGoldResources OR from:vizslasilver) -is:retweet -is:reply",
+   "result_count_page1": 1
+  }
+ ],
+ "accounts_total": 24,
+ "accounts_read": 24,
+ "status": "complete",
+ "original_posts_in_window": [
+  {
+   "handle": "soarfinancial",
+   "id": "2120169615040860639",
+   "url": "https://x.com/soarfinancial/status/2120169615040860639",
+   "created_at": "2026-11-10T15:00:01.000Z",
+   "decision": "reject",
+   "reason": "Cartier Resources PEA 访谈推广帖，研究阶段指标，无近期供需变化"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120168791292432725",
+   "url": "https://x.com/duediligenceguy/status/2120168791292432725",
+   "created_at": "2026-11-10T14:56:45.000Z",
+   "decision": "reject",
+   "reason": "无内容"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120167032922759273",
+   "url": "https://x.com/duediligenceguy/status/2120167032922759273",
+   "created_at": "2026-11-10T14:49:46.000Z",
+   "decision": "reject",
+   "reason": "贸易战评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120165625649627307",
+   "url": "https://x.com/duediligenceguy/status/2120165625649627307",
+   "created_at": "2026-11-10T14:44:10.000Z",
+   "decision": "reject",
+   "reason": "地缘评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120163523762491471",
+   "url": "https://x.com/duediligenceguy/status/2120163523762491471",
+   "created_at": "2026-11-10T14:35:49.000Z",
+   "decision": "reject",
+   "reason": "铜价与供给泛化评论，无可核验事实"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120161217318887619",
+   "url": "https://x.com/duediligenceguy/status/2120161217318887619",
+   "created_at": "2026-11-10T14:26:39.000Z",
+   "decision": "reject",
+   "reason": "货币政策评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120160487765573707",
+   "url": "https://x.com/duediligenceguy/status/2120160487765573707",
+   "created_at": "2026-11-10T14:23:45.000Z",
+   "decision": "reject",
+   "reason": "无内容"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120159597436510345",
+   "url": "https://x.com/duediligenceguy/status/2120159597436510345",
+   "created_at": "2026-11-10T14:20:13.000Z",
+   "decision": "reject",
+   "reason": "利率评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120158114653626454",
+   "url": "https://x.com/duediligenceguy/status/2120158114653626454",
+   "created_at": "2026-11-10T14:14:19.000Z",
+   "decision": "reject",
+   "reason": "通胀评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120157665741688976",
+   "url": "https://x.com/duediligenceguy/status/2120157665741688976",
+   "created_at": "2026-11-10T14:12:32.000Z",
+   "decision": "reject",
+   "reason": "CPI 评论"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2120139418627637262",
+   "url": "https://x.com/soarfinancial/status/2120139418627637262",
+   "created_at": "2026-11-10T13:00:02.000Z",
+   "decision": "reject",
+   "reason": "Dynasty Gold 钻探访谈推广帖"
+  },
+  {
+   "handle": "IvanhoeMines_",
+   "id": "2119928293516570806",
+   "url": "https://x.com/IvanhoeMines_/status/2119928293516570806",
+   "created_at": "2026-11-09T23:01:06.000Z",
+   "decision": "reject",
+   "reason": "Kipushi 锌精矿产量，属锌，非金银铜"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2119913103932485878",
+   "url": "https://x.com/duediligenceguy/status/2119913103932485878",
+   "created_at": "2026-11-09T22:00:44.000Z",
+   "decision": "reject",
+   "reason": "无内容"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2119882720339783869",
+   "url": "https://x.com/soarfinancial/status/2119882720339783869",
+   "created_at": "2026-11-09T20:00:00.000Z",
+   "decision": "reject",
+   "reason": "钨项目访谈推广帖"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2119875169812394182",
+   "url": "https://x.com/soarfinancial/status/2119875169812394182",
+   "created_at": "2026-11-09T19:30:00.000Z",
+   "decision": "reject",
+   "reason": "勘探访谈推广帖"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119862058330313164",
+   "url": "https://x.com/peter_krauth/status/2119862058330313164",
+   "created_at": "2026-11-09T18:37:54.000Z",
+   "decision": "reject",
+   "reason": "Aya 资产出售策略评论"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119861973299126754",
+   "url": "https://x.com/peter_krauth/status/2119861973299126754",
+   "created_at": "2026-11-09T18:37:34.000Z",
+   "decision": "reject",
+   "reason": "同上（编辑前版本）"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119861569173750260",
+   "url": "https://x.com/peter_krauth/status/2119861569173750260",
+   "created_at": "2026-11-09T18:35:57.000Z",
+   "decision": "reject",
+   "reason": "钻探结果推广"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119861098908381246",
+   "url": "https://x.com/peter_krauth/status/2119861098908381246",
+   "created_at": "2026-11-09T18:34:05.000Z",
+   "decision": "reject",
+   "reason": "Abra 钻探结果转述推广"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119860377462919569",
+   "url": "https://x.com/peter_krauth/status/2119860377462919569",
+   "created_at": "2026-11-09T18:31:13.000Z",
+   "decision": "reject",
+   "reason": "Avino 财务数据评论，非一手"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119860123774623761",
+   "url": "https://x.com/peter_krauth/status/2119860123774623761",
+   "created_at": "2026-11-09T18:30:13.000Z",
+   "decision": "reject",
+   "reason": "Sierra Madre 推广帖，转述第三方，无一手出处"
+  },
+  {
+   "handle": "peter_krauth",
+   "id": "2119859385191243814",
+   "url": "https://x.com/peter_krauth/status/2119859385191243814",
+   "created_at": "2026-11-09T18:27:17.000Z",
+   "decision": "reject",
+   "reason": "并购评论"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2119852521338675603",
+   "url": "https://x.com/soarfinancial/status/2119852521338675603",
+   "created_at": "2026-11-09T18:00:00.000Z",
+   "decision": "reject",
+   "reason": "勘探访谈推广帖"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2119837420812488896",
+   "url": "https://x.com/soarfinancial/status/2119837420812488896",
+   "created_at": "2026-11-09T17:00:00.000Z",
+   "decision": "reject",
+   "reason": "Heliostar 访谈推广帖，公司远期目标"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2119835398214209904",
+   "url": "https://x.com/duediligenceguy/status/2119835398214209904",
+   "created_at": "2026-11-09T16:51:58.000Z",
+   "decision": "reject",
+   "reason": "无内容"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2119830198883357008",
+   "url": "https://x.com/duediligenceguy/status/2119830198883357008",
+   "created_at": "2026-11-09T16:31:18.000Z",
+   "decision": "reject",
+   "reason": "引述 Codelco 董事长表态并评论，该表态已在11月8–9日日报收录"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2119822332097384531",
+   "url": "https://x.com/soarfinancial/status/2119822332097384531",
+   "created_at": "2026-11-09T16:00:03.000Z",
+   "decision": "reject",
+   "reason": "K2 Gold 钻探访谈推广帖"
+  },
+  {
+   "handle": "kinrossgold",
+   "id": "2119881081033765144",
+   "url": "https://x.com/kinrossgold/status/2119881081033765144",
+   "created_at": "2026-11-09T19:53:29.000Z",
+   "decision": "reject",
+   "reason": "企业文化活动"
+  }
+ ],
+ "result": "28条原帖，均无可核验的金银铜供需事实，无候选进入报告"
+}
