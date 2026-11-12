@@ -1,0 +1,130 @@
+{
+ "report_date": "2026-11-11",
+ "collector": "grok_bot_x_tools",
+ "authorization": "Zhemin authorized reading seed-list accounts via Grok Bot X tools (Playwright/twscrape login not required).",
+ "captured_at": "2026-11-12T08:08:00+08:00",
+ "window_beijing": "2026-11-11T00:00:00+08:00/2026-11-11T23:59:59+08:00",
+ "window_utc": "2026-11-10T16:00:00Z/2026-11-11T15:59:59Z",
+ "tool": "search_posts_all (namespace x), sort_order=recency, max_results=25 (tool cap), paged via next_token until empty",
+ "queries": [
+  {
+   "query": "(from:peter_krauth OR from:duediligenceguy OR from:Junior_Stock OR from:soarfinancial OR from:WalterColesJr OR from:ivanbebek OR from:IvanhoeMines_ OR from:FreeportMcMoRan OR from:NewmontCorp OR from:BarrickGold OR from:TeckResources OR from:AntofagastaPLC) -is:retweet -is:reply",
+   "result_count_page1": 11,
+   "result_count_page2": 0
+  },
+  {
+   "query": "(from:LundinMining OR from:AgnicoEagle OR from:FirstMajestic OR from:PanAmericanSlvr OR from:Wheaton_PM OR from:EndeavourMining OR from:SSRMining OR from:KinrossGold OR from:SandstormGold OR from:Fortuna_Silver OR from:GoGoldResources OR from:vizslasilver) -is:retweet -is:reply",
+   "result_count_page1": 2
+  }
+ ],
+ "accounts_total": 24,
+ "accounts_read": 24,
+ "status": "complete",
+ "original_posts_in_window": [
+  {
+   "handle": "peter_krauth",
+   "id": "2120546874621124970",
+   "url": "https://x.com/peter_krauth/status/2120546874621124970",
+   "created_at": "2026-11-11T15:59:07.000Z",
+   "decision": "reject",
+   "reason": "白银价格与订阅推广，无供需事实"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2120516912652382345",
+   "url": "https://x.com/soarfinancial/status/2120516912652382345",
+   "created_at": "2026-11-11T14:00:03.000Z",
+   "decision": "reject",
+   "reason": "Forte Minerals 勘探访谈推广，历史钻孔数据，无近期供需变化"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120514727348777282",
+   "url": "https://x.com/duediligenceguy/status/2120514727348777282",
+   "created_at": "2026-11-11T13:51:22.000Z",
+   "decision": "reject",
+   "reason": "宏观评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120513415881826640",
+   "url": "https://x.com/duediligenceguy/status/2120513415881826640",
+   "created_at": "2026-11-11T13:46:10.000Z",
+   "decision": "reject",
+   "reason": "美联储/政治评论"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120512324494926191",
+   "url": "https://x.com/duediligenceguy/status/2120512324494926191",
+   "created_at": "2026-11-11T13:41:50.000Z",
+   "decision": "reject",
+   "reason": "无实质内容"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120509802753249386",
+   "url": "https://x.com/duediligenceguy/status/2120509802753249386",
+   "created_at": "2026-11-11T13:31:48.000Z",
+   "decision": "reject",
+   "reason": "地缘评论（伊朗铀浓缩）"
+  },
+  {
+   "handle": "duediligenceguy",
+   "id": "2120508023776940472",
+   "url": "https://x.com/duediligenceguy/status/2120508023776940472",
+   "created_at": "2026-11-11T13:24:44.000Z",
+   "decision": "reject",
+   "reason": "无实质内容"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2120501797718798660",
+   "url": "https://x.com/soarfinancial/status/2120501797718798660",
+   "created_at": "2026-11-11T13:00:00.000Z",
+   "decision": "reject",
+   "reason": "Dynasty Gold 访谈回放推广，无产量或指引新增事实"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2120214917475160091",
+   "url": "https://x.com/soarfinancial/status/2120214917475160091",
+   "created_at": "2026-11-10T18:00:02.000Z",
+   "decision": "reject",
+   "reason": "Tiger Gold NOIC 访谈推广：25万–30万盎司为 PEA 情景目标，研究阶段，非指引"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2120199813924782376",
+   "url": "https://x.com/soarfinancial/status/2120199813924782376",
+   "created_at": "2026-11-10T17:00:01.000Z",
+   "decision": "reject",
+   "reason": "Summit Royalties 融资与特许权推广，无实物供需"
+  },
+  {
+   "handle": "soarfinancial",
+   "id": "2120184722005643536",
+   "url": "https://x.com/soarfinancial/status/2120184722005643536",
+   "created_at": "2026-11-10T16:00:03.000Z",
+   "decision": "reject",
+   "reason": "Valhalla Metals 访谈推广，历史品位估计，勘探阶段"
+  },
+  {
+   "handle": "agnicoeagle",
+   "id": "2120509959557251509",
+   "url": "https://x.com/agnicoeagle/status/2120509959557251509",
+   "created_at": "2026-11-11T13:32:26.000Z",
+   "decision": "reject",
+   "reason": "阵亡将士纪念日帖，无供需内容"
+  },
+  {
+   "handle": "kinrossgold",
+   "id": "2120191759485391229",
+   "url": "https://x.com/kinrossgold/status/2120191759485391229",
+   "created_at": "2026-11-10T16:28:01.000Z",
+   "decision": "reject",
+   "reason": "社区教育活动帖，无供需内容"
+  }
+ ],
+ "result": "X collected successfully, no candidates entered the report: 24/24 seed accounts read for the Beijing-day window; 13 original posts, none with verifiable gold/silver/copper supply-demand facts."
+}
