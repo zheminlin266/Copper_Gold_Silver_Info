@@ -1,0 +1,385 @@
+{
+  "report_date": "2026-11-12",
+  "collector": "grok_bot_x_tools",
+  "authorization": "Zhemin authorized reading seed-list accounts via Grok Bot X tools (Playwright/twscrape login not required).",
+  "captured_at": "2026-11-13T08:10:00+08:00",
+  "window_beijing": "2026-11-12T00:00:00+08:00/2026-11-12T23:59:59+08:00",
+  "window_utc": "2026-11-11T16:00:00Z/2026-11-12T15:59:59Z",
+  "tool": "search_posts_all (namespace x), sort_order=recency, max_results=25 (tool cap), paged via next_token until empty",
+  "queries": [
+    {
+      "query": "(from:peter_krauth OR from:duediligenceguy OR from:Junior_Stock OR from:soarfinancial OR from:WalterColesJr OR from:ivanbebek OR from:IvanhoeMines_ OR from:FreeportMcMoRan OR from:NewmontCorp OR from:BarrickGold OR from:TeckResources OR from:AntofagastaPLC) -is:retweet -is:reply",
+      "result_count_page1": 20,
+      "result_count_page2": 0
+    },
+    {
+      "query": "(from:LundinMining OR from:AgnicoEagle OR from:FirstMajestic OR from:PanAmericanSlvr OR from:Wheaton_PM OR from:EndeavourMining OR from:SSRMining OR from:KinrossGold OR from:SandstormGold OR from:Fortuna_Silver OR from:GoGoldResources OR from:vizslasilver) -is:retweet -is:reply",
+      "result_count_page1": 1,
+      "result_count_page2": 0
+    }
+  ],
+  "accounts_total": 24,
+  "accounts_read": 24,
+  "status": "complete",
+  "accounts_with_posts": {
+    "duediligenceguy": 18,
+    "peter_krauth": 2,
+    "kinrossgold": 1
+  },
+  "api_rows": 21,
+  "unique_original_posts_after_collapsing_edits": 20,
+  "original_posts_in_window": [
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120894044708438167",
+      "created_at": "2026-11-12T14:58:39.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120894044708438167",
+      "text": "Not a good look...\n\n@PeterSchiff's gonna love this.\n;-{)} https://t.co/fhrfKiQDU2",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2883,
+        "like_count": 29,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 1
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120892165375058409",
+      "created_at": "2026-11-12T14:51:11.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120892165375058409",
+      "text": "I'm glad I wasn't tempted to buy this dip yesterday...\n;-{)} https://t.co/JLegV2UhGc",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2594,
+        "like_count": 27,
+        "quote_count": 0,
+        "reply_count": 5,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120887891249520824",
+      "created_at": "2026-11-12T14:34:12.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120887891249520824",
+      "text": "No sugar coating from Judy Shelton…\n\nGot gold? https://t.co/x0xd2bqCwf",
+      "public_metrics": {
+        "bookmark_count": 27,
+        "impression_count": 11332,
+        "like_count": 216,
+        "quote_count": 3,
+        "reply_count": 15,
+        "retweet_count": 15
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120886643578261607",
+      "created_at": "2026-11-12T14:29:14.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120886643578261607",
+      "text": "Unintentional irony?\n;-{)} https://t.co/LFTMNx3Oqe",
+      "quoted": "2120306448873796028",
+      "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 3228,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120885926520045856",
+      "created_at": "2026-11-12T14:26:23.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120885926520045856",
+      "text": "Interesting, if true...\n\nScore one for The Dollar Milkshake Guy\n@SantiagoAuFund https://t.co/TubN2iKbhc",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2130,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120885530082885757",
+      "created_at": "2026-11-12T14:24:49.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120885530082885757",
+      "text": "A pity no one could've seen this coming...\n;-{)} https://t.co/i8p4CCtVSw",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1973,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120885201374966049",
+      "created_at": "2026-11-12T14:23:30.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120885201374966049",
+      "text": "How to chase data centers away... https://t.co/ntzypD57OO",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1941,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120884554517094880",
+      "created_at": "2026-11-12T14:20:56.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120884554517094880",
+      "text": "Not good. https://t.co/oiK5JlyU7f",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2070,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120884082817323394",
+      "created_at": "2026-11-12T14:19:04.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120884082817323394",
+      "text": "...and the Japan carry trade unwind as well. https://t.co/wU2wcRLwek",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2061,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120882362997260517",
+      "created_at": "2026-11-12T14:12:14.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120882362997260517",
+      "text": "Crossing my claws, but not holding my breath... https://t.co/FBvIaTSCCv",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1972,
+        "like_count": 10,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120880825948577903",
+      "created_at": "2026-11-12T14:06:07.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120880825948577903",
+      "text": "But of course... https://t.co/S1iFFaeVJr",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1822,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120879922696892707",
+      "created_at": "2026-11-12T14:02:32.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120879922696892707",
+      "text": "\"There's a big surprise. I think I'm gonna have a heart attack and die from that surprise.\"\n\n(Iago, the parrot) https://t.co/6bvmq5MjMT",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 1886,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120878135378059748",
+      "created_at": "2026-11-12T13:55:26.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120878135378059748",
+      "text": "US jobless claims pop a bit, but the trend is still downward.\n\nI wonder how long that lasts if the Dems manage to pull the plug on data center construction... https://t.co/DeN7FfTmik",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1762,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120877580467441855",
+      "created_at": "2026-11-12T13:53:13.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120877580467441855",
+      "text": "UK GDP reportedly improving...\n\nAnyone across the pond feeling it? https://t.co/Z75nFCmmP9",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1703,
+        "like_count": 7,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120875501879472310",
+      "created_at": "2026-11-12T13:44:58.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120875501879472310",
+      "text": "Beware: He's from the government and he's here to help.\n;-{)} https://t.co/PqOtZapuVE",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2067,
+        "like_count": 13,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120873022093394428",
+      "created_at": "2026-11-12T13:35:07.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120873022093394428",
+      "text": "I greatly appreciate the honesty of this post.\n\nAnd the humor...\n;-{)} https://t.co/ZhLtVkT0rL",
+      "quoted": "2120784585646821573",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 3364,
+        "like_count": 64,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 3
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120675308730749277",
+      "created_at": "2026-11-12T00:29:28.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120675308730749277",
+      "text": "Whoa.\n\nIf they do, and IF it doesn't pop the AI bubble... maybe it isn't a bubble after all.\n\nBut I wouldn't want to be on that. https://t.co/ljS9PNwwhG",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 4314,
+        "like_count": 41,
+        "quote_count": 0,
+        "reply_count": 13,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "duediligenceguy",
+      "author_name": "Lobo Tiggre",
+      "id": "2120597080171508202",
+      "created_at": "2026-11-11T19:18:37.000Z",
+      "url": "https://x.com/duediligenceguy/status/2120597080171508202",
+      "text": "IMO, after infamously long & variable lags, this war will boost gold.\n\nBut for now, it’s been bad.\n\nMy question to anyone claiming the bottom is in: how you can be sure before the war ends—and subsequent rebalancing of the oil market? https://t.co/oQq6dTmPUG",
+      "public_metrics": {
+        "bookmark_count": 13,
+        "impression_count": 7247,
+        "like_count": 104,
+        "quote_count": 1,
+        "reply_count": 23,
+        "retweet_count": 8
+      }
+    },
+    {
+      "author": "peter_krauth",
+      "author_name": "Peter Krauth",
+      "id": "2120555085541654962",
+      "created_at": "2026-11-11T16:31:45.000Z",
+      "url": "https://x.com/peter_krauth/status/2120555085541654962",
+      "text": "The best part of a mining summit? Getting beyond the slides.\n\nGreat to share the stage in Vancouver with @Avino_ASM , @bnkrhillmining , @SilverNorthRes , @MetaleroMining  & @KootenaySilver .\n\nThanks to the teams and investors who joined us.\n\nA look back at my Gold Advisor Network https://t.co/sDHB01EO3J",
+      "edit_history_tweet_ids": [
+        "2120554880280805632",
+        "2120555085541654962"
+      ],
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 531,
+        "like_count": 4,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 2
+      }
+    },
+    {
+      "author": "peter_krauth",
+      "author_name": "Peter Krauth",
+      "id": "2120554880280805632",
+      "created_at": "2026-11-11T16:30:56.000Z",
+      "url": "https://x.com/peter_krauth/status/2120554880280805632",
+      "text": "The best part of a mining summit? Getting beyond the slides.\n\nGreat to share the stage in Vancouver with @Avino_ASM , @bnkrhillmining , @SilverNorthRes , @MetaleroMining  & @KootenaySilver .\n\nThanks to the teams and investors who joined us.\n\nA look back at my Gold Advisor Network https://t.co/smfYnC6Z95",
+      "edit_history_tweet_ids": [
+        "2120554880280805632",
+        "2120555085541654962"
+      ],
+      "note": "Earlier edit of the same post as 2120555085541654962",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 351,
+        "like_count": 0,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      }
+    },
+    {
+      "author": "kinrossgold",
+      "author_name": "Kinross Gold",
+      "id": "2120591417416282215",
+      "created_at": "2026-11-11T18:56:07.000Z",
+      "url": "https://x.com/kinrossgold/status/2120591417416282215",
+      "text": "Today, on #RemembranceDay, we honour Canada's veterans, active service members and their families. We're grateful for their service and sacrifice for our country.\nThroughout November, employees at our Toronto headquarters have been wearing poppies in remembrance. Many have also https://t.co/Ji2nIKw9Qc",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 417,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 1
+      }
+    }
+  ],
+  "screening": {
+    "included": [],
+    "excluded_reason": "All original posts were price/macro commentary, event recap without mine/production numbers, or a Remembrance Day corporate message. None contained verifiable gold/silver/copper supply-demand facts."
+  },
+  "result": "X collected successfully, no candidates entered the report: 24/24 seed accounts read for the Beijing-day window; 21 API rows (20 unique posts after collapsing one Peter Krauth edit), none with verifiable gold/silver/copper supply-demand facts."
+}

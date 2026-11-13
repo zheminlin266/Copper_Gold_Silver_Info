@@ -1,0 +1,44 @@
+X 原始候选 — 2026-11-12
+采集时间: 2026-11-13T08:00:00.000000+08:00
+选定通道: none (all channels unavailable)
+尝试通道: playwright
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 0/24 完成，失败 24
+各通道完成账户数: {}
+采集状态: failed
+失败账号数: 24
+通道错误: playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py; @peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py; @duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py; @Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py; @soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py; @WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py; @ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py; @IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py; @FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py; @NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py; @BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py; @TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py; @AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py; @LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py; @AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py; @FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py; @PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py; @Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py; @EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py; @SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py; @KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py; @SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py; @Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py; @GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py; @vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py
+失败账号:
+  @peter_krauth (Peter Krauth): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @duediligenceguy (Lobo Tiggre): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @Junior_Stock (Brian Leni): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @soarfinancial (Kai Hoffmann): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @WalterColesJr (Walter Coles Jr.): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @ivanbebek (Ivan Bebek): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @IvanhoeMines_ (Ivanhoe Mines): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @FreeportMcMoRan (Freeport-McMoRan): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @NewmontCorp (Newmont): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @BarrickGold (Barrick Gold): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @TeckResources (Teck Resources): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @AntofagastaPLC (Antofagasta): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @LundinMining (Lundin Mining): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @AgnicoEagle (Agnico Eagle): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @FirstMajestic (First Majestic Silver): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @PanAmericanSlvr (Pan American Silver): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @Wheaton_PM (Wheaton Precious Metals): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @EndeavourMining (Endeavour Mining): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @SSRMining (SSR Mining): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @KinrossGold (Kinross Gold): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @SandstormGold (Sandstorm Gold): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @Fortuna_Silver (Fortuna Mining): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @GoGoldResources (GoGold Resources): No X profile or x_auth.json found; run scripts/setup_x_login.py
+  @vizslasilver (Vizsla Silver): No X profile or x_auth.json found; run scripts/setup_x_login.py
+============================================================
+
+总计候选: 0 条
+
+============================================================
+

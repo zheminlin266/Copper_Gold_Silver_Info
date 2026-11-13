@@ -1,0 +1,1296 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-12",
+  "report_time": "2026-11-13T08:29:54+08:00",
+  "summary": "铜：Hudbay 重申全年产铜11.0万–13.8万吨，成本指引再下调；Magna 将 McCreedy West 指引由1,600万–1,800万磅铜当量下调至1,450万–1,550万磅；上期所铜仓单减至2,444吨，广东库存接近历史低位。黄金：Endeavour 批准 Assafou FID（前8年规划年产32万盎司），指引料落在下半区间，Mana 暂停井下开采；Integra 下调 Florida Canyon 指引；Montage Koné 接近名义产能；Mineros 再上调全年指引。白银：Aya 上调 Zgounder 指引下限；Silver Mountain 首次运出精矿。",
+  "windows": {
+    "part1": {
+      "start": "2026-11-10T00:00:00+08:00",
+      "end": "2026-11-12T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-11-12T00:00:00+08:00",
+      "end": "2026-11-12T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-11-12T00:00:00+08:00",
+      "end": "2026-11-12T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.cruxinvestor.com/posts/cabral-gold-nears-commercial-production-cash-flow-to-fund-phase-2-study",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-11",
+      "claims": [
+        {
+          "claim": "Cuiú Cuiú 于2026年9月10日首次出金1,130盎司，目标在2026年底前宣告商业生产。",
+          "evidence": "Cabral completed Phase 1 construction in August 2026 and announced a first gold pour of 1,130 ounces (oz) on September 10, 2026.",
+          "source_url": "https://www.cruxinvestor.com/posts/cabral-gold-nears-commercial-production-cash-flow-to-fund-phase-2-study",
+          "evidence_type": "public original page",
+          "period": "first pour 2026-09-10; commercial production target end-2026",
+          "unit": "oz Au",
+          "value": "1130"
+        },
+        {
+          "claim": "管理层目标首年产量2.5万–3.0万盎司。",
+          "evidence": "Management is targeting 25,000 to 30,000 oz in the first year and expects costs close to the PFS figure.",
+          "source_url": "https://www.cruxinvestor.com/posts/cabral-gold-nears-commercial-production-cash-flow-to-fund-phase-2-study",
+          "evidence_type": "public original page",
+          "period": "first year target",
+          "unit": "oz Au",
+          "value": "25000-30000"
+        }
+      ],
+      "title": "Cabral 访谈：Cuiú Cuiú 9月10日首次出金1,130盎司，目标年底前宣告商业生产、首年2.5万–3.0万盎司",
+      "source_type": "webcast",
+      "summary": "Crux Investor 于11月11日发布对 Cabral Gold 的访谈文章。文中称 Cuiú Cuiú 一期堆浸矿用10个月建成且未超预算，并于2026年9月10日首次出金1,130盎司；公司目标在2026年底前宣告商业生产。管理层目标首年产量2.5万–3.0万盎司；预可研为前两年每年2.5万盎司，该两年现金成本950美元/盎司，生命周期AISC 1,210美元/盎司。配套视频无可用文字转录，本卡只采用文章正文。",
+      "detail": "首次出金发生在9月10日，本卡记录的是11月11日访谈对爬坡与商业生产时间表的说明。页面只有日期、无时刻。未听取音频或视频。",
+      "importance": "Cuiú Cuiú 已完成首金、正在转向商业生产，是窗口内可核对的小型金矿爬坡。首年2.5万–3.0万盎司仍是管理层目标，还不是正式产量指引，因此近端供应能否增加，取决于年底前能否宣告商业生产。",
+      "verification_status": "verified",
+      "verification_note": "打开 Crux Investor 访谈文章（HTTP 200）。页面日期为 2026-11-11，无具体时刻；按来源日历日计入11月10–12日窗口。仅依据打开的文章文字，未观看配套视频、未听取音频。",
+      "companies": [
+        "Cabral Gold"
+      ],
+      "projects": [
+        "Cuiú Cuiú"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/banyan-gold-maiden-aurmac-pea-nears-10-million-ounce-resource-growth-continues",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-10",
+      "claims": [
+        {
+          "claim": "AurMac 现有指示资源量3.64百万盎司（0.68克/吨），推断资源量4.98百万盎司（0.58克/吨）。",
+          "evidence": "Its AurMac project in Canada’s Yukon hosts 3.64 million ounces (Moz) Indicated at 0.68 grams per tonne (g/t) gold and 4.98 Moz Inferred at 0.58 g/t",
+          "source_url": "https://www.cruxinvestor.com/posts/banyan-gold-maiden-aurmac-pea-nears-10-million-ounce-resource-growth-continues",
+          "evidence_type": "public original page",
+          "period": "current resource as stated in the article",
+          "unit": "Moz Au",
+          "value": "3.64 Indicated + 4.98 Inferred"
+        },
+        {
+          "claim": "首份PEA目标在2026年四季度完成。",
+          "evidence": "A maiden Preliminary Economic Assessment (PEA) is targeted for the fourth quarter of 2026.",
+          "source_url": "https://www.cruxinvestor.com/posts/banyan-gold-maiden-aurmac-pea-nears-10-million-ounce-resource-growth-continues",
+          "evidence_type": "public original page",
+          "period": "Q4 2026 PEA target",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "title": "Banyan 访谈：AurMac 资源量为指示3.64百万盎司、推断4.98百万盎司，首份PEA目标2026年四季度",
+      "source_type": "webcast",
+      "summary": "Crux Investor 于11月10日发布对 Banyan Gold CEO Tara Christie 的访谈文章。文中称育空 AurMac 项目现有指示资源量3.64百万盎司、品位0.68克/吨，推断资源量4.98百万盎司、品位0.58克/吨。首份初步经济评估（PEA）目标在2026年四季度完成，将使用截至2025年底的钻探数据。文章里CEO关于下一步资源量超过1,000万盎司的预期是前瞻看法，本卡不将其作为已核实资源量。",
+      "detail": "资源量数字来自访谈文章对现有资源的转述，不是本期新的独立资源报告。页面只有日期、无时刻。未听取音频或视频。",
+      "importance": "AurMac 已是育空较大的未开发金资源之一，本期新信息主要是首份PEA仍定在2026年四季度。PEA尚未发布，因此对近两年矿山供应没有直接增量，下一步要看四季度评估给出的产量与资本假设。",
+      "verification_status": "verified",
+      "verification_note": "打开 Crux Investor 文章（HTTP 200）。页面日期为 2026-11-10，无具体时刻。配套视频无可用文字转录，仅依据文章正文。CEO 关于下一步资源量超过1,000万盎司的预期未作为已核实资源量采用。",
+      "companies": [
+        "Banyan Gold"
+      ],
+      "projects": [
+        "AurMac"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/interim-ruling-sets-tristar-golds-consultation-path-to-advance-us-603m-npv-gold-project-in-brazil",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-11",
+      "claims": [
+        {
+          "claim": "2026年11月4日帕拉联邦法院临时裁定：发放建设或运营许可前须完成 ECI 和 FPIC，钻探和技术、环境工作可以继续。",
+          "evidence": "On November 4, 2026, the Federal Court of Pará issued an interim ruling requiring an Indigenous Component Study (ECI) and a free, prior and informed consultation (FPIC) process before construction or operating licenses can be issued.",
+          "source_url": "https://www.cruxinvestor.com/posts/interim-ruling-sets-tristar-golds-consultation-path-to-advance-us-603m-npv-gold-project-in-brazil",
+          "evidence_type": "public original page",
+          "period": "ruling dated 2026-11-04",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "项目拥有140万盎司概算金储量。",
+          "evidence": "The project hosts 1.4 million ounces (Moz) of probable gold reserves.",
+          "source_url": "https://www.cruxinvestor.com/posts/interim-ruling-sets-tristar-golds-consultation-path-to-advance-us-603m-npv-gold-project-in-brazil",
+          "evidence_type": "public original page",
+          "period": "reserves as stated in the article",
+          "unit": "Moz Au probable",
+          "value": "1.4"
+        }
+      ],
+      "title": "TriStar 访谈：帕拉联邦法院11月4日临时裁定，Castelo de Sonhos 需先完成土著咨询才能获建设或运营许可",
+      "source_type": "webcast",
+      "summary": "Crux Investor 于11月11日发布关于 TriStar Gold 的访谈文章。文中称，2026年11月4日巴西帕拉联邦法院作出临时裁定：在发放建设或运营许可前，须完成土著成分研究（ECI）和自由、事先、知情的咨询（FPIC）；钻探、技术研究和环境工作可以继续。项目拥有140万盎司概算金储量。文中称咨询过程估计约12至18个月，可放在约两年的可行性研究之内。",
+      "detail": "许可裁定日期是11月4日，本卡依据11月11日访谈文章，不把裁定本身当作11月11日新发生的事件。页面只有日期、无时刻。未听取音频或视频。",
+      "importance": "Castelo de Sonhos 的建设与运营许可被明确绑在 FPIC 程序上，时间表因此拉长，但钻探和技术工作可以继续。这是许可路径变化，不是储量或产量数据更新，项目近期不会形成新的金供应。",
+      "verification_status": "verified",
+      "verification_note": "打开 Crux Investor 文章（HTTP 200）。页面日期为 2026-11-11，无具体时刻。裁定本身发生于11月4日，本卡记录的是窗口内访谈文章对许可路径的说明。配套视频无可用文字转录。",
+      "companies": [
+        "TriStar Gold"
+      ],
+      "projects": [
+        "Castelo de Sonhos"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/lahontan-gold-targets-2027-restart-estimated-200-000-oz-heap-leach-outside-mine-plan",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-12",
+      "claims": [
+        {
+          "claim": "2026年10月14日更新PEA为11年矿寿命、年均9.19万金当量盎司。",
+          "evidence": "An updated Preliminary Economic Assessment (PEA), released on October 14, 2026, outlines an 11-year mine life averaging 91,900 gold-equivalent ounces a year.",
+          "source_url": "https://www.cruxinvestor.com/posts/lahontan-gold-targets-2027-restart-estimated-200-000-oz-heap-leach-outside-mine-plan",
+          "evidence_type": "public original page",
+          "period": "October 14, 2026 PEA, 11-year LOM",
+          "unit": "oz AuEq per year",
+          "value": "91900"
+        },
+        {
+          "claim": "CEO 称历史堆浸场上约20万盎司在化验完成前未计入PEA前三年。",
+          "evidence": "CEO Kimberly Ann says about 200,000 ounces on historic heap leach pads are excluded from the lower-output years 1 to 3 while assays are pending.",
+          "source_url": "https://www.cruxinvestor.com/posts/lahontan-gold-targets-2027-restart-estimated-200-000-oz-heap-leach-outside-mine-plan",
+          "evidence_type": "public original page",
+          "period": "years 1–3 of PEA vs historic pads",
+          "unit": "oz (historic pad estimate)",
+          "value": "200000"
+        },
+        {
+          "claim": "公司目标约在2027年二季度取得许可，若许可按期下达则2027年四季度首次出金。",
+          "evidence": "Management is targeting permits around the second quarter of 2027 and a first gold pour in the fourth quarter of 2027",
+          "source_url": "https://www.cruxinvestor.com/posts/lahontan-gold-targets-2027-restart-estimated-200-000-oz-heap-leach-outside-mine-plan",
+          "evidence_type": "public original page",
+          "period": "permit target Q2 2027; first gold target Q4 2027",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "title": "Lahontan 访谈：Santa Fe 目标2027年二季度获许可、四季度首金；约20万盎司历史堆浸未计入PEA前三年",
+      "source_type": "webcast",
+      "summary": "Crux Investor 于11月12日发布对 Lahontan Gold CEO Kimberly Ann 的访谈文章。文中转述2026年10月14日更新PEA：11年矿寿命，年均9.19万金当量盎司。CEO 称，历史堆浸场上约20万盎司在化验完成前未计入PEA产量较低的前三年。公司目标约在2027年二季度取得许可，若许可按期下达，则2027年四季度首次出金。页面只有日期、没有时刻。",
+      "detail": "10月14日PEA已先发布，本卡重点是访谈中对许可/首金时间表以及约20万盎司历史堆浸的说明。页面无时刻，存在跨入13日北京时间窗口的可能。未听取音频或视频。",
+      "importance": "Santa Fe 复产时间表仍取决于2027年二季度许可能否按期下达。约20万盎司历史堆浸是管理层估计，且被明确排除在PEA前三年之外，因此还不能计入近期供应。",
+      "verification_status": "verified",
+      "verification_note": "打开 Crux Investor 文章（HTTP 200）。页面日期为 2026-11-12，无具体时刻。若实际发布时间晚于 16:00 UTC，则已落入11月13日北京时间窗口；本期按来源日历日暂收，并在正文注明。2026年10月14日PEA本身不是本期新报告。配套视频无可用文字转录。",
+      "companies": [
+        "Lahontan Gold"
+      ],
+      "projects": [
+        "Santa Fe"
+      ]
+    },
+    {
+      "url": "https://www.cruxinvestor.com/posts/selkirk-coppers-filed-minto-pea-sets-the-bar-for-its-2027-feasibility-study",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-10",
+      "claims": [
+        {
+          "claim": "已提交PEA规划13年复产，利用现有4,100吨/日选厂，初始资本1.86亿加元。",
+          "evidence": "The filed PEA outlines a 13-year underground and open-pit restart through the existing 4,100 tonne per day mill, with C$186 million in initial capital and an after-tax net present value (NPV7%) of C$494 million at planning prices.",
+          "source_url": "https://www.cruxinvestor.com/posts/selkirk-coppers-filed-minto-pea-sets-the-bar-for-its-2027-feasibility-study",
+          "evidence_type": "public original page",
+          "period": "PEA filed November 5, 2026",
+          "unit": "C$ million initial capex",
+          "value": "186"
+        },
+        {
+          "claim": "投资决策目标为2027年中，首次生产目标为2028年中。",
+          "evidence": "FID) targeted for mid-2027, ahead of first production targeted for mid-2028.",
+          "source_url": "https://www.cruxinvestor.com/posts/selkirk-coppers-filed-minto-pea-sets-the-bar-for-its-2027-feasibility-study",
+          "evidence_type": "public original page",
+          "period": "FID mid-2027; first production mid-2028",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "title": "Selkirk 访谈：Minto 已提交的PEA为13年复产、初始资本1.86亿加元，目标2028年中投产",
+      "source_type": "webcast",
+      "summary": "Crux Investor 于11月10日发布关于 Selkirk Copper 的访谈文章。文中称，Minto 的 NI 43-101 PEA 技术报告已于2026年11月5日提交，规划13年地下加露天复产，利用现有4,100吨/日选厂，初始资本1.86亿加元，规划价格下税后NPV7%为4.94亿加元。投资决策目标为2027年中，首次生产目标为2028年中。",
+      "detail": "PEA结果已在9月22日公布，11月5日提交的是技术报告。本卡依据11月10日访谈文章整理已提交PEA的复产框架与时间表。页面只有日期、无时刻。未听取音频或视频。",
+      "importance": "Minto 是育空已有选厂的铜矿复产项目，已提交PEA给出1.86亿加元资本和13年矿寿命的框架。首次生产目标在2028年中，仍取决于2027年可行性研究与投资决策，不是即期供应。",
+      "verification_status": "verified",
+      "verification_note": "打开 Crux Investor 文章（HTTP 200）。页面日期为 2026-11-10，无具体时刻。文中称 NI 43-101 PEA 技术报告于2026年11月5日提交，与9月22日已公布结果无重大差异。本卡依据访谈文章，不是新的PEA结果首次披露。",
+      "companies": [
+        "Selkirk Copper"
+      ],
+      "projects": [
+        "Minto"
+      ]
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/11/elemental-royalty-ele-q3-2026-earnings-call-transcript/",
+      "metal_tags": [
+        "gold",
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-12",
+      "claims": [
+        {
+          "claim": "三季度售出4,861金当量盎司，2025年同期为2,362盎司。",
+          "evidence": "GEOs Sold -- 4,861 ounces, representing growth from 2,362 ounces in the prior-year period, reflecting the impact of the EMX merger.",
+          "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/11/elemental-royalty-ele-q3-2026-earnings-call-transcript/",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "GEO oz sold",
+          "value": "4861"
+        },
+        {
+          "claim": "更新后的2026年指引为1.95万–2.20万金当量盎司，其中计入 Orion 组合约1,500金当量盎司。",
+          "evidence": "Updated 2026 Guidance -- 19,500 to 22,000 gold equivalent ounces, incorporating 1,500 GEOs of anticipated contribution from the Orion portfolio.",
+          "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/11/elemental-royalty-ele-q3-2026-earnings-call-transcript/",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "GEO oz",
+          "value": "19500-22000"
+        },
+        {
+          "claim": "Caserones 三季度收入310万美元，公司称智利暴风导致停产30天。",
+          "evidence": "Caserones Revenue -- $3.1 million, a decrease from $16.6 million reported for the first nine months of the year, reflecting a 30-day operational suspension caused by severe winter storms in Chile.",
+          "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/11/elemental-royalty-ele-q3-2026-earnings-call-transcript/",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "US$ million",
+          "value": "3.1"
+        }
+      ],
+      "title": "Elemental Royalty 电话会：三季度售出4,861金当量盎司；全年指引1.95万–2.20万盎司；Caserones 因暴风停产30天",
+      "source_type": "webcast",
+      "summary": "Elemental Royalty 三季度电话会于11月11日举行，Motley Fool 于当日19:56 UTC（北京时间11月12日03:56）发布转录。三季度售出4,861金当量盎司，高于2025年同期的2,362盎司，公司称反映了 EMX 合并影响。更新后的2026年指引为1.95万–2.20万金当量盎司，其中计入 Orion 组合约1,500金当量盎司。Caserones 三季度收入310万美元，公司称智利暴风导致停产30天。",
+      "detail": "本卡依据 Motley Fool 文字转录，未听取音频。Caserones 停产是运营商事件对特许权收入的影响，不是对矿山铜产量的独立核实。",
+      "importance": "这是特许权公司的归属产量与指引，规模小于矿山产量卡。Caserones 因暴风停产30天，反映了智利铜矿运营受到干扰，但本卡不能单独核实该矿减少了多少吨铜产量。",
+      "verification_status": "verified",
+      "verification_note": "打开 Motley Fool 电话会转录（HTTP 200）。article:published_time 为 2026-11-11T19:56:08Z，合北京时间11月12日03:56，在窗口内。电话会本身为11月11日美东10:00（北京时间11月11日23:00），也在窗口内。依据页面嵌入的完整转录，未听取音频。",
+      "companies": [
+        "Elemental Royalty"
+      ],
+      "projects": [
+        "Caserones",
+        "Karlawinda"
+      ]
+    },
+    {
+      "url": "https://stockanalysis.com/quote/otc/FTCO/transcripts/725345-q3-2026/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-12",
+      "claims": [
+        {
+          "claim": "2026年三季度产金2,139盎司。",
+          "evidence": "The third quarter of 2026 highlights include 2,139 gold ounces produced",
+          "source_url": "https://stockanalysis.com/quote/otc/FTCO/transcripts/725345-q3-2026/",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz Au",
+          "value": "2139"
+        },
+        {
+          "claim": "County Line 三季度贡献1,075盎司。",
+          "evidence": "County Line contributed 1,075 oz in Q3",
+          "source_url": "https://stockanalysis.com/quote/otc/FTCO/transcripts/725345-q3-2026/",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz Au",
+          "value": "1075"
+        }
+      ],
+      "title": "Fortitude Gold 电话会：三季度产金2,139盎司，其中 County Line 贡献1,075盎司；Golden Mile 建设仍待许可",
+      "source_type": "webcast",
+      "summary": "Fortitude Gold 三季度电话会于11月11日美东11:00（北京时间11月12日00:00）举行。CEO Jason Reid 称，2026年三季度产金2,139盎司；County Line 当季贡献1,075盎司。管理层表示，Golden Mile 的许可已到可以很快进入 NEPA 阶段的程度，并打算把 Golden Mile 作为下一座矿山的优先许可项目；建设仍取决于许可进度。",
+      "detail": "本卡依据 StockAnalysis 文字转录，未听取音频。Golden Mile 2027年建设仍取决于许可，不是已批准的开工决定。",
+      "importance": "Fortitude 三季度仅产金2,139盎司，对全球供应影响很小。County Line 已开始贡献产量，Golden Mile 能否在2027年建设仍取决于许可，因此还不是确定的产能扩张。",
+      "verification_status": "verified",
+      "verification_note": "打开 StockAnalysis 电话会转录（HTTP 200）。CEO 在会上称“today, November 11th, 2026”；公司电话会时间为美东11:00，合北京时间11月12日00:00，在窗口内。依据页面完整发言转录，未听取音频。",
+      "companies": [
+        "Fortitude Gold"
+      ],
+      "projects": [
+        "County Line",
+        "Isabella Pearl",
+        "Golden Mile"
+      ]
+    }
+  ],
+  "part2_x_posts": [],
+  "part3_news": [
+    {
+      "url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-q3-2026-results/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12",
+      "claims": [
+        {
+          "claim": "Assafou 已批准 FID 并启动开发：前8年规划年产32万盎司，AISC 1,026美元/盎司，初始矿寿命16年，预期2029年上半年出金。",
+          "evidence": "FID approved and project development launched at top tier Assafou project (320kozpa at AISC of $1,026/oz for first 8 years of initial 16-year mine-life) with first gold expected in H1-2029",
+          "source_url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-q3-2026-results/",
+          "evidence_type": "public original page",
+          "period": "Assafou first 8 years / first gold H1-2029",
+          "unit": "kozpa Au",
+          "value": "320"
+        },
+        {
+          "claim": "初始资本估算略增至12亿美元。",
+          "evidence": "Initial capital cost estimate slightly increased to $1.2bn, reflecting additional compensation and de-risking costs.",
+          "source_url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-q3-2026-results/",
+          "evidence_type": "public original page",
+          "period": "Assafou initial capex",
+          "unit": "US$ bn",
+          "value": "1.2"
+        },
+        {
+          "claim": "公司称有望达到全年产量指引109.0万–126.5万盎司的下半区间；Mana 自10月28日起暂停井下开采，预计低于15.5万–18.0万盎司指引下限。",
+          "evidence": "The Group is on track to achieve the lower half of its FY-2026 production guidance of 1,090 - 1,265koz",
+          "source_url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-q3-2026-results/",
+          "evidence_type": "public original page",
+          "period": "FY-2026 production guidance",
+          "unit": "koz Au",
+          "value": "1090-1265"
+        }
+      ],
+      "source": "Endeavour Mining（公司公告）",
+      "title": "Endeavour：批准科特迪瓦 Assafou 金矿 FID，前8年规划年产32万盎司、AISC 1,026美元；全年指引料落在下半区间",
+      "excerpt": "Endeavour Mining 于11月12日发布三季报并宣布批准科特迪瓦 Assafou 项目最终投资决策，启动开发。新闻稿称，项目前8年规划年产32万盎司，AISC 1,026美元/盎司，初始矿寿命16年，预期2029年上半年出金；初始资本估算略增至12亿美元。年初至今产金82万盎司，三季度产金25.6万盎司。公司称全年产量指引109.0万–126.5万盎司仍有效，有望落在下半区间。Mana 因通往 Wona 露天矿的斜坡部分沉降，自10月28日起暂停井下开采，预计产量低于15.5万–18.0万盎司指引下限；选矿预计暂停至2027年二季度。",
+      "language": "en",
+      "interpretation": "Assafou FID 把一座规划中的金矿推进到建设阶段，贡献在2029年之后。近端供应的变化是 Mana 暂停和全年指引落到下半区间，公司称 Lafigué 超产只能部分对冲。",
+      "importance": "Assafou 前8年规划年产32万盎司，是窗口内最重要的中期金矿开发决定，贡献要到2029年上半年才会出现。Mana 停产会拉低四季度产量，但集团仍维持原指引、只是指向下半区间。",
+      "verification_status": "verified",
+      "verification_note": "阅读公司 IR 页面及官方完整新闻稿。IR 标注日期为 2026年11月12日伦敦，无具体时刻；Mining.com 转载 article:published_time 为 2026-11-12T11:48:00Z（北京时间19:48），在窗口内。Mana 井下暂停与指引下半区间等要点以完整新闻稿为准。",
+      "companies": [
+        "Endeavour Mining"
+      ],
+      "projects": [
+        "Assafou",
+        "Mana",
+        "Lafigué"
+      ]
+    },
+    {
+      "url": "https://integraresources.com/news/integra-reports-third-quarter-2026-results-from-florida-canyon-increase-in-quarterly-gold-production-and-strengthened-financial-position-provides-operational-update/",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T07:21:09+08:00",
+      "claims": [
+        {
+          "claim": "Florida Canyon 2026年产量指引由7.0万–7.5万盎司下调至5.9万–6.2万盎司。",
+          "evidence": "The Company is revising its 2026 production guidance at Florida Canyon from 70,000–75,000 ounces of gold to 59,000–62,000 ounces, because recent leaching rates have not kept pace with increased mining rates.",
+          "source_url": "https://integraresources.com/news/integra-reports-third-quarter-2026-results-from-florida-canyon-increase-in-quarterly-gold-production-and-strengthened-financial-position-provides-operational-update/",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz Au",
+          "value": "59000-62000"
+        },
+        {
+          "claim": "三季度产金17,652盎司。",
+          "evidence": "In Q3 2026, Florida Canyon produced 17,652 gold ounces and sold 16,760 gold ounces",
+          "source_url": "https://integraresources.com/news/integra-reports-third-quarter-2026-results-from-florida-canyon-increase-in-quarterly-gold-production-and-strengthened-financial-position-provides-operational-update/",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz Au",
+          "value": "17652"
+        }
+      ],
+      "source": "Integra Resources（公司 IR）",
+      "title": "Integra：Florida Canyon 全年金指引由7.0万–7.5万下调至5.9万–6.2万盎司，三季度产金17,652盎司",
+      "excerpt": "Integra Resources 于11月11日18:21 ET（北京时间11月12日07:21）发布 Florida Canyon 三季报。三季度产金17,652盎司，售金16,760盎司。公司把2026年产量指引由7.0万–7.5万盎司下调至5.9万–6.2万盎司，解释为近期浸出速度没有跟上提高后的采矿速度，并为此下调余下时间的采矿速度。",
+      "language": "en",
+      "interpretation": "当季产量环比仍在增加，但浸出滞后使全年可回收数量下降。下调后的指引中值约减少1.2万盎司。",
+      "importance": "Florida Canyon 全年指引中值由约7.25万盎司下调至约6.05万盎司，是已投产堆浸矿的正式减产。对公司自身影响不小，但对全球金供应来说仍是较小数量。",
+      "verification_status": "verified",
+      "verification_note": "阅读公司 IR 页面。datePublished 为 2026-11-11T23:21:09Z，合北京时间11月12日07:21，在窗口内。电话会始于13日00:00北京时间，未纳入 Part 1。",
+      "companies": [
+        "Integra Resources"
+      ],
+      "projects": [
+        "Florida Canyon"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/11/3401167/0/en/montage-gold-reports-on-its-q3-2026-activities.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T06:15:00+08:00",
+      "claims": [
+        {
+          "claim": "Koné 氧化回路于2026年9月26日首次出金，早于原定的2027年二季度。",
+          "evidence": "The Company’s first gold pour occurred on September 26, 2026, following the addition and early completion of the oxide circuit",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401167/0/en/montage-gold-reports-on-its-q3-2026-activities.html",
+          "evidence_type": "public original page",
+          "period": "first gold 2026-09-26",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "10月产金23,462盎司；处理约88.8万吨，平均超过11 Mtpa名义产能的90%，最后一个星期达到104%。",
+          "evidence": "Total gold produced in October amounted to 23,462 ounces, totalling 24,746 ounces produced since the first gold pour was achieved, excluding gold-in-circuit (“GIC”) inventory.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401167/0/en/montage-gold-reports-on-its-q3-2026-activities.html",
+          "evidence_type": "public original page",
+          "period": "October 2026",
+          "unit": "oz Au",
+          "value": "23462"
+        },
+        {
+          "claim": "截至发布日已承诺资本7.964亿美元，约占8.85亿美元预算的90%。",
+          "evidence": "which has further increased to approximately $796.4 million as at today, representing approximately 90% of the total $885.0 million capital expenditure, with prices in line with expectations.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401167/0/en/montage-gold-reports-on-its-q3-2026-activities.html",
+          "evidence_type": "public original page",
+          "period": "capital committed as of the release date",
+          "unit": "US$ million",
+          "value": "796.4"
+        }
+      ],
+      "source": "Montage Gold（GlobeNewswire）",
+      "title": "Montage：Koné 9月26日首次出金，10月产金23,462盎司，选厂达11 Mtpa名义产能的90%",
+      "excerpt": "Montage Gold 于11月11日17:15 ET（北京时间11月12日06:15）发布三季度活动报告。Koné 氧化回路于9月26日首次出金，早于原定的2027年二季度。10月处理约88.8万吨，平均超过11 Mtpa名义产能的90%，最后一个星期达到104%；10月产金23,462盎司。公司称有望在2026年四季度宣告商业生产；硬岩回路仍定在2027年二季度完工。截至发布日已承诺资本7.964亿美元，约占8.85亿美元预算的90%。",
+      "language": "en",
+      "interpretation": "氧化回路爬坡快于原计划，10月已接近或阶段性超过名义产能。硬岩处理和全面达产仍要到2027年。",
+      "importance": "Koné 是西非正在爬坡的新金矿，10月产金23,462盎司说明氧化回路已经形成可核对的产量。这对近两个季度的金供应是可见增量，硬岩回路仍要到2027年二季度才能完成。",
+      "verification_status": "verified",
+      "verification_note": "阅读 GlobeNewswire 新闻稿。发布时间为 2026-11-11T22:15:00Z（17:15 ET），合北京时间11月12日06:15，为上期结转项，在本期窗口内。",
+      "companies": [
+        "Montage Gold"
+      ],
+      "projects": [
+        "Koné"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/11/3401156/0/en/magna-mining-reports-operating-and-financial-results-for-the-third-quarter-of-2026.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T06:00:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年 McCreedy West 铜当量可付产量指引由1,600万–1,800万磅调整为1,450万–1,550万磅。",
+          "evidence": "The Company has updated its operational guidance for McCreedy West and now expects to produce 14.5 – 15.5 million CuEq payable lbs in 2026 due to operational challenges experienced during Q3 2026.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401156/0/en/magna-mining-reports-operating-and-financial-results-for-the-third-quarter-of-2026.html",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "million lbs CuEq payable",
+          "value": "14.5-15.5"
+        },
+        {
+          "claim": "三季度产3.7百万磅铜当量可付金属，前三季度合计12.3百万磅。",
+          "evidence": "The Company produced 3.7 million CuEq payable lbs in Q3 2026 and a total of 12.3 million CuEq payable lbs in the first three quarters of 2026.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401156/0/en/magna-mining-reports-operating-and-financial-results-for-the-third-quarter-of-2026.html",
+          "evidence_type": "public original page",
+          "period": "Q3 2026 / YTD 2026",
+          "unit": "million lbs CuEq payable",
+          "value": "3.7"
+        }
+      ],
+      "source": "Magna Mining（GlobeNewswire）",
+      "title": "Magna：McCreedy West 三季度产3.7百万磅铜当量，全年指引由1,600万–1,800万磅下调至1,450万–1,550万磅",
+      "excerpt": "Magna Mining 于11月11日17:00 ET（北京时间11月12日06:00）发布三季报。McCreedy West 三季度产3.7百万磅铜当量可付金属，前三季度合计12.3百万磅。公司把2026年运营指引更新为1,450万–1,550万磅铜当量可付产量，表格中此前指引为1,600万–1,800万磅；公司称原因是三季度遇到的运营困难。",
+      "language": "en",
+      "interpretation": "这是已投产铜矿的正式指引下调，中值由1,700万磅降至1,500万磅。数量对全球铜供应影响很小，但对 McCreedy West 全年进度是明确下修。",
+      "importance": "McCreedy West 全年指引中值由1,700万磅下调至1,500万磅，反映三季度运营困难已经影响到全年进度。需要与同日 Levack 复产进展分开看：一个是在产矿山产量下修，一个是相邻矿山的2027年预投产计划。",
+      "verification_status": "verified",
+      "verification_note": "阅读 GlobeNewswire 三季报。发布时间为 2026-11-11T22:00:00Z（17:00 ET），合北京时间11月12日06:00，为上期结转项。与11月12日 Levack 钻探/复产进展是不同的新闻稿。",
+      "companies": [
+        "Magna Mining"
+      ],
+      "projects": [
+        "McCreedy West"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/12/3401370/0/en/magna-provides-additional-assay-results-and-update-on-development-activities-at-levack-mine-in-sudbury-ontario.html",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T19:45:00+08:00",
+      "claims": [
+        {
+          "claim": "MLV-26-80 在 R2 下盘带见3.9米7.9%铜当量，含0.7米25.8%铜。",
+          "evidence": "MLV-26-80 5.6% Cu, 0.9% Ni, 4.4 g/t Pt+Pd+Au, 34.0/t Ag (7.9% CuEq) over 3.9 metres, from 475.3 metres down hole",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401370/0/en/magna-provides-additional-assay-results-and-update-on-development-activities-at-levack-mine-in-sudbury-ontario.html",
+          "evidence_type": "public original page",
+          "period": "hole MLV-26-80",
+          "unit": "% CuEq over 3.9 m",
+          "value": "7.9"
+        },
+        {
+          "claim": "竖井修复与提升机重新投用目标在2027年一季度完成，并准备在2027年预投产。",
+          "evidence": "The shaft guides have been replaced on schedule and hoist upgrades are underway. Completion of this project will allow hoisting of stockpi",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401370/0/en/magna-provides-additional-assay-results-and-update-on-development-activities-at-levack-mine-in-sudbury-ontario.html",
+          "evidence_type": "public original page",
+          "period": "hoist completion target Q1 2027",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Magna Mining（GlobeNewswire）",
+      "title": "Magna：Levack R2 见3.9米7.9%铜当量（含0.7米25.8%铜），提升机改造目标2027年一季度完成并在年内预投产",
+      "excerpt": "Magna Mining 于11月12日06:45 ET（北京时间19:45）发布 Levack 矿钻探与开发进展。R2 下盘带钻孔 MLV-26-80 见3.9米7.9%铜当量（5.6%铜等），含0.7米25.8%铜、33.3%铜当量。公司称竖井修复与提升机重新投用仍定在2027年一季度完成，并准备在2027年进行预投产。",
+      "language": "en",
+      "interpretation": "高品位见矿支持 Levack 作为 McCreedy West 邻矿的复产准备，但提升机和预投产都还在2027年时间表上，不是即期产量。",
+      "importance": "Levack 的高品位见矿和提升机改造，是苏必利尔地区铜矿复产路径上的工程节点。预投产仍定在2027年，因此不改变本期铜供应，并需与同日 McCreedy West 指引下调分开看待。",
+      "verification_status": "verified",
+      "verification_note": "阅读 GlobeNewswire 新闻稿。发布时间为 2026-11-12T11:45:00Z（06:45 ET），合北京时间19:45，在窗口内。与11月11日17:00 ET 的三季报是不同披露。",
+      "companies": [
+        "Magna Mining"
+      ],
+      "projects": [
+        "Levack"
+      ]
+    },
+    {
+      "url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Delivers-Record-Third-Quarter-2026-Results-Further-Improves-Cost-Guidance-and-Advances-Copper-Growth-Pipeline/default.aspx",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T19:00:00+08:00",
+      "claims": [
+        {
+          "claim": "公司重申2026年合并产量指引：铜11.0万–13.8万吨，金21.7万–27.2万盎司。",
+          "evidence": "Reaffirmed full year 2026 consolidated production guidance including 110,000 to 138,000 tonnes of copper and 217,000 to 272,000 ounces of gold.",
+          "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Delivers-Record-Third-Quarter-2026-Results-Further-Improves-Cost-Guidance-and-Advances-Copper-Growth-Pipeline/default.aspx",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "t Cu / oz Au",
+          "value": "110000-138000 t Cu"
+        },
+        {
+          "claim": "合并现金成本指引再下调至-0.55至-0.35美元/磅，此前更新值为-0.45至-0.25美元/磅。",
+          "evidence": "Further improved full year 2026 consolidated cash costi guidance range to $(0.55) to $(0.35) per pound of copper, an additional improvement from the previously updated guidance range of $(0.45) to $(0.25) per pound of copper",
+          "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Delivers-Record-Third-Quarter-2026-Results-Further-Improves-Cost-Guidance-and-Advances-Copper-Growth-Pipeline/default.aspx",
+          "evidence_type": "public original page",
+          "period": "FY2026 cash cost guidance",
+          "unit": "US$/lb Cu",
+          "value": "$(0.55)-$(0.35)"
+        },
+        {
+          "claim": "三季度合并产铜30,152吨、产金69,513盎司。",
+          "evidence": "Higher consolidated copper production of 30,152 tonnes and gold production of 69,513 ounces in the third quarter of 2026, representing a 7% and 36% increase, respectively, compared to the second quarter of 2026.",
+          "source_url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Delivers-Record-Third-Quarter-2026-Results-Further-Improves-Cost-Guidance-and-Advances-Copper-Growth-Pipeline/default.aspx",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "t Cu / oz Au",
+          "value": "30152 t Cu"
+        }
+      ],
+      "source": "Hudbay Minerals（公司 IR / GlobeNewswire）",
+      "title": "Hudbay：重申全年产铜11.0万–13.8万吨、产金21.7万–27.2万盎司，现金成本指引再下调至-0.55至-0.35美元/磅",
+      "excerpt": "Hudbay 于11月12日06:00 ET（北京时间19:00）发布三季报。三季度合并产铜30,152吨、产金69,513盎司，分别较二季度增加7%和36%。公司重申2026年合并产量指引：铜11.0万–13.8万吨，金21.7万–27.2万盎司。合并现金成本指引由此前更新后的-0.45至-0.25美元/磅，再下调至-0.55至-0.35美元/磅；维持性现金成本指引下调至1.40–1.80美元/磅。",
+      "language": "en",
+      "interpretation": "产量指引维持不变，成本指引连续第二次下修，说明公司认为副产品收益和运营成本仍好于此前预期。这不是产量上修。",
+      "importance": "Hudbay 是窗口内主要在产铜金企业之一。重申11.0万–13.8万吨铜指引，意味着近端供应计划没有新的上修或下调；成本指引变化影响利润，不直接改变金属供应量。",
+      "verification_status": "verified",
+      "verification_note": "阅读公司 IR / GlobeNewswire 原稿。一手发布时间为 2026-11-12T11:00:00Z（06:00 ET），合北京时间19:00，在窗口内。Mining.com 转载 article:published_time 为 2026-11-12T22:10:00Z（北京时间13日06:10），已超出窗口，不用转载时间把本卡顺延。",
+      "companies": [
+        "Hudbay Minerals"
+      ],
+      "projects": [
+        "Constancia",
+        "Copper Mountain",
+        "Manitoba"
+      ]
+    },
+    {
+      "url": "https://www.ayagoldsilver.com/news/news-releases/aya-gold--silver-reports-strong-q3-2026-results-on-record-production-and-lower-cash-costs",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T20:00:00+08:00",
+      "claims": [
+        {
+          "claim": "Zgounder 2026年白银产量指引收窄为560万–580万盎司，下限由520万盎司上调。",
+          "evidence": "Zgounder 2026 silver production guidance narrowed to 5.6–5.8 million ounces, raising the low end of the prior 5.2–5.8 million ounce range",
+          "source_url": "https://www.ayagoldsilver.com/news/news-releases/aya-gold--silver-reports-strong-q3-2026-results-on-record-production-and-lower-cash-costs",
+          "evidence_type": "public original page",
+          "period": "FY2026 Zgounder guidance",
+          "unit": "Moz Ag",
+          "value": "5.6-5.8"
+        },
+        {
+          "claim": "三季度合并产量200万银当量盎司，其中 Zgounder 产银150万盎司。",
+          "evidence": "Consolidated production of 2.0 Moz AgEq, up 51% YoY, including 1.5 Moz Ag and 0.5 Moz AgEq2 respectively from the Zgounder Silver Mine (\"Zgounder\") and the Boumadine pyrite reclaim operation.",
+          "source_url": "https://www.ayagoldsilver.com/news/news-releases/aya-gold--silver-reports-strong-q3-2026-results-on-record-production-and-lower-cash-costs",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "Moz AgEq / Moz Ag",
+          "value": "2.0 / 1.5"
+        }
+      ],
+      "source": "Aya Gold & Silver（公司 IR / GlobeNewswire）",
+      "title": "Aya：上调 Zgounder 全年银指引下限至560万–580万盎司，三季度产银150万盎司",
+      "excerpt": "Aya Gold & Silver 于11月12日07:00 ET（北京时间20:00）发布三季报。Zgounder 2026年白银产量指引收窄为560万–580万盎司，下限由此前的520万盎司上调。合并银当量产量预期为660万–680万盎司，其中 Zgounder 为560万–580万盎司。三季度合并产量200万银当量盎司，其中 Zgounder 产银150万盎司，Boumadine 黄铁矿回收贡献50万银当量盎司。",
+      "language": "en",
+      "interpretation": "这是已投产银矿把指引下限上修、上限不变，中值增加约20万盎司。对全球矿产银供应仍是较小增量。",
+      "importance": "Zgounder 把全年银指引下限由520万盎司上调至560万盎司，是本期最明确的白银产量指引上修。电话会文字转录未能读到，本卡只依据新闻稿，对全球矿产银供应仍是较小增量。",
+      "verification_status": "verified",
+      "verification_note": "阅读公司 IR 与 GlobeNewswire 新闻稿。发布时间为 2026-11-12T12:00:00Z（07:00 ET），合北京时间20:00，在窗口内。",
+      "companies": [
+        "Aya Gold & Silver"
+      ],
+      "projects": [
+        "Zgounder",
+        "Boumadine"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/12/3401211/0/en/mineros-delivers-record-nine-months-revenue-of-838-million-and-record-adjusted-ebitda-of-402-million-on-sales-of-187-133-gold-equivalent-ounces.html",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T12:54:12+08:00",
+      "claims": [
+        {
+          "claim": "2026年合并金产量指引第二次上调至23.5万–24.5万盎司，此前为22.0万–24.0万盎司，最初为21.3万–23.3万盎司。",
+          "evidence": "prompting the Company to revise upward, for a second time, its full-year 2026 guidance to 235,000 – 245,000 ounces from 220,000 – 240,000, and originally 213,000 - 233,000.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401211/0/en/mineros-delivers-record-nine-months-revenue-of-838-million-and-record-adjusted-ebitda-of-402-million-on-sales-of-187-133-gold-equivalent-ounces.html",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz Au",
+          "value": "235000-245000"
+        },
+        {
+          "claim": "三季度产金62,253盎司，同比增加13%。",
+          "evidence": "Gold production totaled 62,253 ounces in Q3 2026, up 13% compared with Q3 2025.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/12/3401211/0/en/mineros-delivers-record-nine-months-revenue-of-838-million-and-record-adjusted-ebitda-of-402-million-on-sales-of-187-133-gold-equivalent-ounces.html",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz Au",
+          "value": "62253"
+        }
+      ],
+      "source": "Mineros（GlobeNewswire）",
+      "title": "Mineros：第二次上调全年金指引至23.5万–24.5万盎司，三季度产金62,253盎司",
+      "excerpt": "Mineros 新闻稿发布时间为 2026-11-12T04:54:12Z（北京时间12:54）。公司第二次上调2026年合并金产量指引，由22.0万–24.0万盎司上调至23.5万–24.5万盎司；最初指引为21.3万–23.3万盎司。三季度产金62,253盎司，同比增加13%，其中 Hemco 37,698盎司、Nechí 24,555盎司。前九个月产金180,356盎司。",
+      "language": "en",
+      "interpretation": "这是年内第二次上修，中值已由最初的22.3万盎司升至24.0万盎司。增量来自在产矿山的实际产量，不是新项目投产。",
+      "importance": "全年指引中值由最初的22.3万盎司升至24.0万盎司，对这家中型金矿商是明确的供应上修，绝对数量仍有限。与 Crux 访谈中的 Nechí 分项相比，本卡采用公司正式合并指引。",
+      "verification_status": "verified",
+      "verification_note": "阅读 GlobeNewswire 新闻稿。published 为 2026-11-12T04:54:12Z，合北京时间12:54，在窗口内。公司 IR 路径返回 404，故采用 GNW 原稿。Crux 对 Nechí 的访谈未另列 Part 1，以免与本篇合并指引重复。",
+      "companies": [
+        "Mineros"
+      ],
+      "projects": [
+        "Hemco",
+        "Nechí"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/11/3401119/0/en/or-royalties-reports-strong-third-quarter-2026-results.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T05:04:41+08:00",
+      "claims": [
+        {
+          "claim": "三季度获得20,237金当量盎司；前九个月63,734金当量盎司，公司称正迈向8.0万–9.0万盎司指引中值。",
+          "evidence": "With 63,734 GEOs earned over the first nine months of 2026, OR Royalties remains on track for approximately the mid-point of its 2026 guidance of 80,000 to 90,000 GEOs.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/11/3401119/0/en/or-royalties-reports-strong-third-quarter-2026-results.html",
+          "evidence_type": "public original page",
+          "period": "Q3 / 9M 2026; FY2026 guidance mid-point",
+          "unit": "GEO oz",
+          "value": "63734 YTD; 80000-90000 guidance"
+        }
+      ],
+      "source": "OR Royalties（GlobeNewswire）",
+      "title": "OR Royalties：三季度获20,237金当量盎司，称正迈向全年8.0万–9.0万盎司指引中值",
+      "excerpt": "OR Royalties 于11月11日16:04 ET（北京时间11月12日05:04）发布三季报。三季度获得20,237金当量盎司，2025年同期为20,326盎司。前九个月获得63,734金当量盎司，公司称仍有望达到2026年8.0万–9.0万金当量盎司指引的大约中值。",
+      "language": "en",
+      "interpretation": "这是特许权公司的归属产量，不是矿山出矿量。指引区间没有修改，公司只是重申靠近中值。",
+      "importance": "20,237金当量盎司是特许权归属产量，信息价值低于矿山产量指引调整。公司只是重申8.0万–9.0万盎司指引中值，电话会转录要到13日窗口才能核对是否有新的运营细节。",
+      "verification_status": "verified",
+      "verification_note": "阅读 GlobeNewswire 新闻稿。published 为 2026-11-11T21:04:41Z（16:04 ET），合北京时间11月12日05:04，为上期结转项。纳入依据是三季度金当量盎司及重申指引中值，不是11月2日 Windfall 环评批准。Fool 电话会转录发布于13日北京时间，顺延。",
+      "companies": [
+        "OR Royalties"
+      ],
+      "projects": [
+        "Windfall"
+      ]
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/franco-nevada-reports-q3-2026-results-302936997.html",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T06:30:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年总GEO销售指引由51.0万–57.0万盎司收窄至52.5万–55.5万盎司。",
+          "evidence": "For Total GEO sales, we have narrowed our guidance range, toward the midpoint of our original guidance.",
+          "source_url": "https://www.prnewswire.com/news-releases/franco-nevada-reports-q3-2026-results-302936997.html",
+          "evidence_type": "public original page",
+          "period": "FY2026 GEO sales guidance",
+          "unit": "oz GEO",
+          "value": "525000-555000"
+        },
+        {
+          "claim": "金销售指引由36.0万–40.0万盎司调整为35.5万–38.5万盎司。",
+          "evidence": "Gold ounces sold (oz) 355,000 to 385,000 360,000 to 400,000",
+          "source_url": "https://www.prnewswire.com/news-releases/franco-nevada-reports-q3-2026-results-302936997.html",
+          "evidence_type": "public original page",
+          "period": "FY2026 gold sales guidance",
+          "unit": "oz Au",
+          "value": "355000-385000"
+        }
+      ],
+      "source": "Franco-Nevada（PR Newswire）",
+      "title": "Franco-Nevada：收窄全年GEO销售指引至52.5万–55.5万盎司，金销售指引下调至35.5万–38.5万盎司",
+      "excerpt": "Franco-Nevada 于11月11日17:30 ET（北京时间11月12日06:30）发布三季报。三季度售出130,435金当量盎司，同比减少6%。公司把2026年总GEO销售指引向中值收窄，由51.0万–57.0万盎司调整为52.5万–55.5万盎司；金销售指引由36.0万–40.0万盎司调整为35.5万–38.5万盎司，白银由470万–550万盎司调整为470万–500万盎司。",
+      "language": "en",
+      "interpretation": "总GEO区间收窄、中值不变；金销售区间的中值略降。这是特许权组合的销售指引，不是某一座矿山的新产量数据。",
+      "importance": "总GEO销售指引向中值收窄，金销售指引中值略降，反映组合内金和白银交割略弱于原预期。这是特许权销售口径的调整，并不改变矿山出矿计划，对全球矿山供应的直接含义仍然有限。",
+      "verification_status": "verified",
+      "verification_note": "阅读 PR Newswire 新闻稿。datePublished 为 2026-11-11T22:30:00Z（17:30 ET），合北京时间11月12日06:30，为上期结转项。本卡只记录 Franco-Nevada 自身的 GEO/销售指引，不把运营商已公布事件写成新的供应卡。Fool 电话会转录发布于13日北京时间，顺延。",
+      "companies": [
+        "Franco-Nevada"
+      ],
+      "projects": []
+    },
+    {
+      "url": "https://www.firstmajestic.com/investors/news-releases/first-majestic-reports-positive-exploration-results-at-jerritt-canyon-and-provides-restart-progress-update",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T20:00:00+08:00",
+      "claims": [
+        {
+          "claim": "Saval 钻孔 SC-26-030 见48.8米4.24克/吨金，含19.8米7.39克/吨。",
+          "evidence": "Highlights include 48.8 metres (\"m\") grading 4.24 g/t Au, including 19.8 m at 7.39 g/t Au, in hole SC-26-030, and 36.6 m grading 5.87 g/t Au, including 9.1 m at 19.67 g/t Au, in hole SC-26-",
+          "source_url": "https://www.firstmajestic.com/investors/news-releases/first-majestic-reports-positive-exploration-results-at-jerritt-canyon-and-provides-restart-progress-update",
+          "evidence_type": "public original page",
+          "period": "Saval RC drilling highlights",
+          "unit": "m @ g/t Au",
+          "value": "48.8 m @ 4.24"
+        },
+        {
+          "claim": "地表钻探已完成15,983米、146孔；重启目标仍为2027年下半年。",
+          "evidence": "The total surface drilling program has completed 15,983 m across 146 holes, with assays pending for many of the holes, particularly in the northern part of the property.",
+          "source_url": "https://www.firstmajestic.com/investors/news-releases/first-majestic-reports-positive-exploration-results-at-jerritt-canyon-and-provides-restart-progress-update",
+          "evidence_type": "public original page",
+          "period": "surface program to date; restart targeted H2 2027",
+          "unit": "m drilled",
+          "value": "15983"
+        }
+      ],
+      "source": "First Majestic Silver（公司 IR / Newsfile）",
+      "title": "First Majestic：Jerritt Canyon Saval 见48.8米4.24克/吨金，重启目标维持2027年下半年",
+      "excerpt": "First Majestic 于11月12日07:00 EST（北京时间20:00）发布 Jerritt Canyon 勘探与重启进展。Saval 反循环钻探亮点包括：SC-26-030 见48.8米4.24克/吨金，含19.8米7.39克/吨；SC-26-023 见36.6米5.87克/吨，含9.1米19.67克/吨。地表钻探已完成15,983米、146孔，部分化验仍未出。公司称重启目标仍为2027年下半年。",
+      "language": "en",
+      "interpretation": "高品位浅部见矿被用来评估 Saval 能否作为露天给矿，与地下开采一并考虑。重启时间表没有提前，仍在2027年下半年。",
+      "importance": "Jerritt Canyon 是北美已停产、规划复产的金矿。本期没有把重启时点提前，主要是 Saval 勘探数据和对2027年下半年时间表的重申，因此近端金供应不变。",
+      "verification_status": "verified",
+      "verification_note": "阅读公司 IR 与 Newsfile 同一份新闻稿。发布时间为 2026-11-12 7:00 AM EST，合北京时间20:00，在窗口内。这是新的勘探/重启进展披露，不是11月9日 Metso 设备订单。",
+      "companies": [
+        "First Majestic Silver"
+      ],
+      "projects": [
+        "Jerritt Canyon",
+        "Saval"
+      ]
+    },
+    {
+      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/faraday-copper-reports-third-quarter-2026-financial-results-and-announces-changes-1249972",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T06:30:00+08:00",
+      "claims": [
+        {
+          "claim": "San Manuel 已启动最初2.4万米金刚石钻探，目前3台钻机作业，计划在未来数周增至7台。",
+          "evidence": "Commenced an initial 24,000 metre diamond drill program at the San Manuel project with the primary objective of confirming the historical mineral resource estimate.",
+          "source_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/faraday-copper-reports-third-quarter-2026-financial-results-and-announces-changes-1249972",
+          "evidence_type": "public original page",
+          "period": "San Manuel drill program commenced",
+          "unit": "m",
+          "value": "24000"
+        },
+        {
+          "claim": "Copper Creek 与 San Manuel 矿产资源量更新目标在2027年中。",
+          "evidence": "The Mineral Resource Estimates are expected by mid-2027 for the Copper Creek project and the San Manuel project.",
+          "source_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/faraday-copper-reports-third-quarter-2026-financial-results-and-announces-changes-1249972",
+          "evidence_type": "public original page",
+          "period": "MRE target mid-2027",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Faraday Copper（ACCESS Newswire）",
+      "title": "Faraday：San Manuel 开钻2.4万米计划，现有3台钻机、即将增至7台，资源量目标2027年中更新",
+      "excerpt": "Faraday Copper 于11月11日17:30 ET（北京时间11月12日06:30）发布三季报。公司已在 San Manuel 启动最初2.4万米金刚石钻探，目的是验证历史资源量；目前有3台钻机作业，计划在未来数周增至7台，并称已收到第一批可见氧化铜的岩心。Copper Creek 与 San Manuel 的矿产资源量更新目标在2027年中。",
+      "language": "en",
+      "interpretation": "这是钻探开工和资源量时间表，还没有新的化验结果或资源量数字。10月15日收购已先披露，本卡不把它当作新事件。",
+      "importance": "San Manuel 已开钻2.4万米计划，但本期还没有化验结果。资源量要到2027年中才更新，因此对近两年铜供应没有直接增量，只是确认项目已进入验证钻探阶段。",
+      "verification_status": "verified",
+      "verification_note": "公司 IR 页面未能读到可用正文；核验依据是 ACCESS Newswire 新闻稿（11月11日17:30 ET，北京时间11月12日06:30），为上期结转项。纳入依据是 San Manuel 钻探与资源量时间表，不是董事会变动，也不是已于10月15日完成的收购。",
+      "companies": [
+        "Faraday Copper"
+      ],
+      "projects": [
+        "San Manuel",
+        "Copper Creek"
+      ]
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/gr-silver-drill-program-delivers-high-grade-intercepts-35-45-m-at-311-g-t-ag-including-0-4-m-at-4-232-g-t-ag-in-the-se-area-and-2-15-m-at-1-164-g-t-ag-0-6-cu-and-0-37-w-in-the-parallel-breccia-target-889992678.html",
+      "metal_tags": [
+        "silver",
+        "copper"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T07:00:00+08:00",
+      "claims": [
+        {
+          "claim": "SMS26-19 见真宽35.45米311克/吨银，含真宽0.4米4,232克/吨银。",
+          "evidence": "Hole SMS26-19 returned 35.45 m true width (\"TW\") at 311 g/t Ag, including 0.4 m TW at 4,232 g/t Ag and 1.35 TW m at 996 g/t Ag",
+          "source_url": "https://www.newswire.ca/news-releases/gr-silver-drill-program-delivers-high-grade-intercepts-35-45-m-at-311-g-t-ag-including-0-4-m-at-4-232-g-t-ag-in-the-se-area-and-2-15-m-at-1-164-g-t-ag-0-6-cu-and-0-37-w-in-the-parallel-breccia-target-889992678.html",
+          "evidence_type": "public original page",
+          "period": "hole SMS26-19",
+          "unit": "m TW @ g/t Ag",
+          "value": "35.45 m @ 311"
+        }
+      ],
+      "source": "GR Silver Mining（CNW）",
+      "title": "GR Silver：San Marcial SMS26-19 真宽35.45米311克/吨银，含0.4米4,232克/吨",
+      "excerpt": "GR Silver Mining 于11月11日18:00 ET（北京时间11月12日07:00）发布 San Marcial 钻探结果。钻孔 SMS26-19 见真宽35.45米311克/吨银，含真宽0.4米4,232克/吨银。平行角砾岩目标另有2.15米1,164克/吨银、0.6%铜和0.37%钨。",
+      "language": "en",
+      "interpretation": "这是勘探见矿，还不是资源量或矿山产量更新。高品位薄层存在，但需要放在35.45米真宽的平均品位里看。",
+      "importance": "SMS26-19 的35.45米真宽见矿，对 San Marcial 东南延伸有证实意义。这仍是勘探结果，还没有新的资源量或产量更新，因此短期不改变白银的实际供应。",
+      "verification_status": "verified",
+      "verification_note": "阅读 CNW 新闻稿。published 为 2026-11-11T23:00:00Z（18:00 ET），合北京时间11月12日07:00，为上期结转项。",
+      "companies": [
+        "GR Silver Mining"
+      ],
+      "projects": [
+        "San Marcial"
+      ]
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/silver-mountain-announces-first-concentrate-sale-881293403.html",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T19:30:00+08:00",
+      "claims": [
+        {
+          "claim": "Reliquias 完成首批块状和锌精矿装运，暂估售价约270万美元。",
+          "evidence": "it has agreed the sale and completed its first shipment of bulk and zinc concentrates from its 100%-owned Reliquias silver-polymetallic mine in central Peru, representing an estimated provisional sales value of approximately US$2.7 million",
+          "source_url": "https://www.newswire.ca/news-releases/silver-mountain-announces-first-concentrate-sale-881293403.html",
+          "evidence_type": "public original page",
+          "period": "first concentrate shipment",
+          "unit": "US$ million provisional",
+          "value": "2.7"
+        },
+        {
+          "claim": "生产于2026年9月重启，目标在2027年下半年处理800吨/日。",
+          "evidence": "Following the restart of production in September 2026, Silver Mountain continues to advance its operational ramp-up and is targeting processing throughput of 800 tonnes per day (\"tpd\") during the second half of 2027.",
+          "source_url": "https://www.newswire.ca/news-releases/silver-mountain-announces-first-concentrate-sale-881293403.html",
+          "evidence_type": "public original page",
+          "period": "restart Sep 2026; 800 tpd target H2 2027",
+          "unit": "tpd",
+          "value": "800"
+        }
+      ],
+      "source": "Silver Mountain Resources（CNW）",
+      "title": "Silver Mountain：Reliquias 首次运出精矿，暂估售价约270万美元，目标2027年下半年处理800吨/日",
+      "excerpt": "Silver Mountain Resources 于11月12日06:30 ET（北京时间19:30）宣布，已完成 Reliquias 银多金属矿首批块状和锌精矿装运并达成销售，暂估售价约270万美元。生产于2026年9月重启。公司目标在2027年下半年把处理量提升至800吨/日，并继续向商业生产推进。",
+      "language": "en",
+      "interpretation": "首批精矿出运说明重启后的矿山开始形成收入，但暂估价不是最终结算，800吨/日仍是2027年下半年目标。",
+      "importance": "Reliquias 规模较小，首批约270万美元的精矿对全球银供应影响有限。意义在于项目已从9月重启转入实际销售，800吨/日仍是2027年下半年目标，还不是当前产能。",
+      "verification_status": "verified",
+      "verification_note": "阅读 CNW 新闻稿。published 为 2026-11-12T11:30:00Z（06:30 ET），合北京时间19:30，在窗口内。",
+      "companies": [
+        "Silver Mountain Resources"
+      ],
+      "projects": [
+        "Reliquias"
+      ]
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/vizsla-copper-drills-298-meters-of-0-49-cueq-expanding-the-thira-discovery-central-british-columbia-851830386.html",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T21:00:00+08:00",
+      "claims": [
+        {
+          "claim": "TH26-170 见297.8米0.49%铜当量。",
+          "evidence": "297.8 meters of 0.49% copper equivalent* (0.29% Cu, 0.027% Mo, 0.03 g/t Au and 1.6 g/t Ag, above a 0.20% Cu cutoff grade)",
+          "source_url": "https://www.newswire.ca/news-releases/vizsla-copper-drills-298-meters-of-0-49-cueq-expanding-the-thira-discovery-central-british-columbia-851830386.html",
+          "evidence_type": "public original page",
+          "period": "hole TH26-170",
+          "unit": "m @ % CuEq",
+          "value": "297.8 m @ 0.49%"
+        },
+        {
+          "claim": "公司称矿化已延伸至地表以下至少670米，深部仍然开放。",
+          "evidence": "mineralization now extends from the top of bedrock to at least 670 m below surface, where it remains open at depth.",
+          "source_url": "https://www.newswire.ca/news-releases/vizsla-copper-drills-298-meters-of-0-49-cueq-expanding-the-thira-discovery-central-british-columbia-851830386.html",
+          "evidence_type": "public original page",
+          "period": "current interpretation",
+          "unit": "m below surface",
+          "value": "670"
+        }
+      ],
+      "source": "Vizsla Copper（CNW）",
+      "title": "Vizsla Copper：Thira TH26-170 见297.8米0.49%铜当量，矿化向下延伸至地表以下至少670米",
+      "excerpt": "Vizsla Copper 于11月12日08:00 ET（北京时间21:00）发布 Thira 钻探结果。钻孔 TH26-170 自386.0米孔深起见297.8米0.49%铜当量（0.29%铜、0.027%钼、0.03克/吨金、1.6克/吨银，0.20%铜边界）。公司称矿化已从基岩顶部延伸至地表以下至少670米，深部仍然开放。",
+      "language": "en",
+      "interpretation": "这是发现阶段的厚大低品位见矿，还没有资源量。670米延伸是公司根据已完成钻孔作出的解释。",
+      "importance": "TH26-170 的297.8米见矿显示 Thira 系统可以达到较大的垂深。这仍是发现阶段的勘探结果，还没有资源量。因此，它还不构成近两年可以核实的新增铜供应。",
+      "verification_status": "verified",
+      "verification_note": "阅读 CNW 新闻稿。published 为 2026-11-12T13:00:00Z（08:00 ET），合北京时间21:00，在窗口内。",
+      "companies": [
+        "Vizsla Copper"
+      ],
+      "projects": [
+        "Thira",
+        "Poplar"
+      ]
+    },
+    {
+      "url": "https://news.metal.com/newscontent/YKST6JDHHKN54OL6OCGF5MI7IRKX5I5KHWS7EZI-inventories-fall-to-historic-lows-spot-quotes-remain-firm-smm-south-china-spot-copper",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T11:28:00+08:00",
+      "claims": [
+        {
+          "claim": "广东电解铜库存连续两日下降，整体库存回落至历史低位附近；短讯未公布吨数。",
+          "evidence": "Spot market: Guangdong inventory fell for two consecutive days, mainly due to low arrivals.",
+          "source_url": "https://news.metal.com/newscontent/YKST6JDHHKN54OL6OCGF5MI7IRKX5I5KHWS7EZI-inventories-fall-to-historic-lows-spot-quotes-remain-firm-smm-south-china-spot-copper",
+          "evidence_type": "public original page",
+          "period": "2026-11-12 SMM South China spot note",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "SMM（上海有色网）",
+      "title": "SMM：广东电解铜库存连续两日下降，回落至历史低位附近（未公布吨数）",
+      "excerpt": "SMM 于11月12日11:28（北京时间）发布华南电解铜现货短讯。广东库存连续两日下降，主要因为到货偏少；整体库存回落至历史低位附近。短讯未给出可公开发布的库存吨数。对月初合约升水，高品质1号铜阴极报1,050元/吨，标准品质850元/吨，湿法铜790元/吨。",
+      "language": "en",
+      "interpretation": "这是区域库存方向的定性描述，不能折算成具体供应缺口吨数。升水数据说明现货仍然偏紧，但本卡不引用未能核验的 Mysteel 吨数。",
+      "importance": "华南电解铜库存连续两日下降并贴近历史低位，是当日可核对的国内现货偏紧信号。短讯没有公布库存吨数，量化意义因此有限。1号铜升水仍报1,050元/吨，具体库存水平还需要结合同期上期所仓单一起看。",
+      "verification_status": "verified",
+      "verification_note": "阅读 SMM 英文华南现货铜短讯。刊出时间为 2026-11-12 11:28 GMT+8。可读页面只给出库存方向，没有吨数。Mysteel 11-12 社会库存吨数只出现在“智能摘要 内容由AI生成”区块和需登录的截断正文中，未作为证据。",
+      "companies": [],
+      "projects": []
+    },
+    {
+      "url": "https://news.smm.cn/live/detail/LZMNR256BTNSMWN3J77HTDNI64G742BCC46QCII",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T16:25:20+08:00",
+      "claims": [
+        {
+          "claim": "11月12日上期所铜仓单减少76吨，至2,444吨。",
+          "evidence": "【铜仓单日报】11月12日上期所铜减少76吨至2444吨",
+          "source_url": "https://news.smm.cn/live/detail/LZMNR256BTNSMWN3J77HTDNI64G742BCC46QCII",
+          "evidence_type": "public original page",
+          "period": "2026-11-12 SHFE copper warrants",
+          "unit": "t",
+          "value": "2444"
+        }
+      ],
+      "source": "SMM（转述上期所仓单）",
+      "title": "SMM：11月12日上期所铜仓单减少76吨至2,444吨",
+      "excerpt": "SMM 于11月12日16:25发布上期所仓单日报：当日铜仓单减少76吨，至2,444吨。该数字出现在可见正文中。",
+      "language": "zh",
+      "interpretation": "上期所铜仓单继续停留在很低的绝对水平，当日只减少76吨，是库存位置的确认，不是大幅度变动。",
+      "importance": "2,444吨的可见仓单水平本身偏低，对国内期货交割库存是可核对的紧张信号。单日只减少76吨，变化的绝对幅度很小。因此这是低库存位置的确认，不是大幅度的供应变化。",
+      "verification_status": "verified",
+      "verification_note": "HTTP 200 正文经解压后可见。铜仓单数字出现在快讯正文，不是“智能摘要”或需登录区块。与华南现货短讯、未采用的 Mysteel 社会库存吨数均分开记录。",
+      "companies": [],
+      "projects": []
+    },
+    {
+      "url": "https://www.listcorp.com/asx/agc/australian-gold-and-copper-ltd/news/high-grade-copper-and-amp-gold-results-at-evergreen-3436100.html",
+      "metal_tags": [
+        "copper",
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T06:38:15+08:00",
+      "claims": [
+        {
+          "claim": "EGRC018 见16米2.3克/吨金、70克/吨银、1.4%铜，并有2米6.2%铜的富铜段。",
+          "evidence": "16m at 2.3g/t Au, 70g/t Ag, 1.4% Cu",
+          "source_url": "https://www.listcorp.com/asx/agc/australian-gold-and-copper-ltd/news/high-grade-copper-and-amp-gold-results-at-evergreen-3436100.html",
+          "evidence_type": "public original page",
+          "period": "hole EGRC018",
+          "unit": "m @ g/t Au and % Cu",
+          "value": "16 m @ 2.3 g/t Au, 1.4% Cu"
+        }
+      ],
+      "source": "Australian Gold and Copper（ASX / Listcorp）",
+      "title": "AGC：Evergreen EGRC018 见16米2.3克/吨金、70克/吨银、1.4%铜，含2米6.2%铜",
+      "excerpt": "Australian Gold and Copper 于北京时间11月12日06:38通过 ASX 公告披露 Evergreen 钻探结果。EGRC018 见16米2.3克/吨金、70克/吨银、1.4%铜，自112米起；其中包括自123米起的2米6.2%铜。公告称第三阶段钻探已获监管批准，结果拟用于 Evergreen 首份矿产资源量。",
+      "language": "en",
+      "interpretation": "这是浅部多金属高品位见矿，还没有资源量。对近两年铜金供应没有直接增量。",
+      "importance": "EGRC018 给出了可核对的金、银、铜高品位数字，包括16米2.3克/吨金和2米6.2%铜，符合纳入标准。项目仍处于编制首份资源量之前的阶段，因此这些见矿还不改变近期铜或金的实际供应。",
+      "verification_status": "verified",
+      "verification_note": "Market Index 返回 403，改从 Listcorp 阅读 ASX 公告原文（Playwright）。published_time 为 2026-11-11T22:38:15Z，合北京时间11月12日06:38，在窗口内。",
+      "companies": [
+        "Australian Gold and Copper"
+      ],
+      "projects": [
+        "Evergreen"
+      ]
+    },
+    {
+      "url": "https://investorhub.ausquest.com.au/announcements/7bQvRE-higher-copper-grades-and-growing-scale-at-cangallo",
+      "metal_tags": [
+        "copper",
+        "gold"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T06:20:00+08:00",
+      "claims": [
+        {
+          "claim": "CANDD006 见114米0.40%铜和0.07克/吨金，以及自36米起的618米0.26%铜。",
+          "evidence": "114 metres @ 0.40% Cu and 0.07g/t Au",
+          "source_url": "https://investorhub.ausquest.com.au/announcements/7bQvRE-higher-copper-grades-and-growing-scale-at-cangallo",
+          "evidence_type": "public original page",
+          "period": "hole CANDD006",
+          "unit": "m @ % Cu",
+          "value": "114 m @ 0.40%"
+        },
+        {
+          "claim": "CANDD006 另有自36米起的618米0.26%铜和0.06克/吨金。",
+          "evidence": "CANDD006: 618 metres @ 0.26% Cu and 0.06g/t Au from 36 metres depth",
+          "source_url": "https://investorhub.ausquest.com.au/announcements/7bQvRE-higher-copper-grades-and-growing-scale-at-cangallo",
+          "evidence_type": "public original page",
+          "period": "hole CANDD006 long intercept",
+          "unit": "m @ % Cu",
+          "value": "618 m @ 0.26%"
+        }
+      ],
+      "source": "AusQuest（公司 InvestorHub / ASX）",
+      "title": "AusQuest：Cangallo CANDD006 见114米0.40%铜，以及618米0.26%铜",
+      "excerpt": "AusQuest 于北京时间11月12日06:20发布 Cangallo 钻探结果。CANDD006 见114米0.40%铜和0.07克/吨金，另有自36米起的618米0.26%铜和0.06克/吨金。CANDD005 见40米0.40%铜，以及自4米起的708米0.21%铜。公司称这是迄今报告的最长铜矿化段，并已获得第4阶段钻探批准。",
+      "language": "en",
+      "interpretation": "厚大低品位斑岩见矿可以说明系统规模，平均品位不高，且仍无资源量。",
+      "importance": "CANDD006 的114米0.40%铜和618米0.26%铜，说明斑岩系统规模较大，但平均品位不高。项目目前仍无资源量。因此这些长矿段还不改变近期铜的实际供应。",
+      "verification_status": "verified",
+      "verification_note": "阅读公司 InvestorHub 公告（Playwright）。页面写明 Released 12 Nov 2026 - 6:20 AM（香港时间），与 2026-11-11T22:20:00Z 一致，在窗口内。Market Index 403，未使用该路径。",
+      "companies": [
+        "AusQuest"
+      ],
+      "projects": [
+        "Cangallo"
+      ]
+    },
+    {
+      "url": "https://www.listcorp.com/asx/fxg/felix-gold-limited/news/step-out-gold-results-and-mine-permit-application-3436134.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-12T07:16:36+08:00",
+      "claims": [
+        {
+          "claim": "已于2026年11月11日（阿拉斯加时间）向阿拉斯加州自然资源部提交 NW Array 采矿许可申请，目标2027年6月开工，须经州政府批准。",
+          "evidence": "Mine permit application lodged with the Alaska Department of Natural Resources on 11 November 2026 (Alaska time), after extensive consultation with State departments within the State's coordinated permitting process",
+          "source_url": "https://www.listcorp.com/asx/fxg/felix-gold-limited/news/step-out-gold-results-and-mine-permit-application-3436134.html",
+          "evidence_type": "public original page",
+          "period": "application dated 2026-11-11 Alaska time; start target June 2027",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "26TCDD007 自地表起见20.78米0.91克/吨金。",
+          "evidence": "20.78 metres downhol e at 0.91 grams per tonne gold from surface.",
+          "source_url": "https://www.listcorp.com/asx/fxg/felix-gold-limited/news/step-out-gold-results-and-mine-permit-application-3436134.html",
+          "evidence_type": "public original page",
+          "period": "hole 26TCDD007",
+          "unit": "m @ g/t Au",
+          "value": "20.78 m @ 0.91"
+        }
+      ],
+      "source": "Felix Gold（ASX / Listcorp）",
+      "title": "Felix Gold：已向阿拉斯加提交 NW Array 采矿许可申请，目标2027年6月开工；见20.78米0.91克/吨金",
+      "excerpt": "Felix Gold 于北京时间11月12日07:16通过 ASX 公告称，已在2026年11月11日（阿拉斯加时间）向阿拉斯加州自然资源部提交 NW Array 小型季节性开采的采矿许可申请，目标在州政府批准后于2027年6月开工。同期公布的加密钻探包括自地表起20.78米0.91克/吨金（26TCDD007）。公告提醒，另一孔自地表起9.12米4.51克/吨金的采取率偏低，需谨慎看待。",
+      "language": "en",
+      "interpretation": "许可申请已经提交，开工仍取决于州政府批准，不是已获批的开工决定。主要见矿品位一般，高品位短段被公告自行标注为采取率不足。",
+      "importance": "若2027年6月获批开工，也只是阿拉斯加小型季节性金矿，对全球供应影响很小。本期有价值的是采矿许可申请已经提交。开工仍取决于州政府批准，不是已经获批的投产决定。",
+      "verification_status": "verified",
+      "verification_note": "Market Index 返回 403，改从 Listcorp 阅读 ASX 公告原文。published_time 为 2026-11-11T23:16:36Z，合北京时间11月12日07:16，在窗口内。许可申请按公告所述于11月11日阿拉斯加时间提交，以 ASX 公告发布时间为窗口依据。26TCDD006 的9.12米4.51克/吨金因岩心采取率低，公告已提醒谨慎，本卡不以该段作为主要证据。",
+      "companies": [
+        "Felix Gold"
+      ],
+      "projects": [
+        "NW Array",
+        "Treasure Creek"
+      ]
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The KE Report 节目列表（固定检查源）：首页、当月列表与 RSS 均为 HTTP 200，RSS 时间已换算北京时间。窗口内 Wetterling、Steuer、Erfle、Rubino、Hemke、Watkins 为宏观/技术/组合讨论，不纳入；Valhalla 再读后仍无新的可量化产量或资源数字，不纳入。West Red Lake 已在11月11日日报收录；Getty、Fury 已在11月9日日报收录（即使 RSS 换算落入本窗口）。Aztec Minerals 页面日期11月12日，RSS 时间为 12 Nov 17:20 UTC，合北京时间13日01:20，窗口外，顺延。无新纳入。",
+      "Crux Investor 文章/视频列表（固定检查源）：首页、/videos、/articles、/latest 均为 HTTP 200，窗口内条目均有裁决。纳入：Cabral、Banyan、TriStar、Lahontan、Selkirk。Mineros Nechí 访谈与本期公司正式合并指引上调重叠，不另列。Excellon 与11月7日 KE Report Mallay 卡重复，仅新增的300吨/日爬坡说明不足以单列，作去重排除。Contango 文章与视频已在11月11日日报收录。TRX Gold Pitch Perfect、Excellon 11月10日视频无可用字幕或转录，不根据标题编造。员工市场/新闻稿不作为 Part 1。Santacruz Silver 日期为13日，窗口外。Lahontan 仅有11月12日日期、无时刻，按来源日历日暂收并注明。",
+      "Resource Talks（固定检查源）：官方站点 resourcetalks.com。本期首页、11月归档与 RSS 为 HTTP 200（此前两日首页曾 403）。单篇访谈 URL 对 curl 仍为 403，12日三条访谈（Kingfisher、NewPeak、Riverside，RSS 时间为北京时间20:27–20:39）经 WebFetch 打开并阅读全文。Kingfisher 以目视描述为主、当年仅化验27米；NewPeak 最佳孔663米0.41克/吨金当量中金的贡献不到四成；Riverside 为付费的前景生成商访谈，见矿品位低。三条均不纳入。未绕过验证码。",
+      "业绩电话会转录：纳入 Elemental Royalty（Motley Fool，北京时间11月12日03:56）与 Fortitude Gold（StockAnalysis，电话会北京时间11月12日00:00）。Endeavour Mining、Magna 转录可读，要点已分别落入本期 Assafou/Mana 新闻稿和11月11日窗口内的 Magna 三季报，不单列 Part 1。Integra 电话会始于13日00:00北京时间，窗口外。Franco-Nevada、OR Royalties 的 Fool 转录分别于13日01:10、06:25北京时间发布，顺延。Aya（12日10:00 ET，北京时间23:00，可能在窗口内）与 Hudbay（11:00 ET，位于截止附近）未获得可读转录。Investing.com 转录页 403；Fool 索引 404，EDV/Integra/Magna 的 Fool 地址 404。"
+    ],
+    "part1_result": "完成11月10日至12日北京自然日访谈、播客与业绩会检索，检查 The KE Report、Crux Investor、Resource Talks 三个固定源；纳入7条：Cabral、Banyan、TriStar、Lahontan、Selkirk（Crux 访谈文章），以及 Elemental Royalty、Fortitude Gold 电话会文字转录。均未听取音频或视频。Resource Talks 三条已读而不纳入；Excellon、Mineros 访谈因去重或与 Part 3 正式新闻稿重叠不纳入。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "Grok Bot 公共 X 工具 search_posts_all（已获 Zhemin 授权）：24个注册种子账号分两组查询，窗口 2026-11-11T16:00:00Z–2026-11-12T16:00:00Z，排除转推/回复，翻页至空；共21条接口记录、去重编辑后20条原帖（@duediligenceguy 18条宏观/价格评论，@peter_krauth 1条峰会回顾，@KinrossGold 1条纪念日帖），均无可核验的金银铜供需事实；明细见 x_outputs/2026-11-12_x_grokbot_public_read.json。",
+      "注册表 Playwright 采集器：本机未配置 x_auth，0/24 未读取；该路径与 Grok Bot 读取结果分开记录。"
+    ],
+    "part2_result": "X 采集成功，无候选进入报告：经 Zhemin 授权的 Grok Bot 公共 X 工具读取了全部24个注册账号在窗口内的原帖，共21条接口记录、去重后20条，均为宏观评论、峰会回顾或纪念日帖，无可核验的金银铜供需事实。schema 的 coverage 字段只记录注册表 Playwright 采集器，本机未配置 x_auth，该采集器计为 0/24；这一计数不代表 X 读取失败。",
+    "part2_coverage": {
+      "status": "failed",
+      "accounts_total": 24,
+      "accounts_completed": 0,
+      "accounts_failed": 24,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": null,
+      "channel_errors": [
+        "playwright: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@peter_krauth: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@duediligenceguy: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Junior_Stock: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@soarfinancial: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@WalterColesJr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@ivanbebek: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@IvanhoeMines_: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FreeportMcMoRan: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@NewmontCorp: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@BarrickGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@TeckResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AntofagastaPLC: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@LundinMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@AgnicoEagle: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@FirstMajestic: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@PanAmericanSlvr: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Wheaton_PM: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@EndeavourMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SSRMining: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@KinrossGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@SandstormGold: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@Fortuna_Silver: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@GoGoldResources: No X profile or x_auth.json found; run scripts/setup_x_login.py",
+        "@vizslasilver: No X profile or x_auth.json found; run scripts/setup_x_login.py"
+      ],
+      "notes": "Registry Playwright collector failed without x_auth (expected on this box). Separately, the authorized Grok Bot public X tools read all 24 registry accounts in the 2026-11-11T16:00:00Z–2026-11-12T16:00:00Z window (21 API rows, 20 unique posts after collapsing one edit); none qualified as Part 2 supply-demand candidates. The 0/24 coverage count is only the Playwright path and is not a Grok Bot read failure."
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Newsfile mining 列表：Playwright 正文可读（列表 HTTP 202，第2页 200），扫描45条，纳入1条（First Majestic Jerritt，07:00 EST）。",
+      "CNW / newswire.ca mining 列表：HTTP 200，单篇需 Playwright，扫描28条，纳入3条（GR Silver、Silver Mountain、Vizsla Copper）。",
+      "GlobeNewswire（gold/copper/silver/mining）：curl 403，Playwright HTTP 200，扫描约70条，纳入7条（Montage、Magna Q3、Magna Levack、Aya、Hudbay、Mineros、OR Royalties）。",
+      "Business Wire mining newsroom：curl 与 Playwright 均 HTTP 403，未能扫描，纳入0，记为失败通道。",
+      "ACCESS Newswire newsroom：HTTP 200（金属筛选 400/404），扫描22条，纳入1条（Faraday，直接打开 ACCESS 稿；公司 IR 未能读到）。",
+      "RNS / Investegate：HTTP 200，扫描约40条，无独立纳入（Endeavour 取公司 IR 完整新闻稿）。",
+      "ASX：Market Index 403，改从 Listcorp 与公司 InvestorHub 阅读，扫描6条，纳入3条（AGC Evergreen、AusQuest Cangallo、Felix Gold）。",
+      "JSE SENS（ShareData）：HTTP 200，扫描约40条，纳入0。",
+      "SEC 6-K/8-K/40-F：检索5条，无独立纳入。",
+      "公司 IR / Metso-Epiroc-Sandvik：扫描12条，纳入2条（Endeavour 官方新闻稿、Integra IR）。Metso Jerritt 与 Sandvik Northern Star 订单仍为11月9日，排除；Epiroc 新闻室 403。",
+      "区域库存 / 中文来源：纳入2条——SMM 华南现货短讯（仅定性，无吨数）与 SMM 上期所铜仓单（减少76吨至2,444吨，数字在可见正文）。Mysteel 社会库存吨数仅出现在“智能摘要 内容由AI生成”和需登录截断正文，未采用。",
+      "Mining.com 铜/金/银分类页：Playwright HTTP 200，各读1页（主列表已回到更早日期，无需第2页），24条不重复 URL 已打开核对时间。0条作为一手来源纳入。Hudbay Mining.com 转载时间为 22:10Z（北京时间13日06:10），但一手 GNW/IR 为 11:00Z（北京时间19:00），按一手纳入、不顺延。Minerals 260 的 Mining.com 转载在窗口内，一手 ASX PDF 时间为 2026-11-10T21:22–21:28Z（北京时间11日05:22–05:28），属上一窗口，本期排除、不改写11月11日日报。Ivanhoe Atlantic / Mari Energies MoU 无条款，排除。窗口外顺延：Armenia、UAE 黄金、Barrick Kibali 埃博拉、TC/定价讨论。",
+      "Reuters 及其他媒体：用于定位一手来源，无独立纳入。",
+      "上期结转项逐条裁决：纳入 Magna Q3、Montage、OR Royalties、Franco-Nevada、Integra、GR Silver、Faraday。排除 Troilus、Codelco–Adani（11月11日日报已用窗口内一手稿收录）。排除 Minerals 260（一手时间属11月11日窗口，漏收但不改历史日报）。排除价格稿。排除仍为11月9日的 Metso Jerritt 与 Sandvik Northern Star 订单。",
+      "窗口外、顺延至11月13日：DPM Metals 三季报财务数据（17:00 ET / 22:00Z）；TDG/Freeport C$1.10亿（13:38 ET）；Mayfair/Denarius 三季报（Newsfile，晚于17:00 ET）；Mining.com 的 Armenia、UAE 黄金、Barrick Kibali 埃博拉及 TC/定价讨论。"
+    ],
+    "part3_result": "完成11月12日北京自然日中英文新闻检索，Mining.com 三个分类页 Playwright 发现完整，并逐个扫描发行人、交易所与公司 IR 通道；纳入20条已核验新闻：Endeavour、Integra、Montage、Magna Q3、Magna Levack、Hudbay、Aya、Mineros、OR Royalties、Franco-Nevada、First Majestic、Faraday、GR Silver、Silver Mountain、Vizsla Copper、SMM 华南库存、SMM 上期所铜仓单、AGC、AusQuest、Felix Gold；无未核验卡。Business Wire 通道失败（HTTP 403）。",
+    "mining_com_source_note": "铜/金/银分类页均经 Playwright + 系统 Chrome（CHROME_EXECUTABLE=/usr/bin/google-chrome）headless 抓取（HTTP 200），日期匹配含零填充格式。主列表在第1页已回到早于报告日的日期，无需读第2页。候选文章逐篇打开核对 article:published_time 或站点时刻后换算北京时间。本期无 Mining.com 一手纳入卡；Hudbay、Endeavour 等改用窗口内的公司或新闻社一手稿。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 27,
+      "passed": 27,
+      "failed": 0,
+      "failures": [],
+      "notes": "计数对应正文27张来源卡（Part 1 7张、Part 3 20张），均已打开原文并绑定保存文本。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.cruxinvestor.com/posts/excellon-books-first-revenue-at-mallay-cash-flow-to-fund-district-scale-exploration",
+      "https://www.cruxinvestor.com/posts/nechis-fully-drilled-reserves-gravity-only-method-give-mineros-a-base-that-growth-can-build-on"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Troilus、Codelco–Adani：Mining.com 转载在11月12日窗口外，11月11日日报已用窗口内一手新闻稿收录",
+      "Minerals 260 Bullabulling：一手 ASX PDF 时间为 2026-11-10T21:22–21:28Z（北京时间11月11日05:22–05:28），属上一窗口；Mining.com 18:05Z 只是转载。本期排除，不改写11月11日日报",
+      "Endeavour Mining、Magna 电话会转录可读，要点已分别落入本期官方新闻稿和 Magna 三季报，不另列 Part 1",
+      "Crux Mineros Nechí 访谈与本期 Mineros 正式合并指引上调重叠，只保留公司新闻稿",
+      "Excellon Crux 访谈与11月7日 KE Report Mallay 卡重复，不纳入",
+      "McEwen、Endeavour Silver 电话会，Contango Crux 访谈，West Red Lake KE Report 已在11月11日日报收录；Barrick 电话会已在11月10日日报收录；Getty、Fury KE 访谈已在11月9日日报收录"
+    ],
+    "notes": "与 2026-11-09、2026-11-10、2026-11-11 日报 URL/事件比对；跨时区来源先按来源时区换算北京时间再判断窗口。Resource Talks 三条已读而不纳入，属于质量判断，不是去重。"
+  }
+}
