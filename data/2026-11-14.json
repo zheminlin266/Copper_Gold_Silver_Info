@@ -1,0 +1,649 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-14",
+  "report_time": "2026-11-15T10:07:04+08:00",
+  "summary": "铜：Ivanhoe Platreef 二期选厂土石方接近完成、目标2027年底完工；Island Passage 布干维尔槽探55米0.56%铜；智利部长称正评估私人资本参与 Codelco 部分矿床开采，公司仍保持国有；上期所仓库铜库存降至27,642吨，洋山溢价285美元/吨。黄金：Asante 撤回2026产量与AISC指引；Steppe 维持约6.8万盎司；CopAur 首批421.394万加元指向 Kinsley 许可开支。白银：Americas 电话会当季AISC约43美元/盎司售出。",
+  "windows": {
+    "part1": {
+      "start": "2026-11-12T00:00:00+08:00",
+      "end": "2026-11-14T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-11-14T00:00:00+08:00",
+      "end": "2026-11-14T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-11-14T00:00:00+08:00",
+      "end": "2026-11-14T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [
+    {
+      "url": "https://www.kereport.com/2026/11/13/kuya-silver-record-underground-development-strategic-milling-alliance-20000m-drill-program/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-13",
+      "claims": [
+        {
+          "claim": "页面称，短期产能指向一期350吨/日目标。",
+          "evidence": "How a higher-horsepower winch system and a redesigned ramp are unlocking short-term throughput toward the 350 tonnes per day Phase 1 goal.",
+          "source_url": "https://www.kereport.com/2026/11/13/kuya-silver-record-underground-development-strategic-milling-alliance-20000m-drill-program/",
+          "evidence_type": "public original page",
+          "period": "Phase 1 target",
+          "unit": "tpd",
+          "value": "350"
+        },
+        {
+          "claim": "页面称，在现有工程东端遇到宽至1.1米的矿化带。",
+          "evidence": "What encountering a wider mineralized zone up to 1.1 meters at the eastern extent of current workings means for near-term mining and resource growth.",
+          "source_url": "https://www.kereport.com/2026/11/13/kuya-silver-record-underground-development-strategic-milling-alliance-20000m-drill-program/",
+          "evidence_type": "public original page",
+          "period": "current workings",
+          "unit": "m",
+          "value": "1.1"
+        },
+        {
+          "claim": "页面称，与 Camilla 选厂合作而非直接收购，据估计可节省约900万美元前期资本。",
+          "evidence": "Why partnering with the Camilla Plant instead of an outright acquisition saves an estimated $9 million in upfront capital while securing immediate processing capacity.",
+          "source_url": "https://www.kereport.com/2026/11/13/kuya-silver-record-underground-development-strategic-milling-alliance-20000m-drill-program/",
+          "evidence_type": "public original page",
+          "period": "milling alliance",
+          "unit": "USD",
+          "value": "9000000"
+        },
+        {
+          "claim": "页面称，井下两台钻机正在运转，并将开展针对 Carmelitas 的地表钻探。",
+          "evidence": "Details on the two underground rigs currently turning and the upcoming surface drilling targeting the high-priority Carmelitas vein system.",
+          "source_url": "https://www.kereport.com/2026/11/13/kuya-silver-record-underground-development-strategic-milling-alliance-20000m-drill-program/",
+          "evidence_type": "public original page",
+          "period": "upcoming drill program",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "title": "Kuya：一期目标350吨/日；与 Camilla 选厂结盟据称节省约900万美元；计划重启2万米钻探",
+      "source_type": "webcast",
+      "summary": "The KE Report 页面日期为2026年11月13日，发布对 Kuya Silver 的访谈条目。页面要点称，短期产能指向一期350吨/日；东部矿化带宽至1.1米；与 Camilla 选厂结盟、不收购该厂，据估计可节省约900万美元前期资本；井下两台钻机正在运转，并将开展针对 Carmelitas 的地表钻探，计划2万米。页面无完整录音或逐字稿，以上仅来自可读文章要点。",
+      "detail": "未听取音频，亦无逐字转录，350吨/日、1.1米带宽和约900万美元节省均未在可核验的管理层原话中展开，数字以文章要点为限。",
+      "importance": "350吨/日仍是一期目标，不是当期已实现处理量，近端银供应增量要等到斜坡与卷扬改造兑现后才能评估。与选厂结盟若能省去约900万美元并马上获得加工能力，主要改变的是项目资本负担和投产路径，不是已产出的金属量。2万米钻探和 Carmelitas 地表工程属于中期资源验证，需等待孔号、真宽和品位公布后才能判断规模。",
+      "verification_status": "verified",
+      "verification_note": "打开 The KE Report 访谈文章（页面与保存文本）。页面只显示 November 13, 2026，没有时刻。11-13日报检索日志写过 RSS 13 Nov 17:57 UTC，本次材料没有 RSS 原文，不把该时刻当作已核验发布时间。该日期在 Part 1 三日窗口内。仅依据页面可读要点，未听取音频，也无逐字转录。",
+      "companies": [
+        "Kuya Silver"
+      ],
+      "projects": [
+        "Camilla Plant",
+        "Carmelitas"
+      ]
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/americas-gold-usas-q3-2026-earnings-call-transcript/",
+      "metal_tags": [
+        "silver"
+      ],
+      "primary_metal": "silver",
+      "supply_demand": "supply",
+      "publish_date": "2026-11-14",
+      "claims": [
+        {
+          "claim": "管理层称，2026年三季度现金成本平均为每盎司售出白银3美元，全维持成本约43美元；年初至今AISC平均约39美元/盎司售出。",
+          "evidence": "In the quarter, cash costs averaged $3 per silver ounce sold, and all in sustaining costs were approximately $43 per silver ounce sold. Year to date, AISC averaged approximately $39 per silver ounce sold.",
+          "source_url": "https://www.fool.com/earnings/call-transcripts/2026/11/13/americas-gold-usas-q3-2026-earnings-call-transcript/",
+          "evidence_type": "public original page",
+          "period": "Q3 2026 / YTD 2026",
+          "unit": "USD/oz Ag sold",
+          "value": "43"
+        }
+      ],
+      "title": "Americas 电话会：三季度现金成本约3美元/盎司、AISC约43美元/盎司售出，年初至今AISC约39美元",
+      "source_type": "webcast",
+      "summary": "Motley Fool 发布的 Americas 2026年三季度业绩电话会文字稿显示，管理层称当季现金成本平均为每盎司售出白银3美元，全维持成本约43美元；年初至今AISC平均约39美元/盎司售出。会议文字稿发布于 2026-11-13T21:28:28Z，合北京时间14日05:28。产量与全年3.2–3.6百万盎司指引已在13日日报收录，本卡只补充新闻稿未写出的口头成本口径。",
+      "detail": "文字稿编辑“要点”中的部分销量和钻探数字与逐字发言不一致，本卡不采用这些编辑转述。11-13日报已记载公司预期全年AISC落在30–35美元指引上限；电话会给出的当季约43美元和年初至今约39美元，高于该区间上限，需在全年口径中继续核对。",
+      "importance": "当季约43美元和年初至今约39美元，都高于公司此前给出的全年AISC 30–35美元区间上限，说明成本压力比新闻稿中“落在上限”的表述更具体。这不改变已公布的产量，但会提高对该成本指引能否守住的疑问。数字是电话会口头口径，最终仍以更完整的成本表为准。",
+      "verification_status": "verified",
+      "verification_note": "打开 Motley Fool 三季度业绩电话会文字稿（HTTP 可读）。发布时间为 2026-11-13T21:28:28Z，合北京时间14日05:28。仅采用逐字发言中的成本口径；不采用编辑“要点”中与发言不一致的销量和钻探数字。产量与全年指引已在11-13日报收录。",
+      "companies": [
+        "Americas Gold and Silver"
+      ],
+      "projects": []
+    }
+  ],
+  "part2_x_posts": [
+    {
+      "url": "https://x.com/IvanhoeMines_/status/2121348294685413815",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T05:03:40+08:00",
+      "claims": [
+        {
+          "claim": "Platreef 二期新选厂土石方接近完成，土木工程仍在推进，完工目标为2027年底。",
+          "evidence": "Development of Platreef’s Phase 2 expansion continues to advance, with earthworks for the new concentrator nearing completion and civil works progressing. Completion is scheduled for year-end 2027.",
+          "source_url": "https://x.com/IvanhoeMines_/status/2121348294685413815",
+          "evidence_type": "public original page",
+          "period": "completion year-end 2027",
+          "unit": "qualitative",
+          "value": "2027"
+        },
+        {
+          "claim": "满产设计年产超过45万盎司3PE+金，以及约9,000吨镍和约6,000吨铜。",
+          "evidence": "At full ramp-up, Phase 2 is designed to produce over 450,000 ounces annually of 3PE+Au, plus approximately 9,000 tonnes of nickel and 6,000 tonnes of copper.",
+          "source_url": "https://x.com/IvanhoeMines_/status/2121348294685413815",
+          "evidence_type": "public original page",
+          "period": "Phase 2 full ramp-up design",
+          "unit": "t Cu / year",
+          "value": "6000"
+        }
+      ],
+      "author": "Ivanhoe Mines",
+      "handle": "@IvanhoeMines_",
+      "excerpt": "Ivanhoe 官方账号于北京时间11月14日05:03发帖称，Platreef 二期新选厂土石方接近完成，土木工程仍在推进，完工目标为2027年底；满产设计年产超过45万盎司3PE+金，以及约9,000吨镍和约6,000吨铜。",
+      "interpretation": "约6,000吨铜是二期满产设计值，不是2026年产量，帖中也未给出爬坡曲线；对铜供应的影响要到2027年底完工并达产后才会出现。3PE+金是该矿主产品，铜为伴生。",
+      "importance": "该帖给出明确的二期完工时点（2027年底）和满产铜规模（约6,000吨/年），把 Platreef 对铜市场的增量落到可核对的时间表上。土石方接近完成只说明场平进度，选厂建设和随后的爬坡仍未结束，因此这不是即期铜供应。若完工时间或设计规模后续下调，判断需要改写。",
+      "verification_status": "verified",
+      "verification_note": "Grok 公共读取给出帖子 id 2121348294685413815、author_id 918142563948756992、username IvanhoeMines_、时间 2026-11-13T21:03:40.000Z（北京时间14日05:03:40）和本卡 URL。接口 text 长 278 字，在 over 450,000 ounces annually of 处截断。铜、镍吨数只出现在与该前缀逐字相接的保存正文里，不在接口截断字段中。引句取自这份保存正文。"
+    }
+  ],
+  "part3_news": [
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/13/3403016/0/en/asante-reports-q3-2026-operating-financial-results-and-issues-clarification-regarding-november-12-2026-press-release.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T07:18:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年三季度产金48,517金当量盎司，综合AISC为4,860美元/盎司；前九个月产165,594金当量盎司，同比增41.0%，综合AISC为4,308美元/盎司。",
+          "evidence": "Q3 2026 gold production of 48,517 equivalent ounces at a consolidated AISC of $4,860 per ounce; nine month 2026 gold production of 165,594 equivalent ounces, up 41.0% year-on-year, at a consolidated AISC of $4,308 per ounce.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403016/0/en/asante-reports-q3-2026-operating-financial-results-and-issues-clarification-regarding-november-12-2026-press-release.html",
+          "evidence_type": "public original page",
+          "period": "Q3 2026 / 9M 2026",
+          "unit": "GEO / USD/oz",
+          "value": "48517"
+        },
+        {
+          "claim": "Chirano 当季产34,420金当量盎司，同比增34.4%。",
+          "evidence": "Chirano delivered improved quarterly production of 34,420 gold equivalent ounces, up 34.4% year-on-year",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403016/0/en/asante-reports-q3-2026-operating-financial-results-and-issues-clarification-regarding-november-12-2026-press-release.html",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "GEO",
+          "value": "34420"
+        },
+        {
+          "claim": "因 Bibiani 作业问题，公司已撤回2026年产量与AISC指引；第二家承包商加快主采坑废石清理，预计2026年12月初完成，该区域有望在2027年一季度重新见矿。",
+          "evidence": "As a result, 2026 production and AISC guidance has been withdrawn. A second contractor has been onboarded to expedite waste clearance from the January 2026 south-east wall failure in the Main Pit. This is expected to be completed in early December 2026, allowing renewed ore access in that area by Q1 2027.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403016/0/en/asante-reports-q3-2026-operating-financial-results-and-issues-clarification-regarding-november-12-2026-press-release.html",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance / ore access Q1 2027",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "本稿全面取代2026年11月12日由新闻服务在未经公司授权情况下发出的新闻稿，并建议读者不再依据12日稿件。",
+          "evidence": "This press release is a clarification to, and replaces in its entirety, the press release dated November 12, 2026 that was issued by a news service without the Company's authorization.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403016/0/en/asante-reports-q3-2026-operating-financial-results-and-issues-clarification-regarding-november-12-2026-press-release.html",
+          "evidence_type": "public original page",
+          "period": "2026-11-12 / 2026-11-13 releases",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "GlobeNewswire",
+      "title": "Asante：撤回2026产量与AISC指引；三季度产48,517金当量盎司，Bibiani 主采坑预计2027年一季度重新见矿",
+      "excerpt": "Asante 于北京时间11月14日07:18发布三季报，并澄清11月12日新闻稿。新闻稿称，2026年三季度产金48,517金当量盎司，综合AISC为4,860美元/盎司；前九个月产165,594金当量盎司，同比增41.0%，综合AISC为4,308美元/盎司。Chirano 当季34,420金当量盎司，同比增34.4%。Bibiani 受主采坑主要承包商可用率下降、选厂回收率降低、电力中断和搬迁进度偏慢影响，公司已撤回2026年产量与AISC指引。第二家承包商已加入，以加快2026年1月主采坑东南壁垮塌后的废石清理，预计2026年12月初完成，该区域有望在2027年一季度重新见矿。公司称，本稿全面取代12日由新闻服务在未经公司授权情况下发出的新闻稿，并建议读者不再依据12日稿件。",
+      "language": "en",
+      "interpretation": "撤回指引意味着此前可用的2026年产量锚失效，近端供给路径转为观望 Bibiani 废石清理和2027年一季度重新见矿。Chirano 当季改善不能抵消合并指引被撤。当季综合AISC 4,860美元显著偏高，反映作业中断，不代表长期成本中枢已经重估。",
+      "importance": "对黄金近端供应，关键变化是2026年指引被撤，而不是三季度48,517金当量盎司本身。Bibiani 主采坑要到2027年一季度才预期重新见矿，说明四季度到明年年初该矿产量仍受废石清理约束。Chirano 同比改善只能部分对冲，不能填补被撤回的全年锚。",
+      "verification_status": "verified",
+      "verification_note": "打开 GlobeNewswire 官方新闻稿并保存正文。发布时间为 November 13, 2026 18:18 ET（23:18Z），合北京时间14日07:18。",
+      "companies": [
+        "Asante Gold"
+      ],
+      "projects": [
+        "Chirano",
+        "Bibiani"
+      ]
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/323974/Steppe-Gold-Announces-Q3-2026-Financial-Results",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T06:00:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年三季度产金17,543盎司、销售19,984盎司。",
+          "evidence": "The Company produced 17,543 ounces of gold and sold 19,984 ounces in the third quarter of 2026",
+          "source_url": "https://www.newsfilecorp.com/release/323974/Steppe-Gold-Announces-Q3-2026-Financial-Results",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "oz Au",
+          "value": "17543"
+        },
+        {
+          "claim": "截至2026年9月30日的前九个月产金51,726盎司、销售44,211盎司，并留存7,508盎司成品金库存。",
+          "evidence": "For the nine months ended September 30, 2026, production was 51,726 ounces and sales were 44,211 ounces, compared to 47,583 ounces and 38,590 ounces, respectively, in 2025. The Company retained 7,508 ounces of finished gold inventory at September 30, 2026",
+          "source_url": "https://www.newsfilecorp.com/release/323974/Steppe-Gold-Announces-Q3-2026-Financial-Results",
+          "evidence_type": "public original page",
+          "period": "9M 2026 / 2026-09-30",
+          "unit": "oz Au",
+          "value": "51726"
+        },
+        {
+          "claim": "三季度现金成本为1,304美元/盎司售出，AISC为1,623美元/盎司售出。",
+          "evidence": "Cash cost was $1,304 per ounce sold and total all-in sustaining cost (\"AISC\") was $1,623 per ounce sold in the third quarter",
+          "source_url": "https://www.newsfilecorp.com/release/323974/Steppe-Gold-Announces-Q3-2026-Financial-Results",
+          "evidence_type": "public original page",
+          "period": "Q3 2026",
+          "unit": "USD/oz sold",
+          "value": "1623"
+        },
+        {
+          "claim": "公司维持2026年约68,000盎司黄金产量指引。",
+          "evidence": "The Company maintains its 2026 production guidance of approximately 68,000 ounces of gold.",
+          "source_url": "https://www.newsfilecorp.com/release/323974/Steppe-Gold-Announces-Q3-2026-Financial-Results",
+          "evidence_type": "public original page",
+          "period": "FY2026 guidance",
+          "unit": "oz Au",
+          "value": "68000"
+        },
+        {
+          "claim": "ATO 金矿已于当季恢复采矿，废石剥离始于8月，矿石开采始于9月；二期经修订的可行性研究预计于2026年四季度完成。",
+          "evidence": "Mining activities resumed at the ATO Gold Mine during the quarter, with waste stripping commencing in August and ore mining in September.",
+          "source_url": "https://www.newsfilecorp.com/release/323974/Steppe-Gold-Announces-Q3-2026-Financial-Results",
+          "evidence_type": "public original page",
+          "period": "Q3 2026 / FS Q4 2026",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Newsfile",
+      "title": "Steppe Gold：维持2026年约6.8万盎司指引；三季度产17,543盎司，ATO 已恢复采矿",
+      "excerpt": "Steppe Gold 于北京时间11月14日06:00发布三季报。新闻稿称，2026年三季度产金17,543盎司、销售19,984盎司；截至9月30日的前九个月产51,726盎司、销售44,211盎司，并留存7,508盎司成品金库存。三季度现金成本为1,304美元/盎司售出，AISC为1,623美元/盎司售出。公司维持2026年约68,000盎司黄金产量指引。ATO 金矿已于当季恢复采矿，废石剥离始于8月，矿石开采始于9月；ATO 二期经修订的可行性研究预计于2026年四季度完成。",
+      "language": "en",
+      "interpretation": "前九个月产51,726盎司，对照全年约68,000盎司指引，意味着四季度仍需产出约16,274盎司才能达到该目标；公司选择维持指引，说明管理层认为恢复采矿后的四季进度仍可支撑该水平。修订可行性研究要到四季度才完成，且进一步推进仍取决于融资和许可，因此二期扩建还不是即期供给。",
+      "importance": "与 Asante 撤回指引不同，Steppe 明确维持约6.8万盎司的2026年产量目标，近端黄金供给锚得以保留。三季度已恢复 ATO 采矿，为四季冲刺该指引提供了作业前提，但完成进度仍取决于四季度实际产量。二期修订可行性研究要到2026年四季度才预计完成，对供给的影响在中期，不改变今年产量锚。",
+      "verification_status": "verified",
+      "verification_note": "打开 Newsfile 官方新闻稿并保存正文。发布时间为 2026-11-13 5:00 PM EST（22:00Z），合北京时间14日06:00。",
+      "companies": [
+        "Steppe Gold"
+      ],
+      "projects": [
+        "ATO"
+      ]
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/324043/STARCORE-Reports-Second-Quarter-Production-Results",
+      "metal_tags": [
+        "gold",
+        "silver"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T08:20:00+08:00",
+      "claims": [
+        {
+          "claim": "碳质矿处理回路已达到每天处理100吨的目标，入选品位维持在3克/吨金、20克/吨银，回收率分别为金80%、银70%。",
+          "evidence": "We reached our target of processing 100 tons per day, maintaining a grade of 3 grams of gold and 20 grams of silver per ton, with recovery rates of 80% for gold and 70% for silver.",
+          "source_url": "https://www.newsfilecorp.com/release/324043/STARCORE-Reports-Second-Quarter-Production-Results",
+          "evidence_type": "public original page",
+          "period": "FY2027 Q2 / carbonaceous circuit",
+          "unit": "tpd",
+          "value": "100"
+        },
+        {
+          "claim": "该季度最后一个月处理2,564干吨，品位4.82克/吨金、25.3克/吨银，回收率金80.7%、银74.2%，产170金当量盎司，另有120金当量盎司在产品库存。",
+          "evidence": "In the final month of the quarter, results reached 2,564 dry tons, with a grade of 4.82 g/t gold and 25.3 g/t silver, and recovery rates of 80.7% for gold and 74.2% for silver, with a production of 170 ounces of gold equivalent, with an in-process inventory of 120 ounces of gold equivalent yet to be recovered.",
+          "source_url": "https://www.newsfilecorp.com/release/324043/STARCORE-Reports-Second-Quarter-Production-Results",
+          "evidence_type": "public original page",
+          "period": "final month of FY2027 Q2",
+          "unit": "GEO",
+          "value": "170"
+        }
+      ],
+      "source": "Newsfile",
+      "title": "Starcore：碳质矿回路达100吨/日目标；最后一个月处理2,564干吨，产170金当量盎司",
+      "excerpt": "Starcore 于北京时间11月14日08:20公布 San Martin 矿截至2026年10月30日的2027财年第二季度产量进展。新闻稿称，碳质矿处理回路已达到每天处理100吨的目标，入选品位维持在3克/吨金、20克/吨银，回收率分别为金80%、银70%。该季度最后一个月处理2,564干吨，品位4.82克/吨金、25.3克/吨银，回收率金80.7%、银74.2%，产170金当量盎司，另有120金当量盎司在产品库存待回收。稿件未给出该季度合并总产量。",
+      "language": "en",
+      "interpretation": "这是回路优化后的进度通报，不是完整的季度产量重置。100吨/日是该回路目标已达到的表述，最后一月170金当量盎司规模很小，对全球黄金供给可忽略，但对判断该矿碳质矿能否稳定回收有参考价值。",
+      "importance": "碳质矿回路达到100吨/日，只说明这条处理线的近期技术目标已经碰到，并不等于矿山整体产量上台阶。最后一月170金当量盎司规模很小，对全球黄金供给几乎没有可见影响。因稿件未给完整季度总产量，还不能据此改写该矿的供给路径，下一步需看后续月份能否维持该回收率和处理量。",
+      "verification_status": "verified",
+      "verification_note": "打开 Newsfile 官方新闻稿并保存正文。发布时间为 November 13, 2026 7:20 PM EST（00:20Z 14日），合北京时间14日08:20。稿件为财政年度2027年第二季度（截至2026年10月30日）产量，未给出完整季度总产量。",
+      "companies": [
+        "Starcore International Mines"
+      ],
+      "projects": [
+        "San Martin"
+      ]
+    },
+    {
+      "url": "https://www.newswire.ca/news-releases/perpetua-resources-announces-third-quarter-2026-financial-results-and-provides-project-update-878568585.html",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T06:40:00+08:00",
+      "claims": [
+        {
+          "claim": "2026年勘探钻探计划已经完成，岩心进尺超过16,000米。",
+          "evidence": "The 2026 Exploration Drilling Program is complete, with more than 16,000 meters of core drilled.",
+          "source_url": "https://www.newswire.ca/news-releases/perpetua-resources-announces-third-quarter-2026-financial-results-and-provides-project-update-878568585.html",
+          "evidence_type": "public original page",
+          "period": "2026 drilling program",
+          "unit": "m",
+          "value": "16000"
+        },
+        {
+          "claim": "公司继续推进美国进出口银行29亿美元高级担保长期贷款的文件工作，预计于2027年一季度交割。",
+          "evidence": "Perpetua continued diligence and documentation on the $2.9 billion senior secured long-term loan from the Export-Import Bank of the United States (\"U.S. EXIM\") under the Make More in America Initiative, approved by the U.S. EXIM board on May 21, 2026. Closing is expected in the first quarter of 2027.",
+          "source_url": "https://www.newswire.ca/news-releases/perpetua-resources-announces-third-quarter-2026-financial-results-and-provides-project-update-878568585.html",
+          "evidence_type": "public original page",
+          "period": "expected close Q1 2027",
+          "unit": "USD",
+          "value": "2900000000"
+        },
+        {
+          "claim": "截至2026年9月30日，无限制现金为4.434亿美元。",
+          "evidence": "Unrestricted cash was $443.4 million as of September 30, 2026.",
+          "source_url": "https://www.newswire.ca/news-releases/perpetua-resources-announces-third-quarter-2026-financial-results-and-provides-project-update-878568585.html",
+          "evidence_type": "public original page",
+          "period": "2026-09-30",
+          "unit": "USD",
+          "value": "443400000"
+        }
+      ],
+      "source": "CNW",
+      "title": "Perpetua：2026年钻探已完成超1.6万米；29亿美元美国进出口银行贷款预计2027年一季度交割",
+      "excerpt": "Perpetua 于北京时间11月14日06:40发布2026年三季度业绩并更新 Stibnite 项目进展。新闻稿称，2026年勘探钻探计划已经完成，岩心进尺超过16,000米。公司继续推进美国进出口银行29亿美元高级担保长期贷款的尽职调查与文件工作，该贷款已于2026年5月21日获董事会批准，预计于2027年一季度交割。截至2026年9月30日，无限制现金为4.434亿美元。",
+      "language": "en",
+      "interpretation": "29亿美元贷款尚未交割，交割时点在2027年一季度，因此这是项目融资路径上的进度，不是即期黄金供给。超过1.6万米的钻探已完成，但本篇为财务与项目更新，具体见矿数字需对照其此前8月和11月的钻探报告，不能从本稿推断新的资源规模。",
+      "importance": "对 Stibnite 而言，当前更关键的是29亿美元贷款能否在2027年一季度交割，而不是已经完成的1.6万米钻探本身。贷款仍待交割，所以还不能把它记为已落实的建设资金，也就不能提前计入未来黄金和锑供应。4.434亿美元无限制现金可以支撑交割前开支，但最终投资与建设决定仍取决于融资关闭和后续许可推进。",
+      "verification_status": "verified",
+      "verification_note": "打开 CNW / newswire.ca 官方新闻稿并保存正文。发布时间为 17:40 ET 13 Nov（22:40Z），合北京时间14日06:40。",
+      "companies": [
+        "Perpetua Resources"
+      ],
+      "projects": [
+        "Stibnite"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/news-release/2026/11/13/3403015/0/en/island-passage-exploration-provides-exploration-update-and-announces-a-webinar-with-john-robins-and-quinton-hennigh-on-november-18-2026.html",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T07:14:00+08:00",
+      "claims": [
+        {
+          "claim": "Derasi 槽探为55米0.56%铜，其中含10米1.69%铜。",
+          "evidence": "55m at 0.56% Cu, including 10m at 1.69% Cu, at Derasi",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403015/0/en/island-passage-exploration-provides-exploration-update-and-announces-a-webinar-with-john-robins-and-quinton-hennigh-on-november-18-2026.html",
+          "evidence_type": "public original page",
+          "period": "exploration update 2026-11-13",
+          "unit": "m / % Cu",
+          "value": "0.56"
+        },
+        {
+          "claim": "Angkaraku 槽探为12米0.57%铜，其中含3米1.40%铜。",
+          "evidence": "12m at 0.57% Cu, including 3m at 1.40% Cu, at Angkaraku",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403015/0/en/island-passage-exploration-provides-exploration-update-and-announces-a-webinar-with-john-robins-and-quinton-hennigh-on-november-18-2026.html",
+          "evidence_type": "public original page",
+          "period": "exploration update 2026-11-13",
+          "unit": "m / % Cu",
+          "value": "0.57"
+        },
+        {
+          "claim": "公司已完成 Pivi 靶区岩心钻探的第二孔。",
+          "evidence": "Island Passage has completed the second hole of its core drilling campaign at the Pivi prospect within the large Bara – Tangka porphyry copper-gold target.",
+          "source_url": "https://www.globenewswire.com/news-release/2026/11/13/3403015/0/en/island-passage-exploration-provides-exploration-update-and-announces-a-webinar-with-john-robins-and-quinton-hennigh-on-november-18-2026.html",
+          "evidence_type": "public original page",
+          "period": "Pivi drill program",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "GlobeNewswire",
+      "title": "Island Passage：Derasi 槽探55米0.56%铜（含10米1.69%）；Pivi 第二孔已完成",
+      "excerpt": "Island Passage 于北京时间11月14日07:14更新巴布亚新几内亚布干维尔勘探进展。新闻稿称，在 Pivi 以东的 Derasi 和 Angkaraku 新靶区，槽探见矿包括 Derasi 55米0.56%铜（含10米1.69%铜），以及 Angkaraku 12米0.57%铜（含3米1.40%铜）。公司已完成 Pivi 靶区岩心钻探的第二孔，并称前两孔岩心见到矿化石英闪长岩岩脉群。公司还将于11月18日举办网络研讨会。",
+      "language": "en",
+      "interpretation": "槽探结果提供了地表铜矿化的宽度和品位，但还不是可估计的资源，也未给出真宽和钻孔验证。Pivi 第二孔已完成，稿件只描述岩性与矿化迹象，未公布化验结果，因此不能把钻探进度写成新的供给规模。",
+      "importance": "Derasi 55米0.56%铜（含10米1.69%）是可核对的地表铜矿化信号，说明矿化已从 Pivi 向东延伸，但仍属早期勘探。在没有真宽、资源量和可开采计划之前，这些槽探不会改变近端铜供应。Pivi 前两孔尚未给出化验数字，下一步需要看钻孔品位能否验证槽探结果。",
+      "verification_status": "verified",
+      "verification_note": "打开 GlobeNewswire 官方新闻稿并保存正文。发布时间为 November 13, 2026 18:14 ET（23:14Z），合北京时间14日07:14。",
+      "companies": [
+        "Island Passage Exploration"
+      ],
+      "projects": [
+        "Derasi",
+        "Angkaraku",
+        "Pivi"
+      ]
+    },
+    {
+      "url": "https://www.newsfilecorp.com/release/324042/CopAur-Closes-First-Tranche-4213940-Private-Placement",
+      "metal_tags": [
+        "gold"
+      ],
+      "primary_metal": "gold",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T07:48:00+08:00",
+      "claims": [
+        {
+          "claim": "首批非经纪私募总额4,213,940加元，仍待 TSX Venture 接受；此前已于2026年10月6日预告。",
+          "evidence": "the closing of the first tranche of its non-brokered private placement (the \"Offering\"), subject to acceptance by the TSX Venture Exchange, as previously announced on October 6 th, 2026, for aggregate gross proceeds of C$4,213,940.",
+          "source_url": "https://www.newsfilecorp.com/release/324042/CopAur-Closes-First-Tranche-4213940-Private-Placement",
+          "evidence_type": "public original page",
+          "period": "first tranche closing 2026-11-12",
+          "unit": "CAD",
+          "value": "4213940"
+        },
+        {
+          "claim": "所得将用于推进 Kinsley Mountain 许可所需开支，以及取得 Troy Canyon 初步勘探所需许可，并补充一般营运资金。",
+          "evidence": "Proceeds raised will be used toward expenditures required to advance the permitting of the Kinsley Mountain gold property in Nevada, securing the necessary permits to commence preliminary exploration work on the Troy Canyon property, also in Nevada, and general working capital purposes.",
+          "source_url": "https://www.newsfilecorp.com/release/324042/CopAur-Closes-First-Tranche-4213940-Private-Placement",
+          "evidence_type": "public original page",
+          "period": "use of proceeds",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "Newsfile",
+      "title": "CopAur：首批融资4,213,940加元，用于推进 Kinsley Mountain 许可和 Troy Canyon 勘探许可",
+      "excerpt": "CopAur 于北京时间11月14日07:48公告，首批非经纪私募已经交割，总额4,213,940加元，仍待 TSX Venture 接受。交割日为2026年11月12日，将发行42,139,400个单位，每个0.10加元，含半份认股权证，整份行权价0.20加元、期限两年。所得将用于推进内华达 Kinsley Mountain 金矿许可所需开支，以及取得 Troy Canyon 启动初步勘探所需许可，并补充一般营运资金。公司称另有已签署、资金尚未到账的认购，到账后总额将达5,413,940加元，并计划在11月25日前完成本次发行。",
+      "language": "en",
+      "interpretation": "这笔钱被写明用于许可和初步勘探，所以它是金项目的推进资金，不是已经批准的开采许可，也不是新增资源或产量。10月6日已经预告过这次发行，本期新增的是11月12日首批交割和用途口径。交易所接受和剩余资金到账都还没发生。",
+      "importance": "4,213,940加元首批资金被明确指向 Kinsley Mountain 的许可开支和 Troy Canyon 的勘探许可，改变的是两个内华达金项目的资金条件。这不会在本季形成黄金产量，交割也仍待交易所接受。未到账部分计划到11月25日才完成，下一步要看许可文件是否提交，以及剩余融资是否到账。",
+      "verification_status": "verified",
+      "verification_note": "打开 Newsfile 324042 全文。发布时间为 November 13, 2026 6:48 PM EST，合北京时间14日07:48。交割日写的是 November 12, 2026，公告日本身在 Part 3 窗口内。",
+      "companies": [
+        "CopAur Minerals"
+      ],
+      "projects": [
+        "Kinsley Mountain",
+        "Troy Canyon"
+      ]
+    },
+    {
+      "url": "https://www.mining.com/web/chile-mulls-private-sector-role-in-codelcos-mines-and-infrastructure/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "supply",
+      "publish_time": "2026-11-14T04:20:00+08:00",
+      "claims": [
+        {
+          "claim": "智利正在考虑让私人公司进入 Codelco 的采矿业务和基础设施，范围可能超出目前的勘查合资。",
+          "evidence": "Chile is considering ways to bring private companies into Codelco’s mining operations and infrastructure, potentially forming partnerships well beyond the exploration ventures currently used by the state copper giant.",
+          "source_url": "https://www.mining.com/web/chile-mulls-private-sector-role-in-codelcos-mines-and-infrastructure/",
+          "evidence_type": "public original page",
+          "period": "minister interview 2026-11-13",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "Mas 说，私人公司可以参与部分矿床开采，或在基础设施和加工设施上合作；政府正在评估让私人进入目前保留矿床的法律修改。",
+          "evidence": "Those companies could participate in the exploitation of some Codelco deposits or team up with the company on infrastructure and processing facilities, Mining and Economy Minister Daniel Mas said in an interview on Friday. The government is evaluating legal changes that could pave the way for private participation in deposits currently reserved for Codelco, he said.",
+          "source_url": "https://www.mining.com/web/chile-mulls-private-sector-role-in-codelcos-mines-and-infrastructure/",
+          "evidence_type": "public original page",
+          "period": "minister interview 2026-11-13",
+          "unit": "qualitative",
+          "value": null
+        },
+        {
+          "claim": "Mas 强调 Codelco 仍将保持国有，政府目前没有讨论引入少数股东。",
+          "evidence": "Mas stressed that Codelco will remain state-owned and said the government isn’t currently discussing the introduction of minority shareholders.",
+          "source_url": "https://www.mining.com/web/chile-mulls-private-sector-role-in-codelcos-mines-and-infrastructure/",
+          "evidence_type": "public original page",
+          "period": "minister interview 2026-11-13",
+          "unit": "qualitative",
+          "value": null
+        }
+      ],
+      "source": "MINING.COM",
+      "title": "智利矿业部长：评估私人资本参与 Codelco 部分矿床开采和基础设施，公司仍保持国有",
+      "excerpt": "Mining.com 转载的 Bloomberg 稿称，智利正在考虑让私人公司进入 Codelco 的采矿业务和基础设施，合作范围可能超出目前的勘查合资。矿业与经济部长 Daniel Mas 在周五访谈中说，这些公司可以参与部分 Codelco 矿床的开采，或在基础设施和加工设施上合作；政府正在评估法律修改，以便私人参与目前保留给 Codelco 的矿床。Mas 强调 Codelco 仍将保持国有，政府目前没有讨论引入少数股东。被问到 Gabriela Mistral 这类现有矿山时，他没有排除私人资本。",
+      "language": "en",
+      "interpretation": "这是部长访谈里的政策方向，不是已经通过的法律，也不是已经签署的开采合资。私人资本进入开采，比现有的未开发地块勘查合作更敏感。稿中的产量下滑、品位下降和债务约束是背景，本篇没有新的产量表。",
+      "importance": "如果私人资本能够进入目前保留给 Codelco 的矿床开采，影响的是智利国家铜矿的中期资本和产量路径，不是下一季产量。部长同时说公司仍保持国有、目前不讨论少数股东，所以这不是私有化方案。法律文本和具体矿山清单都还没有，Gabriela Mistral 也只是没有被排除。下一步要看国会是否出现可核对的法案。",
+      "verification_status": "verified",
+      "verification_note": "打开 Mining.com 对 Bloomberg 稿的转载并保存正文。页面显示 November 13, 2026 | 1:20 pm，页面没有印时区；按本次分类页证据使用的 UTC-07 换算，合北京时间14日04:20。未另开 Bloomberg 原文。",
+      "companies": [
+        "Codelco"
+      ],
+      "projects": [
+        "Gabriela Mistral"
+      ]
+    },
+    {
+      "url": "https://www.mining.com/web/copper-price-heads-for-biggest-weekly-drop-since-march-on-ai-rout/",
+      "metal_tags": [
+        "copper"
+      ],
+      "primary_metal": "copper",
+      "supply_demand": "both",
+      "publish_time": "2026-11-14T03:09:00+08:00",
+      "claims": [
+        {
+          "claim": "本周上期所仓库铜库存再降18.3%，至27,642吨，为2023年12月以来最低。",
+          "evidence": "Copper stocks in Shanghai Futures Exchange warehouses declined a further 18.3% to just 27,642 tons this week, the lowest since December 2023.",
+          "source_url": "https://www.mining.com/web/copper-price-heads-for-biggest-weekly-drop-since-march-on-ai-rout/",
+          "evidence_type": "public original page",
+          "period": "week of the 2026-11-13 report",
+          "unit": "t",
+          "value": "27642"
+        },
+        {
+          "claim": "洋山铜溢价周五升至每吨285美元，为纪录水平。",
+          "evidence": "The Yangshan copper premium, paid on top of LME prices and a gauge of China’s appetite for imports, hit a record $285 a ton on Friday.",
+          "source_url": "https://www.mining.com/web/copper-price-heads-for-biggest-weekly-drop-since-march-on-ai-rout/",
+          "evidence_type": "public original page",
+          "period": "2026-11-13",
+          "unit": "USD/t",
+          "value": "285"
+        }
+      ],
+      "source": "MINING.COM",
+      "title": "上期所仓库铜库存降至27,642吨，洋山铜溢价升至每吨285美元",
+      "excerpt": "Mining.com 转载的 Reuters 稿称，本周上期所仓库铜库存再降18.3%，至27,642吨，为2023年12月以来最低。洋山铜溢价在周五升至每吨285美元，为纪录水平。高盛称此轮下跌反映的是仓位，不是基本面放松，并指出中国这个最大消费国的铜供应偏紧、库存低、溢价高。",
+      "language": "en",
+      "interpretation": "27,642吨写的是上期所仓库库存，11-13日报记录的2,270吨是仓单，两个口径不能直接相减。价格跌幅只说明这篇稿的市场背景，不单独构成供给变化。库存和溢价数字来自 Reuters 转载，不是本次打开的交易所原始页面。",
+      "importance": "库存降到2023年12月以来最低，同时洋山溢价升到每吨285美元，说明中国现货铜仍然紧，不能把本周价格下跌读成供应已经宽松。18.3%的周降幅和27,642吨是这篇稿给出的库存锚点，和此前仓单数字不是同一序列。下一步要看仓库库存是否回补，以及溢价是否留在高位。这反映的是现货松紧，交易所原始表本次没有打开。",
+      "verification_status": "verified",
+      "verification_note": "打开 Mining.com 对 Reuters 稿的转载并保存正文。页面显示 November 13, 2026 | 12:09 pm，页面没有印时区；按本次分类页证据使用的 UTC-07 换算，合北京时间14日03:09。未另开上期所或洋山溢价的交易所页面。11-13日报的2,270吨是仓单，不是本篇的仓库库存。",
+      "companies": [],
+      "projects": []
+    }
+  ],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The KE Report 节目列表（固定检查源）：打开了当月列表。Kuya 页面日期为 November 13, 2026，无时刻；11-13日报检索日志中的 RSS 17:57 UTC 没有随本次页面保存，不作为已核验时刻。纳入该访谈，只采用文章要点。Dana Lyons 页面已打开，RSS 为 14 Nov 2026 11:00 UTC（北京时间19:00），可读内容是宏观和市场结构，无矿山产量、品位、许可或库存数字，不纳入。West Red Lake 已在11-11日报收录，去重。",
+      "Crux Investor（固定检查源）：supplement/crux_window.txt 记录了 /videos 与 /latest 在11月12日至14日的条目。11月14日两个列表都没有新日期。11月12日至13日的访谈或文章要么已在11-12或11-13日报收录，要么是宏观、盐、铀或没有可读正文的 TRX Pitch Perfect。没有新纳入。",
+      "Resource Talks（固定检查源）：supplement/resourcetalks_window.txt 记录首页和官方 RSS。最新 pubDate 为12 Nov 2026，11月13日和14日没有新条目。11月12日 Kingfisher、NewPeak 已在11-13日报收录，Riverside 仍因信号不足不纳入。",
+      "业绩电话会转录：结转纳入 Americas Motley Fool 文字稿（2026-11-13T21:28:28Z，合北京时间14日05:28），仅补充新闻稿与13日 Crux 访谈未写出的口头成本口径。"
+    ],
+    "part1_result": "完成11月12日至14日北京时间访谈检索。固定源 The KE Report、Crux Investor、Resource Talks 均有本次保存的列表或全文记录。纳入2条：Kuya 文章要点，以及 Americas 文字稿里新闻稿和13日 Crux 访谈没有写出的口头成本口径。均未听取音频或视频。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "Grok 公共 X 读取（已获 Zhemin 授权，不是 Playwright，也不是 twscrape）：24个注册种子里 21 个账号解析成功并已查询，3 个失败。窗口 2026-11-13T16:00:00Z 至 2026-11-14T15:59:59Z，查询端点用了半开的 2026-11-14T16:00:00Z。窗口内原帖 16 条：Ivanhoe 1 条纳入；peter_krauth 1 条和 duediligenceguy 14 条排除。其余已成功账号在窗口内为 0 条。这不是 24/24 全部成功。",
+      "解析失败：WalterColesJr 找不到用户；BarrickGold 已停用；SSRMining 找不到用户。这三户按失败计，不按零帖计。",
+      "已解析但身份不像官方账号、仍只查询了返回的那个 ID、窗口内 0 帖：FreeportMcMoRan 显示为 PT Freeport Indonesia；ivanbebek 为 14 个关注者的 Ivanbebek；lundinmining 显示名 Lundin minins；firstmajestic 显示名 halipino；SandstormGold 显示名 Timothy Martin；fortuna_silver 简介为 DM for more。零帖不能写成官方公司账号当天没有发帖。",
+      "注册表 Playwright：本机没有 x_auth，没有执行。twscrape 没有尝试。schema 在完成数大于 0 时不允许把选定通道留空，也不接受 Grok 这个通道名，所以选定通道写成 playwright 只为通过字段约束，不表示 Playwright 抓到了帖子。"
+    ],
+    "part2_result": "X 公共读取完成 21/24，不是 24/24。失败账号是 WalterColesJr（找不到用户）、BarrickGold（已停用）和 SSRMining（找不到用户）。窗口内 16 条原帖里纳入 Ivanhoe 的 Platreef 二期帖；Peter Krauth 1 条和 Lobo Tiggre 14 条没有可核验的矿山产量、品位、许可或库存数字。Playwright 没有执行。若干已解析账号不像官方主体，它们的零帖不代表官方账号沉默。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 24,
+      "accounts_completed": 21,
+      "accounts_failed": 3,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "schema selected_channel=playwright is only the allowed non-null label when completed accounts are greater than zero. Playwright was not executed because x_auth is absent, and twscrape was not attempted. The 21/24 count is the authorized Grok public-account read.",
+        "@WalterColesJr: Could not find user with usernames: [WalterColesJr]",
+        "@BarrickGold: User has been suspended: [BarrickGold]",
+        "@SSRMining: Could not find user with usernames: [SSRMining]"
+      ],
+      "notes": "Grok public X tools resolved and queried 21 of 24 registry seeds in the Beijing 2026-11-14 window (UTC 2026-11-13T16:00:00Z through 2026-11-14T15:59:59Z). Three seeds failed and are not zero-post successes. Sixteen in-window originals were read: one Ivanhoe post included, one peter_krauth post and fourteen duediligenceguy posts excluded. Several resolved accounts do not look like the official issuers; their zero posts are not evidence that the official accounts were silent. Timestamps at or after 2026-11-14T16:00:00Z would be 2026-11-15 in Beijing and were not present."
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "Newsfile mining 列表：浏览器在 AWS WAF 后加载 https://www.newsfilecorp.com/news/mining-metals。第1页窗口内纳入 Steppe、Starcore，并另读全文后纳入 CopAur 首批融资。Gold X2 只是财报归档通知，没有新的季度产量或指引，不纳入。Clean Air/Springbok 是尚未交割的公司合并批准，铜数字来自旧的 PEA 复述，不是新的金银铜供给事实，不纳入。Velocity 期权、Battery CFO、Caprock 投资者关系协议不纳入。",
+      "CNW / newswire.ca：实际列表为 mining-list 与 mining-metals-list。纳入 Perpetua。Eastplats 三季报已读全文，主产品是铂族和铬，不纳入。Star Diamond 是钻石项目且现场处于维护状态，不纳入。Lucara 是钻石生产商，不纳入。",
+      "GlobeNewswire Metals & Mining HTML 列表（HTTP 200）：扫描第1页10条，窗口内纳入2条（Asante、Island Passage）。Gold/Copper/General Mining/Precious Metals 行业 RSS 各近20条作交叉核对，Asante 由 Gold Mining RSS 确认时间为 23:18 GMT。铜行业 RSS 近20条无11月条目。第1页最后一条已为13日08:00 ET，未开第2页。",
+      "Business Wire mining newsroom：浏览器打开 /newsroom 及行业入口均为 “Page Unavailable”，未能扫描，纳入0，记为失败通道。",
+      "ACCESS Newswire：/newsroom/en/metals-and-mining 为404；实际列表为 /newsroom/industry/metals-and-mining（HTTP 200）。扫描第1页20条，按显示时刻视为ET则窗口内9条，纳入0。Heliostar 为再传，与11-13日报已收录稿件去重。时间戳无时区标注。",
+      "RNS / Investegate：11月14日日期归档打开后是空表，这是周六空结果，不是缺页。11月13日 16:00 GMT 之后的可见矿业条目是 Heliostar 再传，与11-13日报已收录稿件去重。没有新纳入。",
+      "ASX / Listcorp：保存的 listcorp.html 和再次打开的 /asx 都是公司目录，不是公告磁带。周六搜索没有 14 Nov 2026 公告。Forrestania 矿石采购协议时间为 13 Nov 2026 18:53 AEST，即 07:53 UTC，在 Part 3 窗口开始之前，不纳入，也不改写11-13日报。这不是完整 ASX 公告扫描。",
+      "JSE SENS：11月14日 ShareData 日期列表是付费墙，官方周六列表没有公开读到，不能写成零结果。11月13日公开列表的时钟若按 SAST，都在 16:00 UTC 之前，出窗。Moneyweb 最新 SENS 列表最新一条仍是 13.11.26 16:42 BRIKOR，没有 14 Nov 标题。Eastplats 的 JSE PDF 与已读 CNW 稿是同一事件。没有新纳入。",
+      "SEC 6-K/8-K/40-F：检索命中的 Americas、Gunnison、Contango 已在11-13日报收录，本期无新独立纳入。",
+      "公司 IR / Metso-Epiroc-Sandvik：Asante 以 GNW 正文为准并核对其 IR 转载。未找到窗口内可核验的 Metso、Epiroc 或 Sandvik 矿山重启/扩建订单。",
+      "区域库存：没有打开上期所或 SMM 原始页面。Reuters 经 Mining.com 转载写出上期所仓库库存 27,642 吨和洋山溢价每吨 285 美元，已单独纳入，并注明这不是 11-13 日报的 2,270 吨仓单。",
+      "Mining.com 铜/金/银分类页：/category/copper、/gold、/silver 及其第2页返回 404。可见导航进入 /commodity/copper、/gold、/silver，铜金读了第1页和第2页，银第1页已到11月2日、第2页更早。页面没有 2026-11-14 或 2026-11-15 标题。早先“R日 0 篇且 complete”不成立。窗口内五篇按正文裁决，不按浏览器的 include 标签。",
+      "上期结转项逐条裁决：纳入 Asante 三季报（18:18 ET 13 Nov）、Steppe Gold 三季报（17:00 ET 13 Nov）、KE Kuya 访谈（北京时间14日01:57）、Americas Fool 文字稿（北京时间14日05:28，仅新的口头成本口径）。"
+    ],
+    "part3_result": "完成11月14日北京时间新闻检索。纳入 Asante、Steppe、Starcore、Perpetua、Island Passage、CopAur、智利 Codelco 部长访谈，以及 Reuters 转载的上期所仓库库存和洋山溢价。Business Wire 仍是 Page Unavailable。ASX 只有目录和搜索，不是完整公告磁带。JSE 周六官方日期列表是付费墙，Moneyweb 公开列表没有 14 Nov 的 SENS 标题。这些限制已经写明，不表示所有来源都健康。",
+    "mining_com_source_note": "请求的 /category/copper、/gold、/silver 为 HTTP 404。实际读取 /commodity/copper、/gold、/silver 的第1页和第2页，HTTP 200，列表文本和截图在本次证据中。文章页眉没有印时区，时刻按 UTC-07 换算。窗口内五篇：Freeport/TDG 与11-13日报 GNW 同一交易，去重；Capstone 转载的一手稿是 2026-11-12T13:01:05Z，没有新的后续事实，不改写11-12日报；智利 Codelco 访谈纳入；铜价稿只采用仓库库存和洋山溢价，不把跌幅本身当供给信号；Mineros 稿的产量和全年指引已在11-12日报，金库抵押和10月回购属于此前期间的季报事实，不作为11-14新事件。6篇 11月13日 09:00 UTC-07 之前的文章出窗。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 11,
+      "passed": 11,
+      "failed": 0,
+      "failures": [],
+      "notes": "计数只含本次能够绑定到本地保存文本的候选。Ivanhoe 段落在补充的帖子编号和时间到达前不计数。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/11/11/west-red-lake-gold-mines-q3-operations-key-takeaways-from-the-integrated-pfs/"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "ACCESS Newswire 再传 Heliostar Q3，与11-13日报已收录的 Newsfile/IR 稿为同一事件，去重排除",
+      "Mining.com Capstone 转载在列表可见，但一手稿时间为11月12日，已属上一窗口，不改写历史日报",
+      "Mining.com TDG/Freeport 转载与11-13日报已收录的 GNW（C$110 million）为同一交易，去重排除",
+      "Mining.com Capstone 转载复述 2026-11-12T13:01:05Z 的一手更新，没有新的后续产量事实，不改写11-12日报",
+      "Mining.com Mineros 稿的 62,253 盎司和 23.5万–24.5万盎司指引已在11-12日报；10月黄金回购属于此前期间",
+      "Investegate / ACCESS 的 Heliostar 再传与11-13日报已收录稿件为同一事件",
+      "白银协会 2026 年缺口报告已在11-13日报收录；窗口外或转载不再重复"
+    ],
+    "notes": "与 2026-11-12、2026-11-13 日报 URL/事件比对；跨时区来源先按来源时区换算北京时间再判断窗口。已保存原文的结转项：Asante、Steppe、KE Kuya、Americas Fool（后者只补口头AISC/现金成本，不重复13日已公布的产量与指引）。Kuya 采用页面日期11月13日，不采用未附 RSS 原文的时刻。Resource Talks 12日访谈已在11-13处理。KE 宏观周末节目因无矿山数字排除，不是日报去重。"
+  }
+}

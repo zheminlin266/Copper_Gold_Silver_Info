@@ -1,0 +1,66 @@
+report_date: 2026-11-14
+method: Grok public X tools. Not Playwright. Not twscrape.
+window_utc: 2026-11-13T16:00:00Z through 2026-11-14T15:59:59Z
+accounts_total: 24
+accounts_completed: 21
+accounts_failed: 3
+status: partial
+part2_searched: false
+failed: WalterColesJr not found; BarrickGold suspended; SSRMining not found
+in_window_originals: 16
+included: IvanhoeMines_ 2121348294685413815 2026-11-13T21:03:40.000Z
+excluded: peter_krauth 1; duediligenceguy 14
+note: API text for the Ivanhoe post is truncated at 278 characters, ending at 'annually of'. Copper and nickel tonnes are in the saved continuation that matches that prefix.
+note: several resolved accounts do not look like the official issuers. Zero posts on those IDs are not official-account silence.
+note: schema selected_channel is playwright only because a non-zero completion count cannot use a null or Grok channel name. Playwright did not run.
+
+## peter_krauth 1
+2026-11-13T19:35:12.000Z https://x.com/peter_krauth/status/2121326029449077085 verdict=exclude
+“If you don’t hold it, you don’t own it.” |  | A harsh reminder for millions in Paraguay after a major bank collapse reportedly froze accounts. |  | Physical silver is more than an investment. It’s insurance. |  | Plus 6 company updates in this week’s Silver Scoop. | @TedJButler has it all
+
+## duediligenceguy 14
+2026-11-14T14:11:51.000Z https://x.com/duediligenceguy/status/2121607043534721237 verdict=exclude
+My take on the latest market action in our free, no-spam, no-hype Speculator's Digest:
+
+2026-11-14T14:09:24.000Z https://x.com/duediligenceguy/status/2121606429266088445 verdict=exclude
+WARNING: |  | "We have work to do" is FedSpeak for "We need to put more people out of work." |  | My take in this weekend's free edition of The Digest... |  | (Link in reply so X won't hide this post.)
+
+2026-11-14T14:05:18.000Z https://x.com/duediligenceguy/status/2121605395278184813 verdict=exclude
+Is that all? | ;-{)}
+
+2026-11-14T14:04:24.000Z https://x.com/duediligenceguy/status/2121605167665877178 verdict=exclude
+Inflation: It's not just for breakfast anymore...
+
+2026-11-14T13:59:31.000Z https://x.com/duediligenceguy/status/2121603939825033365 verdict=exclude
+No mining, no solar power or wind turbines. |  | I'm all for doing mining right, but if you make it harder and more expensive, you make "renewables" harder and more expensive. |  | Period.
+
+2026-11-14T13:51:05.000Z https://x.com/duediligenceguy/status/2121601818882929130 verdict=exclude
+Hot air.
+
+2026-11-14T13:38:50.000Z https://x.com/duediligenceguy/status/2121598735968883180 verdict=exclude
+Reminder: Country Risk isn't always political...
+
+2026-11-14T13:36:50.000Z https://x.com/duediligenceguy/status/2121598233231217112 verdict=exclude
+Heh. Fair point.
+
+2026-11-14T13:21:27.000Z https://x.com/duediligenceguy/status/2121594359816896566 verdict=exclude
+@AndrewR52539811 @MoneyMetals Maybe, but the AI headwind could get worse before it gets better...
+
+2026-11-14T03:08:51.000Z https://x.com/duediligenceguy/status/2121440195778425263 verdict=exclude
+@LSV2025 @geldvos Torn down by the mob... very sad.
+
+2026-11-13T22:00:29.000Z https://x.com/duediligenceguy/status/2121362592316977661 verdict=exclude
+@Dreca90 @MoneyMetals Yes, I am.
+
+2026-11-13T21:46:56.000Z https://x.com/duediligenceguy/status/2121359181319970916 verdict=exclude
+@Brien_Lundin Whoa... glad you're safe!
+
+2026-11-13T21:37:11.000Z https://x.com/duediligenceguy/status/2121356726737997956 verdict=exclude
+@MoneyMetals That's how I think about stacking bullion—or even longer term. |  | But for speculating on mining stocks, I need clarity on what's likely in the next year or two. |  | Especially for junior mining stocks, many companies won't last if it takes 3-5 years for gold to deliver.
+
+2026-11-13T18:23:51.000Z https://x.com/duediligenceguy/status/2121308075026202912 verdict=exclude
+@FiscalDominanc @SantiagoAuFund My Take currently covers 6 coal companies... | :-{)}
+
+## IvanhoeMines_ 1
+2026-11-13T21:03:40.000Z https://x.com/IvanhoeMines_/status/2121348294685413815 verdict=include
+Development of Platreef’s Phase 2 expansion continues to advance, with earthworks for the new concentrator nearing completion and civil works progressing. |  | Completion is scheduled for year-end 2027. At full ramp-up, Phase 2 is designed to produce over 450,000 ounces annually of

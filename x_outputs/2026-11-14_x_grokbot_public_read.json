@@ -1,0 +1,457 @@
+{
+  "report_date": "2026-11-14",
+  "fetched_at_asia_hong_kong": "2026-11-15T09:55:35.800043+08:00",
+  "method": "Grok Bot public X tools (get_users_by_usernames, get_users_posts, get_posts_by_id). Not Playwright or twscrape.",
+  "guide_loaded": "x-api-mcp-guide",
+  "window": {
+    "start_time": "2026-11-13T16:00:00Z",
+    "end_time_query": "2026-11-14T16:00:00Z",
+    "end_time_inclusive_equivalent": "2026-11-14T15:59:59Z",
+    "note": "API query used end_time=2026-11-14T16:00:00Z as the usual half-open end, which covers through 15:59:59Z inclusive as requested."
+  },
+  "exclude": [
+    "retweets"
+  ],
+  "accounts_total": 24,
+  "accounts_completed": 21,
+  "accounts_failed": 3,
+  "part2_searched": false,
+  "coverage_display": "21/24",
+  "accounts": [
+    {
+      "seed": "peter_krauth",
+      "status": "completed",
+      "user_id": "1313513299548549120",
+      "name": "Peter Krauth",
+      "username": "peter_krauth",
+      "verified": true,
+      "followers": 14949,
+      "identity_note": null,
+      "window_posts": 1
+    },
+    {
+      "seed": "duediligenceguy",
+      "status": "completed",
+      "user_id": "2818081640",
+      "name": "Lobo Tiggre",
+      "username": "duediligenceguy",
+      "verified": true,
+      "followers": 51299,
+      "identity_note": null,
+      "window_posts": 14
+    },
+    {
+      "seed": "Junior_Stock",
+      "status": "completed",
+      "user_id": "711735482904870912",
+      "name": "Brian Leni",
+      "username": "Junior_Stock",
+      "verified": true,
+      "followers": 4168,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "soarfinancial",
+      "status": "completed",
+      "user_id": "278180555",
+      "name": "Soar Financial",
+      "username": "soarfinancial",
+      "verified": true,
+      "followers": 9324,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "IvanhoeMines_",
+      "status": "completed",
+      "user_id": "918142563948756992",
+      "name": "Ivanhoe Mines",
+      "username": "IvanhoeMines_",
+      "verified": true,
+      "followers": 9317,
+      "identity_note": null,
+      "window_posts": 1
+    },
+    {
+      "seed": "FreeportMcMoRan",
+      "status": "completed",
+      "user_id": "2370436772",
+      "name": "Freeport-McMoRan",
+      "username": "FreeportMcMoRan",
+      "verified": false,
+      "followers": 0,
+      "identity_note": "Resolved account description is PT Freeport Indonesia (Indonesian). Still queried this ID; window posts 0. Did not switch handles.",
+      "window_posts": 0
+    },
+    {
+      "seed": "NewmontCorp",
+      "status": "completed",
+      "user_id": "437789543",
+      "name": "Newmont Corporation",
+      "username": "NewmontCorp",
+      "verified": true,
+      "followers": 29476,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "TeckResources",
+      "status": "completed",
+      "user_id": "22157556",
+      "name": "Teck Resources",
+      "username": "TeckResources",
+      "verified": true,
+      "followers": 15857,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "AntofagastaPLC",
+      "status": "completed",
+      "user_id": "717769663011131392",
+      "name": "Antofagasta PLC",
+      "username": "AntofagastaPLC",
+      "verified": false,
+      "followers": 919,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "agnicoeagle",
+      "status": "completed",
+      "user_id": "267764853",
+      "name": "Agnico Eagle Mines",
+      "username": "agnicoeagle",
+      "verified": true,
+      "followers": 18032,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "Wheaton_PM",
+      "status": "completed",
+      "user_id": "164791515",
+      "name": "Wheaton Precious Metals",
+      "username": "Wheaton_PM",
+      "verified": true,
+      "followers": 11378,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "EndeavourMining",
+      "status": "completed",
+      "user_id": "3242239228",
+      "name": "Endeavour Mining",
+      "username": "EndeavourMining",
+      "verified": false,
+      "followers": 2550,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "kinrossgold",
+      "status": "completed",
+      "user_id": "18194126",
+      "name": "Kinross Gold",
+      "username": "kinrossgold",
+      "verified": true,
+      "followers": 23288,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "GoGoldResources",
+      "status": "completed",
+      "user_id": "1154193240",
+      "name": "GoGold Resources: Silver & Gold",
+      "username": "GoGoldResources",
+      "verified": true,
+      "followers": 2893,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "VizslaSilver",
+      "status": "completed",
+      "user_id": "1195139525380431872",
+      "name": "Vizsla Silver",
+      "username": "VizslaSilver",
+      "verified": true,
+      "followers": 6602,
+      "identity_note": null,
+      "window_posts": 0
+    },
+    {
+      "seed": "PanAmericanSlvr",
+      "status": "completed",
+      "user_id": "2828903628",
+      "name": "Pan American Silver",
+      "username": "PanAmericanSlvr",
+      "verified": false,
+      "followers": 714,
+      "identity_note": "Resolved account has tweet_count 0 historically; window posts 0.",
+      "window_posts": 0
+    },
+    {
+      "seed": "Ivanbebek",
+      "status": "completed",
+      "user_id": "117757065",
+      "name": "Ivan Bebek",
+      "username": "Ivanbebek",
+      "verified": false,
+      "followers": 14,
+      "identity_note": "Likely not the intended official/person account (14 followers, 0 tweets). Queried this resolved ID only; did not switch handles. Window posts 0.",
+      "window_posts": 0
+    },
+    {
+      "seed": "lundinmining",
+      "status": "completed",
+      "user_id": "52892231",
+      "name": "Lundin minins",
+      "username": "lundinmining",
+      "verified": false,
+      "followers": 11,
+      "identity_note": "Display name 'Lundin minins', 11 followers, 1 tweet — likely not official Lundin Mining. Queried this ID only. Window posts 0.",
+      "window_posts": 0
+    },
+    {
+      "seed": "firstmajestic",
+      "status": "completed",
+      "user_id": "33320116",
+      "name": "halipino",
+      "username": "firstmajestic",
+      "verified": false,
+      "followers": 8,
+      "identity_note": "Display name 'halipino' — not the official issuer account. Queried this ID only. Window posts 0.",
+      "window_posts": 0
+    },
+    {
+      "seed": "SandstormGold",
+      "status": "completed",
+      "user_id": "371479979",
+      "name": "Timothy Martin",
+      "username": "SandstormGold",
+      "verified": false,
+      "followers": 11,
+      "identity_note": "Display name 'Timothy Martin' — not the official issuer account. Queried this ID only. Window posts 0.",
+      "window_posts": 0
+    },
+    {
+      "seed": "fortuna_silver",
+      "status": "completed",
+      "user_id": "1885417179786649600",
+      "name": "FortunaSilver",
+      "username": "fortuna_silver",
+      "verified": false,
+      "followers": 0,
+      "identity_note": "Account created 2025-01-31, bio 'DM for more' — not the official issuer account. Queried this ID only. Window posts 0.",
+      "window_posts": 0
+    },
+    {
+      "seed": "WalterColesJr",
+      "status": "resolve_failed",
+      "user_id": null,
+      "error": "Could not find user with usernames: [WalterColesJr]",
+      "identity_note": "Count as failure, not zero posts."
+    },
+    {
+      "seed": "BarrickGold",
+      "status": "resolve_failed",
+      "user_id": null,
+      "error": "User has been suspended: [BarrickGold]",
+      "identity_note": "Count as failure, not zero posts."
+    },
+    {
+      "seed": "SSRMining",
+      "status": "resolve_failed",
+      "user_id": null,
+      "error": "Could not find user with usernames: [SSRMining]",
+      "identity_note": "Count as failure, not zero posts."
+    }
+  ],
+  "posts": {
+    "peter_krauth": [
+      {
+        "id": "2121326029449077085",
+        "author_id": "1313513299548549120",
+        "username": "peter_krauth",
+        "name": "Peter Krauth",
+        "created_at": "2026-11-13T19:35:12.000Z",
+        "beijing": "2026-11-14T03:35:12+08:00",
+        "url": "https://x.com/peter_krauth/status/2121326029449077085",
+        "text": "“If you don’t hold it, you don’t own it.”\n\nA harsh reminder for millions in Paraguay after a major bank collapse reportedly froze accounts.\n\nPhysical silver is more than an investment. It’s insurance.\n\nPlus 6 company updates in this week’s Silver Scoop.\n@TedJButler has it all",
+        "verdict": "exclude",
+        "reason": "Physical-silver slogan and newsletter promotion; no attributable mine production, grade, permit or inventory figures."
+      }
+    ],
+    "duediligenceguy": [
+      {
+        "id": "2121607043534721237",
+        "created_at": "2026-11-14T14:11:51.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121607043534721237",
+        "text": "My take on the latest market action in our free, no-spam, no-hype Speculator's Digest:",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121606429266088445",
+        "created_at": "2026-11-14T14:09:24.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121606429266088445",
+        "text": "WARNING:\n\n\"We have work to do\" is FedSpeak for \"We need to put more people out of work.\"\n\nMy take in this weekend's free edition of The Digest...\n\n(Link in reply so X won't hide this post.)",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121605395278184813",
+        "created_at": "2026-11-14T14:05:18.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121605395278184813",
+        "text": "Is that all?\n;-{)}",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121605167665877178",
+        "created_at": "2026-11-14T14:04:24.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121605167665877178",
+        "text": "Inflation: It's not just for breakfast anymore...",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121603939825033365",
+        "created_at": "2026-11-14T13:59:31.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121603939825033365",
+        "text": "No mining, no solar power or wind turbines.\n\nI'm all for doing mining right, but if you make it harder and more expensive, you make \"renewables\" harder and more expensive.\n\nPeriod.",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121601818882929130",
+        "created_at": "2026-11-14T13:51:05.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121601818882929130",
+        "text": "Hot air.",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121598735968883180",
+        "created_at": "2026-11-14T13:38:50.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121598735968883180",
+        "text": "Reminder: Country Risk isn't always political...",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121598233231217112",
+        "created_at": "2026-11-14T13:36:50.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121598233231217112",
+        "text": "Heh. Fair point.",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121594359816896566",
+        "created_at": "2026-11-14T13:21:27.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121594359816896566",
+        "text": "@AndrewR52539811 @MoneyMetals Maybe, but the AI headwind could get worse before it gets better...",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121440195778425263",
+        "created_at": "2026-11-14T03:08:51.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121440195778425263",
+        "text": "@LSV2025 @geldvos Torn down by the mob... very sad.",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121362592316977661",
+        "created_at": "2026-11-13T22:00:29.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121362592316977661",
+        "text": "@Dreca90 @MoneyMetals Yes, I am.",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121359181319970916",
+        "created_at": "2026-11-13T21:46:56.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121359181319970916",
+        "text": "@Brien_Lundin Whoa... glad you're safe!",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121356726737997956",
+        "created_at": "2026-11-13T21:37:11.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121356726737997956",
+        "text": "@MoneyMetals That's how I think about stacking bullion—or even longer term.\n\nBut for speculating on mining stocks, I need clarity on what's likely in the next year or two.\n\nEspecially for junior mining stocks, many companies won't last if it takes 3-5 years for gold to deliver.",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      },
+      {
+        "id": "2121308075026202912",
+        "created_at": "2026-11-13T18:23:51.000Z",
+        "url": "https://x.com/duediligenceguy/status/2121308075026202912",
+        "text": "@FiscalDominanc @SantiagoAuFund My Take currently covers 6 coal companies...\n:-{)}",
+        "author_id": "2818081640",
+        "username": "duediligenceguy",
+        "name": "Lobo Tiggre",
+        "verdict": "exclude"
+      }
+    ],
+    "IvanhoeMines_": [
+      {
+        "id": "2121348294685413815",
+        "author_id": "918142563948756992",
+        "username": "IvanhoeMines_",
+        "name": "Ivanhoe Mines",
+        "verified": true,
+        "created_at": "2026-11-13T21:03:40.000Z",
+        "beijing": "2026-11-14T05:03:40+08:00",
+        "url": "https://x.com/IvanhoeMines_/status/2121348294685413815",
+        "conversation_id": "2121348294685413815",
+        "public_metrics": {
+          "bookmark_count": 6,
+          "impression_count": 6141,
+          "like_count": 60,
+          "quote_count": 1,
+          "reply_count": 5,
+          "retweet_count": 12
+        },
+        "api_text_truncated": "Development of Platreef’s Phase 2 expansion continues to advance, with earthworks for the new concentrator nearing completion and civil works progressing.\n\nCompletion is scheduled for year-end 2027. At full ramp-up, Phase 2 is designed to produce over 450,000 ounces annually of",
+        "note": "get_posts_by_id / get_users_posts returned the standard 280-character truncated text ending at 'annually of'. Full remaining sentence is in the saved official-page copy (existing/part2_raw/ivanhoe-platreef.txt) and is reproduced below. Provenance (id, author_id, username, name, created_at, url) is from the API response fetched 2026-11-15.",
+        "full_text": "Development of Platreef’s Phase 2 expansion continues to advance, with earthworks for the new concentrator nearing completion and civil works progressing.\n\nCompletion is scheduled for year-end 2027. At full ramp-up, Phase 2 is designed to produce over 450,000 ounces annually of 3PE+Au, plus approximately 9,000 tonnes of nickel and 6,000 tonnes of copper.\n\nA major step forward in developing one of the world's significant new PGM mining operations.\n\\$IVN",
+        "verdict": "include"
+      }
+    ]
+  }
+}
