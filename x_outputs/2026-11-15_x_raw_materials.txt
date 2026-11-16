@@ -1,0 +1,74 @@
+REPORT_DATE=2026-11-15
+WINDOW=2026-11-14T16:00:00Z to 2026-11-15T16:00:00Z (half-open)
+METHOD=Grok Bot public X tools; Playwright not executed (no x_auth); twscrape not attempted
+COVERAGE=21/24
+
+@peter_krauth status=completed id=1313513299548549120 name=Peter Krauth followers=14964 window_posts=1 note=
+  2026-11-15T13:30:06.000Z https://x.com/peter_krauth/status/2121958924999966808
+  One more reason #Silver is headed higher. Producer Price Index climbing to 6.5% for October. https://t.co/sHXAXRROSC
+
+@duediligenceguy status=completed id=2818081640 name=Lobo Tiggre followers=51302 window_posts=14 note=
+  2026-11-15T14:40:45.000Z https://x.com/duediligenceguy/status/2121976704587465016
+  @number00046 You don't know about those old cooper wires? / ;-{)}
+
+  2026-11-15T14:33:58.000Z https://x.com/duediligenceguy/status/2121974998135185523
+  ;-{)} https://t.co/cWk29tsNIJ
+
+  2026-11-15T14:31:52.000Z https://x.com/duediligenceguy/status/2121974470621712480
+  Imagine seeing one of these bad boys tromp by this quiet Sunday afternoon… / :-{)} https://t.co/9Pc7uH5O54
+
+  2026-11-15T14:24:49.000Z https://x.com/duediligenceguy/status/2121972694618865902
+  @Realizit As a matter of principle, no one anywhere should ever let politicians tell them what words to use.
+
+  2026-11-15T14:15:35.000Z https://x.com/duediligenceguy/status/2121970372392145252
+  @fuzzysemi Well, Treasury does the actual printing. / ;-{)} /  / But in today's world, that's a small part of the whole Rube Goldberg contraption.
+
+  2026-11-15T14:14:04.000Z https://x.com/duediligenceguy/status/2121969991700668614
+  The Big 4 are now The Big 3. /  / Zelenskyy says the US floated trading the Donbas for peace and Nato membership for Ukraine. /  / What might Trump offer Xi to get him to lean on Iran's rulers? /  / What other deals could emerge from this? https://t.co/NV2pQ8RvkI
+
+  2026-11-15T14:05:49.000Z https://x.com/duediligenceguy/status/2121967915545075803
+  @ZolodUhtred The deficit increased $400 billion last month alone, so that seems... proportional.
+
+  2026-11-15T13:52:50.000Z https://x.com/duediligenceguy/status/2121964644088840629
+  Oops... /  / Well, it's a relief that it's apparently not a bad-actor cyberattack or a rogue AI attack. https://t.co/eACDt0Et62
+
+  2026-11-15T13:46:12.000Z https://x.com/duediligenceguy/status/2121962974835540293
+  https://t.co/TzSRip1x3K
+
+  2026-11-15T13:45:54.000Z https://x.com/duediligenceguy/status/2121962901489566012
+  This shouldn't surprise anyone paying attention. /  / More interesting charts in this article from Wolf Street... /  / (Link in reply so X won't hide this post.) https://t.co/jTLccVOve4
+
+  2026-11-15T13:37:50.000Z https://x.com/duediligenceguy/status/2121960870167072777
+  Nope. Still not done... https://t.co/1FrLs7m4iv
+
+  2026-11-14T19:24:23.000Z https://x.com/duediligenceguy/status/2121685696276533399
+  @jkcoolguy @potassium_phd That's true. /  / But let's be clear: I'm not making a bearish call. /  / Warning that something is possible is not the same as saying it's likely.
+
+  2026-11-14T19:13:22.000Z https://x.com/duediligenceguy/status/2121682923434778888
+  @MrJackGroth It's telling that the Big 3 meeting next week (Trump, Xi, Putin) is not the Big 4... /  / But prices are determined at the margins, so every large market matters.
+
+  2026-11-14T17:59:24.000Z https://x.com/duediligenceguy/status/2121664309805867158
+  @KGFB10807715 I thought Wookies were honest and loyal? / ;-{)}
+
+@Junior_Stock status=completed id=711735482904870912 name=Brian Leni followers=4169 window_posts=0 note=
+@soarfinancial status=completed id=278180555 name=Soar Financial followers=9323 window_posts=0 note=
+@WalterColesJr status=resolve_failed id=None name=None followers=None window_posts=0 note=Count as failure, not zero posts.
+@ivanbebek status=completed id=117757065 name=Ivan Bebek followers=14 window_posts=0 note=Likely not the intended official/person account (14 followers, 0 tweets). Queried this resolved ID only; did not switch handles. Window posts 0.
+@IvanhoeMines_ status=completed id=918142563948756992 name=Ivanhoe Mines followers=9322 window_posts=0 note=
+@FreeportMcMoRan status=completed id=2370436772 name=Freeport-McMoRan followers=0 window_posts=0 note=Resolved account description is PT Freeport Indonesia (Indonesian). Still queried this ID; window posts 0. Did not switch handles.
+@NewmontCorp status=completed id=437789543 name=Newmont Corporation followers=29479 window_posts=0 note=
+@BarrickGold status=resolve_failed id=None name=None followers=None window_posts=0 note=Count as failure, not zero posts.
+@TeckResources status=completed id=22157556 name=Teck Resources followers=15858 window_posts=0 note=
+@AntofagastaPLC status=completed id=717769663011131392 name=Antofagasta PLC followers=919 window_posts=0 note=
+@LundinMining status=completed id=52892231 name=Lundin minins followers=11 window_posts=0 note=Display name 'Lundin minins', 11 followers, 1 tweet — likely not official Lundin Mining. Queried this ID only. Window posts 0.
+@AgnicoEagle status=completed id=267764853 name=Agnico Eagle Mines followers=18031 window_posts=0 note=
+@FirstMajestic status=completed id=33320116 name=halipino followers=8 window_posts=0 note=Display name 'halipino' — not the official issuer account. Queried this ID only. Window posts 0.
+@PanAmericanSlvr status=completed id=2828903628 name=Pan American Silver followers=714 window_posts=0 note=Resolved account has tweet_count 0 historically; window posts 0.
+@Wheaton_PM status=completed id=164791515 name=Wheaton Precious Metals followers=11379 window_posts=0 note=
+@EndeavourMining status=completed id=3242239228 name=Endeavour Mining followers=2550 window_posts=0 note=
+@SSRMining status=resolve_failed id=None name=None followers=None window_posts=0 note=Count as failure, not zero posts.
+@KinrossGold status=completed id=18194126 name=Kinross Gold followers=23288 window_posts=0 note=
+@SandstormGold status=completed id=371479979 name=Timothy Martin followers=11 window_posts=0 note=Display name 'Timothy Martin' — not the official issuer account. Queried this ID only. Window posts 0.
+@Fortuna_Silver status=completed id=1885417179786649600 name=FortunaSilver followers=0 window_posts=0 note=Account created 2025-01-31, bio 'DM for more' — not the official issuer account. Queried this ID only. Window posts 0.
+@GoGoldResources status=completed id=1154193240 name=GoGold Resources: Silver & Gold followers=2894 window_posts=0 note=
+@vizslasilver status=completed id=1195139525380431872 name=Vizsla Silver followers=6602 window_posts=0 note=

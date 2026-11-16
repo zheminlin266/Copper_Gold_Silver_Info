@@ -1,0 +1,107 @@
+{
+  "schema_version": 3,
+  "date": "2026-11-15",
+  "report_time": "2026-11-16T08:39:38+08:00",
+  "summary": "黄金、白银和铜：北京时间11月15日窗口内，未见新的可核验矿山产量、指引、库存或项目进展。",
+  "windows": {
+    "part1": {
+      "start": "2026-11-13T00:00:00+08:00",
+      "end": "2026-11-15T23:59:59+08:00"
+    },
+    "part2": {
+      "start": "2026-11-15T00:00:00+08:00",
+      "end": "2026-11-15T23:59:59+08:00"
+    },
+    "part3": {
+      "start": "2026-11-15T00:00:00+08:00",
+      "end": "2026-11-15T23:59:59+08:00"
+    }
+  },
+  "part1_broadcasts": [],
+  "part2_x_posts": [],
+  "part3_news": [],
+  "search_log": {
+    "part1_searched": true,
+    "part1_sources_checked": [
+      "The KE Report 节目列表（固定检查源）：打开了 https://www.kereport.com/ 与 2026年11月归档。窗口内可见 13日 Kuya 节目页（已在11-14日报收录，去重）、14日 Dana Lyons Weekend Show（已打开，可读内容为宏观和技术分析，无矿山产量、品位、许可或库存数字，不纳入）、15日 FURY/GTC/WRLG/AZT/KUYA 汇编（复述既有访谈，不作为新信号）。官方 RSS 返回 500。",
+      "Crux Investor（固定检查源）：打开了 /videos 与 /latest。Olive Resource Capital Compass 文章日期为 November 13, 2026（录制于11月11日中午 ET），已读全文：内容是基金现金配置、中期选举和季节性买点，铜关税库存与轻微供给缺口、黄金受益于 AI 资金轮动均为基金经理观点，没有可归属的矿山或官方库存数字，不纳入。同场视频页正文几乎不可读，以文章为准。Tectonic、Americas Gold 13日条目与11-13日报已收录访谈为同一事件，去重。15日 Dune 为石油。TRX Gold Pitch Perfect、GR Silver、Integra playbook 等为文章而非访谈，或不纳入。",
+      "Resource Talks（固定检查源）：打开了官网首页；官方网站 /feed、/rss/ 与 Anchor RSS 均返回 500。书面访谈最新为11月12日 Kingfisher、NewPeak（已在11-13日报收录）和 Riverside（信号不足，仍不纳入）。Apple Podcasts 可见 15日 13:58 UTC 的 Ted Oakley 节目（北京时间21:58，在窗口内），但只有章节标题，没有可读文字稿或字幕，不根据标题补写。14日 18:47 UTC 的 Weekly movers（北京时间15日 02:47）是股价复盘，不纳入。Apple 页上接近抓取时刻出现的 “5 Experts / Deutsche Goldmesse” 按16日处理，出窗。",
+      "业绩电话会文字稿：Investing.com 可见 DPM（发布 Nov 13, 2026, 09:41 AM，按 ET 为北京时间13日 22:41）和 G Mining（09:48 AM ET，北京时间13日 22:48）文字稿，均在 Part 1 窗口内，但三季度产量、指引和 Oko/Vareš 要点已分别在11-13日报 Part 3 新闻稿收录，按同一事件去重。Motley Fool Integra 文字稿发布于 Nov 13, 2026 at 3:10AM EST（北京时间13日 16:10），电话会本身为11月12日 10:00 EST；该指引下调已在11-12日报 Part 3 以公司 IR 新闻稿收录，11-13日报已明确对 Fool 文字稿去重，本期不再纳入。未找到 14–15 日新的金银铜矿商 Fool 文字稿。",
+      "Proactive Gunnison 访谈页显示 Published: 14:56 12 Nov 2026 EST（北京时间13日 03:56），在窗口内，但所述 SHM-2 槽探/钻孔 40 英尺铜锌结果是对更早新闻稿的复述，按超出窗口的旧事件排除。"
+    ],
+    "part1_result": "完成11月13日至15日北京时间访谈检索。固定源 The KE Report、Crux Investor、Resource Talks 均已打开列表或全文。窗口内可读访谈和电话会文字稿与前两份日报去重后，没有新纳入。均未听取音频或视频。",
+    "part2_searched": false,
+    "part2_channel": "failed",
+    "part2_sources_checked": [
+      "Grok 公共 X 读取（已获 Zhemin 授权，不是 Playwright，也不是 twscrape）：24个注册种子里 21 个账号解析成功并已查询，3 个失败。窗口 2026-11-14T16:00:00Z 至 2026-11-15T15:59:59Z，查询端点用了半开的 2026-11-15T16:00:00Z。窗口内原帖 15 条：peter_krauth 1 条（PPI 与银价观点）和 duediligenceguy 14 条（多为回复和宏观评论）均无可核验的矿山产量、品位、许可或库存数字，不纳入。其余已成功账号在窗口内为 0 条。这不是 24/24 全部成功。明细见 x_outputs/2026-11-15_x_grokbot_public_read.json。",
+      "解析失败：WalterColesJr 找不到用户；BarrickGold 已停用；SSRMining 找不到用户。这三户按失败计，不按零帖计。",
+      "已解析但身份不像官方账号、仍只查询了返回的那个 ID、窗口内 0 帖：FreeportMcMoRan 显示为 PT Freeport Indonesia；ivanbebek 为 14 个关注者的 Ivanbebek；lundinmining 显示名 Lundin minins；firstmajestic 显示名 halipino；SandstormGold 显示名 Timothy Martin；fortuna_silver 简介为 DM for more。零帖不能写成官方公司账号当天没有发帖。",
+      "注册表 Playwright：本机没有 x_auth，没有执行。twscrape 没有尝试。schema 在完成数大于 0 时不允许把选定通道留空，也不接受 Grok 这个通道名，所以选定通道写成 playwright 只为通过字段约束，不表示 Playwright 抓到了帖子。"
+    ],
+    "part2_result": "X 公共读取完成 21/24，不是 24/24。失败账号是 WalterColesJr（找不到用户）、BarrickGold（已停用）和 SSRMining（找不到用户）。窗口内 15 条原帖均无可核验的金银铜供需数字，没有候选进入报告。Playwright 没有执行。若干已解析账号不像官方主体，它们的零帖不代表官方账号沉默。",
+    "part2_coverage": {
+      "status": "partial",
+      "accounts_total": 24,
+      "accounts_completed": 21,
+      "accounts_failed": 3,
+      "attempted_channels": [
+        "playwright"
+      ],
+      "selected_channel": "playwright",
+      "channel_errors": [
+        "schema selected_channel=playwright is only the allowed non-null label when completed accounts are greater than zero. Playwright was not executed because x_auth is absent, and twscrape was not attempted. The 21/24 count is the authorized Grok public-account read.",
+        "@WalterColesJr: Could not find user with usernames: [WalterColesJr]",
+        "@BarrickGold: User has been suspended: [BarrickGold]",
+        "@SSRMining: Could not find user with usernames: [SSRMining]"
+      ],
+      "notes": "Grok public X tools resolved and queried 21 of 24 registry seeds in the Beijing 2026-11-15 window (UTC 2026-11-14T16:00:00Z through 2026-11-15T15:59:59Z). Three seeds failed and are not zero-post successes. Fifteen in-window originals were read: one peter_krauth post and fourteen duediligenceguy posts, all excluded. Several resolved accounts do not look like the official issuers; their zero posts are not evidence that the official accounts were silent. Mining.com Reuters items with JSON-LD timestamps at or after 2026-11-15T16:00:00Z are 2026-11-16 in Beijing and are deferred, not X posts."
+    },
+    "part3_searched": true,
+    "part3_sources_checked": [
+      "上期结转项逐条裁决：11-14日报没有把任何条目推迟到北京时间11月15日。X 侧当时也没有已观察到、时间落在 2026-11-14T16:00:00Z 及之后的原帖。本期无结转纳入或排除项。",
+      "Newsfile mining 列表：打开 https://www.newsfilecorp.com/news/mining-metals，第1页约20条，最新可见 Starcore 2026-11-13 7:20 PM EST（北京时间14日 08:20），已在11-14日报收录。第1页已回到窗口之前，未开第2页。交叉检索未见 14–15 日新的矿业稿。扫描20，窗口内0，纳入0。",
+      "CNW / newswire.ca：实际列表为 mining-metals-list 与 mining-list。各约25条（重叠）。最新可见 Eastern Platinum Nov 14, 2026, 00:05 ET（北京时间14日 13:05），出窗，且已在11-14日报审过（铂族/铬，当时不纳入）。扫描25，窗口内0，纳入0。",
+      "GlobeNewswire Metals & Mining HTML 列表：第1页和第2页共约20条，最新为已在11-14日报收录的 Asante（November 13, 2026 18:18 ET），第2页已到12日，HTML 磁带完整。Gold/Copper/General Mining/Precious Metals 行业 RSS 返回 HTTP 500，记为降级，不把 RSS 失败写成零结果。扫描20，窗口内0，纳入0。",
+      "Business Wire：行业入口 https://www.businesswire.com/newsroom/industry/natural/mining-minerals 可读，约10条，最新可见 Sherritt Nov 13, 2026 at 5:05 PM（若为 ET 则出窗）。通用 /newsroom 超时。扫描10，窗口内0，纳入0。",
+      "ACCESS Newswire：实际列表 /newsroom/industry/metals-and-mining 可读，第1页20条。时间戳无时区，沿用上期 ET 假设。最新 Gabriel November 14, 2026 6:56 AM，若为 ET 则北京时间14日 19:56，出窗。Heliostar 为再传，已与11-13日报去重。扫描20，窗口内0，纳入0。",
+      "RNS / Investegate：打开 15 Nov 2026 与 14 Nov 2026 日期归档，表头可见、表格为空。这是周末空结果，不是缺页。扫描0，窗口内0，纳入0。",
+      "ASX：未能取得完整公告磁带（Market Index 忽略 15 Nov 参数并显示 16 Nov；announcements.asx.com.au 404；Listcorp 超时）。这不是完整零结果。未见可核验的窗口内金银铜公告。状态为降级。",
+      "JSE SENS：Moneyweb 公开列表最新仍是 13.11.26 16:42 BRIKOR，没有 14 或 15 Nov 标题。ShareData ?d=2026/11/15 回落到周五 13 Nov，官方周日日期列表未能独立确认，不能写成完整零结果。状态为降级。",
+      "SEC 6-K/8-K/40-F：可见最近 6-K/8-K 均为 Filed 2026-11-13，相关金银铜发行人已在前期日报收录，本期无新独立纳入。",
+      "公司 IR / Metso-Epiroc-Sandvik：未找到窗口内可核验的矿山重启或扩建订单。Sandvik 列表最新为11月10日；Metso Jerritt Canyon 为11月9日，出窗。Metso/Epiroc 列表不完整，记为降级。",
+      "区域库存：打开的上期所周度页面仍是 11-13 评估的完税/总计本周库存小计 27,642 吨和期货 2,270 吨，已在11-13/11-14日报收录，不是 15 日新印。公开的 SMM 上海/广东社会库存列表仍是 10 月条目，未见 14–15 日新数字。",
+      "Mining.com 铜/金/银分类页：第一次用默认 Playwright 浏览器失败（缺少 chromium_headless_shell-1234）。随后设置 CHROME_EXECUTABLE=/usr/bin/google-chrome，脚本 daily_pipeline.py --collect-mining 成功，run_dir=.runtime/pipeline/2026-11-15/2026-11-15-20261116T003332325497Z-484527。/commodity/copper、/gold、/silver 第1页均成功（HTTP 200，evidence page.txt 已保存）。第1页已出现 11月13日和12日条目，R 日候选都在第1屏，未另开第2页。采集器按页面邻近日期把 11 条标成 2026-11-15，需按正文和 JSON-LD 裁决，不按采集器标签。A2Gold 赞助稿实际为 2025-11-28；Crushing/ME Elecmetal 为 11月9日；Lake Victoria Gold 赞助稿为 11月12日；Heliostar 赞助转载为 11月13日 9:31 am，已在11-13日报收录；Barrick Kibali、Nvidia 需求稿、几内亚金矿整顿的正文日期分别为 11月12–13日，出窗或已收录。真正带 11月15日下午时戳的 Reuters 转载，页面 JSON-LD datePublished 为 2026-11-15T19:18:24Z（特朗普关键矿产，北京时间16日 03:18）、19:24:40Z（埃及手工金矿许可，03:24）、19:41:53Z（AI 金属评论，03:41），以及 Stelco 钢铁稿同类下午时戳，均已进入 11月16日，留待下一日报处理，不纳入本期。铜分类 Playwright 抓取完成，文章发现 9 条；金 10 条；银 9 条；去重后 11 条候选，本期纳入 0。",
+      "其他媒体：Reuters 一手页 401，改用 Mining.com 转载并核验 JSON-LD 时间。未见其他窗口内可核验的金银铜供需新稿。"
+    ],
+    "part3_result": "完成11月15日北京时间新闻检索。Mining.com 铜金银分类页 Playwright 抓取完整，发行人与交易所通道已逐一扫描。窗口内没有新的已核验新闻卡。Business Wire 通用新闻室超时、GNW 行业 RSS 500、ASX 磁带不完整、JSE 官方周日列表未独立确认，已写明降级，不把失败通道写成健康零结果。Mining.com 上 JSON-LD 时间为 11月16日北京时间的稿件已登记结转。",
+    "mining_com_source_note": "铜/金/银分类发现路径为 scripts/daily_pipeline.py 2026-11-15 --collect-mining，CHROME_EXECUTABLE=/usr/bin/google-chrome，成功 run 为 2026-11-15-20261116T003332325497Z-484527。分类页证据在 mining_{copper,gold,silver}.evidence/page.txt。文章核验用同一 Chrome/Playwright 会话读取 JSON-LD datePublished，以及 WebFetch 正文。",
+    "new_sources_discovered": [],
+    "url_verification": {
+      "checked": 0,
+      "passed": 0,
+      "failed": 0,
+      "failures": [],
+      "notes": "本期没有写入已核验正文卡，因此没有需要绑定本地保存文本的入选 URL。Mining.com 分类页和若干文章、Part 1 列表与文字稿已打开并用于排除或去重裁决，不计入入选核验。"
+    }
+  },
+  "dedup_log": {
+    "part1_deduped_urls": [
+      "https://www.kereport.com/2026/11/13/kuya-silver-record-underground-development-strategic-milling-alliance-20000m-drill-program/",
+      "https://www.cruxinvestor.com/posts/tectonic-metals-targets-5-million-ounce-alaska-gold-resource-maiden-estimate-and-pea-in-2027",
+      "https://www.cruxinvestor.com/posts/americas-gold-and-silver-hits-record-quarter-as-cosala-funds-galenas-richer-ore",
+      "https://www.investing.com/news/transcripts/earnings-call-transcript-dpm-metals-posts-stronger-q3-2026-results-as-shares-slip-93CH-5025932",
+      "https://www.investing.com/news/transcripts/earnings-call-transcript-g-mining-ventures-tops-q3-eps-estimates-shares-jump-10-93CH-5025968",
+      "https://www.fool.com/earnings/call-transcripts/2026/11/13/integra-resources-itrg-q3-2026-earnings-call-transcript/",
+      "https://resourcetalks.com/copper-stocks/growing-porphyry-discovery-in-bc-but-are-the-grades-really-there/",
+      "https://resourcetalks.com/gold-stocks/long-gold-intercepts-in-argentina-but-can-grades-improve/"
+    ],
+    "part2_deduped_urls": [],
+    "part3_deduped_events": [
+      "Heliostar Q3 产量与指引（11-13日报已收录；Mining.com 11月15日赞助转载日期实为 November 13, 2026 | 9:31 am）",
+      "Barrick Kibali 埃博拉预防性停薪留职（11-13日报已收录；分类页邻近日期曾被误标为 11月15日，正文日期为 November 12, 2026）",
+      "Asante 撤回2026指引等 11-14日报已收录稿件（GNW HTML 列表仍置于顶部）",
+      "上期所仓库铜库存 27,642 吨与仓单 2,270 吨（11-13/11-14日报已收录，不是 15 日新印）"
+    ],
+    "notes": "与 2026-11-13、2026-11-14 日报比较 URL 和实质事件。Integra 指引下调已在11-12日报 Part 3 收录，11-13日报已对 Fool 文字稿去重。DPM 与 G Mining 电话会与11-13日报新闻稿为同一季报事件。Mining.com 上 JSON-LD 时间为 2026-11-15T19:18Z 及之后的稿件进入北京时间16日，不纳入本期，留待下一日报。"
+  }
+}
