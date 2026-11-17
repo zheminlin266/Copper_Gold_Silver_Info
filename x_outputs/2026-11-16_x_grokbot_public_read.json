@@ -1,0 +1,1333 @@
+{
+  "report_date": "2026-11-16",
+  "collected_at": "2026-11-17T00:09:26.822Z",
+  "channel": "grok_bot_public_x",
+  "window": {
+    "beijing": {
+      "start": "2026-11-16T00:00:00+08:00",
+      "end": "2026-11-16T23:59:59+08:00"
+    },
+    "utc": {
+      "start": "2026-11-15T16:00:00Z",
+      "end": "2026-11-16T16:00:00Z"
+    }
+  },
+  "accounts_total": 24,
+  "accounts_completed": 21,
+  "accounts_failed": 3,
+  "failed_accounts": [
+    {
+      "handle": "WalterColesJr",
+      "status": "failed",
+      "error": "Could not find user with usernames: [WalterColesJr]"
+    },
+    {
+      "handle": "BarrickGold",
+      "status": "failed",
+      "error": "User has been suspended: [BarrickGold]"
+    },
+    {
+      "handle": "SSRMining",
+      "status": "failed",
+      "error": "Could not find user with usernames: [SSRMining]"
+    }
+  ],
+  "questionable_identities": [
+    {
+      "requested_handle": "ivanbebek",
+      "resolved_username": "Ivanbebek",
+      "resolved_id": "117757065",
+      "resolved_name": "Ivan Bebek",
+      "followers": 14,
+      "description": "",
+      "note": "Resolved as Ivan Bebek with 14 followers and empty description; does not look like a well-known official account."
+    },
+    {
+      "requested_handle": "FreeportMcMoRan",
+      "resolved_username": "FreeportMcMoRan",
+      "resolved_id": "2370436772",
+      "resolved_name": "Freeport-McMoRan",
+      "followers": 0,
+      "description": "PT Freeport Indonesia melakukan eksplorasi, menambang, dan memproses bijih yang mengandung tembaga, emas, dan perak",
+      "note": "Resolved as PT Freeport Indonesia (Papua) with 0 followers, not the Freeport-McMoRan corporate account."
+    },
+    {
+      "requested_handle": "LundinMining",
+      "resolved_username": "lundinmining",
+      "resolved_id": "52892231",
+      "resolved_name": "Lundin minins",
+      "followers": 11,
+      "description": "",
+      "note": "Resolved as 'Lundin minins' with 11 followers; does not look like the official Lundin Mining account."
+    },
+    {
+      "requested_handle": "FirstMajestic",
+      "resolved_username": "firstmajestic",
+      "resolved_id": "33320116",
+      "resolved_name": "halipino",
+      "followers": 8,
+      "description": "",
+      "note": "Resolved as 'halipino' with 8 followers; does not look like the official First Majestic account."
+    },
+    {
+      "requested_handle": "SandstormGold",
+      "resolved_username": "SandstormGold",
+      "resolved_id": "371479979",
+      "resolved_name": "Timothy Martin",
+      "followers": 11,
+      "description": "Precious Metals investor, in both the physical and mining company aspects.  Commodity Investor.....  All around money maker!  :)",
+      "note": "Resolved as 'Timothy Martin', a personal precious-metals investor with 11 followers, not Sandstorm Gold corporate."
+    },
+    {
+      "requested_handle": "Fortuna_Silver",
+      "resolved_username": "fortuna_silver",
+      "resolved_id": "1885417179786649600",
+      "resolved_name": "FortunaSilver",
+      "followers": 0,
+      "description": "📸🦶 DM for more",
+      "note": "Resolved as 'FortunaSilver' with 0 followers and 'DM for more' bio; does not look like official Fortuna Mining."
+    }
+  ],
+  "accounts": [
+    {
+      "requested_handle": "peter_krauth",
+      "username": "peter_krauth",
+      "id": "1313513299548549120",
+      "name": "Peter Krauth",
+      "followers": 14966,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Author, The Great Silver Bull\nSilver Stock Investor (https://t.co/fBTBn6SvSD) \n25+ years investing in Resources/Precious Metals\nNot investment advice.",
+      "location": "",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "duediligenceguy",
+      "username": "duediligenceguy",
+      "id": "2818081640",
+      "name": "Lobo Tiggre",
+      "followers": 51309,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Speculator. Analyst. Author of independent due diligence reports. Free, no-spam, no-hype weekly digest available only here. 👇",
+      "location": "Puerto Rico",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 12,
+      "posts": [
+        {
+          "author_id": "2818081640",
+          "conversation_id": "2122299054998880621",
+          "created_at": "2026-11-16T14:50:06.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T15:50:06.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": false
+          },
+          "edit_history_tweet_ids": [
+            "2122341447001141430"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 15,
+                "id": "903056736",
+                "start": 0,
+                "username": "AlfredENewman5"
+              }
+            ]
+          },
+          "id": "2122341447001141430",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 65,
+            "like_count": 1,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2122319054216323396",
+              "type": "replied_to"
+            }
+          ],
+          "text": "@AlfredENewman5 Of course not. But it can't ignore it either.",
+          "url": "https://x.com/duediligenceguy/status/2122341447001141430"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "7_1866627656596221952"
+            ],
+            "media_source_tweet_id": [
+              "1866627685314941119"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122340773081260125",
+          "created_at": "2026-11-16T14:47:26.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T15:47:26.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122340773081260125"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/OS7HNwupQC",
+                "end": 64,
+                "expanded_url": "https://x.com/ZeddFred/status/1866627685314941119/video/1",
+                "media_key": "7_1866627656596221952",
+                "start": 41,
+                "url": "https://t.co/OS7HNwupQC"
+              }
+            ]
+          },
+          "id": "2122340773081260125",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 4,
+            "impression_count": 3641,
+            "like_count": 48,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 5
+          },
+          "text": "Trying to encourage due diligence…\n;-{)} https://t.co/OS7HNwupQC",
+          "url": "https://x.com/duediligenceguy/status/2122340773081260125"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122300475030605824"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122300482723127520",
+          "created_at": "2026-11-16T12:07:20.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T13:07:20.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122300482723127520"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/U1aJCHwLML",
+                "end": 29,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122300482723127520/photo/1",
+                "media_key": "3_2122300475030605824",
+                "start": 6,
+                "url": "https://t.co/U1aJCHwLML"
+              }
+            ]
+          },
+          "id": "2122300482723127520",
+          "lang": "und",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 2053,
+            "like_count": 17,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "text": "Hm... https://t.co/U1aJCHwLML",
+          "url": "https://x.com/duediligenceguy/status/2122300482723127520"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122299039521599488"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122299054998880621",
+          "created_at": "2026-11-16T12:01:39.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T13:01:39.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122299054998880621"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/sVDgnGYv5e",
+                "end": 34,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122299054998880621/photo/1",
+                "media_key": "3_2122299039521599488",
+                "start": 11,
+                "url": "https://t.co/sVDgnGYv5e"
+              }
+            ]
+          },
+          "id": "2122299054998880621",
+          "lang": "in",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 3170,
+            "like_count": 21,
+            "quote_count": 0,
+            "reply_count": 4,
+            "retweet_count": 2
+          },
+          "text": "Ruh-roh... https://t.co/sVDgnGYv5e",
+          "url": "https://x.com/duediligenceguy/status/2122299054998880621"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122298419251130368"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122298426159514017",
+          "created_at": "2026-11-16T11:59:09.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T12:59:09.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122298426159514017"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/zoTUQZ1Ytv",
+                "end": 55,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122298426159514017/photo/1",
+                "media_key": "3_2122298419251130368",
+                "start": 32,
+                "url": "https://t.co/zoTUQZ1Ytv"
+              }
+            ]
+          },
+          "id": "2122298426159514017",
+          "lang": "de",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 2573,
+            "like_count": 15,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 1
+          },
+          "text": "What's stagflation in Japanese? https://t.co/zoTUQZ1Ytv",
+          "url": "https://x.com/duediligenceguy/status/2122298426159514017"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122296908458741760"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122296915530518672",
+          "created_at": "2026-11-16T11:53:09.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T12:53:09.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122296915530518672"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/t4cjFkTNlr",
+                "end": 29,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122296915530518672/photo/1",
+                "media_key": "3_2122296908458741760",
+                "start": 6,
+                "url": "https://t.co/t4cjFkTNlr"
+              }
+            ]
+          },
+          "id": "2122296915530518672",
+          "lang": "und",
+          "public_metrics": {
+            "bookmark_count": 7,
+            "impression_count": 6798,
+            "like_count": 102,
+            "quote_count": 1,
+            "reply_count": 4,
+            "retweet_count": 11
+          },
+          "text": "Hm... https://t.co/t4cjFkTNlr",
+          "url": "https://x.com/duediligenceguy/status/2122296915530518672"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122296076942098432"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122296294152827370",
+          "created_at": "2026-11-16T11:50:41.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T12:50:41.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122296294152827370"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/qxI1Uyv2qn",
+                "end": 87,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122296294152827370/photo/1",
+                "media_key": "3_2122296076942098432",
+                "start": 64,
+                "url": "https://t.co/qxI1Uyv2qn"
+              }
+            ]
+          },
+          "id": "2122296294152827370",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 8,
+            "impression_count": 7600,
+            "like_count": 207,
+            "quote_count": 1,
+            "reply_count": 7,
+            "retweet_count": 14
+          },
+          "text": "GS...\n\nNow I feel better about my bullish outlook on oil.\n;-{)} https://t.co/qxI1Uyv2qn",
+          "url": "https://x.com/duediligenceguy/status/2122296294152827370"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122294686677176320"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122294726187782318",
+          "created_at": "2026-11-16T11:44:27.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T12:44:27.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122294726187782318"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/IEH5gaBJWM",
+                "end": 58,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122294726187782318/photo/1",
+                "media_key": "3_2122294686677176320",
+                "start": 35,
+                "url": "https://t.co/IEH5gaBJWM"
+              }
+            ]
+          },
+          "id": "2122294726187782318",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 4,
+            "impression_count": 7111,
+            "like_count": 59,
+            "quote_count": 2,
+            "reply_count": 25,
+            "retweet_count": 2
+          },
+          "text": "I have a bad feeling about this... https://t.co/IEH5gaBJWM",
+          "url": "https://x.com/duediligenceguy/status/2122294726187782318"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122293795857276928"
+            ]
+          },
+          "author_id": "2818081640",
+          "conversation_id": "2122294011583234099",
+          "created_at": "2026-11-16T11:41:37.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T12:41:37.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": true
+          },
+          "edit_history_tweet_ids": [
+            "2122294011583234099"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/GRRLltkV8Y",
+                "end": 269,
+                "expanded_url": "https://x.com/duediligenceguy/status/2122294011583234099/photo/1",
+                "media_key": "3_2122293795857276928",
+                "start": 246,
+                "url": "https://t.co/GRRLltkV8Y"
+              }
+            ]
+          },
+          "id": "2122294011583234099",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 3021,
+            "like_count": 17,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 1
+          },
+          "text": "No surprise.\n\nEven subsidies and regulatory relief don't change the fact that it takes time to properly study and develop mining and refining assets.\n\nBut to be fair, Trump 2.0 is the most pro-mining president the US has had in a very long time. https://t.co/GRRLltkV8Y",
+          "url": "https://x.com/duediligenceguy/status/2122294011583234099"
+        },
+        {
+          "author_id": "2818081640",
+          "conversation_id": "2121974470621712480",
+          "created_at": "2026-11-16T00:41:40.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T01:41:40.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": false
+          },
+          "edit_history_tweet_ids": [
+            "2122127931300524395"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 9,
+                "id": "3078141770",
+                "start": 0,
+                "username": "darekdem"
+              }
+            ]
+          },
+          "id": "2122127931300524395",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 75,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2122127166569660870",
+              "type": "replied_to"
+            }
+          ],
+          "text": "@darekdem Sorry to hear that.\n\nWere there jobs for locals to offset that cost?",
+          "url": "https://x.com/duediligenceguy/status/2122127931300524395"
+        },
+        {
+          "author_id": "2818081640",
+          "conversation_id": "2122069827405897904",
+          "created_at": "2026-11-16T00:06:11.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-16T01:06:11.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": false
+          },
+          "edit_history_tweet_ids": [
+            "2122119000889159983"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 12,
+                "id": "1576643709038370829",
+                "start": 0,
+                "username": "Leonnniidas"
+              }
+            ]
+          },
+          "id": "2122119000889159983",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 65,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2122108117685084182",
+              "type": "replied_to"
+            }
+          ],
+          "text": "@Leonnniidas At least he’s not rude.",
+          "url": "https://x.com/duediligenceguy/status/2122119000889159983"
+        },
+        {
+          "author_id": "2818081640",
+          "conversation_id": "2122069827405897904",
+          "created_at": "2026-11-15T21:51:09.000Z",
+          "edit_controls": {
+            "editable_until": "2026-11-15T22:51:09.000Z",
+            "edits_remaining": 5,
+            "is_edit_eligible": false
+          },
+          "edit_history_tweet_ids": [
+            "2122085017975218602"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 12,
+                "id": "1576643709038370829",
+                "start": 0,
+                "username": "Leonnniidas"
+              }
+            ]
+          },
+          "id": "2122085017975218602",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 71,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2122069827405897904",
+              "type": "replied_to"
+            }
+          ],
+          "text": "@Leonnniidas I could just say, \"No pain, no gain,\" but I'll check it out.",
+          "url": "https://x.com/duediligenceguy/status/2122085017975218602"
+        }
+      ],
+      "includes": {
+        "tweets": [
+          {
+            "author_id": "903056736",
+            "conversation_id": "2122299054998880621",
+            "created_at": "2026-11-16T13:21:07.000Z",
+            "edit_controls": {
+              "editable_until": "2026-11-16T14:21:07.000Z",
+              "edits_remaining": 5,
+              "is_edit_eligible": false
+            },
+            "edit_history_tweet_ids": [
+              "2122319054216323396"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 16,
+                  "id": "2818081640",
+                  "start": 0,
+                  "username": "duediligenceguy"
+                }
+              ]
+            },
+            "id": "2122319054216323396",
+            "lang": "en",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 29,
+              "like_count": 0,
+              "quote_count": 0,
+              "reply_count": 1,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2122299054998880621",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@duediligenceguy Can the world really trust the published Chinese economic data?"
+          },
+          {
+            "author_id": "3078141770",
+            "conversation_id": "2121974470621712480",
+            "created_at": "2026-11-16T00:38:38.000Z",
+            "edit_controls": {
+              "editable_until": "2026-11-16T01:38:38.000Z",
+              "edits_remaining": 5,
+              "is_edit_eligible": false
+            },
+            "edit_history_tweet_ids": [
+              "2122127166569660870"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 16,
+                  "id": "2818081640",
+                  "start": 0,
+                  "username": "duediligenceguy"
+                }
+              ]
+            },
+            "id": "2122127166569660870",
+            "lang": "en",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 20,
+              "like_count": 0,
+              "quote_count": 0,
+              "reply_count": 1,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121974470621712480",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@duediligenceguy i see it quite often. It ruined the landscape in my village."
+          },
+          {
+            "author_id": "1576643709038370829",
+            "conversation_id": "2122069827405897904",
+            "created_at": "2026-11-15T23:22:56.000Z",
+            "edit_controls": {
+              "editable_until": "2026-11-16T00:22:56.000Z",
+              "edits_remaining": 5,
+              "is_edit_eligible": false
+            },
+            "edit_history_tweet_ids": [
+              "2122108117685084182"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 16,
+                  "id": "2818081640",
+                  "start": 0,
+                  "username": "duediligenceguy"
+                }
+              ]
+            },
+            "id": "2122108117685084182",
+            "lang": "en",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 9,
+              "like_count": 0,
+              "quote_count": 0,
+              "reply_count": 1,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2122085017975218602",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@duediligenceguy This guy is a joke."
+          },
+          {
+            "author_id": "1576643709038370829",
+            "conversation_id": "2122069827405897904",
+            "created_at": "2026-11-15T20:50:47.000Z",
+            "edit_controls": {
+              "editable_until": "2026-11-15T21:50:47.000Z",
+              "edits_remaining": 5,
+              "is_edit_eligible": true
+            },
+            "edit_history_tweet_ids": [
+              "2122069827405897904"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 16,
+                  "id": "2818081640",
+                  "start": 0,
+                  "username": "duediligenceguy"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "x.com/kalshi/status/…",
+                  "end": 52,
+                  "expanded_url": "https://twitter.com/kalshi/status/2121552286568636810",
+                  "start": 29,
+                  "url": "https://t.co/7p1gePr6Z1"
+                }
+              ]
+            },
+            "id": "2122069827405897904",
+            "lang": "en",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 54,
+              "like_count": 2,
+              "quote_count": 0,
+              "reply_count": 1,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121552286568636810",
+                "type": "quoted"
+              }
+            ],
+            "text": "@duediligenceguy I told you… https://t.co/7p1gePr6Z1"
+          }
+        ],
+        "users": [
+          {
+            "description": "Speculator. Analyst. Author of independent due diligence reports. Free, no-spam, no-hype weekly digest available only here. 👇",
+            "id": "2818081640",
+            "name": "Lobo Tiggre",
+            "public_metrics": {
+              "followers_count": 51309,
+              "following_count": 143,
+              "like_count": 31946,
+              "listed_count": 755,
+              "media_count": 16136,
+              "tweet_count": 46750
+            },
+            "username": "duediligenceguy",
+            "verified": false
+          }
+        ]
+      },
+      "errors": null,
+      "meta": {
+        "newest_id": "2122341447001141430",
+        "oldest_id": "2122085017975218602",
+        "result_count": 12
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "Junior_Stock",
+      "username": "Junior_Stock",
+      "id": "711735482904870912",
+      "name": "Brian Leni",
+      "followers": 4171,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Editor of Junior Stock Review | Host of Field Notes | Co-Host of MSE\n\nNothing from this account is investment advice or a solicit to buy or sell",
+      "location": "Toronto, Ontario",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 1,
+      "posts": [
+        {
+          "author_id": "711735482904870912",
+          "created_at": "2026-11-16T12:53:50.000Z",
+          "edit_history_tweet_ids": [
+            "2122312185959305664"
+          ],
+          "id": "2122312185959305664",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 27,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 8
+          },
+          "referenced_tweets": [
+            {
+              "id": "2122294843330134467",
+              "type": "retweeted"
+            }
+          ],
+          "text": "RT @MiningStockEdu: New episode: @junior_stock talks with @VukasinPekovic , just back from site visits in Peru &amp; Colombia:\n\n🔹 Why 2026 is “…",
+          "url": "https://x.com/Junior_Stock/status/2122312185959305664"
+        }
+      ],
+      "includes": {
+        "tweets": [
+          {
+            "author_id": "814833939596668929",
+            "created_at": "2026-11-16T11:44:55.000Z",
+            "edit_history_tweet_ids": [
+              "2122294843330134467"
+            ],
+            "id": "2122294843330134467",
+            "public_metrics": {
+              "bookmark_count": 22,
+              "impression_count": 4765,
+              "like_count": 28,
+              "quote_count": 2,
+              "reply_count": 2,
+              "retweet_count": 8
+            },
+            "text": "New episode: @junior_stock talks with @VukasinPekovic , just back from site visits in Peru &amp; Colombia:\n\n🔹 Why 2026 is “the year it matters what you own”\n🔹 Mindset: “We actually invest in businesses, not the sector.”\n🔹 CapEx math every mining investor must know\n🔹 His top picks https://t.co/rx5cP4U6ap"
+          }
+        ],
+        "users": [
+          {
+            "description": "Editor of Junior Stock Review | Host of Field Notes | Co-Host of MSE\n\nNothing from this account is investment advice or a solicit to buy or sell",
+            "id": "711735482904870912",
+            "name": "Brian Leni",
+            "public_metrics": {
+              "followers_count": 4171,
+              "following_count": 555,
+              "like_count": 5809,
+              "listed_count": 55,
+              "media_count": 154,
+              "tweet_count": 1085
+            },
+            "username": "Junior_Stock",
+            "verified": false
+          }
+        ]
+      },
+      "errors": null,
+      "meta": {
+        "newest_id": "2122312185959305664",
+        "oldest_id": "2122312185959305664",
+        "result_count": 1
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "soarfinancial",
+      "username": "soarfinancial",
+      "id": "278180555",
+      "name": "Soar Financial",
+      "followers": 9320,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Home of #SoarFinancially | Mining Investor | Modern PR | @rohstoffbrief @oreninc | no investment advice! do your own dd! #Gold #Silver #Copper",
+      "location": "Frankfurt, Vancouver",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 1,
+      "posts": [
+        {
+          "author_id": "278180555",
+          "created_at": "2026-11-16T14:00:00.000Z",
+          "edit_history_tweet_ids": [
+            "2122328837082206547"
+          ],
+          "id": "2122328837082206547",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 244,
+            "like_count": 2,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "text": "Dynasty Gold Corp. (TSXV: $DYG) reports 3.65 g/t Au over 7.5m at its Thundercloud Project in Ontario, extending Pelham mineralization approximately 100m deeper to a drillhole depth of 323m.\n\nThe deposit remains open at depth and along strike.\n\n🔗 https://t.co/SqPRQq9Xm1 https://t.co/i5U7sEi2tj",
+          "url": "https://x.com/soarfinancial/status/2122328837082206547"
+        }
+      ],
+      "includes": {
+        "users": [
+          {
+            "description": "Home of #SoarFinancially | Mining Investor | Modern PR | @rohstoffbrief @oreninc | no investment advice! do your own dd! #Gold #Silver #Copper",
+            "id": "278180555",
+            "name": "Soar Financial",
+            "public_metrics": {
+              "followers_count": 9320,
+              "following_count": 650,
+              "like_count": 2053,
+              "listed_count": 155,
+              "media_count": 2897,
+              "tweet_count": 9223
+            },
+            "username": "soarfinancial",
+            "verified": false
+          }
+        ]
+      },
+      "errors": null,
+      "meta": {
+        "newest_id": "2122328837082206547",
+        "oldest_id": "2122328837082206547",
+        "result_count": 1
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "ivanbebek",
+      "username": "Ivanbebek",
+      "id": "117757065",
+      "name": "Ivan Bebek",
+      "followers": 14,
+      "verified": false,
+      "verified_type": "none",
+      "description": "",
+      "location": "",
+      "identity_questionable": true,
+      "identity_note": "Resolved as Ivan Bebek with 14 followers and empty description; does not look like a well-known official account.",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "IvanhoeMines_",
+      "username": "IvanhoeMines_",
+      "id": "918142563948756992",
+      "name": "Ivanhoe Mines",
+      "followers": 9326,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Building the next generation of world-class copper, zinc & critical metals mines. Powering electrification & the global energy transition TSX: IVN; OTCQX: IVPAF",
+      "location": "",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "FreeportMcMoRan",
+      "username": "FreeportMcMoRan",
+      "id": "2370436772",
+      "name": "Freeport-McMoRan",
+      "followers": 0,
+      "verified": false,
+      "verified_type": "none",
+      "description": "PT Freeport Indonesia melakukan eksplorasi, menambang, dan memproses bijih yang mengandung tembaga, emas, dan perak",
+      "location": "Provinsi Papua, Indonesia.",
+      "identity_questionable": true,
+      "identity_note": "Resolved as PT Freeport Indonesia (Papua) with 0 followers, not the Freeport-McMoRan corporate account.",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "NewmontCorp",
+      "username": "NewmontCorp",
+      "id": "437789543",
+      "name": "Newmont Corporation",
+      "followers": 29478,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Our purpose is to create value and improve lives through sustainable and responsible mining.",
+      "location": "Denver, CO",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "TeckResources",
+      "username": "TeckResources",
+      "id": "22157556",
+      "name": "Teck Resources",
+      "followers": 15853,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Teck is one of Canada’s leading mining companies, focused on providing products essential to building a better quality of life for people around the globe.",
+      "location": "Vancouver, Canada",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "AntofagastaPLC",
+      "username": "AntofagastaPLC",
+      "id": "717769663011131392",
+      "name": "Antofagasta PLC",
+      "followers": 919,
+      "verified": false,
+      "verified_type": "none",
+      "description": "",
+      "location": "London, England",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "LundinMining",
+      "username": "lundinmining",
+      "id": "52892231",
+      "name": "Lundin minins",
+      "followers": 11,
+      "verified": false,
+      "verified_type": "none",
+      "description": "",
+      "location": "",
+      "identity_questionable": true,
+      "identity_note": "Resolved as 'Lundin minins' with 11 followers; does not look like the official Lundin Mining account.",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "AgnicoEagle",
+      "username": "agnicoeagle",
+      "id": "267764853",
+      "name": "Agnico Eagle Mines",
+      "followers": 18029,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Canadian-based and Canadian-led gold producer with operating mines in Canada, Australia, Finland, and Mexico. Listed on the TSX and the NYSE (AEM).",
+      "location": "Toronto, Canada",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "FirstMajestic",
+      "username": "firstmajestic",
+      "id": "33320116",
+      "name": "halipino",
+      "followers": 8,
+      "verified": false,
+      "verified_type": "none",
+      "description": "",
+      "location": "",
+      "identity_questionable": true,
+      "identity_note": "Resolved as 'halipino' with 8 followers; does not look like the official First Majestic account.",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "PanAmericanSlvr",
+      "username": "PanAmericanSlvr",
+      "id": "2828903628",
+      "name": "Pan American Silver",
+      "followers": 714,
+      "verified": false,
+      "verified_type": "none",
+      "description": "",
+      "location": "",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "Wheaton_PM",
+      "username": "Wheaton_PM",
+      "id": "164791515",
+      "name": "Wheaton Precious Metals",
+      "followers": 11378,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Wheaton is the world’s premier precious metals streaming company with the highest-quality portfolio of long-life, low-cost assets.",
+      "location": "Vancouver, BC, Canada",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "EndeavourMining",
+      "username": "EndeavourMining",
+      "id": "3242239228",
+      "name": "Endeavour Mining",
+      "followers": 2551,
+      "verified": false,
+      "verified_type": "none",
+      "description": "Endeavour Mining (LSE/TSX: EDV) is a leading global gold producer & the largest in West Africa, with mines in Senegal, Cote d’Ivoire and Burkina Faso.",
+      "location": "London",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "KinrossGold",
+      "username": "kinrossgold",
+      "id": "18194126",
+      "name": "Kinross Gold",
+      "followers": 23283,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Senior Gold mining Company with mines and projects in the United States, Brazil, Mauritania, Chile, and Canada NYSE: KGC TSX: K\n\nhttps://t.co/g1hY0Gkj5Z",
+      "location": "Toronto, Ontario, Canada",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "SandstormGold",
+      "username": "SandstormGold",
+      "id": "371479979",
+      "name": "Timothy Martin",
+      "followers": 11,
+      "verified": false,
+      "verified_type": "none",
+      "description": "Precious Metals investor, in both the physical and mining company aspects.  Commodity Investor.....  All around money maker!  :)",
+      "location": "",
+      "identity_questionable": true,
+      "identity_note": "Resolved as 'Timothy Martin', a personal precious-metals investor with 11 followers, not Sandstorm Gold corporate.",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "Fortuna_Silver",
+      "username": "fortuna_silver",
+      "id": "1885417179786649600",
+      "name": "FortunaSilver",
+      "followers": 0,
+      "verified": false,
+      "verified_type": "none",
+      "description": "📸🦶 DM for more",
+      "location": "",
+      "identity_questionable": true,
+      "identity_note": "Resolved as 'FortunaSilver' with 0 followers and 'DM for more' bio; does not look like official Fortuna Mining.",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "GoGoldResources",
+      "username": "GoGoldResources",
+      "id": "1154193240",
+      "name": "GoGold Resources: Silver & Gold",
+      "followers": 2893,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "The Silver company with the Gold name: Developing the Los Ricos 'The Riches' silver and gold deposits (two) in Mexico.\n\nGGD:TSX; GLGDF:OTCQX",
+      "location": "Chihuahua, México",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    },
+    {
+      "requested_handle": "vizslasilver",
+      "username": "VizslaSilver",
+      "id": "1195139525380431872",
+      "name": "Vizsla Silver",
+      "followers": 6601,
+      "verified": true,
+      "verified_type": "blue",
+      "description": "Panuco Silver & Gold District: Developing the Next World Class Silver Asset\n\nNYSE: VZLA  TSX: VZLA",
+      "location": "Canada ",
+      "identity_questionable": false,
+      "identity_note": "",
+      "post_count": 0,
+      "posts": [],
+      "includes": null,
+      "errors": null,
+      "meta": {
+        "result_count": 0
+      },
+      "raw_error": null
+    }
+  ],
+  "in_window_post_count": 14
+}

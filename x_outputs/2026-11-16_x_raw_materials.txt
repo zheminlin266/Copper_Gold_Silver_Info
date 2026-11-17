@@ -1,0 +1,21 @@
+2026-11-16 Part 2 X public-account read (Grok Bot public X tools; Playwright/twscrape not used)
+Window: Beijing 2026-11-16 00:00:00+08:00 to 23:59:59+08:00
+UTC half-open: 2026-11-15T16:00:00Z to 2026-11-16T16:00:00Z
+accounts_total=24 accounts_completed=21 accounts_failed=3
+Failed (not zero-post successes):
+- WalterColesJr: Could not find user with usernames: [WalterColesJr]
+- BarrickGold: User has been suspended: [BarrickGold]
+- SSRMining: Could not find user with usernames: [SSRMining]
+Questionable resolved identities (queried returned IDs only; zero posts are not official-account silence):
+- ivanbebek -> Ivan Bebek, 14 followers, empty bio
+- FreeportMcMoRan -> PT Freeport Indonesia (Papua), 0 followers
+- LundinMining -> "Lundin minins", 11 followers
+- FirstMajestic -> "halipino", 8 followers
+- SandstormGold -> Timothy Martin, 11 followers
+- Fortuna_Silver -> FortunaSilver, 0 followers, "DM for more"
+In-window posts: 14
+- duediligenceguy: 12 posts, mostly replies or screenshot commentary; mining-policy post has no attributable mine output/grade/permit/inventory figures. All excluded.
+- Junior_Stock: 1 retweet of a podcast announcement. Excluded (not an original with new supply-demand facts).
+- soarfinancial: 1 original post linking Dynasty Gold Thundercloud drill results (3.65 g/t Au over 7.5m). Company IR page is dated November 5, 2026, outside the window; treated as a reprint of an old event and excluded.
+No qualifying original X posts entered the report.
+Structured dump: x_outputs/2026-11-16_x_grokbot_public_read.json
