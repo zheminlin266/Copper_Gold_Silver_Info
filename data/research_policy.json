@@ -1,0 +1,30 @@
+{
+  "policies": [
+    {
+      "version": 1,
+      "effective_from": "2026-11-17",
+      "sources": [
+        {"source_id": "ke-report", "kind": "broadcast", "required": true, "urls": ["https://www.kereport.com/", "https://www.kereport.com/feed/"], "instruction": "Read the programme list or official feed through the three-day Beijing window; distinguish interviews from recaps and articles."},
+        {"source_id": "crux-investor", "kind": "broadcast", "required": true, "urls": ["https://www.cruxinvestor.com/videos", "https://www.cruxinvestor.com/latest"], "instruction": "Check video and written interview lists; articles alone are not interviews."},
+        {"source_id": "resource-talks", "kind": "broadcast", "required": true, "urls": ["https://resourcetalks.com/", "https://resourcetalks.com/feed/"], "instruction": "Check written interviews and the official podcast; chapter headings alone do not establish interview facts."},
+        {"source_id": "mining-stock-daily", "kind": "broadcast", "required": true, "urls": ["https://clearcommodity.net/podcasts/mining-stock-daily", "https://anchor.fm/s/53ceee8/podcast/rss"], "instruction": "Use official RSS timestamps and readable episode notes; convert timestamps to Beijing before excluding a previous-local-day episode."},
+        {"source_id": "earnings-calls", "kind": "broadcast", "required": false, "urls": ["https://www.investing.com/news/transcripts"], "instruction": "Check miner earnings transcripts and issuer webcast pages; record the source timezone and distinguish the call from the results release."},
+        {"source_id": "conference-calendar", "kind": "broadcast", "required": false, "urls": [], "instruction": "Read data/conference_calendar.json; check hosts, speakers and replays for active events. Record not_applicable only when no event overlaps the window."},
+        {"source_id": "newsfile", "kind": "news", "required": true, "urls": ["https://www.newsfilecorp.com/news/mining-metals"], "instruction": "Use ?pg=2, ?pg=3, etc. until the Beijing window is covered. Save every in-window listing, including candidates later excluded for metal or relevance; record EST/EDT explicitly."},
+        {"source_id": "asx", "kind": "news", "required": true, "urls": ["https://www.asx.com.au/", "https://announcements.asx.com.au/"], "instruction": "Locate the official daily announcement list or an equivalent complete dated index; paginate through the window. Read issuer/ASX PDFs, not only a search-results subset. Save the actual list URL and boundary evidence."},
+        {"source_id": "mining-copper", "kind": "news", "required": true, "urls": ["https://www.mining.com/commodity/copper/"], "instruction": "Use the existing Mining collector or an equivalent actual browser category read; retain the list and date boundary. Search-engine results cannot replace category discovery."},
+        {"source_id": "mining-gold", "kind": "news", "required": true, "urls": ["https://www.mining.com/commodity/gold/"], "instruction": "Read the category through the Beijing window, retaining boundary evidence; verify article publication timestamps separately."},
+        {"source_id": "mining-silver", "kind": "news", "required": true, "urls": ["https://www.mining.com/commodity/silver/"], "instruction": "Read the category through the Beijing window, retaining boundary evidence; verify article publication timestamps separately."},
+        {"source_id": "smm-inventory", "kind": "news", "required": true, "urls": ["https://news.metal.com/", "https://www.smm.cn/"], "instruction": "Check dated copper social-inventory updates and readable Chinese/English originals. Keep social inventories, warehouse warrants and exchange inventories separate. A failed body decode is pending verification, not an editorial rejection."},
+        {"source_id": "globenewswire", "kind": "news", "required": false, "urls": ["https://www.globenewswire.com/"], "instruction": "Check metals/mining releases; a marketing shell, empty feed or stale feed is degraded discovery, not a healthy zero. Use issuer releases as body fallbacks."},
+        {"source_id": "cnw", "kind": "news", "required": false, "urls": ["https://www.newswire.ca/news-releases/"], "instruction": "Locate the current mining release list and preserve failures of retired industry URLs."},
+        {"source_id": "thenewswire", "kind": "news", "required": false, "urls": ["https://thenewswire.com/"], "instruction": "Check dated mining issuer releases, including drilling and project funding, through the window."},
+        {"source_id": "business-wire", "kind": "news", "required": false, "urls": ["https://www.businesswire.com/newsroom/industry/natural/mining-minerals"], "instruction": "Read the industry list; for body timeouts try issuer IR and clearly attributed release syndication."},
+        {"source_id": "access-newswire", "kind": "news", "required": false, "urls": ["https://www.accessnewswire.com/"], "instruction": "Locate the current metals/mining newsroom, paginate through the window and record the actual URL."},
+        {"source_id": "rns", "kind": "news", "required": false, "urls": ["https://www.investegate.co.uk/"], "instruction": "Page back to the Beijing-window cutoff; the latest UK evening page alone does not complete the source."},
+        {"source_id": "jse", "kind": "news", "required": false, "urls": ["https://www.jse.co.za/", "https://www.moneyweb.co.za/"], "instruction": "Check SENS and dated mining announcements; report incomplete official-tape access honestly."},
+        {"source_id": "issuer-regulator", "kind": "news", "required": false, "urls": ["https://www.sec.gov/"], "instruction": "Check relevant issuer IR, government/regulatory sources, equipment orders and official exchange inventory releases; preserve search scope and limitations."}
+      ]
+    }
+  ]
+}

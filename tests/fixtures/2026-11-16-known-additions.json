@@ -1,0 +1,218 @@
+[
+  {
+    "source_id": "mining-stock-daily",
+    "kind": "broadcast",
+    "source_url": "https://clearcommodity.net/podcasts/mining-stock-daily/koryx-copper-in-final-stages-of-its-haib-pfs",
+    "title": "Koryx Copper：Haib 预可研进入收尾，拟简化流程",
+    "published_at": "2026-11-14T05:27:01+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "smm-inventory",
+    "kind": "news",
+    "source_url": "https://news.metal.com/newscontent/ZCDOFZPXKOZEKXDOLSN3V2Q74MODZ2IPTF5EJ2Y-national-inventory-low-with-slight-increase-supply-demand-both-weak-destocking-slowdown-smm-weekly-data",
+    "title": "SMM：全国主流地区铜库存升至5万余吨",
+    "published_at": "2026-11-16T17:44:00+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "business-wire",
+    "kind": "news",
+    "source_url": "https://idahostrategic.com/idaho-strategic-reports-third-quarter-2026-operating-and-financial-performance/",
+    "title": "Idaho Strategic：三季度产金3069盎司，尾矿设施约完成75%",
+    "published_at": "2026-11-16T19:00:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://drydengold.com/dryden-gold-discovers-broad-porphyry-hosted-gold-mineralization-at-mud-lake/",
+    "title": "Dryden Gold：Mud Lake 十孔均见金矿化",
+    "published_at": "2026-11-16T19:00:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://rivres.com/news/2026-news/riverside-resources-and-questcorp-commence-phase-2b-rc-drill-program-at-la-union-project-sonora-mexico",
+    "title": "Riverside／Questcorp：La Union 二期2B反循环钻探开钻",
+    "published_at": "2026-11-16T16:00:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://sranangold.com/news/sranan-gold-discovers-new-gold-zone-at-lawatino-300-m-northeast-of-the-101-zone/",
+    "title": "Sranan：Lawatino 新发现RB金矿化露头",
+    "published_at": "2026-11-16T20:15:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "access-newswire",
+    "kind": "news",
+    "source_url": "https://strategicmetalsltd.com/strategic-metals-reports-promising-results-from-the-rusty-and-ranch-projects/",
+    "title": "Strategic Metals：Rusty／Ranch 银勘探新结果",
+    "published_at": "2026-11-16T18:00:00+08:00",
+    "primary_metal": "silver"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://www.trinitysilvercorp.com/news-media/trinity-silver-provides-update-on-exploration-activities-at-nueva-chaarcillo",
+    "title": "Trinity Silver：Nueva Chañarcillo 完成709米钻探",
+    "published_at": "2026-11-16T20:55:00+08:00",
+    "primary_metal": "silver"
+  },
+  {
+    "source_id": "globenewswire",
+    "kind": "news",
+    "source_url": "https://abengold.com/news/aben-gold-reports-first-assay-results-from-the-2026-drill-program/",
+    "title": "Aben Gold：Justin 首批结果见7.6米、3.66克/吨金",
+    "published_at": "2026-11-16T20:00:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "thenewswire",
+    "kind": "news",
+    "source_url": "https://tnw-a.thenewswire.com/press-releases/1AqRFm62a-laurion-s-mcleod-infill-drilling-at-ishkoday-intersects-4-00-m-at-1-16-g-t-au-and-3-44-g-t-ag-including-1-70-m-at-2-13-g-t-au-and-5-67-g-t-ag-and-3-50-m-at-0-97-g-t-au-and-1-86-g-t-ag-including-0-50-m-at-6-01-g-t-au-and-7-00-g-t-ag.html",
+    "title": "LAURION：Ishkōday McLeod 加密钻探结果",
+    "published_at": "2026-11-16T19:45:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "thenewswire",
+    "kind": "news",
+    "source_url": "https://thenewswire.com/press-releases/1k3wFmpxw-south-atlantic-gold-results-from-11-holes-at-pedra-branca-brazil-led-by-5-35-m-4-78-g-t-au-from-mirador.html",
+    "title": "South Atlantic Gold：Pedra Branca 十一孔新结果",
+    "published_at": "2026-11-16T19:30:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "globenewswire",
+    "kind": "news",
+    "source_url": "https://www.globenewswire.com/news-release/2026/11/16/3403276/0/en/vr-completes-the-sale-of-its-empire-and-silverback-copper-nickel-pgm-properties-in-ontario-to-athos-metals.html",
+    "title": "VR／Athos：Empire与Silverback交易完成并签钻探合同",
+    "published_at": "2026-11-16T19:00:00+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://natlawreview.com/press-releases/copper-intelligence-completes-acquisition-additional-copper-mining-assets",
+    "title": "Copper Intelligence：新增刚果（金）铜资产及勘探资金",
+    "published_at": "2026-11-16T20:15:00+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "asx",
+    "kind": "news",
+    "source_url": "https://gml.irmau.com/site/PDF/7a5f498f-c7a5-43d5-9a36-320f63681830/ShallowHighGradeGoldMineralisationatCeliaSouth",
+    "title": "Gateway：Celia South 见浅部高品位金",
+    "published_at": "2026-11-16",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "asx",
+    "kind": "news",
+    "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/file/2924-03161900-6A1355109",
+    "title": "Skylark：Zaranou 资源范围外见69米、1.12克/吨金",
+    "published_at": "2026-11-16",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "asx",
+    "kind": "news",
+    "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/file/2924-03161744-3A706522",
+    "title": "Broken Hill Gold：Icebreaker 首批金刚石孔见宽段可见铜硫化物",
+    "published_at": "2026-11-16",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "asx",
+    "kind": "news",
+    "source_url": "https://asx.api.markitdigital.com/asx-research/1.0/file/2924-03161911-6A1355118",
+    "title": "Taruga：Weioko 完成326.4米后因钻机维修暂停",
+    "published_at": "2026-11-16",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "asx",
+    "kind": "news",
+    "source_url": "https://company-announcements.afr.com/asx/igo/f21ce6ec-e143-11f1-945b-9ec6c3727ecb.pdf",
+    "title": "IGO／Gorilla：Cosmos 资产交易拟提供黄金开发基础设施",
+    "published_at": "2026-11-16",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "asx",
+    "kind": "news",
+    "source_url": "https://ozaurumresources.com/ozaurum-defines-25000-oz-inferred-gold-resource-at-patricia/",
+    "title": "OzAurum：Patricia 首次推断资源量2.5万盎司金",
+    "published_at": "2026-11-16T07:24:08+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://www.tiernangold.com/news/2026/index.php?content_id=111",
+    "title": "Tiernan：Volcan 环境基线和水文地质现场工作启动",
+    "published_at": "2026-11-16T19:30:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://perseverancemetals.com/perseverance-metals-earns-100-ownershipof-the-voyageur-ni-cu-pge-project-michigan-usa/",
+    "title": "Perseverance：Voyageur 完成100%权益行权",
+    "published_at": "2026-11-16T19:30:00+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://canadiancopper.com/canadian-copper-announces-completion-of-warrant-exercises-for-9780000/",
+    "title": "Canadian Copper：认股权证行权增加978万加元",
+    "published_at": "2026-11-16T19:00:00+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://www.stockwatch.com/News/Item/U-324103-U%21BLDEF-20261116/U/BLDEF",
+    "title": "Blade：Hot Breccia 勘探融资规模拟增至700万加元",
+    "published_at": "2026-11-16T20:01:00+08:00",
+    "primary_metal": "copper"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://www.newterraresources.com/press-releases/newterra-resources-to-conduct-drone-magnetic-survey-on-ferdinand-gold-property-located-in-red-lake-district-of-ontario",
+    "title": "Newterra：Ferdinand 金项目签署无人机航磁调查合同",
+    "published_at": "2026-11-16T19:30:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://apxresources.com/news/apex-samples-high-grade-gold-and-tungsten-mineralization-at-its-jersey-emerald-property/",
+    "title": "Apex：Jersey-Emerald 新地表样金品位最高25克/吨",
+    "published_at": "2026-11-16T16:00:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://www.stocktitan.net/news/NEWDF/genesis-goldfields-closes-first-tranche-of-private-s1s9gmqo2qix.html",
+    "title": "Genesis Goldfields：Ganda 勘探融资首批到账31.95万加元",
+    "published_at": "2026-11-16T22:56:00+08:00",
+    "primary_metal": "gold"
+  },
+  {
+    "source_id": "newsfile",
+    "kind": "news",
+    "source_url": "https://www.stocktitan.net/news/BADEF/hercules-metals-closes-c-5-78m-private-placement-with-barrick-lugihll4gui3.html",
+    "title": "Hercules：Barrick 参与融资完成577.54万加元",
+    "published_at": "2026-11-16T22:40:00+08:00",
+    "primary_metal": "copper"
+  }
+]

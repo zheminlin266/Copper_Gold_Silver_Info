@@ -173,7 +173,7 @@ test("current coverage rejects zero accounts and empty attempted channels", () =
   Object.assign(report.search_log.part2_coverage, {
     accounts_total: 1, accounts_completed: 1, selected_channel: "playwright", attempted_channels: [],
   });
-  assert.throws(() => validateReport(report, "2026-08-20.json"), /must NOT have fewer than 1 items/);
+  assert.throws(() => validateReport(report, "2026-08-20.json"), /ordered channel prefix/);
 });
 
 test("archive pagination shows 20 newest items before older pages", () => {

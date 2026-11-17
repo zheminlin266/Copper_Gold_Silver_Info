@@ -1,5 +1,5 @@
 export type PipelineKind = "broadcast" | "x" | "news";
-export type PipelineDecision = "accept" | "accepted" | "reject" | "rejected";
+export type PipelineDecision = "accept" | "accepted" | "reject" | "rejected" | "pending_verification";
 export type CollectorStatus = "preflight" | "complete" | "partial" | "failed";
 
 export interface RawDocument {
@@ -20,6 +20,7 @@ export interface Candidate {
   collector: string;
   kind?: PipelineKind;
   source?: string;
+  source_id?: string;
   author?: string;
   handle?: string;
   metal?: "gold" | "silver" | "copper";
@@ -42,6 +43,8 @@ export interface AnalysisDecision {
   accepted?: boolean;
   decision?: PipelineDecision;
   reason?: string;
+  reason_code?: string;
+  evidence_documents?: Array<{ artifact_path: string; sha256: string }>;
   kind?: PipelineKind;
   metal?: "gold" | "silver" | "copper";
   direction?: "supply" | "demand" | "both";

@@ -7,8 +7,8 @@ export type ReportSchemaVersion = typeof CURRENT_REPORT_SCHEMA_VERSION;
 
 export type Metal = "gold" | "silver" | "copper";
 export type SupplyDemand = "supply" | "demand" | "both";
-export type Part2Channel = "browser_use" | "rss_fallback" | "web_access_xai" | "twscrape" | "playwright" | "failed";
-export type XSourceChannel = "browser_use" | "rss_fallback" | "web_access_xai" | "twscrape" | "playwright";
+export type Part2Channel = "browser_use" | "rss_fallback" | "web_access_xai" | "twscrape" | "playwright" | "grok_x" | "failed";
+export type XSourceChannel = Exclude<Part2Channel, "failed">;
 export type NewsSourceChannel = "web" | "playwright";
 export type VerificationStatus = "verified" | "unverified";
 
@@ -94,14 +94,18 @@ export interface ImageSource {
 }
 
 export type HistoricalPart2Channel = "web_access_xai" | "twscrape" | "playwright";
-export type CurrentPart2Channel = "playwright" | "twscrape";
+export type CurrentPart2Channel = "grok_x" | "playwright" | "twscrape";
 export type Part2SelectedChannel =
   | HistoricalPart2Channel
   | "web_access_xai+twscrape"
   | "web_access_xai+playwright"
   | "twscrape+playwright"
   | "web_access_xai+twscrape+playwright"
-  | "playwright+twscrape";
+  | "playwright+twscrape"
+  | "grok_x"
+  | "grok_x+playwright"
+  | "grok_x+twscrape"
+  | "grok_x+playwright+twscrape";
 
 export interface Part2Coverage {
   status: "complete" | "partial" | "failed";
@@ -130,6 +134,44 @@ export interface SearchLog {
   image_source?: ImageSource;
   new_sources_discovered?: string[];
   url_verification?: UrlVerification;
+  research_audit?: ResearchAudit;
+}
+
+export interface ResearchSourceAudit {
+  source_id: string;
+  kind: "broadcast" | "news";
+  status: "complete" | "partial" | "failed";
+  entry_urls: string[];
+  termination: "end_of_window" | "end_of_results" | "error";
+  note: string;
+  discovered_count: number;
+  candidate_ids: string[];
+}
+
+export interface ResearchXAccount {
+  handle: string;
+  user_id: string;
+  resolved_handle: string;
+  identity_verified: boolean;
+  pagination_complete: boolean;
+  status: "complete" | "partial" | "failed";
+  channel: CurrentPart2Channel | null;
+  note: string;
+  candidate_ids: string[];
+}
+
+export interface ResearchAudit {
+  version: 1;
+  policy_version: number;
+  manifest_sha256: string;
+  sources: ResearchSourceAudit[];
+  candidates: Array<{
+    id: string; source_id: string; source_url: string; kind: "broadcast" | "x" | "news";
+    title: string; published_at: string | null; content_checked: boolean; handle?: string;
+    decision: "accept" | "reject"; reason_code: string; reason: string; signal_url: string | null;
+  }>;
+  x_registry: Array<{ handle: string; user_id: string }>;
+  x_accounts: ResearchXAccount[];
 }
 
 export interface DedupLog {
