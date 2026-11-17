@@ -1,5 +1,7 @@
 # 支持的脚本
 
+- `grok_research.py`：Grok 日常入口；初始化来源/账号清单、生成规范化 ID、冻结采集输入并创建分析包，无模型、网络或浏览器调用。
+- `research_audit.py` / `research-audit.mjs`：绑定冻结输入并校验来源、候选决策与逐账号 X 覆盖；研究策略见 `data/research_policy.json`。
 - `pipeline_contracts.py`：标准库数据类和严格校验，定义采集、分析和运行清单边界。
 - `daily_pipeline.py`：安全的日期窗口预检和显式采集编排；默认不启动浏览器或外部采集。
 - `report_builder.py`：唯一可以写入 `data/YYYY-MM-DD.json` 的分析结果投影器，默认拒绝覆盖。
@@ -10,6 +12,87 @@
 - `runtime_support.py`：标准库 OS 锁、实时命令日志、超时及子进程树清理；不自动重试。
 - `run_scheduled_daily.py`：独立调度入口，记录阶段/心跳并验证发布；脚本存在不代表 Windows 计划任务已注册。
 - `check_daily_health.py`：只读检查最近应有日报及本地保存的业务验证证据，JSON 告警和非零退出不触发补跑、网络请求或任何外部通知。
+
+## Grok bot 主路径（报告日期 2026-11-17 起）
+
+入口是仓库当前 `Daily_Task_Prompt.md`，权威规范是 `Daily_Report_Workflow.md`。使用当前实际 Python 3.12/3.13 和 Node.js 24，不需要另接模型 API。以下操作本身不发起研究请求，也不创建/启用定时任务。
+
+```bash
+python scripts/grok_research.py init YYYY-MM-DD
+# Grok 用真实工具完成 collection.json；不能直接将 pending 改成无依据的成功
+python scripts/grok_research.py prepare .runtime/grok/YYYY-MM-DD/collection.json
+# 完善 analysis.json 的决策、摘要、URL 核验与去重记录
+python scripts/report_builder.py .runtime/grok/YYYY-MM-DD/analysis.json --validate-only
+python scripts/report_builder.py .runtime/grok/YYYY-MM-DD/analysis.json
+```
+
+`init` 省略日期时使用北京时间昨天；已有目标日报或同日清单时拒绝覆盖。先完成来源发现，再写研究卡。每个策略来源都必须有检查结果；required=true 的来源不能降级发布，可选来源允许如实记录失败。策略版本生效后保持不变，后续变更新增版本。
+
+collection.json 的来源记录示例（示例数据仅说明结构，实际填写工具结果）：
+
+```json
+{
+  "source_id": "newsfile",
+  "kind": "news",
+  "status": "complete",
+  "entry_urls": ["https://www.newsfilecorp.com/news/mining-metals", "https://www.newsfilecorp.com/news/mining-metals?pg=2"],
+  "termination": "end_of_window",
+  "note": "填写实际页数、最早时间及其时区，说明如何覆盖北京窗口；同时保留列表工具结果",
+  "discovered_count": 1,
+  "candidate_ids": []
+}
+```
+
+complete 只允许 end_of_window / end_of_results，并要有真实边界依据；partial/failed 使用 termination=error，写具体失败。discovered_count 来自列表实际发现数，不能只填计划入选数量。prepare 会按候选 source_id 生成 candidate_ids 并核对数量；所有窗口内列表项先登记，之后再排除非目标金属等内容。
+
+候选放在 collection.candidates；不手工生成 id/document_id，prepare 会生成。正文未读时省略 text，不能填空字符串冒充已读：
+
+```json
+{
+  "source_id": "newsfile",
+  "source_url": "https://example.com/actual-issuer-release",
+  "kind": "news",
+  "title": "实际来源标题",
+  "published_at": "2026-11-17T06:00:00-05:00",
+  "source": "实际发行人或分发商",
+  "language": "en",
+  "source_channel": "web"
+}
+```
+
+访谈使用 kind=broadcast 和 source_type=podcast 等合法类型，原始精确时刻保留在 published_at；接受决策另填对应北京日期 publish_date。X 候选使用 kind=x、handle、author、原帖 URL/时间及工具读到的 text；prepare 自动设置 x-<handle> source_id 和实际账号通道。每个清单中的账号都必须有审计结果，例如：
+
+```json
+{
+  "handle": "实际注册表handle",
+  "user_id": "实际解析到的用户ID",
+  "resolved_handle": "实际解析到的handle",
+  "identity_verified": true,
+  "pagination_complete": true,
+  "status": "complete",
+  "channel": "grok_x",
+  "note": "填写身份核对、查询窗口、分页游标/终止依据；失败写具体原因",
+  "candidate_ids": []
+}
+```
+
+x_attempted_channels 记录实际尝试的有序前缀 grok_x -> playwright -> twscrape。原生工具失败、错误账号、没有可靠分页证据时保留 partial/failed；不能用批量查询空结果证明所有账号完成。complete 必须同时具备身份核验与分页结束，代码核对已知用户 ID、handle 和完成数。备用通道仍遵守既有授权、限流和安全停止规则，不自动要求本机登录。X coverage 与来源说明由 prepare 生成。
+
+prepare 生成 collection.frozen.json 与 analysis.json，不覆盖已有文件。冻结清单中的候选不得删除、改名或改写。新取得的正文可放在独立 capture JSON 中，以 `{artifact_path, sha256}` 追加到接受或排除决策的 evidence_documents，不修改冻结候选。capture 结构和安全限制见下文“引句与捕获文本绑定”；正文 URL 可以与原候选相同。
+
+每条候选都必须有决策：
+
+- accept：按现有卡片契约填写 kind、metal、direction、confidence、核验状态、中文正文和 claims 等；无正文可按工作流接受 unverified 精简卡。
+- reject：填写 candidate_id、reason、reason_code。原因码仅允许 non_target_metal、no_supply_demand、no_new_facts、not_interview、promotion_only、duplicate、out_of_window；其中 no_supply_demand/no_new_facts/promotion_only 必须有该 URL 的已捕获正文，不能用读取失败替代内容判断。
+- pending_verification：待处理状态，写原因并保留；发布被阻止，必须完成核验或转换为符合规则的 unverified 精简卡。
+
+示例排除决策：`{"candidate_id":"prepare生成的ID","decision":"reject","reason_code":"non_target_metal","reason":"列表明确为锂项目，与金银铜无关"}`。明确排除原因并不代替研究判断，发布前仍须复查可能有供需路径的条目。
+
+builder 将从冻结清单派生 search_log.research_audit，随日报保留来源覆盖、候选去向与逐账号审计，CI 再核对这些记录与最终卡片。正文/截图等继续保存在 ignored .runtime，不提交私人会话数据。冻结引用有路径、大小和 SHA-256 检查；不能通过同时删除候选及其决策逃过对账。
+
+完成内容校验、类型检查、Python/Node 测试和构建后，按工作流已有授权提交/推送；随后仅运行 `python scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 并等待退出。Grok 主路径不调用该脚本的旧模型启动模式。已有报告只恢复校验/发布，不重新研究或覆盖。
+
+以下本地采集器、旧 runner 和浏览器说明用于兼容/手动工具调用；不替代上面的 Grok 主路径，其单个 complete 状态不代表整期覆盖完成。旧环境授权也不代表当前 Grok 会话已有权限。
 
 ## 云端 / Linux 运行
 
@@ -51,7 +134,7 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -m pip install -r sc
 C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -m pip install -r scripts/requirements-optional.txt
 ```
 
-运行日报采集脚本时固定使用 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`（Python 3.12.x）；不要使用 `python`、`py` 或 `.workbuddy` Python，以免与已安装的 twscrape 环境分离。
+以下 Windows 本地备用采集器示例使用其已安装依赖的 Python 3.12 环境；Grok 云端使用预检确认的解释器，不能照搬这些路径。
 
 `x_search.py` 固定按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止立即结束整条链路。未设置 `X_TWSCRAPE_ENABLED`（或设置为其他值）时 twscrape 保持启用；设置为 `0`、`false`、`no` 或 `off` 会将 twscrape 标记为不可用。twscrape 只使用一个 `auth_token`/`ct0` cookie 账号，不使用密码登录。账号请求严格串行，默认每个账号间随机等待 `uniform(25.0, 30.0)` 秒；可用 `X_SAFE_DELAY_MIN_SECONDS` 和 `X_SAFE_DELAY_MAX_SECONDS` 配置范围（各为 5-300 秒），旧版 `X_SAFE_DELAY_SECONDS` 可固定覆盖。每个查询默认最多返回 20 条结果，可用 `X_MAX_RESULTS_PER_QUERY` 调整（1-500）。这些设置不保证不会触发 X 限制；不启用代理轮换、账号轮换或自动登录。
 
@@ -99,7 +182,7 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeli
 
 ### 引句与捕获文本绑定
 
-每条 `claims.evidence` 必须在同一 `claims.source_url` 的捕获文本中出现，只规范化空白，不忽略大小写、标点或替换词。候选原 URL 使用非空 `text` 或 `raw_text`；同时提供时必须一致。另一来源（例如媒体引用的公司公告）可在候选中加 `evidence_documents`：
+每条 `claims.evidence` 必须在同一 `claims.source_url` 的捕获文本中出现，只规范化空白，不忽略大小写、标点或替换词。候选原 URL 使用非空 `text` 或 `raw_text`；同时提供时必须一致。冻结后新取得的原 URL 正文放在决策的 `evidence_documents`，不改写候选。另一来源（例如媒体引用的公司公告）可在候选或决策中加 `evidence_documents`：
 
 ```json
 {"artifact_path": ".runtime/browser-verification/RUN_ID/issuer.json", "sha256": "替换为该文件字节的64位SHA-256"}
@@ -130,7 +213,7 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/run_schedule
 
 状态在 `.runtime/scheduled/YYYY-MM-DD.state.json`，日志在 `.runtime/scheduled/runs/`；旧日志不改写。新成功状态包含 `verified_report_sha256` 和 `verified_tc_sha256`，验证期间文件变化将失败；修正成品后旧成功不能继续作为当前内容的验证证据。GitHub 检查绑定 remote main SHA，CI pending/临时故障/生产旧页面有限退避等待，CI 明确失败和权限错误停止。四个生产路由检查日期、来源 href、导航及最新 TC 日期/值；不访问 MacroMicro 外站，也不声称验证了 Vercel 部署 SHA。
 
-保留 `.runtime/locks/` 下的锁文件；锁由 OS 在进程退出时释放，不靠删除文件解锁。Windows 使用原生 Job Object 约束子进程树，监督进程被强杀也会清理后代；POSIX 使用进程组，监督进程自身遭 SIGKILL 时仍需子级锁/checkpoint 防止重复操作。当前正式 Pi 定时任务已启用 `extensions: true`，浏览器仍需上述进程授权及有效网站会话；推送后使用 `run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD` 检查实际发布。独立 Windows 计划任务尚未注册，不能与当前 Pi 入口同时启用；切换入口及外部告警服务需要另行授权配置，本次代码不会自动启用它们。
+保留 `.runtime/locks/` 下的锁文件；锁由 OS 在进程退出时释放，不靠删除文件解锁。Windows 使用原生 Job Object，POSIX 使用进程组；监督进程遭 SIGKILL 时仍需子级锁/checkpoint 防止重复操作。Grok 只使用 verify-only 模式检查发布，不启用此旧 runner 的调度或模型启动模式。旧浏览器授权不跨环境继承。
 
 ### 本地导航边缘回归（不访问外站）
 
@@ -152,6 +235,6 @@ C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B scripts/check_dai
 
 按北京时间 07:00 选择最近应执行周期，默认完成宽限 4 小时。缺报告、超期、失败/损坏状态、缺少成功阶段或当前内容与保存哈希不符时返回非零。`pending` 在宽限内不告警；`verified` 只表示当前本地文件匹配保存的成功验证，不是实时生产检查。历史成功 state 无哈希时返回 `verification_required`，需要仅验证已有成品，不重采集。工具不设置任何新 cron/OS 任务或外部告警通道。
 
-正式 Pi 任务只在尾部调用 `--verify-only`，现有 wrapper 的锁、开始标记、deadline 尚未覆盖前面的 Pi AI；缺少 state 不能证明 AI 从未启动。不要在 Pi 任务内调用普通 wrapper 来嵌套 OpenCode。完整 Pi 监督需在 SDK 启动前接入；隔离 worker 无法继承当前 Chrome 进程授权，切换入口、替换调度扩展或激活新行为须另行确认。Pi/PC 重启仍需用户重新授权，当前未变更该边界。
+Grok routine 的研究阶段不在旧 wrapper 的进程监督范围内；verify-only 的成功仅证明其实际验证范围。缺少 wrapper state 不能证明研究从未开始。不要嵌套旧 AI runner；当前工具与会话权限以 Grok 实际环境为准。
 
 日常任务不自行改写或提交工作流文档。明确授权的手动维护可在专用分支精确提交日报及已验证的方法文档；先通过本地校验和 PR/CI/Preview，再合并并核验 main 生产页面，最后清理本次分支并回到 main。无关文件始终排除。

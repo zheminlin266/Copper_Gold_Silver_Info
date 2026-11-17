@@ -25,6 +25,7 @@
 ## 更新与校验
 
 日报内容以 JSON/CSV 为源，经过内容校验后由 Next.js 构建网页，Vercel 自动部署。详见 `Daily_Report_Workflow.md`。
+日常由 Grok bot 读取 [`Daily_Task_Prompt.md`](Daily_Task_Prompt.md) 执行；报告日期 2026-11-17 起使用来源清单、冻结候选及逐账号 X 审计，入口为 `python scripts/grok_research.py init YYYY-MM-DD`。历史成品保持原校验规则。
 脚本范围与失败规则见 [`scripts/README.md`](scripts/README.md)。
 
 本地检查：

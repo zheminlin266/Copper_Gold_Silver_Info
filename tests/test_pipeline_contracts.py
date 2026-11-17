@@ -36,6 +36,14 @@ class PipelineContractTests(unittest.TestCase):
         with self.assertRaises(ContractError):
             EvidenceClaim("claim", "evidence", "ftp://example.com", "report", "2024", "t", 1)
 
+    def test_grok_discovery_and_pending_decisions_round_trip(self):
+        candidate = Candidate.from_dict({"id": "grok-1", "document_id": "doc-1", "source_id": "newsfile",
+                                         "source_url": "https://example.com/a", "title": "Title", "collector": "grok_bot"})
+        self.assertEqual(Candidate.from_dict(candidate.to_dict()).source_id, "newsfile")
+        decision = AnalysisDecision.from_dict({"candidate_id": "grok-1", "decision": "pending_verification",
+                                               "reason": "Awaiting body", "evidence_documents": []})
+        self.assertEqual(AnalysisDecision.from_dict(decision.to_dict()).decision, "pending_verification")
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -11,7 +11,7 @@ from urllib.parse import urlsplit
 
 METALS = frozenset({"gold", "silver", "copper"})
 DIRECTIONS = frozenset({"supply", "demand", "both"})
-DECISIONS = frozenset({"accept", "accepted", "reject", "rejected"})
+DECISIONS = frozenset({"accept", "accepted", "reject", "rejected", "pending_verification"})
 KINDS = frozenset({"broadcast", "x", "news"})
 COLLECTOR_STATUSES = frozenset({"preflight", "complete", "partial", "failed"})
 SCHEMA_VERSION = 3
@@ -178,6 +178,7 @@ class Candidate:
     metal: str | None = None
     direction: str | None = None
     raw: Mapping[str, Any] | None = None
+    source_id: str | None = None
 
     def __post_init__(self) -> None:
         require_id(self.id)
@@ -195,7 +196,7 @@ class Candidate:
             validate_metal(self.metal)
         if self.direction is not None:
             validate_direction(self.direction)
-        for field_name, value in (("source", self.source), ("author", self.author), ("handle", self.handle)):
+        for field_name, value in (("source", self.source), ("source_id", self.source_id), ("author", self.author), ("handle", self.handle)):
             if value is not None:
                 _text(value, field_name)
 
@@ -205,7 +206,7 @@ class Candidate:
             raise ContractError("Candidate must be an object")
         allowed = {
             "id", "document_id", "source_url", "title", "text", "raw_text", "published_at",
-            "collector", "kind", "source", "author", "handle", "metal", "direction", "raw",
+            "collector", "kind", "source", "source_id", "author", "handle", "metal", "direction", "raw",
         }
         _reject_unknown(data, allowed, "Candidate")
         values = dict(data)
@@ -264,6 +265,8 @@ class AnalysisDecision:
     metal: str | None = None
     direction: str | None = None
     confidence: float | None = None
+    reason_code: str | None = None
+    evidence_documents: tuple[Mapping[str, str], ...] = ()
 
     def __post_init__(self) -> None:
         require_id(self.candidate_id, "candidate_id")
@@ -288,6 +291,14 @@ class AnalysisDecision:
         if self.confidence is not None:
             validate_confidence(self.confidence)
         _text(self.reason, "reason", required=False)
+        if self.reason_code is not None:
+            _text(self.reason_code, "reason_code")
+        for reference in self.evidence_documents:
+            if not isinstance(reference, Mapping) or set(reference) != {"artifact_path", "sha256"}:
+                raise ContractError("evidence_documents requires artifact_path and sha256")
+            for key in ("artifact_path", "sha256"):
+                _text(reference[key], key)
+        object.__setattr__(self, "evidence_documents", tuple(self.evidence_documents))
         claims = tuple(
             claim if isinstance(claim, EvidenceClaim) else EvidenceClaim.from_dict(claim)
             for claim in self.claims
@@ -300,7 +311,7 @@ class AnalysisDecision:
             raise ContractError("AnalysisDecision must be an object")
         _reject_unknown(
             data,
-            {"candidate_id", "accepted", "decision", "kind", "metal", "direction", "confidence", "reason", "claims"},
+            {"candidate_id", "accepted", "decision", "kind", "metal", "direction", "confidence", "reason", "reason_code", "claims", "evidence_documents"},
             "AnalysisDecision",
         )
         return cls(**dict(data))

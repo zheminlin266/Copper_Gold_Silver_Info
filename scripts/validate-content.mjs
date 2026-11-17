@@ -4,6 +4,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import { getTcData } from "../lib/tc-data.ts";
+import { GROK_FROM, GROK_CHANNEL_ORDER, GROK_SELECTED_CHANNELS, validateResearchAudit } from "./research-audit.mjs";
 
 const DATE_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
 const DATE = /^(\d{4})-(\d{2})-(\d{2})$/;
@@ -357,9 +358,10 @@ function validatePart2Coverage(report, filename) {
   if (coverage.status === "complete" && (coverage.accounts_completed !== coverage.accounts_total || coverage.accounts_failed !== 0)) throw new Error(`${filename}: complete Part 2 coverage must complete every account with no failures`);
   if (coverage.status === "partial" && (coverage.accounts_completed < 1 || coverage.accounts_failed < 1)) throw new Error(`${filename}: partial Part 2 coverage must complete and fail at least one account`);
   if (coverage.status === "failed" && (coverage.accounts_completed !== 0 || coverage.accounts_failed !== coverage.accounts_total)) throw new Error(`${filename}: failed Part 2 coverage must fail every account with zero completions`);
-  const channelOrder = report.date >= CURRENT_PART2_ORDER_FROM ? CURRENT_X_CHANNEL_ORDER : LEGACY_X_CHANNEL_ORDER;
-  const selectedChannels = report.date >= CURRENT_PART2_ORDER_FROM ? CURRENT_PART2_SELECTED_CHANNELS : LEGACY_PART2_SELECTED_CHANNELS;
-  if (!Array.isArray(coverage.attempted_channels) || coverage.attempted_channels.length === 0 || JSON.stringify(coverage.attempted_channels) !== JSON.stringify(channelOrder.slice(0, coverage.attempted_channels.length))) throw new Error(`${filename}: search_log.part2_coverage.attempted_channels must be an ordered channel prefix`);
+  const channelOrder = report.date >= GROK_FROM ? GROK_CHANNEL_ORDER : report.date >= CURRENT_PART2_ORDER_FROM ? CURRENT_X_CHANNEL_ORDER : LEGACY_X_CHANNEL_ORDER;
+  const selectedChannels = report.date >= GROK_FROM ? GROK_SELECTED_CHANNELS : report.date >= CURRENT_PART2_ORDER_FROM ? CURRENT_PART2_SELECTED_CHANNELS : LEGACY_PART2_SELECTED_CHANNELS;
+  const unavailable = report.date >= GROK_FROM && coverage.status === "failed";
+  if (!Array.isArray(coverage.attempted_channels) || (!unavailable && coverage.attempted_channels.length === 0) || JSON.stringify(coverage.attempted_channels) !== JSON.stringify(channelOrder.slice(0, coverage.attempted_channels.length))) throw new Error(`${filename}: search_log.part2_coverage.attempted_channels must be an ordered channel prefix`);
   if (coverage.selected_channel !== null && !selectedChannels.has(coverage.selected_channel)) throw new Error(`${filename}: search_log.part2_coverage.selected_channel is unsupported`);
   if ((coverage.selected_channel === null) !== (coverage.accounts_completed === 0)) throw new Error(`${filename}: selected_channel must be null exactly when no accounts completed`);
   if (coverage.selected_channel !== null) {
@@ -508,6 +510,7 @@ export function validateReport(report, filename) {
   validatePart2Coverage(report, filename);
   validateUrlVerification(report, filename);
   validateVerificationCoverage(report, filename);
+  validateResearchAudit(report, filename);
 
   if (!isObject(report.dedup_log)) throw new Error(`${filename}: dedup_log must be an object`);
   requireStringArray(report.dedup_log.part1_deduped_urls, "dedup_log.part1_deduped_urls", filename);

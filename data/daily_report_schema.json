@@ -16,6 +16,65 @@
         "unit": {"type": "string", "minLength": 1},
         "value": {"type": ["string", "number", "null"]}
       }
+    },
+    "research_source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["source_id", "kind", "status", "entry_urls", "termination", "note", "discovered_count", "candidate_ids"],
+      "properties": {
+        "source_id": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["broadcast", "news"]},
+        "status": {"enum": ["complete", "partial", "failed"]},
+        "entry_urls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri", "pattern": "^https?://"}},
+        "termination": {"enum": ["end_of_window", "end_of_results", "error"]},
+        "note": {"type": "string", "minLength": 1},
+        "discovered_count": {"type": "integer", "minimum": 0},
+        "candidate_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "research_candidate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "source_id", "source_url", "kind", "title", "published_at", "content_checked", "decision", "reason_code", "reason", "signal_url"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "source_id": {"type": "string", "minLength": 1},
+        "source_url": {"type": "string", "format": "uri", "pattern": "^https?://"},
+        "kind": {"enum": ["broadcast", "x", "news"]},
+        "title": {"type": "string", "minLength": 1},
+        "published_at": {"type": ["string", "null"]},
+        "content_checked": {"type": "boolean"},
+        "handle": {"type": "string", "pattern": "^@?[A-Za-z0-9_]+$"},
+        "decision": {"enum": ["accept", "reject"]},
+        "reason_code": {"type": "string"}, "reason": {"type": "string"},
+        "signal_url": {"type": ["string", "null"], "format": "uri", "pattern": "^https?://"}
+      }
+    },
+    "research_x_account": {
+      "type": "object", "additionalProperties": false,
+      "required": ["handle", "user_id", "resolved_handle", "identity_verified", "pagination_complete", "status", "channel", "note", "candidate_ids"],
+      "properties": {
+        "handle": {"type": "string", "pattern": "^[A-Za-z0-9_]+$"},
+        "user_id": {"type": "string"}, "resolved_handle": {"type": "string"},
+        "identity_verified": {"type": "boolean"}, "pagination_complete": {"type": "boolean"},
+        "status": {"enum": ["complete", "partial", "failed"]},
+        "channel": {"enum": ["grok_x", "playwright", "twscrape", null]},
+        "note": {"type": "string", "minLength": 1},
+        "candidate_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "research_audit": {
+      "type": "object", "additionalProperties": false,
+      "required": ["version", "policy_version", "manifest_sha256", "sources", "candidates", "x_registry", "x_accounts"],
+      "properties": {
+        "version": {"const": 1}, "policy_version": {"type": "integer", "minimum": 1},
+        "manifest_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "sources": {"type": "array", "items": {"$ref": "#/$defs/research_source"}},
+        "candidates": {"type": "array", "items": {"$ref": "#/$defs/research_candidate"}},
+        "x_registry": {
+          "type": "array", "minItems": 1,
+          "items": {"type": "object", "additionalProperties": false, "required": ["handle", "user_id"], "properties": {"handle": {"type": "string", "pattern": "^[A-Za-z0-9_]+$"}, "user_id": {"type": "string"}}}
+        },
+        "x_accounts": {"type": "array", "items": {"$ref": "#/$defs/research_x_account"}}
+      }
     }
   },
   "type": "object",
@@ -196,7 +255,7 @@
           "url": {"type": "string", "format": "uri"},
           "source_channel": {
             "type": "string",
-            "enum": ["browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright"]
+            "enum": ["browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "grok_x"]
           }
         }
       }
@@ -275,7 +334,7 @@
         "part2_searched": {"type": "boolean"},
         "part2_channel": {
           "type": "string",
-          "enum": ["browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "failed"]
+          "enum": ["browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "grok_x", "failed"]
         },
         "part2_coverage": {
           "type": "object",
@@ -286,8 +345,8 @@
             "accounts_total": {"type": "integer", "minimum": 0},
             "accounts_completed": {"type": "integer", "minimum": 0},
             "accounts_failed": {"type": "integer", "minimum": 0},
-            "attempted_channels": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "enum": ["web_access_xai", "twscrape", "playwright"]}},
-            "selected_channel": {"type": ["string", "null"], "enum": ["web_access_xai", "twscrape", "playwright", "web_access_xai+twscrape", "web_access_xai+playwright", "twscrape+playwright", "web_access_xai+twscrape+playwright", "playwright+twscrape", null]},
+            "attempted_channels": {"type": "array", "uniqueItems": true, "items": {"type": "string", "enum": ["web_access_xai", "twscrape", "playwright", "grok_x"]}},
+            "selected_channel": {"type": ["string", "null"], "enum": ["web_access_xai", "twscrape", "playwright", "web_access_xai+twscrape", "web_access_xai+playwright", "twscrape+playwright", "web_access_xai+twscrape+playwright", "playwright+twscrape", "grok_x", "grok_x+playwright", "grok_x+twscrape", "grok_x+playwright+twscrape", null]},
             "channel_errors": {"type": "array", "items": {"type": "string"}},
             "notes": {"type": ["string", "array"], "items": {"type": "string"}}
           }
@@ -298,6 +357,7 @@
           "type": "boolean",
           "description": "True only when Part 3 collection completed, including a successful search with zero qualified results"
         },
+      "research_audit": {"$ref": "#/$defs/research_audit"},
         "part3_sources_checked": {"type": "array", "items": {"type": "string"}},
         "part3_result": {"type": "string"},
         "mining_com_source_note": {"type": "string"},

@@ -1,5 +1,7 @@
 Complete the user's in-scope outcome with the smallest correct, maintainable, and verifiable solution. Preserve explicit user requirements and existing project conventions.
 
+For daily information collection, report updates or publication, Grok bot must first read the current `Daily_Task_Prompt.md` and `Daily_Report_Workflow.md`. Reports dated 2026-11-17 onward use `scripts/grok_research.py init` / `prepare`, the frozen collection and `report_builder.py`; preserve actual tool channels and source coverage. Do not use old Pi/Codex/OpenCode runner instructions as the daily entry. For workflow or code maintenance, validate existing reports without starting new research, changing TC data or activating a scheduler.
+
 
 
 \*\*Scope and approvals\*\*

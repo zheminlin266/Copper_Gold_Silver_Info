@@ -19,6 +19,11 @@ from pathlib import Path
 from typing import Any, Mapping
 
 try:
+    from scripts.research_audit import GROK_FROM, GROK_CHANNELS, project_research_audit, research_policy
+except ModuleNotFoundError:
+    from research_audit import GROK_FROM, GROK_CHANNELS, project_research_audit, research_policy
+
+try:
     from scripts.pipeline_contracts import (
         ContractError,
         DIRECTIONS,
@@ -59,7 +64,7 @@ SOURCE_TYPES = frozenset({
     "company_presentation",
 })
 LANGUAGES = frozenset({"en", "zh"})
-PART2_CHANNELS = frozenset({"browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "failed"})
+PART2_CHANNELS = frozenset({"browser_use", "rss_fallback", "web_access_xai", "twscrape", "playwright", "grok_x", "failed"})
 LEGACY_PART2_CHANNEL_ORDER = ("web_access_xai", "twscrape", "playwright")
 CURRENT_PART2_CHANNEL_ORDER = ("playwright", "twscrape")
 LEGACY_PART2_SELECTED_CHANNELS = frozenset({
@@ -121,22 +126,22 @@ CANDIDATE_FIELDS = {
     "handle", "metal", "metal_tags", "direction", "supply_demand", "language", "source_type",
     "source_channel", "excerpt", "summary", "detail", "interpretation", "importance", "claims",
     "guest", "companies", "projects", "verification_status", "verification_note",
-    "mining_com_source_note", "duplicate_of", "raw", "evidence_documents",
+    "mining_com_source_note", "duplicate_of", "raw", "evidence_documents", "source_id",
 }
 DECISION_FIELDS = {
     "candidate_id", "accepted", "decision", "kind", "metal", "primary_metal", "metal_tags",
     "direction", "supply_demand", "confidence", "reason", "claims", "title", "summary", "detail",
     "excerpt", "interpretation", "importance", "author", "handle", "source", "url", "source_url",
     "publish_date", "publish_time", "language", "source_type", "source_channel", "guest", "companies",
-    "projects", "verification_status", "verification_note", "mining_com_source_note", "duplicate_of",
+    "projects", "verification_status", "verification_note", "mining_com_source_note", "duplicate_of", "reason_code", "evidence_documents",
 }
 SEARCH_LOG_FIELDS = {
     "part1_searched", "part1_sources_checked", "part1_result", "part2_searched", "part2_channel",
     "part2_sources_checked", "part2_result", "part2_coverage", "part3_searched", "part3_sources_checked", "part3_result",
-    "mining_com_source_note", "image_source", "new_sources_discovered", "url_verification",
+    "mining_com_source_note", "image_source", "new_sources_discovered", "url_verification", "research_audit",
 }
 DEDUP_LOG_FIELDS = {"part1_deduped_urls", "part2_deduped_urls", "part3_deduped_events", "notes"}
-BUNDLE_FIELDS = {"report_date", "summary", "candidates", "decisions", "search_log", "dedup_log"}
+BUNDLE_FIELDS = {"report_date", "summary", "candidates", "decisions", "search_log", "dedup_log", "collection_manifest"}
 
 
 def _record_id(record: Mapping[str, Any], name: str) -> str:
@@ -235,7 +240,7 @@ def _evidence_sources(candidate: Mapping[str, Any]) -> dict[str, str]:
     return sources
 
 
-def _validate_claims(value: Any, candidate_id: str, candidate: Mapping[str, Any], signal_url: str) -> list[dict[str, Any]]:
+def _validate_claims(value: Any, candidate_id: str, candidate: Mapping[str, Any], signal_url: str, *, allow_original_capture: bool = False) -> list[dict[str, Any]]:
     if not isinstance(value, list) or not value:
         raise ReportBuilderError(f"decision {candidate_id} must include at least one evidence claim")
     sources = _evidence_sources(candidate)
@@ -248,7 +253,7 @@ def _validate_claims(value: Any, candidate_id: str, candidate: Mapping[str, Any]
         except (ContractError, TypeError) as error:
             raise ReportBuilderError(f"invalid evidence claim for {candidate_id}[{index}]: {error}") from error
         source_text = sources.get(parsed.source_url)
-        if parsed.source_url == _candidate_url(candidate) and not any(key in candidate for key in ("text", "raw_text")):
+        if parsed.source_url == _candidate_url(candidate) and not any(key in candidate for key in ("text", "raw_text")) and not allow_original_capture:
             raise ReportBuilderError(f"evidence claim {candidate_id}[{index}] needs candidate captured text for its source_url")
         if source_text is None:
             raise ReportBuilderError(f"evidence claim {candidate_id}[{index}] needs captured text bound to source_url")
@@ -283,8 +288,12 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
         raise ReportBuilderError("failed Part 2 coverage must fail every account with zero completions")
     channel_order = CURRENT_PART2_CHANNEL_ORDER if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_CHANNEL_ORDER
     selected_channels = CURRENT_PART2_SELECTED_CHANNELS if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_SELECTED_CHANNELS
+    if report_date and report_date >= GROK_FROM:
+        channel_order = GROK_CHANNELS
+        selected_channels = {"+".join(c for i, c in enumerate(channel_order) if mask & (1 << i)) for mask in range(1, 8)}
     attempted = coverage.get("attempted_channels")
-    if not isinstance(attempted, list) or not attempted or attempted != list(channel_order[:len(attempted)]):
+    unavailable = report_date and report_date >= GROK_FROM and coverage["status"] == "failed"
+    if not isinstance(attempted, list) or (not attempted and not unavailable) or attempted != list(channel_order[:len(attempted)]):
         raise ReportBuilderError("search_log.part2_coverage.attempted_channels must be an ordered channel prefix")
     selected = coverage.get("selected_channel")
     if selected not in selected_channels and selected is not None:
@@ -433,6 +442,11 @@ def _validate_decision(data: Any, index: int) -> dict[str, Any]:
     decision["candidate_id"] = candidate_id
     raw_decision = decision.get("decision")
     accepted = decision.get("accepted")
+    if raw_decision == "pending_verification":
+        if accepted is not None and accepted is not False:
+            raise ReportBuilderError("pending_verification cannot be accepted")
+        decision.update(accepted=False, reason=_nonempty(decision.get("reason"), "pending verification reason"))
+        return decision
     if raw_decision is not None:
         if raw_decision not in {"accept", "accepted", "reject", "rejected"}:
             raise ReportBuilderError(f"decisions[{index}].decision is unsupported")
@@ -498,6 +512,7 @@ def _base_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], inde
 
 
 def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], index: int) -> dict[str, Any]:
+    candidate = _with_decision_evidence(candidate, decision)
     result = _base_signal(decision, candidate, index)
     kind = decision["kind"]
     unverified = _field(decision, candidate, "verification_status") == "unverified"
@@ -513,7 +528,7 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
             if "summary" in record and (kind != "broadcast" or record["summary"] != _field(decision, candidate, "title")):
                 raise ReportBuilderError("unverified source-only summary must exactly equal broadcast title")
     else:
-        result["claims"] = _validate_claims(claims, decision["candidate_id"], candidate, result["url"])
+        result["claims"] = _validate_claims(claims, decision["candidate_id"], candidate, result["url"], allow_original_capture=bool(decision.get("evidence_documents")))
     # Supplied factual fields must not vanish when a card cannot represent them.
     unsupported = {"broadcast": ("excerpt", "interpretation"), "x": ("summary", "detail"), "news": ("summary", "detail")}
     for key in unsupported[kind]:
@@ -567,6 +582,17 @@ def _project_signal(decision: Mapping[str, Any], candidate: Mapping[str, Any], i
     return result
 
 
+def _with_decision_evidence(candidate: Mapping[str, Any], decision: Mapping[str, Any]) -> dict[str, Any]:
+    """Append newly captured body evidence without mutating frozen discovery."""
+    result = dict(candidate)
+    if "evidence_documents" in decision:
+        refs = decision["evidence_documents"]
+        if not isinstance(refs, list):
+            raise ReportBuilderError("decision.evidence_documents must be a list")
+        result["evidence_documents"] = [*candidate.get("evidence_documents", []), *refs]
+    return result
+
+
 def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None) -> dict[str, Any]:
     """Pure bundle validation/projection; build_report adds final semantic validation."""
     data = dict(_is_mapping(bundle, "analysis bundle"))
@@ -603,6 +629,17 @@ def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None)
         if extra:
             detail.append("unknown candidates " + ", ".join(extra))
         raise ReportBuilderError("analysis records would be silently dropped: " + "; ".join(detail))
+    if any(item["decision"] == "pending_verification" for item in decisions):
+        raise ReportBuilderError("pending_verification cannot be published; finish verification or accept an unverified source-only card")
+    content_checked = set()
+    if data.get("collection_manifest") is not None:
+        for decision in decisions:
+            candidate = candidate_map[decision["candidate_id"]]
+            evidence = _evidence_sources(_with_decision_evidence(candidate, decision))
+            if _candidate_url(candidate) in evidence:
+                content_checked.add(candidate["id"])
+            if decision["decision"] == "reject" and decision.get("reason_code") in {"no_supply_demand", "no_new_facts", "promotion_only"} and candidate["id"] not in content_checked:
+                raise ReportBuilderError("content rejection requires captured source body; access failures remain pending_verification")
     accepted = [
         (index, decision, candidate_map[decision["candidate_id"]])
         for index, decision in enumerate(decisions)
@@ -620,7 +657,24 @@ def project_report(bundle: Mapping[str, Any], *, report_time: str | None = None)
         ]
         for kind in KINDS
     }
-    search_log = _validate_search_log(data.get("search_log"), report_date)
+    raw_log = dict(_is_mapping(data.get("search_log"), "search_log"))
+    try:
+        audit = project_research_audit({**data, "candidates": candidates, "decisions": decisions}, projected, content_checked)
+    except (ValueError, KeyError, TypeError, OSError) as error:
+        raise ReportBuilderError(f"invalid research audit: {error}") from error
+    if audit is not None:
+        if "research_audit" in raw_log and raw_log["research_audit"] != audit:
+            raise ReportBuilderError("search_log.research_audit conflicts with frozen collection")
+        raw_log["research_audit"] = audit
+        policy = research_policy(report_date, audit["policy_version"])
+        source_states = {s["source_id"]: s["status"] for s in audit["sources"]}
+        for part, kind in (("part1", "broadcast"), ("part3", "news")):
+            complete = all(source_states.get(s["source_id"]) == "complete" for s in policy["sources"] if s["kind"] == kind and s["required"])
+            if raw_log.get(f"{part}_searched") is not complete:
+                raise ReportBuilderError(f"{part}_searched conflicts with required source coverage")
+    elif "research_audit" in raw_log:
+        raise ReportBuilderError("research_audit requires its frozen collection_manifest")
+    search_log = _validate_search_log(raw_log, report_date)
     if report_date >= PART2_COVERAGE_REQUIRED_FROM and "part2_coverage" not in search_log:
         raise ReportBuilderError(
             f"search_log.part2_coverage is required for reports from {PART2_COVERAGE_REQUIRED_FROM}"
