@@ -2,7 +2,7 @@
   "schema_version": 3,
   "date": "2026-11-17",
   "report_time": "2026-11-18T07:50:10+08:00",
-  "summary": "铜：中国协会称精矿冶炼产能在2026年接近上限；智利产量或降至23年低点；Codelco Gabriela Mistral获延期环评；巴拿马与First Quantum正式谈Cobre Panama；上期所与LME交易所库存更新；另有Haib预可研、苏哈尔发运和Capricorn尾矿库进展。黄金：几内亚授予PDI Bankan与Mansounia开采许可；Hillgrove发出首批金精矿；另有Woyla首份资源和若干钻探、季报。白银：Silverco的Cusi发出首批精矿；Aya更正三季度销售量和现金成本；Endeavour在Guanaceví钻到高品位。",
+  "summary": "铜：关注巴拿马Cobre Panamá谈判、智利Gabriela Mistral延产审批和纳米比亚Haib预可研。11月17日上期所铜仓单增至6,830吨，LME铜库存增至327,600吨。黄金：几内亚授予Bankan与Mansounia开采许可，Hillgrove发出首批金精矿，Reefton更新资源但Auld Creek独立开发预可研净现值为负。白银：Cusi发出首批精矿，Aya更正Zgounder三季度销售量及现金成本，Endeavour与PPX披露钻探结果。",
   "windows": {
     "part1": {
       "start": "2026-11-15T00:00:00+08:00",
@@ -29,22 +29,21 @@
       "publish_date": "2026-11-17",
       "claims": [
         {
-          "claim": "访谈摘要称Heliostar三季度AISC仍低于2,000美元，现金余额接近5,400万美元。",
-          "evidence": "How Heliostar maintained sub-$2,000 all-in sustaining costs (AISC) despite sector-wide inflationary pressures, driving record operating earnings and a nearly $54 million cash balance.",
+          "claim": "San Agustin近期钻探指向潜在的约两年矿寿延长。",
+          "evidence": "recent drill results pointing toward a potential two-year mine life extension",
           "source_url": "https://www.kereport.com/2026/11/16/heliostar-q3-financial-recap-record-cash-balance-and-ana-paula-development-milestones/",
-          "evidence_type": "public original page",
-          "period": "Q3 2026 discussed on 2026-11-16 programme page",
-          "unit": "USD",
-          "value": "54000000"
+          "evidence_type": "访谈页面摘要",
+          "period": "2026-11-17",
+          "unit": "年",
+          "value": 2
         }
       ],
-      "title": "Heliostar：KE访谈称三季度AISC仍低于2,000美元，现金约5,400万美元，并在推进Ana Paula",
+      "title": "Heliostar访谈：San Agustin钻探指向潜在的两年矿寿延长",
       "source_type": "webcast",
-      "summary": "The KE Report对Heliostar Metals首席执行官Charles Funk的访谈页面称，公司三季度全维持续成本仍低于2,000美元，现金余额接近5,400万美元。访谈还提到San Agustin的双段浸出和钻探指向可能延长约两年矿寿，La Colorada正在推进注入浸出和Veta Madre预剥离，以及Ana Paula的地下许可、长周期设备和可行性工作正由经营现金流推进。",
-      "detail": "页面是节目概述，不是逐字誊本。“低于2,000美元AISC”和“接近5,400万美元现金”是节目摘要中的管理层讨论要点，精度低于公司季报原文。延长两年矿寿是潜在结果，不是已批准的储量。",
-      "importance": "若AISC确实维持在2,000美元以下并靠经营现金流推进Ana Paula，说明公司在产矿山正在为开发提供资金，供给路径是现有矿山延续加后续项目，，并非即刻新增一座大矿。两年矿寿延长和Ana Paula许可仍需对照公司原文和技术报告。",
+      "summary": "The KE Report的访谈摘要显示，Heliostar在San Agustin推进两阶段堆浸回收，近期钻探指向矿寿可能延长约两年。公司也在以经营现金流推进Ana Paula的地下开采许可、长交期设备采购和可行性研究。",
+      "detail": "季报中的产量、成本与现金已在11月13日日报收录。此次关注San Agustin现有产能或可维持更久的可能性，仍要等钻探结果转为可纳入矿山计划的储量。",
       "verification_status": "verified",
-      "verification_note": "KE programme page text captured; AISC and cash figures taken from the written summary, not a full transcript.",
+      "verification_note": "复核 The KE Report 访谈页面的文字摘要，未将节目摘要视为逐字转录。",
       "guest": {
         "name": "Charles Funk"
       },
@@ -56,48 +55,6 @@
         "La Colorada",
         "Ana Paula"
       ]
-    },
-    {
-      "url": "https://www.cruxinvestor.com/posts/mogotes-metals-tsxvmog-all-known-questions-answered-november-2026-12760",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_date": "2026-11-16",
-      "title": "Mogotes Metals (TSXV:MOG) - All Known Questions Answered, November 2026",
-      "source_type": "youtube",
-      "summary": "Mogotes Metals (TSXV:MOG) - All Known Questions Answered, November 2026",
-      "verification_status": "unverified",
-      "verification_note": "No reliable transcript or captions were captured; the card is title-only and unverified."
-    },
-    {
-      "url": "https://www.cruxinvestor.com/posts/mogotes-metals-tsxvmog-pitch-perfect-november-2026-12761",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_date": "2026-11-16",
-      "title": "Mogotes Metals (TSXV:MOG) - Pitch Perfect, November 2026",
-      "source_type": "youtube",
-      "summary": "Mogotes Metals (TSXV:MOG) - Pitch Perfect, November 2026",
-      "verification_status": "unverified",
-      "verification_note": "No reliable transcript or captions were captured; the card is title-only and unverified."
-    },
-    {
-      "url": "https://www.cruxinvestor.com/posts/i-80-gold-tsxiau-fully-funded-lone-tree-restart-anchors-multi-mine-nevada-growth-plan-12762",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_date": "2026-11-16",
-      "title": "i-80 Gold (TSX:IAU) - Fully Funded, Lone Tree Restart Anchors Multi-Mine Nevada Growth Plan",
-      "source_type": "youtube",
-      "summary": "i-80 Gold (TSX:IAU) - Fully Funded, Lone Tree Restart Anchors Multi-Mine Nevada Growth Plan",
-      "verification_status": "unverified",
-      "verification_note": "No reliable transcript or captions were captured; the card is title-only and unverified."
     },
     {
       "url": "https://podcasters.spotify.com/pod/show/mining-stock-daily/episodes/Scorpio-Gold-Hits-9-4-gt-Over-13-Metres-at-April-Fool--Eyes-Goldwedge-Restart-e3sgkt3",
@@ -185,31 +142,30 @@
       "publish_date": "2026-11-16",
       "claims": [
         {
-          "claim": "三季度产金当量49,776盎司，为公司历史第二高季度。",
-          "evidence": "Production reached 49,776 gold equivalent ounces, the second-highest quarterly result in company history.",
-          "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-k92-mining-posts-q3-2026-miss-as-stock-slips-93CH-5031251",
-          "evidence_type": "public original page",
-          "period": "Q3 2026",
-          "unit": "oz AuEq",
-          "value": "49776"
+          "claim": "联产品口径AISC为1,608美元/金当量盎司。",
+          "evidence": "AISC of $1,608/oz AuEq",
+          "source_url": "https://www.k92mining.com/news/k92-mining-announces-q3-2026-financial-results-r-19007/",
+          "evidence_type": "公司公告",
+          "period": "2026Q3",
+          "unit": "美元/金当量盎司",
+          "value": 1608
         },
         {
-          "claim": "季末现金及现金等价物约3.899亿美元。",
-          "evidence": "The company ended the quarter with a record $389.9 million in cash and cash equivalents.",
-          "source_url": "https://www.investing.com/news/transcripts/earnings-call-transcript-k92-mining-posts-q3-2026-miss-as-stock-slips-93CH-5031251",
-          "evidence_type": "public original page",
-          "period": "end of Q3 2026",
-          "unit": "USD",
-          "value": "389900000"
+          "claim": "按副产品抵扣口径计算的AISC为1,441美元/售金盎司。",
+          "evidence": "of $1,441/oz gold",
+          "source_url": "https://www.k92mining.com/news/k92-mining-announces-q3-2026-financial-results-r-19007/",
+          "evidence_type": "公司公告",
+          "period": "2026Q3",
+          "unit": "美元/售金盎司",
+          "value": 1441
         }
       ],
-      "title": "K92：三季度产金当量49,776盎司，为公司历史次高季度，现金约3.899亿美元",
+      "title": "K92三季报与电话会：Kainantu联产品口径AISC为1,608美元/金当量盎司",
       "source_type": "webcast",
-      "summary": "Investing.com整理的K92 Mining三季度电话会稿称，公司三季度产金当量49,776盎司，为公司历史第二高季度。调整后净盈利5,250万美元，报告期净亏损3,950万美元，主要来自一次性递延税项。季末现金及等价物约3.899亿美元。实现金价同比上升26%至4,236美元/盎司；稿件给出的收入数字在不同段落分别为1.9729亿美元和1.765亿美元，口径并不一致，卡片不以收入为主判断。",
-      "detail": "这是媒体整理的电话会稿，不是公司原文逐字稿，部分财务数字存在口径出入，因此产量数字的把握高于收入数字。本次日报没有单独的K92发行人公告，故保留该电话会作为产量来源，但证据等级低于公司原文。",
-      "importance": "49,776盎司金当量显示Kainantu仍在高位运行，因此对短期黄金供给是已实现产量，并非勘探想象。媒体稿的收入口径不统一，研究上应把产量和现金作为可核对锚点，财务细节还需对照公司原文。扩建若只在电话会中定性提及，还不能当成新产能已经投产。",
+      "summary": "K92晚间电话会讨论了Kainantu三季度经营。与公司公告核对后，当季联产品口径全维持成本为1,608美元/金当量盎司，按副产品抵扣口径为1,441美元/售金盎司。第三采矿作业面在9月交付首批采场矿石。",
+      "detail": "同一季度的49,776盎司金当量产量已在10月披露。新财报提供了两种成本口径及第三作业面的进度，有助于跟踪扩产时能否持续降低采选环节瓶颈。",
       "verification_status": "verified",
-      "verification_note": "Investing.com transcript capture checked for 49,776 AuEq oz and $389.9 million cash; media recap, not the issuer transcript.",
+      "verification_note": "保留原电话会入口，成本口径与作业面进度按同日K92官网公司公告复核。",
       "guest": {
         "name": "K92 Mining"
       },
@@ -308,201 +264,6 @@
   ],
   "part3_news": [
     {
-      "url": "https://www.newsfilecorp.com/release/324237/Athos-Metals-Announces-Closing-of-Qualifying-Transaction-Conversion-of-Subscription-Receipts-Consolidation-Name-Change-and-Listing-on-The-TSXV",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T01:58:00+08:00",
-      "source": "Athos Metals Corp.",
-      "title": "Athos Metals Announces Closing of Qualifying Transaction, Conversion of Subsc…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324331/Pacific-Empire-Closes-1-Million-FlowThrough-Private-Placement",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T03:43:00+08:00",
-      "source": "Pacific Empire Minerals Corp.",
-      "title": "Pacific Empire：私募或流动通过融资",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324335/CDN-Maverick-Adopts-SemiAnnual-Financial-Reporting",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T03:47:00+08:00",
-      "source": "CDN Maverick Capital Corp.",
-      "title": "CDN Maverick Adopts Semi-Annual Financial Reporting",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324310/Lumina-Metals-Joins-the-Silver-Institute-and-Its-Shares-Are-Added-to-the-Nasdaq-Junior-Silver-Miners-Index",
-      "metal_tags": [
-        "silver"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T05:00:00+08:00",
-      "source": "Lumina Metals Corp.",
-      "title": "Lumina Metals Joins the Silver Institute and Its Shares Are Added to the Nasd…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324336/Pacific-Bay-Announces-700000-NonBrokered-Private-Placement",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T05:00:00+08:00",
-      "source": "Pacific Bay Minerals Ltd.",
-      "title": "Pacific Bay：私募或流动通过融资",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324328/Nexa-Resources-Announces-Redemption-of-Its-6.500-Notes-Due-2028",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T05:45:00+08:00",
-      "source": "Nexa Resources",
-      "title": "Nexa Resources：资源或研究报告（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324395/Origen-Completes-Sale-of-Wishbone-Project-for-1-Million-in-Share-Consideration-and-1-NSR-Royalty",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T05:58:00+08:00",
-      "source": "Origen Resources Inc.",
-      "title": "Origen Completes Sale of Wishbone Project for $1 Million in Share Considerati…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324423/Daura-Gold-Announces-Grant-of-Options",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:00:00+08:00",
-      "source": "Daura Gold Corp.",
-      "title": "Daura Gold：授予期权或激励",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324428/Clinch-Resources-Ltd.-Announces-Third-Quarter-2026-Operating-Results",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:09:00+08:00",
-      "source": "Clinch Resources Ltd.",
-      "title": "Clinch Resources Ltd.：三季度业绩（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324400/A-Critical-Moment-for-Emerita-Protecting-Shareholder-Value-and-Securing-the-Future-of-Your-Investment",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:26:00+08:00",
-      "source": "Emerita Resources Corp.",
-      "title": "A Critical Moment for Emerita: Protecting Shareholder Value and Securing the …",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324401/Emerita-Board-Approves-Strategic-Review-to-Protect-and-Enhance-Shareholder-Value",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:27:00+08:00",
-      "source": "Emerita Resources Corp.",
-      "title": "Emerita Board Approves Strategic Review to Protect and Enhance Shareholder Value",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324429/STRACON-Group-Reports-Third-Quarter-2026-Financial-Results",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:52:00+08:00",
-      "source": "STRACON Group Holding Inc.",
-      "title": "STRACON Group：三季度业绩（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324433/Gold-X2-Announces-Grant-of-Stock-Options-and-RSUs",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T08:00:00+08:00",
-      "source": "Gold X2 Mining Inc.",
-      "title": "Gold X2：授予期权或激励",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
       "url": "https://www.newsfilecorp.com/release/324396/Santacruz-Silver-Reports-Third-Quarter-2026-Financial-Results",
       "metal_tags": [
         "silver",
@@ -548,21 +309,6 @@
         "Caballo Blanco",
         "Zimapan"
       ],
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324440/Talon-Metals-Reports-Third-Quarter-2026-Results",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T08:49:00+08:00",
-      "source": "Talon Metals Corp.",
-      "title": "Talon Metals：三季度业绩（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
       "source_channel": "web"
     },
     {
@@ -612,143 +358,6 @@
       "source_channel": "web"
     },
     {
-      "url": "https://www.newsfilecorp.com/release/324416/Zentek-Q2-Fiscal-2027-Results-News-Release",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T09:32:00+08:00",
-      "source": "Zentek Ltd.",
-      "title": "Zentek Q2 Fiscal 2027 Results News Release",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324451/Cordoba-Minerals-Grants-Equity-Incentive-Awards",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T10:44:00+08:00",
-      "source": "Cordoba Minerals Corp.",
-      "title": "Cordoba：授予期权或激励",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324432/Group-Eleven-Intersects-5.4m-of-20.7-ZnPb-and-87-gt-Ag-within-13.7m-of-9.1-ZnPb-and-38-gt-Ag-and-Cuts-7.7m-of-139-gt-Ag-and-0.28-Cu-in-StepOut-Drilling-at-Ballywire",
-      "metal_tags": [
-        "silver",
-        "copper"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T18:00:00+08:00",
-      "source": "Group Eleven Resources Corp.",
-      "title": "Group Eleven：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324453/Prince-Silver-Receives-Approval-for-Exploration-Access-North-of-Prince-Claims-and-Expands-Land-Position-in-Lincoln-County",
-      "metal_tags": [
-        "silver"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T19:00:00+08:00",
-      "source": "Prince Silver Corp.",
-      "title": "Prince Silver Receives Approval for Exploration Access North of Prince Claims…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324460/Genesis-Goldfields-Announces-Board-Changes-and-Adopts-ShareBased-Compensation-Plan",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T19:00:00+08:00",
-      "source": "Genesis Goldfields Corp.",
-      "title": "Genesis Goldfields：授予期权或激励",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324342/Irruptive-Metals-Prepares-for-Drilling-Season-on-Pimenton-CuAu-Project-Chile",
-      "metal_tags": [
-        "copper",
-        "gold"
-      ],
-      "primary_metal": "copper",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T19:30:00+08:00",
-      "source": "Irruptive Metals Corp.",
-      "title": "Irruptive Metals Prepares for Drilling S：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324343/Cabral-Gold-Strengthens-Executive-Management-Team-with-Appointment-of-Chief-Operating-Officer-and-Chief-Development-Officer",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T19:30:00+08:00",
-      "source": "Cabral Gold Inc.",
-      "title": "Cabral：人事或董事会变动",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324458/Queens-Road-Capital-Announces-US153-Million-AfterTax-Earnings-for-Fiscal-Year-2026",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T19:30:00+08:00",
-      "source": "Queen's Road Capital Investment Ltd.",
-      "title": "Queen's Road Capital Announces US$153 Million After-Tax Earnings for Fiscal Y…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324288/Minnova-Corp.-Announces-Filing-of-NI-43101-Technical-Report-on-the-Preliminary-Economic-Assessment-for-PL-Gold-Mine-and-Identifies-Significant-Resource-Expansion-Opportunities-and-Debt-Settlement",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Minnova Corp.",
-      "title": "Minnova Corp.：资源或研究报告（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
       "url": "https://www.newsfilecorp.com/release/324344/NexGold-Intersects-48.62-gt-Gold-over-5.0-Metres-34.30-gt-Gold-over-7.0-Metres-and-4.17-gt-Gold-over-9.0-Metres-in-RC-Infill-Drill-Program-at-the-Goldboro-Gold-Project-Nova-Scotia",
       "metal_tags": [
         "gold"
@@ -790,21 +399,6 @@
       "projects": [
         "Goldboro"
       ],
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324377/Delta-Resources-Advances-IZone-Drilling-and-DistrictScale-Gold-Exploration-Ahead-of-Swiss-Mining-Institute-Conference-in-Zurich",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Delta Resources Limited",
-      "title": "Delta Resources Advances I：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
       "source_channel": "web"
     },
     {
@@ -862,382 +456,142 @@
       "source_channel": "web"
     },
     {
-      "url": "https://www.newsfilecorp.com/release/324417/BP-Silver-Corp.-Discovers-HighGrade-Silver-at-Jalsuri-Northeast-Intersecting-2620-gt-Silver-84.2-ozt-over-1-Meter-Within-a-12Meter-Interval-Grading-441-gt-Silver-14.2-ozt-at-Cosuo-Silver-Project",
+      "url": "https://www.excellonresources.com/news/details/index.php?content_id=439",
       "metal_tags": [
         "silver"
       ],
       "primary_metal": "silver",
       "supply_demand": "supply",
       "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "BP Silver Corp.",
-      "title": "BP Silver Corp. Discovers High：钻探或取样进展（正文未采集，未核验）",
+      "source": "Excellon Resources",
+      "title": "Excellon：Mallay附近Fortuna地表拣块样最高含银764克/吨",
       "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
+      "verification_status": "verified",
+      "verification_note": "复核公司官网公告正文与发现清单的发布时间。",
+      "source_channel": "web",
+      "excerpt": "Excellon在秘鲁Mallay银矿西南约5公里的Fortuna靶区从矿化露头采集27件拣块样，银品位最高764克/吨，并据测绘结果圈出后续钻探靶位。",
+      "interpretation": "拣块样来自可见矿化露头，最高值不能代表可采平均品位。能否成为Mallay选厂补充矿源，取决于钻探能否确认矿化的延续性、宽度与规模。",
+      "claims": [
+        {
+          "claim": "公司从矿化露头采集27件拣块样。",
+          "evidence": "27 grab samples were taken from mineralized outcrops",
+          "source_url": "https://www.excellonresources.com/news/details/index.php?content_id=439",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "件",
+          "value": 27
+        },
+        {
+          "claim": "Fortuna地表拣块样最高银品位为764克/吨。",
+          "evidence": "up to 764 g/t silver",
+          "source_url": "https://www.excellonresources.com/news/details/index.php?content_id=439",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "克/吨银",
+          "value": 764
+        }
+      ]
     },
     {
-      "url": "https://www.newsfilecorp.com/release/324426/Lynx-Resources-Reports-Two-Priority-Geophysical-Zones-at-Turners-Ridge-Property",
+      "url": "https://ruagold.com/rua-gold-expands-reefton-goldfield-resource-base-and-completes-auld-creek-pfs/",
       "metal_tags": [
         "gold"
       ],
       "primary_metal": "gold",
       "supply_demand": "supply",
       "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Lynx Resources Corp.",
-      "title": "Lynx Resources：资源或研究报告（正文未采集，未核验）",
+      "source": "RUA Gold",
+      "title": "RUA Gold：Reefton更新金资源，Auld Creek独立开发预可研净现值为负",
       "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
+      "verification_status": "verified",
+      "verification_note": "复核公司官网公告正文与发现清单的发布时间。",
+      "source_channel": "web",
+      "excerpt": "RUA Gold更新新西兰Reefton金田五处矿床的资源量，分别列示指示资源含金9.9万盎司和推断资源含金73.0万盎司。Auld Creek独立开发预可研以25万吨/年选厂为基础，基准情景净现值为负，未列示矿产储量。",
+      "interpretation": "几处矿床使用不同的边界品位和估算日期。新增的Globe Progress地下资源未纳入Auld Creek预可研矿山计划。下一步要看冶金试验和联合开发研究能否改善单独开发的经济性。",
+      "claims": [
+        {
+          "claim": "Reefton指示资源含金9.9万盎司。",
+          "evidence": "99,000 oz Indicated",
+          "source_url": "https://ruagold.com/rua-gold-expands-reefton-goldfield-resource-base-and-completes-auld-creek-pfs/",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "盎司金",
+          "value": 99000
+        },
+        {
+          "claim": "Reefton推断资源含金73.0万盎司。",
+          "evidence": "730,000 oz Inferred",
+          "source_url": "https://ruagold.com/rua-gold-expands-reefton-goldfield-resource-base-and-completes-auld-creek-pfs/",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "盎司金",
+          "value": 730000
+        },
+        {
+          "claim": "Auld Creek独立开发预可研基准情景净现值为负，未列示矿产储量。",
+          "evidence": "base case returns a negative NPV and no Mineral Reserve is declared",
+          "source_url": "https://ruagold.com/rua-gold-expands-reefton-goldfield-resource-base-and-completes-auld-creek-pfs/",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "状态",
+          "value": "负净现值，未列示储量"
+        }
+      ]
     },
     {
-      "url": "https://www.newsfilecorp.com/release/324434/Lunex-Metals-Announces-Appointment-of-Ramiro-Massa-as-Chief-Executive-Officer",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Lunex Metals Corp.",
-      "title": "Lunex Metals：人事或董事会变动",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324442/Excellon-Samples-up-to-764-gt-Silver-at-Fortuna-Prospect-at-Mallay-Mine",
-      "metal_tags": [
-        "silver"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Excellon Resources Inc.",
-      "title": "Excellon Samples up to 764 g/t Silver at Fortuna Prospect at Mallay Mine",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324446/West-Point-Gold-Commences-30000Metre-Drill-Program-at-Gold-Chain",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "West Point Gold Corp.",
-      "title": "West Point Gold Commences 30,000：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324449/Honey-Badger-Silver-Announces-Williams-as-CEO-and-Other-Management-Transitions",
-      "metal_tags": [
-        "silver"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Honey Badger Silver Inc.",
-      "title": "Honey Badger Silver Announces Williams as CEO and Other Management Transitions",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324455/RUA-GOLD-Expands-Reefton-Goldfield-Resource-Base-and-Completes-Auld-Creek-PFS",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "Rua Gold Inc.",
-      "title": "RUA GOLD Expands Reefton Goldfield Resou：资源或研究报告（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324470/Benton-Options-Its-Abernethy-Gold-Project-to-New-Age-Metals",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:29:00+08:00",
-      "source": "Benton Resources Inc.",
-      "title": "Benton Options Its Abernethy Gold Project to New Age Metals",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324070/Quimbaya-Gold-Commences-Initial-Drill-Testing-of-a-New-Vein-System-at-Tahami-Southeast",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:30:00+08:00",
-      "source": "Quimbaya Gold Inc.",
-      "title": "Quimbaya：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324260/Talamore-Reports-More-HighGrade-Assays-from-Supremo-Extension",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:30:00+08:00",
-      "source": "Talamore Mining Corp.",
-      "title": "Talamore Reports More High-Grade Assays from Supremo Extension",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324439/Pacifica-Silver-Advances-Claudia-with-Surface-Sampling-Magnetic-Survey-and-Early-DeRisking-Initiatives",
-      "metal_tags": [
-        "silver"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:30:00+08:00",
-      "source": "Pacifica Silver Corp.",
-      "title": "Pacifica Silver Advances Claudia with Surface Sampling, Magnetic Survey and E…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324473/North-Peak-Resources-Acquiring-63.3-Interest-in-Colorado-Patented-Claim-Within-Prospect-Mountain-Eureka-Nevada",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:54:00+08:00",
-      "source": "North Peak Resources Ltd.",
-      "title": "North：资源或研究报告（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324435/Bold-Ventures-Announces-Additional-High-Grade-Gold-Results-from-Traxxin-Channel-Sampling",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:00:00+08:00",
-      "source": "Bold Ventures Inc.",
-      "title": "Bold Ventures Announces Additional High Grade Gold Results from Traxxin Chann…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324436/Magna-Terra-Initiates-HighResolution-Airborne-Magnetic-and-Radiometric-Survey-at-the-Cape-Spencer-Project-in-Southern-New-Brunswick",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:00:00+08:00",
-      "source": "Magna Terra Minerals Inc.",
-      "title": "Magna Terra Initiates High-Resolution Airborne Magnetic and Radiometric Surve…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324340/Puma-Refines-the-Grog-Gold-Zone-Potential",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:02:00+08:00",
-      "source": "Puma Exploration Inc.",
-      "title": "Puma Refines the Grog Gold Zone Potential",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324438/Sankamap-Completes-Latest-Drill-Hole-as-Part-of-Broader-Exploration-Program-at-Kuma-CopperGold-Project",
-      "metal_tags": [
-        "copper",
-        "gold"
-      ],
-      "primary_metal": "copper",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:30:00+08:00",
-      "source": "Sankamap Metals Inc.",
-      "title": "Sankamap：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324454/Visionary-Receives-Drill-Permits-for-Regional-Targets-at-Pt.-Leamington-and-Consolidates-Additional-Ground",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:30:00+08:00",
-      "source": "Visionary Copper and Gold Mines Inc.",
-      "title": "Visionary：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324394/Catalyst-One-Samples-7.95-gt-Gold-and-245-gt-Silver-at-Giroux-and-Stakes-New-Southwest-Copper-Target-Returning-up-to-1.79-Copper-Walker-Lane-Nevada",
-      "metal_tags": [
-        "silver",
-        "copper",
-        "gold"
-      ],
-      "primary_metal": "silver",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:55:00+08:00",
-      "source": "Catalyst One Exploration Corp.",
-      "title": "Catalyst One Samples 7.95 g/t Gold and 245 g/t Silver at Giroux and Stakes Ne…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324166/Canuc-Discovers-New-Gold-Zone-at-East-Sudbury-Project-Intersecting-2.99-gt-Gold-over-8.0-Metres-Seismic-Survey-Traces-McLaren-Lake-Fault-Zone-to-More-Than-6-km-Depth",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T22:00:00+08:00",
-      "source": "Canuc Resources Corporation",
-      "title": "Canuc：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newsfilecorp.com/release/324483/Falcon-Is-on-the-Table.-Shareholders-Should-Have-a-Seat-at-It.",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T23:48:00+08:00",
-      "source": "Significant Shareholders of Emerita Resources Corp.",
-      "title": "Falcon Is on the Table. Shareholders Should Have a Seat at It.",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://news.smm.cn/news/6NU7TCAPA7CGZ4BWKIDKBAFBIT26OQOOP6SSCMY",
+      "url": "https://news.10jqka.com.cn/20261117/c681902048.shtml",
       "metal_tags": [
         "copper"
       ],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "publish_time": "2026-11-17T15:51:44+08:00",
+      "publish_time": "2026-11-17T15:20:07+08:00",
       "claims": [
         {
-          "claim": "上期所11月17日铜完税库存总计6,830吨，较前日+1,495吨，为交易所库存而非社会库存。",
-          "evidence": "完税商品总计 6,830 吨（增减 +1,495）；总计 6,830 吨（增减 +1,495）",
-          "source_url": "https://news.smm.cn/news/6NU7TCAPA7CGZ4BWKIDKBAFBIT26OQOOP6SSCMY",
-          "evidence_type": "public original page",
+          "claim": "上期所11月17日铜期货仓单为6,830吨，日增1,495吨。",
+          "evidence": "上期所沪铜期货仓单录得6830吨，较上一交易日增长1495吨",
+          "source_url": "https://news.10jqka.com.cn/20261117/c681902048.shtml",
+          "evidence_type": "期货仓单数据",
           "period": "2026-11-17",
-          "unit": "t",
-          "value": "6830"
-        },
-        {
-          "claim": "上海地区铜库存合计3,971吨，较前日增加1,096吨。",
-          "evidence": "铜：上海地区合计 3,971 吨（增减 +1,096",
-          "source_url": "https://news.smm.cn/news/6NU7TCAPA7CGZ4BWKIDKBAFBIT26OQOOP6SSCMY",
-          "evidence_type": "public original page",
-          "period": "2026-11-17",
-          "unit": "t",
-          "value": "3971"
+          "unit": "吨铜仓单",
+          "value": 6830
         }
       ],
-      "source": "SMM / 上期所",
-      "title": "上期所11月17日铜库存合计6,830吨，较前日增加1,495吨（交易所库存）",
-      "excerpt": "上海有色网转载的上期所11月17日金属库存日报显示，铜完税商品总计6,830吨，较前一日增加1,495吨，保税商品为0，总计同为6,830吨。分地区看，上海合计3,971吨（+1,096），江苏2,236吨（持平），浙江424吨（+399），广东199吨（持平）。这是交易所期货库存/仓单口径，不是社会库存。",
+      "source": "同花顺 iFinD / 上期所",
+      "title": "上期所11月17日铜期货仓单6,830吨，日增1,495吨",
+      "excerpt": "11月17日，上期所铜期货仓单为6,830吨，较前一交易日的5,335吨增加1,495吨。",
       "language": "zh",
-      "interpretation": "单日交易所仓单回升，改变的是可见仓单数量，不能直接外推为社会库存或供应已经转松。近月升水是否缓和，还要对照后续日报和现货升水。",
-      "importance": "这是交易所库存回升，不是社会库存拐点。6,830吨的绝对水平仍低，+1,495吨只说明仓单日度波动。对近月挤仓情绪的影响取决于仓单能否连续回补，以及现货升水是否同步回落。下一步应核对后续上期所日报，避免与社会库存或上周库存降幅混用。",
+      "interpretation": "仓单反映已注册用于交割的金属。单日增加可缓解部分近月交割压力，判断更广泛的现货松紧仍需对照交易所周库存、社会库存和现货升水。",
       "verification_status": "verified",
-      "verification_note": "SMM article text records SHFE 17 Nov official table figures as exchange inventory, not social inventory.",
+      "verification_note": "打开同花顺11月17日仓单日报表，并用SMM综合金属直播交叉核对。",
       "source_channel": "web"
     },
     {
-      "url": "https://news.smm.cn/news/77SCNG7PBL7T5EQG36YIVYJIHGLW2CMOOANLB2A",
+      "url": "https://news.10jqka.com.cn/20261117/c681914229.shtml",
       "metal_tags": [
         "copper"
       ],
       "primary_metal": "copper",
       "supply_demand": "supply",
-      "publish_time": "2026-11-17T17:23:02+08:00",
+      "publish_time": "2026-11-17T17:12:06+08:00",
       "claims": [
         {
-          "claim": "11月16日LME铜库存327,600吨，较前日增加125吨。",
-          "evidence": "总表（吨）：铜 327,600（+125，+0.04%）",
-          "source_url": "https://news.smm.cn/news/77SCNG7PBL7T5EQG36YIVYJIHGLW2CMOOANLB2A",
-          "evidence_type": "public original page",
-          "period": "2026-11-16",
-          "unit": "t",
-          "value": "327600"
-        },
-        {
-          "claim": "当日LME铜注册仓单302,800吨，注销仓单24,800吨，注销占比7.57%。",
-          "evidence": "注册仓单 302,800，注销仓单 24,800，注销占比 7.57%",
-          "source_url": "https://news.smm.cn/news/77SCNG7PBL7T5EQG36YIVYJIHGLW2CMOOANLB2A",
-          "evidence_type": "public original page",
-          "period": "2026-11-16",
-          "unit": "t",
-          "value": "24800"
+          "claim": "LME 11月17日铜库存32.76万吨，日增125吨。",
+          "evidence": "11月17日，LME铜库存录得32.76万吨，较上一日增加125吨，增加幅度为0.04%",
+          "source_url": "https://news.10jqka.com.cn/20261117/c681914229.shtml",
+          "evidence_type": "交易所库存数据",
+          "period": "2026-11-17",
+          "unit": "吨铜库存",
+          "value": 327600
         }
       ],
-      "source": "SMM / 文华财经",
-      "title": "LME铜库存11月16日为327,600吨，较前日增加125吨（交易所库存）",
-      "excerpt": "上海有色网11月17日转载的文华财经数据称，11月16日LME铜交易所库存为327,600吨，较前日增加125吨，升0.04%。其中注册仓单302,800吨，注销仓单24,800吨，注销占比7.57%。光阳当日入库1,000吨，高雄出库875吨。这是LME交易所库存与注销仓单，不是中国社会库存。",
+      "source": "同花顺 iFinD / LME",
+      "title": "LME铜库存11月17日为327,600吨，日增125吨",
+      "excerpt": "11月17日，LME铜仓库库存为327,600吨，较11月16日的327,475吨增加125吨，增幅0.04%。",
       "language": "zh",
-      "interpretation": "铜库存仅微增125吨，注销仓单仍有24,800吨，可见库存变化幅度很小。不能把LME仓单变动与上期所库存或中国社会库存直接加总。",
-      "importance": "LME铜库存仍在约32.8万吨，日度增加125吨几乎不改变全球显性库存格局。需要区分注册仓单与注销仓单：注销占比约7.6%，部分库存可能即将流出。对精炼铜供需的含义取决于后续交仓和注销节奏，，并非单日变动本身。",
+      "interpretation": "这次日增幅较小。原稿采用的SMM转载把相同变动标为16日，与按日库存序列不一致，复核后按17日列示。",
       "verification_status": "verified",
-      "verification_note": "SMM/Wenhua table figures for LME 16 Nov stocks published 17 Nov; labelled as exchange stocks.",
+      "verification_note": "打开同花顺库存日报和Westmetall逐日表，两者11月16日及17日读数相符，财联社17日快讯亦确认铜库存增加125吨。",
       "source_channel": "web"
     },
     {
@@ -1403,154 +757,42 @@
       "source_channel": "web"
     },
     {
-      "url": "https://www.newswire.ca/news-releases/artemis-gold-to-issue-remaining-shares-under-participation-agreement-863592918.html",
+      "url": "https://investors.oceanagold.com/2026-11-17-OceanaGold-Drill-Results-at-Didipio-Confirm-Continuity-at-Depth-and-New-Resource-Potential",
       "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T06:00:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "Artemis Gold to Issue Remaining Shares under Participation Agreement",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/russel-metals-announces-chief-financial-officer-succession-879193769.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T06:01:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "RUSSEL：人事或董事会变动",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/press-release-for-early-warning-report-regarding-ppx-mining-corp--861214268.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:32:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "PRESS RELEASE FOR EARLY WARNING REPORT REGARDING PPX MINING CORP.",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/the-eelleet-network-enters-into-business-combination-agreement-with-glenrosa-gold-mining-corp-and-receives-conditional-approval-to-list-on-the-canadian-securities-exchange-879991840.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:47:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "THE EELLEET NETWORK ENTERS INTO BUSINESS COMBINATION AGREEMENT WITH GLENROSA …",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/super-copper-defines-600-meter-drill-target-at-castilla-following-surface-samples-of-17-7-copper-826855099.html",
-      "metal_tags": [
+        "gold",
         "copper"
       ],
-      "primary_metal": "copper",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T14:51:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "Super Copper Defines 600：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/oceanagold-drill-results-at-didipio-confirm-continuity-at-depth-and-new-resource-potential-859189449.html",
-      "metal_tags": [
-        "gold"
-      ],
       "primary_metal": "gold",
       "supply_demand": "supply",
       "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "OceanaGold：钻探或取样进展（正文未采集，未核验）",
+      "source": "OceanaGold",
+      "title": "OceanaGold：Didipio深部加密孔见66米金当量8.07克/吨",
       "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/luca-mining-announces-the-mailing-of-annual-general-meeting-materials-850076452.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "LUCA MINING ANNOUNCES THE MAILING OF ANNUAL GENERAL MEETING MATERIALS",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.newswire.ca/news-releases/goldsky-appoints-new-country-manager-for-sweden-josh-stewart-880493994.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:30:00+08:00",
-      "source": "CNW / newswire.ca",
-      "title": "Goldsky appoints new Country Manager for：人事或董事会变动",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.thenewswire.com/press-releases/1AlpFZ15J-canamex-gold-corp-announces-grant-of-stock-options.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T00:10:00+08:00",
-      "source": "TheNewswire",
-      "title": "Canamex Gold Corp.：授予期权或激励",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.thenewswire.com/press-releases/1LpMFoJe1-viva-gold-announces-stock-option-grant.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T07:00:00+08:00",
-      "source": "TheNewswire",
-      "title": "Viva Gold：授予期权或激励",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
+      "verification_status": "verified",
+      "verification_note": "复核公司官网公告正文与发现清单的发布时间。",
+      "source_channel": "web",
+      "excerpt": "公司公布菲律宾Didipio矿的深部金铜钻探结果。地下加密孔RDUG546自331米起见66.0米金当量8.07克/吨，附近True Blue靶区也见102.0米金当量4.14克/吨。公司称结果将用于2026年末资源量更新。",
+      "interpretation": "两个区间均为岩芯长度。Didipio的加密钻探可提高现有矿山深部资源的置信度，True Blue仍在评估首份资源量，能否补充现有选厂供矿有待后续研究。",
+      "claims": [
+        {
+          "claim": "Didipio加密孔RDUG546见66.0米金当量8.07克/吨。",
+          "evidence": "66.0 m @ 8.07 g/t AuEq from 331.0 m (RDUG546, conversion)",
+          "source_url": "https://investors.oceanagold.com/2026-11-17-OceanaGold-Drill-Results-at-Didipio-Confirm-Continuity-at-Depth-and-New-Resource-Potential",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "克/吨金当量",
+          "value": 8.07
+        },
+        {
+          "claim": "True Blue孔TBDH205见102.0米金当量4.14克/吨。",
+          "evidence": "102.0 m @ 4.14 g/t AuEq from 148.0 m (TBDH205)",
+          "source_url": "https://investors.oceanagold.com/2026-11-17-OceanaGold-Drill-Results-at-Didipio-Confirm-Continuity-at-Depth-and-New-Resource-Potential",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "克/吨金当量",
+          "value": 4.14
+        }
+      ]
     },
     {
       "url": "https://www.thenewswire.com/press-releases/1k6WF5wRp-gsp-discovers-new-porphyry-copper-zone-in-highland-valley-0-15-copper-over-137-m-including-0-30-over-40-m.html",
@@ -1589,156 +831,34 @@
       "source_channel": "web"
     },
     {
-      "url": "https://www.thenewswire.com/press-releases/1BNMFodQe-new-age-metals-completes-due-diligence-and-enters-option-agreement-on-the-kenora-thunder-gold-project.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:15:00+08:00",
-      "source": "TheNewswire",
-      "title": "New Age Metals Completes Due Diligence and Enters Option Agreement on the Ken…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.thenewswire.com/press-releases/1k98FQ0qy-upside-gold-intersects-480-metres-of-continuous-gold-mineralization-and-extends-the-kena-gold-zone-in-initial-2026-drill-results.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T22:30:00+08:00",
-      "source": "TheNewswire",
-      "title": "Upside Gold：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.thenewswire.com/press-releases/1BKRFD2Dj-lincoln-gold-announces-upgrade-to-otcqb-venture-market-expanding-u-s-investor-access.html",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T23:00:00+08:00",
-      "source": "TheNewswire",
-      "title": "Lincoln Gold Announces Upgrade to OTCQB Venture Market, Expanding U.S. Invest…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/ppx-cuts-high-grade-gold-silver-and-copper-at-portachuelos-with-5.68-g-t-au-525.5-1251704",
+      "url": "https://www.ppxmining.com/news/ppx-cuts-high-grade-gold-silver-and-copper-at-portachuelos-2026-11-16-qm-8589928618995500",
       "metal_tags": [
         "silver",
-        "copper",
-        "gold"
+        "gold",
+        "copper"
       ],
       "primary_metal": "silver",
       "supply_demand": "supply",
       "publish_time": "2026-11-17T00:30:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "PPX Cuts High-Grade Gold, Silver, and Copper at Portachuelos, with 5.68 g/t A…",
+      "source": "PPX Mining",
+      "title": "PPX：Igor项目Portachuelos钻孔见5.7米银525.5克/吨，并含金和铜",
       "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/avidian-gold-announces-results-of-annual-general-and-special-meeting-and-officer-1252209",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T06:30:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "Avidian Gold：人事或董事会变动",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/northern-dynasty-announces-results-of-governance-committee-review-and-supplementa-1252262",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T06:30:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "Northern Dynasty Announces Results of Governance Committee Review and Supplem…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/galway-metals-intersects-1.8-g-t-gold-over-25.0-metres-and-0.7-g-t-gold-over-66.0-1252171",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "Galway Metals：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/gabriel-resources-provides-corporate-and-financing-update-1252526",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:00:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "Gabriel Resources：资源或研究报告（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/tectonic-metals-completes-record-drill-program-at-flat-advances-five-pillars-of-g-1252510",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:00:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "Tectonic Metals：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/viridian-metals-closes-oversubscribed-private-placement-for-5.77-million-1252554",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T21:15:00+08:00",
-      "source": "ACCESS Newswire",
-      "title": "Viridian Metals：私募或流动通过融资",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
+      "verification_status": "verified",
+      "verification_note": "复核公司官网公告正文与发现清单的发布时间。",
+      "source_channel": "web",
+      "excerpt": "PPX公布秘鲁Igor项目Portachuelos靶区首批钻探结果。孔PO-26-01见29.4米硫化物矿化，其中5.7米含银525.5克/吨、金5.68克/吨和铜1.3%。原始公告于北美11月16日发布，换算北京时间在17日窗口内。",
+      "interpretation": "结果证实同一区间有银、金和铜矿化。仍需后续钻孔验证各矿化构造的延续性，当前披露的区间长度不能当作可采真宽或据此推算资源。",
+      "claims": [
+        {
+          "claim": "PO-26-01的5.7米区间含银525.5克/吨、金5.68克/吨和铜1.3%。",
+          "evidence": "5.7 m at 5.68 g/t Au, 525.5 g/t Ag and 1.3% Cu",
+          "source_url": "https://www.ppxmining.com/news/ppx-cuts-high-grade-gold-silver-and-copper-at-portachuelos-2026-11-16-qm-8589928618995500",
+          "evidence_type": "公司公告",
+          "period": "2026-11-17",
+          "unit": "克/吨银",
+          "value": 525.5
+        }
+      ]
     },
     {
       "url": "https://announcements.asx.com.au/asxpdf/20261117/pdf/076pr506hj6bj7.pdf",
@@ -1840,9 +960,9 @@
       ],
       "source": "ASX / Orezone Gold",
       "title": "Orezone：三季度创纪录产金59,674盎司，售出56,461盎司，AISC为2,475美元/盎司",
-      "excerpt": "Orezone Gold公布2026年三季度业绩：黄金产量59,674盎司，为纪录季度；销售56,461盎司，平均实现金价1,174美元口径之外的公司数字为4,174美元/盎司；AISC为每售出金盎司2,475美元；收入2.385亿美元。公司称仍目标完成2026年产量指引，Bomboré二期硬岩扩建已在预算内完成。",
+      "excerpt": "Orezone三季度产金59,674盎司，创季度纪录，售出56,461盎司，每售金盎司全维持成本2,475美元。公司维持全年产量目标，Bomboré二期硬岩扩建已在预算内完成。",
       "language": "en",
-      "interpretation": "产量是已实现数字，AISC和实现金价是公司非IFRS口径。股票下跌和估值评论与供给判断无关。会议电话稿与本公告重复，以本ASX稿为主要来源。",
+      "interpretation": "当季吞吐和单位成本反映硬岩矿石占比上升后的经营情况。后续季度需继续观察二期产能爬坡对产量和成本的影响。",
       "importance": "59,674盎司的季度产量确认Orezone在产矿山供给在上升，并且公司维持全年指引。2,475美元的AISC显示成本仍高，利润比产量更敏感于金价。后续应核对全年指引是否守住，以及硬岩扩建是否继续转化为产量。",
       "verification_status": "verified",
       "verification_note": "ASX PDF text captured; record 59,674 oz production and AISC $2,475 checked.",
@@ -2305,51 +1425,6 @@
       "source_channel": "web"
     },
     {
-      "url": "https://www.investegate.co.uk/announcement/rns/arkadian-strategic-metals-plc--akn/clogau-sampling-shaft-2-processing-mineralogy/9878233",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T15:00:00+08:00",
-      "source": "Arkadian Strategic Metals Plc",
-      "title": "Arkadian Strategic Metals Plc (AKN): Clogau Sampling, Shaft 2 Processing & Mi…",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.investegate.co.uk/announcement/rns/forgent-plc--forg/update-on-phase-ii-drilling-programme-at-peak-hill/9878244",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T15:00:00+08:00",
-      "source": "Forgent PLC",
-      "title": "Forgent：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
-      "url": "https://www.investegate.co.uk/announcement/prn/richmond-hill-resources-plc--rhr/sakoose-drill-programme-update/9879915",
-      "metal_tags": [
-        "gold"
-      ],
-      "primary_metal": "gold",
-      "supply_demand": "supply",
-      "publish_time": "2026-11-17T20:54:00+08:00",
-      "source": "Richmond Hill Resources PLC",
-      "title": "Richmond：钻探或取样进展（正文未采集，未核验）",
-      "language": "en",
-      "verification_status": "unverified",
-      "verification_note": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims.",
-      "source_channel": "web"
-    },
-    {
       "url": "https://www.sec.gov/Archives/edgar/data/1826836/000162828026074329/ayagoldsilverfilesamendedq.htm",
       "metal_tags": [
         "silver"
@@ -2643,291 +1718,10 @@
     ],
     "part2_result": "X 完成 16/24；状态 partial；身份、分页与失败原因见逐账号审计。",
     "url_verification": {
-      "checked": 107,
-      "passed": 37,
-      "failed": 70,
-      "failures": [
-        {
-          "url": "https://www.cruxinvestor.com/posts/mogotes-metals-tsxvmog-all-known-questions-answered-november-2026-12760",
-          "reason": "No reliable transcript or captions were captured; the card is title-only and unverified."
-        },
-        {
-          "url": "https://www.cruxinvestor.com/posts/mogotes-metals-tsxvmog-pitch-perfect-november-2026-12761",
-          "reason": "No reliable transcript or captions were captured; the card is title-only and unverified."
-        },
-        {
-          "url": "https://www.cruxinvestor.com/posts/i-80-gold-tsxiau-fully-funded-lone-tree-restart-anchors-multi-mine-nevada-growth-plan-12762",
-          "reason": "No reliable transcript or captions were captured; the card is title-only and unverified."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324237/Athos-Metals-Announces-Closing-of-Qualifying-Transaction-Conversion-of-Subscription-Receipts-Consolidation-Name-Change-and-Listing-on-The-TSXV",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324331/Pacific-Empire-Closes-1-Million-FlowThrough-Private-Placement",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324335/CDN-Maverick-Adopts-SemiAnnual-Financial-Reporting",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324310/Lumina-Metals-Joins-the-Silver-Institute-and-Its-Shares-Are-Added-to-the-Nasdaq-Junior-Silver-Miners-Index",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324336/Pacific-Bay-Announces-700000-NonBrokered-Private-Placement",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324328/Nexa-Resources-Announces-Redemption-of-Its-6.500-Notes-Due-2028",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324395/Origen-Completes-Sale-of-Wishbone-Project-for-1-Million-in-Share-Consideration-and-1-NSR-Royalty",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324423/Daura-Gold-Announces-Grant-of-Options",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324428/Clinch-Resources-Ltd.-Announces-Third-Quarter-2026-Operating-Results",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324400/A-Critical-Moment-for-Emerita-Protecting-Shareholder-Value-and-Securing-the-Future-of-Your-Investment",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324401/Emerita-Board-Approves-Strategic-Review-to-Protect-and-Enhance-Shareholder-Value",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324429/STRACON-Group-Reports-Third-Quarter-2026-Financial-Results",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324433/Gold-X2-Announces-Grant-of-Stock-Options-and-RSUs",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324440/Talon-Metals-Reports-Third-Quarter-2026-Results",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324416/Zentek-Q2-Fiscal-2027-Results-News-Release",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324451/Cordoba-Minerals-Grants-Equity-Incentive-Awards",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324432/Group-Eleven-Intersects-5.4m-of-20.7-ZnPb-and-87-gt-Ag-within-13.7m-of-9.1-ZnPb-and-38-gt-Ag-and-Cuts-7.7m-of-139-gt-Ag-and-0.28-Cu-in-StepOut-Drilling-at-Ballywire",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324453/Prince-Silver-Receives-Approval-for-Exploration-Access-North-of-Prince-Claims-and-Expands-Land-Position-in-Lincoln-County",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324460/Genesis-Goldfields-Announces-Board-Changes-and-Adopts-ShareBased-Compensation-Plan",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324342/Irruptive-Metals-Prepares-for-Drilling-Season-on-Pimenton-CuAu-Project-Chile",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324343/Cabral-Gold-Strengthens-Executive-Management-Team-with-Appointment-of-Chief-Operating-Officer-and-Chief-Development-Officer",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324458/Queens-Road-Capital-Announces-US153-Million-AfterTax-Earnings-for-Fiscal-Year-2026",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324288/Minnova-Corp.-Announces-Filing-of-NI-43101-Technical-Report-on-the-Preliminary-Economic-Assessment-for-PL-Gold-Mine-and-Identifies-Significant-Resource-Expansion-Opportunities-and-Debt-Settlement",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324377/Delta-Resources-Advances-IZone-Drilling-and-DistrictScale-Gold-Exploration-Ahead-of-Swiss-Mining-Institute-Conference-in-Zurich",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324417/BP-Silver-Corp.-Discovers-HighGrade-Silver-at-Jalsuri-Northeast-Intersecting-2620-gt-Silver-84.2-ozt-over-1-Meter-Within-a-12Meter-Interval-Grading-441-gt-Silver-14.2-ozt-at-Cosuo-Silver-Project",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324426/Lynx-Resources-Reports-Two-Priority-Geophysical-Zones-at-Turners-Ridge-Property",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324434/Lunex-Metals-Announces-Appointment-of-Ramiro-Massa-as-Chief-Executive-Officer",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324442/Excellon-Samples-up-to-764-gt-Silver-at-Fortuna-Prospect-at-Mallay-Mine",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324446/West-Point-Gold-Commences-30000Metre-Drill-Program-at-Gold-Chain",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324449/Honey-Badger-Silver-Announces-Williams-as-CEO-and-Other-Management-Transitions",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324455/RUA-GOLD-Expands-Reefton-Goldfield-Resource-Base-and-Completes-Auld-Creek-PFS",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324470/Benton-Options-Its-Abernethy-Gold-Project-to-New-Age-Metals",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324070/Quimbaya-Gold-Commences-Initial-Drill-Testing-of-a-New-Vein-System-at-Tahami-Southeast",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324260/Talamore-Reports-More-HighGrade-Assays-from-Supremo-Extension",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324439/Pacifica-Silver-Advances-Claudia-with-Surface-Sampling-Magnetic-Survey-and-Early-DeRisking-Initiatives",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324473/North-Peak-Resources-Acquiring-63.3-Interest-in-Colorado-Patented-Claim-Within-Prospect-Mountain-Eureka-Nevada",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324435/Bold-Ventures-Announces-Additional-High-Grade-Gold-Results-from-Traxxin-Channel-Sampling",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324436/Magna-Terra-Initiates-HighResolution-Airborne-Magnetic-and-Radiometric-Survey-at-the-Cape-Spencer-Project-in-Southern-New-Brunswick",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324340/Puma-Refines-the-Grog-Gold-Zone-Potential",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324438/Sankamap-Completes-Latest-Drill-Hole-as-Part-of-Broader-Exploration-Program-at-Kuma-CopperGold-Project",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324454/Visionary-Receives-Drill-Permits-for-Regional-Targets-at-Pt.-Leamington-and-Consolidates-Additional-Ground",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324394/Catalyst-One-Samples-7.95-gt-Gold-and-245-gt-Silver-at-Giroux-and-Stakes-New-Southwest-Copper-Target-Returning-up-to-1.79-Copper-Walker-Lane-Nevada",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324166/Canuc-Discovers-New-Gold-Zone-at-East-Sudbury-Project-Intersecting-2.99-gt-Gold-over-8.0-Metres-Seismic-Survey-Traces-McLaren-Lake-Fault-Zone-to-More-Than-6-km-Depth",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newsfilecorp.com/release/324483/Falcon-Is-on-the-Table.-Shareholders-Should-Have-a-Seat-at-It.",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/artemis-gold-to-issue-remaining-shares-under-participation-agreement-863592918.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/russel-metals-announces-chief-financial-officer-succession-879193769.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/press-release-for-early-warning-report-regarding-ppx-mining-corp--861214268.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/the-eelleet-network-enters-into-business-combination-agreement-with-glenrosa-gold-mining-corp-and-receives-conditional-approval-to-list-on-the-canadian-securities-exchange-879991840.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/super-copper-defines-600-meter-drill-target-at-castilla-following-surface-samples-of-17-7-copper-826855099.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/oceanagold-drill-results-at-didipio-confirm-continuity-at-depth-and-new-resource-potential-859189449.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/luca-mining-announces-the-mailing-of-annual-general-meeting-materials-850076452.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.newswire.ca/news-releases/goldsky-appoints-new-country-manager-for-sweden-josh-stewart-880493994.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.thenewswire.com/press-releases/1AlpFZ15J-canamex-gold-corp-announces-grant-of-stock-options.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.thenewswire.com/press-releases/1LpMFoJe1-viva-gold-announces-stock-option-grant.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.thenewswire.com/press-releases/1BNMFodQe-new-age-metals-completes-due-diligence-and-enters-option-agreement-on-the-kenora-thunder-gold-project.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.thenewswire.com/press-releases/1k98FQ0qy-upside-gold-intersects-480-metres-of-continuous-gold-mineralization-and-extends-the-kena-gold-zone-in-initial-2026-drill-results.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.thenewswire.com/press-releases/1BKRFD2Dj-lincoln-gold-announces-upgrade-to-otcqb-venture-market-expanding-u-s-investor-access.html",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/ppx-cuts-high-grade-gold-silver-and-copper-at-portachuelos-with-5.68-g-t-au-525.5-1251704",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/avidian-gold-announces-results-of-annual-general-and-special-meeting-and-officer-1252209",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/northern-dynasty-announces-results-of-governance-committee-review-and-supplementa-1252262",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/galway-metals-intersects-1.8-g-t-gold-over-25.0-metres-and-0.7-g-t-gold-over-66.0-1252171",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/gabriel-resources-provides-corporate-and-financing-update-1252526",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/tectonic-metals-completes-record-drill-program-at-flat-advances-five-pillars-of-g-1252510",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/viridian-metals-closes-oversubscribed-private-placement-for-5.77-million-1252554",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.investegate.co.uk/announcement/rns/arkadian-strategic-metals-plc--akn/clogau-sampling-shaft-2-processing-mineralogy/9878233",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.investegate.co.uk/announcement/rns/forgent-plc--forg/update-on-phase-ii-drilling-programme-at-peak-hill/9878244",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        },
-        {
-          "url": "https://www.investegate.co.uk/announcement/prn/richmond-hill-resources-plc--rhr/sakoose-drill-programme-update/9879915",
-          "reason": "Article body was not captured during discovery (source blocked or listing-only). Accepted only as an unverified slim card with title and source; no excerpt or claims."
-        }
-      ]
+      "checked": 41,
+      "passed": 41,
+      "failed": 0,
+      "failures": []
     },
     "part1_searched": true,
     "part1_sources_checked": [
@@ -2939,7 +1733,7 @@
       "conference-calendar: complete; Read data/conference_calendar.json then opened host pages. Not not_applicable: SMM Shanghai Metals Expo 2026 (SME) overlaps the window. Official English/Chinese sites and metal.com events calendar list SME at Sheraton Grand Shanghai Pudong, 16-18 Nov 2026 (GMT+8). Nov 16 is registration 14:00-18:00 and cocktail 18:00-21:00 only. Nov 17 (in window) hosts the Main Forum 09:00-12:00 (keynotes plus “Eastern Pricing 2.0” panel with CODELCO’s Eric Medel and others), Base Metal Year-End Strategy Conference 13:30-17:00, and Non-Ferrous Metals Futures Trading Seminar 13:00-17:00. Nov 18 sessions are after the window. Opened the 17 Nov live-coverage page https://smm-sme.smm.cn/news/RF2NSNE4SBWV3M522PLNAKFOCSCGCQXBAATROLQ (pub_time 2026-11-17 20:09, treated as Beijing) and registered it; readable text is a programme rundown plus speaker/topic list, with links to video/photo/text live rooms rather than full speech transcripts. Mines and Money official site often returned captcha/520 to curl; WebFetch of https://minesandmoney.com/london/index/ succeeded and lists Mines and Money @ Resourcing Tomorrow, 1-3 December 2026, London — no mid-November 2026 edition (also listed Sydney 12-14 Oct 2027 / Online Connect July 2027). Northern Miner London Symposium official page https://events.northernminer.com/london-symposium-2026/ dates the event Sunday 29 November 2026 and Monday 30 November 2026, after the window; events hub agrees; no in-window symposium replay found. SMM CCAE 15th Copper Annual Meeting (smm-ccae.smm.cn) was 28-30 Oct 2026 in Nanchang, already finished; news items dated 3-4 Nov. Typical March/September fixtures (PDAC, Denver Gold, Indaba, etc.) do not fall in mid-November.",
       "proactive-investors: complete; Supplemental source discovered during Part 1 search; 1 in-window listing(s) registered."
     ],
-    "part1_result": "来源覆盖见结构化审计；完成表示所有必查来源的发现均已结束，可选来源降级单独保留。",
+    "part1_result": "沿用原访谈发现审计。复核保留5条有可读文字依据的访谈和电话会，Heliostar改写为项目进展，K92两种成本口径与发行人公告核对。",
     "part3_searched": true,
     "part3_sources_checked": [
       "newsfile: complete; Required list. Plain curl/RSS returned HTTP 202 AWS WAF challenge shells (2490 bytes, no listings). Playwright Chromium passed WAF and paginated real ?pg=1–4 of /news/mining-metals. List p.date timestamps are explicit EST (UTC-5). Beijing window = 2026-11-16 11:00 EST through 2026-11-17 10:59:59 EST. Scanned 80 listings (20 per page). In-window 58 (p1: 13 after dropping 7 post-10:59 EST Nov 17 items starting 12:06 PM–6:00 PM EST; p2: 20; p3: 20; p4: 5 through 12:58 PM EST Nov 16). Termination: page 4 continues to 2026-11-16 10:55 AM EST and 7:30 AM EST, both before window start 11:00 AM EST. Raw HTML: raw/news/html/newsfile_pgN_playwright.html and newsfile_list.md. Individual release bodies not fetched (WAF); listings registered with EST times; text omitted.",
@@ -2957,7 +1751,7 @@
       "jse: partial; Official JSE portals were not readable: jse.co.za home, /current-market-status/sens, clientportal.jse.co.za/sens and senspdf.jse.co.za all HTTP 403. This is not a healthy official-tape zero. Public dated SENS lists were obtained from ShareData. Working date parameter is ?date=2026-11-16 (the ?d=2026/11/16 form ignored the date and still showed 17 Nov). ShareData 'JSE SENS for Tue 17 Nov 2026': 62 items, latest 17 Nov 2026, 17:45 SAST (NEPI Rockcastle Q3 update), earliest 17 Nov 2026, 07:05 SAST (Investor Report Availability / Coronation / AB InBev cluster). All 62 are inside the Beijing window (16 Nov 18:00 SAST–17 Nov 17:59:59 SAST). Latest 17:45 is 14 minutes before the 17:59:59 cutoff (no later 17 Nov title on this list at capture, ~01:13 SAST 18 Nov). ShareData 'JSE SENS for Mon 16 Nov 2026': 93 items, latest 16 Nov 2026, 17:45 SAST (Old Mutual / Vukile property), earliest 07:05 SAST. Latest item is 15 minutes BEFORE the 18:00 SAST window start, so the 16 Nov 18:00–23:59 SAST slice is empty on this dated public list, with boundary evidence. Gold/silver/copper-related on these lists: 17 Nov 08:00 Listing of Additional NewGold Debentures — registered (400,000 additional NewGold gold-backed debentures at R608.00; 58,537,939 in issue after the issue; body read from ShareData id=566535 / consistent with Moneyweb). 17 Nov 15:11 Goldrush Holdings interim results — skipped: Goldrush is a South African gaming/betting group, not a gold miner. 17 Nov 13:30 Anglo American PLC Director Declaration — admin, skipped. 17 Nov 08:25 South32 daily buy-back — admin, skipped. 16 Nov mining items all out of window (before 18:00 SAST): Sibanye Stillwater JPMorgan 5.22% holding 15:05; Copper 360 Rietberg main ore zone 14:14 (already in the 11-16 report); Harmony Mponeng loss-of-life 12:17; Glencore own-shares 09:00; NewGold additional listing 08:00 (16 Nov, out of this window); South32 buy-back 07:46; Eastern Platinum Q3 results 07:05. Moneyweb Latest SENS was readable via WebFetch (curl from this host returned 403) and agreed on the NewGold 08:00 item and the 17 Nov / 16 Nov evening order; curl could not save that page. Official JSE tape remains unconfirmed, so status is partial even though the public dated lists have end-of-day / pre-window boundary evidence.",
       "issuer-regulator: partial; Targeted issuer/regulator check, not a claim of a complete SEC tape. SEC EDGAR current 6-K and 8-K lists were paginated start=0,40,...,280 (8 pages each, 40 items/page) with a descriptive User-Agent. Parsed acceptance times cover 2026-11-16 06:00:20 ET through 2026-11-17 17:29:47 ET, which spans the Beijing window (16 Nov 11:00 ET / 16:00 UTC through 17 Nov 10:59:59 ET / 15:59:59 UTC). 331 filings on these pages have acceptance times inside the window. Scope is limited to the current 8-K and 6-K queues; other form types and issuers not on these pages were not exhaustively searched. Registered in-window gold/silver/copper filings (acceptance times ET): Franco-Nevada 6-K accepted 2026-11-17 06:15:40 (Cobre Panamá formal discussions / First Quantum update; Exhibit 99.1 read); Avino Silver & Gold 6-K accepted 07:15:44 17 Nov (VP Exploration appointment; Exhibit 99.1 read); Aya Gold & Silver 6-K/A accepted 20:29:57 16 Nov (amended Q3-2026 MD&A correcting Zgounder silver ounces sold and cash costs; production and inventory unchanged); Endeavour Silver 6-K accepted 17:00:04 16 Nov (Guanaceví drill results, 3,431 g/t AgEq over 1.42 m); Mayfair Gold 6-K accepted 20:32:11 16 Nov (Q3 2026 results furnished — the exhibit press date is 12 November 2026, so this may be a late EDGAR furnish of an earlier release); NexMetals Mining 8-K accepted 17:09:56 16 Nov (NI 43-101 technical report filed for the 2026 Selebi Main/North copper-nickel-cobalt MRE previously announced 1 and 20 October 2026). Seen on the same lists but AFTER the Beijing cutoff (do not register this window; defer): Mako Mining 6-K 16:30:25 ET 17 Nov; Santacruz Silver 6-K 14:49:17 ET 17 Nov (22 MB); OceanaGold 6-K 13:40:03 ET 17 Nov. In-window but not registered as Au/Ag/Cu supply-demand candidates: Critical Metals Corp 6-K accepted 16:00:19 ET 16 Nov (Tanbreez rare earth / European Lithium merger update; exhibit dated 11 Nov); Evolution Metals & Technologies 8-Ks 17:11:37 ET 16 Nov and 08:30:13 ET 17 Nov (rare-earth magnet company, short-seller rebuttal); Blue Gold Ltd 6-K 17:22:01 ET 16 Nov (Nasdaq home-country quorum exemption, listing admin); Gold X2 Mining 6-K 20:02:59 ET 16 Nov (option and RSU grant only); Modern Mining Technology Corp 6-K 06:19:06 ET 17 Nov (interim financials furnish, no Au/Ag/Cu operations identified in the 6-K cover); Sibanye Stillwater 6-K accepted 12:43:08 ET 16 Nov (inside the Beijing window by SEC time) but Exhibit 99.1 was effectively empty (77 characters) and the corresponding JSE SENS shareholding notice was 16 Nov 15:05 SAST, before the JSE/Beijing window. Official exchange inventory releases: LME warehouse-and-stocks reports landing was reachable via WebFetch as a reports index only (no 17 Nov daily stock table in the fetched page); curl to the same LME URL returned 403. No official LME daily copper/other stock print for 17 Nov was independently retrieved (third-party Mysteel/163 figures were not used). SHFE official weekly stock HTML for weeklystock_20261113 was HTTP 200 but is dated 13 November 2026, outside this window; no in-window official SHFE daily inventory page was found. CME Group gold volume page curl 403. These inventory gaps keep the source partial. sec.gov unauthenticated home curl was 403; EDGAR document URLs worked with a descriptive UA."
     ],
-    "part3_result": "来源覆盖见结构化审计；完成表示所有必查来源的发现均已结束，可选来源降级单独保留。",
+    "part3_result": "沿用原新闻发现清单和覆盖记录。修订保留35条有证据的新闻，其中4条原待核验候选已对照公司官网。铜期货仓单和LME库存按两日序列校正。",
     "new_sources_discovered": [
       "Proactive Investors https://www.proactiveinvestors.com/ Used: accepted the 17 Nov Critical Mineral Resources CEO interview on Agadir Melloul copper-silver drilling in Morocco.",
       "2026 SMM SME Shanghai Metals Expo / Shanghai Metal Week https://smm-sme.smm.cn/ Reviewed the 17 Nov conference livestream page; not used in the report because the captured page was an agenda/livestream write-up without a new checkable copper inventory, TC or output figure."
@@ -3667,10 +2461,10 @@
           "title": "Mogotes Metals (TSXV:MOG) - All Known Questions Answered, November 2026",
           "published_at": "2026-11-16",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "Broadcast listing has no reliable transcript or captions; accepted as an unverified slim card.",
-          "signal_url": "https://www.cruxinvestor.com/posts/mogotes-metals-tsxvmog-all-known-questions-answered-november-2026-12760"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-ddbd7a6f182095ecc5ba",
@@ -3680,10 +2474,10 @@
           "title": "Mogotes Metals (TSXV:MOG) - Pitch Perfect, November 2026",
           "published_at": "2026-11-16",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "Broadcast listing has no reliable transcript or captions; accepted as an unverified slim card.",
-          "signal_url": "https://www.cruxinvestor.com/posts/mogotes-metals-tsxvmog-pitch-perfect-november-2026-12761"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-01e0ae70920af6895228",
@@ -3693,10 +2487,10 @@
           "title": "i-80 Gold (TSX:IAU) - Fully Funded, Lone Tree Restart Anchors Multi-Mine Nevada Growth Plan",
           "published_at": "2026-11-16",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "Broadcast listing has no reliable transcript or captions; accepted as an unverified slim card.",
-          "signal_url": "https://www.cruxinvestor.com/posts/i-80-gold-tsxiau-fully-funded-lone-tree-restart-anchors-multi-mine-nevada-growth-plan-12762"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-cde26aedf24e28fc5c9d",
@@ -3953,10 +2747,10 @@
           "title": "Athos Metals Announces Closing of Qualifying Transaction, Conversion of Subscription Receipts, Consolidation, Name Change and Listing on The TSXV",
           "published_at": "2026-11-16T12:58:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324237/Athos-Metals-Announces-Closing-of-Qualifying-Transaction-Conversion-of-Subscription-Receipts-Consolidation-Name-Change-and-Listing-on-The-TSXV"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-d6b3a89961f7c7612e77",
@@ -3966,10 +2760,10 @@
           "title": "Pacific Empire Closes $1 Million Flow-Through Private Placement",
           "published_at": "2026-11-16T14:43:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324331/Pacific-Empire-Closes-1-Million-FlowThrough-Private-Placement"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8f13c492d9f72b646e42",
@@ -3979,10 +2773,10 @@
           "title": "CDN Maverick Adopts Semi-Annual Financial Reporting",
           "published_at": "2026-11-16T14:47:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324335/CDN-Maverick-Adopts-SemiAnnual-Financial-Reporting"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-215bd9142568d3fa5e4e",
@@ -3992,10 +2786,10 @@
           "title": "Lumina Metals Joins the Silver Institute and Its Shares Are Added to the Nasdaq Junior Silver Miners Index",
           "published_at": "2026-11-16T16:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324310/Lumina-Metals-Joins-the-Silver-Institute-and-Its-Shares-Are-Added-to-the-Nasdaq-Junior-Silver-Miners-Index"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-a0f0dc94c7badaed14ac",
@@ -4005,10 +2799,10 @@
           "title": "Pacific Bay Announces $700,000 Non-Brokered Private Placement",
           "published_at": "2026-11-16T16:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324336/Pacific-Bay-Announces-700000-NonBrokered-Private-Placement"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-197cc56f9f17db7d4f9f",
@@ -4031,10 +2825,10 @@
           "title": "Nexa Resources Announces Redemption of Its 6.500% Notes Due 2028",
           "published_at": "2026-11-16T16:45:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324328/Nexa-Resources-Announces-Redemption-of-Its-6.500-Notes-Due-2028"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-7e09adabad8cbef92600",
@@ -4044,10 +2838,10 @@
           "title": "Origen Completes Sale of Wishbone Project for $1 Million in Share Consideration and 1% NSR Royalty",
           "published_at": "2026-11-16T16:58:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324395/Origen-Completes-Sale-of-Wishbone-Project-for-1-Million-in-Share-Consideration-and-1-NSR-Royalty"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8eec0d7d273785d5858a",
@@ -4083,10 +2877,10 @@
           "title": "Daura Gold Announces Grant of Options",
           "published_at": "2026-11-16T18:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324423/Daura-Gold-Announces-Grant-of-Options"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-51a6fac79ea5e071d3b3",
@@ -4096,10 +2890,10 @@
           "title": "Clinch Resources Ltd. Announces Third Quarter 2026 Operating Results",
           "published_at": "2026-11-16T18:09:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324428/Clinch-Resources-Ltd.-Announces-Third-Quarter-2026-Operating-Results"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-3ca9ee1657adfb29a6e6",
@@ -4109,10 +2903,10 @@
           "title": "A Critical Moment for Emerita: Protecting Shareholder Value and Securing the Future of Your Investment",
           "published_at": "2026-11-16T18:26:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324400/A-Critical-Moment-for-Emerita-Protecting-Shareholder-Value-and-Securing-the-Future-of-Your-Investment"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-ed3c6d02aa5233a7b0ba",
@@ -4122,10 +2916,10 @@
           "title": "Emerita Board Approves Strategic Review to Protect and Enhance Shareholder Value",
           "published_at": "2026-11-16T18:27:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324401/Emerita-Board-Approves-Strategic-Review-to-Protect-and-Enhance-Shareholder-Value"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-2068e4c94181b7d22b23",
@@ -4135,10 +2929,10 @@
           "title": "STRACON Group Reports Third Quarter 2026 Financial Results",
           "published_at": "2026-11-16T18:52:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324429/STRACON-Group-Reports-Third-Quarter-2026-Financial-Results"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-c0509d4125eefe3ea043",
@@ -4148,10 +2942,10 @@
           "title": "Gold X2 Announces Grant of Stock Options and RSUs",
           "published_at": "2026-11-16T19:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324433/Gold-X2-Announces-Grant-of-Stock-Options-and-RSUs"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-f601d4a2010ceedf4619",
@@ -4187,10 +2981,10 @@
           "title": "Talon Metals Reports Third Quarter 2026 Results",
           "published_at": "2026-11-16T19:49:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324440/Talon-Metals-Reports-Third-Quarter-2026-Results"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-0ec6a644c3363fc4159c",
@@ -4213,10 +3007,10 @@
           "title": "Zentek Q2 Fiscal 2027 Results News Release",
           "published_at": "2026-11-16T20:32:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324416/Zentek-Q2-Fiscal-2027-Results-News-Release"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-248a731f17a30efff14b",
@@ -4226,10 +3020,10 @@
           "title": "Cordoba Minerals Grants Equity Incentive Awards",
           "published_at": "2026-11-16T21:44:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324451/Cordoba-Minerals-Grants-Equity-Incentive-Awards"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-213887cde45bb31dba4c",
@@ -4252,10 +3046,10 @@
           "title": "Group Eleven Intersects 5.4m of 20.7% Zn+Pb and 87 g/t Ag, within 13.7m of 9.1% Zn+Pb and 38 g/t Ag; and Cuts 7.7m of 139 g/t Ag and 0.28% Cu in Step-Out Drilling at Ballywire",
           "published_at": "2026-11-17T05:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324432/Group-Eleven-Intersects-5.4m-of-20.7-ZnPb-and-87-gt-Ag-within-13.7m-of-9.1-ZnPb-and-38-gt-Ag-and-Cuts-7.7m-of-139-gt-Ag-and-0.28-Cu-in-StepOut-Drilling-at-Ballywire"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-249f29d622f5e0c5b318",
@@ -4265,10 +3059,10 @@
           "title": "Prince Silver Receives Approval for Exploration Access North of Prince Claims and Expands Land Position in Lincoln County",
           "published_at": "2026-11-17T06:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324453/Prince-Silver-Receives-Approval-for-Exploration-Access-North-of-Prince-Claims-and-Expands-Land-Position-in-Lincoln-County"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-679d1f9cf2ab4fb4fc32",
@@ -4278,10 +3072,10 @@
           "title": "Genesis Goldfields Announces Board Changes and Adopts Share-Based Compensation Plan",
           "published_at": "2026-11-17T06:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324460/Genesis-Goldfields-Announces-Board-Changes-and-Adopts-ShareBased-Compensation-Plan"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-2cf45e37956e4f9cd74a",
@@ -4304,10 +3098,10 @@
           "title": "Irruptive Metals Prepares for Drilling Season on Pimenton Cu-Au Project, Chile",
           "published_at": "2026-11-17T06:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324342/Irruptive-Metals-Prepares-for-Drilling-Season-on-Pimenton-CuAu-Project-Chile"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-6e2a025cc2809c12f535",
@@ -4317,10 +3111,10 @@
           "title": "Cabral Gold Strengthens Executive Management Team with Appointment of Chief Operating Officer and Chief Development Officer",
           "published_at": "2026-11-17T06:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324343/Cabral-Gold-Strengthens-Executive-Management-Team-with-Appointment-of-Chief-Operating-Officer-and-Chief-Development-Officer"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-b1fd8eaaed0dd865ffa4",
@@ -4330,10 +3124,10 @@
           "title": "Queen's Road Capital Announces US$153 Million After-Tax Earnings for Fiscal Year 2026",
           "published_at": "2026-11-17T06:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324458/Queens-Road-Capital-Announces-US153-Million-AfterTax-Earnings-for-Fiscal-Year-2026"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-011d16fe613eecdbe6bb",
@@ -4343,10 +3137,10 @@
           "title": "Minnova Corp. Announces Filing of NI 43-101 Technical Report on the Preliminary Economic Assessment for PL Gold Mine and Identifies Significant Resource Expansion Opportunities and Debt Settlement",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324288/Minnova-Corp.-Announces-Filing-of-NI-43101-Technical-Report-on-the-Preliminary-Economic-Assessment-for-PL-Gold-Mine-and-Identifies-Significant-Resource-Expansion-Opportunities-and-Debt-Settlement"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-a4421bde600e6b0d7d48",
@@ -4369,10 +3163,10 @@
           "title": "Delta Resources Advances I-Zone Drilling and District-Scale Gold Exploration Ahead of Swiss Mining Institute Conference in Zurich",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324377/Delta-Resources-Advances-IZone-Drilling-and-DistrictScale-Gold-Exploration-Ahead-of-Swiss-Mining-Institute-Conference-in-Zurich"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-3e8de720eb73d1b4d3b3",
@@ -4395,10 +3189,10 @@
           "title": "BP Silver Corp. Discovers High-Grade Silver at Jalsuri Northeast, Intersecting 2,620 g/t Silver (84.2 oz/t) over 1 Meter Within a 12-Meter Interval Grading 441 g/t Silver (14.2 oz/t) at Cosuño Silver Project",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324417/BP-Silver-Corp.-Discovers-HighGrade-Silver-at-Jalsuri-Northeast-Intersecting-2620-gt-Silver-84.2-ozt-over-1-Meter-Within-a-12Meter-Interval-Grading-441-gt-Silver-14.2-ozt-at-Cosuo-Silver-Project"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-9455725d20a580925bc7",
@@ -4408,10 +3202,10 @@
           "title": "Lynx Resources Reports Two Priority Geophysical Zones at Turner's Ridge Property",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324426/Lynx-Resources-Reports-Two-Priority-Geophysical-Zones-at-Turners-Ridge-Property"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-ed8b4c33111176da918e",
@@ -4421,10 +3215,10 @@
           "title": "Lunex Metals Announces Appointment of Ramiro Massa as Chief Executive Officer",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324434/Lunex-Metals-Announces-Appointment-of-Ramiro-Massa-as-Chief-Executive-Officer"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8229d1f46b3c8742103d",
@@ -4433,11 +3227,11 @@
           "kind": "news",
           "title": "Excellon Samples up to 764 g/t Silver at Fortuna Prospect at Mallay Mine",
           "published_at": "2026-11-17T07:00:00-05:00",
-          "content_checked": false,
+          "content_checked": true,
           "decision": "accept",
           "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324442/Excellon-Samples-up-to-764-gt-Silver-at-Fortuna-Prospect-at-Mallay-Mine"
+          "reason": "Codex 复核发行人公告正文，并沿用发现清单中对应发行稿的发布时间。",
+          "signal_url": "https://www.excellonresources.com/news/details/index.php?content_id=439"
         },
         {
           "id": "grok-5524305ac761445d2e92",
@@ -4447,10 +3241,10 @@
           "title": "West Point Gold Commences 30,000-Metre Drill Program at Gold Chain",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324446/West-Point-Gold-Commences-30000Metre-Drill-Program-at-Gold-Chain"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-34162a57e9aba2af010e",
@@ -4460,10 +3254,10 @@
           "title": "Honey Badger Silver Announces Williams as CEO and Other Management Transitions",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324449/Honey-Badger-Silver-Announces-Williams-as-CEO-and-Other-Management-Transitions"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-70f9456d902cb9c141ca",
@@ -4485,11 +3279,11 @@
           "kind": "news",
           "title": "RUA GOLD Expands Reefton Goldfield Resource Base and Completes Auld Creek PFS",
           "published_at": "2026-11-17T07:00:00-05:00",
-          "content_checked": false,
+          "content_checked": true,
           "decision": "accept",
           "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324455/RUA-GOLD-Expands-Reefton-Goldfield-Resource-Base-and-Completes-Auld-Creek-PFS"
+          "reason": "Codex 复核发行人公告正文，并沿用发现清单中对应发行稿的发布时间。",
+          "signal_url": "https://ruagold.com/rua-gold-expands-reefton-goldfield-resource-base-and-completes-auld-creek-pfs/"
         },
         {
           "id": "grok-329f82373b3e0913f93b",
@@ -4499,10 +3293,10 @@
           "title": "Benton Options Its Abernethy Gold Project to New Age Metals",
           "published_at": "2026-11-17T07:29:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324470/Benton-Options-Its-Abernethy-Gold-Project-to-New-Age-Metals"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-ac589124cb4695ae81d2",
@@ -4512,10 +3306,10 @@
           "title": "Quimbaya Gold Commences Initial Drill Testing of a New Vein System at Tahami Southeast",
           "published_at": "2026-11-17T07:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324070/Quimbaya-Gold-Commences-Initial-Drill-Testing-of-a-New-Vein-System-at-Tahami-Southeast"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-37efcdfe314338d95fa6",
@@ -4525,10 +3319,10 @@
           "title": "Talamore Reports More High-Grade Assays from Supremo Extension",
           "published_at": "2026-11-17T07:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324260/Talamore-Reports-More-HighGrade-Assays-from-Supremo-Extension"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-9ae0cff419586fd31d31",
@@ -4538,10 +3332,10 @@
           "title": "Pacifica Silver Advances Claudia with Surface Sampling, Magnetic Survey and Early De-Risking Initiatives",
           "published_at": "2026-11-17T07:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324439/Pacifica-Silver-Advances-Claudia-with-Surface-Sampling-Magnetic-Survey-and-Early-DeRisking-Initiatives"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-5400060a59a82cc8109b",
@@ -4564,10 +3358,10 @@
           "title": "North Peak Resources Acquiring 63.3% Interest in Colorado Patented Claim Within Prospect Mountain, Eureka Nevada",
           "published_at": "2026-11-17T07:54:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324473/North-Peak-Resources-Acquiring-63.3-Interest-in-Colorado-Patented-Claim-Within-Prospect-Mountain-Eureka-Nevada"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-3a376498d59b8e240229",
@@ -4577,10 +3371,10 @@
           "title": "Bold Ventures Announces Additional High Grade Gold Results from Traxxin Channel Sampling",
           "published_at": "2026-11-17T08:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324435/Bold-Ventures-Announces-Additional-High-Grade-Gold-Results-from-Traxxin-Channel-Sampling"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-21574434cd78b2a492fe",
@@ -4590,10 +3384,10 @@
           "title": "Magna Terra Initiates High-Resolution Airborne Magnetic and Radiometric Survey at the Cape Spencer Project in Southern New Brunswick",
           "published_at": "2026-11-17T08:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324436/Magna-Terra-Initiates-HighResolution-Airborne-Magnetic-and-Radiometric-Survey-at-the-Cape-Spencer-Project-in-Southern-New-Brunswick"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-dd4818335b4c6840bb5a",
@@ -4603,10 +3397,10 @@
           "title": "Puma Refines the Grog Gold Zone Potential",
           "published_at": "2026-11-17T08:02:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324340/Puma-Refines-the-Grog-Gold-Zone-Potential"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8e54256c2b7fd419bda9",
@@ -4616,10 +3410,10 @@
           "title": "Sankamap Completes Latest Drill Hole as Part of Broader Exploration Program at Kuma Copper-Gold Project",
           "published_at": "2026-11-17T08:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324438/Sankamap-Completes-Latest-Drill-Hole-as-Part-of-Broader-Exploration-Program-at-Kuma-CopperGold-Project"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-cea181d16872123dce0b",
@@ -4629,10 +3423,10 @@
           "title": "Visionary Receives Drill Permits for Regional Targets at Pt. Leamington and Consolidates Additional Ground",
           "published_at": "2026-11-17T08:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324454/Visionary-Receives-Drill-Permits-for-Regional-Targets-at-Pt.-Leamington-and-Consolidates-Additional-Ground"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-33123cfe2e3ff056080b",
@@ -4642,10 +3436,10 @@
           "title": "Catalyst One Samples 7.95 g/t Gold and 245 g/t Silver at Giroux and Stakes New Southwest Copper Target Returning up to 1.79% Copper, Walker Lane, Nevada",
           "published_at": "2026-11-17T08:55:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324394/Catalyst-One-Samples-7.95-gt-Gold-and-245-gt-Silver-at-Giroux-and-Stakes-New-Southwest-Copper-Target-Returning-up-to-1.79-Copper-Walker-Lane-Nevada"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-9eef1f3b87387bf97844",
@@ -4655,10 +3449,10 @@
           "title": "Canuc Discovers New Gold Zone at East Sudbury Project, Intersecting 2.99 g/t Gold over 8.0 Metres; Seismic Survey Traces McLaren Lake Fault Zone to More Than 6 km Depth",
           "published_at": "2026-11-17T09:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324166/Canuc-Discovers-New-Gold-Zone-at-East-Sudbury-Project-Intersecting-2.99-gt-Gold-over-8.0-Metres-Seismic-Survey-Traces-McLaren-Lake-Fault-Zone-to-More-Than-6-km-Depth"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-9c7a42578a1d6f07bebb",
@@ -4694,10 +3488,10 @@
           "title": "Falcon Is on the Table. Shareholders Should Have a Seat at It.",
           "published_at": "2026-11-17T10:48:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newsfilecorp.com/release/324483/Falcon-Is-on-the-Table.-Shareholders-Should-Have-a-Seat-at-It."
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-866df3ec50067925e164",
@@ -4709,8 +3503,8 @@
           "content_checked": true,
           "decision": "accept",
           "reason_code": "",
-          "reason": "Verified from captured source text; new gold/silver/copper supply-demand facts.",
-          "signal_url": "https://news.smm.cn/news/6NU7TCAPA7CGZ4BWKIDKBAFBIT26OQOOP6SSCMY"
+          "reason": "Codex 复核同日仓单表和 SMM 直播，两者均将 6,830 吨列为铜期货仓单。",
+          "signal_url": "https://news.10jqka.com.cn/20261117/c681902048.shtml"
         },
         {
           "id": "grok-fa6218cf570d327af33e",
@@ -4735,8 +3529,8 @@
           "content_checked": true,
           "decision": "accept",
           "reason_code": "",
-          "reason": "Verified from captured source text; new gold/silver/copper supply-demand facts.",
-          "signal_url": "https://news.smm.cn/news/77SCNG7PBL7T5EQG36YIVYJIHGLW2CMOOANLB2A"
+          "reason": "Codex 复核 iFinD 和 Westmetall 两日序列，SMM 转载的 11 月 16 日标签与序列不符。",
+          "signal_url": "https://news.10jqka.com.cn/20261117/c681914229.shtml"
         },
         {
           "id": "grok-1866ded0cd17faf76946",
@@ -5188,10 +3982,10 @@
           "title": "Artemis Gold to Issue Remaining Shares under Participation Agreement",
           "published_at": "2026-11-16T17:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/artemis-gold-to-issue-remaining-shares-under-participation-agreement-863592918.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-db5ebe9d76654b08aaf9",
@@ -5201,10 +3995,10 @@
           "title": "RUSSEL METALS ANNOUNCES CHIEF FINANCIAL OFFICER SUCCESSION",
           "published_at": "2026-11-16T17:01:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/russel-metals-announces-chief-financial-officer-succession-879193769.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-ef00bde0b2c009665909",
@@ -5214,10 +4008,10 @@
           "title": "PRESS RELEASE FOR EARLY WARNING REPORT REGARDING PPX MINING CORP.",
           "published_at": "2026-11-16T18:32:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/press-release-for-early-warning-report-regarding-ppx-mining-corp--861214268.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-43b6cc16c1663da182dd",
@@ -5227,10 +4021,10 @@
           "title": "THE EELLEET NETWORK ENTERS INTO BUSINESS COMBINATION AGREEMENT WITH GLENROSA GOLD MINING CORP. AND RECEIVES CONDITIONAL APPROVAL TO LIST ON THE CANADIAN SECURITIES EXCHANGE",
           "published_at": "2026-11-16T18:47:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/the-eelleet-network-enters-into-business-combination-agreement-with-glenrosa-gold-mining-corp-and-receives-conditional-approval-to-list-on-the-canadian-securities-exchange-879991840.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-fd6fffe41ee1c2fe250b",
@@ -5240,10 +4034,10 @@
           "title": "Super Copper Defines 600-Meter Drill Target at Castilla Following Surface Samples of 17.7% Copper",
           "published_at": "2026-11-17T01:51:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/super-copper-defines-600-meter-drill-target-at-castilla-following-surface-samples-of-17-7-copper-826855099.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8761176cc13abb102934",
@@ -5343,11 +4137,11 @@
           "kind": "news",
           "title": "OceanaGold Drill Results at Didipio Confirm Continuity at Depth and New Resource Potential",
           "published_at": "2026-11-17T07:00:00-05:00",
-          "content_checked": false,
+          "content_checked": true,
           "decision": "accept",
           "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/oceanagold-drill-results-at-didipio-confirm-continuity-at-depth-and-new-resource-potential-859189449.html"
+          "reason": "Codex 复核发行人公告正文，并沿用发现清单中对应发行稿的发布时间。",
+          "signal_url": "https://investors.oceanagold.com/2026-11-17-OceanaGold-Drill-Results-at-Didipio-Confirm-Continuity-at-Depth-and-New-Resource-Potential"
         },
         {
           "id": "grok-5a77082577649ad4c693",
@@ -5357,10 +4151,10 @@
           "title": "LUCA MINING ANNOUNCES THE MAILING OF ANNUAL GENERAL MEETING MATERIALS",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/luca-mining-announces-the-mailing-of-annual-general-meeting-materials-850076452.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-1d1f96af1ac0b7870b4d",
@@ -5370,10 +4164,10 @@
           "title": "Goldsky appoints new Country Manager for Sweden - Josh Stewart",
           "published_at": "2026-11-17T07:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.newswire.ca/news-releases/goldsky-appoints-new-country-manager-for-sweden-josh-stewart-880493994.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-794b795325b0ce93840a",
@@ -5435,10 +4229,10 @@
           "title": "Canamex Gold Corp. Announces Grant of Stock Options",
           "published_at": "2026-11-16T09:10:00-07:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.thenewswire.com/press-releases/1AlpFZ15J-canamex-gold-corp-announces-grant-of-stock-options.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-1695718ee6343bbf2c31",
@@ -5474,10 +4268,10 @@
           "title": "Viva Gold Announces Stock Option Grant",
           "published_at": "2026-11-16T16:00:00-07:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.thenewswire.com/press-releases/1LpMFoJe1-viva-gold-announces-stock-option-grant.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8e9bad1d3376282d5673",
@@ -5565,10 +4359,10 @@
           "title": "New Age Metals Completes Due Diligence and Enters Option Agreement on the Kenora Thunder Gold Project",
           "published_at": "2026-11-17T06:15:00-07:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.thenewswire.com/press-releases/1BNMFodQe-new-age-metals-completes-due-diligence-and-enters-option-agreement-on-the-kenora-thunder-gold-project.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-39d7f87e289e76b1e278",
@@ -5630,10 +4424,10 @@
           "title": "Upside Gold Intersects 480 Metres Of Continuous Gold Mineralization And Extends The Kena Gold Zone In Initial 2026 Drill Results",
           "published_at": "2026-11-17T07:30:00-07:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.thenewswire.com/press-releases/1k98FQ0qy-upside-gold-intersects-480-metres-of-continuous-gold-mineralization-and-extends-the-kena-gold-zone-in-initial-2026-drill-results.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-0575ccb91721a6aa3cde",
@@ -5643,10 +4437,10 @@
           "title": "Lincoln Gold Announces Upgrade to OTCQB Venture Market, Expanding U.S. Investor Access",
           "published_at": "2026-11-17T08:00:00-07:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.thenewswire.com/press-releases/1BKRFD2Dj-lincoln-gold-announces-upgrade-to-otcqb-venture-market-expanding-u-s-investor-access.html"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-6b2dd444290d568ce700",
@@ -5655,11 +4449,11 @@
           "kind": "news",
           "title": "PPX Cuts High-Grade Gold, Silver, and Copper at Portachuelos, with 5.68 g/t Au, 525.5 g/t Ag and 1.3% Cu over 5.7 m, Including 18.25 g/t Au, 3810.0 g/t Ag and 9.5% Cu Over 0.5 m",
           "published_at": "2026-11-16T11:30:00-05:00",
-          "content_checked": false,
+          "content_checked": true,
           "decision": "accept",
           "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/ppx-cuts-high-grade-gold-silver-and-copper-at-portachuelos-with-5.68-g-t-au-525.5-1251704"
+          "reason": "Codex 复核发行人公告正文，并沿用发现清单中对应发行稿的发布时间。",
+          "signal_url": "https://www.ppxmining.com/news/ppx-cuts-high-grade-gold-silver-and-copper-at-portachuelos-2026-11-16-qm-8589928618995500"
         },
         {
           "id": "grok-829768a36916b9683189",
@@ -5682,10 +4476,10 @@
           "title": "Avidian Gold Announces Results of Annual General and Special Meeting and Officer Resignation",
           "published_at": "2026-11-16T17:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/avidian-gold-announces-results-of-annual-general-and-special-meeting-and-officer-1252209"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-e8f3d2d189156424f228",
@@ -5695,10 +4489,10 @@
           "title": "Northern Dynasty Announces Results of Governance Committee Review and Supplemental Director Disclosure",
           "published_at": "2026-11-16T17:30:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/northern-dynasty-announces-results-of-governance-committee-review-and-supplementa-1252262"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-f0efefa84fd16d49599f",
@@ -5747,10 +4541,10 @@
           "title": "Galway Metals Intersects 1.8 g/t Gold Over 25.0 Metres and 0.7 g/t Gold Over 66.0 Metres at Clarence Stream",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/galway-metals-intersects-1.8-g-t-gold-over-25.0-metres-and-0.7-g-t-gold-over-66.0-1252171"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-c9740176f391d344d991",
@@ -5760,10 +4554,10 @@
           "title": "Gabriel Resources Provides Corporate and Financing Update",
           "published_at": "2026-11-17T07:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/gabriel-resources-provides-corporate-and-financing-update-1252526"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-ca370a203993d79c6c2b",
@@ -5786,10 +4580,10 @@
           "title": "Tectonic Metals Completes Record Drill Program at Flat, Advances Five Pillars of Growth Toward Major 2027 Milestones",
           "published_at": "2026-11-17T08:00:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/tectonic-metals-completes-record-drill-program-at-flat-advances-five-pillars-of-g-1252510"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-5f44c07a4e8686df4c06",
@@ -5799,10 +4593,10 @@
           "title": "Viridian Metals Closes Oversubscribed Private Placement for $5.77 Million",
           "published_at": "2026-11-17T08:15:00-05:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.accessnewswire.com/newsroom/en/metals-and-mining/viridian-metals-closes-oversubscribed-private-placement-for-5.77-million-1252554"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-b12ceeb634d603c58a45",
@@ -6241,10 +5035,10 @@
           "title": "Arkadian Strategic Metals Plc (AKN): Clogau Sampling, Shaft 2 Processing & Mineralogy",
           "published_at": "2026-11-17T07:00:00+00:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.investegate.co.uk/announcement/rns/arkadian-strategic-metals-plc--akn/clogau-sampling-shaft-2-processing-mineralogy/9878233"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-390de20b053decd4f832",
@@ -6254,10 +5048,10 @@
           "title": "Forgent PLC (FORG): Update on Phase II Drilling Programme at Peak Hill",
           "published_at": "2026-11-17T07:00:00+00:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.investegate.co.uk/announcement/rns/forgent-plc--forg/update-on-phase-ii-drilling-programme-at-peak-hill/9878244"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-a06e45815766fc3a5eec",
@@ -6267,10 +5061,10 @@
           "title": "Richmond Hill Resources PLC (RHR): Sakoose Drill Programme Update",
           "published_at": "2026-11-17T12:54:00+00:00",
           "content_checked": false,
-          "decision": "accept",
-          "reason_code": "",
-          "reason": "In-window gold/silver/copper item with no captured body; accepted as an unverified slim card only.",
-          "signal_url": "https://www.investegate.co.uk/announcement/prn/richmond-hill-resources-plc--rhr/sakoose-drill-programme-update/9879915"
+          "decision": "reject",
+          "reason_code": "insufficient_verification",
+          "reason": "2026-11-18复核撤下。现有可核验材料不足以确认独立的新增供需事实。",
+          "signal_url": null
         },
         {
           "id": "grok-8e1c5454cc9bc235e029",
@@ -7500,6 +6294,7 @@
       "Panama, First Quantum launch formal Cobre Panama talks；Same Panama–First Quantum Cobre Panama talks story already accepted from the First Quantum GlobeNewswire primary.；https://www.mining.com/panama-first-quantum-launch-formal-cobre-panama-talks/；https://www.globenewswire.com/news-release/2026/11/17/3404385/0/en/cobre-panam%c3%a1-update-commencement-of-formal-discussions-for-a-new-agreement.html",
       "Aya Gold & Silver reports record Q3 production of 2M oz silver and ~$103M in revenue.；The Soar Financial post recaps Aya's Q3 production and a conference video; the amended cash-cost and ounces-sold figures are already accepted from Aya's SEC exhibit.；https://x.com/soarfinancial/status/2122690489564401752；https://www.sec.gov/Archives/edgar/data/1826836/000162828026074329/ayagoldsilverfilesamendedq.htm"
     ],
-    "notes": "Cross-listed Mining.com category URLs were accepted once (usually the copper-category or first complete capture) and the identical gold/silver-category rows were rejected as duplicates. Cobre Panama was kept as the First Quantum GlobeNewswire primary; Franco-Nevada 6-K, CNW and Mining.com recaps were rejected. PDI permits were kept as the ASX PDF; the Mining.com/Reuters recap was rejected. LaFleur Swanson 2.52 g/t over 14.35 m and the 16 Nov MSD recap of Yukon Metals and Aurania were treated as already reported on 2026-11-16. Midland French GNW, Avino Access Newswire and Quimbaya CNW were rejected against a same-day primary."
-  }
+    "notes": "Cross-listed Mining.com category URLs were accepted once (usually the copper-category or first complete capture) and the identical gold/silver-category rows were rejected as duplicates. Cobre Panama was kept as the First Quantum GlobeNewswire primary; Franco-Nevada 6-K, CNW and Mining.com recaps were rejected. PDI permits were kept as the ASX PDF; the Mining.com/Reuters recap was rejected. LaFleur Swanson 2.52 g/t over 14.35 m and the 16 Nov MSD recap of Yukon Metals and Aurania were treated as already reported on 2026-11-16. Midland French GNW, Avino Access Newswire and Quimbaya CNW were rejected against a same-day primary. 修订时复查前期日报。Heliostar三季报数字已于11月13日收录，保留访谈新增项目进展；K92的季度产量在10月披露，改以本期财报核实的新成本和作业面信息为主。"
+  },
+  "report_note": "2026年11月18日由 Codex 复核修订。撤下66条证据不足的标题卡，4条补读发行人公告后保留，并校正铜仓单、库存日期和部分矿山数据口径。原报告生成时间和检索覆盖审计保留。"
 }

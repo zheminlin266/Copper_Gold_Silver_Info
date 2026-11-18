@@ -89,7 +89,7 @@ export default async function DailyPage({ params }: DailyPageProps) {
             生成于 {formatDateTime(report.report_time)} · 北京时间
           </p>
           <p className="lead-copy">{getReportSummary(report)}</p>
-          {report.search_log.part3_searched === false && report.report_note && (
+          {report.report_note && (
             <p className="signal-card__verification" role="note">{report.report_note}</p>
           )}
         </header>
