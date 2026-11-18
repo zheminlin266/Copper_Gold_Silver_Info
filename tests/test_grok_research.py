@@ -5,11 +5,30 @@ import hashlib
 import json
 import tempfile
 import unittest
+from datetime import date
 from unittest.mock import patch
 from pathlib import Path
 
 from scripts.grok_research import ROOT, discovery_template, prepare_collection
 from scripts.report_builder import ReportBuilderError, build_report, calculate_windows, project_report, validate_report
+
+PUBLISHED_FIXTURE_DATE = "2026-11-17"
+PUBLISHED_FIXTURE_SHA256 = "fb7883345206842e96aba7b634f6a5c3d44e46d92ac061f92bbcfa55c683642d"
+
+
+def _published_report_name(path: Path) -> str | None:
+    """Return a daily-report filename when path is exactly data/YYYY-MM-DD.json."""
+    try:
+        relative = Path(path).relative_to(ROOT / "data")
+    except ValueError:
+        return None
+    if len(relative.parts) != 1 or not relative.name.endswith(".json"):
+        return None
+    try:
+        date.fromisoformat(relative.name[:-5])
+    except ValueError:
+        return None
+    return relative.name
 
 
 class GrokResearchTests(unittest.TestCase):
@@ -18,9 +37,26 @@ class GrokResearchTests(unittest.TestCase):
         self.temporary = tempfile.TemporaryDirectory(prefix="grok-test-", dir=ROOT / ".runtime")
         self.addCleanup(self.temporary.cleanup)
         self.folder = Path(self.temporary.name)
+        # prepare_collection refuses when data/<date>.json exists. Point that
+        # existence check at an empty directory so a published report cannot
+        # collide with the offline fixture. The production check itself stays
+        # in place and still fails when this isolated directory contains the date.
+        self.isolated_data = self.folder / "isolated-data"
+        self.isolated_data.mkdir()
+        original_exists = Path.exists
+
+        def exists(path, *args, **kwargs):
+            name = _published_report_name(path)
+            if name is not None:
+                return original_exists(self.isolated_data / name, *args, **kwargs)
+            return original_exists(path, *args, **kwargs)
+
+        patcher = patch.object(Path, "exists", exists)
+        patcher.start()
+        self.addCleanup(patcher.stop)
 
     def discovery(self):
-        manifest = discovery_template("2026-11-17")
+        manifest = discovery_template(PUBLISHED_FIXTURE_DATE)
         for source in manifest["sources"]:
             source.update(status="complete", entry_urls=["https://example.com/offline-list"],
                           termination="end_of_window", note="Offline fixture: list boundary precedes the report window")
@@ -171,9 +207,26 @@ class GrokResearchTests(unittest.TestCase):
             prepare_collection(self.folder / "collection.json")
         manifest = self.discovery()
         manifest["report_date"] = "2026-11-16"
+        (self.isolated_data / "2026-11-16.json").write_bytes(b"{}")
         (self.folder / "existing.json").write_text(json.dumps(manifest), encoding="utf-8")
         with self.assertRaisesRegex(ValueError, "already exists"):
             prepare_collection(self.folder / "existing.json")
+
+    def test_fixture_prepare_stays_isolated_when_published_report_exists(self):
+        published = ROOT / "data" / f"{PUBLISHED_FIXTURE_DATE}.json"
+        self.assertTrue(published.is_file())
+        before = published.read_bytes()
+        self.assertEqual(hashlib.sha256(before).hexdigest(), PUBLISHED_FIXTURE_SHA256)
+        bundle = self.prepare()
+        self.assertEqual(bundle["report_date"], PUBLISHED_FIXTURE_DATE)
+        self.assertFalse((self.isolated_data / published.name).is_file())
+        (self.isolated_data / published.name).write_bytes(before)
+        blocked = self.folder / "published-date.json"
+        blocked.write_text(json.dumps(self.discovery()), encoding="utf-8")
+        with self.assertRaisesRegex(ValueError, "already exists"):
+            prepare_collection(blocked)
+        self.assertEqual(published.read_bytes(), before)
+        self.assertEqual(hashlib.sha256(published.read_bytes()).hexdigest(), PUBLISHED_FIXTURE_SHA256)
 
     def test_interrupted_prepare_recovers_only_the_missing_analysis_file(self):
         from scripts.grok_research import _atomic_write_json
