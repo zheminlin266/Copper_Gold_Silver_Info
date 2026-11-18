@@ -46,6 +46,7 @@ class ScheduledDailyTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         (self.root / "data").mkdir()
+        (self.root / "Daily_Task_Prompt.md").write_bytes(b"# Codex daily workflow\n")
         (self.root / daily.TC_PATH).write_text(CSV, encoding="utf-8")
         self.addCleanup(patch.stopall)
         patch.object(daily, "ROOT", self.root).start()
@@ -115,7 +116,7 @@ class ScheduledDailyTests(unittest.TestCase):
         for args in (["--resume", "--report-date", DATE], ["--verify-only", "--report-date", DATE]):
             self.assertEqual(daily.main(args), 0)
         commands = [call.args[0] for call in execute.call_args_list]
-        self.assertFalse(any("opencode" in command[0] for command in commands))
+        self.assertFalse(any(command[0] == "codex" for command in commands))
         self.assertEqual(len(commands), 10)
         npm = "npm.cmd" if daily.os.name == "nt" else "npm"
         self.assertIn([npm, "run", "validate:content"], commands)
@@ -125,7 +126,7 @@ class ScheduledDailyTests(unittest.TestCase):
         with patch.object(daily, "datetime") as clock:
             clock.now.return_value = datetime(2026, 9, 30, tzinfo=daily.BEIJING)
             self.assertEqual(daily.main([]), 0)
-        self.assertFalse(any("opencode" in call.args[0][0] for call in execute.call_args_list))
+        self.assertFalse(any(call.args[0][0] == "codex" for call in execute.call_args_list))
         self.assertIn([daily.sys.executable, "-B", "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"], commands)
         self.assertEqual(publication.call_count, 3)
         self.assertEqual(self.state()["status"], "success")
@@ -155,11 +156,18 @@ class ScheduledDailyTests(unittest.TestCase):
         clock = patch.object(daily, "datetime").start()
         clock.now.side_effect = [frozen] + [datetime(2026, 10, 1, tzinfo=daily.BEIJING)] * 50
         def command(args, log, **kwargs):
-            if args[0] == "opencode.cmd":
+            if args[0] == "codex":
                 self.report()
                 self.assertEqual(kwargs["timeout"], 10800)
                 self.assertIn("RUN_DATE=2026-09-30, REPORT_DATE=2026-09-29", args[-1])
+                self.assertIn("exec", args)
                 self.assertIn("--model", args)
+                self.assertEqual(args[args.index("--model") + 1], "installed/model")
+                saved = self.state()
+                snapshot = Path(saved["daily_prompt_snapshot"])
+                self.assertIn(str(snapshot), args[-1])
+                self.assertEqual(snapshot.read_bytes(), (self.root / "Daily_Task_Prompt.md").read_bytes())
+                self.assertEqual(saved["daily_prompt_sha256"], hashlib.sha256(snapshot.read_bytes()).hexdigest())
         execute.side_effect = command
         self.assertEqual(daily.main(["--model", "installed/model"]), 0)
         self.assertEqual(self.state()["run_date"], "2026-09-30")
@@ -197,7 +205,7 @@ class ScheduledDailyTests(unittest.TestCase):
             with self.subTest(previous=previous):
                 path.write_text(json.dumps(previous))
                 def command(args, log, **kwargs):
-                    if args[0] == "opencode.cmd":
+                    if args[0] == "codex":
                         saved = self.state()
                         self.assertTrue(saved["ai_started"])
                         self.assertEqual(saved["stages"]["ai"]["status"], "running")
@@ -480,7 +488,7 @@ class ScheduledDailyTests(unittest.TestCase):
              patch.object(daily, "run_logged_process") as runner:
             runner.return_value = SimpleNamespace(returncode=1, timed_out=True)
             with self.assertRaises(TimeoutError):
-                daily.execute(["opencode.cmd", "run"], log, timeout=3600)
+                daily.execute(["codex", "exec"], log, timeout=3600)
             def fail(command, **kwargs):
                 kwargs["stderr_path"].write_text("HTTP 401 bad credentials")
                 return SimpleNamespace(returncode=1, timed_out=False)

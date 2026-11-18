@@ -19,9 +19,9 @@ from pathlib import Path
 from typing import Any, Mapping
 
 try:
-    from scripts.research_audit import GROK_FROM, GROK_CHANNELS, project_research_audit, research_policy
+    from scripts.research_audit import GROK_REPORT_DATE, GROK_CHANNELS, project_research_audit, research_policy
 except ModuleNotFoundError:
-    from research_audit import GROK_FROM, GROK_CHANNELS, project_research_audit, research_policy
+    from research_audit import GROK_REPORT_DATE, GROK_CHANNELS, project_research_audit, research_policy
 
 try:
     from scripts.pipeline_contracts import (
@@ -288,11 +288,11 @@ def _validate_part2_coverage(value: Any, report_date: str | None = None) -> dict
         raise ReportBuilderError("failed Part 2 coverage must fail every account with zero completions")
     channel_order = CURRENT_PART2_CHANNEL_ORDER if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_CHANNEL_ORDER
     selected_channels = CURRENT_PART2_SELECTED_CHANNELS if report_date and report_date >= CURRENT_PART2_ORDER_FROM else LEGACY_PART2_SELECTED_CHANNELS
-    if report_date and report_date >= GROK_FROM:
+    if report_date and report_date == GROK_REPORT_DATE:
         channel_order = GROK_CHANNELS
         selected_channels = {"+".join(c for i, c in enumerate(channel_order) if mask & (1 << i)) for mask in range(1, 8)}
     attempted = coverage.get("attempted_channels")
-    unavailable = report_date and report_date >= GROK_FROM and coverage["status"] == "failed"
+    unavailable = report_date and report_date == GROK_REPORT_DATE and coverage["status"] == "failed"
     if not isinstance(attempted, list) or (not attempted and not unavailable) or attempted != list(channel_order[:len(attempted)]):
         raise ReportBuilderError("search_log.part2_coverage.attempted_channels must be an ordered channel prefix")
     selected = coverage.get("selected_channel")
@@ -366,6 +366,8 @@ def _validate_search_log(value: Any, report_date: str | None = None) -> dict[str
             raise ReportBuilderError("new Part 2 reports cannot use web_access_xai")
         if not isinstance(data.get("part2_result"), str) or not data["part2_result"].strip():
             raise ReportBuilderError("search_log.part2_result must be a non-empty string")
+    if report_date and report_date > GROK_REPORT_DATE and data.get("part2_channel") == "grok_x":
+        raise ReportBuilderError("new Part 2 reports cannot use grok_x")
     if data.get("part2_channel") is not None and data["part2_channel"] not in PART2_CHANNELS:
         raise ReportBuilderError("search_log.part2_channel is unsupported")
     if report_date and report_date >= CURRENT_PART2_ORDER_FROM and data.get("part2_channel") == "web_access_xai":

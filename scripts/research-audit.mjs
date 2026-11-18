@@ -1,7 +1,7 @@
 import fs from "node:fs";
 
 export const RESEARCH_POLICIES = JSON.parse(fs.readFileSync(new URL("../data/research_policy.json", import.meta.url), "utf8")).policies;
-export const GROK_FROM = RESEARCH_POLICIES[0].effective_from;
+export const GROK_REPORT_DATE = RESEARCH_POLICIES[0].effective_from;
 export const GROK_CHANNEL_ORDER = ["grok_x", "playwright", "twscrape"];
 export const GROK_SELECTED_CHANNELS = new Set(Array.from({ length: 7 }, (_, n) => GROK_CHANNEL_ORDER.filter((_, i) => (n + 1) & (1 << i)).join("+")));
 const REJECTION_CODES = new Set(["non_target_metal", "no_supply_demand", "no_new_facts", "not_interview", "promotion_only", "duplicate", "out_of_window"]);
@@ -11,9 +11,10 @@ export function validateResearchAudit(report, filename) {
   const audit = report.search_log.research_audit;
   const fail = (message) => { throw new Error(`${filename}: research audit: ${message}`); };
   if (!audit) {
-    if (report.date >= GROK_FROM) fail("research_audit is required for Grok reports");
+    if (report.date === GROK_REPORT_DATE) fail("research_audit is required for Grok reports");
     return;
   }
+  if (report.date > GROK_REPORT_DATE) fail("Grok research is archived for this date");
   const applicable = RESEARCH_POLICIES.filter((p) => p.effective_from <= report.date).at(-1);
   const policy = RESEARCH_POLICIES.find((p) => p.version === audit.policy_version);
   if (!policy || (applicable && applicable.version !== policy.version)) fail("incorrect research policy version");

@@ -320,12 +320,66 @@ def positive_seconds(value: str) -> float:
     return parsed
 
 
+def snapshot_daily_prompt(run_dir: Path) -> tuple[Path, str]:
+    """Read the current UTF-8 instructions once and retain the exact run input."""
+    content = (ROOT / "Daily_Task_Prompt.md").read_bytes()
+    if not content.decode("utf-8-sig").strip():
+        raise ValueError("Daily_Task_Prompt.md is empty")
+    snapshot = run_dir / "Daily_Task_Prompt.md"
+    snapshot.write_bytes(content)
+    return snapshot, hashlib.sha256(content).hexdigest()
+
+
+def codex_command(prompt: str, run_dir: Path, model: str | None = None,
+                  sandbox_mode: str = "workspace-write") -> list[str]:
+    if sandbox_mode not in {"workspace-write", "danger-full-access"}:
+        raise ValueError("Unsupported Codex sandbox mode")
+    if os.name == "nt":
+        shell = Path(os.environ.get("SystemRoot", r"C:\Windows")) / "System32/WindowsPowerShell/v1.0/powershell.exe"
+        prompt = (
+            f"Windows tool requirement: on EVERY exec_command tool call explicitly set shell={shell} "
+            "and login=false. The WindowsApps Microsoft Store pwsh.exe cannot launch in this sandbox; "
+            "the system Windows PowerShell above has been verified. Use explicit UTF-8 when reading "
+            "Chinese Markdown. Do not relax sandbox permissions to work around the shell.\n\n" + prompt
+        )
+    command = ["codex", "--no-daemon", "--search", "--ask-for-approval", "never", "exec",
+               "--sandbox", sandbox_mode]
+    if sandbox_mode == "workspace-write":
+        command.extend(["-c", "sandbox_workspace_write.network_access=true",
+                        "-c", "windows.sandbox=\"unelevated\"", "--add-dir", str(ROOT / ".git")])
+    command.extend(["--cd", str(ROOT), "--json", "--output-last-message", str(run_dir / "codex-final.txt")])
+    if model:
+        command.extend(["--model", model])
+    return [*command, prompt]
+
+
+def scheduled_environment() -> dict[str, str]:
+    env = os.environ.copy()
+    env.pop("NODE_OPTIONS", None)
+    env["PYTHONIOENCODING"] = "utf-8"
+    if os.name != "nt":
+        return env
+    inherited = [part for part in env.get("PATH", "").split(os.pathsep) if part]
+    # Store executables/aliases cannot launch under the restricted token.
+    inherited = [part for part in inherited if not any(
+        component.casefold() == "windowsapps" for component in Path(part).parts)]
+    system = Path(env.get("SystemRoot", r"C:\Windows")) / "System32"
+    env["PATH"] = os.pathsep.join([
+        str(Path.home() / "AppData/Local/Programs/OpenAI/Codex/bin"),
+        str(Path.home() / "AppData/Roaming/npm"), r"C:\Program Files\nodejs",
+        r"C:\Program Files\Git\cmd", r"C:\Program Files\GitHub CLI",
+        str(system / "WindowsPowerShell/v1.0"), str(system), *inherited])
+    return env
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--verify-only", action="store_true", help="Never invoke AI, collect, or write a report")
     parser.add_argument("--resume", action="store_true", help="Reuse an existing report; automatic AI recovery is not supported")
     parser.add_argument("--report-date", type=date.fromisoformat, help="Only with --verify-only or --resume")
-    parser.add_argument("--model", help="Optional explicit installed opencode model; no default model override")
+    parser.add_argument("--model", help="Optional explicit Codex model; otherwise use the saved CLI configuration")
+    parser.add_argument("--codex-sandbox", choices=("workspace-write", "danger-full-access"),
+                        default="workspace-write", help="Full access requires explicit authorization for this task")
     parser.add_argument("--ai-timeout", type=positive_seconds, default=10800, help="AI whole-run seconds (minimum 3600)")
     parser.add_argument("--command-timeout", type=positive_seconds, default=1800)
     parser.add_argument("--poll-timeout", type=positive_seconds, default=1800)
@@ -361,13 +415,7 @@ def main(argv: list[str] | None = None) -> int:
                 state["heartbeat"] = {"at": datetime.now(BEIJING).isoformat(), **info}
                 persist()
 
-            env = os.environ.copy()
-            env.pop("NODE_OPTIONS", None)
-            env["PYTHONIOENCODING"] = "utf-8"
-            if os.name == "nt":
-                env["PATH"] = os.pathsep.join([
-                    str(Path.home() / "AppData/Roaming/npm"), r"C:\Program Files\nodejs",
-                    r"C:\Program Files\Git\cmd", r"C:\Program Files\GitHub CLI", env.get("PATH", "")])
+            env = scheduled_environment()
             npm = "npm.cmd" if os.name == "nt" else "npm"
             persist()
             with (run_dir / "wrapper.log").open("a", encoding="utf-8") as log:
@@ -390,6 +438,10 @@ def main(argv: list[str] | None = None) -> int:
                         persist()
 
                 try:
+                    prompt_snapshot, prompt_hash = stage("prompt", lambda: snapshot_daily_prompt(run_dir))
+                    state.update(daily_prompt_sha256=prompt_hash, daily_prompt_snapshot=str(prompt_snapshot),
+                                 ai_runner="codex exec", codex_sandbox=args.codex_sandbox)
+                    persist()
                     target = ROOT / f"data/{report_date}.json"
                     if target.exists():
                         state["stages"]["ai"] = {"status": "skipped", "started_at": now.isoformat(),
@@ -401,15 +453,16 @@ def main(argv: list[str] | None = None) -> int:
                     else:
                         prompt = (
                             f"RUN_DATE={now.date()}, REPORT_DATE={report_date}, Asia/Shanghai. "
-                            "Read Daily_Report_Workflow.md first and attached Daily_Task_Prompt.md fully. "
+                            f"Read Daily_Report_Workflow.md first and {prompt_snapshot} fully. "
+                            "That file is the exact Daily_Task_Prompt.md read at the start of this run. "
                             "Execute the authorized daily workflow, including first publication. Preserve and exclude "
                             "unrelated working-tree changes. Freeze these dates if crossing midnight. Do not edit "
-                            "the scheduler entry script. On a blocker report failure explicitly."
+                            "the scheduler entry script. The parent wrapper owns the scheduled-daily lock and will "
+                            "perform final publication verification: do not recursively invoke run_scheduled_daily.py "
+                            "or launch another AI runner. Use the authorized local Playwright X collector; PiChrome "
+                            "grants from another process are not inherited. On a blocker report failure explicitly."
                         )
-                        command = ["opencode.cmd", "run", "--auto"]
-                        if args.model:
-                            command.extend(["--model", args.model])
-                        command.extend(["--file", str(ROOT / "Daily_Task_Prompt.md"), prompt])
+                        command = codex_command(prompt, run_dir, args.model, args.codex_sandbox)
                         stage("ai", lambda: execute(command, log, timeout=args.ai_timeout, heartbeat=heartbeat, env=env))
                     stage("report", lambda: require_report(target, report_date))
                     # Bind success to the exact local inputs checked during this run.

@@ -14,12 +14,14 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent
 POLICIES = json.loads((ROOT / "data/research_policy.json").read_text(encoding="utf-8"))["policies"]
-GROK_FROM = POLICIES[0]["effective_from"]
+GROK_REPORT_DATE = POLICIES[0]["effective_from"]
 GROK_CHANNELS = ("grok_x", "playwright", "twscrape")
 REJECTION_CODES = frozenset({"non_target_metal", "no_supply_demand", "no_new_facts", "not_interview", "promotion_only", "duplicate", "out_of_window"})
 
 
 def research_policy(report_date: str, version: int | None = None) -> dict[str, Any]:
+    if report_date > GROK_REPORT_DATE:
+        raise ValueError("Grok research is archived; use the Codex workflow for this date")
     policies = [p for p in POLICIES if p["version"] == version] if version is not None else [
         p for p in POLICIES if p["effective_from"] <= report_date
     ]
@@ -57,7 +59,7 @@ def load_artifact(reference: Any) -> tuple[dict[str, Any], str]:
 def project_research_audit(bundle: dict[str, Any], projected: list[dict[str, Any]], content_checked: set[str]) -> dict[str, Any] | None:
     reference = bundle.get("collection_manifest")
     if reference is None:
-        if bundle["report_date"] >= GROK_FROM:
+        if bundle["report_date"] == GROK_REPORT_DATE:
             raise ValueError("collection_manifest is required for Grok reports")
         return None
     manifest, digest = load_artifact(reference)

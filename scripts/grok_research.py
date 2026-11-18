@@ -44,6 +44,7 @@ def prepare_collection(collection_path: Path) -> Path:
         raise ValueError("report already exists; verify/resume publication without recollecting or overwriting")
     if manifest.get("windows") != calculate_windows(report_date):
         raise ValueError("collection windows do not match the frozen report date")
+    policy = research_policy(report_date, manifest["policy_version"])
     sources = {s["source_id"]: s for s in manifest["sources"]}
     for source in manifest["sources"]:
         source["candidate_ids"] = []
@@ -70,7 +71,6 @@ def prepare_collection(collection_path: Path) -> Path:
             account["candidate_ids"].append(cid)
         else:
             sources[candidate["source_id"]]["candidate_ids"].append(cid)
-    policy = research_policy(report_date, manifest["policy_version"])
     for expected in policy["sources"]:
         source = sources.get(expected["source_id"])
         if not source or source["status"] not in {"complete", "partial", "failed"}:
