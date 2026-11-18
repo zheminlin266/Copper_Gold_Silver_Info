@@ -1,0 +1,117 @@
+X 原始候选 — 2026-11-18
+采集时间: 2026-11-19T07:01:19.446108+08:00
+选定通道: playwright
+尝试通道: playwright, twscrape
+不可用通道: 无
+采集方法: ordered Playwright -> twscrape
+搜索词: (gold OR silver OR copper OR mining OR mine OR production OR supply OR demand OR permit OR smelter OR mill OR drill OR resource OR reserve)
+账号批次: 6 个人 + 18 官方
+账号审计: 5/24 完成，失败 19
+各通道完成账户数: {"playwright": 5, "twscrape": 0}
+采集状态: partial
+失败账号数: 19
+通道错误: playwright @WalterColesJr: no explicit no-results marker; completeness unknown; playwright @ivanbebek: no explicit no-results marker; completeness unknown; playwright @IvanhoeMines_: no explicit no-results marker; completeness unknown; playwright @FreeportMcMoRan: no explicit no-results marker; completeness unknown; playwright @NewmontCorp: no explicit no-results marker; completeness unknown; playwright @BarrickGold: no explicit no-results marker; completeness unknown; playwright @TeckResources: no explicit no-results marker; completeness unknown; playwright @AntofagastaPLC: no explicit no-results marker; completeness unknown; playwright @LundinMining: no explicit no-results marker; completeness unknown; playwright @AgnicoEagle: no explicit no-results marker; completeness unknown; playwright @FirstMajestic: no explicit no-results marker; completeness unknown; playwright @PanAmericanSlvr: no explicit no-results marker; completeness unknown; playwright @Wheaton_PM: no explicit no-results marker; completeness unknown; playwright @EndeavourMining: no explicit no-results marker; completeness unknown; playwright @SSRMining: no explicit no-results marker; completeness unknown; playwright @SandstormGold: no explicit no-results marker; completeness unknown; playwright @Fortuna_Silver: no explicit no-results marker; completeness unknown; playwright @GoGoldResources: no explicit no-results marker; completeness unknown; playwright @vizslasilver: no explicit no-results marker; completeness unknown; twscrape @WalterColesJr: No account available for queue SearchTimeline; twscrape: twscrape safety stop for @WalterColesJr: No account available for queue SearchTimeline; @WalterColesJr: No account available for queue SearchTimeline; @ivanbebek: no explicit no-results marker; completeness unknown; @IvanhoeMines_: no explicit no-results marker; completeness unknown; @FreeportMcMoRan: no explicit no-results marker; completeness unknown; @NewmontCorp: no explicit no-results marker; completeness unknown; @BarrickGold: no explicit no-results marker; completeness unknown; @TeckResources: no explicit no-results marker; completeness unknown; @AntofagastaPLC: no explicit no-results marker; completeness unknown; @LundinMining: no explicit no-results marker; completeness unknown; @AgnicoEagle: no explicit no-results marker; completeness unknown; @FirstMajestic: no explicit no-results marker; completeness unknown; @PanAmericanSlvr: no explicit no-results marker; completeness unknown; @Wheaton_PM: no explicit no-results marker; completeness unknown; @EndeavourMining: no explicit no-results marker; completeness unknown; @SSRMining: no explicit no-results marker; completeness unknown; @SandstormGold: no explicit no-results marker; completeness unknown; @Fortuna_Silver: no explicit no-results marker; completeness unknown; @GoGoldResources: no explicit no-results marker; completeness unknown; @vizslasilver: no explicit no-results marker; completeness unknown
+失败账号:
+  @WalterColesJr (Walter Coles Jr.): No account available for queue SearchTimeline
+  @ivanbebek (Ivan Bebek): no explicit no-results marker; completeness unknown
+  @IvanhoeMines_ (Ivanhoe Mines): no explicit no-results marker; completeness unknown
+  @FreeportMcMoRan (Freeport-McMoRan): no explicit no-results marker; completeness unknown
+  @NewmontCorp (Newmont): no explicit no-results marker; completeness unknown
+  @BarrickGold (Barrick Gold): no explicit no-results marker; completeness unknown
+  @TeckResources (Teck Resources): no explicit no-results marker; completeness unknown
+  @AntofagastaPLC (Antofagasta): no explicit no-results marker; completeness unknown
+  @LundinMining (Lundin Mining): no explicit no-results marker; completeness unknown
+  @AgnicoEagle (Agnico Eagle): no explicit no-results marker; completeness unknown
+  @FirstMajestic (First Majestic Silver): no explicit no-results marker; completeness unknown
+  @PanAmericanSlvr (Pan American Silver): no explicit no-results marker; completeness unknown
+  @Wheaton_PM (Wheaton Precious Metals): no explicit no-results marker; completeness unknown
+  @EndeavourMining (Endeavour Mining): no explicit no-results marker; completeness unknown
+  @SSRMining (SSR Mining): no explicit no-results marker; completeness unknown
+  @SandstormGold (Sandstorm Gold): no explicit no-results marker; completeness unknown
+  @Fortuna_Silver (Fortuna Mining): no explicit no-results marker; completeness unknown
+  @GoGoldResources (GoGold Resources): no explicit no-results marker; completeness unknown
+  @vizslasilver (Vizsla Silver): no explicit no-results marker; completeness unknown
+============================================================
+
+总计候选: 7 条
+
+============================================================
+
+[1] @peter_krauth (Peter Krauth)
+    UTC: 2026-11-18T14:00:00+00:00
+    北京: 2026-11-18T22:00:00+08:00
+    文本: Silver at $47. Crunch time?
+
+Corrections test conviction. But the 3 charts I'm watching tell a much bigger story.
+
+I see compelling reasons to believe silver's next major move is higher.
+
+My latest Silver Stock Investor: 3 key charts, 6 company updates, and more.
+    链接: https://x.com/peter_krauth/status/2123053613928898775
+
+[2] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-11-18T15:04:06+00:00
+    北京: 2026-11-18T23:04:06+08:00
+    文本: No idea.
+
+But it has always lagged gold...
+    链接: https://x.com/duediligenceguy/status/2123069746052559215
+
+[3] @duediligenceguy (Lobo Tiggre)
+    UTC: 2026-11-18T12:03:00+00:00
+    北京: 2026-11-18T20:03:00+08:00
+    文本: I’ve seen copper jewelry in Africa.
+    链接: https://x.com/duediligenceguy/status/2123024170787422624
+
+[4] @Junior_Stock (Brian Leni)
+    UTC: 2026-11-18T12:56:12+00:00
+    北京: 2026-11-18T20:56:12+08:00
+    文本: Thank you - Im certainly apart of the production, but Aaron and Tristan are the really talent!
+    链接: https://x.com/Junior_Stock/status/2123037555910156540
+
+[5] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-11-18T15:00:04+00:00
+    北京: 2026-11-18T23:00:04+08:00
+    文本: Pan Global Resources is advancing new gold discoveries at Cármenes and copper exploration at Escacena in Spain.
+
+CEO Tim Moody discusses 25 exploration targets, ongoing drilling and upcoming catalysts.
+
+Watch 
+
+https://
+youtu.be/Z2cSXQGaEQs
+
+
+@panglobalspain
+ | 
+$PGZ.V
+ | #coi
+    链接: https://x.com/soarfinancial/status/2123068728493609362
+
+[6] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-11-18T14:00:00+00:00
+    北京: 2026-11-18T22:00:00+08:00
+    文本: Cassiar Gold is advancing its 2.3M oz Taurus gold resource in BC, with 10,000m of drilling completed.
+
+CEO Marco Roque discusses pending assays, a Q1 2027 PEA and high-grade potential at Cassiar South.
+
+Watch 
+
+https://
+youtu.be/-zeAlzfS3b0
+
+
+@CassiarGold
+ | 
+$GLDC.V
+ | #coi
+    链接: https://x.com/soarfinancial/status/2123053614046532064
+
+[7] @soarfinancial (Kai Hoffmann)
+    UTC: 2026-11-18T13:00:02+00:00
+    北京: 2026-11-18T21:00:02+08:00
+    文本: Dynasty Gold Corp. (TSXV: $DYG) continues to identify exploration potential beyond the main Pelham deposit at Thundercloud in Ontario.
+
+Recent South-Pelham drilling intersected multiple gold-mineralized zones, with a 700m gold-in-soil anomaly trend offering additional targets for
+    链接: https://x.com/soarfinancial/status/2123038521405706241
+
