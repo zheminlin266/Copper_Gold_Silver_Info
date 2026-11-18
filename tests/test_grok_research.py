@@ -13,7 +13,7 @@ from scripts.grok_research import ROOT, discovery_template, prepare_collection
 from scripts.report_builder import ReportBuilderError, build_report, calculate_windows, project_report, validate_report
 
 PUBLISHED_FIXTURE_DATE = "2026-11-17"
-PUBLISHED_FIXTURE_SHA256 = "fb7883345206842e96aba7b634f6a5c3d44e46d92ac061f92bbcfa55c683642d"
+PUBLISHED_FIXTURE_SHA256 = "e015e13ad2c35e06cf5ab6bfaa0cd3f42ac54a9198707c9086b95aaff8b9c55d"
 
 
 def _canonical_report_bytes(data: bytes) -> bytes:
@@ -236,6 +236,13 @@ class GrokResearchTests(unittest.TestCase):
             prepare_collection(blocked)
         self.assertEqual(published.read_bytes(), before)
         self.assertEqual(hashlib.sha256(_canonical_report_bytes(published.read_bytes())).hexdigest(), PUBLISHED_FIXTURE_SHA256)
+
+    def test_historical_withdrawals_require_a_report_revision_note(self):
+        published = ROOT / "data" / f"{PUBLISHED_FIXTURE_DATE}.json"
+        report = json.loads(published.read_text(encoding="utf-8"))
+        del report["report_note"]
+        with self.assertRaisesRegex(ReportBuilderError, "editorial rejection reason"):
+            validate_report(report)
 
     def test_interrupted_prepare_recovers_only_the_missing_analysis_file(self):
         from scripts.grok_research import _atomic_write_json

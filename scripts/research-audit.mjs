@@ -84,7 +84,9 @@ export function validateResearchAudit(report, filename) {
       if (!source || source.kind !== item.kind || !source.candidate_ids.includes(item.id)) fail(`candidate ${item.id} is not bound to its discovery source`);
     }
     if (item.decision === "reject") {
-      if (!REJECTION_CODES.has(item.reason_code) || !item.reason.trim() || item.signal_url !== null) fail(`candidate ${item.id} needs an editorial rejection reason; technical failures remain pending_verification`);
+      const withdrawn = item.reason_code === "insufficient_verification"
+        && report.date === GROK_REPORT_DATE && Boolean(report.report_note) && !item.content_checked;
+      if ((!withdrawn && !REJECTION_CODES.has(item.reason_code)) || !item.reason.trim() || item.signal_url !== null) fail(`candidate ${item.id} needs an editorial rejection reason; technical failures remain pending_verification`);
       if (["no_supply_demand", "no_new_facts", "promotion_only"].includes(item.reason_code) && !item.content_checked) fail(`candidate ${item.id} cannot be rejected on content before its source body is checked`);
     } else if (item.decision === "accept") {
       if (!item.signal_url) fail(`accepted candidate ${item.id} lacks a signal URL`);
