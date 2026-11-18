@@ -107,6 +107,10 @@ class GrokResearchTests(unittest.TestCase):
         bundle["search_log"]["url_verification"] = {"checked": 1, "passed": 1, "failed": 0, "failures": []}
         return bundle
 
+    def test_grok_discovery_stops_after_the_published_report(self):
+        with self.assertRaisesRegex(ValueError, "Grok research is archived"):
+            discovery_template("2026-11-18")
+
     def test_native_grok_handoff_accepts_body_captured_after_discovery_freeze(self):
         bundle = self.accepted_bundle()
         report = build_report(bundle)

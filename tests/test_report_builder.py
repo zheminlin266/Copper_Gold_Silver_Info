@@ -100,6 +100,30 @@ class ReportBuilderTests(unittest.TestCase):
         report = project_report(bundle, report_time="2026-08-18T07:00:00+08:00")
         self.assertEqual(report["search_log"]["part2_channel"], "twscrape")
 
+    def test_codex_report_after_grok_cutover_builds_with_playwright_audit(self):
+        bundle = self.bundle()
+        bundle.update(report_date="2026-11-18", candidates=[], decisions=[])
+        log = bundle["search_log"]
+        log.update(
+            part2_coverage={
+                "status": "complete", "accounts_total": 1, "accounts_completed": 1, "accounts_failed": 0,
+                "attempted_channels": ["playwright"], "selected_channel": "playwright",
+                "channel_errors": [], "notes": [],
+            },
+            url_verification={"checked": 0, "passed": 0, "failed": 0, "failures": []},
+        )
+        report = build_report(bundle, report_time="2026-11-19T07:00:00+08:00")
+        self.assertNotIn("research_audit", report["search_log"])
+        published = Path(__file__).resolve().parents[1] / "data/2026-11-17.json"
+        report["search_log"]["research_audit"] = json.loads(
+            published.read_text(encoding="utf-8")
+        )["search_log"]["research_audit"]
+        with self.assertRaisesRegex(ReportBuilderError, "Grok research is archived"):
+            validate_report(report)
+        log["part2_coverage"]["attempted_channels"] = ["grok_x"]
+        with self.assertRaisesRegex(ReportBuilderError, "ordered channel prefix"):
+            project_report(bundle)
+
     def test_partial_news_exception_keeps_false_audit_and_cannot_extend_to_next_day(self):
         for day in ("2026-10-30", "2026-10-31", "2026-11-01"):
             bundle = self.bundle()

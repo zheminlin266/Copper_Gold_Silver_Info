@@ -1,6 +1,6 @@
 # 每日信息工作流
 
-本文是 Grok bot 生成“金银铜供需信息”日报及执行每周 TC 更新的唯一执行规范。网站代码只负责展示；每日任务新增一份日报 JSON，周六任务还可以按第 9A 节追加一条 TC CSV 数据，不生成 HTML，不手工更新首页。页面用中文，如原文是英文请翻译成地道中文，在专有名词、术语时保留英文原词。
+本文是 生成“金银铜供需信息”日报及执行每周 TC 更新的唯一执行规范。网站代码只负责展示；每日任务新增一份日报 JSON，周六任务还可以按第 9A 节追加一条 TC CSV 数据，不生成 HTML，不手工更新首页。页面用中文，如原文是英文请翻译成地道中文，在专有名词、术语时保留英文原词。
 
 ## 1. 不变量
 
@@ -25,7 +25,7 @@
 
 ## 3. 开始前检查
 
-1. 读取本文件、`Daily_Task_Prompt.md`、`data/research_policy.json`、`data/source_registry.json`、`data/daily_report_schema.json`、最近三份 `data/*.json`、`mining_people_broadcast_x_articles.csv`、`data/sources_discovered.json` 和 `data/conference_calendar.json`。
+1. 读取本文件、`data/daily_report_schema.json`、最近三份 `data/*.json`、`mining_people_broadcast_x_articles.csv`、`data/sources_discovered.json` 和 `data/conference_calendar.json`。
 2. 检查 `git status`，保留用户已有修改，不覆盖、回滚、删除或提交无关文件。`.pi/schedule-prompts.json`、已完成日报的历史 X 原始材料，以及用户另行授权维护的代码、Prompt/工作流文档均须与日常任务隔离；这些文件未提交本身不构成阻塞。其他修改先只读检查，只有与目标日报、TC 或执行代码冲突、存在并发写入或无法安全隔离时才停止。日常任务不自行编辑或提交上述维护文件；明确授权的手动维护走第 11.1 节。
 3. 检查 `data/REPORT_DATE.json` 是否存在。已存在时先核对冻结日期，停止采集与写入，仅恢复已有成品的校验和发布；已发布且核验通过则幂等成功。历史内容纠错须有用户明确授权并遵守第 9 节，不因重跑或文档维护自动改写日报。
 4. 记录三个时间窗口，后续每条候选都据此筛选。
@@ -33,28 +33,23 @@
 
 种子 CSV 是发现入口，不是白名单。可靠的新人物、公司、媒体或监管来源可以纳入，写入 `search_log.new_sources_discovered`，并在核验后追加到 `data/sources_discovered.json`，不得覆盖原有记录。会议窗口内还要按 `data/conference_calendar.json` 增加主办方、演讲者和回放检索。
 
-## 4. Grok bot 工具与职责
+## 4. 工具与职责
 
-正式研究执行者为 Grok bot。开始时确认实际仓库根目录、已安装的 Python 3.12/3.13、Node.js 24、Git/GitHub 权限以及当前可用的网页、X、PDF和浏览器工具。路径和工具名以运行环境预检为准，不照搬历史 Windows、Pi 或 Codex 配置，不嵌套启动另一个 AI runner。网站本身不调用模型、不保存模型密钥。
+运行时须先确认实际仓库根目录、Node.js 24 和 Python 3.12 解释器。本文 Windows 固定路径只适用于既有 Windows 环境；Linux / 云端使用本任务中已确认的 Python 3.12 虚拟环境和实际仓库路径，不照搬 `C:/` 或 `D:/` 示例。`--verify-only` 自动选择当前系统的 npm 命令。Mining 隔离浏览器沿用配置代理并保存每次运行的访问证据；403 / challenge 仍是失败，不能因代码已适配云端就宣称采集完成。
 
-Grok 负责用实际工具发现来源、读取正文、提取事实、语义去重、供需判断和中文写作；代码负责日期窗口、规范化 ID、冻结采集清单、候选对账、证据约束、最终 JSON 写入、测试、构建与发布验证。每日先完成必查来源的发现，再分批核验和写研究卡，不能在只查完部分来源时提前结束。
-
-新契约自报告日期 `2026-11-17` 起强制执行，历史成品不回填。直接使用当前 Python 解释器：
+代码是确定性边界，负责日期窗口、preflight、来源 registry、各采集器、规范化、技术核验、通道审计、最终 JSON 写入、schema/内容校验、测试、构建和发布。用户已授权本定时任务在全部检查通过后自动执行精确范围的 Git 提交和推送，无需逐次确认；该授权不允许夹带其他文件或绕过失败边界。统一入口为：
 
 ```bash
-python scripts/grok_research.py init YYYY-MM-DD
-# Grok 依第 5 节将真实工具结果填入输出的 collection.json
-python scripts/grok_research.py prepare .runtime/grok/YYYY-MM-DD/collection.json
-# Grok 只完善生成的 analysis.json 中的 summary、decisions、核验与去重记录
-python scripts/report_builder.py .runtime/grok/YYYY-MM-DD/analysis.json --validate-only
-python scripts/report_builder.py .runtime/grok/YYYY-MM-DD/analysis.json
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --dry-run
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-mining
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/daily_pipeline.py YYYY-MM-DD --collect-x
 ```
 
-`init` 未给日期时取北京时间昨天；生成后日期固定，跨午夜不重算。`prepare` 规范化候选 ID，保存不可覆盖的 `collection.frozen.json`，将完整候选及 SHA-256 引用写入分析包。禁止删改分析包中的候选或修改冻结清单来规避检查。输入字段及可复制样例见 `scripts/README.md`。
+这些命令是采集与流程入口；不表示已经存在 AI API 集成。流水线对同日同一采集器加跨进程锁；不同采集器可以独立运行，X 另有跨日期的共享账号锁。stdout/stderr 实时写入运行目录，每个完成的采集器立即保存 `*.result.json`、候选和清单；Mining 各分类完成后还保存各自候选文件。进程心跳保存在 `*.process.json`，清单未完成不代表零结果。
 
-现有 `daily_pipeline.py --collect-mining` 可继续作为 Grok 的采集工具，读取完整保存结果后导入本次 collection；它的 `status=complete` 只表示此次显式运行的采集器完成，不能代表整期研究完成。普通公开页面优先用当前搜索与网页读取工具，动态列表或困难原文才使用已授权浏览器。
+定时主流程必须等待所有采集命令和委派任务结束、读取其最终结果后再汇总、生成日报及发布；不能以“仍在等待采集”的进度汇报结束主流程。定时任务的关键路径委派使用前台执行，不启动无人收尾的后台研究。恢复时先确认旧采集进程已退出，复用已有候选、sidecar 和已生成日报，不重复 X 采集，不覆盖原始材料或日报。
 
-定时主流程必须等待采集和工具调用结束，读取最终结果，再汇总和发布。逐源、逐账号、逐批保存结果；中断后先确认旧运行停止并复用材料。用户已授权的日常 Git 提交和推送仍仅限当日报告、周六 TC、必要的按日期审计材料和经核验的新来源登记；不得提交代码、工作流或绕过失败边界。维护走第 11.1 节。
+AI 只接收代码产出的规范化候选，返回严格的分析决策和证据字段（事实提取、供需判断、去重、中文摘要等）。日报 JSON 的最终写入仍必须由代码完成，AI 不得手工写入 `data/YYYY-MM-DD.json`；在本次已授权的定时任务范围内，AI 可在全部研究和校验通过后运行精确路径的 Git add/commit/push。只可提交本次日报、周六按第 9A 节更新的 TC CSV、必要的按日期原始材料及明确纠错，不得提交其他文件，也不得把采集器失败静默当成零结果；Part 1/Part 3 失败阻止发布，X partial/failed 按第 5.2 节保留审计并降级。普通公开网页优先使用搜索和网页读取工具。Browser Use 只用于需要真实浏览器交互、登录会话或动态页面的任务，主要是 X；困难原文核验可按第 7.1 节使用已授权的 PiChrome 现有会话，不扩大为所有页面抓取。网站本身不调用模型，也不保存模型密钥。
 
 ## 5. 收集流程
 
@@ -72,15 +67,13 @@ python scripts/report_builder.py .runtime/grok/YYYY-MM-DD/analysis.json
 
 ### 5.2 Part 2：X 原帖
 
-主路径为用户已授权的 Grok 原生 X 工具，真实通道名统一为 `grok_x`。逐账号按 `data/source_registry.json` 核对 handle、用户 ID 与官方主体；记录原帖 URL、正文、真实发布时间、查询范围、分页游标或终止证据。工具只支持按 UTC 日期检索时扩大日期范围，再按原帖时间精确过滤北京时间窗口；查询日期和抓取时间不能替代发布时间。
+**X 采集外层超时预算固定为 60 分钟（3600 秒）**：执行 `scripts/daily_pipeline.py YYYY-MM-DD --collect-x` 或直接执行 `scripts/x_search.py` 时，命令执行工具的总超时必须显式设置为 `3600` 秒；工具以毫秒计时则设置为 `3600000`。该预算覆盖完整的 `Playwright -> twscrape` 采集链，不是单账号、单次页面导航或整份日报的超时。外层委派或包装调用不得设置更短的超时，不得沿用历史运行的 1000 秒预算。保持账号间 25–30 秒安全等待和现有单次请求超时不变；认证、限流或其他安全停止仍须立即停止。若达到 60 分钟仍未完成，保留现场并报告超时，不自动重试 X；先确认旧进程已退出并核查已有材料，不得把未完成采集记为完整零结果。
 
-每个账号写入 collection 的 `x_accounts`。只有身份核验和窗口内分页均完成，才可标 `status=complete`；无结果也须有真实查询与终止证据。解析失败、停用、错误主体、未翻完或触及结果上限均不能算零帖成功。分组查询的空结果不能代替逐账号身份与覆盖审计。未完成账号保留 partial/failed 和具体原因。
+X 的本地采集统一由当前仓库 `scripts/x_search.py` 负责，并必须按 `Playwright -> twscrape` 顺序尝试。Playwright 先按注册表顺序串行处理全部账号，账号间默认随机等待 25–30 秒；完整成功（包括真实零结果）即结束。普通通道不可用、普通失败或账号级失败只把未完成账号交给 twscrape。Playwright 路径使用日报固定的 Python 3.12.x（`C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe`）、项目内 `.browser_profile/chromium-data` 持久化会话和明确的 `C:/Program Files/Google/Chrome/Application/chrome.exe` 路径。401/403/429、登录墙、challenge、CAPTCHA、停权、No account available 或账号耗尽等安全停止不得启动后续通道。本任务仅使用该环境中的 Python、Playwright 和 twscrape 包，不调用 browser-use 的自动发现/本地 daemon 启动路径，也不要通过 `webbrowser.open("chrome://inspect/#remote-debugging")` 打开浏览器；后者在 Windows 上可能触发 Microsoft Store 的 Chrome 安装提示。运行前可使用 `C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe scripts/x_search.py --check-login --headless` 验证 Playwright 回退会话。
 
-`x_attempted_channels` 按实际尝试记录。新报告只允许 `grok_x -> playwright -> twscrape` 的有序前缀；后两个通道仅在实际环境、会话与授权均已确认且属于普通工具不可用时使用，不要求云端先运行本机登录会话。401/403/429、登录墙、challenge、CAPTCHA、停权或账号耗尽时保存现场并停止对应访问，不切换通道绕过限制。不得把原生 X 结果标成 playwright，也不得改校验器以通过日报。
+在已授权的浏览器会话中检索种子账号和新发现的可靠账号。只收录原作者帖子，必须核对作者、handle、正文、原帖 URL 和发布时间。
 
-X 整段预算上限 60 分钟；浏览器备用通道继续保留原有串行与安全等待，不缩短账号间隔，不自动重采集。恢复只读取持久化结果；重复采集须有明确授权。`prepare` 依据逐账号状态生成 n/N 和 coverage，发布前代码再次核对。X partial/failed 在 Part 1/3 必查来源完整时允许发布并展示真实覆盖。
-
-只收原作者新增事实；无新增事实的转发、回复、推广、纯价格目标和传闻按第 6 节排除。帖子中的项目数据仍须追溯原始事件日期，旧公告的当天转述不算新事件。
+以下内容不纳入：搜索摘要、截图转述、无法打开的帖子、无新增事实的转发、纯口号、纯价格目标和未经证实的传闻。每次运行必须保留 X 原始材料中的 `选定通道`、`尝试通道`、`不可用通道`和 sidecar 审计，并记录 `accounts_completed/accounts_total/accounts_failed`。新报告的 `search_log.part2_coverage` 必须记录状态、路径和失败原因；截至 `2026-08-19` 的历史报告继续接受旧路径，`2026-08-20` 起只接受 `Playwright -> twscrape` 有序前缀及 `null`、`playwright`、`twscrape`、`playwright+twscrape`。完整状态要求所有账号完成、`part2_searched=true`；partial/failed 仍可随 Part 1 和 Part 3 的完整结果发布，`part2_searched=false`、`part2_result` 必须包含覆盖审计，页面显示 n/N，不能写成完整零结果。
 
 ### 5.3 Part 3：新闻
 
@@ -92,22 +85,38 @@ X 整段预算上限 60 分钟；浏览器备用通道继续保留原有串行�
 
 对同一事件，优先保留一手来源；一手来源缺失时使用最接近原始事件、信息最完整的可靠报道。转载发布日期在窗口内、但原始事件已经在旧日报出现的，按重复事件排除。
 
-### 5.3A 来源清单、发现与核验闭环
+### 5.3A mining.com 强制抓取规则
 
-`data/research_policy.json` 是机器可读的分版本来源策略。每版的 `effective_from` 决定适用报告；已生效版本保持不变，后续调整追加新版本，避免改变历史审计。每个配置来源都必须有一次实际检查记录；required=false 表示失败可降级，不能直接省略。新可靠来源仍可追加本次清单，不受白名单限制。
+mining.com 对自动化请求启用了 CloudFront 反爬：普通 HTTP 客户端、`site:mining.com` Google 搜索和 WebFetch 均无法可靠获取 `/commodity/copper/` 页面的实际文章列表——Google 搜索返回的是首页/SEO 内容而非铜分类页文章。本节为每次 Part 3 检索的强制路径，必须按顺序执行：
 
-- Part 1 必查 The KE Report、Crux Investor、Resource Talks、Mining Stock Daily；另检查业绩电话会和会议日历。原始 RSS 可用于访谈日期核对；Mining.com 的 RSS 禁令不扩展到播客。
-- Part 3 必查 Newsfile、ASX、Mining.com 铜/金/银分类与 SMM 库存；其他分发商、RNS、JSE、发行人/官方来源按清单检查并如实记录降级。
-- Newsfile 使用真实 `?pg=N` 分页直到覆盖北京窗口。登记窗口内所有列表候选，再按金属、相关性与重复裁决，不能只登记准备入选的几条。
-- ASX 必须取得完整日期列表或等价完整索引并读取相关 PDF；搜索结果中的几条公告不能算完整公告流。正文超时先找发行人或交易所 PDF。
-- Mining.com 使用现有采集器或真实浏览器读取铜/金/银分类；保留各分类列表和窗口边界。不能用搜索引擎结果替代分类发现，不使用 sitemap、Wayback、RSS。文章日期必须由原文时间戳独立核验，不沿用分类页邻近日期；明确 UTC 与北京时间的跨日差异。
-- SMM 读取公开中文/英文正文或已授权可见内容；正文解码失败不得当作没有库存新闻，不混用社会库存、仓单和交易所库存。
+1. **Playwright 直接抓取铜分类页**（日报固定 Python 3.12.x + Chromium headless + 反检测）。这是铜分类页完整发现的强制主路径，不排除第 7.1 节的已验证文章核验回退。每次 Part 3 检索必须完成该分类发现；恢复时可按第 12 节复用同日、同注册表且分类完整的已保存结果及 provenance，无需重新采集：
+   ```
+   C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe
+   ```
+   脚本参数：
+   - 目标 URL：`https://www.mining.com/commodity/copper/`
+   - 浏览器：Chromium headless，添加 `--disable-blink-features=AutomationControlled` 和 `--no-sandbox`
+   - 上下文：user_agent 设为 Chrome 131 Windows、viewport 1920x1080、locale en-US
+   - 反检测：`add_init_script` 设置 `navigator.webdriver=false`、`navigator.plugins` 非空、`window.chrome={runtime:{}}`
+   - 提取：`page.evaluate()` 从 DOM 中提取所有包含 "July DD, 2026" 等当期日期的文章标题和链接
+   - **禁止** `site:mining.com` Google 搜索替代此步骤——该搜索在页面 403 时返回首页/SEO 内容而非铜分类页的实际文章列表，已在 2026-07-22 验证为不可靠
 
-每个来源记录 actual entry_urls、status、discovered_count、termination、边界/错误说明；complete 必须有 end_of_window 或 end_of_results 的实际依据。可恢复的正文核验失败与列表发现失败分别记录。正文核验按原站、发行人 IR、交易所 PDF、明确署名转载的顺序有限补查，保留原失败；遇访问门禁停止，不绕过限制。
+2. **逐篇核验**。Playwright 提取的候选列表每条都要：
+   - 优先尝试 WebFetch 抓取文章 URL 完整正文（部分 `/web/` URL 对 WebFetch 较友好）
+   - 若文章 URL 返回 403 或超时，可用 Playwright 同一会话或按第 7.1 节使用已授权 PiChrome 现有 profile 核验可见正文；遇到登录墙、challenge 或安全停止不得继续提取或重试
+   - 若仍不可读，寻找中文转载源（SMM、新浪财经、东方财富网等）交叉核验
+   - 在 `mining_com_source_note` 字段明确记录核验路径
 
-所有候选在冻结清单中保留，正文尚未读取时也登记标题、URL、来源、发布时间精度。分析决策为 accept、reject 或 pending_verification。reject 必须使用内容原因码 non_target_metal、no_supply_demand、no_new_facts、not_interview、promotion_only、duplicate 或 out_of_window，并写具体原因。超时、解码失败、未读正文不是内容原因；保留 pending，核验后再决定，或按第 7 节生成 unverified 精简卡。
+3. **辅助渠道**。除 Playwright 抓取铜分类页外，仍需执行：
+   - Google `site:mining.com gold July DD 2026` 和 `site:mining.com silver July DD 2026`（金/银分类页同样可能 403，site:搜索作为辅助发现手段）
+   - 尝试 WebFetch `https://www.mining.com/commodity/gold/` 和 `https://www.mining.com/commodity/silver/`；若 403，亦使用 Playwright
 
-发布时不允许未处理的 pending。代码要求发现候选与决策逐一对应、发现数与候选 ID 数一致、入选决策与正文 URL/栏目一致，并根据必查来源计算完成状态。可选来源降级必须保留记录；必查来源未完成阻止发布，禁止用手填 searched=true 掩盖。
+4. **搜索日志记录**。在 `search_log.part3_sources_checked` 中，必须单独记录：
+   - mining.com `/commodity/copper/` Playwright 抓取状态和文章数
+   - 各篇文章的核验路径（WebFetch 成功 / Playwright 抓取 / 已授权 PiChrome 可见原文核验 / 中文转载交叉核验）
+   - site:mining.com 金/银搜索命中数（辅助参考）
+
+5. **不采用** sitemap、Wayback Machine、RSS feed 等方法。`site:mining.com` 搜索仅作为金/银分类页的辅助发现手段，不得作为铜分类页的主要信息源。
 
 ## 6. 内容筛选
 
@@ -124,8 +133,6 @@ X 整段预算上限 60 分钟；浏览器备用通道继续保留原有串行�
 - 只有公司股价、估值或交易观点，且没有实物供需信息。
 - 无法追溯来源的数字、传闻和匿名社交媒体说法。
 - 超出窗口的旧事件、周报复述和重复转载。
-
-发布前单独复查拟排除项和核验失败项，尤其是含数字的钻探、资源、许可、建设、库存与项目融资。不能仅因没有近期新增产量排除；按新增事实及明确供需路径判断，区分早期勘探、中长期项目和可交付产量。不设入选数量配额，不能为达到数量收录推广或无传导路径融资。
 
 所有数字必须保留期间、单位、币种和统计口径。正文要明确区分实际值、估计、市场一致预期、公司指引和分析判断。`excerpt` 只写来源可支持的事实；`interpretation` 和 `importance` 是研究判断，不得伪装成来源原话。
 
@@ -167,15 +174,16 @@ X 整段预算上限 60 分钟；浏览器备用通道继续保留原有串行�
 
 在 `search_log.url_verification` 记录检查数量、通过数、失败数、失败项和简短说明。未核验来源计入 `failed`，但只要采集流程完整并按上述规则逐卡标注，不会单独阻止发布。
 
-### 7.1 困难原文的已授权浏览器回退
+### 7.1 困难原文的 PiChrome 核验回退
 
-使用 Grok bot 当前确实可用、已获授权的浏览器或计算机工具。普通搜索/网页读取优先；浏览器用于动态列表或困难原文，不因某篇原文难读就跳过整个来源。
+普通搜索/网页读取仍优先。此前普通读取返回 403 的 Mining 文章、FCX 原文和用户已登录的 SMM 页面已通过 PiChrome 现有 profile 成功读取；当前普通 Mining 读取仍可能 403，Firecrawl 缓存可能出现 lockdown miss，不得关闭 lockdown。PiChrome 是允许的原文核验回退，不替代强制分类发现，也不证明所有页面可读。
 
-- 先检查可见页面的访问状态，再提取正文。可以读取用户预先登录且授权可见的内容，记录 authenticated-visible；不代填凭据、不自动登录、不读取门禁后的隐藏 DOM，不绕过付费墙、challenge 或安全机制。
-- 同时只由一个执行者操作浏览器；只使用本次自有标签，不读取私人标签。截图可能包含账号信息，保存在 ignored 的 .runtime 新目录，不提交到 GitHub。
-- 保存请求/最终 URL、标题、发布时间及精度、关键原文引句和定位、抓取时间、访问状态及证据路径。抓取时间不能作为发布时间。设置有限导航和超时，不盲目刷新。
-- 权限失败、登录失效或 challenge 时停止浏览器路径，保存 pending。单条原文可以按第 7 节降级；必查列表发现未完成仍阻止发布。
-- 不修改 VPN、DNS、SSRF/TLS、不复制 profile/cookies、不重启或绕过桥接授权。历史 PiChrome 的进程授权不代表 Grok 云端已有会话，实际权限以本次预检为准。
+- 使用用户已授权的现有 Chrome profile；允许读取用户预先登录且实际可见的正文，不自动填写凭据、不登录、不绕过登录墙、付费墙、challenge 或安全机制。先检查访问状态并截图，再提取正文；访问门禁后的 DOM、嵌入数据或网络响应不是证据，不得宣称为公开内容。截图失败须记录，不能宣称完成视觉核验。
+- 同一时刻只由一个 actor 操作；使用少量 inactive 自有工作标签，以准确 tab ID 定位。保留且不读取无关私人标签，只清理本次自有标签。截图/证据保存在 git 忽略的本地 `.runtime/browser-verification/` 新目录；截图可能含账号名称，不提交或共享。
+- 每页保存请求/最终 URL、标题、发布日期及其精度、关键原文精确引文和定位、capture time、访问状态及证据/截图 artifact 引用；capture time 不得充当 publication time。保存已完成和 pending 页面，恢复只处理未完成项。
+- 设置有限导航次数和超时，不盲目 reload。浏览器授权失败、登录失效或 challenge 时立即停止浏览器路径，保存 pending 并请求用户处理；单条不可读来源可按第 7 节标记未核验，分类发现未完成仍阻止 Part 3 发布。
+- 不修改 VPN、DNS、SSRF/TLS，不复制 profile/cookies、不重启 Chrome、不直接调用 bridge 绕过授权。CUA 需要独立的 existing-profile grant，未授权时不能自动替换 PiChrome。
+- 用户已确认的 `/chrome authorize indefinite` 仅在当前 live Pi **进程生命周期**内有效；同进程 `/reload` 和加载扩展的新 scheduled session 可继承，实际一次性 scheduled 测试已通过。Pi 或 PC 重启后必须由用户重新授权；不得自动授予或修改权限检查。这不是重启持久授权或网站访问权益，也未证明重启后、锁屏桌面可用。
 
 ## 8. 去重
 
@@ -187,7 +195,7 @@ X 整段预算上限 60 分钟；浏览器备用通道继续保留原有串行�
 
 ## 9. 写入 JSON
 
-复制最近一份 JSON 的结构作为参考，但所有内容必须来自本次研究。字段定义以 `data/daily_report_schema.json` 为准。新日期报告必须写入 X `search_log.part2_coverage`；历史报告可保持旧结构。原始材料写入前保留 sidecar 的账号覆盖、尝试路径、选定路径和失败原因。新报告使用 grok_x 真实通道和 research_audit；不得伪装成旧采集器。
+复制最近一份 JSON 的结构作为参考，但所有内容必须来自本次研究。字段定义以 `data/daily_report_schema.json` 为准。新日期报告必须写入 X `search_log.part2_coverage`；历史报告可保持旧结构。原始材料写入前保留 sidecar 的账号覆盖、尝试路径、选定路径和失败原因。新采集输出不得写入已移除的旧通道标识。
 
 最低要求：
 
@@ -207,7 +215,7 @@ X 整段预算上限 60 分钟；浏览器备用通道继续保留原有串行�
 
 **用户明确授权的历史内容纠错**：只改授权字段，使用既有材料，不自动重采集或重新访问附带音视频。仅翻译或去重展示时，保留原 `report_time`、日期/窗口、URL、原始 `claims`、覆盖审计及未授权改动的研究判断；在 `report_note` 记录纠错日期、原因和范围，不把修订时间冒充最初生成时间。原始材料保持字节不变。纠错后重新运行校验并按第 11.1、14 节发布和验证，旧 success 不能证明修订内容已上线。
 
-原始工具结果、collection.json、collection.frozen.json 和 analysis.json 应按日期持久保留且不得覆盖冻结证据。新日报的 search_log.research_audit 会保存不含正文的来源覆盖、候选裁决与账号审计，随日报进入 GitHub；原文、截图及可能含会话信息的证据继续留在 ignored .runtime，按运行环境的持久化能力保存。历史 X raw/sidecar 保持原样。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
+原始材料应保留且不得覆盖：X 候选继续写入按日期命名的 `x_outputs/REPORT_DATE_x_raw_materials.txt`；其他确有复核价值的原始材料使用带日期的新文件。原始材料不直接渲染到网站，也不能代替 JSON 中的来源 URL 和核验记录。
 
 ## 9A. 每周六 TC 更新（公开来源或用户已授权登录会话）
 
@@ -274,7 +282,7 @@ Remove-Item Env:NODE_OPTIONS -ErrorAction SilentlyContinue
 ```bash
 npm run validate:content
 npm run typecheck
-python -B -m unittest discover -s tests -p "test_*.py"
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B -m unittest discover -s tests -p "test_*.py"
 npm test
 npm run build
 ```
@@ -293,7 +301,7 @@ npm run build
 若本次变更只包含日报 JSON 或 TC CSV，可对上述固定页面行为做快速冒烟检查；若包含影响页面行为的 `app/`、`components/`、`lib/` 或样式变更，必须使用真实浏览器逐项操作，并确认没有 Next.js 错误覆盖层、浏览器控制台错误或失败的站内请求。本地导航回归可在已构建并启动的 loopback 服务上执行（端口按实际服务填写）：
 
 ```bash
-python -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000 --executable-path "C:/Program Files/Google/Chrome/Application/chrome.exe"
 ```
 
 该脚本只接受本地地址，不代表 Preview 或正式站已验证。使用隔离浏览器、不读取私人标签或现有 profile；证据放在 git 忽略的 `.runtime/` 中。若本地 Vercel analytics 脚本确实返回 404，可单独记录这一个环境例外，不忽略其他错误，也不把例外沿用到生产站。
@@ -303,7 +311,15 @@ python -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000
 只有在构建错误明确指向 `.next` 缓存损坏、陈旧构建产物，或者上一次构建在写入 `.next` 时被中断，才执行一次缓存恢复：
 
 1. 确认当前目录是仓库根目录，删除目标只能是该目录下的 `.next`。
-2. 按当前系统生成实际仓库根目录下 .next 的绝对路径，先确认目标仍在该根目录内且不是符号链接或 junction，再以单一原生工具处理该精确路径；不得处理项目根目录、data、.git 或通配路径，不照搬历史 Windows 路径。
+2. 使用下面的 PowerShell 目录守卫和精确路径执行清理：
+
+   ```powershell
+   $expectedRoot = 'D:\Projects\Copper_Gold_Silver_Info'
+   if ((Get-Location).Path -ne $expectedRoot) { throw "Refusing to clean outside $expectedRoot" }
+   Remove-Item -LiteralPath (Join-Path $expectedRoot '.next') -Recurse -Force
+   ```
+
+   Workbuddy 若触发 safe-delete，人工确认或安全例外只能精确授权 `D:\Projects\Copper_Gold_Silver_Info\.next`，不得授权项目根目录、`data`、`.git` 或通配路径。
 3. 再次清除当前进程的 `NODE_OPTIONS`。
 4. 从 `npm run validate:content` 开始完整重跑一次。
 5. 若重试仍失败，立即停止，不再重复清缓存；保留错误输出和工作区现场供诊断。
@@ -324,7 +340,7 @@ python -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000
    MacroMicro 铜库存外链 `https://sc.macromicro.me/charts/40914/tong-ku-cun-jia-ge` 按用户要求不再执行外站访问验证：不得为每日或每周任务对该目标发起 HTTP 请求、打开 Chrome/headless Chrome 或执行安全验证检查；只确认站内菜单和 href 保持正确，最终状态写“按用户要求跳过外站验证”，不得写成访问通过。其他已有外部库存/SMM 链接，检查站内菜单及 href 正确即可；外站的登录墙、Cloudflare 验证、403/429 或临时不可用需保留 URL、检查结果和限制说明，但不单独阻止纯日报/TC 数据发布，也不代表外站内容已核验。不得绕过验证、反复重试挑战、修改既有导航目标或把限制当成站内故障。站内页面、目标日期、来源卡核验规则及构建检查仍须通过；外站访问限制不放宽 Part 1/3 完整采集要求。
 7. 周六写入 TC 后，确认生产 `Historical TC` 页面的最新日期和值与 CSV 一致。
 8. 若提交包含页面行为或样式变更，必须在生产站按第 10 节用真实浏览器复核正文、桌面/手机布局、归档搜索、TC 菜单各方向移入及兄弟菜单切换、键盘操作、Tooltip 和日报内导航。检查控制台和失败请求；只验证 HTTP 200 或页面 HTML 不足以替代这一步。
-9. 前台执行第 14 节 `--verify-only`，核对实际远程 main 的日报/TC、该 SHA 的 push CI 和四个生产路由；不能把 PR CI 或本地构建成功当成正式发布成功。
+9. 按第 14 节核对实际远程 main 的日报/TC、该 SHA 的 push CI 和四个生产路由。Windows 定时运行由父包装脚本执行，手动运行使用 --verify-only；PR CI 或本地构建成功不能当成正式发布成功。
 
 07:00 是任务开始时间；“已提交”“已推送”“已部署”“生产验证通过”分别报告，不提前宣告完成。
 
@@ -340,11 +356,9 @@ python -B tests/check_nav_menu.py --base-url http://127.0.0.1:3000
 
 ## 12. 失败与恢复
 
-Grok 每完成一个来源、账号或批次即保存真实工具结果与 collection。存在当日报告时停止研究，仅恢复校验/发布；存在冻结清单或 analysis 时优先恢复该分析包，不覆盖证据或重新跑全部来源。先确认旧运行退出，不能自行生成新目录绕过重复运行保护。
+X 每完成或失败一个账号就保存 `.runtime/x/REPORT_DATE/checkpoint.json`。存在 checkpoint、原始 TXT 或 sidecar 时默认拒绝新增采集，即使指定 `--overwrite` 也不重采集。确认旧进程退出后，可执行 `x_search.py REPORT_DATE --recover-checkpoint` 离线导出已保存结果，再执行 `daily_pipeline.py REPORT_DATE --import-x` 校验导入；两者不增加 X 流量。未完成、在途或未访问账号一律标注未知/未完成，仅把已有持久化证据的账号计为完成，不按运行时长估算进度。离线导出的 partial/failed 仍返回非零，不能因此自动重试。
 
-冻结前的 collection 可以根据后续真实工具结果补齐；冻结后不得删候选或覆盖文件。确需补充发现时保留原冻结版本，在明确的新修订文件中合并旧候选与新增结果、说明原因并重新冻结；不能靠少填候选或降低 discovered_count 消除差额。X 因限流或权限停止后不自动增加流量。
-
-历史 Playwright checkpoint、raw/sidecar 和 Mining 采集结果仍按 scripts/README.md 离线恢复，只复用同日且来源可追溯的材料。别的采集器状态 complete 不能代替 Grok 的逐源总账。
+已完成的 Mining 结果可用 `daily_pipeline.py REPORT_DATE --reuse-mining .runtime/pipeline/REPORT_DATE/RUN_ID` 复用。流水线只接受同日、同注册表的完整结果，并写入新清单，不修改旧运行；不同日期、损坏材料或原始文件与 sidecar 哈希冲突必须停止。原始文件对中断只允许补齐与 checkpoint 一致的缺失半份，不覆盖任何已有文件。新的 X `--output-suffix` 仅供用户明确授权的新采集，每日任务不能自行使用它绕过保护。操作示例和状态路径见 `scripts/README.md`。
 
 - 某一部分完整检索后没有合格内容：保留空数组，把对应 `*_searched` 写为 `true` 并写清检索范围，仍可发布“无合格信号”的日报。
 - Part 1 或 Part 3 采集失败：把对应 `*_searched` 写为 `false` 并停止发布。X partial/failed：保留候选和 sidecar 审计，Part 2 写 `part2_searched=false` 与 coverage，继续完成其他部分；只要 Part 1 和 Part 3 完整，报告仍可发布，不能把缺失账号写成完整零结果。安全停止后不增加 X 流量。
@@ -359,21 +373,27 @@ Grok 每完成一个来源、账号或批次即保存真实工具结果与 colle
 
 `2026-06-30` 至 `2026-07-05` 从旧 HTML 迁移。为保持历史 URL，这六份 JSON 的 `date` 沿用旧页面日期，而 `windows` 记录旧页面实际覆盖的前一自然日；旧版 Part 1 也是单日窗口。该例外只用于历史迁移，未来日报必须遵守本文的 `REPORT_DATE` 和三日访谈窗口规则。
 
-## 14. Grok 定时入口与发布验收
+## 14. 完成定义
 
-日常执行统一由用户指定的 Grok bot 负责，计划时区为 Asia/Shanghai，每日 07:00 开始。routine 的入口只指向仓库当前 Daily_Task_Prompt.md，并要求读取当前工作流；不在定时配置另存一份长期不更新的规则。不同时启用 Pi、Windows 或 Codex 的另一个日报入口。
-
-入口先确认 GitHub 最新 main 和实际工具能力，冻结日期与工作流版本，按第 4 节执行。用户现有日常发布授权仍按第 11 节范围执行；日常 bot 不修改校验器、工作流或调度规则来通过验收。仓库更新本身不等于已经修改 Grok 端 routine 或工具连接，不能宣称未实际配置的调度已激活。
-
-推送或维护合并后，在真实仓库根目录以前台方式执行：
+日常执行者为 Codex。Windows 定时入口 CopperGoldSilverInfo-Daily-Codex 在北京时间 07:00 调用 scripts/run_scheduled_daily.py，由包装脚本启动 Codex CLI。启用前确认 Grok routine 与其他日报调度已停用。手动运行或维护时，推送或 PR 合并后使用当前已验证的 Python 前台执行并等待退出：
 
 ```bash
-python scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD
+C:/Users/Zhemin/.codex/tools/browser-use/Scripts/python.exe -B scripts/run_scheduled_daily.py --verify-only --report-date YYYY-MM-DD
 ```
 
-这里只使用现有脚本的 verify-only 模式，不启动它的旧 AI runner。选择实际已存在的报告日期；纯工作流维护不得生成新日报或 TC。外层命令预算至少 10800 秒，覆盖本地校验与发布等待；单段 X 预算仍为 3600 秒。等待命令退出，读取保存 state；只有退出码 0 且 state=success，才可接受其远程 main 内容、对应 push CI 和四个生产路由验证。HTTP 200 或 Grok 自述完成都不能代替验收。
+**本任务的持久授权（2026-10-04）**：用户明确授权每日任务使用当前 Windows 账户的完整访问权限，使 Git 与 Playwright 正常运行，并要求持久保存以免每日重复询问。该授权在 Windows 任务动作中以 `--codex-sandbox danger-full-access` 保存，由包装脚本传给 Codex CLI；审批策略为 `never`。授权限于本工作流所需的文件、网络、已有登录会话及第 11 节允许的提交/推送；不提升管理员权限、不更改全局 Codex 配置，也不扩大发布文件范围。后续执行无需再次询问此访问授权；登录凭据失效、网站验证或超出范围的操作仍按原规则处理。
 
-CI 排队、短暂网络失败或旧页面按已有期限等待，CI 明确失败或权限错误停止。验证保存到 .runtime/scheduled；不启用新的调度器、告警服务或自动重采集。发布状态如实区分已提交、已推送、CI通过、生产验证通过。
+`YYYY-MM-DD` 为本次已存在的目标报告日期；纯文档维护选择并记录现有最新报告日期，不生成新日报。外层工具总超时至少 `10800` 秒，覆盖命令校验与发布等待；这不改变 X 的单独 3600 秒预算。入口不会替用户推送、重采集或写报告。只有退出码为 0 且保存 state 为 `success`，才接受其验证结果。
+
+Windows 入口每次读取当前 `Daily_Task_Prompt.md`，保存该次文件快照和 SHA-256，再要求 Codex 完整读取快照与当前工作流。Codex 正常退出不等于日报成功：入口还检查目标 JSON、内容校验、类型检查、Python/Node 测试、构建、远程 main 报告和 TC 内容、该 SHA 的 push 校验工作流以及四个生产页面。CI 排队、暂时网络失败和页面仍旧时有期限地等待；CI 明确失败或权限错误立即失败。页面内容验证不等于 Vercel 部署 SHA 证明，也不替代涉及页面改动时的真实浏览器测试。
+
+包装入口使用全局 OS 锁，按日期原子记录 `.runtime/scheduled/YYYY-MM-DD.state.json`，命令日志保存在 `.runtime/scheduled/runs/`；Windows 原生 Job Object 会在包装进程退出或被强杀时清理其子进程树。锁文件保持原位，OS 在进程退出后自动解锁，不要通过删除锁文件解除并发保护。默认 AI 阶段预算 3 小时、单个校验命令 30 分钟、发布等待 30 分钟；这不改变 X 单次采集的 60 分钟预算。任何失败返回非零，不自动重采集或覆盖日报。
+
+**Windows 入口的监督边界**：包装脚本在启动 Codex 前获得全局锁、保存开始标记，并监督其执行和后续验收。由包装脚本启动的 Codex 子进程不递归调用 `run_scheduled_daily.py --verify-only`，最终验收由父进程直接完成，避免争用父进程持有的锁；手动发布或维护仍使用上面的独立 `--verify-only` 命令。不得嵌套启动其他 AI runner，不自动重授予 PiChrome 权限。当前计划任务只在该 Windows 用户已登录时执行，不依赖 Codex 桌面应用打开；重启后尚未登录、断网或网站登录失效仍需处理。启用了唤醒和错过时间补跑，但不宣称关机也能运行，或已验证重启/锁屏后的全部工具可用。
+
+`check_daily_health.py` 是只读本地健康检查，不运行研究、网络访问或 Git，也不创建定时器、告警服务或自动补跑。按北京时间 07:00 划分最近应执行周期，默认完成宽限 240 分钟（可用 `--grace-minutes` 调整），缺少应有日报、运行超期、失败、损坏状态或验证证据不足时输出 JSON 告警并返回非零。成功验证 state 新增报告及 TC 字节哈希，文件修正后旧 success 不再被视为有效；历史 state 无哈希时要求仅重新验证，不重采集。健康结果只代表保存的本地验证证据，不是实时生产站、Pi/Chrome 授权或 OS 进程存活证明。Windows 任务的工具访问授权持久保存在任务定义中；第 7.1 节 PiChrome 的进程授权仍按其独立规则处理。
+
+目标报告已存在时，普通入口和 `--resume --report-date YYYY-MM-DD` 都跳过 AI，仅重新验证现有报告及发布；`--verify-only` 也不会采集或写报告。曾启动 AI 但未留下成品的任务不能自动重启，需要先恢复已有材料并完成 analysis bundle/report builder。尚未推送的成品必须由已授权的发布流程提交/推送，包装入口不会替用户执行新的 Git 写入。
 
 - [ ] 日期和三个窗口计算正确。
 - [ ] Part 1 和 Part 3 完成检索且对应 `*_searched=true`；Part 2 有严格 coverage 审计，complete 为全账号完成，partial/failed 显示 n/N 和原因；空结果也有检索范围记录，采集失败没有冒充零结果。
