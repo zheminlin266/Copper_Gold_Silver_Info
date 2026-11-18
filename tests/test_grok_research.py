@@ -16,6 +16,11 @@ PUBLISHED_FIXTURE_DATE = "2026-11-17"
 PUBLISHED_FIXTURE_SHA256 = "fb7883345206842e96aba7b634f6a5c3d44e46d92ac061f92bbcfa55c683642d"
 
 
+def _canonical_report_bytes(data: bytes) -> bytes:
+    """Compare the committed LF report even when a Windows checkout uses CRLF."""
+    return data.replace(b"\r\n", b"\n")
+
+
 def _published_report_name(path: Path) -> str | None:
     """Return a daily-report filename when path is exactly data/YYYY-MM-DD.json."""
     try:
@@ -216,7 +221,7 @@ class GrokResearchTests(unittest.TestCase):
         published = ROOT / "data" / f"{PUBLISHED_FIXTURE_DATE}.json"
         self.assertTrue(published.is_file())
         before = published.read_bytes()
-        self.assertEqual(hashlib.sha256(before).hexdigest(), PUBLISHED_FIXTURE_SHA256)
+        self.assertEqual(hashlib.sha256(_canonical_report_bytes(before)).hexdigest(), PUBLISHED_FIXTURE_SHA256)
         bundle = self.prepare()
         self.assertEqual(bundle["report_date"], PUBLISHED_FIXTURE_DATE)
         self.assertFalse((self.isolated_data / published.name).is_file())
@@ -226,7 +231,7 @@ class GrokResearchTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "already exists"):
             prepare_collection(blocked)
         self.assertEqual(published.read_bytes(), before)
-        self.assertEqual(hashlib.sha256(published.read_bytes()).hexdigest(), PUBLISHED_FIXTURE_SHA256)
+        self.assertEqual(hashlib.sha256(_canonical_report_bytes(published.read_bytes())).hexdigest(), PUBLISHED_FIXTURE_SHA256)
 
     def test_interrupted_prepare_recovers_only_the_missing_analysis_file(self):
         from scripts.grok_research import _atomic_write_json
