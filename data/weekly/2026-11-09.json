@@ -1,0 +1,343 @@
+{
+  "week_start": "2026-11-09",
+  "week_end": "2026-11-15",
+  "generated_at": "2026-11-19T22:41:08+08:00",
+  "coverage": [
+    "核对 11 月 9–15 日历史日报及独立中英文检索结果，追溯矿企季报、交易所公告、监管文件和行业披露。",
+    "核对智利和加拿大劳工事件，以及海关铜精矿进口数据与 SMM 周度加工费。"
+  ],
+  "copper_events": [
+    {
+      "id": "pinto-valley",
+      "date": "2026-11-12",
+      "group": "operations",
+      "title": "美国 Pinto Valley 复产推迟",
+      "fact": "主破碎机试车时发现部件需要额外检修，预计 12 月中旬重新投运。Capstone 拟用移动破碎设备先恢复部分选矿，估计额外停工将使 2026 年少产约 5,000 吨铜，集团全年指引下限由 20 万吨降至 19.5 万吨。",
+      "sources": [
+        {
+          "name": "Capstone 公告",
+          "url": "https://capstonecopper.com/es/news/capstone-copper-provides-update-on-operations/"
+        }
+      ]
+    },
+    {
+      "id": "highland-valley",
+      "date": "2026-11-13",
+      "group": "operations",
+      "title": "加拿大 Highland Valley 罢工出现新裁决",
+      "fact": "不列颠哥伦比亚省劳资关系委员会裁定部分替工安排违规，责令停止相关做法。罢工始于 10 月 24 日。裁决未提供复工日期或减产吨数。",
+      "sources": [
+        {
+          "name": "劳资关系委员会裁决",
+          "url": "https://usw7619.weebly.com/uploads/8/3/9/4/83949190/2026-001560_-_2026_bclrb_349.pdf"
+        }
+      ]
+    },
+    {
+      "id": "chile-transport",
+      "date": "2026-11-14",
+      "group": "operations",
+      "title": "智利卡车司机罢工在周内结束",
+      "fact": "Capstone 此前披露罢工威胁铜精矿、阴极铜发运及燃料、硫酸补给，Mantoverde 和 Mantos Blancos 当时仍正常生产。最后一批独立运输团体随后解除封锁。",
+      "sources": [
+        {
+          "name": "Capstone 公告",
+          "url": "https://capstonecopper.com/es/news/capstone-copper-provides-update-on-operations/"
+        },
+        {
+          "name": "智利国家电视台",
+          "url": "https://www.24horas.cl/24horas/site/artic/20261113/pagspar/20261113152716_general_escroll.html"
+        }
+      ]
+    },
+    {
+      "id": "mccreedy-west",
+      "date": "2026-11-12",
+      "group": "operations",
+      "title": "加拿大 McCreedy West 下调产量指引",
+      "fact": "Magna 披露高品位采场受地质构造干扰，部分高品位矿延至 2027 年开采。2026 年可支付铜当量指引由约 7,260–8,160 吨降至 6,580–7,030 吨。",
+      "sources": [
+        {
+          "name": "Magna 季报",
+          "url": "https://www.globenewswire.com/news-release/2026/11/11/3401156/0/en/magna-mining-reports-operating-and-financial-results-for-the-third-quarter-of-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "barrick-q3",
+      "date": "2026-11-09",
+      "group": "operations",
+      "title": "Barrick 披露三季度权益铜产量下降",
+      "fact": "2026 年三季度权益铜产量为 5.0 万吨，环比下降 11%，同比下降 9%。公司重申全年 19–22 万吨的指引。",
+      "sources": [
+        {
+          "name": "Barrick 季报",
+          "url": "https://www.barrick.com/English/news/news-details/2026/q3-2026-results/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "constancia",
+      "date": "2026-11-12",
+      "group": "operations",
+      "title": "秘鲁 Constancia 选厂处理量创纪录",
+      "fact": "Hudbay 披露三季度日均处理约 9.1 万吨矿石，产铜 20,572 吨。第三条粗选线在 9 月完成安装，公司报告铜回收率已有改善。",
+      "sources": [
+        {
+          "name": "Hudbay 季报",
+          "url": "https://hudbayminerals.com/investors/press-releases/press-release-details/2026/Hudbay-Delivers-Record-Third-Quarter-2026-Results-Further-Improves-Cost-Guidance-and-Advances-Copper-Growth-Pipeline/default.aspx"
+        },
+        {
+          "name": "管理层报告",
+          "url": "https://www.sec.gov/Archives/edgar/data/1322422/000106299326005991/exhibit99-2.htm"
+        }
+      ]
+    },
+    {
+      "id": "johnson-camp",
+      "date": "2026-11-13",
+      "group": "operations",
+      "title": "美国 Johnson Camp 披露爬坡实绩",
+      "fact": "Gunnison 公布三季度阴极铜产量约 1,550 吨，环比增长 71%。该矿于 9 月达到商业生产。",
+      "sources": [
+        {
+          "name": "Gunnison 季报",
+          "url": "https://gunnisoncopper.com/news/news-2026/gunnison-copper-reports-third-quarter-2026-financial-and-operational-results-2026-11-13-11-05-02"
+        }
+      ]
+    },
+    {
+      "id": "lumwana",
+      "date": "2026-11-09",
+      "group": "projects",
+      "title": "赞比亚 Lumwana 扩建关键设备到场",
+      "fact": "Barrick 确认磨机筒体、主破碎机和尾矿浓密机已到场，尾矿设施扩建合同已授出。公司目标为 2028 年一季度末产出首批铜，扩建完成后产量约翻倍。",
+      "sources": [
+        {
+          "name": "Barrick 季报",
+          "url": "https://www.barrick.com/English/news/news-details/2026/q3-2026-results/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "eva",
+      "date": "2026-11-09",
+      "group": "projects",
+      "title": "澳大利亚 Eva 施工完成约 15%",
+      "fact": "Harmony 披露长周期设备开始到场，第二阶段联邦审批仍在办理。公司目标为 2028 年下半年首产，项目规划年产铜约 6 万吨。",
+      "sources": [
+        {
+          "name": "Harmony 运营更新",
+          "url": "https://www.sec.gov/Archives/edgar/data/1023514/000162828026071932/a6k_fy27xq1-operationalu.htm"
+        },
+        {
+          "name": "项目资料",
+          "url": "https://www.harmony.co.za/operations/australia/eva-copper-project/"
+        }
+      ]
+    },
+    {
+      "id": "los-azules",
+      "date": "2026-11-10",
+      "group": "projects",
+      "title": "阿根廷 Los Azules 现场工程推迟",
+      "fact": "McEwen 披露安第斯山区大雪延误进场道路重开，现场工程将晚于原计划启动。公司以 2030 年首产阴极铜为目标，具体取决于道路、融资和项目审批。",
+      "sources": [
+        {
+          "name": "McEwen 季报",
+          "url": "https://www.mcewenmining.com/investor-relations/press-releases/press-release-details/2026/McEwen-Q3-Financial-Results-Quarter-of-Transition/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "condestable",
+      "date": "2026-11-10",
+      "group": "projects",
+      "title": "秘鲁 Condestable 更新扩产和延寿计划",
+      "fact": "Rio2 披露三季度产铜约 4,360 吨，并更新矿山计划，纳入日处理 1 万吨矿石及生产延续至 2041 年的安排。",
+      "sources": [
+        {
+          "name": "Rio2 季报",
+          "url": "https://www.rio2.com/post/rio2-reports-q3-2026-financial-and-operating-results-and-webinar"
+        }
+      ]
+    },
+    {
+      "id": "la-plata",
+      "date": "2026-11-11",
+      "group": "projects",
+      "title": "厄瓜多尔 La Plata 获准进入开采阶段",
+      "fact": "Atico 披露主管部门已批准项目由经济评价转入地下开采阶段，公司计划 2027 年一季度开工。可研口径为年均产铜约 4,400 吨。",
+      "sources": [
+        {
+          "name": "Atico 许可公告",
+          "url": "https://aticomining.com/investors/news/index.php?content_id=305"
+        },
+        {
+          "name": "可研结果",
+          "url": "https://aticomining.com/investors/news/index.php?content_id=257"
+        }
+      ]
+    },
+    {
+      "id": "cabacal",
+      "date": "2026-11-09",
+      "group": "projects",
+      "title": "巴西 Cabaçal 签订前期工程合同",
+      "fact": "Meridian 披露已承诺约 3,090 万美元用于建设前合同，涵盖工程管理和长周期设备，并收到逾 20 份意向融资方案，部分约 4 亿美元。融资方选择和最终投资决定仍待完成。",
+      "sources": [
+        {
+          "name": "Meridian 公告全文",
+          "url": "https://www.stocktitan.net/news/MRRDF/meridian-updates-on-cabacal-s-advancement-towards-final-investment-xzrjfb5lm6jt.html"
+        }
+      ]
+    },
+    {
+      "id": "cuia-mavoio",
+      "date": "2026-11-09",
+      "group": "projects",
+      "title": "安哥拉 Cuia-Mavoio 与 Tetelo 落实采矿工程合同",
+      "fact": "铜冠矿建披露约 2.05 亿美元采矿工程合同，覆盖 Cuia-Mavoio 的生产期工程，并纳入原合作协议范围之外的 Tetelo 矿体采矿工程。",
+      "sources": [
+        {
+          "name": "铜冠矿建公告",
+          "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=12697792&stockid=920019"
+        }
+      ]
+    },
+    {
+      "id": "queensland-projects",
+      "date": "2026-11-11",
+      "group": "projects",
+      "title": "澳大利亚 Mt Cuthbert 和 Cloncurry 取得开发进展",
+      "fact": "AIC 完成 Mt Cuthbert 收购，项目资源含铜约 24.6 万吨，配套氧化矿工厂目前停运。True North 同日披露 Cloncurry 五处既有矿区的复垦与闭矿计划获批，项目正在推进预可研。",
+      "sources": [
+        {
+          "name": "AIC 交易所公告",
+          "url": "https://www.marketindex.com.au/data-api/api/v1/announcements/XASX%3AA1M%3A6A1354594/pdf/inline/completion-of-mt-cuthbert-copper-project-acquisition"
+        },
+        {
+          "name": "True North 交易所公告",
+          "url": "https://boldinvestors.com.au/asx/tnc/announcements/61354475/cloncurry-copper-project-obtains-key-approvals-ahead-of-pfs"
+        }
+      ]
+    },
+    {
+      "id": "levack",
+      "date": "2026-11-12",
+      "group": "projects",
+      "title": "加拿大 Levack 复产准备推进",
+      "fact": "Magna 披露井筒罐道已更换，提升机改造正在进行。公司计划 2027 年一季度完成提升系统改造，为年内试生产做准备。",
+      "sources": [
+        {
+          "name": "Magna 开发更新",
+          "url": "https://www.globenewswire.com/news-release/2026/11/12/3401370/0/en/magna-provides-additional-assay-results-and-update-on-development-activities-at-levack-mine-in-sudbury-ontario.html"
+        }
+      ]
+    },
+    {
+      "id": "chile-mine-partnerships",
+      "date": "2026-11-14",
+      "group": "market",
+      "title": "智利推进铜矿合作",
+      "fact": "本周 Codelco 与 Adani 旗下 Kutch Copper 签署 Kaburkaala 项目勘探合作备忘录。智利矿业部长另表示，政府正评估让私人资本参与 Codelco 部分矿床开发及基础设施，部分安排可能需要修法。",
+      "sources": [
+        {
+          "name": "Codelco 公告",
+          "url": "https://codelco.com/prensa/2026/codelco-y-grupo-adani-firman-mou-para-avanzar-en-una-alianza-de-exploracion-para-el-proyecto-de-cobre-kaburkaala-en-chile"
+        },
+        {
+          "name": "部长采访报道",
+          "url": "https://www.biobiochile.cl/noticias/economia/actualidad-economica/2026/11/13/gobierno-estudia-cambios-legales-para-permitir-participacion-privada-en-yacimientos-de-codelco.shtml"
+        }
+      ]
+    },
+    {
+      "id": "aurora-west",
+      "date": "2026-11-13",
+      "group": "market",
+      "title": "Freeport 签约入股加拿大 Aurora West",
+      "fact": "TDG 披露签署有约束力的协议，Freeport 拟以 1.1 亿加元取得该勘探项目 51% 权益，并可通过追加勘探投入进一步增持。交易仍待交割。",
+      "sources": [
+        {
+          "name": "TDG 公告",
+          "url": "https://www.globenewswire.com/news-release/2026/11/12/3402091/0/en/tdg-gold-corp-agrees-to-sell-51-interest-in-aurora-west-property-to-freeport-mcmoran-mineral-properties-canada-inc-for-c-110-million.html"
+        }
+      ]
+    },
+    {
+      "id": "china-concentrate",
+      "date": "2026-11-13",
+      "group": "market",
+      "title": "中国精矿进口下降，周度加工费小幅回升",
+      "fact": "海关数据显示，10 月铜矿砂及其精矿进口 216.7 万实物吨，同比下降 11.6%。11 月 13 日 SMM 进口铜精矿周度加工费为 −241.75 美元/干吨，较前一周回升 5.60 美元/干吨。",
+      "sources": [
+        {
+          "name": "海关数据经 SMM 发布",
+          "url": "https://news.smm.cn/live/detail/NCXIA4RYIJQAUDUUQTZEWR3QGAAR7OE5MFOB5JY"
+        },
+        {
+          "name": "TC 周度记录",
+          "url": "https://metals.zhemin.ltd/historical-tc"
+        }
+      ]
+    }
+  ],
+  "supply_analysis": [
+    {
+      "title": "年内最明确的下修来自 Pinto Valley",
+      "text": "额外检修已有约 5,000 吨的公司估算，实际影响取决于临时破碎设备能多快恢复部分产量。Highland Valley 的劳资争议仍给生产和交付带来不确定性。智利公路封锁在周内解除，发运和物料补给压力随之减轻。",
+      "event_ids": [
+        "pinto-valley",
+        "highland-valley",
+        "chile-transport"
+      ]
+    },
+    {
+      "title": "个别矿山爬坡和选厂改善已见成效",
+      "text": "Johnson Camp 已经多产出阴极铜。Constancia 的处理量和回收率改善有助于在矿石品位下降时维持铜产量。McCreedy West 部分高品位矿的开采推迟到了明年。这些变化的统计期和产品口径各异，难以据此判断全球矿产铜净增减。",
+      "event_ids": [
+        "johnson-camp",
+        "constancia",
+        "mccreedy-west"
+      ]
+    },
+    {
+      "title": "规模较大的增量仍取决于工程和投产",
+      "text": "Lumwana 已有关键设备到场，Eva 已进入施工，两者的首产目标都在 2028 年。La Plata 跨过开采审批，Cabaçal 正在落实融资，Los Azules 出现进场延误。后续供给取决于这些项目能否按计划完成审批、施工、调试和爬坡。",
+      "event_ids": [
+        "lumwana",
+        "eva",
+        "la-plata",
+        "cabacal",
+        "los-azules"
+      ]
+    }
+  ],
+  "gold_briefs": [
+    {
+      "id": "kurmuk-gold",
+      "date": "2026-11-10",
+      "title": "埃塞俄比亚 Kurmuk 浇铸首批黄金",
+      "fact": "Allied Gold 宣布 Kurmuk 矿已浇铸首批黄金，项目进入产量爬坡阶段。",
+      "sources": [
+        {
+          "name": "Allied Gold 公告",
+          "url": "https://alliedgold.com/investor-relations/investor-news/news-details/2026/Allied-Gold-Announces-First-Gold-at-Kurmuk-Mine/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "assafou-gold",
+      "date": "2026-11-12",
+      "title": "科特迪瓦 Assafou 获最终投资批准",
+      "fact": "Endeavour 批准最终投资并启动项目开发。公司目标为 2029 年上半年首产，项目规划前八年平均年产金约 32 万盎司。",
+      "sources": [
+        {
+          "name": "Endeavour 季报",
+          "url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-strong-q3-2026-results/"
+        }
+      ]
+    }
+  ]
+}

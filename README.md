@@ -1,6 +1,6 @@
-# 金银铜供需信息
+# 铜矿与黄金周报
 
-面向黄金、白银和铜的每日供需研究站。将访谈、X 原帖与新闻整理为结构化日报，聚焦矿山、冶炼、库存、项目、政策与终端需求等可验证信号，不构成投资建议。
+每周梳理铜矿行业重要事实、综合供给影响和黄金简讯。
 
 生产站点：https://metals.zhemin.ltd
 
@@ -8,24 +8,22 @@
 
 ## 功能
 
-- 首页与 `/daily/YYYY-MM-DD` 展示日报；`/archive` 支持日期、关键词和金属检索。
+- 首页展示最新周报。`/weekly/YYYY-MM-DD` 以报告周的周一为日期。
+- `/archive` 提供历期周报和历史日报检索，原日报链接为 `/daily/YYYY-MM-DD`。
 - `TC` 提供外部铜库存、SMM 指数和本地 `Historical TC` 周度图表。
-- 日报存于 `data/YYYY-MM-DD.json`；铜精矿 TC 存于 `data/smm_copper_concentrate_index_2026.csv`。
+- 周报存于 `data/weekly/YYYY-MM-DD.json`，历史日报存于 `data/YYYY-MM-DD.json`。铜精矿 TC 存于 `data/smm_copper_concentrate_index_2026.csv`。
 
 ## 信息源
 
-访谈覆盖 Podcast、Webcast、YouTube、会议访谈、Panel、Keynote 和公司演示，关注矿业管理层、研究者与官方机构。X 原帖只收录可核验作者、正文、时间和原帖链接的原创内容。新闻覆盖中英文，优先官方一手资料，其次可靠媒体和标明出处的行业转载。TC 用 SMM 周度评估与公开页面交叉核对，写入年度 CSV。
+优先核对矿企公告、交易所和监管披露及可靠中英文行业报道。TC 使用可核验的 SMM 周度评估。
 
 ## 筛选方法
 
-每条信号必须说明事件、金属、供需方向和关注理由，发布时间在日报窗口内，并附具体来源。纳入供给、需求、库存、项目和政策等有明确供需路径的变化。
-
-保留数字的期间、单位、币种和口径，区分事实、估计、预期与研究判断。排除纯价格复述、无因果宏观评论、股价或估值观点、传闻、旧闻和重复转载。同一事件优先保留一手且完整版本；`importance` 补充规模、机制、时间、对比或不确定性判断。
+完整收录本周首次披露或有实质进展的重要铜矿事件。同一事件合并，保留来源、期间、单位和数字口径。综合分析注明产量影响的时间和兑现条件。
 
 ## 更新与校验
 
-日报内容以 JSON/CSV 为源，经过内容校验后由 Next.js 构建网页，Vercel 自动部署。详见 `Daily_Report_Workflow.md`。
-脚本范围与失败规则见 [`scripts/README.md`](scripts/README.md)。
+每周一北京时间 08:00 开始采集，覆盖前一周周一至周日。周报和 TC 经过校验后由 Next.js 构建并由 Vercel 自动部署。见[周报工作流](Weekly_Report_Workflow.md)。
 
 本地检查：
 
@@ -38,4 +36,4 @@ npm run build
 
 任一校验失败不得发布。
 
-日报由 Codex 按 [每日任务入口](Daily_Task_Prompt.md) 执行，定时运行及发布验收见 [工作流](Daily_Report_Workflow.md#14-完成定义)。
+历史日报的数据规则见[日报工作流](Daily_Report_Workflow.md)。

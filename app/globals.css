@@ -486,6 +486,32 @@ select {
   margin-bottom: 10px;
 }
 
+.weekly-report .signal-card {
+  scroll-margin-top: 80px;
+}
+
+.weekly-report .signal-card h4 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.weekly-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.weekly-sources a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .tag {
   display: inline-flex;
   align-items: center;

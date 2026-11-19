@@ -98,7 +98,7 @@ export function SiteHeader() {
       onFocus={() => setIsHidden(false)}
     >
       <div className="site-header__inner">
-        <Link className="site-brand" href="/" aria-label="金银铜供需信息首页">
+        <Link className="site-brand" href="/" aria-label="铜矿与黄金周报首页">
           <Image
             alt=""
             aria-hidden="true"
@@ -108,7 +108,7 @@ export function SiteHeader() {
             src={miningNewsLogo}
             width={32}
           />
-          <span>金银铜供需信息</span>
+          <span>铜矿与黄金周报</span>
         </Link>
         <nav aria-label="主导航" className="site-nav" ref={navRef}>
           <Link href="/">首页</Link>
