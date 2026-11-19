@@ -12,7 +12,6 @@ from pathlib import Path
 import re
 import sys
 from time import monotonic, sleep
-from urllib.parse import urlsplit
 
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -27,6 +26,18 @@ from scripts.weekly_tc import tc_rows, update_tc
 
 WEEKLY_DATA = Path("data/weekly")
 WEEKLY_PROMPT = "Weekly_Task_Prompt.md"
+
+
+def write_state(path: Path, state: dict) -> None:
+    for attempt in range(4):
+        try:
+            atomic_write_json(path, state)
+            return
+        except PermissionError as error:
+            # A Windows reader can briefly block replacement of the status file.
+            if getattr(error, "winerror", None) not in (5, 32) or attempt == 3:
+                raise
+            sleep(0.25 * (attempt + 1))
 
 
 def week_for_run(now: datetime) -> date:
@@ -97,13 +108,6 @@ def verify_publication(report: dict, log, *, heartbeat, env, poll_timeout: float
     report_path = f"{WEEKLY_DATA.as_posix()}/{report['week_start']}.json"
     latest = max(path.stem for path in (ROOT / WEEKLY_DATA).glob("????-??-??.json"))
     legacy = max(path.stem for path in (ROOT / "data").glob("????-??-??.json"))
-    # The public custom domain is reachable directly on the Windows task host.
-    # Keep the configured proxy for GitHub and all research calls.
-    site_env = {key: value for key, value in env.items() if key.lower() != "no_proxy"}
-    site_env["NO_PROXY"] = ",".join(filter(None, (
-        env.get("no_proxy", env.get("NO_PROXY", "")), urlsplit(SITE).hostname,
-    )))
-
     def remaining() -> float:
         budget = deadline - monotonic()
         if budget <= 0:
@@ -133,7 +137,7 @@ def verify_publication(report: dict, log, *, heartbeat, env, poll_timeout: float
             verify_pages(
                 report, latest, legacy, local_tc,
                 lambda route: fetch_page(
-                    f"{SITE}{route}?weekly_check={sha}", log, timeout=remaining(), heartbeat=heartbeat, env=site_env,
+                    f"{SITE}{route}?weekly_check={sha}", log, timeout=remaining(), heartbeat=heartbeat, env=env,
                 ),
             )
             if api("commits/main")["sha"] != sha:
@@ -235,7 +239,7 @@ def main(argv: list[str] | None = None) -> int:
 
             def heartbeat(info):
                 state["heartbeat"] = {"at": datetime.now(BEIJING).isoformat(), **info}
-                atomic_write_json(state_file, state)
+                write_state(state_file, state)
 
             heartbeat({})
             env = scheduled_environment()
@@ -297,7 +301,7 @@ def main(argv: list[str] | None = None) -> int:
                     return 1
                 finally:
                     state["finished_at"] = datetime.now(BEIJING).isoformat()
-                    atomic_write_json(state_file, state)
+                    write_state(state_file, state)
     except (AlreadyRunning, OSError) as error:
         print(str(error), file=sys.stderr)
         return 1
