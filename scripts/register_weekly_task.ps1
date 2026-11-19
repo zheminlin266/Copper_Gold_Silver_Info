@@ -43,9 +43,15 @@ foreach ($required in @($python, $wrapper, $powershell, (Join-Path $root 'Weekly
 $identity = [System.Security.Principal.WindowsIdentity]::GetCurrent()
 $daily = Get-ScheduledTask -TaskName $dailyName -TaskPath '\'
 $dailySid = [System.Security.Principal.NTAccount]::new($daily.Principal.UserId).Translate([System.Security.Principal.SecurityIdentifier]).Value
+$dailyRuntime = Join-Path $dailyRoot '.runtime'
+$dailyCheckout = (Resolve-Path -LiteralPath (Join-Path $dailyRuntime 'codex-daily-checkout')).Path
+$dailyLauncher = (Resolve-Path -LiteralPath (Join-Path $dailyRuntime 'codex-daily-launch.ps1')).Path
+$launcherArgument = '(?:^|\s)-File\s+(?:"{0}"|{0})(?:\s|$)' -f ([regex]::Escape($dailyLauncher))
 if ($dailySid -ne $identity.User.Value -or $daily.Actions.Count -ne 1 -or
-    (Resolve-Path -LiteralPath $daily.Actions[0].WorkingDirectory).Path -ne $dailyRoot -or
-    $daily.Actions[0].Arguments -notlike '*run_scheduled_daily.py*' -or
+    $daily.Actions[0].Execute -ne $powershell -or
+    (Resolve-Path -LiteralPath $daily.Actions[0].WorkingDirectory).Path -ne $dailyCheckout -or
+    $daily.Actions[0].Arguments -notmatch $launcherArgument -or
+    -not (Select-String -LiteralPath $dailyLauncher -Pattern 'run_scheduled_daily\.py' -Quiet) -or
     [string]$daily.State -notin @('Ready', 'Disabled')) {
     throw 'The daily task must belong to this project and must have finished running before cutover.'
 }
@@ -77,7 +83,8 @@ if ($PSCmdlet.ShouldProcess("$dailyName to $weeklyName", 'Switch to weekly Monda
     $dailyWasEnabled = [string]$daily.State -ne 'Disabled'
     try {
         if ($dailyWasEnabled) { Disable-ScheduledTask -TaskName $dailyName -TaskPath '\' | Out-Null }
-        $weekly = Enable-ScheduledTask -TaskName $weeklyName -TaskPath '\'
+        Enable-ScheduledTask -TaskName $weeklyName -TaskPath '\' | Out-Null
+        $weekly = Get-ScheduledTask -TaskName $weeklyName -TaskPath '\'
         $next = (Get-ScheduledTaskInfo -TaskName $weeklyName -TaskPath '\').NextRunTime
         if ([string](Get-ScheduledTask -TaskName $dailyName -TaskPath '\').State -ne 'Disabled' -or
             [string]$weekly.State -ne 'Ready' -or $next -ne $nextMonday) {
