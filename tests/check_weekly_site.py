@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 from urllib.parse import urlsplit
 
-from playwright.sync_api import expect, sync_playwright
+from playwright.sync_api import Error as PlaywrightError, expect, sync_playwright
 
 
 def check_tc_navigation(page):
@@ -48,6 +48,7 @@ def main():
     parser.add_argument("--base-url", required=True)
     parser.add_argument("--executable-path", required=True)
     parser.add_argument("--week-start", default="2026-11-09")
+    parser.add_argument("--direct", action="store_true", help="Use Chromium's direct connection")
     args = parser.parse_args()
     base = urlsplit(args.base_url)
     local = base.scheme == "http" and base.hostname == "127.0.0.1"
@@ -57,6 +58,7 @@ def main():
             or base.query or base.fragment):
         parser.error("Expected the local, Preview, or production origin")
     origin = f"{base.scheme}://{base.netloc}"
+    chromium_args = ["--no-proxy-server"] if args.direct else []
     oidc = os.environ.get("VERCEL_OIDC_TOKEN", "") if preview else ""
     root = Path(__file__).resolve().parents[1]
     report = json.loads((root / f"data/weekly/{args.week_start}.json").read_text(encoding="utf-8"))
@@ -72,16 +74,33 @@ def main():
     errors = []
     exceptions = set()
 
-    def route_request(route):
-        target = urlsplit(route.request.url)
-        if preview and (target.hostname == "vercel.live" or target.hostname == "feedback.vercel.com"):
-            exceptions.add("Preview feedback toolbar")
-            route.abort()
-        elif oidc and (target.scheme, target.netloc) == (base.scheme, base.netloc):
-            headers = {**route.request.headers, "x-vercel-trusted-oidc-idp-token": oidc}
-            route.fulfill(response=route.fetch(headers=headers, max_redirects=0))
-        else:
-            route.continue_()
+    def protect_preview(context, page):
+        cdp = context.new_cdp_session(page)
+
+        def handle(event):
+            request = event["request"]
+            target = urlsplit(request["url"])
+            request_id = event["requestId"]
+            if target.hostname in {"vercel.live", "feedback.vercel.com"}:
+                exceptions.add("Preview feedback toolbar")
+                cdp.send("Fetch.failRequest", {"requestId": request_id, "errorReason": "BlockedByClient"})
+                return
+            params = {"requestId": request_id}
+            if oidc and (target.scheme, target.netloc) == (base.scheme, base.netloc):
+                # Chrome limits this header override to the current request, including across redirects.
+                headers = {**request["headers"], "x-vercel-trusted-oidc-idp-token": oidc}
+                params["headers"] = [{"name": name, "value": value} for name, value in headers.items()]
+            try:
+                cdp.send("Fetch.continueRequest", params)
+            except PlaywrightError:
+                errors.append(f"Protected Preview connection failed at {target.path}")
+
+        cdp.on("Fetch.requestPaused", handle)
+        cdp.send("Fetch.enable", {"patterns": [
+            {"urlPattern": origin + "/*"},
+            {"urlPattern": "https://vercel.live/*"},
+            {"urlPattern": "https://feedback.vercel.com/*"},
+        ]})
 
     def response_failed(response):
         if response.status >= 400 and response.url.startswith(origin + "/"):
@@ -91,13 +110,15 @@ def main():
                 errors.append(f"HTTP {response.status} for {urlsplit(response.url).path}")
 
     with sync_playwright() as playwright:
-        browser = playwright.chromium.launch(headless=True, executable_path=args.executable_path)
+        browser = playwright.chromium.launch(
+            headless=True, executable_path=args.executable_path, args=chromium_args,
+        )
         try:
             for width in (1440, 800, 390):
                 context = browser.new_context(viewport={"width": width, "height": 960})
-                if preview:
-                    context.route("**/*", route_request)
                 page = context.new_page()
+                if preview:
+                    protect_preview(context, page)
 
                 def console(message):
                     if message.type != "error":

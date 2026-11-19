@@ -12,6 +12,7 @@ from pathlib import Path
 import re
 import sys
 from time import monotonic, sleep
+from urllib.parse import urlsplit
 
 if __package__ in {None, ""}:
     sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -96,6 +97,12 @@ def verify_publication(report: dict, log, *, heartbeat, env, poll_timeout: float
     report_path = f"{WEEKLY_DATA.as_posix()}/{report['week_start']}.json"
     latest = max(path.stem for path in (ROOT / WEEKLY_DATA).glob("????-??-??.json"))
     legacy = max(path.stem for path in (ROOT / "data").glob("????-??-??.json"))
+    # The public custom domain is reachable directly on the Windows task host.
+    # Keep the configured proxy for GitHub and all research calls.
+    site_env = {key: value for key, value in env.items() if key.lower() != "no_proxy"}
+    site_env["NO_PROXY"] = ",".join(filter(None, (
+        env.get("no_proxy", env.get("NO_PROXY", "")), urlsplit(SITE).hostname,
+    )))
 
     def remaining() -> float:
         budget = deadline - monotonic()
@@ -126,7 +133,7 @@ def verify_publication(report: dict, log, *, heartbeat, env, poll_timeout: float
             verify_pages(
                 report, latest, legacy, local_tc,
                 lambda route: fetch_page(
-                    f"{SITE}{route}?weekly_check={sha}", log, timeout=remaining(), heartbeat=heartbeat, env=env,
+                    f"{SITE}{route}?weekly_check={sha}", log, timeout=remaining(), heartbeat=heartbeat, env=site_env,
                 ),
             )
             if api("commits/main")["sha"] != sha:
