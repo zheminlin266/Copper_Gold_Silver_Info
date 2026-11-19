@@ -4,6 +4,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import { getTcData } from "../lib/tc-data.ts";
+import { WEEKLY_GROUPS } from "../lib/weekly-reports.ts";
 import { GROK_REPORT_DATE, GROK_CHANNEL_ORDER, GROK_SELECTED_CHANNELS, validateResearchAudit } from "./research-audit.mjs";
 
 const DATE_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
@@ -543,11 +544,96 @@ export function loadReports(dataDir = path.join(process.cwd(), "data")) {
   return reports;
 }
 
+export function validateWeeklyReport(report, filename) {
+  const fail = (message) => { throw new Error(`${filename}: ${message}`); };
+  const requireFields = (value, fields, label) => {
+    if (!isObject(value) || Object.keys(value).length !== fields.length
+        || fields.some((field) => !Object.hasOwn(value, field))) fail(`invalid ${label} fields`);
+  };
+
+  requireFields(report, ["week_start", "week_end", "generated_at", "coverage", "copper_events",
+    "supply_analysis", "gold_briefs"], "weekly report");
+  validateDate(report.week_start, "week_start", filename);
+  validateDate(report.week_end, "week_end", filename);
+  validateDateTime(report.generated_at, "generated_at", filename);
+  const monday = new Date(`${report.week_start}T00:00:00Z`);
+  const sunday = new Date(monday);
+  sunday.setUTCDate(monday.getUTCDate() + 6);
+  if (monday.getUTCDay() !== 1 || report.week_end !== sunday.toISOString().slice(0, 10)
+      || filename !== `${report.week_start}.json`) fail("invalid Monday–Sunday reporting week or filename");
+  if (Date.parse(report.generated_at) < Date.parse(`${report.week_end}T00:00:00+08:00`) + 86_400_000) {
+    fail("generated_at falls before the end of the Beijing reporting week");
+  }
+  requireStringArray(report.coverage, "coverage", filename);
+  if (report.coverage.length === 0) fail("completed research requires a coverage record");
+
+  const ids = new Set();
+  const factFields = ["id", "date", "title", "fact", "sources"];
+  for (const kind of ["copper_events", "gold_briefs"]) {
+    requireArray(report[kind], kind, filename);
+    report[kind].forEach((item, index) => {
+      const label = `${kind}[${index}]`;
+      const copper = kind === "copper_events";
+      requireFields(item, copper ? [...factFields, "group"] : factFields, label);
+      if (typeof item.id !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id)
+          || ids.has(item.id)) fail(`invalid or duplicate ${label}.id`);
+      ids.add(item.id);
+      if (copper && !WEEKLY_GROUPS.some(({ id }) => id === item.group)) fail(`invalid ${label}.group`);
+      validateDate(item.date, `${label}.date`, filename);
+      if (item.date < report.week_start || item.date > report.week_end) fail(`${label}.date is outside the week`);
+      requireString(item.title, `${label}.title`, filename);
+      requireString(item.fact, `${label}.fact`, filename);
+      requireArray(item.sources, `${label}.sources`, filename);
+      if (item.sources.length === 0) fail(`${label} requires source links`);
+      const urls = new Set();
+      for (const source of item.sources) {
+        requireFields(source, ["name", "url"], `${label}.source`);
+        requireString(source.name, `${label}.source.name`, filename);
+        validateUrl(source.url, `${label}.source.url`, filename);
+        const url = new URL(source.url);
+        if (url.username || url.password || urls.has(url.href)) fail(`invalid or duplicate ${label}.source.url`);
+        urls.add(url.href);
+      }
+    });
+  }
+
+  requireArray(report.supply_analysis, "supply_analysis", filename);
+  const copperIds = new Set(report.copper_events.map(({ id }) => id));
+  if (Boolean(copperIds.size) !== Boolean(report.supply_analysis.length)) {
+    fail("supply_analysis is required for a week with copper events");
+  }
+  const analysisTitles = new Set();
+  for (const item of report.supply_analysis) {
+    requireFields(item, ["title", "text", "event_ids"], "supply_analysis item");
+    requireString(item.title, "supply_analysis.title", filename);
+    requireString(item.text, "supply_analysis.text", filename);
+    requireStringArray(item.event_ids, "supply_analysis.event_ids", filename);
+    if (analysisTitles.has(item.title) || item.event_ids.length === 0
+        || new Set(item.event_ids).size !== item.event_ids.length
+        || item.event_ids.some((id) => !copperIds.has(id))) fail("invalid or duplicate supply_analysis evidence");
+    analysisTitles.add(item.title);
+  }
+  rejectReplacementCharacters(report, "$", filename);
+  return report;
+}
+
 function main(args = process.argv.slice(2)) {
   if (args.length === 0) {
     const reports = loadReports();
+    const weeklyDir = path.join(process.cwd(), "data", "weekly");
+    const weeklies = fs.readdirSync(weeklyDir).filter((name) => DATE_FILE.test(name));
+    if (!weeklies.length) throw new Error("No weekly report JSON files found");
+    for (const filename of weeklies) {
+      validateWeeklyReport(JSON.parse(fs.readFileSync(path.join(weeklyDir, filename), "utf8")), filename);
+    }
     const tcRows = getTcData();
-    console.log(`Validated ${reports.length} daily reports (${reports[0].date} to ${reports.at(-1).date}); ${tcRows.length} TC rows.`);
+    console.log(`Validated ${reports.length} daily reports, ${weeklies.length} weekly reports and ${tcRows.length} TC rows.`);
+    return;
+  }
+  if (args.length === 2 && args[0] === "--weekly") {
+    const filename = path.basename(args[1]);
+    validateWeeklyReport(JSON.parse(fs.readFileSync(args[1], "utf8")), filename);
+    console.log(`Validated weekly report ${filename}.`);
     return;
   }
   let filename;
@@ -561,7 +647,7 @@ function main(args = process.argv.slice(2)) {
     if (!DATE_FILE.test(filename)) throw new Error("report file must be named YYYY-MM-DD.json");
     text = fs.readFileSync(args[0], "utf8");
   } else {
-    throw new Error("Usage: node scripts/validate-content.mjs [REPORT_FILE | --stdin YYYY-MM-DD.json]");
+    throw new Error("Usage: node scripts/validate-content.mjs [REPORT_FILE | --stdin YYYY-MM-DD.json | --weekly REPORT_FILE]");
   }
   let report;
   try {

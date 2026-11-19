@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { Analytics } from "@vercel/analytics/next";
 
 import { SiteHeader } from "@/components/site-header";
-import { SITE_URL } from "@/lib/site";
+import { SITE_TITLE, SITE_URL } from "@/lib/site";
 
 import "./globals.css";
 
@@ -16,10 +16,10 @@ const localSans = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "金银铜供需信息",
-    template: "%s · 金银铜供需信息",
+    default: SITE_TITLE,
+    template: `%s · ${SITE_TITLE}`,
   },
-  description: "黄金、白银与铜的矿业供需信号每日跟踪。",
+  description: "每周梳理铜矿行业重要事实、供给影响和黄金简讯。",
   alternates: {
     canonical: "/",
   },

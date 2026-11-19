@@ -3,6 +3,7 @@ import type { MetadataRoute } from "next";
 import { getReports } from "@/lib/reports";
 import { SITE_URL } from "@/lib/site";
 import { getTcData } from "@/lib/tc-data";
+import { getWeeklyReport, getWeeklyStarts, weeklyPath } from "@/lib/weekly-reports";
 
 function reportLastModified(date: string, reportTime: string): Date {
   const parsed = new Date(reportTime);
@@ -14,13 +15,18 @@ function reportLastModified(date: string, reportTime: string): Date {
 export default function sitemap(): MetadataRoute.Sitemap {
   const reports = getReports();
   const newestReport = reports[0];
+  const weeklies = getWeeklyStarts().flatMap((start) => {
+    const report = getWeeklyReport(start);
+    return report ? [report] : [];
+  });
+  const newestWeekly = weeklies[0];
   const newestTcPoint = getTcData().at(-1);
 
   return [
     {
       url: SITE_URL,
-      lastModified: newestReport
-        ? reportLastModified(newestReport.date, newestReport.report_time)
+      lastModified: newestWeekly
+        ? reportLastModified(newestWeekly.week_start, newestWeekly.generated_at)
         : new Date(),
     },
     {
@@ -38,6 +44,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...reports.map((report) => ({
       url: `${SITE_URL}/daily/${report.date}`,
       lastModified: reportLastModified(report.date, report.report_time),
+    })),
+    ...weeklies.map((report) => ({
+      url: `${SITE_URL}${weeklyPath(report.week_start)}`,
+      lastModified: reportLastModified(report.week_start, report.generated_at),
     })),
   ];
 }

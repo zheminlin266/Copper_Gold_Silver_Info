@@ -672,22 +672,13 @@ test("archive search index includes signal fact, interpretation, and importance"
   assert.match(searchIndex, /signal\.importance/);
 });
 
-test("home and daily pages group signals only by primary metal", () => {
-  for (const filename of ["app/page.tsx", "app/daily/[date]/page.tsx"]) {
-    const source = fs.readFileSync(path.join(process.cwd(), filename), "utf8");
-    assert.match(source, /signal\.primaryMetal === metal/, `${filename} must group by primary metal`);
-    assert.doesNotMatch(source, /signal\.metalTags\.includes\(metal\)/, `${filename} repeats multi-metal signals`);
-  }
-});
-
-test("metal modules use the copper, gold, silver display order", () => {
+test("archived daily reports still group signals once by primary metal", () => {
+  const daily = fs.readFileSync(path.join(process.cwd(), "app/daily/[date]/page.tsx"), "utf8");
+  assert.match(daily, /signal\.primaryMetal === metal/);
+  assert.doesNotMatch(daily, /signal\.metalTags\.includes\(metal\)/);
+  assert.match(daily, /METALS\.map\(/);
   const reports = fs.readFileSync(path.join(process.cwd(), "lib/reports.ts"), "utf8");
   assert.match(reports, /METALS: Metal\[\] = \["copper", "gold", "silver"\]/);
-
-  for (const filename of ["app/page.tsx", "app/daily/[date]/page.tsx"]) {
-    const source = fs.readFileSync(path.join(process.cwd(), filename), "utf8");
-    assert.match(source, /METALS\.map\(/, `${filename} must use the shared metal order`);
-  }
 });
 
 test("inventory navigation reveals a labeled new-tab link", () => {
