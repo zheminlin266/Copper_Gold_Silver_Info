@@ -23,6 +23,15 @@ POINT = {
 
 
 class ScheduledWeeklyTest(unittest.TestCase):
+    def test_state_write_retries_a_windows_file_sharing_conflict(self):
+        conflict = PermissionError("Status file in use")
+        conflict.winerror = 5
+        with patch.object(weekly, "atomic_write_json", side_effect=[conflict, None]) as write, \
+                patch.object(weekly, "sleep") as sleep:
+            weekly.write_state(Path("state.json"), {"status": "running"})
+        self.assertEqual(write.call_count, 2)
+        sleep.assert_called_once_with(0.25)
+
     def test_window_for_monday_start_catchup_and_year_boundary(self):
         for now, expected in [
             ("2026-11-15T23:59:59+00:00", "2026-11-02"),
