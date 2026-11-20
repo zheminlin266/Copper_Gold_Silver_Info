@@ -33,3 +33,12 @@ test("weekly synthesis can cite only unique copper event IDs", () => {
   report.gold_briefs[0].id = report.copper_events[0].id;
   assert.throws(() => validateWeeklyReport(report, filename), /duplicate/);
 });
+
+test("weekly copper events accept an ungrouped list and validate legacy group labels", () => {
+  const report = sample();
+  for (const event of report.copper_events) delete event.group;
+  assert.equal(validateWeeklyReport(report, filename), report);
+
+  report.copper_events[0].group = "unknown";
+  assert.throws(() => validateWeeklyReport(report, filename), /invalid copper_events\[0\]\.group/);
+});

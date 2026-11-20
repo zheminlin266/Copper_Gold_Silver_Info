@@ -1,12 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
 
-export const WEEKLY_GROUPS = [
-  { id: "operations", label: "在产矿山与发运" },
-  { id: "projects", label: "扩产、复产与新建项目" },
-  { id: "market", label: "资本与原料市场" },
-] as const;
-
 export type SourcedFact = {
   id: string;
   date: string;
@@ -20,7 +14,7 @@ export type WeeklyReport = {
   week_end: string;
   generated_at: string;
   coverage: string[];
-  copper_events: (SourcedFact & { group: (typeof WEEKLY_GROUPS)[number]["id"] })[];
+  copper_events: SourcedFact[];
   supply_analysis: { title: string; text: string; event_ids: string[] }[];
   gold_briefs: SourcedFact[];
 };
