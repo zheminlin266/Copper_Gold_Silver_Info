@@ -18,7 +18,7 @@ import {
   metalLabel,
   METALS,
 } from "@/lib/reports";
-import { SITE_URL } from "@/lib/site";
+import { SITE_TITLE, SITE_URL } from "@/lib/site";
 
 type DailyPageProps = { params: Promise<{ date: string }> };
 
@@ -63,12 +63,12 @@ export default async function DailyPage({ params }: DailyPageProps) {
     inLanguage: "zh-CN",
     author: {
       "@type": "Organization",
-      name: "金银铜供需信息",
+      name: SITE_TITLE,
       url: SITE_URL,
     },
     publisher: {
       "@type": "Organization",
-      name: "金银铜供需信息",
+      name: SITE_TITLE,
       url: SITE_URL,
     },
   };

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 import miningNewsLogo from "@/Sources/mining_news_logo.png";
+import { SITE_TITLE } from "@/lib/site";
 
 const INVENTORY_URL = "https://sc.macromicro.me/charts/40914/tong-ku-cun-jia-ge";
 const GOLD_SUPPLY_DEMAND_URL = "https://www.gold.org/goldhub/data/gold-demand-by-country";
@@ -98,7 +99,7 @@ export function SiteHeader() {
       onFocus={() => setIsHidden(false)}
     >
       <div className="site-header__inner">
-        <Link className="site-brand" href="/" aria-label="铜矿与黄金周报首页">
+        <Link className="site-brand" href="/" aria-label={`${SITE_TITLE}首页`}>
           <Image
             alt=""
             aria-hidden="true"
@@ -108,7 +109,7 @@ export function SiteHeader() {
             src={miningNewsLogo}
             width={32}
           />
-          <span>铜矿与黄金周报</span>
+          <span>{SITE_TITLE}</span>
         </Link>
         <nav aria-label="主导航" className="site-nav" ref={navRef}>
           <Link href="/">首页</Link>
