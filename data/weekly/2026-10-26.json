@@ -1,0 +1,262 @@
+{
+  "week_start": "2026-10-26",
+  "week_end": "2026-11-01",
+  "coverage": [
+    "回查 10 月 26 日至 11 月 1 日七期项目历史日报，并补查矿企公告、交易所披露、智利官方统计及中英文行业报道。可核实的时间戳换算为北京时间，日期型公告采用披露日。",
+    "铜产出采用发行人公告所列口径。诺镍数字取自公司可售金属生产表，含外贝加尔分部。蒙古口岸通行量采用美联社采访的运营方数据。",
+    "SMM 按本期起止日期查询单周评估。黄金进展回查西红湖金、Kinross 和 Agnico Eagle 原始公告。"
+  ],
+  "copper_events": [
+    {
+      "id": "anillo-exploration",
+      "date": "2026-10-26",
+      "title": "Codelco 与 BHP 公布 Anillo 勘探协议",
+      "fact": "Codelco 公布双方签署了智利安托法加斯塔地区 Anillo 协议，并完成相关法律授权程序。协议允许 BHP 投入最高 4,000 万美元用于勘探和评估项目开发潜力。",
+      "sources": [
+        {
+          "name": "Codelco 公告",
+          "url": "https://codelco.com/prensa/2026/codelco-y-bhp-firman-acuerdo-para-iniciar-exploracion-del-proyecto-anillo"
+        }
+      ]
+    },
+    {
+      "id": "nornickel-q3",
+      "date": "2026-10-26",
+      "title": "诺镍第三季度产铜约 10.87 万吨，环比增 4%",
+      "fact": "诺镍公司初步生产报告列示，集团第三季度可售铜产量 108,704 吨，前三季度合计 311,777 吨，同比降 0.5%，口径含外贝加尔分部。公司将季度增长归因于可售铜精矿产量增加及外贝加尔分部采矿量提升，并重申全年指引。",
+      "sources": [
+        {
+          "name": "诺镍原始生产公告",
+          "url": "https://nornik-upload.storage.yandexcloud.net/iblock/906/9061490e18f866495b02a564aaaabf82/nornickel_production_results_3q_2026_eng_fin_full.pdf"
+        }
+      ]
+    },
+    {
+      "id": "capstone-atacama-plan",
+      "date": "2026-10-27",
+      "title": "Capstone 公布智利约 30 亿美元投资计划",
+      "fact": "Capstone 在阿塔卡马披露投资计划，其中 Santo Domingo 约 23 亿美元、Mantoverde 两项增长工程合计约 2.2 亿美元。智利业务的目标是到 2031 年铜产量翻番。Capstone 本周季报仍将 Santo Domingo 最终投资决定列在 2027 年第一季度。",
+      "sources": [
+        {
+          "name": "Canadian Mining Journal 转引智利矿业部",
+          "url": "https://www.canadianminingjournal.com/news/capstone-to-invest-3b-in-chile-to-double-copper-production/"
+        },
+        {
+          "name": "Capstone 三季报",
+          "url": "https://capstonecopper.com/news/capstone-copper-reports-third-quarter-2026-results/"
+        }
+      ]
+    },
+    {
+      "id": "freeport-grasberg-q3",
+      "date": "2026-10-27",
+      "title": "Freeport 第三季度产铜 8.32 亿磅，Grasberg 继续恢复",
+      "fact": "Freeport 披露第三季度合并铜产量 8.32 亿磅。印尼业务选厂季度平均处理矿石 14.1 万吨/日，约为产能的 67%，其中 Grasberg Block Cave 地下矿供应约 7 万吨/日。印尼业务预计 2027 年中达到约 80% 产能，年底接近满产。",
+      "sources": [
+        {
+          "name": "Freeport 季报（利马证券交易所存档）",
+          "url": "https://documents.bvl.com.pe/hhii/CM0006/20261027143801/FCX261027323Q2026.PDF"
+        }
+      ]
+    },
+    {
+      "id": "antamina-safety-stop",
+      "date": "2026-10-28",
+      "title": "秘鲁 Antamina 暂停运营开展安全调查",
+      "fact": "Antamina 通报，Yanacancha 矿区当地 27 日发生致命事故，矿方随后预防性暂停运营，并与主管机关协调调查。截至本期来源披露，复产时间和产量影响待公布。",
+      "sources": [
+        {
+          "name": "Antamina 通报",
+          "url": "https://www.antamina.com/noticias/comunicado-27-octubre-2026/"
+        },
+        {
+          "name": "Reuters 报道",
+          "url": "https://www.miningweekly.com/article/perus-antamina-copper-mine-halts-operations-after-worker-death-2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "first-quantum-guidance",
+      "date": "2026-10-29",
+      "title": "第一量子三季度产铜增长，收窄全年指引",
+      "fact": "第一量子第三季度产铜 108,959 吨，环比增 8%，其中 Cobre Panamá 处理堆存矿石产铜 13,229 吨。因赞比亚 Sentinel 和 Kansanshi 品位低于预期，全年指引由 40.5 万–47.5 万吨收窄至 40.5 万–43.5 万吨。Cobre Panamá 堆存处理指引维持。",
+      "sources": [
+        {
+          "name": "第一量子季报",
+          "url": "https://www.first-quantum.com/news/first-quantum-minerals-reports-third-quarter-2026-results/"
+        }
+      ]
+    },
+    {
+      "id": "glencore-own-copper",
+      "date": "2026-10-29",
+      "title": "Glencore 前三季度自产铜增长，全年预计接近指引下限",
+      "fact": "Glencore 前三季度自产铜 598,600 吨，同比增 3%。非洲铜业务采矿量和品位提高，Antamina 铜品位上升，同时 Antapaccay 和 Collahuasi 产量下降。公司维持全年 81 万–87 万吨指引，并预计接近下限。",
+      "sources": [
+        {
+          "name": "Glencore 生产报告",
+          "url": "https://www.glencore.com/media-and-insights/news/third-quarter-2026-production-report"
+        }
+      ]
+    },
+    {
+      "id": "teck-qb-q3",
+      "date": "2026-10-29",
+      "title": "Teck 第三季度产铜 11.57 万吨，维持 Quebrada Blanca 指引",
+      "fact": "Teck 第三季度铜产量 115,700 吨，同比增 11%。智利 Quebrada Blanca 产铜 47,200 吨，其全年指引维持 20 万–23.5 万吨。公司同时披露，极端天气延长 Carmen de Andacollo 的停产时间。",
+      "sources": [
+        {
+          "name": "Teck 季报",
+          "url": "https://www.teck.com/news/news-releases/2026/teck-reports-unaudited-third-quarter-results-for-2026"
+        }
+      ]
+    },
+    {
+      "id": "boliden-aitik-grade",
+      "date": "2026-10-29",
+      "title": "Boliden 下调 Aitik 品位预期，上调处理量预期",
+      "fact": "Boliden 第三季度通报下调 Aitik 的 2026 年入选矿石品位指引，同时上调选厂矿石处理量指引。两项修订分别影响每吨矿石的铜含量和处理规模。",
+      "sources": [
+        {
+          "name": "Boliden 季度公告",
+          "url": "https://investors.boliden.com/sv/node/6068"
+        }
+      ]
+    },
+    {
+      "id": "capstone-pinto-mantoverde",
+      "date": "2026-10-29",
+      "title": "Capstone 三季度产铜 4.52 万吨，Pinto Valley 待完成检修",
+      "fact": "Capstone 披露第三季度合并含铜产量 45,218 吨，预计全年 20 万–23 万吨指引接近下限。美国 Pinto Valley 主破碎机试车发现额外检修需求，公司当时预计 11 月 2 日完工。智利 Mantoverde 硫化矿选厂扩建接驳已完成，稳定处理 4.5 万吨矿石/日预计从 2027 年初起实现。",
+      "sources": [
+        {
+          "name": "Capstone 三季报",
+          "url": "https://capstonecopper.com/news/capstone-copper-reports-third-quarter-2026-results/"
+        }
+      ]
+    },
+    {
+      "id": "oyu-border-haulage",
+      "date": "2026-10-29",
+      "title": "Oyu Tolgoi 对华发运车队降至日均约四批",
+      "fact": "Oyu Tolgoi 运营方告诉美联社，经甘其毛都口岸运往中国的铜精矿车队由通常每日 12–13 批降至约 4 批。蒙古边境部门将处理能力下降归于基础设施与通关设备升级维护。统计对应跨境车队通行。",
+      "sources": [
+        {
+          "name": "美联社运营方采访",
+          "url": "https://apnews.com/article/mongolia-china-border-crossing-minerals-copper-49518b3258a0265253483a4c3a98a28e"
+        }
+      ]
+    },
+    {
+      "id": "oyu-underground-restart",
+      "date": "2026-10-30",
+      "title": "Oyu Tolgoi 安全审查完成，地下作业逐步重启",
+      "fact": "力拓披露，29 日地震引发的局部落石集中在生产区附近的临时存储区，崩落矿体和作业基础设施的结构保持完整。30 日完成安全审查后，地下作业逐步恢复。",
+      "sources": [
+        {
+          "name": "力拓运营通报",
+          "url": "https://www.riotinto.com/en/news/releases/2026/update-on-oyu-tolgoi-seismic-event"
+        }
+      ]
+    },
+    {
+      "id": "chile-september-mining",
+      "date": "2026-10-30",
+      "title": "智利 9 月矿业生产指数同比降 8.7%，铜开采加工拖累",
+      "fact": "智利国家统计局公布，9 月矿业生产指数同比下降 8.7%，金属采矿活动同比下降 12%。铜开采和加工收缩是主要原因，统计局提到一家重要矿企临时停产及多个矿区品位下降。",
+      "sources": [
+        {
+          "name": "智利国家统计局 9 月公报",
+          "url": "https://www.ine.gob.cl/docs/default-source/indice-de-produccion-industrial/boletines/2026/bolet%C3%ADn-sectores-econ%C3%B3micos-%C3%ADndice-de-producci%C3%B3n-industrial-%28ipi%29-septiembre-2026.pdf"
+        }
+      ]
+    },
+    {
+      "id": "smm-tc-oct30",
+      "date": "2026-10-30",
+      "title": "SMM 进口铜精矿周度 TC 较上周降 6.25 美元/干吨",
+      "fact": "10 月 30 日 SMM 进口铜精矿周度加工费指数为 −247.68 美元/干吨，10 月 23 日的前值为 −241.43 美元/干吨，周度下降 6.25 美元/干吨。",
+      "sources": [
+        {
+          "name": "SMM 周度历史接口",
+          "url": "https://www-old.metal.com/api/spotcenter/get_mixen_history_prices?id=201910240001&beginDate=2026-10-26&endDate=2026-11-01"
+        }
+      ]
+    }
+  ],
+  "supply_analysis": [
+    {
+      "title": "在产矿山的停工与恢复影响近期交付",
+      "text": "Antamina 安全停产及 Pinto Valley 追加检修使近期产出恢复取决于事故调查与设备检修的进展。Grasberg 的实绩为选厂产能的约 67%，公司的年末接近满产目标落在 2027 年。Oyu Tolgoi 地下作业重启有助于恢复矿内生产，跨境车队仍取决于口岸处理能力。",
+      "event_ids": [
+        "antamina-safety-stop",
+        "capstone-pinto-mantoverde",
+        "freeport-grasberg-q3",
+        "oyu-underground-restart",
+        "oyu-border-haulage"
+      ]
+    },
+    {
+      "title": "季度产量改善与全年指引收紧同时出现",
+      "text": "Cobre Panamá 堆料处理已贡献实际吨数，Teck、Glencore 和诺镍都披露了部分业务的产量改善。第一量子下调全年区间上限，Glencore 仍预计接近指引下限，Aitik 同时调整品位和处理量。本周的正向实绩与矿石品位、天气带来的全年风险，需按各公司统计口径分别衡量。智利的 9 月官方统计也显示停产和品位对采选的拖累。",
+      "event_ids": [
+        "first-quantum-guidance",
+        "teck-qb-q3",
+        "glencore-own-copper",
+        "nornickel-q3",
+        "boliden-aitik-grade",
+        "chile-september-mining"
+      ]
+    },
+    {
+      "title": "精矿加工费下降，扩产增量仍需经过工程和批准",
+      "text": "SMM 周度 TC 进一步走低，同周也有蒙古跨境发运放缓的证据。Mantoverde 选厂接驳已经完成，增量取决于处理量稳定爬坡。Santo Domingo 的投资决定和 Anillo 的勘探结果属于更后阶段的供给条件。",
+      "event_ids": [
+        "smm-tc-oct30",
+        "oyu-border-haulage",
+        "capstone-pinto-mantoverde",
+        "capstone-atacama-plan",
+        "anillo-exploration"
+      ]
+    }
+  ],
+  "gold_briefs": [
+    {
+      "id": "madsen-gold-guidance",
+      "date": "2026-10-27",
+      "title": "Madsen 下调 2026 年产金指引",
+      "fact": "West Red Lake Gold 因劳动力制约和爬坡进度，将加拿大 Madsen 全年黄金产量指引由 3.5 万–4.5 万盎司调至 2.7 万–3.2 万盎司。",
+      "sources": [
+        {
+          "name": "West Red Lake Gold 公告",
+          "url": "https://westredlakegold.com/west-red-lake-gold-reports-q3-2026-production-and-continued-operational-momentum-at-the-madsen-mine/"
+        }
+      ]
+    },
+    {
+      "id": "kinross-redbird-first-gold",
+      "date": "2026-10-29",
+      "title": "Kinross 披露 Redbird 1 已产出首金",
+      "fact": "Kinross 三季报披露，美国 Bald Mountain 的 Redbird 1 于 10 月初浇注首金，Redbird 2 初始浸出堆建设接近完成。",
+      "sources": [
+        {
+          "name": "Kinross 季报",
+          "url": "https://www.kinross.com/English/news-and-investors/news-releases/press-release-details/2026/Kinross-reports-2026-third-quarter-results/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "agnico-gold-q3",
+      "date": "2026-10-29",
+      "title": "Agnico Eagle 预计全年黄金产量接近指引下限",
+      "fact": "Agnico Eagle 三季度可支付黄金产量 814,012 盎司。Canadian Malartic 的 Barnat 露天矿调整采矿计划后，公司预计 2026 年产量接近 330 万–350 万盎司指引下限。",
+      "sources": [
+        {
+          "name": "Agnico Eagle 季报公告",
+          "url": "https://www.newswire.ca/news-releases/agnico-eagle-reports-third-quarter-2026-results-strong-free-cash-flow-generation-driven-by-solid-operational-performance-on-track-to-achieve-2026-production-and-cost-guidance-875029368.html"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-20T11:29:02+08:00"
+}
