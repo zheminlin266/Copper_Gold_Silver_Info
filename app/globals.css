@@ -486,14 +486,72 @@ select {
   margin-bottom: 10px;
 }
 
+.weekly-report .page-intro,
+.weekly-report .section-heading,
+.weekly-report .metal-section__heading {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.weekly-report .article-nav {
+  padding-block: 0;
+  border-block: 0;
+}
+
+.weekly-report > .content-section {
+  margin-top: 32px;
+}
+
+.weekly-report > .content-section + .content-section {
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+
+.weekly-report .section-heading,
+.weekly-report .metal-section__heading {
+  margin-bottom: 12px;
+}
+
+.weekly-report h1,
+.weekly-report h2 {
+  font-weight: 700;
+}
+
+.weekly-report .metal-section {
+  margin-top: 28px;
+}
+
+.weekly-report .section-heading + .metal-section {
+  margin-top: 0;
+}
+
+.weekly-report .metal-section__heading h3 {
+  font-size: 17px;
+}
+
 .weekly-report .signal-card {
+  padding: 0;
+  border-bottom: 0;
   scroll-margin-top: 80px;
 }
 
-.weekly-report .signal-card h4 {
+.weekly-report .signal-card + .signal-card {
+  margin-top: 20px;
+}
+
+.weekly-report .signal-card :is(h3, h4) {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
+}
+
+.weekly-report :is(#copper-events, #gold-briefs) .signal-card :is(h3, h4) {
+  font-weight: 700;
+}
+
+.weekly-report .signal-block {
+  margin-top: 8px;
 }
 
 .weekly-sources {
