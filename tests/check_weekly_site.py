@@ -66,6 +66,10 @@ def main():
         tc = list(csv.DictReader(stream))[-1]
     weekly_path = f"/weekly/{report['week_start']}"
     daily_path = "/daily/2026-11-09"
+    copper_order = [
+        f"event-{item['id']}"
+        for item in sorted(report["copper_events"], key=lambda item: item["date"])
+    ]
     source_links = {
         source["url"]
         for item in (*report["copper_events"], *report["gold_briefs"])
@@ -148,7 +152,8 @@ def main():
                 def weekly_ok():
                     expect(page.locator(".weekly-report")).to_have_attribute("data-week-start", report["week_start"])
                     assert page.locator("main h2").all_text_contents() == ["铜矿重要事实", "综合供给影响", "黄金简讯"]
-                    expect(page.locator("#copper-events article")).to_have_count(len(report["copper_events"]))
+                    copper_cards = page.locator("#copper-events > article")
+                    assert copper_cards.evaluate_all("(cards) => cards.map(card => card.id)") == copper_order
                     expect(page.locator("#gold-briefs article")).to_have_count(len(report["gold_briefs"]))
                     assert source_links <= set(page.locator("main a[href]").evaluate_all("(links) => links.map(a => a.getAttribute('href'))"))
                     expect(page.get_by_role("heading", name="白银", exact=True)).to_have_count(0)

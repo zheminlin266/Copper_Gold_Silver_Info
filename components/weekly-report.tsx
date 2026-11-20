@@ -1,11 +1,11 @@
 import Link from "next/link";
 
-import { WEEKLY_GROUPS, weeklyPath, weeklyPeriod, type SourcedFact, type WeeklyReport } from "@/lib/weekly-reports";
+import { weeklyPath, weeklyPeriod, type SourcedFact, type WeeklyReport } from "@/lib/weekly-reports";
 
-function FactCard({ item, heading: Heading }: { item: SourcedFact; heading: "h3" | "h4" }) {
+function FactCard({ item }: { item: SourcedFact }) {
   return (
     <article className="signal-card" id={`event-${item.id}`}>
-      <Heading>{item.title}</Heading>
+      <h3>{item.title}</h3>
       <p className="signal-block">{item.fact}</p>
       <div className="weekly-sources">
         <time dateTime={item.date}>{item.date.slice(5).replace("-", " 月 ") + " 日"}</time>
@@ -18,7 +18,8 @@ function FactCard({ item, heading: Heading }: { item: SourcedFact; heading: "h3"
 }
 
 export function WeeklyReportView({ report, isHome = false }: { report: WeeklyReport; isHome?: boolean }) {
-  const eventTitles = new Map(report.copper_events.map(({ id, title }) => [id, title]));
+  const copperEvents = report.copper_events.toSorted((left, right) => left.date.localeCompare(right.date));
+  const eventTitles = new Map(copperEvents.map(({ id, title }) => [id, title]));
   return (
     <main className="site-main">
       <article className="article-copy weekly-report" data-week-start={report.week_start}>
@@ -36,16 +37,8 @@ export function WeeklyReportView({ report, isHome = false }: { report: WeeklyRep
 
         <section className="content-section" id="copper-events" aria-labelledby="copper-events-heading">
           <div className="section-heading"><h2 id="copper-events-heading">铜矿重要事实</h2></div>
-          {WEEKLY_GROUPS.map(({ id, label }) => {
-            const events = report.copper_events.filter((event) => event.group === id);
-            return events.length > 0 && (
-              <section className="metal-section" key={id} aria-labelledby={`weekly-group-${id}`}>
-                <div className="metal-section__heading"><h3 id={`weekly-group-${id}`}>{label}</h3></div>
-                {events.map((event) => <FactCard heading="h4" item={event} key={event.id} />)}
-              </section>
-            );
-          })}
-          {report.copper_events.length === 0 && <p className="empty-state">本周未发现符合收录标准的重要铜矿事件。</p>}
+          {copperEvents.map((event) => <FactCard item={event} key={event.id} />)}
+          {copperEvents.length === 0 && <p className="empty-state">本周未发现符合收录标准的重要铜矿事件。</p>}
         </section>
 
         <section className="content-section" id="supply-analysis" aria-labelledby="supply-analysis-heading">
@@ -66,7 +59,7 @@ export function WeeklyReportView({ report, isHome = false }: { report: WeeklyRep
 
         <section className="content-section" id="gold-briefs" aria-labelledby="gold-briefs-heading">
           <div className="section-heading"><h2 id="gold-briefs-heading">黄金简讯</h2></div>
-          {report.gold_briefs.map((item) => <FactCard heading="h3" item={item} key={item.id} />)}
+          {report.gold_briefs.map((item) => <FactCard item={item} key={item.id} />)}
           {report.gold_briefs.length === 0 && <p className="empty-state">本周未发现需要收录的黄金动态。</p>}
         </section>
       </article>

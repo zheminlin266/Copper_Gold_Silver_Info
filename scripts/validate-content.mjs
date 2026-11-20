@@ -4,7 +4,6 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import Ajv2020 from "ajv/dist/2020.js";
 import addFormats from "ajv-formats";
 import { getTcData } from "../lib/tc-data.ts";
-import { WEEKLY_GROUPS } from "../lib/weekly-reports.ts";
 import { GROK_REPORT_DATE, GROK_CHANNEL_ORDER, GROK_SELECTED_CHANNELS, validateResearchAudit } from "./research-audit.mjs";
 
 const DATE_FILE = /^\d{4}-\d{2}-\d{2}\.json$/;
@@ -569,16 +568,17 @@ export function validateWeeklyReport(report, filename) {
 
   const ids = new Set();
   const factFields = ["id", "date", "title", "fact", "sources"];
+  const legacyCopperGroups = ["operations", "projects", "market"];
   for (const kind of ["copper_events", "gold_briefs"]) {
     requireArray(report[kind], kind, filename);
     report[kind].forEach((item, index) => {
       const label = `${kind}[${index}]`;
-      const copper = kind === "copper_events";
-      requireFields(item, copper ? [...factFields, "group"] : factFields, label);
+      const hasLegacyGroup = kind === "copper_events" && isObject(item) && Object.hasOwn(item, "group");
+      requireFields(item, hasLegacyGroup ? [...factFields, "group"] : factFields, label);
       if (typeof item.id !== "string" || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id)
           || ids.has(item.id)) fail(`invalid or duplicate ${label}.id`);
       ids.add(item.id);
-      if (copper && !WEEKLY_GROUPS.some(({ id }) => id === item.group)) fail(`invalid ${label}.group`);
+      if (hasLegacyGroup && !legacyCopperGroups.includes(item.group)) fail(`invalid ${label}.group`);
       validateDate(item.date, `${label}.date`, filename);
       if (item.date < report.week_start || item.date > report.week_end) fail(`${label}.date is outside the week`);
       requireString(item.title, `${label}.title`, filename);
