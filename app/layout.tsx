@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: SITE_TITLE,
     template: `%s · ${SITE_TITLE}`,
   },
-  description: "每周梳理铜矿行业重要事实、供给影响和黄金简讯。",
+  description: "每周跟踪铜矿供给动态、产量影响与黄金行业要闻。",
   alternates: {
     canonical: "/",
   },
