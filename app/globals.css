@@ -525,12 +525,8 @@ select {
 .weekly-report .signal-card h3 {
   margin: 0;
   font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-}
-
-.weekly-report :is(#copper-events, #gold-briefs) .signal-card h3 {
   font-weight: 700;
+  line-height: 1.5;
 }
 
 .weekly-report .signal-block {
