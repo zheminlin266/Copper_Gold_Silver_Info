@@ -1,0 +1,272 @@
+{
+  "week_start": "2026-11-02",
+  "week_end": "2026-11-08",
+  "coverage": [
+    "回查 11 月 2–8 日七期项目历史日报，补核矿企公告、监管披露、拉美和非洲运营消息及中国原料周度数据。有时区的发布时间换算为北京时间，日期型公告采用披露日。",
+    "Ero、Ivanhoe、Freeport、Lundin、Trekor、Silvercorp 与力拓的产量和项目节点采用发行人公告。刚果（金）执法事实取自政府声明的报道，Andina 停产采用矿企通报及智利议会公开问询。",
+    "Pecoy 的签约和交割并为同一事件。SMM 精矿库存采用 11 港实物吨口径，TC 另核单周原始接口。黄金采用 Endeavour、Gold Fields 与 Pan American 的原始披露。"
+  ],
+  "copper_events": [
+    {
+      "id": "ero-brazil-q3",
+      "date": "2026-11-03",
+      "title": "Ero 巴西两处铜矿第三季度合计产铜 18,345 吨",
+      "fact": "Ero 披露 Caraíba 第三季度产出精矿含铜 9,387 吨，Tucumã 为 8,958 吨，合计 18,345 吨。两矿选厂处理量分别环比升 8% 和 14%，Tucumã 尾矿过滤扩建仍以年末完工为目标。",
+      "sources": [
+        {
+          "name": "Ero 季报公告",
+          "url": "https://www.nasdaq.com/press-release/ero-copper-reports-record-third-quarter-2026-results-2026-11-02"
+        }
+      ]
+    },
+    {
+      "id": "congo-mining-investigation",
+      "date": "2026-11-03",
+      "title": "刚果（金）查扣铜钴物料并启动矿业调查",
+      "fact": "政府声明经媒体披露，执法行动涉及卢阿拉巴和上加丹加两省，查扣数千吨铜钴物料及逾 500 辆卡车。司法部门下令调查涉嫌未经许可的开采与走私。被扣物料的铜、钴各自吨数和后续流向待披露。",
+      "sources": [
+        {
+          "name": "SMM 报道",
+          "url": "https://news.metal.com/newscontent/HLSHMOWJOSS5LSXHCMR4SYE5J4DYVU67ZLO6HYQ-drc-orders-mining-fraud-probe-after-seizure-of-trucks-and-copper-cobalt-materials"
+        },
+        {
+          "name": "Reuters 转引政府声明",
+          "url": "https://new.streetinsider.com/Reuters/Congo%2Bopens%2Bmining%2Bfraud%2Binquiry%2Bafter%2Bcopper%2Band%2Bcobalt%2Bseizures%2C%2Bstatement%2Bshows/27279837.html"
+        }
+      ]
+    },
+    {
+      "id": "acg-nussir-acquisition",
+      "date": "2026-11-03",
+      "title": "ACG 签约收购含 Nussir 铜矿的挪威资产",
+      "fact": "ACG 同意以约 2.2 亿美元的全股票交易收购 Blue Moon Norway。所涉 Nussir 铜矿已获许可并在建，买方计划 2028 年上半年产出首批精矿。并购仍待股东批准与其他约定交割条件。",
+      "sources": [
+        {
+          "name": "Blue Moon 交易公告",
+          "url": "https://www.prnewswire.com/news-releases/blue-moon-announces-sale-of-blue-moon-norway-to-acg-metals-limited-302927302.html"
+        },
+        {
+          "name": "ACG 交易材料",
+          "url": "https://acgmetals.com/wp-content/uploads/2026/11/acg-acquisition-of-blue-moon-norway.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ivanhoe-kamoa-2027",
+      "date": "2026-11-04",
+      "title": "Ivanhoe 下调 Kamoa-Kakula 2027 年产铜指引",
+      "fact": "Ivanhoe 将刚果（金）Kamoa-Kakula 的 2027 年产铜指引调至 30 万–35 万吨，预计 Kakula 东侧相关开采推迟至 2028 年第一季度末。公司预计 2026 年可售产品含铜约 29 万吨，并将现有一至三期选厂稳定运营目标修订为年产铜 40 万–45 万吨。",
+      "sources": [
+        {
+          "name": "Ivanhoe 三季报",
+          "url": "https://www.ivanhoemines.com/news-stories/news-release/ivanhoe-mines-issues-2026-third-quarter-financial-results-overview-of-operations-and-exploration-activities/"
+        }
+      ]
+    },
+    {
+      "id": "freeport-bagdad-expansion",
+      "date": "2026-11-04",
+      "title": "Freeport 推进 45 亿美元 Bagdad 扩建",
+      "fact": "Freeport 宣布推进美国亚利桑那州 Bagdad 扩建，预计投资 45 亿美元，新选厂设计日处理矿石约 11.5 万吨。公司计划 2030 年年中首产，长期年产铜目标超过 4 亿磅，较扩建前增加约 2.25 亿磅。",
+      "sources": [
+        {
+          "name": "Freeport 项目公告",
+          "url": "https://investors.fcx.com/investors/news-releases/news-release-details/2026/Freeport-Announces-Plans-to-Boost-U-S--Copper--Molybdenum-Production/default.aspx"
+        }
+      ]
+    },
+    {
+      "id": "el-domo-construction-delay",
+      "date": "2026-11-04",
+      "title": "厄瓜多尔 El Domo 预算上调，投产预计延后四个月",
+      "fact": "Silvercorp 将 El Domo 铜金项目建设预算由 2.836 亿美元调至 2.982 亿美元。公司称持续强降雨拖慢工程，预计完工延后四个月，现以 2027 年 11 月 1 日投产为目标。",
+      "sources": [
+        {
+          "name": "Silvercorp 公告（SEC 存档）",
+          "url": "https://www.sec.gov/Archives/edgar/data/1340677/000127956926001024/ex991.htm"
+        }
+      ]
+    },
+    {
+      "id": "lundin-caserones-guidance",
+      "date": "2026-11-05",
+      "title": "Lundin 再下调 Caserones 全年铜产量指引",
+      "fact": "智利 Caserones 露天采矿继续受严冬天气和厄尔尼诺扰动，Lundin 将其 2026 年产铜指引从 12 万–13 万吨调至 10.5 万–11.5 万吨，集团全年指引调至 28.5 万–31 万吨。公司预计 Caserones 的运营表现将于 2027 年恢复。",
+      "sources": [
+        {
+          "name": "Lundin Mining 季报",
+          "url": "https://www.lundinmining.com/news/lundin-mining-reports-third-quarter-2026-results-delivering-strong-financial-performance-amidst-record-copper-prices"
+        }
+      ]
+    },
+    {
+      "id": "chapada-ball-mill",
+      "date": "2026-11-05",
+      "title": "巴西 Chapada 新增球磨机工程完成约 15%",
+      "fact": "Lundin 三季报披露，Chapada 新增球磨机已开始土方和混凝土施工，工程约完成 15%，计划 2027 年底调试。该矿第三季度铜产量为 2026 年以来季度最高。",
+      "sources": [
+        {
+          "name": "Lundin Mining 季报",
+          "url": "https://www.lundinmining.com/news/lundin-mining-reports-third-quarter-2026-results-delivering-strong-financial-performance-amidst-record-copper-prices"
+        }
+      ]
+    },
+    {
+      "id": "trekor-gibraltar-florence",
+      "date": "2026-11-05",
+      "title": "Trekor 上调 Gibraltar 年度指引，Florence 继续爬坡",
+      "fact": "加拿大 Gibraltar 第三季度产铜 3,400 万磅，环比增 12%，Trekor 把全年指引由 1.10 亿–1.15 亿磅上调至 1.15 亿–1.20 亿磅。美国 Florence 的阴极铜同期由 520 万磅增至 700 万磅。",
+      "sources": [
+        {
+          "name": "Trekor 季报（SEC 存档）",
+          "url": "https://www.sec.gov/Archives/edgar/data/878518/000117184326007126/exh_991.htm"
+        }
+      ]
+    },
+    {
+      "id": "resolution-development-funding",
+      "date": "2026-11-05",
+      "title": "Resolution Copper 获批 1.44 亿美元推进可研与工程",
+      "fact": "力拓披露，亚利桑那州 Resolution Copper 合资项目获批投入 1.44 亿美元，其中力拓份额 7,900 万美元。款项用于可行性研究、井筒物料输送和水处理设施设计、钻探及长周期设备，为下一阶段投资决定做准备。",
+      "sources": [
+        {
+          "name": "力拓项目公告",
+          "url": "https://www.riotinto.com/en/news/releases/2026/rio-tinto-approves-144-million-investment-to-advance-resolution-copper-project"
+        }
+      ]
+    },
+    {
+      "id": "pecoy-financing-closed",
+      "date": "2026-11-05",
+      "title": "Hudbay 参与的 Pecoy 铜金项目融资完成交割",
+      "fact": "Pecoy Copper 公布完成 2 日宣布的私募，配售总额约 4,980 万加元。Hudbay 和另一战略投资人交割后各持约 9.99%，资金用于秘鲁 Pecoy 项目的钻探、资源区验证和扩展、地质及冶金研究。",
+      "sources": [
+        {
+          "name": "Pecoy 融资交割公告",
+          "url": "https://www.pecoycopper.com/news/news-releases/pecoy-copper-announces-closing-of-strategic-financing"
+        }
+      ]
+    },
+    {
+      "id": "andina-tailings-stop",
+      "date": "2026-11-05",
+      "title": "Codelco Andina 尾矿外泄后暂停选矿",
+      "fact": "Codelco 的 Andina 分部通报尾矿输送系统堵塞并发生外泄，随后停止选矿厂和尾矿输送，将水预防性引至 Piuquenitos 水库并监测 Blanco 河。智利议会就事件提出问询，停产影响吨数与恢复时间待披露。",
+      "sources": [
+        {
+          "name": "Emol 转引 Codelco 通报",
+          "url": "https://www.emol.com/noticias/Nacional/2026/11/05/1216211/codelco-derrame-relaves-rio-blanco.html"
+        },
+        {
+          "name": "智利议会问询",
+          "url": "https://www.camara.cl/fiscalizacion/oficios_fiscalizacion/detalle_oficio.aspx?prmIdOficio=342386"
+        }
+      ]
+    },
+    {
+      "id": "smm-tc-nov06",
+      "date": "2026-11-06",
+      "title": "SMM 统计 11 港精矿库存下降，周度 TC 小幅回升",
+      "fact": "11 月 6 日 SMM 的中国 11 港铜精矿库存为 64.27 万实物吨，较上期减少 4.64 万实物吨。同日进口铜精矿周度 TC 为 −247.35 美元/干吨，较 10 月 30 日升 0.33 美元/干吨。",
+      "sources": [
+        {
+          "name": "SMM 精矿周评",
+          "url": "https://news.metal.com/newscontent/104210124-market-transactions-warmed-up-significantly-wow-and-the-smm-imported-copper-concentrate-index-weekly-stabilized-at-a-low-level-smm-copper-concentrate-spot-weekly-review"
+        },
+        {
+          "name": "SMM 周度历史接口",
+          "url": "https://www-old.metal.com/api/spotcenter/get_mixen_history_prices?id=201910240001&beginDate=2026-11-02&endDate=2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "codelco-fontaine-production",
+      "date": "2026-11-08",
+      "title": "Codelco 董事长预计 2026、2027 年各产铜约 120 万吨",
+      "fact": "Codelco 董事长 Fontaine 在专访中预计 2026、2027 年产铜均约 120 万吨，未来四年力争接近年产 130 万吨，进度取决于 El Teniente 部分因安全原因暂停区域的恢复。同周，Codelco 股东会议支持继续核查 2024、2025 年产量记录异常。",
+      "sources": [
+        {
+          "name": "La Tercera 董事长专访",
+          "url": "https://copesa-la-tercera-staging.web.arc-cdn.net/pulso/noticia/fontaine-echa-abajo-las-proyecciones-de-produccion-de-codelco-en-estos-cuatro-anos-vamos-a-intentar-acercarnos-a-13-millon-de-toneladas/"
+        },
+        {
+          "name": "Codelco 股东会公告",
+          "url": "https://codelco.com/prensa/2026/junta-extraordinaria-de-accionistas-respalda-medidas-adoptadas"
+        }
+      ]
+    }
+  ],
+  "supply_analysis": [
+    {
+      "title": "年内供给受停产和天气影响，部分矿山实绩改善",
+      "text": "Andina 的选厂停运直接扰动精矿生产，恢复时间和影响量待公布。Caserones 的恶劣天气已导致年内指引下修，Codelco 董事长对明年的产量看法也取决于 El Teniente 恢复。在巴西和加拿大，Ero 两矿实际处理量增加，Gibraltar 提升全年指引。各矿的产出变化可分项观察。",
+      "event_ids": [
+        "andina-tailings-stop",
+        "lundin-caserones-guidance",
+        "codelco-fontaine-production",
+        "ero-brazil-q3",
+        "trekor-gibraltar-florence"
+      ]
+    },
+    {
+      "title": "新增产能的投产时间各有不同",
+      "text": "Kamoa-Kakula 东侧采场推迟使 2027 年公司指引下调，El Domo 的工期延后也影响 2027 年可供吨数。Chapada 的新增磨机计划 2027 年底调试，Nussir 的首批精矿目标在 2028 年上半年，Bagdad 的首产目标落在 2030 年中。Resolution 批准的是工程与可研投入，Pecoy 交割资金用于钻探和技术研究。",
+      "event_ids": [
+        "ivanhoe-kamoa-2027",
+        "el-domo-construction-delay",
+        "chapada-ball-mill",
+        "acg-nussir-acquisition",
+        "freeport-bagdad-expansion",
+        "resolution-development-funding",
+        "pecoy-financing-closed"
+      ]
+    },
+    {
+      "title": "精矿港口库存回落，周度加工费仍处负值",
+      "text": "11 港精矿库存减少 4.64 万实物吨，同一周 TC 只回升 0.33 美元/干吨，后续到港和拿货节奏是判断原料可得性的直接线索。刚果（金）执法动作涉及局部铜钴流转，货物分项吨数及处置将决定其对可供应原料的实际影响。",
+      "event_ids": [
+        "smm-tc-nov06",
+        "congo-mining-investigation"
+      ]
+    }
+  ],
+  "gold_briefs": [
+    {
+      "id": "mana-underground-suspension",
+      "date": "2026-11-02",
+      "title": "Endeavour 暂停 Mana 三个地下入口的开采",
+      "fact": "公司披露布基纳法索 Mana 金矿通道局部下沉，三个在用地下入口的采矿均暂停，以开展地质技术评估。集团维持 2026 年产量指引，正在评估重启 Wona 入口等补偿方案。",
+      "sources": [
+        {
+          "name": "Endeavour 运营通报",
+          "url": "https://www.endeavourmining.com/news-and-media/news/endeavour-reports-access-ramp-subsidence-mana-mine/"
+        }
+      ]
+    },
+    {
+      "id": "windfall-environmental-approval",
+      "date": "2026-11-02",
+      "title": "Gold Fields 公布 Windfall 获魁北克环境授权",
+      "fact": "魁北克于 10 月 30 日签发建设所需的主要环境许可，Gold Fields 于 11 月 2 日披露。公司计划在 2027 年 2 月前公布最终投资决定，项目达产后的年产金目标约 30 万盎司。",
+      "sources": [
+        {
+          "name": "Gold Fields 公告",
+          "url": "https://www.newswire.ca/news-releases/gold-fields-secures-quebec-environmental-approval-for-windfall-807144554.html"
+        }
+      ]
+    },
+    {
+      "id": "pan-american-gold-guidance",
+      "date": "2026-11-04",
+      "title": "Pan American 将全年黄金指引调至 66 万–68 万盎司",
+      "fact": "Pan American 下调 2026 年黄金产量指引，主要影响来自巴西 Jacobina。公司正在处理地震活动和巴西矿业监管机构检查指出的通风及次要疏散通道问题。",
+      "sources": [
+        {
+          "name": "Pan American 季报",
+          "url": "https://panamericansilver.com/news/pan-american-silver-reports-third-quarter-2026-financial-results/"
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-11-20T11:29:03+08:00"
+}
